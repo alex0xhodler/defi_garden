@@ -4,7 +4,7 @@ The highest honest PANDORA yield right now is 0.01% on uniswap-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f6635031-e5f8-4a99-9b46-4fd160859cf7&src=seo_token) | Ethereum | 0.01% | $602.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f6635031-e5f8-4a99-9b46-4fd160859cf7&src=seo_token) | Ethereum | 0.01% | $601.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PANDORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $602.9K in total.
+1 live pool clear this page's $100K TVL floor, $601.1K in total.
 
 ### Are these rates safe?
 

@@ -405,7 +405,9 @@
         e('p', { className: 'app-footer-hub-links' },
           e('a', { href: '/tokens' }, rootCopy.browseTokens),
           ' · ',
-          e('a', { href: '/chains' }, rootCopy.browseChains)
+          e('a', { href: '/chains' }, rootCopy.browseChains),
+          ' · ',
+          e('a', { href: '/agents' }, rootCopy.aiAgents || 'AI Agents & MCP')
         )
       )
     );

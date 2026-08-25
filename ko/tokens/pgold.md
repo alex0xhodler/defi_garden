@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $377.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $374.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.01%예�
 
 ### PGOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $377.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $374.9K예요.
 
 ### 이 수익률은 안전한가요?
 

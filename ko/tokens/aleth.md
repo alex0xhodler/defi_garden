@@ -1,38 +1,38 @@
 # ALETH 디파이 수익률
 
-현재 ALETH의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 6.37%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALETH의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 6.49%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.44% | $7.22M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4&src=seo_token) | Ethereum | 4.85% | $3.69M |
-| [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token) | Ethereum | 1.37% | $3.64M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.37% | $3.26M |
-| [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.72% | $2.34M |
-| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.58% | $2.14M |
-| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.31% | $1.27M |
-| [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.11% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.40% | $7.29M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4&src=seo_token) | Ethereum | 5.32% | $3.68M |
+| [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token) | Ethereum | 1.33% | $3.67M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.49% | $3.25M |
+| [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.66% | $2.36M |
+| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.49% | $2.16M |
+| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.23% | $1.28M |
+| [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.27% | $1.06M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.58%, TVL $2.14M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.72%, TVL $2.34M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.37%, TVL $3.64M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.31%, TVL $1.27M, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.37%, TVL $3.26M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 6.11%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.44%, TVL $7.22M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.49%, TVL $2.16M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.66%, TVL $2.36M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.33%, TVL $3.67M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.23%, TVL $1.28M, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.49%, TVL $3.25M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 6.27%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.40%, TVL $7.29M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.58% | $2.14M |
-| 2 | [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.72% | $2.34M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token) | Ethereum | 1.37% | $3.64M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.31% | $1.27M |
-| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.37% | $3.26M |
-| 6 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.11% | $1.06M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.44% | $7.22M |
+| 1 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.49% | $2.16M |
+| 2 | [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.66% | $2.36M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token) | Ethereum | 1.33% | $3.67M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.23% | $1.28M |
+| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.49% | $3.25M |
+| 6 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.27% | $1.06M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.40% | $7.29M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ALETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.37%부터 6.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ALETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.33%부터 6.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -42,14 +42,14 @@ ALETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.37%부터 6.37%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.44% | 1.34% | 인센티브 96.52% |
-| alchemix-v3 | 4.85% | 4.57% | 기본 금리 |
-| curve-dex | 1.37% | 1.28% | 인센티브 93.44% |
-| velodrome-v2 | 6.37% | 6.56% | 인센티브 100.00% |
-| stake-dao | 1.72% | 1.60% | 인센티브 97.67% |
-| stake-dao | 2.58% | 2.54% | 인센티브 98.84% |
-| convex-finance | 2.31% | 2.64% | 인센티브 96.10% |
-| yearn-finance | 6.11% | 6.25% | 기본 금리 |
+| curve-dex | 1.40% | 1.34% | 인센티브 96.43% |
+| alchemix-v3 | 5.32% | 4.57% | 기본 금리 |
+| curve-dex | 1.33% | 1.28% | 인센티브 93.99% |
+| velodrome-v2 | 6.49% | 6.56% | 인센티브 100.00% |
+| stake-dao | 1.66% | 1.60% | 인센티브 97.59% |
+| stake-dao | 2.49% | 2.54% | 인센티브 98.79% |
+| convex-finance | 2.23% | 2.64% | 인센티브 96.41% |
+| yearn-finance | 6.27% | 6.25% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ ALETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.37%부터 6.37%�
 
 ### 오늘 ALETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 6.37%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 6.49%예요.
 
 ### ALETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $27.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $27.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 6.37%
 
 ### ALETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.58%, TVL $2.14M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.72%, TVL $2.34M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.37%, TVL $3.64M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.31%, TVL $1.27M, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.37%, TVL $3.26M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 6.11%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.44%, TVL $7.22M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.49%, TVL $2.16M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.66%, TVL $2.36M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.33%, TVL $3.67M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.23%, TVL $1.28M, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.49%, TVL $3.25M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 6.27%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.40%, TVL $7.29M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -4,7 +4,7 @@ The highest honest IRA yield right now is 0.14% on uniswap-v2 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=668b9b43-33fb-45e8-88bf-4ca1049713a5&src=seo_token) | Base | 0.14% | $111.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=668b9b43-33fb-45e8-88bf-4ca1049713a5&src=seo_token) | Base | 0.14% | $111.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.2K in total.
+1 live pool clear this page's $100K TVL floor, $111.7K in total.
 
 ### Are these rates safe?
 

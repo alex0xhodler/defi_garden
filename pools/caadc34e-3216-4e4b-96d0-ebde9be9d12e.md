@@ -1,8 +1,8 @@
 # MHYETH — morpho-blue on Ethereum
 
-**Total APY:** 1.56% (1.56% Base · + 0.00% Rewards)
+**Total APY:** 1.55% (1.55% Base · + 0.00% Rewards)
 
-**TVL:** $3.23M
+**TVL:** $3.21M
 
 **Pool Type:** Lending
 

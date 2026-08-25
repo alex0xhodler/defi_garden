@@ -1,10 +1,10 @@
 # SWAP DeFi Yields
 
-The highest honest SWAP yield right now is 1.41% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWAP yield right now is 8.80% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=a3495e3b-0550-4ef7-949a-3c27cf066ae3&src=seo_token) | Hyperliquid L1 | 1.41% | $579.2K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=a3495e3b-0550-4ef7-949a-3c27cf066ae3&src=seo_token) | Hyperliquid L1 | 8.80% | $594.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWAP yield today?
 
-1.41% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+8.80% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SWAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $579.2K in total.
+1 live pool clear this page's $100K TVL floor, $594.6K in total.
 
 ### Are these rates safe?
 

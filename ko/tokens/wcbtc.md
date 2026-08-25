@@ -33,12 +33,12 @@ DefiLlama 실시간 데이터 기준, Citrea의 accountable에서 APY 0.46%예�
 
 ## 관련 토큰
 
-- [CTUSD](https://www.defi.garden/ko/tokens/ctusd)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

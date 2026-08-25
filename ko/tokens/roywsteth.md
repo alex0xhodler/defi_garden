@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=d0a8d8b6-813d-4225-bb62-f6f9d6899195&src=seo_token) | Ethereum | 2.60% | $288.8K |
+| [concrete →](https://www.defi.garden/?pool=d0a8d8b6-813d-4225-bb62-f6f9d6899195&src=seo_token) | Ethereum | 2.60% | $289.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 2.60%예요
 
 ### ROYWSTETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $288.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $289.2K예요.
 
 ### 이 수익률은 안전한가요?
 

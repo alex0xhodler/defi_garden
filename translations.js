@@ -188,6 +188,7 @@ projectionHeading: "The long game",
     footerSignOff: "Education, not advice.",
     browseTokens: "Browse tokens",
     browseChains: "Browse chains",
+    aiAgents: "AI Agents & MCP",
 
     // Page titles (for SEO)
     pageTitle: "DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains",
@@ -1084,6 +1085,7 @@ projectionHeading: "The long game",
     footerSignOff: "투자 조언이 아닙니다.",
     browseTokens: "토큰 둘러보기",
     browseChains: "체인 둘러보기",
+    aiAgents: "AI 에이전트 & MCP",
 
     // Page titles (for SEO)
     pageTitle: "DeFi Garden 🌱 | 모든 체인에서 최고 수익률 찾기",

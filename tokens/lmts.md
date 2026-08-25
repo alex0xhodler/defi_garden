@@ -1,10 +1,10 @@
 # LMTS DeFi Yields
 
-The highest honest LMTS yield right now is 81.57% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMTS yield right now is 80.12% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 81.57% | $610.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 80.12% | $607.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LMTS shows up in 1 pools here, with rates from 81.57% to 81.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LMTS shows up in 1 pools here, with rates from 80.12% to 80.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 100.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 99.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ LMTS shows up in 1 pools here, with rates from 81.57% to 81.57% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 81.57% | 100.16% | 100.00% incentives |
+| aerodrome-slipstream | 80.12% | 99.46% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LMTS yield today?
 
-81.57% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+80.12% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LMTS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $866.9K in total.
+2 live pools clear this page's $100K TVL floor, $855.8K in total.
 
 ### Are these rates safe?
 

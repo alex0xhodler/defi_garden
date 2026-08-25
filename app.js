@@ -3526,7 +3526,9 @@ function App() {
         React.createElement('p', { className: 'app-footer-hub-links' },
           React.createElement('a', { href: '/tokens' }, t('browseTokens')),
           ' · ',
-          React.createElement('a', { href: '/chains' }, t('browseChains'))
+          React.createElement('a', { href: '/chains' }, t('browseChains')),
+          ' · ',
+          React.createElement('a', { href: '/agents' }, t('aiAgents'))
         )
       )
     );
@@ -4407,7 +4409,9 @@ function App() {
       React.createElement('p', { className: 'app-footer-hub-links' },
         React.createElement('a', { href: '/tokens' }, t('browseTokens')),
         ' · ',
-        React.createElement('a', { href: '/chains' }, t('browseChains'))
+        React.createElement('a', { href: '/chains' }, t('browseChains')),
+        ' · ',
+        React.createElement('a', { href: '/agents' }, t('aiAgents'))
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues

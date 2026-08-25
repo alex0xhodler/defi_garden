@@ -31,18 +31,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ACRED shows up in 6 pools here, with rates from 7.56% to 7.56% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.99% | Base rate |
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.99% | Base rate |
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.99% | Base rate |
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.99% | Base rate |
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.99% | Base rate |
-| apollo-diversified-credit-securitize-fund | 7.56% | 3.98% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.03% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.03% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.03% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.03% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.03% | Base rate |
+| apollo-diversified-credit-securitize-fund | 7.56% | 4.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

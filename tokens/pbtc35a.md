@@ -4,7 +4,7 @@ The highest honest PBTC35A yield right now is 0.09% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b153bd74-7ccb-46c1-8066-63af19b502b6&src=seo_token) | Ethereum | 0.09% | $115.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b153bd74-7ccb-46c1-8066-63af19b502b6&src=seo_token) | Ethereum | 0.09% | $115.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PBTC35A pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.7K in total.
+1 live pool clear this page's $100K TVL floor, $115.6K in total.
 
 ### Are these rates safe?
 

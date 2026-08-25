@@ -116,14 +116,23 @@ export default {
     // only READS request.url; it cannot affect the pass-through fetch()
     // below in any way, so this check is safe to run unconditionally.
     const url = new URL(request.url);
-    // MCP endpoint: dispatch /mcp, /mcp/*, /api/mcp, and /api/mcp/* to the
-    // MCP JSON-RPC handler before general REST API and pass-through.
-    if (
-      url.pathname === '/mcp' ||
-      url.pathname.startsWith('/mcp/') ||
-      url.pathname === '/api/mcp' ||
-      url.pathname.startsWith('/api/mcp/')
-    ) {
+    // MCP endpoint: dispatch POST/OPTIONS /mcp and /api/mcp to the
+    // MCP JSON-RPC handler. Standard browser / crawler GET /mcp (HTML requests)
+    // pass through to Vercel origin to serve the visual mcp.html landing page.
+    const isMcpPath = url.pathname === '/mcp' || url.pathname.startsWith('/mcp/');
+    const isApiMcpPath = url.pathname === '/api/mcp' || url.pathname.startsWith('/api/mcp/');
+    const acceptHeader = request.headers.get('accept') || '';
+
+    if (isMcpPath) {
+      if (
+        request.method !== 'GET' ||
+        acceptHeader.includes('application/json') ||
+        acceptHeader.includes('text/event-stream')
+      ) {
+        return handleMcp(request, url, env, ctx);
+      }
+      // Standard browser / crawler GET /mcp (HTML requests) falls through to Vercel origin (mcp.html).
+    } else if (isApiMcpPath) {
       return handleMcp(request, url, env, ctx);
     }
 

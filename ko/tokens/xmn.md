@@ -1,10 +1,10 @@
 # XMN 디파이 수익률
 
-현재 XMN의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 0.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XMN의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 0.47%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.44% | $118.5K |
+| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.47% | $116K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 XMN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 0.44%예요.
+DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 0.47%예요.
 
 ### XMN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $118.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $116K예요.
 
 ### 이 수익률은 안전한가요?
 

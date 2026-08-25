@@ -1,10 +1,10 @@
 # MORPHORLUSD DeFi Yields
 
-The highest honest MORPHORLUSD yield right now is 5.18% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHORLUSD yield right now is 5.15% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 5.18% | $531.4K |
+| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 5.15% | $531.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MORPHORLUSD yield today?
 
-5.18% APY on affluent (TON), based on live DefiLlama data.
+5.15% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many MORPHORLUSD pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank MORPHORLUSD pools. This view 
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [WGRAM](https://www.defi.garden/tokens/wgram)
 - [UTYA](https://www.defi.garden/tokens/utya)
+- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 
 ## Available on
 

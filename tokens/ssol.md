@@ -4,7 +4,7 @@ The highest honest SSOL yield right now is 0.21% on orca-dex (Solana), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.21% | $212.9K |
+| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.21% | $212.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $643.3K in total.
+3 live pools clear this page's $100K TVL floor, $668.2K in total.
 
 ### Are these rates safe?
 

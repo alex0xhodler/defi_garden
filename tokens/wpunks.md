@@ -4,7 +4,7 @@ The highest honest WPUNKS yield right now is 2.82% on ajna-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ajna-v2 →](https://www.defi.garden/?pool=c1ae4341-4ef7-4f4f-baa7-49c518ee8300&src=seo_token) | Ethereum | 2.82% | $119.1K |
+| [ajna-v2 →](https://www.defi.garden/?pool=c1ae4341-4ef7-4f4f-baa7-49c518ee8300&src=seo_token) | Ethereum | 2.82% | $119.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPUNKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.1K in total.
+1 live pool clear this page's $100K TVL floor, $119.2K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest HACHI yield right now is 0.29% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=917eb8f2-cc81-41dc-965d-0fe54b7d131e&src=seo_token) | Ethereum | 0.29% | $128.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=917eb8f2-cc81-41dc-965d-0fe54b7d131e&src=seo_token) | Ethereum | 0.29% | $127.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HACHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.1K in total.
+1 live pool clear this page's $100K TVL floor, $127.5K in total.
 
 ### Are these rates safe?
 

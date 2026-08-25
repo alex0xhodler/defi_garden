@@ -4,7 +4,7 @@ The highest honest Boba yield right now is 0.02% on symbiosis (Boba), among 1 po
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [symbiosis →](https://www.defi.garden/?pool=89d182d1-e93e-413f-9fe9-36e22be9e755&src=seo_chain) | 0.02% | $116.7K |
+| USDC | [symbiosis →](https://www.defi.garden/?pool=89d182d1-e93e-413f-9fe9-36e22be9e755&src=seo_chain) | 0.02% | $116.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Boba pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.7K in total.
+1 live pool clear this page's $100K TVL floor, $116.8K in total.
 
 ### Are these rates safe?
 

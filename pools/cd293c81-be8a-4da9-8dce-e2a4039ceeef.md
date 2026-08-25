@@ -1,8 +1,8 @@
 # YMVDG-USDC — morpho-blue on Katana
 
-**Total APY:** 6.50% (3.44% Base · + 3.06% Rewards)
+**Total APY:** 6.49% (3.43% Base · + 3.06% Rewards)
 
-**TVL:** $818.6K
+**TVL:** $856.5K
 
 **Pool Type:** Lending
 

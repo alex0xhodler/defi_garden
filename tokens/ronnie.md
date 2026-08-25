@@ -1,10 +1,10 @@
 # RONNIE DeFi Yields
 
-The highest honest RONNIE yield right now is 7.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RONNIE yield right now is 6.66% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1d8a5512-9d96-464e-9db9-c67407c1009e&src=seo_token) | Solana | 7.67% | $102K |
+| [raydium-amm →](https://www.defi.garden/?pool=1d8a5512-9d96-464e-9db9-c67407c1009e&src=seo_token) | Solana | 6.66% | $100.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RONNIE yield today?
 
-7.67% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.66% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RONNIE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $100.9K in total.
 
 ### Are these rates safe?
 

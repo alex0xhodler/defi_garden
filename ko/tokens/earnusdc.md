@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
+- [EURC](https://www.defi.garden/ko/tokens/eurc)
 - [EARNXLM](https://www.defi.garden/ko/tokens/earnxlm)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 

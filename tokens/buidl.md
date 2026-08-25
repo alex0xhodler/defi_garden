@@ -42,11 +42,11 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | blackrock-buidl | 3.59% | 3.58% | Base rate |
-| blackrock-buidl | 3.56% | 3.54% | Base rate |
-| blackrock-buidl | 3.25% | 3.23% | Base rate |
 | blackrock-buidl | 3.56% | 3.55% | Base rate |
-| blackrock-buidl | 3.25% | 3.23% | Base rate |
-| blackrock-buidl | 3.25% | 3.23% | Base rate |
+| blackrock-buidl | 3.25% | 3.24% | Base rate |
+| blackrock-buidl | 3.56% | 3.55% | Base rate |
+| blackrock-buidl | 3.25% | 3.24% | Base rate |
+| blackrock-buidl | 3.25% | 3.24% | Base rate |
 | blackrock-buidl | 3.25% | 3.24% | Base rate |
 | blackrock-buidl | 3.25% | 3.24% | Base rate |
 

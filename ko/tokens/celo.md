@@ -1,10 +1,10 @@
 # CELO 디파이 수익률
 
-현재 CELO의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 8.05%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CELO의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 7.99%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 8.05% | $1.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.99% | $754.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CELO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 8.05%예요.
+DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 7.99%예요.
 
 ### CELO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.26M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $754.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,8 +33,8 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 8.05%예요.
 
 ## 관련 토큰
 
-- [STCELO](https://www.defi.garden/ko/tokens/stcelo)
 - [EURM](https://www.defi.garden/ko/tokens/eurm)
+- [STCELO](https://www.defi.garden/ko/tokens/stcelo)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)

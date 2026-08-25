@@ -1,31 +1,31 @@
 # WHETH DeFi Yields
 
-The highest honest WHETH yield right now is 36.00% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHETH yield right now is 37.81% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 102.55% | $5.11M |
-| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 36.00% | $241.5K |
-| [orca-dex →](https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token) | Solana | 16.79% | $201.5K |
+| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 112.52% | $5.01M |
+| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 37.81% | $241.9K |
+| [orca-dex →](https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token) | Solana | 18.62% | $203.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WHETH's lower-variability candidates are orca-dex (Solana), 102.55% APY, $5.11M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 16.79% APY, $201.5K TVL, https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token; orca-dex (Solana), 36.00% APY, $241.5K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WHETH's lower-variability candidates are orca-dex (Solana), 112.52% APY, $5.01M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 18.62% APY, $203.7K TVL, https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token; orca-dex (Solana), 37.81% APY, $241.9K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 102.55% | $5.11M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token) | Solana | 16.79% | $201.5K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 36.00% | $241.5K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 112.52% | $5.01M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token) | Solana | 18.62% | $203.7K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 37.81% | $241.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WHETH shows up in 3 pools here, with rates from 16.79% to 102.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WHETH shows up in 3 pools here, with rates from 18.62% to 112.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 31.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 32.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 102.55% | 31.17% | Base rate |
-| orca-dex | 36.00% | 45.43% | Base rate |
-| orca-dex | 16.79% | 14.31% | Base rate |
+| orca-dex | 112.52% | 32.00% | Base rate |
+| orca-dex | 37.81% | 45.59% | Base rate |
+| orca-dex | 18.62% | 14.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WHETH yield today?
 
-36.00% APY on orca-dex (Solana), based on live DefiLlama data.
+37.81% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many WHETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.56M in total.
+3 live pools clear this page's $100K TVL floor, $5.45M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WHETH pools have the most stable APY history?
 
-Based on APY history only, WHETH's lower-variability candidates are orca-dex (Solana), 102.55% APY, $5.11M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 16.79% APY, $201.5K TVL, https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token; orca-dex (Solana), 36.00% APY, $241.5K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WHETH's lower-variability candidates are orca-dex (Solana), 112.52% APY, $5.01M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 18.62% APY, $203.7K TVL, https://www.defi.garden/?pool=26536872-0af7-423c-9ff5-91c410d2d49c&src=seo_token; orca-dex (Solana), 37.81% APY, $241.9K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

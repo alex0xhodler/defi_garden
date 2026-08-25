@@ -1,12 +1,12 @@
 # MSUSD-USDC — aerodrome-slipstream on Base
 
-**Total APY:** 40.21% (0.00% Base · + 40.21% Rewards)
+**Total APY:** 30.34% (0.00% Base · + 30.34% Rewards)
 
-**TVL:** $1.16M
+**TVL:** $1.29M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 81.14%
+**30d Mean APY:** 81.67%
 
 **Exposure:** multi
 
@@ -22,13 +22,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$5,418 in 5y at current rates.
+$1,000 in this pool grows to ~$3,762 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 40.21% right now vs a 81.14% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 30.34% right now vs a 81.67% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$5,418 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$3,762 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 

@@ -3497,7 +3497,9 @@ function App() {
       href: '/tokens'
     }, t('browseTokens')), ' · ', React.createElement('a', {
       href: '/chains'
-    }, t('browseChains')))));
+    }, t('browseChains')), ' · ', React.createElement('a', {
+      href: '/agents'
+    }, t('aiAgents')))));
   }
   var renderMobileSpatialDrawer = () => {
     if (currentView === 'pool-detail') return [];
@@ -4378,7 +4380,9 @@ function App() {
     href: '/tokens'
   }, t('browseTokens')), ' · ', React.createElement('a', {
     href: '/chains'
-  }, t('browseChains'))),
+  }, t('browseChains')), ' · ', React.createElement('a', {
+    href: '/agents'
+  }, t('aiAgents'))),
   // Global dropdowns - rendered at top level to avoid any container overflow issues
   // Scrim behind any open filter dropdown — dims the results and closes on click.
   activeDropdown && React.createElement('div', {

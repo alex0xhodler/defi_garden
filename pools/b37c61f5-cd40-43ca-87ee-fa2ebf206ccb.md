@@ -1,8 +1,8 @@
 # CBBTC — moonwell-lending on Base
 
-**Total APY:** 0.12% (0.06% Base · + 0.07% Rewards)
+**Total APY:** 0.12% (0.06% Base · + 0.06% Rewards)
 
-**TVL:** $12.22M
+**TVL:** $12.21M
 
 **Pool Type:** Lending
 

@@ -4,7 +4,7 @@ The highest honest ENZOBTC yield right now is 0.01% on cetus-clmm (Sui), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.44M |
+| [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ENZOBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $133.03M in total.
+4 live pools clear this page's $100K TVL floor, $133.19M in total.
 
 ### Are these rates safe?
 

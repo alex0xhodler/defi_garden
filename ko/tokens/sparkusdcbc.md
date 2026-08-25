@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3e31d9a0-4d87-492e-8c2d-78471cd76cec&src=seo_token) | Ethereum | 4.15% | $3.42M |
+| [morpho-blue →](https://www.defi.garden/?pool=3e31d9a0-4d87-492e-8c2d-78471cd76cec&src=seo_token) | Ethereum | 4.15% | $2.79M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.15%예
 
 ### SPARKUSDCBC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.79M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest CAGA yield right now is 0.52% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4d8e552b-9306-4e5e-8c3b-b48aa21954c9&src=seo_token) | Ethereum | 0.52% | $816.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4d8e552b-9306-4e5e-8c3b-b48aa21954c9&src=seo_token) | Ethereum | 0.52% | $817.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CAGA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $816.8K in total.
+1 live pool clear this page's $100K TVL floor, $817.3K in total.
 
 ### Are these rates safe?
 

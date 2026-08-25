@@ -1,10 +1,10 @@
 # OMR DeFi Yields
 
-The highest honest OMR yield right now is 0.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OMR yield right now is 0.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ba87265b-6b1d-50e9-b116-9a1fc50e2abc&src=seo_token) | Solana | 0.05% | $260.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=ba87265b-6b1d-50e9-b116-9a1fc50e2abc&src=seo_token) | Solana | 0.04% | $260.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMR yield today?
 
-0.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.04% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many OMR pools clear the TVL floor?
 

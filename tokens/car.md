@@ -1,10 +1,10 @@
 # CAR DeFi Yields
 
-The highest honest CAR yield right now is 0.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAR yield right now is 1.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f2862af0-8985-4624-bc82-065c42613ffb&src=seo_token) | Solana | 0.92% | $324.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=f2862af0-8985-4624-bc82-065c42613ffb&src=seo_token) | Solana | 1.47% | $316.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAR yield today?
 
-0.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.47% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $324.4K in total.
+1 live pool clear this page's $100K TVL floor, $316.7K in total.
 
 ### Are these rates safe?
 

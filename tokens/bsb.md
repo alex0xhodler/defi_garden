@@ -1,10 +1,10 @@
 # BSB DeFi Yields
 
-The highest honest BSB yield right now is 0.42% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSB yield right now is 1.65% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 0.42% | $518.5K |
+| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 1.65% | $517.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BSB yield today?
 
-0.42% APY on fluxion-network (Mantle), based on live DefiLlama data.
+1.65% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many BSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $518.5K in total.
+1 live pool clear this page's $100K TVL floor, $517.7K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank BSB pools. This view covers A
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BILL](https://www.defi.garden/tokens/bill)
-- [ELSA](https://www.defi.garden/tokens/elsa)
+- [KII](https://www.defi.garden/tokens/kii)
 
 ## Available on
 

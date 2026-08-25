@@ -1,10 +1,10 @@
 # TPT DeFi Yields
 
-The highest honest TPT yield right now is 145.63% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TPT yield right now is 95.40% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e6b230e-79f7-5069-8203-5e21bdb8bfe8&src=seo_token) | Polygon | 145.63% | $121.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e6b230e-79f7-5069-8203-5e21bdb8bfe8&src=seo_token) | Polygon | 95.40% | $119.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TPT yield today?
 
-145.63% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+95.40% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many TPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.9K in total.
+1 live pool clear this page's $100K TVL floor, $119.3K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank TPT pools. This view covers A
 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # BERRY DeFi Yields
 
-The highest honest BERRY yield right now is 0.61% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BERRY yield right now is 0.66% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6beaf121-4a93-4182-bd4e-5a8dc7a86e18&src=seo_token) | Ethereum | 0.61% | $101.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6beaf121-4a93-4182-bd4e-5a8dc7a86e18&src=seo_token) | Ethereum | 0.66% | $100.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BERRY yield today?
 
-0.61% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.66% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BERRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.8K in total.
 
 ### Are these rates safe?
 

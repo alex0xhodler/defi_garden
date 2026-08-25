@@ -4,7 +4,7 @@ The highest honest TELLR yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5cb6fd44-5f2e-41b9-a844-46d31e75a0de&src=seo_token) | Base | 0.01% | $246.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5cb6fd44-5f2e-41b9-a844-46d31e75a0de&src=seo_token) | Base | 0.01% | $245.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TELLR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $246.3K in total.
+1 live pool clear this page's $100K TVL floor, $245.1K in total.
 
 ### Are these rates safe?
 
