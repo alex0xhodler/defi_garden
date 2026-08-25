@@ -4,7 +4,7 @@ The highest honest TKING yield right now is 0.01% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f1eb7730-3497-4449-a373-28abe9177d92&src=seo_token) | Ethereum | 0.01% | $124K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f1eb7730-3497-4449-a373-28abe9177d92&src=seo_token) | Ethereum | 0.01% | $124.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TKING pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124K in total.
+1 live pool clear this page's $100K TVL floor, $124.3K in total.
 
 ### Are these rates safe?
 

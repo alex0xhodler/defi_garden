@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 6.19% | $115.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 6.19% | $114.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -49,8 +49,8 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 6.19%예�
 
 ## 관련 토큰
 
-- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [ADA](https://www.defi.garden/ko/tokens/ada)
+- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [IUSD](https://www.defi.garden/ko/tokens/iusd)
 - [USDA](https://www.defi.garden/ko/tokens/usda)
 - [FET](https://www.defi.garden/ko/tokens/fet)

@@ -4,8 +4,8 @@ The highest honest MAPOLLO yield right now is 8.31% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 8.22% | $2.89M |
 | [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.31% | $2.89M |
+| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 8.22% | $2.89M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.22% | 7.99% | Base rate |
-| pendle | 8.31% | 8.66% | Base rate |
+| pendle | 8.31% | 8.65% | Base rate |
+| pendle | 8.22% | 8.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

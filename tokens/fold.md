@@ -1,11 +1,11 @@
 # FOLD DeFi Yields
 
-The highest honest FOLD yield right now is 538.16% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOLD yield right now is 548.84% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6887ef5f-3f5e-5739-b926-cc121caa6497&src=seo_token) | Ethereum | 282.61% | $1.75M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2101fd61-4519-5fce-95ff-4b857b98014a&src=seo_token) | Ethereum | 538.16% | $703.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6887ef5f-3f5e-5739-b926-cc121caa6497&src=seo_token) | Ethereum | 248.89% | $1.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2101fd61-4519-5fce-95ff-4b857b98014a&src=seo_token) | Ethereum | 548.84% | $678.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FOLD shows up in 2 pools here, with rates from 282.61% to 538.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FOLD shows up in 2 pools here, with rates from 248.89% to 548.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 145.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 147.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 282.61% | 145.66% | Base rate |
-| uniswap-v4 | 538.16% | — | Base rate |
+| uniswap-v4 | 248.89% | 147.43% | Base rate |
+| uniswap-v4 | 548.84% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FOLD yield today?
 
-538.16% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+548.84% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many FOLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.45M in total.
+2 live pools clear this page's $100K TVL floor, $2.43M in total.
 
 ### Are these rates safe?
 

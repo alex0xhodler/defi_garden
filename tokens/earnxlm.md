@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank EARNXLM pools. This view cove
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [XLM](https://www.defi.garden/tokens/xlm)
+- [EURC](https://www.defi.garden/tokens/eurc)
 - [EARNUSDC](https://www.defi.garden/tokens/earnusdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 

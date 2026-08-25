@@ -1,10 +1,10 @@
 # WYAC DeFi Yields
 
-The highest honest WYAC yield right now is 30.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WYAC yield right now is 26.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ebe8d933-ed4d-49e0-89ab-375901505ffa&src=seo_token) | Solana | 30.39% | $114.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=ebe8d933-ed4d-49e0-89ab-375901505ffa&src=seo_token) | Solana | 26.07% | $112.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WYAC yield today?
 
-30.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WYAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $112.1K in total.
 
 ### Are these rates safe?
 

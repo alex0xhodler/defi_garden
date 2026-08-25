@@ -1,6 +1,6 @@
 # STEAKEURCV — morpho-blue on Ethereum
 
-**Total APY:** 0.71% (0.71% Base · + 0.00% Rewards)
+**Total APY:** 0.70% (0.70% Base · + 0.00% Rewards)
 
 **TVL:** $1.83M
 

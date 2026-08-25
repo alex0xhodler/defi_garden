@@ -4,38 +4,38 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 202.45% | $1.39M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $1.03M |
-| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 26.66% | $653.5K |
-| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 21.19% | $552.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 42.39% | $229.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 214.85% | $1.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $1.08M |
+| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 26.26% | $668.2K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 20.80% | $565.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 42.33% | $237.2K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 105.71% | $203.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 40.18% | $192.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 91.58% | $186.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 37.49% | $198.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 92.36% | $191.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 0.05%, TVL $1.03M, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token; Polygon의 quickswap-dex, APY 21.19%, TVL $552.2K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 42.39%, TVL $229.4K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 26.66%, TVL $653.5K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 91.58%, TVL $186.3K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 40.18%, TVL $192.3K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 202.45%, TVL $1.39M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 0.05%, TVL $1.08M, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token; Polygon의 quickswap-dex, APY 20.80%, TVL $565.5K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 42.33%, TVL $237.2K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 26.26%, TVL $668.2K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 92.36%, TVL $191.3K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 37.49%, TVL $198.7K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 214.85%, TVL $1.38M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $1.03M |
-| 2 | [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 21.19% | $552.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $1.08M |
+| 2 | [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 20.80% | $565.5K |
 | 3 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 105.71% | $203.7K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 42.39% | $229.4K |
-| 5 | [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 26.66% | $653.5K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 91.58% | $186.3K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 40.18% | $192.3K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 202.45% | $1.39M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 42.33% | $237.2K |
+| 5 | [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 26.26% | $668.2K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 92.36% | $191.3K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 37.49% | $198.7K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 214.85% | $1.38M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WMATIC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.05%부터 202.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WMATIC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.05%부터 214.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -43,14 +43,14 @@ WMATIC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.05%부터 202.45
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 202.45% | 61.66% | 기본 금리 |
+| uniswap-v3 | 214.85% | 63.01% | 기본 금리 |
 | uniswap-v3 | 0.05% | 0.02% | 기본 금리 |
-| quickswap-dex | 26.66% | — | 기본 금리 |
-| quickswap-dex | 21.19% | — | 기본 금리 |
-| uniswap-v3 | 42.39% | 13.25% | 기본 금리 |
+| quickswap-dex | 26.26% | — | 기본 금리 |
+| quickswap-dex | 20.80% | — | 기본 금리 |
+| uniswap-v3 | 42.33% | 13.57% | 기본 금리 |
 | quickswap-dex | 105.71% | 5.79% | 기본 금리 |
-| uniswap-v3 | 40.18% | 13.62% | 기본 금리 |
-| uniswap-v3 | 91.58% | 27.23% | 기본 금리 |
+| uniswap-v3 | 37.49% | 13.91% | 기본 금리 |
+| uniswap-v3 | 92.36% | 27.92% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.05%예�
 
 ### WMATIC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $5.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $5.52M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,16 +70,16 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.05%예�
 
 ### WMATIC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 0.05%, TVL $1.03M, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token; Polygon의 quickswap-dex, APY 21.19%, TVL $552.2K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 42.39%, TVL $229.4K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 26.66%, TVL $653.5K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 91.58%, TVL $186.3K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 40.18%, TVL $192.3K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 202.45%, TVL $1.39M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 0.05%, TVL $1.08M, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token; Polygon의 quickswap-dex, APY 20.80%, TVL $565.5K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 42.33%, TVL $237.2K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 26.26%, TVL $668.2K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 92.36%, TVL $191.3K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 37.49%, TVL $198.7K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 214.85%, TVL $1.38M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
+- [BET](https://www.defi.garden/ko/tokens/bet)
 
 ## 이용 가능한 체인
 

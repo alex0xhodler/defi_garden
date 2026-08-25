@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.66% | $196.92M |
+| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.66% | $196.74M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 sanctum-infinity에서 APY 5.66%
 
 ### INF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $210.76M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $210.67M예요.
 
 ### 이 수익률은 안전한가요?
 

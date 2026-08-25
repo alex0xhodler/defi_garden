@@ -1,10 +1,10 @@
 # DONT DeFi Yields
 
-The highest honest DONT yield right now is 11.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DONT yield right now is 13.37% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f460d965-61c8-477d-a82d-643aa14d7a91&src=seo_token) | Solana | 11.68% | $182K |
+| [raydium-amm →](https://www.defi.garden/?pool=f460d965-61c8-477d-a82d-643aa14d7a91&src=seo_token) | Solana | 13.37% | $195K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DONT yield today?
 
-11.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+13.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DONT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182K in total.
+1 live pool clear this page's $100K TVL floor, $195K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # PINO DeFi Yields
 
-The highest honest PINO yield right now is 5.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PINO yield right now is 8.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=20a7de82-cb61-410c-a363-fd40b0c6ae50&src=seo_token) | Solana | 5.65% | $165.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=20a7de82-cb61-410c-a363-fd40b0c6ae50&src=seo_token) | Solana | 8.22% | $176.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PINO yield today?
 
-5.65% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PINO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.6K in total.
+1 live pool clear this page's $100K TVL floor, $176.3K in total.
 
 ### Are these rates safe?
 

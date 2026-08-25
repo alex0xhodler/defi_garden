@@ -1,10 +1,10 @@
 # FARTBOY DeFi Yields
 
-The highest honest FARTBOY yield right now is 16.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTBOY yield right now is 24.33% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 16.42% | $601.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 24.33% | $574.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTBOY yield today?
 
-16.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+24.33% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTBOY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $601.8K in total.
+1 live pool clear this page's $100K TVL floor, $574.1K in total.
 
 ### Are these rates safe?
 

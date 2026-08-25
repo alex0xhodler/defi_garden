@@ -4,7 +4,7 @@ The highest honest JEST yield right now is 2.74% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8b446aa7-12b8-487d-8fee-a3818a94adf8&src=seo_token) | Ethereum | 2.74% | $135.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8b446aa7-12b8-487d-8fee-a3818a94adf8&src=seo_token) | Ethereum | 2.74% | $135.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JEST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.6K in total.
+1 live pool clear this page's $100K TVL floor, $135.8K in total.
 
 ### Are these rates safe?
 

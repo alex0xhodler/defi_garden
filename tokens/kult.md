@@ -4,7 +4,7 @@ The highest honest KULT yield right now is 0.98% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496&src=seo_token) | Base | 0.98% | $191.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496&src=seo_token) | Base | 0.98% | $191.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KULT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $191.3K in total.
+1 live pool clear this page's $100K TVL floor, $191.6K in total.
 
 ### Are these rates safe?
 

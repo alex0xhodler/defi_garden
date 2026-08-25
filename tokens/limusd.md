@@ -1,36 +1,36 @@
 # LIMUSD DeFi Yields
 
-The highest honest LIMUSD yield right now is 11.84% on pendle (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIMUSD yield right now is 11.83% on pendle (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 11.84% | $1.62M |
-| [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.37% | $1.62M |
+| [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 11.83% | $1.62M |
+| [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.34% | $1.62M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LIMUSD's lower-variability candidates are pendle (Hyperliquid L1), 11.37% APY, $1.62M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle (Hyperliquid L1), 11.84% APY, $1.62M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIMUSD's lower-variability candidates are pendle (Hyperliquid L1), 11.34% APY, $1.62M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle (Hyperliquid L1), 11.83% APY, $1.62M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.37% | $1.62M |
-| 2 | [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 11.84% | $1.62M |
+| 1 | [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.34% | $1.62M |
+| 2 | [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 11.83% | $1.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LIMUSD shows up in 2 pools here, with rates from 11.37% to 11.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LIMUSD shows up in 2 pools here, with rates from 11.34% to 11.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 11.84% | 8.93% | Base rate |
-| pendle | 11.37% | 9.48% | Base rate |
+| pendle | 11.83% | 8.97% | Base rate |
+| pendle | 11.34% | 9.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LIMUSD yield today?
 
-11.84% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
+11.83% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many LIMUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $13M in total.
+4 live pools clear this page's $100K TVL floor, $13.01M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LIMUSD pools have the most stable APY history?
 
-Based on APY history only, LIMUSD's lower-variability candidates are pendle (Hyperliquid L1), 11.37% APY, $1.62M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle (Hyperliquid L1), 11.84% APY, $1.62M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIMUSD's lower-variability candidates are pendle (Hyperliquid L1), 11.34% APY, $1.62M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle (Hyperliquid L1), 11.83% APY, $1.62M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

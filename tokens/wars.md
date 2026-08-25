@@ -1,30 +1,30 @@
 # WARS DeFi Yields
 
-The highest honest WARS yield right now is 25.71% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WARS yield right now is 23.78% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 25.71% | $5.13M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 3.34% | $479.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.80% | $274.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 23.78% | $5.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 3.96% | $479.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.81% | $273.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 3.34% APY, $479.9K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.80% APY, $274.1K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 3.96% APY, $479.3K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.81% APY, $273.8K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 3.34% | $479.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.80% | $274.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 3.96% | $479.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.81% | $273.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WARS shows up in 3 pools here, with rates from 0.80% to 25.71% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WARS shows up in 3 pools here, with rates from 0.81% to 23.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -32,9 +32,9 @@ WARS shows up in 3 pools here, with rates from 0.80% to 25.71% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 25.71% | 10.67% | 100.00% incentives |
-| uniswap-v4 | 3.34% | 0.73% | Base rate |
-| uniswap-v4 | 0.80% | 4.83% | Base rate |
+| morpho-blue | 23.78% | 10.81% | 100.00% incentives |
+| uniswap-v4 | 3.96% | 0.77% | Base rate |
+| uniswap-v4 | 0.81% | 4.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WARS yield today?
 
-25.71% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+23.78% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many WARS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.89M in total.
+3 live pools clear this page's $100K TVL floor, $5.88M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WARS pools have the most stable APY history?
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 3.34% APY, $479.9K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.80% APY, $274.1K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 3.96% APY, $479.3K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.81% APY, $273.8K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

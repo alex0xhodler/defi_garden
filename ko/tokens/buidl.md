@@ -42,11 +42,11 @@ BUIDL 풀은 여기 8개가 있고, 7개 체인에서 APY가 3.25%부터 3.59%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | blackrock-buidl | 3.59% | 3.58% | 기본 금리 |
-| blackrock-buidl | 3.56% | 3.54% | 기본 금리 |
-| blackrock-buidl | 3.25% | 3.23% | 기본 금리 |
 | blackrock-buidl | 3.56% | 3.55% | 기본 금리 |
-| blackrock-buidl | 3.25% | 3.23% | 기본 금리 |
-| blackrock-buidl | 3.25% | 3.23% | 기본 금리 |
+| blackrock-buidl | 3.25% | 3.24% | 기본 금리 |
+| blackrock-buidl | 3.56% | 3.55% | 기본 금리 |
+| blackrock-buidl | 3.25% | 3.24% | 기본 금리 |
+| blackrock-buidl | 3.25% | 3.24% | 기본 금리 |
 | blackrock-buidl | 3.25% | 3.24% | 기본 금리 |
 | blackrock-buidl | 3.25% | 3.24% | 기본 금리 |
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.44M |
+| [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.53M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.01%예요.
 
 ### ENZOBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $133.03M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $134.1M예요.
 
 ### 이 수익률은 안전한가요?
 

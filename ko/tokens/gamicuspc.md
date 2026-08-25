@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.70% | $7.52M |
 | [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.57% | $7.52M |
+| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.70% | $7.52M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -29,8 +29,8 @@ GAMICUSPC 풀은 여기 2개가 있고, 1개 체인에서 APY가 2.57%부터 2.7
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
+| lagoon | 2.57% | 2.57% | 기본 금리 |
 | gami-labs | 2.70% | 2.43% | 기본 금리 |
-| lagoon | 2.57% | 2.56% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

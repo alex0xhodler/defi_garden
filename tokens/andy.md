@@ -1,29 +1,29 @@
 # ANDY DeFi Yields
 
-The highest honest ANDY yield right now is 0.60% on sushiswap (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANDY yield right now is 0.58% on sushiswap (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 12.49% | $1.47M |
-| [sushiswap →](https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token) | Base | 0.60% | $101.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 14.23% | $1.53M |
+| [sushiswap →](https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token) | Base | 0.58% | $102K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ANDY's lower-variability candidates are sushiswap (Base), 0.60% APY, $101.8K TVL, https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token; uniswap-v2 (Ethereum), 12.49% APY, $1.47M TVL, https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANDY's lower-variability candidates are sushiswap (Base), 0.58% APY, $102K TVL, https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token; uniswap-v2 (Ethereum), 14.23% APY, $1.53M TVL, https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap →](https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token) | Base | 0.60% | $101.8K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 12.49% | $1.47M |
+| 1 | [sushiswap →](https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token) | Base | 0.58% | $102K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 14.23% | $1.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ANDY shows up in 2 pools here, with rates from 0.60% to 12.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANDY shows up in 2 pools here, with rates from 0.58% to 14.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 12.49% | 5.28% | Base rate |
-| sushiswap | 0.60% | 0.82% | Base rate |
+| uniswap-v2 | 14.23% | 5.35% | Base rate |
+| sushiswap | 0.58% | 0.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANDY yield today?
 
-0.60% APY on sushiswap (Base), based on live DefiLlama data.
+0.58% APY on sushiswap (Base), based on live DefiLlama data.
 
 ### How many ANDY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.57M in total.
+2 live pools clear this page's $100K TVL floor, $1.63M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ANDY pools have the most stable APY history?
 
-Based on APY history only, ANDY's lower-variability candidates are sushiswap (Base), 0.60% APY, $101.8K TVL, https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token; uniswap-v2 (Ethereum), 12.49% APY, $1.47M TVL, https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANDY's lower-variability candidates are sushiswap (Base), 0.58% APY, $102K TVL, https://www.defi.garden/?pool=199ffa9d-907c-426c-83cb-180ea164ec26&src=seo_token; uniswap-v2 (Ethereum), 14.23% APY, $1.53M TVL, https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

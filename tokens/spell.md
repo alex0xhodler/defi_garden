@@ -1,29 +1,29 @@
 # SPELL DeFi Yields
 
-The highest honest SPELL yield right now is 14.56% on abracadabra-spell (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPELL yield right now is 14.43% on abracadabra-spell (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 20.26% | $188.7K |
-| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 14.56% | $150.1K |
+| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 20.80% | $187.6K |
+| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 14.43% | $149.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 14.56% APY, $150.1K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 20.26% APY, $188.7K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 14.43% APY, $149.2K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 20.80% APY, $187.6K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 14.56% | $150.1K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 20.26% | $188.7K |
+| 1 | [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 14.43% | $149.2K |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 20.80% | $187.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPELL shows up in 2 pools here, with rates from 14.56% to 20.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPELL shows up in 2 pools here, with rates from 14.43% to 20.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ SPELL shows up in 2 pools here, with rates from 14.56% to 20.26% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap | 20.26% | 2.87% | Base rate |
-| abracadabra-spell | 14.56% | 15.11% | 100.00% incentives |
+| sushiswap | 20.80% | 2.99% | Base rate |
+| abracadabra-spell | 14.43% | 15.11% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPELL yield today?
 
-14.56% APY on abracadabra-spell (Ethereum), based on live DefiLlama data.
+14.43% APY on abracadabra-spell (Ethereum), based on live DefiLlama data.
 
 ### How many SPELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $338.8K in total.
+2 live pools clear this page's $100K TVL floor, $336.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPELL pools have the most stable APY history?
 
-Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 14.56% APY, $150.1K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 20.26% APY, $188.7K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 14.43% APY, $149.2K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 20.80% APY, $187.6K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

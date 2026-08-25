@@ -32,8 +32,8 @@ CSUSDC shows up in 3 pools here, with rates from 2.97% to 14.15% APY across 3 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 6.11% | 6.92% | Base rate |
-| morpho-blue | 2.97% | 3.38% | Base rate |
-| balancer-v3 | 14.15% | 11.35% | 46.68% incentives |
+| morpho-blue | 2.97% | 3.37% | Base rate |
+| balancer-v3 | 14.15% | 11.36% | 46.68% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -1,10 +1,10 @@
 # EDEL DeFi Yields
 
-The highest honest EDEL yield right now is 29.36% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDEL yield right now is 32.16% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 29.36% | $684.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 32.16% | $643.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDEL yield today?
 
-29.36% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+32.16% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EDEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $684.9K in total.
+1 live pool clear this page's $100K TVL floor, $643.8K in total.
 
 ### Are these rates safe?
 

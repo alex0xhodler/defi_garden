@@ -4,7 +4,7 @@ The highest honest KODIAVUSD yield right now is 10.09% on berapaw (Berachain), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 10.09% | $527.2K |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 10.09% | $527K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KODIAVUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.2K in total.
+1 live pool clear this page's $100K TVL floor, $527K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest EUR yield right now is 55.66% on gmtrade (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 55.66% | $1.72M |
+| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 55.66% | $1.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EUR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.49M in total.
+2 live pools clear this page's $100K TVL floor, $6.5M in total.
 
 ### Are these rates safe?
 

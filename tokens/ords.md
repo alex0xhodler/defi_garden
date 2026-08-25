@@ -4,7 +4,7 @@ The highest honest ORDS yield right now is 0.17% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f5a02856-0f2d-48b6-b90f-c6cada0d1c53&src=seo_token) | Ethereum | 0.17% | $123K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f5a02856-0f2d-48b6-b90f-c6cada0d1c53&src=seo_token) | Ethereum | 0.17% | $123.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123K in total.
+1 live pool clear this page's $100K TVL floor, $123.3K in total.
 
 ### Are these rates safe?
 

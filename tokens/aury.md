@@ -1,10 +1,10 @@
 # AURY DeFi Yields
 
-The highest honest AURY yield right now is 0.24% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AURY yield right now is 1.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=8a2fa38b-a6f6-4536-8f66-32d754708605&src=seo_token) | Solana | 0.24% | $182.1K |
+| [orca-dex →](https://www.defi.garden/?pool=8a2fa38b-a6f6-4536-8f66-32d754708605&src=seo_token) | Solana | 1.02% | $180.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AURY yield today?
 
-0.24% APY on orca-dex (Solana), based on live DefiLlama data.
+1.02% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many AURY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.1K in total.
+1 live pool clear this page's $100K TVL floor, $180.2K in total.
 
 ### Are these rates safe?
 

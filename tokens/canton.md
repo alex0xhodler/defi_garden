@@ -4,7 +4,7 @@ The highest honest CANTON yield right now is 1.35% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d517903b-0e35-4b64-8914-2562dcf2f901&src=seo_token) | Base | 1.35% | $111.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d517903b-0e35-4b64-8914-2562dcf2f901&src=seo_token) | Base | 1.35% | $111.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CANTON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.3K in total.
+1 live pool clear this page's $100K TVL floor, $111.6K in total.
 
 ### Are these rates safe?
 

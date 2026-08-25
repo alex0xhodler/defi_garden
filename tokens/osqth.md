@@ -4,7 +4,7 @@ The highest honest OSQTH yield right now is 0.08% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=115c0ec6-ac08-4f8a-acb4-bf605fc5784c&src=seo_token) | Ethereum | 0.08% | $122.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=115c0ec6-ac08-4f8a-acb4-bf605fc5784c&src=seo_token) | Ethereum | 0.08% | $122.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OSQTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.6K in total.
+1 live pool clear this page's $100K TVL floor, $122.9K in total.
 
 ### Are these rates safe?
 

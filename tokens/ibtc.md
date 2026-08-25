@@ -4,7 +4,7 @@ The highest honest IBTC yield right now is 6.19% on minswap-dex (Cardano), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 6.19% | $115.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 6.19% | $114.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -49,8 +49,8 @@ There is not enough qualifying APY history to rank IBTC pools. This view covers 
 
 ## Related tokens
 
-- [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [FET](https://www.defi.garden/tokens/fet)

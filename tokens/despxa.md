@@ -1,10 +1,10 @@
 # DESPXA DeFi Yields
 
-The highest honest DESPXA yield right now is 2.03% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DESPXA yield right now is 1.54% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 2.03% | $1.63M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 1.54% | $1.63M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DESPXA yield today?
 
-2.03% APY on uniswap-v3 (Base), based on live DefiLlama data.
+1.54% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DESPXA pools clear the TVL floor?
 

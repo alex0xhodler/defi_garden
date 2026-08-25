@@ -4,8 +4,8 @@ The highest honest GAMILUSPC yield right now is 10.68% on lagoon (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.41% | $512.7K |
 | [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 10.68% | $512.7K |
+| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.41% | $512.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -23,14 +23,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GAMILUSPC shows up in 2 pools here, with rates from 10.41% to 10.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gami-labs | 10.41% | 8.30% | Base rate |
-| lagoon | 10.68% | 9.47% | Base rate |
+| lagoon | 10.68% | 9.51% | Base rate |
+| gami-labs | 10.41% | 8.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

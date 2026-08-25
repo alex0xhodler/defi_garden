@@ -4,7 +4,7 @@ The highest honest ETHY yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f8760d84-cb53-4e70-b849-798444a95385&src=seo_token) | Ethereum | 0.02% | $873.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f8760d84-cb53-4e70-b849-798444a95385&src=seo_token) | Ethereum | 0.02% | $875.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETHY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $873.5K in total.
+1 live pool clear this page's $100K TVL floor, $875.4K in total.
 
 ### Are these rates safe?
 

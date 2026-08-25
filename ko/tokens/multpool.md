@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.28% | $328.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.28% | $328.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.28%예�
 
 ### MULTPOOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $328.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $328.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.28%예�
 
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
+- [BET](https://www.defi.garden/ko/tokens/bet)
 
 ## 이용 가능한 체인
 

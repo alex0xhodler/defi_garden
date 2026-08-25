@@ -1,10 +1,10 @@
 # INX DeFi Yields
 
-The highest honest INX yield right now is 10.11% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INX yield right now is 9.98% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=518e615a-2174-473f-8913-192484da7f7e&src=seo_token) | Ethereum | 10.11% | $1.55M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=518e615a-2174-473f-8913-192484da7f7e&src=seo_token) | Ethereum | 9.98% | $1.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INX yield today?
 
-10.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+9.98% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many INX pools clear the TVL floor?
 

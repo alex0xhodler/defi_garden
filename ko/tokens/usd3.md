@@ -4,30 +4,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.61% | $67.5M |
+| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.61% | $67.49M |
 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.51% | $19.05M |
-| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.94% | $17.21M |
-| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.71% | $6.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 2.02% | $17.15M |
+| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.72% | $6.56M |
 | [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.71% | $6.56M |
-| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 9.03% | $2.59M |
+| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.91% | $2.59M |
 | [reserve-protocol →](https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token) | Ethereum | 15.60% | $1.73M |
-| [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.39% | $1.57M |
+| [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.20% | $1.57M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USD3의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.51%, TVL $19.05M, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; Ethereum의 morpho-blue, APY 1.94%, TVL $17.21M, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; Ethereum의 3jane-lending, APY 6.61%, TVL $67.5M, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; Ethereum의 reserve-protocol, APY 15.60%, TVL $1.73M, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; Ethereum의 pendle, APY 13.71%, TVL $6.56M, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; Ethereum의 curve-dex, APY 9.03%, TVL $2.59M, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; Ethereum의 pendle, APY 11.71%, TVL $6.56M, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; Ethereum의 convex-finance, APY 13.39%, TVL $1.57M, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD3의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.51%, TVL $19.05M, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; Ethereum의 morpho-blue, APY 2.02%, TVL $17.15M, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; Ethereum의 3jane-lending, APY 6.61%, TVL $67.49M, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; Ethereum의 reserve-protocol, APY 15.60%, TVL $1.73M, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; Ethereum의 pendle, APY 13.71%, TVL $6.56M, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; Ethereum의 curve-dex, APY 8.91%, TVL $2.59M, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; Ethereum의 pendle, APY 11.72%, TVL $6.56M, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; Ethereum의 convex-finance, APY 13.20%, TVL $1.57M, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.51% | $19.05M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.94% | $17.21M |
-| 3 | [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.61% | $67.5M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 2.02% | $17.15M |
+| 3 | [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.61% | $67.49M |
 | 4 | [reserve-protocol →](https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token) | Ethereum | 15.60% | $1.73M |
 | 5 | [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.71% | $6.56M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 9.03% | $2.59M |
-| 7 | [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.71% | $6.56M |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.39% | $1.57M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.91% | $2.59M |
+| 7 | [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.72% | $6.56M |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.20% | $1.57M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,7 +35,7 @@ APY 이력만 기준으로 비교한 USD3의 변동성 낮은 후보는 Ethereum
 
 USD3 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.51%부터 15.60%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.23%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.28%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,12 +45,12 @@ USD3 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.51%부터 15.60%�
 |---|---|---|---|
 | 3jane-lending | 6.61% | 6.86% | 기본 금리 |
 | morpho-blue | 1.51% | 1.78% | 인센티브 100.00% |
-| morpho-blue | 1.94% | 1.98% | 인센티브 100.00% |
-| pendle | 11.71% | 11.97% | 인센티브 4.52% |
-| pendle | 13.71% | 13.90% | 기본 금리 |
-| curve-dex | 9.03% | 10.56% | 인센티브 66.35% |
-| reserve-protocol | 15.60% | 7.90% | 기본 금리 |
-| convex-finance | 13.39% | 14.38% | 인센티브 77.30% |
+| morpho-blue | 2.02% | 1.98% | 인센티브 100.00% |
+| pendle | 11.72% | 11.97% | 인센티브 4.56% |
+| pendle | 13.71% | 13.91% | 기본 금리 |
+| curve-dex | 8.91% | 10.55% | 인센티브 66.32% |
+| reserve-protocol | 15.60% | 8.02% | 기본 금리 |
+| convex-finance | 13.20% | 14.39% | 인센티브 77.27% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 13.71%예요.
 
 ### USD3 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $125.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $125.21M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 13.71%예요.
 
 ### USD3 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USD3의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.51%, TVL $19.05M, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; Ethereum의 morpho-blue, APY 1.94%, TVL $17.21M, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; Ethereum의 3jane-lending, APY 6.61%, TVL $67.5M, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; Ethereum의 reserve-protocol, APY 15.60%, TVL $1.73M, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; Ethereum의 pendle, APY 13.71%, TVL $6.56M, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; Ethereum의 curve-dex, APY 9.03%, TVL $2.59M, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; Ethereum의 pendle, APY 11.71%, TVL $6.56M, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; Ethereum의 convex-finance, APY 13.39%, TVL $1.57M, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD3의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.51%, TVL $19.05M, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; Ethereum의 morpho-blue, APY 2.02%, TVL $17.15M, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; Ethereum의 3jane-lending, APY 6.61%, TVL $67.49M, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; Ethereum의 reserve-protocol, APY 15.60%, TVL $1.73M, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; Ethereum의 pendle, APY 13.71%, TVL $6.56M, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; Ethereum의 curve-dex, APY 8.91%, TVL $2.59M, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; Ethereum의 pendle, APY 11.72%, TVL $6.56M, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; Ethereum의 convex-finance, APY 13.20%, TVL $1.57M, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

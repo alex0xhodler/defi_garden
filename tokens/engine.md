@@ -4,7 +4,7 @@ The highest honest ENGINE yield right now is 0.03% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c1c9cd9d-fdad-460c-881d-35dbd11b20dc&src=seo_token) | Base | 0.03% | $110.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c1c9cd9d-fdad-460c-881d-35dbd11b20dc&src=seo_token) | Base | 0.03% | $110.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ENGINE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.8K in total.
+1 live pool clear this page's $100K TVL floor, $110.7K in total.
 
 ### Are these rates safe?
 

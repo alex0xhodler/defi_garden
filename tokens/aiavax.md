@@ -1,10 +1,10 @@
 # AIAVAX DeFi Yields
 
-The highest honest AIAVAX yield right now is 2.84% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIAVAX yield right now is 2.42% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.84% | $2.02M |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.42% | $2.02M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIAVAX yield today?
 
-2.84% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
+2.42% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
 
 ### How many AIAVAX pools clear the TVL floor?
 

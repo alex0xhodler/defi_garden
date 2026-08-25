@@ -4,7 +4,7 @@ The highest honest ROYWSTETH yield right now is 2.60% on concrete (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=d0a8d8b6-813d-4225-bb62-f6f9d6899195&src=seo_token) | Ethereum | 2.60% | $288.8K |
+| [concrete →](https://www.defi.garden/?pool=d0a8d8b6-813d-4225-bb62-f6f9d6899195&src=seo_token) | Ethereum | 2.60% | $289.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROYWSTETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.8K in total.
+1 live pool clear this page's $100K TVL floor, $289.8K in total.
 
 ### Are these rates safe?
 

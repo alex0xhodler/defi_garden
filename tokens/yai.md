@@ -4,7 +4,7 @@ The highest honest YAI yield right now is 0.05% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9d514bb1-9ed4-4b54-8109-e9e9f5d5a7f4&src=seo_token) | Ethereum | 0.05% | $213.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9d514bb1-9ed4-4b54-8109-e9e9f5d5a7f4&src=seo_token) | Ethereum | 0.05% | $214.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $213.9K in total.
+1 live pool clear this page's $100K TVL floor, $214.4K in total.
 
 ### Are these rates safe?
 

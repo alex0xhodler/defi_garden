@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 0.01% | $242.8K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 3.00% | $124.2K |
+| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 0.01% | $247.3K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 3.37% | $124.2K |
 | USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $106.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 symbiosis에서 APY 0.01%예
 
 ### ZKsync Era 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $473.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $477.6K예요.
 
 ### 이 수익률은 안전한가요?
 

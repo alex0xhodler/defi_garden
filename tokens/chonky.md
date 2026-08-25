@@ -1,10 +1,10 @@
 # CHONKY DeFi Yields
 
-The highest honest CHONKY yield right now is 62.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHONKY yield right now is 68.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5124e677-64d2-4394-b9b5-a26c3031c80e&src=seo_token) | Solana | 62.05% | $118K |
+| [raydium-amm →](https://www.defi.garden/?pool=5124e677-64d2-4394-b9b5-a26c3031c80e&src=seo_token) | Solana | 68.22% | $118.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHONKY yield today?
 
-62.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+68.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHONKY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118K in total.
+1 live pool clear this page's $100K TVL floor, $118.3K in total.
 
 ### Are these rates safe?
 

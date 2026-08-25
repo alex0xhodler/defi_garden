@@ -4,7 +4,7 @@ The highest honest LISUSD yield right now is 1.16% on lista-lending (BSC), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 1.16% | $28.5M |
+| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 1.16% | $28.4M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LISUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.5M in total.
+1 live pool clear this page's $100K TVL floor, $28.4M in total.
 
 ### Are these rates safe?
 

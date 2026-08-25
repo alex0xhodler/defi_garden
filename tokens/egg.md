@@ -1,10 +1,10 @@
 # EGG DeFi Yields
 
-The highest honest EGG yield right now is 0.01% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EGG yield right now is 6.16% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=ad01c5ec-79fd-53d9-8d2f-24ca24be4843&src=seo_token) | Hyperliquid L1 | 0.01% | $211.4K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=ad01c5ec-79fd-53d9-8d2f-24ca24be4843&src=seo_token) | Hyperliquid L1 | 6.16% | $244.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EGG yield today?
 
-0.01% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+6.16% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many EGG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.4K in total.
+1 live pool clear this page's $100K TVL floor, $244.8K in total.
 
 ### Are these rates safe?
 

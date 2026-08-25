@@ -1,10 +1,10 @@
 # CX DeFi Yields
 
-The highest honest CX yield right now is 11.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CX yield right now is 10.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2a90f9ae-f24c-4f10-9ca4-e8426ed06a74&src=seo_token) | Solana | 11.04% | $505.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2a90f9ae-f24c-4f10-9ca4-e8426ed06a74&src=seo_token) | Solana | 10.10% | $504.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CX yield today?
 
-11.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $505.7K in total.
+1 live pool clear this page's $100K TVL floor, $504.7K in total.
 
 ### Are these rates safe?
 

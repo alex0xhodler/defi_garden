@@ -7,7 +7,7 @@
 | [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=791323b3-f244-5050-87b8-a59fb445e8ae&src=seo_token) | Solana | 0.01% | $92.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.01% | $186K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.01% | $186.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,7 +20,7 @@
 
 CC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.06%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
