@@ -1359,6 +1359,7 @@ function PoolDetail({
     name: `${pool.symbol || ''} ${pool.project || ''} Yield Data (${pool.chain || ''})`,
     description: `Live DefiLlama yield data for ${pool.symbol || ''} on ${pool.project || ''} (${pool.chain || ''}) with ${formatCurrency(pool.tvlUsd)} TVL.`,
     url: poolUrl,
+    license: 'https://creativecommons.org/publicdomain/zero/1.0/',
     creator: { '@type': 'Organization', name: 'DeFi Garden', url: origin },
     publisher: { '@type': 'Organization', name: 'DeFi Garden', url: origin }
   }).replace(/</g, '\\u003c');

@@ -243,17 +243,30 @@ test('exactly one valid BreadcrumbList block with 3 items', () => {
   assert.strictEqual(blocks.length, 1, 'expected exactly one BreadcrumbList block');
   assert.strictEqual(blocks[0].itemListElement.length, 3, 'expected exactly 3 breadcrumb items');
 });
-test('breadcrumb items: Home (linked), Chains (unlinked — no real hub page), <Chain> (linked, self-canonical)', () => {
+test('breadcrumb items: Home (linked), Chains (linked to /chains hub), <Chain> (linked, self-canonical)', () => {
   const items = extractLdJsonBlocks(html, 'BreadcrumbList')[0].itemListElement;
   assert.strictEqual(items[0].position, 1);
   assert.strictEqual(items[0].name, 'Home');
   assert.strictEqual(items[0].item, 'https://www.defi.garden/');
   assert.strictEqual(items[1].position, 2);
   assert.strictEqual(items[1].name, 'Chains');
-  assert.ok(!('item' in items[1]), 'Chains has no hub page in this repo — must not link a 404');
+  assert.strictEqual(items[1].item, 'https://www.defi.garden/chains', 'Chains crumb links to /chains hub');
   assert.strictEqual(items[2].position, 3);
   assert.strictEqual(items[2].name, 'Big');
   assert.strictEqual(items[2].item, 'https://www.defi.garden/chains/big', 'must match the page\'s own canonical URL');
+});
+test('KO breadcrumb items: 홈 (linked), 체인 (linked to /ko/chains hub), <Chain> (linked, self-canonical)', () => {
+  const koHtml = gen.renderChainPage(byChain['Big'], [], undefined, undefined, 'ko');
+  const items = extractLdJsonBlocks(koHtml, 'BreadcrumbList')[0].itemListElement;
+  assert.strictEqual(items[0].position, 1);
+  assert.strictEqual(items[0].name, '홈');
+  assert.strictEqual(items[0].item, 'https://www.defi.garden/');
+  assert.strictEqual(items[1].position, 2);
+  assert.strictEqual(items[1].name, '체인');
+  assert.strictEqual(items[1].item, 'https://www.defi.garden/ko/chains', 'KO 체인 crumb links to /ko/chains hub');
+  assert.strictEqual(items[2].position, 3);
+  assert.strictEqual(items[2].name, 'Big');
+  assert.strictEqual(items[2].item, 'https://www.defi.garden/ko/chains/big');
 });
 test('malicious chain name cannot break out of the ld+json script tag', () => {
   const evil = gen.renderChainPage({ chain: '</script><script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
@@ -296,6 +309,7 @@ test('exactly one valid Dataset block with required schema.org properties', () =
   assert.ok(d.name && typeof d.name === 'string', 'missing Dataset.name');
   assert.ok(d.description && typeof d.description === 'string', 'missing Dataset.description');
   assert.strictEqual(d.url, 'https://www.defi.garden/chains/big', 'Dataset.url must be the page\'s own canonical URL');
+  assert.strictEqual(d.license, 'https://creativecommons.org/publicdomain/zero/1.0/', 'Dataset.license must be set');
   assert.strictEqual(d.publisher['@type'], 'Organization');
   assert.strictEqual(d.publisher.name, 'DeFi Garden');
   assert.strictEqual(d.creator['@type'], 'Organization');

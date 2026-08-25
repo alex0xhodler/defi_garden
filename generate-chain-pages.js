@@ -185,16 +185,15 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const intro = t('tcpChainIntro', chainName, escapeHtml(top.project || '—'), escapeHtml(top.symbol || '—'),
     formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl), floorStr);
 
-  // BreadcrumbList (040 pattern): Home and the current page are real,
-  // linkable URLs. "Chains" has no `item` — there is no /chains hub page in
-  // this repo (no rewrite in vercel.json, no generated index), mirroring
-  // the token pages' unlinked "Tokens" crumb.
+  // BreadcrumbList (040 / 045 pattern): Home and the current page are real,
+  // linkable URLs. "Chains" links to the /chains hub (or /ko/chains for Korean pages).
+  const chainsHubUrl = `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}`;
   const breadcrumbJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t('tcpBreadcrumbHome'), item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbChains') },
+      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbChains'), item: chainsHubUrl },
       { '@type': 'ListItem', position: 3, name: rec.chain, item: pageUrl }
     ]
   }).replace(/</g, '\\u003c');
