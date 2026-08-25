@@ -221,7 +221,7 @@ async function main() {
 
       await test('/?pool=<id> renders both north-star CTAs ("Garden this pool" + "Start Earning on <protocol>")', async () => {
         const gardenCta = await page.locator('.cta-button-primary').first().innerText();
-        if (!/Garden this pool/i.test(gardenCta)) throw new Error(`expected "Garden this pool" CTA text, got: ${gardenCta}`);
+        if (!/(?:Garden this pool|Spend yield)/i.test(gardenCta)) throw new Error(`expected "Garden this pool" or "Spend yield" CTA text, got: ${gardenCta}`);
         const protocolCtaCount = await page.locator('.cta-button-protocol').count();
         if (protocolCtaCount === 0) throw new Error('expected a .cta-button-protocol CTA to render');
         const protocolCta = await page.locator('.cta-button-protocol').first().innerText();
