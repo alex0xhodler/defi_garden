@@ -1,10 +1,10 @@
 # SKHY DeFi Yields
 
-The highest honest SKHY yield right now is 49.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKHY yield right now is 45.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 49.32% | $708.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 45.56% | $706.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKHY yield today?
 
-49.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+45.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SKHY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $708.2K in total.
+1 live pool clear this page's $100K TVL floor, $706.9K in total.
 
 ### Are these rates safe?
 

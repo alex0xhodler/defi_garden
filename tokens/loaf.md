@@ -4,7 +4,7 @@ The highest honest LOAF yield right now is 0.01% on vvs-standard (Cronos), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=b8931912-9de5-4a9c-afdf-b377c184d0ec&src=seo_token) | Cronos | 0.01% | $2.88M |
+| [vvs-standard →](https://www.defi.garden/?pool=b8931912-9de5-4a9c-afdf-b377c184d0ec&src=seo_token) | Cronos | 0.01% | $2.81M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LOAF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.88M in total.
+1 live pool clear this page's $100K TVL floor, $2.81M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank LOAF pools. This view covers 
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 

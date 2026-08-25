@@ -4,18 +4,18 @@ The highest honest ADAI yield right now is 0.35% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $310.1K |
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $152.3K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $152.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $152.3K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.35% APY, $310.1K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $152.1K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $152.3K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $310.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $152.1K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ADAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $462.3K in total.
+2 live pools clear this page's $100K TVL floor, $461.9K in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ADAI pools have the most stable APY history?
 
-Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $152.3K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.35% APY, $310.1K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $152.1K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -58,8 +58,8 @@ Based on APY history only, ADAI's lower-variability candidates are curve-dex (Et
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

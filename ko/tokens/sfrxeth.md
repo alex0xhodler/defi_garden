@@ -4,24 +4,24 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $92.02M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.92% | $2.59M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.86% | $376.7K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.73% | $296.3K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.73% | $281.3K |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $91.77M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.91% | $2.58M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.86% | $376.2K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.74% | $296.3K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.74% | $281.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SFRXETH의 변동성 낮은 후보는 Ethereum의 frax-ether, APY 2.56%, TVL $92.02M, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; Fraxtal의 stake-dao, APY 3.86%, TVL $376.7K, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; Fraxtal의 curve-dex, APY 2.92%, TVL $2.59M, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; Ethereum의 curve-dex, APY 2.73%, TVL $296.3K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 2.73%, TVL $281.3K, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SFRXETH의 변동성 낮은 후보는 Ethereum의 frax-ether, APY 2.56%, TVL $91.77M, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; Fraxtal의 stake-dao, APY 3.86%, TVL $376.2K, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; Fraxtal의 curve-dex, APY 2.91%, TVL $2.58M, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; Ethereum의 curve-dex, APY 2.74%, TVL $296.3K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 2.74%, TVL $281.3K, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $92.02M |
-| 2 | [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.86% | $376.7K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.92% | $2.59M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.73% | $296.3K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.73% | $281.3K |
+| 1 | [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $91.77M |
+| 2 | [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.86% | $376.2K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.91% | $2.58M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.74% | $296.3K |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.74% | $281.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,10 +36,10 @@ SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.56%부터 3.86%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | frax-ether | 2.56% | 2.62% | 기본 금리 |
-| curve-dex | 2.92% | 3.18% | 인센티브 46.86% |
-| stake-dao | 3.86% | 4.33% | 인센티브 59.86% |
-| curve-dex | 2.73% | 2.57% | 기본 금리 |
-| convex-finance | 2.73% | 2.57% | 기본 금리 |
+| curve-dex | 2.91% | 3.18% | 인센티브 46.78% |
+| stake-dao | 3.86% | 4.33% | 인센티브 59.80% |
+| curve-dex | 2.74% | 2.57% | 기본 금리 |
+| convex-finance | 2.74% | 2.57% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,7 +51,7 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 3.86%예요
 
 ### SFRXETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $102.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $102.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 3.86%예요
 
 ### SFRXETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SFRXETH의 변동성 낮은 후보는 Ethereum의 frax-ether, APY 2.56%, TVL $92.02M, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; Fraxtal의 stake-dao, APY 3.86%, TVL $376.7K, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; Fraxtal의 curve-dex, APY 2.92%, TVL $2.59M, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; Ethereum의 curve-dex, APY 2.73%, TVL $296.3K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 2.73%, TVL $281.3K, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SFRXETH의 변동성 낮은 후보는 Ethereum의 frax-ether, APY 2.56%, TVL $91.77M, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; Fraxtal의 stake-dao, APY 3.86%, TVL $376.2K, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; Fraxtal의 curve-dex, APY 2.91%, TVL $2.58M, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; Ethereum의 curve-dex, APY 2.74%, TVL $296.3K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 2.74%, TVL $281.3K, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,8 +67,8 @@ APY 이력만 기준으로 비교한 SFRXETH의 변동성 낮은 후보는 Ether
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

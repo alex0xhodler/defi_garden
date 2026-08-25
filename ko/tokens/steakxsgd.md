@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f&src=seo_token) | Base | 0.14% | $1.09M |
+| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f&src=seo_token) | Base | 0.14% | $1.1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 0.14%예요.
 
 ### STEAKXSGD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.09M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.1M예요.
 
 ### 이 수익률은 안전한가요?
 

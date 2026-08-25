@@ -1,10 +1,10 @@
 # ROAI DeFi Yields
 
-The highest honest ROAI yield right now is 0.74% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROAI yield right now is 1.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e3950723-8592-4ceb-af10-0e95d1606108&src=seo_token) | Ethereum | 0.74% | $154.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e3950723-8592-4ceb-af10-0e95d1606108&src=seo_token) | Ethereum | 1.32% | $152.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROAI yield today?
 
-0.74% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ROAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154.4K in total.
+1 live pool clear this page's $100K TVL floor, $152.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank ROAI pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

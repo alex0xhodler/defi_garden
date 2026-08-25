@@ -1,8 +1,8 @@
 # APVCHF — morpho-blue on Base
 
-**Total APY:** 0.09% (0.09% Base · + 0.00% Rewards)
+**Total APY:** 0.10% (0.10% Base · + 0.00% Rewards)
 
-**TVL:** $249K
+**TVL:** $250.1K
 
 **Pool Type:** Lending
 

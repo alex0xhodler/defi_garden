@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank NXUSD pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 

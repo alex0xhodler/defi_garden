@@ -1,37 +1,37 @@
 # ATOM DeFi Yields
 
-The highest honest ATOM yield right now is 23.87% on osmosis-dex (Osmosis), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATOM yield right now is 22.23% on osmosis-dex (Osmosis), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 18.37% | $1.55M |
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 8.47% | $722.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.05% | $465.1K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $341.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 23.87% | $232.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.24% | $175.2K |
+| [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 18.65% | $1.55M |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 8.30% | $719.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.05% | $464.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $340K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 22.23% | $232.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.21% | $174.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.07% APY, $341.7K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; hydro-inflow (Neutron), 18.37% APY, $1.55M TVL, https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token; osmosis-dex (Osmosis), 6.24% APY, $175.2K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 8.47% APY, $722.9K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.05% APY, $465.1K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 23.87% APY, $232.8K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.07% APY, $340K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; hydro-inflow (Neutron), 18.65% APY, $1.55M TVL, https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token; osmosis-dex (Osmosis), 6.21% APY, $174.6K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 8.30% APY, $719.2K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.05% APY, $464.3K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 22.23% APY, $232.2K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $341.7K |
-| 2 | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 18.37% | $1.55M |
-| 3 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.24% | $175.2K |
-| 4 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 8.47% | $722.9K |
-| 5 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.05% | $465.1K |
-| 6 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 23.87% | $232.8K |
+| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $340K |
+| 2 | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 18.65% | $1.55M |
+| 3 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.21% | $174.6K |
+| 4 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 8.30% | $719.2K |
+| 5 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.05% | $464.3K |
+| 6 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 22.23% | $232.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ATOM shows up in 6 pools here, with rates from 0.05% to 23.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATOM shows up in 6 pools here, with rates from 0.05% to 22.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,12 +39,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydro-inflow | 18.37% | 18.02% | Base rate |
-| osmosis-dex | 8.47% | 3.73% | Base rate |
+| hydro-inflow | 18.65% | 18.02% | Base rate |
+| osmosis-dex | 8.30% | 3.76% | Base rate |
 | osmosis-dex | 0.05% | 0.35% | Base rate |
 | osmosis-dex | 0.07% | 0.16% | Base rate |
-| osmosis-dex | 23.87% | 19.93% | Base rate |
-| osmosis-dex | 6.24% | 5.90% | Base rate |
+| osmosis-dex | 22.23% | 19.98% | Base rate |
+| osmosis-dex | 6.21% | 5.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ATOM yield today?
 
-23.87% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+22.23% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many ATOM pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $4.69M in total.
+8 live pools clear this page's $100K TVL floor, $4.68M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ATOM pools have the most stable APY history?
 
-Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.07% APY, $341.7K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; hydro-inflow (Neutron), 18.37% APY, $1.55M TVL, https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token; osmosis-dex (Osmosis), 6.24% APY, $175.2K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 8.47% APY, $722.9K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.05% APY, $465.1K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 23.87% APY, $232.8K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.07% APY, $340K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; hydro-inflow (Neutron), 18.65% APY, $1.55M TVL, https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token; osmosis-dex (Osmosis), 6.21% APY, $174.6K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 8.30% APY, $719.2K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.05% APY, $464.3K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 22.23% APY, $232.2K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

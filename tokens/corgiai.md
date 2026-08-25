@@ -4,7 +4,7 @@ The highest honest CORGIAI yield right now is 0.67% on vvs-standard (Cronos), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.67% | $159.4K |
+| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.67% | $157.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORGIAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.4K in total.
+1 live pool clear this page's $100K TVL floor, $157.7K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank CORGIAI pools. This view cove
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 

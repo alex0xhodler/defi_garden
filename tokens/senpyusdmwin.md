@@ -1,10 +1,10 @@
 # SENPYUSDMWIN DeFi Yields
 
-The highest honest SENPYUSDMWIN yield right now is 7.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDMWIN yield right now is 7.09% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 7.00% | $26.5M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 7.09% | $26.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDMWIN yield today?
 
-7.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.09% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDMWIN pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SENPYUSDMWIN pools. This view
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

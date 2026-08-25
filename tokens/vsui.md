@@ -4,7 +4,7 @@ The highest honest VSUI yield right now is 1.05% on navi-lending (Sui), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_token) | Sui | 1.05% | $13.81M |
+| [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_token) | Sui | 1.05% | $13.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $13.81M in total.
+1 live pool clear this page's $100K TVL floor, $13.58M in total.
 
 ### Are these rates safe?
 

@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 7.20% | 8.74% | Base rate |
-| gami-labs | 9.53% | 9.25% | Base rate |
+| lagoon | 7.20% | 8.73% | Base rate |
+| gami-labs | 9.53% | 9.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,8 +58,8 @@ Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 

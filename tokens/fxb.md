@@ -35,7 +35,7 @@ FXB shows up in 4 pools here, with rates from 2.73% to 6.36% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 6.36% | 6.37% | 18.04% incentives |
+| curve-dex | 6.36% | 6.37% | 18.07% incentives |
 | curve-dex | 2.73% | 2.76% | 0.00% incentives |
 | convex-finance | 2.73% | 2.76% | Base rate |
 | curve-dex | 2.73% | 2.73% | Base rate |
@@ -66,8 +66,8 @@ Based on APY history only, FXB's lower-variability candidates are curve-dex (Arb
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

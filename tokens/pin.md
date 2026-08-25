@@ -1,10 +1,10 @@
 # PIN DeFi Yields
 
-The highest honest PIN yield right now is 29.69% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIN yield right now is 41.59% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 29.69% | $486.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 41.59% | $464.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIN yield today?
 
-29.69% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+41.59% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $486.1K in total.
+1 live pool clear this page's $100K TVL floor, $464.5K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank PIN pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # OMIKAMI DeFi Yields
 
-The highest honest OMIKAMI yield right now is 4.69% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OMIKAMI yield right now is 4.74% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72cca37d-43a9-4737-934e-52610c6126bb&src=seo_token) | Ethereum | 4.69% | $457K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72cca37d-43a9-4737-934e-52610c6126bb&src=seo_token) | Ethereum | 4.74% | $460.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMIKAMI yield today?
 
-4.69% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.74% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OMIKAMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $457K in total.
+1 live pool clear this page's $100K TVL floor, $460.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank OMIKAMI pools. This view cove
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

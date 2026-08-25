@@ -4,27 +4,27 @@ The highest honest TRUSD yield right now is 8.97% on pendle (Ethereum), among 6 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 6.16% | $10.07M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.26% | $5.16M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.21% | $4.87M |
-| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.10% | $2.66M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 6.21% | $10.07M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.14% | $5.16M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.07% | $4.87M |
+| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.09% | $2.66M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.97% | $2.66M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRUSD's lower-variability candidates are curve-dex (Ethereum), 6.16% APY, $10.07M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; curve-dex (Ethereum), 0.26% APY, $5.16M TVL, https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRUSD's lower-variability candidates are curve-dex (Ethereum), 6.21% APY, $10.07M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; curve-dex (Ethereum), 0.14% APY, $5.16M TVL, https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 6.16% | $10.07M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.26% | $5.16M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 6.21% | $10.07M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.14% | $5.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRUSD shows up in 5 pools here, with rates from 0.26% to 8.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUSD shows up in 5 pools here, with rates from 0.14% to 8.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,10 +32,10 @@ TRUSD shows up in 5 pools here, with rates from 0.26% to 8.97% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 6.16% | 5.48% | Base rate |
-| curve-dex | 0.26% | 0.38% | 0.06% incentives |
-| curve-dex | 3.21% | 116.51% | 94.70% incentives |
-| pendle | 3.10% | 3.88% | 14.12% incentives |
+| curve-dex | 6.21% | 5.48% | Base rate |
+| curve-dex | 0.14% | 0.38% | 0.11% incentives |
+| curve-dex | 3.07% | 115.98% | 98.37% incentives |
+| pendle | 3.09% | 3.87% | 14.11% incentives |
 | pendle | 8.97% | 9.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRUSD pools have the most stable APY history?
 
-Based on APY history only, TRUSD's lower-variability candidates are curve-dex (Ethereum), 6.16% APY, $10.07M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; curve-dex (Ethereum), 0.26% APY, $5.16M TVL, https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRUSD's lower-variability candidates are curve-dex (Ethereum), 6.21% APY, $10.07M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; curve-dex (Ethereum), 0.14% APY, $5.16M TVL, https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -64,8 +64,8 @@ Based on APY history only, TRUSD's lower-variability candidates are curve-dex (E
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

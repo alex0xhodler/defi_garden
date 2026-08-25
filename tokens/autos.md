@@ -1,10 +1,10 @@
 # AUTOS DeFi Yields
 
-The highest honest AUTOS yield right now is 11.25% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTOS yield right now is 9.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fec534af-3eda-48cc-be83-e30eb5e8f152&src=seo_token) | Ethereum | 11.25% | $108.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fec534af-3eda-48cc-be83-e30eb5e8f152&src=seo_token) | Ethereum | 9.09% | $110.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUTOS yield today?
 
-11.25% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+9.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AUTOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.3K in total.
+1 live pool clear this page's $100K TVL floor, $110.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank AUTOS pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

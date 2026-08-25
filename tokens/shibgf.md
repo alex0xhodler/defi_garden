@@ -4,7 +4,7 @@ The highest honest SHIBGF yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2f311dcc-1bf2-462e-a5c1-80eba3ce0a67&src=seo_token) | Ethereum | 0.01% | $109.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2f311dcc-1bf2-462e-a5c1-80eba3ce0a67&src=seo_token) | Ethereum | 0.01% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIBGF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.7K in total.
+1 live pool clear this page's $100K TVL floor, $109.5K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SHIBGF pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

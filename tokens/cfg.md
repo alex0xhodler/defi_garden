@@ -1,10 +1,10 @@
 # CFG DeFi Yields
 
-The highest honest CFG yield right now is 77.47% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CFG yield right now is 55.23% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=47d34a64-2fd2-44dc-aae8-38d2e95d7da4&src=seo_token) | Ethereum | 77.47% | $1.14M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=47d34a64-2fd2-44dc-aae8-38d2e95d7da4&src=seo_token) | Ethereum | 55.23% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CFG yield today?
 
-77.47% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+55.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CFG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.14M in total.
+1 live pool clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CFG pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

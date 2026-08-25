@@ -35,7 +35,7 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.36%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 6.36% | 6.37% | 인센티브 18.04% |
+| curve-dex | 6.36% | 6.37% | 인센티브 18.07% |
 | curve-dex | 2.73% | 2.76% | 인센티브 0.00% |
 | convex-finance | 2.73% | 2.76% | 기본 금리 |
 | curve-dex | 2.73% | 2.73% | 기본 금리 |
@@ -66,8 +66,8 @@ APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum�
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

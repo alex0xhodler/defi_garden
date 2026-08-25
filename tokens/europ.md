@@ -1,10 +1,10 @@
 # EUROP DeFi Yields
 
-The highest honest EUROP yield right now is 5.36% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUROP yield right now is 7.01% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 5.36% | $116.2K |
+| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 7.01% | $116.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUROP yield today?
 
-5.36% APY on curve-dex (Ethereum), based on live DefiLlama data.
+7.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EUROP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.2K in total.
+1 live pool clear this page's $100K TVL floor, $116.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank EUROP pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest FINALE yield right now is 0.24% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.24% | $170.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.24% | $170.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FINALE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.9K in total.
+1 live pool clear this page's $100K TVL floor, $170.5K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank FINALE pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

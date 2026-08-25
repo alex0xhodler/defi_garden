@@ -1,10 +1,10 @@
 # EUL 디파이 수익률
 
-현재 EUL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 27.12%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EUL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 30.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 27.12% | $1.08M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 30.38% | $1.08M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 EUL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 27.12%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 30.38%예요.
 
 ### EUL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 27.12%예
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

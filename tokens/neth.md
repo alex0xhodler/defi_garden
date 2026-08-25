@@ -4,7 +4,7 @@ The highest honest NETH yield right now is 2.12% on nodedao (Ethereum), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nodedao →](https://www.defi.garden/?pool=22e390ef-5f59-4194-b1d5-e1daf818b7f8&src=seo_token) | Ethereum | 2.12% | $11.73M |
+| [nodedao →](https://www.defi.garden/?pool=22e390ef-5f59-4194-b1d5-e1daf818b7f8&src=seo_token) | Ethereum | 2.12% | $11.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $11.73M in total.
+1 live pool clear this page's $100K TVL floor, $11.7M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank NETH pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

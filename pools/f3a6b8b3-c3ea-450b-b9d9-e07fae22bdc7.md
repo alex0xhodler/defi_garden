@@ -1,12 +1,12 @@
 # QR-WETH — uniswap-v3 on Base
 
-**Total APY:** 18.97% (18.97% Base · + 0.00% Rewards)
+**Total APY:** 18.36% (18.36% Base · + 0.00% Rewards)
 
-**TVL:** $128.4K
+**TVL:** $126.9K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 20.54%
+**30d Mean APY:** 20.62%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,359 in 5y at current rates.
+$1,000 in this pool grows to ~$1,346 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (18.97% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (18.36% headline) — farm rates decay. Active management required.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,359 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,346 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 

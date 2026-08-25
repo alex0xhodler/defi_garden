@@ -1,10 +1,10 @@
 # SPX30K DeFi Yields
 
-The highest honest SPX30K yield right now is 86.88% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX30K yield right now is 276.25% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a4a0ac76-4f1a-5bb0-98b6-b19bbfd13c5f&src=seo_token) | Base | 86.88% | $114.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a4a0ac76-4f1a-5bb0-98b6-b19bbfd13c5f&src=seo_token) | Base | 276.25% | $114.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX30K yield today?
 
-86.88% APY on uniswap-v2 (Base), based on live DefiLlama data.
+276.25% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX30K pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.1K in total.
+1 live pool clear this page's $100K TVL floor, $114.4K in total.
 
 ### Are these rates safe?
 

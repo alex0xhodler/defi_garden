@@ -1,8 +1,8 @@
 # GTWETHB — morpho-blue on Ethereum
 
-**Total APY:** 1.72% (1.72% Base · + 0.00% Rewards)
+**Total APY:** 1.73% (1.73% Base · + 0.00% Rewards)
 
-**TVL:** $1.28M
+**TVL:** $1.27M
 
 **Pool Type:** Lending
 

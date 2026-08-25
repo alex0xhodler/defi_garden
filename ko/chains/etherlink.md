@@ -1,6 +1,6 @@
 # Etherlink 디파이 수익률
 
-현재 Etherlink의 가장 높은 정직한 수익률은 Etherlink의 midas-rwa에서 9.23%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Etherlink의 가장 높은 정직한 수익률은 Etherlink의 midas-rwa에서 14.53%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
@@ -16,7 +16,7 @@
 
 ### 오늘 Etherlink의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 9.23%예요.
+DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 14.53%예요.
 
 ### Etherlink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

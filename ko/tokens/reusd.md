@@ -1,54 +1,54 @@
 # REUSD 디파이 수익률
 
-현재 REUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 15.87%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 REUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 15.48%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.44% | $211.62M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 10.13% | $24.82M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 9.03% | $10.98M |
-| [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 11.66% | $9.02M |
-| [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 21.53% | $9.02M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 15.87% | $6.71M |
-| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.79% | $4.36M |
-| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 6.29% | $3.39M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 10.60% | $24.66M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.69% | $10.98M |
+| [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 11.66% | $9.94M |
+| [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 20.28% | $9.94M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 15.48% | $6.71M |
+| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.76% | $4.36M |
+| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 6.26% | $3.43M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 REUSD의 변동성 낮은 후보는 Ethereum의 pendle, APY 11.66%, TVL $9.02M, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; Ethereum의 re, APY 6.44%, TVL $211.62M, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; Ethereum의 fluid-dex, APY 10.13%, TVL $24.82M, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; Ethereum의 pendle, APY 21.53%, TVL $9.02M, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; Ethereum의 stake-dao, APY 14.79%, TVL $4.36M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 9.03%, TVL $10.98M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 curve-dex, APY 6.29%, TVL $3.39M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 convex-finance, APY 15.87%, TVL $6.71M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 REUSD의 변동성 낮은 후보는 Ethereum의 pendle, APY 11.66%, TVL $9.94M, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; Ethereum의 re, APY 6.44%, TVL $211.62M, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; Ethereum의 fluid-dex, APY 10.60%, TVL $24.66M, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; Ethereum의 pendle, APY 20.28%, TVL $9.94M, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; Ethereum의 stake-dao, APY 14.76%, TVL $4.36M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 8.69%, TVL $10.98M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 curve-dex, APY 6.26%, TVL $3.43M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 convex-finance, APY 15.48%, TVL $6.71M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 11.66% | $9.02M |
+| 1 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 11.66% | $9.94M |
 | 2 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.44% | $211.62M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 10.13% | $24.82M |
-| 4 | [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 21.53% | $9.02M |
-| 5 | [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.79% | $4.36M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 9.03% | $10.98M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 6.29% | $3.39M |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 15.87% | $6.71M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 10.60% | $24.66M |
+| 4 | [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 20.28% | $9.94M |
+| 5 | [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.76% | $4.36M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.69% | $10.98M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 6.26% | $3.43M |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 15.48% | $6.71M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-REUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 6.29%부터 21.53%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+REUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 6.26%부터 20.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.27%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | re | 6.44% | 6.28% | 기본 금리 |
-| fluid-dex | 10.13% | 0.65% | 기본 금리 |
-| curve-dex | 9.03% | 6.96% | 인센티브 76.62% |
-| pendle | 11.66% | 10.71% | 기본 금리 |
-| pendle | 21.53% | 9.73% | 인센티브 3.76% |
-| convex-finance | 15.87% | 11.38% | 인센티브 86.70% |
-| stake-dao | 14.79% | 11.35% | 인센티브 91.55% |
-| curve-dex | 6.29% | 11.91% | 인센티브 70.41% |
+| fluid-dex | 10.60% | 0.70% | 기본 금리 |
+| curve-dex | 8.69% | 6.99% | 인센티브 79.05% |
+| pendle | 11.66% | 10.72% | 기본 금리 |
+| pendle | 20.28% | 9.82% | 인센티브 3.61% |
+| convex-finance | 15.48% | 11.41% | 인센티브 88.25% |
+| stake-dao | 14.76% | 11.39% | 인센티브 91.60% |
+| curve-dex | 6.26% | 11.92% | 인센티브 69.67% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,11 +56,11 @@ REUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 6.29%부터 21.53%�
 
 ### 오늘 REUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 15.87%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 15.48%예요.
 
 ### REUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $425.44M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $427.91M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 15.87
 
 ### REUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 REUSD의 변동성 낮은 후보는 Ethereum의 pendle, APY 11.66%, TVL $9.02M, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; Ethereum의 re, APY 6.44%, TVL $211.62M, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; Ethereum의 fluid-dex, APY 10.13%, TVL $24.82M, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; Ethereum의 pendle, APY 21.53%, TVL $9.02M, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; Ethereum의 stake-dao, APY 14.79%, TVL $4.36M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 9.03%, TVL $10.98M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 curve-dex, APY 6.29%, TVL $3.39M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 convex-finance, APY 15.87%, TVL $6.71M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 REUSD의 변동성 낮은 후보는 Ethereum의 pendle, APY 11.66%, TVL $9.94M, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; Ethereum의 re, APY 6.44%, TVL $211.62M, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; Ethereum의 fluid-dex, APY 10.60%, TVL $24.66M, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; Ethereum의 pendle, APY 20.28%, TVL $9.94M, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; Ethereum의 stake-dao, APY 14.76%, TVL $4.36M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 8.69%, TVL $10.98M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 curve-dex, APY 6.26%, TVL $3.43M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 convex-finance, APY 15.48%, TVL $6.71M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -76,8 +76,8 @@ APY 이력만 기준으로 비교한 REUSD의 변동성 낮은 후보는 Ethereu
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

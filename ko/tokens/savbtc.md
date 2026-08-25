@@ -51,8 +51,8 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avbtc에서 APY 3.18%�
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
-- [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
+- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

@@ -1,10 +1,10 @@
 # TRUEX 디파이 수익률
 
-현재 TRUEX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.34%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TRUEX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.31%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 2.34% | $1.32M |
+| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 2.31% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 TRUEX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.34%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.31%예요.
 
 ### TRUEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

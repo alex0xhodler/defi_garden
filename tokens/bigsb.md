@@ -1,10 +1,10 @@
 # BIGSB DeFi Yields
 
-The highest honest BIGSB yield right now is 0.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIGSB yield right now is 0.17% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.19% | $355.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.17% | $355.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIGSB yield today?
 
-0.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.17% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BIGSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $355.2K in total.
+1 live pool clear this page's $100K TVL floor, $355.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank BIGSB pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

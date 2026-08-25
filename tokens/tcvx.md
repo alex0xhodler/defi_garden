@@ -4,7 +4,7 @@ The highest honest TCVX yield right now is 2.70% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ded3da1a-3ac9-4143-87c9-8808ee278ed0&src=seo_token) | Ethereum | 2.70% | $106.5K |
+| [curve-dex →](https://www.defi.garden/?pool=ded3da1a-3ac9-4143-87c9-8808ee278ed0&src=seo_token) | Ethereum | 2.70% | $106.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TCVX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.5K in total.
+1 live pool clear this page's $100K TVL floor, $106.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank TCVX pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

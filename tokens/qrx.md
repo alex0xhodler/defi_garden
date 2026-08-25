@@ -4,7 +4,7 @@ The highest honest QRX yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ab44991-687b-48b8-9b30-3e83160aab78&src=seo_token) | Ethereum | 0.01% | $738.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ab44991-687b-48b8-9b30-3e83160aab78&src=seo_token) | Ethereum | 0.01% | $736.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $738.4K in total.
+1 live pool clear this page's $100K TVL floor, $736.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank QRX pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

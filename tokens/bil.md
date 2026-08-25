@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank BIL pools. This view covers A
 
 ## Related tokens
 
-- [SKY](https://www.defi.garden/tokens/sky)
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ADOT](https://www.defi.garden/tokens/adot)
 
 ## Available on
 

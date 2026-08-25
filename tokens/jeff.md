@@ -1,41 +1,38 @@
 # JEFF DeFi Yields
 
-The highest honest JEFF yield right now is 220.65% on hybra-v4 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JEFF yield right now is 245.98% on hybra-v4 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=9d1f486a-dafe-4e55-bf8d-6a5a45515b31&src=seo_token) | Hyperliquid L1 | 0.10% | $224.8K |
-| [hyperswap-v2 →](https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token) | Hyperliquid L1 | 19.24% | $201.5K |
-| [hybra-v4 →](https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token) | Hyperliquid L1 | 220.65% | $162.1K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token) | Hyperliquid L1 | 16.90% | $183.8K |
+| [hybra-v4 →](https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token) | Hyperliquid L1 | 245.98% | $133.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JEFF's lower-variability candidates are project-x (Hyperliquid L1), 0.10% APY, $224.8K TVL, https://www.defi.garden/?pool=9d1f486a-dafe-4e55-bf8d-6a5a45515b31&src=seo_token; hyperswap-v2 (Hyperliquid L1), 19.24% APY, $201.5K TVL, https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token; hybra-v4 (Hyperliquid L1), 220.65% APY, $162.1K TVL, https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JEFF's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 16.90% APY, $183.8K TVL, https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token; hybra-v4 (Hyperliquid L1), 245.98% APY, $133.3K TVL, https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-x →](https://www.defi.garden/?pool=9d1f486a-dafe-4e55-bf8d-6a5a45515b31&src=seo_token) | Hyperliquid L1 | 0.10% | $224.8K |
-| 2 | [hyperswap-v2 →](https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token) | Hyperliquid L1 | 19.24% | $201.5K |
-| 3 | [hybra-v4 →](https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token) | Hyperliquid L1 | 220.65% | $162.1K |
+| 1 | [hyperswap-v2 →](https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token) | Hyperliquid L1 | 16.90% | $183.8K |
+| 2 | [hybra-v4 →](https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token) | Hyperliquid L1 | 245.98% | $133.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JEFF shows up in 3 pools here, with rates from 0.10% to 220.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JEFF shows up in 2 pools here, with rates from 16.90% to 245.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 130.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.10% | 0.00% | Base rate |
-| hyperswap-v2 | 19.24% | 5.51% | Base rate |
-| hybra-v4 | 220.65% | 255.70% | 100.00% incentives |
+| hyperswap-v2 | 16.90% | 5.58% | Base rate |
+| hybra-v4 | 245.98% | 255.41% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JEFF yield today?
 
-220.65% APY on hybra-v4 (Hyperliquid L1), based on live DefiLlama data.
+245.98% APY on hybra-v4 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many JEFF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $588.4K in total.
+3 live pools clear this page's $100K TVL floor, $480K in total.
 
 ### Are these rates safe?
 
@@ -55,15 +52,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JEFF pools have the most stable APY history?
 
-Based on APY history only, JEFF's lower-variability candidates are project-x (Hyperliquid L1), 0.10% APY, $224.8K TVL, https://www.defi.garden/?pool=9d1f486a-dafe-4e55-bf8d-6a5a45515b31&src=seo_token; hyperswap-v2 (Hyperliquid L1), 19.24% APY, $201.5K TVL, https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token; hybra-v4 (Hyperliquid L1), 220.65% APY, $162.1K TVL, https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JEFF's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 16.90% APY, $183.8K TVL, https://www.defi.garden/?pool=c3982be7-be8c-492e-ac2e-86a50b45a819&src=seo_token; hybra-v4 (Hyperliquid L1), 245.98% APY, $133.3K TVL, https://www.defi.garden/?pool=edfa9d23-a931-5fec-9ce8-6105dfcb440f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on

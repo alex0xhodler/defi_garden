@@ -1,29 +1,29 @@
 # SATO DeFi Yields
 
-The highest honest SATO yield right now is 5.61% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATO yield right now is 5.29% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 4.44% | $318.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 5.61% | $299.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 4.51% | $316.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 5.29% | $293.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 4.44% APY, $318.9K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 5.61% APY, $299.2K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 4.51% APY, $316.9K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 5.29% APY, $293.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 4.44% | $318.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 5.61% | $299.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 4.51% | $316.9K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 5.29% | $293.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SATO shows up in 2 pools here, with rates from 4.44% to 5.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SATO shows up in 2 pools here, with rates from 4.51% to 5.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 4.44% | 12.45% | Base rate |
-| uniswap-v4 | 5.61% | 12.17% | Base rate |
+| uniswap-v4 | 4.51% | 12.41% | Base rate |
+| uniswap-v4 | 5.29% | 12.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SATO yield today?
 
-5.61% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+5.29% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SATO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $618.1K in total.
+2 live pools clear this page's $100K TVL floor, $610.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SATO pools have the most stable APY history?
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 4.44% APY, $318.9K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 5.61% APY, $299.2K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 4.51% APY, $316.9K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 5.29% APY, $293.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,8 +60,8 @@ Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (E
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

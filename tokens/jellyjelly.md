@@ -4,7 +4,7 @@ The highest honest JELLYJELLY yield right now is 5.95% on raydium-amm (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3f1bb4f-6d3a-41f2-af1a-ae6baa4edd66&src=seo_token) | Solana | 5.95% | $4.82M |
+| [raydium-amm →](https://www.defi.garden/?pool=d3f1bb4f-6d3a-41f2-af1a-ae6baa4edd66&src=seo_token) | Solana | 5.95% | $4.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JELLYJELLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.82M in total.
+1 live pool clear this page's $100K TVL floor, $4.8M in total.
 
 ### Are these rates safe?
 

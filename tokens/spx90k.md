@@ -1,10 +1,10 @@
 # SPX90K DeFi Yields
 
-The highest honest SPX90K yield right now is 60.68% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX90K yield right now is 198.60% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=027e3ee7-3003-5220-af75-db9ed2e789e9&src=seo_token) | Base | 60.68% | $101.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=027e3ee7-3003-5220-af75-db9ed2e789e9&src=seo_token) | Base | 198.60% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX90K yield today?
 
-60.68% APY on uniswap-v2 (Base), based on live DefiLlama data.
+198.60% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX90K pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.3K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 

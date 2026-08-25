@@ -1,10 +1,10 @@
 # HARNESS DeFi Yields
 
-The highest honest HARNESS yield right now is 61.71% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HARNESS yield right now is 51.40% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3b84becc-d530-4db7-a1f5-64d1b6d75d22&src=seo_token) | Base | 61.71% | $110.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3b84becc-d530-4db7-a1f5-64d1b6d75d22&src=seo_token) | Base | 51.40% | $104.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HARNESS yield today?
 
-61.71% APY on uniswap-v4 (Base), based on live DefiLlama data.
+51.40% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many HARNESS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.5K in total.
+1 live pool clear this page's $100K TVL floor, $104.9K in total.
 
 ### Are these rates safe?
 

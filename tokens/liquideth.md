@@ -4,7 +4,7 @@ The highest honest LIQUIDETH yield right now is 3.78% on ether.fi-liquid (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=b86d4934-2e75-415a-bdd2-e28143d72491&src=seo_token) | Ethereum | 3.78% | $318.94M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=b86d4934-2e75-415a-bdd2-e28143d72491&src=seo_token) | Ethereum | 3.78% | $317.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIQUIDETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $319.09M in total.
+2 live pools clear this page's $100K TVL floor, $317.87M in total.
 
 ### Are these rates safe?
 
@@ -51,8 +51,8 @@ There is not enough qualifying APY history to rank LIQUIDETH pools. This view co
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

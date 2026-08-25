@@ -4,7 +4,7 @@ The highest honest MOLTX yield right now is 0.17% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f85a18af-b72b-4aa0-a464-4fd09bd0125c&src=seo_token) | Base | 0.17% | $329.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f85a18af-b72b-4aa0-a464-4fd09bd0125c&src=seo_token) | Base | 0.17% | $328.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOLTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $329.2K in total.
+1 live pool clear this page's $100K TVL floor, $328.4K in total.
 
 ### Are these rates safe?
 

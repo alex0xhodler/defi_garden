@@ -1,10 +1,10 @@
 # SWAG DeFi Yields
 
-The highest honest SWAG yield right now is 1.58% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWAG yield right now is 1.53% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6da5d567-8630-4397-bc32-bc782dd13806&src=seo_token) | Ethereum | 1.58% | $128.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6da5d567-8630-4397-bc32-bc782dd13806&src=seo_token) | Ethereum | 1.53% | $127.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWAG yield today?
 
-1.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.53% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SWAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.3K in total.
+1 live pool clear this page's $100K TVL floor, $127.9K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SWAG pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

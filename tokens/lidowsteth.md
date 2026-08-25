@@ -4,7 +4,7 @@ The highest honest LIDOWSTETH yield right now is 2.19% on balancer-v3 (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.19% | $1.71M |
+| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.19% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LIDOWSTETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.71M in total.
+1 live pool clear this page's $100K TVL floor, $1.7M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LIDOWSTETH pools. This view c
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

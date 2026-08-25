@@ -1,10 +1,10 @@
 # LMEOW DeFi Yields
 
-The highest honest LMEOW yield right now is 38.39% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMEOW yield right now is 40.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ab021482-2488-4bdb-bdc4-5ceb333d6d1e&src=seo_token) | Ethereum | 38.39% | $675.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ab021482-2488-4bdb-bdc4-5ceb333d6d1e&src=seo_token) | Ethereum | 40.16% | $675.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMEOW yield today?
 
-38.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+40.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LMEOW pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LMEOW pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

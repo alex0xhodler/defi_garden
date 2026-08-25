@@ -1,10 +1,10 @@
 # SPARKUSDTBC DeFi Yields
 
-The highest honest SPARKUSDTBC yield right now is 3.40% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPARKUSDTBC yield right now is 3.11% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=95161b3c-7d6e-4c02-a0d7-878ac357ebbf&src=seo_token) | Ethereum | 3.40% | $276.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=95161b3c-7d6e-4c02-a0d7-878ac357ebbf&src=seo_token) | Ethereum | 3.11% | $276.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPARKUSDTBC yield today?
 
-3.40% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.11% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SPARKUSDTBC pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SPARKUSDTBC pools. This view 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

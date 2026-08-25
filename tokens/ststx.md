@@ -4,7 +4,7 @@ The highest honest STSTX yield right now is 0.06% on zest-v2 (Stacks), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.06% | $2.71M |
+| [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.06% | $2.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STSTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.71M in total.
+1 live pool clear this page's $100K TVL floor, $2.83M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank STSTX pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

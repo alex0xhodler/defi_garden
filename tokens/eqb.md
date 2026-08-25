@@ -1,10 +1,10 @@
 # EQB DeFi Yields
 
-The highest honest EQB yield right now is 19.35% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EQB yield right now is 16.31% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 19.35% | $111.2K |
+| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 16.31% | $110.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EQB yield today?
 
-19.35% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
+16.31% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many EQB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.2K in total.
+1 live pool clear this page's $100K TVL floor, $110.9K in total.
 
 ### Are these rates safe?
 

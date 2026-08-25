@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f1f7aa83-7e78-4a1b-b69c-f94da1e8a92b&src=seo_token) | Ethereum | 0.01% | $127K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f1f7aa83-7e78-4a1b-b69c-f94da1e8a92b&src=seo_token) | Ethereum | 0.01% | $126.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예�
 
 ### SHIBAKEN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $126.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예�
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

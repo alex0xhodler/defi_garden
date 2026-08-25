@@ -1,10 +1,10 @@
 # WINR DeFi Yields
 
-The highest honest WINR yield right now is 120.86% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WINR yield right now is 124.66% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=c7f6aa58-9faa-44b6-8649-053b833a09f8&src=seo_token) | Arbitrum | 120.86% | $118.8K |
+| [camelot-v3 →](https://www.defi.garden/?pool=c7f6aa58-9faa-44b6-8649-053b833a09f8&src=seo_token) | Arbitrum | 124.66% | $117.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WINR yield today?
 
-120.86% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+124.66% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many WINR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.8K in total.
+1 live pool clear this page's $100K TVL floor, $117.8K in total.
 
 ### Are these rates safe?
 

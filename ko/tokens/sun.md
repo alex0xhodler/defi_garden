@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_token) | Tron | 1.47% | $5.52M |
+| [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_token) | Tron | 1.47% | $5.46M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.47%예요.
 
 ### SUN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.52M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.46M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,12 +33,12 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.47%예요.
 
 ## 관련 토큰
 
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [JST](https://www.defi.garden/ko/tokens/jst)
 - [TUSD](https://www.defi.garden/ko/tokens/tusd)
-- [BTT](https://www.defi.garden/ko/tokens/btt)
 
 ## 이용 가능한 체인
 

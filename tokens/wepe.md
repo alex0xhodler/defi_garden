@@ -1,10 +1,10 @@
 # WEPE DeFi Yields
 
-The highest honest WEPE yield right now is 0.26% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEPE yield right now is 0.19% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c35362a7-3ac8-400b-8799-18a72dfcb786&src=seo_token) | Ethereum | 0.26% | $344.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c35362a7-3ac8-400b-8799-18a72dfcb786&src=seo_token) | Ethereum | 0.19% | $337.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WEPE yield today?
 
-0.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WEPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $344.2K in total.
+1 live pool clear this page's $100K TVL floor, $337.6K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WEPE pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest DOVU yield right now is 16.25% on saucerswap-v1 (Hedera), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $153.3K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $152.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOVU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.3K in total.
+1 live pool clear this page's $100K TVL floor, $152.6K in total.
 
 ### Are these rates safe?
 

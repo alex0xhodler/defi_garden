@@ -4,18 +4,18 @@ The highest honest USDD yield right now is 3.98% on justlend-v1 (Tron), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $390.02M |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $389.86M |
 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.20% | $500.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.20% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $390.02M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.20% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $389.86M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.20% | $500.1K |
-| 2 | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $390.02M |
+| 2 | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $389.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $390.72M in total.
+3 live pools clear this page's $100K TVL floor, $390.56M in total.
 
 ### Are these rates safe?
 
@@ -50,16 +50,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDD pools have the most stable APY history?
 
-Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.20% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $390.02M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.20% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $389.86M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

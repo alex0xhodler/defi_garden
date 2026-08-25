@@ -4,7 +4,7 @@ The highest honest HYBR yield right now is 192.69% on hybra-v4 (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff&src=seo_token) | Hyperliquid L1 | 192.69% | $136.5K |
+| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff&src=seo_token) | Hyperliquid L1 | 192.69% | $139.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HYBR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.5K in total.
+1 live pool clear this page's $100K TVL floor, $139.5K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank HYBR pools. This view covers 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on

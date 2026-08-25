@@ -1,10 +1,10 @@
 # AWE DeFi Yields
 
-The highest honest AWE yield right now is 41.98% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AWE yield right now is 42.50% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ff38a530-7e1d-476a-9582-0adc16a90a9d&src=seo_token) | Base | 41.98% | $390.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ff38a530-7e1d-476a-9582-0adc16a90a9d&src=seo_token) | Base | 42.50% | $389.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AWE yield today?
 
-41.98% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+42.50% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many AWE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $390.7K in total.
+1 live pool clear this page's $100K TVL floor, $389.5K in total.
 
 ### Are these rates safe?
 

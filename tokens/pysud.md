@@ -4,7 +4,7 @@ The highest honest PYSUD yield right now is 0.14% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=99bebd4c-9a94-58ae-80fd-02e57ccbe805&src=seo_token) | Solana | 0.14% | $131.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=99bebd4c-9a94-58ae-80fd-02e57ccbe805&src=seo_token) | Solana | 0.14% | $131.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PYSUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.8K in total.
+1 live pool clear this page's $100K TVL floor, $131.5K in total.
 
 ### Are these rates safe?
 

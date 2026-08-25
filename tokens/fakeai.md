@@ -4,7 +4,7 @@ The highest honest FAKEAI yield right now is 0.03% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=561345da-f674-4b03-a972-f79026989b22&src=seo_token) | Ethereum | 0.03% | $202.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=561345da-f674-4b03-a972-f79026989b22&src=seo_token) | Ethereum | 0.03% | $202.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FAKEAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.8K in total.
+1 live pool clear this page's $100K TVL floor, $202.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank FAKEAI pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -1,6 +1,6 @@
 # Etherlink DeFi Yields
 
-The highest honest Etherlink yield right now is 9.23% on midas-rwa (Etherlink), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Etherlink yield right now is 14.53% on midas-rwa (Etherlink), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Etherlink yield today?
 
-9.23% APY on midas-rwa (Etherlink), based on live DefiLlama data.
+14.53% APY on midas-rwa (Etherlink), based on live DefiLlama data.
 
 ### How many Etherlink pools clear the TVL floor?
 

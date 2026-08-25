@@ -4,18 +4,18 @@ The highest honest FEY yield right now is 0.13% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.5K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.8K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.4K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.5K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FEY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $318.3K in total.
+2 live pools clear this page's $100K TVL floor, $317.7K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FEY pools have the most stable APY history?
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.5K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.8K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.4K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,8 +60,8 @@ Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Et
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

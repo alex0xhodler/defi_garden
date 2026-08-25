@@ -4,7 +4,7 @@ The highest honest GTPATHUSDP yield right now is 3.26% on morpho-blue (Tempo), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_token) | Tempo | 3.26% | $286.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_token) | Tempo | 3.26% | $286.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTPATHUSDP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $286.5K in total.
+1 live pool clear this page's $100K TVL floor, $286.2K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank GTPATHUSDP pools. This view c
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

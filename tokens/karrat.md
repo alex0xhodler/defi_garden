@@ -1,10 +1,10 @@
 # KARRAT DeFi Yields
 
-The highest honest KARRAT yield right now is 110.47% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KARRAT yield right now is 25.44% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b6214be0-25c2-4bd2-9986-8e25668fce26&src=seo_token) | Ethereum | 110.47% | $101.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b6214be0-25c2-4bd2-9986-8e25668fce26&src=seo_token) | Ethereum | 25.44% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KARRAT yield today?
 
-110.47% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+25.44% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many KARRAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.9K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank KARRAT pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

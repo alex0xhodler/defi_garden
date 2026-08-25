@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 0.13% | $5.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 0.13% | $5.02M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -53,8 +53,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.13%예�
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

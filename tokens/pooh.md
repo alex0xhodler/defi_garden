@@ -1,10 +1,10 @@
 # POOH DeFi Yields
 
-The highest honest POOH yield right now is 0.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POOH yield right now is 0.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dd9330d0-6ac3-42e1-bc58-b716646362f5&src=seo_token) | Ethereum | 0.21% | $543.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dd9330d0-6ac3-42e1-bc58-b716646362f5&src=seo_token) | Ethereum | 0.43% | $543.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POOH yield today?
 
-0.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many POOH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $543.3K in total.
+1 live pool clear this page's $100K TVL floor, $543.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank POOH pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest ADO yield right now is 0.18% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=55d86ca5-baf3-418f-8f8d-d8f31f287bb1&src=seo_token) | Ethereum | 0.18% | $2.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=55d86ca5-baf3-418f-8f8d-d8f31f287bb1&src=seo_token) | Ethereum | 0.18% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ADO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.02M in total.
+1 live pool clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank ADO pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # FAUSDE DeFi Yields
 
-The highest honest FAUSDE yield right now is 6.69% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAUSDE yield right now is 6.64% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 6.69% | $6.98M |
+| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 6.64% | $6.98M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAUSDE yield today?
 
-6.69% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.64% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many FAUSDE pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank FAUSDE pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

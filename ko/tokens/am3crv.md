@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $103.2K |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $104.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

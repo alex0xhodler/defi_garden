@@ -1,17 +1,17 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 39.07% on raydium-amm (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 39.07% on raydium-amm (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=af6c558c-1a34-5bf6-a2e3-311a418376fb&src=seo_token) | Solana | 13.51% | $102.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=c6d88c7e-bca4-51b9-9d2c-1c1f1a5a156c&src=seo_token) | Solana | 20.13% | $102.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=af6c558c-1a34-5bf6-a2e3-311a418376fb&src=seo_token) | Solana | 18.98% | $103.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=84e63c75-783a-5677-bfd5-dcfaad228d7a&src=seo_token) | Solana | 5.05% | $103K |
+| [raydium-amm →](https://www.defi.garden/?pool=c6d88c7e-bca4-51b9-9d2c-1c1f1a5a156c&src=seo_token) | Solana | 19.98% | $102.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=cc265b48-4b6a-5d30-b976-702ccfed9728&src=seo_token) | Solana | 18.14% | $100.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=0a465532-b172-5a10-8d18-ff719d5936a4&src=seo_token) | Solana | 13.60% | $100.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=5c2bf5cf-3478-530c-822f-88d77b9bdb73&src=seo_token) | Solana | 20.36% | $100.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=eda5d028-fce9-58c5-ad77-b69bcf334cf2&src=seo_token) | Solana | 39.07% | $100.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=e4afda67-e024-5533-a52b-9d343dd8ff43&src=seo_token) | Solana | 12.32% | $100.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=9b3f6557-f145-52d0-a83d-73f635cb5d1c&src=seo_token) | Solana | 19.73% | $100.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -22,9 +22,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XMR shows up in 8 pools here, with rates from 12.32% to 39.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XMR shows up in 8 pools here, with rates from 5.05% to 39.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,14 +32,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 13.51% | 11.10% | Base rate |
-| raydium-amm | 20.13% | 12.09% | Base rate |
+| raydium-amm | 18.98% | 12.92% | Base rate |
+| raydium-amm | 5.05% | 4.35% | Base rate |
+| raydium-amm | 19.98% | 12.59% | Base rate |
 | raydium-amm | 18.14% | 12.63% | Base rate |
 | raydium-amm | 13.60% | 9.03% | Base rate |
 | raydium-amm | 20.36% | 12.88% | Base rate |
 | raydium-amm | 39.07% | 30.08% | Base rate |
 | raydium-amm | 12.32% | 11.56% | Base rate |
-| raydium-amm | 19.73% | 16.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XMR pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $1.41M in total.
+15 live pools clear this page's $100K TVL floor, $1.51M in total.
 
 ### Are these rates safe?
 

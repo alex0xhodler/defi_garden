@@ -1,10 +1,10 @@
 # SHRUB DeFi Yields
 
-The highest honest SHRUB yield right now is 1.61% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHRUB yield right now is 0.96% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 1.61% | $250.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 0.96% | $249.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHRUB yield today?
 
-1.61% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.96% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHRUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $250.7K in total.
+1 live pool clear this page's $100K TVL floor, $249.9K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SHRUB pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

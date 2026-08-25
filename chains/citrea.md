@@ -5,7 +5,7 @@ The highest honest Citrea yield right now is 8.33% on zentra-finance (Citrea), a
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 0.46% | $3.17M |
-| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 8.33% | $100.2K |
+| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 8.33% | $100.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

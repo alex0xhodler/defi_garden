@@ -1,10 +1,10 @@
 # SHBTC DeFi Yields
 
-The highest honest SHBTC yield right now is 1.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHBTC yield right now is 1.36% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d5a0e376-4831-4e03-b7ab-585d51279bb4&src=seo_token) | Solana | 1.62% | $187.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=d5a0e376-4831-4e03-b7ab-585d51279bb4&src=seo_token) | Solana | 1.36% | $187.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHBTC yield today?
 
-1.62% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.36% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SHBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.3K in total.
+1 live pool clear this page's $100K TVL floor, $187.1K in total.
 
 ### Are these rates safe?
 

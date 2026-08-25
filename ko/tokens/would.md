@@ -1,10 +1,10 @@
 # WOULD 디파이 수익률
 
-현재 WOULD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 3.83%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WOULD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 3.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 3.83% | $1.22M |
+| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 3.68% | $1.22M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 WOULD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 3.83%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 3.68%예요.
 
 ### WOULD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

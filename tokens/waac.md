@@ -1,10 +1,10 @@
 # WAAC DeFi Yields
 
-The highest honest WAAC yield right now is 2.68% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAAC yield right now is 7.75% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=139ea625-dbd0-4ffc-a286-af386a9fd64b&src=seo_token) | Ethereum | 2.68% | $493.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=139ea625-dbd0-4ffc-a286-af386a9fd64b&src=seo_token) | Ethereum | 7.75% | $487.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAAC yield today?
 
-2.68% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.75% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WAAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $493.5K in total.
+1 live pool clear this page's $100K TVL floor, $487.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WAAC pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

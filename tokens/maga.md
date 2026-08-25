@@ -1,10 +1,10 @@
 # MAGA DeFi Yields
 
-The highest honest MAGA yield right now is 0.46% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAGA yield right now is 0.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0acdc74-0547-4617-a4de-bdc478e6bafc&src=seo_token) | Ethereum | 0.46% | $397.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0acdc74-0547-4617-a4de-bdc478e6bafc&src=seo_token) | Ethereum | 0.11% | $396.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAGA yield today?
 
-0.46% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MAGA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $397.5K in total.
+1 live pool clear this page's $100K TVL floor, $396.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank MAGA pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

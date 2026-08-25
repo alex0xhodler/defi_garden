@@ -1,10 +1,10 @@
 # QUICK DeFi Yields
 
-The highest honest QUICK yield right now is 2.62% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUICK yield right now is 3.05% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941&src=seo_token) | Polygon | 2.62% | $101K |
+| [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941&src=seo_token) | Polygon | 3.05% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QUICK yield today?
 
-2.62% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+3.05% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many QUICK pools clear the TVL floor?
 

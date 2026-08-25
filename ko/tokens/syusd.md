@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 5.52% | $2.14M |
 | [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.58% | $2.14M |
+| [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 5.52% | $2.14M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -29,8 +29,8 @@ SYUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.52%부터 5.58%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 5.52% | 5.02% | 기본 금리 |
 | pendle | 5.58% | 5.49% | 기본 금리 |
+| pendle | 5.52% | 5.02% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,8 +58,8 @@ APY 이력만 기준으로 비교한 SYUSD의 변동성 낮은 후보는 Ethereu
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

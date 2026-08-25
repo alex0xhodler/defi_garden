@@ -1,10 +1,10 @@
 # PERPCOIN DeFi Yields
 
-The highest honest PERPCOIN yield right now is 9.18% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PERPCOIN yield right now is 9.94% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=94eda08b-9f17-425d-960b-630a7f78c3c2&src=seo_token) | Hyperliquid L1 | 9.18% | $114.6K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=94eda08b-9f17-425d-960b-630a7f78c3c2&src=seo_token) | Hyperliquid L1 | 9.94% | $112K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PERPCOIN yield today?
 
-9.18% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+9.94% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PERPCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.6K in total.
+1 live pool clear this page's $100K TVL floor, $112K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank PERPCOIN pools. This view cov
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on

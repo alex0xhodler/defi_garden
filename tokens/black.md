@@ -1,10 +1,10 @@
 # BLACK DeFi Yields
 
-The highest honest BLACK yield right now is 18.00% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLACK yield right now is 15.35% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 18.00% | $206.1K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 15.35% | $205.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLACK yield today?
 
-18.00% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+15.35% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many BLACK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.1K in total.
+1 live pool clear this page's $100K TVL floor, $205.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank BLACK pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 

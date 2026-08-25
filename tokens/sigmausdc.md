@@ -1,10 +1,10 @@
 # SIGMAUSDC DeFi Yields
 
-The highest honest SIGMAUSDC yield right now is 5.72% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIGMAUSDC yield right now is 5.68% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.72% | $733.2K |
+| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.68% | $733.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIGMAUSDC yield today?
 
-5.72% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.68% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many SIGMAUSDC pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SIGMAUSDC pools. This view co
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

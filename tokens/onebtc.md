@@ -4,7 +4,7 @@ The highest honest ONEBTC yield right now is 1.01% on sushiswap (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 1.01% | $301.1K |
+| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 1.01% | $300.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ONEBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $301.1K in total.
+1 live pool clear this page's $100K TVL floor, $300.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank ONEBTC pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

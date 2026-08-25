@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank VNO pools. This view covers A
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 

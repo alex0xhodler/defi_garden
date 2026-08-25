@@ -1,39 +1,39 @@
 # XBTC 디파이 수익률
 
-현재 XBTC의 가장 높은 정직한 수익률은 Sui의 current에서 4.25%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XBTC의 가장 높은 정직한 수익률은 Sui의 current에서 4.19%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.14% | $2.55M |
+| [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.13% | $2.54M |
 | [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.5M |
-| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 10.24% | $1.2M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 9.11% | $1.2M |
-| [current →](https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token) | Sui | 4.25% | $662.9K |
+| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 8.61% | $1.2M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 8.44% | $1.2M |
+| [current →](https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token) | Sui | 4.19% | $662.6K |
 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
-| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.20% | $358.1K |
-| [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 2.05% | $334.9K |
+| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.19% | $358.3K |
+| [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 1.51% | $335.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.01%, TVL $1.5M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.14%, TVL $2.55M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Aptos의 echelon-market, APY 1.20%, TVL $358.1K, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; Sui의 current, APY 4.25%, TVL $662.9K, https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token; Solana의 kamino-liquidity, APY 9.11%, TVL $1.2M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 10.24%, TVL $1.2M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Solana의 orca-dex, APY 2.05%, TVL $334.9K, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.01%, TVL $1.5M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.13%, TVL $2.54M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Aptos의 echelon-market, APY 1.19%, TVL $358.3K, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; Sui의 current, APY 4.19%, TVL $662.6K, https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token; Solana의 kamino-liquidity, APY 8.44%, TVL $1.2M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 8.61%, TVL $1.2M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Solana의 orca-dex, APY 1.51%, TVL $335.1K, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.5M |
-| 2 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.14% | $2.55M |
-| 3 | [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.20% | $358.1K |
-| 4 | [current →](https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token) | Sui | 4.25% | $662.9K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 9.11% | $1.2M |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 10.24% | $1.2M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 2.05% | $334.9K |
+| 2 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.13% | $2.54M |
+| 3 | [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.19% | $358.3K |
+| 4 | [current →](https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token) | Sui | 4.19% | $662.6K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 8.44% | $1.2M |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 8.61% | $1.2M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 1.51% | $335.1K |
 | 8 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 10.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 8.61%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ XBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 10.24%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| navi-lending | 1.14% | 1.17% | 인센티브 77.27% |
+| navi-lending | 1.13% | 1.17% | 인센티브 77.06% |
 | cetus-clmm | 0.01% | 0.01% | 기본 금리 |
-| orca-dex | 10.24% | 3.67% | 기본 금리 |
-| kamino-liquidity | 9.11% | 2.93% | 기본 금리 |
-| current | 4.25% | 4.78% | 인센티브 99.04% |
+| orca-dex | 8.61% | 3.71% | 기본 금리 |
+| kamino-liquidity | 8.44% | 2.97% | 기본 금리 |
+| current | 4.19% | 4.77% | 인센티브 99.01% |
 | hyperion | 0.37% | 0.37% | 기본 금리 |
-| echelon-market | 1.20% | 1.32% | 인센티브 100.00% |
-| orca-dex | 2.05% | 1.81% | 기본 금리 |
+| echelon-market | 1.19% | 1.32% | 인센티브 100.00% |
+| orca-dex | 1.51% | 1.82% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ XBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 10.24%�
 
 ### 오늘 XBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 4.25%예요.
+DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 4.19%예요.
 
 ### XBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $53.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $53.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 4.25%예요.
 
 ### XBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.01%, TVL $1.5M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.14%, TVL $2.55M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Aptos의 echelon-market, APY 1.20%, TVL $358.1K, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; Sui의 current, APY 4.25%, TVL $662.9K, https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token; Solana의 kamino-liquidity, APY 9.11%, TVL $1.2M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 10.24%, TVL $1.2M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Solana의 orca-dex, APY 2.05%, TVL $334.9K, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.01%, TVL $1.5M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.13%, TVL $2.54M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Aptos의 echelon-market, APY 1.19%, TVL $358.3K, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; Sui의 current, APY 4.19%, TVL $662.6K, https://www.defi.garden/?pool=7195de07-f61c-4ca7-9070-28136f6daf59&src=seo_token; Solana의 kamino-liquidity, APY 8.44%, TVL $1.2M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 8.61%, TVL $1.2M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Solana의 orca-dex, APY 1.51%, TVL $335.1K, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

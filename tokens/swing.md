@@ -1,10 +1,10 @@
 # SWING DeFi Yields
 
-The highest honest SWING yield right now is 40.18% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWING yield right now is 34.70% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=30d18bcd-cc17-5ec4-a9e1-d19135116a74&src=seo_token) | Ethereum | 40.18% | $317.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=30d18bcd-cc17-5ec4-a9e1-d19135116a74&src=seo_token) | Ethereum | 34.70% | $319.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWING yield today?
 
-40.18% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+34.70% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SWING pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $317.7K in total.
+1 live pool clear this page's $100K TVL floor, $319.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SWING pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

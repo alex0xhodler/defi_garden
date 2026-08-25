@@ -1,10 +1,10 @@
 # MEME.SSI DeFi Yields
 
-The highest honest MEME.SSI yield right now is 31.79% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEME.SSI yield right now is 23.37% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7d7cfb8a-c6c6-4d14-a57b-b6b7be9a1067&src=seo_token) | Base | 31.79% | $401.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7d7cfb8a-c6c6-4d14-a57b-b6b7be9a1067&src=seo_token) | Base | 23.37% | $401K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEME.SSI yield today?
 
-31.79% APY on uniswap-v3 (Base), based on live DefiLlama data.
+23.37% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MEME.SSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $401.2K in total.
+1 live pool clear this page's $100K TVL floor, $401K in total.
 
 ### Are these rates safe?
 

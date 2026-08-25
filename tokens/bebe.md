@@ -4,7 +4,7 @@ The highest honest BEBE yield right now is 0.11% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a618298f-0feb-40ae-a0de-7022c3adf59f&src=seo_token) | Ethereum | 0.11% | $108.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a618298f-0feb-40ae-a0de-7022c3adf59f&src=seo_token) | Ethereum | 0.11% | $108.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BEBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $691.4K in total.
+2 live pools clear this page's $100K TVL floor, $689.9K in total.
 
 ### Are these rates safe?
 
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank BEBE pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

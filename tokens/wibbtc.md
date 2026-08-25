@@ -4,18 +4,18 @@ The highest honest WIBBTC yield right now is 0.03% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.03% | $730.5K |
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.03% | $209.4K |
+| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.03% | $730.4K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.03% | $209.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WIBBTC's lower-variability candidates are convex-finance (Ethereum), 0.03% APY, $209.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.03% APY, $730.5K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WIBBTC's lower-variability candidates are convex-finance (Ethereum), 0.03% APY, $209.2K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.03% APY, $730.4K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.03% | $209.4K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.03% | $730.5K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.03% | $209.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.03% | $730.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.03% | 0.02% | Base rate |
+| curve-dex | 0.03% | 0.03% | Base rate |
 | convex-finance | 0.03% | 0.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WIBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $939.9K in total.
+2 live pools clear this page's $100K TVL floor, $939.6K in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WIBBTC pools have the most stable APY history?
 
-Based on APY history only, WIBBTC's lower-variability candidates are convex-finance (Ethereum), 0.03% APY, $209.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.03% APY, $730.5K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WIBBTC's lower-variability candidates are convex-finance (Ethereum), 0.03% APY, $209.2K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.03% APY, $730.4K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -58,8 +58,8 @@ Based on APY history only, WIBBTC's lower-variability candidates are convex-fina
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest SIFU yield right now is 0.02% on uwu-lend (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $395.3K |
+| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $389.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SIFU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $582.1K in total.
+2 live pools clear this page's $100K TVL floor, $576.3K in total.
 
 ### Are these rates safe?
 
@@ -51,8 +51,8 @@ There is not enough qualifying APY history to rank SIFU pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

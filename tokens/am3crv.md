@@ -4,7 +4,7 @@ The highest honest AM3CRV yield right now is 0.01% on curve-dex (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $103.2K |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $104.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

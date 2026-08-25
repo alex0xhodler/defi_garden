@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.03% | $245.2K |
+| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.03% | $249K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.03%예
 
 ### LONG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $245.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $249K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.03%예
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

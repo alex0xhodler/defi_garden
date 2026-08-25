@@ -1,10 +1,10 @@
 # DEXE DeFi Yields
 
-The highest honest DEXE yield right now is 0.29% on pancakeswap-amm-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEXE yield right now is 0.35% on pancakeswap-amm-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=1bbc9526-56d5-403f-808a-53c8c3277d98&src=seo_token) | Ethereum | 0.29% | $234.5K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=1bbc9526-56d5-403f-808a-53c8c3277d98&src=seo_token) | Ethereum | 0.35% | $236.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEXE yield today?
 
-0.29% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
+0.35% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DEXE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $234.5K in total.
+1 live pool clear this page's $100K TVL floor, $236.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank DEXE pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

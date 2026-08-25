@@ -4,7 +4,7 @@ The highest honest WM yield right now is 0.13% on uniswap-v3 (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 0.13% | $5.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 0.13% | $5.02M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank WM pools. This view covers AP
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

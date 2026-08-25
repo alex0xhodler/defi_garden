@@ -1,10 +1,10 @@
 # KROM DeFi Yields
 
-The highest honest KROM yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KROM yield right now is 0.04% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d3d6eb6a-4bf9-4a16-947f-6ce7d5399959&src=seo_token) | Ethereum | 0.02% | $478.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d3d6eb6a-4bf9-4a16-947f-6ce7d5399959&src=seo_token) | Ethereum | 0.04% | $476.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KROM yield today?
 
-0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many KROM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $478.9K in total.
+1 live pool clear this page's $100K TVL floor, $476.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank KROM pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

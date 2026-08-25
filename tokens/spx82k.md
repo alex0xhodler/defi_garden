@@ -1,10 +1,10 @@
 # SPX82K DeFi Yields
 
-The highest honest SPX82K yield right now is 87.43% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX82K yield right now is 277.12% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b3d4fad4-41c1-58fc-b7e5-af3124bff832&src=seo_token) | Base | 87.43% | $112.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b3d4fad4-41c1-58fc-b7e5-af3124bff832&src=seo_token) | Base | 277.12% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX82K yield today?
 
-87.43% APY on uniswap-v2 (Base), based on live DefiLlama data.
+277.12% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX82K pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.7K in total.
+1 live pool clear this page's $100K TVL floor, $112.9K in total.
 
 ### Are these rates safe?
 

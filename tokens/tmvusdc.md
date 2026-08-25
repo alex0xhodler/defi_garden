@@ -4,8 +4,8 @@ The highest honest TMVUSDC yield right now is 7.94% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 7.19% | $1.5M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.94% | $1.5M |
+| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 7.19% | $1.5M |
 | [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.94% | $489.8K |
 
 <!-- rate-stability:ranked -->
@@ -25,14 +25,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 TMVUSDC shows up in 3 pools here, with rates from 2.94% to 7.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 7.19% | 6.81% | Base rate |
 | pendle | 7.94% | 7.92% | Base rate |
+| pendle | 7.19% | 6.82% | Base rate |
 | convex-finance | 2.94% | 2.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -61,8 +61,8 @@ Based on APY history only, TMVUSDC's lower-variability candidates are pendle (Et
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

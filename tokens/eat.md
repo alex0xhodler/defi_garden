@@ -1,10 +1,10 @@
 # EAT DeFi Yields
 
-The highest honest EAT yield right now is 5.67% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EAT yield right now is 5.54% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc5788b4-916d-4909-85f2-1d25e5a1000d&src=seo_token) | Base | 5.67% | $928.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc5788b4-916d-4909-85f2-1d25e5a1000d&src=seo_token) | Base | 5.54% | $941.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EAT yield today?
 
-5.67% APY on uniswap-v4 (Base), based on live DefiLlama data.
+5.54% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many EAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $928.4K in total.
+1 live pool clear this page's $100K TVL floor, $941.7K in total.
 
 ### Are these rates safe?
 

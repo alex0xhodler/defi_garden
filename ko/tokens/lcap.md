@@ -1,39 +1,39 @@
 # LCAP 디파이 수익률
 
-현재 LCAP의 가장 높은 정직한 수익률은 Base의 stake-dao에서 45.30%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LCAP의 가장 높은 정직한 수익률은 Base의 stake-dao에서 44.83%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 3.57% | $536.8K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 42.99% | $322.4K |
-| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 45.30% | $237.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 5.02% | $193.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 33.04% | $165.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.72% | $162K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 42.25% | $324.5K |
+| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 44.83% | $238.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 5.07% | $193.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 33.37% | $165.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.87% | $161.7K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 20.04% | $158.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.72%, TVL $162K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 5.02%, TVL $193.3K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 3.57%, TVL $536.8K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 45.30%, TVL $237.4K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 33.04%, TVL $165.3K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 42.99%, TVL $322.4K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 20.04%, TVL $158.5K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.87%, TVL $161.7K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 5.07%, TVL $193.2K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 3.57%, TVL $536.8K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 44.83%, TVL $238.9K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 33.37%, TVL $165.2K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 42.25%, TVL $324.5K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 20.04%, TVL $158.5K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.72% | $162K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 5.02% | $193.3K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.87% | $161.7K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 5.07% | $193.2K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 3.57% | $536.8K |
-| 4 | [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 45.30% | $237.4K |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 33.04% | $165.3K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 42.99% | $322.4K |
+| 4 | [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 44.83% | $238.9K |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 33.37% | $165.2K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 42.25% | $324.5K |
 | 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 20.04% | $158.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 3.57%부터 45.30%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 3.57%부터 44.83%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 27.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 27.62%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,13 +41,13 @@ LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 3.57%부터 45.30%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 3.57% | 13.92% | 인센티브 100.00% |
-| curve-dex | 42.99% | 40.01% | 인센티브 98.53% |
-| stake-dao | 45.30% | 42.02% | 인센티브 98.01% |
-| aerodrome-v1 | 5.02% | 4.47% | 인센티브 100.00% |
-| aerodrome-v1 | 33.04% | 27.91% | 인센티브 100.00% |
-| aerodrome-v1 | 12.72% | 12.78% | 인센티브 100.00% |
-| aerodrome-slipstream | 20.04% | 27.63% | 인센티브 100.00% |
+| aerodrome-slipstream | 3.57% | 13.91% | 인센티브 100.00% |
+| curve-dex | 42.25% | 40.03% | 인센티브 98.58% |
+| stake-dao | 44.83% | 42.04% | 인센티브 97.97% |
+| aerodrome-v1 | 5.07% | 4.47% | 인센티브 100.00% |
+| aerodrome-v1 | 33.37% | 27.95% | 인센티브 100.00% |
+| aerodrome-v1 | 12.87% | 12.78% | 인센티브 100.00% |
+| aerodrome-slipstream | 20.04% | 27.62% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 3.57%부터 45.30%�
 
 ### 오늘 LCAP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 45.30%예요.
+DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 44.83%예요.
 
 ### LCAP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 45.30%예요.
 
 ### LCAP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.72%, TVL $162K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 5.02%, TVL $193.3K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 3.57%, TVL $536.8K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 45.30%, TVL $237.4K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 33.04%, TVL $165.3K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 42.99%, TVL $322.4K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 20.04%, TVL $158.5K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.87%, TVL $161.7K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 5.07%, TVL $193.2K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 3.57%, TVL $536.8K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 44.83%, TVL $238.9K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 33.37%, TVL $165.2K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 42.25%, TVL $324.5K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 20.04%, TVL $158.5K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

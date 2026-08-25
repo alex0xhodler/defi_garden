@@ -4,7 +4,7 @@ The highest honest POPG yield right now is 0.02% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6124706a-0ea8-473c-83a8-2dfb89ca5fd2&src=seo_token) | Ethereum | 0.02% | $264.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6124706a-0ea8-473c-83a8-2dfb89ca5fd2&src=seo_token) | Ethereum | 0.02% | $265K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many POPG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $264.9K in total.
+1 live pool clear this page's $100K TVL floor, $265K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank POPG pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

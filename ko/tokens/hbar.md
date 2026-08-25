@@ -4,24 +4,24 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 7.17% | $1.15M |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 15.92% | $500.6K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.69% | $288.1K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $281.7K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $153.3K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 7.19% | $1.15M |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 15.98% | $499.7K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.68% | $286.8K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $280.5K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $152.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HBAR의 변동성 낮은 후보는 Hedera의 saucerswap-v1, APY 1.69%, TVL $288.1K, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; Hedera의 saucerswap-v1, APY 7.17%, TVL $1.15M, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; Hedera의 saucerswap-v1, APY 0.01%, TVL $281.7K, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; Hedera의 saucerswap-v1, APY 16.25%, TVL $153.3K, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; Hedera의 saucerswap-v1, APY 15.92%, TVL $500.6K, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HBAR의 변동성 낮은 후보는 Hedera의 saucerswap-v1, APY 1.68%, TVL $286.8K, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; Hedera의 saucerswap-v1, APY 7.19%, TVL $1.15M, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; Hedera의 saucerswap-v1, APY 0.01%, TVL $280.5K, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; Hedera의 saucerswap-v1, APY 16.25%, TVL $152.6K, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; Hedera의 saucerswap-v1, APY 15.98%, TVL $499.7K, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.69% | $288.1K |
-| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 7.17% | $1.15M |
-| 3 | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $281.7K |
-| 4 | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $153.3K |
-| 5 | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 15.92% | $500.6K |
+| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.68% | $286.8K |
+| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 7.19% | $1.15M |
+| 3 | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $280.5K |
+| 4 | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 16.25% | $152.6K |
+| 5 | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 15.98% | $499.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -37,11 +37,11 @@ HBAR 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 16.25%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| saucerswap-v1 | 7.17% | 6.57% | 인센티브 82.80% |
-| saucerswap-v1 | 15.92% | 7.20% | 인센티브 27.87% |
-| saucerswap-v1 | 1.69% | 1.39% | 인센티브 69.83% |
+| saucerswap-v1 | 7.19% | 6.57% | 인센티브 82.60% |
+| saucerswap-v1 | 15.98% | 7.23% | 인센티브 27.74% |
+| saucerswap-v1 | 1.68% | 1.39% | 인센티브 70.32% |
 | saucerswap-v1 | 0.01% | 0.00% | 기본 금리 |
-| saucerswap-v1 | 16.25% | 13.58% | 인센티브 37.03% |
+| saucerswap-v1 | 16.25% | 13.56% | 인센티브 37.10% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Hedera의 saucerswap-v1에서 APY 16.25%�
 
 ### HBAR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HBAR의 변동성 낮은 후보는 Hedera의 saucerswap-v1, APY 1.69%, TVL $288.1K, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; Hedera의 saucerswap-v1, APY 7.17%, TVL $1.15M, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; Hedera의 saucerswap-v1, APY 0.01%, TVL $281.7K, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; Hedera의 saucerswap-v1, APY 16.25%, TVL $153.3K, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; Hedera의 saucerswap-v1, APY 15.92%, TVL $500.6K, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HBAR의 변동성 낮은 후보는 Hedera의 saucerswap-v1, APY 1.68%, TVL $286.8K, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; Hedera의 saucerswap-v1, APY 7.19%, TVL $1.15M, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; Hedera의 saucerswap-v1, APY 0.01%, TVL $280.5K, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; Hedera의 saucerswap-v1, APY 16.25%, TVL $152.6K, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; Hedera의 saucerswap-v1, APY 15.98%, TVL $499.7K, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

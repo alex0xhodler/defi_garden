@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1B in total.
+2 live pools clear this page's $100K TVL floor, $1.01B in total.
 
 ### Are these rates safe?
 

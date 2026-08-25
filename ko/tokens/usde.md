@@ -4,30 +4,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.50% | $331.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.50% | $313.98M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.61% | $279.59M |
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.19% | $166.47M |
-| [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 5.57% | $64.03M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.85% | $34.02M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.69% | $33.91M |
+| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.50% | $331.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.50% | $320.29M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.61% | $279.51M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.19% | $166.49M |
+| [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 5.57% | $64.12M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.83% | $34.02M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.66% | $33.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.84% | $8.16M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDE의 변동성 낮은 후보는 Robinhood Chain의 morpho-blue, APY 4.50%, TVL $313.98M, https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token; Plasma의 aave-v3, APY 3.19%, TVL $166.47M, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token; Base의 morpho-blue, APY 4.50%, TVL $331.81M, https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token; Mantle의 aave-v3, APY 3.84%, TVL $8.16M, https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token; Monad의 aave-v3, APY 5.57%, TVL $64.03M, https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token; Ethereum의 aave-v3, APY 2.61%, TVL $279.59M, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token; Ethereum의 convex-finance, APY 4.69%, TVL $33.91M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.85%, TVL $34.02M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDE의 변동성 낮은 후보는 Robinhood Chain의 morpho-blue, APY 4.50%, TVL $320.29M, https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token; Plasma의 aave-v3, APY 3.19%, TVL $166.49M, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token; Base의 morpho-blue, APY 4.50%, TVL $331.61M, https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token; Mantle의 aave-v3, APY 3.84%, TVL $8.16M, https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token; Monad의 aave-v3, APY 5.57%, TVL $64.12M, https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token; Ethereum의 aave-v3, APY 2.61%, TVL $279.51M, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token; Ethereum의 convex-finance, APY 4.66%, TVL $33.9M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.83%, TVL $34.02M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.50% | $313.98M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.19% | $166.47M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.50% | $331.81M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.50% | $320.29M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.19% | $166.49M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.50% | $331.61M |
 | 4 | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.84% | $8.16M |
-| 5 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 5.57% | $64.03M |
-| 6 | [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.61% | $279.59M |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.69% | $33.91M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.85% | $34.02M |
+| 5 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 5.57% | $64.12M |
+| 6 | [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.61% | $279.51M |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.66% | $33.9M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.83% | $34.02M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -43,12 +43,12 @@ USDE 풀은 여기 8개가 있고, 6개 체인에서 APY가 2.61%부터 5.57%까
 |---|---|---|---|
 | morpho-blue | 4.50% | 4.45% | 인센티브 100.00% |
 | morpho-blue | 4.50% | 4.44% | 인센티브 100.00% |
-| aave-v3 | 2.61% | 2.93% | 인센티브 51.89% |
-| aave-v3 | 3.19% | 3.03% | 인센티브 74.45% |
-| aave-v3 | 5.57% | 4.82% | 인센티브 92.26% |
-| curve-dex | 2.85% | 2.77% | 인센티브 99.65% |
-| convex-finance | 4.69% | 4.49% | 인센티브 99.79% |
-| aave-v3 | 3.84% | 3.76% | 인센티브 94.22% |
+| aave-v3 | 2.61% | 2.92% | 인센티브 51.86% |
+| aave-v3 | 3.19% | 3.02% | 인센티브 74.45% |
+| aave-v3 | 5.57% | 4.82% | 인센티브 92.30% |
+| curve-dex | 2.83% | 2.77% | 인센티브 99.65% |
+| convex-finance | 4.66% | 4.50% | 인센티브 99.79% |
+| aave-v3 | 3.84% | 3.75% | 인센티브 94.22% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.57%예요.
 
 ### USDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 39개이며, 합산 TVL은 $1.53B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 39개이며, 합산 TVL은 $1.54B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.57%예요.
 
 ### USDE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDE의 변동성 낮은 후보는 Robinhood Chain의 morpho-blue, APY 4.50%, TVL $313.98M, https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token; Plasma의 aave-v3, APY 3.19%, TVL $166.47M, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token; Base의 morpho-blue, APY 4.50%, TVL $331.81M, https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token; Mantle의 aave-v3, APY 3.84%, TVL $8.16M, https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token; Monad의 aave-v3, APY 5.57%, TVL $64.03M, https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token; Ethereum의 aave-v3, APY 2.61%, TVL $279.59M, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token; Ethereum의 convex-finance, APY 4.69%, TVL $33.91M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.85%, TVL $34.02M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDE의 변동성 낮은 후보는 Robinhood Chain의 morpho-blue, APY 4.50%, TVL $320.29M, https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token; Plasma의 aave-v3, APY 3.19%, TVL $166.49M, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token; Base의 morpho-blue, APY 4.50%, TVL $331.61M, https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token; Mantle의 aave-v3, APY 3.84%, TVL $8.16M, https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token; Monad의 aave-v3, APY 5.57%, TVL $64.12M, https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token; Ethereum의 aave-v3, APY 2.61%, TVL $279.51M, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token; Ethereum의 convex-finance, APY 4.66%, TVL $33.9M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.83%, TVL $34.02M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -76,8 +76,8 @@ APY 이력만 기준으로 비교한 USDE의 변동성 낮은 후보는 Robinhoo
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
