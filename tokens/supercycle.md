@@ -1,10 +1,10 @@
 # SUPERCYCLE DeFi Yields
 
-The highest honest SUPERCYCLE yield right now is 4.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERCYCLE yield right now is 5.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2393caaf-9038-48a9-84a8-d9f012bcb97f&src=seo_token) | Solana | 4.47% | $150.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=2393caaf-9038-48a9-84a8-d9f012bcb97f&src=seo_token) | Solana | 5.79% | $145.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERCYCLE yield today?
 
-4.47% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.79% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SUPERCYCLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.4K in total.
+1 live pool clear this page's $100K TVL floor, $145.5K in total.
 
 ### Are these rates safe?
 

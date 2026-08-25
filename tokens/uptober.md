@@ -1,10 +1,10 @@
 # UPTOBER DeFi Yields
 
-The highest honest UPTOBER yield right now is 19.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPTOBER yield right now is 25.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6ab10fc6-d4ff-41e4-8b45-e339eed10da3&src=seo_token) | Solana | 19.50% | $128.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6ab10fc6-d4ff-41e4-8b45-e339eed10da3&src=seo_token) | Solana | 25.54% | $122.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPTOBER yield today?
 
-19.50% APY on raydium-amm (Solana), based on live DefiLlama data.
+25.54% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many UPTOBER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.4K in total.
+1 live pool clear this page's $100K TVL floor, $122.3K in total.
 
 ### Are these rates safe?
 

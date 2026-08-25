@@ -1,10 +1,10 @@
 # NAILONG DeFi Yields
 
-The highest honest NAILONG yield right now is 2.34% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NAILONG yield right now is 2.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=94d6a97a-4c1f-4f8e-8788-d372271fd077&src=seo_token) | Solana | 2.34% | $117.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=94d6a97a-4c1f-4f8e-8788-d372271fd077&src=seo_token) | Solana | 2.18% | $117K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NAILONG yield today?
 
-2.34% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NAILONG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.1K in total.
+1 live pool clear this page's $100K TVL floor, $117K in total.
 
 ### Are these rates safe?
 

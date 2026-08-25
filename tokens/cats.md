@@ -1,10 +1,10 @@
 # CATS DeFi Yields
 
-The highest honest CATS yield right now is 0.14% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATS yield right now is 0.01% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=2fcbbb78-cf10-4bc3-a6be-91bdc9869ebb&src=seo_token) | TON | 0.14% | $280.2K |
+| [ston.fi →](https://www.defi.garden/?pool=2fcbbb78-cf10-4bc3-a6be-91bdc9869ebb&src=seo_token) | TON | 0.01% | $276.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CATS yield today?
 
-0.14% APY on ston.fi (TON), based on live DefiLlama data.
+0.01% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many CATS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $280.2K in total.
+1 live pool clear this page's $100K TVL floor, $276.4K in total.
 
 ### Are these rates safe?
 

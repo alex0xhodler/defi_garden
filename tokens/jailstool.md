@@ -4,7 +4,7 @@ The highest honest JAILSTOOL yield right now is 1.43% on raydium-amm (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 1.43% | $467.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 1.43% | $467K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JAILSTOOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $467.7K in total.
+1 live pool clear this page's $100K TVL floor, $467K in total.
 
 ### Are these rates safe?
 

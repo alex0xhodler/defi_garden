@@ -5,16 +5,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.10% | $983K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.57% | $248.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.57% | $248.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BTT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.57%, TVL $248.7K, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; Tron의 justlend-v1, APY 0.10%, TVL $983K, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.57%, TVL $248.6K, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; Tron의 justlend-v1, APY 0.10%, TVL $983K, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.57% | $248.7K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.57% | $248.6K |
 | 2 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.10% | $983K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.57%예�
 
 ### BTT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BTT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.57%, TVL $248.7K, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; Tron의 justlend-v1, APY 0.10%, TVL $983K, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.57%, TVL $248.6K, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; Tron의 justlend-v1, APY 0.10%, TVL $983K, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

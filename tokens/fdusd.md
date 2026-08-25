@@ -1,6 +1,6 @@
 # FDUSD DeFi Yields
 
-The highest honest FDUSD yield right now is 2.15% on aave-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FDUSD yield right now is 2.86% on venus-core-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| venus-core-pool | 2.86% | 1.90% | Base rate |
+| venus-core-pool | 2.86% | 1.91% | Base rate |
 | aave-v3 | 2.15% | 1.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FDUSD yield today?
 
-2.15% APY on aave-v3 (BSC), based on live DefiLlama data.
+2.86% APY on venus-core-pool (BSC), based on live DefiLlama data.
 
 ### How many FDUSD pools clear the TVL floor?
 

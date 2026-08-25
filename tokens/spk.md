@@ -1,29 +1,29 @@
 # SPK DeFi Yields
 
-The highest honest SPK yield right now is 143.12% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPK yield right now is 144.72% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 59.68% | $760.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 143.12% | $606.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 55.30% | $748.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 144.72% | $600.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 59.68% APY, $760.6K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 143.12% APY, $606.9K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 55.30% APY, $748.6K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 144.72% APY, $600.2K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 59.68% | $760.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 143.12% | $606.9K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 55.30% | $748.6K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 144.72% | $600.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPK shows up in 2 pools here, with rates from 59.68% to 143.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPK shows up in 2 pools here, with rates from 55.30% to 144.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 28.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 29.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 59.68% | 24.67% | Base rate |
-| uniswap-v4 | 143.12% | 32.90% | Base rate |
+| uniswap-v4 | 55.30% | 24.85% | Base rate |
+| uniswap-v4 | 144.72% | 33.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPK yield today?
 
-143.12% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+144.72% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SPK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.37M in total.
+2 live pools clear this page's $100K TVL floor, $1.35M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPK pools have the most stable APY history?
 
-Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 59.68% APY, $760.6K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 143.12% APY, $606.9K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 55.30% APY, $748.6K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 144.72% APY, $600.2K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

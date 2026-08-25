@@ -1,27 +1,27 @@
 # SDT 디파이 수익률
 
-현재 SDT의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 9.90%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDT의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 9.76%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 9.90% | $524.1K |
-| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.72% | $523.6K |
+| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.47% | $524.6K |
+| [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 9.76% | $522.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SDT의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 9.90%, TVL $524.1K, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; Ethereum의 curve-dex, APY 8.72%, TVL $523.6K, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDT의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 9.76%, TVL $522.5K, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; Ethereum의 curve-dex, APY 8.47%, TVL $524.6K, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 9.90% | $524.1K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.72% | $523.6K |
+| 1 | [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 9.76% | $522.5K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.47% | $524.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SDT 풀은 여기 2개가 있고, 1개 체인에서 APY가 8.72%부터 9.90%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SDT 풀은 여기 2개가 있고, 1개 체인에서 APY가 8.47%부터 9.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.87%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -31,8 +31,8 @@ SDT 풀은 여기 2개가 있고, 1개 체인에서 APY가 8.72%부터 9.90%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| stake-dao | 9.90% | 10.48% | 인센티브 97.98% |
-| curve-dex | 8.72% | 9.27% | 인센티브 97.94% |
+| curve-dex | 8.47% | 9.27% | 인센티브 100.00% |
+| stake-dao | 9.76% | 10.48% | 인센티브 97.95% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ SDT 풀은 여기 2개가 있고, 1개 체인에서 APY가 8.72%부터 9.90%까�
 
 ### 오늘 SDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 9.90%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 9.76%예요.
 
 ### SDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 9.90%예�
 
 ### SDT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SDT의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 9.90%, TVL $524.1K, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; Ethereum의 curve-dex, APY 8.72%, TVL $523.6K, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDT의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 9.76%, TVL $522.5K, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; Ethereum의 curve-dex, APY 8.47%, TVL $524.6K, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

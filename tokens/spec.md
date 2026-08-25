@@ -1,10 +1,10 @@
 # SPEC DeFi Yields
 
-The highest honest SPEC yield right now is 14.64% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPEC yield right now is 14.21% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5903a3bc-b380-4ab7-ba6c-823cee041645&src=seo_token) | Base | 14.64% | $143.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5903a3bc-b380-4ab7-ba6c-823cee041645&src=seo_token) | Base | 14.21% | $144.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPEC yield today?
 
-14.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
+14.21% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SPEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.4K in total.
+1 live pool clear this page's $100K TVL floor, $144.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SPEC pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

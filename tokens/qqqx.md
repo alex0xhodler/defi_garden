@@ -1,37 +1,37 @@
 # QQQX DeFi Yields
 
-The highest honest QQQX yield right now is 24.19% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQX yield right now is 24.37% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.07% | $2.84M |
-| [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 11.07% | $2.49M |
-| [jupiter-lend →](https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token) | Solana | 2.02% | $760.4K |
-| [jupiter-lend →](https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token) | Solana | 2.02% | $285.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 6.79% | $120.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 24.19% | $109.9K |
+| [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.07% | $2.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 11.19% | $2.49M |
+| [jupiter-lend →](https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token) | Solana | 2.02% | $756.6K |
+| [jupiter-lend →](https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token) | Solana | 2.02% | $283.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 7.22% | $120.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 24.37% | $108.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, QQQX's lower-variability candidates are kamino-lend (Solana), 0.07% APY, $2.84M TVL, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; jupiter-lend (Solana), 2.02% APY, $760.4K TVL, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; jupiter-lend (Solana), 2.02% APY, $285.1K TVL, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; raydium-amm (Solana), 11.07% APY, $2.49M TVL, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; raydium-amm (Solana), 6.79% APY, $120.7K TVL, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; raydium-amm (Solana), 24.19% APY, $109.9K TVL, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QQQX's lower-variability candidates are kamino-lend (Solana), 0.07% APY, $2.85M TVL, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; jupiter-lend (Solana), 2.02% APY, $756.6K TVL, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; jupiter-lend (Solana), 2.02% APY, $283.2K TVL, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; raydium-amm (Solana), 11.19% APY, $2.49M TVL, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; raydium-amm (Solana), 7.22% APY, $120.6K TVL, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; raydium-amm (Solana), 24.37% APY, $108.1K TVL, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.07% | $2.84M |
-| 2 | [jupiter-lend →](https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token) | Solana | 2.02% | $760.4K |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token) | Solana | 2.02% | $285.1K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 11.07% | $2.49M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 6.79% | $120.7K |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 24.19% | $109.9K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.07% | $2.85M |
+| 2 | [jupiter-lend →](https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token) | Solana | 2.02% | $756.6K |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token) | Solana | 2.02% | $283.2K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 11.19% | $2.49M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 7.22% | $120.6K |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 24.37% | $108.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QQQX shows up in 6 pools here, with rates from 0.07% to 24.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QQQX shows up in 6 pools here, with rates from 0.07% to 24.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.77% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -40,11 +40,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kamino-lend | 0.07% | 0.05% | Base rate |
-| raydium-amm | 11.07% | 8.12% | Base rate |
+| raydium-amm | 11.19% | 8.15% | Base rate |
 | jupiter-lend | 2.02% | 1.42% | Base rate |
 | jupiter-lend | 2.02% | 1.42% | Base rate |
-| raydium-amm | 6.79% | 10.40% | Base rate |
-| raydium-amm | 24.19% | 17.46% | Base rate |
+| raydium-amm | 7.22% | 10.41% | Base rate |
+| raydium-amm | 24.37% | 17.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QQQX yield today?
 
-24.19% APY on raydium-amm (Solana), based on live DefiLlama data.
+24.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QQQX pools clear the TVL floor?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QQQX pools have the most stable APY history?
 
-Based on APY history only, QQQX's lower-variability candidates are kamino-lend (Solana), 0.07% APY, $2.84M TVL, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; jupiter-lend (Solana), 2.02% APY, $760.4K TVL, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; jupiter-lend (Solana), 2.02% APY, $285.1K TVL, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; raydium-amm (Solana), 11.07% APY, $2.49M TVL, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; raydium-amm (Solana), 6.79% APY, $120.7K TVL, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; raydium-amm (Solana), 24.19% APY, $109.9K TVL, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QQQX's lower-variability candidates are kamino-lend (Solana), 0.07% APY, $2.85M TVL, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; jupiter-lend (Solana), 2.02% APY, $756.6K TVL, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; jupiter-lend (Solana), 2.02% APY, $283.2K TVL, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; raydium-amm (Solana), 11.19% APY, $2.49M TVL, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; raydium-amm (Solana), 7.22% APY, $120.6K TVL, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; raydium-amm (Solana), 24.37% APY, $108.1K TVL, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

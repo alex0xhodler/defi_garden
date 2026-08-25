@@ -1,10 +1,10 @@
 # MEMDEX DeFi Yields
 
-The highest honest MEMDEX yield right now is 1.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEMDEX yield right now is 1.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fad5482d-022b-4073-9467-c5a1a483d08a&src=seo_token) | Solana | 1.24% | $281K |
+| [raydium-amm →](https://www.defi.garden/?pool=fad5482d-022b-4073-9467-c5a1a483d08a&src=seo_token) | Solana | 1.43% | $281.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEMDEX yield today?
 
-1.24% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MEMDEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $281K in total.
+1 live pool clear this page's $100K TVL floor, $281.1K in total.
 
 ### Are these rates safe?
 

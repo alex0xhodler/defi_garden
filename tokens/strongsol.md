@@ -4,7 +4,7 @@ The highest honest STRONGSOL yield right now is 4.93% on stronghold-staked-sol (
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 4.93% | $4.13M |
+| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 4.93% | $4.07M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRONGSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.89M in total.
+2 live pools clear this page's $100K TVL floor, $7.82M in total.
 
 ### Are these rates safe?
 

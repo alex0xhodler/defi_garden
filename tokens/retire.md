@@ -1,10 +1,10 @@
 # RETIRE DeFi Yields
 
-The highest honest RETIRE yield right now is 10.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RETIRE yield right now is 10.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=70926954-4cfb-41e2-8aff-cbc81532bd7c&src=seo_token) | Solana | 10.43% | $565.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=70926954-4cfb-41e2-8aff-cbc81532bd7c&src=seo_token) | Solana | 10.03% | $564.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RETIRE yield today?
 
-10.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RETIRE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $565.5K in total.
+1 live pool clear this page's $100K TVL floor, $564.1K in total.
 
 ### Are these rates safe?
 

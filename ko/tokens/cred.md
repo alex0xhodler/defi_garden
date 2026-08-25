@@ -1,10 +1,10 @@
 # CRED 디파이 수익률
 
-현재 CRED의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 6.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CRED의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 7.29%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2097381a-b24c-4198-b331-e90bfdfcd591&src=seo_token) | Base | 6.66% | $140.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2097381a-b24c-4198-b331-e90bfdfcd591&src=seo_token) | Base | 7.29% | $140.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CRED의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 6.66%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 7.29%예요.
 
 ### CRED 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -34,11 +34,11 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 6.66%예요.
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

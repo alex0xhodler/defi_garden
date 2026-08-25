@@ -59,9 +59,9 @@ APY 이력만 기준으로 비교한 KMHYPE의 변동성 낮은 후보는 Hyperl
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
-- [FEHYPE](https://www.defi.garden/ko/tokens/fehype)
 
 ## 이용 가능한 체인
 

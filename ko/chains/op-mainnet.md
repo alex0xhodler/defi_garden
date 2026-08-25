@@ -5,12 +5,12 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_chain) | 3.25% | $26.39M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e053590b-54f1-40aa-ae0d-14e701ca734c&src=seo_chain) | 0.02% | $14.48M |
-| ETH | [midas-rwa →](https://www.defi.garden/?pool=7380a44d-da0e-460b-b149-0c2f2f271316&src=seo_chain) | 2.24% | $11.92M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e053590b-54f1-40aa-ae0d-14e701ca734c&src=seo_chain) | 0.02% | $14.53M |
+| ETH | [midas-rwa →](https://www.defi.garden/?pool=7380a44d-da0e-460b-b149-0c2f2f271316&src=seo_chain) | 2.24% | $11.95M |
 | USDT | [zerobase-cedefi →](https://www.defi.garden/?pool=08ab92f4-a0e0-4660-9349-54596b224ebe&src=seo_chain) | 5.30% | $8.1M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=3e332a41-3a15-41bc-8d5c-438c09609349&src=seo_chain) | 1.33% | $5.32M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=3e332a41-3a15-41bc-8d5c-438c09609349&src=seo_chain) | 1.33% | $5.33M |
 | SUSDS | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_chain) | 3.52% | $5.12M |
-| USDC-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=b2cca178-6e44-4e34-bdec-693994727bc4&src=seo_chain) | 120.97% | $4.87M |
+| USDC-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=b2cca178-6e44-4e34-bdec-693994727bc4&src=seo_chain) | 86.32% | $4.87M |
 | USD₮0-USDT | [velodrome-v3 →](https://www.defi.garden/?pool=3a1cf484-1082-4fcd-8ff0-3e1429ef2cdd&src=seo_chain) | 0.01% | $3.27M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 zerobase-cedefi에서 APY 5.
 
 ### OP Mainnet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 185개이며, 합산 TVL은 $194.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 185개이며, 합산 TVL은 $195.1M예요.
 
 ### 이 수익률은 안전한가요?
 

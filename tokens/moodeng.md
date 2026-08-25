@@ -1,27 +1,27 @@
 # MOODENG DeFi Yields
 
-The highest honest MOODENG yield right now is 11.71% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOODENG yield right now is 11.51% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 11.71% | $2.63M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.18% | $537.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 11.51% | $2.64M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.71% | $533.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 11.71% APY, $2.63M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.18% APY, $537.1K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 11.51% APY, $2.64M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.71% APY, $533.7K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 11.71% | $2.63M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.18% | $537.1K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 11.51% | $2.64M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.71% | $533.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOODENG shows up in 2 pools here, with rates from 3.18% to 11.71% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOODENG shows up in 2 pools here, with rates from 3.71% to 11.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 11.71% | 9.02% | Base rate |
-| uniswap-v2 | 3.18% | 3.93% | Base rate |
+| raydium-amm | 11.51% | 9.03% | Base rate |
+| uniswap-v2 | 3.71% | 3.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOODENG yield today?
 
-11.71% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.51% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOODENG pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOODENG pools have the most stable APY history?
 
-Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 11.71% APY, $2.63M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.18% APY, $537.1K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 11.51% APY, $2.64M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.71% APY, $533.7K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

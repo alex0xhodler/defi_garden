@@ -4,7 +4,7 @@ The highest honest XSOL yield right now is 2.38% on loopscale (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 2.38% | $562.5K |
+| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 2.38% | $553.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $562.5K in total.
+1 live pool clear this page's $100K TVL floor, $553.1K in total.
 
 ### Are these rates safe?
 

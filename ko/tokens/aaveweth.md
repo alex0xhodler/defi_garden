@@ -1,29 +1,29 @@
 # AAVEWETH 디파이 수익률
 
-현재 AAVEWETH의 가장 높은 정직한 수익률은 Base의 balancer-v3에서 6.38%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AAVEWETH의 가장 높은 정직한 수익률은 Base의 balancer-v3에서 6.17%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.89% | $356.6K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.38% | $343.7K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.90% | $322.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.88% | $357K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.17% | $343.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.82% | $323.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AAVEWETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.38%, TVL $343.7K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; Arbitrum의 balancer-v3, APY 5.90%, TVL $322.1K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; OP Mainnet의 balancer-v3, APY 4.89%, TVL $356.6K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AAVEWETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.17%, TVL $343.9K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; Arbitrum의 balancer-v3, APY 5.82%, TVL $323.4K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; OP Mainnet의 balancer-v3, APY 4.88%, TVL $357K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.38% | $343.7K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.90% | $322.1K |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.89% | $356.6K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.17% | $343.9K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.82% | $323.4K |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.88% | $357K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AAVEWETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 4.89%부터 6.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AAVEWETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 4.88%부터 6.17%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -31,9 +31,9 @@ AAVEWETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 4.89%부터 6.38
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v3 | 4.89% | 4.55% | 인센티브 60.19% |
-| balancer-v3 | 6.38% | 5.70% | 인센티브 63.76% |
-| balancer-v3 | 5.90% | 6.20% | 인센티브 74.79% |
+| balancer-v3 | 4.88% | 4.55% | 인센티브 59.89% |
+| balancer-v3 | 6.17% | 5.70% | 인센티브 65.37% |
+| balancer-v3 | 5.82% | 6.20% | 인센티브 75.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -41,7 +41,7 @@ AAVEWETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 4.89%부터 6.38
 
 ### 오늘 AAVEWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 balancer-v3에서 APY 6.38%예요.
+DefiLlama 실시간 데이터 기준, Base의 balancer-v3에서 APY 6.17%예요.
 
 ### AAVEWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -53,16 +53,16 @@ DefiLlama 실시간 데이터 기준, Base의 balancer-v3에서 APY 6.38%예요.
 
 ### AAVEWETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AAVEWETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.38%, TVL $343.7K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; Arbitrum의 balancer-v3, APY 5.90%, TVL $322.1K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; OP Mainnet의 balancer-v3, APY 4.89%, TVL $356.6K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AAVEWETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.17%, TVL $343.9K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; Arbitrum의 balancer-v3, APY 5.82%, TVL $323.4K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; OP Mainnet의 balancer-v3, APY 4.88%, TVL $357K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

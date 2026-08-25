@@ -1,10 +1,10 @@
 # SOS DeFi Yields
 
-The highest honest SOS yield right now is 1.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOS yield right now is 1.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8474d79b-33b4-4dbe-a217-4f4dac11f45b&src=seo_token) | Solana | 1.04% | $196.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=8474d79b-33b4-4dbe-a217-4f4dac11f45b&src=seo_token) | Solana | 1.02% | $196.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOS yield today?
 
-1.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOS pools clear the TVL floor?
 

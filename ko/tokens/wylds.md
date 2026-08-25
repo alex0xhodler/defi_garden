@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.30% | $453.4K |
+| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.30% | $856.7K |
 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.30% | $225.7K |
 
 <!-- rate-stability:insufficient -->
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Solana의 hastra에서 APY 3.30%예요.
 
 ### WYLDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $679.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.08M예요.
 
 ### 이 수익률은 안전한가요?
 

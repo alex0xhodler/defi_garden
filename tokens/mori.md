@@ -1,10 +1,10 @@
 # MORI DeFi Yields
 
-The highest honest MORI yield right now is 13.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORI yield right now is 14.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=de8ea0bb-d3ba-4b04-a44a-a1399ea0b9f3&src=seo_token) | Solana | 13.35% | $435K |
+| [raydium-amm →](https://www.defi.garden/?pool=de8ea0bb-d3ba-4b04-a44a-a1399ea0b9f3&src=seo_token) | Solana | 14.18% | $432.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MORI yield today?
 
-13.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MORI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $435K in total.
+1 live pool clear this page's $100K TVL floor, $432.5K in total.
 
 ### Are these rates safe?
 
