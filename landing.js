@@ -15,16 +15,31 @@
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
   var PROTOCOL_HINTS = ['Morpho', 'Pendle', 'Aave', 'Compound', 'Curve', 'Uniswap', 'Aerodrome', 'Lido', 'Euler', 'Venus', 'Yearn', 'Raydium', 'Kamino'];
 
-  var INTENT_SUBS = [
-    { id: 'claude', name: 'Claude Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'claude' },
-    { id: 'cursor', name: 'Cursor Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'cursor' },
-    { id: 'chatgpt', name: 'ChatGPT Plus', monthly: 24.00, baseMonthly: 20.00, slug: 'chatgpt' },
-    { id: 'spotify', name: 'Spotify', monthly: 14.39, baseMonthly: 11.99, slug: 'spotify' },
-    { id: 'netflix', name: 'Netflix', monthly: 21.59, baseMonthly: 17.99, slug: 'netflix' },
-    { id: 'aws', name: 'AWS Cloud', monthly: 60.00, baseMonthly: 50.00, slug: 'aws' },
-    { id: 'github', name: 'GitHub', monthly: 12.00, baseMonthly: 10.00, slug: 'github' },
-    { id: 'youtube', name: 'YouTube', monthly: 16.79, baseMonthly: 13.99, slug: 'youtube' }
+  var ALL_MAPPED_SUBS = [
+    { id: 'claude', name: 'Claude Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'claude', icon: 'claude.ai', emoji: '🤖' },
+    { id: 'cursor', name: 'Cursor Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'cursor', icon: 'cursor.com', emoji: '⚡' },
+    { id: 'chatgpt', name: 'ChatGPT Plus', monthly: 24.00, baseMonthly: 20.00, slug: 'chatgpt', icon: 'openai.com', emoji: '💬' },
+    { id: 'spotify', name: 'Spotify', monthly: 14.39, baseMonthly: 11.99, slug: 'spotify', icon: 'spotify.com', emoji: '🎵' },
+    { id: 'netflix', name: 'Netflix', monthly: 21.59, baseMonthly: 17.99, slug: 'netflix', icon: 'netflix.com', emoji: '🍿' },
+    { id: 'aws', name: 'AWS Cloud', monthly: 60.00, baseMonthly: 50.00, slug: 'aws', icon: 'amazon.com', emoji: '☁️' },
+    { id: 'github', name: 'GitHub', monthly: 12.00, baseMonthly: 10.00, slug: 'github', icon: 'github.com', emoji: '🐙' },
+    { id: 'youtube', name: 'YouTube', monthly: 16.79, baseMonthly: 13.99, slug: 'youtube', icon: 'youtube.com', emoji: '▶️' },
+    { id: 'amazonprime', name: 'Amazon Prime', monthly: 18.00, baseMonthly: 15.00, slug: 'amazonprime', icon: 'amazon.com', emoji: '📦' },
+    { id: 'disney', name: 'Disney+', monthly: 19.19, baseMonthly: 15.99, slug: 'disney', icon: 'disneyplus.com', emoji: '🏰' },
+    { id: 'max', name: 'Max (HBO)', monthly: 20.39, baseMonthly: 16.99, slug: 'max', icon: 'max.com', emoji: '🎬' },
+    { id: 'hulu', name: 'Hulu', monthly: 22.79, baseMonthly: 18.99, slug: 'hulu', icon: 'hulu.com', emoji: '📺' },
+    { id: 'appletv', name: 'Apple TV+', monthly: 15.59, baseMonthly: 12.99, slug: 'appletv', icon: 'apple.com', emoji: '🍎' },
+    { id: 'gamepass', name: 'Xbox Game Pass', monthly: 24.00, baseMonthly: 19.99, slug: 'gamepass', icon: 'xbox.com', emoji: '🎮' },
+    { id: 'paramount', name: 'Paramount+', monthly: 11.99, baseMonthly: 9.99, slug: 'paramount', icon: 'paramountplus.com', emoji: '⛰️' },
+    { id: 'peacock', name: 'Peacock', monthly: 13.19, baseMonthly: 10.99, slug: 'peacock', icon: 'peacocktv.com', emoji: '🦚' },
+    { id: 'doordash', name: 'DoorDash', monthly: 11.99, baseMonthly: 9.99, slug: 'doordash', icon: 'doordash.com', emoji: '🥡' },
+    { id: 'uber', name: 'Uber One', monthly: 11.99, baseMonthly: 9.99, slug: 'uber', icon: 'uber.com', emoji: '🚗' },
+    { id: 'audible', name: 'Audible', monthly: 17.94, baseMonthly: 14.95, slug: 'audible', icon: 'audible.com', emoji: '🎧' },
+    { id: 'walmart', name: 'Walmart+', monthly: 15.54, baseMonthly: 12.95, slug: 'walmart', icon: 'walmart.com', emoji: '🛒' },
+    { id: 'phonebill', name: 'Phone Bill', monthly: 84.00, baseMonthly: 70.00, slug: 'phonebill', icon: null, emoji: '📶' },
+    { id: 'rent', name: 'Rent', monthly: 2160.00, baseMonthly: 1800.00, slug: 'rent', icon: null, emoji: '🏠' }
   ];
+  var INTENT_SUBS = ALL_MAPPED_SUBS;
 
   // goal id -> translations.planner label key (canonical list owned by planner.js
   // GOALS; duplicated read-only here because planner.js is not loaded on the
@@ -154,29 +169,48 @@
       netflix: 'netflix.com',
       aws: 'amazon.com',
       github: 'github.com',
-      youtube: 'youtube.com'
+      youtube: 'youtube.com',
+      amazonprime: 'amazon.com',
+      disney: 'disneyplus.com',
+      max: 'max.com',
+      hulu: 'hulu.com',
+      appletv: 'apple.com',
+      gamepass: 'xbox.com',
+      paramount: 'paramountplus.com',
+      peacock: 'peacocktv.com',
+      doordash: 'doordash.com',
+      uber: 'uber.com',
+      audible: 'audible.com',
+      walmart: 'walmart.com'
     };
-    var domain = domainMap[slug] || slug;
-    var width = props.width || 16;
-    var height = props.height || 16;
+    var domain = props.icon || domainMap[slug];
+    var width = props.width || 15;
+    var height = props.height || 15;
 
-    return e('img', {
-      className: 'service-brand-icon service-brand-favicon',
-      src: 'https://www.google.com/s2/favicons?domain=' + domain + '&sz=64',
-      alt: slug,
-      width: width,
-      height: height,
-      style: {
-        width: width + 'px',
-        height: height + 'px',
-        borderRadius: '2px',
-        objectFit: 'contain',
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        flexShrink: 0
-      },
-      loading: 'lazy'
-    });
+    if (domain) {
+      return e('img', {
+        className: 'service-brand-icon service-brand-favicon',
+        src: 'https://www.google.com/s2/favicons?domain=' + domain + '&sz=64',
+        alt: slug,
+        width: width,
+        height: height,
+        style: {
+          width: width + 'px',
+          height: height + 'px',
+          borderRadius: '2px',
+          objectFit: 'contain',
+          display: 'inline-block',
+          verticalAlign: 'middle',
+          flexShrink: 0
+        },
+        loading: 'lazy'
+      });
+    }
+
+    return e('span', {
+      className: 'service-brand-emoji',
+      style: { fontSize: (width - 1) + 'px', lineHeight: 1, display: 'inline-block', verticalAlign: 'middle', flexShrink: 0 }
+    }, props.emoji || '🌱');
   }
   function EmvChip() {
     return e('svg', {
@@ -351,6 +385,9 @@
     var selectedSubState = useState(INTENT_SUBS[0]);
     var activeSub = selectedSubState[0];
     var setActiveSub = selectedSubState[1];
+    var showAllSubsState = useState(false);
+    var showAllSubs = showAllSubsState[0];
+    var setShowAllSubs = showAllSubsState[1];
     var activeSectionState = useState(0);
     var activeSection = activeSectionState[0];
     var setActiveSection = activeSectionState[1];
@@ -508,8 +545,11 @@
                 e('span', { className: 'press-badge-source' }, 'Leviathan News ↗'),
                 e('span', { className: 'press-badge-title' }, '“Turn $4k in Stablecoins into a Free ChatGPT Pro Subscription”')
               ),
-              e('div', { className: 'landing-subs-grid', 'aria-label': 'Select subscription preset' },
-                INTENT_SUBS.map(function(s) {
+              e('div', {
+                className: 'landing-subs-grid' + (showAllSubs ? ' is-expanded' : ''),
+                'aria-label': 'Select subscription preset'
+              },
+                (showAllSubs ? INTENT_SUBS : INTENT_SUBS.slice(0, 7)).map(function(s) {
                   var isSelected = activeSub.id === s.id;
                   return e('button', {
                     key: s.id,
@@ -518,11 +558,28 @@
                     className: 'landing-sub-chip' + (isSelected ? ' is-selected' : ''),
                     onClick: function() { setActiveSub(s); }
                   },
-                    e(ServiceBrandIcon, { slug: s.slug, width: 15, height: 15 }),
+                    e(ServiceBrandIcon, { slug: s.slug, icon: s.icon, emoji: s.emoji, width: 15, height: 15 }),
                     e('span', { className: 'landing-sub-chip-name' }, s.name),
                     e('span', { className: 'landing-sub-chip-price' }, '$' + s.baseMonthly.toFixed(0) + '/mo')
                   );
-                })
+                }),
+                !showAllSubs
+                  ? e('button', {
+                      type: 'button',
+                      'data-testid': 'landing-chip-more',
+                      className: 'landing-sub-chip landing-sub-chip-more',
+                      onClick: function() { setShowAllSubs(true); }
+                    },
+                      e('span', null, '+ MORE')
+                    )
+                  : e('button', {
+                      type: 'button',
+                      'data-testid': 'landing-chip-less',
+                      className: 'landing-sub-chip landing-sub-chip-more',
+                      onClick: function() { setShowAllSubs(false); }
+                    },
+                      e('span', null, 'LESS ▴')
+                    )
               )
             ),
             e('aside', { className: 'landing-card-showcase' },
