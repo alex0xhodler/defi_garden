@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pay for OpenAI ChatGPT Plus with Base Yield | DeFi Garden v2</title>
+  <meta name="description" content="Pay ChatGPT Plus automatically from Base DeFi yield. Non-custodial, principal-protected subscription funding.">
+  <meta name="keywords" content="OpenAI ChatGPT Plus, self paying subscription, Base yield, USDC, Morpho Blue, DeFi Garden, yield card, x402">
+  <link rel="canonical" href="https://www.defi.garden/for/chatgpt">
+
+  <!-- OpenGraph / Social Cards -->
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://www.defi.garden/for/chatgpt">
+  <meta property="og:title" content="OpenAI ChatGPT Plus on Autopilot | DeFi Garden">
+  <meta property="og:description" content="Lock $4,800 USDC on Base to generate $20.00/mo in net interest. Automated card settlement wipes out your OpenAI invoice every month.">
+  <meta property="og:image" content="https://www.defi.garden/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fund ChatGPT Plus forever from DeFi yield.">
+  <meta name="twitter:description" content="Lock $4,800 USDC on Base to generate $20.00/mo in net interest. Automated card settlement wipes out your OpenAI invoice every month.">
+  <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
+
+  <!-- Brand Quiet Design System -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+
+  <!-- AEO / GEO Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        "@id": "https://www.defi.garden/for/chatgpt#product",
+        "name": "OpenAI ChatGPT Plus Perpetual Yield Vault",
+        "description": "Pay ChatGPT Plus automatically from Base DeFi yield. Non-custodial, principal-protected subscription funding.",
+        "category": "AI & Developer Tooling",
+        "offers": {
+          "@type": "Offer",
+          "price": "4800",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.defi.garden/for/chatgpt"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.defi.garden/for/chatgpt#app",
+        "name": "DeFi Garden OpenAI ChatGPT Plus Intent Portal",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "url": "https://www.defi.garden/for/chatgpt"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .intent-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 20px 80px;
+    }
+    .brand-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0 28px;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: 36px;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--color-text);
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .nav-links a:hover {
+      color: var(--color-primary);
+    }
+    .hero-wrap {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .badge-intent {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      background: rgba(var(--color-teal-500-rgb), 0.12);
+      border: 1px solid rgba(var(--color-teal-500-rgb), 0.3);
+      border-radius: 9999px;
+      color: var(--color-primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin: 0 0 16px;
+      color: var(--color-text);
+    }
+    .hero-body {
+      font-size: 1.15rem;
+      color: var(--color-text-secondary);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    .sim-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      .sim-grid { grid-template-columns: 1fr; }
+      .hero-title { font-size: 1.85rem; }
+    }
+    .card-shell {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    .virtual-card-preview {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 14px;
+      padding: 22px;
+      color: #fff;
+      position: relative;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+    .card-chip {
+      width: 36px;
+      height: 26px;
+      background: #e2e8f0;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    .card-num {
+      font-family: var(--font-family-mono);
+      font-size: 1.1rem;
+      letter-spacing: 0.1em;
+      color: #94a3b8;
+      margin-bottom: 16px;
+    }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #cbd5e1;
+    }
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--color-border);
+      font-size: 0.9rem;
+    }
+    .metric-val {
+      font-weight: 700;
+      font-family: var(--font-family-mono);
+      color: var(--color-text);
+    }
+    .btn-action {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--color-primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-top: 20px;
+      box-sizing: border-box;
+      transition: opacity 0.15s ease;
+    }
+    .btn-action:hover {
+      opacity: 0.9;
+    }
+    .invariant-box {
+      background: rgba(var(--color-teal-500-rgb), 0.08);
+      border: 1px solid rgba(var(--color-teal-500-rgb), 0.2);
+      border-radius: 10px;
+      padding: 14px;
+      font-size: 0.85rem;
+      color: var(--color-text);
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="intent-container">
+    <header class="brand-nav">
+      <a href="/" class="brand-logo">
+        <span>🌱</span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/">Savings Planner</a>
+        <a href="/?token=USDC">Analytics Grid</a>
+        <a href="/agents">AI Agents & MCP</a>
+        <a href="/llms.txt">llms.txt</a>
+      </nav>
+    </header>
+
+    <div class="hero-wrap">
+      <div class="badge-intent">
+        <span>🧠</span>
+        <span>AI & Developer Tooling · Intent Portal</span>
+      </div>
+      <h1 class="hero-title">Fund ChatGPT Plus forever from DeFi yield.</h1>
+      <p class="hero-body">Lock $4,800 USDC on Base to generate $20.00/mo in net interest. Automated card settlement wipes out your OpenAI invoice every month.</p>
+    </div>
+
+    <div class="sim-grid">
+      <!-- Virtual Card Simulation -->
+      <div class="card-shell">
+        <h2 style="margin-top:0; font-size:1.15rem; color:var(--color-text);">💳 Yield-Funded Virtual Card Simulation</h2>
+        <div class="virtual-card-preview">
+          <div class="card-chip"></div>
+          <div class="card-num">•••• •••• •••• 9801</div>
+          <div class="card-meta">
+            <div>
+              <div style="font-size:0.65rem; color:#64748b;">CARDHOLDER</div>
+              <div>CHATGPT-VAULT / AGENT-01</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-size:0.65rem; color:#64748b;">STATUS</div>
+              <div style="color:#34d399; font-weight:700;">🟢 ACTIVE ($20.00/mo)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="metric-row">
+          <span style="color:var(--color-text-secondary);">Monthly Subscription Cost</span>
+          <span class="metric-val">$20.00 USD</span>
+        </div>
+        <div class="metric-row">
+          <span style="color:var(--color-text-secondary);">Base Net APY (Morpho Blue)</span>
+          <span class="metric-val" style="color:var(--color-primary);">5.0%</span>
+        </div>
+        <div class="metric-row">
+          <span style="color:var(--color-text-secondary);">Required 1-Time Deposit</span>
+          <span class="metric-val">$4,800 USDC</span>
+        </div>
+
+        <a href="/plan.html?goal=chatgpt&capital=4800&fm=capital" class="btn-action">
+          Simulate & Lock $4,800 USDC →
+        </a>
+      </div>
+
+      <!-- How Intent Execution Works -->
+      <div class="card-shell">
+        <h2 style="margin-top:0; font-size:1.15rem; color:var(--color-text);">⚡ How Intent Resolution Works</h2>
+        <div style="display:flex; flex-direction:column; gap:14px; font-size:0.875rem; color:var(--color-text-secondary);">
+          <div>
+            <strong style="color:var(--color-text);">1. Deposit Once on Base:</strong>
+            <div>Deposit $4,800 USDC into an audited non-custodial lending vault on Base via Passkey.</div>
+          </div>
+          <div>
+            <strong style="color:var(--color-text);">2. Automated Yield Harvests:</strong>
+            <div>Keepers harvest ~5.0% APY ($20.00/mo) directly to cover your OpenAI ChatGPT Plus invoice.</div>
+          </div>
+          <div>
+            <strong style="color:var(--color-text);">3. 100% Principal Protection:</strong>
+            <div>Your $4,800 USDC principal remains untouched and can be fully withdrawn at any moment.</div>
+          </div>
+        </div>
+
+        <div class="invariant-box">
+          <strong>🛡️ Protocol Invariant:</strong> &Delta; Principal &equiv; 0. Yield pays the merchant; you keep the capital forever.
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align:center; padding-top:40px; border-top:1px solid var(--color-border); font-size:0.85rem; color:var(--color-text-secondary);">
+      <p>© 2026 DeFi Garden · Education & Yield Intelligence. All deposits remain non-custodial on Base.</p>
+      <div style="display:flex; justify-content:center; gap:16px; margin-top:10px;">
+        <a href="/" style="color:var(--color-text-secondary); text-decoration:none;">Planner</a>
+        <a href="/agents" style="color:var(--color-text-secondary); text-decoration:none;">AI Agents & MCP</a>
+        <a href="/llms.txt" style="color:var(--color-text-secondary); text-decoration:none;">llms.txt</a>
+        <a href="/sitemap.xml" style="color:var(--color-text-secondary); text-decoration:none;">Sitemap</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
