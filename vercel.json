@@ -51,6 +51,10 @@
       "destination": "/home"
     },
     {
+      "source": "/agents",
+      "destination": "/mcp.html"
+    },
+    {
       "source": "/mcp",
       "destination": "/mcp.html"
     },

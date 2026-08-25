@@ -574,10 +574,10 @@
 
     // Config Snippets
     const configMap = {
-      claude: `{\n  "mcpServers": {\n    "defi-garden": {\n      "type": "http",\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
-      hermes: `# Add to ~/.hermes/config.yaml under mcp_servers:\nmcp_servers:\n  defi-garden:\n    url: "https://www.defi.garden/api/mcp"`,
-      cursor: `{\n  "mcpServers": {\n    "defi-garden": {\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
-      curl: `curl -X POST https://www.defi.garden/api/mcp \\\n  -H "Content-Type: application/json" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "get_base_yields",\n      "arguments": { "asset": "USDC" }\n    }\n  }'`
+      claude: `{\n  "mcpServers": {\n    "defi-garden": {\n      "type": "http",\n      "url": "https://www.defi.garden/mcp"\n    }\n  }\n}`,
+      hermes: `# Add to ~/.hermes/config.yaml under mcp_servers:\nmcp_servers:\n  defi-garden:\n    url: "https://www.defi.garden/mcp"`,
+      cursor: `{\n  "mcpServers": {\n    "defi-garden": {\n      "url": "https://www.defi.garden/mcp"\n    }\n  }\n}`,
+      curl: `curl -X POST https://www.defi.garden/mcp \\\n  -H "Content-Type: application/json" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "find_pools",\n      "arguments": { "token": "USDC", "chain": "Base" }\n    }\n  }'`
     };
 
     let activeTab = 'claude';
@@ -603,12 +603,25 @@
       outputEl.textContent = `Executing tool: ${toolName}...`;
 
       let args = {};
-      if (toolName === 'get_base_yields') args = { asset: "USDC" };
-      if (toolName === 'find_lending_rate') args = { asset: "USDC", chain: "base" };
-      if (toolName === 'get_looping_params') args = { collateral_asset: "WETH", borrow_asset: "USDC", target_leverage: 2.0 };
+      if (toolName === 'find_pools' || toolName === 'get_base_yields') {
+        toolName = 'find_pools';
+        args = { token: "USDC", chain: "Base" };
+      }
+      if (toolName === 'get_pool' || toolName === 'find_lending_rate') {
+        toolName = 'find_pools';
+        args = { token: "USDC", chain: "Base" };
+      }
+      if (toolName === 'forever_number' || toolName === 'get_looping_params') {
+        toolName = 'forever_number';
+        args = { monthly: 100 };
+      }
+      if (toolName === 'explain_rails' || toolName === 'get_trust_rails') {
+        toolName = 'explain_rails';
+        args = {};
+      }
 
       try {
-        const res = await fetch('/api/mcp', {
+        const res = await fetch('/mcp', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
