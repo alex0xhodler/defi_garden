@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $206.2K in total.
+2 live pools clear this page's $100K TVL floor, $206.3K in total.
 
 ### Are these rates safe?
 
@@ -50,11 +50,11 @@ There is not enough qualifying APY history to rank KRL pools. This view covers A
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

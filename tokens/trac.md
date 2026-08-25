@@ -1,31 +1,31 @@
 # TRAC DeFi Yields
 
-The highest honest TRAC yield right now is 58.55% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRAC yield right now is 52.38% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 58.55% | $462.3K |
-| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 5.55% | $233.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 91.75% | $128.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 52.38% | $466K |
+| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 5.55% | $230.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 84.04% | $129.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRAC's lower-variability candidates are hydration-dex (Polkadot), 5.55% APY, $233.2K TVL, https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token; uniswap-v3 (Ethereum), 58.55% APY, $462.3K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 91.75% APY, $128.3K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRAC's lower-variability candidates are hydration-dex (Polkadot), 5.55% APY, $230.5K TVL, https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token; uniswap-v3 (Ethereum), 52.38% APY, $466K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 84.04% APY, $129.1K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 5.55% | $233.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 58.55% | $462.3K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 91.75% | $128.3K |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 5.55% | $230.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 52.38% | $466K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 84.04% | $129.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRAC shows up in 3 pools here, with rates from 5.55% to 91.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRAC shows up in 3 pools here, with rates from 5.55% to 84.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 39.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 39.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 58.55% | 39.18% | Base rate |
-| hydration-dex | 5.55% | 5.69% | Base rate |
-| uniswap-v4 | 91.75% | 49.61% | Base rate |
+| uniswap-v3 | 52.38% | 39.29% | Base rate |
+| hydration-dex | 5.55% | 5.68% | Base rate |
+| uniswap-v4 | 84.04% | 49.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRAC yield today?
 
-58.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+52.38% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TRAC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $823.7K in total.
+3 live pools clear this page's $100K TVL floor, $825.6K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRAC pools have the most stable APY history?
 
-Based on APY history only, TRAC's lower-variability candidates are hydration-dex (Polkadot), 5.55% APY, $233.2K TVL, https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token; uniswap-v3 (Ethereum), 58.55% APY, $462.3K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 91.75% APY, $128.3K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRAC's lower-variability candidates are hydration-dex (Polkadot), 5.55% APY, $230.5K TVL, https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token; uniswap-v3 (Ethereum), 52.38% APY, $466K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 84.04% APY, $129.1K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

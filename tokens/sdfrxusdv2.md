@@ -4,7 +4,7 @@ The highest honest SDFRXUSDV2 yield right now is 4.53% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 4.53% | $956.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 4.53% | $956.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDFRXUSDV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $956.3K in total.
+1 live pool clear this page's $100K TVL floor, $956.1K in total.
 
 ### Are these rates safe?
 

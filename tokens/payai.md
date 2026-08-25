@@ -1,10 +1,10 @@
 # PAYAI DeFi Yields
 
-The highest honest PAYAI yield right now is 46.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PAYAI yield right now is 44.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=450066d1-dc49-4410-914a-7db5b11959bb&src=seo_token) | Solana | 46.60% | $651.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=450066d1-dc49-4410-914a-7db5b11959bb&src=seo_token) | Solana | 44.54% | $647.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PAYAI yield today?
 
-46.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+44.54% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PAYAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $651.5K in total.
+1 live pool clear this page's $100K TVL floor, $647.5K in total.
 
 ### Are these rates safe?
 

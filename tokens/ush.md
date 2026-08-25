@@ -1,27 +1,27 @@
 # USH DeFi Yields
 
-The highest honest USH yield right now is 9.60% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USH yield right now is 9.21% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 6.00% | $130.6K |
-| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.60% | $108.3K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.73% | $130.1K |
+| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.21% | $107.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USH's lower-variability candidates are xexchange (MultiversX), 6.00% APY, $130.6K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 9.60% APY, $108.3K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USH's lower-variability candidates are xexchange (MultiversX), 5.73% APY, $130.1K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 9.21% APY, $107.9K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 6.00% | $130.6K |
-| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.60% | $108.3K |
+| 1 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.73% | $130.1K |
+| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.21% | $107.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USH shows up in 2 pools here, with rates from 6.00% to 9.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USH shows up in 2 pools here, with rates from 5.73% to 9.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ USH shows up in 2 pools here, with rates from 6.00% to 9.60% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 6.00% | 4.79% | 72.86% incentives |
-| xexchange | 9.60% | 7.25% | 55.00% incentives |
+| xexchange | 5.73% | 4.79% | 76.24% incentives |
+| xexchange | 9.21% | 7.26% | 57.21% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USH yield today?
 
-9.60% APY on xexchange (MultiversX), based on live DefiLlama data.
+9.21% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many USH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $238.9K in total.
+2 live pools clear this page's $100K TVL floor, $238K in total.
 
 ### Are these rates safe?
 
@@ -52,13 +52,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USH pools have the most stable APY history?
 
-Based on APY history only, USH's lower-variability candidates are xexchange (MultiversX), 6.00% APY, $130.6K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 9.60% APY, $108.3K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USH's lower-variability candidates are xexchange (MultiversX), 5.73% APY, $130.1K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 9.21% APY, $107.9K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WEGLD](https://www.defi.garden/tokens/wegld)
-- [HTM](https://www.defi.garden/tokens/htm)
 - [MEX](https://www.defi.garden/tokens/mex)
+- [HTM](https://www.defi.garden/tokens/htm)
 - [EGLD](https://www.defi.garden/tokens/egld)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SAND](https://www.defi.garden/tokens/sand)

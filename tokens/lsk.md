@@ -1,29 +1,29 @@
 # LSK DeFi Yields
 
-The highest honest LSK yield right now is 18.12% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LSK yield right now is 18.20% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 18.12% | $247.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 409.60% | $180.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 18.20% | $245.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 417.04% | $178.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LSK's lower-variability candidates are uniswap-v4 (Ethereum), 18.12% APY, $247.3K TVL, https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token; aerodrome-slipstream (Base), 409.60% APY, $180.1K TVL, https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LSK's lower-variability candidates are uniswap-v4 (Ethereum), 18.20% APY, $245.9K TVL, https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token; aerodrome-slipstream (Base), 417.04% APY, $178.5K TVL, https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 18.12% | $247.3K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 409.60% | $180.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 18.20% | $245.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 417.04% | $178.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LSK shows up in 2 pools here, with rates from 18.12% to 409.60% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LSK shows up in 2 pools here, with rates from 18.20% to 417.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 36.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 37.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ LSK shows up in 2 pools here, with rates from 18.12% to 409.60% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 18.12% | 14.43% | Base rate |
-| aerodrome-slipstream | 409.60% | 59.20% | 100.00% incentives |
+| uniswap-v4 | 18.20% | 14.48% | Base rate |
+| aerodrome-slipstream | 417.04% | 59.91% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LSK yield today?
 
-18.12% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+18.20% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many LSK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $427.4K in total.
+2 live pools clear this page's $100K TVL floor, $424.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LSK pools have the most stable APY history?
 
-Based on APY history only, LSK's lower-variability candidates are uniswap-v4 (Ethereum), 18.12% APY, $247.3K TVL, https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token; aerodrome-slipstream (Base), 409.60% APY, $180.1K TVL, https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LSK's lower-variability candidates are uniswap-v4 (Ethereum), 18.20% APY, $245.9K TVL, https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token; aerodrome-slipstream (Base), 417.04% APY, $178.5K TVL, https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,10 +1,10 @@
 # SQD DeFi Yields
 
-The highest honest SQD yield right now is 66.77% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SQD yield right now is 72.22% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 66.77% | $255.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 72.22% | $239.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SQD yield today?
 
-66.77% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+72.22% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many SQD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $255.1K in total.
+1 live pool clear this page's $100K TVL floor, $239.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SQD pools. This view covers A
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

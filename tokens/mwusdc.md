@@ -1,10 +1,10 @@
 # MWUSDC DeFi Yields
 
-The highest honest MWUSDC yield right now is 3.98% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MWUSDC yield right now is 4.01% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 3.98% | $9.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 4.01% | $9.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MWUSDC yield today?
 
-3.98% APY on morpho-blue (Base), based on live DefiLlama data.
+4.01% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many MWUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.38M in total.
+1 live pool clear this page's $100K TVL floor, $9.36M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank MWUSDC pools. This view cover
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

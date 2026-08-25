@@ -4,7 +4,7 @@ The highest honest IMPT yield right now is 0.28% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=573d6b65-f98d-4952-9f45-e7f031eebcb0&src=seo_token) | Ethereum | 0.28% | $817.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=573d6b65-f98d-4952-9f45-e7f031eebcb0&src=seo_token) | Ethereum | 0.28% | $818K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IMPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $817.2K in total.
+1 live pool clear this page's $100K TVL floor, $818K in total.
 
 ### Are these rates safe?
 

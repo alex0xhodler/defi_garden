@@ -1,12 +1,12 @@
 # WSOL-LUCE — raydium-amm on Solana
 
-**Total APY:** 0.91% (0.91% Base · + 0.00% Rewards)
+**Total APY:** 0.90% (0.90% Base · + 0.00% Rewards)
 
-**TVL:** $263.5K
+**TVL:** $263K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.04%
+**30d Mean APY:** 1.05%
 
 **Exposure:** multi
 

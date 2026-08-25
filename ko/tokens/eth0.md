@@ -1,10 +1,10 @@
 # ETH0 디파이 수익률
 
-현재 ETH0의 가장 높은 정직한 수익률은 Ethereum의 usual-eth0에서 3.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ETH0의 가장 높은 정직한 수익률은 Ethereum의 usual-eth0에서 3.16%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.15% | $1.8M |
+| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.16% | $1.8M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 ETH0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 usual-eth0에서 APY 3.15%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 usual-eth0에서 APY 3.16%예요.
 
 ### ETH0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

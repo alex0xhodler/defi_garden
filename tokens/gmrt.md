@@ -4,7 +4,7 @@ The highest honest GMRT yield right now is 0.01% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1979e7dd-210c-43fd-a3f7-4ed92655d8d3&src=seo_token) | Base | 0.01% | $501K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1979e7dd-210c-43fd-a3f7-4ed92655d8d3&src=seo_token) | Base | 0.01% | $498.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GMRT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $501K in total.
+1 live pool clear this page's $100K TVL floor, $498.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank GMRT pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

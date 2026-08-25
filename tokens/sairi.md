@@ -1,10 +1,10 @@
 # SAIRI DeFi Yields
 
-The highest honest SAIRI yield right now is 9.42% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAIRI yield right now is 9.54% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c1a9d3de-8ece-45d7-abd6-eeabef9bbad5&src=seo_token) | Base | 9.42% | $300.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c1a9d3de-8ece-45d7-abd6-eeabef9bbad5&src=seo_token) | Base | 9.54% | $299.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAIRI yield today?
 
-9.42% APY on uniswap-v4 (Base), based on live DefiLlama data.
+9.54% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SAIRI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.3K in total.
+1 live pool clear this page's $100K TVL floor, $299.9K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SAIRI pools. This view covers
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

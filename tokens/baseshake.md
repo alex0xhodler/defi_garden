@@ -4,7 +4,7 @@ The highest honest BASESHAKE yield right now is 14.65% on uniswap-v4 (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=82202743-7f22-464c-aa59-fe1becfe703e&src=seo_token) | Base | 14.65% | $419.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=82202743-7f22-464c-aa59-fe1becfe703e&src=seo_token) | Base | 14.65% | $420K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BASESHAKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $419.9K in total.
+1 live pool clear this page's $100K TVL floor, $420K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank BASESHAKE pools. This view co
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

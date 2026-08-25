@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-08-25T13:34:03.140Z
+- Last Updated: 2026-08-25T16:00:32.866Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4881
+- Total URLs: 4837
 
 ## Homepage
 TL;DR: https://www.defi.garden/ is a search-first landing page that routes into both faces of the product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized URLs (?token=, ?chain=, ?pool=) for the yield analytics app.
@@ -17,7 +17,7 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 - TARGET: a specific item to buy — projects time-to-item from monthly deposits and the live rate.
 - SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.
 - Forever number formula: forever number = annual bill ÷ blended rate. No projected dollar figure is published here — a plan's own inputs determine the real number.
-- Live blended rate: 4.2% — median APY across the 5879 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%) on the date above.
+- Live blended rate: 4.3% — median APY across the 5821 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%) on the date above.
 - A plan's own rate is computed over a different set: the planner picks a small, temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) and blends those, so the rate a plan shows will differ from this market-wide median.
 
 ## API & MCP
@@ -36,9 +36,9 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 
 ## Top Chains by TVL
 TL;DR: Highest liquidity blockchain networks for DeFi yields.
-- Ethereum ($121.1B TVL) — https://www.defi.garden/?chain=Ethereum
+- Ethereum ($121.2B TVL) — https://www.defi.garden/?chain=Ethereum
 - Base ($40.2B TVL) — https://www.defi.garden/?chain=Base
-- Solana ($10.0B TVL) — https://www.defi.garden/?chain=Solana
+- Solana ($9.9B TVL) — https://www.defi.garden/?chain=Solana
 - BSC ($6.8B TVL) — https://www.defi.garden/?chain=BSC
 - Tron ($3.9B TVL) — https://www.defi.garden/?chain=Tron
 - Arbitrum ($2.6B TVL) — https://www.defi.garden/?chain=Arbitrum
@@ -60,7 +60,7 @@ TL;DR: Most searched tokens for yield farming opportunities.
 TL;DR: Most common "find X yield on Y chain" searches.
 - SAND on Base ($32.9B TVL) — https://www.defi.garden/?token=SAND&chain=Base
 - WETH on Base ($32.2B TVL) — https://www.defi.garden/?token=WETH&chain=Base
-- STETH on Ethereum ($24.0B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
+- STETH on Ethereum ($24.1B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
 - USDC on Ethereum ($22.0B TVL) — https://www.defi.garden/?token=USDC&chain=Ethereum
 - CSUSDL on Ethereum ($16.4B TVL) — https://www.defi.garden/?token=CSUSDL&chain=Ethereum
 - WEETH on Ethereum ($8.8B TVL) — https://www.defi.garden/?token=WEETH&chain=Ethereum
@@ -82,7 +82,7 @@ TL;DR: Typical user queries and where to find them.
 - "USDC yields on Base" → https://www.defi.garden/?token=USDC&chain=Base
 - "Ethereum lending" → https://www.defi.garden/?chain=Ethereum&poolTypes=Lending
 - "Pendle opportunities" → https://www.defi.garden/?protocols=pendle
-- "High APY staking" → https://www.defi.garden/?poolTypes=Staking&minApy=10
+- "High APY staking" → https://www.defi.garden/?poolTypes=Staking&minApy=5
 - "Safe lending USDT" → https://www.defi.garden/?token=USDT&poolTypes=Lending
 - "Arbitrum LP tokens" → https://www.defi.garden/?chain=Arbitrum&poolTypes=LP%2FDEX
 - "High TVL pools" → https://www.defi.garden/?minTvl=10000000
@@ -91,14 +91,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $100K).
-- Base · uniswap-v4 · WETH-BAES — 991.0% APY, $153,453 TVL — https://www.defi.garden/?pool=354ccc97-8c2f-4d12-8137-87301ddb941b
-- Base · aerodrome-slipstream · USDC-TITN — 887.5% APY, $241,277 TVL — https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533
-- Base · aerodrome-slipstream · BIO-USDC — 874.0% APY, $352,301 TVL — https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705
-- Base · aerodrome-slipstream · LFI-USDC — 859.6% APY, $128,969 TVL — https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74
-- Base · uniswap-v4 · ETH-BASECAT — 832.5% APY, $154,772 TVL — https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8
-- Ethereum · uniswap-v4 · ETH-NES — 793.6% APY, $266,946 TVL — https://www.defi.garden/?pool=73e46037-6b0c-5b51-b37b-9daa3e750102
-- BSC · beefy · ZEC-USDT — 778.0% APY, $121,503 TVL — https://www.defi.garden/?pool=37315627-b370-4b78-bd4e-0dae789e9a29
-- Base · aerodrome-slipstream · FUN-USDC — 769.6% APY, $362,127 TVL — https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d
+- Ethereum · uniswap-v4 · NES-USDC — 961.8% APY, $203,018 TVL — https://www.defi.garden/?pool=94f676d1-07ae-5f18-86a0-4d969bfb31ee
+- Base · aerodrome-slipstream · USDC-TITN — 898.1% APY, $241,264 TVL — https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533
+- Ethereum · uniswap-v4 · NES-USDC — 849.0% APY, $240,370 TVL — https://www.defi.garden/?pool=ab8f3130-4a15-52fb-a36e-b70c671eccd9
+- Base · uniswap-v4 · WETH-BAES — 848.8% APY, $147,085 TVL — https://www.defi.garden/?pool=354ccc97-8c2f-4d12-8137-87301ddb941b
+- Solana · orca-dex · META-USDC — 795.3% APY, $564,373 TVL — https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0
+- Monad · uniswap-v3 · WMON-USDC — 791.6% APY, $1,748,005 TVL — https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd
+- Base · uniswap-v4 · ETH-BASECAT — 773.7% APY, $158,226 TVL — https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8
+- Base · aerodrome-slipstream · BNKR-WETH — 758.1% APY, $107,059 TVL — https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden

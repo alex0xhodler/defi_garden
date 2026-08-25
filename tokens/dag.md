@@ -1,10 +1,10 @@
 # DAG DeFi Yields
 
-The highest honest DAG yield right now is 8.90% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAG yield right now is 8.89% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=aa39285d-73c5-4205-aaa1-010cd663828f&src=seo_token) | Base | 8.90% | $470.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=aa39285d-73c5-4205-aaa1-010cd663828f&src=seo_token) | Base | 8.89% | $471.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAG yield today?
 
-8.90% APY on uniswap-v4 (Base), based on live DefiLlama data.
+8.89% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $470.6K in total.
+1 live pool clear this page's $100K TVL floor, $471.2K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank DAG pools. This view covers A
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # AIX DeFi Yields
 
-The highest honest AIX yield right now is 3.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIX yield right now is 3.55% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a3d6c7cb-0753-5338-a7ea-092599f677eb&src=seo_token) | Solana | 3.41% | $196.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a3d6c7cb-0753-5338-a7ea-092599f677eb&src=seo_token) | Solana | 3.55% | $197.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIX yield today?
 
-3.41% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.55% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AIX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.6K in total.
+1 live pool clear this page's $100K TVL floor, $197.7K in total.
 
 ### Are these rates safe?
 

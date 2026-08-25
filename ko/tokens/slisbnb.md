@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.92% | $643.77M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.92% | $644.41M |
 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.72% | $1.77M |
 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.36% | $1.77M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SLISBNB의 변동성 낮은 후보는 BSC의 pendle, APY 1.36%, TVL $1.77M, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; BSC의 pendle, APY 1.72%, TVL $1.77M, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; BSC의 lista-liquid-staking, APY 0.92%, TVL $643.77M, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SLISBNB의 변동성 낮은 후보는 BSC의 pendle, APY 1.36%, TVL $1.77M, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; BSC의 pendle, APY 1.72%, TVL $1.77M, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; BSC의 lista-liquid-staking, APY 0.92%, TVL $644.41M, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.36% | $1.77M |
 | 2 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.72% | $1.77M |
-| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.92% | $643.77M |
+| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.92% | $644.41M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -31,7 +31,7 @@ SLISBNB 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.92%부터 1.72%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-liquid-staking | 0.92% | 1.19% | 기본 금리 |
+| lista-liquid-staking | 0.92% | 1.18% | 기본 금리 |
 | pendle | 1.72% | 1.60% | 기본 금리 |
 | pendle | 1.36% | 1.31% | 기본 금리 |
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, BSC의 pendle에서 APY 1.72%예요.
 
 ### SLISBNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $791.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $792.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, BSC의 pendle에서 APY 1.72%예요.
 
 ### SLISBNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SLISBNB의 변동성 낮은 후보는 BSC의 pendle, APY 1.36%, TVL $1.77M, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; BSC의 pendle, APY 1.72%, TVL $1.77M, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; BSC의 lista-liquid-staking, APY 0.92%, TVL $643.77M, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SLISBNB의 변동성 낮은 후보는 BSC의 pendle, APY 1.36%, TVL $1.77M, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; BSC의 pendle, APY 1.72%, TVL $1.77M, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; BSC의 lista-liquid-staking, APY 0.92%, TVL $644.41M, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

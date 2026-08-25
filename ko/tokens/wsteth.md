@@ -1,38 +1,38 @@
 # WSTETH 디파이 수익률
 
-현재 WSTETH의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.37%이며, $100K TVL 기준을 넘는 161개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WSTETH의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.35%이며, $100K TVL 기준을 넘는 160개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $219.73M |
-| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.03% | $134.46M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.39% | $87.13M |
-| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 1.92% | $15.95M |
-| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988&src=seo_token) | Ethereum | 0.89% | $13.81M |
-| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $7.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 2.37% | $6.23M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 1.85% | $5.85M |
+| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $220.33M |
+| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.03% | $134.79M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.28% | $87.22M |
+| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 1.83% | $15.85M |
+| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988&src=seo_token) | Ethereum | 1.18% | $13.81M |
+| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $7.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 2.35% | $6.2M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 0.23% | $5.87M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WSTETH의 변동성 낮은 후보는 Ethereum의 fluid-lending, APY 0.03%, TVL $219.73M, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token; Ethereum의 fluid-lending, APY 0.03%, TVL $7.78M, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token; Ethereum의 aave-v3, APY 0.03%, TVL $134.46M, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token; Ethereum의 fluid-dex, APY 0.39%, TVL $87.13M, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; Ethereum의 uniswap-v3, APY 2.37%, TVL $6.23M, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token; Ethereum의 uniswap-v4, APY 1.85%, TVL $5.85M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 balancer-v2, APY 1.92%, TVL $15.95M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WSTETH의 변동성 낮은 후보는 Ethereum의 fluid-lending, APY 0.03%, TVL $220.33M, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token; Ethereum의 fluid-lending, APY 0.03%, TVL $7.8M, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token; Ethereum의 aave-v3, APY 0.03%, TVL $134.79M, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token; Ethereum의 fluid-dex, APY 0.28%, TVL $87.22M, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; Ethereum의 uniswap-v3, APY 2.35%, TVL $6.2M, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token; Ethereum의 uniswap-v4, APY 0.23%, TVL $5.87M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 balancer-v2, APY 1.83%, TVL $15.85M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $219.73M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $7.78M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.03% | $134.46M |
-| 4 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.39% | $87.13M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 2.37% | $6.23M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 1.85% | $5.85M |
-| 7 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 1.92% | $15.95M |
+| 1 | [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $220.33M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $7.8M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.03% | $134.79M |
+| 4 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.28% | $87.22M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 2.35% | $6.2M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 0.23% | $5.87M |
+| 7 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 1.83% | $15.85M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 2.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 2.35%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.60%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -44,12 +44,12 @@ WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 2.37%�
 |---|---|---|---|
 | fluid-lending | 0.03% | 0.03% | 기본 금리 |
 | aave-v3 | 0.03% | 0.05% | 기본 금리 |
-| fluid-dex | 0.39% | 0.27% | 기본 금리 |
-| balancer-v2 | 1.92% | 0.93% | 기본 금리 |
-| symbiotic | 0.89% | 1.09% | 인센티브 100.00% |
+| fluid-dex | 0.28% | 0.27% | 기본 금리 |
+| balancer-v2 | 1.83% | 0.93% | 기본 금리 |
+| symbiotic | 1.18% | 1.09% | 인센티브 100.00% |
 | fluid-lending | 0.03% | 0.03% | 기본 금리 |
-| uniswap-v3 | 2.37% | 2.43% | 기본 금리 |
-| uniswap-v4 | 1.85% | 8.27% | 기본 금리 |
+| uniswap-v3 | 2.35% | 2.43% | 기본 금리 |
+| uniswap-v4 | 0.23% | 8.23% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 2.37%�
 
 ### 오늘 WSTETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.37%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.35%예요.
 
 ### WSTETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 161개이며, 합산 TVL은 $7.99B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 160개이며, 합산 TVL은 $8.01B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.37%예�
 
 ### WSTETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WSTETH의 변동성 낮은 후보는 Ethereum의 fluid-lending, APY 0.03%, TVL $219.73M, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token; Ethereum의 fluid-lending, APY 0.03%, TVL $7.78M, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token; Ethereum의 aave-v3, APY 0.03%, TVL $134.46M, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token; Ethereum의 fluid-dex, APY 0.39%, TVL $87.13M, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; Ethereum의 uniswap-v3, APY 2.37%, TVL $6.23M, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token; Ethereum의 uniswap-v4, APY 1.85%, TVL $5.85M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 balancer-v2, APY 1.92%, TVL $15.95M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WSTETH의 변동성 낮은 후보는 Ethereum의 fluid-lending, APY 0.03%, TVL $220.33M, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token; Ethereum의 fluid-lending, APY 0.03%, TVL $7.8M, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token; Ethereum의 aave-v3, APY 0.03%, TVL $134.79M, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token; Ethereum의 fluid-dex, APY 0.28%, TVL $87.22M, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; Ethereum의 uniswap-v3, APY 2.35%, TVL $6.2M, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token; Ethereum의 uniswap-v4, APY 0.23%, TVL $5.87M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 balancer-v2, APY 1.83%, TVL $15.85M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
