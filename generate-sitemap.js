@@ -667,6 +667,12 @@ async function generateSitemapSuite(poolsOverride) {
       sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
 
+    // Zero-Distance Intent Portals (/for/<slug>)
+    const INTENT_SLUGS = ['claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube'];
+    INTENT_SLUGS.forEach(slug => {
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}for/${slug}`, LASTMOD_PLACEHOLDER, '0.8', 'weekly'));
+    });
+
     // 2. Vertical: Chain-Specific Sitemaps
     console.log('📝 Building Vertical Chain Sitemaps...');
     const topChains = Array.from(chainTokensMap.keys()).sort((a, b) => {

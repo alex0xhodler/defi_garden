@@ -319,446 +319,357 @@
   border: 1px solid var(--ui-border);
 }
 
-/* The hero absorbs the viewport's spare height (flex: 1 + centered grid)
-   so tall screens split the slack above and below the composition instead
-   of pooling it in one dead band before the trust seam. */
-.landing-main { flex: 1; display: flex; flex-direction: column; }
-
-.landing-hero {
-  width: min(1200px, calc(100% - 48px));
-  flex: 1;
-  margin: 0 auto;
-  padding: 64px 0 72px;
-  display: grid;
-  grid-template-columns: minmax(0, 1.06fr) minmax(320px, .74fr);
-  align-items: center;
-  gap: clamp(44px, 7vw, 96px);
+/* SOTA Unified 100vh Landing Page Architecture */
+.landing-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background: radial-gradient(circle at 72% 40%, rgba(124, 201, 160, 0.08) 0%, transparent 55%),
+              radial-gradient(circle at 18% 65%, rgba(124, 201, 160, 0.04) 0%, transparent 50%);
 }
 
-.landing-hero-copy { min-width: 0; }
+[data-theme="light"] .landing-app {
+  background: radial-gradient(circle at 72% 40%, rgba(124, 201, 160, 0.12) 0%, transparent 55%),
+              radial-gradient(circle at 18% 65%, rgba(124, 201, 160, 0.06) 0%, transparent 50%);
+}
 
-/* 247 world: the landing speaks in the same certificate voice as pool
-   detail — Besley at 600 with near-neutral tracking (the serif carries its
-   own density; the old -.065em sans tracking mangles it). */
-.landing-title {
-  max-width: 690px;
-  margin: 0;
+.landing-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.landing-spotlight-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-footer {
+  width: min(1240px, calc(100% - 48px));
+  margin: auto auto 0;
+  padding: 12px 0 16px;
+  border-top: 1px solid var(--ui-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding: 16px 0 20px;
+  }
+}
+
+/* SECTION 1: HERO SPOTLIGHT */
+.landing-hero-spotlight {
+  width: min(1240px, calc(100% - 48px));
+  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr);
+  align-items: center;
+  gap: clamp(32px, 4.5vw, 68px);
+  padding: 8px 0;
+}
+
+.landing-spotlight-copy {
+  min-width: 0;
+}
+
+.landing-spotlight-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background: rgba(var(--color-teal-500-rgb), 0.08);
+  border: 1px solid rgba(var(--color-teal-500-rgb), 0.22);
+  color: var(--color-primary);
+  font-family: var(--font-family-mono);
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.landing-spotlight-title {
+  max-width: 640px;
+  margin: 0 0 12px;
   color: var(--color-text);
   font-family: var(--font-family-display);
-  font-size: clamp(44px, 5.4vw, 68px);
+  font-size: clamp(40px, 4.8vw, 62px);
   font-weight: 600;
   line-height: 1.06;
-  letter-spacing: -.015em;
+  letter-spacing: -0.02em;
 }
 
 .landing-title-accent { color: var(--color-primary); }
 
-.landing-hero-body {
-  max-width: 570px;
-  margin: 28px 0 0;
+.landing-spotlight-subhead {
+  max-width: 540px;
+  margin: 0 0 16px;
   color: var(--color-text-secondary);
-  font-size: clamp(16px, 1.7vw, 19px);
-  line-height: 1.55;
+  font-size: clamp(14px, 1.5vw, 16px);
+  line-height: 1.5;
 }
 
-.landing-search-form { max-width: 680px; margin-top: 34px; }
-
-.landing-search-shell {
-  /* height/padding/border-radius owned by the shared hero-input rule, style.css end */
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border-strong);
-  transition: border-color var(--duration-normal) var(--ease-standard),
-    transform var(--duration-fast) var(--ease-standard);
+.landing-thesis-callout {
+  max-width: 540px;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: rgba(var(--color-teal-500-rgb), 0.06);
+  border: 1px solid rgba(var(--color-teal-500-rgb), 0.18);
+  font-size: 0.80rem;
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+  font-style: italic;
 }
 
-.landing-search-shell:focus-within {
-  border-color: var(--ui-accent);
-  box-shadow: var(--ui-focus-ring);
+.thesis-highlight {
+  font-family: var(--font-family-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-style: normal;
+  margin-right: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
-.landing-icon { width: 23px; height: 23px; flex: 0 0 auto; color: var(--color-primary); }
-
-.landing-search-input {
-  min-width: 0;
-  flex: 1;
-  height: 48px;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  background: transparent;
-  color: var(--color-text);
-  font-family: var(--font-family-base);
-  font-size: 16px;
-  line-height: 1.3;
-}
-
-.landing-search-input::placeholder { color: var(--color-text-secondary); opacity: .82; }
-.landing-search-input::-webkit-search-cancel-button { filter: grayscale(1); opacity: .6; }
-
-.landing-search-submit,
-.landing-garden-link {
-  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
+.landing-subs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 7px;
-  border: 1px solid transparent;
-  background: var(--color-primary);
-  color: var(--color-btn-primary-text);
+  margin-bottom: 12px;
+  max-width: 580px;
+}
+
+.landing-sub-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  padding: 7px 9px;
   cursor: pointer;
   font-family: var(--font-family-base);
+  font-size: 0.78rem;
+  background: var(--ui-surface-muted, #142018);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  color: var(--color-text);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
   white-space: nowrap;
-  transition: background var(--duration-fast) var(--ease-standard),
-    box-shadow var(--duration-fast) var(--ease-standard),
-    transform var(--duration-fast) var(--ease-standard);
-}
-
-.landing-search-submit:hover,
-.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); }
-.landing-search-submit:active,
-.landing-garden-link:active { background: var(--color-primary-active); transform: translateY(1px); }
-
-.landing-arrow-icon { width: 19px; height: 19px; }
-
-.landing-examples {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-top: 17px;
-}
-
-/* Plate-label voice — same recipe as pool-detail's .pool-action-apy-label
-   (serif 11px/600, .22em tracked caps). */
-.landing-examples-label {
-  width: 100%;
-  margin-bottom: 1px;
-  color: var(--color-text-secondary);
-  font-family: var(--font-family-display);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-}
-
-.landing-example-chip {
-  /* height/padding/border-radius/font-size owned by the shared chip rule, style.css end */
-  border: 1px solid var(--ui-border);
-  background: var(--color-background);
-  color: var(--color-text-secondary);
-  cursor: pointer;
-  font-family: var(--font-family-base);
-  transition: color var(--duration-fast) var(--ease-standard),
-    border-color var(--duration-fast) var(--ease-standard),
-    box-shadow var(--duration-fast) var(--ease-standard),
-    transform var(--duration-fast) var(--ease-standard);
-}
-
-.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); }
-.landing-example-chip:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-
-.landing-garden-card {
-  /* padding/border-radius owned by the shared hero-card rule, style.css end */
-  position: relative;
-  isolation: isolate;
-  min-height: 448px;
-  padding-bottom: 0;
   overflow: hidden;
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
+  text-overflow: ellipsis;
 }
 
-/* Engraved corner quoins — geometry from the shared .orn-corners rule
-   (style.css's ORNAMENT SYSTEM already lists `.landing-garden-card::after`
-   alongside it), same watermark-weight ink and no ambient cycle as the
-   grid's `.results-panel::after` and pool-detail's own `.pool-hero-card::
-   after`. Sits behind the card's own h2/p/link/illustration (all in
-   normal flow, painted after this negative-z-index layer) so the "Have a
-   goal in mind?" copy is never crossed by it. */
-.landing-garden-card::after {
-  --orn-inset: 10px;
-  --orn-ink: var(--ui-accent-border);
-  z-index: -1;
+.landing-sub-chip:hover {
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  background: rgba(var(--color-teal-500-rgb), 0.10) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.landing-card-topline {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+.landing-sub-chip.is-selected {
+  background: rgba(var(--color-teal-500-rgb), 0.22) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  box-shadow: 0 0 14px rgba(var(--color-teal-500-rgb), 0.18);
 }
 
-.landing-seed-icon { width: 38px; height: 38px; border-radius: 12px; }
-.landing-seed-icon .landing-leaf-mark { width: 22px; height: 22px; }
-
-.landing-card-caption {
-  color: var(--color-text-secondary);
-  font-family: var(--font-family-display);
-  font-size: 11px;
+.landing-sub-chip-name {
   font-weight: 600;
-  letter-spacing: .14em;
-  text-transform: uppercase;
+}
+
+.landing-sub-chip-price {
+  margin-left: auto;
+  font-family: var(--font-family-mono);
+  font-size: 0.66rem;
+  color: var(--color-text-secondary);
+  opacity: 0.85;
+}
+
+.landing-sub-chip.is-selected .landing-sub-chip-price {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+/* CARD SHOWCASE (RIGHT COLUMN) */
+.landing-card-showcase {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  perspective: 1200px;
+}
+
+.virtual-visa-card {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 1.586 / 1;
+  padding: 18px 20px;
+  background: radial-gradient(circle at 20% 15%, rgba(124, 201, 160, 0.22) 0%, transparent 50%),
+              linear-gradient(145deg, #0d1e16 0%, #152d21 48%, #08140f 100%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+              0 18px 42px -8px rgba(0, 0, 0, 0.7),
+              0 0 28px rgba(124, 201, 160, 0.08);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  margin: 0 0 12px;
+  transform: perspective(1000px) rotateY(-2.5deg) rotateX(1.5deg);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.virtual-visa-card:hover {
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(-2px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35),
+              0 24px 50px -6px rgba(0, 0, 0, 0.75),
+              0 0 36px rgba(124, 201, 160, 0.16);
+}
+
+.landing-card-metrics-table {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 12px;
+  background: var(--ui-surface-muted, #142018);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
+  box-sizing: border-box;
+}
+
+.landing-card-metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 12px;
+  font-size: 0.80rem;
+}
+
+.landing-card-metric-row:not(:last-child) {
+  border-bottom: 1px solid var(--ui-border, rgba(255, 255, 255, 0.08));
+}
+
+.metric-row-label {
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-base);
+  font-weight: 500;
+}
+
+.metric-row-value {
+  font-family: var(--font-family-mono);
+  font-size: 0.80rem;
+  font-weight: 600;
+  color: var(--color-text);
   text-align: right;
 }
 
-.landing-garden-card h2 {
-  max-width: 270px;
-  margin: 25px 0 10px;
-  font-family: var(--font-family-display);
-  font-size: clamp(26px, 2.7vw, 34px);
-  font-weight: 600;
-  line-height: 1.1;
-  letter-spacing: -.01em;
-}
-
-.landing-garden-card p {
-  position: relative;
-  z-index: 1;
-  max-width: 290px;
-  margin: 0;
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-base);
-  line-height: 1.5;
+.metric-row-value.highlight {
+  color: var(--color-primary);
+  font-weight: 700;
 }
 
 .landing-garden-link {
-  /* height/padding/font-size owned by the shared primary-button rule, style.css end */
-  position: relative;
-  z-index: 2;
-  margin-top: 22px;
-}
-
-.landing-plant-svg {
-  position: absolute;
-  right: -10px;
-  bottom: -13px;
-  display: block;
-  width: min(100%, 365px);
-  height: auto;
-  max-width: 100%;
-  transform-origin: 50% 100%;
-  color: var(--color-primary);
-  animation: landing-plant-breathe 7s ease-in-out infinite;
-}
-
-/* Engraved botanical plate, not clip-art: the halo is an accent-inked disc
-   ringed like the guilloché rosettes, the leaves are stroked line-art with
-   a soft accent wash, and every legacy blue token (--color-bg-1's navy
-   disc, --color-secondary-blue's leaf) is gone from the world. */
-.landing-plant-halo { fill: var(--ui-accent-watermark); stroke: var(--ui-accent-border); stroke-width: 1; stroke-dasharray: 1 4; stroke-linecap: round; }
-.landing-plant-stem { stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; }
-.landing-plant-leaf { fill: var(--ui-accent-soft); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; opacity: 1; }
-.landing-plant-leaf-small { fill: var(--ui-accent-margin); }
-.landing-plant-vein { stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; fill: none; opacity: .55; }
-.landing-plant-pot { fill: var(--ui-surface); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; }
-.landing-plant-pot-rim { stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: .8; }
-.landing-plant-ground { stroke: var(--ui-border-strong); stroke-width: 1.5; stroke-linecap: round; }
-
-.landing-trust-section {
-  position: relative;
-  isolation: isolate;
-  width: min(1200px, calc(100% - 48px));
-  margin: 0 auto;
-  padding: 24px 0 40px;
-  display: grid;
-  grid-template-columns: minmax(220px, .75fr) minmax(0, 1.25fr);
-  align-items: center;
-  gap: 42px;
-  border-top: 1px solid var(--color-border);
-}
-
-/* Divider band riding the section's own border-top — the hero/trust seam
-   — plus a closing band at the section's bottom inner edge, above the
-   footer (`.landing-app .app-footer` is `position: static` above, so —
-   same reasoning as the grid's `.results-section::after` in style.css —
-   this anchors to the last content section instead of the footer box
-   itself). Watermark weight, breathing like pool-detail's bookend bands;
-   z-index -1 behind this section's own copy/rail (`isolation: isolate`
-   above keeps it from slipping behind `.landing-trust-section`'s
-   siblings' backgrounds, same fix `.landing-garden-card`/`.results-panel`
-   needed). */
-.landing-trust-section::before,
-.landing-trust-section::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(320px, 60%);
-  height: 14px;
-  --orn-size: 35px 14px;
-  --orn-ink: var(--ui-accent-soft);
-  background-color: var(--orn-ink);
-  pointer-events: none;
-  z-index: -1;
-  -webkit-mask-image: url('./assets/guilloche-band.svg');
-  mask-image: url('./assets/guilloche-band.svg');
-  -webkit-mask-size: var(--orn-size);
-  mask-size: var(--orn-size);
-  -webkit-mask-repeat: repeat-x;
-  mask-repeat: repeat-x;
-  -webkit-mask-position: center;
-  mask-position: center;
-}
-
-.landing-trust-section::before {
-  top: -1px;
-  animation: ornBreathe 104s ease-in-out infinite alternate;
-}
-
-.landing-trust-section::after {
-  bottom: -18px;
-  animation: ornBreathe 111s ease-in-out infinite alternate;
-}
-
-@media (max-width: 767px) {
-  .landing-trust-section::before,
-  .landing-trust-section::after {
-    display: none;
-  }
-}
-
-.landing-trust-copy h2 {
-  margin: 0;
-  font-family: var(--font-family-display);
-  font-size: clamp(20px, 2.2vw, 26px);
-  font-weight: 600;
-  letter-spacing: -.005em;
-}
-
-.landing-trust-copy p {
-  max-width: 360px;
-  margin: 7px 0 0;
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  line-height: 1.5;
-}
-
-.landing-trust-rail {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 10px;
-}
-
-.landing-trust-item {
-  min-height: 40px;
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  padding: 0 14px;
-  border-radius: 3px;
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 420px;
+  height: 46px;
+  min-height: 46px;
+  padding: 0 20px;
+  background: var(--ui-accent, #7CC9A0) !important;
+  color: #08140f !important;
+  border: 1px solid var(--ui-accent, #7CC9A0) !important;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-weight: 700 !important;
+  font-size: 0.92rem;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(124, 201, 160, 0.2);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.landing-garden-link:hover {
+  background: var(--ui-accent-hover, #93D6B2) !important;
+  color: #08140f !important;
+  border-color: var(--ui-accent-hover, #93D6B2) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(124, 201, 160, 0.35);
+}
+
+.landing-garden-link:active {
+  background: var(--ui-accent-active, #66B78D) !important;
+  color: #08140f !important;
+  transform: translateY(1px);
+}
+
+.landing-card-hint {
+  font-family: var(--font-family-base);
+  font-size: 0.70rem;
   color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  white-space: nowrap;
+  margin-top: 8px;
+  text-align: center;
+  line-height: 1.3;
 }
-
-.landing-trust-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--color-success);
-}
-
-.landing-trust-symbol { color: var(--color-primary); font-size: 17px; line-height: 1; }
-
-.landing-footer {
-  width: min(1200px, calc(100% - 48px));
-  min-height: 55px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-}
-
-.landing-footer > span:first-child { color: var(--color-text); font-weight: var(--font-weight-semibold); }
-
-.landing-reveal {
-  opacity: 0;
-  animation: landing-reveal-up .65s var(--ease-standard) forwards;
-}
-
-.landing-reveal-one { animation-delay: .05s; }
-.landing-reveal-two { animation-delay: .12s; }
-.landing-reveal-three { animation-delay: .2s; }
-.landing-reveal-four { animation-delay: .3s; }
-.landing-reveal-five { animation-delay: .4s; }
-
-@keyframes landing-reveal-up {
-  from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes landing-drift-one {
-  0%, 100% { transform: rotate(-18deg) translate3d(0, 0, 0); }
-  50% { transform: rotate(-13deg) translate3d(-12px, 8px, 0); }
-}
-
-@keyframes landing-drift-two {
-  0%, 100% { transform: rotate(18deg) translate3d(0, 0, 0); }
-  50% { transform: rotate(24deg) translate3d(12px, -8px, 0); }
-}
-
-@keyframes landing-plant-breathe {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
-}
-
-.landing-brand:focus-visible,
-.landing-nav a:focus-visible,
-.landing-mobile-nav a:focus-visible,
-.landing-garden-link:focus-visible,
-.landing-example-chip:focus-visible,
-.landing-search-submit:focus-visible,
-.landing-icon-button:focus-visible,
-.landing-menu-button:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: 3px;
-}
-
 @media (max-width: 960px) {
-  .landing-hero {
-    grid-template-columns: minmax(0, 1fr) minmax(290px, .75fr);
-    gap: 38px;
+  .landing-hero-spotlight {
+    grid-template-columns: minmax(0, 1fr) minmax(290px, .85fr);
+    gap: 32px;
   }
-
-  .landing-title { font-size: clamp(46px, 7vw, 64px); }
-  .landing-garden-card { min-height: 420px; }
-  .landing-plant-svg { width: 320px; }
 }
 
 @media (max-width: 760px) {
   .landing-header,
-  .landing-hero,
-  .landing-trust-section,
+  .landing-hero-spotlight,
+  .landing-search-section,
   .landing-footer,
   .landing-mobile-nav { width: min(100% - 32px, 600px); }
 
   .landing-nav { display: none; }
   .landing-menu-button { display: inline-flex; }
-  .landing-hero {
-    min-height: auto;
-    padding: 56px 0 60px;
+  .landing-hero-spotlight {
+    padding: 40px 0 36px;
     grid-template-columns: 1fr;
-    gap: 42px;
+    gap: 32px;
   }
 
-  .landing-title { max-width: 540px; font-size: clamp(38px, 11vw, 58px); }
-  .landing-hero-body { margin-top: 22px; font-size: 17px; }
-  .landing-search-form { margin-top: 28px; }
-  .landing-garden-card { min-height: 400px; }
-  .landing-trust-section { grid-template-columns: 1fr; gap: 22px; padding: 24px 0 32px; }
-  .landing-trust-rail { justify-content: flex-start; }
+  .landing-spotlight-title { font-size: clamp(32px, 9vw, 44px); }
+  .landing-search-section { padding: 36px 0 44px; }
+  .landing-title { max-width: 540px; font-size: clamp(28px, 8vw, 38px); }
+  .landing-hero-body { margin-top: 10px; font-size: 15px; }
+  .landing-search-form { margin-top: 20px; }
 }
 
 @media (max-width: 440px) {
   .landing-header,
-  .landing-hero,
-  .landing-trust-section,
+  .landing-hero-spotlight,
+  .landing-search-section,
   .landing-footer,
   .landing-mobile-nav { width: calc(100% - 32px); }
 
@@ -766,17 +677,11 @@
   .landing-brand-mark { width: 34px; height: 34px; }
   .landing-brand-mark .landing-leaf-mark { width: 21px; height: 21px; }
   .landing-header-actions { gap: 6px; }
-  /* icon-button/search-shell/search-submit size is owned by the shared
-     component rules (style.css end) — no responsive shape variant */
-  .landing-hero { padding-top: 46px; }
-  .landing-title { font-size: 38px; }
+  .landing-hero-spotlight { padding-top: 28px; }
+  .landing-spotlight-title { font-size: 30px; }
   .landing-search-shell { gap: 9px; }
   .landing-search-submit-label { display: none; }
   .landing-search-input { font-size: 15px; }
-  .landing-garden-card { min-height: 370px; padding-bottom: 0; }
-  .landing-garden-card h2 { margin-top: 22px; font-size: 31px; }
-  .landing-plant-svg { right: -28px; bottom: -18px; width: 315px; }
-  .landing-trust-item { width: 100%; }
   .landing-footer { min-height: 72px; align-items: flex-start; flex-direction: column; justify-content: center; gap: 4px; }
 }
 

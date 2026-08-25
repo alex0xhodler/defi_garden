@@ -12,108 +12,190 @@ const SUBSCRIPTIONS = [
   {
     slug: 'claude',
     name: 'Anthropic Claude Pro',
-    category: 'AI & Developer Tooling',
-    monthlyUsd: 20.00,
-    emoji: '🤖',
+    category: 'AI / Developer',
+    baseMonthlyUsd: 20.00,
+    taxBufferMonthlyUsd: 24.00,
+    taxBufferDeltaUsd: 4.00,
     iconDomain: 'anthropic.com',
-    requiredDepositUsd: 4800,
-    apyPercent: 5.0,
     headline: 'Never pay for Claude Pro again.',
-    subhead: 'Lock $4,800 USDC in an audited Base lending vault. Realized yield settles your $20/mo Claude invoice automatically. Withdraw your full deposit whenever you want.',
-    metaDesc: 'Self-paying Claude Pro subscription powered by Base USDC yield. Keep 100% of your principal while automated yields cover your $20/mo Anthropic bill.'
+    subhead: 'Deposit once into curated Base lending vaults. Realized yield pays your $20/mo Claude invoice perpetually. Keep 100% of your principal with instant liquidity.',
+    metaDesc: 'Self-paying Claude Pro subscription powered by Base DeFi yield. Keep 100% of your principal while automated yields cover your $20/mo Anthropic bill.'
   },
   {
     slug: 'cursor',
     name: 'Cursor Pro IDE',
-    category: 'AI & Developer Tooling',
-    monthlyUsd: 20.00,
-    emoji: '💻',
+    category: 'AI / Developer',
+    baseMonthlyUsd: 20.00,
+    taxBufferMonthlyUsd: 24.00,
+    taxBufferDeltaUsd: 4.00,
     iconDomain: 'cursor.com',
-    requiredDepositUsd: 4800,
-    apyPercent: 5.0,
-    headline: 'Eliminate your Cursor Pro bill with idle USDC.',
-    subhead: 'Deposit $4,800 USDC once on Base. Automated yield covers your $20/mo IDE subscription on autopilot. Principal is non-custodial and 100% redeemable.',
-    metaDesc: 'Fund Cursor Pro forever using Base USDC yield. Self-paying developer subscriptions with zero capital erosion.'
+    headline: 'Eliminate your Cursor Pro bill with idle crypto.',
+    subhead: 'Deposit once into curated Base lending vaults. Automated yield covers your $20/mo IDE subscription on autopilot. Principal is 100% self-custodial.',
+    metaDesc: 'Fund Cursor Pro forever using Base DeFi yield. Self-paying developer subscriptions with zero capital erosion.'
   },
   {
     slug: 'chatgpt',
     name: 'OpenAI ChatGPT Plus',
-    category: 'AI & Developer Tooling',
-    monthlyUsd: 20.00,
-    emoji: '🧠',
+    category: 'AI / Developer',
+    baseMonthlyUsd: 20.00,
+    taxBufferMonthlyUsd: 24.00,
+    taxBufferDeltaUsd: 4.00,
     iconDomain: 'openai.com',
-    requiredDepositUsd: 4800,
-    apyPercent: 5.0,
     headline: 'Fund ChatGPT Plus forever from DeFi yield.',
-    subhead: 'Lock $4,800 USDC on Base to generate $20.00/mo in net interest. Automated card settlement wipes out your OpenAI invoice every month.',
+    subhead: 'Lock capital once into curated Base vaults. Automated card settlement covers your $20/mo OpenAI invoice while your deposit remains untouched.',
     metaDesc: 'Pay ChatGPT Plus automatically from Base DeFi yield. Non-custodial, principal-protected subscription funding.'
   },
   {
     slug: 'spotify',
     name: 'Spotify Premium',
-    category: 'Streaming & Media',
-    monthlyUsd: 12.00,
-    emoji: '🎵',
+    category: 'Media Streaming',
+    baseMonthlyUsd: 11.99,
+    taxBufferMonthlyUsd: 14.39,
+    taxBufferDeltaUsd: 2.40,
     iconDomain: 'spotify.com',
-    requiredDepositUsd: 2880,
-    apyPercent: 5.0,
     headline: 'Perpetual Spotify Premium with zero monthly burn.',
-    subhead: 'Deposit $2,880 USDC on Base. Net yield covers your $12/mo Spotify Premium indefinitely while your initial deposit remains untouched.',
-    metaDesc: 'Get lifetime Spotify Premium yield-funding with Base USDC. Keep your principal, let DeFi yield pay the music bill.'
+    subhead: 'Deposit once on Base. Net yield covers your $11.99/mo Spotify Premium indefinitely while your initial deposit stays 100% yours.',
+    metaDesc: 'Get lifetime Spotify Premium yield-funding with Base DeFi yields. Keep your principal, let yield pay the music bill.'
   },
   {
     slug: 'netflix',
     name: 'Netflix Standard',
-    category: 'Streaming & Media',
-    monthlyUsd: 18.00,
-    emoji: '🎬',
+    category: 'Media Streaming',
+    baseMonthlyUsd: 17.99,
+    taxBufferMonthlyUsd: 21.59,
+    taxBufferDeltaUsd: 3.60,
     iconDomain: 'netflix.com',
-    requiredDepositUsd: 4320,
-    apyPercent: 5.0,
     headline: 'Stream Netflix perpetually from Base yield.',
-    subhead: 'Lock $4,320 USDC in Base liquidity vaults. Monthly yield pays your $18.00 Netflix subscription automatically without touching your principal.',
+    subhead: 'Lock capital into curated Base liquidity vaults. Monthly yield pays your $17.99 Netflix subscription automatically without touching your principal.',
     metaDesc: 'Self-paying Netflix subscription on Base. Yield covers your monthly streaming bill while you preserve 100% of your crypto.'
   },
   {
     slug: 'aws',
     name: 'AWS Cloud Micro-Infra',
-    category: 'Cloud Infrastructure',
-    monthlyUsd: 50.00,
-    emoji: '☁️',
+    category: 'Cloud Compute',
+    baseMonthlyUsd: 50.00,
+    taxBufferMonthlyUsd: 60.00,
+    taxBufferDeltaUsd: 10.00,
     iconDomain: 'aws.amazon.com',
-    requiredDepositUsd: 12000,
-    apyPercent: 5.0,
     headline: 'Self-paying AWS cloud compute for builders and agents.',
-    subhead: 'Deposit $12,000 USDC on Base. Automated monthly yield sweeps extinguish $50.00/mo in cloud server and database burn with zero human ops.',
+    subhead: 'Deposit once on Base. Automated monthly yield sweeps extinguish $50.00/mo in cloud server and database burn with zero human ops.',
     metaDesc: 'Perpetual AWS cloud compute funding via Base DeFi yield. Autonomous infrastructure for Web3 developers and AI agents.'
   },
   {
     slug: 'github',
     name: 'GitHub Copilot Pro',
-    category: 'AI & Developer Tooling',
-    monthlyUsd: 10.00,
-    emoji: '🐙',
+    category: 'AI / Developer',
+    baseMonthlyUsd: 10.00,
+    taxBufferMonthlyUsd: 12.00,
+    taxBufferDeltaUsd: 2.00,
     iconDomain: 'github.com',
-    requiredDepositUsd: 2400,
-    apyPercent: 5.0,
     headline: 'Code with Copilot Pro on permanent autopilot.',
-    subhead: 'Deposit $2,400 USDC into isolated Base lending vaults. $10.00/mo in yield covers your Copilot subscription while your $2,400 stays 100% yours.',
+    subhead: 'Deposit into curated Base lending vaults. Realized yield covers your $10.00/mo Copilot subscription while your principal stays 100% yours.',
     metaDesc: 'Fund GitHub Copilot from Base DeFi yields. Zero monthly expense, 100% self-custodial capital.'
   },
   {
     slug: 'youtube',
     name: 'YouTube Premium',
-    category: 'Streaming & Media',
-    monthlyUsd: 14.00,
-    emoji: '📺',
+    category: 'Media Streaming',
+    baseMonthlyUsd: 13.99,
+    taxBufferMonthlyUsd: 16.79,
+    taxBufferDeltaUsd: 2.80,
     iconDomain: 'youtube.com',
-    requiredDepositUsd: 3360,
-    apyPercent: 5.0,
     headline: 'Ad-free YouTube Premium funded forever.',
-    subhead: 'Lock $3,360 USDC on Base. Earn $14.00/mo in realized yield to settle YouTube Premium automatically with complete principal protection.',
+    subhead: 'Lock capital in curated Base vaults. Realized yield settles YouTube Premium automatically with complete principal protection.',
     metaDesc: 'Yield-funded YouTube Premium subscription on Base. Zero monthly out-of-pocket costs.'
   }
 ];
+
+function renderServiceIconSvg(slug, width = 16, height = 16) {
+  switch (slug) {
+    case 'claude':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#D97757" aria-hidden="true"><path d="m4.71 15.96 4.72-2.65.08-.23-.08-.13h-.23l-.79-.05-2.7-.07-2.34-.1-2.26-.12-.57-.12-.53-.7.05-.36.48-.32.69.06 1.52.1 2.28.16 1.65.1 2.45.25h.39l.05-.16-.13-.1-.1-.1L6.97 9.84 4.42 8.15l-1.34-.97-.72-.49-.36-.46-.16-1.01.66-.72.88.06.22.06.9.69 1.9 1.47 2.49 1.84.37.3.14-.1.02-.08-.16-.27-1.36-2.45-1.44-2.49-.65-1.03-.17-.62a3 3 0 0 1-.1-.73L6.29.13 6.7 0l1 .13.41.37.62 1.41 1 2.23 1.56 3.03.45.9.25.83.09.25h.16v-.14l.13-1.71.23-2.1.24-2.7.07-.75.38-.91.75-.48h.67l.5.34.34.8.06 1.05-.15 2.16-.34 2.87-.27 2.28-.08.83.1.06.14-.06.74-.9 1.66-2.05 1.5-1.84.97-1.09.6-.53.7-.37.74.19.46.6-.08.77-.38.86-.96 1.4-1.32 1.83-1.63 2.2-1.02 1.44-.04.14.07.06.14-.02 2.65-.63 2.1-.48 2.09-.36.88-.1.71.3.43.7-.22.68-.73.49-1.2-.02-2.3.36-2.4.45-3.08.68h-.19l-.02.13.11.1 1.7 1.25 2.5 1.78 2.25 1.66.47.41.34.73-.24.73-.67.43-.8-.12-1.25-.92-2.3-1.78-2.22-1.73-.24-.13-.1.03-.02.1.37 2.23.51 2.54.43 2.05.23.95-.08.63-.5.67-.74.19-.68-.28-.51-.83-.43-1.57-.45-2.45-.44-2.44-.09-.27h-.14l-.1.14-.85 1.94-1.22 2.57-.84 1.72-.6 1.03-.66.6-.74.17-.67-.3-.34-.73.08-.83.47-1.1.99-2.03 1.29-2.61.64-1.34v-.16l-.1-.04-.68.42-2.36 1.6-2.88 1.94-.83.48-.82.25-.66-.35-.35-.74.18-.75.7-.5 1.34-.84 2.45-1.6 2.37-1.52.06-.2-.14-.07Z"/></svg>`;
+    case 'cursor':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#FFFFFF" aria-hidden="true"><path d="M12 1.75L3.5 6.66v10.68L12 22.25l8.5-4.91V6.66L12 1.75zm0 2.31l6.5 3.75-6.5 3.75-6.5-3.75 6.5-3.75zm-7 5.12l6 3.46v7.22l-6-3.46V9.18zm8 10.68v-7.22l6-3.46v7.22l-6 3.46z"/></svg>`;
+    case 'chatgpt':
+      return `<svg class="service-brand-icon" viewBox="0 0 256 260" width="${width}" height="${height}" fill="#10A37F" aria-hidden="true"><path d="M239.18 106.2c5.87-17.68 3.84-37.03-5.57-53.1-14.16-24.64-42.61-37.32-70.4-31.36-15.66-17.42-39.42-25.16-62.33-20.32-22.92 4.84-41.51 21.54-48.78 43.8-18.25 3.75-34 15.17-43.23 31.36-14.31 24.6-11.06 55.63 8.03 76.74-5.89 17.67-3.88 37.02 5.52 53.1 14.17 24.65 42.64 37.32 70.45 31.36 12.37 13.92 30.13 21.85 48.75 21.74 28.48.03 53.71-18.36 62.41-45.48 18.25-3.75 34.03-15.17 43.27-31.38 14.28-24.64 11-55.68-8.12-76.75v.3zm-88.66 137.95c-15.08 0-29.62-5.74-40.66-16.05l1.62-.93 42.14-24.32c2.72-1.57 4.39-4.47 4.39-7.61v-59.53l17.88 10.32c.3.16.48.47.48.82v48.24c-.06 27.08-22.01 49.03-49.09 49.06h3.24zm-94.88-46.77c-7.55-13.06-9.66-28.52-5.89-43.15.42.74.88 1.45 1.39 2.12l24.32 42.14c1.57 2.72 4.47 4.39 7.61 4.39h59.53l-17.88 10.32c-.3.17-.67.17-.97 0l-41.77-24.11c-13.56-7.83-22.78-21.66-25.04-37.19l-1.3 25.48zm-15.13-98.81c7.55-13.06 19.8-22.97 34.19-27.67-.3.8-.54 1.62-.73 2.45l-11.45 47.16c-.76 3.05-.11 6.28 1.76 8.78l35.21 47.38-17.88 10.32c-.3.17-.67.17-.97 0l-41.77-24.11c-23.44-13.54-31.47-43.52-17.93-66.96l-.43 2.65zm175.76 27.24-59.53-34.37 17.88-10.32c.3-.17.67-.17.97 0l41.77 24.11c23.46 13.52 31.51 43.52 17.99 66.98-7.55 13.06-19.8 22.97-34.19 27.67.3-.8.54-1.62.73-2.45l11.45-47.16c.76-3.05.11-6.28-1.76-8.78l-35.31-47.46zm20.89-41.44c7.55 13.06 9.66 28.52 5.89 43.15-.42-.74-.88-1.45-1.39-2.12l-24.32-42.14c-1.57-2.72-4.47-4.39-7.61-4.39h-59.53l17.88-10.32c.3-.17.67-.17.97 0l41.77 24.11c13.54 7.84 22.75 21.67 25 37.2l1.34-25.49zm-86.7-72.33c15.08 0 29.62 5.74 40.66 16.05l-1.62.93-42.14 24.32c-2.72 1.57-4.39 4.47-4.39 7.61v59.53l-17.88-10.32a.96.96 0 0 1-.48-.82V48.43c.06-27.08 22.01-49.03 49.09-49.06h-3.24zM107.5 129.83l20.44-11.8 20.44 11.8v23.61l-20.44 11.8-20.44-11.8v-23.61z"/></svg>`;
+    case 'spotify':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#1ED760" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>`;
+    case 'netflix':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#E50914" aria-hidden="true"><path d="M5.4 0l8.35 23.6c2.34.06 4.85.4 4.85.4L10.11 0H5.4zm8.49 0v9.17l4.71 13.33V0h-4.71zM5.4 1.5V24c1.87-.23 2.81-.31 4.71-.4V14.83L5.4 1.5z"/></svg>`;
+    case 'aws':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#FF9900" aria-hidden="true"><path d="M18.75 14.65c-.17-.13-.39-.14-.56-.03-2.17 1.39-4.8 2.13-7.55 2.13-3.69 0-7.04-1.39-9.5-3.7-.15-.14-.38-.14-.53 0l-.88.85c-.16.15-.16.38 0 .53C2.5 17.15 6.4 18.75 10.64 18.75c3.21 0 6.27-.89 8.79-2.53.18-.12.23-.35.12-.54l-.8-.88v-.15zm1.5-1.92c-.11-.32-.47-.43-.72-.23l-1.9 1.48c-.24.18-.21.55.06.7l2.25 1.25c.27.15.59-.06.56-.36l-.25-2.84zm-7.7-8.98c-1.33 0-2.38.38-3.08 1.11-.7.73-1.04 1.77-1.04 3.06 0 1.29.34 2.33 1.04 3.06.7.73 1.75 1.11 3.08 1.11s2.38-.38 3.08-1.11c.7-.73 1.04-1.77 1.04-3.06 0-1.29-.34-2.33-1.04-3.06-.7-.73-1.75-1.11-3.08-1.11zm0 1.85c.67 0 1.18.23 1.5.69.33.46.49 1.15.49 2.05 0 .9-.16 1.58-.49 2.04-.32.46-.83.69-1.5.69-.68 0-1.19-.23-1.51-.69-.32-.46-.49-1.14-.49-2.04 0-.9.17-1.59.49-2.05.32-.46.83-.69 1.51-.69z"/></svg>`;
+    case 'github':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#FFFFFF" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z"/></svg>`;
+    case 'youtube':
+      return `<svg class="service-brand-icon" viewBox="0 0 24 24" width="${width}" height="${height}" fill="#FF0000" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`;
+    default:
+      return '';
+  }
+}
+
+function renderMailIconSvg() {
+  return `<svg class="input-mail-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="2" y="4" width="16" height="12" rx="0" />
+    <path d="M2 6l8 5 8-5" />
+  </svg>`;
+}
+
+function renderEmvChipSvg() {
+  return `<svg class="visa-gold-chip visa-gold-chip-svg" viewBox="0 0 46 34" width="42" height="31" aria-hidden="true" role="img">
+    <defs>
+      <linearGradient id="emv-metallic-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ded5c5" />
+        <stop offset="35%" stop-color="#bfae95" />
+        <stop offset="70%" stop-color="#d6cbba" />
+        <stop offset="100%" stop-color="#9e8c72" />
+      </linearGradient>
+      <linearGradient id="emv-bevel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="rgba(255,255,255,0.7)" />
+        <stop offset="100%" stop-color="rgba(0,0,0,0.3)" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="45" height="33" rx="0" fill="url(#emv-metallic-grad)" stroke="rgba(30,25,18,0.4)" stroke-width="0.8" />
+    <rect x="1.2" y="1.2" width="43.6" height="31.6" rx="0" fill="none" stroke="url(#emv-bevel-grad)" stroke-width="0.6" />
+  </svg>`;
+}
+
+function renderNfcIconSvg() {
+  return `<svg class="visa-nfc-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+    <path d="M7 16a5.5 5.5 0 0 1 0-8" />
+    <path d="M11 18.5a9 9 0 0 1 0-13" />
+    <path d="M15 21a12.5 12.5 0 0 1 0-18" />
+    <path d="M3 13.5a2 2 0 0 1 0-3" />
+  </svg>`;
+}
+
+function renderVisaLogoSvg() {
+  return `<svg class="visa-logo-svg" viewBox="0 0 780 250" width="54" height="18" fill="#ffffff" aria-label="VISA" role="img">
+    <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
+  </svg>`;
+}
+
+function renderLockIconSvg() {
+  return `<svg class="card-lock-icon" viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+    <path d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z" />
+  </svg>`;
+}
+
+function renderLeafMarkSvg() {
+  return `<svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true">
+    <path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" />
+    <path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+  </svg>`;
+}
+
+function renderArrowIconSvg() {
+  return `<svg class="landing-arrow-icon" viewBox="0 0 20 20" width="18" height="18" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true">
+    <path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>`;
+}
+
+function renderShieldCheckIconSvg() {
+  return `<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z" />
+    <path d="m7.5 10 2 2 3.5-3.5" />
+  </svg>`;
+}
 
 function generateHtml(sub) {
   return `<!DOCTYPE html>
@@ -139,6 +221,8 @@ function generateHtml(sub) {
 
   <!-- Brand Quiet Design System -->
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/landing-styles.css">
+  <link rel="stylesheet" href="/pool-detail-styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 
   <!-- AEO / GEO Structured Data (JSON-LD) -->
@@ -154,7 +238,7 @@ function generateHtml(sub) {
         "category": "${sub.category}",
         "offers": {
           "@type": "Offer",
-          "price": "${sub.requiredDepositUsd}",
+          "price": "${sub.baseMonthlyUsd.toFixed(2)}",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "url": "https://www.defi.garden/for/${sub.slug}"
@@ -173,258 +257,938 @@ function generateHtml(sub) {
   </script>
 
   <style>
-    .intent-container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px 20px 80px;
+    *, *::before, *::after {
+      border-radius: 0 !important;
     }
-    .brand-nav {
+    .portal-shell {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+    }
+    .portal-nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 16px 0 28px;
-      border-bottom: 1px solid var(--color-border);
-      margin-bottom: 36px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--ui-border);
+      margin-bottom: 44px;
     }
-    .brand-logo {
+    .portal-brand {
       display: flex;
       align-items: center;
       gap: 10px;
       text-decoration: none;
-      color: var(--color-text);
+      color: var(--ui-text);
       font-weight: 700;
-      font-size: 1.25rem;
+      font-size: 1.15rem;
+      letter-spacing: -0.01em;
     }
-    .nav-links {
+    .portal-brand-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border-strong);
+      color: var(--ui-accent);
+    }
+    .portal-links {
       display: flex;
-      gap: 20px;
+      gap: 28px;
       align-items: center;
     }
-    .nav-links a {
-      color: var(--color-text-secondary);
+    .portal-link {
+      color: var(--ui-text-secondary);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 500;
+      transition: color 0.15s ease;
     }
-    .nav-links a:hover {
-      color: var(--color-primary);
+    .portal-link:hover {
+      color: var(--ui-accent);
     }
-    .hero-wrap {
+    .hero-section {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 44px;
     }
-    .badge-intent {
+    .badge-intent-portal {
       display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 6px 14px;
-      background: rgba(var(--color-teal-500-rgb), 0.12);
-      border: 1px solid rgba(var(--color-teal-500-rgb), 0.3);
-      border-radius: 9999px;
-      color: var(--color-primary);
-      font-size: 0.85rem;
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border-strong);
+      color: var(--ui-accent);
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.74rem;
       font-weight: 600;
-      margin-bottom: 16px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
     }
-    .hero-title {
-      font-size: 2.5rem;
-      font-weight: 800;
+    .hero-headline {
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
+      font-size: 2.65rem;
+      font-weight: 600;
       letter-spacing: -0.02em;
       line-height: 1.15;
-      margin: 0 0 16px;
-      color: var(--color-text);
+      margin: 0 0 14px;
+      color: var(--ui-text);
     }
-    .hero-body {
-      font-size: 1.15rem;
-      color: var(--color-text-secondary);
-      max-width: 680px;
+    .hero-subhead {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 1.05rem;
+      color: var(--ui-text-secondary);
+      max-width: 640px;
       margin: 0 auto;
-      line-height: 1.5;
+      line-height: 1.6;
     }
-    .sim-grid {
+    .portal-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      margin-bottom: 36px;
+      align-items: stretch;
+    }
+    @media (max-width: 860px) {
+      .portal-grid { grid-template-columns: 1fr; }
+      .hero-headline { font-size: 2.1rem; }
+      .portal-nav { flex-direction: column; gap: 16px; align-items: flex-start; }
+      .portal-links { flex-wrap: wrap; gap: 16px; }
+    }
+    @media (max-width: 600px) {
+      .portal-shell { padding: 0 16px 60px; }
+      .panel-ledger { padding: 18px 16px; }
+      .panel-header { flex-wrap: wrap; gap: 8px; align-items: center; }
+      .invariants-panel { padding: 20px 16px; }
+      .hero-headline { font-size: 1.85rem; }
+      .hero-subhead { font-size: 0.95rem; }
+      .virtual-visa-card { padding: 16px 16px; }
+      .visa-card-pan { font-size: 0.88rem; letter-spacing: 0.14em; }
+      .visa-card-funded-label { font-size: 0.92rem; }
+      .visa-card-expiry, .visa-card-network-info { font-size: 0.65rem; }
+      .visa-card-cap-badge { font-size: 0.65rem; padding: 3px 7px; }
+      .metric-row-item { font-size: 0.82rem; gap: 8px; }
+      .metric-value { font-size: 0.84rem !important; }
+      .step-card { padding: 14px 14px; }
+    }
+    .panel-ledger {
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border-strong);
+      padding: 24px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--ui-border);
+    }
+    .panel-title {
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--ui-text);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-badge {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      background: var(--ui-surface-muted);
+      border: 1px solid var(--ui-border-strong);
+      color: var(--ui-text-secondary);
+      letter-spacing: 0.06em;
+    }
+    .virtual-visa-card {
+      width: 100%;
+      max-width: 440px;
+      aspect-ratio: 1.586 / 1;
+      padding: 22px 24px;
+      background: radial-gradient(circle at 20% 15%, rgba(124, 201, 160, 0.14) 0%, transparent 55%),
+                  linear-gradient(135deg, #091712 0%, #132a1f 52%, #08140f 100%);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 14px 34px rgba(0, 0, 0, 0.45);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      user-select: none;
+      margin: 0 auto 20px;
+    }
+    .metric-label {
+      color: var(--ui-text-secondary);
+      flex-shrink: 1;
+      min-width: 0;
+    }
+    .metric-value {
+      font-family: var(--font-family-mono, monospace);
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      color: var(--ui-text);
+      flex-shrink: 0;
+      white-space: nowrap;
+      text-align: right;
+    }
+    .visa-card-pan {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 1.05rem;
+      letter-spacing: 0.22em;
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+      margin-bottom: 5px;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    }
+    .visa-card-label-sub {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.62rem;
+      letter-spacing: 0.14em;
+      color: rgba(255, 255, 255, 0.68);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .visa-card-funded-label {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+    }
+    .visa-card-expiry {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.66rem;
+      color: rgba(255, 255, 255, 0.7);
+      letter-spacing: 0.08em;
+      font-weight: 600;
+    }
+    .visa-card-network-info {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.74rem;
+      color: rgba(255, 255, 255, 0.9);
+      letter-spacing: 0.03em;
+      font-weight: 550;
+    }
+    .visa-card-cap-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.72rem;
+      font-weight: 700;
+      background: rgba(0, 0, 0, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      padding: 4px 10px;
+      color: #34d399;
+      white-space: nowrap;
+    }
+    .metric-table {
+      display: flex;
+      flex-direction: column;
+      margin-top: 18px;
+      border-top: 1px solid var(--ui-border);
+    }
+    .metric-row-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 11px 0;
+      border-bottom: 1px solid var(--ui-border);
+      font-size: 0.88rem;
+    }
+    .metric-label {
+      color: var(--ui-text-secondary);
+    }
+    .metric-value {
+      font-family: var(--font-family-mono, monospace);
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      color: var(--ui-text);
+    }
+    .metric-value.highlight {
+      color: var(--ui-accent);
+      font-weight: 700;
+    }
+    .reserve-submit-btn,
+    .portal-cta-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      height: 48px;
+      min-height: 48px;
+      padding: 0 20px;
+      background: var(--ui-accent, #7CC9A0) !important;
+      color: #08140f !important;
+      border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      border-radius: 0 !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-weight: 700 !important;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+    }
+    .reserve-submit-btn:hover,
+    .portal-cta-button:hover {
+      background: var(--ui-accent-hover, #93D6B2) !important;
+      color: #08140f !important;
+      border-color: var(--ui-accent-hover, #93D6B2) !important;
+      transform: translateY(-1px);
+    }
+    .reserve-submit-btn:active,
+    .portal-cta-button:active {
+      background: var(--ui-accent-active, #66B78D) !important;
+      color: #08140f !important;
+      transform: translateY(1px);
+    }
+    .yield-card-reservation,
+    .yield-card-receipt {
+      width: 100%;
+      background: var(--ui-surface-muted, #16211A);
+      border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      padding: 20px 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-sizing: border-box;
+      margin-top: 18px;
+    }
+    .reservation-title {
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: var(--ui-text, #FFFFFF);
+      margin: 0 0 4px;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      text-align: center;
+    }
+    .reservation-subtitle {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.82rem;
+      color: var(--ui-text-secondary, #94A3B8);
+      margin: 0 0 14px;
+      line-height: 1.45;
+      text-align: center;
+    }
+    .reservation-form {
+      width: 100%;
+      margin-bottom: 2px;
+    }
+    .reservation-input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    .input-with-icon {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .input-mail-icon {
+      position: absolute;
+      left: 12px;
+      color: var(--ui-text-muted, #64748B);
+      pointer-events: none;
+    }
+    .email-input {
+      width: 100%;
+      height: 46px;
+      box-sizing: border-box;
+      padding: 0 12px 0 38px;
+      border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.90rem;
+      background: var(--ui-surface, #0E1611);
+      color: var(--ui-text, #FFFFFF);
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .email-input:focus {
+      border-color: var(--ui-accent, #7CC9A0);
+      box-shadow: 0 0 0 2px rgba(124, 201, 160, 0.25);
+    }
+    .reservation-micro-hint {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.72rem;
+      color: var(--ui-text-muted, #64748B);
+      margin: 10px 0 0;
+      text-align: center;
+      line-height: 1.35;
+    }
+    .validation-error {
+      color: #f87171;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.80rem;
+      margin-top: 6px;
+      font-weight: 500;
+      text-align: left;
+    }
+    .receipt-badge-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .receipt-spot-badge {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.78rem;
+      font-weight: 700;
+      background: var(--ui-accent, #7CC9A0);
+      color: #08140f;
+      padding: 4px 10px;
+      letter-spacing: 0.04em;
+    }
+    .receipt-alpha-pill {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.74rem;
+      font-weight: 700;
+      background: rgba(124, 201, 160, 0.12);
+      color: var(--ui-accent, #7CC9A0);
+      border: 1px solid rgba(124, 201, 160, 0.25);
+      padding: 4px 10px;
+      letter-spacing: 0.02em;
+    }
+    .receipt-title {
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--ui-text, #FFFFFF);
+      margin: 0 0 6px;
+      line-height: 1.25;
+    }
+    .receipt-card-preview-chip {
+      padding: 6px 14px;
+      background: var(--ui-surface, #0E1611);
+      border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--ui-text, #FFFFFF);
+      margin: 6px 0 16px;
+      max-width: 100%;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .receipt-gamification-box {
+      width: 100%;
+      background: var(--ui-surface, #0E1611);
+      border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      padding: 14px 16px;
+      margin-bottom: 16px;
+      text-align: left;
+      box-sizing: border-box;
+    }
+    .gamification-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .gamification-label {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--ui-text, #FFFFFF);
+    }
+    .gamification-status {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--ui-accent, #7CC9A0);
+    }
+    .gamification-progress-bar {
+      width: 100%;
+      height: 6px;
+      background: var(--ui-surface-muted, #16211A);
+      border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
+    .gamification-progress-fill {
+      height: 100%;
+      background: var(--ui-accent, #7CC9A0);
+    }
+    .gamification-desc {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.74rem;
+      color: var(--ui-text-secondary, #94A3B8);
+      margin: 0 0 10px;
+      line-height: 1.4;
+    }
+    .copy-invite-btn {
+      width: 100%;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: var(--ui-surface-muted, #16211A);
+      color: var(--ui-text, #FFFFFF);
+      border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.80rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .copy-invite-btn:hover {
+      background: var(--ui-surface, #0E1611);
+      border-color: var(--ui-accent, #7CC9A0);
+      color: var(--ui-accent, #7CC9A0);
+    }
+    .steps-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex-grow: 1;
+    }
+    .step-card {
+      background: var(--ui-surface-muted);
+      border: 1px solid var(--ui-border);
+      padding: 18px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .step-num {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.80rem;
+      font-weight: 700;
+      padding: 4px 9px;
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border-strong);
+      color: var(--ui-accent);
+      flex-shrink: 0;
+    }
+    .step-content strong {
+      display: block;
+      color: var(--ui-text);
+      font-size: 0.94rem;
+      margin-bottom: 6px;
+    }
+    .step-content p {
+      margin: 0 0 8px;
+      font-size: 0.85rem;
+      color: var(--ui-text-secondary);
+      line-height: 1.5;
+    }
+    .step-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .step-tag {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.70rem;
+      color: var(--ui-text-muted);
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border);
+      padding: 2px 6px;
+    }
+    .trust-guarantee-box {
+      margin-top: 20px;
+      background: var(--ui-surface-muted);
+      border: 1px solid var(--ui-border);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--ui-text);
+      font-size: 0.84rem;
+      font-family: var(--font-family-mono, monospace);
+    }
+    .invariants-panel {
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border-strong);
+      padding: 26px 28px;
+      margin-bottom: 36px;
+    }
+    .invariants-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--ui-border);
+    }
+    .invariants-header h3 {
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
+      font-size: 1.18rem;
+      font-weight: 600;
+      color: var(--ui-text);
+      margin: 0;
+    }
+    .invariants-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 24px;
-      margin-bottom: 40px;
+      margin-bottom: 22px;
     }
     @media (max-width: 768px) {
-      .sim-grid { grid-template-columns: 1fr; }
-      .hero-title { font-size: 1.85rem; }
+      .invariants-cols { grid-template-columns: 1fr; }
     }
-    .card-shell {
-      background: var(--color-surface);
-      border: 1px solid var(--color-border);
-      border-radius: 16px;
-      padding: 24px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    .invariant-item {
+      padding-right: 12px;
     }
-    .virtual-card-preview {
-      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 14px;
-      padding: 22px;
-      color: #fff;
-      position: relative;
-      margin-bottom: 20px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    .invariant-item:not(:last-child) {
+      border-right: 1px solid var(--ui-border);
     }
-    .card-chip {
-      width: 36px;
-      height: 26px;
-      background: #e2e8f0;
-      border-radius: 4px;
-      margin-bottom: 20px;
+    @media (max-width: 768px) {
+      .invariant-item:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid var(--ui-border);
+        padding-bottom: 16px;
+      }
     }
-    .card-num {
-      font-family: var(--font-family-mono);
-      font-size: 1.1rem;
-      letter-spacing: 0.1em;
-      color: #94a3b8;
-      margin-bottom: 16px;
-    }
-    .card-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: #cbd5e1;
-    }
-    .metric-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--color-border);
-      font-size: 0.9rem;
-    }
-    .metric-val {
-      font-weight: 700;
-      font-family: var(--font-family-mono);
-      color: var(--color-text);
-    }
-    .btn-action {
+    .invariant-item strong {
       display: block;
-      width: 100%;
+      color: var(--ui-text);
+      font-size: 0.90rem;
+      margin-bottom: 6px;
+    }
+    .invariant-item p {
+      margin: 0;
+      font-size: 0.83rem;
+      color: var(--ui-text-secondary);
+      line-height: 1.5;
+    }
+    .invariant-banner {
+      background: var(--ui-surface-muted);
+      border: 1px solid var(--ui-border);
+      padding: 16px 20px;
+      font-size: 0.92rem;
+      color: var(--ui-text);
+      font-style: italic;
       text-align: center;
-      background: var(--color-primary);
-      color: #fff;
-      text-decoration: none;
-      padding: 14px;
-      border-radius: 10px;
-      font-weight: 700;
-      font-size: 1rem;
-      margin-top: 20px;
-      box-sizing: border-box;
-      transition: opacity 0.15s ease;
-    }
-    .btn-action:hover {
-      opacity: 0.9;
-    }
-    .invariant-box {
-      background: rgba(var(--color-teal-500-rgb), 0.08);
-      border: 1px solid rgba(var(--color-teal-500-rgb), 0.2);
-      border-radius: 10px;
-      padding: 14px;
-      font-size: 0.85rem;
-      color: var(--color-text);
-      margin-top: 16px;
+      font-family: var(--font-family-display, 'Besley', Georgia, serif);
     }
   </style>
-</head>
 <body>
-  <div class="intent-container">
-    <header class="brand-nav">
-      <a href="/" class="brand-logo">
-        <span>🌱</span>
-        <span>DeFi Garden</span>
-      </a>
-      <nav class="nav-links">
-        <a href="/">Savings Planner</a>
-        <a href="/?token=USDC">Analytics Grid</a>
-        <a href="/agents">AI Agents & MCP</a>
-        <a href="/llms.txt">llms.txt</a>
-      </nav>
-    </header>
-
-    <div class="hero-wrap">
-      <div class="badge-intent">
-        <span>${sub.emoji}</span>
-        <span>${sub.category} · Intent Portal</span>
-      </div>
-      <h1 class="hero-title">${sub.headline}</h1>
-      <p class="hero-body">${sub.subhead}</p>
-    </div>
-
-    <div class="sim-grid">
-      <!-- Virtual Card Simulation -->
-      <div class="card-shell">
-        <h2 style="margin-top:0; font-size:1.15rem; color:var(--color-text);">💳 Yield-Funded Virtual Card Simulation</h2>
-        <div class="virtual-card-preview">
-          <div class="card-chip"></div>
-          <div class="card-num">•••• •••• •••• ${Math.floor(1000 + Math.random() * 9000)}</div>
-          <div class="card-meta">
-            <div>
-              <div style="font-size:0.65rem; color:#64748b;">CARDHOLDER</div>
-              <div>${sub.slug.toUpperCase()}-VAULT / AGENT-01</div>
-            </div>
-            <div style="text-align:right;">
-              <div style="font-size:0.65rem; color:#64748b;">STATUS</div>
-              <div style="color:#34d399; font-weight:700;">🟢 ACTIVE ($${sub.monthlyUsd.toFixed(2)}/mo)</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="metric-row">
-          <span style="color:var(--color-text-secondary);">Monthly Subscription Cost</span>
-          <span class="metric-val">$${sub.monthlyUsd.toFixed(2)} USD</span>
-        </div>
-        <div class="metric-row">
-          <span style="color:var(--color-text-secondary);">Base Net APY (Morpho Blue)</span>
-          <span class="metric-val" style="color:var(--color-primary);">${sub.apyPercent.toFixed(1)}%</span>
-        </div>
-        <div class="metric-row">
-          <span style="color:var(--color-text-secondary);">Required 1-Time Deposit</span>
-          <span class="metric-val">$${sub.requiredDepositUsd.toLocaleString()} USDC</span>
-        </div>
-
-        <a href="/plan.html?goal=${sub.slug}&capital=${sub.requiredDepositUsd}&fm=capital" class="btn-action">
-          Simulate & Lock $${sub.requiredDepositUsd.toLocaleString()} USDC →
+  <div class="landing-app">
+    <div class="portal-shell">
+      <!-- Brand Navigation Header -->
+      <header class="portal-nav">
+        <a href="/" class="portal-brand" aria-label="DeFi Garden">
+          <span class="portal-brand-mark">
+            ${renderLeafMarkSvg()}
+          </span>
+          <span class="app-brand-wordmark">DeFi Garden</span>
         </a>
-      </div>
+        <nav class="portal-links" aria-label="Portal Navigation">
+          <a href="/plan.html" class="portal-link">Savings Planner</a>
+          <a href="/?token=USDC" class="portal-link">Analytics</a>
+          <a href="/agents" class="portal-link">AI Agents &amp; MCP</a>
+          <a href="/llms.txt" class="portal-link">llms.txt</a>
+        </nav>
+      </header>
 
-      <!-- How Intent Execution Works -->
-      <div class="card-shell">
-        <h2 style="margin-top:0; font-size:1.15rem; color:var(--color-text);">⚡ How Intent Resolution Works</h2>
-        <div style="display:flex; flex-direction:column; gap:14px; font-size:0.875rem; color:var(--color-text-secondary);">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="badge-intent-portal badge-intent">
+          ${renderServiceIconSvg(sub.slug, 16, 16)}
+          <span>${sub.category} · Intent Portal</span>
+        </div>
+        <h1 class="hero-headline hero-title">${sub.headline}</h1>
+        <p class="hero-subhead hero-body">${sub.subhead}</p>
+      </section>
+
+      <!-- Interactive Two-Column Simulator Grid -->
+      <div class="portal-grid sim-grid">
+        <!-- Left: Virtual Card Preview -->
+        <div class="panel-ledger card-shell">
           <div>
-            <strong style="color:var(--color-text);">1. Deposit Once on Base:</strong>
-            <div>Deposit $${sub.requiredDepositUsd.toLocaleString()} USDC into an audited non-custodial lending vault on Base via Passkey.</div>
-          </div>
-          <div>
-            <strong style="color:var(--color-text);">2. Automated Yield Harvests:</strong>
-            <div>Keepers harvest ~5.0% APY ($${sub.monthlyUsd.toFixed(2)}/mo) directly to cover your ${sub.name} invoice.</div>
-          </div>
-          <div>
-            <strong style="color:var(--color-text);">3. 100% Principal Protection:</strong>
-            <div>Your $${sub.requiredDepositUsd.toLocaleString()} USDC principal remains untouched and can be fully withdrawn at any moment.</div>
+            <div class="panel-header">
+              <h2 class="panel-title">${renderServiceIconSvg(sub.slug, 18, 18)} Virtual Card Simulation</h2>
+              <span class="panel-badge">BASE LENDING VAULT</span>
+            </div>
+
+            <!-- Virtual Visa Card Mockup -->
+            <div class="virtual-visa-card-wrapper" style="margin: 0 auto 20px;">
+              <div class="virtual-visa-card virtual-card-preview">
+                <div class="visa-card-guilloche" aria-hidden="true"></div>
+                <div class="visa-card-specular" aria-hidden="true"></div>
+
+                <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
+                <div class="visa-card-top-row">
+                  <div class="visa-card-chip-group">
+                    ${renderEmvChipSvg()}
+                    ${renderNfcIconSvg()}
+                  </div>
+                  <div class="visa-card-brand-group">
+                    ${renderVisaLogoSvg()}
+                    <span class="visa-card-type-badge">DEBIT</span>
+                  </div>
+                </div>
+                <!-- Card Center: PAN & Dedicated Sub -->
+                <div class="visa-card-center">
+                  <div class="visa-card-pan">•••• •••• •••• 8453</div>
+                  <div class="visa-card-label-sub">${sub.slug.toUpperCase()}-VAULT / AGENT-01</div>
+                  <div class="visa-card-funded-label">${sub.name.toUpperCase()} FUNDED</div>
+                </div>
+
+                <!-- Card Bottom Row: Expiry & Spend Cap Badge -->
+                <div class="visa-card-bottom-row">
+                  <div class="visa-card-meta-left">
+                    <span class="visa-card-expiry">VALID 08/31</span>
+                    <span class="visa-card-network-info">BASE VAULT · YIELD FUNDED</span>
+                  </div>
+                  <div class="visa-card-cap-badge">
+                    ${renderLockIconSvg()}
+                    <span>🟢 ACTIVE ($${sub.taxBufferMonthlyUsd.toFixed(2)}/MO)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ledger Financial Breakdown -->
+            <div class="metric-table">
+              <div class="metric-row-item">
+                <span class="metric-label">Monthly Subscription</span>
+                <span class="metric-value">$${sub.baseMonthlyUsd.toFixed(2)} USD</span>
+              </div>
+              <div class="metric-row-item">
+                <span class="metric-label">Tax / VAT Buffer (+20%)</span>
+                <span class="metric-value">$${sub.taxBufferDeltaUsd.toFixed(2)} USD</span>
+              </div>
+              <div class="metric-row-item">
+                <span class="metric-label">Funding Settlement Rail</span>
+                <span class="metric-value highlight">Curated Base Lending Vaults</span>
+              </div>
+              <div class="metric-row-item">
+                <span class="metric-label">Supported Currencies</span>
+                <span class="metric-value">USDC · baseEUR · ETH · USDT</span>
+              </div>
+              <div class="metric-row-item" style="border-bottom:none;">
+                <span class="metric-label" style="font-weight:600; color:var(--ui-text);">Principal Protection</span>
+                <span class="metric-value" style="font-size:0.92rem; font-weight:700; color:var(--ui-accent);">100% Self-Custodial (&Delta;P &equiv; 0)</span>
+              </div>
+            </div>
+
+            <!-- Early Access Reservation Form -->
+            <div class="yield-card-reservation" id="reservation-card">
+              <h3 class="reservation-title">Reserve ${sub.name} Card</h3>
+              <p class="reservation-subtitle">Free to reserve • Spends yield, never principal • No wallet required</p>
+
+              <form class="reservation-form" id="reserve-form" novalidate>
+                <div class="reservation-input-group">
+                  <div class="input-with-icon">
+                    ${renderMailIconSvg()}
+                    <input type="email" class="email-input" id="email-input" placeholder="Enter developer / user email..." required autocomplete="email" />
+                  </div>
+                  <button type="submit" class="reserve-submit-btn" id="submit-btn">
+                    Reserve Card at Launch →
+                  </button>
+                </div>
+                <div class="validation-error" id="form-error" style="display:none;"></div>
+              </form>
+              <p class="reservation-micro-hint">No wallet connection or KYC required to reserve • Pick your currency at launch</p>
+            </div>
+
+            <!-- Early Access Confirmation Receipt -->
+            <div class="yield-card-receipt" id="receipt-card" style="display:none;">
+              <div class="receipt-badge-row">
+                <div class="receipt-spot-badge">Early Access Reserved</div>
+                <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
+              </div>
+              <h3 class="receipt-title">Waitlist Spot Reserved</h3>
+              <div class="receipt-card-preview-chip">${sub.name} Yield Card • $${sub.baseMonthlyUsd.toFixed(2)}/mo Covered</div>
+              <div class="receipt-gamification-box">
+                <div class="gamification-header">
+                  <span class="gamification-label">Alpha Priority Fast-Track</span>
+                  <span class="gamification-status">0 / 1 Invited</span>
+                </div>
+                <div class="gamification-progress-bar">
+                  <div class="gamification-progress-fill" style="width:25%;"></div>
+                </div>
+                <p class="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access.</p>
+                <button type="button" class="copy-invite-btn" id="copy-btn">📋 Copy Share Link</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="invariant-box">
-          <strong>🛡️ Protocol Invariant:</strong> &Delta; Principal &equiv; 0. Yield pays the merchant; you keep the capital forever.
+        <!-- Right: How Intent Resolution Works -->
+        <div class="panel-ledger">
+          <div>
+            <div class="panel-header">
+              <h2 class="panel-title">Intent Resolution Rails</h2>
+              <span class="panel-badge">NON-CUSTODIAL</span>
+            </div>
+
+            <div class="steps-container">
+              <div class="step-card">
+                <span class="step-num">01</span>
+                <div class="step-content">
+                  <strong>Deposit Preferred Currency on Base</strong>
+                  <p>Deposit USDC, baseEUR, ETH, or USDT into curated Base lending vaults. Zero gas friction via Coinbase Smart Wallet or Passkey.</p>
+                  <div class="step-tags">
+                    <span class="step-tag">Curated Base Vaults</span>
+                    <span class="step-tag">Passkey / Smart Wallet</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-card">
+                <span class="step-num">02</span>
+                <div class="step-content">
+                  <strong>Automated Monthly Yield Sweeps</strong>
+                  <p>Autonomous decentralized keepers continuously harvest realized yield ($${sub.taxBufferMonthlyUsd.toFixed(2)}/mo) to settle your ${sub.name} invoice prior to merchant billing.</p>
+                  <div class="step-tags">
+                    <span class="step-tag">Automated Harvest</span>
+                    <span class="step-tag">Zero Human Ops</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-card">
+                <span class="step-num">03</span>
+                <div class="step-content">
+                  <strong>100% Principal Protection</strong>
+                  <p>Your deposit remains self-custodial onchain (&Delta;Principal &equiv; 0). Full withdrawal rights are retained at every block with instant liquidity.</p>
+                  <div class="step-tags">
+                    <span class="step-tag">Non-Custodial</span>
+                    <span class="step-tag">&Delta;P &equiv; 0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="trust-guarantee-box">
+            ${renderShieldCheckIconSvg()}
+            <span>Protocol Invariant: &Delta; Principal &equiv; 0 (Capital never burns)</span>
+          </div>
         </div>
       </div>
+
+      <!-- Protocol Invariants Card -->
+      <section class="invariants-panel">
+        <div class="invariants-header">
+          <h3 style="display:flex; align-items:center; gap:8px;">${renderShieldCheckIconSvg()} Protocol Invariants &amp; Risk Mitigation</h3>
+        </div>
+        <div class="invariants-cols">
+          <div class="invariant-item">
+            <strong>1.25x Over-collateralization</strong>
+            <p>1.25x capital buffer absorbs interest rate fluctuations and guarantees uninterrupted card payments.</p>
+          </div>
+          <div class="invariant-item">
+            <strong>1-Month Liquid Escrow</strong>
+            <p>Upfront 30-day yield reserve cushions temporary harvest delays and eliminates billing decline risk.</p>
+          </div>
+          <div class="invariant-item">
+            <strong>Self-Custodial Architecture</strong>
+            <p>Direct smart contract withdrawal authority remains exclusively with the user at all times.</p>
+          </div>
+        </div>
+        <div class="invariant-banner">
+          &ldquo;Buy it outright and the money is gone. Garden it and you keep the money AND get the thing.&rdquo;
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="app-footer" style="position:static; margin-top:20px; border-top:1px solid var(--ui-border);">
+        <p>© 2026 DeFi Garden · Education &amp; Yield Intelligence. All deposits remain non-custodial on Base.</p>
+        <div style="display:flex; justify-content:center; gap:20px; margin-top:10px;">
+          <a href="/plan.html" class="portal-link">Savings Planner</a>
+          <a href="/?token=USDC" class="portal-link">Analytics Grid</a>
+          <a href="/agents" class="portal-link">AI Agents &amp; MCP</a>
+          <a href="/llms.txt" class="portal-link">llms.txt</a>
+          <a href="/sitemap.xml" class="portal-link">Sitemap</a>
+        </div>
+      </footer>
     </div>
-
-    <!-- Footer -->
-    <footer style="text-align:center; padding-top:40px; border-top:1px solid var(--color-border); font-size:0.85rem; color:var(--color-text-secondary);">
-      <p>© 2026 DeFi Garden · Education & Yield Intelligence. All deposits remain non-custodial on Base.</p>
-      <div style="display:flex; justify-content:center; gap:16px; margin-top:10px;">
-        <a href="/" style="color:var(--color-text-secondary); text-decoration:none;">Planner</a>
-        <a href="/agents" style="color:var(--color-text-secondary); text-decoration:none;">AI Agents & MCP</a>
-        <a href="/llms.txt" style="color:var(--color-text-secondary); text-decoration:none;">llms.txt</a>
-        <a href="/sitemap.xml" style="color:var(--color-text-secondary); text-decoration:none;">Sitemap</a>
-      </div>
-    </footer>
   </div>
+  <script>
+    (function() {
+      var form = document.getElementById('reserve-form');
+      var emailInput = document.getElementById('email-input');
+      var errorEl = document.getElementById('form-error');
+      var reservationCard = document.getElementById('reservation-card');
+      var receiptCard = document.getElementById('receipt-card');
+      var copyBtn = document.getElementById('copy-btn');
+
+      var storageKey = 'defi_garden_card_waitlist';
+      var saved = null;
+      try {
+        saved = JSON.parse(localStorage.getItem(storageKey));
+      } catch (e) {}
+
+      if (saved && saved.email) {
+        showReceipt(saved.email);
+      }
+
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          var email = (emailInput.value || '').trim();
+          if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            errorEl.textContent = 'Please enter a valid email address.';
+            errorEl.style.display = 'block';
+            return;
+          }
+          errorEl.style.display = 'none';
+          var payload = {
+            email: email,
+            sub: '${sub.slug}',
+            reservedAt: new Date().toISOString()
+          };
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(payload));
+          } catch (err) {}
+          showReceipt(email);
+        });
+      }
+
+      function showReceipt(email) {
+        if (reservationCard) reservationCard.style.display = 'none';
+        if (receiptCard) receiptCard.style.display = 'flex';
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function() {
+          var shareUrl = window.location.href;
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(shareUrl).then(function() {
+              copyBtn.textContent = '✓ Link Copied!';
+              setTimeout(function() { copyBtn.textContent = '📋 Copy Share Link'; }, 2000);
+            });
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>`;
 }

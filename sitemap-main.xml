@@ -82,4 +82,76 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/for/claude</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/claude" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/claude?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/claude" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/cursor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/cursor" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/cursor?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/cursor" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/chatgpt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/chatgpt" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/chatgpt?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/chatgpt" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/spotify</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/spotify" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/spotify?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/spotify" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/netflix</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/netflix" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/netflix?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/netflix" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/aws</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/aws" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/aws?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/aws" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/github</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/github" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/github?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/github" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/for/youtube</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/for/youtube" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/for/youtube?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/for/youtube" />
+    <lastmod>2026-08-25T20:47:12.479Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
