@@ -405,29 +405,52 @@
   line-height: 1.5;
 }
 
-.landing-thesis-callout {
-  max-width: 540px;
-  margin-bottom: 16px;
-  padding: 8px 12px;
+.landing-press-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 580px;
+  margin-bottom: 14px;
+  padding: 6px 12px;
   background: rgba(var(--color-teal-500-rgb), 0.06);
-  border: 1px solid rgba(var(--color-teal-500-rgb), 0.18);
-  font-size: 0.80rem;
+  border: 1px solid rgba(var(--color-teal-500-rgb), 0.22);
+  text-decoration: none;
+  font-size: 0.78rem;
   color: var(--color-text-secondary);
-  line-height: 1.45;
+  line-height: 1.4;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+
+.landing-press-badge:hover {
+  background: rgba(var(--color-teal-500-rgb), 0.12);
+  border-color: var(--color-primary);
+  color: var(--color-text);
+  transform: translateY(-1px);
+}
+
+.press-badge-source {
+  font-family: var(--font-family-mono);
+  font-size: 0.70rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.press-badge-title {
+  color: var(--color-text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-style: italic;
 }
 
-.thesis-highlight {
-  font-family: var(--font-family-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--color-primary);
-  font-style: normal;
-  margin-right: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+.landing-press-badge:hover .press-badge-title {
+  color: var(--color-text);
 }
-
 .landing-subs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
