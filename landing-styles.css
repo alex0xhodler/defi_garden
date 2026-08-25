@@ -353,31 +353,6 @@
   justify-content: center;
   align-items: center;
 }
-
-.app-footer {
-  width: min(1240px, calc(100% - 48px));
-  margin: auto auto 0;
-  padding: 12px 0 16px;
-  border-top: 1px solid var(--ui-border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  box-sizing: border-box;
-  font-size: var(--font-size-xs);
-  color: var(--color-text-secondary);
-}
-
-@media (max-width: 768px) {
-  .app-footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    padding: 16px 0 20px;
-  }
-}
-
 /* SECTION 1: HERO SPOTLIGHT */
 .landing-hero-spotlight {
   width: min(1240px, calc(100% - 48px));
