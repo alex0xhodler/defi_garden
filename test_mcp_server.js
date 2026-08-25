@@ -742,7 +742,7 @@ async function runWorkerTests() {
     setFetch(async () => { fetchCalled = true; return new Response('should not be reached', { status: 599 }); });
     const { db, calls } = makeFakeDB();
     const { ctx, waited } = makeFakeCtx();
-    const req = makeRequest('https://www.defi.garden/mcp', { method: 'GET' });
+    const req = makeRequest('https://www.defi.garden/mcp', { method: 'GET', headers: { 'accept': 'application/json' } });
     const res = await worker.fetch(req, { DB: db }, ctx);
     await Promise.allSettled(waited);
     eq(res.status, 405, 'GET /mcp -> 405 (MCP\'s Streamable HTTP transport permits 405 for a server with no server->client SSE stream)');
