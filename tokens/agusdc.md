@@ -4,8 +4,8 @@ The highest honest AGUSDC yield right now is 9.20% on gami-labs (Avalanche), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 6.84% | $1.04M |
 | [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 9.20% | $1.04M |
+| [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 6.84% | $1.04M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -23,14 +23,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AGUSDC shows up in 2 pools here, with rates from 6.84% to 9.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 6.84% | 8.81% | Base rate |
-| gami-labs | 9.20% | 9.21% | Base rate |
+| gami-labs | 9.20% | 9.23% | Base rate |
+| lagoon | 6.84% | 8.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -65,4 +65,4 @@ Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

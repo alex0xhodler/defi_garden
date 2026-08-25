@@ -1,12 +1,12 @@
 # WAXE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.59% (0.59% Base · + 0.00% Rewards)
+**Total APY:** 0.60% (0.60% Base · + 0.00% Rewards)
 
-**TVL:** $143.5K
+**TVL:** $141.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.15%
+**30d Mean APY:** 1.16%
 
 **Exposure:** multi
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,030 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.59% right now vs a 1.15% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.60% right now vs a 1.16% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,030 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 24, 2026
+Last updated August 25, 2026

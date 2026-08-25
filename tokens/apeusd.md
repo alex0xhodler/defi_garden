@@ -65,4 +65,4 @@ Based on APY history only, APEUSD's lower-variability candidates are curve-dex (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

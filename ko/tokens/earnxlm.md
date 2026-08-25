@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 5.00% | $4.06M |
+| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 5.00% | $3.94M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 5.00%예요
 
 ### EARNXLM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $4.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3.94M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 5.00%예요
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
-- [EURC](https://www.defi.garden/ko/tokens/eurc)
 - [EARNUSDC](https://www.defi.garden/ko/tokens/earnusdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SAND](https://www.defi.garden/ko/tokens/sand)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 
-## 마지막 업데이트: August 24, 2026
+## 마지막 업데이트: August 25, 2026

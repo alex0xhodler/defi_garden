@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DTUSDC pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

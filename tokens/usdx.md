@@ -52,8 +52,8 @@ There is not enough qualifying APY history to rank USDX pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
@@ -61,4 +61,4 @@ There is not enough qualifying APY history to rank USDX pools. This view covers 
 - [Flare](https://www.defi.garden/chains/flare)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

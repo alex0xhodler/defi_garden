@@ -4,7 +4,7 @@ The highest honest STB yield right now is 0.01% on orca-dex (Solana), among 17 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f83f201b-8e34-4c23-b566-5559ecbb673d&src=seo_token) | Solana | 0.01% | $747.4K |
+| [orca-dex →](https://www.defi.garden/?pool=f83f201b-8e34-4c23-b566-5559ecbb673d&src=seo_token) | Solana | 0.01% | $748.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank STB pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ATXM pools. This view covers 
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

@@ -5,21 +5,21 @@ The highest honest FIDD yield right now is 0.10% on uniswap-v3 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.10% | $3.56M |
-| [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.02% | $2.75M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.05% | $2.24M |
-| [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.01% | $1.75M |
+| [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.01% | $2.75M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.03% | $2.24M |
+| [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.09% | $1.75M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token; uniswap-v3 (Ethereum), 0.10% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; curve-dex (Ethereum), 0.09% APY, $1.75M TVL, https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token; uniswap-v3 (Ethereum), 0.10% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.02% | $2.75M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.01% | $1.75M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.01% | $2.75M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.09% | $1.75M |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.10% | $3.56M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.05% | $2.24M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.03% | $2.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,9 +34,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.10% | 0.11% | Base rate |
-| curve-dex | 0.02% | 0.03% | Base rate |
-| uniswap-v3 | 0.05% | 0.18% | Base rate |
-| curve-dex | 0.01% | 0.11% | Base rate |
+| curve-dex | 0.01% | 0.03% | Base rate |
+| uniswap-v3 | 0.03% | 0.18% | Base rate |
+| curve-dex | 0.09% | 0.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIDD pools have the most stable APY history?
 
-Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token; uniswap-v3 (Ethereum), 0.10% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; curve-dex (Ethereum), 0.09% APY, $1.75M TVL, https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token; uniswap-v3 (Ethereum), 0.10% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, FIDD's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

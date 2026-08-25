@@ -1,29 +1,29 @@
 # POD DeFi Yields
 
-The highest honest POD yield right now is 249.72% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POD yield right now is 71.12% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 14.77% | $6.29M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 249.72% | $331.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 5.20% | $6.28M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 71.12% | $355.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 14.77% APY, $6.29M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 249.72% APY, $331.6K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 5.20% APY, $6.28M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 71.12% APY, $355.6K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 14.77% | $6.29M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 249.72% | $331.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 5.20% | $6.28M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 71.12% | $355.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-POD shows up in 2 pools here, with rates from 14.77% to 249.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+POD shows up in 2 pools here, with rates from 5.20% to 71.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 176.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 177.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ POD shows up in 2 pools here, with rates from 14.77% to 249.72% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 14.77% | 21.45% | Base rate |
-| aerodrome-slipstream | 249.72% | 331.12% | 100.00% incentives |
+| uniswap-v4 | 5.20% | 21.49% | Base rate |
+| aerodrome-slipstream | 71.12% | 334.36% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest POD yield today?
 
-249.72% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+71.12% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many POD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.62M in total.
+2 live pools clear this page's $100K TVL floor, $6.63M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which POD pools have the most stable APY history?
 
-Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 14.77% APY, $6.29M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 249.72% APY, $331.6K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 5.20% APY, $6.28M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 71.12% APY, $355.6K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Ba
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

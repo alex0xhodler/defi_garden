@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MORPHOUSDC pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

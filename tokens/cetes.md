@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CETES pools. This view covers
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

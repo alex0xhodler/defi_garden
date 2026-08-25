@@ -1,31 +1,31 @@
 # TITANX DeFi Yields
 
-The highest honest TITANX yield right now is 49.81% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TITANX yield right now is 68.98% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 49.81% | $245K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 28.95% | $187.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token) | Ethereum | 9.83% | $101.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 68.98% | $266.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 57.34% | $225.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token) | Ethereum | 21.49% | $107.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TITANX's lower-variability candidates are uniswap-v4 (Ethereum), 9.83% APY, $101.5K TVL, https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token; uniswap-v3 (Ethereum), 28.95% APY, $187.1K TVL, https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token; uniswap-v3 (Ethereum), 49.81% APY, $245K TVL, https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TITANX's lower-variability candidates are uniswap-v4 (Ethereum), 21.49% APY, $107.6K TVL, https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token; uniswap-v3 (Ethereum), 57.34% APY, $225.9K TVL, https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token; uniswap-v3 (Ethereum), 68.98% APY, $266.8K TVL, https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token) | Ethereum | 9.83% | $101.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 28.95% | $187.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 49.81% | $245K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token) | Ethereum | 21.49% | $107.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 57.34% | $225.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 68.98% | $266.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TITANX shows up in 3 pools here, with rates from 9.83% to 49.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TITANX shows up in 3 pools here, with rates from 21.49% to 68.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 49.81% | 28.85% | Base rate |
-| uniswap-v3 | 28.95% | 13.52% | Base rate |
-| uniswap-v4 | 9.83% | 1.62% | Base rate |
+| uniswap-v3 | 68.98% | 28.98% | Base rate |
+| uniswap-v3 | 57.34% | 15.66% | Base rate |
+| uniswap-v4 | 21.49% | 1.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TITANX yield today?
 
-49.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+68.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TITANX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $533.6K in total.
+3 live pools clear this page's $100K TVL floor, $600.3K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TITANX pools have the most stable APY history?
 
-Based on APY history only, TITANX's lower-variability candidates are uniswap-v4 (Ethereum), 9.83% APY, $101.5K TVL, https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token; uniswap-v3 (Ethereum), 28.95% APY, $187.1K TVL, https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token; uniswap-v3 (Ethereum), 49.81% APY, $245K TVL, https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TITANX's lower-variability candidates are uniswap-v4 (Ethereum), 21.49% APY, $107.6K TVL, https://www.defi.garden/?pool=e6fa00c4-08ec-4444-9603-fbcef8813c44&src=seo_token; uniswap-v3 (Ethereum), 57.34% APY, $225.9K TVL, https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token; uniswap-v3 (Ethereum), 68.98% APY, $266.8K TVL, https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, TITANX's lower-variability candidates are uniswap-v4 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

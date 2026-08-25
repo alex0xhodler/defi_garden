@@ -1,10 +1,10 @@
 # CRVUSDUSDT DeFi Yields
 
-The highest honest CRVUSDUSDT yield right now is 8.48% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVUSDUSDT yield right now is 8.78% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=446572c6-4216-4c27-801b-6496df521791&src=seo_token) | Ethereum | 8.48% | $122.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=446572c6-4216-4c27-801b-6496df521791&src=seo_token) | Ethereum | 8.78% | $122.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVUSDUSDT yield today?
 
-8.48% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+8.78% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRVUSDUSDT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CRVUSDUSDT pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

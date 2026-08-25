@@ -1,10 +1,10 @@
 # QE DeFi Yields
 
-The highest honest QE yield right now is 0.03% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QE yield right now is 2.05% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 0.03% | $165.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 2.05% | $166.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QE yield today?
 
-0.03% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many QE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.2K in total.
+1 live pool clear this page's $100K TVL floor, $166.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QE pools. This view covers AP
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

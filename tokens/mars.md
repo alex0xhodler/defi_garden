@@ -1,29 +1,29 @@
 # MARS DeFi Yields
 
-The highest honest MARS yield right now is 50.92% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARS yield right now is 35.93% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 3.44% | $106.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token) | Ethereum | 50.92% | $102.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 3.49% | $105.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token) | Ethereum | 35.93% | $102.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MARS's lower-variability candidates are uniswap-v4 (Ethereum), 3.44% APY, $106.2K TVL, https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token; uniswap-v2 (Ethereum), 50.92% APY, $102.8K TVL, https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MARS's lower-variability candidates are uniswap-v4 (Ethereum), 3.49% APY, $105.7K TVL, https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token; uniswap-v2 (Ethereum), 35.93% APY, $102.2K TVL, https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 3.44% | $106.2K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token) | Ethereum | 50.92% | $102.8K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 3.49% | $105.7K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token) | Ethereum | 35.93% | $102.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MARS shows up in 2 pools here, with rates from 3.44% to 50.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MARS shows up in 2 pools here, with rates from 3.49% to 35.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 3.44% | 0.30% | Base rate |
-| uniswap-v2 | 50.92% | 5.73% | Base rate |
+| uniswap-v4 | 3.49% | 0.36% | Base rate |
+| uniswap-v2 | 35.93% | 7.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MARS yield today?
 
-50.92% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+35.93% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MARS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $209K in total.
+2 live pools clear this page's $100K TVL floor, $207.9K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MARS pools have the most stable APY history?
 
-Based on APY history only, MARS's lower-variability candidates are uniswap-v4 (Ethereum), 3.44% APY, $106.2K TVL, https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token; uniswap-v2 (Ethereum), 50.92% APY, $102.8K TVL, https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MARS's lower-variability candidates are uniswap-v4 (Ethereum), 3.49% APY, $105.7K TVL, https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token; uniswap-v2 (Ethereum), 35.93% APY, $102.2K TVL, https://www.defi.garden/?pool=6a1d7860-67e7-40a8-b7a1-cdcd1e3222ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, MARS's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

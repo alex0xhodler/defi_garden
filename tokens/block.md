@@ -1,10 +1,10 @@
 # BLOCK DeFi Yields
 
-The highest honest BLOCK yield right now is 6.46% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLOCK yield right now is 5.85% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=21dfa227-f69a-402c-9b63-6da59a97feee&src=seo_token) | Ethereum | 6.46% | $222K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=21dfa227-f69a-402c-9b63-6da59a97feee&src=seo_token) | Ethereum | 5.85% | $226.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLOCK yield today?
 
-6.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.85% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BLOCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222K in total.
+1 live pool clear this page's $100K TVL floor, $226.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BLOCK pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

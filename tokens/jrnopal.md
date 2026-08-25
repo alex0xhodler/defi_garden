@@ -4,7 +4,7 @@ The highest honest JRNOPAL yield right now is 10.53% on strata-markets (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=4dbe1258-b4bc-53f5-b9c0-4c497e028939&src=seo_token) | Ethereum | 10.53% | $299.1K |
+| [strata-markets →](https://www.defi.garden/?pool=4dbe1258-b4bc-53f5-b9c0-4c497e028939&src=seo_token) | Ethereum | 10.53% | $299.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JRNOPAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299.1K in total.
+1 live pool clear this page's $100K TVL floor, $299.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JRNOPAL pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

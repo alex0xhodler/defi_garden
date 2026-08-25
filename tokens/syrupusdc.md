@@ -1,38 +1,38 @@
 # SYRUPUSDC DeFi Yields
 
-The highest honest SYRUPUSDC yield right now is 0.35% on orca-dex (Solana), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUPUSDC yield right now is 0.43% on orca-dex (Solana), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.59% | $13.34M |
-| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.35% | $10.04M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.28% | $10.04M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 1.16% | $1.01M |
-| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.04% | $536.2K |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 4.07% | $464.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.09% | $271.1K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 12.07% | $221.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.89% | $13.35M |
+| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.43% | $10.04M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.29% | $10.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 1.21% | $1.01M |
+| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.09% | $536K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 0.76% | $464.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 2.55% | $271.1K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 18.01% | $223.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.04% APY, $536.2K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; orca-dex (Solana), 0.35% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.28% APY, $10.04M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Arbitrum), 1.16% APY, $1.01M TVL, https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token; uniswap-v4 (Ethereum), 1.59% APY, $13.34M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; fluid-dex (Ethereum), 4.07% APY, $464.7K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 12.07% APY, $221.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.09% APY, $536K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; orca-dex (Solana), 0.43% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.29% APY, $10.04M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Arbitrum), 1.21% APY, $1.01M TVL, https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token; uniswap-v4 (Ethereum), 1.89% APY, $13.35M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; fluid-dex (Ethereum), 0.76% APY, $464.8K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 18.01% APY, $223.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.04% | $536.2K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.35% | $10.04M |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.28% | $10.04M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 1.16% | $1.01M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.59% | $13.34M |
-| 6 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 4.07% | $464.7K |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 12.07% | $221.9K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.09% | $536K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.43% | $10.04M |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.29% | $10.04M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 1.21% | $1.01M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.89% | $13.35M |
+| 6 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 0.76% | $464.8K |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 18.01% | $223.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYRUPUSDC shows up in 8 pools here, with rates from 0.04% to 12.07% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYRUPUSDC shows up in 8 pools here, with rates from 0.09% to 18.01% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -42,14 +42,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 1.59% | 0.96% | Base rate |
-| orca-dex | 0.35% | 0.61% | Base rate |
-| kamino-liquidity | 0.28% | 0.51% | Base rate |
-| uniswap-v4 | 1.16% | 0.37% | Base rate |
-| orca-dex | 0.04% | 0.07% | Base rate |
-| fluid-dex | 4.07% | 2.18% | Base rate |
-| uniswap-v4 | 0.09% | 0.31% | Base rate |
-| orca-dex | 12.07% | 5.78% | Base rate |
+| uniswap-v4 | 1.89% | 0.97% | Base rate |
+| orca-dex | 0.43% | 0.61% | Base rate |
+| kamino-liquidity | 0.29% | 0.51% | Base rate |
+| uniswap-v4 | 1.21% | 0.38% | Base rate |
+| orca-dex | 0.09% | 0.07% | Base rate |
+| fluid-dex | 0.76% | 2.21% | Base rate |
+| uniswap-v4 | 2.55% | 0.34% | Base rate |
+| orca-dex | 18.01% | 6.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYRUPUSDC yield today?
 
-0.35% APY on orca-dex (Solana), based on live DefiLlama data.
+0.43% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SYRUPUSDC pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $384.24M in total.
+17 live pools clear this page's $100K TVL floor, $377.75M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYRUPUSDC pools have the most stable APY history?
 
-Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.04% APY, $536.2K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; orca-dex (Solana), 0.35% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.28% APY, $10.04M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Arbitrum), 1.16% APY, $1.01M TVL, https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token; uniswap-v4 (Ethereum), 1.59% APY, $13.34M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; fluid-dex (Ethereum), 4.07% APY, $464.7K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 12.07% APY, $221.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.09% APY, $536K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; orca-dex (Solana), 0.43% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.29% APY, $10.04M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Arbitrum), 1.21% APY, $1.01M TVL, https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token; uniswap-v4 (Ethereum), 1.89% APY, $13.35M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; fluid-dex (Ethereum), 0.76% APY, $464.8K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 18.01% APY, $223.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

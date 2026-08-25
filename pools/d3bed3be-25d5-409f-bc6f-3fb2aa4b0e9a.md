@@ -1,12 +1,12 @@
 # SHIBA2-USDT — uniswap-v3 on Ethereum
 
-**Total APY:** 1.95% (1.95% Base · + 0.00% Rewards)
+**Total APY:** 3.09% (3.09% Base · + 0.00% Rewards)
 
-**TVL:** $988.7K
+**TVL:** $1M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.39%
+**30d Mean APY:** 3.38%
 
 **Exposure:** multi
 
@@ -16,19 +16,19 @@
 
 Moderate risk profile
 
-- Low liquidity
+- Medium liquidity
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,101 in 5y at current rates.
+$1,000 in this pool grows to ~$1,164 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 1.95% right now vs a 3.39% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,101 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,164 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 24, 2026
+Last updated August 25, 2026

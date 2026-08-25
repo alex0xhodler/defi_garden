@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.42%예요.
 
 - [Tron](https://www.defi.garden/ko/chains/tron)
 
-## 마지막 업데이트: August 24, 2026
+## 마지막 업데이트: August 25, 2026

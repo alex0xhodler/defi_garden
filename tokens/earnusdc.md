@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank EARNUSDC pools. This view cov
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [XLM](https://www.defi.garden/tokens/xlm)
-- [EURC](https://www.defi.garden/tokens/eurc)
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SAND](https://www.defi.garden/tokens/sand)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

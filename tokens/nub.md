@@ -1,10 +1,10 @@
 # NUB DeFi Yields
 
-The highest honest NUB yield right now is 7.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NUB yield right now is 8.87% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e&src=seo_token) | Solana | 7.23% | $737.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e&src=seo_token) | Solana | 8.87% | $756.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NUB yield today?
 
-7.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.87% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $737.8K in total.
+1 live pool clear this page's $100K TVL floor, $756.5K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank NUB pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

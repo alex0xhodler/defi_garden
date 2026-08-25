@@ -4,7 +4,7 @@ The highest honest MPS yield right now is 0.05% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=49bef53c-d221-4053-a36b-ce54aa260c6a&src=seo_token) | Ethereum | 0.05% | $340.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=49bef53c-d221-4053-a36b-ce54aa260c6a&src=seo_token) | Ethereum | 0.05% | $343.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $340.9K in total.
+1 live pool clear this page's $100K TVL floor, $343.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MPS pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FUEL pools. This view covers 
 
 - [Fuel Ignition](https://www.defi.garden/chains/fuel-ignition)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

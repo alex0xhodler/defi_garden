@@ -4,7 +4,7 @@ The highest honest FBTC yield right now is 0.02% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=712d2037-a22b-4e5f-897f-ad7532a725fb&src=seo_token) | Ethereum | 0.02% | $8.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=712d2037-a22b-4e5f-897f-ad7532a725fb&src=seo_token) | Ethereum | 0.02% | $8.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FBTC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $39.32M in total.
+5 live pools clear this page's $100K TVL floor, $39.6M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank FBTC pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

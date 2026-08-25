@@ -1,10 +1,10 @@
 # BIFI DeFi Yields
 
-The highest honest BIFI yield right now is 1.08% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIFI yield right now is 0.69% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c1ffafe1-fbd3-4ec2-8055-51306afd0f0f&src=seo_token) | Ethereum | 1.08% | $388K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c1ffafe1-fbd3-4ec2-8055-51306afd0f0f&src=seo_token) | Ethereum | 0.69% | $385.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BIFI shows up in 1 pools here, with rates from 1.08% to 1.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BIFI shows up in 1 pools here, with rates from 0.69% to 0.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 12.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 12.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.08% | 12.96% | Base rate |
+| uniswap-v3 | 0.69% | 12.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BIFI yield today?
 
-1.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.69% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BIFI pools clear the TVL floor?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank BIFI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

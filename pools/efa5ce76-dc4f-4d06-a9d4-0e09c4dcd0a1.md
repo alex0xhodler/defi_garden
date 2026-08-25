@@ -1,12 +1,12 @@
 # BOME-WSOL — raydium-amm on Solana
 
-**Total APY:** 17.37% (17.37% Base · + 0.00% Rewards)
+**Total APY:** 9.54% (9.54% Base · + 0.00% Rewards)
 
-**TVL:** $17.21M
+**TVL:** $17.59M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 27.14%
+**30d Mean APY:** 27.27%
 
 **Exposure:** multi
 
@@ -17,19 +17,18 @@
 Conservative DeFi strategy
 
 - High liquidity
-- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,227 in 5y at current rates.
+$1,000 in this pool grows to ~$1,577 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 17.37% right now vs a 27.14% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 9.54% right now vs a 27.27% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$2,227 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,577 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 24, 2026
+Last updated August 25, 2026

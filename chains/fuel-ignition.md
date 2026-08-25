@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [FUEL](https://www.defi.garden/tokens/fuel)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

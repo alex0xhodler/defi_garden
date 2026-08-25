@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f83f201b-8e34-4c23-b566-5559ecbb673d&src=seo_token) | Solana | 0.01% | $747.4K |
+| [orca-dex →](https://www.defi.garden/?pool=f83f201b-8e34-4c23-b566-5559ecbb673d&src=seo_token) | Solana | 0.01% | $748.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.01%예요.
 
 ### ST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $9.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,12 +52,12 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.01%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 24, 2026
+## 마지막 업데이트: August 25, 2026

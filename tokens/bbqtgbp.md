@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BBQTGBP pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

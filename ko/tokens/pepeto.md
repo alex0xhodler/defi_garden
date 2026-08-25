@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=afdd24db-bc8a-5b0a-98d4-2d92b97912c2&src=seo_token) | Base | 41.96% | $487.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=51be0cdb-52cb-418b-8b30-3c0b994d7e6c&src=seo_token) | Base | 0.07% | $154.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=51be0cdb-52cb-418b-8b30-3c0b994d7e6c&src=seo_token) | Base | 0.07% | $156.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
 
 ### PEPETO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $763.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $763.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -62,4 +62,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 24, 2026
+## 마지막 업데이트: August 25, 2026

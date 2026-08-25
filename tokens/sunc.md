@@ -4,7 +4,7 @@ The highest honest SUNC yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=21dcd7e7-7191-4329-bb9f-152c81c0605c&src=seo_token) | Ethereum | 0.01% | $139.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=21dcd7e7-7191-4329-bb9f-152c81c0605c&src=seo_token) | Ethereum | 0.01% | $139.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.6K in total.
+1 live pool clear this page's $100K TVL floor, $139.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUNC pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

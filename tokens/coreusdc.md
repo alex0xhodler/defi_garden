@@ -4,7 +4,7 @@ The highest honest COREUSDC yield right now is 10.00% on upshift (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f&src=seo_token) | Ethereum | 10.00% | $1.98M |
+| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f&src=seo_token) | Ethereum | 10.00% | $1.99M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COREUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.98M in total.
+1 live pool clear this page's $100K TVL floor, $1.99M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COREUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

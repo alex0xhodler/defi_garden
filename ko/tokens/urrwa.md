@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 3.16%예요
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 24, 2026
+## 마지막 업데이트: August 25, 2026

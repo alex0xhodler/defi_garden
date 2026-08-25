@@ -4,7 +4,7 @@ The highest honest SHEESHA yield right now is 0.02% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d8b08fb1-60ba-443b-baf6-facbe51cc1bf&src=seo_token) | Ethereum | 0.02% | $161.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d8b08fb1-60ba-443b-baf6-facbe51cc1bf&src=seo_token) | Ethereum | 0.02% | $159.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHEESHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.4K in total.
+1 live pool clear this page's $100K TVL floor, $159.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SHEESHA pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

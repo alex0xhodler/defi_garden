@@ -1,10 +1,10 @@
 # ZEUS DeFi Yields
 
-The highest honest ZEUS yield right now is 5.98% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEUS yield right now is 6.71% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0&src=seo_token) | Ethereum | 5.98% | $228.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0&src=seo_token) | Ethereum | 6.71% | $236.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEUS yield today?
 
-5.98% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZEUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.6K in total.
+1 live pool clear this page's $100K TVL floor, $236.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZEUS pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

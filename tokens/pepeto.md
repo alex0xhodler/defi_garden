@@ -5,7 +5,7 @@ The highest honest PEPETO yield right now is 0.07% on uniswap-v2 (Base), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=afdd24db-bc8a-5b0a-98d4-2d92b97912c2&src=seo_token) | Base | 41.96% | $487.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=51be0cdb-52cb-418b-8b30-3c0b994d7e6c&src=seo_token) | Base | 0.07% | $154.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=51be0cdb-52cb-418b-8b30-3c0b994d7e6c&src=seo_token) | Base | 0.07% | $156.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PEPETO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $763.3K in total.
+3 live pools clear this page's $100K TVL floor, $763.8K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank PEPETO pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026

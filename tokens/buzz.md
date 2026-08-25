@@ -1,10 +1,10 @@
 # BUZZ DeFi Yields
 
-The highest honest BUZZ yield right now is 0.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUZZ yield right now is 1.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b2b35afb-707b-44fc-826d-aaf21f4f0002&src=seo_token) | Solana | 0.79% | $215.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=b2b35afb-707b-44fc-826d-aaf21f4f0002&src=seo_token) | Solana | 1.38% | $235.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUZZ yield today?
 
-0.79% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BUZZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.3K in total.
+1 live pool clear this page's $100K TVL floor, $235.7K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank BUZZ pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 24, 2026
+## Last updated August 25, 2026
