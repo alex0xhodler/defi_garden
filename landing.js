@@ -15,6 +15,16 @@
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
   var PROTOCOL_HINTS = ['Morpho', 'Pendle', 'Aave', 'Compound', 'Curve', 'Uniswap', 'Aerodrome', 'Lido', 'Euler', 'Venus', 'Yearn', 'Raydium', 'Kamino'];
 
+  var INTENT_SUBS = [
+    { id: 'claude', name: 'Claude Pro', emoji: '🤖', monthly: 20, deposit: 4800, slug: 'claude' },
+    { id: 'cursor', name: 'Cursor Pro', emoji: '💻', monthly: 20, deposit: 4800, slug: 'cursor' },
+    { id: 'chatgpt', name: 'ChatGPT Plus', emoji: '🧠', monthly: 20, deposit: 4800, slug: 'chatgpt' },
+    { id: 'spotify', name: 'Spotify', emoji: '🎵', monthly: 12, deposit: 2880, slug: 'spotify' },
+    { id: 'netflix', name: 'Netflix', emoji: '🎬', monthly: 18, deposit: 4320, slug: 'netflix' },
+    { id: 'aws', name: 'AWS Cloud', emoji: '☁️', monthly: 50, deposit: 12000, slug: 'aws' },
+    { id: 'github', name: 'GitHub', emoji: '🐙', monthly: 10, deposit: 2400, slug: 'github' }
+  ];
+
   // goal id -> translations.planner label key (canonical list owned by planner.js
   // GOALS; duplicated read-only here because planner.js is not loaded on the
   // landing route — a static label lookup, not rate math). Unknown ids fail safe
@@ -207,6 +217,9 @@
     var scrollState = useState(false);
     var isScrolled = scrollState[0];
     var setIsScrolled = scrollState[1];
+    var selectedSubState = useState(INTENT_SUBS[0]);
+    var activeSub = selectedSubState[0];
+    var setActiveSub = selectedSubState[1];
     var copy = getCopy(language);
 
     useEffect(function () {
@@ -360,27 +373,63 @@
               e(ExampleChip, { value: 'Kamino lending', onChoose: chooseExample }, copy.exampleKamino || 'Kamino lending')
             )
           ),
-          showReturnCard
-            ? e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three', 'data-testid': 'landing-return-card' },
-                e('div', { className: 'landing-card-topline' },
-                  e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
-                  e('span', { className: 'landing-card-caption' }, copy.returnCaption)
-                ),
-                e('h2', null, goalLabel),
-                (plantedDate && typeof copy.returnStatus === 'function') ? e('p', null, copy.returnStatus(plantedDate)) : null,
-                e('a', { className: 'landing-garden-link', href: 'plan.html', 'data-testid': 'landing-return-cta', onClick: tendGarden }, copy.returnCta, e(ArrowIcon)),
-                e(PlantIllustration)
+          e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three', 'data-testid': 'landing-intent-card', style: { padding: '22px' } },
+            e('div', { className: 'landing-card-topline' },
+              e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
+              e('span', { className: 'landing-card-caption' }, '⚡ Self-Paying Subscriptions (v2 Intent)')
+            ),
+            e('h2', { style: { fontSize: '1.25rem', margin: '4px 0 8px', color: 'var(--color-text)' } }, 'Never pay for SaaS again'),
+            e('p', { style: { fontSize: '0.85rem', color: 'var(--color-text-secondary)', margin: '0 0 14px', lineHeight: '1.4' } }, 'Lock USDC once on Base. Automated yield settles your monthly bill while you keep 100% of your capital.'),
+            e('div', { style: { display: 'flex', gap: '6px', flexWrap: 'wrap', marginBottom: '14px' } },
+              INTENT_SUBS.map(function(s) {
+                var isSelected = activeSub.id === s.id;
+                return e('button', {
+                  key: s.id,
+                  type: 'button',
+                  onClick: function() { setActiveSub(s); },
+                  style: {
+                    background: isSelected ? 'rgba(var(--color-teal-500-rgb), 0.2)' : 'var(--color-surface)',
+                    border: isSelected ? '1px solid var(--color-primary)' : '1px solid var(--color-border)',
+                    color: isSelected ? 'var(--color-primary)' : 'var(--color-text)',
+                    borderRadius: '8px',
+                    padding: '4px 8px',
+                    fontSize: '0.75rem',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px'
+                  }
+                }, e('span', null, s.emoji), e('span', { style: { fontWeight: isSelected ? '700' : '500' } }, s.name));
+              })
+            ),
+            e('div', {
+              style: {
+                background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
+                borderRadius: '10px',
+                padding: '12px 14px',
+                color: '#fff',
+                border: '1px solid rgba(255,255,255,0.1)',
+                marginBottom: '14px'
+              }
+            },
+              e('div', { style: { display: 'flex', justifyContent: 'space-between', fontSize: '0.7rem', color: '#94a3b8', marginBottom: '6px' } },
+                e('span', null, 'BASE LENDING VAULT · VIRTUAL CARD'),
+                e('span', { style: { color: '#34d399', fontWeight: '700' } }, '🟢 $' + activeSub.monthly + '/mo ACTIVE')
+              ),
+              e('div', { style: { fontSize: '1.1rem', fontWeight: '700', fontFamily: 'var(--font-family-mono)', color: '#f8fafc', marginBottom: '4px' } },
+                '$' + activeSub.deposit.toLocaleString() + ' USDC Deposit'
+              ),
+              e('div', { style: { fontSize: '0.75rem', color: '#cbd5e1' } },
+                'Yield: ~5.0% APY → Pays $' + activeSub.monthly + '.00/mo ' + activeSub.name
               )
-            : e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three' },
-                e('div', { className: 'landing-card-topline' },
-                  e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
-                  e('span', { className: 'landing-card-caption' }, copy.gardenNote)
-                ),
-                e('h2', null, copy.gardenTitle),
-                e('p', null, copy.gardenBody),
-                e('a', { className: 'landing-garden-link', href: 'plan.html' }, copy.gardenCta, e(ArrowIcon)),
-                e(PlantIllustration)
-              )
+            ),
+            e('a', {
+              className: 'landing-garden-link',
+              href: '/for/' + activeSub.slug,
+              'data-testid': 'landing-intent-cta'
+            }, 'Simulate ' + activeSub.name + ' Vault', e(ArrowIcon)),
+            e(PlantIllustration)
+          )
         ),
         e('section', { id: 'trust', className: 'landing-trust-section', 'aria-labelledby': 'landing-trust-title' },
           e('div', { className: 'landing-trust-copy' },
