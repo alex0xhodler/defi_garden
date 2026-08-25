@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.42% | $2M |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.42% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 yield-yak-aggregator에서 AP
 
 ### AIAVAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.01M예요.
 
 ### 이 수익률은 안전한가요?
 

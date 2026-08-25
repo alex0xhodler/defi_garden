@@ -1,10 +1,10 @@
 # NIL DeFi Yields
 
-The highest honest NIL yield right now is 14.12% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NIL yield right now is 12.97% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7&src=seo_token) | Ethereum | 14.12% | $190.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7&src=seo_token) | Ethereum | 12.97% | $190.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NIL yield today?
 
-14.12% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.97% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NIL pools clear the TVL floor?
 

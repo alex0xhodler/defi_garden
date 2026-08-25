@@ -6,16 +6,16 @@
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 227.63% | $439.6K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 15.37% | $211.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 25.83% | $164.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 26.61% | $164.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 25.83%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 15.37%, TVL $211.7K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 227.63%, TVL $439.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 26.61%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 15.37%, TVL $211.7K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 227.63%, TVL $439.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 25.83% | $164.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 26.61% | $164.4K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 15.37% | $211.7K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 227.63% | $439.6K |
 
@@ -33,9 +33,9 @@ XSGD 풀은 여기 3개가 있고, 2개 체인에서 APY가 15.37%부터 227.63%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 227.63% | 120.55% | 인센티브 100.00% |
+| aerodrome-slipstream | 227.63% | 120.29% | 인센티브 100.00% |
 | aerodrome-slipstream | 15.37% | 23.89% | 인센티브 100.00% |
-| uniswap-v3 | 25.83% | 10.38% | 기본 금리 |
+| uniswap-v3 | 26.61% | 10.48% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 15.
 
 ### XSGD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $815.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $815.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 15.
 
 ### XSGD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 25.83%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 15.37%, TVL $211.7K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 227.63%, TVL $439.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 26.61%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 15.37%, TVL $211.7K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 227.63%, TVL $439.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

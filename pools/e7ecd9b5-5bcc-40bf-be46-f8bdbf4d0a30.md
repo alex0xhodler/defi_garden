@@ -1,12 +1,12 @@
 # WETH-DOGINME — uniswap-v3 on Base
 
-**Total APY:** 47.37% (47.37% Base · + 0.00% Rewards)
+**Total APY:** 43.09% (43.09% Base · + 0.00% Rewards)
 
 **TVL:** $1.34M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 15.12%
+**30d Mean APY:** 15.29%
 
 **Exposure:** multi
 
@@ -22,13 +22,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$6,951 in 5y at current rates.
+$1,000 in this pool grows to ~$5,998 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 47.37% right now vs a 15.12% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 43.09% right now vs a 15.29% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$6,951 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$5,998 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 

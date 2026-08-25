@@ -1,10 +1,10 @@
 # TENBINUSDC DeFi Yields
 
-The highest honest TENBINUSDC yield right now is 3.97% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TENBINUSDC yield right now is 3.63% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72&src=seo_token) | Ethereum | 3.97% | $301.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72&src=seo_token) | Ethereum | 3.63% | $301.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TENBINUSDC yield today?
 
-3.97% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.63% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many TENBINUSDC pools clear the TVL floor?
 

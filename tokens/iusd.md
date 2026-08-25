@@ -5,19 +5,19 @@ The highest honest IUSD yield right now is 13.85% on minswap-dex (Cardano), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.52% | $1.01M |
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 13.85% | $188.3K |
-| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 9.58% | $124.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 13.85% | $188.7K |
+| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 9.58% | $126.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 2.52% APY, $1.01M TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; liqwid (Cardano), 9.58% APY, $124.4K TVL, https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token; minswap-dex (Cardano), 13.85% APY, $188.3K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 2.52% APY, $1.01M TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; liqwid (Cardano), 9.58% APY, $126.7K TVL, https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token; minswap-dex (Cardano), 13.85% APY, $188.7K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.52% | $1.01M |
-| 2 | [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 9.58% | $124.4K |
-| 3 | [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 13.85% | $188.3K |
+| 2 | [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 9.58% | $126.7K |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 13.85% | $188.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 IUSD shows up in 3 pools here, with rates from 2.52% to 13.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ IUSD shows up in 3 pools here, with rates from 2.52% to 13.85% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| echelon-market | 2.52% | 2.43% | 19.08% incentives |
-| minswap-dex | 13.85% | 14.34% | 23.90% incentives |
-| liqwid | 9.58% | 3.61% | Base rate |
+| echelon-market | 2.52% | 2.43% | 19.10% incentives |
+| minswap-dex | 13.85% | 14.33% | 23.68% incentives |
+| liqwid | 9.58% | 3.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many IUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.63M in total.
+4 live pools clear this page's $100K TVL floor, $4.61M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IUSD pools have the most stable APY history?
 
-Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 2.52% APY, $1.01M TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; liqwid (Cardano), 9.58% APY, $124.4K TVL, https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token; minswap-dex (Cardano), 13.85% APY, $188.3K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 2.52% APY, $1.01M TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; liqwid (Cardano), 9.58% APY, $126.7K TVL, https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token; minswap-dex (Cardano), 13.85% APY, $188.7K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

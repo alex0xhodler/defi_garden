@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 MAMO shows up in 4 pools here, with rates from 7.13% to 232.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 81.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 81.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ MAMO shows up in 4 pools here, with rates from 7.13% to 232.77% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 232.77% | 94.26% | 100.00% incentives |
-| aerodrome-slipstream | 7.13% | 68.13% | 100.00% incentives |
-| aerodrome-slipstream | 66.28% | 62.06% | 100.00% incentives |
-| aerodrome-slipstream | 55.00% | 247.55% | 100.00% incentives |
+| aerodrome-slipstream | 232.77% | 94.51% | 100.00% incentives |
+| aerodrome-slipstream | 7.13% | 67.99% | 100.00% incentives |
+| aerodrome-slipstream | 66.28% | 62.05% | 100.00% incentives |
+| aerodrome-slipstream | 55.00% | 248.50% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -63,11 +63,11 @@ Based on APY history only, MAMO's lower-variability candidates are aerodrome-sli
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

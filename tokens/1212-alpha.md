@@ -1,10 +1,10 @@
 # 1212.ALPHA DeFi Yields
 
-The highest honest 1212.ALPHA yield right now is 474.23% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1212.ALPHA yield right now is 699.76% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=c4f5e353-8e5b-4191-a5d3-a788b551e703&src=seo_token) | Ethereum | 474.23% | $423.4K |
+| [lagoon →](https://www.defi.garden/?pool=c4f5e353-8e5b-4191-a5d3-a788b551e703&src=seo_token) | Ethereum | 699.76% | $546.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1212.ALPHA yield today?
 
-474.23% APY on lagoon (Ethereum), based on live DefiLlama data.
+699.76% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 1212.ALPHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $423.4K in total.
+1 live pool clear this page's $100K TVL floor, $546.7K in total.
 
 ### Are these rates safe?
 

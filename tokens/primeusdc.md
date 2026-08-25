@@ -1,10 +1,10 @@
 # PRIMEUSDC DeFi Yields
 
-The highest honest PRIMEUSDC yield right now is 4.19% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRIMEUSDC yield right now is 4.20% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.19% | $469.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.20% | $469.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRIMEUSDC yield today?
 
-4.19% APY on morpho-blue (Base), based on live DefiLlama data.
+4.20% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many PRIMEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $469.3K in total.
+1 live pool clear this page's $100K TVL floor, $469.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PRIMEUSDC pools. This view co
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

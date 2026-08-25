@@ -1,14 +1,16 @@
 # Robinhood Chain 디파이 수익률
 
-현재 Robinhood Chain의 가장 높은 정직한 수익률은 Robinhood Chain의 alandale-v3에서 139.69%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Robinhood Chain의 가장 높은 정직한 수익률은 Robinhood Chain의 ekubo에서 244.12%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.50% | $302.14M |
+| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 7.57% | $377.07M |
+| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.50% | $307.6M |
 | USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $30.17M |
-| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 21.72% | $629.2K |
-| ETH-USDG | [kyberswap-fairflow →](https://www.defi.garden/?pool=058c6b93-03fb-57a2-ab92-e39d6e47d076&src=seo_chain) | 7.16% | $202.5K |
-| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 139.69% | $173.2K |
+| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 21.70% | $629.7K |
+| ETH-USDG | [kyberswap-fairflow →](https://www.defi.garden/?pool=058c6b93-03fb-57a2-ab92-e39d6e47d076&src=seo_chain) | 7.19% | $202.5K |
+| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 139.42% | $173.2K |
+| ETH-USDG | [ekubo →](https://www.defi.garden/?pool=f5946d39-c480-5b12-8f2e-6f8b9dfd0dc1&src=seo_chain) | 244.12% | $106.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,11 +18,11 @@
 
 ### 오늘 Robinhood Chain의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Robinhood Chain의 alandale-v3에서 APY 139.69%예요.
+DefiLlama 실시간 데이터 기준, Robinhood Chain의 ekubo에서 APY 244.12%예요.
 
 ### Robinhood Chain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $461.85M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $844.44M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,6 +39,7 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 alandale-v3에서 APY 1
 
 ## Robinhood Chain의 인기 토큰
 
+- [STEAKUSDG](https://www.defi.garden/ko/tokens/steakusdg)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDG](https://www.defi.garden/ko/tokens/usdg)
 - [STONX](https://www.defi.garden/ko/tokens/stonx)

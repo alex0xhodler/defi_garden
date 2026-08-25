@@ -5,9 +5,9 @@ The highest honest Celo yield right now is 7.99% on uniswap-v3 (Celo), among 6 p
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 7.68% | $1.91M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 2.92% | $1.82M |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $754.8K |
-| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.05% | $117.7K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 2.94% | $1.82M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $750.2K |
+| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.05% | $118K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

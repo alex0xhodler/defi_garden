@@ -1,10 +1,10 @@
 # MIROSHARK DeFi Yields
 
-The highest honest MIROSHARK yield right now is 72.25% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIROSHARK yield right now is 72.46% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5c88d56-eb57-463b-83f9-3f5d16cf85d5&src=seo_token) | Base | 72.25% | $332.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5c88d56-eb57-463b-83f9-3f5d16cf85d5&src=seo_token) | Base | 72.46% | $327.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MIROSHARK yield today?
 
-72.25% APY on uniswap-v4 (Base), based on live DefiLlama data.
+72.46% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MIROSHARK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $332.2K in total.
+1 live pool clear this page's $100K TVL floor, $327.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank MIROSHARK pools. This view co
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

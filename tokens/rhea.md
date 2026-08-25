@@ -1,10 +1,10 @@
 # RHEA DeFi Yields
 
-The highest honest RHEA yield right now is 2.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RHEA yield right now is 2.81% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f11b6a18-bfef-4877-8fa9-93e29da8c722&src=seo_token) | Solana | 2.92% | $108.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=f11b6a18-bfef-4877-8fa9-93e29da8c722&src=seo_token) | Solana | 2.81% | $107.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RHEA yield today?
 
-2.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.81% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RHEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.4K in total.
+1 live pool clear this page's $100K TVL floor, $107.5K in total.
 
 ### Are these rates safe?
 

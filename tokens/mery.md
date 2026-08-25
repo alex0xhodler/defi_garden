@@ -1,10 +1,10 @@
 # MERY DeFi Yields
 
-The highest honest MERY yield right now is 1.55% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MERY yield right now is 1.50% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 1.55% | $402.4K |
+| [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 1.50% | $404.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MERY yield today?
 
-1.55% APY on vvs-standard (Cronos), based on live DefiLlama data.
+1.50% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many MERY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $402.4K in total.
+1 live pool clear this page's $100K TVL floor, $404.2K in total.
 
 ### Are these rates safe?
 
@@ -33,8 +33,8 @@ There is not enough qualifying APY history to rank MERY pools. This view covers 
 
 ## Related tokens
 
-- [XRP](https://www.defi.garden/tokens/xrp)
 - [XLM](https://www.defi.garden/tokens/xlm)
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)

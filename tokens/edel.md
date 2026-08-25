@@ -1,10 +1,10 @@
 # EDEL DeFi Yields
 
-The highest honest EDEL yield right now is 30.40% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDEL yield right now is 28.46% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 30.40% | $668.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 28.46% | $715.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDEL yield today?
 
-30.40% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+28.46% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EDEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $668.3K in total.
+1 live pool clear this page's $100K TVL floor, $715.5K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank EDEL pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

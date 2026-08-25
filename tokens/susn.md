@@ -1,6 +1,6 @@
 # SUSN DeFi Yields
 
-The highest honest SUSN yield right now is 15.20% on bluefin-spot (Sui), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSN yield right now is 15.31% on bluefin-spot (Sui), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -8,7 +8,7 @@ The highest honest SUSN yield right now is 15.20% on bluefin-spot (Sui), among 9
 | [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.22% | $1.35M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.01% | $1.33M |
 | [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 0.10% | $552.6K |
-| [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579&src=seo_token) | Sui | 15.20% | $509.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579&src=seo_token) | Sui | 15.31% | $508.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -24,7 +24,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSN shows up in 5 pools here, with rates from 0.01% to 15.20% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSN shows up in 5 pools here, with rates from 0.01% to 15.31% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,8 +35,8 @@ SUSN shows up in 5 pools here, with rates from 0.01% to 15.20% APY across 3 chai
 | pendle | 7.49% | 7.89% | Base rate |
 | pendle | 8.22% | 8.33% | Base rate |
 | uniswap-v3 | 0.01% | 0.05% | Base rate |
-| ekubo | 0.10% | 0.43% | Base rate |
-| bluefin-spot | 15.20% | 14.64% | 94.23% incentives |
+| ekubo | 0.10% | 0.42% | Base rate |
+| bluefin-spot | 15.31% | 14.71% | 93.67% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSN yield today?
 
-15.20% APY on bluefin-spot (Sui), based on live DefiLlama data.
+15.31% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many SUSN pools clear the TVL floor?
 

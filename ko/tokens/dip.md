@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.03% | $2.66M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.03% | $2.67M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.03%예�
 
 ### DIP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.78M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,8 +49,8 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.03%예�
 
 ## 관련 토큰
 
-- [XRP](https://www.defi.garden/ko/tokens/xrp)
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
+- [XRP](https://www.defi.garden/ko/tokens/xrp)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)

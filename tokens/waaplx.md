@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WAAPLX pools. This view cover
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BILL](https://www.defi.garden/tokens/bill)
 - [BSB](https://www.defi.garden/tokens/bsb)
+- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 

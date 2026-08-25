@@ -1,6 +1,6 @@
 # SHIBA2-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 1.61% (1.61% Base · + 0.00% Rewards)
+**Total APY:** 1.60% (1.60% Base · + 0.00% Rewards)
 
 **TVL:** $2.17M
 

@@ -4,7 +4,7 @@ The highest honest FLOAT yield right now is 0.01% on sushiswap (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=1c3f9a4f-a91d-4cc9-aa91-d1941ab6c899&src=seo_token) | Ethereum | 0.01% | $178.6K |
+| [sushiswap →](https://www.defi.garden/?pool=1c3f9a4f-a91d-4cc9-aa91-d1941ab6c899&src=seo_token) | Ethereum | 0.01% | $178.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLOAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.6K in total.
+1 live pool clear this page's $100K TVL floor, $178.2K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # DOPPEL DeFi Yields
 
-The highest honest DOPPEL yield right now is 4.22% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOPPEL yield right now is 1.62% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 4.22% | $132K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 1.62% | $130.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOPPEL yield today?
 
-4.22% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.62% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DOPPEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132K in total.
+1 live pool clear this page's $100K TVL floor, $130.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank DOPPEL pools. This view cover
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

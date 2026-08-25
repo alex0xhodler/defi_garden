@@ -4,30 +4,30 @@ The highest honest JTO yield right now is 0.02% on project-0 (Solana), among 5 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 35.51% | $1.53M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 24.60% | $1.28M |
-| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $1.08M |
-| [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token) | Solana | 18.56% | $104.9K |
+| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 37.54% | $1.46M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 25.81% | $1.26M |
+| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $1.07M |
+| [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token) | Solana | 19.97% | $103.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.08M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 18.56% APY, $104.9K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token; orca-dex (Solana), 35.51% APY, $1.53M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 24.60% APY, $1.28M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.07M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 19.97% APY, $103.6K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token; orca-dex (Solana), 37.54% APY, $1.46M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 25.81% APY, $1.26M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $1.08M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token) | Solana | 18.56% | $104.9K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 35.51% | $1.53M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 24.60% | $1.28M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $1.07M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token) | Solana | 19.97% | $103.6K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 37.54% | $1.46M |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 25.81% | $1.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JTO shows up in 4 pools here, with rates from 0.02% to 35.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JTO shows up in 4 pools here, with rates from 0.02% to 37.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 35.51% | 23.13% | Base rate |
-| kamino-liquidity | 24.60% | 15.68% | Base rate |
+| orca-dex | 37.54% | 23.24% | Base rate |
+| kamino-liquidity | 25.81% | 15.76% | Base rate |
 | project-0 | 0.02% | 0.02% | Base rate |
-| orca-dex | 18.56% | 9.45% | Base rate |
+| orca-dex | 19.97% | 9.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JTO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.34M in total.
+5 live pools clear this page's $100K TVL floor, $4.23M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JTO pools have the most stable APY history?
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.08M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 18.56% APY, $104.9K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token; orca-dex (Solana), 35.51% APY, $1.53M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 24.60% APY, $1.28M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.07M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 19.97% APY, $103.6K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d&src=seo_token; orca-dex (Solana), 37.54% APY, $1.46M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 25.81% APY, $1.26M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

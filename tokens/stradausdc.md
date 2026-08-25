@@ -4,7 +4,7 @@ The highest honest STRADAUSDC yield right now is 8.65% on t3tris-finance (Arbitr
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00&src=seo_token) | Arbitrum | 8.65% | $318.6K |
+| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00&src=seo_token) | Arbitrum | 8.65% | $318.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRADAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $318.6K in total.
+1 live pool clear this page's $100K TVL floor, $318.7K in total.
 
 ### Are these rates safe?
 

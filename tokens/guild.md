@@ -4,7 +4,7 @@ The highest honest GUILD yield right now is 0.06% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=90b9e869-e459-4f67-8390-3431c58bfbdf&src=seo_token) | Ethereum | 0.06% | $205.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=90b9e869-e459-4f67-8390-3431c58bfbdf&src=seo_token) | Ethereum | 0.06% | $205.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GUILD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.4K in total.
+1 live pool clear this page's $100K TVL floor, $205.3K in total.
 
 ### Are these rates safe?
 

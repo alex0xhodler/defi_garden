@@ -4,17 +4,17 @@ The highest honest CUSDO yield right now is 3.10% on openeden-usdo (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $738.5K |
+| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $737.2K |
 | [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 2.41% | $142K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CUSDO's lower-variability candidates are openeden-usdo (Solana), 3.10% APY, $738.5K TVL, https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token; curve-dex (Ethereum), 2.41% APY, $142K TVL, https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSDO's lower-variability candidates are openeden-usdo (Solana), 3.10% APY, $737.2K TVL, https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token; curve-dex (Ethereum), 2.41% APY, $142K TVL, https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $738.5K |
+| 1 | [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $737.2K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 2.41% | $142K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CUSDO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $880.5K in total.
+2 live pools clear this page's $100K TVL floor, $879.1K in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CUSDO pools have the most stable APY history?
 
-Based on APY history only, CUSDO's lower-variability candidates are openeden-usdo (Solana), 3.10% APY, $738.5K TVL, https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token; curve-dex (Ethereum), 2.41% APY, $142K TVL, https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSDO's lower-variability candidates are openeden-usdo (Solana), 3.10% APY, $737.2K TVL, https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token; curve-dex (Ethereum), 2.41% APY, $142K TVL, https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

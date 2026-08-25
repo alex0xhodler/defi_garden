@@ -61,12 +61,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stellar</loc>
+    <loc>https://www.defi.garden/chains/robinhood-chain</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/robinhood-chain</loc>
+    <loc>https://www.defi.garden/chains/stellar</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flow</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -291,12 +291,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/rootstock</loc>
+    <loc>https://www.defi.garden/chains/move</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/move</loc>
+    <loc>https://www.defi.garden/chains/rootstock</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -316,12 +316,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/hemi</loc>
+    <loc>https://www.defi.garden/chains/core</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/core</loc>
+    <loc>https://www.defi.garden/chains/hemi</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -342,11 +342,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/zksync-era</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/rsk</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>

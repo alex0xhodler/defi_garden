@@ -4,7 +4,7 @@ The highest honest OEVUSDC yield right now is 4.19% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2942e247-18c6-4a4e-926f-151dec88910b&src=seo_token) | Ethereum | 4.19% | $8.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=2942e247-18c6-4a4e-926f-151dec88910b&src=seo_token) | Ethereum | 4.19% | $6.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OEVUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.46M in total.
+1 live pool clear this page's $100K TVL floor, $6.89M in total.
 
 ### Are these rates safe?
 

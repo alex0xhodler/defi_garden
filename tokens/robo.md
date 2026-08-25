@@ -1,33 +1,33 @@
 # ROBO DeFi Yields
 
-The highest honest ROBO yield right now is 31.92% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROBO yield right now is 25.35% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token) | Ethereum | 0.22% | $627.2K |
-| [sushiswap →](https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token) | Ethereum | 0.26% | $559.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 24.23% | $477K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 31.92% | $446.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token) | Ethereum | 0.20% | $627.2K |
+| [sushiswap →](https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token) | Ethereum | 0.24% | $557.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 26.15% | $483.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 25.35% | $450.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ROBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.22% APY, $627.2K TVL, https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token; sushiswap (Ethereum), 0.26% APY, $559.2K TVL, https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token; uniswap-v3 (Base), 31.92% APY, $446.3K TVL, https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token; uniswap-v3 (Ethereum), 24.23% APY, $477K TVL, https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ROBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.20% APY, $627.2K TVL, https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token; sushiswap (Ethereum), 0.24% APY, $557.7K TVL, https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token; uniswap-v3 (Base), 25.35% APY, $450.6K TVL, https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token; uniswap-v3 (Ethereum), 26.15% APY, $483.9K TVL, https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token) | Ethereum | 0.22% | $627.2K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token) | Ethereum | 0.26% | $559.2K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 31.92% | $446.3K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 24.23% | $477K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token) | Ethereum | 0.20% | $627.2K |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token) | Ethereum | 0.24% | $557.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 25.35% | $450.6K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 26.15% | $483.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ROBO shows up in 4 pools here, with rates from 0.22% to 31.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ROBO shows up in 4 pools here, with rates from 0.20% to 26.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 18.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 18.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.22% | 0.28% | Base rate |
-| sushiswap | 0.26% | 0.22% | Base rate |
-| uniswap-v3 | 24.23% | 72.97% | Base rate |
-| uniswap-v3 | 31.92% | 36.20% | Base rate |
+| uniswap-v2 | 0.20% | 0.28% | Base rate |
+| sushiswap | 0.24% | 0.22% | Base rate |
+| uniswap-v3 | 26.15% | 73.06% | Base rate |
+| uniswap-v3 | 25.35% | 36.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ROBO yield today?
 
-31.92% APY on uniswap-v3 (Base), based on live DefiLlama data.
+25.35% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ROBO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.11M in total.
+4 live pools clear this page's $100K TVL floor, $2.12M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ROBO pools have the most stable APY history?
 
-Based on APY history only, ROBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.22% APY, $627.2K TVL, https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token; sushiswap (Ethereum), 0.26% APY, $559.2K TVL, https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token; uniswap-v3 (Base), 31.92% APY, $446.3K TVL, https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token; uniswap-v3 (Ethereum), 24.23% APY, $477K TVL, https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ROBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.20% APY, $627.2K TVL, https://www.defi.garden/?pool=76779d06-73b3-48e6-ab5f-c9454189d078&src=seo_token; sushiswap (Ethereum), 0.24% APY, $557.7K TVL, https://www.defi.garden/?pool=b7a4b19b-50b2-4d98-9a96-901a7af14823&src=seo_token; uniswap-v3 (Base), 25.35% APY, $450.6K TVL, https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token; uniswap-v3 (Ethereum), 26.15% APY, $483.9K TVL, https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

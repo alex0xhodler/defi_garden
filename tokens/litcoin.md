@@ -4,7 +4,7 @@ The highest honest LITCOIN yield right now is 0.32% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39caf2c1-17c4-4e73-b12c-9b6cf10d7e0e&src=seo_token) | Base | 0.32% | $140.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39caf2c1-17c4-4e73-b12c-9b6cf10d7e0e&src=seo_token) | Base | 0.32% | $139.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LITCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.3K in total.
+1 live pool clear this page's $100K TVL floor, $139.9K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank LITCOIN pools. This view cove
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

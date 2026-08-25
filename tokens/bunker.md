@@ -4,7 +4,7 @@ The highest honest BUNKER yield right now is 0.04% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token) | Base | 0.04% | $117.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token) | Base | 0.04% | $117.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUNKER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.5K in total.
+1 live pool clear this page's $100K TVL floor, $117.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank BUNKER pools. This view cover
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

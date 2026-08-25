@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7d90e5f9-9b5e-423e-b3bc-8533f37c9b18&src=seo_token) | Base | 0.10% | $331.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7d90e5f9-9b5e-423e-b3bc-8533f37c9b18&src=seo_token) | Base | 0.10% | $332.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.10%예요.
 
 ### GOLDN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $331.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $332.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,11 +34,11 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.10%예요.
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

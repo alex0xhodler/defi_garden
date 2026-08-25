@@ -4,7 +4,7 @@ The highest honest PITCH yield right now is 0.62% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=781a03a7-9af7-4438-bc9d-0da25e02a84a&src=seo_token) | Base | 0.62% | $518.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=781a03a7-9af7-4438-bc9d-0da25e02a84a&src=seo_token) | Base | 0.62% | $518.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PITCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $518.4K in total.
+1 live pool clear this page's $100K TVL floor, $518.6K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PITCH pools. This view covers
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

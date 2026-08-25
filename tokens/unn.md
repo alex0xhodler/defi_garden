@@ -4,7 +4,7 @@ The highest honest UNN yield right now is 0.26% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=34f4f6c6-c5e8-4589-9911-b9571cd6a057&src=seo_token) | Ethereum | 0.26% | $102.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=34f4f6c6-c5e8-4589-9911-b9571cd6a057&src=seo_token) | Ethereum | 0.26% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.6K in total.
+1 live pool clear this page's $100K TVL floor, $102.7K in total.
 
 ### Are these rates safe?
 

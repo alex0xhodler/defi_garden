@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.6K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 21.90%예�
 
 ### MTUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $498.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $498.7K예요.
 
 ### 이 수익률은 안전한가요?
 

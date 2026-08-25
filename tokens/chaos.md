@@ -4,7 +4,7 @@ The highest honest CHAOS yield right now is 1.63% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b81cbf5-313b-4e27-b235-1e340dc1aef7&src=seo_token) | Base | 1.63% | $296.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b81cbf5-313b-4e27-b235-1e340dc1aef7&src=seo_token) | Base | 1.63% | $293.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHAOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.1K in total.
+1 live pool clear this page's $100K TVL floor, $293.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank CHAOS pools. This view covers
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

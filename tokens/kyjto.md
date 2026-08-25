@@ -4,7 +4,7 @@ The highest honest KYJTO yield right now is 3.19% on kyros (Solana), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 3.19% | $973.2K |
+| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 3.19% | $952.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KYJTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $973.2K in total.
+1 live pool clear this page's $100K TVL floor, $952.4K in total.
 
 ### Are these rates safe?
 

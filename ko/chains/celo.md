@@ -5,9 +5,9 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 7.68% | $1.91M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 2.92% | $1.82M |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $754.8K |
-| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.05% | $117.7K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 2.94% | $1.82M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $750.2K |
+| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.05% | $118K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

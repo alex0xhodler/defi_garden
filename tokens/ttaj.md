@@ -1,10 +1,10 @@
 # TTAJ DeFi Yields
 
-The highest honest TTAJ yield right now is 0.55% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TTAJ yield right now is 0.54% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=da876bad-f2f1-43c6-a3bb-bd983798475e&src=seo_token) | Polygon | 0.55% | $137.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da876bad-f2f1-43c6-a3bb-bd983798475e&src=seo_token) | Polygon | 0.54% | $136K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TTAJ yield today?
 
-0.55% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.54% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many TTAJ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.3K in total.
+1 live pool clear this page's $100K TVL floor, $136K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank TTAJ pools. This view covers 
 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

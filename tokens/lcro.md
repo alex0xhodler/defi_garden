@@ -4,18 +4,18 @@ The highest honest LCRO yield right now is 0.03% on vvs-standard (Cronos), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $2.1M |
-| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.03% | $918.4K |
+| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $2.11M |
+| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.03% | $921K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LCRO's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.1M TVL, https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token; vvs-standard (Cronos), 0.03% APY, $918.4K TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LCRO's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.11M TVL, https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token; vvs-standard (Cronos), 0.03% APY, $921K TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $2.1M |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.03% | $918.4K |
+| 1 | [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $2.11M |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.03% | $921K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LCRO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.02M in total.
+2 live pools clear this page's $100K TVL floor, $3.03M in total.
 
 ### Are these rates safe?
 
@@ -52,12 +52,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LCRO pools have the most stable APY history?
 
-Based on APY history only, LCRO's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.1M TVL, https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token; vvs-standard (Cronos), 0.03% APY, $918.4K TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LCRO's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.11M TVL, https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token; vvs-standard (Cronos), 0.03% APY, $921K TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [XRP](https://www.defi.garden/tokens/xrp)
 - [XLM](https://www.defi.garden/tokens/xlm)
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)

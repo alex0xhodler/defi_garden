@@ -4,7 +4,7 @@ The highest honest CLAWDSPIRACY yield right now is 10.42% on uniswap-v4 (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 10.42% | $146.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 10.42% | $146.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAWDSPIRACY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.2K in total.
+1 live pool clear this page's $100K TVL floor, $146.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank CLAWDSPIRACY pools. This view
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

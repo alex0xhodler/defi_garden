@@ -6,17 +6,17 @@
 |---|---|---|---|
 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token) | Avalanche | 12.00% | $277.4K |
 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=ca014c85-aeac-58df-8652-ec90e8bccf00&src=seo_token) | Ethereum | 12.00% | $166.7K |
-| [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $155.9K |
+| [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $157.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDP의 변동성 낮은 후보는 Avalanche의 parallel-protocol-v3, APY 12.00%, TVL $277.4K, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; Hyperliquid L1의 parallel-protocol-v3, APY 12.00%, TVL $155.9K, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDP의 변동성 낮은 후보는 Avalanche의 parallel-protocol-v3, APY 12.00%, TVL $277.4K, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; Hyperliquid L1의 parallel-protocol-v3, APY 12.00%, TVL $157.3K, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token) | Avalanche | 12.00% | $277.4K |
-| 2 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $155.9K |
+| 2 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $157.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 parallel-protocol-v3에서 AP
 
 ### SUSDP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $600K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $601.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 parallel-protocol-v3에서 AP
 
 ### SUSDP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDP의 변동성 낮은 후보는 Avalanche의 parallel-protocol-v3, APY 12.00%, TVL $277.4K, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; Hyperliquid L1의 parallel-protocol-v3, APY 12.00%, TVL $155.9K, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDP의 변동성 낮은 후보는 Avalanche의 parallel-protocol-v3, APY 12.00%, TVL $277.4K, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; Hyperliquid L1의 parallel-protocol-v3, APY 12.00%, TVL $157.3K, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

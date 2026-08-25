@@ -1,10 +1,10 @@
 # WAETHWETH DeFi Yields
 
-The highest honest WAETHWETH yield right now is 5.53% on balancer-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAETHWETH yield right now is 5.50% on balancer-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.53% | $6.57M |
+| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.50% | $6.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WAETHWETH shows up in 1 pools here, with rates from 5.53% to 5.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WAETHWETH shows up in 1 pools here, with rates from 5.50% to 5.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,7 +23,7 @@ WAETHWETH shows up in 1 pools here, with rates from 5.53% to 5.53% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 5.53% | 5.74% | 67.87% incentives |
+| balancer-v3 | 5.50% | 5.74% | 67.72% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +31,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WAETHWETH yield today?
 
-5.53% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+5.50% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WAETHWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.35M in total.
+2 live pools clear this page's $100K TVL floor, $7.33M in total.
 
 ### Are these rates safe?
 

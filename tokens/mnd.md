@@ -4,7 +4,7 @@ The highest honest MND yield right now is 0.04% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d11147fb-79a1-4b7e-9a9c-e4b4a4ac91ce&src=seo_token) | Ethereum | 0.04% | $110K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d11147fb-79a1-4b7e-9a9c-e4b4a4ac91ce&src=seo_token) | Ethereum | 0.04% | $110.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110K in total.
+1 live pool clear this page's $100K TVL floor, $110.2K in total.
 
 ### Are these rates safe?
 

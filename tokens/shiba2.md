@@ -4,24 +4,24 @@ The highest honest SHIBA2 yield right now is 4.48% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 1.61% | $2.17M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 1.60% | $2.17M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 4.48% | $1.01M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 1.61% APY, $2.17M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 4.48% APY, $1.01M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 1.60% APY, $2.17M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 4.48% APY, $1.01M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 1.61% | $2.17M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 1.60% | $2.17M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 4.48% | $1.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHIBA2 shows up in 2 pools here, with rates from 1.61% to 4.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHIBA2 shows up in 2 pools here, with rates from 1.60% to 4.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.61% | 1.68% | Base rate |
-| uniswap-v3 | 4.48% | 3.39% | Base rate |
+| uniswap-v3 | 1.60% | 1.68% | Base rate |
+| uniswap-v3 | 4.48% | 3.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHIBA2 pools have the most stable APY history?
 
-Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 1.61% APY, $2.17M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 4.48% APY, $1.01M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 1.60% APY, $2.17M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 4.48% APY, $1.01M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

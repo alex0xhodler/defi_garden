@@ -1,10 +1,10 @@
 # CLAWBANK DeFi Yields
 
-The highest honest CLAWBANK yield right now is 15.11% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWBANK yield right now is 16.16% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=485cbeb8-9b0e-4808-84fe-0fc74c276b3e&src=seo_token) | Base | 15.11% | $806K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=485cbeb8-9b0e-4808-84fe-0fc74c276b3e&src=seo_token) | Base | 16.16% | $794.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWBANK yield today?
 
-15.11% APY on uniswap-v4 (Base), based on live DefiLlama data.
+16.16% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWBANK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $806K in total.
+1 live pool clear this page's $100K TVL floor, $794.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank CLAWBANK pools. This view cov
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

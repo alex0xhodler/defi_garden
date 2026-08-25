@@ -1,10 +1,10 @@
 # LCAI DeFi Yields
 
-The highest honest LCAI yield right now is 1.02% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCAI yield right now is 1.42% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=10b8f396-3ec6-47e1-9823-07c616e3bfd6&src=seo_token) | Ethereum | 1.02% | $884.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=10b8f396-3ec6-47e1-9823-07c616e3bfd6&src=seo_token) | Ethereum | 1.42% | $876.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LCAI shows up in 1 pools here, with rates from 1.02% to 1.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LCAI shows up in 1 pools here, with rates from 1.42% to 1.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.02% | 5.55% | Base rate |
+| uniswap-v3 | 1.42% | 5.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LCAI yield today?
 
-1.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.42% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LCAI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.5M in total.
+4 live pools clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.48% | $72.16M |
+| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.48% | $71.5M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Solana의 doublezero-staked-sol에서 APY 
 
 ### DZSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $72.16M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $71.5M예요.
 
 ### 이 수익률은 안전한가요?
 

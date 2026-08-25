@@ -6,16 +6,16 @@ The highest honest YOG yield right now is 5.84% on morpho-blue (Ethereum), among
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 2.23% | $6.93M |
 | [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 5.84% | $2.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.22% | $277.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.21% | $178.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.22% APY, $277.5K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.23% APY, $6.93M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 5.84% APY, $2.11M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.21% APY, $178.9K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.23% APY, $6.93M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 5.84% APY, $2.11M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.22% | $277.5K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.21% | $178.9K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 2.23% | $6.93M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 5.84% | $2.11M |
 
@@ -33,9 +33,9 @@ YOG shows up in 3 pools here, with rates from 2.23% to 5.84% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.23% | 2.54% | 33.06% incentives |
-| morpho-blue | 5.84% | 6.91% | 10.86% incentives |
-| morpho-blue | 5.22% | 5.55% | Base rate |
+| morpho-blue | 2.23% | 2.54% | 32.87% incentives |
+| morpho-blue | 5.84% | 6.90% | 10.88% incentives |
+| morpho-blue | 5.21% | 5.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YOG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $9.31M in total.
+3 live pools clear this page's $100K TVL floor, $9.22M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YOG pools have the most stable APY history?
 
-Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.22% APY, $277.5K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.23% APY, $6.93M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 5.84% APY, $2.11M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.21% APY, $178.9K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.23% APY, $6.93M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 5.84% APY, $2.11M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

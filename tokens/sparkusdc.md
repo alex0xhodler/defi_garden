@@ -1,10 +1,10 @@
 # SPARKUSDC DeFi Yields
 
-The highest honest SPARKUSDC yield right now is 3.76% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPARKUSDC yield right now is 3.79% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_token) | Base | 3.76% | $249.3M |
+| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_token) | Base | 3.79% | $237.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPARKUSDC yield today?
 
-3.76% APY on morpho-blue (Base), based on live DefiLlama data.
+3.79% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many SPARKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $249.3M in total.
+1 live pool clear this page's $100K TVL floor, $237.27M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SPARKUSDC pools. This view co
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

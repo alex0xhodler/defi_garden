@@ -4,7 +4,7 @@ The highest honest SIRLOINUSDC yield right now is 5.80% on morpho-blue (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_token) | Base | 5.80% | $333.91M |
+| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_token) | Base | 5.80% | $334.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIRLOINUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $333.91M in total.
+1 live pool clear this page's $100K TVL floor, $334.13M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SIRLOINUSDC pools. This view 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

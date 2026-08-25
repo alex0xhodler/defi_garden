@@ -1,10 +1,10 @@
 # HARNESS DeFi Yields
 
-The highest honest HARNESS yield right now is 122.85% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HARNESS yield right now is 96.45% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3b84becc-d530-4db7-a1f5-64d1b6d75d22&src=seo_token) | Base | 122.85% | $110.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3b84becc-d530-4db7-a1f5-64d1b6d75d22&src=seo_token) | Base | 96.45% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HARNESS yield today?
 
-122.85% APY on uniswap-v4 (Base), based on live DefiLlama data.
+96.45% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many HARNESS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.4K in total.
+1 live pool clear this page's $100K TVL floor, $109.6K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank HARNESS pools. This view cove
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

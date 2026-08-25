@@ -4,7 +4,7 @@ The highest honest WUF yield right now is 0.29% on orca-dex (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=82981a9b-8c83-4abf-886d-7dd24eb19fcc&src=seo_token) | Solana | 0.29% | $102.1K |
+| [orca-dex →](https://www.defi.garden/?pool=82981a9b-8c83-4abf-886d-7dd24eb19fcc&src=seo_token) | Solana | 0.29% | $101.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WUF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.3K in total.
 
 ### Are these rates safe?
 

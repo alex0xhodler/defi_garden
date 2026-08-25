@@ -5,25 +5,25 @@ The highest honest TIG yield right now is 191.42% on aerodrome-slipstream (Base)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 191.42% | $1.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 189.13% | $139.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 173.34% | $140.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TIG's lower-variability candidates are uniswap-v3 (Base), 189.13% APY, $139.1K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 191.42% APY, $1.04M TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIG's lower-variability candidates are uniswap-v3 (Base), 173.34% APY, $140.8K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 191.42% APY, $1.04M TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 189.13% | $139.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 173.34% | $140.8K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 191.42% | $1.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TIG shows up in 2 pools here, with rates from 189.13% to 191.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TIG shows up in 2 pools here, with rates from 173.34% to 191.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 116.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 116.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ TIG shows up in 2 pools here, with rates from 189.13% to 191.42% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 191.42% | 147.30% | 100.00% incentives |
-| uniswap-v3 | 189.13% | 84.98% | Base rate |
+| aerodrome-slipstream | 191.42% | 147.20% | 100.00% incentives |
+| uniswap-v3 | 173.34% | 85.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,16 +52,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TIG pools have the most stable APY history?
 
-Based on APY history only, TIG's lower-variability candidates are uniswap-v3 (Base), 189.13% APY, $139.1K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 191.42% APY, $1.04M TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIG's lower-variability candidates are uniswap-v3 (Base), 173.34% APY, $140.8K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 191.42% APY, $1.04M TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

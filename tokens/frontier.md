@@ -4,17 +4,17 @@ The highest honest FRONTIER yield right now is 21.90% on concrete (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.6K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.7K |
 | [concrete →](https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token) | Ethereum | 15.56% | $119.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FRONTIER's lower-variability candidates are concrete (Ethereum), 21.90% APY, $498.6K TVL, https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token; concrete (Ethereum), 15.56% APY, $119.2K TVL, https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRONTIER's lower-variability candidates are concrete (Ethereum), 21.90% APY, $498.7K TVL, https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token; concrete (Ethereum), 15.56% APY, $119.2K TVL, https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.6K |
+| 1 | [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 21.90% | $498.7K |
 | 2 | [concrete →](https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token) | Ethereum | 15.56% | $119.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 21.90% | 8.00% | Base rate |
-| concrete | 15.56% | 4.44% | Base rate |
+| concrete | 21.90% | 8.03% | Base rate |
+| concrete | 15.56% | 4.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FRONTIER pools have the most stable APY history?
 
-Based on APY history only, FRONTIER's lower-variability candidates are concrete (Ethereum), 21.90% APY, $498.6K TVL, https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token; concrete (Ethereum), 15.56% APY, $119.2K TVL, https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRONTIER's lower-variability candidates are concrete (Ethereum), 21.90% APY, $498.7K TVL, https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token; concrete (Ethereum), 15.56% APY, $119.2K TVL, https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

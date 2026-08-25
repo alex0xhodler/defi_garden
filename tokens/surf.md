@@ -4,7 +4,7 @@ The highest honest SURF yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=16a0c721-1e92-4cb5-ae69-32c49c876f0c&src=seo_token) | Ethereum | 0.01% | $333.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=16a0c721-1e92-4cb5-ae69-32c49c876f0c&src=seo_token) | Ethereum | 0.01% | $333.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SURF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $333.1K in total.
+1 live pool clear this page's $100K TVL floor, $333.2K in total.
 
 ### Are these rates safe?
 

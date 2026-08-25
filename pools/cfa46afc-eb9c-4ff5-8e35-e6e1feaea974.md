@@ -1,12 +1,12 @@
 # FRXUSD-CRVUSD — curve-dex on Ethereum
 
-**Total APY:** 4.57% (0.60% Base · + 3.97% Rewards)
+**Total APY:** 4.58% (0.65% Base · + 3.93% Rewards)
 
-**TVL:** $15.05M
+**TVL:** $13.15M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.09%
+**30d Mean APY:** 3.10%
 
 **Exposure:** multi
 

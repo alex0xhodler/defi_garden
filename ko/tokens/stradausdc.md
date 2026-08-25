@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00&src=seo_token) | Arbitrum | 8.65% | $318.6K |
+| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00&src=seo_token) | Arbitrum | 8.65% | $318.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 t3tris-finance에서 APY 8.65%
 
 ### STRADAUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $318.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $318.7K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,10 +1,10 @@
 # MD DeFi Yields
 
-The highest honest MD yield right now is 7.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MD yield right now is 7.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1&src=seo_token) | Solana | 7.75% | $179.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1&src=seo_token) | Solana | 7.64% | $175.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MD yield today?
 
-7.75% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.64% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.1K in total.
+1 live pool clear this page's $100K TVL floor, $175.9K in total.
 
 ### Are these rates safe?
 

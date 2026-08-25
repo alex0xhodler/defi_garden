@@ -4,7 +4,7 @@ The highest honest BITMXNBP yield right now is 8.00% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 8.00% | $383K |
+| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 8.00% | $256.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITMXNBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $383K in total.
+1 live pool clear this page's $100K TVL floor, $256.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank BITMXNBP pools. This view cov
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

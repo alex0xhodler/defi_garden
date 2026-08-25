@@ -1,10 +1,10 @@
 # DIGI DeFi Yields
 
-The highest honest DIGI yield right now is 1.85% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DIGI yield right now is 2.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d28a9513-18a0-4893-8c23-ea72611c8207&src=seo_token) | Solana | 1.85% | $108.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=d28a9513-18a0-4893-8c23-ea72611c8207&src=seo_token) | Solana | 2.08% | $108.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DIGI yield today?
 
-1.85% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DIGI pools clear the TVL floor?
 

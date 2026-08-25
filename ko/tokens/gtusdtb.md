@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_token) | Stable | 5.81% | $23.93M |
+| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_token) | Stable | 5.81% | $23.91M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Stable의 morpho-blue에서 APY 5.81%예�
 
 ### GTUSDTB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $23.93M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $23.91M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,10 +1,10 @@
 # CATS DeFi Yields
 
-The highest honest CATS yield right now is 0.13% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATS yield right now is 0.14% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=2fcbbb78-cf10-4bc3-a6be-91bdc9869ebb&src=seo_token) | TON | 0.13% | $282.1K |
+| [ston.fi →](https://www.defi.garden/?pool=2fcbbb78-cf10-4bc3-a6be-91bdc9869ebb&src=seo_token) | TON | 0.14% | $282.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CATS yield today?
 
-0.13% APY on ston.fi (TON), based on live DefiLlama data.
+0.14% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many CATS pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CATS pools. This view covers 
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [WGRAM](https://www.defi.garden/tokens/wgram)
 - [UTYA](https://www.defi.garden/tokens/utya)
-- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 
 ## Available on
 

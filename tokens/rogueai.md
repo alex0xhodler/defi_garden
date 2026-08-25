@@ -1,10 +1,10 @@
 # ROGUEAI DeFi Yields
 
-The highest honest ROGUEAI yield right now is 1.92% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROGUEAI yield right now is 1.93% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5b3ca3e7-73ce-4b6d-bdea-f6be19edc2d7&src=seo_token) | Base | 1.92% | $121K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5b3ca3e7-73ce-4b6d-bdea-f6be19edc2d7&src=seo_token) | Base | 1.93% | $119.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROGUEAI yield today?
 
-1.92% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.93% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ROGUEAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121K in total.
+1 live pool clear this page's $100K TVL floor, $119.9K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank ROGUEAI pools. This view cove
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

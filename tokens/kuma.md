@@ -4,7 +4,7 @@ The highest honest KUMA yield right now is 0.40% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59&src=seo_token) | Ethereum | 0.40% | $592.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59&src=seo_token) | Ethereum | 0.40% | $592.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KUMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $592.2K in total.
+1 live pool clear this page's $100K TVL floor, $592.4K in total.
 
 ### Are these rates safe?
 

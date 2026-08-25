@@ -4,7 +4,7 @@ The highest honest STSUI yield right now is 0.24% on bluefin-spot (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.24% | $251.2K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.24% | $249.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $251.2K in total.
+1 live pool clear this page's $100K TVL floor, $249.6K in total.
 
 ### Are these rates safe?
 

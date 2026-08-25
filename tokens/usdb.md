@@ -4,20 +4,20 @@ The highest honest USDB yield right now is 0.11% on cetus-clmm (Sui), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
 | [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.01% | $1.09M |
-| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $850.4K |
+| [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
+| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $850.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDB's lower-variability candidates are bluefin-spot (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token; cetus-clmm (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token; cetus-clmm (Sui), 0.11% APY, $850.4K TVL, https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDB's lower-variability candidates are bluefin-spot (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token; cetus-clmm (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token; cetus-clmm (Sui), 0.11% APY, $850.3K TVL, https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
 | 2 | [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.01% | $1.09M |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $850.4K |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $850.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,9 +31,9 @@ USDB shows up in 3 pools here, with rates from 0.01% to 0.11% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bluefin-spot | 0.01% | 0.01% | Base rate |
 | cetus-clmm | 0.01% | 0.01% | Base rate |
-| cetus-clmm | 0.11% | 0.10% | 96.39% incentives |
+| bluefin-spot | 0.01% | 0.01% | Base rate |
+| cetus-clmm | 0.11% | 0.10% | 96.50% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDB pools have the most stable APY history?
 
-Based on APY history only, USDB's lower-variability candidates are bluefin-spot (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token; cetus-clmm (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token; cetus-clmm (Sui), 0.11% APY, $850.4K TVL, https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDB's lower-variability candidates are bluefin-spot (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token; cetus-clmm (Sui), 0.01% APY, $1.09M TVL, https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token; cetus-clmm (Sui), 0.11% APY, $850.3K TVL, https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

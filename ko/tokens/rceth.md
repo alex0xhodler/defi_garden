@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=74a07b39-e65d-449a-877d-5c8cb76a414a&src=seo_token) | Ethereum | 3.24% | $965.9K |
+| [lagoon →](https://www.defi.garden/?pool=74a07b39-e65d-449a-877d-5c8cb76a414a&src=seo_token) | Ethereum | 3.24% | $967.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.24%예요.
 
 ### RCETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $965.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $967.4K예요.
 
 ### 이 수익률은 안전한가요?
 

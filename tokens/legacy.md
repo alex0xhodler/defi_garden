@@ -1,10 +1,10 @@
 # LEGACY DeFi Yields
 
-The highest honest LEGACY yield right now is 7.15% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LEGACY yield right now is 0.05% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 7.15% | $163.3K |
+| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 0.05% | $163.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LEGACY yield today?
 
-7.15% APY on ekubo (Starknet), based on live DefiLlama data.
+0.05% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many LEGACY pools clear the TVL floor?
 

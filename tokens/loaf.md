@@ -33,8 +33,8 @@ There is not enough qualifying APY history to rank LOAF pools. This view covers 
 
 ## Related tokens
 
-- [XRP](https://www.defi.garden/tokens/xrp)
 - [XLM](https://www.defi.garden/tokens/xlm)
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)

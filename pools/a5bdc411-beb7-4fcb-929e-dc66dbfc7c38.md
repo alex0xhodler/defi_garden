@@ -1,8 +1,8 @@
 # WETH-USDC-USDT-WBTC-DAI-LINK-OP — clipper on OP Mainnet
 
-**Total APY:** 1.64% (0.00% Base · + 1.64% Rewards)
+**Total APY:** 1.65% (0.00% Base · + 1.65% Rewards)
 
-**TVL:** $103.7K
+**TVL:** $103.3K
 
 **Pool Type:** Yield Farming
 
