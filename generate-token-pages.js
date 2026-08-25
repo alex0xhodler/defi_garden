@@ -743,6 +743,7 @@ function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
     name,
     description,
     url: pageUrl,
+    license: 'https://creativecommons.org/publicdomain/zero/1.0/',
     creator: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
     dateModified: generatedDate
@@ -1204,17 +1205,15 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const intro = t('tcpTokenIntro', sym, escapeHtml(top.project || '—'), escapeHtml(top.chain || '—'),
     formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl), floorStr);
 
-  // BreadcrumbList (040): Home and the current page are real, linkable URLs.
-  // "Tokens" has no `item` — there is no /tokens hub page in this repo (no
-  // rewrite in vercel.json, no generated index) and structured data must not
-  // point at a URL that 404s; schema.org's ListItem.item is optional, so an
-  // unlinked middle crumb is valid and honest to the actual site structure.
+  // BreadcrumbList (040 / 045): Home and the current page are real, linkable
+  // URLs. "Tokens" links to the /tokens hub (or /ko/tokens for Korean pages).
+  const tokensHubUrl = `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}`;
   const breadcrumbJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t('tcpBreadcrumbHome'), item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbTokens') },
+      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbTokens'), item: tokensHubUrl },
       { '@type': 'ListItem', position: 3, name: rec.symbol, item: pageUrl }
     ]
   }).replace(/</g, '\\u003c');

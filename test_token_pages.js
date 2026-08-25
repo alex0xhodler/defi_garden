@@ -242,17 +242,30 @@ test('exactly one valid BreadcrumbList block with 3 items', () => {
   assert.strictEqual(blocks.length, 1, 'expected exactly one BreadcrumbList block');
   assert.strictEqual(blocks[0].itemListElement.length, 3, 'expected exactly 3 breadcrumb items');
 });
-test('breadcrumb items: Home (linked), Tokens (unlinked — no real hub page), <SYMBOL> (linked, self-canonical)', () => {
+test('breadcrumb items: Home (linked), Tokens (linked to /tokens hub), <SYMBOL> (linked, self-canonical)', () => {
   const items = extractLdJsonBlocks(html, 'BreadcrumbList')[0].itemListElement;
   assert.strictEqual(items[0].position, 1);
   assert.strictEqual(items[0].name, 'Home');
   assert.strictEqual(items[0].item, 'https://www.defi.garden/');
   assert.strictEqual(items[1].position, 2);
   assert.strictEqual(items[1].name, 'Tokens');
-  assert.ok(!('item' in items[1]), 'Tokens has no hub page in this repo — must not link a 404');
+  assert.strictEqual(items[1].item, 'https://www.defi.garden/tokens', 'Tokens crumb links to /tokens hub');
   assert.strictEqual(items[2].position, 3);
   assert.strictEqual(items[2].name, 'BIG');
   assert.strictEqual(items[2].item, 'https://www.defi.garden/tokens/big', 'must match the page\'s own canonical URL');
+});
+test('KO breadcrumb items: 홈 (linked), 토큰 (linked to /ko/tokens hub), <SYMBOL> (linked, self-canonical)', () => {
+  const koHtml = gen.renderTokenPage(bySym['BIG'], [], undefined, undefined, 'ko');
+  const items = extractLdJsonBlocks(koHtml, 'BreadcrumbList')[0].itemListElement;
+  assert.strictEqual(items[0].position, 1);
+  assert.strictEqual(items[0].name, '홈');
+  assert.strictEqual(items[0].item, 'https://www.defi.garden/');
+  assert.strictEqual(items[1].position, 2);
+  assert.strictEqual(items[1].name, '토큰');
+  assert.strictEqual(items[1].item, 'https://www.defi.garden/ko/tokens', 'KO 토큰 crumb links to /ko/tokens hub');
+  assert.strictEqual(items[2].position, 3);
+  assert.strictEqual(items[2].name, 'BIG');
+  assert.strictEqual(items[2].item, 'https://www.defi.garden/ko/tokens/big');
 });
 test('malicious symbol cannot break out of the ld+json script tag (BreadcrumbList block itself)', () => {
   // Isolates the JSON-LD block this diff adds. The pre-existing analytics
@@ -307,6 +320,7 @@ test('exactly one valid Dataset block with required schema.org properties', () =
   assert.ok(d.name && typeof d.name === 'string', 'missing Dataset.name');
   assert.ok(d.description && typeof d.description === 'string', 'missing Dataset.description');
   assert.strictEqual(d.url, 'https://www.defi.garden/tokens/big', 'Dataset.url must be the page\'s own canonical URL');
+  assert.strictEqual(d.license, 'https://creativecommons.org/publicdomain/zero/1.0/', 'Dataset.license must be set');
   assert.strictEqual(d.publisher['@type'], 'Organization');
   assert.strictEqual(d.publisher.name, 'DeFi Garden');
   assert.strictEqual(d.creator['@type'], 'Organization');
