@@ -26,7 +26,21 @@ const EXPECTED_PRESETS = [
   { slug: 'netflix', name: 'Netflix Standard', category: 'Media Streaming', baseMonthly: 17.99, taxBuffer: 21.59 },
   { slug: 'aws', name: 'AWS Cloud Micro-Infra', category: 'Cloud Compute', baseMonthly: 50.00, taxBuffer: 60.00 },
   { slug: 'github', name: 'GitHub Copilot Pro', category: 'AI / Developer', baseMonthly: 10.00, taxBuffer: 12.00 },
-  { slug: 'youtube', name: 'YouTube Premium', category: 'Media Streaming', baseMonthly: 13.99, taxBuffer: 16.79 }
+  { slug: 'youtube', name: 'YouTube Premium', category: 'Media Streaming', baseMonthly: 13.99, taxBuffer: 16.79 },
+  { slug: 'amazonprime', name: 'Amazon Prime', category: 'Shopping & Media', baseMonthly: 15.00, taxBuffer: 18.00 },
+  { slug: 'disney', name: 'Disney+', category: 'Media Streaming', baseMonthly: 15.99, taxBuffer: 19.19 },
+  { slug: 'max', name: 'Max (HBO)', category: 'Media Streaming', baseMonthly: 16.99, taxBuffer: 20.39 },
+  { slug: 'hulu', name: 'Hulu', category: 'Media Streaming', baseMonthly: 18.99, taxBuffer: 22.79 },
+  { slug: 'appletv', name: 'Apple TV+', category: 'Media Streaming', baseMonthly: 12.99, taxBuffer: 15.59 },
+  { slug: 'gamepass', name: 'Xbox Game Pass Ultimate', category: 'Gaming', baseMonthly: 19.99, taxBuffer: 24.00 },
+  { slug: 'paramount', name: 'Paramount+', category: 'Media Streaming', baseMonthly: 9.99, taxBuffer: 11.99 },
+  { slug: 'peacock', name: 'Peacock Premium', category: 'Media Streaming', baseMonthly: 10.99, taxBuffer: 13.19 },
+  { slug: 'doordash', name: 'DoorDash DashPass', category: 'Lifestyle & Food', baseMonthly: 9.99, taxBuffer: 11.99 },
+  { slug: 'uber', name: 'Uber One', category: 'Lifestyle & Mobility', baseMonthly: 9.99, taxBuffer: 11.99 },
+  { slug: 'audible', name: 'Audible Premium Plus', category: 'Audiobooks & Media', baseMonthly: 14.95, taxBuffer: 17.94 },
+  { slug: 'walmart', name: 'Walmart+', category: 'Shopping & Delivery', baseMonthly: 12.95, taxBuffer: 15.54 },
+  { slug: 'phonebill', name: 'Mobile Phone Bill', category: 'Everyday Utility Bills', baseMonthly: 70.00, taxBuffer: 84.00 },
+  { slug: 'rent', name: 'Apartment Rent Settlement', category: 'Housing & Rent', baseMonthly: 1800.00, taxBuffer: 2160.00 }
 ];
 
 let passed = 0;

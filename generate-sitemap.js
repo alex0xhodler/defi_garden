@@ -659,7 +659,11 @@ async function generateSitemapSuite(poolsOverride) {
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
 
     // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
-    const INTENT_SLUGS = ['claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube'];
+    const INTENT_SLUGS = [
+      'claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube',
+      'amazonprime', 'disney', 'max', 'hulu', 'appletv', 'gamepass', 'paramount', 'peacock',
+      'doordash', 'uber', 'audible', 'walmart', 'phonebill', 'rent'
+    ];
     INTENT_SLUGS.forEach(slug => {
       sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}for/${slug}`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
     });

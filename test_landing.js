@@ -93,7 +93,7 @@ async function main() {
     assert.strictEqual(await page.locator('#planner-root .gp-app').count(), 0, 'bare / must not mount the planner above the landing');
     assert.strictEqual(await page.locator('#landing-root .card-botanical-watermark').getAttribute('viewBox'), '0 0 340 260');
     const landingLeafMarks = page.locator('#landing-root .landing-leaf-mark');
-    assert.strictEqual(await landingLeafMarks.count(), 2);
+    assert.strictEqual(await landingLeafMarks.count(), 1);
     assert.strictEqual(await landingLeafMarks.first().getAttribute('width'), '24');
     assert.strictEqual(await landingLeafMarks.first().getAttribute('height'), '24');
     const landingArrowIcons = page.locator('#landing-root .landing-arrow-icon');

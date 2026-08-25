@@ -1,396 +1,22 @@
-/**
- * Generates static /for/<subscription> intent landing pages for DeFi Garden v2.
- * Each page includes the Quiet design system, interactive virtual card simulator,
- * AEO/GEO structured data (Product, Offer, SoftwareApplication JSON-LD),
- * and 1-click deposit triggers.
- */
-
-const fs = require('fs');
-const path = require('path');
-
-const SUBSCRIPTIONS = [
-  {
-    slug: 'claude',
-    name: 'Anthropic Claude Pro',
-    category: 'AI / Developer',
-    baseMonthlyUsd: 20.00,
-    taxBufferMonthlyUsd: 24.00,
-    taxBufferDeltaUsd: 4.00,
-    iconDomain: 'anthropic.com',
-    headline: 'Never pay for Claude Pro again.',
-    subhead: 'Deposit once into curated Base lending vaults. Realized yield pays your $20/mo Claude invoice perpetually. Keep 100% of your principal with instant liquidity.',
-    metaDesc: 'Self-paying Claude Pro subscription powered by Base DeFi yield. Keep 100% of your principal while automated yields cover your $20/mo Anthropic bill.'
-  },
-  {
-    slug: 'cursor',
-    name: 'Cursor Pro IDE',
-    category: 'AI / Developer',
-    baseMonthlyUsd: 20.00,
-    taxBufferMonthlyUsd: 24.00,
-    taxBufferDeltaUsd: 4.00,
-    iconDomain: 'cursor.com',
-    headline: 'Eliminate your Cursor Pro bill with idle crypto.',
-    subhead: 'Deposit once into curated Base lending vaults. Automated yield covers your $20/mo IDE subscription on autopilot. Principal is 100% self-custodial.',
-    metaDesc: 'Fund Cursor Pro forever using Base DeFi yield. Self-paying developer subscriptions with zero capital erosion.'
-  },
-  {
-    slug: 'chatgpt',
-    name: 'OpenAI ChatGPT Plus',
-    category: 'AI / Developer',
-    baseMonthlyUsd: 20.00,
-    taxBufferMonthlyUsd: 24.00,
-    taxBufferDeltaUsd: 4.00,
-    iconDomain: 'openai.com',
-    headline: 'Fund ChatGPT Plus forever from DeFi yield.',
-    subhead: 'Lock capital once into curated Base vaults. Automated card settlement covers your $20/mo OpenAI invoice while your deposit remains untouched.',
-    metaDesc: 'Pay ChatGPT Plus automatically from Base DeFi yield. Non-custodial, principal-protected subscription funding.'
-  },
-  {
-    slug: 'spotify',
-    name: 'Spotify Premium',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 11.99,
-    taxBufferMonthlyUsd: 14.39,
-    taxBufferDeltaUsd: 2.40,
-    iconDomain: 'spotify.com',
-    headline: 'Perpetual Spotify Premium with zero monthly burn.',
-    subhead: 'Deposit once on Base. Net yield covers your $11.99/mo Spotify Premium indefinitely while your initial deposit stays 100% yours.',
-    metaDesc: 'Get lifetime Spotify Premium yield-funding with Base DeFi yields. Keep your principal, let yield pay the music bill.'
-  },
-  {
-    slug: 'netflix',
-    name: 'Netflix Standard',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 17.99,
-    taxBufferMonthlyUsd: 21.59,
-    taxBufferDeltaUsd: 3.60,
-    iconDomain: 'netflix.com',
-    headline: 'Stream Netflix perpetually from Base yield.',
-    subhead: 'Lock capital into curated Base liquidity vaults. Monthly yield pays your $17.99 Netflix subscription automatically without touching your principal.',
-    metaDesc: 'Self-paying Netflix subscription on Base. Yield covers your monthly streaming bill while you preserve 100% of your crypto.'
-  },
-  {
-    slug: 'aws',
-    name: 'AWS Cloud Micro-Infra',
-    category: 'Cloud Compute',
-    baseMonthlyUsd: 50.00,
-    taxBufferMonthlyUsd: 60.00,
-    taxBufferDeltaUsd: 10.00,
-    iconDomain: 'amazon.com',
-    headline: 'Self-paying AWS cloud compute for builders and agents.',
-    subhead: 'Deposit once on Base. Automated monthly yield sweeps extinguish $50.00/mo in cloud server and database burn with zero human ops.',
-    metaDesc: 'Perpetual AWS cloud compute funding via Base DeFi yield. Autonomous infrastructure for Web3 developers and AI agents.'
-  },
-  {
-    slug: 'github',
-    name: 'GitHub Copilot Pro',
-    category: 'AI / Developer',
-    baseMonthlyUsd: 10.00,
-    taxBufferMonthlyUsd: 12.00,
-    taxBufferDeltaUsd: 2.00,
-    iconDomain: 'github.com',
-    headline: 'Code with Copilot Pro on permanent autopilot.',
-    subhead: 'Deposit into curated Base lending vaults. Realized yield covers your $10.00/mo Copilot subscription while your principal stays 100% yours.',
-    metaDesc: 'Fund GitHub Copilot from Base DeFi yields. Zero monthly expense, 100% self-custodial capital.'
-  },
-  {
-    slug: 'youtube',
-    name: 'YouTube Premium',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 13.99,
-    taxBufferMonthlyUsd: 16.79,
-    taxBufferDeltaUsd: 2.80,
-    iconDomain: 'youtube.com',
-    headline: 'Ad-free YouTube Premium funded forever.',
-    subhead: 'Lock capital in curated Base vaults. Realized yield settles YouTube Premium automatically with complete principal protection.',
-    metaDesc: 'Yield-funded YouTube Premium subscription on Base. Zero monthly out-of-pocket costs.'
-  },
-  {
-    slug: 'amazonprime',
-    name: 'Amazon Prime',
-    category: 'Shopping & Media',
-    baseMonthlyUsd: 15.00,
-    taxBufferMonthlyUsd: 18.00,
-    taxBufferDeltaUsd: 3.00,
-    iconDomain: 'amazon.com',
-    headline: 'Amazon Prime deliveries paid by DeFi yield.',
-    subhead: 'Deposit once on Base. Realized yield covers your $15.00/mo Amazon Prime membership on autopilot while retaining 100% principal liquidity.',
-    metaDesc: 'Free Amazon Prime membership funded by Base DeFi yields. Save money and keep all your crypto deposit.'
-  },
-  {
-    slug: 'disney',
-    name: 'Disney+',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 15.99,
-    taxBufferMonthlyUsd: 19.19,
-    taxBufferDeltaUsd: 3.20,
-    iconDomain: 'disneyplus.com',
-    headline: 'Watch Disney+ forever with zero out-of-pocket fees.',
-    subhead: 'Deposit into audited Base lending vaults. Automated monthly sweeps fund your $15.99/mo Disney+ plan with zero principal risk.',
-    metaDesc: 'Perpetual Disney+ streaming funded by DeFi yields on Base. Keep 100% of your deposit safe.'
-  },
-  {
-    slug: 'max',
-    name: 'Max (HBO)',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 16.99,
-    taxBufferMonthlyUsd: 20.39,
-    taxBufferDeltaUsd: 3.40,
-    iconDomain: 'max.com',
-    headline: 'Stream Max (HBO) indefinitely on autopilot.',
-    subhead: 'Put idle stablecoins to work in curated Base vaults. Monthly yield pays your $16.99 Max subscription while principal remains 100% yours.',
-    metaDesc: 'Self-paying Max (HBO) subscription funded by Base DeFi rates. Stream premium television without monthly bank charges.'
-  },
-  {
-    slug: 'hulu',
-    name: 'Hulu',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 18.99,
-    taxBufferMonthlyUsd: 22.79,
-    taxBufferDeltaUsd: 3.80,
-    iconDomain: 'hulu.com',
-    headline: 'Fund your monthly Hulu subscription with Base yields.',
-    subhead: 'Deposit into curated lending protocols. Realized yield settles your $18.99/mo Hulu plan continuously with non-custodial protection.',
-    metaDesc: 'Never pay out-of-pocket for Hulu again. Let automated Base DeFi yield cover your entertainment expenses.'
-  },
-  {
-    slug: 'appletv',
-    name: 'Apple TV+',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 12.99,
-    taxBufferMonthlyUsd: 15.59,
-    taxBufferDeltaUsd: 2.60,
-    iconDomain: 'apple.com',
-    headline: 'Perpetual Apple TV+ streaming with self-paying crypto.',
-    subhead: 'Deposit once into audited Base vaults. Monthly yields pay your $12.99 Apple TV+ subscription while your assets stay self-custodial.',
-    metaDesc: 'Enjoy Apple TV+ streaming funded forever by Base yield. Principal stays 100% yours.'
-  },
-  {
-    slug: 'gamepass',
-    name: 'Xbox Game Pass Ultimate',
-    category: 'Gaming',
-    baseMonthlyUsd: 19.99,
-    taxBufferMonthlyUsd: 24.00,
-    taxBufferDeltaUsd: 4.01,
-    iconDomain: 'xbox.com',
-    headline: 'Play Xbox Game Pass forever on DeFi autopilot.',
-    subhead: 'Deposit once on Base. Realized yield pays your $19.99/mo Game Pass Ultimate bill perpetually with complete deposit safety.',
-    metaDesc: 'Free Xbox Game Pass Ultimate powered by Base DeFi lending vaults. Never pay a monthly gaming bill again.'
-  },
-  {
-    slug: 'paramount',
-    name: 'Paramount+',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 9.99,
-    taxBufferMonthlyUsd: 11.99,
-    taxBufferDeltaUsd: 2.00,
-    iconDomain: 'paramountplus.com',
-    headline: 'Paramount+ streaming covered forever by yield.',
-    subhead: 'Lock capital into curated Base vaults. Automated yield covers your $9.99 Paramount+ subscription without touching principal.',
-    metaDesc: 'Self-paying Paramount+ subscription funded by Base yields. Keep your crypto, get unlimited streaming.'
-  },
-  {
-    slug: 'peacock',
-    name: 'Peacock Premium',
-    category: 'Media Streaming',
-    baseMonthlyUsd: 10.99,
-    taxBufferMonthlyUsd: 13.19,
-    taxBufferDeltaUsd: 2.20,
-    iconDomain: 'peacocktv.com',
-    headline: 'Enjoy Peacock Premium paid perpetually from yield.',
-    subhead: 'Deposit into audited Base lending vaults. Monthly yield pays your $10.99 Peacock invoice while you retain 100% liquidity.',
-    metaDesc: 'Lifetime Peacock Premium funding with Base DeFi yield. Non-custodial, principal-protected subscription billing.'
-  },
-  {
-    slug: 'doordash',
-    name: 'DoorDash DashPass',
-    category: 'Lifestyle & Food',
-    baseMonthlyUsd: 9.99,
-    taxBufferMonthlyUsd: 11.99,
-    taxBufferDeltaUsd: 2.00,
-    iconDomain: 'doordash.com',
-    headline: 'Free DoorDash DashPass funded by crypto yield.',
-    subhead: 'Deposit once on Base. Automated monthly sweeps settle your $9.99/mo DashPass membership with complete principal safety.',
-    metaDesc: 'Get zero delivery fees with DoorDash DashPass funded by Base DeFi yield. Keep your capital 100% yours.'
-  },
-  {
-    slug: 'uber',
-    name: 'Uber One',
-    category: 'Lifestyle & Mobility',
-    baseMonthlyUsd: 9.99,
-    taxBufferMonthlyUsd: 11.99,
-    taxBufferDeltaUsd: 2.00,
-    iconDomain: 'uber.com',
-    headline: 'Ride and order with Uber One funded on autopilot.',
-    subhead: 'Deposit into curated Base vaults. Monthly yield pays your $9.99 Uber One membership while your principal stays 100% yours.',
-    metaDesc: 'Perpetual Uber One membership funding via Base DeFi yield. Save on rides and meals with self-paying crypto.'
-  },
-  {
-    slug: 'audible',
-    name: 'Audible Premium Plus',
-    category: 'Audiobooks & Media',
-    baseMonthlyUsd: 14.95,
-    taxBufferMonthlyUsd: 17.94,
-    taxBufferDeltaUsd: 2.99,
-    iconDomain: 'audible.com',
-    headline: 'Listen to Audible Premium Plus forever on yield.',
-    subhead: 'Lock capital in audited Base lending vaults. Realized yield settles your $14.95/mo Audible subscription with full liquidity.',
-    metaDesc: 'Free monthly audiobooks with Audible Premium Plus funded by Base DeFi yield. Keep 100% of your deposit.'
-  },
-  {
-    slug: 'walmart',
-    name: 'Walmart+',
-    category: 'Shopping & Delivery',
-    baseMonthlyUsd: 12.95,
-    taxBufferMonthlyUsd: 15.54,
-    taxBufferDeltaUsd: 2.59,
-    iconDomain: 'walmart.com',
-    headline: 'Free Walmart+ delivery and fuel discounts from yield.',
-    subhead: 'Deposit once on Base. Realized yield pays your $12.95/mo Walmart+ membership while your principal stays 100% untouched.',
-    metaDesc: 'Self-paying Walmart+ membership powered by Base DeFi yield. Enjoy free grocery delivery and gas discounts.'
-  },
-  {
-    slug: 'phonebill',
-    name: 'Mobile Phone Bill',
-    category: 'Everyday Utility Bills',
-    baseMonthlyUsd: 70.00,
-    taxBufferMonthlyUsd: 84.00,
-    taxBufferDeltaUsd: 14.00,
-    iconDomain: 'verizon.com',
-    headline: 'Never pay your cell phone bill out-of-pocket again.',
-    subhead: 'Deposit into curated Base lending vaults. Monthly realized yield pays your $70/mo phone bill on autopilot with zero capital loss.',
-    metaDesc: 'Eliminate your monthly mobile carrier bill using Base DeFi yield. Keep 100% of your capital safe and liquid.'
-  },
-  {
-    slug: 'rent',
-    name: 'Apartment Rent Settlement',
-    category: 'Housing & Rent',
-    baseMonthlyUsd: 1800.00,
-    taxBufferMonthlyUsd: 2160.00,
-    taxBufferDeltaUsd: 360.00,
-    iconDomain: 'zillow.com',
-    headline: 'Perpetual rent settlement from audited lending vaults.',
-    subhead: 'Deposit stable capital into curated Base vaults. Automated yield covers your $1,800/mo rent while your principal remains 100% self-custodial.',
-    metaDesc: 'Fund monthly apartment rent with Base DeFi lending yield. Complete principal protection and non-custodial control.'
-  }
-];
-
-function renderServiceIconSvg(slug, width = 16, height = 16) {
-  const domainMap = {
-    claude: 'claude.ai',
-    cursor: 'cursor.com',
-    chatgpt: 'openai.com',
-    spotify: 'spotify.com',
-    netflix: 'netflix.com',
-    aws: 'amazon.com',
-    github: 'github.com',
-    youtube: 'youtube.com',
-    amazonprime: 'amazon.com',
-    disney: 'disneyplus.com',
-    max: 'max.com',
-    hulu: 'hulu.com',
-    appletv: 'apple.com',
-    gamepass: 'xbox.com',
-    paramount: 'paramountplus.com',
-    peacock: 'peacocktv.com',
-    doordash: 'doordash.com',
-    uber: 'uber.com',
-    audible: 'audible.com',
-    walmart: 'walmart.com',
-    phonebill: 'verizon.com',
-    rent: 'zillow.com'
-  };
-  const domain = domainMap[slug] || slug;
-  return `<img class="service-brand-icon service-brand-favicon" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="${slug}" width="${width}" height="${height}" style="width:${width}px; height:${height}px; border-radius:2px; object-fit:contain; display:inline-block; vertical-align:middle; flex-shrink:0;" loading="lazy" />`;
-}
-
-function renderMailIconSvg() {
-  return `<svg class="input-mail-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <rect x="2" y="4" width="16" height="12" rx="0" />
-    <path d="M2 6l8 5 8-5" />
-  </svg>`;
-}
-
-function renderEmvChipSvg() {
-  return `<svg class="visa-gold-chip visa-gold-chip-svg" viewBox="0 0 46 34" width="42" height="31" aria-hidden="true" role="img">
-    <defs>
-      <linearGradient id="emv-metallic-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#ded5c5" />
-        <stop offset="35%" stop-color="#bfae95" />
-        <stop offset="70%" stop-color="#d6cbba" />
-        <stop offset="100%" stop-color="#9e8c72" />
-      </linearGradient>
-      <linearGradient id="emv-bevel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="rgba(255,255,255,0.7)" />
-        <stop offset="100%" stop-color="rgba(0,0,0,0.3)" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="45" height="33" rx="0" fill="url(#emv-metallic-grad)" stroke="rgba(30,25,18,0.4)" stroke-width="0.8" />
-    <rect x="1.2" y="1.2" width="43.6" height="31.6" rx="0" fill="none" stroke="url(#emv-bevel-grad)" stroke-width="0.6" />
-  </svg>`;
-}
-
-function renderNfcIconSvg() {
-  return `<svg class="visa-nfc-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
-    <path d="M7 16a5.5 5.5 0 0 1 0-8" />
-    <path d="M11 18.5a9 9 0 0 1 0-13" />
-    <path d="M15 21a12.5 12.5 0 0 1 0-18" />
-    <path d="M3 13.5a2 2 0 0 1 0-3" />
-  </svg>`;
-}
-
-function renderVisaLogoSvg() {
-  return `<svg class="visa-logo-svg" viewBox="0 0 780 250" width="54" height="18" fill="#ffffff" aria-label="VISA" role="img">
-    <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
-  </svg>`;
-}
-
-function renderLockIconSvg() {
-  return `<svg class="card-lock-icon" viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
-    <path d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z" />
-  </svg>`;
-}
-
-function renderLeafMarkSvg() {
-  return `<svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true">
-    <path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" />
-    <path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-  </svg>`;
-}
-
-function renderArrowIconSvg() {
-  return `<svg class="landing-arrow-icon" viewBox="0 0 20 20" width="18" height="18" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true">
-    <path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-  </svg>`;
-}
-
-function renderShieldCheckIconSvg() {
-  return `<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z" />
-    <path d="m7.5 10 2 2 3.5-3.5" />
-  </svg>`;
-}
-
-function generateHtml(sub) {
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Pay for ${sub.name} with Base Yield | DeFi Garden v2</title>
-  <meta name="description" content="${sub.metaDesc}">
-  <meta name="keywords" content="${sub.name}, self paying subscription, Base yield, USDC, Morpho Blue, DeFi Garden, yield card, x402">
-  <link rel="canonical" href="https://www.defi.garden/for/${sub.slug}">
+  <title>Pay for Max (HBO) with Base Yield | DeFi Garden v2</title>
+  <meta name="description" content="Self-paying Max (HBO) subscription funded by Base DeFi rates. Stream premium television without monthly bank charges.">
+  <meta name="keywords" content="Max (HBO), self paying subscription, Base yield, USDC, Morpho Blue, DeFi Garden, yield card, x402">
+  <link rel="canonical" href="https://www.defi.garden/for/max">
 
   <!-- OpenGraph / Social Cards -->
   <meta property="og:type" content="product">
-  <meta property="og:url" content="https://www.defi.garden/for/${sub.slug}">
-  <meta property="og:title" content="${sub.name} on Autopilot | DeFi Garden">
-  <meta property="og:description" content="${sub.subhead}">
+  <meta property="og:url" content="https://www.defi.garden/for/max">
+  <meta property="og:title" content="Max (HBO) on Autopilot | DeFi Garden">
+  <meta property="og:description" content="Put idle stablecoins to work in curated Base vaults. Monthly yield pays your $16.99 Max subscription while principal remains 100% yours.">
   <meta property="og:image" content="https://www.defi.garden/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${sub.headline}">
-  <meta name="twitter:description" content="${sub.subhead}">
+  <meta name="twitter:title" content="Stream Max (HBO) indefinitely on autopilot.">
+  <meta name="twitter:description" content="Put idle stablecoins to work in curated Base vaults. Monthly yield pays your $16.99 Max subscription while principal remains 100% yours.">
   <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
 
   <!-- Brand Quiet Design System -->
@@ -406,25 +32,25 @@ function generateHtml(sub) {
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://www.defi.garden/for/${sub.slug}#product",
-        "name": "${sub.name} Perpetual Yield Vault",
-        "description": "${sub.metaDesc}",
-        "category": "${sub.category}",
+        "@id": "https://www.defi.garden/for/max#product",
+        "name": "Max (HBO) Perpetual Yield Vault",
+        "description": "Self-paying Max (HBO) subscription funded by Base DeFi rates. Stream premium television without monthly bank charges.",
+        "category": "Media Streaming",
         "offers": {
           "@type": "Offer",
-          "price": "${sub.baseMonthlyUsd.toFixed(2)}",
+          "price": "16.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://www.defi.garden/for/${sub.slug}"
+          "url": "https://www.defi.garden/for/max"
         }
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "https://www.defi.garden/for/${sub.slug}#app",
-        "name": "DeFi Garden ${sub.name} Intent Portal",
+        "@id": "https://www.defi.garden/for/max#app",
+        "name": "DeFi Garden Max (HBO) Intent Portal",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
-        "url": "https://www.defi.garden/for/${sub.slug}"
+        "url": "https://www.defi.garden/for/max"
       }
     ]
   }
@@ -1033,7 +659,10 @@ function generateHtml(sub) {
     <header class="landing-header">
       <a class="landing-brand" href="/" aria-label="DeFi Garden">
         <span class="landing-brand-mark">
-          ${renderLeafMarkSvg()}
+          <svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true">
+    <path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" />
+    <path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+  </svg>
         </span>
         <span>DeFi Garden</span>
       </a>
@@ -1061,11 +690,11 @@ function generateHtml(sub) {
       <!-- Hero Section -->
       <section class="hero-section">
         <div class="badge-intent-portal badge-intent">
-          ${renderServiceIconSvg(sub.slug, 16, 16)}
-          <span>${sub.category} · Intent Portal</span>
+          <img class="service-brand-icon service-brand-favicon" src="https://www.google.com/s2/favicons?domain=max.com&sz=64" alt="max" width="16" height="16" style="width:16px; height:16px; border-radius:2px; object-fit:contain; display:inline-block; vertical-align:middle; flex-shrink:0;" loading="lazy" />
+          <span>Media Streaming · Intent Portal</span>
         </div>
-        <h1 class="hero-headline hero-title">${sub.headline}</h1>
-        <p class="hero-subhead hero-body">${sub.subhead}</p>
+        <h1 class="hero-headline hero-title">Stream Max (HBO) indefinitely on autopilot.</h1>
+        <p class="hero-subhead hero-body">Put idle stablecoins to work in curated Base vaults. Monthly yield pays your $16.99 Max subscription while principal remains 100% yours.</p>
       </section>
 
       <!-- Interactive Two-Column Simulator Grid -->
@@ -1074,7 +703,7 @@ function generateHtml(sub) {
         <div class="panel-ledger card-shell">
           <div>
             <div class="panel-header">
-              <h2 class="panel-title">${renderServiceIconSvg(sub.slug, 18, 18)} Virtual Card Simulation</h2>
+              <h2 class="panel-title"><img class="service-brand-icon service-brand-favicon" src="https://www.google.com/s2/favicons?domain=max.com&sz=64" alt="max" width="18" height="18" style="width:18px; height:18px; border-radius:2px; object-fit:contain; display:inline-block; vertical-align:middle; flex-shrink:0;" loading="lazy" /> Virtual Card Simulation</h2>
               <span class="panel-badge">BASE LENDING VAULT</span>
             </div>
 
@@ -1087,19 +716,41 @@ function generateHtml(sub) {
                 <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
                 <div class="visa-card-top-row">
                   <div class="visa-card-chip-group">
-                    ${renderEmvChipSvg()}
-                    ${renderNfcIconSvg()}
+                    <svg class="visa-gold-chip visa-gold-chip-svg" viewBox="0 0 46 34" width="42" height="31" aria-hidden="true" role="img">
+    <defs>
+      <linearGradient id="emv-metallic-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ded5c5" />
+        <stop offset="35%" stop-color="#bfae95" />
+        <stop offset="70%" stop-color="#d6cbba" />
+        <stop offset="100%" stop-color="#9e8c72" />
+      </linearGradient>
+      <linearGradient id="emv-bevel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="rgba(255,255,255,0.7)" />
+        <stop offset="100%" stop-color="rgba(0,0,0,0.3)" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="45" height="33" rx="0" fill="url(#emv-metallic-grad)" stroke="rgba(30,25,18,0.4)" stroke-width="0.8" />
+    <rect x="1.2" y="1.2" width="43.6" height="31.6" rx="0" fill="none" stroke="url(#emv-bevel-grad)" stroke-width="0.6" />
+  </svg>
+                    <svg class="visa-nfc-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+    <path d="M7 16a5.5 5.5 0 0 1 0-8" />
+    <path d="M11 18.5a9 9 0 0 1 0-13" />
+    <path d="M15 21a12.5 12.5 0 0 1 0-18" />
+    <path d="M3 13.5a2 2 0 0 1 0-3" />
+  </svg>
                   </div>
                   <div class="visa-card-brand-group">
-                    ${renderVisaLogoSvg()}
+                    <svg class="visa-logo-svg" viewBox="0 0 780 250" width="54" height="18" fill="#ffffff" aria-label="VISA" role="img">
+    <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
+  </svg>
                     <span class="visa-card-type-badge">DEBIT</span>
                   </div>
                 </div>
                 <!-- Card Center: PAN & Dedicated Sub -->
                 <div class="visa-card-center">
                   <div class="visa-card-pan">•••• •••• •••• 8453</div>
-                  <div class="visa-card-label-sub">${sub.slug.toUpperCase()}-VAULT / AGENT-01</div>
-                  <div class="visa-card-funded-label">${sub.name.toUpperCase()} FUNDED</div>
+                  <div class="visa-card-label-sub">MAX-VAULT / AGENT-01</div>
+                  <div class="visa-card-funded-label">MAX (HBO) FUNDED</div>
                 </div>
 
                 <!-- Card Bottom Row: Expiry & Spend Cap Badge -->
@@ -1109,8 +760,10 @@ function generateHtml(sub) {
                     <span class="visa-card-network-info">BASE VAULT · YIELD FUNDED</span>
                   </div>
                   <div class="visa-card-cap-badge">
-                    ${renderLockIconSvg()}
-                    <span>🟢 ACTIVE ($${sub.taxBufferMonthlyUsd.toFixed(2)}/MO)</span>
+                    <svg class="card-lock-icon" viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+    <path d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z" />
+  </svg>
+                    <span>🟢 ACTIVE ($20.39/MO)</span>
                   </div>
                 </div>
               </div>
@@ -1120,11 +773,11 @@ function generateHtml(sub) {
             <div class="metric-table">
               <div class="metric-row-item">
                 <span class="metric-label">Monthly Subscription</span>
-                <span class="metric-value">$${sub.baseMonthlyUsd.toFixed(2)} USD</span>
+                <span class="metric-value">$16.99 USD</span>
               </div>
               <div class="metric-row-item">
                 <span class="metric-label">Tax / VAT Buffer (+20%)</span>
-                <span class="metric-value">$${sub.taxBufferDeltaUsd.toFixed(2)} USD</span>
+                <span class="metric-value">$3.40 USD</span>
               </div>
               <div class="metric-row-item">
                 <span class="metric-label">Funding Settlement Rail</span>
@@ -1142,13 +795,16 @@ function generateHtml(sub) {
 
             <!-- Early Access Reservation Form -->
             <div class="yield-card-reservation" id="reservation-card">
-              <h3 class="reservation-title">Reserve ${sub.name} Card</h3>
+              <h3 class="reservation-title">Reserve Max (HBO) Card</h3>
               <p class="reservation-subtitle">Free to reserve • Spends yield, never principal • No wallet required</p>
 
               <form class="reservation-form" id="reserve-form" novalidate>
                 <div class="reservation-input-group">
                   <div class="input-with-icon">
-                    ${renderMailIconSvg()}
+                    <svg class="input-mail-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="2" y="4" width="16" height="12" rx="0" />
+    <path d="M2 6l8 5 8-5" />
+  </svg>
                     <input type="email" class="email-input" id="email-input" placeholder="Enter developer / user email..." required autocomplete="email" />
                   </div>
                   <button type="submit" class="reserve-submit-btn" id="submit-btn">
@@ -1167,7 +823,7 @@ function generateHtml(sub) {
                 <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
               </div>
               <h3 class="receipt-title">Waitlist Spot Reserved</h3>
-              <div class="receipt-card-preview-chip">${sub.name} Yield Card • $${sub.baseMonthlyUsd.toFixed(2)}/mo Covered</div>
+              <div class="receipt-card-preview-chip">Max (HBO) Yield Card • $16.99/mo Covered</div>
               <div class="receipt-gamification-box">
                 <div class="gamification-header">
                   <span class="gamification-label">Alpha Priority Fast-Track</span>
@@ -1208,7 +864,7 @@ function generateHtml(sub) {
                 <span class="step-num">02</span>
                 <div class="step-content">
                   <strong>Automated Monthly Yield Sweeps</strong>
-                  <p>Autonomous decentralized keepers continuously harvest realized yield ($${sub.taxBufferMonthlyUsd.toFixed(2)}/mo) to settle your ${sub.name} invoice prior to merchant billing.</p>
+                  <p>Autonomous decentralized keepers continuously harvest realized yield ($20.39/mo) to settle your Max (HBO) invoice prior to merchant billing.</p>
                   <div class="step-tags">
                     <span class="step-tag">Automated Harvest</span>
                     <span class="step-tag">Zero Human Ops</span>
@@ -1231,7 +887,10 @@ function generateHtml(sub) {
           </div>
 
           <div class="trust-guarantee-box">
-            ${renderShieldCheckIconSvg()}
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z" />
+    <path d="m7.5 10 2 2 3.5-3.5" />
+  </svg>
             <span>Protocol Invariant: &Delta; Principal &equiv; 0 (Capital never burns)</span>
           </div>
         </div>
@@ -1240,7 +899,10 @@ function generateHtml(sub) {
       <!-- Protocol Invariants Card -->
       <section class="invariants-panel">
         <div class="invariants-header">
-          <h3 style="display:flex; align-items:center; gap:8px;">${renderShieldCheckIconSvg()} Protocol Invariants &amp; Risk Mitigation</h3>
+          <h3 style="display:flex; align-items:center; gap:8px;"><svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z" />
+    <path d="m7.5 10 2 2 3.5-3.5" />
+  </svg> Protocol Invariants &amp; Risk Mitigation</h3>
         </div>
         <div class="invariants-cols">
           <div class="invariant-item">
@@ -1328,7 +990,7 @@ function generateHtml(sub) {
         form.addEventListener('submit', function(e) {
           e.preventDefault();
           var email = (emailInput.value || '').trim();
-          if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          if (!email || !/^[^s@]+@[^s@]+.[^s@]+$/.test(email)) {
             errorEl.textContent = 'Please enter a valid email address.';
             errorEl.style.display = 'block';
             return;
@@ -1336,7 +998,7 @@ function generateHtml(sub) {
           errorEl.style.display = 'none';
           var payload = {
             email: email,
-            sub: '${sub.slug}',
+            sub: 'max',
             reservedAt: new Date().toISOString()
           };
           try {
@@ -1365,19 +1027,4 @@ function generateHtml(sub) {
     })();
   </script>
 </body>
-</html>`;
-}
-
-const forDir = path.join(__dirname, 'for');
-if (!fs.existsSync(forDir)) {
-  fs.mkdirSync(forDir, { recursive: true });
-}
-
-console.log('Generating /for/<subscription> intent pages...');
-SUBSCRIPTIONS.forEach(sub => {
-  const filePath = path.join(forDir, `${sub.slug}.html`);
-  fs.writeFileSync(filePath, generateHtml(sub), 'utf8');
-  console.log(`  ✓ Generated /for/${sub.slug}.html`);
-});
-
-console.log(`Successfully generated ${SUBSCRIPTIONS.length} intent pages.`);
+</html>
