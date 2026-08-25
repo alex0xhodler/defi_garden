@@ -494,10 +494,10 @@
               e('h1', { id: 'landing-spotlight-title', className: 'landing-spotlight-title' },
                 copy.spotlightTitleBefore || 'Never pay for',
                 e('br'),
-                e('span', { className: 'landing-title-accent' }, copy.spotlightTitleAccent || 'software again.')
+                e('span', { className: 'landing-title-accent' }, copy.spotlightTitleAccent || 'subscriptions again.')
               ),
               e('p', { className: 'landing-spotlight-subhead' },
-                copy.spotlightSubhead || 'Deposit once into audited Base lending vaults. Realized yield perpetually settles your monthly software, AI, and cloud subscriptions while your principal stays 100% yours.'
+                copy.spotlightSubhead || 'Deposit once into audited and curated vaults. Realized yield perpetually settles your monthly software, AI, and cloud subscriptions while your principal stays 100% yours.'
               ),
               e('a', {
                 className: 'landing-press-badge',
