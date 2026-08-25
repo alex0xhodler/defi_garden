@@ -654,25 +654,24 @@ async function generateSitemapSuite(poolsOverride) {
     // 1. Main & Metadata Sitemaps (clean, static canonical URLs only — no parameterized query filters)
     console.log('📝 Building sitemap-main.xml...');
     sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}agents`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
 
-    // Garden Planner + Static Landing Hubs + Yield Stories
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}tokens`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}chains`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
+    const INTENT_SLUGS = ['claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube'];
+    INTENT_SLUGS.forEach(slug => {
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}for/${slug}`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    });
+
+    // Secondary Directory Hubs (Tokens & Chains)
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}tokens`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}chains`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
 
     const STORY_SLUGS = ['tomoko', 'kevin', 'lucia'];
     STORY_SLUGS.forEach(slug => {
       sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
-
-    // Zero-Distance Intent Portals (/for/<slug>)
-    const INTENT_SLUGS = ['claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube'];
-    INTENT_SLUGS.forEach(slug => {
-      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}for/${slug}`, LASTMOD_PLACEHOLDER, '0.8', 'weekly'));
-    });
-
     // 2. Vertical: Chain-Specific Sitemaps
     console.log('📝 Building Vertical Chain Sitemaps...');
     const topChains = Array.from(chainTokensMap.keys()).sort((a, b) => {
