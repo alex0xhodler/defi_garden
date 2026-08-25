@@ -4,7 +4,7 @@ The highest honest NICP yield right now is 7.97% on waterneuron (ICP), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 7.97% | $5.88M |
+| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 7.97% | $5.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NICP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6M in total.
+2 live pools clear this page's $100K TVL floor, $5.98M in total.
 
 ### Are these rates safe?
 

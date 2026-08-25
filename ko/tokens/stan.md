@@ -1,10 +1,10 @@
 # STAN 디파이 수익률
 
-현재 STAN의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 27.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STAN의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 26.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb8acb80-8df9-4370-9311-06729a12460a&src=seo_token) | Solana | 27.92% | $122.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=eb8acb80-8df9-4370-9311-06729a12460a&src=seo_token) | Solana | 26.75% | $122.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 STAN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 27.92%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 26.75%예요.
 
 ### STAN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

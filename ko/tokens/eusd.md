@@ -1,41 +1,41 @@
 # EUSD 디파이 수익률
 
-현재 EUSD의 가장 높은 정직한 수익률은 Base의 stake-dao에서 46.38%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EUSD의 가장 높은 정직한 수익률은 Base의 stake-dao에서 45.87%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 1.96% | $1.28M |
 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.90% | $1.01M |
-| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 10.98% | $1M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 9.46% | $401.6K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 43.68% | $327K |
-| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 46.38% | $240.7K |
+| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 10.89% | $1M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 9.29% | $401.3K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 43.28% | $327K |
+| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 45.87% | $240.7K |
 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.21% | $226.5K |
 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.21% | $226K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.96%, TVL $1.28M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; Base의 aerodrome-v1, APY 9.46%, TVL $401.6K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; Ethereum의 curve-dex, APY 0.90%, TVL $1.01M, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; Ethereum의 curve-dex, APY 0.21%, TVL $226.5K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; Ethereum의 convex-finance, APY 10.98%, TVL $1M, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; Ethereum의 convex-finance, APY 0.21%, TVL $226K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; Base의 stake-dao, APY 46.38%, TVL $240.7K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 curve-dex, APY 43.68%, TVL $327K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.96%, TVL $1.28M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; Base의 aerodrome-v1, APY 9.29%, TVL $401.3K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; Ethereum의 curve-dex, APY 0.90%, TVL $1.01M, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; Ethereum의 curve-dex, APY 0.21%, TVL $226.5K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; Ethereum의 convex-finance, APY 10.89%, TVL $1M, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; Ethereum의 convex-finance, APY 0.21%, TVL $226K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; Base의 stake-dao, APY 45.87%, TVL $240.7K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 curve-dex, APY 43.28%, TVL $327K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 1.96% | $1.28M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 9.46% | $401.6K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 9.29% | $401.3K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.90% | $1.01M |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.21% | $226.5K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 10.98% | $1M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 10.89% | $1M |
 | 6 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.21% | $226K |
-| 7 | [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 46.38% | $240.7K |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 43.68% | $327K |
+| 7 | [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 45.87% | $240.7K |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 43.28% | $327K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.21%부터 46.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.21%부터 45.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.18%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,10 +45,10 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.21%부터 46.38%�
 |---|---|---|---|
 | curve-dex | 1.96% | 3.05% | 기본 금리 |
 | curve-dex | 0.90% | 1.78% | 기본 금리 |
-| convex-finance | 10.98% | 7.32% | 인센티브 91.80% |
-| aerodrome-v1 | 9.46% | 7.40% | 인센티브 100.00% |
-| curve-dex | 43.68% | 39.96% | 인센티브 98.33% |
-| stake-dao | 46.38% | 41.97% | 인센티브 98.08% |
+| convex-finance | 10.89% | 7.32% | 인센티브 91.73% |
+| aerodrome-v1 | 9.29% | 7.40% | 인센티브 100.00% |
+| curve-dex | 43.28% | 39.96% | 인센티브 98.31% |
+| stake-dao | 45.87% | 41.98% | 인센티브 98.06% |
 | curve-dex | 0.21% | 0.42% | 기본 금리 |
 | convex-finance | 0.21% | 0.42% | 기본 금리 |
 
@@ -58,7 +58,7 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.21%부터 46.38%�
 
 ### 오늘 EUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 46.38%예요.
+DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 45.87%예요.
 
 ### EUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 46.38%예요.
 
 ### EUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.96%, TVL $1.28M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; Base의 aerodrome-v1, APY 9.46%, TVL $401.6K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; Ethereum의 curve-dex, APY 0.90%, TVL $1.01M, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; Ethereum의 curve-dex, APY 0.21%, TVL $226.5K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; Ethereum의 convex-finance, APY 10.98%, TVL $1M, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; Ethereum의 convex-finance, APY 0.21%, TVL $226K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; Base의 stake-dao, APY 46.38%, TVL $240.7K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 curve-dex, APY 43.68%, TVL $327K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.96%, TVL $1.28M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; Base의 aerodrome-v1, APY 9.29%, TVL $401.3K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; Ethereum의 curve-dex, APY 0.90%, TVL $1.01M, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; Ethereum의 curve-dex, APY 0.21%, TVL $226.5K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; Ethereum의 convex-finance, APY 10.89%, TVL $1M, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; Ethereum의 convex-finance, APY 0.21%, TVL $226K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; Base의 stake-dao, APY 45.87%, TVL $240.7K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 curve-dex, APY 43.28%, TVL $327K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

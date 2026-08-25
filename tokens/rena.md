@@ -4,7 +4,7 @@ The highest honest RENA yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8b7f8a5a-d7a5-476e-9288-53cb2d25fbb9&src=seo_token) | Ethereum | 0.02% | $350.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8b7f8a5a-d7a5-476e-9288-53cb2d25fbb9&src=seo_token) | Ethereum | 0.02% | $347.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RENA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $350.4K in total.
+1 live pool clear this page's $100K TVL floor, $347.8K in total.
 
 ### Are these rates safe?
 

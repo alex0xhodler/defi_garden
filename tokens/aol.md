@@ -4,7 +4,7 @@ The highest honest AOL yield right now is 1.35% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d59f3331-ac44-417b-825b-d3583bc48edb&src=seo_token) | Solana | 1.35% | $179.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=d59f3331-ac44-417b-825b-d3583bc48edb&src=seo_token) | Solana | 1.35% | $178K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.5K in total.
+1 live pool clear this page's $100K TVL floor, $178K in total.
 
 ### Are these rates safe?
 

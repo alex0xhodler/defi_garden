@@ -1,10 +1,10 @@
 # BSTONK DeFi Yields
 
-The highest honest BSTONK yield right now is 434.40% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSTONK yield right now is 443.79% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token) | Base | 434.40% | $141.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token) | Base | 443.79% | $142.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BSTONK yield today?
 
-434.40% APY on uniswap-v4 (Base), based on live DefiLlama data.
+443.79% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BSTONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $141.5K in total.
+1 live pool clear this page's $100K TVL floor, $142.9K in total.
 
 ### Are these rates safe?
 

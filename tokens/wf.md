@@ -1,10 +1,10 @@
 # WF DeFi Yields
 
-The highest honest WF yield right now is 3.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WF yield right now is 3.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9e814616-cdb2-4d77-ab5e-f761183620ae&src=seo_token) | Solana | 3.42% | $119.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=9e814616-cdb2-4d77-ab5e-f761183620ae&src=seo_token) | Solana | 3.21% | $119.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WF yield today?
 
-3.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.21% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WF pools clear the TVL floor?
 

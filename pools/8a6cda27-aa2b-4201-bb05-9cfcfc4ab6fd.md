@@ -1,8 +1,8 @@
 # USD₮ — aave-v3 on Celo
 
-**Total APY:** 7.67% (0.34% Base · + 7.33% Rewards)
+**Total APY:** 7.68% (0.34% Base · + 7.34% Rewards)
 
-**TVL:** $1.92M
+**TVL:** $1.91M
 
 **Pool Type:** Lending
 

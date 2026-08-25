@@ -4,33 +4,33 @@ The highest honest SJEUR yield right now is 19.63% on spectra-v2 (Base), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 11.21% | $183.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 11.22% | $183.6K |
 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 19.63% | $183.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 11.21% APY, $183.6K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 19.63% APY, $183.6K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 11.22% APY, $183.6K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 19.63% APY, $183.6K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 11.21% | $183.6K |
+| 1 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 11.22% | $183.6K |
 | 2 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 19.63% | $183.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SJEUR shows up in 2 pools here, with rates from 11.21% to 19.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SJEUR shows up in 2 pools here, with rates from 11.22% to 19.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 11.21% | 10.07% | 66.56% incentives |
-| spectra-v2 | 19.63% | 17.12% | 38.02% incentives |
+| spectra-v2 | 11.22% | 10.07% | 66.50% incentives |
+| spectra-v2 | 19.63% | 17.13% | 38.02% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SJEUR pools have the most stable APY history?
 
-Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 11.21% APY, $183.6K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 19.63% APY, $183.6K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 11.22% APY, $183.6K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 19.63% APY, $183.6K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

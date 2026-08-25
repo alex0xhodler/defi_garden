@@ -1,10 +1,10 @@
 # SNDK 디파이 수익률
 
-현재 SNDK의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 104.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SNDK의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 101.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 104.18% | $171.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 101.36% | $171.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SNDK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 104.18%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 101.36%예요.
 
 ### SNDK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -36,7 +36,7 @@ MXNB shows up in 4 pools here, with rates from 0.21% to 4.75% APY across 3 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.59% | 0.23% | Base rate |
-| aerodrome-slipstream | 4.75% | 8.04% | 100.00% incentives |
+| aerodrome-slipstream | 4.75% | 8.05% | 100.00% incentives |
 | uniswap-v3 | 0.21% | 0.53% | Base rate |
 | uniswap-v3 | 1.01% | 0.16% | Base rate |
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MXNB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $761.6K in total.
+4 live pools clear this page's $100K TVL floor, $761.5K in total.
 
 ### Are these rates safe?
 

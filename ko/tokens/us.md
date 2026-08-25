@@ -1,10 +1,10 @@
 # US 디파이 수익률
 
-현재 US의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 4.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 US의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 4.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 4.14% | $540.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 4.49% | $540.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 US의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 4.14%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 4.49%예요.
 
 ### US 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

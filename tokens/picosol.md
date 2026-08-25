@@ -4,7 +4,7 @@ The highest honest PICOSOL yield right now is 4.89% on pico-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29&src=seo_token) | Solana | 4.89% | $1.95M |
+| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29&src=seo_token) | Solana | 4.89% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

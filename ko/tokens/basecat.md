@@ -1,13 +1,13 @@
 # BASECAT 디파이 수익률
 
-현재 BASECAT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 985.58%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BASECAT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 839.52%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 1.12% | $1.39M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 149.51% | $465.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8&src=seo_token) | Base | 985.58% | $162.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e4427798-a61a-5e29-8311-001e2263a92f&src=seo_token) | Base | 1.36% | $147.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 1.03% | $1.48M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 138.86% | $489.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8&src=seo_token) | Base | 839.52% | $171K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e4427798-a61a-5e29-8311-001e2263a92f&src=seo_token) | Base | 1.24% | $157.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -18,7 +18,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BASECAT 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.12%부터 985.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BASECAT 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.03%부터 839.52%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -26,10 +26,10 @@ BASECAT 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.12%부터 985.5
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 1.12% | — | 기본 금리 |
-| uniswap-v4 | 149.51% | — | 기본 금리 |
-| uniswap-v4 | 985.58% | — | 기본 금리 |
-| uniswap-v4 | 1.36% | — | 기본 금리 |
+| uniswap-v4 | 1.03% | — | 기본 금리 |
+| uniswap-v4 | 138.86% | — | 기본 금리 |
+| uniswap-v4 | 839.52% | — | 기본 금리 |
+| uniswap-v4 | 1.24% | — | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -37,11 +37,11 @@ BASECAT 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.12%부터 985.5
 
 ### 오늘 BASECAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 985.58%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 839.52%예요.
 
 ### BASECAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2.97M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.13M예요.
 
 ### 이 수익률은 안전한가요?
 

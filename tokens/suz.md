@@ -1,10 +1,10 @@
 # SUZ DeFi Yields
 
-The highest honest SUZ yield right now is 1.56% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUZ yield right now is 1.55% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=022c25d4-ebdb-4274-b4f0-9dcfc42da4df&src=seo_token) | Avalanche | 1.56% | $102.7K |
+| [blackhole-amm →](https://www.defi.garden/?pool=022c25d4-ebdb-4274-b4f0-9dcfc42da4df&src=seo_token) | Avalanche | 1.55% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUZ yield today?
 
-1.56% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+1.55% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many SUZ pools clear the TVL floor?
 

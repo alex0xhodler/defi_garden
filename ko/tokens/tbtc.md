@@ -5,29 +5,29 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.13% | $10.76M |
-| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 6.54% | $7.99M |
-| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 4.58% | $4.88M |
-| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 5.56% | $4.71M |
-| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.02% | $4.16M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 1.85% | $3.36M |
-| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.61% | $2.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.07% | $1.8M |
+| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 6.54% | $7.98M |
+| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 4.56% | $4.87M |
+| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 5.54% | $4.7M |
+| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.02% | $4.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 1.83% | $3.32M |
+| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.61% | $2.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.07% | $1.78M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.13%, TVL $10.76M, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $4.16M, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; Ethereum의 curve-dex, APY 4.58%, TVL $4.88M, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; Ethereum의 uniswap-v3, APY 1.85%, TVL $3.36M, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; Ethereum의 convex-finance, APY 5.56%, TVL $4.71M, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $1.8M, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; Polkadot의 hydration-dex, APY 5.61%, TVL $2.13M, https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token; Ethereum의 curve-dex, APY 6.54%, TVL $7.99M, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.13%, TVL $10.76M, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $4.13M, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; Ethereum의 curve-dex, APY 4.56%, TVL $4.87M, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; Ethereum의 uniswap-v3, APY 1.83%, TVL $3.32M, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; Ethereum의 convex-finance, APY 5.54%, TVL $4.7M, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $1.78M, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; Polkadot의 hydration-dex, APY 5.61%, TVL $2.12M, https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token; Ethereum의 curve-dex, APY 6.54%, TVL $7.98M, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.13% | $10.76M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.02% | $4.16M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 4.58% | $4.88M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 1.85% | $3.36M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 5.56% | $4.71M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.07% | $1.8M |
-| 7 | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.61% | $2.13M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 6.54% | $7.99M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.02% | $4.13M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 4.56% | $4.87M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 1.83% | $3.32M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 5.54% | $4.7M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.07% | $1.78M |
+| 7 | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.61% | $2.12M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 6.54% | $7.98M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -43,12 +43,12 @@ TBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.02%부터 6.54%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.13% | 0.26% | 인센티브 54.60% |
-| curve-dex | 6.54% | 6.04% | 기본 금리 |
-| curve-dex | 4.58% | 3.47% | 인센티브 39.32% |
-| convex-finance | 5.56% | 4.50% | 인센티브 50.02% |
+| curve-dex | 0.13% | 0.26% | 인센티브 54.27% |
+| curve-dex | 6.54% | 6.05% | 기본 금리 |
+| curve-dex | 4.56% | 3.48% | 인센티브 39.04% |
+| convex-finance | 5.54% | 4.50% | 인센티브 49.82% |
 | curve-dex | 0.02% | 0.03% | 기본 금리 |
-| uniswap-v3 | 1.85% | 2.97% | 기본 금리 |
+| uniswap-v3 | 1.83% | 2.97% | 기본 금리 |
 | hydration-dex | 5.61% | 5.29% | 인센티브 93.96% |
 | uniswap-v3 | 0.07% | 1.33% | 기본 금리 |
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 6.54%예�
 
 ### TBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 58개이며, 합산 TVL은 $260.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 58개이며, 합산 TVL은 $258.38M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 6.54%예�
 
 ### TBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.13%, TVL $10.76M, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $4.16M, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; Ethereum의 curve-dex, APY 4.58%, TVL $4.88M, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; Ethereum의 uniswap-v3, APY 1.85%, TVL $3.36M, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; Ethereum의 convex-finance, APY 5.56%, TVL $4.71M, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $1.8M, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; Polkadot의 hydration-dex, APY 5.61%, TVL $2.13M, https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token; Ethereum의 curve-dex, APY 6.54%, TVL $7.99M, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.13%, TVL $10.76M, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $4.13M, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; Ethereum의 curve-dex, APY 4.56%, TVL $4.87M, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; Ethereum의 uniswap-v3, APY 1.83%, TVL $3.32M, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; Ethereum의 convex-finance, APY 5.54%, TVL $4.7M, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $1.78M, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; Polkadot의 hydration-dex, APY 5.61%, TVL $2.12M, https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token; Ethereum의 curve-dex, APY 6.54%, TVL $7.98M, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

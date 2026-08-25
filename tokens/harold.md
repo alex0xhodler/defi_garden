@@ -4,7 +4,7 @@ The highest honest HAROLD yield right now is 1.31% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4f11cf50-aa7c-43b4-9282-c79e5655d8f8&src=seo_token) | Solana | 1.31% | $263.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=4f11cf50-aa7c-43b4-9282-c79e5655d8f8&src=seo_token) | Solana | 1.31% | $261K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HAROLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.2K in total.
+1 live pool clear this page's $100K TVL floor, $261K in total.
 
 ### Are these rates safe?
 

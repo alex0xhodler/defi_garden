@@ -1,10 +1,10 @@
 # ECLP DeFi Yields
 
-The highest honest ECLP yield right now is 45.34% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECLP yield right now is 45.48% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=134ec73a-6a6e-41d5-9f93-2ca1cb58dfbd&src=seo_token) | Sonic | 45.34% | $111.5K |
+| [beets-dex →](https://www.defi.garden/?pool=134ec73a-6a6e-41d5-9f93-2ca1cb58dfbd&src=seo_token) | Sonic | 45.48% | $110.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECLP yield today?
 
-45.34% APY on beets-dex (Sonic), based on live DefiLlama data.
+45.48% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many ECLP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.5K in total.
+1 live pool clear this page's $100K TVL floor, $110.5K in total.
 
 ### Are these rates safe?
 

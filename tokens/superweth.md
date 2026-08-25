@@ -4,22 +4,22 @@ The highest honest SUPERWETH yield right now is 4.38% on pendle (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.19% | $2.56M |
-| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.38% | $535K |
-| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.22% | $535K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.48% | $320.4K |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.19% | $2.54M |
+| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.38% | $531.8K |
+| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.23% | $531.8K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.47% | $318K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUPERWETH's lower-variability candidates are pendle (Ethereum), 4.22% APY, $535K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.48% APY, $320.4K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; pendle (Ethereum), 4.38% APY, $535K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; superform (Ethereum), 1.19% APY, $2.56M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERWETH's lower-variability candidates are pendle (Ethereum), 4.23% APY, $531.8K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.47% APY, $318K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; pendle (Ethereum), 4.38% APY, $531.8K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; superform (Ethereum), 1.19% APY, $2.54M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.22% | $535K |
-| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.48% | $320.4K |
-| 3 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.38% | $535K |
-| 4 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.19% | $2.56M |
+| 1 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.23% | $531.8K |
+| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.47% | $318K |
+| 3 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.38% | $531.8K |
+| 4 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.19% | $2.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,9 +34,9 @@ SUPERWETH shows up in 4 pools here, with rates from 1.19% to 4.38% APY across 2 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | superform | 1.19% | 1.36% | 100.00% incentives |
-| pendle | 4.38% | 4.88% | 21.70% incentives |
-| pendle | 4.22% | 4.36% | 22.50% incentives |
-| superform | 2.48% | 2.58% | 48.17% incentives |
+| pendle | 4.38% | 4.87% | 21.92% incentives |
+| pendle | 4.23% | 4.36% | 22.71% incentives |
+| superform | 2.47% | 2.58% | 48.07% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUPERWETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.95M in total.
+4 live pools clear this page's $100K TVL floor, $3.93M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUPERWETH pools have the most stable APY history?
 
-Based on APY history only, SUPERWETH's lower-variability candidates are pendle (Ethereum), 4.22% APY, $535K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.48% APY, $320.4K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; pendle (Ethereum), 4.38% APY, $535K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; superform (Ethereum), 1.19% APY, $2.56M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERWETH's lower-variability candidates are pendle (Ethereum), 4.23% APY, $531.8K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.47% APY, $318K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; pendle (Ethereum), 4.38% APY, $531.8K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; superform (Ethereum), 1.19% APY, $2.54M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

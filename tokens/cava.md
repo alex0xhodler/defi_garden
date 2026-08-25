@@ -4,7 +4,7 @@ The highest honest CAVA yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cd288f9f-6d83-4083-8de3-322555096694&src=seo_token) | Ethereum | 0.01% | $108.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cd288f9f-6d83-4083-8de3-322555096694&src=seo_token) | Ethereum | 0.01% | $108K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CAVA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.4K in total.
+1 live pool clear this page's $100K TVL floor, $108K in total.
 
 ### Are these rates safe?
 

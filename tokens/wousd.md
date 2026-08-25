@@ -4,8 +4,8 @@ The highest honest WOUSD yield right now is 6.33% on pendle (Ethereum), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token) | Ethereum | 6.33% | $147.5K |
 | [pendle →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token) | Ethereum | 5.57% | $147.5K |
+| [pendle →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token) | Ethereum | 6.33% | $147.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 6.33% | 6.14% | Base rate |
 | pendle | 5.57% | 5.63% | Base rate |
+| pendle | 6.33% | 6.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WOUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $425K in total.
+3 live pools clear this page's $100K TVL floor, $424.4K in total.
 
 ### Are these rates safe?
 

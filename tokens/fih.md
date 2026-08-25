@@ -4,7 +4,7 @@ The highest honest FIH yield right now is 33.02% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5d6f57f4-6b2e-4647-a7b0-1034aab84475&src=seo_token) | Solana | 33.02% | $503.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=5d6f57f4-6b2e-4647-a7b0-1034aab84475&src=seo_token) | Solana | 33.02% | $502.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FIH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $503.4K in total.
+1 live pool clear this page's $100K TVL floor, $502.7K in total.
 
 ### Are these rates safe?
 

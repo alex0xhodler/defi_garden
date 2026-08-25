@@ -4,7 +4,7 @@ The highest honest BILLY yield right now is 1.33% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0d75f1be-d77d-4e43-a6eb-a5a5100aa34b&src=seo_token) | Solana | 1.33% | $361K |
+| [raydium-amm →](https://www.defi.garden/?pool=0d75f1be-d77d-4e43-a6eb-a5a5100aa34b&src=seo_token) | Solana | 1.33% | $357.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BILLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $361K in total.
+1 live pool clear this page's $100K TVL floor, $357.3K in total.
 
 ### Are these rates safe?
 

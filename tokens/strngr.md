@@ -4,7 +4,7 @@ The highest honest STRNGR yield right now is 0.11% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=62cf2177-d2b3-4bd7-89cc-df38dafe126e&src=seo_token) | Ethereum | 0.11% | $122K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=62cf2177-d2b3-4bd7-89cc-df38dafe126e&src=seo_token) | Ethereum | 0.11% | $121.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRNGR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122K in total.
+1 live pool clear this page's $100K TVL floor, $121.1K in total.
 
 ### Are these rates safe?
 

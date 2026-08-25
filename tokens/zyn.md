@@ -1,10 +1,10 @@
 # ZYN DeFi Yields
 
-The highest honest ZYN yield right now is 7.23% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZYN yield right now is 7.28% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=23f54ca1-d8df-43e1-a85a-5ef295a33423&src=seo_token) | Ethereum | 7.23% | $251.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=23f54ca1-d8df-43e1-a85a-5ef295a33423&src=seo_token) | Ethereum | 7.28% | $249.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZYN yield today?
 
-7.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.28% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZYN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $251.7K in total.
+1 live pool clear this page's $100K TVL floor, $249.8K in total.
 
 ### Are these rates safe?
 

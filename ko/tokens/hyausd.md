@@ -1,10 +1,10 @@
 # HYAUSD 디파이 수익률
 
-현재 HYAUSD의 가장 높은 정직한 수익률은 Monad의 curvance에서 3.23%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HYAUSD의 가장 높은 정직한 수익률은 Monad의 curvance에서 3.29%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 3.23% | $399.3K |
+| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 3.29% | $399.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 HYAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 3.23%예요.
+DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 3.29%예요.
 
 ### HYAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

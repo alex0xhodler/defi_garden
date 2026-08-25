@@ -4,17 +4,17 @@ The highest honest EV yield right now is 39.92% on everything (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 39.92% | $1.68M |
+| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 39.92% | $1.67M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token) | Ethereum | 24.80% | $151.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EV's lower-variability candidates are everything (Arbitrum), 39.92% APY, $1.68M TVL, https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token; uniswap-v4 (Ethereum), 24.80% APY, $151.1K TVL, https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EV's lower-variability candidates are everything (Arbitrum), 39.92% APY, $1.67M TVL, https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token; uniswap-v4 (Ethereum), 24.80% APY, $151.1K TVL, https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 39.92% | $1.68M |
+| 1 | [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 39.92% | $1.67M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token) | Ethereum | 24.80% | $151.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -31,8 +31,8 @@ EV shows up in 2 pools here, with rates from 24.80% to 39.92% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| everything | 39.92% | 44.22% | 96.69% incentives |
-| uniswap-v4 | 24.80% | 19.17% | Base rate |
+| everything | 39.92% | 44.21% | 96.57% incentives |
+| uniswap-v4 | 24.80% | 19.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EV pools have the most stable APY history?
 
-Based on APY history only, EV's lower-variability candidates are everything (Arbitrum), 39.92% APY, $1.68M TVL, https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token; uniswap-v4 (Ethereum), 24.80% APY, $151.1K TVL, https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EV's lower-variability candidates are everything (Arbitrum), 39.92% APY, $1.67M TVL, https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token; uniswap-v4 (Ethereum), 24.80% APY, $151.1K TVL, https://www.defi.garden/?pool=2fa45e89-e423-4e83-bbc1-2b09080d04ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

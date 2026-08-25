@@ -1,10 +1,10 @@
 # DSF 디파이 수익률
 
-현재 DSF의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 9.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DSF의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 9.60%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=40f594c5-4b85-4201-bf3a-f0c8f8285180&src=seo_token) | Solana | 9.86% | $154.4K |
+| [orca-dex →](https://www.defi.garden/?pool=40f594c5-4b85-4201-bf3a-f0c8f8285180&src=seo_token) | Solana | 9.60% | $154.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 DSF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 9.86%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 9.60%예요.
 
 ### DSF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

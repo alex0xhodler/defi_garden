@@ -4,17 +4,17 @@ The highest honest WPOL yield right now is 23.75% on sushiswap (Polygon), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.11% | $7.51M |
+| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.11% | $7.54M |
 | [sushiswap →](https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token) | Polygon | 23.75% | $133.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WPOL's lower-variability candidates are aave-v3 (Polygon), 0.11% APY, $7.51M TVL, https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token; sushiswap (Polygon), 23.75% APY, $133.7K TVL, https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WPOL's lower-variability candidates are aave-v3 (Polygon), 0.11% APY, $7.54M TVL, https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token; sushiswap (Polygon), 23.75% APY, $133.7K TVL, https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.11% | $7.51M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.11% | $7.54M |
 | 2 | [sushiswap →](https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token) | Polygon | 23.75% | $133.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WPOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.76M in total.
+3 live pools clear this page's $100K TVL floor, $7.79M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WPOL pools have the most stable APY history?
 
-Based on APY history only, WPOL's lower-variability candidates are aave-v3 (Polygon), 0.11% APY, $7.51M TVL, https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token; sushiswap (Polygon), 23.75% APY, $133.7K TVL, https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WPOL's lower-variability candidates are aave-v3 (Polygon), 0.11% APY, $7.54M TVL, https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token; sushiswap (Polygon), 23.75% APY, $133.7K TVL, https://www.defi.garden/?pool=3a6574a9-7675-41d5-b9de-2c78086d57cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

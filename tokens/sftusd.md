@@ -4,24 +4,24 @@ The highest honest SFTUSD yield right now is 10.26% on flying-tulip-ftusd (Sonic
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.97% | $1.79M |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.96% | $1.79M |
 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 10.26% | $281.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 9.97% APY, $1.79M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 10.26% APY, $281.1K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 9.96% APY, $1.79M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 10.26% APY, $281.1K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.97% | $1.79M |
+| 1 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.96% | $1.79M |
 | 2 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 10.26% | $281.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFTUSD shows up in 2 pools here, with rates from 9.97% to 10.26% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFTUSD shows up in 2 pools here, with rates from 9.96% to 10.26% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ SFTUSD shows up in 2 pools here, with rates from 9.97% to 10.26% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| flying-tulip-ftusd | 9.97% | 9.28% | 100.00% incentives |
-| flying-tulip-ftusd | 10.26% | 7.41% | 100.00% incentives |
+| flying-tulip-ftusd | 9.96% | 9.28% | 100.00% incentives |
+| flying-tulip-ftusd | 10.26% | 7.42% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFTUSD pools have the most stable APY history?
 
-Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 9.97% APY, $1.79M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 10.26% APY, $281.1K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 9.96% APY, $1.79M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 10.26% APY, $281.1K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

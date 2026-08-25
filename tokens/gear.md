@@ -4,7 +4,7 @@ The highest honest GEAR yield right now is 0.82% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 0.82% | $323.6K |
+| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 0.82% | $323.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GEAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $323.6K in total.
+1 live pool clear this page's $100K TVL floor, $323.4K in total.
 
 ### Are these rates safe?
 

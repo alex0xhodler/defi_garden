@@ -1,12 +1,12 @@
 # NEST-WHYPE — nest-cl on Hyperliquid L1
 
-**Total APY:** 124.02% (0.00% Base · + 124.02% Rewards)
+**Total APY:** 123.91% (0.00% Base · + 123.91% Rewards)
 
-**TVL:** $734.2K
+**TVL:** $744.3K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 52.32%
+**30d Mean APY:** 52.44%
 
 **Exposure:** multi
 
@@ -21,15 +21,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$5,641 in 5y at current rates.
+$1,000 in this pool grows to ~$5,633 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (124.02% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (123.91% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 124.02% right now vs a 52.32% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 123.91% right now vs a 52.44% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$5,641 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$5,633 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on nest-cl](https://app.usenest.xyz/?ref=defi.garden)
 

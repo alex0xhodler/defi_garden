@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank VOOI pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
+- [BSB](https://www.defi.garden/tokens/bsb)
 
 ## Available on
 

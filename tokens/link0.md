@@ -1,10 +1,10 @@
 # LINK0 DeFi Yields
 
-The highest honest LINK0 yield right now is 6.03% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINK0 yield right now is 10.96% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=c1db5e5d-6611-4b39-a8ae-6d0a74083241&src=seo_token) | Hyperliquid L1 | 6.03% | $162K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=c1db5e5d-6611-4b39-a8ae-6d0a74083241&src=seo_token) | Hyperliquid L1 | 10.96% | $161.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LINK0 yield today?
 
-6.03% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+10.96% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many LINK0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162K in total.
+1 live pool clear this page's $100K TVL floor, $161.2K in total.
 
 ### Are these rates safe?
 

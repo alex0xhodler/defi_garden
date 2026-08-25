@@ -1,10 +1,10 @@
 # NATIX 디파이 수익률
 
-현재 NATIX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 106.71%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NATIX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 107.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c3ab80c2-cf7f-4500-b880-2e39d8c66f8d&src=seo_token) | Solana | 106.71% | $143.2K |
+| [orca-dex →](https://www.defi.garden/?pool=c3ab80c2-cf7f-4500-b880-2e39d8c66f8d&src=seo_token) | Solana | 107.68% | $143.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 NATIX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 106.71%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 107.68%예요.
 
 ### NATIX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

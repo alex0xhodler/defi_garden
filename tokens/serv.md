@@ -4,26 +4,26 @@ The highest honest SERV yield right now is 168.74% on aerodrome-slipstream (Base
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 26.43% | $1.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 25.94% | $1.48M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 168.74% | $898.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 26.43% APY, $1.5M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 168.74% APY, $898.5K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 25.94% APY, $1.48M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 168.74% APY, $898.5K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 26.43% | $1.5M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 25.94% | $1.48M |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 168.74% | $898.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SERV shows up in 2 pools here, with rates from 26.43% to 168.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SERV shows up in 2 pools here, with rates from 25.94% to 168.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 107.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 107.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ SERV shows up in 2 pools here, with rates from 26.43% to 168.74% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 26.43% | 20.93% | Base rate |
-| aerodrome-slipstream | 168.74% | 194.55% | 100.00% incentives |
+| uniswap-v3 | 25.94% | 20.95% | Base rate |
+| aerodrome-slipstream | 168.74% | 194.57% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SERV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.4M in total.
+2 live pools clear this page's $100K TVL floor, $2.38M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SERV pools have the most stable APY history?
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 26.43% APY, $1.5M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 168.74% APY, $898.5K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 25.94% APY, $1.48M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 168.74% APY, $898.5K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

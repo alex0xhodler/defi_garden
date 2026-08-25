@@ -1,10 +1,10 @@
 # PEPECOIN DeFi Yields
 
-The highest honest PEPECOIN yield right now is 15.17% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPECOIN yield right now is 14.95% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 15.17% | $1.94M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 14.95% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPECOIN yield today?
 
-15.17% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+14.95% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPECOIN pools clear the TVL floor?
 

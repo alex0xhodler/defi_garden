@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RSETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.13B in total.
+5 live pools clear this page's $100K TVL floor, $1.12B in total.
 
 ### Are these rates safe?
 

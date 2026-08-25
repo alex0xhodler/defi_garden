@@ -4,18 +4,18 @@ The highest honest LHYPE yield right now is 0.01% on hyperswap-v3 (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 10.10% | $10.22M |
+| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 10.10% | $10.27M |
 | [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token) | Hyperliquid L1 | 0.01% | $122.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.01% APY, $122.3K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token; looped-hype (Hyperliquid L1), 10.10% APY, $10.22M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.01% APY, $122.3K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token; looped-hype (Hyperliquid L1), 10.10% APY, $10.27M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token) | Hyperliquid L1 | 0.01% | $122.3K |
-| 2 | [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 10.10% | $10.22M |
+| 2 | [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 10.10% | $10.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| looped-hype | 10.10% | 3.27% | Base rate |
+| looped-hype | 10.10% | 3.28% | Base rate |
 | hyperswap-v3 | 0.01% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $10.34M in total.
+2 live pools clear this page's $100K TVL floor, $10.39M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LHYPE pools have the most stable APY history?
 
-Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.01% APY, $122.3K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token; looped-hype (Hyperliquid L1), 10.10% APY, $10.22M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.01% APY, $122.3K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224&src=seo_token; looped-hype (Hyperliquid L1), 10.10% APY, $10.27M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

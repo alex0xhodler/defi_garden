@@ -1,10 +1,10 @@
 # LLY 디파이 수익률
 
-현재 LLY의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 7.41%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LLY의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 6.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9d19332d-db51-5b76-b5d7-c07dd4d0710c&src=seo_token) | Solana | 7.41% | $145.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=9d19332d-db51-5b76-b5d7-c07dd4d0710c&src=seo_token) | Solana | 6.97% | $145.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 LLY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 7.41%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 6.97%예요.
 
 ### LLY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

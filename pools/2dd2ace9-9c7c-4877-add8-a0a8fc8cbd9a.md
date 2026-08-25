@@ -1,8 +1,8 @@
 # ETH-ZIK — uniswap-v4 on Ethereum
 
-**Total APY:** 0.72% (0.72% Base · + 0.00% Rewards)
+**Total APY:** 0.73% (0.73% Base · + 0.00% Rewards)
 
-**TVL:** $194.6K
+**TVL:** $194.2K
 
 **Pool Type:** LP/DEX
 

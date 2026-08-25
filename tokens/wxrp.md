@@ -1,29 +1,29 @@
 # WXRP DeFi Yields
 
-The highest honest WXRP yield right now is 97.02% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 99.37% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 27.92% | $523.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 97.02% | $244.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 28.49% | $520K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 99.37% | $243.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 27.92% APY, $523.4K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 97.02% APY, $244.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 28.49% APY, $520K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 99.37% APY, $243.6K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 27.92% | $523.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 97.02% | $244.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 28.49% | $520K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 99.37% | $243.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WXRP shows up in 2 pools here, with rates from 27.92% to 97.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WXRP shows up in 2 pools here, with rates from 28.49% to 99.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 250.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 247.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 27.92% | 7.35% | Base rate |
-| uniswap-v3 | 97.02% | 492.87% | Base rate |
+| raydium-amm | 28.49% | 7.38% | Base rate |
+| uniswap-v3 | 99.37% | 488.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WXRP yield today?
 
-97.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+99.37% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $768.3K in total.
+2 live pools clear this page's $100K TVL floor, $763.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WXRP pools have the most stable APY history?
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 27.92% APY, $523.4K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 97.02% APY, $244.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 28.49% APY, $520K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 99.37% APY, $243.6K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
