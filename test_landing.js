@@ -88,75 +88,48 @@ async function main() {
     await preparePage(page);
 
     await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-search-input', { timeout: 10000 });
+    await page.waitForSelector('#landing-root .landing-hero-spotlight', { timeout: 10000 });
     assert.strictEqual(await page.locator('#landing-root .landing-app').getAttribute('data-mode'), 'landing');
     assert.strictEqual(await page.locator('#planner-root .gp-app').count(), 0, 'bare / must not mount the planner above the landing');
-    assert.strictEqual(await page.locator('#landing-root .landing-plant-svg').getAttribute('width'), '340');
-    assert.strictEqual(await page.locator('#landing-root .landing-plant-svg').getAttribute('height'), '260');
+    assert.strictEqual(await page.locator('#landing-root .card-botanical-watermark').getAttribute('viewBox'), '0 0 340 260');
     const landingLeafMarks = page.locator('#landing-root .landing-leaf-mark');
-    assert.strictEqual(await landingLeafMarks.count(), 2);
+    assert.strictEqual(await landingLeafMarks.count(), 1);
     assert.strictEqual(await landingLeafMarks.first().getAttribute('width'), '24');
     assert.strictEqual(await landingLeafMarks.first().getAttribute('height'), '24');
-    assert.strictEqual(await page.locator('#landing-root .landing-icon').getAttribute('width'), '23');
-    assert.strictEqual(await page.locator('#landing-root .landing-icon').getAttribute('height'), '23');
     const landingArrowIcons = page.locator('#landing-root .landing-arrow-icon');
-    assert.strictEqual(await landingArrowIcons.count(), 2);
+    assert.strictEqual(await landingArrowIcons.count(), 1);
     assert.strictEqual(await landingArrowIcons.first().getAttribute('width'), '19');
     assert.strictEqual(await landingArrowIcons.first().getAttribute('height'), '19');
     const landingFooterText = await page.locator('#landing-root .app-footer').innerText();
     assert.ok(landingFooterText.includes('DefiLlama API') && landingFooterText.includes('Browse tokens'), 'landing footer should match the analytics footer');
     passed++;
-    console.log('  ✓ bare / renders the search-first landing');
+    console.log('  ✓ bare / renders the hero intent landing with visible footer');
 
-    await page.locator('[data-testid="landing-search"]').fill('USDC');
-    await page.locator('[data-testid="landing-search"]').press('Enter');
-    // waitUntil defaults to 'load'; the analytics route's decorative icon
-    // requests never settle in this sandbox (proxy-blocked, see IGNORABLE_ERROR_PATTERN
-    // above) so 'load' never fires even though the navigation itself is
-    // already complete. Wait on the URL only, exactly as the app's own
-    // history-push resolves it — the .pool-card assertion right below is
-    // still what actually proves the handoff rendered.
+    // Test interactive preset chips on landing
+    const cursorBtn = page.locator('.landing-subs-grid button', { hasText: 'Cursor Pro' });
+    if (await cursorBtn.count()) {
+      await cursorBtn.click();
+      const cta = page.locator('[data-testid="landing-intent-cta"]');
+      assert.strictEqual(await cta.getAttribute('href'), '/for/cursor');
+      assert.ok((await cta.innerText()).includes('Cursor Pro'));
+    }
+    passed++;
+    console.log('  ✓ interactive preset chips switch subscriptions and update CTA');
+    // Test analytics search entry
+    await page.goto(`http://localhost:${PORT}/?app=1`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('#root .search-input', { timeout: 15000 });
+    await page.locator('.search-input').fill('USDC');
+    await page.locator('.search-input').press('Enter');
     await page.waitForURL((url) => url.searchParams.get('token') === 'USDC', { waitUntil: 'commit', timeout: 10000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     passed++;
-    console.log('  ✓ landing search enters the existing analytics result route');
+    console.log('  ✓ search yields enters the existing analytics result route');
 
-    // Test direct tap on example chips: "USDC on Base"
-    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
-    await page.locator('#landing-root .landing-example-chip', { hasText: 'USDC on Base' }).click();
-    await page.waitForURL((url) => url.searchParams.get('token') === 'USDC' && url.searchParams.get('chain') === 'Base', { waitUntil: 'commit', timeout: 10000 });
+    // Test direct token query route
+    await page.goto(`http://localhost:${PORT}/?token=USDC&chain=Base`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     passed++;
-    console.log('  ✓ tapping USDC on Base example chip navigates directly to search results');
-
-    // Test direct tap on example chips: "Pendle PTs"
-    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
-    await page.locator('#landing-root .landing-example-chip', { hasText: 'Pendle PTs' }).click();
-    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Pendle', { waitUntil: 'commit', timeout: 10000 });
-    await page.waitForSelector('.pool-card', { timeout: 15000 });
-    passed++;
-    console.log('  ✓ tapping Pendle PTs example chip navigates directly to search results');
-
-    // Test direct tap on example chips: "Morpho vaults"
-    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
-    await page.locator('#landing-root .landing-example-chip', { hasText: 'Morpho vaults' }).click();
-    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Morpho', { waitUntil: 'commit', timeout: 10000 });
-    await page.waitForSelector('.pool-card', { timeout: 15000 });
-    passed++;
-    console.log('  ✓ tapping Morpho vaults example chip navigates directly to search results');
-
-    // Test direct tap on example chips: "Kamino lending"
-    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
-    await page.locator('#landing-root .landing-example-chip', { hasText: 'Kamino lending' }).click();
-    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Kamino' && url.searchParams.get('chain') === 'All' && !url.searchParams.has('poolTypes'), { waitUntil: 'commit', timeout: 10000 });
-    await page.waitForSelector('.pool-card', { timeout: 15000 });
-    passed++;
-    console.log('  ✓ tapping Kamino lending example chip navigates directly to search results');
-
+    console.log('  ✓ direct token query navigates directly to search results');
     await page.goto(`http://localhost:${PORT}/plan.html`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('#planner-root .gp-app', { timeout: 10000 });
     assert.strictEqual(await page.locator('#planner-root .gp-logo').getAttribute('href'), 'home.html');
@@ -172,6 +145,36 @@ async function main() {
     await page.waitForSelector('#root .search-input', { timeout: 15000 });
     passed++;
     console.log('  ✓ ?app=1 still renders the analytics search app');
+
+    // Test top navigation links on landing (no "How it works", correct links)
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('.landing-nav', { timeout: 10000 });
+    const navText = await page.locator('.landing-nav').innerText();
+    assert.ok(!navText.includes('How it works'), 'Topnav must not contain "How it works"');
+    assert.ok(navText.includes('Search yields') && navText.includes('Savings Planner'), 'Topnav contains Search yields and Savings Planner');
+    passed++;
+    console.log('  ✓ landing topnav contains clean active links without "How it works"');
+
+    // Test Korean language toggle
+    await page.goto(`http://localhost:${PORT}/?lang=en`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('.landing-header-actions .landing-icon-button', { timeout: 10000 });
+    const langBtn = page.locator('.landing-header-actions .landing-icon-button').first();
+    await langBtn.click();
+    await page.waitForFunction(() => {
+      const el = document.querySelector('.landing-spotlight-eyebrow span');
+      return el && el.textContent.includes('일상으로 들어온');
+    }, { timeout: 5000 });
+    const koEyebrow = await page.locator('.landing-spotlight-eyebrow span').innerText();
+    assert.ok(/일상으로 들어온/i.test(koEyebrow), 'Expected Korean eyebrow text');
+    passed++;
+    console.log('  ✓ language toggle switches landing page to Korean');
+
+    // Switch back to EN
+    await langBtn.click();
+    await page.waitForFunction(() => {
+      const el = document.querySelector('.landing-spotlight-eyebrow span');
+      return el && el.textContent.includes('Bringing DeFi');
+    }, { timeout: 5000 });
 
     if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
   } finally {

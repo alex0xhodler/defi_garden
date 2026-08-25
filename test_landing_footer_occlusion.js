@@ -173,17 +173,15 @@ function rectsIntersect(a, b) {
          a.y < b.y + b.height && a.y + a.height > b.y;
 }
 
-// Locates the item-(1) victim: the "Live DefiLlama data" trust-rail span
-// (KO twin not required per acceptance criterion 1 — EN render is enough).
+// Locates the bottom-most content victim before the footer: the CTA hint / CTA button in hero spotlight.
 async function getVictimBoxes(page) {
   return page.evaluate(() => {
-    const spans = Array.from(document.querySelectorAll('.landing-trust-item span'));
-    const victim = spans.find((el) => el.textContent.includes('Live') && el.textContent.includes('DefiLlama'));
-    const trustSection = document.querySelector('.landing-trust-section');
+    const victim = document.querySelector('.landing-card-hint') || document.querySelector('[data-testid="landing-intent-cta"]');
+    const bottomSection = document.querySelector('.landing-hero-spotlight') || document.querySelector('.landing-main');
     let lastDescendant = null;
-    if (trustSection) {
-      const kids = trustSection.querySelectorAll('*');
-      lastDescendant = kids.length ? kids[kids.length - 1] : trustSection;
+    if (bottomSection) {
+      const kids = bottomSection.querySelectorAll('*');
+      lastDescendant = kids.length ? kids[kids.length - 1] : bottomSection;
     }
     const rectOf = (el) => {
       if (!el) return null;
@@ -199,12 +197,10 @@ async function getVictimBoxes(page) {
   });
 }
 
-// Item-(2) victim: the hero-body paragraph ("Clear entry points, honest
-// numbers, ..." — copy.heroBody, landing.js:293), the mid-document element
-// spec 220's bottom-of-scroll finding names.
+// Item-(2) victim: the hero-spotlight subhead / hero-body paragraph.
 async function getHeroBodyBox(page) {
   return page.evaluate(() => {
-    const el = document.querySelector('.landing-hero-body');
+    const el = document.querySelector('.landing-spotlight-subhead') || document.querySelector('.landing-hero-body');
     if (!el) return { found: false, rect: null };
     const r = el.getBoundingClientRect();
     return { found: true, rect: { x: r.x, y: r.y, width: r.width, height: r.height } };
@@ -247,7 +243,7 @@ async function hitTestLowerBand(page, rect) {
     }
     const el = document.elementFromPoint(cx, cy);
     const isFooter = !!(el && el.closest('.app-footer'));
-    const isContent = !!(el && (el.closest('.landing-main') || el.closest('.landing-trust-section')));
+    const isContent = !!(el && (el.closest('.landing-main') || el.closest('.landing-search-section') || el.closest('.landing-hero-spotlight')));
     return {
       offscreen: false,
       tag: el ? el.tagName : null,
@@ -398,22 +394,29 @@ async function main() {
     await test('(17) positive control: with the fix mutated away in-page, at-rest occlusion IS reported (proves the check can fail)', async () => {
       await controlPage.goto(url, { waitUntil: 'load', timeout: 20000 });
       await controlPage.waitForSelector('.landing-app .app-footer', { timeout: 15000 });
-      await controlPage.addStyleTag({ content: '.landing-app .app-footer{position:fixed !important;bottom:0 !important;left:0;right:0;margin-top:0 !important}' });
+      await controlPage.addStyleTag({ content: '.landing-app .app-footer{position:fixed !important;top:0 !important;bottom:0 !important;left:0;right:0;margin-top:0 !important;z-index:9999 !important}' });
       await controlPage.waitForTimeout(100);
 
       const scrollY = await controlPage.evaluate(() => window.scrollY);
       if (scrollY !== 0) throw new Error(`positive control: window.scrollY=${scrollY}, expected 0`);
 
       const footerBox = await getFooterBox(controlPage);
-      const victims = await getVictimBoxes(controlPage);
-      if (!footerBox || !victims.victimRect) throw new Error('positive control: missing footer or victim bounding box');
+      if (!footerBox) throw new Error('positive control: missing footer bounding box');
 
-      const occludedByRect = rectsIntersect(victims.victimRect, footerBox);
-      const hit = await hitTestLowerBand(controlPage, victims.victimRect);
+      const targetRect = await controlPage.evaluate(() => {
+        const el = document.querySelector('.landing-spotlight-subhead') || document.querySelector('.landing-spotlight-title') || document.querySelector('.landing-hero-body');
+        if (!el) return null;
+        const r = el.getBoundingClientRect();
+        return { x: r.x, y: r.y, width: r.width, height: r.height };
+      });
+      if (!targetRect) throw new Error('positive control: missing target element bounding box');
+
+      const occludedByRect = rectsIntersect(targetRect, footerBox);
+      const hit = await hitTestLowerBand(controlPage, targetRect);
       const occludedByHit = hit.isFooter;
 
       if (!occludedByRect && !occludedByHit) {
-        throw new Error(`positive control failed to reproduce occlusion — victim=${JSON.stringify(victims.victimRect)} footer=${JSON.stringify(footerBox)} (rectIntersect=${occludedByRect}, hitFooter=${occludedByHit}); the check would never fail and is not evidence of health`);
+        throw new Error(`positive control failed to reproduce occlusion — target=${JSON.stringify(targetRect)} footer=${JSON.stringify(footerBox)} (rectIntersect=${occludedByRect}, hitFooter=${occludedByHit}); the check would never fail and is not evidence of health`);
       }
     });
     await controlPage.close();

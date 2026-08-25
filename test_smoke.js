@@ -178,9 +178,9 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     for (const viewport of VIEWPORTS) {
-      await test('bare / renders the search-first landing at ' + viewport.width + 'px', async () => {
+      await test('bare / renders the hero intent landing at ' + viewport.width + 'px', async () => {
         const { page, errors } = await loadAndCollectErrors(browser, '/', viewport);
-        await page.waitForSelector('[data-testid="landing-search"]', { timeout: 10000 });
+        await page.waitForSelector('[data-testid="landing-intent-card"]', { timeout: 10000 });
         const plannerMounted = await page.locator('#planner-root .gp-app').count();
         await page.close();
         if (plannerMounted !== 0) throw new Error('planner mounted on bare / (expected only the landing)');
