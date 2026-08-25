@@ -44,7 +44,7 @@ const FIXTURE_POOLS = [
   makePool('base-usdc-aave', 'aave-v3',            'USDC',        'Base',      33_000_000, 3.02),
   makePool('base-weth-aave', 'aave-v3',            'WETH',        'Base',     100_000_000, 2.10), // must NOT match USDC
   makePool('eth-steakusdc',  'morpho-blue',        'STEAKUSDC',   'Ethereum', 230_000_000, 4.11), // wrong chain
-  makePool('base-usdc-tiny', 'some-proto',         'PUSDC',       'Base',       5_000_000, 3.89)   // below $10M floor
+  makePool('base-usdc-tiny', 'some-proto',         'PUSDC',       'Base',          50_000, 3.89)   // below $100K floor
 ];
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 

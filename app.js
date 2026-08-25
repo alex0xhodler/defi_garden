@@ -969,6 +969,101 @@ const getPoolRiskScore = (pool) => {
   
   return Math.max(0, Math.round(rawScore * 10) / 10);
 };
+
+// SOTA Smart Numeric Parsing & Formatting
+function parseSmartNumber(input, fallback = 0) {
+  if (input === null || input === undefined) return fallback;
+  if (typeof input === 'number') return isNaN(input) ? fallback : Math.max(0, input);
+  const str = String(input).trim().toLowerCase();
+  if (!str) return 0;
+
+  // Clean currency symbols, commas, percent signs, and spaces
+  let cleaned = str.replace(/[\$,%\s]/g, '');
+  if (!cleaned) return 0;
+
+  let multiplier = 1;
+  if (cleaned.endsWith('b') || cleaned.endsWith('bn') || cleaned.endsWith('billion')) {
+    multiplier = 1000000000;
+    cleaned = cleaned.replace(/(billion|bn|b)$/, '');
+  } else if (cleaned.endsWith('m') || cleaned.endsWith('mm') || cleaned.endsWith('million')) {
+    multiplier = 1000000;
+    cleaned = cleaned.replace(/(million|mm|m)$/, '');
+  } else if (cleaned.endsWith('k') || cleaned.endsWith('thousand')) {
+    multiplier = 1000;
+    cleaned = cleaned.replace(/(thousand|k)$/, '');
+  }
+
+  const parsed = parseFloat(cleaned);
+  if (isNaN(parsed)) return fallback;
+  const result = parsed * multiplier;
+  return Math.max(0, result);
+}
+
+if (typeof window !== 'undefined') {
+  window.parseSmartNumber = parseSmartNumber;
+}
+
+function formatSmartTvl(num) {
+  if (!num || num === 0) return 'No Min';
+  if (num >= 1000000000) return `$${(num / 1000000000).toLocaleString('en-US', { maximumFractionDigits: 1 })}B+`;
+  if (num >= 1000000) return `$${(num / 1000000).toLocaleString('en-US', { maximumFractionDigits: 1 })}M+`;
+  if (num >= 1000) return `$${(num / 1000).toLocaleString('en-US', { maximumFractionDigits: 1 })}K+`;
+  return `$${num.toLocaleString('en-US')}+`;
+}
+
+function formatSmartApy(num) {
+  if (!num || num === 0) return 'No Min';
+  return `${num}%+`;
+}
+
+function sortPoolsList(list, sortBy, sortDirection = 'desc', userSortedApy = false, isTokenView = false) {
+  return list.slice().sort((a, b) => {
+    if (sortBy === 'sharpe') {
+      // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
+      // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
+      // (trust rail — no anomalous pool jumps the queue via Sharpe).
+      const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+      const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+      const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+      if (anomA !== anomB) return anomA - anomB;
+
+      // 239: default-view-only demotion of no-supply-yield rows below yield-bearing rows
+      if (!isTokenView) {
+        const noA = hasNoSupplyYield(a) ? 1 : 0;
+        const noB = hasNoSupplyYield(b) ? 1 : 0;
+        if (noA !== noB) return noA - noB;
+      }
+
+      const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
+      const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
+      const nullA = shA === null ? 1 : 0;
+      const nullB = shB === null ? 1 : 0;
+      if (nullA !== nullB) return nullA - nullB;
+      if (shA !== null && shB !== null && shA !== shB) {
+        return sortDirection === 'asc' ? (shA - shB) : (shB - shA);
+      }
+      return sortDirection === 'asc' ? (a.tvlUsd - b.tvlUsd) : (b.tvlUsd - a.tvlUsd);
+    }
+
+    if (sortBy === 'tvl') {
+      const noA = hasNoSupplyYield(a) ? 1 : 0;
+      const noB = hasNoSupplyYield(b) ? 1 : 0;
+      if (noA !== noB) return noA - noB;
+      return sortDirection === 'asc' ? (a.tvlUsd - b.tvlUsd) : (b.tvlUsd - a.tvlUsd);
+    } else {
+      // APY sort
+      const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+      const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      if (!userSortedApy) {
+        const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+        const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+        if (anomA !== anomB) return anomA - anomB;
+      }
+      return sortDirection === 'asc' ? (apyA - apyB) : (apyB - apyA);
+    }
+  });
+}
 // Stablecoin symbol allowlist — mirrors planner.js's STABLE_SYMBOLS/isStableSymbol
 // exactly. Duplicated rather than imported: this repo has no build step or module
 // system linking app.js and planner.js, so each browser script is self-contained
@@ -1030,6 +1125,12 @@ function App() {
   const [viewMode, setViewMode] = useState('list');
   const [sortBy, setSortBy] = useState('tvl');
   const [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
+  const [sortDirection, setSortDirection] = useState('desc'); // 'desc' | 'asc'
+  const [customTvlInput, setCustomTvlInput] = useState('');
+  const [customApyInput, setCustomApyInput] = useState('');
+  const [protocolSearchQuery, setProtocolSearchQuery] = useState('');
+  const [chainSearchQuery, setChainSearchQuery] = useState('');
+  const [popoverCoords, setPopoverCoords] = useState({ top: 128, left: 0, width: 320 });
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -1730,6 +1831,47 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const updatePopoverPosition = (type, btnId) => {
+    const targetId = btnId || (type + '-btn');
+    const btn = document.getElementById(targetId);
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    const width = (type === 'protocols' || type === 'chains') ? 360 : 320;
+    const padding = 12;
+    const maxLeft = typeof window !== 'undefined' ? window.innerWidth - width - padding : 0;
+    const clampedLeft = Math.max(padding, Math.min(rect.left, maxLeft));
+    setPopoverCoords({
+      top: rect.bottom + 8,
+      left: clampedLeft,
+      width: Math.min(width, typeof window !== 'undefined' ? window.innerWidth - padding * 2 : width)
+    });
+  };
+
+  const toggleDropdown = (type, btnId) => {
+    if (activeDropdown === type) {
+      setActiveDropdown(null);
+      return;
+    }
+    updatePopoverPosition(type, btnId);
+    setActiveDropdown(type);
+    if (type === 'tvl') setCustomTvlInput(minTvl > 0 ? (minTvl >= 1000000 ? `${minTvl / 1000000}m` : (minTvl >= 1000 ? `${minTvl / 1000}k` : String(minTvl))) : '');
+    if (type === 'apy') setCustomApyInput(minApy > 0 ? String(minApy) : '');
+    if (type === 'protocols') setProtocolSearchQuery('');
+    if (type === 'chains') setChainSearchQuery('');
+  };
+
+  useEffect(() => {
+    if (!activeDropdown) return;
+    const handleReposition = () => {
+      updatePopoverPosition(activeDropdown, activeDropdown + '-btn');
+    };
+    window.addEventListener('resize', handleReposition, { passive: true });
+    window.addEventListener('scroll', handleReposition, { passive: true });
+    return () => {
+      window.removeEventListener('resize', handleReposition);
+      window.removeEventListener('scroll', handleReposition);
+    };
+  }, [activeDropdown]);
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -2252,58 +2394,7 @@ function App() {
 
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
       });
-      // Sort by selected criteria
-      filtered.sort((a, b) => {
-        if (sortBy === 'sharpe') {
-          // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
-          // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
-          // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
-          // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
-          // a graceful no-op until pools accrue >=8 history points, then activates.
-          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-          if (anomA !== anomB) return anomA - anomB;
-          // 239: default-view-only demotion of no-supply-yield rows below
-          // yield-bearing rows under the Risk-Adjusted sort. Sits AFTER the
-          // anomaly partition above (anomalous pools must stay demoted last
-          // of all — the trust rail is not weakened) and BEFORE the Sharpe
-          // comparison, since with no apySharpe history every pool falls
-          // through to the TVL tie-break, letting huge-TVL 0%-yield
-          // collateral pools (e.g. WSTETH/CBBTC/WEETH) top the flagship
-          // list. Nothing is filtered — rows stay listed and labeled
-          // "No supply yield" as today, only reordered.
-          const noA = hasNoSupplyYield(a) ? 1 : 0;
-          const noB = hasNoSupplyYield(b) ? 1 : 0;
-          if (noA !== noB) return noA - noB;
-          const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
-          const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
-          const nullA = shA === null ? 1 : 0;
-          const nullB = shB === null ? 1 : 0;
-          if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
-          if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
-          return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
-        }
-        if (sortBy === 'tvl') {
-          // Yielding pools before no-supply-yield pools, then TVL desc (092)
-          const noA = hasNoSupplyYield(a) ? 1 : 0;
-          const noB = hasNoSupplyYield(b) ? 1 : 0;
-          if (noA !== noB) return noA - noB;
-          return b.tvlUsd - a.tvlUsd;
-        } else {
-          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-          if (!userSortedApy) {
-            // Sane pools before anomalous, each group sorted by APY desc
-            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-            if (anomA !== anomB) return anomA - anomB;
-          }
-          return apyB - apyA;
-        }
-      });
-      setFilteredPools(filtered);
+      setFilteredPools(sortPoolsList(filtered, sortBy, sortDirection, userSortedApy, false));
       setCurrentPage(1);
       return;
     }
@@ -2356,46 +2447,7 @@ function App() {
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
       });
 
-      // Sort by selected criteria
-      filtered.sort((a, b) => {
-        if (sortBy === 'sharpe') {
-          // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
-          // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
-          // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
-          // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
-          // a graceful no-op until pools accrue >=8 history points, then activates.
-          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-          if (anomA !== anomB) return anomA - anomB;
-          const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
-          const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
-          const nullA = shA === null ? 1 : 0;
-          const nullB = shB === null ? 1 : 0;
-          if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
-          if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
-          return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
-        }
-        if (sortBy === 'tvl') {
-          // Yielding pools before no-supply-yield pools, then TVL desc (092)
-          const noA = hasNoSupplyYield(a) ? 1 : 0;
-          const noB = hasNoSupplyYield(b) ? 1 : 0;
-          if (noA !== noB) return noA - noB;
-          return b.tvlUsd - a.tvlUsd;
-        } else {
-          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-          if (!userSortedApy) {
-            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-            if (anomA !== anomB) return anomA - anomB;
-          }
-          return apyB - apyA;
-        }
-      });
-
-      setFilteredPools(filtered);
+      setFilteredPools(sortPoolsList(filtered, sortBy, sortDirection, userSortedApy, false));
       setCurrentPage(1);
       return;
     }
@@ -2458,47 +2510,9 @@ function App() {
       return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
     });
 
-    // Sort by selected criteria
-    filtered.sort((a, b) => {
-      if (sortBy === 'sharpe') {
-        // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
-        // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
-        // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
-        // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
-        // a graceful no-op until pools accrue >=8 history points, then activates.
-        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-        const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-        const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-        if (anomA !== anomB) return anomA - anomB;
-        const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
-        const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
-        const nullA = shA === null ? 1 : 0;
-        const nullB = shB === null ? 1 : 0;
-        if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
-        if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
-        return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
-      }
-      if (sortBy === 'tvl') {
-        // Yielding pools before no-supply-yield pools, then TVL desc (092)
-        const noA = hasNoSupplyYield(a) ? 1 : 0;
-        const noB = hasNoSupplyYield(b) ? 1 : 0;
-        if (noA !== noB) return noA - noB;
-        return b.tvlUsd - a.tvlUsd;
-      } else {
-        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-        if (!userSortedApy) {
-          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
-          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
-          if (anomA !== anomB) return anomA - anomB;
-        }
-        return apyB - apyA;
-      }
-    });
-    setFilteredPools(filtered);
+    setFilteredPools(sortPoolsList(filtered, sortBy, sortDirection, userSortedApy, true));
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, minSharpe, pools, chainMode, sortBy, userSortedApy]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, minSharpe, pools, chainMode, sortBy, sortDirection, userSortedApy]);
 
   // Fire the NL-Enter search_success event once filteredPools has settled
   // (it's still stale in the same tick the Enter handler sets it, and can
@@ -3205,6 +3219,28 @@ function App() {
     Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
     setMinApy(apyValue);
   };
+  const handleCustomTvlApply = () => {
+    const val = parseSmartNumber(customTvlInput, minTvl);
+    handleTvlSelect(val);
+    setActiveDropdown(null);
+  };
+
+  const handleCustomApyApply = () => {
+    const val = parseSmartNumber(customApyInput, minApy);
+    handleApySelect(val);
+    setActiveDropdown(null);
+  };
+
+  const handleSortToggle = (type) => {
+    if (sortBy === type) {
+      setSortDirection(prev => prev === 'desc' ? 'asc' : 'desc');
+    } else {
+      setSortBy(type);
+      setSortDirection('desc');
+      if (type === 'apy') setUserSortedApy(true);
+      else setUserSortedApy(false);
+    }
+  };
 
   // Calculate yields without compounding (simple interest)
   const calculateYields = (amount, apyPercent) => {
@@ -3578,7 +3614,7 @@ function App() {
             React.createElement('div', { className: 'section-label' },
               React.createElement('span', null, language === 'ko' ? '토큰 바로가기' : 'Quick Token Focus'),
               selectedToken && React.createElement('span', {
-                style: { color: 'var(--accent)', fontSize: '10px', cursor: 'pointer' },
+              style: { color: 'var(--ui-accent)', fontSize: '10px', cursor: 'pointer' },
                 onClick: () => { setSelectedToken(''); setChainMode(true); setSelectedChain('All'); }
               }, language === 'ko' ? '초기화' : 'Clear')
             ),
@@ -3857,7 +3893,7 @@ function App() {
           React.createElement('div', { className: 'app-nav-secondary' },
             React.createElement('button', {
               className: `app-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
+              onClick: () => toggleDropdown('chains', 'chains-btn'),
               id: 'chains-btn'
             },
               navIcon('chains'),
@@ -3866,16 +3902,16 @@ function App() {
 
             React.createElement('button', {
               className: `app-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
+              onClick: () => toggleDropdown('tvl', 'tvl-btn'),
               id: 'tvl-btn'
             },
               navIcon('tvl'),
-              React.createElement('span', { className: 'app-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
+              React.createElement('span', { className: 'app-nav-label' }, minTvl > 0 ? formatSmartTvl(minTvl) : t('navFilterTvl'))
             ),
 
             React.createElement('button', {
               className: `app-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
+              onClick: () => toggleDropdown('protocols', 'protocols-btn'),
               id: 'protocols-btn'
             },
               navIcon('protocols'),
@@ -3884,11 +3920,11 @@ function App() {
 
             React.createElement('button', {
               className: `app-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
+              onClick: () => toggleDropdown('apy', 'apy-btn'),
               id: 'apy-btn'
             },
               navIcon('apy'),
-              React.createElement('span', { className: 'app-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
+              React.createElement('span', { className: 'app-nav-label' }, minApy > 0 ? formatSmartApy(minApy) : t('navFilterApy'))
             )
           )
         ),
@@ -4073,21 +4109,30 @@ function App() {
                   React.createElement('div', { className: 'view-toggles sort-toggles' },
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
-                      onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
+                      'data-direction': sortBy === 'apy' ? sortDirection : undefined,
+                      onClick: () => handleSortToggle('apy'),
+                      title: `Sort by APY (${sortBy === 'apy' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+                      'aria-label': `Sort by APY (${sortBy === 'apy' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
                     },
                       navIcon('apy'),
                       React.createElement('span', null, 'APY')
                     ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
-                      onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
+                      'data-direction': sortBy === 'tvl' ? sortDirection : undefined,
+                      onClick: () => handleSortToggle('tvl'),
+                      title: `Sort by TVL (${sortBy === 'tvl' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+                      'aria-label': `Sort by TVL (${sortBy === 'tvl' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
                     },
                       navIcon('tvl'),
                       React.createElement('span', null, 'TVL')
                     ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-                      onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+                      'data-direction': sortBy === 'sharpe' ? sortDirection : undefined,
+                      onClick: () => handleSortToggle('sharpe'),
+                      title: `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+                      'aria-label': `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
                     },
                       navIcon('sharpe'),
                       React.createElement('span', null, t('sortByRiskAdjusted'))
@@ -4377,159 +4422,285 @@ function App() {
         onClick: () => setActiveDropdown(null)
       }),
 
-      activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', {
-        className: 'global-filter-dropdown chains-dropdown',
+      activeDropdown === 'chains' && availableChains.length > 0 && React.createElement('div', {
+        className: 'global-filter-dropdown chains-dropdown sota-popover',
         style: {
           position: 'fixed',
-          top: '128px',
-          left: document.getElementById('chains-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          top: `${popoverCoords.top}px`,
+          left: `${popoverCoords.left}px`,
+          width: `${popoverCoords.width}px`,
           zIndex: 99999
         }
       },
-        React.createElement('div', { className: 'filter-pills-grid' },
+        React.createElement('div', { className: 'sota-popover-header' },
+          React.createElement('span', { className: 'sota-popover-title' }, t('navFilterChains') || 'Chains'),
+          React.createElement('span', { className: 'sota-active-badge' }, selectedChain || 'All Chains')
+        ),
+        React.createElement('div', { className: 'sota-search-box' },
+          React.createElement('input', {
+            className: 'sota-search-input',
+            type: 'text',
+            placeholder: 'Search chains...',
+            value: chainSearchQuery,
+            onChange: (e) => setChainSearchQuery(e.target.value),
+            onKeyDown: (e) => {
+              if (e.key === 'Escape') setActiveDropdown(null);
+            }
+          }),
+          chainSearchQuery && React.createElement('button', {
+            className: 'sota-search-clear',
+            onClick: () => setChainSearchQuery(''),
+            title: 'Clear search'
+          }, '×')
+        ),
+        React.createElement('div', { className: 'sota-items-list sota-chains-list' },
           React.createElement('button', {
-            className: `filter-pill chain-pill ${selectedChain === 'All' ? 'active' : ''}`,
+            className: `filter-pill chain-pill ${selectedChain === 'All' || !selectedChain ? 'active' : ''}`,
             onClick: () => {
               setSelectedChain('All');
-              setChainMode(true); // Enable chain mode for All category
+              setChainMode(true);
               setActiveDropdown(null);
               setShowFilters(true);
-
-              // Set reasonable default filters for All chains
-              if (minTvl === 0) setMinTvl(10000); // $10k default TVL for all chains
-
-              // Update URL
+              if (minTvl === 0) setMinTvl(10000);
               updateUrl('', 'All', selectedPoolTypes, selectedProtocols, minTvl || 10000, minApy);
             }
-          }, 'All'),
+          }, 'All Chains'),
           React.createElement('button', {
             className: `filter-pill chain-pill ${selectedChain === 'Popular' ? 'active' : ''}`,
             onClick: () => {
               setSelectedChain('Popular');
-              setChainMode(true); // Enable chain mode for Popular category  
+              setChainMode(true);
               setActiveDropdown(null);
               setShowFilters(true);
-
-              // Set reasonable default filters for Popular chains
-              if (minTvl === 0) setMinTvl(50000); // $50k default TVL for popular chains
-
-              // Update URL
+              if (minTvl === 0) setMinTvl(50000);
               updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, minTvl || 50000, minApy);
             }
-          }, 'Popular'),
-          availableChains.map(chain =>
-            React.createElement('button', {
-              key: chain,
-              className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
-              onClick: () => {
-                setSelectedChain(chain);
-                setActiveDropdown(null);
-              },
-              style: {
-                '--chain-color': getChainColor(chain)
-              }
-            }, chain)
-          )
+          }, 'Popular (15)'),
+          availableChains
+            .filter(c => !chainSearchQuery || c.toLowerCase().includes(chainSearchQuery.toLowerCase()))
+            .map(chain =>
+              React.createElement('button', {
+                key: chain,
+                className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
+                onClick: () => {
+                  setSelectedChain(chain);
+                  setActiveDropdown(null);
+                },
+                style: {
+                  '--chain-color': getChainColor(chain)
+                }
+              }, chain)
+            )
+        ),
+        React.createElement('div', { className: 'sota-popover-footer' },
+          React.createElement('span', { className: 'sota-footer-meta' }, `${availableChains.length} chains`),
+          React.createElement('button', {
+            className: 'sota-done-btn sota-btn-primary',
+            onClick: () => setActiveDropdown(null)
+          }, 'Done')
         )
       ),
 
       // Protocols dropdown
       activeDropdown === 'protocols' && availableProtocols.all.length > 0 && React.createElement('div', {
-        className: 'global-filter-dropdown protocols-dropdown',
+        className: 'global-filter-dropdown protocols-dropdown sota-popover',
         style: {
           position: 'fixed',
-          top: '128px',
-          left: document.getElementById('protocols-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          top: `${popoverCoords.top}px`,
+          left: `${popoverCoords.left}px`,
+          width: `${popoverCoords.width}px`,
           zIndex: 99999
         }
       },
-        React.createElement('div', { className: 'filter-pills-grid' },
+        React.createElement('div', { className: 'sota-popover-header' },
+          React.createElement('span', { className: 'sota-popover-title' }, t('navFilterProtocols') || 'Protocols'),
+          React.createElement('span', { className: 'sota-active-badge' },
+            selectedProtocols.length > 0 ? `${selectedProtocols.length} selected` : 'All Protocols'
+          )
+        ),
+        React.createElement('div', { className: 'sota-search-box' },
+          React.createElement('input', {
+            className: 'sota-search-input',
+            type: 'text',
+            placeholder: 'Search 100+ protocols...',
+            value: protocolSearchQuery,
+            onChange: (e) => setProtocolSearchQuery(e.target.value),
+            onKeyDown: (e) => {
+              if (e.key === 'Escape') setActiveDropdown(null);
+            }
+          }),
+          protocolSearchQuery && React.createElement('button', {
+            className: 'sota-search-clear',
+            onClick: () => setProtocolSearchQuery(''),
+            title: 'Clear search'
+          }, '×')
+        ),
+        React.createElement('div', { className: 'sota-shortcut-pills' },
           React.createElement('button', {
             className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
-            onClick: () => {
-              setSelectedProtocols([]);
-              setActiveDropdown(null);
-            }
+            onClick: () => setSelectedProtocols([])
           }, 'All Protocols'),
           availableProtocols.popular.length > 0 && React.createElement('button', {
-            className: `filter-pill protocol-pill popular ${availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
+            className: `filter-pill protocol-pill popular ${
+              availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
               selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
-              }`,
-            onClick: () => {
-              handlePopularProtocols();
-              setActiveDropdown(null);
-            }
-          }, 'Popular'),
-          availableProtocols.all.slice(0, 50).map(protocol =>
-            React.createElement('button', {
-              key: protocol.friendlyName,
-              className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
-              onClick: () => {
-                handleProtocolToggle(protocol.friendlyName);
-                setActiveDropdown(null);
-              }
-            }, protocol.friendlyName)
-          )
+            }`,
+            onClick: handlePopularProtocols
+          }, 'Popular (15)')
+        ),
+        React.createElement('div', { className: 'sota-items-list' },
+          availableProtocols.all
+            .filter(p => !protocolSearchQuery || p.friendlyName.toLowerCase().includes(protocolSearchQuery.toLowerCase()))
+            .slice(0, 80)
+            .map(protocol => {
+              const isSelected = selectedProtocols.includes(protocol.friendlyName);
+              return React.createElement('button', {
+                key: protocol.friendlyName,
+                className: `sota-select-item ${isSelected ? 'active' : ''}`,
+                onClick: () => handleProtocolToggle(protocol.friendlyName)
+              },
+                React.createElement('span', { className: `sota-checkbox ${isSelected ? 'checked' : ''}` }, isSelected ? '✓' : ''),
+                React.createElement('span', { className: 'sota-item-name' }, protocol.friendlyName),
+                protocol.poolCount > 0 && React.createElement('span', { className: 'sota-count-badge' }, protocol.poolCount)
+              );
+            })
+        ),
+        React.createElement('div', { className: 'sota-popover-footer' },
+          selectedProtocols.length > 0
+            ? React.createElement('button', {
+                className: 'sota-btn-text',
+                onClick: () => setSelectedProtocols([])
+              }, 'Clear All')
+            : React.createElement('span', { className: 'sota-footer-meta' }, `${availableProtocols.all.length} protocols`),
+          React.createElement('button', {
+            className: 'sota-done-btn sota-btn-primary',
+            onClick: () => setActiveDropdown(null)
+          }, 'Done')
         )
       ),
 
       // TVL dropdown
       activeDropdown === 'tvl' && React.createElement('div', {
-        className: 'global-filter-dropdown tvl-dropdown',
+        className: 'global-filter-dropdown tvl-dropdown sota-popover',
         style: {
           position: 'fixed',
-          top: '128px',
-          left: document.getElementById('tvl-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          top: `${popoverCoords.top}px`,
+          left: `${popoverCoords.left}px`,
+          width: `${popoverCoords.width}px`,
           zIndex: 99999
         }
       },
-        React.createElement('div', { className: 'filter-chips-container' },
-          [
-            { value: 0, label: 'No Min' },
-            { value: 10000, label: '$10K+' },
-            { value: 100000, label: '$100K+' },
-            { value: 1000000, label: '$1M+' },
-            { value: 10000000, label: '$10M+' }
-          ].map(tvl =>
-            React.createElement('button', {
-              key: tvl.value,
-              className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
-              onClick: () => {
-                handleTvlSelect(tvl.value);
-                setActiveDropdown(null);
-              }
-            }, tvl.label)
+        React.createElement('div', { className: 'sota-popover-header' },
+          React.createElement('span', { className: 'sota-popover-title' }, t('navFilterTvl') || 'Minimum TVL'),
+          React.createElement('span', { className: 'sota-active-badge' }, formatSmartTvl(minTvl))
+        ),
+        React.createElement('div', { className: 'sota-popover-section' },
+          React.createElement('div', { className: 'sota-section-subtitle' }, 'Quick Presets'),
+          React.createElement('div', { className: 'sota-preset-chips' },
+            [
+              { value: 0, label: 'No Min' },
+              { value: 10000, label: '$10K+' },
+              { value: 100000, label: '$100K+' },
+              { value: 500000, label: '$500K+' },
+              { value: 1000000, label: '$1M+' },
+              { value: 10000000, label: '$10M+' }
+            ].map(tvl =>
+              React.createElement('button', {
+                key: tvl.value,
+                className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
+                onClick: () => {
+                  handleTvlSelect(tvl.value);
+                  setActiveDropdown(null);
+                }
+              }, tvl.label)
+            )
           )
+        ),
+        React.createElement('div', { className: 'sota-popover-section sota-custom-section' },
+          React.createElement('div', { className: 'sota-section-subtitle' }, 'Custom Min TVL'),
+          React.createElement('div', { className: 'sota-custom-input-row' },
+            React.createElement('span', { className: 'sota-input-affix' }, '$'),
+            React.createElement('input', {
+              className: 'sota-custom-input',
+              type: 'text',
+              inputMode: 'text',
+              placeholder: 'e.g. 250k, 2.5m, 10m',
+              value: customTvlInput,
+              onChange: (e) => setCustomTvlInput(e.target.value),
+              onKeyDown: (e) => {
+                if (e.key === 'Enter') handleCustomTvlApply();
+                if (e.key === 'Escape') setActiveDropdown(null);
+              }
+            }),
+            React.createElement('button', {
+              className: 'sota-custom-apply-btn sota-btn-primary',
+              onClick: handleCustomTvlApply
+            }, 'Apply')
+          ),
+          React.createElement('div', { className: 'sota-input-helper' }, 'Examples: 250k, 500k, 2.5m, 10m')
         )
       ),
 
       // APY dropdown
       activeDropdown === 'apy' && React.createElement('div', {
-        className: 'global-filter-dropdown apy-dropdown',
+        className: 'global-filter-dropdown apy-dropdown sota-popover',
         style: {
           position: 'fixed',
-          top: '128px',
-          left: document.getElementById('apy-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          top: `${popoverCoords.top}px`,
+          left: `${popoverCoords.left}px`,
+          width: `${popoverCoords.width}px`,
           zIndex: 99999
         }
       },
-        React.createElement('div', { className: 'filter-chips-container' },
-          [
-            { value: 0, label: 'No Min' },
-            { value: 1, label: '1%+' },
-            { value: 5, label: '5%+' },
-            { value: 10, label: '10%+' },
-            { value: 20, label: '20%+' }
-          ].map(apy =>
-            React.createElement('button', {
-              key: apy.value,
-              className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
-              onClick: () => {
-                handleApySelect(apy.value);
-                setActiveDropdown(null);
-              }
-            }, apy.label)
+        React.createElement('div', { className: 'sota-popover-header' },
+          React.createElement('span', { className: 'sota-popover-title' }, t('navFilterApy') || 'Minimum APY'),
+          React.createElement('span', { className: 'sota-active-badge' }, formatSmartApy(minApy))
+        ),
+        React.createElement('div', { className: 'sota-popover-section' },
+          React.createElement('div', { className: 'sota-section-subtitle' }, 'Quick Presets'),
+          React.createElement('div', { className: 'sota-preset-chips' },
+            [
+              { value: 0, label: 'No Min' },
+              { value: 1, label: '1%+' },
+              { value: 3, label: '3%+' },
+              { value: 5, label: '5%+' },
+              { value: 10, label: '10%+' },
+              { value: 20, label: '20%+' },
+              { value: 50, label: '50%+' }
+            ].map(apy =>
+              React.createElement('button', {
+                key: apy.value,
+                className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
+                onClick: () => {
+                  handleApySelect(apy.value);
+                  setActiveDropdown(null);
+                }
+              }, apy.label)
+            )
           )
+        ),
+        React.createElement('div', { className: 'sota-popover-section sota-custom-section' },
+          React.createElement('div', { className: 'sota-section-subtitle' }, 'Custom Min APY'),
+          React.createElement('div', { className: 'sota-custom-input-row' },
+            React.createElement('input', {
+              className: 'sota-custom-input',
+              type: 'text',
+              inputMode: 'decimal',
+              placeholder: 'e.g. 8.5 or 12%',
+              value: customApyInput,
+              onChange: (e) => setCustomApyInput(e.target.value),
+              onKeyDown: (e) => {
+                if (e.key === 'Enter') handleCustomApyApply();
+                if (e.key === 'Escape') setActiveDropdown(null);
+              }
+            }),
+            React.createElement('span', { className: 'sota-input-affix' }, '%'),
+            React.createElement('button', {
+              className: 'sota-custom-apply-btn sota-btn-primary',
+              onClick: handleCustomApyApply
+            }, 'Apply')
+          ),
+          React.createElement('div', { className: 'sota-input-helper' }, 'Examples: 4.5, 8, 12.5, 25')
         )
       ),
       ...renderMobileSpatialDrawer()

@@ -98,7 +98,20 @@ async function openTvl(page) {
     if (scrim) scrim.click();
   });
   await page.waitForTimeout(150);
-  await page.click('#tvl-btn');
+  const isVis = await page.evaluate(() => {
+    const btn = document.getElementById('tvl-btn');
+    if (!btn) return false;
+    const style = window.getComputedStyle(btn);
+    return style.display !== 'none' && style.visibility !== 'hidden' && btn.offsetWidth > 0;
+  });
+  if (isVis) {
+    await page.click('#tvl-btn');
+  } else {
+    await page.evaluate(() => {
+      const btn = document.getElementById('tvl-btn');
+      if (btn) btn.click();
+    });
+  }
   await page.waitForSelector('.global-filter-dropdown', { timeout: 5000 });
   await page.waitForTimeout(120);
 }

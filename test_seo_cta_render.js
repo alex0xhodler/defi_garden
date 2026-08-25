@@ -39,10 +39,10 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase) {
 // claims "33 pools", the pre-fix CTA delivered 0). Plus unrelated >=$10M
 // pools on other chains so the snapshot-stub / default-view path is non-empty.
 const FIXTURE_POOLS = [
-  makePool('cardano-liqwid-ada', 'liqwid', 'ADA', 'Cardano', 6_130_000, 2.16),
-  makePool('cardano-indigo-iusd', 'indigo', 'iUSD', 'Cardano', 3_200_000, 5.4),
-  makePool('cardano-minswap-ada-usdc', 'minswap-dex', 'ADA-USDC', 'Cardano', 850_000, 12.1),
-  // Unrelated, >=$10M pools so the app's default/snapshot view is non-empty.
+  makePool('cardano-liqwid-ada', 'liqwid', 'ADA', 'Cardano', 61_300, 2.16),
+  makePool('cardano-indigo-iusd', 'indigo', 'iUSD', 'Cardano', 32_000, 5.4),
+  makePool('cardano-minswap-ada-usdc', 'minswap-dex', 'ADA-USDC', 'Cardano', 85_000, 12.1),
+  // Unrelated, >=$100K pools so the app's default/snapshot view is non-empty.
   makePool('usdc-base-aave', 'aave-v3', 'USDC', 'Base', 45_000_000, 4.2),
   makePool('eth-eth-aave', 'aave-v3', 'ETH', 'Ethereum', 200_000_000, 2.9)
 ];
@@ -102,9 +102,9 @@ async function main() {
   try {
     // Test A (THE FIX): the exact link shape every regenerated chains/*.html
     // page now emits — /?chain=Cardano&minTvl=100000 — renders >=1 pool card.
-    await test('/?chain=Cardano&minTvl=100000 (the fixed CTA) renders >=1 pool card', async () => {
+    await test('/?chain=Cardano&minTvl=10000 (the fixed CTA) renders >=1 pool card', async () => {
       const { page, errors } = await newPage(browser);
-      await page.goto('http://localhost:' + PORT + '/?chain=Cardano&minTvl=100000', { waitUntil: 'load', timeout: 15000 });
+      await page.goto('http://localhost:' + PORT + '/?chain=Cardano&minTvl=10000', { waitUntil: 'load', timeout: 15000 });
       await page.waitForSelector('.pool-card', { timeout: 15000 });
       const cardCount = await page.$$eval('.pool-card', (els) => els.length);
       if (cardCount < 1) throw new Error('expected >=1 pool card, got ' + cardCount);
