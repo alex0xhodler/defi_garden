@@ -255,54 +255,12 @@ function generateHtml(sub) {
     .portal-shell {
       max-width: 1040px;
       margin: 0 auto;
-      padding: 0 24px 80px;
+      padding: 32px 24px 60px;
       box-sizing: border-box;
       position: relative;
       z-index: 1;
       width: 100%;
-    }
-    .portal-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 24px 0;
-      border-bottom: 1px solid var(--ui-border);
-      margin-bottom: 44px;
-    }
-    .portal-brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      text-decoration: none;
-      color: var(--ui-text);
-      font-weight: 700;
-      font-size: 1.15rem;
-      letter-spacing: -0.01em;
-    }
-    .portal-brand-mark {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 34px;
-      height: 34px;
-      background: var(--ui-surface);
-      border: 1px solid var(--ui-border-strong);
-      color: var(--ui-accent);
-    }
-    .portal-links {
-      display: flex;
-      gap: 28px;
-      align-items: center;
-    }
-    .portal-link {
-      color: var(--ui-text-secondary);
-      text-decoration: none;
-      font-size: 0.88rem;
-      font-weight: 500;
-      transition: color 0.15s ease;
-    }
-    .portal-link:hover {
-      color: var(--ui-accent);
+      flex: 1;
     }
     .hero-section {
       text-align: center;
@@ -889,22 +847,34 @@ function generateHtml(sub) {
   </style>
 <body>
   <div class="landing-app">
+    <!-- Brand Navigation Header from home.html -->
+    <header class="landing-header">
+      <a class="landing-brand" href="/" aria-label="DeFi Garden">
+        <span class="landing-brand-mark">
+          ${renderLeafMarkSvg()}
+        </span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="Primary navigation">
+        <a href="/?app=1">Search yields</a>
+        <a href="/plan.html">Savings Planner</a>
+        <a href="/agents">AI Agents &amp; MCP</a>
+      </nav>
+      <div class="landing-header-actions">
+        <button type="button" class="landing-icon-button" id="lang-toggle-btn" aria-label="Language">KO</button>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="Theme">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation from home.html -->
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="/?app=1">Search yields</a>
+      <a href="/plan.html">Savings Planner</a>
+      <a href="/agents">AI Agents &amp; MCP</a>
+    </nav>
+
     <div class="portal-shell">
-      <!-- Brand Navigation Header -->
-      <header class="portal-nav">
-        <a href="/" class="portal-brand" aria-label="DeFi Garden">
-          <span class="portal-brand-mark">
-            ${renderLeafMarkSvg()}
-          </span>
-          <span class="app-brand-wordmark">DeFi Garden</span>
-        </a>
-        <nav class="portal-links" aria-label="Portal Navigation">
-          <a href="/plan.html" class="portal-link">Savings Planner</a>
-          <a href="/?token=USDC" class="portal-link">Analytics</a>
-          <a href="/agents" class="portal-link">AI Agents &amp; MCP</a>
-          <a href="/llms.txt" class="portal-link">llms.txt</a>
-        </nav>
-      </header>
 
       <!-- Hero Section -->
       <section class="hero-section">
@@ -1109,21 +1079,53 @@ function generateHtml(sub) {
         </div>
       </section>
 
-      <!-- Footer -->
-      <footer class="app-footer" style="position:static; margin-top:20px; border-top:1px solid var(--ui-border);">
-        <p>© 2026 DeFi Garden · Education &amp; Yield Intelligence. All deposits remain non-custodial on Base.</p>
-        <div style="display:flex; justify-content:center; gap:20px; margin-top:10px;">
-          <a href="/plan.html" class="portal-link">Savings Planner</a>
-          <a href="/?token=USDC" class="portal-link">Analytics Grid</a>
-          <a href="/agents" class="portal-link">AI Agents &amp; MCP</a>
-          <a href="/llms.txt" class="portal-link">llms.txt</a>
-          <a href="/sitemap.xml" class="portal-link">Sitemap</a>
-        </div>
-      </footer>
     </div>
+
+    <!-- Shared Footer from home.html -->
+    <footer class="app-footer">
+      <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
+      <p class="app-footer-hub-links">
+        <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/agents">AI Agents &amp; MCP</a>
+      </p>
+    </footer>
   </div>
   <script>
     (function() {
+      // Header controls parity with home.html
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      if (themeBtn) {
+        var savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        themeBtn.textContent = savedTheme === 'dark' ? '☼' : '☾';
+        themeBtn.addEventListener('click', function() {
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          var next = isDark ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch(e) {}
+          themeBtn.textContent = next === 'dark' ? '☼' : '☾';
+        });
+      }
+      var langBtn = document.getElementById('lang-toggle-btn');
+      if (langBtn) {
+        var url = new URL(window.location.href);
+        var isKo = url.searchParams.get('lang') === 'ko';
+        langBtn.textContent = isKo ? 'EN' : 'KO';
+        langBtn.addEventListener('click', function() {
+          if (isKo) url.searchParams.delete('lang');
+          else url.searchParams.set('lang', 'ko');
+          window.location.assign(url.toString());
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function() {
+          var isOpen = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = isOpen ? '×' : '☰';
+          menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+      }
+
       var form = document.getElementById('reserve-form');
       var emailInput = document.getElementById('email-input');
       var errorEl = document.getElementById('form-error');
@@ -1136,7 +1138,6 @@ function generateHtml(sub) {
       try {
         saved = JSON.parse(localStorage.getItem(storageKey));
       } catch (e) {}
-
       if (saved && saved.email) {
         showReceipt(saved.email);
       }
