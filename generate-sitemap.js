@@ -447,6 +447,34 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
+function alternateUrlFor(baseUrl, lang) {
+  if (lang === 'en') {
+    const url = new URL(baseUrl);
+    url.searchParams.delete('lang');
+    return url.toString();
+  }
+  if (lang === 'ko') {
+    try {
+      const url = new URL(baseUrl);
+      if (url.pathname === '/tokens' || url.pathname.startsWith('/tokens/')) {
+        url.pathname = '/ko' + url.pathname;
+        url.searchParams.delete('lang');
+        return url.toString();
+      }
+      if (url.pathname === '/chains' || url.pathname.startsWith('/chains/')) {
+        url.pathname = '/ko' + url.pathname;
+        url.searchParams.delete('lang');
+        return url.toString();
+      }
+      url.searchParams.set('lang', 'ko');
+      return url.toString();
+    } catch {
+      return baseUrl;
+    }
+  }
+  return baseUrl;
+}
+
 /**
  * Generate XML for a single URL with multilingual alternates
  */
@@ -456,20 +484,13 @@ function generateUrlXml(baseUrl, lastmod, priority, changefreq) {
   
   // Add hreflang for all supported languages
   LANGUAGES.forEach(lang => {
-    const langUrl = new URL(baseUrl);
-    if (lang === 'en') {
-      langUrl.searchParams.delete('lang');
-    } else {
-      langUrl.searchParams.set('lang', lang);
-    }
-    xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${escapeXml(langUrl.toString())}" />\n`;
+    const langUrl = alternateUrlFor(baseUrl, lang);
+    xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${escapeXml(langUrl)}" />\n`;
   });
   
   // Add x-default (defaults to English)
-  const defaultUrl = new URL(baseUrl);
-  defaultUrl.searchParams.delete('lang');
-  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(defaultUrl.toString())}" />\n`;
-
+  const defaultUrl = alternateUrlFor(baseUrl, 'en');
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(defaultUrl)}" />\n`;
   xml += `    <lastmod>${lastmod}</lastmod>\n`;
   xml += `    <changefreq>${changefreq}</changefreq>\n`;
   xml += `    <priority>${priority}</priority>\n`;
@@ -861,8 +882,6 @@ LLM: ${SITE_URL}llms-full.txt
 # General crawlers
 User-agent: *
 Allow: /
-Crawl-delay: 1
-
 # Search Agents & AI Assistant crawlers
 User-agent: GPTBot
 Allow: /

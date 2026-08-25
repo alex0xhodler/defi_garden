@@ -13,8 +13,6 @@ LLM: https://www.defi.garden/llms-full.txt
 # General crawlers
 User-agent: *
 Allow: /
-Crawl-delay: 1
-
 # Search Agents & AI Assistant crawlers
 User-agent: GPTBot
 Allow: /
