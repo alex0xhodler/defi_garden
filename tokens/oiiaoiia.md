@@ -1,10 +1,10 @@
 # OIIAOIIA DeFi Yields
 
-The highest honest OIIAOIIA yield right now is 6.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OIIAOIIA yield right now is 5.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2706e24c-0bc3-4ac3-afbb-357482862d4d&src=seo_token) | Solana | 6.94% | $169.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2706e24c-0bc3-4ac3-afbb-357482862d4d&src=seo_token) | Solana | 5.73% | $168.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OIIAOIIA yield today?
 
-6.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many OIIAOIIA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $169.7K in total.
+1 live pool clear this page's $100K TVL floor, $168.4K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # XFUND DeFi Yields
 
-The highest honest XFUND yield right now is 0.39% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XFUND yield right now is 0.46% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=518c716e-3365-4964-adce-632b0006ad6e&src=seo_token) | Ethereum | 0.39% | $176.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=518c716e-3365-4964-adce-632b0006ad6e&src=seo_token) | Ethereum | 0.46% | $172.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XFUND yield today?
 
-0.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.46% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many XFUND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $176.9K in total.
+1 live pool clear this page's $100K TVL floor, $172.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SMT yield right now is 0.32% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.32% | $109K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.32% | $107.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109K in total.
+1 live pool clear this page's $100K TVL floor, $107.9K in total.
 
 ### Are these rates safe?
 

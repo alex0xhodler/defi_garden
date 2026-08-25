@@ -4,7 +4,7 @@ The highest honest MONONOKE yield right now is 0.02% on uniswap-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.02% | $114.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.02% | $113.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MONONOKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.5K in total.
+1 live pool clear this page's $100K TVL floor, $113.2K in total.
 
 ### Are these rates safe?
 

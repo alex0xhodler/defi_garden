@@ -1,10 +1,10 @@
 # REZ DeFi Yields
 
-The highest honest REZ yield right now is 15.41% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REZ yield right now is 24.24% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f74431c5-7307-4a3b-9d17-3a30924a1b59&src=seo_token) | Ethereum | 15.41% | $492.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f74431c5-7307-4a3b-9d17-3a30924a1b59&src=seo_token) | Ethereum | 24.24% | $478.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REZ yield today?
 
-15.41% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+24.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $492.2K in total.
+1 live pool clear this page's $100K TVL floor, $478.7K in total.
 
 ### Are these rates safe?
 

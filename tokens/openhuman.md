@@ -1,10 +1,10 @@
 # OPENHUMAN DeFi Yields
 
-The highest honest OPENHUMAN yield right now is 43.60% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPENHUMAN yield right now is 11.74% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0647b01e-9a01-4d64-afa8-a267776a0a94&src=seo_token) | Base | 43.60% | $138.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0647b01e-9a01-4d64-afa8-a267776a0a94&src=seo_token) | Base | 11.74% | $134.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPENHUMAN yield today?
 
-43.60% APY on uniswap-v4 (Base), based on live DefiLlama data.
+11.74% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many OPENHUMAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.1K in total.
+1 live pool clear this page's $100K TVL floor, $134.8K in total.
 
 ### Are these rates safe?
 

@@ -1,27 +1,27 @@
 # BAT DeFi Yields
 
-The highest honest BAT yield right now is 0.86% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAT yield right now is 0.93% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [bancor-v3 →](https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token) | Ethereum | 0.19% | $219K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.86% | $146.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.93% | $144.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BAT's lower-variability candidates are bancor-v3 (Ethereum), 0.19% APY, $219K TVL, https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token; uniswap-v3 (Ethereum), 0.86% APY, $146.7K TVL, https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BAT's lower-variability candidates are bancor-v3 (Ethereum), 0.19% APY, $219K TVL, https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token; uniswap-v3 (Ethereum), 0.93% APY, $144.7K TVL, https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bancor-v3 →](https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token) | Ethereum | 0.19% | $219K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.86% | $146.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.93% | $144.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BAT shows up in 2 pools here, with rates from 0.19% to 0.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BAT shows up in 2 pools here, with rates from 0.19% to 0.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | bancor-v3 | 0.19% | 0.05% | Base rate |
-| uniswap-v3 | 0.86% | 0.59% | Base rate |
+| uniswap-v3 | 0.93% | 0.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BAT yield today?
 
-0.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.93% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.37M in total.
+3 live pools clear this page's $100K TVL floor, $2.34M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BAT pools have the most stable APY history?
 
-Based on APY history only, BAT's lower-variability candidates are bancor-v3 (Ethereum), 0.19% APY, $219K TVL, https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token; uniswap-v3 (Ethereum), 0.86% APY, $146.7K TVL, https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BAT's lower-variability candidates are bancor-v3 (Ethereum), 0.19% APY, $219K TVL, https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token; uniswap-v3 (Ethereum), 0.93% APY, $144.7K TVL, https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

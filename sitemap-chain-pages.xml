@@ -51,17 +51,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/aptos</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/plasma</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/robinhood-chain</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/aptos</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -141,12 +141,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/ink</loc>
+    <loc>https://www.defi.garden/chains/katana</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/katana</loc>
+    <loc>https://www.defi.garden/chains/ink</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -211,12 +211,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/filecoin</loc>
+    <loc>https://www.defi.garden/chains/fraxtal</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/fraxtal</loc>
+    <loc>https://www.defi.garden/chains/filecoin</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,17 +251,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/venom</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/multiversx</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/flow</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
   </url>

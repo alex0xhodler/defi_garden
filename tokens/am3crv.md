@@ -4,7 +4,7 @@ The highest honest AM3CRV yield right now is 0.01% on curve-dex (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $104.3K |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $104.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AM3CRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.34M in total.
+2 live pools clear this page's $100K TVL floor, $2.44M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest KEYUSDC yield right now is 10.00% on wildcat-protocol (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=fe368555-5718-40e7-8d47-496f59452537&src=seo_token) | Ethereum | 10.00% | $542.1K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=fe368555-5718-40e7-8d47-496f59452537&src=seo_token) | Ethereum | 10.00% | $776.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KEYUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $542.1K in total.
+1 live pool clear this page's $100K TVL floor, $776.2K in total.
 
 ### Are these rates safe?
 

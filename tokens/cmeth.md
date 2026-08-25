@@ -1,10 +1,10 @@
 # CMETH DeFi Yields
 
-The highest honest CMETH yield right now is 110.09% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CMETH yield right now is 111.34% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=210ebae6-5f8a-5594-bbe2-2a2fe56ed25b&src=seo_token) | Ethereum | 110.09% | $207.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=210ebae6-5f8a-5594-bbe2-2a2fe56ed25b&src=seo_token) | Ethereum | 111.34% | $204.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CMETH yield today?
 
-110.09% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+111.34% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CMETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $207.2K in total.
+1 live pool clear this page's $100K TVL floor, $204.9K in total.
 
 ### Are these rates safe?
 

@@ -1,33 +1,33 @@
 # HEX DeFi Yields
 
-The highest honest HEX yield right now is 19.35% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEX yield right now is 20.10% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 18.69% | $570.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 19.35% | $274.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 14.88% | $201.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 16.59% | $109.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 20.10% | $567.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 19.16% | $273.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 15.99% | $200K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 16.93% | $110.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 19.35% APY, $274.2K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 18.69% APY, $570.6K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v2 (Ethereum), 16.59% APY, $109.5K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token; uniswap-v3 (Ethereum), 14.88% APY, $201.3K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 19.16% APY, $273.3K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 20.10% APY, $567.2K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v2 (Ethereum), 16.93% APY, $110.1K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token; uniswap-v3 (Ethereum), 15.99% APY, $200K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 19.35% | $274.2K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 18.69% | $570.6K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 16.59% | $109.5K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 14.88% | $201.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 19.16% | $273.3K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 20.10% | $567.2K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 16.93% | $110.1K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 15.99% | $200K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEX shows up in 4 pools here, with rates from 14.88% to 19.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEX shows up in 4 pools here, with rates from 15.99% to 20.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 36.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 36.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 18.69% | 40.07% | Base rate |
-| uniswap-v4 | 19.35% | 32.05% | Base rate |
-| uniswap-v3 | 14.88% | 40.78% | Base rate |
-| uniswap-v2 | 16.59% | 31.34% | Base rate |
+| uniswap-v2 | 20.10% | 40.10% | Base rate |
+| uniswap-v4 | 19.16% | 32.09% | Base rate |
+| uniswap-v3 | 15.99% | 40.68% | Base rate |
+| uniswap-v2 | 16.93% | 31.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEX yield today?
 
-19.35% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+20.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HEX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.16M in total.
+4 live pools clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HEX pools have the most stable APY history?
 
-Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 19.35% APY, $274.2K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 18.69% APY, $570.6K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v2 (Ethereum), 16.59% APY, $109.5K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token; uniswap-v3 (Ethereum), 14.88% APY, $201.3K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 19.16% APY, $273.3K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 20.10% APY, $567.2K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v2 (Ethereum), 16.93% APY, $110.1K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token; uniswap-v3 (Ethereum), 15.99% APY, $200K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

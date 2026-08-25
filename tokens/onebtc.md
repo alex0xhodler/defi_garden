@@ -1,10 +1,10 @@
 # ONEBTC DeFi Yields
 
-The highest honest ONEBTC yield right now is 1.01% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ONEBTC yield right now is 1.12% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 1.01% | $300.7K |
+| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 1.12% | $298.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONEBTC yield today?
 
-1.01% APY on sushiswap (Ethereum), based on live DefiLlama data.
+1.12% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many ONEBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.7K in total.
+1 live pool clear this page's $100K TVL floor, $298.4K in total.
 
 ### Are these rates safe?
 

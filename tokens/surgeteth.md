@@ -4,7 +4,7 @@ The highest honest SURGETETH yield right now is 2.19% on balancer-v3 (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.19% | $1.7M |
+| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.19% | $1.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SURGETETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.7M in total.
+1 live pool clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 

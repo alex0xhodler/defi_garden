@@ -1,10 +1,10 @@
 # ZFI DeFi Yields
 
-The highest honest ZFI yield right now is 7.80% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZFI yield right now is 7.36% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a95577bd-395a-4838-95f3-958591e91ae4&src=seo_token) | Base | 7.80% | $193.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a95577bd-395a-4838-95f3-958591e91ae4&src=seo_token) | Base | 7.36% | $193.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZFI yield today?
 
-7.80% APY on uniswap-v3 (Base), based on live DefiLlama data.
+7.36% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ZFI pools clear the TVL floor?
 

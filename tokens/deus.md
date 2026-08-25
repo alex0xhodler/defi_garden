@@ -1,29 +1,29 @@
 # DEUS DeFi Yields
 
-The highest honest DEUS yield right now is 351.12% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEUS yield right now is 342.32% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 351.12% | $801.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 42.11% | $291.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 342.32% | $780.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 40.33% | $288.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 42.11% APY, $291.4K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 351.12% APY, $801.5K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 40.33% APY, $288.9K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 342.32% APY, $780.6K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 42.11% | $291.4K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 351.12% | $801.5K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 40.33% | $288.9K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 342.32% | $780.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEUS shows up in 2 pools here, with rates from 42.11% to 351.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEUS shows up in 2 pools here, with rates from 40.33% to 342.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 148.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 148.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ DEUS shows up in 2 pools here, with rates from 42.11% to 351.12% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 351.12% | 256.97% | 100.00% incentives |
-| aerodrome-v1 | 42.11% | 39.24% | 100.00% incentives |
+| aerodrome-v1 | 342.32% | 257.22% | 100.00% incentives |
+| aerodrome-v1 | 40.33% | 39.25% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEUS yield today?
 
-351.12% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+342.32% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many DEUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.09M in total.
+2 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEUS pools have the most stable APY history?
 
-Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 42.11% APY, $291.4K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 351.12% APY, $801.5K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 40.33% APY, $288.9K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 342.32% APY, $780.6K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

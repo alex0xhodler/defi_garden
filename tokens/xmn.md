@@ -1,10 +1,10 @@
 # XMN DeFi Yields
 
-The highest honest XMN yield right now is 0.25% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMN yield right now is 0.34% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.25% | $119K |
+| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.34% | $117.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XMN yield today?
 
-0.25% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.34% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many XMN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119K in total.
+1 live pool clear this page's $100K TVL floor, $117.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank XMN pools. This view covers A
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 

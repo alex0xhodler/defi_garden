@@ -1,10 +1,10 @@
 # HEHE DeFi Yields
 
-The highest honest HEHE yield right now is 5.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEHE yield right now is 6.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 5.61% | $172K |
+| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 6.07% | $168K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEHE yield today?
 
-5.61% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEHE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172K in total.
+1 live pool clear this page's $100K TVL floor, $168K in total.
 
 ### Are these rates safe?
 

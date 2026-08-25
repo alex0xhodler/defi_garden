@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.94% | $1.5M |
 | [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 7.19% | $1.5M |
+| [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.94% | $1.5M |
 | [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.94% | $489.8K |
 
 <!-- rate-stability:ranked -->
@@ -31,8 +31,8 @@ TMVUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 2.94%부터 7.94%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 7.94% | 7.92% | 기본 금리 |
 | pendle | 7.19% | 6.82% | 기본 금리 |
+| pendle | 7.94% | 7.92% | 기본 금리 |
 | convex-finance | 2.94% | 2.54% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

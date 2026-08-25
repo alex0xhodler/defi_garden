@@ -4,18 +4,18 @@ The highest honest ZIK yield right now is 0.10% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.10% | $1.43M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.10% | $193.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.10% | $1.42M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.10% | $192.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZIK's lower-variability candidates are uniswap-v4 (Ethereum), 0.10% APY, $1.43M TVL, https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $193.5K TVL, https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZIK's lower-variability candidates are uniswap-v4 (Ethereum), 0.10% APY, $1.42M TVL, https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $192.5K TVL, https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.10% | $1.43M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.10% | $193.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.10% | $1.42M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.10% | $192.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZIK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.01M in total.
+4 live pools clear this page's $100K TVL floor, $9.96M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZIK pools have the most stable APY history?
 
-Based on APY history only, ZIK's lower-variability candidates are uniswap-v4 (Ethereum), 0.10% APY, $1.43M TVL, https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $193.5K TVL, https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZIK's lower-variability candidates are uniswap-v4 (Ethereum), 0.10% APY, $1.42M TVL, https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $192.5K TVL, https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

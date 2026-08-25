@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.94% | $136.3K |
+| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.94% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, CORE의 colend-protocol에서 APY 0.94%예
 
 ### WCORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $136.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $133K예요.
 
 ### 이 수익률은 안전한가요?
 

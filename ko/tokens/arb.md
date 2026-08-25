@@ -1,41 +1,41 @@
 # ARB 디파이 수익률
 
-현재 ARB의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 33.88%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ARB의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 32.62%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 16.39% | $3.13M |
-| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.08% | $2.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 33.88% | $1.47M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 35.18% | $634.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 4.84% | $574.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 9.75% | $191.5K |
-| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.12% | $157.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 1.72% | $102.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 17.44% | $3.06M |
+| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.08% | $2.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 32.62% | $1.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 38.99% | $604.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 4.90% | $566.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 10.20% | $187.5K |
+| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.12% | $153.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 1.76% | $100K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ARB의 변동성 낮은 후보는 Arbitrum의 aave-v3, APY 0.08%, TVL $2.3M, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; Arbitrum의 fluid-lending, APY 1.12%, TVL $157.2K, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; Arbitrum의 uniswap-v3, APY 35.18%, TVL $634.4K, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; Arbitrum의 uniswap-v3, APY 16.39%, TVL $3.13M, https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token; Arbitrum의 gmx-v2-perps, APY 4.84%, TVL $574.3K, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; Arbitrum의 uniswap-v3, APY 1.72%, TVL $102.2K, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; Arbitrum의 uniswap-v3, APY 33.88%, TVL $1.47M, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; Arbitrum의 uniswap-v3, APY 9.75%, TVL $191.5K, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARB의 변동성 낮은 후보는 Arbitrum의 aave-v3, APY 0.08%, TVL $2.24M, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; Arbitrum의 fluid-lending, APY 1.12%, TVL $153.5K, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; Arbitrum의 uniswap-v3, APY 38.99%, TVL $604.9K, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; Arbitrum의 uniswap-v3, APY 17.44%, TVL $3.06M, https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token; Arbitrum의 gmx-v2-perps, APY 4.90%, TVL $566.5K, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; Arbitrum의 uniswap-v3, APY 1.76%, TVL $100K, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; Arbitrum의 uniswap-v3, APY 32.62%, TVL $1.44M, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; Arbitrum의 uniswap-v3, APY 10.20%, TVL $187.5K, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.08% | $2.3M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.12% | $157.2K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 35.18% | $634.4K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 16.39% | $3.13M |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 4.84% | $574.3K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 1.72% | $102.2K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 33.88% | $1.47M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 9.75% | $191.5K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.08% | $2.24M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.12% | $153.5K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 38.99% | $604.9K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 17.44% | $3.06M |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 4.90% | $566.5K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 1.76% | $100K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 32.62% | $1.44M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 10.20% | $187.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ARB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.08%부터 35.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ARB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.08%부터 38.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.64%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.65%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -43,14 +43,14 @@ ARB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.08%부터 35.18%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 16.39% | 17.01% | 기본 금리 |
+| uniswap-v3 | 17.44% | 17.07% | 기본 금리 |
 | aave-v3 | 0.08% | 0.08% | 기본 금리 |
-| uniswap-v3 | 33.88% | 32.36% | 기본 금리 |
-| uniswap-v3 | 35.18% | 17.55% | 기본 금리 |
-| gmx-v2-perps | 4.84% | 5.92% | 기본 금리 |
-| uniswap-v3 | 9.75% | 5.36% | 기본 금리 |
+| uniswap-v3 | 32.62% | 32.49% | 기본 금리 |
+| uniswap-v3 | 38.99% | 17.75% | 기본 금리 |
+| gmx-v2-perps | 4.90% | 5.90% | 기본 금리 |
+| uniswap-v3 | 10.20% | 5.40% | 기본 금리 |
 | fluid-lending | 1.12% | 1.07% | 기본 금리 |
-| uniswap-v3 | 1.72% | 1.80% | 기본 금리 |
+| uniswap-v3 | 1.76% | 1.81% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ ARB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.08%부터 35.18%까
 
 ### 오늘 ARB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 33.88%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 32.62%예요.
 
 ### ARB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $23.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $23.18M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 33.88%예
 
 ### ARB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ARB의 변동성 낮은 후보는 Arbitrum의 aave-v3, APY 0.08%, TVL $2.3M, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; Arbitrum의 fluid-lending, APY 1.12%, TVL $157.2K, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; Arbitrum의 uniswap-v3, APY 35.18%, TVL $634.4K, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; Arbitrum의 uniswap-v3, APY 16.39%, TVL $3.13M, https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token; Arbitrum의 gmx-v2-perps, APY 4.84%, TVL $574.3K, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; Arbitrum의 uniswap-v3, APY 1.72%, TVL $102.2K, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; Arbitrum의 uniswap-v3, APY 33.88%, TVL $1.47M, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; Arbitrum의 uniswap-v3, APY 9.75%, TVL $191.5K, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARB의 변동성 낮은 후보는 Arbitrum의 aave-v3, APY 0.08%, TVL $2.24M, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; Arbitrum의 fluid-lending, APY 1.12%, TVL $153.5K, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; Arbitrum의 uniswap-v3, APY 38.99%, TVL $604.9K, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; Arbitrum의 uniswap-v3, APY 17.44%, TVL $3.06M, https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token; Arbitrum의 gmx-v2-perps, APY 4.90%, TVL $566.5K, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; Arbitrum의 uniswap-v3, APY 1.76%, TVL $100K, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; Arbitrum의 uniswap-v3, APY 32.62%, TVL $1.44M, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; Arbitrum의 uniswap-v3, APY 10.20%, TVL $187.5K, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

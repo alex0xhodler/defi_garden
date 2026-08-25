@@ -4,17 +4,17 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 8.50% | $109.06M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 8.50% | $108.97M |
 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $759.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SAVUSD의 변동성 낮은 후보는 Avalanche의 avant-avusd, APY 8.50%, TVL $109.06M, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; Monad의 curve-dex, APY 5.00%, TVL $759.8K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAVUSD의 변동성 낮은 후보는 Avalanche의 avant-avusd, APY 8.50%, TVL $108.97M, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; Monad의 curve-dex, APY 5.00%, TVL $759.8K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 8.50% | $109.06M |
+| 1 | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 8.50% | $108.97M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $759.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 8.50%�
 
 ### SAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $152.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $152.78M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 8.50%�
 
 ### SAVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SAVUSD의 변동성 낮은 후보는 Avalanche의 avant-avusd, APY 8.50%, TVL $109.06M, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; Monad의 curve-dex, APY 5.00%, TVL $759.8K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAVUSD의 변동성 낮은 후보는 Avalanche의 avant-avusd, APY 8.50%, TVL $108.97M, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; Monad의 curve-dex, APY 5.00%, TVL $759.8K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

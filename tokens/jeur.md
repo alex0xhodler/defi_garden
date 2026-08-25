@@ -1,11 +1,11 @@
 # JEUR DeFi Yields
 
-The highest honest JEUR yield right now is 16.89% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JEUR yield right now is 16.01% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.89% | $865.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 8.36% | $215.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.01% | $866.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 8.05% | $215.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-JEUR shows up in 2 pools here, with rates from 8.36% to 16.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JEUR shows up in 2 pools here, with rates from 8.05% to 16.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,8 +26,8 @@ JEUR shows up in 2 pools here, with rates from 8.36% to 16.89% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 16.89% | 12.68% | 100.00% incentives |
-| aerodrome-slipstream | 8.36% | 41.73% | 100.00% incentives |
+| aerodrome-v1 | 16.01% | 12.74% | 100.00% incentives |
+| aerodrome-slipstream | 8.05% | 41.65% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JEUR yield today?
 
-16.89% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+16.01% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many JEUR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.21M in total.
+3 live pools clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 

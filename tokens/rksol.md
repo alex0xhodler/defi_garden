@@ -4,7 +4,7 @@ The highest honest RKSOL yield right now is 5.22% on starke-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa&src=seo_token) | Solana | 5.22% | $1.05M |
+| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa&src=seo_token) | Solana | 5.22% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RKSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.05M in total.
+1 live pool clear this page's $100K TVL floor, $1.04M in total.
 
 ### Are these rates safe?
 

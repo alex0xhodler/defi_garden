@@ -1,10 +1,10 @@
 # KODIUSDC.E DeFi Yields
 
-The highest honest KODIUSDC.E yield right now is 6.60% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIUSDC.E yield right now is 6.45% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 6.60% | $427.1K |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 6.45% | $427.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIUSDC.E yield today?
 
-6.60% APY on berapaw (Berachain), based on live DefiLlama data.
+6.45% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIUSDC.E pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # CAPACITR DeFi Yields
 
-The highest honest CAPACITR yield right now is 88.79% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAPACITR yield right now is 72.78% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8468e3cf-f717-4eb1-b3e9-7b7b9d80a31d&src=seo_token) | Base | 88.79% | $215.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8468e3cf-f717-4eb1-b3e9-7b7b9d80a31d&src=seo_token) | Base | 72.78% | $210.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAPACITR yield today?
 
-88.79% APY on uniswap-v4 (Base), based on live DefiLlama data.
+72.78% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CAPACITR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.6K in total.
+1 live pool clear this page's $100K TVL floor, $210.9K in total.
 
 ### Are these rates safe?
 

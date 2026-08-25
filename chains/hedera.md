@@ -4,14 +4,14 @@ The highest honest Hedera yield right now is 20.59% on isle-finance (Hedera), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 7.19% | $1.15M |
+| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 7.08% | $1.12M |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=69f3d1b3-aa9f-4ef9-9b4d-e8ce652c4430&src=seo_chain) | 20.59% | $517.9K |
-| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 15.98% | $499.7K |
+| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 15.85% | $493K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=6ecd5969-737d-4e09-95e5-72561e63e911&src=seo_chain) | 13.56% | $400.8K |
-| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 1.68% | $286.8K |
-| HBARX-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_chain) | 0.01% | $280.5K |
-| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 16.25% | $152.6K |
-| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_chain) | 1.11% | $123.9K |
+| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 1.74% | $279.5K |
+| HBARX-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_chain) | 0.01% | $273.2K |
+| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 16.45% | $149.6K |
+| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_chain) | 1.11% | $120.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hedera pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.41M in total.
+8 live pools clear this page's $100K TVL floor, $3.35M in total.
 
 ### Are these rates safe?
 

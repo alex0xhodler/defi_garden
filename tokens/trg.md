@@ -4,7 +4,7 @@ The highest honest TRG yield right now is 0.05% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.05% | $381.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.05% | $378.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $510.4K in total.
+2 live pools clear this page's $100K TVL floor, $507.3K in total.
 
 ### Are these rates safe?
 

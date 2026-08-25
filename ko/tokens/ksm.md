@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=1349a665-da32-4c4a-b1fb-83980ceddc2b&src=seo_token) | Polkadot | 1.16% | $194.8K |
+| [hydration-dex →](https://www.defi.garden/?pool=1349a665-da32-4c4a-b1fb-83980ceddc2b&src=seo_token) | Polkadot | 1.16% | $191.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 1.16%�
 
 ### KSM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $194.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $191.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,12 +33,12 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 1.16%�
 
 ## 관련 토큰
 
+- [SKY](https://www.defi.garden/ko/tokens/sky)
 - [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/ko/tokens/apyusd)
 - [GETH](https://www.defi.garden/ko/tokens/geth)
 - [VDOT](https://www.defi.garden/ko/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/ko/tokens/hollar)
-- [ADOT](https://www.defi.garden/ko/tokens/adot)
 
 ## 이용 가능한 체인
 

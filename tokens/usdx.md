@@ -5,7 +5,7 @@ The highest honest USDX yield right now is 3.50% on clearpool-lending (Flare), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $15.39M |
-| [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 1.27% | $142.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 1.32% | $142.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,16 +16,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDX shows up in 2 pools here, with rates from 1.27% to 3.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDX shows up in 2 pools here, with rates from 1.32% to 3.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | Base rate |
-| raydium-amm | 1.27% | 1.38% | Base rate |
+| raydium-amm | 1.32% | 1.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

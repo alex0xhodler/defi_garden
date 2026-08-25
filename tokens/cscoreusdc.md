@@ -1,10 +1,10 @@
 # CSCOREUSDC DeFi Yields
 
-The highest honest CSCOREUSDC yield right now is 4.03% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSCOREUSDC yield right now is 4.05% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=5f406764-32fd-44bf-aa2a-0114d6c4c0ec&src=seo_token) | Base | 4.03% | $103.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=5f406764-32fd-44bf-aa2a-0114d6c4c0ec&src=seo_token) | Base | 4.05% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSCOREUSDC yield today?
 
-4.03% APY on morpho-blue (Base), based on live DefiLlama data.
+4.05% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many CSCOREUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.2K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 

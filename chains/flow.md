@@ -4,8 +4,8 @@ The highest honest Flow yield right now is 8.02% on more-markets (Flow), among 7
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $3.82M |
-| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 1.95% | $465.1K |
+| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $3.74M |
+| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 1.95% | $454.1K |
 | STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $315K |
 | PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_chain) | 8.02% | $134.9K |
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Flow pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $7.17M in total.
+7 live pools clear this page's $100K TVL floor, $7.04M in total.
 
 ### Are these rates safe?
 

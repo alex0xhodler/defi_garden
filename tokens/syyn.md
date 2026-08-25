@@ -4,7 +4,7 @@ The highest honest SYYN yield right now is 0.61% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8421abe2-5158-468f-8cca-761a065988e5&src=seo_token) | Base | 0.61% | $108K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8421abe2-5158-468f-8cca-761a065988e5&src=seo_token) | Base | 0.61% | $107.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SYYN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108K in total.
+1 live pool clear this page's $100K TVL floor, $107.5K in total.
 
 ### Are these rates safe?
 

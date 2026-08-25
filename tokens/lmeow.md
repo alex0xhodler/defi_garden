@@ -1,10 +1,10 @@
 # LMEOW DeFi Yields
 
-The highest honest LMEOW yield right now is 40.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMEOW yield right now is 43.59% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ab021482-2488-4bdb-bdc4-5ceb333d6d1e&src=seo_token) | Ethereum | 40.16% | $675.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ab021482-2488-4bdb-bdc4-5ceb333d6d1e&src=seo_token) | Ethereum | 43.59% | $637.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMEOW yield today?
 
-40.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+43.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LMEOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $675.4K in total.
+1 live pool clear this page's $100K TVL floor, $637.5K in total.
 
 ### Are these rates safe?
 

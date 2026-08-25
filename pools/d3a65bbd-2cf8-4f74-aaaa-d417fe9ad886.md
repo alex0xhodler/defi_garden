@@ -1,6 +1,6 @@
 # LP-HAY — wombat-exchange on BSC
 
-**Total APY:** 0.06% (0.02% Base · + 0.05% Rewards)
+**Total APY:** 0.06% (0.01% Base · + 0.05% Rewards)
 
 **TVL:** $363.8K
 

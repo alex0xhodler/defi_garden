@@ -4,7 +4,7 @@ The highest honest CDAI yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $567K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $566.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CDAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $747.2K in total.
+2 live pools clear this page's $100K TVL floor, $747K in total.
 
 ### Are these rates safe?
 

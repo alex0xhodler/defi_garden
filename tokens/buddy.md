@@ -1,10 +1,10 @@
 # BUDDY DeFi Yields
 
-The highest honest BUDDY yield right now is 8.67% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUDDY yield right now is 10.02% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=0769c153-7ba5-4993-91e7-aa95f81dcdd3&src=seo_token) | Hyperliquid L1 | 8.67% | $467.1K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=0769c153-7ba5-4993-91e7-aa95f81dcdd3&src=seo_token) | Hyperliquid L1 | 10.02% | $453.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUDDY yield today?
 
-8.67% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+10.02% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many BUDDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $467.1K in total.
+1 live pool clear this page's $100K TVL floor, $453.6K in total.
 
 ### Are these rates safe?
 

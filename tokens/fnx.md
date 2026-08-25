@@ -4,7 +4,7 @@ The highest honest FNX yield right now is 0.02% on uniswap-v4 (OP Mainnet), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a73aa92d-ca72-4cb5-b39e-2444c1f9704d&src=seo_token) | OP Mainnet | 0.02% | $784.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a73aa92d-ca72-4cb5-b39e-2444c1f9704d&src=seo_token) | OP Mainnet | 0.02% | $784.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FNX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $784.8K in total.
+1 live pool clear this page's $100K TVL floor, $784.3K in total.
 
 ### Are these rates safe?
 

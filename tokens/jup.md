@@ -4,32 +4,32 @@ The highest honest JUP yield right now is 0.01% on project-0 (Solana), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $973.3K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 152.12% | $734.6K |
-| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 83.66% | $414.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 29.90% | $389.9K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 67.23% | $198.3K |
+| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $966.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 128.34% | $727.5K |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 86.11% | $419.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 39.23% | $386K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 51.72% | $196.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $973.3K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 83.66% APY, $414.8K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 67.23% APY, $198.3K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 29.90% APY, $389.9K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 152.12% APY, $734.6K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $966.9K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 86.11% APY, $419.9K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 51.72% APY, $196.4K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 39.23% APY, $386K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 128.34% APY, $727.5K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $973.3K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 83.66% | $414.8K |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 67.23% | $198.3K |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 29.90% | $389.9K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 152.12% | $734.6K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $966.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 86.11% | $419.9K |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 51.72% | $196.4K |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 39.23% | $386K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 128.34% | $727.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JUP shows up in 5 pools here, with rates from 0.01% to 152.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUP shows up in 5 pools here, with rates from 0.01% to 128.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 12.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 13.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -38,10 +38,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | project-0 | 0.01% | 0.01% | Base rate |
-| kamino-liquidity | 152.12% | 35.23% | Base rate |
-| orca-dex | 83.66% | 24.68% | Base rate |
-| kamino-liquidity | 29.90% | 11.58% | Base rate |
-| kamino-liquidity | 67.23% | 12.83% | Base rate |
+| kamino-liquidity | 128.34% | 35.95% | Base rate |
+| orca-dex | 86.11% | 25.07% | Base rate |
+| kamino-liquidity | 39.23% | 11.79% | Base rate |
+| kamino-liquidity | 51.72% | 13.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.91M in total.
+6 live pools clear this page's $100K TVL floor, $4.87M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JUP pools have the most stable APY history?
 
-Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $973.3K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 83.66% APY, $414.8K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 67.23% APY, $198.3K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 29.90% APY, $389.9K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 152.12% APY, $734.6K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $966.9K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 86.11% APY, $419.9K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 51.72% APY, $196.4K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 39.23% APY, $386K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 128.34% APY, $727.5K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

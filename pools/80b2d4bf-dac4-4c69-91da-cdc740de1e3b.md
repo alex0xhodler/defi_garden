@@ -1,6 +1,6 @@
 # SBMORPHOUSDC — morpho-blue on Ethereum
 
-**Total APY:** 3.79% (3.79% Base · + 0.00% Rewards)
+**Total APY:** 3.78% (3.78% Base · + 0.00% Rewards)
 
 **TVL:** $10.28M
 

@@ -2,7 +2,7 @@
 
 **Total APY:** 0.53% (0.53% Base · + 0.00% Rewards)
 
-**TVL:** $288.1K
+**TVL:** $287.8K
 
 **Pool Type:** Yield Farming
 

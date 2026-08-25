@@ -4,7 +4,7 @@ The highest honest SOLARBA yield right now is 0.84% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=cbd46388-671e-4505-a4e3-b27844be3a24&src=seo_token) | Solana | 0.84% | $242K |
+| [raydium-amm →](https://www.defi.garden/?pool=cbd46388-671e-4505-a4e3-b27844be3a24&src=seo_token) | Solana | 0.84% | $239.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLARBA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $242K in total.
+1 live pool clear this page's $100K TVL floor, $239.9K in total.
 
 ### Are these rates safe?
 

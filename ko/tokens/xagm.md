@@ -1,10 +1,10 @@
 # XAGM 디파이 수익률
 
-현재 XAGM의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 20.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAGM의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 21.31%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 20.38% | $159.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 21.31% | $162.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 XAGM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 20.38%예요.
+DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 21.31%예요.
 
 ### XAGM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $159.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $162.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 20.38%예요
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 
 ## 이용 가능한 체인
 

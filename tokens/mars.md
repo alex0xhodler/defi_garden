@@ -4,7 +4,7 @@ The highest honest MARS yield right now is 0.08% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 0.08% | $104.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2bf0ebd5-6850-4571-a924-85a292aa450b&src=seo_token) | Ethereum | 0.08% | $103.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MARS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $205.5K in total.
+2 live pools clear this page's $100K TVL floor, $204.1K in total.
 
 ### Are these rates safe?
 

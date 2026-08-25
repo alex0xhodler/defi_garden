@@ -1,10 +1,10 @@
 # GENO DeFi Yields
 
-The highest honest GENO yield right now is 0.17% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GENO yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=715b3905-9730-4663-afd7-738f24003e94&src=seo_token) | Ethereum | 0.17% | $1.02M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=715b3905-9730-4663-afd7-738f24003e94&src=seo_token) | Ethereum | 0.01% | $1.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GENO yield today?
 
-0.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GENO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.02M in total.
+1 live pool clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 

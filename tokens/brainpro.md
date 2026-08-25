@@ -4,7 +4,7 @@ The highest honest BRAINPRO yield right now is 0.01% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d799b0e7-afce-4eb0-8ddd-47ff6c58afa7&src=seo_token) | Base | 0.01% | $120.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d799b0e7-afce-4eb0-8ddd-47ff6c58afa7&src=seo_token) | Base | 0.01% | $119.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BRAINPRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.9K in total.
+1 live pool clear this page's $100K TVL floor, $119.5K in total.
 
 ### Are these rates safe?
 

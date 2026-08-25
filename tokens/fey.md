@@ -1,27 +1,27 @@
 # FEY DeFi Yields
 
-The highest honest FEY yield right now is 0.13% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEY yield right now is 0.18% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.92% | $197K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.18% | $117.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.4K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.18% APY, $117.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.92% APY, $197K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.13% | $118.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.91% | $199.4K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.18% | $117.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.92% | $197K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FEY shows up in 2 pools here, with rates from 0.13% to 0.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FEY shows up in 2 pools here, with rates from 0.18% to 0.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.91% | 2.58% | Base rate |
-| uniswap-v2 | 0.13% | 0.31% | Base rate |
+| uniswap-v4 | 0.92% | 2.57% | Base rate |
+| uniswap-v2 | 0.18% | 0.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FEY yield today?
 
-0.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FEY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $317.7K in total.
+2 live pools clear this page's $100K TVL floor, $314.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FEY pools have the most stable APY history?
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.13% APY, $118.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.91% APY, $199.4K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.18% APY, $117.4K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.92% APY, $197K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

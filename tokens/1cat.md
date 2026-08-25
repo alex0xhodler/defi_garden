@@ -1,10 +1,10 @@
 # 1CAT DeFi Yields
 
-The highest honest 1CAT yield right now is 7.19% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1CAT yield right now is 12.12% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8102988d-0797-4833-a63b-3daff946fe58&src=seo_token) | Ethereum | 7.19% | $236.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8102988d-0797-4833-a63b-3daff946fe58&src=seo_token) | Ethereum | 12.12% | $232K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1CAT yield today?
 
-7.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+12.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 1CAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $236.2K in total.
+1 live pool clear this page's $100K TVL floor, $232K in total.
 
 ### Are these rates safe?
 

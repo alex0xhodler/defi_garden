@@ -4,7 +4,7 @@ The highest honest FINE yield right now is 0.14% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=43d0840a-a66c-4ce7-9faf-822c0f47e855&src=seo_token) | Ethereum | 0.14% | $160.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43d0840a-a66c-4ce7-9faf-822c0f47e855&src=seo_token) | Ethereum | 0.14% | $158.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FINE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.6K in total.
+1 live pool clear this page's $100K TVL floor, $158.4K in total.
 
 ### Are these rates safe?
 

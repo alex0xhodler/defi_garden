@@ -1,39 +1,39 @@
 # USDC.E DeFi Yields
 
-The highest honest USDC.E yield right now is 12.22% on sushiswap-v3 (Arbitrum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.E yield right now is 7.99% on uniswap-v3 (Arbitrum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.08% | $4.97M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 5.77% | $2.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 7.83% | $1.11M |
-| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.44% | $635.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.06% | $4.97M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 5.64% | $2.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 7.99% | $1.11M |
+| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.39% | $635.2K |
 | [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.22% | $586.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.92% | $571.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.93% | $570.1K |
 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 0.89% | $535.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 12.22% | $477.6K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 13.70% | $475.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.92% APY, $571.1K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 5.77% APY, $2.04M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; shadow-exchange-clmm (Sonic), 0.89% APY, $535.6K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; dolomite (Berachain), 3.22% APY, $586.6K TVL, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; curve-dex (Arbitrum), 0.44% APY, $635.2K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.08% APY, $4.97M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 12.22% APY, $477.6K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 7.83% APY, $1.11M TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.93% APY, $570.1K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 5.64% APY, $2.04M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; shadow-exchange-clmm (Sonic), 0.89% APY, $535.6K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; dolomite (Berachain), 3.22% APY, $586.6K TVL, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; curve-dex (Arbitrum), 0.39% APY, $635.2K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.06% APY, $4.97M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 13.70% APY, $475.4K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 7.99% APY, $1.11M TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.92% | $571.1K |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 5.77% | $2.04M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.93% | $570.1K |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 5.64% | $2.04M |
 | 3 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 0.89% | $535.6K |
 | 4 | [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.22% | $586.6K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.44% | $635.2K |
-| 6 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.08% | $4.97M |
-| 7 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 12.22% | $477.6K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 7.83% | $1.11M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.39% | $635.2K |
+| 6 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.06% | $4.97M |
+| 7 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 13.70% | $475.4K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 7.99% | $1.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDC.E shows up in 8 pools here, with rates from 0.08% to 12.22% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDC.E shows up in 8 pools here, with rates from 0.06% to 13.70% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ USDC.E shows up in 8 pools here, with rates from 0.08% to 12.22% APY across 5 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v3.1 | 0.08% | 0.10% | Base rate |
-| sparkdex-v4 | 5.77% | 6.57% | 99.13% incentives |
-| uniswap-v3 | 7.83% | 7.01% | Base rate |
-| curve-dex | 0.44% | 0.15% | Base rate |
-| dolomite | 3.22% | 3.93% | Base rate |
-| aave-v3 | 2.92% | 2.83% | Base rate |
+| sparkdex-v3.1 | 0.06% | 0.10% | Base rate |
+| sparkdex-v4 | 5.64% | 6.61% | 99.32% incentives |
+| uniswap-v3 | 7.99% | 7.05% | Base rate |
+| curve-dex | 0.39% | 0.16% | Base rate |
+| dolomite | 3.22% | 3.92% | Base rate |
+| aave-v3 | 2.93% | 2.83% | Base rate |
 | shadow-exchange-clmm | 0.89% | 1.41% | 100.00% incentives |
-| sushiswap-v3 | 12.22% | 8.98% | Base rate |
+| sushiswap-v3 | 13.70% | 9.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDC.E yield today?
 
-12.22% APY on sushiswap-v3 (Arbitrum), based on live DefiLlama data.
+7.99% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many USDC.E pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $16.31M in total.
+30 live pools clear this page's $100K TVL floor, $16.26M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDC.E pools have the most stable APY history?
 
-Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.92% APY, $571.1K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 5.77% APY, $2.04M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; shadow-exchange-clmm (Sonic), 0.89% APY, $535.6K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; dolomite (Berachain), 3.22% APY, $586.6K TVL, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; curve-dex (Arbitrum), 0.44% APY, $635.2K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.08% APY, $4.97M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 12.22% APY, $477.6K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 7.83% APY, $1.11M TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.93% APY, $570.1K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 5.64% APY, $2.04M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; shadow-exchange-clmm (Sonic), 0.89% APY, $535.6K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; dolomite (Berachain), 3.22% APY, $586.6K TVL, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; curve-dex (Arbitrum), 0.39% APY, $635.2K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.06% APY, $4.97M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 13.70% APY, $475.4K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 7.99% APY, $1.11M TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

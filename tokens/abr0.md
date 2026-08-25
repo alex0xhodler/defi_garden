@@ -4,7 +4,7 @@ The highest honest ABR0 yield right now is 0.02% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=48ce0a8b-0585-485b-83fa-55986c9bba13&src=seo_token) | Ethereum | 0.02% | $105.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=48ce0a8b-0585-485b-83fa-55986c9bba13&src=seo_token) | Ethereum | 0.02% | $105.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ABR0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.6K in total.
+1 live pool clear this page's $100K TVL floor, $105.5K in total.
 
 ### Are these rates safe?
 

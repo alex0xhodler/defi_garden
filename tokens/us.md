@@ -1,10 +1,10 @@
 # US DeFi Yields
 
-The highest honest US yield right now is 3.66% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest US yield right now is 3.51% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 3.66% | $540.4K |
+| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 3.51% | $541.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest US yield today?
 
-3.66% APY on cetus-clmm (Sui), based on live DefiLlama data.
+3.51% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many US pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $540.4K in total.
+1 live pool clear this page's $100K TVL floor, $541.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank US pools. This view covers AP
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 

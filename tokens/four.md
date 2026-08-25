@@ -4,7 +4,7 @@ The highest honest FOUR yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f8711ba6-8695-4a9f-88e7-d95d0f413f58&src=seo_token) | Ethereum | 0.02% | $963.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f8711ba6-8695-4a9f-88e7-d95d0f413f58&src=seo_token) | Ethereum | 0.02% | $953.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FOUR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $963.1K in total.
+1 live pool clear this page's $100K TVL floor, $953.9K in total.
 
 ### Are these rates safe?
 

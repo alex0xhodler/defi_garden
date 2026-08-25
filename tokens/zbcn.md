@@ -1,10 +1,10 @@
 # ZBCN DeFi Yields
 
-The highest honest ZBCN yield right now is 148.38% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZBCN yield right now is 157.06% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=01b5637e-2599-41d0-a141-88e7ae35c126&src=seo_token) | Solana | 148.38% | $136K |
+| [orca-dex →](https://www.defi.garden/?pool=01b5637e-2599-41d0-a141-88e7ae35c126&src=seo_token) | Solana | 157.06% | $133.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZBCN yield today?
 
-148.38% APY on orca-dex (Solana), based on live DefiLlama data.
+157.06% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ZBCN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136K in total.
+1 live pool clear this page's $100K TVL floor, $133.6K in total.
 
 ### Are these rates safe?
 

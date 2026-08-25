@@ -1,10 +1,10 @@
 # API3COREUSDC 디파이 수익률
 
-현재 API3COREUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.89%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 API3COREUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c2bec53-0061-40f8-b389-6b253b49783e&src=seo_token) | Ethereum | 3.89% | $2.76M |
+| [morpho-blue →](https://www.defi.garden/?pool=0c2bec53-0061-40f8-b389-6b253b49783e&src=seo_token) | Ethereum | 3.87% | $2.76M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 API3COREUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.89%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.87%예요.
 
 ### API3COREUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

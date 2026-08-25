@@ -1,29 +1,29 @@
 # SW DeFi Yields
 
-The highest honest SW yield right now is 15.16% on spectra-v2 (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SW yield right now is 15.18% on spectra-v2 (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.47% | $859.4K |
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.16% | $859.4K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.51% | $812K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.18% | $812K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SW's lower-variability candidates are spectra-v2 (Flare), 8.47% APY, $859.4K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.16% APY, $859.4K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SW's lower-variability candidates are spectra-v2 (Flare), 8.51% APY, $812K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.18% APY, $812K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.47% | $859.4K |
-| 2 | [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.16% | $859.4K |
+| 1 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.51% | $812K |
+| 2 | [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.18% | $812K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SW shows up in 2 pools here, with rates from 8.47% to 15.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SW shows up in 2 pools here, with rates from 8.51% to 15.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 8.47% | 7.97% | Base rate |
-| spectra-v2 | 15.16% | 14.40% | Base rate |
+| spectra-v2 | 8.51% | 7.98% | Base rate |
+| spectra-v2 | 15.18% | 14.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SW yield today?
 
-15.16% APY on spectra-v2 (Flare), based on live DefiLlama data.
+15.18% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many SW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.72M in total.
+2 live pools clear this page's $100K TVL floor, $1.62M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SW pools have the most stable APY history?
 
-Based on APY history only, SW's lower-variability candidates are spectra-v2 (Flare), 8.47% APY, $859.4K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.16% APY, $859.4K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SW's lower-variability candidates are spectra-v2 (Flare), 8.51% APY, $812K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.18% APY, $812K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

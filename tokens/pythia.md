@@ -1,10 +1,10 @@
 # PYTHIA DeFi Yields
 
-The highest honest PYTHIA yield right now is 6.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYTHIA yield right now is 6.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=de8f3155-c7e9-4d5f-8497-dc83f4e683be&src=seo_token) | Solana | 6.63% | $712.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=de8f3155-c7e9-4d5f-8497-dc83f4e683be&src=seo_token) | Solana | 6.50% | $702.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PYTHIA yield today?
 
-6.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.50% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PYTHIA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $712.1K in total.
+1 live pool clear this page's $100K TVL floor, $702.9K in total.
 
 ### Are these rates safe?
 

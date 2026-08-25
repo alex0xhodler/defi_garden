@@ -1,11 +1,11 @@
 # Defichain DeFi Yields
 
-The highest honest Defichain yield right now is 0.40% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Defichain yield right now is 0.72% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.40% | $671.4K |
-| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 0.10% | $217.5K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.72% | $672.8K |
+| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 0.09% | $221.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Defichain yield today?
 
-0.40% APY on defichain-dex (Defichain), based on live DefiLlama data.
+0.72% APY on defichain-dex (Defichain), based on live DefiLlama data.
 
 ### How many Defichain pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.65M in total.
+8 live pools clear this page's $100K TVL floor, $3.66M in total.
 
 ### Are these rates safe?
 

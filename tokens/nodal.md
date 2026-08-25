@@ -1,10 +1,10 @@
 # NODAL DeFi Yields
 
-The highest honest NODAL yield right now is 3.57% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NODAL yield right now is 4.61% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c6b076a2-d197-48cd-b15a-c6a1059cac50&src=seo_token) | Polygon | 3.57% | $515.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c6b076a2-d197-48cd-b15a-c6a1059cac50&src=seo_token) | Polygon | 4.61% | $517.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NODAL yield today?
 
-3.57% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+4.61% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many NODAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $515.5K in total.
+1 live pool clear this page's $100K TVL floor, $517.3K in total.
 
 ### Are these rates safe?
 
