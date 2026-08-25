@@ -4,7 +4,7 @@ The highest honest DHN yield right now is 0.02% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a2b8369b-c67f-42d7-a36d-b3f5aa5dabf4&src=seo_token) | Ethereum | 0.02% | $7.25M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a2b8369b-c67f-42d7-a36d-b3f5aa5dabf4&src=seo_token) | Ethereum | 0.02% | $7.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DHN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.25M in total.
+1 live pool clear this page's $100K TVL floor, $7.26M in total.
 
 ### Are these rates safe?
 

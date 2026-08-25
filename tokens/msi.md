@@ -1,10 +1,10 @@
 # MSI DeFi Yields
 
-The highest honest MSI yield right now is 1.55% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSI yield right now is 1.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2c135c8c-ed65-4cb3-a231-7de4c20cf7bf&src=seo_token) | Ethereum | 1.55% | $175.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2c135c8c-ed65-4cb3-a231-7de4c20cf7bf&src=seo_token) | Ethereum | 1.56% | $174.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSI yield today?
 
-1.55% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.5K in total.
+1 live pool clear this page's $100K TVL floor, $174.6K in total.
 
 ### Are these rates safe?
 

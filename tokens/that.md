@@ -4,7 +4,7 @@ The highest honest THAT yield right now is 10.69% on uniswap-v3 (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 10.69% | $199.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 10.69% | $200.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many THAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.4K in total.
+1 live pool clear this page's $100K TVL floor, $200.2K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest AIRDROP yield right now is 0.01% on uniswap-v3 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4961bfb7-5a6c-4d50-a39f-f9cb8d678304&src=seo_token) | Base | 0.01% | $3.23M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4961bfb7-5a6c-4d50-a39f-f9cb8d678304&src=seo_token) | Base | 0.01% | $3.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIRDROP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.23M in total.
+1 live pool clear this page's $100K TVL floor, $3.21M in total.
 
 ### Are these rates safe?
 

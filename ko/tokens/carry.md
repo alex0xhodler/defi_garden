@@ -1,10 +1,10 @@
 # CARRY 디파이 수익률
 
-현재 CARRY의 가장 높은 정직한 수익률은 Ethereum의 vault-street-primeusd에서 9.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CARRY의 가장 높은 정직한 수익률은 Ethereum의 vault-street-primeusd에서 9.24%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vault-street-primeusd →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 9.30% | $225.6K |
+| [vault-street-primeusd →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 9.24% | $225.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CARRY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 vault-street-primeusd에서 APY 9.30%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 vault-street-primeusd에서 APY 9.24%예요.
 
 ### CARRY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

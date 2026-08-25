@@ -4,7 +4,7 @@ The highest honest YAK yield right now is 0.60% on yield-yak-aggregator (Avalanc
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.60% | $331.3K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.60% | $343.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $331.3K in total.
+1 live pool clear this page's $100K TVL floor, $343.3K in total.
 
 ### Are these rates safe?
 

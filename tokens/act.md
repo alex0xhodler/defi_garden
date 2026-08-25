@@ -4,7 +4,7 @@ The highest honest ACT yield right now is 10.65% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=804a0c7b-7eb7-4b75-b066-4c568704fefe&src=seo_token) | Solana | 10.65% | $1.43M |
+| [raydium-amm →](https://www.defi.garden/?pool=804a0c7b-7eb7-4b75-b066-4c568704fefe&src=seo_token) | Solana | 10.65% | $1.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ACT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.43M in total.
+1 live pool clear this page's $100K TVL floor, $1.42M in total.
 
 ### Are these rates safe?
 

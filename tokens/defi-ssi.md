@@ -1,10 +1,10 @@
 # DEFI.SSI DeFi Yields
 
-The highest honest DEFI.SSI yield right now is 27.34% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEFI.SSI yield right now is 25.08% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=dd116223-4792-48b5-8c31-e8b41477749c&src=seo_token) | Base | 27.34% | $505.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dd116223-4792-48b5-8c31-e8b41477749c&src=seo_token) | Base | 25.08% | $503.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEFI.SSI yield today?
 
-27.34% APY on uniswap-v3 (Base), based on live DefiLlama data.
+25.08% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DEFI.SSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $505.9K in total.
+1 live pool clear this page's $100K TVL floor, $503.3K in total.
 
 ### Are these rates safe?
 

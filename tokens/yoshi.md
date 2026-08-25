@@ -4,7 +4,7 @@ The highest honest YOSHI yield right now is 0.09% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4b49cd15-1b61-4c96-b08c-289055f85416&src=seo_token) | Base | 0.09% | $113.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4b49cd15-1b61-4c96-b08c-289055f85416&src=seo_token) | Base | 0.09% | $113.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.8K in total.
+1 live pool clear this page's $100K TVL floor, $113.3K in total.
 
 ### Are these rates safe?
 

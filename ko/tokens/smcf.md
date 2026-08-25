@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.05% | $159.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.05% | $158.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.05%예요.
 
 ### SMCF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $159.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $158.5K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,39 +1,39 @@
 # USDS 디파이 수익률
 
-현재 USDS의 가장 높은 정직한 수익률은 Ethereum의 sky-lending에서 7.69%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDS의 가장 높은 정직한 수익률은 Ethereum의 sky-lending에서 7.77%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.58% | $873.66M |
-| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.84% | $555.56M |
-| [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $362.11M |
-| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.03% | $295.86M |
-| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 7.69% | $168.78M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.55% | $873.58M |
+| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.92% | $554.45M |
+| [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $362.08M |
+| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.03% | $298.28M |
+| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 7.77% | $169.73M |
 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token) | Base | 3.52% | $11.99M |
 | [yearn-finance →](https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token) | Ethereum | 6.91% | $11.42M |
-| [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.69% | $11.41M |
+| [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.68% | $10.35M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.52%, TVL $362.11M, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token; Base의 spark-savings, APY 3.52%, TVL $11.99M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token; Ethereum의 sparklend, APY 3.84%, TVL $555.56M, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token; Ethereum의 centrifuge-protocol, APY 3.58%, TVL $873.66M, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token; Ethereum의 sparklend, APY 2.03%, TVL $295.86M, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token; Ethereum의 sky-lending, APY 7.69%, TVL $168.78M, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token; Ethereum의 yearn-finance, APY 6.91%, TVL $11.42M, https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token; Ethereum의 yearn-finance, APY 3.69%, TVL $11.41M, https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.52%, TVL $362.08M, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token; Base의 spark-savings, APY 3.52%, TVL $11.99M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token; Ethereum의 sparklend, APY 3.92%, TVL $554.45M, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token; Ethereum의 centrifuge-protocol, APY 3.55%, TVL $873.58M, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token; Ethereum의 sparklend, APY 2.03%, TVL $298.28M, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token; Ethereum의 sky-lending, APY 7.77%, TVL $169.73M, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token; Ethereum의 yearn-finance, APY 6.91%, TVL $11.42M, https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token; Ethereum의 yearn-finance, APY 3.68%, TVL $10.35M, https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $362.11M |
+| 1 | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $362.08M |
 | 2 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token) | Base | 3.52% | $11.99M |
-| 3 | [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.84% | $555.56M |
-| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.58% | $873.66M |
-| 5 | [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.03% | $295.86M |
-| 6 | [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 7.69% | $168.78M |
+| 3 | [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.92% | $554.45M |
+| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.55% | $873.58M |
+| 5 | [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.03% | $298.28M |
+| 6 | [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 7.77% | $169.73M |
 | 7 | [yearn-finance →](https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token) | Ethereum | 6.91% | $11.42M |
-| 8 | [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.69% | $11.41M |
+| 8 | [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.68% | $10.35M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.03%부터 7.69%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.03%부터 7.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.52%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,14 +41,14 @@ USDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.03%부터 7.69%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| centrifuge-protocol | 3.58% | 3.72% | 기본 금리 |
-| sparklend | 3.84% | 3.25% | 인센티브 100.00% |
+| centrifuge-protocol | 3.55% | 3.72% | 기본 금리 |
+| sparklend | 3.92% | 3.25% | 인센티브 100.00% |
 | spark-savings | 3.52% | 3.52% | 기본 금리 |
 | sparklend | 2.03% | 2.03% | 기본 금리 |
-| sky-lending | 7.69% | 6.04% | 인센티브 100.00% |
+| sky-lending | 7.77% | 6.04% | 인센티브 100.00% |
 | spark-savings | 3.52% | 3.52% | 기본 금리 |
-| yearn-finance | 6.91% | 8.47% | 기본 금리 |
-| yearn-finance | 3.69% | 3.43% | 기본 금리 |
+| yearn-finance | 6.91% | 8.49% | 기본 금리 |
+| yearn-finance | 3.68% | 3.43% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,7 +56,7 @@ USDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.03%부터 7.69%까
 
 ### 오늘 USDS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sky-lending에서 APY 7.69%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sky-lending에서 APY 7.77%예요.
 
 ### USDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sky-lending에서 APY 7.69%예
 
 ### USDS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.52%, TVL $362.11M, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token; Base의 spark-savings, APY 3.52%, TVL $11.99M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token; Ethereum의 sparklend, APY 3.84%, TVL $555.56M, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token; Ethereum의 centrifuge-protocol, APY 3.58%, TVL $873.66M, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token; Ethereum의 sparklend, APY 2.03%, TVL $295.86M, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token; Ethereum의 sky-lending, APY 7.69%, TVL $168.78M, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token; Ethereum의 yearn-finance, APY 6.91%, TVL $11.42M, https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token; Ethereum의 yearn-finance, APY 3.69%, TVL $11.41M, https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.52%, TVL $362.08M, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token; Base의 spark-savings, APY 3.52%, TVL $11.99M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token; Ethereum의 sparklend, APY 3.92%, TVL $554.45M, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token; Ethereum의 centrifuge-protocol, APY 3.55%, TVL $873.58M, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token; Ethereum의 sparklend, APY 2.03%, TVL $298.28M, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token; Ethereum의 sky-lending, APY 7.77%, TVL $169.73M, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token; Ethereum의 yearn-finance, APY 6.91%, TVL $11.42M, https://www.defi.garden/?pool=3033d94b-dcaf-4a0b-a9dd-a92998c74d5e&src=seo_token; Ethereum의 yearn-finance, APY 3.68%, TVL $10.35M, https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

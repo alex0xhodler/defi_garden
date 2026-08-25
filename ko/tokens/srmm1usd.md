@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 1.57% | $420.4K |
+| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 1.57% | $420.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 1.57%
 
 ### SRMM1USD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $420.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $420.5K예요.
 
 ### 이 수익률은 안전한가요?
 

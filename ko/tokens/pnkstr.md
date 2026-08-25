@@ -1,29 +1,29 @@
 # PNKSTR 디파이 수익률
 
-현재 PNKSTR의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 17.56%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PNKSTR의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 18.06%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 17.56% | $696.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.15% | $357.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.07% | $121.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 18.06% | $693.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.16% | $356K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.07% | $121.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PNKSTR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.15%, TVL $357.2K, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; Ethereum의 uniswap-v4, APY 0.07%, TVL $121.2K, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; Ethereum의 uniswap-v4, APY 17.56%, TVL $696.4K, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PNKSTR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $356K, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; Ethereum의 uniswap-v4, APY 0.07%, TVL $121.1K, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; Ethereum의 uniswap-v4, APY 18.06%, TVL $693.7K, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.15% | $357.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.07% | $121.2K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 17.56% | $696.4K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.16% | $356K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.07% | $121.1K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 18.06% | $693.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PNKSTR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.07%부터 17.56%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PNKSTR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.07%부터 18.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,8 +33,8 @@ PNKSTR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.07%부터 17.56%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 17.56% | 15.52% | 기본 금리 |
-| uniswap-v4 | 0.15% | 0.21% | 기본 금리 |
+| uniswap-v4 | 18.06% | 15.44% | 기본 금리 |
+| uniswap-v4 | 0.16% | 0.21% | 기본 금리 |
 | uniswap-v4 | 0.07% | 0.03% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -43,11 +43,11 @@ PNKSTR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.07%부터 17.56%
 
 ### 오늘 PNKSTR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 17.56%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 18.06%예요.
 
 ### PNKSTR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.62M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 17.56%예
 
 ### PNKSTR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PNKSTR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.15%, TVL $357.2K, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; Ethereum의 uniswap-v4, APY 0.07%, TVL $121.2K, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; Ethereum의 uniswap-v4, APY 17.56%, TVL $696.4K, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PNKSTR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $356K, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; Ethereum의 uniswap-v4, APY 0.07%, TVL $121.1K, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; Ethereum의 uniswap-v4, APY 18.06%, TVL $693.7K, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

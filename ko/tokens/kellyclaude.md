@@ -1,10 +1,10 @@
 # KELLYCLAUDE 디파이 수익률
 
-현재 KELLYCLAUDE의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 8.60%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KELLYCLAUDE의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 4.94%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b000c1b5-b484-4349-8cec-c7cba2da7254&src=seo_token) | Base | 8.60% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b000c1b5-b484-4349-8cec-c7cba2da7254&src=seo_token) | Base | 4.94% | $1.02M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 KELLYCLAUDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 8.60%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 4.94%예요.
 
 ### KELLYCLAUDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

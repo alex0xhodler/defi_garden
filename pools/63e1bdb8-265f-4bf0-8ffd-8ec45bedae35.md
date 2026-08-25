@@ -1,8 +1,8 @@
 # OGPU-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.86% (0.86% Base · + 0.00% Rewards)
+**Total APY:** 0.87% (0.87% Base · + 0.00% Rewards)
 
-**TVL:** $188.8K
+**TVL:** $189.3K
 
 **Pool Type:** LP/DEX
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$1,044 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.86% right now vs a 3.13% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.87% right now vs a 3.13% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,044 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 

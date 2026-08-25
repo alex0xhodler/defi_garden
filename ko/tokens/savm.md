@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eadb12dc-a9d3-4b8f-992c-2c1cffe491c1&src=seo_token) | Ethereum | 0.01% | $174.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eadb12dc-a9d3-4b8f-992c-2c1cffe491c1&src=seo_token) | Ethereum | 0.01% | $173.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.01%예�
 
 ### SAVM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $174.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $173.9K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,10 +1,10 @@
 # SSV DeFi Yields
 
-The highest honest SSV yield right now is 9.70% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SSV yield right now is 9.57% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=78019537-31a3-49da-99b4-0a570b084c46&src=seo_token) | Ethereum | 9.70% | $362.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=78019537-31a3-49da-99b4-0a570b084c46&src=seo_token) | Ethereum | 9.57% | $363.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SSV yield today?
 
-9.70% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SSV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $362.8K in total.
+1 live pool clear this page's $100K TVL floor, $363.9K in total.
 
 ### Are these rates safe?
 

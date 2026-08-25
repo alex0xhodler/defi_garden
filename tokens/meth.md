@@ -4,18 +4,18 @@ The highest honest METH yield right now is 1.90% on meth-protocol (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.90% | $586.06M |
+| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.90% | $584.05M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.07% | $1.68M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $1.68M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 1.90% APY, $586.06M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $1.68M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 1.90% APY, $584.05M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.07% | $1.68M |
-| 2 | [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.90% | $586.06M |
+| 2 | [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.90% | $584.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many METH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $591.51M in total.
+3 live pools clear this page's $100K TVL floor, $589.46M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which METH pools have the most stable APY history?
 
-Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $1.68M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 1.90% APY, $586.06M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $1.68M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 1.90% APY, $584.05M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

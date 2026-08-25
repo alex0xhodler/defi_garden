@@ -1,13 +1,13 @@
 # CC 디파이 수익률
 
-현재 CC의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.01%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.01%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=791323b3-f244-5050-87b8-a59fb445e8ae&src=seo_token) | Solana | 0.01% | $92.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.01% | $185.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.01% | $184.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ CC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.01%까�
 
 ### 오늘 CC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.01%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.01%예요.
 
 ### CC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

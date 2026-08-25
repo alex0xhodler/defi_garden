@@ -1,6 +1,6 @@
 # ALPHAUSDCCOREV2 — morpho-blue on Ethereum
 
-**Total APY:** 6.39% (6.39% Base · + 0.00% Rewards)
+**Total APY:** 6.40% (6.40% Base · + 0.00% Rewards)
 
 **TVL:** $2.89M
 

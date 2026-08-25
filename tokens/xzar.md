@@ -1,10 +1,10 @@
 # XZAR DeFi Yields
 
-The highest honest XZAR yield right now is 1.73% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XZAR yield right now is 1.59% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3055b3f8-1430-4373-a931-585ce508739c&src=seo_token) | Polygon | 1.73% | $226.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3055b3f8-1430-4373-a931-585ce508739c&src=seo_token) | Polygon | 1.59% | $226.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XZAR yield today?
 
-1.73% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+1.59% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many XZAR pools clear the TVL floor?
 

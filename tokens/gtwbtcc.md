@@ -4,7 +4,7 @@ The highest honest GTWBTCC yield right now is 0.05% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e940c17d-f6fd-489f-86cc-b8deab397f44&src=seo_token) | Ethereum | 0.05% | $2.58M |
+| [morpho-blue →](https://www.defi.garden/?pool=e940c17d-f6fd-489f-86cc-b8deab397f44&src=seo_token) | Ethereum | 0.05% | $2.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTWBTCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.58M in total.
+1 live pool clear this page's $100K TVL floor, $2.57M in total.
 
 ### Are these rates safe?
 

@@ -1,6 +1,6 @@
 # SIERRA — pendle on Ethereum
 
-**Total APY:** 8.05% (8.05% Base · + 0.00% Rewards)
+**Total APY:** 8.06% (8.06% Base · + 0.00% Rewards)
 
 **TVL:** $10.42M
 

@@ -4,7 +4,7 @@ The highest honest CAP yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d01da74c-c3ab-4dd9-b93f-9c0f808515a1&src=seo_token) | Ethereum | 0.01% | $180.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d01da74c-c3ab-4dd9-b93f-9c0f808515a1&src=seo_token) | Ethereum | 0.01% | $179.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.2K in total.
+1 live pool clear this page's $100K TVL floor, $179.8K in total.
 
 ### Are these rates safe?
 

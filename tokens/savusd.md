@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAVUSD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $152.89M in total.
+8 live pools clear this page's $100K TVL floor, $152.9M in total.
 
 ### Are these rates safe?
 

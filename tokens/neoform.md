@@ -4,7 +4,7 @@ The highest honest NEOFORM yield right now is 0.01% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=81bc9d8b-b33c-4527-8f7f-1a66a44bfc20&src=seo_token) | Base | 0.01% | $128.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=81bc9d8b-b33c-4527-8f7f-1a66a44bfc20&src=seo_token) | Base | 0.01% | $127.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NEOFORM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.4K in total.
+1 live pool clear this page's $100K TVL floor, $127.8K in total.
 
 ### Are these rates safe?
 

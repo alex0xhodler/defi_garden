@@ -1,10 +1,10 @@
 # RNBW 디파이 수익률
 
-현재 RNBW의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 21.41%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RNBW의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 24.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=913fa7b2-9cd0-4216-8c32-1147bb6d5aaf&src=seo_token) | Base | 21.41% | $210.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=913fa7b2-9cd0-4216-8c32-1147bb6d5aaf&src=seo_token) | Base | 24.96% | $210.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 RNBW의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 21.41%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 24.96%예요.
 
 ### RNBW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

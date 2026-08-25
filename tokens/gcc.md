@@ -4,7 +4,7 @@ The highest honest GCC yield right now is 0.07% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5b8b88ba-d003-4673-a709-89497349e228&src=seo_token) | Ethereum | 0.07% | $167.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5b8b88ba-d003-4673-a709-89497349e228&src=seo_token) | Ethereum | 0.07% | $167.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.9K in total.
+1 live pool clear this page's $100K TVL floor, $167.1K in total.
 
 ### Are these rates safe?
 

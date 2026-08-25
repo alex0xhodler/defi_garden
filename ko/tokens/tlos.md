@@ -1,10 +1,10 @@
 # TLOS 디파이 수익률
 
-현재 TLOS의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 213.64%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TLOS의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 207.57%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8&src=seo_token) | Base | 213.64% | $196K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8&src=seo_token) | Base | 207.57% | $196K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 TLOS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 213.64%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 207.57%예요.
 
 ### TLOS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

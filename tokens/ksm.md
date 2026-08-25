@@ -4,7 +4,7 @@ The highest honest KSM yield right now is 1.16% on hydration-dex (Polkadot), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=1349a665-da32-4c4a-b1fb-83980ceddc2b&src=seo_token) | Polkadot | 1.16% | $199.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=1349a665-da32-4c4a-b1fb-83980ceddc2b&src=seo_token) | Polkadot | 1.16% | $197.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KSM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.9K in total.
+1 live pool clear this page's $100K TVL floor, $197.5K in total.
 
 ### Are these rates safe?
 

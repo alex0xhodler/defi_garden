@@ -1,12 +1,12 @@
 # DOGE-USDT — uniswap-v2 on Ethereum
 
-**Total APY:** 6.94% (6.94% Base · + 0.00% Rewards)
+**Total APY:** 6.25% (6.25% Base · + 0.00% Rewards)
 
-**TVL:** $3.05M
+**TVL:** $3.04M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.22%
+**30d Mean APY:** 3.23%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,398 in 5y at current rates.
+$1,000 in this pool grows to ~$1,354 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 6.94% right now vs a 3.22% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 6.25% right now vs a 3.23% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,398 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,354 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 

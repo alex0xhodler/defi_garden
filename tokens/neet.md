@@ -1,29 +1,29 @@
 # NEET DeFi Yields
 
-The highest honest NEET yield right now is 18.09% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEET yield right now is 17.05% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 18.09% | $459.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token) | Solana | 17.37% | $101.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 17.05% | $458.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token) | Solana | 16.43% | $100.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NEET's lower-variability candidates are raydium-amm (Solana), 17.37% APY, $101.2K TVL, https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token; raydium-amm (Solana), 18.09% APY, $459.7K TVL, https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEET's lower-variability candidates are raydium-amm (Solana), 16.43% APY, $100.2K TVL, https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token; raydium-amm (Solana), 17.05% APY, $458.1K TVL, https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token) | Solana | 17.37% | $101.2K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 18.09% | $459.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token) | Solana | 16.43% | $100.2K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 17.05% | $458.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEET shows up in 2 pools here, with rates from 17.37% to 18.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEET shows up in 2 pools here, with rates from 16.43% to 17.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 18.09% | 14.45% | Base rate |
-| raydium-amm | 17.37% | 14.48% | Base rate |
+| raydium-amm | 17.05% | 14.46% | Base rate |
+| raydium-amm | 16.43% | 14.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEET yield today?
 
-18.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEET pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $560.9K in total.
+2 live pools clear this page's $100K TVL floor, $558.2K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEET pools have the most stable APY history?
 
-Based on APY history only, NEET's lower-variability candidates are raydium-amm (Solana), 17.37% APY, $101.2K TVL, https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token; raydium-amm (Solana), 18.09% APY, $459.7K TVL, https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEET's lower-variability candidates are raydium-amm (Solana), 16.43% APY, $100.2K TVL, https://www.defi.garden/?pool=f9fd7ee7-6cec-42ad-9634-22e3e53af927&src=seo_token; raydium-amm (Solana), 17.05% APY, $458.1K TVL, https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

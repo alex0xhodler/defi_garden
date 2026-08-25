@@ -1,33 +1,33 @@
 # CBBTC 디파이 수익률
 
-현재 CBBTC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 9.25%이며, $100K TVL 기준을 넘는 174개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBBTC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 7.74%이며, $100K TVL 기준을 넘는 175개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $201.54M |
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 14.00% | $95.49M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 9.25% | $20.26M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 2.41% | $18.64M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.94% | $18.11M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.95% | $13.76M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.41% | $13.52M |
-| [moonwell-lending →](https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token) | Base | 0.09% | $12.58M |
+| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $199.75M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 14.00% | $95.27M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 7.74% | $20.22M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.87% | $18.02M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 3.47% | $16.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.95% | $13.64M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.42% | $13.46M |
+| [moonwell-lending →](https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token) | Base | 0.09% | $12.53M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CBBTC의 변동성 낮은 후보는 Base의 aave-v3, APY 0.01%, TVL $201.54M, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; Base의 uniswap-v3, APY 0.95%, TVL $13.76M, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token; Ethereum의 fluid-dex, APY 0.94%, TVL $18.11M, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; Base의 moonwell-lending, APY 0.09%, TVL $12.58M, https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token; Ethereum의 uniswap-v4, APY 0.41%, TVL $13.52M, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; Ethereum의 curve-dex, APY 14.00%, TVL $95.49M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 9.25%, TVL $20.26M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; Base의 aerodrome-slipstream, APY 2.41%, TVL $18.64M, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBBTC의 변동성 낮은 후보는 Base의 aave-v3, APY 0.01%, TVL $199.75M, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; Base의 uniswap-v3, APY 0.95%, TVL $13.64M, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token; Ethereum의 fluid-dex, APY 0.87%, TVL $18.02M, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; Base의 moonwell-lending, APY 0.09%, TVL $12.53M, https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token; Ethereum의 uniswap-v4, APY 0.42%, TVL $13.46M, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; Ethereum의 curve-dex, APY 14.00%, TVL $95.27M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 7.74%, TVL $20.22M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; Base의 aerodrome-slipstream, APY 3.47%, TVL $16.66M, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $201.54M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.95% | $13.76M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.94% | $18.11M |
-| 4 | [moonwell-lending →](https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token) | Base | 0.09% | $12.58M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.41% | $13.52M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 14.00% | $95.49M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 9.25% | $20.26M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 2.41% | $18.64M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $199.75M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.95% | $13.64M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.87% | $18.02M |
+| 4 | [moonwell-lending →](https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token) | Base | 0.09% | $12.53M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.42% | $13.46M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 14.00% | $95.27M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 7.74% | $20.22M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 3.47% | $16.66M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,13 +44,13 @@ CBBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 14.00%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
-| curve-dex | 14.00% | 3.09% | 기본 금리 |
-| curve-dex | 9.25% | 6.69% | 기본 금리 |
-| aerodrome-slipstream | 2.41% | 4.91% | 인센티브 100.00% |
-| fluid-dex | 0.94% | 0.56% | 기본 금리 |
+| curve-dex | 14.00% | 3.13% | 기본 금리 |
+| curve-dex | 7.74% | 6.72% | 기본 금리 |
+| fluid-dex | 0.87% | 0.56% | 기본 금리 |
+| aerodrome-slipstream | 3.47% | 4.90% | 인센티브 100.00% |
 | uniswap-v3 | 0.95% | 0.21% | 기본 금리 |
-| uniswap-v4 | 0.41% | 0.22% | 기본 금리 |
-| moonwell-lending | 0.09% | 0.25% | 인센티브 70.52% |
+| uniswap-v4 | 0.42% | 0.22% | 기본 금리 |
+| moonwell-lending | 0.09% | 0.25% | 인센티브 70.33% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ CBBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 14.00%�
 
 ### 오늘 CBBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 9.25%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 7.74%예요.
 
 ### CBBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 174개이며, 합산 TVL은 $6.4B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 175개이며, 합산 TVL은 $6.36B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 9.25%예�
 
 ### CBBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CBBTC의 변동성 낮은 후보는 Base의 aave-v3, APY 0.01%, TVL $201.54M, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; Base의 uniswap-v3, APY 0.95%, TVL $13.76M, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token; Ethereum의 fluid-dex, APY 0.94%, TVL $18.11M, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; Base의 moonwell-lending, APY 0.09%, TVL $12.58M, https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token; Ethereum의 uniswap-v4, APY 0.41%, TVL $13.52M, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; Ethereum의 curve-dex, APY 14.00%, TVL $95.49M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 9.25%, TVL $20.26M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; Base의 aerodrome-slipstream, APY 2.41%, TVL $18.64M, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBBTC의 변동성 낮은 후보는 Base의 aave-v3, APY 0.01%, TVL $199.75M, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; Base의 uniswap-v3, APY 0.95%, TVL $13.64M, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token; Ethereum의 fluid-dex, APY 0.87%, TVL $18.02M, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; Base의 moonwell-lending, APY 0.09%, TVL $12.53M, https://www.defi.garden/?pool=b37c61f5-cd40-43ca-87ee-fa2ebf206ccb&src=seo_token; Ethereum의 uniswap-v4, APY 0.42%, TVL $13.46M, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; Ethereum의 curve-dex, APY 14.00%, TVL $95.27M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 7.74%, TVL $20.22M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; Base의 aerodrome-slipstream, APY 3.47%, TVL $16.66M, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

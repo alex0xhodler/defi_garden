@@ -1,12 +1,12 @@
 # YMVOG-VBUSDT — morpho-blue on Katana
 
-**Total APY:** 3.65% (3.36% Base · + 0.28% Rewards)
+**Total APY:** 3.64% (3.37% Base · + 0.27% Rewards)
 
 **TVL:** $1.56M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 4.29%
+**30d Mean APY:** 4.28%
 
 **Exposure:** multi
 
