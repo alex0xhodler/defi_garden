@@ -1,0 +1,635 @@
+{
+  "schema_version": "2.1.0-SOTA",
+  "last_refined_at": "2026-08-26T14:34:41.295503+00:00",
+  "sprint_metadata": {
+    "sprint_id": "SPRINT-2026-W35-INTENT-V2",
+    "sprint_name": "DeFi Garden v2 Intent Engine \u2014 Autonomous Execution & Zero-Upfront BaaS Rails",
+    "target_horizon": "90 Days to $25M Active TVL & $100k/mo Eradicated SaaS Liabilities",
+    "cadence": "Daily Agile Backlog Refinement",
+    "status": "ACTIVE_SPRINT_BACKLOG",
+    "total_story_points": 74,
+    "squad_breakdown": {
+      "@sales": {
+        "tickets": 2,
+        "story_points": 11
+      },
+      "@partnerships": {
+        "tickets": 3,
+        "story_points": 14
+      },
+      "@risk-quant": {
+        "tickets": 3,
+        "story_points": 13
+      },
+      "@keeper-ops": {
+        "tickets": 3,
+        "story_points": 13
+      },
+      "@marketing": {
+        "tickets": 3,
+        "story_points": 11
+      },
+      "@grants-governance": {
+        "tickets": 3,
+        "story_points": 12
+      }
+    },
+    "telemetry_summary": {
+      "onchain_vault_health": "AAA_VERIFIED (Base 8453 Morpho/Aave LLTV 68.4%, 960 bps buffer, 0 tripwires)",
+      "keeper_execution_status": "OPERATIONAL (Base Mainnet batches swept $180.00 net, gas $0.0132, \u0394P \u2261 0)",
+      "baas_partner_pipeline": "Fiat24 ($0 setup, FINMA) & Kulipa ($0 setup, Base native) selected; Rain dropped ($40k fee avoided)",
+      "b2b_treasury_pipeline": "10 Tier-1 DAOs staged ($18.5M addressable treasury, $5.3k/mo SaaS burn, $1.87M target TVL)",
+      "grants_pipeline": "Base Batches 004 ($100k, due Sep 9), Superchain OP (25k OP), Moonwell DAO ($15k, due Sep 15)"
+    }
+  },
+  "tickets": [
+    {
+      "id": "DG-INTENT-001",
+      "squad": "@sales",
+      "title": "Automated B2B Treasury Outbound Sprint & Safe App Integration for Top-10 Base DAOs",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 8,
+      "type": "FEATURE",
+      "user_story": "As a Web3 DAO/startup CFO, I want a 1-click Safe App and pre-calculated Treasury Shield voucher so that I can eliminate my team's $500+/mo SaaS liabilities using idle stablecoins without sacrificing self-custody.",
+      "context_and_signals": "Pipeline receipt rec_pipe_b2b_leads_top10 staged 10 Tier-1 leads (AerodromeFi, Virtuals, Morpho Labs, Moonwell, Talent Protocol) with $18.5M addressable treasury and $5.3k/mo burn. Leads need automated multi-channel dispatch (Warpcast, TG, Email, LinkedIn) and Safe Multisig execution manifests.",
+      "technical_spec": {
+        "input_file": "defi_garden/docs/v2-intent-framework/staged_b2b_treasury_leads.json",
+        "outbound_script": "defi_garden/scripts/b2b_treasury_voucher_engine.py",
+        "safe_app_manifest": "defi_garden/public/safe-manifest.json",
+        "target_channels": [
+          "Warpcast API",
+          "Telegram direct message",
+          "Executive Email",
+          "LinkedIn InMail"
+        ],
+        "proof_url_template": "https://www.defi.garden/plan.html?company={company}&bill={bill}&capital={capital}&preset=treasury_shield&stack={stack}&chain=base&token=USDC&ref=b2b_outbound_q3"
+      },
+      "acceptance_criteria": [
+        "1. Automated dispatch script packages and sends personalized multi-channel copy for all 10 staged B2B leads without formatting errors or placeholders.",
+        "2. Safe App manifest `safe-manifest.json` conforms to Safe {Core} standard, allowing 1-click loading inside app.safe.global on Base.",
+        "3. Each outbound packet includes a cryptographically verifiable financial proof link confirming 100% principal retention and zero bank out-of-pocket spend.",
+        "4. Lead engagement and voucher clicks are logged to `defi_garden/state/pipeline_receipts.jsonl` with UTM parameters."
+      ],
+      "definition_of_done": [
+        "File `defi_garden/public/safe-manifest.json` committed and validated against Safe App JSON schema.",
+        "Receipt logged to `defi_garden/state/pipeline_receipts.jsonl` with status `DISPATCH_EXECUTED`.",
+        "Integration test passing: `PYTHONPATH=. pytest tests/test_b2b_treasury_voucher.py`."
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DG-INTENT-002",
+      "squad": "@sales",
+      "title": "CFO & DAO Ops Interactive Proof-of-Yield Calculator & 1-Click Voucher Simulator",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 3,
+      "type": "FEATURE",
+      "user_story": "As a prospective B2B treasury buyer, I want an interactive, real-time ROI and escrow simulator on plan.html so that I can visualize 5-year SaaS cashflow savings under variable Base lending APYs.",
+      "context_and_signals": "Initial feedback from treasury leads indicates confusion around the 1.25x over-collateralization buffer vs headline APY. Clear visual sliders showing the 3-month Surplus Sponge and principal invariant resolve this objection.",
+      "technical_spec": {
+        "target_files": [
+          "defi_garden/planner.js",
+          "defi_garden/planner-styles.css",
+          "defi_garden/plan.html"
+        ],
+        "math_engine": "C_required = ((12 * monthly_bill * 1.20) / (conservative_apy / 100.0)) * 1.25",
+        "ui_components": [
+          "Quiet Ledger comparison table",
+          "Surplus Sponge runway gauge",
+          "Safe 1-click deposit payload modal"
+        ]
+      },
+      "acceptance_criteria": [
+        "1. Planner UI parses `preset=treasury_shield` and query params (`company`, `bill`, `capital`, `stack`) to hydrate branded dashboard.",
+        "2. Tabular numerals render 1-year, 3-year, and 5-year cumulative cash savings compared to traditional fiat bank burn.",
+        "3. Displays live Base Aave V3/Morpho Blue blend rate with explicit 1.25x safety buffer disclosure.",
+        "4. Responsive across desktop and mobile down to 360px without horizontal overflow."
+      ],
+      "definition_of_done": [
+        "Interactive UI verified on http://127.0.0.1:8001/plan.html?preset=treasury_shield.",
+        "Zero neumorphic CSS rules; 100% compliance with Quiet Design System (`--ui-*` tokens).",
+        "Automated end-to-end Cypress/Playwright assertion verifying URL hydration."
+      ],
+      "dependencies": [
+        "DG-INTENT-001"
+      ]
+    },
+    {
+      "id": "DG-INTENT-003",
+      "squad": "@partnerships",
+      "title": "Fiat24 Production EVM Deposit Proxy Adapter & Swiss FINMA Onboarding Verification",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "INTEGRATION",
+      "user_story": "As a European developer or sole-proprietor, I want to bind my Fiat24 NFT account to an onchain deposit proxy on Base so that keeper yield sweeps automatically fund my virtual Visa card without intermediary custody.",
+      "context_and_signals": "Partner evaluation rec_partner_baas_matrix_v2 confirmed Fiat24 as top architectural pick ($0 setup fee, Swiss FINMA, direct ERC-20 `fUSD`/`fEUR` token proxies on Base/Arbitrum). Adapter mock passed 100% in tests; needs production EVM contract integration.",
+      "technical_spec": {
+        "adapter_file": "defi_garden/adapters/card_baas_adapter.py",
+        "test_file": "defi_garden/tests/test_card_baas_adapter.py",
+        "fiat24_contract_base": "0x...Fiat24ProxyRegistry",
+        "interchange_rebate_bps": 50,
+        "supported_tokens": [
+          "fUSD",
+          "fEUR",
+          "USDC"
+        ]
+      },
+      "acceptance_criteria": [
+        "1. `Fiat24Adapter.resolve_deposit_address()` deterministically resolves onchain proxy address from user wallet and card ID.",
+        "2. Point-of-sale authorization simulator enforces SaaS/Cloud MCC policy gates (MCC 7372, 5734, 4816, 5818).",
+        "3. Settlement calculator verifies 50 bps interchange rebate credit to protocol treasury.",
+        "4. All tests in `tests/test_card_baas_adapter.py` pass with zero regressions."
+      ],
+      "definition_of_done": [
+        "Updated `defi_garden/adapters/card_baas_adapter.py` committed with live RPC proxy resolver.",
+        "`PYTHONPATH=. pytest tests/test_card_baas_adapter.py` executes 5/5 passed.",
+        "Receipt logged to `defi_garden/state/partner_integration_receipts.jsonl` with status `FIAT24_PROD_VERIFIED`."
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DG-INTENT-004",
+      "squad": "@partnerships",
+      "title": "Kulipa Base-Native Smart Wallet Integration & Pilot Rev-Share Terms Finalization",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "INTEGRATION",
+      "user_story": "As a Base ecosystem builder, I want to provision Kulipa virtual Mastercard cards backed by Coinbase Smart Wallet session keys so that users experience frictionless 1-click card minting on Base.",
+      "context_and_signals": "Kulipa evaluated as top ecosystem partner (backed by Coinbase Ventures, native Base smart wallet debit, up to 70 bps interchange rev-share). Pilot RFP staged in rec_partner_issuer_rfp_staged.",
+      "technical_spec": {
+        "adapter_class": "KulipaAdapter in defi_garden/adapters/card_baas_adapter.py",
+        "chain_id": 8453,
+        "settlement_rail": "BASE_JIT_DEBIT_PROXY",
+        "max_interchange_bps": 70
+      },
+      "acceptance_criteria": [
+        "1. Implements `KulipaAdapter` inheriting from `CardBaaSAdapter` with live API webhook handlers.",
+        "2. Validates instant card push provisioning metadata for Apple Wallet & Google Pay.",
+        "3. Enforces 0% upfront setup fee invariant and verifies tiered interchange rev-share (40 bps base -> 70 bps high volume).",
+        "4. Unit tests covering card creation, balance check, and authorization callbacks."
+      ],
+      "definition_of_done": [
+        "`KulipaAdapter` unit tests added to `defi_garden/tests/test_card_baas_adapter.py`.",
+        "Test suite passing with 100% branch coverage for Kulipa methods.",
+        "Receipt logged in `defi_garden/state/partner_integration_receipts.jsonl`."
+      ],
+      "dependencies": [
+        "DG-INTENT-003"
+      ]
+    },
+    {
+      "id": "DG-INTENT-005",
+      "squad": "@partnerships",
+      "title": "Holyheld Progressive KYC Micro-Subscription Rail Fallback Adapter",
+      "priority": "P2_HIGH",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 4,
+      "type": "INTEGRATION",
+      "user_story": "As an individual retail subscriber ($12/mo Spotify, $20/mo Claude), I want a lightweight progressive-KYC virtual card fallback so that I can activate my intent vault in under 60 seconds.",
+      "context_and_signals": "Holyheld adapter evaluated in rec_partner_baas_matrix_v2 for consumer micro-tier with instant Base/Arbitrum/Optimism top-up contracts and 30-50 bps rev share.",
+      "technical_spec": {
+        "adapter_class": "HolyheldAdapter in defi_garden/adapters/card_baas_adapter.py",
+        "chains_supported": [
+          8453,
+          42161,
+          10
+        ],
+        "settlement_rail": "DIRECT_DEPOSIT_PROXY"
+      },
+      "acceptance_criteria": [
+        "1. `HolyheldAdapter` resolves deposit contract address on Base, Arbitrum, and OP Mainnet.",
+        "2. Simulates micro-tier authorization with low latency (<200ms) and verifies 30 bps interchange rebate.",
+        "3. Rejects non-whitelisted transactions exceeding micro-tier monthly spend cap ($250/mo).",
+        "4. Comprehensive test coverage added to test suite."
+      ],
+      "definition_of_done": [
+        "`HolyheldAdapter` integrated into `defi_garden/adapters/card_baas_adapter.py`.",
+        "`PYTHONPATH=. pytest tests/test_card_baas_adapter.py` passes completely.",
+        "Status updated to `VERIFIED_ON_DISK` in partner receipts."
+      ],
+      "dependencies": [
+        "DG-INTENT-003"
+      ]
+    },
+    {
+      "id": "DG-INTENT-006",
+      "squad": "@risk-quant",
+      "title": "Dual-Oracle Divergence Tripwire & Chainlink/Pyth Spread Real-Time Risk Monitor",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "FEATURE",
+      "user_story": "As a risk engineer and protocol auditor, I want a dual-oracle divergence monitor (Chainlink primary + Pyth/Redstone secondary) so that keepers freeze rebalancing and yield sweeps if prices diverge by >15 bps or stale >3600s.",
+      "context_and_signals": "Risk telemetry rec_risk_telemetry_001 recorded a safe 2.1 bps dual-oracle spread on Base (8453). However, extreme volatility could cause depeg or oracle lag. The keeper engine must enforce the 15 bps tripwire before executing batch sweeps.",
+      "technical_spec": {
+        "risk_engine": "defi_garden/risk/v2_solvency_engine.py",
+        "keeper_engine": "defi_garden/keeper/keeper_engine.py",
+        "config_file": "defi_garden/config/risk_parameters.json",
+        "max_spread_bps": 15.0,
+        "max_staleness_s": 3600
+      },
+      "acceptance_criteria": [
+        "1. `KeeperEngine.check_oracle_spread()` computes absolute spread between primary (Chainlink) and secondary (Pyth/Redstone) feeds.",
+        "2. If `spread_bps > 15.0`, sweep execution is aborted with reason `Oracle divergence tripwire` and flagged as `FREEZE_REBALANCE_AND_HARVEST`.",
+        "3. If oracle price staleness exceeds 3600 seconds, sweep is blocked with `Oracle stale` warning.",
+        "4. Telemetry receipt is appended to `defi_garden/state/risk_telemetry_receipts.jsonl` on every check."
+      ],
+      "definition_of_done": [
+        "Unit test in `defi_garden/tests/test_keeper_batch_engine.py` asserting oracle tripwire abort behavior.",
+        "Receipt generated and validated with zero schema errors.",
+        "`PYTHONPATH=. pytest tests/` passing."
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DG-INTENT-007",
+      "squad": "@risk-quant",
+      "title": "Dynamic Surplus Sponge Reserve Auto-Balancing & Floating APY Decay Haircut Engine",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "FEATURE",
+      "user_story": "As a depositor, I want my vault to automatically accumulate excess bull-market yield into a 3-month Surplus Sponge buffer so that temporary rate drops never cause my subscription card to decline.",
+      "context_and_signals": "Risk telemetry shows Surplus Sponge accumulating (2.2 months runway on mainnet). Solvency formulas enforce 1.25x over-collateralization and 1-month initial liquid escrow. The engine must simulate 12-month decay curves and test the Bounded Grace Tap.",
+      "technical_spec": {
+        "engine_file": "defi_garden/risk/v2_solvency_engine.py",
+        "test_file": "defi_garden/tests/test_v2_solvency_engine.py",
+        "sponge_cap_months": 3,
+        "bounded_grace_tap_months": 1
+      },
+      "acceptance_criteria": [
+        "1. `V2SolvencyEngine.simulate_monthly_settlement()` routes yield > monthly bill into escrow until reaching 3-month cap.",
+        "2. When escrow is full (3 months), excess yield is tagged as `surplus_distributable_usd`.",
+        "3. When yield is below bill liability, deficit is drawn from escrow without touching principal ($\\Delta P \\equiv 0$).",
+        "4. If escrow is exhausted, triggers a bounded 1-month grace tap while firing a critical top-up webhook."
+      ],
+      "definition_of_done": [
+        "Comprehensive test cases in `defi_garden/tests/test_v2_solvency_engine.py` covering surplus accumulation, escrow drain, and grace tap.",
+        "`PYTHONPATH=. pytest tests/test_v2_solvency_engine.py` passes 5/5.",
+        "Risk configuration locked in `defi_garden/config/risk_parameters.json`."
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DG-INTENT-008",
+      "squad": "@risk-quant",
+      "title": "EURC/USDC Cross-Currency Slippage Armor & Dynamic VAT/Tax Headroom Model",
+      "priority": "P2_HIGH",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 3,
+      "type": "FEATURE",
+      "user_story": "As an EU or international subscriber, I want dynamic +20% VAT/tax headroom and FX spread protection on EURC/USDC vault pairs so that foreign exchange fluctuation never causes payment rejections.",
+      "context_and_signals": "Auto Finance Base EUR vault telemetry showed 3.4 bps EUR/USD divergence. Subscriptions in Europe (Spotify EUR, ChatGPT with EU VAT) require +20% headroom to prevent card processor declines on billing day.",
+      "technical_spec": {
+        "solvency_engine": "defi_garden/risk/v2_solvency_engine.py",
+        "fx_feed": "Base Chainlink EUR/USD & EURC/USDC Pool",
+        "vat_multiplier": 1.2,
+        "max_fx_slippage_bps": 50
+      },
+      "acceptance_criteria": [
+        "1. `calculate_required_collateral()` multiplies raw monthly bill by 1.20 tax/VAT headroom before capital requirement calculation.",
+        "2. FX slippage armor verifies exchange rate spread between EURC and USDC is under 50 bps before executing cross-currency sweep.",
+        "3. If EUR/USD spread exceeds 50 bps, keeper holds settlement until spread narrows or routes through native EURC proxy.",
+        "4. Emits structured log with exact gross liability and net settled fiat amount."
+      ],
+      "definition_of_done": [
+        "FX and VAT headroom assertions added to `defi_garden/tests/test_v2_solvency_engine.py`.",
+        "All test fixtures passing.",
+        "Receipt appended to `defi_garden/state/risk_telemetry_receipts.jsonl`."
+      ],
+      "dependencies": [
+        "DG-INTENT-006"
+      ]
+    },
+    {
+      "id": "DG-INTENT-009",
+      "squad": "@keeper-ops",
+      "title": "Multi-Vault 1st-of-Month Automated Batch Yield Sweeper & Superchain Paymaster Gas Sponsorship",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "FEATURE",
+      "user_story": "As the keeper network operator, I want an autonomous batch execution script running on Base with Paymaster gas sponsorship so that dozens of vault yield sweeps are batched into a single low-cost transaction (<$0.02) on the 1st of every month.",
+      "context_and_signals": "Execution receipts rcpt_1a03a98fb65 and rcpt_1a03aa5e022 verified 2-vault batch sweeps on Base with $0.0132 gas cost and $45 protocol fees collected. Scaling to 100+ vaults requires automated multicall batching and Paymaster sponsorship.",
+      "technical_spec": {
+        "keeper_daemon": "defi_garden/keeper/keeper_engine.py",
+        "multicall_contract": "0xca11bde05977b3631167028862be2a173976ca11",
+        "gas_ceiling_gwei": 15.0,
+        "min_batch_size": 2,
+        "protocol_fee_bps": 2000
+      },
+      "acceptance_criteria": [
+        "1. `KeeperEngine.execute_batch_sweep()` aggregates all eligible intent vaults into a single atomic Multicall3 execution.",
+        "2. Enforces gas ceiling check (blocks execution if Base gas > 15 Gwei).",
+        "3. Computes 20% protocol performance fee and transfers net yield to user card deposit proxies.",
+        "4. Generates immutable cryptographic JSON receipt in `defi_garden/state/keeper_execution_receipts.jsonl`."
+      ],
+      "definition_of_done": [
+        "Batch sweep verified via `PYTHONPATH=. pytest tests/test_keeper_batch_engine.py`.",
+        "Deterministic receipt schema validated with `invariant_principal_protected: true`.",
+        "Cron watchdog configured for 1st-of-month 00:05 UTC execution."
+      ],
+      "dependencies": [
+        "DG-INTENT-003",
+        "DG-INTENT-006"
+      ]
+    },
+    {
+      "id": "DG-INTENT-010",
+      "squad": "@keeper-ops",
+      "title": "Autonomous Keeper Failover Circuit Breaker & Real-Time Telegram Alerting Daemon",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 4,
+      "type": "OPERATIONS",
+      "user_story": "As an on-call infrastructure engineer, I want automated keeper failover and instant Telegram/webhook alerts if RPC nodes drop or a sweep fails so that zero merchant billings are missed.",
+      "context_and_signals": "High-reliability architecture mandates multi-RPC fallback (Base public RPC, Alchemy, QuickNode) and a dead-man watchdog that alerts if 1st-of-month sweeps do not execute within a 2-hour window.",
+      "technical_spec": {
+        "watchdog_script": "defi_garden/keeper/keeper_watchdog.py",
+        "alert_channel": "Telegram Bot (hermes send / TG webhook)",
+        "rpc_fallback_list": [
+          "https://mainnet.base.org",
+          "https://base.llamarpc.com",
+          "https://1rpc.io/base"
+        ],
+        "timeout_window_s": 7200
+      },
+      "acceptance_criteria": [
+        "1. Keeper daemon automatically rotates to secondary RPC upon HTTP 429 or timeout.",
+        "2. If sweep fails or is blocked by tripwires, sends structured alert to Telegram with vault ID, reason, and gas price.",
+        "3. Watchdog verifies receipt generation within 2 hours of billing window.",
+        "4. Circuit breaker halts automated transactions if 2 consecutive RPC calls fail."
+      ],
+      "definition_of_done": [
+        "`defi_garden/keeper/keeper_watchdog.py` written and test-verified.",
+        "Simulated RPC failure test passes with clean failover.",
+        "Alerting dispatch verified in local dry-run."
+      ],
+      "dependencies": [
+        "DG-INTENT-009"
+      ]
+    },
+    {
+      "id": "DG-INTENT-011",
+      "squad": "@keeper-ops",
+      "title": "Base Sepolia Testnet End-to-End Card Authorization & Sweep Simulation Harness",
+      "priority": "P2_HIGH",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 4,
+      "type": "TESTING",
+      "user_story": "As a QA and integration engineer, I want a complete simulation harness running on Base Sepolia (Chain ID 84532) so that we can test end-to-end card authorizations, merchant MCC validation, and yield sweeps prior to mainnet rollout.",
+      "context_and_signals": "Base Sepolia vaults (testnet_claude_pro_vault, testnet_cursor_pro_vault) initialized in risk telemetry. A standalone test script `keeper/dry_run_baas_testnet.py` is present and needs integration into CI/CD.",
+      "technical_spec": {
+        "harness_file": "defi_garden/keeper/dry_run_baas_testnet.py",
+        "test_file": "defi_garden/tests/test_keeper_hype_harvest.py",
+        "target_chain_id": 84532,
+        "mock_mccs": [
+          "7372",
+          "5734",
+          "4816"
+        ]
+      },
+      "acceptance_criteria": [
+        "1. Testnet harness simulates 5 concurrent intent vaults (Claude, Cursor, Spotify, Netflix, AWS).",
+        "2. Validates mock card authorization, balance checks, and automated sweeps under variable APY conditions.",
+        "3. Confirms principal protection invariant across all test scenarios.",
+        "4. Runs headless in CI without manual private key exposure."
+      ],
+      "definition_of_done": [
+        "`PYTHONPATH=. pytest tests/test_keeper_hype_harvest.py` passing 5/5.",
+        "Dry run script executes cleanly: `python3 defi_garden/keeper/dry_run_baas_testnet.py`.",
+        "Test output committed to test receipts."
+      ],
+      "dependencies": [
+        "DG-INTENT-009"
+      ]
+    },
+    {
+      "id": "DG-INTENT-012",
+      "squad": "@marketing",
+      "title": "Production Deployment & AEO Indexing for Zero-Distance Intent Portals (/for/*)",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "FEATURE",
+      "user_story": "As a prospective retail saver or AI developer, I want direct, fast-loading intent pages (/for/claude, /for/cursor, /for/spotify, etc.) with rich JSON-LD so that AI search engines (Perplexity, ChatGPT, Claude) cite DeFi Garden as the canonical answer for perpetual subscriptions.",
+      "context_and_signals": "Agent telemetry rec_mkt_aeo_index_001 staged routes `/for/claude`, `/for/cursor`, `/for/chatgpt`, `/for/spotify`, `/for/netflix`, `/for/aws`, `/for/github`, `/for/youtube` with Product, Offer, SoftwareApplication, and FAQPage schemas. Need live verification and static generation.",
+      "technical_spec": {
+        "routes": [
+          "/for/claude",
+          "/for/cursor",
+          "/for/chatgpt",
+          "/for/spotify",
+          "/for/netflix",
+          "/for/aws",
+          "/for/github",
+          "/for/youtube"
+        ],
+        "design_system": "Quiet System (`style.css`, `--ui-*` tokens)",
+        "json_ld_types": [
+          "Product",
+          "Offer",
+          "SoftwareApplication",
+          "FAQPage"
+        ],
+        "sitemap_file": "defi_garden/sitemap.xml",
+        "llms_file": "defi_garden/llms.txt"
+      },
+      "acceptance_criteria": [
+        "1. All 8 intent portal HTML pages render static, zero-build HTML with FCP < 150ms and responsive down to 360px.",
+        "2. Interactive virtual card preview displays live required USDC deposit, tax buffer (+20%), and 100% principal protection badge.",
+        "3. Embedded JSON-LD validates against schema.org and Google Rich Results test without errors.",
+        "4. All `/for/*` routes are registered in `sitemap.xml` and `llms.txt` without breaking legacy parameterized URLs."
+      ],
+      "definition_of_done": [
+        "Static HTML files verified in `defi_garden/for/`.",
+        "`generate-sitemap.js` and `generate-llms.js` updated and executed.",
+        "AEO receipt logged in `defi_garden/state/agent_telemetry_receipts.jsonl`."
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DG-INTENT-013",
+      "squad": "@marketing",
+      "title": "Streamable HTTP MCP Server Indexing & Registry Verification (Smithery, Glama, MCP)",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 3,
+      "type": "FEATURE",
+      "user_story": "As an AI agent developer using Claude Desktop, Cursor, or Hermes, I want to query `https://www.defi.garden/mcp` via standard MCP JSON-RPC 2.0 so that my agent can discover verified yield vaults and simulate forever numbers autonomously.",
+      "context_and_signals": "DeFi Garden MCP server is live at `POST /mcp` (with tools `find_pools`, `get_pool`, `forever_number`, `explain_rails`). Registration packages prepared for Smithery, Glama, and GitHub modelcontextprotocol/servers.",
+      "technical_spec": {
+        "mcp_endpoint": "https://www.defi.garden/mcp",
+        "tools_exposed": [
+          "find_pools",
+          "get_pool",
+          "forever_number",
+          "explain_rails"
+        ],
+        "registry_targets": [
+          "Smithery.ai",
+          "Glama.ai",
+          "modelcontextprotocol/servers"
+        ],
+        "snippets_doc": "defi_garden/docs/v2-intent-framework/06-marketing-and-developer-distribution-plan.md"
+      },
+      "acceptance_criteria": [
+        "1. MCP server endpoint responds to `tools/list` and `tools/call` with valid JSON-RPC 2.0 schemas.",
+        "2. `forever_number` tool enforces 1.25x over-collateralization and 20% tax buffer in return payload.",
+        "3. Documentation includes ready-to-paste snippets for Claude Desktop, Cursor IDE, and Hermes Agent.",
+        "4. Submissions staged to top MCP registries."
+      ],
+      "definition_of_done": [
+        "MCP endpoint verified with curl test fixture.",
+        "Registry metadata files committed in `defi_garden/docs/mcp-registry/`.",
+        "Developer documentation updated."
+      ],
+      "dependencies": [
+        "DG-INTENT-012"
+      ]
+    },
+    {
+      "id": "DG-INTENT-014",
+      "squad": "@marketing",
+      "title": "\"Proof of Zero Spend\" Quiet Ledger Social Share-Card Generator & Virality Loop",
+      "priority": "P2_HIGH",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 3,
+      "type": "FEATURE",
+      "user_story": "As an active card user, I want a 1-click shareable \"Proof of Zero Spend\" receipt card generated when my monthly bill settles so that I can share verified onchain savings on Warpcast and X.",
+      "context_and_signals": "Virality loop leverages honest progress and verified monthly settlement receipts. Banned copy terms strictly enforced (no 'save up', 'budget', 'game-changer', 'revolutionize').",
+      "technical_spec": {
+        "generator_script": "defi_garden/landing.js",
+        "design_format": "Quiet Ledger (monospaced tabular nums, ASCII receipt border, QR code link)",
+        "share_channels": [
+          "Warpcast intent compose",
+          "Twitter/X intent tweet"
+        ]
+      },
+      "acceptance_criteria": [
+        "1. Renders high-contrast, clean PNG/SVG receipt displaying: Merchant, Gross Bill, Realized Base Yield, Protocol Fees, Principal Saved ($0 Bank Out-of-Pocket).",
+        "2. 'Share to Warpcast' and 'Share to X' buttons generate pre-filled text with custom referral link.",
+        "3. Copy strictly adheres to brand guidelines (prohibits banned terms; reinforces 'Buy it outright and the money is gone. Garden it and you keep both.').",
+        "4. Flawless rendering across retina and mobile viewports."
+      ],
+      "definition_of_done": [
+        "Share card generator component integrated into `defi_garden/landing.js` and `plan.html`.",
+        "Visual review on 127.0.0.1:8001 passes design audit.",
+        "Receipt logged in marketing receipts."
+      ],
+      "dependencies": [
+        "DG-INTENT-012"
+      ]
+    },
+    {
+      "id": "DG-INTENT-015",
+      "squad": "@grants-governance",
+      "title": "Base Batches 004 $100K Application Packet & Technical Demo Submission Package",
+      "priority": "P0_BLOCKER",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 5,
+      "type": "GOVERNANCE",
+      "user_story": "As the protocol founding team, I want to submit our finalized $100,000 grant application to Base Batches 004 by the September 9 deadline so that we secure non-dilutive capital and Coinbase ecosystem distribution.",
+      "context_and_signals": "Grant ledger rec_grant_base_batches_004_v2 confirmed application packet is ready in `defi_garden/docs/base_batches_004_application.md`. Application focuses on v2 Intent Execution & `<SpendYieldWidget />` for Base AI Agents and apps.",
+      "technical_spec": {
+        "application_doc": "defi_garden/docs/base_batches_004_application.md",
+        "grant_amount_usd": 100000,
+        "deadline": "2026-09-09T23:59:59Z",
+        "deliverables": [
+          "Non-custodial ERC-4626 Base vault contracts",
+          "Open-source @defi-garden/spend-yield-widget React SDK",
+          "Fiat24/Kulipa BaaS integration for Base smart wallets",
+          "Live MCP server at https://www.defi.garden/mcp"
+        ]
+      },
+      "acceptance_criteria": [
+        "1. Application document contains complete answers to all Base Batches 004 questions (product thesis, technical architecture, traction metrics, team background, milestone breakdown).",
+        "2. Includes live testnet contract addresses, verified GitHub links, and working interactive demo URLs on Base.",
+        "3. Milestones strictly structured into 3 gated phases (Phase 1: Testnet SDK, Phase 2: Mainnet BaaS Beta, Phase 3: $10M TVL Scale).",
+        "4. Packet reviewed against Base evaluation rubric with zero missing fields."
+      ],
+      "definition_of_done": [
+        "Final packet in `defi_garden/docs/base_batches_004_application.md` marked `SUBMISSION_READY`.",
+        "SHA-256 verification hash recorded in `defi_garden/state/grants_ledger.jsonl`.",
+        "Calendar reminder staged for submission confirmation."
+      ],
+      "dependencies": [
+        "DG-INTENT-003",
+        "DG-INTENT-009"
+      ]
+    },
+    {
+      "id": "DG-INTENT-016",
+      "squad": "@grants-governance",
+      "title": "Superchain Ecosystem 25,000 OP Grant Proposal & Keeper Gas Sponsorship Defense",
+      "priority": "P1_CRITICAL",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 4,
+      "type": "GOVERNANCE",
+      "user_story": "As the protocol operations team, I want to submit a 25,000 OP grant proposal to Optimism Superchain so that we fund multi-chain keeper gas sponsorship and expand `<SpendYieldWidget />` to OP Mainnet, Mode, and Ink.",
+      "context_and_signals": "Grant ledger rec_grant_superchain_op_v2 staged proposal in `defi_garden/docs/superchain_grant_application.md`. Focuses on Superchain interoperability and zero-gas keeper execution.",
+      "technical_spec": {
+        "application_doc": "defi_garden/docs/superchain_grant_application.md",
+        "requested_amount_op": 25000,
+        "target_chains": [
+          "Base (8453)",
+          "OP Mainnet (10)",
+          "Mode (34443)",
+          "Ink (57073)"
+        ],
+        "focus_area": "Developer Tooling & Infrastructure (Paymaster Gas Pool + SDK)"
+      },
+      "acceptance_criteria": [
+        "1. Proposal outlines technical architecture for Superchain-wide intent settlement using ERC-4337 Paymasters.",
+        "2. Provides detailed OP token budget allocation (60% Keeper gas sponsorship, 40% open-source widget development).",
+        "3. Commits to open-sourcing `@defi-garden/spend-yield-widget` under MIT license.",
+        "4. Governance forum post staged and formatted for Optimism Governance portal."
+      ],
+      "definition_of_done": [
+        "Updated `defi_garden/docs/superchain_grant_application.md` committed.",
+        "Status updated to `PROPOSAL_SUBMITTED` in `defi_garden/state/grants_ledger.jsonl`.",
+        "Superchain alignment verified against Optimism Season 6 criteria."
+      ],
+      "dependencies": [
+        "DG-INTENT-009",
+        "DG-INTENT-015"
+      ]
+    },
+    {
+      "id": "DG-INTENT-017",
+      "squad": "@grants-governance",
+      "title": "Moonwell DAO $15K Co-Incentive Grant Governance RFC & mUSDC Vault Specification",
+      "priority": "P2_HIGH",
+      "status": "READY_FOR_SPRINT",
+      "story_points": 3,
+      "type": "GOVERNANCE",
+      "user_story": "As Moonwell and DeFi Garden governance contributors, I want to publish a joint governance RFC on the Moonwell forum so that we establish dedicated mUSDC spend-yield vaults with $15,000 in co-incentives.",
+      "context_and_signals": "Grants ledger rec_rfp_moonwell_co_incentive scheduled RFP draft for Sept 15, 2026. Moonwell is already a Tier-1 qualified B2B lead and existing lending market on Base.",
+      "technical_spec": {
+        "rfc_doc": "defi_garden/docs/moonwell_spend_yield_grant.md",
+        "target_pool": "Moonwell mUSDC on Base",
+        "requested_co_incentive_usd": 15000,
+        "forum_target": "https://gov.moonwell.fi"
+      },
+      "acceptance_criteria": [
+        "1. Formulates comprehensive RFC detailing how DeFi Garden routes retail & B2B intent liquidity directly into Moonwell mUSDC.",
+        "2. Models TVL retention and yield acceleration under $15k WELL co-incentive matching.",
+        "3. Includes smart contract audit links and risk parameters (LLTV, dual-oracle tripwires).",
+        "4. Draft is packaged for Moonwell governance forum review."
+      ],
+      "definition_of_done": [
+        "Document `defi_garden/docs/moonwell_spend_yield_grant.md` completed and committed.",
+        "Grants ledger receipt updated to `RFC_STAGED_FOR_FORUM`.",
+        "Outreach note sent to Moonwell ecosystem contributors."
+      ],
+      "dependencies": [
+        "DG-INTENT-001",
+        "DG-INTENT-006"
+      ]
+    }
+  ]
+}

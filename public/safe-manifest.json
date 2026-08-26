@@ -1,0 +1,13 @@
+{
+  "name": "DeFi Garden Treasury Shield",
+  "description": "Non-custodial Base yield vault that auto-pays recurring team SaaS liabilities (Slack, Notion, AWS, GitHub) via virtual Visa cards.",
+  "iconPath": "og/tokens/defi-ssi.png",
+  "iconUrl": "https://www.defi.garden/og/tokens/defi-ssi.png",
+  "appUrl": "https://www.defi.garden/plan.html?preset=treasury_shield",
+  "tags": ["defi", "treasury", "yield", "payments", "cards"],
+  "networks": [8453, 84532, 10, 42161],
+  "developer": {
+    "name": "DeFi Garden Core",
+    "url": "https://www.defi.garden"
+  }
+}
