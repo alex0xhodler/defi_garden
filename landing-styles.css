@@ -495,22 +495,9 @@
 }
 
 .landing-subs-grid.is-expanded {
-  max-height: 195px;
-  overflow-y: auto;
-  padding-right: 4px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--ui-accent, #7CC9A0) rgba(0, 0, 0, 0.2);
+  max-height: none;
+  overflow: visible;
 }
-
-.landing-subs-grid.is-expanded::-webkit-scrollbar {
-  width: 4px;
-}
-
-.landing-subs-grid.is-expanded::-webkit-scrollbar-thumb {
-  background: var(--ui-accent, #7CC9A0);
-  border-radius: 2px;
-}
-
 .landing-sub-chip-more {
   background: rgba(var(--color-teal-500-rgb), 0.08) !important;
   border-color: rgba(var(--color-teal-500-rgb), 0.28) !important;
