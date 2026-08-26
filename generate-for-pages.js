@@ -272,6 +272,18 @@ const SUBSCRIPTIONS = [
     headline: 'Perpetual rent settlement from audited lending vaults.',
     subhead: 'Deposit stable capital into curated Base vaults. Automated yield covers your $1,800/mo rent while your principal remains 100% self-custodial.',
     metaDesc: 'Fund monthly apartment rent with Base DeFi lending yield. Complete principal protection and non-custodial control.'
+  },
+  {
+    slug: 'opencode',
+    name: 'OpenCode Go',
+    category: 'AI / Developer',
+    baseMonthlyUsd: 5.00,
+    taxBufferMonthlyUsd: 6.00,
+    taxBufferDeltaUsd: 1.00,
+    iconDomain: 'opencode.ai',
+    headline: 'Eliminate your OpenCode Go bill with idle yield.',
+    subhead: 'Deposit once into curated Base lending vaults. Automated yield covers your $5/mo developer subscription on autopilot. Principal is 100% self-custodial.',
+    metaDesc: 'Self-paying OpenCode Go subscription powered by Base DeFi yield. 100% principal protected.'
   }
 ];
 
@@ -286,8 +298,7 @@ function renderServiceIconSvg(slug, width = 16, height = 16) {
     github: 'github.com',
     youtube: 'youtube.com',
     amazonprime: 'amazon.com',
-    disney: 'disneyplus.com',
-    max: 'max.com',
+    opencode: 'opencode.ai',
     hulu: 'hulu.com',
     appletv: 'apple.com',
     gamepass: 'xbox.com',
