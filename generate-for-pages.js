@@ -2117,6 +2117,33 @@ function generateHtml(sub) {
             existing.push(payload);
             localStorage.setItem(storageKey, JSON.stringify(existing));
           } catch (err) {}
+          // Formspree live waitlist ingestion
+          try {
+            if (typeof fetch !== 'undefined') {
+              var formspreePayload = {
+                email: email,
+                referral_code: refCode,
+                referred_by: referredBy || 'direct',
+                subscription_slug: '${sub.slug}',
+                subscription_name: '${sub.name}',
+                category: '${sub.category}',
+                monthly_cost_usd: ${sub.baseMonthlyUsd.toFixed(2)},
+                tax_buffer_usd: ${sub.taxBufferMonthlyUsd.toFixed(2)},
+                source: 'intent_portal_for_${sub.slug}',
+                message: 'DeFi Garden Card Waitlist - ${sub.name} ($${sub.baseMonthlyUsd.toFixed(2)}/mo)'
+              };
+
+              fetch('https://formspree.io/f/xzdqygjn', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formspreePayload)
+              }).catch(function() {});
+            }
+          } catch (err) {}
+
           // Edge / API registration tracking (production only)
           if (window.location.hostname.includes('defi.garden')) {
             try {
@@ -2129,7 +2156,6 @@ function generateHtml(sub) {
               }
             } catch (err) {}
           }
-
           showReceipt(email, refCode);
         });
       }

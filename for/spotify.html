@@ -1746,6 +1746,33 @@
             existing.push(payload);
             localStorage.setItem(storageKey, JSON.stringify(existing));
           } catch (err) {}
+          // Formspree live waitlist ingestion
+          try {
+            if (typeof fetch !== 'undefined') {
+              var formspreePayload = {
+                email: email,
+                referral_code: refCode,
+                referred_by: referredBy || 'direct',
+                subscription_slug: 'spotify',
+                subscription_name: 'Spotify Premium',
+                category: 'Media Streaming',
+                monthly_cost_usd: 11.99,
+                tax_buffer_usd: 14.39,
+                source: 'intent_portal_for_spotify',
+                message: 'DeFi Garden Card Waitlist - Spotify Premium ($11.99/mo)'
+              };
+
+              fetch('https://formspree.io/f/xzdqygjn', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formspreePayload)
+              }).catch(function() {});
+            }
+          } catch (err) {}
+
           // Edge / API registration tracking (production only)
           if (window.location.hostname.includes('defi.garden')) {
             try {
@@ -1758,7 +1785,6 @@
               }
             } catch (err) {}
           }
-
           showReceipt(email, refCode);
         });
       }
