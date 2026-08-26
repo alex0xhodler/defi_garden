@@ -1625,13 +1625,14 @@
 
       var currentRefCode = '';
 
-      // Incoming referral tracking
+      // Incoming referral tracking & multi-page session persistence
       try {
         var searchParams = new URLSearchParams(window.location.search || '');
-        var incomingRef = searchParams.get('ref');
+        var incomingRef = searchParams.get('ref') || (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) || null;
         if (incomingRef) {
           var storedCount = Number(localStorage.getItem('defi_garden_ref_' + incomingRef + '_count') || 0);
           localStorage.setItem('defi_garden_ref_' + incomingRef + '_count', String(storedCount + 1));
+          try { sessionStorage.setItem('defi_garden_referred_by', incomingRef); } catch (e) {}
         }
       } catch (e) {}
 
@@ -1723,7 +1724,10 @@
           currentRefCode = refCode;
 
           var searchParams = new URLSearchParams(window.location.search || '');
-          var referredBy = searchParams.get('ref') || null;
+          var referredBy = searchParams.get('ref') ||
+            (function() { try { return sessionStorage.getItem('defi_garden_referred_by'); } catch(e) { return null; } })() ||
+            (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) ||
+            null;
 
           var payload = {
             waitlist_id: 'yc_' + randomHex,
@@ -1746,6 +1750,33 @@
             existing.push(payload);
             localStorage.setItem(storageKey, JSON.stringify(existing));
           } catch (err) {}
+          // Formspree live waitlist ingestion
+          try {
+            if (typeof fetch !== 'undefined') {
+              var formspreePayload = {
+                email: email,
+                referral_code: refCode,
+                referred_by: referredBy || 'direct',
+                subscription_slug: 'rent',
+                subscription_name: 'Apartment Rent Settlement',
+                category: 'Housing & Rent',
+                monthly_cost_usd: 1800.00,
+                tax_buffer_usd: 2160.00,
+                source: 'intent_portal_for_rent',
+                message: 'DeFi Garden Card Waitlist - Apartment Rent Settlement ($1800.00/mo)'
+              };
+
+              fetch('https://formspree.io/f/xzdqygjn', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formspreePayload)
+              }).catch(function() {});
+            }
+          } catch (err) {}
+
           // Edge / API registration tracking (production only)
           if (window.location.hostname.includes('defi.garden')) {
             try {
@@ -1758,7 +1789,6 @@
               }
             } catch (err) {}
           }
-
           showReceipt(email, refCode);
         });
       }

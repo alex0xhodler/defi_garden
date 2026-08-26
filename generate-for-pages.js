@@ -1996,13 +1996,14 @@ function generateHtml(sub) {
 
       var currentRefCode = '';
 
-      // Incoming referral tracking
+      // Incoming referral tracking & multi-page session persistence
       try {
         var searchParams = new URLSearchParams(window.location.search || '');
-        var incomingRef = searchParams.get('ref');
+        var incomingRef = searchParams.get('ref') || (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) || null;
         if (incomingRef) {
           var storedCount = Number(localStorage.getItem('defi_garden_ref_' + incomingRef + '_count') || 0);
           localStorage.setItem('defi_garden_ref_' + incomingRef + '_count', String(storedCount + 1));
+          try { sessionStorage.setItem('defi_garden_referred_by', incomingRef); } catch (e) {}
         }
       } catch (e) {}
 
@@ -2094,7 +2095,10 @@ function generateHtml(sub) {
           currentRefCode = refCode;
 
           var searchParams = new URLSearchParams(window.location.search || '');
-          var referredBy = searchParams.get('ref') || null;
+          var referredBy = searchParams.get('ref') ||
+            (function() { try { return sessionStorage.getItem('defi_garden_referred_by'); } catch(e) { return null; } })() ||
+            (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) ||
+            null;
 
           var payload = {
             waitlist_id: 'yc_' + randomHex,
@@ -2117,6 +2121,33 @@ function generateHtml(sub) {
             existing.push(payload);
             localStorage.setItem(storageKey, JSON.stringify(existing));
           } catch (err) {}
+          // Formspree live waitlist ingestion
+          try {
+            if (typeof fetch !== 'undefined') {
+              var formspreePayload = {
+                email: email,
+                referral_code: refCode,
+                referred_by: referredBy || 'direct',
+                subscription_slug: '${sub.slug}',
+                subscription_name: '${sub.name}',
+                category: '${sub.category}',
+                monthly_cost_usd: ${sub.baseMonthlyUsd.toFixed(2)},
+                tax_buffer_usd: ${sub.taxBufferMonthlyUsd.toFixed(2)},
+                source: 'intent_portal_for_${sub.slug}',
+                message: 'DeFi Garden Card Waitlist - ${sub.name} ($${sub.baseMonthlyUsd.toFixed(2)}/mo)'
+              };
+
+              fetch('https://formspree.io/f/xzdqygjn', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formspreePayload)
+              }).catch(function() {});
+            }
+          } catch (err) {}
+
           // Edge / API registration tracking (production only)
           if (window.location.hostname.includes('defi.garden')) {
             try {
@@ -2129,7 +2160,6 @@ function generateHtml(sub) {
               }
             } catch (err) {}
           }
-
           showReceipt(email, refCode);
         });
       }
