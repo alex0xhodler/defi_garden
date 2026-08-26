@@ -90,11 +90,15 @@
       border: 1px solid var(--ui-border-strong);
       color: var(--ui-accent);
       font-family: var(--font-family-mono, monospace);
-      font-size: 0.74rem;
+      font-size: clamp(0.66rem, 2.5vw, 0.74rem);
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       margin-bottom: 16px;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .hero-headline {
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
@@ -715,8 +719,7 @@
       background: var(--ui-accent, #7CC9A0) !important;
       color: #08140f !important;
       border: 1px solid var(--ui-accent, #7CC9A0) !important;
-      border-radius: 6px !important;
-      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      border-radius: 0 !important;
       font-weight: 700 !important;
       font-size: 0.92rem;
       cursor: pointer;
@@ -1111,7 +1114,7 @@
       <section class="hero-section">
         <div class="badge-intent-portal badge-intent">
           <img class="service-brand-icon service-brand-favicon" src="https://www.google.com/s2/favicons?domain=max.com&sz=64" alt="max" width="16" height="16" style="width:16px; height:16px; border-radius:2px; object-fit:contain; display:inline-block; vertical-align:middle; flex-shrink:0;" loading="lazy" />
-          <span>Slash your streaming bill · 100% yield-funded</span>
+          <span>Slash your streaming bill with yield</span>
         </div>
         <h1 class="hero-headline hero-title">Stream Max (HBO) indefinitely on autopilot.</h1>
         <p class="hero-subhead hero-body">Put idle stablecoins to work in curated Base vaults. Monthly yield pays your $16.99 Max subscription while principal remains 100% yours.</p>

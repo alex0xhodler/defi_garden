@@ -372,17 +372,17 @@ function renderShieldCheckIconSvg() {
 }
 function getBenefitEyebrow(sub) {
   const categoryMap = {
-    'AI / Developer': 'Slash your AI & dev bill · 100% yield-funded',
-    'Cloud Compute': 'Eliminate cloud server burn · 100% yield-funded',
-    'Media Streaming': 'Slash your streaming bill · 100% yield-funded',
-    'Shopping & Media': 'Slash your subscription bill · 100% yield-funded',
-    'Gaming': 'Slash your gaming bill · 100% yield-funded',
-    'Lifestyle & Food': 'Slash your delivery fees · 100% yield-funded',
-    'Lifestyle & Mobility': 'Slash your rides & food bill · 100% yield-funded',
-    'Everyday Utility Bills': 'Eliminate your phone bill · 100% yield-funded',
-    'Housing & Rent': 'Zero-out your rent invoice · 100% yield-funded'
+    'AI / Developer': 'Slash your AI bill with yield',
+    'Cloud Compute': 'Eliminate cloud burn with yield',
+    'Media Streaming': 'Slash your streaming bill with yield',
+    'Shopping & Media': 'Slash your subscription bill',
+    'Gaming': 'Slash your gaming bill with yield',
+    'Lifestyle & Food': 'Slash delivery fees with yield',
+    'Lifestyle & Mobility': 'Slash ride & food bill with yield',
+    'Everyday Utility Bills': 'Eliminate phone bill with yield',
+    'Housing & Rent': 'Zero-out rent with yield'
   };
-  return categoryMap[sub.category] || 'Slash your subscription bill · 100% yield-funded';
+  return categoryMap[sub.category] || 'Slash your subscription bill with yield';
 }
 
 function generateHtml(sub) {
@@ -478,11 +478,15 @@ function generateHtml(sub) {
       border: 1px solid var(--ui-border-strong);
       color: var(--ui-accent);
       font-family: var(--font-family-mono, monospace);
-      font-size: 0.74rem;
+      font-size: clamp(0.66rem, 2.5vw, 0.74rem);
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       margin-bottom: 16px;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .hero-headline {
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
@@ -1103,8 +1107,7 @@ function generateHtml(sub) {
       background: var(--ui-accent, #7CC9A0) !important;
       color: #08140f !important;
       border: 1px solid var(--ui-accent, #7CC9A0) !important;
-      border-radius: 6px !important;
-      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      border-radius: 0 !important;
       font-weight: 700 !important;
       font-size: 0.92rem;
       cursor: pointer;
