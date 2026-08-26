@@ -4,7 +4,7 @@ The highest honest ROCK.RETH yield right now is 1.06% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b22108bd-d542-4701-8701-cf59ae8308fb&src=seo_token) | Ethereum | 1.06% | $23.22M |
+| [lagoon →](https://www.defi.garden/?pool=b22108bd-d542-4701-8701-cf59ae8308fb&src=seo_token) | Ethereum | 1.06% | $23.47M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROCK.RETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $23.22M in total.
+1 live pool clear this page's $100K TVL floor, $23.47M in total.
 
 ### Are these rates safe?
 

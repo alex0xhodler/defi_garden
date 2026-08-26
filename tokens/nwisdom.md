@@ -1,10 +1,10 @@
 # NWISDOM DeFi Yields
 
-The highest honest NWISDOM yield right now is 6.00% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NWISDOM yield right now is 6.00% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 6.00% | $2.89M |
+| [plume-vaults →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 6.00% | $2.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NWISDOM yield today?
 
-6.00% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+6.00% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NWISDOM pools clear the TVL floor?
 

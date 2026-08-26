@@ -1,10 +1,10 @@
 # METAC DeFi Yields
 
-The highest honest METAC yield right now is 702.39% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METAC yield right now is 142.65% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d791dc1b-88d8-5e0e-99e6-fa4041b6e340&src=seo_token) | Base | 702.39% | $689.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d791dc1b-88d8-5e0e-99e6-fa4041b6e340&src=seo_token) | Base | 142.65% | $752.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest METAC yield today?
 
-702.39% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+142.65% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many METAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $689.8K in total.
+1 live pool clear this page's $100K TVL floor, $752.9K in total.
 
 ### Are these rates safe?
 

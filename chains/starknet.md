@@ -1,17 +1,17 @@
 # Starknet DeFi Yields
 
-The highest honest Starknet yield right now is 30.97% on ekubo (Starknet), among 82 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Starknet yield right now is 26.82% on ekubo (Starknet), among 82 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STRK | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17&src=seo_chain) | 6.59% | $3.55M |
-| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_chain) | 34.27% | $3.41M |
+| STRK | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17&src=seo_chain) | 6.59% | $3.56M |
+| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_chain) | 31.71% | $3.41M |
 | WBTC | [vesu →](https://www.defi.garden/?pool=d8d0a6ee-cca9-4b4c-aec8-d0fa32eda559&src=seo_chain) | 2.00% | $3.01M |
-| ETH | [nostra-money-market →](https://www.defi.garden/?pool=af241622-7d27-4afe-98cb-53dfef00e0c4&src=seo_chain) | 1.84% | $2.46M |
+| ETH | [nostra-money-market →](https://www.defi.garden/?pool=af241622-7d27-4afe-98cb-53dfef00e0c4&src=seo_chain) | 1.84% | $2.47M |
 | WBTC | [endur →](https://www.defi.garden/?pool=867e3e6b-4ebb-46fd-92d5-4d4afbf28553&src=seo_chain) | 1.78% | $2.07M |
-| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_chain) | 30.97% | $1.88M |
-| SOLVBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_chain) | 12.50% | $1.58M |
-| SOLVBTC | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_chain) | 2.00% | $1.58M |
+| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_chain) | 26.82% | $1.88M |
+| SOLVBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_chain) | 12.90% | $1.58M |
+| SOLVBTC | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_chain) | 2.00% | $1.57M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Starknet yield today?
 
-30.97% APY on ekubo (Starknet), based on live DefiLlama data.
+26.82% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many Starknet pools clear the TVL floor?
 

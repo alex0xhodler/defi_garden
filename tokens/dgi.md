@@ -4,7 +4,7 @@ The highest honest DGI yield right now is 24.42% on steer-protocol (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=1e1dfbe4-a109-487e-b659-f25b8599f6bd&src=seo_token) | Ethereum | 24.42% | $123.7K |
+| [steer-protocol →](https://www.defi.garden/?pool=1e1dfbe4-a109-487e-b659-f25b8599f6bd&src=seo_token) | Ethereum | 24.42% | $124.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DGI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.7K in total.
+1 live pool clear this page's $100K TVL floor, $124.2K in total.
 
 ### Are these rates safe?
 

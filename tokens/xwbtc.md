@@ -1,10 +1,10 @@
 # XWBTC DeFi Yields
 
-The highest honest XWBTC yield right now is 4.28% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XWBTC yield right now is 3.77% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 4.28% | $745.4K |
+| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 3.77% | $744.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XWBTC shows up in 1 pools here, with rates from 4.28% to 4.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XWBTC shows up in 1 pools here, with rates from 3.77% to 3.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,7 +23,7 @@ XWBTC shows up in 1 pools here, with rates from 4.28% to 4.28% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 4.28% | 3.49% | 82.56% incentives |
+| ekubo | 3.77% | 3.49% | 98.32% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,7 +31,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XWBTC yield today?
 
-4.28% APY on ekubo (Starknet), based on live DefiLlama data.
+3.77% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many XWBTC pools clear the TVL floor?
 
@@ -48,11 +48,11 @@ There is not enough qualifying APY history to rank XWBTC pools. This view covers
 ## Related tokens
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [SUSN](https://www.defi.garden/tokens/susn)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [ZEC](https://www.defi.garden/tokens/zec)
+- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 

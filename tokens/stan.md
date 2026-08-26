@@ -1,10 +1,10 @@
 # STAN DeFi Yields
 
-The highest honest STAN yield right now is 31.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAN yield right now is 22.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb8acb80-8df9-4370-9311-06729a12460a&src=seo_token) | Solana | 31.74% | $119K |
+| [raydium-amm →](https://www.defi.garden/?pool=eb8acb80-8df9-4370-9311-06729a12460a&src=seo_token) | Solana | 22.32% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STAN yield today?
 
-31.74% APY on raydium-amm (Solana), based on live DefiLlama data.
+22.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119K in total.
+1 live pool clear this page's $100K TVL floor, $118.7K in total.
 
 ### Are these rates safe?
 

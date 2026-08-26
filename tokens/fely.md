@@ -1,10 +1,10 @@
 # FELY DeFi Yields
 
-The highest honest FELY yield right now is 5.01% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FELY yield right now is 5.63% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9dd6530-1f87-4252-b0ce-6535a0520feb&src=seo_token) | Polygon | 5.01% | $732.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9dd6530-1f87-4252-b0ce-6535a0520feb&src=seo_token) | Polygon | 5.63% | $722.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FELY yield today?
 
-5.01% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+5.63% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many FELY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $732.6K in total.
+1 live pool clear this page's $100K TVL floor, $722.7K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank FELY pools. This view covers 
 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

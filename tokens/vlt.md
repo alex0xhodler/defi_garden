@@ -1,10 +1,10 @@
 # VLT DeFi Yields
 
-The highest honest VLT yield right now is 0.91% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VLT yield right now is 0.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=408c545b-ea02-44a8-a16c-451b94949e10&src=seo_token) | Ethereum | 0.91% | $1.15M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=408c545b-ea02-44a8-a16c-451b94949e10&src=seo_token) | Ethereum | 0.56% | $1.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VLT yield today?
 
-0.91% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many VLT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.15M in total.
+1 live pool clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 

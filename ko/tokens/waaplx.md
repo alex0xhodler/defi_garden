@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.05%�
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [BSB](https://www.defi.garden/ko/tokens/bsb)
 - [BILL](https://www.defi.garden/ko/tokens/bill)
-- [KII](https://www.defi.garden/ko/tokens/kii)
 
 ## 이용 가능한 체인
 

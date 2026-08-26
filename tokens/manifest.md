@@ -1,10 +1,10 @@
 # MANIFEST DeFi Yields
 
-The highest honest MANIFEST yield right now is 1.66% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MANIFEST yield right now is 1.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6b74a24c-6153-49af-a134-864c3f7bf849&src=seo_token) | Solana | 1.66% | $102K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b74a24c-6153-49af-a134-864c3f7bf849&src=seo_token) | Solana | 1.56% | $101.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MANIFEST yield today?
 
-1.66% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MANIFEST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $101.5K in total.
 
 ### Are these rates safe?
 

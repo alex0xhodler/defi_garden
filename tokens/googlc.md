@@ -1,10 +1,10 @@
 # GOOGLC DeFi Yields
 
-The highest honest GOOGLC yield right now is 270.99% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLC yield right now is 149.37% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 270.99% | $872.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 149.37% | $940.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOOGLC yield today?
 
-270.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+149.37% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many GOOGLC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $872.5K in total.
+1 live pool clear this page's $100K TVL floor, $940.8K in total.
 
 ### Are these rates safe?
 

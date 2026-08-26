@@ -4,7 +4,7 @@ The highest honest TREMP yield right now is 2.12% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=78584e07-12ab-4eb9-9758-3f401a7c6534&src=seo_token) | Solana | 2.12% | $223.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=78584e07-12ab-4eb9-9758-3f401a7c6534&src=seo_token) | Solana | 2.12% | $216.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TREMP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $223.9K in total.
+1 live pool clear this page's $100K TVL floor, $216.2K in total.
 
 ### Are these rates safe?
 

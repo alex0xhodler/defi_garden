@@ -1,10 +1,10 @@
 # EURW 디파이 수익률
 
-현재 EURW의 가장 높은 정직한 수익률은 Monad의 uniswap-v3에서 5.28%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURW의 가장 높은 정직한 수익률은 Monad의 uniswap-v3에서 2.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 5.28% | $1.1M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 2.68% | $1.1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 EURW의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 uniswap-v3에서 APY 5.28%예요.
+DefiLlama 실시간 데이터 기준, Monad의 uniswap-v3에서 APY 2.68%예요.
 
 ### EURW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

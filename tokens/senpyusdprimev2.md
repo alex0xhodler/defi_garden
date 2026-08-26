@@ -1,10 +1,10 @@
 # SENPYUSDPRIMEV2 DeFi Yields
 
-The highest honest SENPYUSDPRIMEV2 yield right now is 6.15% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDPRIMEV2 yield right now is 6.12% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.15% | $208.09M |
+| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.12% | $208.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDPRIMEV2 yield today?
 
-6.15% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.12% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDPRIMEV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $208.09M in total.
+1 live pool clear this page's $100K TVL floor, $208.2M in total.
 
 ### Are these rates safe?
 

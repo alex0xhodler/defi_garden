@@ -1,10 +1,10 @@
 # KWIF DeFi Yields
 
-The highest honest KWIF yield right now is 6.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KWIF yield right now is 5.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=56f9f60e-fc7b-4976-86f5-18afdcfd00b6&src=seo_token) | Solana | 6.74% | $100.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=56f9f60e-fc7b-4976-86f5-18afdcfd00b6&src=seo_token) | Solana | 5.22% | $102.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KWIF yield today?
 
-6.74% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KWIF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.8K in total.
+1 live pool clear this page's $100K TVL floor, $102.3K in total.
 
 ### Are these rates safe?
 

@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.52%예요.
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
+- [HASUI](https://www.defi.garden/ko/tokens/hasui)
+- [BUCK](https://www.defi.garden/ko/tokens/buck)
 
 ## 이용 가능한 체인
 

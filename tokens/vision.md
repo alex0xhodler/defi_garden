@@ -4,7 +4,7 @@ The highest honest VISION yield right now is 0.09% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a2c75f3e-bd0d-41c6-a510-64c35577b06e&src=seo_token) | Ethereum | 0.09% | $140.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a2c75f3e-bd0d-41c6-a510-64c35577b06e&src=seo_token) | Ethereum | 0.09% | $139.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VISION pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.7K in total.
+1 live pool clear this page's $100K TVL floor, $139.7K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # SNPAD DeFi Yields
 
-The highest honest SNPAD yield right now is 7.12% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNPAD yield right now is 9.72% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=97ed833f-8158-4e94-9ab2-86fa6199c5ff&src=seo_token) | Ethereum | 7.12% | $378.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=97ed833f-8158-4e94-9ab2-86fa6199c5ff&src=seo_token) | Ethereum | 9.72% | $378.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNPAD yield today?
 
-7.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SNPAD pools clear the TVL floor?
 

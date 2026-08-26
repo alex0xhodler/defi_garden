@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.95% | $3.85M |
+| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.95% | $3.86M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yuzu-money에서 APY 9.95%예�
 
 ### YZSYRUP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3.85M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3.86M예요.
 
 ### 이 수익률은 안전한가요?
 

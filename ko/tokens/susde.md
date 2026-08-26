@@ -1,37 +1,37 @@
 # SUSDE 디파이 수익률
 
-현재 SUSDE의 가장 높은 정직한 수익률은 Monad의 pendle에서 8.85%이며, $100K TVL 기준을 넘는 58개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDE의 가장 높은 정직한 수익률은 Monad의 pendle에서 8.82%이며, $100K TVL 기준을 넘는 58개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.19% | $1.33B |
-| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 1.32% | $329.74M |
-| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.37% | $163M |
-| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.62% | $74.24M |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.67% | $52.43M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.32% | $43.32M |
-| [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.82% | $17.33M |
-| [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.85% | $17.33M |
+| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.63% | $1.33B |
+| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 1.38% | $330.04M |
+| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.37% | $162.99M |
+| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.62% | $74.25M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.67% | $52.44M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.31% | $43.32M |
+| [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.76% | $17.28M |
+| [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.82% | $17.28M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDE의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.32%, TVL $329.74M, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; Plasma의 aave-v3, APY 2.37%, TVL $163M, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; Mantle의 aave-v3, APY 3.62%, TVL $74.24M, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; Ethereum의 convex-finance, APY 5.32%, TVL $43.32M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 curve-dex, APY 3.67%, TVL $52.43M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 ethena-usde, APY 4.19%, TVL $1.33B, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDE의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.38%, TVL $330.04M, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; Plasma의 aave-v3, APY 2.37%, TVL $162.99M, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; Mantle의 aave-v3, APY 3.62%, TVL $74.25M, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; Ethereum의 convex-finance, APY 5.31%, TVL $43.32M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 curve-dex, APY 3.67%, TVL $52.44M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 ethena-usde, APY 4.63%, TVL $1.33B, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 1.32% | $329.74M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.37% | $163M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.62% | $74.24M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.32% | $43.32M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.67% | $52.43M |
-| 6 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.19% | $1.33B |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 1.38% | $330.04M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.37% | $162.99M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.62% | $74.25M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.31% | $43.32M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.67% | $52.44M |
+| 6 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.63% | $1.33B |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 1.32%부터 8.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 1.38%부터 8.82%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -39,14 +39,14 @@ SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 1.32%부터 8.85%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ethena-usde | 4.19% | 4.18% | 기본 금리 |
-| aave-v3 | 1.32% | 1.24% | 인센티브 100.00% |
-| aave-v3 | 2.37% | 1.58% | 인센티브 100.00% |
-| aave-v3 | 3.62% | 3.45% | 인센티브 100.00% |
-| curve-dex | 3.67% | 3.63% | 인센티브 71.42% |
-| convex-finance | 5.32% | 5.42% | 인센티브 80.27% |
-| pendle | 4.82% | 4.34% | 기본 금리 |
-| pendle | 8.85% | 11.12% | 인센티브 1.02% |
+| ethena-usde | 4.63% | 4.18% | 기본 금리 |
+| aave-v3 | 1.38% | 1.23% | 인센티브 100.00% |
+| aave-v3 | 2.37% | 1.57% | 인센티브 100.00% |
+| aave-v3 | 3.62% | 3.44% | 인센티브 100.00% |
+| curve-dex | 3.67% | 3.63% | 인센티브 71.37% |
+| convex-finance | 5.31% | 5.43% | 인센티브 80.24% |
+| pendle | 4.76% | 4.36% | 기본 금리 |
+| pendle | 8.82% | 11.01% | 인센티브 1.02% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,7 +54,7 @@ SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 1.32%부터 8.85%�
 
 ### 오늘 SUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 8.85%예요.
+DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 8.82%예요.
 
 ### SUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 8.85%예요.
 
 ### SUSDE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDE의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.32%, TVL $329.74M, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; Plasma의 aave-v3, APY 2.37%, TVL $163M, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; Mantle의 aave-v3, APY 3.62%, TVL $74.24M, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; Ethereum의 convex-finance, APY 5.32%, TVL $43.32M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 curve-dex, APY 3.67%, TVL $52.43M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 ethena-usde, APY 4.19%, TVL $1.33B, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDE의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.38%, TVL $330.04M, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; Plasma의 aave-v3, APY 2.37%, TVL $162.99M, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; Mantle의 aave-v3, APY 3.62%, TVL $74.25M, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; Ethereum의 convex-finance, APY 5.31%, TVL $43.32M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 curve-dex, APY 3.67%, TVL $52.44M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 ethena-usde, APY 4.63%, TVL $1.33B, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

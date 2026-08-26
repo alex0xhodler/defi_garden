@@ -1,10 +1,10 @@
 # TGC 디파이 수익률
 
-현재 TGC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 3.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TGC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 2.64%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d51bbed3-2541-457f-a1f9-d9c51e9a5868&src=seo_token) | Ethereum | 3.44% | $1.1M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d51bbed3-2541-457f-a1f9-d9c51e9a5868&src=seo_token) | Ethereum | 2.64% | $1.1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 TGC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 3.44%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 2.64%예요.
 
 ### TGC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

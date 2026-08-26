@@ -1,8 +1,8 @@
 # SHEESHA-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
+**Total APY:** 0.02% (0.02% Base · + 0.00% Rewards)
 
-**TVL:** $172.3K
+**TVL:** $174.9K
 
 **Pool Type:** LP/DEX
 

@@ -1,10 +1,10 @@
 # BURN DeFi Yields
 
-The highest honest BURN yield right now is 0.22% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BURN yield right now is 0.16% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 0.22% | $173.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 0.16% | $173.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BURN yield today?
 
-0.22% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.16% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many BURN pools clear the TVL floor?
 
@@ -36,9 +36,9 @@ There is not enough qualifying APY history to rank BURN pools. This view covers 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

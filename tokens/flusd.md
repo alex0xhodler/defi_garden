@@ -1,10 +1,10 @@
 # FLUSD DeFi Yields
 
-The highest honest FLUSD yield right now is 46.12% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLUSD yield right now is 41.08% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=169cdca0-381f-435c-831b-e61c11f92953&src=seo_token) | Ethereum | 46.12% | $521.4K |
+| [lagoon →](https://www.defi.garden/?pool=169cdca0-381f-435c-831b-e61c11f92953&src=seo_token) | Ethereum | 41.08% | $521.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLUSD yield today?
 
-46.12% APY on lagoon (Ethereum), based on live DefiLlama data.
+41.08% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many FLUSD pools clear the TVL floor?
 

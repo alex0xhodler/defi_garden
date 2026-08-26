@@ -1,10 +1,10 @@
 # JASMY DeFi Yields
 
-The highest honest JASMY yield right now is 0.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JASMY yield right now is 0.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6fbf860a-6b93-53d0-adbe-eeba78a79e41&src=seo_token) | Solana | 0.29% | $4.42M |
+| [raydium-amm →](https://www.defi.garden/?pool=6fbf860a-6b93-53d0-adbe-eeba78a79e41&src=seo_token) | Solana | 0.44% | $4.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JASMY yield today?
 
-0.29% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JASMY pools clear the TVL floor?
 

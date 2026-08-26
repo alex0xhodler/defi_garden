@@ -1,29 +1,29 @@
 # LQTY DeFi Yields
 
-The highest honest LQTY yield right now is 14.42% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LQTY yield right now is 15.72% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 14.42% | $529.8K |
-| [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 7.46% | $438.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 15.72% | $536.6K |
+| [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 7.73% | $444.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LQTY's lower-variability candidates are uniswap-v3 (Ethereum), 14.42% APY, $529.8K TVL, https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token; gamma (Ethereum), 7.46% APY, $438.8K TVL, https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LQTY's lower-variability candidates are uniswap-v3 (Ethereum), 15.72% APY, $536.6K TVL, https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token; gamma (Ethereum), 7.73% APY, $444.4K TVL, https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 14.42% | $529.8K |
-| 2 | [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 7.46% | $438.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 15.72% | $536.6K |
+| 2 | [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 7.73% | $444.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LQTY shows up in 2 pools here, with rates from 7.46% to 14.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LQTY shows up in 2 pools here, with rates from 7.73% to 15.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 14.42% | 17.36% | Base rate |
-| gamma | 7.46% | 8.27% | Base rate |
+| uniswap-v3 | 15.72% | 17.10% | Base rate |
+| gamma | 7.73% | 8.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LQTY yield today?
 
-14.42% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+15.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LQTY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $968.6K in total.
+2 live pools clear this page's $100K TVL floor, $981K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LQTY pools have the most stable APY history?
 
-Based on APY history only, LQTY's lower-variability candidates are uniswap-v3 (Ethereum), 14.42% APY, $529.8K TVL, https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token; gamma (Ethereum), 7.46% APY, $438.8K TVL, https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LQTY's lower-variability candidates are uniswap-v3 (Ethereum), 15.72% APY, $536.6K TVL, https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token; gamma (Ethereum), 7.73% APY, $444.4K TVL, https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -4,7 +4,7 @@ The highest honest POOPCOIN yield right now is 0.78% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b1b240ff-cb6d-440a-ab84-16902e45eed6&src=seo_token) | Base | 0.78% | $148.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b1b240ff-cb6d-440a-ab84-16902e45eed6&src=seo_token) | Base | 0.78% | $148.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many POOPCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.6K in total.
+1 live pool clear this page's $100K TVL floor, $148.7K in total.
 
 ### Are these rates safe?
 

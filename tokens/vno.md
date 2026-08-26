@@ -1,10 +1,10 @@
 # VNO DeFi Yields
 
-The highest honest VNO yield right now is 1.16% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNO yield right now is 1.17% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 1.16% | $133.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 1.17% | $134.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VNO yield today?
 
-1.16% APY on vvs-standard (Cronos), based on live DefiLlama data.
+1.17% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many VNO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.9K in total.
+1 live pool clear this page's $100K TVL floor, $134.1K in total.
 
 ### Are these rates safe?
 

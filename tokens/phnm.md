@@ -1,10 +1,10 @@
 # PHNM DeFi Yields
 
-The highest honest PHNM yield right now is 8.76% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PHNM yield right now is 8.70% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=59e747ce-207c-4998-ab92-78b5fa796e28&src=seo_token) | Base | 8.76% | $140.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=59e747ce-207c-4998-ab92-78b5fa796e28&src=seo_token) | Base | 8.70% | $140.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PHNM yield today?
 
-8.76% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+8.70% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many PHNM pools clear the TVL floor?
 

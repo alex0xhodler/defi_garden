@@ -1,39 +1,39 @@
 # WBNB 디파이 수익률
 
-현재 WBNB의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 63.55%이며, $100K TVL 기준을 넘는 42개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WBNB의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 49.24%이며, $100K TVL 기준을 넘는 43개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.22% | $271.89M |
-| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $79.86M |
-| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.13% | $62.45M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.08% | $8.84M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 11.89% | $6.81M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 8.25% | $5.76M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 63.55% | $2.57M |
-| [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.18% | $1.56M |
+| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.22% | $271.68M |
+| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $80.09M |
+| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.13% | $62.63M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.06% | $8.88M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 7.57% | $6.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 5.65% | $5.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 49.24% | $2.58M |
+| [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.18% | $1.57M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WBNB의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.13%, TVL $62.45M, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token; BSC의 aave-v3, APY 0.01%, TVL $79.86M, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token; BSC의 kinza-finance, APY 0.18%, TVL $1.56M, https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token; BSC의 pancakeswap-amm, APY 1.08%, TVL $8.84M, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; BSC의 venus-core-pool, APY 0.22%, TVL $271.89M, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token; BSC의 uniswap-v3, APY 8.25%, TVL $5.76M, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token; BSC의 uniswap-v3, APY 11.89%, TVL $6.81M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token; BSC의 uniswap-v3, APY 63.55%, TVL $2.57M, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBNB의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.13%, TVL $62.63M, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token; BSC의 aave-v3, APY 0.01%, TVL $80.09M, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token; BSC의 kinza-finance, APY 0.18%, TVL $1.57M, https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token; BSC의 pancakeswap-amm, APY 1.06%, TVL $8.88M, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; BSC의 venus-core-pool, APY 0.22%, TVL $271.68M, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token; BSC의 uniswap-v3, APY 5.65%, TVL $5.78M, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token; BSC의 uniswap-v3, APY 7.57%, TVL $6.83M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token; BSC의 uniswap-v3, APY 49.24%, TVL $2.58M, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.13% | $62.45M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $79.86M |
-| 3 | [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.18% | $1.56M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.08% | $8.84M |
-| 5 | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.22% | $271.89M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 8.25% | $5.76M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 11.89% | $6.81M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 63.55% | $2.57M |
+| 1 | [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.13% | $62.63M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $80.09M |
+| 3 | [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.18% | $1.57M |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.06% | $8.88M |
+| 5 | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.22% | $271.68M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 5.65% | $5.78M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 7.57% | $6.83M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 49.24% | $2.58M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WBNB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 63.55%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WBNB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 49.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -46,10 +46,10 @@ WBNB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 63.55%�
 | venus-core-pool | 0.22% | 0.20% | 기본 금리 |
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
 | venus-core-pool | 0.13% | 0.13% | 기본 금리 |
-| pancakeswap-amm | 1.08% | 1.53% | 기본 금리 |
-| uniswap-v3 | 11.89% | 12.55% | 기본 금리 |
-| uniswap-v3 | 8.25% | 12.05% | 기본 금리 |
-| uniswap-v3 | 63.55% | 47.84% | 기본 금리 |
+| pancakeswap-amm | 1.06% | 1.53% | 기본 금리 |
+| uniswap-v3 | 7.57% | 12.60% | 기본 금리 |
+| uniswap-v3 | 5.65% | 12.04% | 기본 금리 |
+| uniswap-v3 | 49.24% | 48.22% | 기본 금리 |
 | kinza-finance | 0.18% | 0.19% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,11 +58,11 @@ WBNB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 63.55%�
 
 ### 오늘 WBNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 63.55%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 49.24%예요.
 
 ### WBNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 42개이며, 합산 TVL은 $450.62M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 43개이며, 합산 TVL은 $451.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 63.55%예요.
 
 ### WBNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WBNB의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.13%, TVL $62.45M, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token; BSC의 aave-v3, APY 0.01%, TVL $79.86M, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token; BSC의 kinza-finance, APY 0.18%, TVL $1.56M, https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token; BSC의 pancakeswap-amm, APY 1.08%, TVL $8.84M, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; BSC의 venus-core-pool, APY 0.22%, TVL $271.89M, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token; BSC의 uniswap-v3, APY 8.25%, TVL $5.76M, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token; BSC의 uniswap-v3, APY 11.89%, TVL $6.81M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token; BSC의 uniswap-v3, APY 63.55%, TVL $2.57M, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBNB의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.13%, TVL $62.63M, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token; BSC의 aave-v3, APY 0.01%, TVL $80.09M, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token; BSC의 kinza-finance, APY 0.18%, TVL $1.57M, https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token; BSC의 pancakeswap-amm, APY 1.06%, TVL $8.88M, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; BSC의 venus-core-pool, APY 0.22%, TVL $271.68M, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token; BSC의 uniswap-v3, APY 5.65%, TVL $5.78M, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token; BSC의 uniswap-v3, APY 7.57%, TVL $6.83M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token; BSC의 uniswap-v3, APY 49.24%, TVL $2.58M, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -1,10 +1,10 @@
 # GTEURCB DeFi Yields
 
-The highest honest GTEURCB yield right now is 4.16% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTEURCB yield right now is 4.12% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ae62a2de-6fe7-48cc-9e47-0dd2b28f665e&src=seo_token) | Base | 4.16% | $282.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=ae62a2de-6fe7-48cc-9e47-0dd2b28f665e&src=seo_token) | Base | 4.12% | $294.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTEURCB yield today?
 
-4.16% APY on morpho-blue (Base), based on live DefiLlama data.
+4.12% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many GTEURCB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $282.4K in total.
+1 live pool clear this page's $100K TVL floor, $294.7K in total.
 
 ### Are these rates safe?
 

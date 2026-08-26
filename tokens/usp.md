@@ -1,39 +1,39 @@
 # USP DeFi Yields
 
-The highest honest USP yield right now is 663.46% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USP yield right now is 661.20% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 138.50% | $160.7K |
-| [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 139.44% | $160.7K |
-| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 663.46% | $127.8K |
+| [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 138.82% | $160.7K |
+| [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 138.51% | $160.7K |
+| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 661.20% | $128K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 138.50% APY, $160.7K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 139.44% APY, $160.7K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 663.46% APY, $127.8K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 138.51% APY, $160.7K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 138.82% APY, $160.7K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 661.20% APY, $128K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 138.50% | $160.7K |
-| 2 | [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 139.44% | $160.7K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 663.46% | $127.8K |
+| 1 | [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 138.51% | $160.7K |
+| 2 | [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 138.82% | $160.7K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 661.20% | $128K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USP shows up in 3 pools here, with rates from 138.50% to 663.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USP shows up in 3 pools here, with rates from 138.51% to 661.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 111.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 112.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 138.50% | 111.85% | 89.82% incentives |
-| pendle | 139.44% | 111.62% | 89.21% incentives |
-| curve-dex | 663.46% | 655.60% | 98.71% incentives |
+| pendle | 138.82% | 112.19% | 89.60% incentives |
+| pendle | 138.51% | 112.40% | 89.80% incentives |
+| curve-dex | 661.20% | 655.66% | 98.64% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USP yield today?
 
-663.46% APY on curve-dex (Ethereum), based on live DefiLlama data.
+661.20% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many USP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.56M in total.
+4 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USP pools have the most stable APY history?
 
-Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 138.50% APY, $160.7K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 139.44% APY, $160.7K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 663.46% APY, $127.8K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 138.51% APY, $160.7K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 138.82% APY, $160.7K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 661.20% APY, $128K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,41 +1,41 @@
 # UETH DeFi Yields
 
-The highest honest UETH yield right now is 66.25% on ramses-cl-v2 (Hyperliquid L1), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UETH yield right now is 53.95% on ramses-cl-v2 (Hyperliquid L1), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 0.08% | $1.97M |
+| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 15.16% | $2M |
 | [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.25% | $1.48M |
-| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 83.76% | $818.3K |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 0.28% | $670.7K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 66.25% | $389.8K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.28% | $372.8K |
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.06% | $175.5K |
-| [nest-cl →](https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token) | Hyperliquid L1 | 22.37% | $146.4K |
+| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 83.48% | $824.3K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.45% | $668.5K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 53.95% | $390.3K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.80% | $372.8K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.06% | $175.8K |
+| [nest-cl →](https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token) | Hyperliquid L1 | 22.48% | $146.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.06% APY, $175.5K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.25% APY, $1.48M TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; project-x (Hyperliquid L1), 0.28% APY, $372.8K TVL, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; nest-cl (Hyperliquid L1), 22.37% APY, $146.4K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; project-x (Hyperliquid L1), 0.08% APY, $1.97M TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 66.25% APY, $389.8K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 83.76% APY, $818.3K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.28% APY, $670.7K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.06% APY, $175.8K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.25% APY, $1.48M TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; project-x (Hyperliquid L1), 0.80% APY, $372.8K TVL, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; nest-cl (Hyperliquid L1), 22.48% APY, $146.9K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; project-x (Hyperliquid L1), 15.16% APY, $2M TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 53.95% APY, $390.3K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 83.48% APY, $824.3K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 1.45% APY, $668.5K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.06% | $175.5K |
+| 1 | [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.06% | $175.8K |
 | 2 | [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.25% | $1.48M |
-| 3 | [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.28% | $372.8K |
-| 4 | [nest-cl →](https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token) | Hyperliquid L1 | 22.37% | $146.4K |
-| 5 | [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 0.08% | $1.97M |
-| 6 | [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 66.25% | $389.8K |
-| 7 | [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 83.76% | $818.3K |
-| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 0.28% | $670.7K |
+| 3 | [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.80% | $372.8K |
+| 4 | [nest-cl →](https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token) | Hyperliquid L1 | 22.48% | $146.9K |
+| 5 | [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 15.16% | $2M |
+| 6 | [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 53.95% | $390.3K |
+| 7 | [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 83.48% | $824.3K |
+| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.45% | $668.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UETH shows up in 8 pools here, with rates from 0.06% to 83.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UETH shows up in 8 pools here, with rates from 0.06% to 83.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,14 +43,14 @@ UETH shows up in 8 pools here, with rates from 0.06% to 83.76% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.08% | 20.88% | Base rate |
+| project-x | 15.16% | 20.94% | Base rate |
 | hyperlend-pooled | 2.25% | 3.27% | Base rate |
-| nest-cl | 83.76% | 44.62% | 100.00% incentives |
-| hyperswap-v3 | 0.28% | 1.68% | Base rate |
-| ramses-cl-v2 | 66.25% | 54.14% | 11.04% incentives |
-| project-x | 0.28% | 4.25% | Base rate |
+| nest-cl | 83.48% | 45.01% | 100.00% incentives |
+| hyperswap-v3 | 1.45% | 1.67% | Base rate |
+| ramses-cl-v2 | 53.95% | 54.01% | 13.57% incentives |
+| project-x | 0.80% | 4.24% | Base rate |
 | hypurrfi-pooled | 0.06% | 0.03% | Base rate |
-| nest-cl | 22.37% | 24.88% | 100.00% incentives |
+| nest-cl | 22.48% | 24.81% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UETH yield today?
 
-66.25% APY on ramses-cl-v2 (Hyperliquid L1), based on live DefiLlama data.
+53.95% APY on ramses-cl-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UETH pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $6.25M in total.
+9 live pools clear this page's $100K TVL floor, $6.28M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UETH pools have the most stable APY history?
 
-Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.06% APY, $175.5K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.25% APY, $1.48M TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; project-x (Hyperliquid L1), 0.28% APY, $372.8K TVL, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; nest-cl (Hyperliquid L1), 22.37% APY, $146.4K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; project-x (Hyperliquid L1), 0.08% APY, $1.97M TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 66.25% APY, $389.8K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 83.76% APY, $818.3K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.28% APY, $670.7K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.06% APY, $175.8K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.25% APY, $1.48M TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; project-x (Hyperliquid L1), 0.80% APY, $372.8K TVL, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; nest-cl (Hyperliquid L1), 22.48% APY, $146.9K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; project-x (Hyperliquid L1), 15.16% APY, $2M TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 53.95% APY, $390.3K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 83.48% APY, $824.3K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 1.45% APY, $668.5K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

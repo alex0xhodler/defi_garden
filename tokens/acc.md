@@ -1,10 +1,10 @@
 # ACC DeFi Yields
 
-The highest honest ACC yield right now is 59.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACC yield right now is 48.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=149c6727-dc26-4100-8b26-f2af50f4429b&src=seo_token) | Solana | 59.92% | $131.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=149c6727-dc26-4100-8b26-f2af50f4429b&src=seo_token) | Solana | 48.32% | $125.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ACC yield today?
 
-59.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+48.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ACC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.1K in total.
+1 live pool clear this page's $100K TVL floor, $125.2K in total.
 
 ### Are these rates safe?
 

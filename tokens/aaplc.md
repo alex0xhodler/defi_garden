@@ -1,10 +1,10 @@
 # AAPLC DeFi Yields
 
-The highest honest AAPLC yield right now is 318.36% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPLC yield right now is 116.34% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8e1479a4-5561-5291-a1ff-6debfda30c6e&src=seo_token) | Base | 318.36% | $810K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8e1479a4-5561-5291-a1ff-6debfda30c6e&src=seo_token) | Base | 116.34% | $930.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAPLC yield today?
 
-318.36% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+116.34% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AAPLC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $810K in total.
+1 live pool clear this page's $100K TVL floor, $930.9K in total.
 
 ### Are these rates safe?
 

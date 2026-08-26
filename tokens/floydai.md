@@ -1,10 +1,10 @@
 # FLOYDAI DeFi Yields
 
-The highest honest FLOYDAI yield right now is 1.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLOYDAI yield right now is 1.52% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=85781f19-d948-48b1-b6cd-40f87c7ab6be&src=seo_token) | Solana | 1.67% | $107.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=85781f19-d948-48b1-b6cd-40f87c7ab6be&src=seo_token) | Solana | 1.52% | $107.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLOYDAI yield today?
 
-1.67% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.52% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FLOYDAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.1K in total.
+1 live pool clear this page's $100K TVL floor, $107.3K in total.
 
 ### Are these rates safe?
 

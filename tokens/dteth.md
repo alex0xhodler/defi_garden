@@ -4,7 +4,7 @@ The highest honest DTETH yield right now is 7.73% on lagoon (Base), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=f8f84a30-879e-4da1-ac4d-6c9e902b9cb4&src=seo_token) | Base | 7.73% | $137.5K |
+| [lagoon →](https://www.defi.garden/?pool=f8f84a30-879e-4da1-ac4d-6c9e902b9cb4&src=seo_token) | Base | 7.73% | $137.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DTETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.5K in total.
+1 live pool clear this page's $100K TVL floor, $137.9K in total.
 
 ### Are these rates safe?
 

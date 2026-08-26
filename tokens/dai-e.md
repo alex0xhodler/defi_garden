@@ -1,10 +1,10 @@
 # DAI.E DeFi Yields
 
-The highest honest DAI.E yield right now is 1.64% on aave-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAI.E yield right now is 1.63% on aave-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.64% | $1.82M |
+| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.63% | $1.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAI.E yield today?
 
-1.64% APY on aave-v3 (Avalanche), based on live DefiLlama data.
+1.63% APY on aave-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many DAI.E pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.82M in total.
+1 live pool clear this page's $100K TVL floor, $1.83M in total.
 
 ### Are these rates safe?
 

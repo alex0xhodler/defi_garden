@@ -1,10 +1,10 @@
 # ELON4AFD DeFi Yields
 
-The highest honest ELON4AFD yield right now is 2.85% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELON4AFD yield right now is 2.14% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a5927e0e-b501-4de6-b08a-6165f12fe739&src=seo_token) | Solana | 2.85% | $118.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a5927e0e-b501-4de6-b08a-6165f12fe739&src=seo_token) | Solana | 2.14% | $118.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELON4AFD yield today?
 
-2.85% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ELON4AFD pools clear the TVL floor?
 

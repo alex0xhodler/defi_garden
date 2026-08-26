@@ -1,10 +1,10 @@
 # KABUWETH DeFi Yields
 
-The highest honest KABUWETH yield right now is 1.18% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KABUWETH yield right now is 1.17% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3ebc80ed-02a3-59fd-8fb6-ec81089f7a17&src=seo_token) | Base | 1.18% | $1.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=3ebc80ed-02a3-59fd-8fb6-ec81089f7a17&src=seo_token) | Base | 1.17% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KABUWETH yield today?
 
-1.18% APY on morpho-blue (Base), based on live DefiLlama data.
+1.17% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many KABUWETH pools clear the TVL floor?
 

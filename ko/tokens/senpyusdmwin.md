@@ -1,10 +1,10 @@
 # SENPYUSDMWIN 디파이 수익률
 
-현재 SENPYUSDMWIN의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SENPYUSDMWIN의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.63%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 6.84% | $32.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 6.63% | $32.1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SENPYUSDMWIN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.63%예요.
 
 ### SENPYUSDMWIN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -1,10 +1,10 @@
 # NCLOA DeFi Yields
 
-The highest honest NCLOA yield right now is 4.30% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NCLOA yield right now is 4.30% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_token) | Plume Mainnet | 4.30% | $3.23M |
+| [plume-vaults →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_token) | Plume Mainnet | 4.30% | $3.23M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NCLOA yield today?
 
-4.30% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+4.30% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NCLOA pools clear the TVL floor?
 

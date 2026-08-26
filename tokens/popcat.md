@@ -1,29 +1,29 @@
 # POPCAT DeFi Yields
 
-The highest honest POPCAT yield right now is 41.28% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POPCAT yield right now is 32.86% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 32.94% | $3.86M |
-| [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 41.28% | $668K |
+| [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 25.58% | $3.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 32.86% | $664.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, POPCAT's lower-variability candidates are raydium-amm (Solana), 41.28% APY, $668K TVL, https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token; raydium-amm (Solana), 32.94% APY, $3.86M TVL, https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, POPCAT's lower-variability candidates are raydium-amm (Solana), 32.86% APY, $664.3K TVL, https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token; raydium-amm (Solana), 25.58% APY, $3.85M TVL, https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 41.28% | $668K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 32.94% | $3.86M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 32.86% | $664.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 25.58% | $3.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-POPCAT shows up in 2 pools here, with rates from 32.94% to 41.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+POPCAT shows up in 2 pools here, with rates from 25.58% to 32.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 32.94% | 7.67% | Base rate |
-| raydium-amm | 41.28% | 11.16% | Base rate |
+| raydium-amm | 25.58% | 7.93% | Base rate |
+| raydium-amm | 32.86% | 11.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest POPCAT yield today?
 
-41.28% APY on raydium-amm (Solana), based on live DefiLlama data.
+32.86% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POPCAT pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which POPCAT pools have the most stable APY history?
 
-Based on APY history only, POPCAT's lower-variability candidates are raydium-amm (Solana), 41.28% APY, $668K TVL, https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token; raydium-amm (Solana), 32.94% APY, $3.86M TVL, https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, POPCAT's lower-variability candidates are raydium-amm (Solana), 32.86% APY, $664.3K TVL, https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token; raydium-amm (Solana), 25.58% APY, $3.85M TVL, https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

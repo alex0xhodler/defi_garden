@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 FOLD shows up in 3 pools here, with rates from 258.43% to 738.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 3 pools has a trustworthy 30-day average on file, with a median of 154.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 3 pools has a trustworthy 30-day average on file, with a median of 156.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 289.45% | 154.85% | Base rate |
+| uniswap-v4 | 289.45% | 156.15% | Base rate |
 | uniswap-v4 | 258.43% | — | Base rate |
 | uniswap-v4 | 738.32% | — | Base rate |
 

@@ -1,10 +1,10 @@
 # OPENCLAW DeFi Yields
 
-The highest honest OPENCLAW yield right now is 5.91% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPENCLAW yield right now is 8.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a93b4a2d-e50c-42d9-806d-ccdad7e97c43&src=seo_token) | Base | 5.91% | $124.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a93b4a2d-e50c-42d9-806d-ccdad7e97c43&src=seo_token) | Base | 8.02% | $122.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPENCLAW yield today?
 
-5.91% APY on uniswap-v4 (Base), based on live DefiLlama data.
+8.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many OPENCLAW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.1K in total.
+1 live pool clear this page's $100K TVL floor, $122.7K in total.
 
 ### Are these rates safe?
 

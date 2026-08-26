@@ -1,10 +1,10 @@
 # PLASMAUSD DeFi Yields
 
-The highest honest PLASMAUSD yield right now is 3.47% on veda (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLASMAUSD yield right now is 3.75% on veda (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 3.47% | $32.65M |
+| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 3.75% | $32.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PLASMAUSD yield today?
 
-3.47% APY on veda (Plasma), based on live DefiLlama data.
+3.75% APY on veda (Plasma), based on live DefiLlama data.
 
 ### How many PLASMAUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $32.65M in total.
+1 live pool clear this page's $100K TVL floor, $32.66M in total.
 
 ### Are these rates safe?
 

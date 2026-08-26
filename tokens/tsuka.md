@@ -1,10 +1,10 @@
 # TSUKA DeFi Yields
 
-The highest honest TSUKA yield right now is 0.68% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSUKA yield right now is 0.61% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=524d3acc-d669-46d6-8bfb-85b599f94324&src=seo_token) | Ethereum | 0.68% | $377.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=524d3acc-d669-46d6-8bfb-85b599f94324&src=seo_token) | Ethereum | 0.61% | $377.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSUKA yield today?
 
-0.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.61% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TSUKA pools clear the TVL floor?
 

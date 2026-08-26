@@ -1,52 +1,52 @@
 # EVAUSDT DeFi Yields
 
-The highest honest EVAUSDT yield right now is 22.68% on stake-dao (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVAUSDT yield right now is 22.69% on stake-dao (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 8.23% | $3.35M |
-| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 12.16% | $3.18M |
-| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 12.87% | $1.99M |
+| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 8.22% | $3.35M |
+| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 12.26% | $3.18M |
+| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 12.85% | $1.99M |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 9.42% | $1.03M |
-| [curve-dex →](https://www.defi.garden/?pool=8e92aa64-5da5-5f33-bef0-9ed87ec99261&src=seo_token) | Ethereum | 20.14% | $135.1K |
-| [stake-dao →](https://www.defi.garden/?pool=cdf6b821-5191-5ddf-a351-10a3f2cc9635&src=seo_token) | Ethereum | 22.68% | $135.1K |
-| [curve-dex →](https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token) | Ethereum | 4.25% | $116.1K |
-| [convex-finance →](https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token) | Ethereum | 18.72% | $108.8K |
+| [curve-dex →](https://www.defi.garden/?pool=8e92aa64-5da5-5f33-bef0-9ed87ec99261&src=seo_token) | Ethereum | 20.00% | $135.8K |
+| [stake-dao →](https://www.defi.garden/?pool=cdf6b821-5191-5ddf-a351-10a3f2cc9635&src=seo_token) | Ethereum | 22.69% | $135.8K |
+| [curve-dex →](https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token) | Ethereum | 4.24% | $116.1K |
+| [convex-finance →](https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token) | Ethereum | 18.68% | $108.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 8.23% APY, $3.35M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 12.16% APY, $3.18M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 9.42% APY, $1.03M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 12.87% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 4.25% APY, $116.1K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 18.72% APY, $108.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 8.22% APY, $3.35M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 12.26% APY, $3.18M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 9.42% APY, $1.03M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 12.85% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 4.24% APY, $116.1K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 18.68% APY, $108.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 8.23% | $3.35M |
-| 2 | [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 12.16% | $3.18M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 8.22% | $3.35M |
+| 2 | [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 12.26% | $3.18M |
 | 3 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 9.42% | $1.03M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 12.87% | $1.99M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token) | Ethereum | 4.25% | $116.1K |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token) | Ethereum | 18.72% | $108.8K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 12.85% | $1.99M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token) | Ethereum | 4.24% | $116.1K |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token) | Ethereum | 18.68% | $108.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EVAUSDT shows up in 8 pools here, with rates from 4.25% to 22.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EVAUSDT shows up in 8 pools here, with rates from 4.24% to 22.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 8.23% | 7.17% | 100.00% incentives |
-| stake-dao | 12.16% | 10.14% | 99.92% incentives |
-| convex-finance | 12.87% | 10.72% | 99.92% incentives |
-| shadow-exchange-legacy | 9.42% | 8.78% | 100.00% incentives |
-| curve-dex | 20.14% | 22.21% | 100.00% incentives |
-| stake-dao | 22.68% | 25.14% | 99.87% incentives |
-| curve-dex | 4.25% | 5.09% | 99.76% incentives |
-| convex-finance | 18.72% | 12.70% | 99.95% incentives |
+| curve-dex | 8.22% | 7.17% | 100.00% incentives |
+| stake-dao | 12.26% | 10.16% | 99.92% incentives |
+| convex-finance | 12.85% | 10.75% | 99.92% incentives |
+| shadow-exchange-legacy | 9.42% | 8.79% | 100.00% incentives |
+| curve-dex | 20.00% | 22.11% | 100.00% incentives |
+| stake-dao | 22.69% | 25.02% | 99.87% incentives |
+| curve-dex | 4.24% | 5.07% | 99.76% incentives |
+| convex-finance | 18.68% | 12.75% | 99.95% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EVAUSDT yield today?
 
-22.68% APY on stake-dao (Ethereum), based on live DefiLlama data.
+22.69% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many EVAUSDT pools clear the TVL floor?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EVAUSDT pools have the most stable APY history?
 
-Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 8.23% APY, $3.35M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 12.16% APY, $3.18M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 9.42% APY, $1.03M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 12.87% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 4.25% APY, $116.1K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 18.72% APY, $108.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 8.22% APY, $3.35M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 12.26% APY, $3.18M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 9.42% APY, $1.03M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 12.85% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 4.24% APY, $116.1K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 18.68% APY, $108.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

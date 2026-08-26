@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 0.89% | $711.5K |
+| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 0.89% | $713.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gammaswap-open-interest에서 
 
 ### GS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $711.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $713.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,9 +36,9 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gammaswap-open-interest에서 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 
 ## 이용 가능한 체인
 

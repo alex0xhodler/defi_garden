@@ -1,10 +1,10 @@
 # YBOLD DeFi Yields
 
-The highest honest YBOLD yield right now is 5.57% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YBOLD yield right now is 5.56% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 5.57% | $5.51M |
+| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 5.56% | $5.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YBOLD yield today?
 
-5.57% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+5.56% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YBOLD pools clear the TVL floor?
 

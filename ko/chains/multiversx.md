@@ -1,17 +1,17 @@
 # MultiversX 디파이 수익률
 
-현재 MultiversX의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 21.32%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MultiversX의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 21.23%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WEGLD-USDC | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_chain) | 7.86% | $937.7K |
-| WBTC | [hatom-lending →](https://www.defi.garden/?pool=a4aa0312-8a7a-47c3-9505-1b89bf7cab2a&src=seo_chain) | 0.26% | $805.4K |
-| USDC | [hatom-lending →](https://www.defi.garden/?pool=30f6670e-df51-4e78-a5fc-d197fde0a9aa&src=seo_chain) | 3.89% | $416.7K |
-| EGLD | [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_chain) | 1.00% | $371.6K |
-| WETH | [hatom-lending →](https://www.defi.garden/?pool=8c877233-8919-4146-90c9-0c39beb77f20&src=seo_chain) | 0.21% | $309.5K |
-| HTM-WEGLD | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_chain) | 6.34% | $214.7K |
-| MEX-USH | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_chain) | 5.61% | $128.9K |
-| WEGLD-MEX | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_chain) | 21.32% | $107.2K |
+| WEGLD-USDC | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_chain) | 6.95% | $946.2K |
+| WBTC | [hatom-lending →](https://www.defi.garden/?pool=a4aa0312-8a7a-47c3-9505-1b89bf7cab2a&src=seo_chain) | 0.26% | $807.1K |
+| USDC | [hatom-lending →](https://www.defi.garden/?pool=30f6670e-df51-4e78-a5fc-d197fde0a9aa&src=seo_chain) | 3.78% | $427.4K |
+| EGLD | [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_chain) | 0.99% | $380.9K |
+| WETH | [hatom-lending →](https://www.defi.garden/?pool=8c877233-8919-4146-90c9-0c39beb77f20&src=seo_chain) | 0.21% | $310.2K |
+| HTM-WEGLD | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_chain) | 4.87% | $220.5K |
+| MEX-USH | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_chain) | 5.59% | $129.5K |
+| WEGLD-MEX | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_chain) | 21.23% | $108.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 MultiversX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 21.32%예요.
+DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 21.23%예요.
 
 ### MultiversX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $7.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $7.5M예요.
 
 ### 이 수익률은 안전한가요?
 

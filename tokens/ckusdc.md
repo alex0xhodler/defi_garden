@@ -1,10 +1,10 @@
 # CKUSDC DeFi Yields
 
-The highest honest CKUSDC yield right now is 31.32% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKUSDC yield right now is 24.07% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 31.32% | $590.6K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 24.07% | $591.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKUSDC yield today?
 
-31.32% APY on icpswap (ICP), based on live DefiLlama data.
+24.07% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $590.6K in total.
+1 live pool clear this page's $100K TVL floor, $591.6K in total.
 
 ### Are these rates safe?
 

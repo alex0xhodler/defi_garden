@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 48.48% | $127.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 48.48% | $127.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 48.
 
 ### HTEA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.1K예요.
 
 ### 이 수익률은 안전한가요?
 

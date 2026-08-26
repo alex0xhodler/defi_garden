@@ -4,7 +4,7 @@ The highest honest DUCKER yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b8310032-6371-4b76-be96-f55c160cad56&src=seo_token) | Ethereum | 0.01% | $144.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b8310032-6371-4b76-be96-f55c160cad56&src=seo_token) | Ethereum | 0.01% | $144.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DUCKER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144.5K in total.
+1 live pool clear this page's $100K TVL floor, $144.6K in total.
 
 ### Are these rates safe?
 
