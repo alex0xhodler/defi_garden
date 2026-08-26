@@ -650,6 +650,78 @@
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
     }
 
+    /* Sticky Mobile Quick-Reserve Bottom Bar */
+    .sticky-reserve-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+      background: rgba(14, 23, 17, 0.96);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.18));
+      box-shadow: 0 -10px 36px rgba(0, 0, 0, 0.75);
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-sizing: border-box;
+    }
+    .sticky-bar-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .sticky-bar-text {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+    .sticky-bar-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sticky-bar-sub {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.72rem;
+      color: var(--ui-accent, #7CC9A0);
+      font-weight: 600;
+    }
+    .sticky-bar-btn {
+      height: 44px;
+      min-height: 44px;
+      padding: 0 18px;
+      background: var(--ui-accent, #7CC9A0) !important;
+      color: #08140f !important;
+      border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-weight: 700 !important;
+      font-size: 0.90rem;
+      cursor: pointer;
+      flex-shrink: 0;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: background 0.15s ease, transform 0.15s ease;
+      border-radius: 0 !important;
+    }
+    .sticky-bar-btn:hover {
+      background: var(--ui-accent-hover, #93D6B2) !important;
+      color: #08140f !important;
+    }
+    .sticky-bar-btn:active {
+      transform: translateY(1px);
+    }
+
     /* Light mode overrides */
     [data-theme="light"] .badge-intent-portal {
       background: rgba(45, 138, 94, 0.08);
