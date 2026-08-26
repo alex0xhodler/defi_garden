@@ -268,7 +268,12 @@
 
 .landing-icon-button,
 .landing-menu-button {
-  /* width/height/padding/border-radius owned by the shared icon-only-button rule, style.css end */
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
@@ -277,8 +282,10 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   letter-spacing: .02em;
+  border-radius: var(--ui-radius-sm, 4px);
   transition: color var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
+    background var(--duration-fast) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
@@ -291,32 +298,59 @@
 
 .landing-menu-button { display: none; font-size: 20px; }
 
+/* Floating Glassmorphic Mobile Navigation Overlay (Zero CLS) */
 .landing-mobile-nav {
-  position: relative;
-  z-index: 3;
-  width: min(1200px, calc(100% - 48px));
+  position: absolute;
+  top: 56px;
+  left: 16px;
+  right: 16px;
+  z-index: 1000;
+  width: auto;
+  box-sizing: border-box;
   max-height: 0;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 8px;
   overflow: hidden;
   opacity: 0;
   pointer-events: none;
-  transition: max-height var(--duration-normal) var(--ease-standard),
-    opacity var(--duration-normal) var(--ease-standard),
-    padding var(--duration-normal) var(--ease-standard);
+  background: rgba(14, 23, 17, 0.96);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.18));
+  border-radius: var(--ui-radius-md, 6px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.7);
+  transition: max-height 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.2s ease,
+    padding 0.25s ease,
+    transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(-8px);
 }
 
 .landing-mobile-nav.is-open {
-  max-height: 220px;
-  padding: 12px 18px 16px;
-  gap: 16px;
+  max-height: 280px;
+  padding: 14px 16px;
   opacity: 1;
   pointer-events: auto;
-  border-radius: var(--ui-radius-md);
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
+  transform: translateY(0);
+}
+
+.landing-mobile-nav a {
+  color: var(--color-text);
+  font-size: 0.94rem;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: var(--ui-radius-sm, 4px);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.landing-mobile-nav a:hover,
+.landing-mobile-nav a:active {
+  background: rgba(var(--color-teal-500-rgb), 0.16);
+  color: var(--color-primary);
 }
 
 /* SOTA Unified 100vh Landing Page Architecture */
@@ -584,6 +618,57 @@
               0 0 36px rgba(124, 201, 160, 0.16);
 }
 
+.card-pan-number {
+  font-family: var(--font-family-mono);
+  font-size: clamp(0.78rem, 2.8vw, 0.96rem);
+  letter-spacing: 0.20em;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.card-holder-tier {
+  font-size: clamp(0.50rem, 1.8vw, 0.58rem);
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.68);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.card-holder-name {
+  font-family: var(--font-family-mono);
+  font-size: clamp(0.78rem, 2.9vw, 1.05rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 2px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-active-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 3px 8px;
+  border-radius: 0;
+  font-size: clamp(0.55rem, 1.9vw, 0.66rem);
+  font-family: var(--font-family-mono);
+  font-weight: 700;
+  color: #34d399;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .virtual-visa-card {
+    padding: 14px 16px;
+    transform: none !important;
+  }
+}
 .landing-card-metrics-table {
   width: 100%;
   max-width: 420px;
@@ -631,7 +716,6 @@
   gap: 8px;
   width: 100%;
   max-width: 420px;
-  height: 46px;
   min-height: 46px;
   padding: 0 20px;
   background: var(--ui-accent, #7CC9A0) !important;
@@ -669,10 +753,35 @@
   text-align: center;
   line-height: 1.3;
 }
+
+.card-tap-affordance {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--color-primary);
+  font-family: var(--font-family-mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  margin: 0 auto 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+  border-radius: 4px;
+}
+
+.card-tap-affordance:hover {
+  background: rgba(var(--color-teal-500-rgb), 0.10);
+}
+
+.landing-mobile-cta-dock {
+  display: contents;
+}
+
 @media (max-width: 960px) {
   .landing-hero-spotlight {
     grid-template-columns: minmax(0, 1fr) minmax(290px, .85fr);
-    gap: 32px;
+    gap: 28px;
   }
 }
 
@@ -680,41 +789,208 @@
   .landing-header,
   .landing-hero-spotlight,
   .landing-search-section,
-  .landing-footer,
-  .landing-mobile-nav { width: min(100% - 32px, 600px); }
+  .landing-footer { width: min(100% - 32px, 600px); }
 
   .landing-nav { display: none; }
   .landing-menu-button { display: inline-flex; }
   .landing-hero-spotlight {
-    padding: 40px 0 36px;
-    grid-template-columns: 1fr;
-    gap: 32px;
+    padding: 20px 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 
-  .landing-spotlight-title { font-size: clamp(32px, 9vw, 44px); }
-  .landing-search-section { padding: 36px 0 44px; }
-  .landing-title { max-width: 540px; font-size: clamp(28px, 8vw, 38px); }
-  .landing-hero-body { margin-top: 10px; font-size: 15px; }
-  .landing-search-form { margin-top: 20px; }
+  /* Mobile Card-Leading Hierarchy: Headline -> Card -> Tap Hint -> (Hidden Ledger) -> Options -> Sticky CTA */
+  .landing-spotlight-copy,
+  .landing-card-showcase {
+    display: contents;
+  }
+
+  .landing-spotlight-eyebrow { order: 1; margin-bottom: 8px; }
+  .landing-spotlight-title {
+    order: 2;
+    font-size: clamp(26px, 7.5vw, 36px);
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .landing-spotlight-subhead {
+    order: 3;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .landing-press-badge {
+    order: 4;
+    max-width: 100%;
+    padding: 6px 10px;
+    margin-bottom: 16px;
+  }
+  .press-badge-title {
+    font-size: 0.74rem;
+  }
+  .virtual-visa-card {
+    order: 5;
+    margin: 0 auto 6px;
+    cursor: pointer;
+  }
+  .card-tap-affordance {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    order: 6;
+    margin: 0 auto 12px;
+  }
+
+  /* Table hidden by default on mobile, revealed only on tapping the card */
+  .landing-card-metrics-table {
+    order: 7;
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0 auto;
+    border-width: 0 1px;
+    transition: max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+                opacity 0.22s ease,
+                margin 0.28s ease,
+                border-width 0.28s ease;
+  }
+  .landing-card-metrics-table.is-open {
+    max-height: 180px;
+    opacity: 1;
+    margin: 0 auto 16px;
+    border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
+  }
+
+  .landing-subs-grid {
+    order: 8;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+  .landing-sub-chip {
+    min-height: 44px;
+    padding: 8px 12px;
+    font-size: 0.84rem;
+    gap: 8px;
+    border-radius: 4px;
+  }
+  .landing-sub-chip-price {
+    font-size: 0.72rem;
+  }
+
+  /* Mobile Sticky Bottom CTA Dock - Sits in viewport at all times */
+  .landing-mobile-cta-dock {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(14, 23, 17, 0.96);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.18));
+    box-shadow: 0 -10px 36px rgba(0, 0, 0, 0.75);
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .landing-garden-link {
+    min-height: 46px;
+    font-size: 0.94rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+  }
+  .landing-card-hint {
+    font-size: 0.64rem;
+    margin-top: 4px;
+    color: var(--ui-text-muted, #64748B);
+  }
+  .landing-app .app-footer {
+    padding-bottom: calc(90px + env(safe-area-inset-bottom, 0px)) !important;
+  }
 }
 
+/* Light mode theme overrides for mobile CTA dock */
+[data-theme="light"] .landing-mobile-cta-dock {
+  background: rgba(246, 248, 246, 0.96) !important;
+  border-top-color: var(--ui-border-strong, rgba(0, 0, 0, 0.14)) !important;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12) !important;
+}
+
+[data-theme="light"] .landing-garden-link {
+  background: #2d8a5e !important;
+  color: #ffffff !important;
+  border-color: #2d8a5e !important;
+}
+
+[data-theme="light"] .landing-garden-link:hover {
+  background: #236c49 !important;
+  border-color: #236c49 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="light"] .landing-garden-link:active {
+  background: #1c573b !important;
+  color: #ffffff !important;
+}
 @media (max-width: 440px) {
   .landing-header,
   .landing-hero-spotlight,
   .landing-search-section,
-  .landing-footer,
-  .landing-mobile-nav { width: calc(100% - 32px); }
+  .landing-footer { width: calc(100% - 24px); }
 
   .landing-brand { font-size: 16px; }
   .landing-brand-mark { width: 34px; height: 34px; }
   .landing-brand-mark .landing-leaf-mark { width: 21px; height: 21px; }
   .landing-header-actions { gap: 6px; }
-  .landing-hero-spotlight { padding-top: 28px; }
-  .landing-spotlight-title { font-size: 30px; }
-  .landing-search-shell { gap: 9px; }
-  .landing-search-submit-label { display: none; }
-  .landing-search-input { font-size: 15px; }
-  .landing-footer { min-height: 72px; align-items: flex-start; flex-direction: column; justify-content: center; gap: 4px; }
+  .landing-hero-spotlight { padding-top: 16px; gap: 0; }
+  .landing-spotlight-eyebrow { margin-bottom: 8px; font-size: 0.65rem; }
+  .landing-spotlight-title {
+    font-size: clamp(24px, 7vw, 32px);
+    margin-bottom: 8px;
+  }
+  .landing-spotlight-subhead {
+    font-size: 13.5px;
+    line-height: 1.45;
+  }
+  .landing-subs-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .landing-sub-chip {
+    min-height: 42px;
+    padding: 6px 10px;
+    font-size: 0.80rem;
+    gap: 6px;
+  }
+  .landing-sub-chip-price {
+    font-size: 0.68rem;
+  }
+  .landing-card-metrics-table {
+    padding: 8px 10px;
+    gap: 6px;
+  }
+  .metric-row-label,
+  .metric-row-value {
+    font-size: 0.68rem;
+  }
+  .landing-garden-link {
+    min-height: 46px;
+    font-size: 0.90rem;
+  }
+  .landing-footer {
+    min-height: 72px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

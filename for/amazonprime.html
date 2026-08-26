@@ -59,6 +59,12 @@
   <style>
     *, *::before, *::after {
       border-radius: 0 !important;
+      box-sizing: border-box;
+    }
+    body, .landing-app {
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100%;
     }
     .portal-shell {
       max-width: 1040px;
@@ -69,10 +75,11 @@
       z-index: 1;
       width: 100%;
       flex: 1;
+      overflow-x: hidden;
     }
     .hero-section {
       text-align: center;
-      margin-bottom: 44px;
+      margin-bottom: 36px;
     }
     .badge-intent-portal {
       display: inline-flex;
@@ -87,20 +94,21 @@
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
     .hero-headline {
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
-      font-size: 2.65rem;
+      font-size: clamp(1.85rem, 5.5vw, 2.65rem);
       font-weight: 600;
       letter-spacing: -0.02em;
       line-height: 1.15;
       margin: 0 0 14px;
       color: var(--ui-text);
+      word-break: break-word;
     }
     .hero-subhead {
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-      font-size: 1.05rem;
+      font-size: clamp(0.92rem, 2.5vw, 1.05rem);
       color: var(--ui-text-secondary);
       max-width: 640px;
       margin: 0 auto;
@@ -112,28 +120,8 @@
       gap: 28px;
       margin-bottom: 36px;
       align-items: stretch;
-    }
-    @media (max-width: 860px) {
-      .portal-grid { grid-template-columns: 1fr; }
-      .hero-headline { font-size: 2.1rem; }
-      .portal-nav { flex-direction: column; gap: 16px; align-items: flex-start; }
-      .portal-links { flex-wrap: wrap; gap: 16px; }
-    }
-    @media (max-width: 600px) {
-      .portal-shell { padding: 0 16px 60px; }
-      .panel-ledger { padding: 18px 16px; }
-      .panel-header { flex-wrap: wrap; gap: 8px; align-items: center; }
-      .invariants-panel { padding: 20px 16px; }
-      .hero-headline { font-size: 1.85rem; }
-      .hero-subhead { font-size: 0.95rem; }
-      .virtual-visa-card { padding: 16px 16px; }
-      .visa-card-pan { font-size: 0.88rem; letter-spacing: 0.14em; }
-      .visa-card-funded-label { font-size: 0.92rem; }
-      .visa-card-expiry, .visa-card-network-info { font-size: 0.65rem; }
-      .visa-card-cap-badge { font-size: 0.65rem; padding: 3px 7px; }
-      .metric-row-item { font-size: 0.82rem; gap: 8px; }
-      .metric-value { font-size: 0.84rem !important; }
-      .step-card { padding: 14px 14px; }
+      width: 100%;
+      box-sizing: border-box;
     }
     .panel-ledger {
       background: var(--ui-surface);
@@ -171,6 +159,25 @@
       border: 1px solid var(--ui-border-strong);
       color: var(--ui-text-secondary);
       letter-spacing: 0.06em;
+    }
+    .card-tap-hint {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--ui-border, rgba(255,255,255,0.18));
+      color: var(--ui-accent, #7CC9A0);
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      margin: 0 auto 12px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 4px !important;
+      transition: all 0.15s ease;
+    }
+    .card-tap-hint:hover {
+      background: rgba(124, 201, 160, 0.12);
+      border-color: var(--ui-accent, #7CC9A0);
     }
     .virtual-visa-card {
       width: 100%;
@@ -614,21 +621,11 @@
       gap: 24px;
       margin-bottom: 22px;
     }
-    @media (max-width: 768px) {
-      .invariants-cols { grid-template-columns: 1fr; }
-    }
     .invariant-item {
       padding-right: 12px;
     }
     .invariant-item:not(:last-child) {
       border-right: 1px solid var(--ui-border);
-    }
-    @media (max-width: 768px) {
-      .invariant-item:not(:last-child) {
-        border-right: none;
-        border-bottom: 1px solid var(--ui-border);
-        padding-bottom: 16px;
-      }
     }
     .invariant-item strong {
       display: block;
@@ -651,6 +648,250 @@
       font-style: italic;
       text-align: center;
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
+    }
+
+    /* Light mode overrides for sticky bar */
+    [data-theme="light"] .sticky-reserve-bar {
+      background: rgba(246, 248, 246, 0.96) !important;
+      border-top-color: rgba(0, 0, 0, 0.14) !important;
+      box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12) !important;
+    }
+    [data-theme="light"] .sticky-bar-btn {
+      background: #2d8a5e !important;
+      color: #ffffff !important;
+      border-color: #2d8a5e !important;
+    }
+
+    /* Mobile Responsive Overrides - SOTA Fluid & Overflow-Free */
+    @media (max-width: 860px) {
+      .portal-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 24px;
+        width: 100%;
+      }
+      .portal-shell {
+        padding: 16px 14px 100px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      .panel-ledger {
+        padding: 18px 14px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      .panel-header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 6px;
+        margin-bottom: 14px;
+      }
+      .panel-title {
+        justify-content: center;
+        text-align: center;
+        font-size: 1.10rem;
+      }
+      .hero-section {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .virtual-visa-card-wrapper {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 6px;
+      }
+      .virtual-visa-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 14px 16px;
+        margin: 0 auto 6px;
+        cursor: pointer;
+      }
+      .visa-card-pan {
+        font-size: clamp(0.78rem, 3.8vw, 0.94rem);
+        letter-spacing: 0.16em;
+      }
+      .visa-card-label-sub {
+        font-size: 0.54rem;
+      }
+      .visa-card-funded-label {
+        font-size: clamp(0.80rem, 4vw, 1.02rem);
+      }
+      .visa-card-expiry, .visa-card-network-info {
+        font-size: 0.60rem;
+      }
+      .visa-card-cap-badge {
+        font-size: 0.62rem;
+        padding: 2px 6px;
+      }
+      .card-tap-hint {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 12px;
+      }
+      .metric-table {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        margin-top: 0;
+        border-top: none;
+        width: 100%;
+        box-sizing: border-box;
+        transition: max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+                    opacity 0.22s ease,
+                    margin-top 0.28s ease;
+      }
+      .metric-table.is-open {
+        max-height: 280px;
+        opacity: 1;
+        margin-top: 14px;
+        border-top: 1px solid var(--ui-border);
+      }
+      .metric-row-item {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0;
+        gap: 8px;
+        font-size: 0.80rem;
+      }
+      .metric-label {
+        font-size: 0.78rem;
+        flex: 1;
+        min-width: 0;
+      }
+      .metric-value {
+        font-size: 0.78rem !important;
+        flex-shrink: 0;
+      }
+      .yield-card-reservation,
+      .yield-card-receipt {
+        padding: 16px 14px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .reservation-title {
+        font-size: clamp(1.02rem, 4.2vw, 1.20rem);
+        word-break: break-word;
+        line-height: 1.25;
+      }
+      .reservation-subtitle {
+        font-size: 0.78rem;
+        margin-bottom: 10px;
+        line-height: 1.4;
+      }
+      .reservation-input-group {
+        width: 100%;
+      }
+      .email-input {
+        height: 44px;
+        font-size: 0.86rem;
+        width: 100%;
+      }
+      .reserve-submit-btn {
+        height: 44px;
+        font-size: 0.88rem;
+        width: 100%;
+      }
+      .steps-container {
+        align-items: center;
+        width: 100%;
+      }
+      .step-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 14px 12px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .step-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+      .step-content strong {
+        font-size: 0.88rem;
+      }
+      .step-content p {
+        font-size: 0.80rem;
+      }
+      .step-tags {
+        justify-content: center;
+      }
+      .trust-guarantee-box {
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 0.74rem;
+        padding: 10px 12px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .invariants-panel {
+        padding: 18px 14px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .invariants-header {
+        justify-content: center;
+        text-align: center;
+      }
+      .invariants-header h3 {
+        justify-content: center;
+        text-align: center;
+        font-size: 1.05rem;
+      }
+      .invariants-cols {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        text-align: center;
+      }
+      .invariant-item {
+        text-align: center;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .invariant-item:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid var(--ui-border);
+        padding-bottom: 14px;
+      }
+      .landing-app .app-footer {
+        padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)) !important;
+      }
+      .sticky-reserve-bar {
+        display: flex !important;
+        transform: translateY(0) !important;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .portal-shell {
+        padding: 12px 10px 96px;
+      }
+      .panel-ledger {
+        padding: 14px 10px;
+      }
+      .virtual-visa-card {
+        padding: 12px 12px;
+      }
+      .yield-card-reservation,
+      .yield-card-receipt {
+        padding: 14px 10px;
+      }
     }
   </style>
 <body>
@@ -708,11 +949,8 @@
             </div>
 
             <!-- Virtual Visa Card Mockup -->
-            <div class="virtual-visa-card-wrapper" style="margin: 0 auto 20px;">
-              <div class="virtual-visa-card virtual-card-preview">
-                <div class="visa-card-guilloche" aria-hidden="true"></div>
-                <div class="visa-card-specular" aria-hidden="true"></div>
-
+            <div class="virtual-visa-card-wrapper" style="margin: 0 auto 12px;">
+              <div class="virtual-visa-card virtual-card-preview" id="visa-card" role="button" tabindex="0" aria-expanded="false" aria-label="Tap card to view financial breakdown">
                 <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
                 <div class="visa-card-top-row">
                   <div class="visa-card-chip-group">
@@ -768,8 +1006,11 @@
                 </div>
               </div>
             </div>
+            <button type="button" class="card-tap-hint" id="card-tap-hint" aria-expanded="false">
+              Tap Card to View Breakdown ▾
+            </button>
 
-            <!-- Ledger Financial Breakdown -->
+            <!-- Ledger Financial Breakdown (Collapsible on Mobile) -->
             <div class="metric-table">
               <div class="metric-row-item">
                 <span class="metric-label">Monthly Subscription</span>
@@ -785,11 +1026,11 @@
               </div>
               <div class="metric-row-item">
                 <span class="metric-label">Supported Currencies</span>
-                <span class="metric-value">USDC · baseEUR · ETH · USDT</span>
+                <span class="metric-value highlight" style="white-space:normal; text-align:right;">USDC · baseEUR · ETH · USDT</span>
               </div>
               <div class="metric-row-item" style="border-bottom:none;">
                 <span class="metric-label" style="font-weight:600; color:var(--ui-text);">Principal Protection</span>
-                <span class="metric-value" style="font-size:0.92rem; font-weight:700; color:var(--ui-accent);">100% Self-Custodial (&Delta;P &equiv; 0)</span>
+                <span class="metric-value highlight" style="font-weight:700;">100% Self-Custodial (&Delta;P &equiv; 0)</span>
               </div>
             </div>
 
@@ -925,6 +1166,20 @@
 
     </div>
 
+    <!-- Mobile Sticky Quick-Reserve Bar -->
+    <div class="sticky-reserve-bar" id="sticky-reserve-bar" aria-hidden="true">
+      <div class="sticky-bar-info">
+        <img class="service-brand-icon service-brand-favicon" src="https://www.google.com/s2/favicons?domain=amazon.com&sz=64" alt="amazonprime" width="20" height="20" style="width:20px; height:20px; border-radius:2px; object-fit:contain; display:inline-block; vertical-align:middle; flex-shrink:0;" loading="lazy" />
+        <div class="sticky-bar-text">
+          <span class="sticky-bar-title">Amazon Prime</span>
+          <span class="sticky-bar-sub">$15.00/mo Covered</span>
+        </div>
+      </div>
+      <button type="button" class="sticky-bar-btn" id="sticky-reserve-btn">
+        Reserve Card →
+      </button>
+    </div>
+
     <!-- Shared Footer from home.html -->
     <footer class="app-footer">
       <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
@@ -969,6 +1224,25 @@
           menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
       }
+      // Card tap to toggle financial breakdown table on mobile
+      var visaCard = document.getElementById('visa-card');
+      var cardTapHint = document.getElementById('card-tap-hint');
+      var metricTable = document.querySelector('.metric-table');
+      if (visaCard && metricTable) {
+        function toggleMetrics() {
+          var isOpen = metricTable.classList.toggle('is-open');
+          visaCard.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          if (cardTapHint) {
+            cardTapHint.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            cardTapHint.textContent = isOpen ? 'Hide Financial Breakdown ▴' : 'Tap Card to View Breakdown ▾';
+          }
+        }
+        visaCard.addEventListener('click', toggleMetrics);
+        visaCard.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMetrics(); }
+        });
+        if (cardTapHint) cardTapHint.addEventListener('click', toggleMetrics);
+      }
 
       var form = document.getElementById('reserve-form');
       var emailInput = document.getElementById('email-input');
@@ -976,7 +1250,14 @@
       var reservationCard = document.getElementById('reservation-card');
       var receiptCard = document.getElementById('receipt-card');
       var copyBtn = document.getElementById('copy-btn');
+      var stickyBtn = document.getElementById('sticky-reserve-btn');
 
+      if (stickyBtn && emailInput && reservationCard) {
+        stickyBtn.addEventListener('click', function() {
+          reservationCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          setTimeout(function() { emailInput.focus(); }, 350);
+        });
+      }
       var storageKey = 'defi_garden_card_waitlist';
       var saved = null;
       try {
@@ -995,7 +1276,6 @@
             errorEl.style.display = 'block';
             return;
           }
-          errorEl.style.display = 'none';
           var payload = {
             email: email,
             sub: 'amazonprime',

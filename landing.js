@@ -386,9 +386,10 @@
     var showAllSubsState = useState(false);
     var showAllSubs = showAllSubsState[0];
     var setShowAllSubs = showAllSubsState[1];
+    var showMetricsState = useState(false);
+    var showMetrics = showMetricsState[0];
+    var setShowMetrics = showMetricsState[1];
     var activeSectionState = useState(0);
-    var activeSection = activeSectionState[0];
-    var setActiveSection = activeSectionState[1];
     var copy = getCopy(language);
     useEffect(function () {
       function onScroll() {
@@ -582,26 +583,14 @@
             ),
             e('aside', { className: 'landing-card-showcase' },
               e('div', {
-                className: 'virtual-visa-card',
-                style: {
-                  width: '100%',
-                  maxWidth: '440px',
-                  aspectRatio: '1.586 / 1',
-                  padding: '20px 22px',
-                  background: 'radial-gradient(circle at 20% 15%, rgba(124, 201, 160, 0.14) 0%, transparent 55%), linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%)',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
-                  borderRadius: 0,
-                  boxShadow: 'inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 16px 36px rgba(0, 0, 0, 0.45)',
-                  color: '#fff',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  boxSizing: 'border-box',
-                  position: 'relative',
-                  overflow: 'hidden',
-                  userSelect: 'none',
-                  margin: '0 0 16px'
-                }
+                className: 'virtual-visa-card' + (showMetrics ? ' is-expanded' : ''),
+                'data-testid': 'landing-virtual-card',
+                role: 'button',
+                tabIndex: 0,
+                'aria-expanded': showMetrics ? 'true' : 'false',
+                'aria-label': 'Tap card to toggle financial ledger breakdown',
+                onClick: function() { setShowMetrics(!showMetrics); },
+                onKeyDown: function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowMetrics(!showMetrics); } }
               },
                 e(CardBotanicalWatermark),
                 // Top row
@@ -617,9 +606,9 @@
                 ),
                 // Center
                 e('div', { style: { margin: '2px 0', position: 'relative', zIndex: 2 } },
-                  e('div', { style: { fontFamily: 'var(--font-family-mono)', fontSize: '0.96rem', letterSpacing: '0.20em', color: 'rgba(255,255,255,0.95)', fontWeight: '600', textShadow: '0 1px 3px rgba(0,0,0,0.8)' } }, '•••• •••• •••• 8453'),
-                  e('div', { style: { fontSize: '0.58rem', letterSpacing: '0.12em', color: 'rgba(255,255,255,0.68)', textTransform: 'uppercase', fontWeight: '600', marginTop: '2px' } }, activeSub.slug.toUpperCase() + '-VAULT / AGENT-01'),
-                  e('div', { style: { fontFamily: 'var(--font-family-mono)', fontSize: '1.05rem', fontWeight: '700', color: '#ffffff', marginTop: '2px', textShadow: '0 1px 4px rgba(0,0,0,0.8)' } }, activeSub.name.toUpperCase() + ' FUNDED')
+                  e('div', { className: 'card-pan-number' }, '•••• •••• •••• 8453'),
+                  e('div', { className: 'card-holder-tier' }, activeSub.slug.toUpperCase() + '-VAULT / AGENT-01'),
+                  e('div', { className: 'card-holder-name' }, activeSub.name.toUpperCase() + ' FUNDED')
                 ),
                 // Bottom row
                 e('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', paddingTop: '6px', borderTop: '1px solid rgba(255,255,255,0.12)', position: 'relative', zIndex: 2 } },
@@ -627,29 +616,27 @@
                     e('div', { style: { fontSize: '0.62rem', color: 'rgba(255,255,255,0.7)', fontFamily: 'var(--font-family-mono)', letterSpacing: '0.06em', fontWeight: '600' } }, 'VALID 08/31'),
                     e('div', { style: { fontSize: '0.68rem', color: 'rgba(255,255,255,0.9)', fontWeight: '550' } }, 'BASE VAULT · YIELD FUNDED')
                   ),
-                  e('div', {
-                    style: {
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '4px',
-                      background: 'rgba(0,0,0,0.65)',
-                      border: '1px solid rgba(255,255,255,0.24)',
-                      padding: '3px 8px',
-                      borderRadius: 0,
-                      fontSize: '0.66rem',
-                      fontFamily: 'var(--font-family-mono)',
-                      fontWeight: '700',
-                      color: '#34d399',
-                      whiteSpace: 'nowrap'
-                    }
-                  },
+                  e('div', { className: 'card-active-pill' },
                     e(CardLockIcon),
                     e('span', null, '$' + activeSub.monthly.toFixed(2) + '/mo')
                   )
                 )
               ),
-              // Integrated Financial Breakdown Metrics Table
-              e('div', { className: 'landing-card-metrics-table' },
+              e('button', {
+                type: 'button',
+                className: 'card-tap-affordance',
+                'aria-expanded': showMetrics ? 'true' : 'false',
+                onClick: function() { setShowMetrics(!showMetrics); }
+              },
+                showMetrics
+                  ? (language === 'ko' ? '상세 내역 닫기 ▴' : 'Hide Financial Breakdown ▴')
+                  : (language === 'ko' ? '카드 터치하여 상세 내역 보기 ▾' : 'Tap Card to View Breakdown ▾')
+              ),
+              // Integrated Financial Breakdown Metrics Table (Expandable on Mobile)
+              e('div', {
+                className: 'landing-card-metrics-table' + (showMetrics ? ' is-open' : ''),
+                'data-testid': 'landing-metrics-table'
+              },
                 e('div', { className: 'landing-card-metric-row' },
                   e('span', { className: 'metric-row-label' }, copy.metricCovered || 'Covered:'),
                   e('span', { className: 'metric-row-value highlight' }, '$' + activeSub.monthly.toFixed(2) + '/mo')
@@ -663,20 +650,20 @@
                   e('span', { className: 'metric-row-value' }, copy.metricSecurityVal || '100% Non-Custodial (ΔP ≡ 0)')
                 )
               ),
-              e('a', {
-                className: 'landing-garden-link',
-                href: '/for/' + activeSub.slug,
-                'data-testid': 'landing-intent-cta'
-              }, typeof copy.reserveCta === 'function' ? copy.reserveCta(activeSub.name) : 'Reserve ' + activeSub.name + ' Card', e(ArrowIcon)),
+              // Sticky Mobile Primary CTA Dock (Always in viewport on mobile)
+              e('div', { className: 'landing-mobile-cta-dock' },
+                e('a', {
+                  className: 'landing-garden-link',
+                  href: '/for/' + activeSub.slug,
+                  'data-testid': 'landing-intent-cta'
+                }, typeof copy.reserveCta === 'function' ? copy.reserveCta(activeSub.name) : 'Reserve ' + activeSub.name + ' Card', e(ArrowIcon))
+              ),
               e('p', { className: 'landing-card-hint' }, copy.reserveHint || 'No wallet connection or KYC required to reserve • Free to join')
             )
           )
         )
         /* SECTION 2 (Commented out):
         e('div', { id: 'search-section', className: 'landing-section-wrapper landing-search-wrapper' },
-          e('section', { className: 'landing-search-section', 'aria-labelledby': 'landing-title' },
-            e('div', { className: 'landing-search-content' },
-              e('h2', { id: 'landing-title', className: 'landing-title' }, copy.heroTitleBefore, ' ', e('span', { className: 'landing-title-accent' }, copy.heroTitleAccent)),
               e('p', { className: 'landing-hero-body' }, copy.heroBody),
               e('div', { className: 'landing-chat-console' },
                 e('div', { className: 'landing-chat-header' },
