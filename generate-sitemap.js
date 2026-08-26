@@ -660,8 +660,8 @@ async function generateSitemapSuite(poolsOverride) {
 
     // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
     const INTENT_SLUGS = [
-      'claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'aws', 'github', 'youtube',
-      'amazonprime', 'disney', 'max', 'hulu', 'appletv', 'gamepass', 'paramount', 'peacock',
+      'claude', 'cursor', 'chatgpt', 'spotify', 'netflix', 'amazonprime', 'opencode', 'aws', 'github', 'youtube',
+      'disney', 'max', 'hulu', 'appletv', 'gamepass', 'paramount', 'peacock',
       'doordash', 'uber', 'audible', 'walmart', 'phonebill', 'rent'
     ];
     INTENT_SLUGS.forEach(slug => {
