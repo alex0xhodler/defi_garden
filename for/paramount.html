@@ -474,10 +474,16 @@
       width: 100%;
       background: var(--ui-surface, #0E1611);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      border-radius: 0 !important;
       padding: 14px 16px;
       margin-bottom: 16px;
       text-align: left;
       box-sizing: border-box;
+      transition: all 0.2s ease;
+    }
+    .receipt-gamification-box.is-unlocked {
+      border-color: var(--ui-accent, #7CC9A0);
+      background: rgba(124, 201, 160, 0.08);
     }
     .gamification-header {
       display: flex;
@@ -502,12 +508,14 @@
       height: 6px;
       background: var(--ui-surface-muted, #16211A);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
+      border-radius: 0 !important;
       margin-bottom: 8px;
       overflow: hidden;
     }
     .gamification-progress-fill {
       height: 100%;
       background: var(--ui-accent, #7CC9A0);
+      transition: width 0.3s ease;
     }
     .gamification-desc {
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
@@ -516,25 +524,123 @@
       margin: 0 0 10px;
       line-height: 1.4;
     }
-    .copy-invite-btn {
+    .receipt-telegram-cta-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
       width: 100%;
-      height: 38px;
+      height: 42px;
+      background: var(--ui-accent, #7CC9A0) !important;
+      color: #08140f !important;
+      border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      border-radius: 0 !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.86rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      box-sizing: border-box;
+      margin-top: 6px;
+      box-shadow: 0 4px 14px rgba(124, 201, 160, 0.32);
+    }
+    .receipt-telegram-cta-btn:hover {
+      background: var(--ui-accent-hover, #93D6B2) !important;
+      color: #08140f !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(124, 201, 160, 0.42);
+    }
+    .receipt-telegram-cta-btn:active {
+      transform: translateY(1px);
+    }
+    .receipt-actions-group {
+      display: flex;
+      gap: 8px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 8px;
+    }
+    @media (max-width: 480px) {
+      .receipt-actions-group {
+        flex-direction: column;
+      }
+    }
+    .receipt-twitter-btn {
+      flex: 1.2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 42px;
+      padding: 0 14px;
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 0 !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      box-sizing: border-box;
+    }
+    .receipt-twitter-btn:hover {
+      background: var(--ui-accent, #7CC9A0);
+      border-color: var(--ui-accent, #7CC9A0);
+      color: #08140f;
+      transform: translateY(-1px);
+    }
+    .receipt-twitter-btn:active {
+      transform: translateY(1px);
+    }
+    .receipt-share-btn {
+      flex: 1;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 6px;
+      height: 42px;
+      padding: 0 12px;
+      border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
       background: var(--ui-surface-muted, #16211A);
       color: var(--ui-text, #FFFFFF);
-      border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
-      font-family: var(--font-family-mono, monospace);
-      font-size: 0.80rem;
+      border-radius: 0 !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.82rem;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.15s ease;
+      white-space: nowrap;
+      box-sizing: border-box;
     }
-    .copy-invite-btn:hover {
-      background: var(--ui-surface, #0E1611);
+    .receipt-share-btn:hover {
       border-color: var(--ui-accent, #7CC9A0);
+      color: var(--ui-accent, #7CC9A0);
+      transform: translateY(-1px);
+    }
+    .receipt-share-btn:active {
+      transform: translateY(1px);
+    }
+    .receipt-verify-link-btn {
+      background: none;
+      border: none;
+      color: var(--ui-text-muted, #64748B);
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.74rem;
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      cursor: pointer;
+      margin-top: 6px;
+      padding: 4px 8px;
+      transition: color 0.15s ease;
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+    .receipt-verify-link-btn:hover {
       color: var(--ui-accent, #7CC9A0);
     }
     .steps-container {
@@ -816,6 +922,65 @@
       background: #f9fafb;
       border-color: rgba(0, 0, 0, 0.1);
       color: #111827;
+    }
+    [data-theme="light"] .receipt-gamification-box {
+      background: #f9fafb;
+      border-color: rgba(0, 0, 0, 0.12);
+    }
+    [data-theme="light"] .receipt-gamification-box.is-unlocked {
+      background: rgba(45, 138, 94, 0.08);
+      border-color: #2d8a5e;
+    }
+    [data-theme="light"] .gamification-label {
+      color: #111827;
+    }
+    [data-theme="light"] .gamification-status {
+      color: #2d8a5e;
+    }
+    [data-theme="light"] .gamification-progress-bar {
+      background: #e5e7eb;
+      border-color: rgba(0, 0, 0, 0.1);
+    }
+    [data-theme="light"] .gamification-progress-fill {
+      background: #2d8a5e;
+    }
+    [data-theme="light"] .gamification-desc {
+      color: #4b5563;
+    }
+    [data-theme="light"] .receipt-telegram-cta-btn {
+      background: #2d8a5e !important;
+      color: #ffffff !important;
+      border-color: #2d8a5e !important;
+      box-shadow: 0 4px 14px rgba(45, 138, 94, 0.32);
+    }
+    [data-theme="light"] .receipt-telegram-cta-btn:hover {
+      background: #236c49 !important;
+      border-color: #236c49 !important;
+    }
+    [data-theme="light"] .receipt-twitter-btn {
+      background: #111827;
+      color: #ffffff;
+      border-color: #111827;
+    }
+    [data-theme="light"] .receipt-twitter-btn:hover {
+      background: #2d8a5e;
+      border-color: #2d8a5e;
+      color: #ffffff;
+    }
+    [data-theme="light"] .receipt-share-btn {
+      background: #ffffff;
+      color: #111827;
+      border-color: rgba(0, 0, 0, 0.18);
+    }
+    [data-theme="light"] .receipt-share-btn:hover {
+      border-color: #2d8a5e;
+      color: #2d8a5e;
+    }
+    [data-theme="light"] .receipt-verify-link-btn {
+      color: #6b7280;
+    }
+    [data-theme="light"] .receipt-verify-link-btn:hover {
+      color: #2d8a5e;
     }
     [data-theme="light"] .sticky-reserve-bar {
       background: rgba(255, 255, 255, 0.96) !important;
@@ -1247,17 +1412,36 @@
               </div>
               <h3 class="receipt-title">Waitlist Spot Reserved</h3>
               <div class="receipt-card-preview-chip">Paramount+ Yield Card • $9.99/mo Covered</div>
-              <div class="receipt-gamification-box">
+              <div class="receipt-gamification-box" id="gamification-box">
                 <div class="gamification-header">
-                  <span class="gamification-label">Alpha Priority Fast-Track</span>
-                  <span class="gamification-status">0 / 1 Invited</span>
+                  <span class="gamification-label" id="gamification-label">Alpha Priority Fast-Track</span>
+                  <span class="gamification-status" id="gamification-status">0 / 1 Invited</span>
                 </div>
                 <div class="gamification-progress-bar">
-                  <div class="gamification-progress-fill" style="width:25%;"></div>
+                  <div class="gamification-progress-fill" id="gamification-progress-fill" style="width:25%;"></div>
                 </div>
-                <p class="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access.</p>
-                <button type="button" class="copy-invite-btn" id="copy-btn">📋 Copy Share Link</button>
+                <p class="gamification-desc" id="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.</p>
+                <a class="receipt-telegram-cta-btn" id="telegram-cta-btn" href="https://t.me/+rXf7XKhsffMxNzdk" target="_blank" rel="noopener noreferrer" style="display:none;">
+                  <svg class="telegram-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+  </svg>
+                  <span>Claim Alpha in Private Telegram →</span>
+                </a>
               </div>
+              <div class="receipt-actions-group">
+                <button type="button" class="receipt-twitter-btn" id="twitter-share-btn">
+                  <svg class="x-twitter-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+  </svg>
+                  <span>Share on X to Unlock Alpha ⚡</span>
+                </button>
+                <button type="button" class="receipt-share-btn" id="copy-btn">
+                  🔗 Copy invite link
+                </button>
+              </div>
+              <button type="button" class="receipt-verify-link-btn" id="verify-invite-btn">
+                ⚡ Check invite status / claim access
+              </button>
             </div>
           </div>
         </div>
@@ -1427,27 +1611,99 @@
         if (cardTapHint) cardTapHint.addEventListener('click', toggleMetrics);
       }
 
+      var storageKey = 'defi_garden_card_waitlist';
       var form = document.getElementById('reserve-form');
       var emailInput = document.getElementById('email-input');
       var errorEl = document.getElementById('form-error');
       var reservationCard = document.getElementById('reservation-card');
       var receiptCard = document.getElementById('receipt-card');
       var copyBtn = document.getElementById('copy-btn');
+      var twitterBtn = document.getElementById('twitter-share-btn');
+      var verifyBtn = document.getElementById('verify-invite-btn');
+      var telegramBtn = document.getElementById('telegram-cta-btn');
       var stickyBtn = document.getElementById('sticky-reserve-btn');
+
+      var currentRefCode = '';
+
+      // Incoming referral tracking
+      try {
+        var searchParams = new URLSearchParams(window.location.search || '');
+        var incomingRef = searchParams.get('ref');
+        if (incomingRef) {
+          var storedCount = Number(localStorage.getItem('defi_garden_ref_' + incomingRef + '_count') || 0);
+          localStorage.setItem('defi_garden_ref_' + incomingRef + '_count', String(storedCount + 1));
+        }
+      } catch (e) {}
+
+      function getShareUrl(code) {
+        try {
+          var url = new URL(window.location.href);
+          if (code) {
+            url.searchParams.set('ref', code);
+          }
+          return url.toString();
+        } catch (e) {
+          return window.location.href;
+        }
+      }
+
+      function updateGamificationState(code) {
+        if (!code) return;
+        var count = 0;
+        try {
+          count = Number(localStorage.getItem('defi_garden_ref_' + code + '_count') || 0);
+        } catch (e) {}
+
+        var box = document.getElementById('gamification-box');
+        var label = document.getElementById('gamification-label');
+        var status = document.getElementById('gamification-status');
+        var progress = document.getElementById('gamification-progress-fill');
+        var desc = document.getElementById('gamification-desc');
+
+        if (count >= 1) {
+          if (box) box.classList.add('is-unlocked');
+          if (label) label.textContent = '⚡ Alpha Access Unlocked';
+          if (status) status.textContent = '1 / 1 (Unlocked 🎉)';
+          if (progress) progress.style.width = '100%';
+          if (desc) desc.textContent = 'Alpha priority unlocked! You skipped the 2,480+ launch queue. Join the private Alpha Telegram group to claim your card issuance slot.';
+          if (telegramBtn) telegramBtn.style.display = 'flex';
+          if (verifyBtn) verifyBtn.style.display = 'none';
+        } else {
+          if (box) box.classList.remove('is-unlocked');
+          if (label) label.textContent = 'Alpha Priority Fast-Track';
+          if (status) status.textContent = '0 / 1 Invited';
+          if (progress) progress.style.width = '25%';
+          if (desc) desc.textContent = 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.';
+          if (telegramBtn) telegramBtn.style.display = 'none';
+          if (verifyBtn) verifyBtn.style.display = 'block';
+        }
+      }
+
+      function showReceipt(email, refCode) {
+        if (reservationCard) reservationCard.style.display = 'none';
+        if (receiptCard) receiptCard.style.display = 'flex';
+        currentRefCode = refCode || currentRefCode;
+        updateGamificationState(currentRefCode);
+      }
+
+      // Check existing saved state
+      try {
+        var raw = localStorage.getItem(storageKey);
+        if (raw) {
+          var parsed = JSON.parse(raw);
+          var saved = Array.isArray(parsed) ? parsed[parsed.length - 1] : parsed;
+          if (saved && (saved.email || saved.user_email)) {
+            currentRefCode = saved.referral_code || saved.refCode || '';
+            showReceipt(saved.email || saved.user_email, currentRefCode);
+          }
+        }
+      } catch (e) {}
 
       if (stickyBtn && emailInput && reservationCard) {
         stickyBtn.addEventListener('click', function() {
           reservationCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
           setTimeout(function() { emailInput.focus(); }, 350);
         });
-      }
-      var storageKey = 'defi_garden_card_waitlist';
-      var saved = null;
-      try {
-        saved = JSON.parse(localStorage.getItem(storageKey));
-      } catch (e) {}
-      if (saved && saved.email) {
-        showReceipt(saved.email);
       }
 
       if (form) {
@@ -1459,31 +1715,110 @@
             errorEl.style.display = 'block';
             return;
           }
+          errorEl.style.display = 'none';
+
+          var emailPrefix = String(email || '').split('@')[0].replace(/[^a-zA-Z0-9]/g, '').slice(0, 8).toLowerCase();
+          var randomHex = Math.random().toString(16).substring(2, 8);
+          var refCode = 'yc_' + (emailPrefix ? emailPrefix + '_' : '') + randomHex;
+          currentRefCode = refCode;
+
+          var searchParams = new URLSearchParams(window.location.search || '');
+          var referredBy = searchParams.get('ref') || null;
+
           var payload = {
+            waitlist_id: 'yc_' + randomHex,
+            referral_code: refCode,
+            referred_by: referredBy,
+            timestamp: Date.now(),
+            user_email: email,
             email: email,
             sub: 'paramount',
             reservedAt: new Date().toISOString()
           };
-          try {
-            localStorage.setItem(storageKey, JSON.stringify(payload));
-          } catch (err) {}
-          showReceipt(email);
-        });
-      }
 
-      function showReceipt(email) {
-        if (reservationCard) reservationCard.style.display = 'none';
-        if (receiptCard) receiptCard.style.display = 'flex';
+          try {
+            var existing = [];
+            var rawWaitlist = localStorage.getItem(storageKey);
+            if (rawWaitlist) {
+              var parsedWaitlist = JSON.parse(rawWaitlist);
+              existing = Array.isArray(parsedWaitlist) ? parsedWaitlist : [parsedWaitlist];
+            }
+            existing.push(payload);
+            localStorage.setItem(storageKey, JSON.stringify(existing));
+          } catch (err) {}
+          // Edge / API registration tracking (production only)
+          if (window.location.hostname.includes('defi.garden')) {
+            try {
+              if (typeof fetch !== 'undefined') {
+                fetch('/api/referral?ref=' + encodeURIComponent(refCode) + '&action=register', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ email: email, sub: 'paramount', referral_code: refCode, referred_by: referredBy })
+                }).catch(function() {});
+              }
+            } catch (err) {}
+          }
+
+          showReceipt(email, refCode);
+        });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', function() {
-          var shareUrl = window.location.href;
+          var shareUrl = getShareUrl(currentRefCode);
+          var onCopied = function() {
+            copyBtn.textContent = '✓ Link Copied!';
+            setTimeout(function() { copyBtn.textContent = '🔗 Copy invite link'; }, 2500);
+          };
           if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(shareUrl).then(function() {
-              copyBtn.textContent = '✓ Link Copied!';
-              setTimeout(function() { copyBtn.textContent = '📋 Copy Share Link'; }, 2000);
+            navigator.clipboard.writeText(shareUrl).then(onCopied).catch(function() {
+              try {
+                var temp = document.createElement('textarea');
+                temp.value = shareUrl;
+                document.body.appendChild(temp);
+                temp.select();
+                document.execCommand('copy');
+                document.body.removeChild(temp);
+              } catch (err) {}
+              onCopied();
             });
+          } else {
+            try {
+              var temp = document.createElement('textarea');
+              temp.value = shareUrl;
+              document.body.appendChild(temp);
+              temp.select();
+              document.execCommand('copy');
+              document.body.removeChild(temp);
+            } catch (err) {}
+            onCopied();
+          }
+        });
+      }
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', function() {
+          var shareUrl = getShareUrl(currentRefCode);
+          var text = 'I just reserved a yield-funded Virtual Visa Card on @defigarden! 🌱💳\n\nPaying for Paramount+ ($9.99/mo) using 100% idle yield from Base vaults. Principal stays 100% untouched.\n\nInvite 1 friend for instant Alpha Access:';
+          var tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(shareUrl);
+          window.open(tweetUrl, '_blank', 'noopener,noreferrer');
+        });
+      }
+
+      if (verifyBtn) {
+        verifyBtn.addEventListener('click', function() {
+          if (!currentRefCode) return;
+          var count = 0;
+          try {
+            count = Number(localStorage.getItem('defi_garden_ref_' + currentRefCode + '_count') || 0);
+          } catch (e) {}
+
+          if (count > 0) {
+            updateGamificationState(currentRefCode);
+          } else {
+            try {
+              localStorage.setItem('defi_garden_ref_' + currentRefCode + '_count', '1');
+            } catch (e) {}
+            updateGamificationState(currentRefCode);
           }
         });
       }

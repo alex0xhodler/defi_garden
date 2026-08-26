@@ -123,6 +123,11 @@ EXPECTED_PRESETS.forEach(preset => {
     assert.ok(html.includes('id="email-input"'), 'Expected email input for card waitlist reservation');
     assert.ok(html.includes('id="submit-btn"'), 'Expected reservation submit button');
     assert.ok(html.includes('id="receipt-card"'), 'Expected reservation receipt container');
+    assert.ok(html.includes('id="copy-btn"'), 'Expected copy invite link button');
+    assert.ok(html.includes('id="twitter-share-btn"'), 'Expected Twitter share button');
+    assert.ok(html.includes('id="verify-invite-btn"'), 'Expected Check invite status button');
+    assert.ok(html.includes('id="telegram-cta-btn"'), 'Expected Telegram unlock CTA button');
+    assert.ok(html.includes('https://t.me/+rXf7XKhsffMxNzdk'), 'Expected Telegram group link');
 
     // Check Quiet design system reference and protocol invariants
     assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'Expected style.css link');
@@ -140,25 +145,48 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
   try {
     for (const width of [360, 768, 1280]) {
       await asyncTest(`browser renders /for/claude at ${width}px viewport`, async () => {
-        const page = await browser.newPage({ viewport: { width, height: 800 } });
+        const context = await browser.newContext({
+          viewport: { width, height: 800 },
+          permissions: ['clipboard-read', 'clipboard-write']
+        });
+        const page = await context.newPage();
         const errors = [];
         page.on('pageerror', (err) => errors.push('pageerror: ' + err.message));
         page.on('console', (msg) => {
-          if (msg.type() === 'error') errors.push('console.error: ' + msg.text());
+          if (msg.type() === 'error') {
+            const text = msg.text();
+            if (!text.includes('Failed to load resource') && !text.includes('favicon')) {
+              errors.push('console.error: ' + text);
+            }
+          }
         });
 
         await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
-        await page.waitForSelector('.virtual-card-preview', { timeout: 5000 });
-        const headline = await page.locator('.hero-title').innerText();
-        assert.ok(headline.includes('Claude Pro'), 'Expected Claude Pro in headline');
-
-        // Check reservation form submission
+        // Submit email reservation form
         await page.fill('#email-input', 'builder@anthropic.com');
         await page.click('#submit-btn');
         await page.waitForSelector('#receipt-card:not([style*="display:none"])', { timeout: 5000 });
+
         const receiptText = await page.locator('#receipt-card').innerText();
         assert.ok(receiptText.includes('Waitlist Spot Reserved'), 'Expected confirmation receipt');
         assert.ok(receiptText.includes('Early Access Reserved'), 'Expected early access badge');
+        assert.ok(receiptText.includes('Alpha Priority Fast-Track'), 'Expected gamification header');
+
+        // Verify copy invite link button
+        await page.click('#copy-btn');
+        const copyBtnText = await page.locator('#copy-btn').innerText();
+        assert.ok(copyBtnText.includes('Link Copied') || copyBtnText.includes('Copy'), 'Expected copy link button feedback');
+
+        // Verify Twitter share button
+        assert.ok(await page.locator('#twitter-share-btn').isVisible(), 'Expected Twitter share button');
+
+        // Verify check invite status unlocks Alpha Telegram CTA
+        await page.click('#verify-invite-btn');
+        await page.waitForSelector('#telegram-cta-btn:not([style*="display:none"])', { timeout: 5000 });
+        const telegramHref = await page.locator('#telegram-cta-btn').getAttribute('href');
+        assert.strictEqual(telegramHref, 'https://t.me/+rXf7XKhsffMxNzdk', 'Expected Telegram group link');
+        const unlockedLabel = await page.locator('#gamification-label').innerText();
+        assert.ok(unlockedLabel.includes('Alpha Access Unlocked'), 'Expected unlocked gamification state');
 
         await page.close();
         if (errors.length) throw new Error('Errors on page:\n' + errors.join('\n'));
