@@ -1996,13 +1996,14 @@ function generateHtml(sub) {
 
       var currentRefCode = '';
 
-      // Incoming referral tracking
+      // Incoming referral tracking & multi-page session persistence
       try {
         var searchParams = new URLSearchParams(window.location.search || '');
-        var incomingRef = searchParams.get('ref');
+        var incomingRef = searchParams.get('ref') || (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) || null;
         if (incomingRef) {
           var storedCount = Number(localStorage.getItem('defi_garden_ref_' + incomingRef + '_count') || 0);
           localStorage.setItem('defi_garden_ref_' + incomingRef + '_count', String(storedCount + 1));
+          try { sessionStorage.setItem('defi_garden_referred_by', incomingRef); } catch (e) {}
         }
       } catch (e) {}
 
@@ -2094,7 +2095,10 @@ function generateHtml(sub) {
           currentRefCode = refCode;
 
           var searchParams = new URLSearchParams(window.location.search || '');
-          var referredBy = searchParams.get('ref') || null;
+          var referredBy = searchParams.get('ref') ||
+            (function() { try { return sessionStorage.getItem('defi_garden_referred_by'); } catch(e) { return null; } })() ||
+            (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) ||
+            null;
 
           var payload = {
             waitlist_id: 'yc_' + randomHex,
