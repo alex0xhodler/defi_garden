@@ -1,12 +1,12 @@
 # Stacks DeFi Yields
 
-The highest honest Stacks yield right now is 1.16% on zest-v2 (Stacks), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Stacks yield right now is 1.14% on zest-v2 (Stacks), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.59% | $10.12M |
-| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.06% | $2.74M |
-| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 1.16% | $2.68M |
+| USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.60% | $10.08M |
+| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.06% | $2.89M |
+| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 1.14% | $2.83M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Stacks yield today?
 
-1.16% APY on zest-v2 (Stacks), based on live DefiLlama data.
+1.14% APY on zest-v2 (Stacks), based on live DefiLlama data.
 
 ### How many Stacks pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $71.74M in total.
+6 live pools clear this page's $100K TVL floor, $72.11M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [STSTX](https://www.defi.garden/tokens/ststx)
 - [STX](https://www.defi.garden/tokens/stx)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

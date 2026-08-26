@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 t3tris-finance에서 APY 8.65%
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

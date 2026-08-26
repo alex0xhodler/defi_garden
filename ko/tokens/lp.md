@@ -43,7 +43,7 @@ LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.01%부터 0.21%까�
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| wombat-exchange | 0.06% | 0.05% | 인센티브 76.47% |
+| wombat-exchange | 0.06% | 0.05% | 인센티브 85.04% |
 | wombat-exchange | 0.02% | 0.02% | 인센티브 91.94% |
 | wombat-exchange | 0.02% | 0.02% | 인센티브 94.32% |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
@@ -83,4 +83,4 @@ APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wom
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

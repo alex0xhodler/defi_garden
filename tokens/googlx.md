@@ -1,10 +1,10 @@
 # GOOGLX DeFi Yields
 
-The highest honest GOOGLX yield right now is 8.25% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLX yield right now is 7.28% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 8.25% | $322K |
+| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 7.28% | $321.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLX shows up in 1 pools here, with rates from 8.25% to 8.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLX shows up in 1 pools here, with rates from 7.28% to 7.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 16.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.25% | 16.47% | Base rate |
+| raydium-amm | 7.28% | 16.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOOGLX yield today?
 
-8.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOOGLX pools clear the TVL floor?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank GOOGLX pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

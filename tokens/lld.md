@@ -4,7 +4,7 @@ The highest honest LLD yield right now is 1.26% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3ac1ec20-27ec-4298-8c2f-6bd524f3f269&src=seo_token) | Ethereum | 1.26% | $102.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3ac1ec20-27ec-4298-8c2f-6bd524f3f269&src=seo_token) | Ethereum | 1.26% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.2K in total.
+1 live pool clear this page's $100K TVL floor, $103.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LLD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -4,7 +4,7 @@ The highest honest LANTERNSOL yield right now is 6.04% on lantern-staked-sol (So
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.04% | $2.19M |
+| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.04% | $2.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank LANTERNSOL pools. This view c
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

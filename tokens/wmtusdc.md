@@ -4,7 +4,7 @@ The highest honest WMTUSDC yield right now is 8.50% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=57885844-7b3f-49b3-969b-9405b165fa78&src=seo_token) | Ethereum | 8.50% | $583.2K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=57885844-7b3f-49b3-969b-9405b165fa78&src=seo_token) | Ethereum | 8.50% | $583.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank WMTUSDC pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

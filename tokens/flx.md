@@ -4,7 +4,7 @@ The highest honest FLX yield right now is 0.06% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ec9ed3df-3f6c-4e8f-b20b-51e778f91d73&src=seo_token) | Ethereum | 0.06% | $131.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ec9ed3df-3f6c-4e8f-b20b-51e778f91d73&src=seo_token) | Ethereum | 0.06% | $132.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.8K in total.
+1 live pool clear this page's $100K TVL floor, $132.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

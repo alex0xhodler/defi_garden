@@ -1,52 +1,48 @@
 # SUSDAT DeFi Yields
 
-The highest honest SUSDAT yield right now is 22.25% on pendle (BSC), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDAT yield right now is 22.25% on pendle (BSC), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.93% | $80.45M |
-| [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 60.64% | $2.8M |
-| [pendle →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 18.57% | $2.8M |
-| [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 92.45% | $2.47M |
-| [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 94.70% | $2.47M |
-| [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 21.91% | $2.37M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.92% | $80.5M |
+| [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 60.43% | $2.81M |
+| [pendle →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 18.59% | $2.81M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 22.25% | $2.37M |
-| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 10.78% | $102.4K |
+| [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 21.91% | $2.37M |
+| [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.01% | $103.9K |
+| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 10.75% | $102.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDAT's lower-variability candidates are pendle (Ethereum), 94.70% APY, $2.47M TVL, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; pendle (Ethereum), 92.45% APY, $2.47M TVL, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; pendle (BSC), 21.91% APY, $2.37M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (BSC), 22.25% APY, $2.37M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; saturn (Ethereum), 14.93% APY, $80.45M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 10.78% APY, $102.4K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDAT's lower-variability candidates are pendle (BSC), 21.91% APY, $2.37M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (BSC), 22.25% APY, $2.37M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; saturn (Ethereum), 14.92% APY, $80.5M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 10.75% APY, $102.2K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 94.70% | $2.47M |
-| 2 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 92.45% | $2.47M |
-| 3 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 21.91% | $2.37M |
-| 4 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 22.25% | $2.37M |
-| 5 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.93% | $80.45M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 10.78% | $102.4K |
+| 1 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 21.91% | $2.37M |
+| 2 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 22.25% | $2.37M |
+| 3 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.92% | $80.5M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 10.75% | $102.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDAT shows up in 8 pools here, with rates from 10.78% to 94.70% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDAT shows up in 7 pools here, with rates from 0.01% to 60.43% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 23.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 20.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 7 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saturn | 14.93% | 20.36% | Base rate |
-| pendle | 60.64% | 36.33% | 0.65% incentives |
-| pendle | 18.57% | 20.20% | Base rate |
-| pendle | 92.45% | 19.33% | 0.54% incentives |
-| pendle | 94.70% | 27.67% | Base rate |
-| pendle | 21.91% | 26.57% | Base rate |
-| pendle | 22.25% | 19.46% | Base rate |
-| curve-dex | 10.78% | 207.10% | Base rate |
+| saturn | 14.92% | 20.29% | Base rate |
+| pendle | 60.43% | 36.60% | 0.67% incentives |
+| pendle | 18.59% | 20.18% | Base rate |
+| pendle | 22.25% | 19.61% | Base rate |
+| pendle | 21.91% | 26.65% | Base rate |
+| curve-dex | 0.01% | 5.08% | Base rate |
+| curve-dex | 10.75% | 206.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +54,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDAT pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $115.32M in total.
+13 live pools clear this page's $100K TVL floor, $110.45M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +62,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDAT pools have the most stable APY history?
 
-Based on APY history only, SUSDAT's lower-variability candidates are pendle (Ethereum), 94.70% APY, $2.47M TVL, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; pendle (Ethereum), 92.45% APY, $2.47M TVL, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; pendle (BSC), 21.91% APY, $2.37M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (BSC), 22.25% APY, $2.37M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; saturn (Ethereum), 14.93% APY, $80.45M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 10.78% APY, $102.4K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDAT's lower-variability candidates are pendle (BSC), 21.91% APY, $2.37M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (BSC), 22.25% APY, $2.37M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; saturn (Ethereum), 14.92% APY, $80.5M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 10.75% APY, $102.2K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -83,4 +79,4 @@ Based on APY history only, SUSDAT's lower-variability candidates are pendle (Eth
 - [Monad](https://www.defi.garden/chains/monad)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

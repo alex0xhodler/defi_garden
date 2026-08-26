@@ -1,10 +1,10 @@
 # LLY DeFi Yields
 
-The highest honest LLY yield right now is 10.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LLY yield right now is 9.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9d19332d-db51-5b76-b5d7-c07dd4d0710c&src=seo_token) | Solana | 10.80% | $144.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=9d19332d-db51-5b76-b5d7-c07dd4d0710c&src=seo_token) | Solana | 9.29% | $144.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LLY yield today?
 
-10.80% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LLY pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LLY pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

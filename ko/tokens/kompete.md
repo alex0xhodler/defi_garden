@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.01% | $322.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.01% | $322.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예�
 
 ### KOMPETE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $322.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $322.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

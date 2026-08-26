@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STRADAUSDC pools. This view c
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

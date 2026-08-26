@@ -4,7 +4,7 @@ The highest honest ASTRA yield right now is 0.53% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ecd818f8-73a7-46d1-a67b-05ffdee739b2&src=seo_token) | Ethereum | 0.53% | $109.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ecd818f8-73a7-46d1-a67b-05ffdee739b2&src=seo_token) | Ethereum | 0.53% | $109.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASTRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.3K in total.
+1 live pool clear this page's $100K TVL floor, $109.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASTRA pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

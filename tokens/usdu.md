@@ -65,4 +65,4 @@ Based on APY history only, USDU's lower-variability candidates are orca-dex (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

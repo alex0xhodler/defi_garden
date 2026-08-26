@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CUSDX pools. This view covers
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

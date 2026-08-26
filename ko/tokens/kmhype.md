@@ -67,4 +67,4 @@ APY 이력만 기준으로 비교한 KMHYPE의 변동성 낮은 후보는 Hyperl
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

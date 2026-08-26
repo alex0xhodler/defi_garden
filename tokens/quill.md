@@ -1,10 +1,10 @@
 # QUILL DeFi Yields
 
-The highest honest QUILL yield right now is 0.05% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUILL yield right now is 0.48% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.05% | $142.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.48% | $142.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QUILL yield today?
 
-0.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.48% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many QUILL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.9K in total.
+1 live pool clear this page's $100K TVL floor, $142.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QUILL pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

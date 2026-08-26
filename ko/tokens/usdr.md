@@ -65,4 +65,4 @@ APY 이력만 기준으로 비교한 USDR의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

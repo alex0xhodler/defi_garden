@@ -4,7 +4,7 @@ The highest honest JRROYAPYUSD yield right now is 19.15% on pendle (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 477.32% | $1.22M |
+| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 473.18% | $1.22M |
 | [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $1.06M |
 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.70% | $1.06M |
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-JRROYAPYUSD shows up in 3 pools here, with rates from 8.70% to 477.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JRROYAPYUSD shows up in 3 pools here, with rates from 8.70% to 473.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,7 +30,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 477.32% | 313.40% | Base rate |
+| royco-v2 | 473.18% | 314.39% | Base rate |
 | pendle | 19.15% | 19.15% | Base rate |
 | pendle | 8.70% | 8.87% | Base rate |
 
@@ -67,4 +67,4 @@ Based on APY history only, JRROYAPYUSD's lower-variability candidates are pendle
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

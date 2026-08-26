@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.58% | $1.38M |
+| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.58% | $1.42M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 inverse-finance-firm에서 APY
 
 ### SINV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.67M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 inverse-finance-firm에서 APY
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

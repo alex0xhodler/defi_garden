@@ -66,4 +66,4 @@ Based on APY history only, OUSG's lower-variability candidates are ondo-yield-as
 - [XRPL](https://www.defi.garden/chains/xrpl)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

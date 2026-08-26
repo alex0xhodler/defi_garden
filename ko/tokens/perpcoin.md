@@ -1,10 +1,10 @@
 # PERPCOIN 디파이 수익률
 
-현재 PERPCOIN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 11.27%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PERPCOIN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 8.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=94eda08b-9f17-425d-960b-630a7f78c3c2&src=seo_token) | Hyperliquid L1 | 11.27% | $109.5K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=94eda08b-9f17-425d-960b-630a7f78c3c2&src=seo_token) | Hyperliquid L1 | 8.25% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 PERPCOIN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 11.27%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 8.25%예요.
 
 ### PERPCOIN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 1
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

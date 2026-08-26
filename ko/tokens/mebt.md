@@ -1,10 +1,10 @@
 # MEBT 디파이 수익률
 
-현재 MEBT의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 14.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MEBT의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 14.59%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807&src=seo_token) | Polygon | 14.49% | $495.3K |
+| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807&src=seo_token) | Polygon | 14.59% | $495.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 MEBT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 14.49%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 14.59%예요.
 
 ### MEBT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 14.49%�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

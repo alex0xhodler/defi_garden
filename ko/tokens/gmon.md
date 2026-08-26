@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 11.12% | $1.48M |
+| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 11.12% | $1.42M |
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.38% | $574.7K |
-| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.26% | $305.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $105K |
+| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.27% | $296.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.09%, TVL $105K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 neverland, APY 0.26%, TVL $305.4K, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 magma-staking, APY 11.12%, TVL $1.48M, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.09%, TVL $101.3K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 neverland, APY 0.27%, TVL $296.7K, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 magma-staking, APY 11.12%, TVL $1.42M, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $105K |
-| 2 | [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.26% | $305.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $101.3K |
+| 2 | [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.27% | $296.7K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.38% | $574.7K |
-| 4 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 11.12% | $1.48M |
+| 4 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 11.12% | $1.42M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,8 +36,8 @@ GMON 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.09%부터 12.38%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | magma-staking | 11.12% | 10.65% | 기본 금리 |
-| curve-dex | 12.38% | 20.13% | 인센티브 100.00% |
-| neverland | 0.26% | 0.25% | 인센티브 100.00% |
+| curve-dex | 12.38% | 20.09% | 인센티브 100.00% |
+| neverland | 0.27% | 0.26% | 인센티브 100.00% |
 | uniswap-v3 | 0.09% | 0.03% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.38%예요.
 
 ### GMON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.47M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.39M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.38%예요.
 
 ### GMON 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.09%, TVL $105K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 neverland, APY 0.26%, TVL $305.4K, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 magma-staking, APY 11.12%, TVL $1.48M, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.09%, TVL $101.3K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 neverland, APY 0.27%, TVL $296.7K, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 magma-staking, APY 11.12%, TVL $1.42M, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -73,4 +73,4 @@ APY 이력만 기준으로 비교한 GMON의 변동성 낮은 후보는 Monad의
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

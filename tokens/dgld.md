@@ -68,4 +68,4 @@ Based on APY history only, DGLD's lower-variability candidates are uniswap-v4 (B
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

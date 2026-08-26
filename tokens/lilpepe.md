@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank LILPEPE pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

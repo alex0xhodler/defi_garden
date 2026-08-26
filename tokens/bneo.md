@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BNEO pools. This view covers 
 
 - [Neo](https://www.defi.garden/chains/neo)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

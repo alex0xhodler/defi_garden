@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $998.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $999.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.01%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

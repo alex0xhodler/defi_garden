@@ -1,39 +1,39 @@
 # FRXETH DeFi Yields
 
-The highest honest FRXETH yield right now is 2.91% on curve-dex (Fraxtal), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXETH yield right now is 2.92% on curve-dex (Fraxtal), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.53% | $17.14M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.05% | $17.14M |
-| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.59% | $9.91M |
-| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 0.89% | $7.46M |
-| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.36% | $7.08M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.52% | $17.26M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.04% | $17.25M |
+| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.60% | $9.97M |
+| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 0.90% | $7.5M |
+| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.34% | $7.13M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 1.65% | $2.63M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.91% | $2.56M |
-| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.39% | $2.13M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.92% | $2.57M |
+| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.44% | $2.11M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 1.65% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.53% APY, $17.14M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 0.89% APY, $7.46M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; stake-dao (Ethereum), 2.39% APY, $2.13M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; convex-finance (Ethereum), 2.05% APY, $17.14M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.59% APY, $9.91M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 2.91% APY, $2.56M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.36% APY, $7.08M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 1.65% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.52% APY, $17.26M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 0.90% APY, $7.5M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; stake-dao (Ethereum), 2.44% APY, $2.11M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; convex-finance (Ethereum), 2.04% APY, $17.25M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.60% APY, $9.97M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 2.92% APY, $2.57M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.34% APY, $7.13M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 1.65% | $2.63M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.53% | $17.14M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 0.89% | $7.46M |
-| 4 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.39% | $2.13M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.05% | $17.14M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.59% | $9.91M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.91% | $2.56M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.36% | $7.08M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.52% | $17.26M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 0.90% | $7.5M |
+| 4 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.44% | $2.11M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.04% | $17.25M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.60% | $9.97M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.92% | $2.57M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.34% | $7.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRXETH shows up in 8 pools here, with rates from 0.59% to 2.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRXETH shows up in 8 pools here, with rates from 0.60% to 2.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ FRXETH shows up in 8 pools here, with rates from 0.59% to 2.91% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.53% | 1.69% | 41.79% incentives |
-| convex-finance | 2.05% | 2.12% | 56.52% incentives |
-| curve-dex | 0.59% | 0.68% | 83.18% incentives |
-| convex-finance | 0.89% | 1.00% | 88.80% incentives |
-| curve-dex | 1.36% | 1.34% | 97.07% incentives |
+| curve-dex | 1.52% | 1.68% | 42.04% incentives |
+| convex-finance | 2.04% | 2.12% | 56.86% incentives |
+| curve-dex | 0.60% | 0.68% | 83.22% incentives |
+| convex-finance | 0.90% | 1.00% | 88.83% incentives |
+| curve-dex | 1.34% | 1.34% | 98.51% incentives |
 | uniswap-v3 | 1.65% | 1.42% | Base rate |
-| curve-dex | 2.91% | 3.18% | 46.75% incentives |
-| stake-dao | 2.39% | 2.54% | 98.75% incentives |
+| curve-dex | 2.92% | 3.18% | 46.83% incentives |
+| stake-dao | 2.44% | 2.54% | 98.77% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRXETH yield today?
 
-2.91% APY on curve-dex (Fraxtal), based on live DefiLlama data.
+2.92% APY on curve-dex (Fraxtal), based on live DefiLlama data.
 
 ### How many FRXETH pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $73.93M in total.
+18 live pools clear this page's $100K TVL floor, $74.36M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FRXETH pools have the most stable APY history?
 
-Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 1.65% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.53% APY, $17.14M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 0.89% APY, $7.46M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; stake-dao (Ethereum), 2.39% APY, $2.13M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; convex-finance (Ethereum), 2.05% APY, $17.14M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.59% APY, $9.91M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 2.91% APY, $2.56M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.36% APY, $7.08M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 1.65% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.52% APY, $17.26M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 0.90% APY, $7.5M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; stake-dao (Ethereum), 2.44% APY, $2.11M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; convex-finance (Ethereum), 2.04% APY, $17.25M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.60% APY, $9.97M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 2.92% APY, $2.57M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.34% APY, $7.13M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,4 +86,4 @@ Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

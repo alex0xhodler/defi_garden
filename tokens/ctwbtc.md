@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CTWBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $25.45M in total.
+2 live pools clear this page's $100K TVL floor, $25.52M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank CTWBTC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

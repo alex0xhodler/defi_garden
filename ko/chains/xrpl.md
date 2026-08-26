@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, XRPL의 ondo-yield-assets에서 APY 3.65%�
 - [OUSG](https://www.defi.garden/ko/tokens/ousg)
 - [TBL](https://www.defi.garden/ko/tokens/tbl)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

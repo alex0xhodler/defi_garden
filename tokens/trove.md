@@ -4,7 +4,7 @@ The highest honest TROVE yield right now is 0.05% on camelot-v2 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=00da8266-ff9e-416b-ab47-65f6d5829cbc&src=seo_token) | Arbitrum | 0.05% | $762.1K |
+| [camelot-v2 →](https://www.defi.garden/?pool=00da8266-ff9e-416b-ab47-65f6d5829cbc&src=seo_token) | Arbitrum | 0.05% | $767.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TROVE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $762.1K in total.
+1 live pool clear this page's $100K TVL floor, $767.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TROVE pools. This view covers
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

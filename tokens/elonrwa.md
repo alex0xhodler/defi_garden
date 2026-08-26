@@ -4,7 +4,7 @@ The highest honest ELONRWA yield right now is 0.08% on uniswap-v3 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.08% | $501.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.08% | $505.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ELONRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $501.6K in total.
+1 live pool clear this page's $100K TVL floor, $505.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ELONRWA pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

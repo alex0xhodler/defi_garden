@@ -4,7 +4,7 @@ The highest honest DEXL yield right now is 0.30% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a801fc52-bbd0-4cb7-9b3b-79329c03ae98&src=seo_token) | Ethereum | 0.30% | $161.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a801fc52-bbd0-4cb7-9b3b-79329c03ae98&src=seo_token) | Ethereum | 0.30% | $162.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DEXL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.7K in total.
+1 live pool clear this page's $100K TVL floor, $162.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DEXL pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -1,40 +1,40 @@
 # BNB DeFi Yields
 
-The highest honest BNB yield right now is 34.03% on uniswap-v4 (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNB yield right now is 153.20% on gmtrade (Solana), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $337.75M |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $339.37M |
 | [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.33% | $6.87M |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.14% | $678.5K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.93% | $294.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 71.69% | $265.4K |
-| [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token) | BSC | 5.03% | $148.5K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.93% | $294.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 30.21% | $266.5K |
+| [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token) | BSC | 5.28% | $148.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token) | Ethereum | 34.03% | $126.7K |
-| [orca-dex →](https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a&src=seo_token) | Solana | 32.18% | $102.9K |
+| [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 153.20% | $103.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.08% APY, $337.75M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $678.5K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; gmx-v2-perps (Arbitrum), 0.93% APY, $294.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; orca-dex (Solana), 32.18% APY, $102.9K TVL, https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a&src=seo_token; kyberswap-fairflow (BSC), 5.03% APY, $148.5K TVL, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token; uniswap-v3 (Ethereum), 71.69% APY, $265.4K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token; uniswap-v4 (Ethereum), 34.03% APY, $126.7K TVL, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.08% APY, $339.37M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $678.5K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; gmx-v2-perps (Arbitrum), 0.93% APY, $294.4K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; gmtrade (Solana), 153.20% APY, $103.6K TVL, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; kyberswap-fairflow (BSC), 5.28% APY, $148.1K TVL, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token; uniswap-v3 (Ethereum), 30.21% APY, $266.5K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token; uniswap-v4 (Ethereum), 34.03% APY, $126.7K TVL, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $337.75M |
+| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $339.37M |
 | 2 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.14% | $678.5K |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.93% | $294.1K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a&src=seo_token) | Solana | 32.18% | $102.9K |
-| 5 | [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token) | BSC | 5.03% | $148.5K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 71.69% | $265.4K |
+| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.93% | $294.4K |
+| 4 | [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 153.20% | $103.6K |
+| 5 | [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token) | BSC | 5.28% | $148.1K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 30.21% | $266.5K |
 | 7 | [uniswap-v4 →](https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token) | Ethereum | 34.03% | $126.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BNB shows up in 8 pools here, with rates from 0.08% to 71.69% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
+BNB shows up in 8 pools here, with rates from 0.08% to 153.20% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -46,10 +46,10 @@ BNB shows up in 8 pools here, with rates from 0.08% to 71.69% APY across 5 chain
 | raydium-amm | 0.33% | 0.16% | Base rate |
 | sovryn-dex | 0.14% | 0.16% | 100.00% incentives |
 | gmx-v2-perps | 0.93% | 0.47% | Base rate |
-| uniswap-v3 | 71.69% | 31.44% | Base rate |
-| kyberswap-fairflow | 5.03% | 0.20% | Base rate |
+| uniswap-v3 | 30.21% | 31.57% | Base rate |
+| kyberswap-fairflow | 5.28% | 0.21% | Base rate |
 | uniswap-v4 | 34.03% | 51.58% | Base rate |
-| orca-dex | 32.18% | 12.00% | Base rate |
+| gmtrade | 153.20% | 106.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BNB yield today?
 
-34.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+153.20% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many BNB pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $346.68M in total.
+11 live pools clear this page's $100K TVL floor, $348.41M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BNB pools have the most stable APY history?
 
-Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.08% APY, $337.75M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $678.5K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; gmx-v2-perps (Arbitrum), 0.93% APY, $294.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; orca-dex (Solana), 32.18% APY, $102.9K TVL, https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a&src=seo_token; kyberswap-fairflow (BSC), 5.03% APY, $148.5K TVL, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token; uniswap-v3 (Ethereum), 71.69% APY, $265.4K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token; uniswap-v4 (Ethereum), 34.03% APY, $126.7K TVL, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.08% APY, $339.37M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $678.5K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; gmx-v2-perps (Arbitrum), 0.93% APY, $294.4K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; gmtrade (Solana), 153.20% APY, $103.6K TVL, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; kyberswap-fairflow (BSC), 5.28% APY, $148.1K TVL, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6&src=seo_token; uniswap-v3 (Ethereum), 30.21% APY, $266.5K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token; uniswap-v4 (Ethereum), 34.03% APY, $126.7K TVL, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, BNB's lower-variability candidates are lista-lending 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

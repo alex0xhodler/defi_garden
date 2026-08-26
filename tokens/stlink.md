@@ -4,7 +4,7 @@ The highest honest STLINK yield right now is 4.63% on stake.link-liquid (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.63% | $81.24M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.63% | $81.69M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STLINK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $90M in total.
+4 live pools clear this page's $100K TVL floor, $90.39M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank STLINK pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PLASMAUSD pools. This view co
 
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

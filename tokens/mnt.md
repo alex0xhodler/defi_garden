@@ -1,10 +1,10 @@
 # MNT DeFi Yields
 
-The highest honest MNT yield right now is 9.79% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MNT yield right now is 9.72% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f3ede282-2151-4d03-84ec-063bc5daab8d&src=seo_token) | Ethereum | 9.79% | $3.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f3ede282-2151-4d03-84ec-063bc5daab8d&src=seo_token) | Ethereum | 9.72% | $3.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MNT yield today?
 
-9.79% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MNT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MNT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

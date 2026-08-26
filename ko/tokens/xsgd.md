@@ -6,16 +6,16 @@
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 297.01% | $440.6K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 14.41% | $211.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 5.26% | $164.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 9.02% | $164.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 5.26%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 14.41%, TVL $211.4K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 297.01%, TVL $440.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 9.02%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 14.41%, TVL $211.4K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 297.01%, TVL $440.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 5.26% | $164.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 9.02% | $164.4K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 14.41% | $211.4K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 297.01% | $440.6K |
 
@@ -23,9 +23,9 @@ APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon�
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XSGD 풀은 여기 3개가 있고, 2개 체인에서 APY가 5.26%부터 297.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XSGD 풀은 여기 3개가 있고, 2개 체인에서 APY가 9.02%부터 297.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.85%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -33,9 +33,9 @@ XSGD 풀은 여기 3개가 있고, 2개 체인에서 APY가 5.26%부터 297.01%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 297.01% | 122.34% | 인센티브 100.00% |
-| aerodrome-slipstream | 14.41% | 23.86% | 인센티브 100.00% |
-| uniswap-v3 | 5.26% | 10.60% | 기본 금리 |
+| aerodrome-slipstream | 297.01% | 122.70% | 인센티브 100.00% |
+| aerodrome-slipstream | 14.41% | 23.85% | 인센티브 100.00% |
+| uniswap-v3 | 9.02% | 10.62% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 14.
 
 ### XSGD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 5.26%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 14.41%, TVL $211.4K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 297.01%, TVL $440.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon의 uniswap-v3, APY 9.02%, TVL $164.4K, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; Base의 aerodrome-slipstream, APY 14.41%, TVL $211.4K, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; Base의 aerodrome-slipstream, APY 297.01%, TVL $440.6K, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -71,4 +71,4 @@ APY 이력만 기준으로 비교한 XSGD의 변동성 낮은 후보는 Polygon�
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

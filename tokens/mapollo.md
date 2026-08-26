@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.31% | 8.61% | Base rate |
-| pendle | 8.22% | 8.01% | Base rate |
+| pendle | 8.31% | 8.60% | Base rate |
+| pendle | 8.22% | 8.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -65,4 +65,4 @@ Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

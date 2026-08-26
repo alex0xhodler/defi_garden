@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank CC pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

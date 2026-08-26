@@ -89,4 +89,4 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

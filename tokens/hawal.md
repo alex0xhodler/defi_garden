@@ -4,7 +4,7 @@ The highest honest HAWAL yield right now is 0.13% on cetus-clmm (Sui), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8&src=seo_token) | Sui | 0.13% | $362.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8&src=seo_token) | Sui | 0.13% | $369.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HAWAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $362.2K in total.
+1 live pool clear this page's $100K TVL floor, $369.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HAWAL pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

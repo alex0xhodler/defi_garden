@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OUSG](https://www.defi.garden/tokens/ousg)
 - [TBL](https://www.defi.garden/tokens/tbl)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

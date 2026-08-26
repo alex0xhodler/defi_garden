@@ -1,10 +1,10 @@
 # POOL DeFi Yields
 
-The highest honest POOL yield right now is 9.27% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POOL yield right now is 10.52% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=143d08f6-819c-5ca0-a0d9-7cc034c3f2f6&src=seo_token) | Monad | 9.27% | $1.37M |
+| [balancer-v3 →](https://www.defi.garden/?pool=143d08f6-819c-5ca0-a0d9-7cc034c3f2f6&src=seo_token) | Monad | 10.52% | $1.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POOL yield today?
 
-9.27% APY on balancer-v3 (Monad), based on live DefiLlama data.
+10.52% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many POOL pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank POOL pools. This view covers 
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

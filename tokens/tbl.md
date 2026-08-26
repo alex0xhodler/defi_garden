@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TBL pools. This view covers A
 
 - [XRPL](https://www.defi.garden/chains/xrpl)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

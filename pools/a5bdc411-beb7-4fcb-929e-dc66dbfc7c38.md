@@ -1,12 +1,12 @@
 # WETH-USDC-USDT-WBTC-DAI-LINK-OP — clipper on OP Mainnet
 
-**Total APY:** 1.66% (0.00% Base · + 1.66% Rewards)
+**Total APY:** 1.65% (0.00% Base · + 1.65% Rewards)
 
-**TVL:** $102.5K
+**TVL:** $102.8K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.87%
+**30d Mean APY:** 1.86%
 
 **Exposure:** multi
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on clipper](https://clipper.exchange/?ref=defi.garden)
 
-Last updated August 25, 2026
+Last updated August 26, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Pharos의 centrifuge-protocol에서 APY 3.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

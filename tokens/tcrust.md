@@ -4,7 +4,7 @@ The highest honest TCRUST yield right now is 0.01% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a5a249fb-458a-4040-b4e0-cc0a2734d6df&src=seo_token) | Base | 0.01% | $113.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a5a249fb-458a-4040-b4e0-cc0a2734d6df&src=seo_token) | Base | 0.01% | $114.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TCRUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.6K in total.
+1 live pool clear this page's $100K TVL floor, $114.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TCRUST pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

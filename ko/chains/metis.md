@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Metis의 hercules-v3에서 APY 1.49%예요
 - [HERA](https://www.defi.garden/ko/tokens/hera)
 - [M.USDC](https://www.defi.garden/ko/tokens/m-usdc)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

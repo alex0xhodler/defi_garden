@@ -4,28 +4,28 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 5.17% | $1.17M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 4.88% | $1.18M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 86.48% | $807.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 2.38% | $154.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.56% | $155.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 2.38%, TVL $154.6K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 86.48%, TVL $807.9K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 5.17%, TVL $1.17M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.56%, TVL $155.1K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 86.48%, TVL $807.9K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 4.88%, TVL $1.18M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 2.38% | $154.6K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.56% | $155.1K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 86.48% | $807.9K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 5.17% | $1.17M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 4.88% | $1.18M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 2.38%부터 86.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.56%부터 86.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.56%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -33,9 +33,9 @@ BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 2.38%부터 86.48%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 5.17% | 3.56% | 기본 금리 |
-| aerodrome-slipstream | 86.48% | 95.21% | 인센티브 100.00% |
-| uniswap-v2 | 2.38% | 1.94% | 기본 금리 |
+| uniswap-v3 | 4.88% | 3.58% | 기본 금리 |
+| aerodrome-slipstream | 86.48% | 95.35% | 인센티브 100.00% |
+| uniswap-v2 | 0.56% | 1.94% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 86.
 
 ### BRETT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.26M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 86.
 
 ### BRETT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 2.38%, TVL $154.6K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 86.48%, TVL $807.9K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 5.17%, TVL $1.17M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.56%, TVL $155.1K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 86.48%, TVL $807.9K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 4.88%, TVL $1.18M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -71,4 +71,4 @@ APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereu
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

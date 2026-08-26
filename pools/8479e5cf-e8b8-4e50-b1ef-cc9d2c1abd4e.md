@@ -2,7 +2,7 @@
 
 **Total APY:** 6.00% (6.00% Base · + 0.00% Rewards)
 
-**TVL:** $2.88M
+**TVL:** $2.89M
 
 **Pool Type:** Yield Farming
 
@@ -28,6 +28,6 @@ We're still building this pool's rate history — not a long enough track record
 
 [Garden this pool → ~$1,338 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
-[Start Earning on nest-credit](https://nest.credit/?ref=defi.garden)
+[View this pool on DefiLlama](https://defillama.com/yields/pool/8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e) — No protocol link available · Opens DefiLlama, our data source
 
-Last updated August 25, 2026
+Last updated August 26, 2026

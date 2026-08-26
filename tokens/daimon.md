@@ -4,7 +4,7 @@ The highest honest DAIMON yield right now is 0.04% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2e23150d-9ae8-4d72-8189-9d1187b77812&src=seo_token) | Base | 0.04% | $110.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2e23150d-9ae8-4d72-8189-9d1187b77812&src=seo_token) | Base | 0.04% | $111K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAIMON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.6K in total.
+1 live pool clear this page's $100K TVL floor, $111K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAIMON pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

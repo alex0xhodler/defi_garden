@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 43.13% | $716K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 38.64% | $722K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 54.78% | $291.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 32.22% | $236.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 43.13%, TVL $716K, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token; Ethereum의 uniswap-v4, APY 54.78%, TVL $291.6K, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token; Ethereum의 uniswap-v4, APY 32.22%, TVL $236.8K, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 38.64%, TVL $722K, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token; Ethereum의 uniswap-v4, APY 54.78%, TVL $291.6K, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token; Ethereum의 uniswap-v4, APY 32.22%, TVL $236.8K, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 43.13% | $716K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 38.64% | $722K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 54.78% | $291.6K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 32.22% | $236.8K |
 
@@ -25,7 +25,7 @@ APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum
 
 ONDO 풀은 여기 3개가 있고, 1개 체인에서 APY가 32.22%부터 54.78%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 40.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 40.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -33,9 +33,9 @@ ONDO 풀은 여기 3개가 있고, 1개 체인에서 APY가 32.22%부터 54.78%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 43.13% | 40.73% | 기본 금리 |
-| uniswap-v4 | 54.78% | 49.86% | 기본 금리 |
-| uniswap-v4 | 32.22% | 24.41% | 기본 금리 |
+| uniswap-v3 | 38.64% | 40.63% | 기본 금리 |
+| uniswap-v4 | 54.78% | 49.44% | 기본 금리 |
+| uniswap-v4 | 32.22% | 24.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 54.78%예
 
 ### ONDO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 43.13%, TVL $716K, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token; Ethereum의 uniswap-v4, APY 54.78%, TVL $291.6K, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token; Ethereum의 uniswap-v4, APY 32.22%, TVL $236.8K, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 38.64%, TVL $722K, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token; Ethereum의 uniswap-v4, APY 54.78%, TVL $291.6K, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token; Ethereum의 uniswap-v4, APY 32.22%, TVL $236.8K, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 ONDO의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

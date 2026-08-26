@@ -4,28 +4,28 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 1.28% | $12.44M |
-| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 3.07% | $9.21M |
-| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.06% | $8.05M |
-| [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 2.65% | $7.24M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 6.13% | $2.35M |
+| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 1.27% | $12.49M |
+| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.06% | $8.1M |
+| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 2.46% | $7.73M |
+| [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 2.38% | $7.19M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 6.18% | $2.36M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 65.17% | $2.06M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token) | Base | 38.40% | $1.13M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token) | OP Mainnet | 6.16% | $975.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token) | OP Mainnet | 6.19% | $981.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MSETH의 변동성 낮은 후보는 Base의 vesper, APY 0.06%, TVL $8.05M, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token; Base의 aerodrome-v1, APY 6.13%, TVL $2.35M, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token; Ethereum의 stake-dao, APY 2.65%, TVL $7.24M, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token; Ethereum의 convex-finance, APY 3.07%, TVL $9.21M, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token; Ethereum의 curve-dex, APY 1.28%, TVL $12.44M, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.16%, TVL $975.8K, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token; Base의 aerodrome-slipstream, APY 38.40%, TVL $1.13M, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token; Base의 aerodrome-slipstream, APY 65.17%, TVL $2.06M, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MSETH의 변동성 낮은 후보는 Base의 vesper, APY 0.06%, TVL $8.1M, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token; Base의 aerodrome-v1, APY 6.18%, TVL $2.36M, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token; Ethereum의 stake-dao, APY 2.38%, TVL $7.19M, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token; Ethereum의 convex-finance, APY 2.46%, TVL $7.73M, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token; Ethereum의 curve-dex, APY 1.27%, TVL $12.49M, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.19%, TVL $981.6K, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token; Base의 aerodrome-slipstream, APY 38.40%, TVL $1.13M, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token; Base의 aerodrome-slipstream, APY 65.17%, TVL $2.06M, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.06% | $8.05M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 6.13% | $2.35M |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 2.65% | $7.24M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 3.07% | $9.21M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 1.28% | $12.44M |
-| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token) | OP Mainnet | 6.16% | $975.8K |
+| 1 | [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.06% | $8.1M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 6.18% | $2.36M |
+| 3 | [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 2.38% | $7.19M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 2.46% | $7.73M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 1.27% | $12.49M |
+| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token) | OP Mainnet | 6.19% | $981.6K |
 | 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token) | Base | 38.40% | $1.13M |
 | 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 65.17% | $2.06M |
 
@@ -43,14 +43,14 @@ MSETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.06%부터 65.17%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.28% | 3.17% | 인센티브 98.44% |
-| convex-finance | 3.07% | 9.48% | 인센티브 99.35% |
-| vesper | 0.06% | 0.68% | 기본 금리 |
-| stake-dao | 2.65% | 4.83% | 인센티브 97.73% |
-| aerodrome-v1 | 6.13% | 6.44% | 인센티브 100.00% |
-| aerodrome-slipstream | 65.17% | 44.88% | 인센티브 100.00% |
-| aerodrome-slipstream | 38.40% | 66.23% | 인센티브 100.00% |
-| velodrome-v2 | 6.16% | 11.02% | 인센티브 100.00% |
+| curve-dex | 1.27% | 3.15% | 인센티브 98.42% |
+| vesper | 0.06% | 0.67% | 기본 금리 |
+| convex-finance | 2.46% | 9.45% | 인센티브 99.19% |
+| stake-dao | 2.38% | 4.80% | 인센티브 97.48% |
+| aerodrome-v1 | 6.18% | 6.46% | 인센티브 100.00% |
+| aerodrome-slipstream | 65.17% | 44.96% | 인센티브 100.00% |
+| aerodrome-slipstream | 38.40% | 66.58% | 인센티브 100.00% |
+| velodrome-v2 | 6.19% | 10.99% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 65.
 
 ### MSETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $81.93M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $80.73M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 65.
 
 ### MSETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MSETH의 변동성 낮은 후보는 Base의 vesper, APY 0.06%, TVL $8.05M, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token; Base의 aerodrome-v1, APY 6.13%, TVL $2.35M, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token; Ethereum의 stake-dao, APY 2.65%, TVL $7.24M, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token; Ethereum의 convex-finance, APY 3.07%, TVL $9.21M, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token; Ethereum의 curve-dex, APY 1.28%, TVL $12.44M, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.16%, TVL $975.8K, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token; Base의 aerodrome-slipstream, APY 38.40%, TVL $1.13M, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token; Base의 aerodrome-slipstream, APY 65.17%, TVL $2.06M, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MSETH의 변동성 낮은 후보는 Base의 vesper, APY 0.06%, TVL $8.1M, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token; Base의 aerodrome-v1, APY 6.18%, TVL $2.36M, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token; Ethereum의 stake-dao, APY 2.38%, TVL $7.19M, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token; Ethereum의 convex-finance, APY 2.46%, TVL $7.73M, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token; Ethereum의 curve-dex, APY 1.27%, TVL $12.49M, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token; OP Mainnet의 velodrome-v2, APY 6.19%, TVL $981.6K, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d&src=seo_token; Base의 aerodrome-slipstream, APY 38.40%, TVL $1.13M, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token; Base의 aerodrome-slipstream, APY 65.17%, TVL $2.06M, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 MSETH의 변동성 낮은 후보는 Base의
 - [Base](https://www.defi.garden/ko/chains/base)
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

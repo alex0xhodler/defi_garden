@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=b86d4934-2e75-415a-bdd2-e28143d72491&src=seo_token) | Ethereum | 3.78% | $314.13M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=b86d4934-2e75-415a-bdd2-e28143d72491&src=seo_token) | Ethereum | 3.78% | $315.92M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ether.fi-liquid에서 APY 3.78
 
 ### LIQUIDETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $314.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $316.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ether.fi-liquid에서 APY 3.78
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

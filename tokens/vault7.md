@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VAULT7 pools. This view cover
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

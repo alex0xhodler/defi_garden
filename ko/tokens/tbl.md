@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, XRPL의 openeden-tbill에서 APY 3.48%예�
 
 - [XRPL](https://www.defi.garden/ko/chains/xrpl)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

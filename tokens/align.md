@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank ALIGN pools. This view covers
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

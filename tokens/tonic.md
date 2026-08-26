@@ -1,31 +1,31 @@
 # TONIC DeFi Yields
 
-The highest honest TONIC yield right now is 1.94% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TONIC yield right now is 1.88% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 12.68% | $197.1K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 1.05% | $191.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.94% | $189.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 18.15% | $198.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 1.08% | $193.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.88% | $192K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TONIC's lower-variability candidates are vvs-standard (Cronos), 1.05% APY, $191.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; vvs-standard (Cronos), 1.94% APY, $189.1K TVL, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; vvs-standard (Cronos), 12.68% APY, $197.1K TVL, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TONIC's lower-variability candidates are vvs-standard (Cronos), 1.08% APY, $193.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; vvs-standard (Cronos), 1.88% APY, $192K TVL, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; vvs-standard (Cronos), 18.15% APY, $198.6K TVL, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 1.05% | $191.9K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.94% | $189.1K |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 12.68% | $197.1K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 1.08% | $193.9K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.88% | $192K |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 18.15% | $198.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TONIC shows up in 3 pools here, with rates from 1.05% to 12.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TONIC shows up in 3 pools here, with rates from 1.08% to 18.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 12.68% | 6.44% | Base rate |
-| vvs-standard | 1.05% | 0.92% | Base rate |
-| vvs-standard | 1.94% | 1.72% | Base rate |
+| vvs-standard | 18.15% | 6.53% | Base rate |
+| vvs-standard | 1.08% | 0.93% | Base rate |
+| vvs-standard | 1.88% | 1.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TONIC yield today?
 
-1.94% APY on vvs-standard (Cronos), based on live DefiLlama data.
+1.88% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many TONIC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $578.1K in total.
+3 live pools clear this page's $100K TVL floor, $584.4K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TONIC pools have the most stable APY history?
 
-Based on APY history only, TONIC's lower-variability candidates are vvs-standard (Cronos), 1.05% APY, $191.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; vvs-standard (Cronos), 1.94% APY, $189.1K TVL, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; vvs-standard (Cronos), 12.68% APY, $197.1K TVL, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TONIC's lower-variability candidates are vvs-standard (Cronos), 1.08% APY, $193.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; vvs-standard (Cronos), 1.88% APY, $192K TVL, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; vvs-standard (Cronos), 18.15% APY, $198.6K TVL, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, TONIC's lower-variability candidates are vvs-standard
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

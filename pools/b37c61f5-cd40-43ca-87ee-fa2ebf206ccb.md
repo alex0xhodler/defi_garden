@@ -2,7 +2,7 @@
 
 **Total APY:** 0.09% (0.03% Base · + 0.06% Rewards)
 
-**TVL:** $12.47M
+**TVL:** $12.5M
 
 **Pool Type:** Lending
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.09% right now vs a 0.24% 30-day average. Reward 
 
 [Start Earning on moonwell-lending](https://moonwell.fi/?ref=defi.garden)
 
-Last updated August 25, 2026
+Last updated August 26, 2026

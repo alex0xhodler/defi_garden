@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYRUPUSDT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $341.54M in total.
+4 live pools clear this page's $100K TVL floor, $336.69M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SYRUPUSDT pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Metis의 hercules-v3에서 APY 1.49%예요
 
 - [Metis](https://www.defi.garden/ko/chains/metis)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

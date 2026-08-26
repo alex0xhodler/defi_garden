@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 0.01% | $790.6K |
+| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 0.01% | $789.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fluid-dex에서 APY 0.01%예�
 
 ### WEETHS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.18M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fluid-dex에서 APY 0.01%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

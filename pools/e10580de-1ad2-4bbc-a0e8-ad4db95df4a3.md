@@ -1,6 +1,6 @@
 # EARNAUSD — upshift on Monad
 
-**Total APY:** 6.39% (5.73% Base · + 0.66% Rewards)
+**Total APY:** 5.20% (4.57% Base · + 0.64% Rewards)
 
 **TVL:** $23.56M
 
@@ -20,14 +20,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,363 in 5y at current rates.
+$1,000 in this pool grows to ~$1,289 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 43 days. Watching how a rate holds up over time is one honest way to judge it.
+We've been tracking this pool's rate for 44 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,363 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,289 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on upshift](https://app.upshift.finance/?ref=defi.garden)
 
-Last updated August 25, 2026
+Last updated August 26, 2026

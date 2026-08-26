@@ -4,28 +4,28 @@ The highest honest WOO yield right now is 67.65% on aerodrome-slipstream (Base),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 1.66% | $606.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 0.82% | $610.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token) | Ethereum | 1.75% | $562.1K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token) | Base | 67.65% | $264.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WOO's lower-variability candidates are uniswap-v4 (Ethereum), 1.75% APY, $562.1K TVL, https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token; uniswap-v2 (Ethereum), 1.66% APY, $606.5K TVL, https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token; aerodrome-slipstream (Base), 67.65% APY, $264.4K TVL, https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOO's lower-variability candidates are uniswap-v4 (Ethereum), 1.75% APY, $562.1K TVL, https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token; uniswap-v2 (Ethereum), 0.82% APY, $610.4K TVL, https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token; aerodrome-slipstream (Base), 67.65% APY, $264.4K TVL, https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token) | Ethereum | 1.75% | $562.1K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 1.66% | $606.5K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 0.82% | $610.4K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token) | Base | 67.65% | $264.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WOO shows up in 3 pools here, with rates from 1.66% to 67.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WOO shows up in 3 pools here, with rates from 0.82% to 67.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ WOO shows up in 3 pools here, with rates from 1.66% to 67.65% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.66% | 2.80% | Base rate |
-| uniswap-v4 | 1.75% | 4.90% | Base rate |
-| aerodrome-slipstream | 67.65% | 65.25% | 100.00% incentives |
+| uniswap-v2 | 0.82% | 2.78% | Base rate |
+| uniswap-v4 | 1.75% | 4.82% | Base rate |
+| aerodrome-slipstream | 67.65% | 65.35% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WOO pools have the most stable APY history?
 
-Based on APY history only, WOO's lower-variability candidates are uniswap-v4 (Ethereum), 1.75% APY, $562.1K TVL, https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token; uniswap-v2 (Ethereum), 1.66% APY, $606.5K TVL, https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token; aerodrome-slipstream (Base), 67.65% APY, $264.4K TVL, https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOO's lower-variability candidates are uniswap-v4 (Ethereum), 1.75% APY, $562.1K TVL, https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token; uniswap-v2 (Ethereum), 0.82% APY, $610.4K TVL, https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token; aerodrome-slipstream (Base), 67.65% APY, $264.4K TVL, https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, WOO's lower-variability candidates are uniswap-v4 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -1,10 +1,10 @@
 # JESSE DeFi Yields
 
-The highest honest JESSE yield right now is 12.46% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JESSE yield right now is 12.82% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 12.46% | $624.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 12.82% | $631.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JESSE yield today?
 
-12.46% APY on uniswap-v4 (Base), based on live DefiLlama data.
+12.82% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many JESSE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $624.9K in total.
+1 live pool clear this page's $100K TVL floor, $631.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JESSE pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

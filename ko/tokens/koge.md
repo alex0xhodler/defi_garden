@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 0.40%예요.
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

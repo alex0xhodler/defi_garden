@@ -1,10 +1,10 @@
 # PEIPEI DeFi Yields
 
-The highest honest PEIPEI yield right now is 1.30% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEIPEI yield right now is 1.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=01c11fce-5818-410f-84cb-076176191959&src=seo_token) | Ethereum | 1.30% | $645.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=01c11fce-5818-410f-84cb-076176191959&src=seo_token) | Ethereum | 1.32% | $645.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEIPEI yield today?
 
-1.30% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEIPEI pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PEIPEI pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

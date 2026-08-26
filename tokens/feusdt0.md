@@ -1,10 +1,10 @@
 # FEUSDT0 DeFi Yields
 
-The highest honest FEUSDT0 yield right now is 5.92% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEUSDT0 yield right now is 5.88% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d716dd56-359d-4dad-b89b-ac8f95df505e&src=seo_token) | Hyperliquid L1 | 5.92% | $8.55M |
+| [morpho-blue →](https://www.defi.garden/?pool=d716dd56-359d-4dad-b89b-ac8f95df505e&src=seo_token) | Hyperliquid L1 | 5.88% | $8.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEUSDT0 yield today?
 
-5.92% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+5.88% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEUSDT0 pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FEUSDT0 pools. This view cove
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

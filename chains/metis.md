@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HERA](https://www.defi.garden/tokens/hera)
 - [M.USDC](https://www.defi.garden/tokens/m-usdc)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

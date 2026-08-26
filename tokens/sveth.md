@@ -4,18 +4,18 @@ The highest honest SVETH yield right now is 1.55% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.55% | $155.9K |
-| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $132.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.55% | $157K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $133.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.55% APY, $155.9K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $132.3K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.55% APY, $157K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $133.2K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.55% | $155.9K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $132.3K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.55% | $157K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $133.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SVETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $288.3K in total.
+2 live pools clear this page's $100K TVL floor, $290.2K in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SVETH pools have the most stable APY history?
 
-Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.55% APY, $155.9K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $132.3K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.55% APY, $157K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $133.2K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ Based on APY history only, SVETH's lower-variability candidates are morpho-blue 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

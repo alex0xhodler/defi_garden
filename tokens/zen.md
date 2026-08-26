@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ZEN shows up in 3 pools here, with rates from 14.16% to 15.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 34.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 34.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ ZEN shows up in 3 pools here, with rates from 14.16% to 15.45% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 14.16% | 29.51% | 100.00% incentives |
-| aerodrome-slipstream | 14.73% | 34.93% | 100.00% incentives |
-| aerodrome-slipstream | 15.45% | 34.32% | 100.00% incentives |
+| aerodrome-slipstream | 14.16% | 29.61% | 100.00% incentives |
+| aerodrome-slipstream | 14.73% | 35.08% | 100.00% incentives |
+| aerodrome-slipstream | 15.45% | 34.40% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -70,4 +70,4 @@ Based on APY history only, ZEN's lower-variability candidates are aerodrome-slip
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

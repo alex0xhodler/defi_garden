@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=57885844-7b3f-49b3-969b-9405b165fa78&src=seo_token) | Ethereum | 8.50% | $583.2K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=57885844-7b3f-49b3-969b-9405b165fa78&src=seo_token) | Ethereum | 8.50% | $583.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 8.5
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

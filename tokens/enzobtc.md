@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank ENZOBTC pools. This view cove
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

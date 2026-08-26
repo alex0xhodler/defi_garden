@@ -4,7 +4,7 @@ The highest honest SHIFU yield right now is 0.02% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0ad20c21-b7e0-48d1-9441-07b7fb28fb2c&src=seo_token) | Ethereum | 0.02% | $117.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0ad20c21-b7e0-48d1-9441-07b7fb28fb2c&src=seo_token) | Ethereum | 0.02% | $118.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIFU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.9K in total.
+1 live pool clear this page's $100K TVL floor, $118.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SHIFU pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

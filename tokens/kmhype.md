@@ -67,4 +67,4 @@ Based on APY history only, KMHYPE's lower-variability candidates are project-x (
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

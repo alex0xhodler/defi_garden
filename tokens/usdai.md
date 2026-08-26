@@ -4,18 +4,18 @@ The highest honest USDAI yield right now is 7.12% on pendle (Arbitrum), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 7.12% | $50.29M |
-| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 1.14% | $50.29M |
+| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 7.12% | $50.3M |
+| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 1.14% | $50.3M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDAI's lower-variability candidates are pendle (Arbitrum), 7.12% APY, $50.29M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; pendle (Arbitrum), 1.14% APY, $50.29M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAI's lower-variability candidates are pendle (Arbitrum), 7.12% APY, $50.3M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; pendle (Arbitrum), 1.14% APY, $50.3M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 7.12% | $50.29M |
-| 2 | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 1.14% | $50.29M |
+| 1 | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 7.12% | $50.3M |
+| 2 | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 1.14% | $50.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,8 +29,8 @@ USDAI shows up in 2 pools here, with rates from 1.14% to 7.12% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 7.12% | 6.77% | Base rate |
-| pendle | 1.14% | 1.03% | 3.19% incentives |
+| pendle | 7.12% | 6.78% | Base rate |
+| pendle | 1.14% | 1.03% | 3.25% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDAI pools have the most stable APY history?
 
-Based on APY history only, USDAI's lower-variability candidates are pendle (Arbitrum), 7.12% APY, $50.29M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; pendle (Arbitrum), 1.14% APY, $50.29M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAI's lower-variability candidates are pendle (Arbitrum), 7.12% APY, $50.3M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; pendle (Arbitrum), 1.14% APY, $50.3M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ Based on APY history only, USDAI's lower-variability candidates are pendle (Arbi
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

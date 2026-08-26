@@ -4,36 +4,36 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 423.06% | $1.64M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 332.25% | $1.61M |
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.38% | $574.7K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.34% | $328.1K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.88% | $309.7K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.85% | $242.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.05% | $195.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $105K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.50% | $316.6K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.86% | $229.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.06% | $188.7K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.96% | $181.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.05%, TVL $195.2K, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; Monad의 uniswap-v3, APY 0.09%, TVL $105K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 curvance, APY 1.85%, TVL $242.1K, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; Monad의 neverland, APY 7.34%, TVL $328.1K, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; Monad의 curvance, APY 2.88%, TVL $309.7K, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 uniswap-v3, APY 423.06%, TVL $1.64M, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.06%, TVL $188.7K, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; Monad의 uniswap-v3, APY 0.09%, TVL $101.3K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 curvance, APY 1.86%, TVL $229.9K, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; Monad의 neverland, APY 7.50%, TVL $316.6K, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; Monad의 curvance, APY 3.96%, TVL $181.2K, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 uniswap-v3, APY 332.25%, TVL $1.61M, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.05% | $195.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $105K |
-| 3 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.85% | $242.1K |
-| 4 | [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.34% | $328.1K |
-| 5 | [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.88% | $309.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.06% | $188.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.09% | $101.3K |
+| 3 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.86% | $229.9K |
+| 4 | [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.50% | $316.6K |
+| 5 | [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.96% | $181.2K |
 | 6 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.38% | $574.7K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 423.06% | $1.64M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 332.25% | $1.61M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.05%부터 423.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.06%부터 332.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,12 +41,12 @@ WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.05%부터 423.06%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 423.06% | 195.46% | 기본 금리 |
-| curve-dex | 12.38% | 20.13% | 인센티브 100.00% |
-| neverland | 7.34% | 8.77% | 인센티브 42.83% |
-| curvance | 2.88% | 2.73% | 인센티브 46.93% |
-| curvance | 1.85% | 1.77% | 인센티브 73.17% |
-| uniswap-v3 | 0.05% | 0.01% | 기본 금리 |
+| uniswap-v3 | 332.25% | 197.44% | 기본 금리 |
+| curve-dex | 12.38% | 20.09% | 인센티브 100.00% |
+| neverland | 7.50% | 8.77% | 인센티브 44.07% |
+| curvance | 1.86% | 1.77% | 인센티브 72.61% |
+| uniswap-v3 | 0.06% | 0.01% | 기본 금리 |
+| curvance | 3.96% | 2.74% | 인센티브 34.07% |
 | uniswap-v3 | 0.09% | 0.03% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.38%예요.
 
 ### WMON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $4.4M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $4.17M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.38%예요.
 
 ### WMON 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.05%, TVL $195.2K, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; Monad의 uniswap-v3, APY 0.09%, TVL $105K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 curvance, APY 1.85%, TVL $242.1K, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; Monad의 neverland, APY 7.34%, TVL $328.1K, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; Monad의 curvance, APY 2.88%, TVL $309.7K, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 uniswap-v3, APY 423.06%, TVL $1.64M, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WMON의 변동성 낮은 후보는 Monad의 uniswap-v3, APY 0.06%, TVL $188.7K, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; Monad의 uniswap-v3, APY 0.09%, TVL $101.3K, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; Monad의 curvance, APY 1.86%, TVL $229.9K, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; Monad의 neverland, APY 7.50%, TVL $316.6K, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; Monad의 curvance, APY 3.96%, TVL $181.2K, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; Monad의 curve-dex, APY 12.38%, TVL $574.7K, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; Monad의 uniswap-v3, APY 332.25%, TVL $1.61M, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -82,4 +82,4 @@ APY 이력만 기준으로 비교한 WMON의 변동성 낮은 후보는 Monad의
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

@@ -4,7 +4,7 @@ The highest honest SAVM yield right now is 0.74% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eadb12dc-a9d3-4b8f-992c-2c1cffe491c1&src=seo_token) | Ethereum | 0.74% | $171.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eadb12dc-a9d3-4b8f-992c-2c1cffe491c1&src=seo_token) | Ethereum | 0.74% | $172.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAVM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $171.1K in total.
+1 live pool clear this page's $100K TVL floor, $172.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SAVM pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SFRAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $102.65M in total.
+2 live pools clear this page's $100K TVL floor, $102.66M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SFRAX pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

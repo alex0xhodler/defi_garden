@@ -1,10 +1,10 @@
 # ALFRXETH DeFi Yields
 
-The highest honest ALFRXETH yield right now is 2.57% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALFRXETH yield right now is 2.62% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.57% | $136.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.62% | $136.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALFRXETH yield today?
 
-2.57% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+2.62% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ALFRXETH pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ALFRXETH pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank M.USDC pools. This view cover
 
 - [Metis](https://www.defi.garden/chains/metis)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

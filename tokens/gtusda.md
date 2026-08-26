@@ -1,27 +1,27 @@
 # GTUSDA DeFi Yields
 
-The highest honest GTUSDA yield right now is 4.82% on gauntlet (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDA yield right now is 4.89% on gauntlet (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.82% | $52.07M |
-| [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.81% | $1.59M |
+| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.86% | $51.96M |
+| [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.89% | $1.59M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.81% APY, $1.59M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.82% APY, $52.07M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.89% APY, $1.59M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.86% APY, $51.96M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.81% | $1.59M |
-| 2 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.82% | $52.07M |
+| 1 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.89% | $1.59M |
+| 2 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.86% | $51.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTUSDA shows up in 2 pools here, with rates from 4.81% to 4.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDA shows up in 2 pools here, with rates from 4.86% to 4.89% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gauntlet | 4.82% | 4.80% | Base rate |
-| gauntlet | 4.81% | 4.79% | Base rate |
+| gauntlet | 4.86% | 4.80% | Base rate |
+| gauntlet | 4.89% | 4.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTUSDA yield today?
 
-4.82% APY on gauntlet (Base), based on live DefiLlama data.
+4.89% APY on gauntlet (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $53.65M in total.
+2 live pools clear this page's $100K TVL floor, $53.55M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDA pools have the most stable APY history?
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.81% APY, $1.59M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.82% APY, $52.07M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.89% APY, $1.59M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.86% APY, $51.96M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,4 +66,4 @@ Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (E
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

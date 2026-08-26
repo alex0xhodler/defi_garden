@@ -1,10 +1,10 @@
 # ZIGChain DeFi Yields
 
-The highest honest ZIGChain yield right now is 5.85% on valdora-finance (ZIGChain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZIGChain yield right now is 14.43% on nawa-protocol (ZIGChain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.85% | $8.25M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.85% | $8.23M |
 | USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 14.43% | $3.43M |
 | ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.38M |
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZIGChain yield today?
 
-5.85% APY on valdora-finance (ZIGChain), based on live DefiLlama data.
+14.43% APY on nawa-protocol (ZIGChain), based on live DefiLlama data.
 
 ### How many ZIGChain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $13.92M in total.
+4 live pools clear this page's $100K TVL floor, $13.89M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [ZIG](https://www.defi.garden/tokens/zig)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

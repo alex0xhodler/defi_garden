@@ -1,10 +1,10 @@
 # USDV DeFi Yields
 
-The highest honest USDV yield right now is 50.17% on nest-cl (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDV yield right now is 51.25% on nest-cl (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe&src=seo_token) | Hyperliquid L1 | 50.17% | $984.2K |
+| [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe&src=seo_token) | Hyperliquid L1 | 51.25% | $1.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDV yield today?
 
-50.17% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+51.25% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many USDV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $984.2K in total.
+1 live pool clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank USDV pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

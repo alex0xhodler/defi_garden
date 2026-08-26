@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EGLD pools. This view covers 
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

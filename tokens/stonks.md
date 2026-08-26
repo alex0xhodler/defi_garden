@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STONKS pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

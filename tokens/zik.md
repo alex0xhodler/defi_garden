@@ -67,4 +67,4 @@ Based on APY history only, ZIK's lower-variability candidates are uniswap-v4 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

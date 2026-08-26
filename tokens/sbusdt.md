@@ -4,7 +4,7 @@ The highest honest SBUSDT yield right now is 2.72% on scallop-lend (Sui), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346&src=seo_token) | Sui | 2.72% | $266K |
+| [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346&src=seo_token) | Sui | 2.72% | $265.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $266K in total.
+1 live pool clear this page's $100K TVL floor, $265.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SBUSDT pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

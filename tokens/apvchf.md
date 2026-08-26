@@ -4,7 +4,7 @@ The highest honest APVCHF yield right now is 0.10% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ad84e9e8-709a-46bb-befe-4b5bbbc85e38&src=seo_token) | Base | 0.10% | $249.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=ad84e9e8-709a-46bb-befe-4b5bbbc85e38&src=seo_token) | Base | 0.10% | $249.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APVCHF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $249.3K in total.
+1 live pool clear this page's $100K TVL floor, $249.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank APVCHF pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

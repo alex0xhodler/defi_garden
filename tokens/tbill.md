@@ -66,4 +66,4 @@ Based on APY history only, TBILL's lower-variability candidates are openeden-tbi
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

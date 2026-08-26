@@ -1,10 +1,10 @@
 # SRROYSUSN 디파이 수익률
 
-현재 SRROYSUSN의 가장 높은 정직한 수익률은 Base의 royco-v2에서 6.79%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRROYSUSN의 가장 높은 정직한 수익률은 Base의 royco-v2에서 6.63%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a03a9a79-443a-5fd1-af08-646c87bf1cbc&src=seo_token) | Base | 6.79% | $1.61M |
+| [royco-v2 →](https://www.defi.garden/?pool=a03a9a79-443a-5fd1-af08-646c87bf1cbc&src=seo_token) | Base | 6.63% | $1.61M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SRROYSUSN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 royco-v2에서 APY 6.79%예요.
+DefiLlama 실시간 데이터 기준, Base의 royco-v2에서 APY 6.63%예요.
 
 ### SRROYSUSN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 royco-v2에서 APY 6.79%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 25, 2026
+## 마지막 업데이트: August 26, 2026

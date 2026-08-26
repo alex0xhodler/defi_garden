@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DJT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

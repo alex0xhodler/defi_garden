@@ -4,7 +4,7 @@ The highest honest LITCOIN yield right now is 0.05% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39caf2c1-17c4-4e73-b12c-9b6cf10d7e0e&src=seo_token) | Base | 0.05% | $136.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39caf2c1-17c4-4e73-b12c-9b6cf10d7e0e&src=seo_token) | Base | 0.05% | $137.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LITCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.9K in total.
+1 live pool clear this page's $100K TVL floor, $137.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LITCOIN pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

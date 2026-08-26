@@ -65,4 +65,4 @@ Based on APY history only, GAMICUSPC's lower-variability candidates are gami-lab
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

@@ -2,7 +2,7 @@
 
 **Total APY:** 8.68% (8.68% Base · + 0.00% Rewards)
 
-**TVL:** $5.63M
+**TVL:** $5.84M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on hastra](https://hastra.io/?ref=defi.garden)
 
-Last updated August 25, 2026
+Last updated August 26, 2026

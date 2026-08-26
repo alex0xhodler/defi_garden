@@ -4,7 +4,7 @@ The highest honest MCWETH yield right now is 1.55% on morpho-blue (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0a92137f-b198-4935-96ea-84f0a8713e06&src=seo_token) | Ethereum | 1.55% | $4.57M |
+| [morpho-blue →](https://www.defi.garden/?pool=0a92137f-b198-4935-96ea-84f0a8713e06&src=seo_token) | Ethereum | 1.55% | $4.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MCWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.57M in total.
+1 live pool clear this page's $100K TVL floor, $4.6M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MCWETH pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

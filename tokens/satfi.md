@@ -1,10 +1,10 @@
 # SATFI DeFi Yields
 
-The highest honest SATFI yield right now is 4.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATFI yield right now is 5.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e550807a-1b73-46b2-af5e-7e1970541553&src=seo_token) | Solana | 4.62% | $133K |
+| [raydium-amm →](https://www.defi.garden/?pool=e550807a-1b73-46b2-af5e-7e1970541553&src=seo_token) | Solana | 5.11% | $136.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SATFI yield today?
 
-4.62% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.11% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SATFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133K in total.
+1 live pool clear this page's $100K TVL floor, $136.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SATFI pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

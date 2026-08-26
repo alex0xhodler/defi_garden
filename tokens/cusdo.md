@@ -66,4 +66,4 @@ Based on APY history only, CUSDO's lower-variability candidates are openeden-usd
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

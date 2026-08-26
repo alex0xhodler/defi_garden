@@ -43,7 +43,7 @@ LP shows up in 7 pools here, with rates from 0.01% to 0.21% APY across 2 chains 
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
-| wombat-exchange | 0.06% | 0.05% | 76.47% incentives |
+| wombat-exchange | 0.06% | 0.05% | 85.04% incentives |
 | wombat-exchange | 0.02% | 0.02% | 91.94% incentives |
 | wombat-exchange | 0.02% | 0.02% | 94.32% incentives |
 | wombat-exchange | 0.09% | 0.09% | 100.00% incentives |
@@ -83,4 +83,4 @@ Based on APY history only, LP's lower-variability candidates are wombat-exchange
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

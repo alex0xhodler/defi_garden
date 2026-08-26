@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JST pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026

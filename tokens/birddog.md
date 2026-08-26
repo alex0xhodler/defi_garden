@@ -4,7 +4,7 @@ The highest honest BIRDDOG yield right now is 2.12% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8eec8855-4dee-48b7-b35f-ee944fe02fb4&src=seo_token) | Ethereum | 2.12% | $124.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8eec8855-4dee-48b7-b35f-ee944fe02fb4&src=seo_token) | Ethereum | 2.12% | $125.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIRDDOG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.8K in total.
+1 live pool clear this page's $100K TVL floor, $125.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BIRDDOG pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 25, 2026
+## Last updated August 26, 2026
