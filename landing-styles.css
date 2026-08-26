@@ -794,7 +794,7 @@
   .landing-nav { display: none; }
   .landing-menu-button { display: inline-flex; }
   .landing-hero-spotlight {
-    padding: 20px 0 100px;
+    padding: 20px 0 130px;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -805,28 +805,36 @@
   .landing-card-showcase {
     display: contents;
   }
-
-  .landing-spotlight-eyebrow { order: 1; margin-bottom: 8px; }
+  .landing-spotlight-eyebrow {
+    order: 1;
+    margin: 0 auto 8px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+  }
   .landing-spotlight-title {
     order: 2;
     font-size: clamp(26px, 7.5vw, 36px);
     line-height: 1.15;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
+    text-align: center;
+    max-width: 480px;
   }
   .landing-spotlight-subhead {
     order: 3;
     font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 12px;
+    margin: 0 auto 14px;
+    text-align: center;
+    max-width: 460px;
   }
   .landing-press-badge {
     order: 4;
     max-width: 100%;
-    padding: 6px 10px;
-    margin-bottom: 16px;
-  }
-  .press-badge-title {
-    font-size: 0.74rem;
+    padding: 6px 12px;
+    margin: 0 auto 16px;
+    justify-content: center;
+    text-align: center;
   }
   .virtual-visa-card {
     order: 5;
@@ -856,19 +864,20 @@
                 margin 0.28s ease,
                 border-width 0.28s ease;
   }
-  .landing-card-metrics-table.is-open {
-    max-height: 180px;
-    opacity: 1;
-    margin: 0 auto 16px;
-    border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
-  }
-
   .landing-subs-grid {
     order: 8;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
     max-width: 100%;
     margin-bottom: 16px;
+  }
+  .landing-card-hint {
+    order: 9;
+    font-size: 0.70rem;
+    color: var(--color-text-secondary);
+    margin: 4px auto 16px;
+    text-align: center;
+    max-width: 480px;
   }
   .landing-sub-chip {
     min-height: 44px;

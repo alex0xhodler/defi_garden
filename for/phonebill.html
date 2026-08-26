@@ -650,11 +650,91 @@
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
     }
 
-    /* Light mode overrides for sticky bar */
+    /* Light mode overrides */
+    [data-theme="light"] .badge-intent-portal {
+      background: rgba(45, 138, 94, 0.08);
+      border-color: rgba(45, 138, 94, 0.25);
+      color: #2d8a5e;
+    }
+    [data-theme="light"] .panel-badge {
+      background: rgba(0, 0, 0, 0.05);
+      border-color: rgba(0, 0, 0, 0.15);
+      color: #4b5563;
+    }
+    [data-theme="light"] .card-tap-hint {
+      color: #2d8a5e !important;
+      border-color: rgba(45, 138, 94, 0.28) !important;
+      background: rgba(45, 138, 94, 0.06) !important;
+    }
+    [data-theme="light"] .card-tap-hint:hover {
+      background: rgba(45, 138, 94, 0.14) !important;
+      border-color: #2d8a5e !important;
+    }
+    [data-theme="light"] .yield-card-reservation,
+    [data-theme="light"] .yield-card-receipt {
+      background: #ffffff;
+      border-color: rgba(0, 0, 0, 0.12);
+    }
+    [data-theme="light"] .reservation-title {
+      color: #111827;
+    }
+    [data-theme="light"] .reservation-subtitle {
+      color: #6b7280;
+    }
+    [data-theme="light"] .email-input {
+      background: #f9fafb;
+      color: #111827;
+      border-color: rgba(0, 0, 0, 0.18);
+    }
+    [data-theme="light"] .reserve-submit-btn,
+    [data-theme="light"] .portal-cta-button {
+      background: #2d8a5e !important;
+      color: #ffffff !important;
+      border-color: #2d8a5e !important;
+    }
+    [data-theme="light"] .reserve-submit-btn:hover,
+    [data-theme="light"] .portal-cta-button:hover {
+      background: #236c49 !important;
+      border-color: #236c49 !important;
+    }
+    [data-theme="light"] .step-card {
+      background: #ffffff;
+      border-color: rgba(0, 0, 0, 0.12);
+    }
+    [data-theme="light"] .step-num {
+      background: #f3f4f6;
+      color: #2d8a5e;
+      border-color: rgba(45, 138, 94, 0.3);
+    }
+    [data-theme="light"] .step-tag {
+      background: #f9fafb;
+      border-color: rgba(0, 0, 0, 0.1);
+      color: #4b5563;
+    }
+    [data-theme="light"] .trust-guarantee-box {
+      background: #ffffff;
+      border-color: rgba(0, 0, 0, 0.12);
+      color: #111827;
+    }
+    [data-theme="light"] .invariants-panel {
+      background: #ffffff;
+      border-color: rgba(0, 0, 0, 0.12);
+    }
+    [data-theme="light"] .invariant-banner {
+      background: #f9fafb;
+      border-color: rgba(0, 0, 0, 0.1);
+      color: #111827;
+    }
     [data-theme="light"] .sticky-reserve-bar {
       background: rgba(246, 248, 246, 0.96) !important;
       border-top-color: rgba(0, 0, 0, 0.14) !important;
       box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12) !important;
+    }
+    [data-theme="light"] .sticky-bar-title {
+      color: #111827 !important;
+    }
+    [data-theme="light"] .sticky-bar-sub {
+      color: #2d8a5e !important;
     }
     [data-theme="light"] .sticky-bar-btn {
       background: #2d8a5e !important;
@@ -671,7 +751,7 @@
         width: 100%;
       }
       .portal-shell {
-        padding: 16px 14px 100px;
+        padding: 16px 14px 130px;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
@@ -870,7 +950,7 @@
         padding-bottom: 14px;
       }
       .landing-app .app-footer {
-        padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)) !important;
+        padding-bottom: calc(130px + env(safe-area-inset-bottom, 0px)) !important;
       }
       .sticky-reserve-bar {
         display: flex !important;
