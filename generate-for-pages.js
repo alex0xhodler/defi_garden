@@ -370,6 +370,20 @@ function renderShieldCheckIconSvg() {
     <path d="m7.5 10 2 2 3.5-3.5" />
   </svg>`;
 }
+function getBenefitEyebrow(sub) {
+  const categoryMap = {
+    'AI / Developer': 'Slash your AI & dev bill · 100% yield-funded',
+    'Cloud Compute': 'Eliminate cloud server burn · 100% yield-funded',
+    'Media Streaming': 'Slash your streaming bill · 100% yield-funded',
+    'Shopping & Media': 'Slash your subscription bill · 100% yield-funded',
+    'Gaming': 'Slash your gaming bill · 100% yield-funded',
+    'Lifestyle & Food': 'Slash your delivery fees · 100% yield-funded',
+    'Lifestyle & Mobility': 'Slash your rides & food bill · 100% yield-funded',
+    'Everyday Utility Bills': 'Eliminate your phone bill · 100% yield-funded',
+    'Housing & Rent': 'Zero-out your rent invoice · 100% yield-funded'
+  };
+  return categoryMap[sub.category] || 'Slash your subscription bill · 100% yield-funded';
+}
 
 function generateHtml(sub) {
   return `<!DOCTYPE html>
@@ -1024,7 +1038,7 @@ function generateHtml(sub) {
       font-family: var(--font-family-display, 'Besley', Georgia, serif);
     }
 
-    /* Sticky Mobile Quick-Reserve Bottom Bar */
+    /* Sticky Mobile Quick-Reserve Bottom Bar - SOTA Luxury Fintech Grade */
     .sticky-reserve-bar {
       display: none;
       position: fixed;
@@ -1032,52 +1046,67 @@ function generateHtml(sub) {
       left: 0;
       right: 0;
       z-index: 1000;
-      padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+      padding: 12px 18px calc(12px + env(safe-area-inset-bottom, 0px));
       background: rgba(14, 23, 17, 0.96);
-      backdrop-filter: blur(24px);
-      -webkit-backdrop-filter: blur(24px);
-      border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.18));
-      box-shadow: 0 -10px 36px rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.16));
+      box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.75);
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
+      gap: 14px;
       box-sizing: border-box;
     }
     .sticky-bar-info {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       min-width: 0;
+    }
+    .sticky-bar-icon-box {
+      width: 36px;
+      height: 36px;
+      border-radius: 0 !important;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
     }
     .sticky-bar-text {
       display: flex;
       flex-direction: column;
       min-width: 0;
+      gap: 1px;
     }
     .sticky-bar-title {
-      font-size: 0.88rem;
+      font-size: 0.90rem;
       font-weight: 700;
       color: #ffffff;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      letter-spacing: -0.01em;
     }
     .sticky-bar-sub {
       font-family: var(--font-family-mono, monospace);
       font-size: 0.72rem;
       color: var(--ui-accent, #7CC9A0);
       font-weight: 600;
+      letter-spacing: 0.02em;
     }
     .sticky-bar-btn {
-      height: 44px;
-      min-height: 44px;
-      padding: 0 18px;
+      height: 46px;
+      min-height: 46px;
+      padding: 0 20px;
       background: var(--ui-accent, #7CC9A0) !important;
       color: #08140f !important;
       border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      border-radius: 6px !important;
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
       font-weight: 700 !important;
-      font-size: 0.90rem;
+      font-size: 0.92rem;
       cursor: pointer;
       flex-shrink: 0;
       white-space: nowrap;
@@ -1085,12 +1114,14 @@ function generateHtml(sub) {
       align-items: center;
       justify-content: center;
       text-decoration: none;
-      transition: background 0.15s ease, transform 0.15s ease;
-      border-radius: 0 !important;
+      box-shadow: 0 4px 14px rgba(124, 201, 160, 0.32);
+      transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
     }
     .sticky-bar-btn:hover {
       background: var(--ui-accent-hover, #93D6B2) !important;
       color: #08140f !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(124, 201, 160, 0.42);
     }
     .sticky-bar-btn:active {
       transform: translateY(1px);
@@ -1172,20 +1203,30 @@ function generateHtml(sub) {
       color: #111827;
     }
     [data-theme="light"] .sticky-reserve-bar {
-      background: rgba(246, 248, 246, 0.96) !important;
-      border-top-color: rgba(0, 0, 0, 0.14) !important;
-      box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12) !important;
+      background: rgba(255, 255, 255, 0.96) !important;
+      border-top-color: rgba(0, 0, 0, 0.12) !important;
+      box-shadow: 0 -8px 36px rgba(0, 0, 0, 0.12) !important;
+    }
+    [data-theme="light"] .sticky-bar-icon-box {
+      background: rgba(0, 0, 0, 0.04);
+      border-color: rgba(0, 0, 0, 0.10);
     }
     [data-theme="light"] .sticky-bar-title {
       color: #111827 !important;
     }
     [data-theme="light"] .sticky-bar-sub {
-      color: #2d8a5e !important;
+      color: #15803d !important;
     }
     [data-theme="light"] .sticky-bar-btn {
       background: #2d8a5e !important;
       color: #ffffff !important;
       border-color: #2d8a5e !important;
+      box-shadow: 0 4px 14px rgba(45, 138, 94, 0.32);
+    }
+    [data-theme="light"] .sticky-bar-btn:hover {
+      background: #236c49 !important;
+      border-color: #236c49 !important;
+      box-shadow: 0 6px 18px rgba(45, 138, 94, 0.42);
     }
 
     /* Mobile Responsive Overrides - SOTA Fluid & Overflow-Free */
@@ -1455,7 +1496,7 @@ function generateHtml(sub) {
       <section class="hero-section">
         <div class="badge-intent-portal badge-intent">
           ${renderServiceIconSvg(sub.slug, 16, 16)}
-          <span>${sub.category} · Intent Portal</span>
+          <span>${getBenefitEyebrow(sub)}</span>
         </div>
         <h1 class="hero-headline hero-title">${sub.headline}</h1>
         <p class="hero-subhead hero-body">${sub.subhead}</p>
@@ -1659,7 +1700,9 @@ function generateHtml(sub) {
     <!-- Mobile Sticky Quick-Reserve Bar -->
     <div class="sticky-reserve-bar" id="sticky-reserve-bar" aria-hidden="true">
       <div class="sticky-bar-info">
-        ${renderServiceIconSvg(sub.slug, 20, 20)}
+        <div class="sticky-bar-icon-box">
+          ${renderServiceIconSvg(sub.slug, 20, 20)}
+        </div>
         <div class="sticky-bar-text">
           <span class="sticky-bar-title">${sub.name}</span>
           <span class="sticky-bar-sub">$${sub.baseMonthlyUsd.toFixed(2)}/mo Covered</span>
@@ -1669,7 +1712,6 @@ function generateHtml(sub) {
         Reserve Card →
       </button>
     </div>
-
     <!-- Shared Footer from home.html -->
     <footer class="app-footer">
       <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
