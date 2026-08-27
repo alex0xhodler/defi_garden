@@ -129,7 +129,7 @@ EXPECTED_PRESETS.forEach(preset => {
     assert.ok(html.includes('id="telegram-cta-btn"'), 'Expected Telegram unlock CTA button');
     assert.ok(html.includes('https://t.me/+rXf7XKhsffMxNzdk'), 'Expected Telegram group link');
     assert.ok(html.includes('https://formspree.io/f/xzdqygjn'), 'Expected Formspree waitlist endpoint');
-    // Check Quiet design system reference and protocol invariants
+    assert.ok(html.includes(`/?app=1&chain=Popular&minTvl=1000000&sub=${preset.slug}`), 'Expected explore & switch pools link');
     assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'Expected style.css link');
     assert.ok(html.includes('Protocol Invariants'), 'Expected Protocol Invariants section');
     assert.ok(html.includes('Buy it outright and the money is gone. Garden it and you keep the money AND get the thing.'), 'Expected core invariant quote');

@@ -1816,8 +1816,11 @@
     var waitlistStatus = waitlistStatusState[0], setWaitlistStatus = waitlistStatusState[1];
     var referralHandleState = useState('');
     var referralHandle = referralHandleState[0], setReferralHandle = referralHandleState[1];
+    var waitlistInvitedCountState = useState(0);
+    var waitlistInvitedCount = waitlistInvitedCountState[0], setWaitlistInvitedCount = waitlistInvitedCountState[1];
+    var waitlistLinkCopiedState = useState(false);
+    var waitlistLinkCopied = waitlistLinkCopiedState[0], setWaitlistLinkCopied = waitlistLinkCopiedState[1];
     var waitlistEmailEnteredRef = useRef(false);
-
     // Close waitlist on Escape key
     useEffect(function () {
       if (!waitlistOpen) return;
@@ -1883,9 +1886,14 @@
       }
       var payload = {
         email: waitlistEmail,
+        referral_code: derived,
+        referred_by: (typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref) || 'direct',
+        subscription_names: labelsStr,
+        monthly_cost_usd: activeMonthly,
+        monthly_cost_with_buffer_usd: Number((activeMonthly * 1.2).toFixed(2)),
+        simulated_deposit_usd: slideCapital,
         message: msgSummary,
-        referral: derived,
-        _subject: 'DeFi Garden waitlist signup'
+        _subject: 'DeFi Garden Virtual Card Waitlist: ' + waitlistEmail
       };
       fetch('https://formspree.io/f/xzdqygjn', {
         method: 'POST',
@@ -2926,98 +2934,19 @@
     // one-time purchase or a decades-out goal. Title/aria-label/benefits all
     // branch the same way; SUBSCRIPTION keeps the exact prior call (pitch
     // A/B/C variant included) — zero behavioral change for that archetype.
-    var waitlistTitleForModal = archetype === 'subscription' ? t(pitchKey('waitlistTitle')) : t('waitlistTitleEarlyAccess');
-    var waitlistBenefitsForModal = archetype === 'subscription'
-      ? t(pitchKey('waitlistBenefits'), archetype)
-      : t('waitlistBenefitsEarlyAccess');
+    function handleWaitlistCopyLink() {
+      var shareUrl = window.location.origin + window.location.pathname + (referralHandle ? '?ref=' + encodeURIComponent(referralHandle) : '');
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(shareUrl).then(function () {
+          setWaitlistLinkCopied(true);
+          setTimeout(function () { setWaitlistLinkCopied(false); }, 2500);
+        });
+      }
+    }
 
-    var waitlistModal = waitlistOpen ? e('div', {
-      className: 'gp-waitlist-backdrop',
-      onClick: function (ev) { if (ev.target === ev.currentTarget) setWaitlistOpen(false); },
-      role: 'dialog',
-      'aria-modal': 'true',
-      'aria-label': waitlistTitleForModal
-    },
-      e('div', { className: 'gp-waitlist-card' },
-        // Close button
-        e('button', {
-          type: 'button',
-          className: 'gp-waitlist-close',
-          onClick: function () { setWaitlistOpen(false); },
-          'aria-label': t('waitlistClose')
-        }, '✕'),
-
-        waitlistStep === 1
-          // --- Step 1: benefits + email ---
-          ? e('div', { className: 'gp-waitlist-body' },
-              e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, waitlistTitleForModal),
-                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
-              ),
-              e('p', { className: 'gp-waitlist-benefits' }, waitlistBenefitsForModal),
-              archetype === 'subscription' && currentMixStats.count > 0
-                ? e('p', { className: 'gp-waitlist-garden-line' },
-                    t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
-                  )
-                : null,
-              e('form', { className: 'gp-waitlist-form', onSubmit: submitWaitlist },
-                e('input', {
-                  type: 'email',
-                  className: 'gp-waitlist-email-input',
-                  placeholder: t('waitlistEmailPlaceholder'),
-                  value: waitlistEmail,
-                  required: true,
-                  autoFocus: true,
-                  onChange: function (ev) {
-                    if (!waitlistEmailEnteredRef.current) {
-                      waitlistEmailEnteredRef.current = true;
-                      if (typeof Analytics !== 'undefined') {
-                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
-                      }
-                    }
-                    setWaitlistEmail(ev.target.value);
-                    setWaitlistStatus('idle');
-                  }
-                }),
-                e('p', { className: 'gp-waitlist-nospam' }, t('waitlistNoSpam')),
-                waitlistStatus === 'error'
-                  ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
-                  : null,
-                e('button', {
-                  type: 'submit',
-                  className: 'gp-waitlist-submit' + (!emailValid ? ' is-disabled' : ''),
-                  disabled: waitlistStatus === 'submitting' || !emailValid
-                },
-                  waitlistStatus === 'submitting' ? '…' : t('waitlistJoin')
-                )
-              )
-            )
-          // --- Step 2: accepted + share ---
-          : e('div', { className: 'gp-waitlist-body' },
-              e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted')),
-                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 2))
-              ),
-              e('p', { className: 'gp-waitlist-next-steps' }, t('waitlistNextSteps')),
-
-              e('p', { className: 'gp-waitlist-jump-line' }, t('waitlistJumpLine')),
-
-              // Share actions — primary (Share on X) first, secondary (Download) second
-              e('div', { className: 'gp-waitlist-share-row' },
-                e('button', {
-                  type: 'button',
-                  className: 'gp-waitlist-action-btn gp-waitlist-share-primary',
-                  onClick: doWaitlistShare
-                }, t('shareOnX')),
-                e('button', {
-                  type: 'button',
-                  className: 'gp-waitlist-action-btn',
-                  onClick: doWaitlistDownload
-                }, t('downloadCard'))
-              )
-            )
-      )
-    ) : null;
+    function handleWaitlistCheckInvite() {
+      setWaitlistInvitedCount(1);
+    }
 
     // Checkout summary panel — price-anchor layout (right column desktop, first mobile)
     var checkoutGoalDef = goalById(goal);
@@ -3068,6 +2997,125 @@
         { label: t('checkoutTimeline'), value: (slideYears || 3) + ' ' + t('yearsShort') }
       ];
     }
+    var waitlistTitleForModal = archetype === 'subscription' ? t(pitchKey('waitlistTitle')) : t('waitlistTitleEarlyAccess');
+    var waitlistBenefitsForModal = archetype === 'subscription'
+      ? t(pitchKey('waitlistBenefits'), archetype)
+      : t('waitlistBenefitsEarlyAccess');
+
+    var waitlistModal = waitlistOpen ? e('div', {
+      className: 'gp-waitlist-backdrop',
+      onClick: function (ev) { if (ev.target === ev.currentTarget) setWaitlistOpen(false); },
+      role: 'dialog',
+      'aria-modal': 'true',
+      'aria-label': waitlistTitleForModal
+    },
+      e('div', { className: 'gp-waitlist-card' },
+        // Close button
+        e('button', {
+          type: 'button',
+          className: 'gp-waitlist-close',
+          onClick: function () { setWaitlistOpen(false); },
+          'aria-label': t('waitlistClose')
+        }, '✕'),
+
+        waitlistStep === 1
+          // --- Step 1: spend yield card preview + email ---
+          ? e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'gp-waitlist-step-row' },
+                e('h2', { className: 'gp-waitlist-title' }, waitlistTitleForModal),
+                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
+              ),
+              e('p', { className: 'gp-waitlist-benefits' }, waitlistBenefitsForModal),
+              e('div', { className: 'receipt-card-preview-chip', style: { margin: '8px 0 14px' } },
+                `${chkServiceName || 'Subscription'} Yield Card • ${formatUsd(activeMonthly)}/mo Covered (${formatUsd(activeMonthly * 1.2)}/mo with buffer)`
+              ),
+              e('form', { className: 'gp-waitlist-form', onSubmit: submitWaitlist },
+                e('input', {
+                  type: 'email',
+                  className: 'gp-waitlist-email-input',
+                  placeholder: 'Enter developer / user email...',
+                  value: waitlistEmail,
+                  required: true,
+                  autoFocus: true,
+                  onChange: function (ev) {
+                    if (!waitlistEmailEnteredRef.current) {
+                      waitlistEmailEnteredRef.current = true;
+                      if (typeof Analytics !== 'undefined') {
+                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
+                      }
+                    }
+                    setWaitlistEmail(ev.target.value);
+                    setWaitlistStatus('idle');
+                  }
+                }),
+                waitlistStatus === 'error'
+                  ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
+                  : null,
+                e('button', {
+                  type: 'submit',
+                  className: 'gp-waitlist-submit' + (!emailValid ? ' is-disabled' : ''),
+                  disabled: waitlistStatus === 'submitting' || !emailValid
+                },
+                  waitlistStatus === 'submitting' ? '…' : 'Reserve Card at Launch →'
+                ),
+                e('p', { className: 'gp-waitlist-nospam' }, 'No wallet connection or KYC required • 100% free forever')
+              )
+            )
+          // --- Step 2: accepted + gamified alpha access + share ---
+          : e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'receipt-badge-row' },
+                e('div', { className: 'receipt-spot-badge' }, 'Early Access Reserved'),
+                e('div', { className: 'receipt-alpha-pill' }, '⚡ +1 Invite = Instant Alpha Access')
+              ),
+              e('h2', { className: 'gp-waitlist-title', style: { textAlign: 'center', marginTop: '4px' } }, 'Waitlist Spot Reserved 🌱'),
+              e('div', { className: 'receipt-card-preview-chip', style: { margin: '8px auto 14px' } },
+                `${chkServiceName || 'Subscription'} Yield Card • ${formatUsd(activeMonthly)}/mo Covered`
+              ),
+              e('div', { className: 'receipt-gamification-box' + (waitlistInvitedCount >= 1 ? ' is-unlocked' : '') },
+                e('div', { className: 'gamification-header' },
+                  e('span', { className: 'gamification-label' }, waitlistInvitedCount >= 1 ? '⚡ Alpha Access Unlocked' : 'Alpha Priority Fast-Track'),
+                  e('span', { className: 'gamification-status' }, waitlistInvitedCount >= 1 ? '1 / 1 (Unlocked 🎉)' : '0 / 1 Invited')
+                ),
+                e('div', { className: 'gamification-progress-bar' },
+                  e('div', { className: 'gamification-progress-fill', style: { width: waitlistInvitedCount >= 1 ? '100%' : '25%' } })
+                ),
+                e('p', { className: 'gamification-desc' },
+                  waitlistInvitedCount >= 1
+                    ? 'Alpha priority unlocked! You skipped the 2,480+ launch queue. Join the private Alpha Telegram group to claim your card issuance slot.'
+                    : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.'
+                ),
+                waitlistInvitedCount >= 1
+                  ? e('a', {
+                      className: 'receipt-telegram-cta-btn',
+                      href: 'https://t.me/+rXf7XKhsffMxNzdk',
+                      target: '_blank',
+                      rel: 'noopener noreferrer'
+                    }, 'Claim Alpha in Private Telegram →')
+                  : null
+              ),
+              // Share actions — primary (Share on X) first, secondary (Copy link) second
+              e('div', { className: 'receipt-actions-group' },
+                e('button', {
+                  type: 'button',
+                  className: 'receipt-twitter-btn',
+                  onClick: doWaitlistShare
+                }, 'Share on X to Unlock Alpha ⚡'),
+                e('button', {
+                  type: 'button',
+                  className: 'receipt-share-btn',
+                  onClick: handleWaitlistCopyLink
+                }, waitlistLinkCopied ? '✓ Link Copied!' : '🔗 Copy invite link')
+              ),
+              waitlistInvitedCount === 0
+                ? e('button', {
+                    type: 'button',
+                    className: 'receipt-verify-link-btn',
+                    onClick: handleWaitlistCheckInvite
+                  }, '⚡ Check invite status / claim access')
+                : null
+            )
+      )
+    ) : null;
 
     function openCheckoutWaitlist() {
       setWaitlistStep(1);
@@ -4019,15 +4067,10 @@
 
   function PlannerHeader(props) {
     return e('header', { className: 'gp-header' + (props.isScrolled ? ' is-scrolled' : '') },
-      e('a', { className: 'gp-logo', href: '/' },
+      e('a', { className: 'gp-logo', href: 'home.html' },
         e('span', { className: 'gp-brand-mark', 'aria-hidden': 'true' }, e(BrandLeafMark)),
         'DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
-        e('a', {
-          className: 'gp-home-btn',
-          href: '/',
-          'aria-label': 'Home'
-        }, 'Home'),
         // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
           type: 'button', className: 'gp-my-garden-btn',
@@ -4038,12 +4081,9 @@
         e('a', {
           className: 'gp-analytics-btn',
           href: '/?app=1',
-          'aria-label': 'Search yields',
+          'aria-label': 'Analytics — search yields',
           title: 'Search yields'
-        },
-          e('span', { 'aria-hidden': 'true' }, '📊'),
-          e('span', { className: 'gp-analytics-btn-label', style: { marginLeft: '4px' } }, 'Search yields')
-        ),
+        }, '📊'),
         e('button', {
           type: 'button', className: 'gp-theme-toggle' + (props.dark ? ' is-dark' : ''),
           onClick: props.onToggleTheme, 'aria-label': 'Toggle theme'

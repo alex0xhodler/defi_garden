@@ -295,7 +295,7 @@ const MUST_KEEP = [
   'chains/ethereum.html', 'chains/ethereum.md', 'chains/index.html',
   'tokens/index.html',
   'ko/chains/ethereum.html', 'ko/chains/ethereum.md',
-  'ko/tokens/0x0.html', 'ko/tokens/0x0.md',
+  'ko/tokens/usdc.html', 'ko/tokens/usdc.md',
   // pools — the item-212 per-pool .md twin + its .json sibling.
   'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.json',
   'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md',

@@ -34,149 +34,363 @@ function isStableSymbol(symbol) {
   return parts.every(p => STABLE_SYMBOLS.includes(p));
 }
 var YIELD_CARD_CATALOG_KR = [{
-  id: 'baemin_club',
-  name: '배민클럽 (배달의민족)',
-  monthlyCostKrw: 3990,
-  monthlyCostUsd: 2.95,
-  domain: 'baemin.com',
-  emoji: '🛵',
-  category: ['food_delivery', 'lifestyle']
+  id: 'claude',
+  name: 'Claude Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'claude.ai',
+  emoji: '🤖',
+  category: ['ai_service', 'software_subscription']
 }, {
-  id: 'naver_plus',
-  name: '네이버플러스 멤버십',
-  monthlyCostKrw: 4900,
-  monthlyCostUsd: 3.60,
-  domain: 'naver.com',
-  emoji: '🟢',
-  category: ['shopping', 'content']
+  id: 'cursor',
+  name: 'Cursor Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'cursor.com',
+  emoji: '⚡',
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'chatgpt',
+  name: 'ChatGPT Plus',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'spotify',
+  name: 'Spotify',
+  monthlyCostKrw: 15900,
+  monthlyCostUsd: 11.99,
+  taxBufferMonthlyUsd: 14.39,
+  domain: 'spotify.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'netflix',
+  name: 'Netflix',
+  monthlyCostKrw: 24000,
+  monthlyCostUsd: 17.99,
+  taxBufferMonthlyUsd: 21.59,
+  domain: 'netflix.com',
+  emoji: '🍿',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'amazonprime',
+  name: 'Amazon Prime',
+  monthlyCostKrw: 20000,
+  monthlyCostUsd: 15.00,
+  taxBufferMonthlyUsd: 18.00,
+  domain: 'amazon.com',
+  emoji: '📦',
+  category: ['shopping', 'entertainment']
 }, {
   id: 'opencode_go',
   name: 'OpenCode Go',
   monthlyCostKrw: 6800,
   monthlyCostUsd: 5.00,
+  taxBufferMonthlyUsd: 6.00,
   domain: 'opencode.ai',
   emoji: '⚡',
   category: ['developer_tool', 'ai_service']
 }, {
-  id: 'coupang_wow',
-  name: '쿠팡 와우 멤버십',
-  monthlyCostKrw: 7890,
-  monthlyCostUsd: 5.80,
-  domain: 'coupang.com',
-  emoji: '🚀',
-  category: ['shopping', 'delivery']
+  id: 'aws',
+  name: 'AWS Cloud',
+  monthlyCostKrw: 68000,
+  monthlyCostUsd: 50.00,
+  taxBufferMonthlyUsd: 60.00,
+  domain: 'amazon.com',
+  emoji: '☁️',
+  category: ['cloud_compute', 'infrastructure']
 }, {
-  id: 'melon',
-  name: '멜론 스트리밍',
-  monthlyCostKrw: 10900,
-  monthlyCostUsd: 8.10,
-  domain: 'melon.com',
-  emoji: '🎵',
-  category: ['music', 'streaming']
-}, {
-  id: 'tving',
-  name: '티빙 (TVING)',
-  monthlyCostKrw: 13500,
+  id: 'github',
+  name: 'GitHub',
+  monthlyCostKrw: 13800,
   monthlyCostUsd: 10.00,
-  domain: 'tving.com',
-  emoji: '📺',
-  category: ['entertainment', 'streaming']
+  taxBufferMonthlyUsd: 12.00,
+  domain: 'github.com',
+  emoji: '🐙',
+  category: ['developer_tool', 'software_subscription']
 }, {
-  id: 'youtube_kr',
-  name: '유튜브 프리미엄',
+  id: 'youtube',
+  name: 'YouTube',
   monthlyCostKrw: 14900,
-  monthlyCostUsd: 11.00,
+  monthlyCostUsd: 13.99,
+  taxBufferMonthlyUsd: 16.79,
   domain: 'youtube.com',
   emoji: '▶️',
   category: ['video', 'subscription']
 }, {
-  id: 'claude_pro',
-  name: 'Claude Pro',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'claude.ai',
-  emoji: '🤖',
-  category: ['ai_service', 'software_subscription']
-}, {
-  id: 'codex_pro',
-  name: 'Codex Pro / ChatGPT Plus',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'openai.com',
-  emoji: '💬',
-  category: ['ai_service', 'software_subscription']
-}, {
-  id: 'cursor_pro',
-  name: 'Cursor Pro',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'cursor.com',
-  emoji: '✨',
-  category: ['developer_tool', 'ai_service']
-}];
-var YIELD_CARD_CATALOG_USD = [{
-  id: 'prime_video',
-  name: 'Amazon Prime Video',
-  monthlyCostUsd: 4.99,
-  domain: 'amazon.com',
-  emoji: '📦',
+  id: 'disney',
+  name: 'Disney+',
+  monthlyCostKrw: 19900,
+  monthlyCostUsd: 15.99,
+  taxBufferMonthlyUsd: 19.19,
+  domain: 'disneyplus.com',
+  emoji: '🏰',
   category: ['entertainment', 'streaming']
 }, {
-  id: 'telegram_prem',
-  name: 'Telegram Premium',
-  monthlyCostUsd: 4.99,
-  domain: 'telegram.org',
-  emoji: '✈️',
-  category: ['messaging', 'social']
+  id: 'max',
+  name: 'Max (HBO)',
+  monthlyCostKrw: 22000,
+  monthlyCostUsd: 16.99,
+  taxBufferMonthlyUsd: 20.39,
+  domain: 'max.com',
+  emoji: '🎬',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'opencode_go',
-  name: 'OpenCode Go',
-  monthlyCostUsd: 5.00,
-  domain: 'opencode.ai',
-  emoji: '⚡',
-  category: ['developer_tool', 'ai_service']
+  id: 'hulu',
+  name: 'Hulu',
+  monthlyCostKrw: 25000,
+  monthlyCostUsd: 18.99,
+  taxBufferMonthlyUsd: 22.79,
+  domain: 'hulu.com',
+  emoji: '📺',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'spotify',
-  name: 'Spotify Premium',
-  monthlyCostUsd: 11.00,
-  domain: 'spotify.com',
-  emoji: '🎵',
-  category: ['music', 'streaming']
+  id: 'appletv',
+  name: 'Apple TV+',
+  monthlyCostKrw: 17000,
+  monthlyCostUsd: 12.99,
+  taxBufferMonthlyUsd: 15.59,
+  domain: 'apple.com',
+  emoji: '🍎',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'xbox',
+  id: 'gamepass',
   name: 'Xbox Game Pass',
-  monthlyCostUsd: 17.00,
+  monthlyCostKrw: 26000,
+  monthlyCostUsd: 19.99,
+  taxBufferMonthlyUsd: 23.99,
   domain: 'xbox.com',
   emoji: '🎮',
   category: ['gaming', 'subscription']
 }, {
-  id: 'codex_pro',
-  name: 'Codex Pro',
-  monthlyCostUsd: 20.00,
-  domain: 'openai.com',
-  emoji: '💬',
-  category: ['ai_service', 'software_subscription']
+  id: 'paramount',
+  name: 'Paramount+',
+  monthlyCostKrw: 13000,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'paramountplus.com',
+  emoji: '⛰️',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'claude_pro',
+  id: 'peacock',
+  name: 'Peacock',
+  monthlyCostKrw: 14500,
+  monthlyCostUsd: 10.99,
+  taxBufferMonthlyUsd: 13.19,
+  domain: 'peacocktv.com',
+  emoji: '🦚',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'doordash',
+  name: 'DoorDash',
+  monthlyCostKrw: 13500,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'doordash.com',
+  emoji: '🥡',
+  category: ['food_delivery', 'lifestyle']
+}, {
+  id: 'uber',
+  name: 'Uber One',
+  monthlyCostKrw: 13500,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'uber.com',
+  emoji: '🚗',
+  category: ['lifestyle', 'mobility']
+}, {
+  id: 'audible',
+  name: 'Audible',
+  monthlyCostKrw: 19900,
+  monthlyCostUsd: 14.95,
+  taxBufferMonthlyUsd: 17.94,
+  domain: 'audible.com',
+  emoji: '🎧',
+  category: ['audiobooks', 'media']
+}, {
+  id: 'walmart',
+  name: 'Walmart+',
+  monthlyCostKrw: 17500,
+  monthlyCostUsd: 12.95,
+  taxBufferMonthlyUsd: 15.54,
+  domain: 'walmart.com',
+  emoji: '🛒',
+  category: ['shopping', 'delivery']
+}];
+var YIELD_CARD_CATALOG_USD = [{
+  id: 'claude',
   name: 'Claude Pro',
   monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
   domain: 'claude.ai',
   emoji: '🤖',
   category: ['ai_service', 'software_subscription']
 }, {
-  id: 'cursor_pro',
+  id: 'cursor',
   name: 'Cursor Pro',
   monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
   domain: 'cursor.com',
-  emoji: '✨',
+  emoji: '⚡',
   category: ['developer_tool', 'ai_service']
 }, {
-  id: 'openai_api',
-  name: 'OpenAI API Tier 2',
-  monthlyCostUsd: 50.00,
-  domain: 'platform.openai.com',
+  id: 'chatgpt',
+  name: 'ChatGPT Plus',
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'spotify',
+  name: 'Spotify',
+  monthlyCostUsd: 11.99,
+  taxBufferMonthlyUsd: 14.39,
+  domain: 'spotify.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'netflix',
+  name: 'Netflix',
+  monthlyCostUsd: 17.99,
+  taxBufferMonthlyUsd: 21.59,
+  domain: 'netflix.com',
+  emoji: '🍿',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'amazonprime',
+  name: 'Amazon Prime',
+  monthlyCostUsd: 15.00,
+  taxBufferMonthlyUsd: 18.00,
+  domain: 'amazon.com',
+  emoji: '📦',
+  category: ['shopping', 'entertainment']
+}, {
+  id: 'opencode_go',
+  name: 'OpenCode Go',
+  monthlyCostUsd: 5.00,
+  taxBufferMonthlyUsd: 6.00,
+  domain: 'opencode.ai',
   emoji: '⚡',
-  category: ['developer_tool', 'ai_api']
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'aws',
+  name: 'AWS Cloud',
+  monthlyCostUsd: 50.00,
+  taxBufferMonthlyUsd: 60.00,
+  domain: 'amazon.com',
+  emoji: '☁️',
+  category: ['cloud_compute', 'infrastructure']
+}, {
+  id: 'github',
+  name: 'GitHub',
+  monthlyCostUsd: 10.00,
+  taxBufferMonthlyUsd: 12.00,
+  domain: 'github.com',
+  emoji: '🐙',
+  category: ['developer_tool', 'software_subscription']
+}, {
+  id: 'youtube',
+  name: 'YouTube',
+  monthlyCostUsd: 13.99,
+  taxBufferMonthlyUsd: 16.79,
+  domain: 'youtube.com',
+  emoji: '▶️',
+  category: ['video', 'subscription']
+}, {
+  id: 'disney',
+  name: 'Disney+',
+  monthlyCostUsd: 15.99,
+  taxBufferMonthlyUsd: 19.19,
+  domain: 'disneyplus.com',
+  emoji: '🏰',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'max',
+  name: 'Max (HBO)',
+  monthlyCostUsd: 16.99,
+  taxBufferMonthlyUsd: 20.39,
+  domain: 'max.com',
+  emoji: '🎬',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'hulu',
+  name: 'Hulu',
+  monthlyCostUsd: 18.99,
+  taxBufferMonthlyUsd: 22.79,
+  domain: 'hulu.com',
+  emoji: '📺',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'appletv',
+  name: 'Apple TV+',
+  monthlyCostUsd: 12.99,
+  taxBufferMonthlyUsd: 15.59,
+  domain: 'apple.com',
+  emoji: '🍎',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'gamepass',
+  name: 'Xbox Game Pass',
+  monthlyCostUsd: 19.99,
+  taxBufferMonthlyUsd: 23.99,
+  domain: 'xbox.com',
+  emoji: '🎮',
+  category: ['gaming', 'subscription']
+}, {
+  id: 'paramount',
+  name: 'Paramount+',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'paramountplus.com',
+  emoji: '⛰️',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'peacock',
+  name: 'Peacock',
+  monthlyCostUsd: 10.99,
+  taxBufferMonthlyUsd: 13.19,
+  domain: 'peacocktv.com',
+  emoji: '🦚',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'doordash',
+  name: 'DoorDash',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'doordash.com',
+  emoji: '🥡',
+  category: ['food_delivery', 'lifestyle']
+}, {
+  id: 'uber',
+  name: 'Uber One',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'uber.com',
+  emoji: '🚗',
+  category: ['lifestyle', 'mobility']
+}, {
+  id: 'audible',
+  name: 'Audible',
+  monthlyCostUsd: 14.95,
+  taxBufferMonthlyUsd: 17.94,
+  domain: 'audible.com',
+  emoji: '🎧',
+  category: ['audiobooks', 'media']
+}, {
+  id: 'walmart',
+  name: 'Walmart+',
+  monthlyCostUsd: 12.95,
+  taxBufferMonthlyUsd: 15.54,
+  domain: 'walmart.com',
+  emoji: '🛒',
+  category: ['shopping', 'delivery']
 }];
 function getYieldCardCatalog(langOrLocale) {
   var isKo = false;
@@ -432,9 +646,59 @@ function renderVisaSvg() {
     d: 'M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z'
   }));
 }
+var SUB_SLUG_MAP = {
+  'claude': 'claude',
+  'claude_pro': 'claude',
+  'cursor': 'cursor',
+  'cursor_pro': 'cursor',
+  'chatgpt': 'chatgpt',
+  'codex_pro': 'chatgpt',
+  'spotify': 'spotify',
+  'netflix': 'netflix',
+  'amazonprime': 'amazonprime',
+  'prime': 'amazonprime',
+  'prime_video': 'amazonprime',
+  'opencode': 'opencode_go',
+  'opencode_go': 'opencode_go',
+  'aws': 'aws',
+  'openai_api': 'aws',
+  'github': 'github',
+  'youtube': 'youtube',
+  'youtube_kr': 'youtube',
+  'disney': 'disney',
+  'max': 'max',
+  'hulu': 'hulu',
+  'appletv': 'appletv',
+  'gamepass': 'gamepass',
+  'xbox': 'gamepass',
+  'paramount': 'paramount',
+  'peacock': 'peacock',
+  'doordash': 'doordash',
+  'uber': 'uber',
+  'audible': 'audible',
+  'walmart': 'walmart'
+};
+function resolveInitialSub(propsSub) {
+  try {
+    var subSlug = propsSub || null;
+    if (!subSlug && typeof window !== 'undefined') {
+      var params = new URLSearchParams(window.location.search);
+      subSlug = params.get('sub');
+      if (!subSlug && typeof sessionStorage !== 'undefined') {
+        subSlug = sessionStorage.getItem('defi_garden_selected_sub');
+      }
+    }
+    if (subSlug) {
+      var mapped = SUB_SLUG_MAP[String(subSlug).toLowerCase()] || subSlug;
+      return mapped;
+    }
+  } catch (_) {}
+  return 'claude';
+}
 function YieldCardWidget({
   pool,
   totalApy,
+  sub,
   t,
   formatCurrency,
   formatUsd,
@@ -443,7 +707,14 @@ function YieldCardWidget({
   riskAssessment
 }) {
   var [depositAmount, setDepositAmount] = useState(4000);
-  var [selectedGoalId, setSelectedGoalId] = useState('codex_pro');
+  var [selectedGoalIds, setSelectedGoalIds] = useState(() => [resolveInitialSub(sub)]);
+  useEffect(() => {
+    if (sub) {
+      var targetSub = resolveInitialSub(sub);
+      setSelectedGoalIds([targetSub]);
+    }
+  }, [sub]);
+  var selectedGoalId = selectedGoalIds[0] || 'claude';
   var [email, setEmail] = useState('');
   var [validationError, setValidationError] = useState('');
   var [isSubmitted, setIsSubmitted] = useState(false);
@@ -487,20 +758,22 @@ function YieldCardWidget({
   var _formatNum = formatNum || (n => Number(n || 0).toLocaleString('en-US'));
   var isKorean = typeof window !== 'undefined' && (localStorage.getItem('defi-garden-lang') === 'ko' || navigator.language && navigator.language.toLowerCase().startsWith('ko') || typeof Intl !== 'undefined' && Intl.DateTimeFormat && Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Seoul');
   var catalog = getYieldCardCatalog(isKorean ? 'ko' : 'en');
-  var selectedSub = catalog.find(i => i.id === selectedGoalId) || catalog[0];
+  var selectedSubs = catalog.filter(i => selectedGoalIds.includes(i.id));
+  var activeSubs = selectedSubs.length > 0 ? selectedSubs : [catalog.find(i => i.id === 'opencode_go') || catalog[0]];
+  var selectedSub = activeSubs[0];
   var monthlyYield = calculateMonthlyYield(depositAmount, totalApy);
-  var getSubTargetWithBuffer = item => {
-    if (!item) return 6.00;
-    return Number((item.monthlyCostUsd * 1.2).toFixed(2));
-  };
-  var getSubReqCapital = item => {
-    var target = getSubTargetWithBuffer(item);
-    var req = calculateRequiredCapital(target, totalApy);
-    return Number.isFinite(req) && req > 0 ? Math.max(300, Math.min(50000, Math.ceil(req / 50) * 50)) : 4000;
+  var totalMonthlyBase = activeSubs.reduce((sum, s) => sum + s.monthlyCostUsd, 0);
+  var totalMonthlyWithBuffer = activeSubs.reduce((sum, s) => sum + Number((s.monthlyCostUsd * 1.2).toFixed(2)), 0);
+  var totalMonthlyKrw = activeSubs.reduce((sum, s) => sum + (s.monthlyCostKrw || Math.round(s.monthlyCostUsd * 1380)), 0);
+  var getBundleReqCapital = (subs, apy) => {
+    if (!subs || subs.length === 0 || !apy || apy <= 0) return 4000;
+    var totalWithBuffer = subs.reduce((sum, s) => sum + Number((s.monthlyCostUsd * 1.2).toFixed(2)), 0);
+    var req = calculateRequiredCapital(totalWithBuffer, apy);
+    return Number.isFinite(req) && req > 0 ? Math.max(300, Math.min(100000, Math.ceil(req / 50) * 50)) : 4000;
   };
   var snapDeposit = React.useMemo(() => {
-    return getSubReqCapital(selectedSub);
-  }, [selectedSub, totalApy]);
+    return getBundleReqCapital(activeSubs, totalApy);
+  }, [activeSubs, totalApy]);
   var [hasManuallyMovedSlider, setHasManuallyMovedSlider] = useState(false);
   useEffect(() => {
     if (!hasManuallyMovedSlider && snapDeposit > 0 && totalApy > 0) {
@@ -529,26 +802,28 @@ function YieldCardWidget({
     }
   };
   var handleCardClick = item => {
-    setSelectedGoalId(item.id);
-    var targetDeposit = getSubReqCapital(item);
+    var nextIds;
+    if (selectedGoalIds.includes(item.id)) {
+      if (selectedGoalIds.length > 1) {
+        nextIds = selectedGoalIds.filter(id => id !== item.id);
+      } else {
+        nextIds = selectedGoalIds;
+      }
+    } else {
+      nextIds = [...selectedGoalIds, item.id];
+    }
+    setSelectedGoalIds(nextIds);
+    var nextSubs = catalog.filter(i => nextIds.includes(i.id));
+    var targetDeposit = getBundleReqCapital(nextSubs, totalApy);
     setDepositAmount(targetDeposit);
     setHasManuallyMovedSlider(false);
-    if (typeof Analytics !== 'undefined') {
-      if (Analytics.trackYieldCardSliderChange) {
-        Analytics.trackYieldCardSliderChange({
-          pool,
-          depositAmount: targetDeposit,
-          monthlyYield: calculateMonthlyYield(targetDeposit, totalApy)
-        });
-      }
-      if (Analytics.trackYieldCardSubscriptionSelected) {
-        Analytics.trackYieldCardSubscriptionSelected({
-          pool,
-          goalId: item.id,
-          monthlyCost: item.monthlyCostUsd,
-          isCovered: true
-        });
-      }
+    if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSubscriptionSelected) {
+      Analytics.trackYieldCardSubscriptionSelected({
+        pool,
+        goalId: item.id,
+        monthlyCost: item.monthlyCostUsd,
+        isCovered: true
+      });
     }
   };
   var handleSubmit = e => {
@@ -594,10 +869,12 @@ function YieldCardWidget({
           pool: `${pool.symbol || 'USDC'} (${pool.chain || 'DeFi'})`,
           pool_id: pool.pool || '',
           net_apy: `${Number(totalApy || 0).toFixed(2)}%`,
-          subscription: selectedSub.name,
-          monthly_cost: `$${selectedSub.monthlyCostUsd.toFixed(2)}`,
+          subscription: activeSubs.map(s => s.name).join(' + '),
+          subscription_count: activeSubs.length,
+          monthly_cost_usd: totalMonthlyBase,
+          monthly_cost_with_buffer_usd: totalMonthlyWithBuffer,
           deposit_simulated: `$${depositAmount}`,
-          _subject: `DeFi Garden Virtual Card Waitlist: ${trimmedEmail}`
+          _subject: `DeFi Garden Virtual Card Waitlist (${activeSubs.length} Subs): ${trimmedEmail}`
         };
         fetch('https://formspree.io/f/xzdqygjn', {
           method: 'POST',
@@ -791,9 +1068,9 @@ function YieldCardWidget({
     className: 'visa-card-pan'
   }, '4242  ••••  ••••  8842'), React.createElement('div', {
     className: 'visa-card-label-sub'
-  }, isKorean ? 'DEFI GARDEN • 가상 발급 전용' : 'DEFI GARDEN • VIRTUAL ISSUING'), React.createElement('div', {
+  }, activeSubs.length > 1 ? isKorean ? `DEFI GARDEN • ${activeSubs.length}개 구독 통합` : `DEFI GARDEN • ${activeSubs.length} SUBS BUNDLE` : isKorean ? `${selectedSub.id.toUpperCase()} • 가상 발급 전용` : `${selectedSub.id.toUpperCase()}-VAULT / AGENT-01`), React.createElement('div', {
     className: 'visa-card-funded-label'
-  }, isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
+  }, activeSubs.length > 1 ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED` : isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
   // Card bottom row: Expiration, Network info & Spend cap badge
   React.createElement('div', {
     className: 'visa-card-bottom-row'
@@ -805,7 +1082,7 @@ function YieldCardWidget({
     className: 'visa-card-network-info'
   }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`)), React.createElement('div', {
     className: 'visa-card-cap-badge'
-  }, renderLockIcon(), React.createElement('span', null, isKorean && selectedSub.monthlyCostKrw ? _t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}` : _t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`))))), React.createElement('div', {
+  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `CAP: $${totalMonthlyWithBuffer.toFixed(2)}/MO${activeSubs.length > 1 ? ` (${activeSubs.length} SUBS)` : ''}`))))), React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
   }, !isSubmitted ? React.createElement('div', {
     className: 'yield-card-reservation'
@@ -847,7 +1124,7 @@ function YieldCardWidget({
     className: 'receipt-title'
   }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'), React.createElement('div', {
     className: 'receipt-card-preview-chip'
-  }, `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`),
+  }, `${pool.symbol || 'USDC'} Yield Card • ${activeSubs.length > 1 ? `${activeSubs.map(s => s.name).join(' + ')} (${activeSubs.length} Subs)` : selectedSub.name} • ${isKorean && totalMonthlyKrw ? `₩${_formatNum(totalMonthlyKrw)}/mo` : `$${totalMonthlyBase.toFixed(2)}/mo`}`),
   // Gamification Alpha Unlock Box
   React.createElement('div', {
     className: `receipt-gamification-box${invitedCount >= 1 ? ' is-unlocked' : ''}`
@@ -972,7 +1249,7 @@ function YieldCardWidget({
         });
       }
     }
-  }, `✨ Auto-Cover ${selectedSub.name} ($${_formatNum(snapDeposit)})`), [300, 1000, 2000, 4000, 10000, 25000].map(amt => React.createElement('button', {
+  }, `✨ Auto-Cover ${activeSubs.length > 1 ? `Bundle (${activeSubs.length} Subs)` : selectedSub.name} ($${_formatNum(snapDeposit)})`), [300, 1000, 2000, 4000, 10000, 25000].map(amt => React.createElement('button', {
     key: amt,
     type: 'button',
     className: `yield-preset-btn${depositAmount === amt ? ' is-active' : ''}`,
@@ -995,16 +1272,18 @@ function YieldCardWidget({
     className: 'yield-card-grid'
   }, catalog.map(item => {
     var isCovered = isRungCovered(monthlyYield, item.monthlyCostUsd);
-    var isSelected = selectedGoalId === item.id;
-    var reqCap = calculateRequiredCapital(item.monthlyCostUsd, totalApy);
+    var isSelected = selectedGoalIds.includes(item.id);
+    var reqCap = calculateRequiredCapital(item.monthlyCostUsd * 1.2, totalApy);
     return React.createElement('div', {
       key: item.id,
       className: `yield-card-item ${isCovered ? 'is-covered' : 'is-locked'}${isSelected ? ' is-selected' : ''}`,
       'data-goal-id': item.id,
-      onClick: () => handleCardClick(item, isCovered, reqCap)
+      onClick: () => handleCardClick(item)
     }, React.createElement('div', {
       className: 'yield-card-item-top'
-    }, React.createElement('img', {
+    }, isSelected && React.createElement('span', {
+      className: 'yield-card-selected-badge'
+    }, '✓'), React.createElement('img', {
       className: 'yield-card-brand-icon',
       src: `https://www.google.com/s2/favicons?domain=${item.domain}&sz=64`,
       alt: '',
@@ -1164,6 +1443,7 @@ function renderChevronIcon() {
 }
 function PoolDetail({
   pool,
+  sub,
   onBack,
   calculateYields,
   futureValue,
@@ -1660,6 +1940,7 @@ function PoolDetail({
   React.createElement(YieldCardWidget, {
     pool: pool,
     totalApy: totalApy,
+    sub: sub,
     t: t,
     formatCurrency: formatCurrency,
     formatUsd: _formatUsd,

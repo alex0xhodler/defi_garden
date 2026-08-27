@@ -156,41 +156,7 @@
 .gp-header-actions {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
-  flex-wrap: nowrap;
-}
-
-.gp-analytics-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: var(--space-6) var(--space-10);
-  border-radius: var(--ui-radius-sm);
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
-  color: var(--color-text-secondary);
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-xs);
-  font-weight: 600;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: all 0.15s ease;
-}
-.gp-analytics-btn:hover {
-  border-color: var(--ui-border-strong);
-  color: var(--color-primary);
-}
-
-@media (max-width: 580px) {
-  .gp-analytics-btn-label {
-    display: none;
-  }
-  .gp-analytics-btn {
-    padding: var(--space-6) var(--space-8);
-  }
-  .gp-header-actions {
-    gap: 6px;
-  }
+  gap: var(--space-12);
 }
 
 /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
@@ -2672,19 +2638,6 @@
   color: var(--color-primary);
   margin-bottom: 2px;
 }
-.gp-home-btn {
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  color: var(--color-text-secondary);
-  text-decoration: none;
-  padding: var(--space-6) var(--space-10);
-  border-radius: var(--ui-radius-sm);
-  transition: color 0.15s ease;
-}
-.gp-home-btn:hover {
-  color: var(--color-primary);
-}
 
 .gp-plan-risk {
   display: flex;
@@ -2921,6 +2874,208 @@
 }
 .gp-waitlist-submit:hover:not(:disabled) { background: var(--ui-accent-hover); transform: translateY(-1px); }
 .gp-waitlist-submit:active:not(:disabled) { background: var(--ui-accent-active); transform: translateY(1px); }
+/* ---------- Spend Yield Card Waitlist & Gamification Modal ---------- */
+.receipt-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.receipt-spot-badge {
+  display: inline-block;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  background: var(--ui-accent, #7CC9A0);
+  color: #08140f;
+  padding: 4px 10px;
+  border-radius: var(--ui-radius-sm, 4px);
+  letter-spacing: 0.04em;
+}
+.receipt-alpha-pill {
+  display: inline-block;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  font-weight: 700;
+  background: rgba(124, 201, 160, 0.12);
+  color: var(--ui-accent, #7CC9A0);
+  border: 1px solid rgba(124, 201, 160, 0.25);
+  padding: 4px 10px;
+  border-radius: var(--ui-radius-sm, 4px);
+  letter-spacing: 0.02em;
+}
+.receipt-card-preview-chip {
+  padding: 8px 14px;
+  background: var(--ui-surface-muted, #16211A);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 4px);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: center;
+  box-sizing: border-box;
+}
+.receipt-gamification-box {
+  width: 100%;
+  background: var(--color-background);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md, 6px);
+  padding: 12px 14px;
+  text-align: left;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+.receipt-gamification-box.is-unlocked {
+  border-color: var(--ui-accent, #7CC9A0);
+  background: rgba(124, 201, 160, 0.08);
+}
+.gamification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.gamification-label {
+  font-family: var(--font-family-base);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.gamification-status {
+  font-family: var(--font-family-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ui-accent, #7CC9A0);
+}
+.gamification-progress-bar {
+  width: 100%;
+  height: 6px;
+  background: var(--ui-surface-muted, #16211A);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 3px);
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.gamification-progress-fill {
+  height: 100%;
+  background: var(--ui-accent, #7CC9A0);
+  transition: width 0.3s ease;
+}
+.gamification-desc {
+  font-family: var(--font-family-base);
+  font-size: 0.74rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+.receipt-telegram-cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 42px;
+  background: var(--ui-accent, #7CC9A0) !important;
+  color: #08140f !important;
+  border: 1px solid var(--ui-accent, #7CC9A0) !important;
+  border-radius: var(--ui-radius-sm, 4px) !important;
+  font-family: var(--font-family-base);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  margin-top: 6px;
+  box-shadow: 0 4px 14px rgba(124, 201, 160, 0.32);
+}
+.receipt-telegram-cta-btn:hover {
+  background: var(--ui-accent-hover, #93D6B2) !important;
+  color: #08140f !important;
+  transform: translateY(-1px);
+}
+.receipt-actions-group {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+@media (max-width: 480px) {
+  .receipt-actions-group {
+    flex-direction: column;
+  }
+}
+.receipt-twitter-btn {
+  flex: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 14px;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--ui-radius-sm, 4px);
+  font-family: var(--font-family-base);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.receipt-twitter-btn:hover {
+  background: var(--ui-accent, #7CC9A0);
+  border-color: var(--ui-accent, #7CC9A0);
+  color: #08140f;
+}
+.receipt-share-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--ui-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-radius: var(--ui-radius-sm, 4px);
+  font-family: var(--font-family-base);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.receipt-share-btn:hover {
+  border-color: var(--ui-accent, #7CC9A0);
+  color: var(--color-primary);
+}
+.receipt-verify-link-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-base);
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  margin-top: 6px;
+  padding: 4px 8px;
+  transition: color 0.15s ease;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.receipt-verify-link-btn:hover {
+  color: var(--ui-accent, #7CC9A0);
+}
 .gp-waitlist-submit:disabled { opacity: 0.6; cursor: progress; }
 .gp-waitlist-submit:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 

@@ -1167,6 +1167,17 @@ function App() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
   var [error, setError] = useState('');
+  var [subParam, setSubParam] = useState(() => {
+    try {
+      var sp = (typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('sub') : '') || '';
+      if (sp && typeof sessionStorage !== 'undefined') {
+        sessionStorage.setItem('defi_garden_selected_sub', sp);
+      }
+      return sp || (typeof sessionStorage !== 'undefined' ? sessionStorage.getItem('defi_garden_selected_sub') : '') || '';
+    } catch (_) {
+      return '';
+    }
+  });
   var [showAutocomplete, setShowAutocomplete] = useState(false);
   var [highlightedIndex, setHighlightedIndex] = useState(-1);
   var [showFilters, setShowFilters] = useState(false);
@@ -1334,6 +1345,7 @@ function App() {
     if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
     if (minTvl > 0 && minTvl !== DEFAULT_MIN_TVL) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
+    if (subParam) params.set('sub', subParam);
 
     // Add language parameter if not English (default)
     if (language !== 'en') {
@@ -3370,12 +3382,8 @@ function App() {
   // (the icon is aria-hidden, decorative).
   React.createElement('div', {
     className: 'app-logo',
-    onClick: function (e) {
-      if (currentView === 'search' && !selectedToken && !selectedChain && !searchInput && (!selectedPoolTypes || selectedPoolTypes.length === 0) && (!selectedProtocols || selectedProtocols.length === 0)) {
-        window.location.assign('/');
-        return;
-      }
-      resetApp();
+    onClick: function () {
+      window.location.assign('home.html');
     },
     'aria-label': 'DeFi Garden'
   }, React.createElement('span', {
@@ -3445,14 +3453,10 @@ function App() {
       }
     }
   }, '🔍'))),
-  // Controls (home, theme, language)
+  // Controls (theme, language)
   React.createElement('div', {
     className: 'app-header-controls'
-  }, React.createElement('a', {
-    className: 'app-control-btn app-nav-home-btn',
-    href: '/',
-    'aria-label': language === 'ko' ? '홈으로' : 'Home'
-  }, language === 'ko' ? '홈' : 'Home'), React.createElement('button', {
+  }, React.createElement('button', {
     className: 'app-control-btn language-toggle',
     onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
     'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
@@ -3479,6 +3483,7 @@ function App() {
       className: 'container'
     }, React.createElement(PoolDetail, {
       pool: detailPool,
+      sub: subParam,
       onBack: handleBackFromDetail,
       calculateYields: calculateYields,
       futureValue: futureValue,
