@@ -31,7 +31,7 @@ APY 이력만 기준으로 비교한 ACRED의 변동성 낮은 후보는 Avalanc
 
 ACRED 풀은 여기 6개가 있고, 6개 체인에서 APY가 8.33%부터 8.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.42%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -39,7 +39,7 @@ ACRED 풀은 여기 6개가 있고, 6개 체인에서 APY가 8.33%부터 8.33%�
 |---|---|---|---|
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | 기본 금리 |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.40% | 기본 금리 |
+| apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.40% | 기본 금리 |

@@ -4,7 +4,7 @@ The highest honest VET yield right now is 0.03% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=509108cc-62e1-5d74-b7a4-193cdd538523&src=seo_token) | Solana | 0.03% | $6.67M |
+| [raydium-amm →](https://www.defi.garden/?pool=509108cc-62e1-5d74-b7a4-193cdd538523&src=seo_token) | Solana | 0.03% | $6.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.67M in total.
+1 live pool clear this page's $100K TVL floor, $6.66M in total.
 
 ### Are these rates safe?
 

@@ -1,29 +1,29 @@
 # EDGE DeFi Yields
 
-The highest honest EDGE yield right now is 8.46% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDGE yield right now is 8.27% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 8.05% | $502.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 8.46% | $230.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 7.94% | $501.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 8.27% | $227.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 8.46% APY, $230.4K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 8.05% APY, $502.2K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 8.27% APY, $227.4K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 7.94% APY, $501.4K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 8.46% | $230.4K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 8.05% | $502.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 8.27% | $227.4K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 7.94% | $501.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EDGE shows up in 2 pools here, with rates from 8.05% to 8.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EDGE shows up in 2 pools here, with rates from 7.94% to 8.27% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ EDGE shows up in 2 pools here, with rates from 8.05% to 8.46% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 8.05% | 40.13% | 100.00% incentives |
-| uniswap-v3 | 8.46% | 2.09% | Base rate |
+| aerodrome-v1 | 7.94% | 40.13% | 100.00% incentives |
+| uniswap-v3 | 8.27% | 2.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EDGE yield today?
 
-8.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+8.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EDGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $732.6K in total.
+2 live pools clear this page's $100K TVL floor, $728.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EDGE pools have the most stable APY history?
 
-Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 8.46% APY, $230.4K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 8.05% APY, $502.2K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 8.27% APY, $227.4K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 7.94% APY, $501.4K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

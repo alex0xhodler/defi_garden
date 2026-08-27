@@ -2,7 +2,7 @@
 
 **Total APY:** 2.75% (2.75% Base · + 0.00% Rewards)
 
-**TVL:** $294.7K
+**TVL:** $291.2K
 
 **Pool Type:** Yield Derivatives
 

@@ -4,7 +4,7 @@ The highest honest COREWFLR yield right now is 3.45% on mystic-finance-lending (
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mystic-finance-lending →](https://www.defi.garden/?pool=cd22e73a-e73d-48b1-a919-2522b109119a&src=seo_token) | Flare | 3.45% | $632.9K |
+| [mystic-finance-lending →](https://www.defi.garden/?pool=cd22e73a-e73d-48b1-a919-2522b109119a&src=seo_token) | Flare | 3.45% | $624.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COREWFLR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $632.9K in total.
+1 live pool clear this page's $100K TVL floor, $624.8K in total.
 
 ### Are these rates safe?
 

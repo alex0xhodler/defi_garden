@@ -1,37 +1,37 @@
 # WS DeFi Yields
 
-The highest honest WS yield right now is 9.31% on beets-dex-v3 (Sonic), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WS yield right now is 9.37% on beets-dex-v3 (Sonic), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.03% | $1.21M |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.31% | $280K |
-| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $256.5K |
-| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.42% | $241K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 4.47% | $205.6K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 871.91% | $202.9K |
-| [silo-v2 →](https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token) | Sonic | 3.07% | $109.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.03% | $1.17M |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.37% | $270.7K |
+| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $248.1K |
+| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.63% | $223.8K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 4.63% | $202.7K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 784.06% | $201.4K |
+| [silo-v2 →](https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token) | Sonic | 3.07% | $105.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WS's lower-variability candidates are aave-v3 (Sonic), 1.03% APY, $1.21M TVL, https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token; silo-v2 (Sonic), 0.03% APY, $256.5K TVL, https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token; silo-v2 (Sonic), 2.42% APY, $241K TVL, https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token; silo-v2 (Sonic), 3.07% APY, $109.2K TVL, https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token; shadow-exchange-legacy (Sonic), 4.47% APY, $205.6K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token; beets-dex-v3 (Sonic), 9.31% APY, $280K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; shadow-exchange-clmm (Sonic), 871.91% APY, $202.9K TVL, https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WS's lower-variability candidates are aave-v3 (Sonic), 1.03% APY, $1.17M TVL, https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token; silo-v2 (Sonic), 0.03% APY, $248.1K TVL, https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token; silo-v2 (Sonic), 2.63% APY, $223.8K TVL, https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token; silo-v2 (Sonic), 3.07% APY, $105.6K TVL, https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token; shadow-exchange-legacy (Sonic), 4.63% APY, $202.7K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token; beets-dex-v3 (Sonic), 9.37% APY, $270.7K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; shadow-exchange-clmm (Sonic), 784.06% APY, $201.4K TVL, https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.03% | $1.21M |
-| 2 | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $256.5K |
-| 3 | [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.42% | $241K |
-| 4 | [silo-v2 →](https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token) | Sonic | 3.07% | $109.2K |
-| 5 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 4.47% | $205.6K |
-| 6 | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.31% | $280K |
-| 7 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 871.91% | $202.9K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.03% | $1.17M |
+| 2 | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $248.1K |
+| 3 | [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.63% | $223.8K |
+| 4 | [silo-v2 →](https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token) | Sonic | 3.07% | $105.6K |
+| 5 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 4.63% | $202.7K |
+| 6 | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.37% | $270.7K |
+| 7 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 784.06% | $201.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WS shows up in 7 pools here, with rates from 0.03% to 871.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WS shows up in 7 pools here, with rates from 0.03% to 784.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -42,11 +42,11 @@ WS shows up in 7 pools here, with rates from 0.03% to 871.91% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 1.03% | 1.04% | Base rate |
-| beets-dex-v3 | 9.31% | 7.50% | 75.55% incentives |
+| beets-dex-v3 | 9.37% | 7.51% | 75.51% incentives |
 | silo-v2 | 0.03% | 0.03% | Base rate |
-| silo-v2 | 2.42% | 2.44% | Base rate |
-| shadow-exchange-legacy | 4.47% | 2.30% | 100.00% incentives |
-| shadow-exchange-clmm | 871.91% | 111.18% | 100.00% incentives |
+| silo-v2 | 2.63% | 2.44% | Base rate |
+| shadow-exchange-legacy | 4.63% | 2.31% | 100.00% incentives |
+| shadow-exchange-clmm | 784.06% | 112.08% | 100.00% incentives |
 | silo-v2 | 3.07% | 3.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,11 +55,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WS yield today?
 
-9.31% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
+9.37% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
 
 ### How many WS pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.51M in total.
+7 live pools clear this page's $100K TVL floor, $2.42M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +67,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WS pools have the most stable APY history?
 
-Based on APY history only, WS's lower-variability candidates are aave-v3 (Sonic), 1.03% APY, $1.21M TVL, https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token; silo-v2 (Sonic), 0.03% APY, $256.5K TVL, https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token; silo-v2 (Sonic), 2.42% APY, $241K TVL, https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token; silo-v2 (Sonic), 3.07% APY, $109.2K TVL, https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token; shadow-exchange-legacy (Sonic), 4.47% APY, $205.6K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token; beets-dex-v3 (Sonic), 9.31% APY, $280K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; shadow-exchange-clmm (Sonic), 871.91% APY, $202.9K TVL, https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WS's lower-variability candidates are aave-v3 (Sonic), 1.03% APY, $1.17M TVL, https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token; silo-v2 (Sonic), 0.03% APY, $248.1K TVL, https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token; silo-v2 (Sonic), 2.63% APY, $223.8K TVL, https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token; silo-v2 (Sonic), 3.07% APY, $105.6K TVL, https://www.defi.garden/?pool=a174ceee-f881-4db4-b976-ef37319f0910&src=seo_token; shadow-exchange-legacy (Sonic), 4.63% APY, $202.7K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token; beets-dex-v3 (Sonic), 9.37% APY, $270.7K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; shadow-exchange-clmm (Sonic), 784.06% APY, $201.4K TVL, https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

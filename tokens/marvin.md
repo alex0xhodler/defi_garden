@@ -1,11 +1,11 @@
 # MARVIN DeFi Yields
 
-The highest honest MARVIN yield right now is 718.03% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARVIN yield right now is 759.71% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=88c82279-6c14-4f74-8e9b-70e22e19627b&src=seo_token) | Ethereum | 0.04% | $170.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=01902417-b17b-53cb-882c-06091d625de0&src=seo_token) | Ethereum | 718.03% | $140.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=88c82279-6c14-4f74-8e9b-70e22e19627b&src=seo_token) | Ethereum | 0.04% | $168.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=01902417-b17b-53cb-882c-06091d625de0&src=seo_token) | Ethereum | 759.71% | $141.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MARVIN shows up in 2 pools here, with rates from 0.04% to 718.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MARVIN shows up in 2 pools here, with rates from 0.04% to 759.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 451.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 451.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 0.04% | 1.36% | Base rate |
-| uniswap-v2 | 718.03% | 902.38% | Base rate |
+| uniswap-v2 | 759.71% | 900.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MARVIN yield today?
 
-718.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+759.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MARVIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $310.6K in total.
+2 live pools clear this page's $100K TVL floor, $309.6K in total.
 
 ### Are these rates safe?
 

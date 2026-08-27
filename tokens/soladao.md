@@ -4,7 +4,7 @@ The highest honest SOLADAO yield right now is 0.60% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ab8f45b7-c0eb-53db-aa01-825f15fb77e0&src=seo_token) | Solana | 0.60% | $310.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=ab8f45b7-c0eb-53db-aa01-825f15fb77e0&src=seo_token) | Solana | 0.60% | $309.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLADAO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $310.9K in total.
+1 live pool clear this page's $100K TVL floor, $309.5K in total.
 
 ### Are these rates safe?
 

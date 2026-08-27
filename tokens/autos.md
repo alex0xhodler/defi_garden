@@ -1,10 +1,10 @@
 # AUTOS DeFi Yields
 
-The highest honest AUTOS yield right now is 6.23% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTOS yield right now is 6.77% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fec534af-3eda-48cc-be83-e30eb5e8f152&src=seo_token) | Ethereum | 6.23% | $104K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fec534af-3eda-48cc-be83-e30eb5e8f152&src=seo_token) | Ethereum | 6.77% | $102.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUTOS yield today?
 
-6.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.77% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AUTOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104K in total.
+1 live pool clear this page's $100K TVL floor, $102.4K in total.
 
 ### Are these rates safe?
 

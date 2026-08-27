@@ -1,10 +1,10 @@
 # PNUT DeFi Yields
 
-The highest honest PNUT yield right now is 7.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNUT yield right now is 7.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8be07d6f-99a3-4643-9256-6f8a0b881508&src=seo_token) | Solana | 7.10% | $3.38M |
+| [raydium-amm →](https://www.defi.garden/?pool=8be07d6f-99a3-4643-9256-6f8a0b881508&src=seo_token) | Solana | 7.22% | $3.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNUT yield today?
 
-7.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PNUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.38M in total.
+1 live pool clear this page's $100K TVL floor, $3.34M in total.
 
 ### Are these rates safe?
 

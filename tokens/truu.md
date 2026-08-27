@@ -4,7 +4,7 @@ The highest honest TRUU yield right now is 0.01% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c3aaec4c-0b6c-5663-91fc-430fbeccf8d1&src=seo_token) | Ethereum | 0.01% | $225.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c3aaec4c-0b6c-5663-91fc-430fbeccf8d1&src=seo_token) | Ethereum | 0.01% | $226.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRUU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $225.2K in total.
+1 live pool clear this page's $100K TVL floor, $226.4K in total.
 
 ### Are these rates safe?
 

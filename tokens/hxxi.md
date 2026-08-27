@@ -4,7 +4,7 @@ The highest honest HXXI yield right now is 4.81% on d2-finance (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [d2-finance →](https://www.defi.garden/?pool=5cff44f9-ee1a-5f73-bd87-ca9580b80b68&src=seo_token) | Hyperliquid L1 | 4.81% | $3.15M |
+| [d2-finance →](https://www.defi.garden/?pool=5cff44f9-ee1a-5f73-bd87-ca9580b80b68&src=seo_token) | Hyperliquid L1 | 4.81% | $3.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HXXI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.15M in total.
+1 live pool clear this page's $100K TVL floor, $3.12M in total.
 
 ### Are these rates safe?
 

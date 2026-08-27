@@ -1,10 +1,10 @@
 # BAES DeFi Yields
 
-The highest honest BAES yield right now is 758.41% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAES yield right now is 708.94% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=354ccc97-8c2f-4d12-8137-87301ddb941b&src=seo_token) | Base | 758.41% | $182.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=354ccc97-8c2f-4d12-8137-87301ddb941b&src=seo_token) | Base | 708.94% | $186.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAES yield today?
 
-758.41% APY on uniswap-v4 (Base), based on live DefiLlama data.
+708.94% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BAES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.1K in total.
+1 live pool clear this page's $100K TVL floor, $186.4K in total.
 
 ### Are these rates safe?
 

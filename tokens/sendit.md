@@ -4,7 +4,7 @@ The highest honest SENDIT yield right now is 0.13% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9ee3d0d0-d6d2-4ee6-a1c8-38b2c35b9b7a&src=seo_token) | Base | 0.13% | $119.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9ee3d0d0-d6d2-4ee6-a1c8-38b2c35b9b7a&src=seo_token) | Base | 0.13% | $118.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SENDIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.9K in total.
+1 live pool clear this page's $100K TVL floor, $118.3K in total.
 
 ### Are these rates safe?
 

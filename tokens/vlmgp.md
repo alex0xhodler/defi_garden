@@ -4,7 +4,7 @@ The highest honest VLMGP yield right now is 0.04% on wompie (BSC), among 1 pool 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.04% | $294K |
+| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.04% | $292K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VLMGP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $294K in total.
+1 live pool clear this page's $100K TVL floor, $292K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank VLMGP pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 

@@ -30,7 +30,7 @@ STUSDS shows up in 2 pools here, with rates from 4.31% to 5.74% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sky-lending | 5.74% | 5.94% | Base rate |
-| curve-dex | 4.31% | 4.94% | 32.22% incentives |
+| curve-dex | 4.31% | 4.94% | 32.23% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

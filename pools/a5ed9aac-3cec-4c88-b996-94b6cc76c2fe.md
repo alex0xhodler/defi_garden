@@ -2,11 +2,11 @@
 
 **Total APY:** 42.37% (42.37% Base · + 0.00% Rewards)
 
-**TVL:** $102K
+**TVL:** $102.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 188.01%
+**30d Mean APY:** 186.57%
 
 **Exposure:** multi
 
@@ -28,7 +28,7 @@ Your deposit stays yours — you keep your money, and it keeps working.
 
 Projected at ⅓ haircut (42.37% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 42.37% right now vs a 188.01% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 42.37% right now vs a 186.57% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,936 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 

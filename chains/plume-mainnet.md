@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plume Mainnet pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $170.92M in total.
+14 live pools clear this page's $100K TVL floor, $170.91M in total.
 
 ### Are these rates safe?
 

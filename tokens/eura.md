@@ -5,17 +5,17 @@ The highest honest EURA yield right now is 0.07% on curve-dex (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token) | Ethereum | 0.07% | $269.1K |
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.5K |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EURA's lower-variability candidates are curve-dex (Ethereum), 0.07% APY, $269.1K TVL, https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $225.5K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURA's lower-variability candidates are curve-dex (Ethereum), 0.07% APY, $269.1K TVL, https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $225.2K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token) | Ethereum | 0.07% | $269.1K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURA pools have the most stable APY history?
 
-Based on APY history only, EURA's lower-variability candidates are curve-dex (Ethereum), 0.07% APY, $269.1K TVL, https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $225.5K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURA's lower-variability candidates are curve-dex (Ethereum), 0.07% APY, $269.1K TVL, https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $225.2K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

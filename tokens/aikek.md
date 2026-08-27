@@ -1,10 +1,10 @@
 # AIKEK DeFi Yields
 
-The highest honest AIKEK yield right now is 0.49% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIKEK yield right now is 0.51% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d1d097f1-2b3b-4ba8-9b24-bf98acd3ba1f&src=seo_token) | Ethereum | 0.49% | $105K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d1d097f1-2b3b-4ba8-9b24-bf98acd3ba1f&src=seo_token) | Ethereum | 0.51% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIKEK yield today?
 
-0.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.51% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AIKEK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105K in total.
+1 live pool clear this page's $100K TVL floor, $103.1K in total.
 
 ### Are these rates safe?
 

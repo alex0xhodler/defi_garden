@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 0.59% | $766K |
+| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 0.59% | $762.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 0.59%예요.
 
 ### DBIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $766K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $762.2K예요.
 
 ### 이 수익률은 안전한가요?
 

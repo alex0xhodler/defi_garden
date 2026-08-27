@@ -4,7 +4,7 @@ The highest honest BANKETH yield right now is 0.02% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfcac92e-5223-4d78-893f-3a24de203ab4&src=seo_token) | Ethereum | 0.02% | $362.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfcac92e-5223-4d78-893f-3a24de203ab4&src=seo_token) | Ethereum | 0.02% | $360.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BANKETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $362.4K in total.
+1 live pool clear this page's $100K TVL floor, $360.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # PNDC DeFi Yields
 
-The highest honest PNDC yield right now is 34.47% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNDC yield right now is 37.15% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 34.47% | $129.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 37.15% | $123K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNDC yield today?
 
-34.47% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+37.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PNDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.7K in total.
+1 live pool clear this page's $100K TVL floor, $123K in total.
 
 ### Are these rates safe?
 

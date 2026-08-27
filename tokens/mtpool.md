@@ -5,7 +5,7 @@ The highest honest MTPOOL yield right now is 3.63% on lagoon (Ethereum), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
-| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $681.3K |
+| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $673K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MTPOOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.78M in total.
+3 live pools clear this page's $100K TVL floor, $1.77M in total.
 
 ### Are these rates safe?
 

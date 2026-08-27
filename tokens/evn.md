@@ -4,7 +4,7 @@ The highest honest EVN yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b44321b1-2297-4fbe-a99e-da552283168c&src=seo_token) | Ethereum | 0.01% | $1.75M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b44321b1-2297-4fbe-a99e-da552283168c&src=seo_token) | Ethereum | 0.01% | $1.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EVN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.75M in total.
+1 live pool clear this page's $100K TVL floor, $1.74M in total.
 
 ### Are these rates safe?
 

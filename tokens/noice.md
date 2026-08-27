@@ -1,10 +1,10 @@
 # NOICE DeFi Yields
 
-The highest honest NOICE yield right now is 92.76% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOICE yield right now is 95.00% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b986f99-8823-4912-b80b-fd1071aabbc0&src=seo_token) | Base | 92.76% | $240.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b986f99-8823-4912-b80b-fd1071aabbc0&src=seo_token) | Base | 95.00% | $237.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOICE yield today?
 
-92.76% APY on uniswap-v3 (Base), based on live DefiLlama data.
+95.00% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many NOICE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $240.7K in total.
+1 live pool clear this page's $100K TVL floor, $237.6K in total.
 
 ### Are these rates safe?
 

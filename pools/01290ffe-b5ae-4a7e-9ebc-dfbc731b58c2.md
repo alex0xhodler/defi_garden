@@ -1,8 +1,8 @@
 # THYPE-HYPERLENDKHYPE — balancer-v3 on Hyperliquid L1
 
-**Total APY:** 3.42% (2.27% Base · + 1.15% Rewards)
+**Total APY:** 3.41% (2.27% Base · + 1.14% Rewards)
 
-**TVL:** $166.2K
+**TVL:** $165.4K
 
 **Pool Type:** LP/DEX
 

@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Gnosis의 curve-dex에서 APY 2.69%예요.
 
 - [SDAI](https://www.defi.garden/ko/tokens/sdai)
 - [ZCHF](https://www.defi.garden/ko/tokens/zchf)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [GNO](https://www.defi.garden/ko/tokens/gno)
 - [EURE](https://www.defi.garden/ko/tokens/eure)
 - [OLAS](https://www.defi.garden/ko/tokens/olas)
+- [WXDAI](https://www.defi.garden/ko/tokens/wxdai)
 
 ## 이용 가능한 체인
 

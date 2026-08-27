@@ -33,7 +33,7 @@ STRUSD shows up in 4 pools here, with rates from 6.31% to 11.59% APY across 1 ch
 |---|---|---|---|
 | tori-finance | 10.66% | 11.08% | Base rate |
 | curve-dex | 6.31% | 5.49% | Base rate |
-| pendle | 11.25% | 11.61% | 1.95% incentives |
+| pendle | 11.25% | 11.61% | 1.93% incentives |
 | pendle | 11.59% | 11.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $85.57M in total.
+6 live pools clear this page's $100K TVL floor, $85.56M in total.
 
 ### Are these rates safe?
 

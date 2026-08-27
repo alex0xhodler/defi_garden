@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYRUPUSDT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $336.83M in total.
+4 live pools clear this page's $100K TVL floor, $336.86M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # LMI DeFi Yields
 
-The highest honest LMI yield right now is 2.58% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMI yield right now is 2.63% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=78641d29-51e6-4c7e-a3a0-de75959b6b22&src=seo_token) | Ethereum | 2.58% | $101.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=78641d29-51e6-4c7e-a3a0-de75959b6b22&src=seo_token) | Ethereum | 2.63% | $100.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMI yield today?
 
-2.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.63% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.6K in total.
+1 live pool clear this page's $100K TVL floor, $100.3K in total.
 
 ### Are these rates safe?
 

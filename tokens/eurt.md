@@ -4,7 +4,7 @@ The highest honest EURT yield right now is 0.03% on convex-finance (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.5K |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.03% | $225.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $841.1K in total.
+2 live pools clear this page's $100K TVL floor, $839.8K in total.
 
 ### Are these rates safe?
 

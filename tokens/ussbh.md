@@ -1,10 +1,10 @@
 # USSBH DeFi Yields
 
-The highest honest USSBH yield right now is 0.23% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USSBH yield right now is 0.22% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0&src=seo_token) | Solana | 0.23% | $105.5K |
+| [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0&src=seo_token) | Solana | 0.22% | $105.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USSBH yield today?
 
-0.23% APY on orca-dex (Solana), based on live DefiLlama data.
+0.22% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many USSBH pools clear the TVL floor?
 

@@ -4,7 +4,7 @@ The highest honest SWEAT yield right now is 0.46% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74&src=seo_token) | Ethereum | 0.46% | $205.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74&src=seo_token) | Ethereum | 0.46% | $204.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SWEAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.2K in total.
+1 live pool clear this page's $100K TVL floor, $204.1K in total.
 
 ### Are these rates safe?
 

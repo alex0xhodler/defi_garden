@@ -60,8 +60,8 @@ Based on APY history only, HAY's lower-variability candidates are wombat-exchang
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 

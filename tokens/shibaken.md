@@ -4,7 +4,7 @@ The highest honest SHIBAKEN yield right now is 0.02% on uniswap-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f1f7aa83-7e78-4a1b-b69c-f94da1e8a92b&src=seo_token) | Ethereum | 0.02% | $129.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f1f7aa83-7e78-4a1b-b69c-f94da1e8a92b&src=seo_token) | Ethereum | 0.02% | $128.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIBAKEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.2K in total.
+1 live pool clear this page's $100K TVL floor, $128.4K in total.
 
 ### Are these rates safe?
 

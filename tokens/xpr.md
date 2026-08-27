@@ -4,7 +4,7 @@ The highest honest XPR yield right now is 151.27% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=005c20d2-5e52-47eb-b814-47d870a608d2&src=seo_token) | Ethereum | 151.27% | $121.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=005c20d2-5e52-47eb-b814-47d870a608d2&src=seo_token) | Ethereum | 151.27% | $120.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XPR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.2K in total.
+1 live pool clear this page's $100K TVL floor, $120.5K in total.
 
 ### Are these rates safe?
 

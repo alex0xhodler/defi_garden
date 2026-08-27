@@ -4,7 +4,7 @@ The highest honest CTDEFIUSDT yield right now is 8.62% on concrete (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=9ffcea5d-ef46-4b80-a8fb-74b03d38b2ba&src=seo_token) | Ethereum | 8.62% | $29.52M |
+| [concrete →](https://www.defi.garden/?pool=9ffcea5d-ef46-4b80-a8fb-74b03d38b2ba&src=seo_token) | Ethereum | 8.62% | $29.53M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CTDEFIUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $29.52M in total.
+1 live pool clear this page's $100K TVL floor, $29.53M in total.
 
 ### Are these rates safe?
 

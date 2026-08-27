@@ -1,10 +1,10 @@
 # WETH.AXL DeFi Yields
 
-The highest honest WETH.AXL yield right now is 0.20% on astroport (Neutron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WETH.AXL yield right now is 0.21% on astroport (Neutron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [astroport →](https://www.defi.garden/?pool=57138bd2-b3a0-4b67-8355-6cd600becff4&src=seo_token) | Neutron | 0.20% | $101.2K |
+| [astroport →](https://www.defi.garden/?pool=57138bd2-b3a0-4b67-8355-6cd600becff4&src=seo_token) | Neutron | 0.21% | $100.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WETH.AXL yield today?
 
-0.20% APY on astroport (Neutron), based on live DefiLlama data.
+0.21% APY on astroport (Neutron), based on live DefiLlama data.
 
 ### How many WETH.AXL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.2K in total.
+1 live pool clear this page's $100K TVL floor, $100.8K in total.
 
 ### Are these rates safe?
 

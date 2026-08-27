@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e378a9f3-0acc-48bb-8c1b-9b155e799d95&src=seo_token) | Base | 0.04% | $634.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e378a9f3-0acc-48bb-8c1b-9b155e799d95&src=seo_token) | Base | 0.04% | $626.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.04%예요.
 
 ### TIPN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $634.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $626.1K예요.
 
 ### 이 수익률은 안전한가요?
 

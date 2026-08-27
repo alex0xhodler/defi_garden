@@ -4,7 +4,7 @@ The highest honest XMW yield right now is 0.33% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b334ce1a-0110-4774-828d-bd6d2ee92405&src=seo_token) | Ethereum | 0.33% | $152.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b334ce1a-0110-4774-828d-bd6d2ee92405&src=seo_token) | Ethereum | 0.33% | $150.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XMW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.6K in total.
+1 live pool clear this page's $100K TVL floor, $150.7K in total.
 
 ### Are these rates safe?
 

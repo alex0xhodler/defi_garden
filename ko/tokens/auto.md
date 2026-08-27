@@ -6,17 +6,17 @@
 |---|---|---|---|
 | [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 7.97% | $5.74M |
 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.05% | $3.42M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.54% | $122.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.57% | $121.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AUTO의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.05%, TVL $3.42M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 uniswap-v4, APY 2.54%, TVL $122.7K, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUTO의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.05%, TVL $3.42M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 uniswap-v4, APY 2.57%, TVL $121.1K, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.05% | $3.42M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.54% | $122.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.57% | $121.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,7 +34,7 @@ AUTO 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.05%부터 7.97%까
 |---|---|---|---|
 | hastra | 7.97% | 8.33% | 기본 금리 |
 | orca-dex | 0.05% | 0.23% | 기본 금리 |
-| uniswap-v4 | 2.54% | 1.18% | 기본 금리 |
+| uniswap-v4 | 2.57% | 1.18% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Solana의 hastra에서 APY 7.97%예요.
 
 ### AUTO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AUTO의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.05%, TVL $3.42M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 uniswap-v4, APY 2.54%, TVL $122.7K, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUTO의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.05%, TVL $3.42M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 uniswap-v4, APY 2.57%, TVL $121.1K, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -1,10 +1,10 @@
 # COREUSDT0 DeFi Yields
 
-The highest honest COREUSDT0 yield right now is 5.14% on mystic-finance-lending (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COREUSDT0 yield right now is 4.76% on mystic-finance-lending (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_token) | Flare | 5.14% | $22.69M |
+| [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_token) | Flare | 4.76% | $22.69M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COREUSDT0 yield today?
 
-5.14% APY on mystic-finance-lending (Flare), based on live DefiLlama data.
+4.76% APY on mystic-finance-lending (Flare), based on live DefiLlama data.
 
 ### How many COREUSDT0 pools clear the TVL floor?
 

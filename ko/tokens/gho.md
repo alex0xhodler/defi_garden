@@ -1,39 +1,39 @@
 # GHO 디파이 수익률
 
-현재 GHO의 가장 높은 정직한 수익률은 Plasma의 fluid-lending에서 6.03%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GHO의 가장 높은 정직한 수익률은 Plasma의 fluid-lending에서 6.17%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.29% | $31.22M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.58% | $19.16M |
-| [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 0.36% | $17.82M |
-| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 5.86% | $8.52M |
-| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 2.44% | $7.55M |
-| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.03% | $7.24M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.56% | $19.16M |
+| [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 0.24% | $17.82M |
+| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 5.85% | $8.52M |
+| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.17% | $7.19M |
+| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 2.49% | $6.75M |
 | [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.97% | $5.82M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.09% | $3.02M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 2.44%, TVL $7.55M, https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token; Ethereum의 aave-v3, APY 1.29%, TVL $31.22M, https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token; Monad의 aave-v3, APY 5.97%, TVL $5.82M, https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token; Ethereum의 fluid-dex, APY 0.36%, TVL $17.82M, https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token; Plasma의 fluid-lending, APY 6.03%, TVL $7.24M, https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token; Plasma의 aave-v3, APY 5.86%, TVL $8.52M, https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token; Ethereum의 uniswap-v4, APY 0.09%, TVL $3.02M, https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token; Ethereum의 fluid-lending, APY 5.58%, TVL $19.16M, https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 2.49%, TVL $6.75M, https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token; Ethereum의 aave-v3, APY 1.29%, TVL $31.22M, https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token; Monad의 aave-v3, APY 5.97%, TVL $5.82M, https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token; Ethereum의 fluid-dex, APY 0.24%, TVL $17.82M, https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token; Plasma의 fluid-lending, APY 6.17%, TVL $7.19M, https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token; Plasma의 aave-v3, APY 5.85%, TVL $8.52M, https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token; Ethereum의 uniswap-v4, APY 0.09%, TVL $3.02M, https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token; Ethereum의 fluid-lending, APY 5.56%, TVL $19.16M, https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 2.44% | $7.55M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 2.49% | $6.75M |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.29% | $31.22M |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.97% | $5.82M |
-| 4 | [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 0.36% | $17.82M |
-| 5 | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.03% | $7.24M |
-| 6 | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 5.86% | $8.52M |
+| 4 | [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 0.24% | $17.82M |
+| 5 | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.17% | $7.19M |
+| 6 | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 5.85% | $8.52M |
 | 7 | [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.09% | $3.02M |
-| 8 | [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.58% | $19.16M |
+| 8 | [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.56% | $19.16M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GHO 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 6.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GHO 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 6.17%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -42,11 +42,11 @@ GHO 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 6.03%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 1.29% | 1.27% | 기본 금리 |
-| fluid-lending | 5.58% | 5.43% | 인센티브 31.36% |
-| fluid-dex | 0.36% | 0.23% | 기본 금리 |
-| aave-v3 | 5.86% | 6.14% | 인센티브 70.77% |
-| aave-v3 | 2.44% | 1.76% | 기본 금리 |
-| fluid-lending | 6.03% | 6.90% | 인센티브 35.66% |
+| fluid-lending | 5.56% | 5.43% | 인센티브 31.47% |
+| fluid-dex | 0.24% | 0.23% | 기본 금리 |
+| aave-v3 | 5.85% | 6.14% | 인센티브 70.72% |
+| fluid-lending | 6.17% | 6.90% | 인센티브 35.33% |
+| aave-v3 | 2.49% | 1.76% | 기본 금리 |
 | aave-v3 | 5.97% | 6.15% | 인센티브 57.89% |
 | uniswap-v4 | 0.09% | 0.47% | 기본 금리 |
 
@@ -56,11 +56,11 @@ GHO 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 6.03%까�
 
 ### 오늘 GHO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plasma의 fluid-lending에서 APY 6.03%예요.
+DefiLlama 실시간 데이터 기준, Plasma의 fluid-lending에서 APY 6.17%예요.
 
 ### GHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $157.96M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $157.06M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Plasma의 fluid-lending에서 APY 6.03%예
 
 ### GHO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 2.44%, TVL $7.55M, https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token; Ethereum의 aave-v3, APY 1.29%, TVL $31.22M, https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token; Monad의 aave-v3, APY 5.97%, TVL $5.82M, https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token; Ethereum의 fluid-dex, APY 0.36%, TVL $17.82M, https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token; Plasma의 fluid-lending, APY 6.03%, TVL $7.24M, https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token; Plasma의 aave-v3, APY 5.86%, TVL $8.52M, https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token; Ethereum의 uniswap-v4, APY 0.09%, TVL $3.02M, https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token; Ethereum의 fluid-lending, APY 5.58%, TVL $19.16M, https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 2.49%, TVL $6.75M, https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token; Ethereum의 aave-v3, APY 1.29%, TVL $31.22M, https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token; Monad의 aave-v3, APY 5.97%, TVL $5.82M, https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token; Ethereum의 fluid-dex, APY 0.24%, TVL $17.82M, https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token; Plasma의 fluid-lending, APY 6.17%, TVL $7.19M, https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token; Plasma의 aave-v3, APY 5.85%, TVL $8.52M, https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token; Ethereum의 uniswap-v4, APY 0.09%, TVL $3.02M, https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token; Ethereum의 fluid-lending, APY 5.56%, TVL $19.16M, https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

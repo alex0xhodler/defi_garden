@@ -1,10 +1,10 @@
 # GUILD DeFi Yields
 
-The highest honest GUILD yield right now is 0.82% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUILD yield right now is 0.64% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=90b9e869-e459-4f67-8390-3431c58bfbdf&src=seo_token) | Ethereum | 0.82% | $205K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=90b9e869-e459-4f67-8390-3431c58bfbdf&src=seo_token) | Ethereum | 0.64% | $205K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUILD yield today?
 
-0.82% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.64% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GUILD pools clear the TVL floor?
 

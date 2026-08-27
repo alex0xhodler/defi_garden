@@ -1,6 +1,6 @@
 # VBWBTC — yearn-finance on Katana
 
-**Total APY:** 1.60% (0.00% Base · + 1.60% Rewards)
+**Total APY:** 1.61% (0.00% Base · + 1.61% Rewards)
 
 **TVL:** $1.16M
 

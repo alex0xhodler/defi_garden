@@ -4,7 +4,7 @@ The highest honest LON yield right now is 0.05% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.05% | $1.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.05% | $1.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

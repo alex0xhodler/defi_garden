@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIQUIDETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $352.75M in total.
+2 live pools clear this page's $100K TVL floor, $352.74M in total.
 
 ### Are these rates safe?
 

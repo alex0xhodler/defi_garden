@@ -4,8 +4,8 @@ The highest honest HAHYPE yield right now is 3.16% on pendle (Hyperliquid L1), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.91% | $103.6K |
-| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.16% | $103.6K |
+| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.91% | $102.3K |
+| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.16% | $102.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HAHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $207.2K in total.
+2 live pools clear this page's $100K TVL floor, $204.5K in total.
 
 ### Are these rates safe?
 

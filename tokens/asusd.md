@@ -4,7 +4,7 @@ The highest honest ASUSD yield right now is 0.20% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $152.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.2K in total.
+1 live pool clear this page's $100K TVL floor, $151.7K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest DIME yield right now is 0.07% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e81f973d-46dd-4c81-9615-b03bd5585e0a&src=seo_token) | Base | 0.07% | $310.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e81f973d-46dd-4c81-9615-b03bd5585e0a&src=seo_token) | Base | 0.07% | $306.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $310.8K in total.
+1 live pool clear this page's $100K TVL floor, $306.6K in total.
 
 ### Are these rates safe?
 

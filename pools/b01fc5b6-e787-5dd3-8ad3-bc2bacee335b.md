@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 8.28%
+**30d Mean APY:** 8.27%
 
 **Exposure:** single
 

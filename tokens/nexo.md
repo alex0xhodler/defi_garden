@@ -4,7 +4,7 @@ The highest honest NEXO yield right now is 1.89% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2&src=seo_token) | Ethereum | 1.89% | $1.4M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2&src=seo_token) | Ethereum | 1.89% | $1.39M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NEXO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.4M in total.
+1 live pool clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 

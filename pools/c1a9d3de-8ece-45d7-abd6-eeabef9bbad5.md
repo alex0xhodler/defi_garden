@@ -1,12 +1,12 @@
 # WETH-SAIRI — uniswap-v4 on Base
 
-**Total APY:** 1.56% (1.56% Base · + 0.00% Rewards)
+**Total APY:** 1.58% (1.58% Base · + 0.00% Rewards)
 
-**TVL:** $298.6K
+**TVL:** $295.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.05%
+**30d Mean APY:** 11.03%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,080 in 5y at current rates.
+$1,000 in this pool grows to ~$1,081 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 1.56% right now vs a 11.05% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 1.58% right now vs a 11.03% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,080 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,081 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 

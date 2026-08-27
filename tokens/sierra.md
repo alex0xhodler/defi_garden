@@ -6,6 +6,7 @@ The highest honest SIERRA yield right now is 8.19% on pendle (Ethereum), among 5
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.48% | $10.42M |
 | [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.19% | $10.42M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.01% | $4.65M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,16 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIERRA shows up in 2 pools here, with rates from 5.48% to 8.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIERRA shows up in 3 pools here, with rates from 0.01% to 8.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.48% | 5.99% | 3.07% incentives |
-| pendle | 8.19% | 8.28% | Base rate |
+| pendle | 5.48% | 5.99% | 3.04% incentives |
+| pendle | 8.19% | 8.27% | Base rate |
+| uniswap-v4 | 0.01% | 0.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

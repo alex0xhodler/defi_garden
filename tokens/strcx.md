@@ -1,12 +1,12 @@
 # STRCX DeFi Yields
 
-The highest honest STRCX yield right now is 31.09% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRCX yield right now is 33.62% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 31.09% | $859.6K |
-| [pendle →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 24.41% | $859.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 6.18% | $191.5K |
+| [pendle →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 33.62% | $857.7K |
+| [pendle →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 26.91% | $857.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 6.02% | $191.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STRCX shows up in 3 pools here, with rates from 6.18% to 31.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRCX shows up in 3 pools here, with rates from 6.02% to 33.62% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 30.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 30.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,9 +27,9 @@ STRCX shows up in 3 pools here, with rates from 6.18% to 31.09% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 31.09% | 46.69% | 6.12% incentives |
-| pendle | 24.41% | 30.95% | Base rate |
-| raydium-amm | 6.18% | 5.11% | Base rate |
+| pendle | 33.62% | 45.39% | 5.64% incentives |
+| pendle | 26.91% | 30.55% | Base rate |
+| raydium-amm | 6.02% | 5.12% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRCX yield today?
 
-31.09% APY on pendle (Ethereum), based on live DefiLlama data.
+33.62% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many STRCX pools clear the TVL floor?
 

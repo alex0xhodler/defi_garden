@@ -60,8 +60,8 @@ APY 이력만 기준으로 비교한 HAY의 변동성 낮은 후보는 BSC의 wo
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
-- [BTCB](https://www.defi.garden/ko/tokens/btcb)
 
 ## 이용 가능한 체인
 

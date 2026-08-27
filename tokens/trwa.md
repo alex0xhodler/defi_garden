@@ -4,7 +4,7 @@ The highest honest TRWA yield right now is 0.55% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6d50edd8-4a0f-44f9-9e2e-fbcde41536b9&src=seo_token) | Ethereum | 0.55% | $282.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6d50edd8-4a0f-44f9-9e2e-fbcde41536b9&src=seo_token) | Ethereum | 0.55% | $281.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $282.8K in total.
+1 live pool clear this page's $100K TVL floor, $281.1K in total.
 
 ### Are these rates safe?
 

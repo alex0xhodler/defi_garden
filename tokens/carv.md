@@ -1,10 +1,10 @@
 # CARV DeFi Yields
 
-The highest honest CARV yield right now is 214.92% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARV yield right now is 211.66% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41&src=seo_token) | Base | 214.92% | $239.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41&src=seo_token) | Base | 211.66% | $240.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CARV yield today?
 
-214.92% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+211.66% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CARV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.9K in total.
+1 live pool clear this page's $100K TVL floor, $240.3K in total.
 
 ### Are these rates safe?
 

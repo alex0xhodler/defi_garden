@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many THUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $103.94M in total.
+6 live pools clear this page's $100K TVL floor, $103.95M in total.
 
 ### Are these rates safe?
 

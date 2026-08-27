@@ -4,7 +4,7 @@ The highest honest AUBRAI yield right now is 6.12% on aerodrome-slipstream (Base
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 6.12% | $154.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 6.12% | $152.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUBRAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154.8K in total.
+1 live pool clear this page's $100K TVL floor, $152.9K in total.
 
 ### Are these rates safe?
 

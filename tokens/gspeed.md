@@ -1,10 +1,10 @@
 # GSPEED DeFi Yields
 
-The highest honest GSPEED yield right now is 97.23% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GSPEED yield right now is 107.64% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4cffb626-55b3-5c95-b731-931995722811&src=seo_token) | Base | 97.23% | $112K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4cffb626-55b3-5c95-b731-931995722811&src=seo_token) | Base | 107.64% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GSPEED yield today?
 
-97.23% APY on uniswap-v3 (Base), based on live DefiLlama data.
+107.64% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many GSPEED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112K in total.
+1 live pool clear this page's $100K TVL floor, $109.5K in total.
 
 ### Are these rates safe?
 

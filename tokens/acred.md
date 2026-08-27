@@ -31,7 +31,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ACRED shows up in 6 pools here, with rates from 8.33% to 8.33% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,7 +39,7 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.40% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | Base rate |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | Base rate |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
 | apollo-diversified-credit-securitize-fund | 8.33% | 4.40% | Base rate |

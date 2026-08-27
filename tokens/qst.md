@@ -4,7 +4,7 @@ The highest honest QST yield right now is 3.44% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 3.44% | $171.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 3.44% | $170.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $171.7K in total.
+1 live pool clear this page's $100K TVL floor, $170.3K in total.
 
 ### Are these rates safe?
 

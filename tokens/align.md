@@ -4,7 +4,7 @@ The highest honest ALIGN yield right now is 9.00% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 241.53% | $241K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 278.99% | $233.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=7cdc4785-7fff-54d8-89f4-a553396125df&src=seo_token) | Ethereum | 9.00% | $103.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=cb141a13-d436-5a9d-a3f6-1e05a9c52ef0&src=seo_token) | Base | 2.22% | $100.1K |
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ALIGN shows up in 3 pools here, with rates from 2.22% to 241.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALIGN shows up in 3 pools here, with rates from 2.22% to 278.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,7 +27,7 @@ ALIGN shows up in 3 pools here, with rates from 2.22% to 241.53% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 241.53% | — | 100.00% incentives |
+| aerodrome-slipstream | 278.99% | — | 100.00% incentives |
 | uniswap-v4 | 9.00% | 9.00% | Base rate |
 | uniswap-v2 | 2.22% | 6.05% | Base rate |
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALIGN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $620K in total.
+4 live pools clear this page's $100K TVL floor, $612.7K in total.
 
 ### Are these rates safe?
 

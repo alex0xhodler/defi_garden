@@ -1,10 +1,10 @@
 # VOOI DeFi Yields
 
-The highest honest VOOI yield right now is 0.03% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VOOI yield right now is 1.93% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=b5933580-18c1-43b6-aec3-2563cd30e3a2&src=seo_token) | Mantle | 0.03% | $119.6K |
+| [fluxion-network →](https://www.defi.garden/?pool=b5933580-18c1-43b6-aec3-2563cd30e3a2&src=seo_token) | Mantle | 1.93% | $119.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VOOI yield today?
 
-0.03% APY on fluxion-network (Mantle), based on live DefiLlama data.
+1.93% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many VOOI pools clear the TVL floor?
 

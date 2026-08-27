@@ -4,18 +4,18 @@ The highest honest FEY yield right now is 0.63% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.02% | $204.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.63% | $119.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.02% | $202.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.63% | $119.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.63% APY, $119.9K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.02% APY, $204.5K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.63% APY, $119.3K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.02% APY, $202.3K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.63% | $119.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.02% | $204.5K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.63% | $119.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.02% | $202.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.02% | 2.46% | Base rate |
+| uniswap-v4 | 0.02% | 2.45% | Base rate |
 | uniswap-v2 | 0.63% | 0.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FEY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $324.4K in total.
+2 live pools clear this page's $100K TVL floor, $321.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FEY pools have the most stable APY history?
 
-Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.63% APY, $119.9K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.02% APY, $204.5K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FEY's lower-variability candidates are uniswap-v2 (Ethereum), 0.63% APY, $119.3K TVL, https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token; uniswap-v4 (Base), 0.02% APY, $202.3K TVL, https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

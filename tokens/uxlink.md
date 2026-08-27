@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many UXLINK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $839.9K in total.
+2 live pools clear this page's $100K TVL floor, $839.8K in total.
 
 ### Are these rates safe?
 

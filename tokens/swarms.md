@@ -1,10 +1,10 @@
 # SWARMS DeFi Yields
 
-The highest honest SWARMS yield right now is 8.77% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWARMS yield right now is 8.69% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 8.77% | $1.53M |
+| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 8.69% | $1.51M |
 | [raydium-amm →](https://www.defi.garden/?pool=f997d307-4119-5288-9345-63ea46d8a19d&src=seo_token) | Solana | 6.36% | $110K |
 
 <!-- rate-stability:insufficient -->
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SWARMS shows up in 2 pools here, with rates from 6.36% to 8.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SWARMS shows up in 2 pools here, with rates from 6.36% to 8.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.77% | 19.33% | Base rate |
+| raydium-amm | 8.69% | 19.33% | Base rate |
 | raydium-amm | 6.36% | 75.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SWARMS yield today?
 
-8.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SWARMS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.64M in total.
+2 live pools clear this page's $100K TVL floor, $1.62M in total.
 
 ### Are these rates safe?
 

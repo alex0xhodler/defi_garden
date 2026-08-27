@@ -1,10 +1,10 @@
 # OXI DeFi Yields
 
-The highest honest OXI yield right now is 0.59% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OXI yield right now is 0.60% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=194b26ff-0ba5-4cc9-80df-57010cc202b6&src=seo_token) | Base | 0.59% | $133.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=194b26ff-0ba5-4cc9-80df-57010cc202b6&src=seo_token) | Base | 0.60% | $131.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OXI yield today?
 
-0.59% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.60% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many OXI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.3K in total.
+1 live pool clear this page's $100K TVL floor, $131.3K in total.
 
 ### Are these rates safe?
 

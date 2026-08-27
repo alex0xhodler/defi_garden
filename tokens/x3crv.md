@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank X3CRV pools. This view covers
 
 - [SDAI](https://www.defi.garden/tokens/sdai)
 - [ZCHF](https://www.defi.garden/tokens/zchf)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [GNO](https://www.defi.garden/tokens/gno)
 - [EURE](https://www.defi.garden/tokens/eure)
 - [OLAS](https://www.defi.garden/tokens/olas)
+- [WXDAI](https://www.defi.garden/tokens/wxdai)
 
 ## Available on
 

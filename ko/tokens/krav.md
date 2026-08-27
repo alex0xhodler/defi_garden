@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=66fa43a0-4af5-41f9-a88e-fe1accdac3f5&src=seo_token) | Base | 0.04% | $674.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=66fa43a0-4af5-41f9-a88e-fe1accdac3f5&src=seo_token) | Base | 0.04% | $665.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 sushiswap-v3에서 APY 0.04%예요
 
 ### KRAV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $674.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $665.9K예요.
 
 ### 이 수익률은 안전한가요?
 
