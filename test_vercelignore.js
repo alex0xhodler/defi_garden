@@ -249,7 +249,7 @@ const MUST_KEEP = [
   'PoolDetail.js', 'PoolDetail.compiled.js', 'PoolDetail.compiled.min.js',
   'planner.js', 'planner.min.js',
   'translations.js', 'translations.min.js',
-  'analytics.js', 'canonical.js', 'brand-icons.js', 'landing.js',
+  'analytics.js', 'canonical.js', 'brand-icons.js', 'landing.js', 'laso-service.js',
   'react.production.min.js', 'react-dom.production.min.js',
   // CSS incl. .min.
   'style.css', 'style.min.css',
@@ -443,7 +443,7 @@ const shippedAppJs = [
   'app.js', 'app.compiled.js', 'app.compiled.min.js',
   'PoolDetail.js', 'PoolDetail.compiled.js', 'PoolDetail.compiled.min.js',
   'planner.js', 'planner.min.js', 'translations.js', 'translations.min.js',
-  'analytics.js', 'canonical.js', 'brand-icons.js', 'landing.js',
+  'analytics.js', 'canonical.js', 'brand-icons.js', 'landing.js', 'laso-service.js',
 ].filter((f) => KEPT_SET.has(f));
 const llmsFiles = ['llms.txt', 'llms-full.txt'].filter((f) => KEPT_SET.has(f));
 const sitemapFiles = KEPT.filter((f) => /^sitemap.*\.xml$/.test(f));

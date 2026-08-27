@@ -152,7 +152,7 @@
          style.css, never style.min.css. Render-BLOCKING since the 247 world:
          the media="print" swap let every mode's first paint go out unstyled
          for a beat (worst on the planner's goal picker). -->
-    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="style.min.css" media="all">
 
     <!-- Critical dedup (131, mirrors the style.css rule 086/179 added at .seo-hub-links):
          the static .seo-hub-links crawler footer is duplicated inside the React
@@ -221,6 +221,7 @@
          so it's guaranteed to exist before planner.js's first tracking call fires
          (the old dynamic-injection-into-body path raced planner.js's mount). -->
     <script defer src="analytics.js"></script>
+    <script defer src="laso-service.js"></script>
 
     <!-- Planner script — static defer so it runs after React + translations + analytics.
          Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
