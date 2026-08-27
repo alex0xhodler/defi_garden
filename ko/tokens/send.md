@@ -1,10 +1,10 @@
 # SEND 디파이 수익률
 
-현재 SEND의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 0.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SEND의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 0.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.53% | $1.28M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.55% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SEND의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 0.53%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 0.55%예요.
 
 ### SEND 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

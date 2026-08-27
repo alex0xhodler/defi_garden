@@ -1,10 +1,10 @@
 # HARRIS DeFi Yields
 
-The highest honest HARRIS yield right now is 5.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HARRIS yield right now is 5.00% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c3c67a13-3790-43b0-9145-9ab195b447e3&src=seo_token) | Ethereum | 5.04% | $102.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c3c67a13-3790-43b0-9145-9ab195b447e3&src=seo_token) | Ethereum | 5.00% | $103.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HARRIS yield today?
 
-5.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.00% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HARRIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.8K in total.
+1 live pool clear this page's $100K TVL floor, $103.6K in total.
 
 ### Are these rates safe?
 

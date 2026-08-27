@@ -1,10 +1,10 @@
 # AIXPLAY DeFi Yields
 
-The highest honest AIXPLAY yield right now is 1.84% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIXPLAY yield right now is 1.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d5e3fa3c-be76-5011-9107-8acb817b7a4c&src=seo_token) | Solana | 1.84% | $162.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=d5e3fa3c-be76-5011-9107-8acb817b7a4c&src=seo_token) | Solana | 1.60% | $167.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIXPLAY yield today?
 
-1.84% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AIXPLAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.9K in total.
+1 live pool clear this page's $100K TVL floor, $167.9K in total.
 
 ### Are these rates safe?
 

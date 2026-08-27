@@ -1,29 +1,29 @@
 # WSTHYPE DeFi Yields
 
-The highest honest WSTHYPE yield right now is 4.13% on nest-cl (Hyperliquid L1), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSTHYPE yield right now is 0.09% on hypurrfi-pooled (Hyperliquid L1), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.09% | $1.14M |
-| [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $549.2K |
-| [nest-cl →](https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token) | Hyperliquid L1 | 4.13% | $103.5K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.09% | $1.17M |
+| [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $562.6K |
+| [nest-cl →](https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token) | Hyperliquid L1 | 98.50% | $107.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WSTHYPE's lower-variability candidates are euler-v2 (Hyperliquid L1), 0.02% APY, $549.2K TVL, https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token; hypurrfi-pooled (Hyperliquid L1), 0.09% APY, $1.14M TVL, https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token; nest-cl (Hyperliquid L1), 4.13% APY, $103.5K TVL, https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSTHYPE's lower-variability candidates are euler-v2 (Hyperliquid L1), 0.02% APY, $562.6K TVL, https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token; hypurrfi-pooled (Hyperliquid L1), 0.09% APY, $1.17M TVL, https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token; nest-cl (Hyperliquid L1), 98.50% APY, $107.8K TVL, https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $549.2K |
-| 2 | [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.09% | $1.14M |
-| 3 | [nest-cl →](https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token) | Hyperliquid L1 | 4.13% | $103.5K |
+| 1 | [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $562.6K |
+| 2 | [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.09% | $1.17M |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token) | Hyperliquid L1 | 98.50% | $107.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WSTHYPE shows up in 3 pools here, with rates from 0.02% to 4.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WSTHYPE shows up in 3 pools here, with rates from 0.02% to 98.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,7 +35,7 @@ WSTHYPE shows up in 3 pools here, with rates from 0.02% to 4.13% APY across 1 ch
 |---|---|---|---|
 | hypurrfi-pooled | 0.09% | 0.08% | Base rate |
 | euler-v2 | 0.02% | 0.02% | Base rate |
-| nest-cl | 4.13% | 3.18% | 100.00% incentives |
+| nest-cl | 98.50% | 3.33% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WSTHYPE yield today?
 
-4.13% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+0.09% APY on hypurrfi-pooled (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many WSTHYPE pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $159.65M in total.
+7 live pools clear this page's $100K TVL floor, $163.5M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WSTHYPE pools have the most stable APY history?
 
-Based on APY history only, WSTHYPE's lower-variability candidates are euler-v2 (Hyperliquid L1), 0.02% APY, $549.2K TVL, https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token; hypurrfi-pooled (Hyperliquid L1), 0.09% APY, $1.14M TVL, https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token; nest-cl (Hyperliquid L1), 4.13% APY, $103.5K TVL, https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSTHYPE's lower-variability candidates are euler-v2 (Hyperliquid L1), 0.02% APY, $562.6K TVL, https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token; hypurrfi-pooled (Hyperliquid L1), 0.09% APY, $1.17M TVL, https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token; nest-cl (Hyperliquid L1), 98.50% APY, $107.8K TVL, https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

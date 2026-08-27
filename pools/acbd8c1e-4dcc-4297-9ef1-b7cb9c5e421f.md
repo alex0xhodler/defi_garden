@@ -1,8 +1,8 @@
 # RSETH-ETH — fluid-dex on Ethereum
 
-**Total APY:** 0.69% (0.69% Base · + 0.00% Rewards)
+**Total APY:** 0.70% (0.70% Base · + 0.00% Rewards)
 
-**TVL:** $5.38M
+**TVL:** $5.47M
 
 **Pool Type:** Yield Farming
 

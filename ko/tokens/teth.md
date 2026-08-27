@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.20% | $63.91M |
-| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.20% | $763.2K |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $218.8K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.20% | $65.05M |
+| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.20% | $774K |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $223K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TETH의 변동성 낮은 후보는 Arbitrum의 euler-v2, APY 0.01%, TVL $218.8K, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; Ethereum의 treehouse-protocol, APY 2.20%, TVL $63.91M, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; Ethereum의 curve-dex, APY 2.20%, TVL $763.2K, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TETH의 변동성 낮은 후보는 Arbitrum의 euler-v2, APY 0.01%, TVL $223K, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; Ethereum의 treehouse-protocol, APY 2.20%, TVL $65.05M, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; Ethereum의 curve-dex, APY 2.20%, TVL $774K, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $218.8K |
-| 2 | [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.20% | $63.91M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.20% | $763.2K |
+| 1 | [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $223K |
+| 2 | [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.20% | $65.05M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.20% | $774K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 treehouse-protocol에서 APY 2
 
 ### TETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $120.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $122.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 treehouse-protocol에서 APY 2
 
 ### TETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TETH의 변동성 낮은 후보는 Arbitrum의 euler-v2, APY 0.01%, TVL $218.8K, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; Ethereum의 treehouse-protocol, APY 2.20%, TVL $63.91M, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; Ethereum의 curve-dex, APY 2.20%, TVL $763.2K, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TETH의 변동성 낮은 후보는 Arbitrum의 euler-v2, APY 0.01%, TVL $223K, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; Ethereum의 treehouse-protocol, APY 2.20%, TVL $65.05M, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; Ethereum의 curve-dex, APY 2.20%, TVL $774K, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

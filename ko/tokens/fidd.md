@@ -4,17 +4,17 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.01% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.01% | $3.56M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.01% | $2.24M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FIDD의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $3.57M, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $2.24M, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FIDD의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $3.56M, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $2.24M, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.01% | $3.57M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.01% | $3.56M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.01% | $2.24M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.01%예�
 
 ### FIDD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FIDD의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $3.57M, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $2.24M, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FIDD의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $3.56M, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $2.24M, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

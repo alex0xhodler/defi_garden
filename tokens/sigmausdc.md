@@ -4,7 +4,7 @@ The highest honest SIGMAUSDC yield right now is 5.53% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.53% | $733.2K |
+| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.53% | $733.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIGMAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $733.2K in total.
+1 live pool clear this page's $100K TVL floor, $733.3K in total.
 
 ### Are these rates safe?
 

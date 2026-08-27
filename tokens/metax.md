@@ -1,10 +1,10 @@
 # METAX DeFi Yields
 
-The highest honest METAX yield right now is 45.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METAX yield right now is 40.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128&src=seo_token) | Solana | 45.82% | $121.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128&src=seo_token) | Solana | 40.01% | $122.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest METAX yield today?
 
-45.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+40.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many METAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.5K in total.
+1 live pool clear this page's $100K TVL floor, $122.1K in total.
 
 ### Are these rates safe?
 

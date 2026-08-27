@@ -4,7 +4,7 @@ The highest honest GLE yield right now is 0.05% on uniswap-v2 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ec4f8c4c-8586-4cca-908d-bd0488944a09&src=seo_token) | Base | 0.05% | $106.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ec4f8c4c-8586-4cca-908d-bd0488944a09&src=seo_token) | Base | 0.05% | $107.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.9K in total.
+1 live pool clear this page's $100K TVL floor, $107.7K in total.
 
 ### Are these rates safe?
 

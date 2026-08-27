@@ -25,13 +25,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GAMIUSDC shows up in 3 pools here, with rates from 7.63% to 9.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.19% | 8.80% | Base rate |
+| lagoon | 9.19% | 8.81% | Base rate |
 | gami-labs | 9.46% | 8.80% | Base rate |
 | balancer-v3 | 7.63% | 9.09% | 80.62% incentives |
 

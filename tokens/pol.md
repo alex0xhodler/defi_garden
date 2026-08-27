@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many POL pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $1.35M in total.
+7 live pools clear this page's $100K TVL floor, $1.36M in total.
 
 ### Are these rates safe?
 
@@ -51,10 +51,10 @@ There is not enough qualifying APY history to rank POL pools. This view covers A
 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 

@@ -31,7 +31,7 @@ CRVFRAX shows up in 2 pools here, with rates from 0.15% to 27.70% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake-dao | 27.70% | 26.40% | 97.36% incentives |
+| stake-dao | 27.70% | 26.41% | 97.36% incentives |
 | yearn-finance | 0.15% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

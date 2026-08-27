@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.91% | $101.5K |
-| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.16% | $101.5K |
+| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.91% | $103.6K |
+| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.16% | $103.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle에서 APY 3.16%�
 
 ### HAHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $203K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $207.2K예요.
 
 ### 이 수익률은 안전한가요?
 

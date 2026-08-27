@@ -1,10 +1,10 @@
 # PEW DeFi Yields
 
-The highest honest PEW yield right now is 5.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEW yield right now is 4.94% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0bdc0bdb-8d70-4d8c-b9e6-4666ec104b30&src=seo_token) | Ethereum | 5.01% | $216.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0bdc0bdb-8d70-4d8c-b9e6-4666ec104b30&src=seo_token) | Ethereum | 4.94% | $220.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEW yield today?
 
-5.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.94% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PEW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216.9K in total.
+1 live pool clear this page's $100K TVL floor, $220.1K in total.
 
 ### Are these rates safe?
 

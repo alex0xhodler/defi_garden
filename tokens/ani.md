@@ -1,10 +1,10 @@
 # ANI DeFi Yields
 
-The highest honest ANI yield right now is 15.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANI yield right now is 13.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd&src=seo_token) | Solana | 15.31% | $128.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd&src=seo_token) | Solana | 13.50% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANI yield today?
 
-15.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+13.50% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ANI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.9K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 

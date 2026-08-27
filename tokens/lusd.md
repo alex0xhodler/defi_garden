@@ -33,7 +33,7 @@ LUSD shows up in 3 pools here, with rates from 0.01% to 1.00% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.06% | 4.12% incentives |
+| curve-dex | 0.01% | 0.06% | 4.21% incentives |
 | aave-v3 | 0.58% | 0.55% | Base rate |
 | aave-v3 | 1.00% | 1.00% | Base rate |
 

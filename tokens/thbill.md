@@ -8,12 +8,12 @@ The highest honest THBILL yield right now is 3.40% on theo-network-thbill (Ether
 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.40% | $1.36M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.40% | $601.1K |
 | [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.10% | $177.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.48% | $168.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.46% | $168.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.40% APY, $601.1K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.40% APY, $58.34M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.40% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; project-x (Hyperliquid L1), 0.10% APY, $177.9K TVL, https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token; uniswap-v3 (Arbitrum), 0.48% APY, $168.9K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.40% APY, $601.1K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.40% APY, $58.34M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.40% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; project-x (Hyperliquid L1), 0.10% APY, $177.9K TVL, https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token; uniswap-v3 (Arbitrum), 0.46% APY, $168.9K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ Based on APY history only, THBILL's lower-variability candidates are theo-networ
 | 2 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.40% | $58.34M |
 | 3 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.40% | $1.36M |
 | 4 | [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.10% | $177.9K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.48% | $168.9K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.46% | $168.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -41,7 +41,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | theo-network-thbill | 3.40% | 3.47% | Base rate |
 | theo-network-thbill | 3.40% | 3.47% | Base rate |
 | project-x | 0.10% | 0.06% | Base rate |
-| uniswap-v3 | 0.48% | 0.34% | Base rate |
+| uniswap-v3 | 0.46% | 0.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which THBILL pools have the most stable APY history?
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.40% APY, $601.1K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.40% APY, $58.34M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.40% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; project-x (Hyperliquid L1), 0.10% APY, $177.9K TVL, https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token; uniswap-v3 (Arbitrum), 0.48% APY, $168.9K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.40% APY, $601.1K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.40% APY, $58.34M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.40% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; project-x (Hyperliquid L1), 0.10% APY, $177.9K TVL, https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token; uniswap-v3 (Arbitrum), 0.46% APY, $168.9K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

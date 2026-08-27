@@ -4,7 +4,7 @@ The highest honest PLANET yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c828fb6f-4668-48be-8c52-4504f4f72658&src=seo_token) | Ethereum | 0.01% | $122.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c828fb6f-4668-48be-8c52-4504f4f72658&src=seo_token) | Ethereum | 0.01% | $123.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PLANET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.6K in total.
+1 live pool clear this page's $100K TVL floor, $123.5K in total.
 
 ### Are these rates safe?
 

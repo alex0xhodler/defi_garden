@@ -1,10 +1,10 @@
 # WHUF DeFi Yields
 
-The highest honest WHUF yield right now is 139.19% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHUF yield right now is 139.95% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=86387073-7dbf-568f-a61c-a2746fdfbe1a&src=seo_token) | Base | 139.19% | $152.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=86387073-7dbf-568f-a61c-a2746fdfbe1a&src=seo_token) | Base | 139.95% | $153.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHUF yield today?
 
-139.19% APY on uniswap-v2 (Base), based on live DefiLlama data.
+139.95% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many WHUF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.1K in total.
+1 live pool clear this page's $100K TVL floor, $153.3K in total.
 
 ### Are these rates safe?
 

@@ -6,18 +6,18 @@ The highest honest AUSDT yield right now is 1.03% on hydration-dex (Polkadot), a
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.22% | $1.04M |
 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 1.03% | $905.6K |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 1.03% APY, $905.6K TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 1.03% APY, $905.6K TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.9K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.22% | $1.04M |
 | 2 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 1.03% | $905.6K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUSDT pools have the most stable APY history?
 
-Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 1.03% APY, $905.6K TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 1.03% APY, $905.6K TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.9K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

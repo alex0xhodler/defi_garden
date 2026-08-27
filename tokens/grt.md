@@ -1,10 +1,10 @@
 # GRT DeFi Yields
 
-The highest honest GRT yield right now is 7.10% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRT yield right now is 15.39% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc560bc4-58d4-42fa-9dfc-4d1f74aafa97&src=seo_token) | Ethereum | 7.10% | $131.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc560bc4-58d4-42fa-9dfc-4d1f74aafa97&src=seo_token) | Ethereum | 15.39% | $133.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRT yield today?
 
-7.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+15.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GRT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.7K in total.
+1 live pool clear this page's $100K TVL floor, $133.9K in total.
 
 ### Are these rates safe?
 

@@ -311,12 +311,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/strato</loc>
+    <loc>https://www.defi.garden/ko/chains/core</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/core</loc>
+    <loc>https://www.defi.garden/ko/chains/strato</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
   </url>

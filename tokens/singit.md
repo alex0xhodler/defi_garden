@@ -1,10 +1,10 @@
 # SINGIT DeFi Yields
 
-The highest honest SINGIT yield right now is 227.66% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SINGIT yield right now is 191.75% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=97232bc8-9b1a-4f14-9d60-1f221fdd4b60&src=seo_token) | Base | 227.66% | $162.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=97232bc8-9b1a-4f14-9d60-1f221fdd4b60&src=seo_token) | Base | 191.75% | $210K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SINGIT yield today?
 
-227.66% APY on uniswap-v4 (Base), based on live DefiLlama data.
+191.75% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SINGIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.9K in total.
+1 live pool clear this page's $100K TVL floor, $210K in total.
 
 ### Are these rates safe?
 

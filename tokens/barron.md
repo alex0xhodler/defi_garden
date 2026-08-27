@@ -4,7 +4,7 @@ The highest honest BARRON yield right now is 6.97% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a&src=seo_token) | Solana | 6.97% | $224K |
+| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a&src=seo_token) | Solana | 6.97% | $234.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BARRON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $224K in total.
+1 live pool clear this page's $100K TVL floor, $234.4K in total.
 
 ### Are these rates safe?
 

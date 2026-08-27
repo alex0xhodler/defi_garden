@@ -1,29 +1,29 @@
 # ELON DeFi Yields
 
-The highest honest ELON yield right now is 1.74% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELON yield right now is 0.94% on uniswap-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.51% | $5.68M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token) | Ethereum | 1.74% | $1.8M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.94% | $5.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token) | Ethereum | 3.16% | $1.82M |
 | [raydium-amm →](https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token) | Solana | 1.28% | $156K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.51% APY, $5.68M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token; uniswap-v3 (Ethereum), 1.74% APY, $1.8M TVL, https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token; raydium-amm (Solana), 1.28% APY, $156K TVL, https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.94% APY, $5.76M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token; uniswap-v3 (Ethereum), 3.16% APY, $1.82M TVL, https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token; raydium-amm (Solana), 1.28% APY, $156K TVL, https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.51% | $5.68M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token) | Ethereum | 1.74% | $1.8M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.94% | $5.76M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token) | Ethereum | 3.16% | $1.82M |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token) | Solana | 1.28% | $156K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ELON shows up in 3 pools here, with rates from 0.51% to 1.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ELON shows up in 3 pools here, with rates from 0.94% to 3.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.51% | 1.06% | Base rate |
-| uniswap-v3 | 1.74% | 0.95% | Base rate |
-| raydium-amm | 1.28% | 16.57% | Base rate |
+| uniswap-v2 | 0.94% | 1.06% | Base rate |
+| uniswap-v3 | 3.16% | 0.95% | Base rate |
+| raydium-amm | 1.28% | 16.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ELON yield today?
 
-1.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.94% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ELON pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $9.45M in total.
+7 live pools clear this page's $100K TVL floor, $9.57M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ELON pools have the most stable APY history?
 
-Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.51% APY, $5.68M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token; uniswap-v3 (Ethereum), 1.74% APY, $1.8M TVL, https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token; raydium-amm (Solana), 1.28% APY, $156K TVL, https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.94% APY, $5.76M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token; uniswap-v3 (Ethereum), 3.16% APY, $1.82M TVL, https://www.defi.garden/?pool=1accb9af-9bb5-42d0-9787-57e282111c90&src=seo_token; raydium-amm (Solana), 1.28% APY, $156K TVL, https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

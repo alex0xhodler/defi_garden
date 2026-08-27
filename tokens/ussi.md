@@ -4,18 +4,18 @@ The highest honest USSI yield right now is 0.09% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.09% | $998.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.09% | $999K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token) | Base | 0.01% | $167.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USSI's lower-variability candidates are uniswap-v2 (Base), 0.01% APY, $167.8K TVL, https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token; uniswap-v3 (Base), 0.09% APY, $998.5K TVL, https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USSI's lower-variability candidates are uniswap-v2 (Base), 0.01% APY, $167.8K TVL, https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token; uniswap-v3 (Base), 0.09% APY, $999K TVL, https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token) | Base | 0.01% | $167.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.09% | $998.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.09% | $999K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USSI pools have the most stable APY history?
 
-Based on APY history only, USSI's lower-variability candidates are uniswap-v2 (Base), 0.01% APY, $167.8K TVL, https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token; uniswap-v3 (Base), 0.09% APY, $998.5K TVL, https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USSI's lower-variability candidates are uniswap-v2 (Base), 0.01% APY, $167.8K TVL, https://www.defi.garden/?pool=aa03dbd7-4696-43f1-85c5-c0b63a28d2d4&src=seo_token; uniswap-v3 (Base), 0.09% APY, $999K TVL, https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

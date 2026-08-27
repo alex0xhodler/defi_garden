@@ -9,18 +9,18 @@ The highest honest YNRWAX yield right now is 10.30% on pendle (Ethereum), among 
 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 0.27% | $363.2K |
 | [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 6.40% | $344.3K |
 | [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 2.86% | $106.3K |
-| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 7.62% | $106.3K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 7.61% | $106.3K |
 | [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 0.17% | $102.4K |
 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 6.25% | $101.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 7.62% APY, $106.3K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; pendle (Ethereum), 10.30% APY, $642K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; spectra-v2 (Ethereum), 2.86% APY, $106.3K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; penpie (Ethereum), 6.25% APY, $101.2K TVL, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; curve-dex (Ethereum), 0.17% APY, $102.4K TVL, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; pendle (Ethereum), 6.25% APY, $642K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; curve-dex (Ethereum), 0.27% APY, $363.2K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 6.40% APY, $344.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 7.61% APY, $106.3K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; pendle (Ethereum), 10.30% APY, $642K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; spectra-v2 (Ethereum), 2.86% APY, $106.3K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; penpie (Ethereum), 6.25% APY, $101.2K TVL, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; curve-dex (Ethereum), 0.17% APY, $102.4K TVL, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; pendle (Ethereum), 6.25% APY, $642K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; curve-dex (Ethereum), 0.27% APY, $363.2K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 6.40% APY, $344.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 7.62% | $106.3K |
+| 1 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 7.61% | $106.3K |
 | 2 | [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.30% | $642K |
 | 3 | [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 2.86% | $106.3K |
 | 4 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 6.25% | $101.2K |
@@ -35,7 +35,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YNRWAX shows up in 8 pools here, with rates from 0.17% to 10.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -43,14 +43,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 6.25% | 12.17% | Base rate |
+| pendle | 6.25% | 12.14% | Base rate |
 | pendle | 10.30% | 10.31% | Base rate |
-| curve-dex | 0.27% | 11.23% | Base rate |
-| stake-dao | 6.40% | 11.50% | Base rate |
-| spectra-v2 | 2.86% | 10.57% | Base rate |
-| spectra-v2 | 7.62% | 10.80% | Base rate |
-| curve-dex | 0.17% | 8.36% | Base rate |
-| penpie | 6.25% | 15.51% | Base rate |
+| curve-dex | 0.27% | 11.20% | Base rate |
+| stake-dao | 6.40% | 11.49% | Base rate |
+| spectra-v2 | 2.86% | 10.55% | Base rate |
+| spectra-v2 | 7.61% | 10.79% | Base rate |
+| curve-dex | 0.17% | 8.34% | Base rate |
+| penpie | 6.25% | 15.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNRWAX pools have the most stable APY history?
 
-Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 7.62% APY, $106.3K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; pendle (Ethereum), 10.30% APY, $642K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; spectra-v2 (Ethereum), 2.86% APY, $106.3K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; penpie (Ethereum), 6.25% APY, $101.2K TVL, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; curve-dex (Ethereum), 0.17% APY, $102.4K TVL, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; pendle (Ethereum), 6.25% APY, $642K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; curve-dex (Ethereum), 0.27% APY, $363.2K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 6.40% APY, $344.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 7.61% APY, $106.3K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; pendle (Ethereum), 10.30% APY, $642K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; spectra-v2 (Ethereum), 2.86% APY, $106.3K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; penpie (Ethereum), 6.25% APY, $101.2K TVL, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; curve-dex (Ethereum), 0.17% APY, $102.4K TVL, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; pendle (Ethereum), 6.25% APY, $642K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; curve-dex (Ethereum), 0.27% APY, $363.2K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 6.40% APY, $344.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

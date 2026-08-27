@@ -4,7 +4,7 @@ The highest honest FVT yield right now is 0.02% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c9ae1fa-a8a1-40bf-adb8-7c92ef23986c&src=seo_token) | Ethereum | 0.02% | $103.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c9ae1fa-a8a1-40bf-adb8-7c92ef23986c&src=seo_token) | Ethereum | 0.02% | $105.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FVT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.6K in total.
+1 live pool clear this page's $100K TVL floor, $105.4K in total.
 
 ### Are these rates safe?
 

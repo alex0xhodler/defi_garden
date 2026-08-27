@@ -4,7 +4,7 @@ The highest honest SUSDZ yield right now is 4.06% on anzen-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [anzen-v2 →](https://www.defi.garden/?pool=46518e93-8197-4539-9861-2340c2ac965a&src=seo_token) | Ethereum | 4.06% | $241.1K |
+| [anzen-v2 →](https://www.defi.garden/?pool=46518e93-8197-4539-9861-2340c2ac965a&src=seo_token) | Ethereum | 4.06% | $240.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $241.1K in total.
+1 live pool clear this page's $100K TVL floor, $240.9K in total.
 
 ### Are these rates safe?
 

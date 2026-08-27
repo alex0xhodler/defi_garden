@@ -4,7 +4,7 @@ The highest honest AXIOM yield right now is 0.19% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1821d03e-584c-4093-9f58-6fe8d6bd38c6&src=seo_token) | Base | 0.19% | $105.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1821d03e-584c-4093-9f58-6fe8d6bd38c6&src=seo_token) | Base | 0.19% | $107.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AXIOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.4K in total.
+1 live pool clear this page's $100K TVL floor, $107.2K in total.
 
 ### Are these rates safe?
 

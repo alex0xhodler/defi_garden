@@ -1,39 +1,39 @@
 # BTC.B DeFi Yields
 
-The highest honest BTC.B yield right now is 28.77% on pharaoh-v3 (Avalanche), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC.B yield right now is 31.04% on pharaoh-v3 (Avalanche), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $91.95M |
-| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.24% | $5.07M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 28.77% | $2.72M |
-| [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.04% | $1.73M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 7.06% | $1.29M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 3.58% | $683.8K |
-| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.10% | $355.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.87% | $305K |
+| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $93.32M |
+| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.24% | $5.18M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 31.04% | $2.75M |
+| [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.04% | $1.79M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 8.15% | $1.31M |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 6.58% | $694.5K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.10% | $360.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 1.22% | $307.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BTC.B's lower-variability candidates are aave-v4 (Avalanche), 0.04% APY, $1.73M TVL, https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $91.95M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.24% APY, $5.07M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $355.6K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; uniswap-v3 (Avalanche), 7.06% APY, $1.29M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 28.77% APY, $2.72M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 0.87% APY, $305K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 3.58% APY, $683.8K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC.B's lower-variability candidates are aave-v4 (Avalanche), 0.04% APY, $1.79M TVL, https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $93.32M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.24% APY, $5.18M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $360.9K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; uniswap-v3 (Avalanche), 8.15% APY, $1.31M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 31.04% APY, $2.75M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 1.22% APY, $307.1K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 6.58% APY, $694.5K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.04% | $1.73M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $91.95M |
-| 3 | [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.24% | $5.07M |
-| 4 | [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.10% | $355.6K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 7.06% | $1.29M |
-| 6 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 28.77% | $2.72M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.87% | $305K |
-| 8 | [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 3.58% | $683.8K |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.04% | $1.79M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $93.32M |
+| 3 | [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.24% | $5.18M |
+| 4 | [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.10% | $360.9K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 8.15% | $1.31M |
+| 6 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 31.04% | $2.75M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 1.22% | $307.1K |
+| 8 | [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 6.58% | $694.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BTC.B shows up in 8 pools here, with rates from 0.01% to 28.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BTC.B shows up in 8 pools here, with rates from 0.01% to 31.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,12 +45,12 @@ BTC.B shows up in 8 pools here, with rates from 0.01% to 28.77% APY across 1 cha
 |---|---|---|---|
 | aave-v3 | 0.01% | 0.01% | Base rate |
 | benqi-lending | 1.24% | 1.17% | Base rate |
-| pharaoh-v3 | 28.77% | 28.19% | 100.00% incentives |
+| pharaoh-v3 | 31.04% | 28.26% | 100.00% incentives |
 | aave-v4 | 0.04% | 0.05% | Base rate |
-| uniswap-v3 | 7.06% | 7.97% | Base rate |
-| joe-v2.1 | 3.58% | 2.15% | Base rate |
-| blackhole-clmm | 0.10% | 731.89% | 100.00% incentives |
-| uniswap-v3 | 0.87% | 1.84% | Base rate |
+| uniswap-v3 | 8.15% | 7.97% | Base rate |
+| joe-v2.1 | 6.58% | 2.16% | Base rate |
+| blackhole-clmm | 0.10% | 731.88% | 100.00% incentives |
+| uniswap-v3 | 1.22% | 1.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BTC.B yield today?
 
-28.77% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
+31.04% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many BTC.B pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $117.14M in total.
+17 live pools clear this page's $100K TVL floor, $118.88M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BTC.B pools have the most stable APY history?
 
-Based on APY history only, BTC.B's lower-variability candidates are aave-v4 (Avalanche), 0.04% APY, $1.73M TVL, https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $91.95M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.24% APY, $5.07M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $355.6K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; uniswap-v3 (Avalanche), 7.06% APY, $1.29M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 28.77% APY, $2.72M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 0.87% APY, $305K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 3.58% APY, $683.8K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC.B's lower-variability candidates are aave-v4 (Avalanche), 0.04% APY, $1.79M TVL, https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $93.32M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.24% APY, $5.18M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $360.9K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; uniswap-v3 (Avalanche), 8.15% APY, $1.31M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 31.04% APY, $2.75M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 1.22% APY, $307.1K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 6.58% APY, $694.5K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

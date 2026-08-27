@@ -4,7 +4,7 @@ The highest honest STARL yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=302ad2ef-aee0-4ebe-b225-39b08ac44d68&src=seo_token) | Ethereum | 0.01% | $1.2M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=302ad2ef-aee0-4ebe-b225-39b08ac44d68&src=seo_token) | Ethereum | 0.01% | $1.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STARL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.2M in total.
+1 live pool clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 

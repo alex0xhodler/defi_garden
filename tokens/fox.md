@@ -1,10 +1,10 @@
 # FOX DeFi Yields
 
-The highest honest FOX yield right now is 0.76% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOX yield right now is 1.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 0.76% | $1.3M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 1.08% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOX yield today?
 
-0.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.3M in total.
+1 live pool clear this page's $100K TVL floor, $1.32M in total.
 
 ### Are these rates safe?
 

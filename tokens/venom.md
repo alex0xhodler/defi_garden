@@ -4,7 +4,7 @@ The highest honest VENOM yield right now is 7.59% on venomstake (Venom), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_token) | Venom | 7.59% | $6.38M |
+| [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_token) | Venom | 7.59% | $6.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VENOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.38M in total.
+1 live pool clear this page's $100K TVL floor, $6.36M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest ZPC yield right now is 0.24% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=37115708-79b0-485b-942d-661e0a64b137&src=seo_token) | Arbitrum | 0.24% | $113.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=37115708-79b0-485b-942d-661e0a64b137&src=seo_token) | Arbitrum | 0.24% | $115.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZPC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.2K in total.
+1 live pool clear this page's $100K TVL floor, $115.2K in total.
 
 ### Are these rates safe?
 

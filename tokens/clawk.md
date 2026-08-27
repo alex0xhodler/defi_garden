@@ -4,7 +4,7 @@ The highest honest CLAWK yield right now is 0.16% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e9b53863-9826-40d2-b144-42f4eca29e73&src=seo_token) | Base | 0.16% | $122.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e9b53863-9826-40d2-b144-42f4eca29e73&src=seo_token) | Base | 0.16% | $124.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAWK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.3K in total.
+1 live pool clear this page's $100K TVL floor, $124.2K in total.
 
 ### Are these rates safe?
 

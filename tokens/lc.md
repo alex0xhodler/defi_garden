@@ -1,10 +1,10 @@
 # LC DeFi Yields
 
-The highest honest LC yield right now is 1.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LC yield right now is 1.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b2fd2d6a-d7c2-4594-b7b7-84a920c64468&src=seo_token) | Solana | 1.31% | $127.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=b2fd2d6a-d7c2-4594-b7b7-84a920c64468&src=seo_token) | Solana | 1.76% | $133.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LC yield today?
 
-1.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.76% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.3K in total.
+1 live pool clear this page's $100K TVL floor, $133.3K in total.
 
 ### Are these rates safe?
 

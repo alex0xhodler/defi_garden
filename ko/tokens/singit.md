@@ -1,10 +1,10 @@
 # SINGIT 디파이 수익률
 
-현재 SINGIT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 227.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SINGIT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 191.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=97232bc8-9b1a-4f14-9d60-1f221fdd4b60&src=seo_token) | Base | 227.66% | $162.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=97232bc8-9b1a-4f14-9d60-1f221fdd4b60&src=seo_token) | Base | 191.75% | $210K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 SINGIT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 227.66%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 191.75%예요.
 
 ### SINGIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $162.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $210K예요.
 
 ### 이 수익률은 안전한가요?
 

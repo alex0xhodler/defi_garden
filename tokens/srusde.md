@@ -1,29 +1,29 @@
 # SRUSDE DeFi Yields
 
-The highest honest SRUSDE yield right now is 4.61% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDE yield right now is 4.62% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.30% | $58.12M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.27% | $58.12M |
+| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 4.62% | $4.54M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 4.50% | $4.54M |
-| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 4.61% | $4.54M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SRUSDE's lower-variability candidates are pendle (Ethereum), 4.50% APY, $4.54M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.30% APY, $58.12M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle (Ethereum), 4.61% APY, $4.54M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDE's lower-variability candidates are pendle (Ethereum), 4.50% APY, $4.54M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.27% APY, $58.12M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle (Ethereum), 4.62% APY, $4.54M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 4.50% | $4.54M |
-| 2 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.30% | $58.12M |
-| 3 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 4.61% | $4.54M |
+| 2 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.27% | $58.12M |
+| 3 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 4.62% | $4.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRUSDE shows up in 3 pools here, with rates from 3.30% to 4.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRUSDE shows up in 3 pools here, with rates from 3.27% to 4.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,9 +31,9 @@ SRUSDE shows up in 3 pools here, with rates from 3.30% to 4.61% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 3.30% | 3.44% | Base rate |
+| strata-markets | 3.27% | 3.44% | Base rate |
+| pendle | 4.62% | 3.96% | 9.41% incentives |
 | pendle | 4.50% | 4.07% | Base rate |
-| pendle | 4.61% | 3.96% | 9.21% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRUSDE yield today?
 
-4.61% APY on pendle (Ethereum), based on live DefiLlama data.
+4.62% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SRUSDE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $118.27M in total.
+4 live pools clear this page's $100K TVL floor, $118.28M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SRUSDE pools have the most stable APY history?
 
-Based on APY history only, SRUSDE's lower-variability candidates are pendle (Ethereum), 4.50% APY, $4.54M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.30% APY, $58.12M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle (Ethereum), 4.61% APY, $4.54M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDE's lower-variability candidates are pendle (Ethereum), 4.50% APY, $4.54M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.27% APY, $58.12M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle (Ethereum), 4.62% APY, $4.54M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

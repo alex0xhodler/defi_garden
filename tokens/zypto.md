@@ -1,10 +1,10 @@
 # ZYPTO DeFi Yields
 
-The highest honest ZYPTO yield right now is 5.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZYPTO yield right now is 2.26% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0e258bbd-8cfc-4955-8ea3-c9f64032c04e&src=seo_token) | Ethereum | 5.05% | $130.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0e258bbd-8cfc-4955-8ea3-c9f64032c04e&src=seo_token) | Ethereum | 2.26% | $132.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZYPTO yield today?
 
-5.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.26% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZYPTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.9K in total.
+1 live pool clear this page's $100K TVL floor, $132.9K in total.
 
 ### Are these rates safe?
 

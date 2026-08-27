@@ -4,29 +4,29 @@ The highest honest WEETH yield right now is 2.77% on stake-dao (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.39% | $5.02B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.39% | $187.07M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.39% | $53.13M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 1.77% | $12.35M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.45% | $5.12B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.45% | $190.48M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.45% | $54.1M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 1.80% | $12.59M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token) | Ethereum | 0.01% | $11.65M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.14% | $10.32M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.03% | $5.36M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.15% | $10.53M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.03% | $5.45M |
 | [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 2.77% | $1.84M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WEETH's lower-variability candidates are ether.fi-stake (Base), 2.39% APY, $53.13M TVL, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; ether.fi-stake (Linea), 2.39% APY, $187.07M TVL, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; stake-dao (Ethereum), 2.77% APY, $1.84M TVL, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; ether.fi-stake (Ethereum), 2.39% APY, $5.02B TVL, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; convex-finance (Ethereum), 2.14% APY, $10.32M TVL, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $5.36M TVL, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; curve-dex (Ethereum), 1.77% APY, $12.35M TVL, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $11.65M TVL, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEETH's lower-variability candidates are ether.fi-stake (Base), 2.45% APY, $54.1M TVL, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; ether.fi-stake (Linea), 2.45% APY, $190.48M TVL, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; stake-dao (Ethereum), 2.77% APY, $1.84M TVL, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; ether.fi-stake (Ethereum), 2.45% APY, $5.12B TVL, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; convex-finance (Ethereum), 2.15% APY, $10.53M TVL, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $5.45M TVL, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; curve-dex (Ethereum), 1.80% APY, $12.59M TVL, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $11.65M TVL, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.39% | $53.13M |
-| 2 | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.39% | $187.07M |
+| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.45% | $54.1M |
+| 2 | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.45% | $190.48M |
 | 3 | [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 2.77% | $1.84M |
-| 4 | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.39% | $5.02B |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.14% | $10.32M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.03% | $5.36M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 1.77% | $12.35M |
+| 4 | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.45% | $5.12B |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.15% | $10.53M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.03% | $5.45M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 1.80% | $12.59M |
 | 8 | [uniswap-v3 →](https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token) | Ethereum | 0.01% | $11.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -41,12 +41,12 @@ WEETH shows up in 8 pools here, with rates from 0.01% to 2.77% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ether.fi-stake | 2.39% | 2.38% | 0.06% incentives |
-| ether.fi-stake | 2.39% | 2.38% | 0.06% incentives |
-| ether.fi-stake | 2.39% | 2.38% | 0.06% incentives |
-| curve-dex | 1.77% | 2.29% | 31.26% incentives |
+| ether.fi-stake | 2.45% | 2.38% | 0.06% incentives |
+| ether.fi-stake | 2.45% | 2.38% | 0.06% incentives |
+| ether.fi-stake | 2.45% | 2.38% | 0.06% incentives |
+| curve-dex | 1.80% | 2.29% | 30.98% incentives |
 | uniswap-v3 | 0.01% | 0.02% | Base rate |
-| convex-finance | 2.14% | 2.69% | 43.09% incentives |
+| convex-finance | 2.15% | 2.68% | 43.19% incentives |
 | uniswap-v3 | 0.03% | 0.09% | Base rate |
 | stake-dao | 2.77% | 2.91% | 39.79% incentives |
 
@@ -60,7 +60,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WEETH pools clear the TVL floor?
 
-68 live pools clear this page's $100K TVL floor, $9.34B in total.
+68 live pools clear this page's $100K TVL floor, $9.51B in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WEETH pools have the most stable APY history?
 
-Based on APY history only, WEETH's lower-variability candidates are ether.fi-stake (Base), 2.39% APY, $53.13M TVL, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; ether.fi-stake (Linea), 2.39% APY, $187.07M TVL, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; stake-dao (Ethereum), 2.77% APY, $1.84M TVL, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; ether.fi-stake (Ethereum), 2.39% APY, $5.02B TVL, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; convex-finance (Ethereum), 2.14% APY, $10.32M TVL, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $5.36M TVL, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; curve-dex (Ethereum), 1.77% APY, $12.35M TVL, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $11.65M TVL, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEETH's lower-variability candidates are ether.fi-stake (Base), 2.45% APY, $54.1M TVL, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; ether.fi-stake (Linea), 2.45% APY, $190.48M TVL, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; stake-dao (Ethereum), 2.77% APY, $1.84M TVL, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; ether.fi-stake (Ethereum), 2.45% APY, $5.12B TVL, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; convex-finance (Ethereum), 2.15% APY, $10.53M TVL, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $5.45M TVL, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; curve-dex (Ethereum), 1.80% APY, $12.59M TVL, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $11.65M TVL, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

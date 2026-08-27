@@ -1,29 +1,29 @@
 # AAVEWETH DeFi Yields
 
-The highest honest AAVEWETH yield right now is 5.95% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEWETH yield right now is 6.07% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.59% | $359.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.95% | $346.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.75% | $325.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.65% | $365.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.07% | $353.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.83% | $331.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.95% APY, $346.2K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.75% APY, $325.5K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.59% APY, $359.1K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 6.07% APY, $353.3K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.83% APY, $331.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.65% APY, $365.4K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.95% | $346.2K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.75% | $325.5K |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.59% | $359.1K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.07% | $353.3K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.83% | $331.7K |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.65% | $365.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AAVEWETH shows up in 3 pools here, with rates from 4.59% to 5.95% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVEWETH shows up in 3 pools here, with rates from 4.65% to 6.07% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,9 +31,9 @@ AAVEWETH shows up in 3 pools here, with rates from 4.59% to 5.95% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 4.59% | 4.55% | 62.65% incentives |
-| balancer-v3 | 5.95% | 5.70% | 66.57% incentives |
-| balancer-v3 | 5.75% | 6.19% | 74.69% incentives |
+| balancer-v3 | 4.65% | 4.56% | 62.82% incentives |
+| balancer-v3 | 6.07% | 5.70% | 66.37% incentives |
+| balancer-v3 | 5.83% | 6.19% | 75.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAVEWETH yield today?
 
-5.95% APY on balancer-v3 (Base), based on live DefiLlama data.
+6.07% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many AAVEWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.03M in total.
+3 live pools clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AAVEWETH pools have the most stable APY history?
 
-Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.95% APY, $346.2K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.75% APY, $325.5K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.59% APY, $359.1K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 6.07% APY, $353.3K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.83% APY, $331.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.65% APY, $365.4K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

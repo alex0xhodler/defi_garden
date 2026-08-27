@@ -1,8 +1,8 @@
 # ETH-QUILL — uniswap-v4 on Base
 
-**Total APY:** 0.50% (0.50% Base · + 0.00% Rewards)
+**Total APY:** 0.49% (0.49% Base · + 0.00% Rewards)
 
-**TVL:** $143.9K
+**TVL:** $147.9K
 
 **Pool Type:** LP/DEX
 

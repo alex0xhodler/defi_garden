@@ -1,31 +1,31 @@
 # WNXM DeFi Yields
 
-The highest honest WNXM yield right now is 11.74% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNXM yield right now is 11.57% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token) | Ethereum | 1.46% | $903.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 11.74% | $677.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token) | Ethereum | 1.47% | $910.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 11.57% | $687.4K |
 | [bancor-v3 →](https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token) | Ethereum | 0.02% | $344.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.10% | $287.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.15% | $291.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WNXM's lower-variability candidates are bancor-v3 (Ethereum), 0.02% APY, $344.1K TVL, https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token; uniswap-v3 (Ethereum), 1.46% APY, $903.6K TVL, https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $287.4K TVL, https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token; uniswap-v3 (Ethereum), 11.74% APY, $677.1K TVL, https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WNXM's lower-variability candidates are bancor-v3 (Ethereum), 0.02% APY, $344.1K TVL, https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token; uniswap-v3 (Ethereum), 1.47% APY, $910.5K TVL, https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token; uniswap-v2 (Ethereum), 0.15% APY, $291.7K TVL, https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token; uniswap-v3 (Ethereum), 11.57% APY, $687.4K TVL, https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bancor-v3 →](https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token) | Ethereum | 0.02% | $344.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token) | Ethereum | 1.46% | $903.6K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.10% | $287.4K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 11.74% | $677.1K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token) | Ethereum | 1.47% | $910.5K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.15% | $291.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 11.57% | $687.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WNXM shows up in 4 pools here, with rates from 0.02% to 11.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WNXM shows up in 4 pools here, with rates from 0.02% to 11.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.46% | 0.21% | Base rate |
-| uniswap-v3 | 11.74% | 8.70% | Base rate |
+| uniswap-v3 | 1.47% | 0.22% | Base rate |
+| uniswap-v3 | 11.57% | 8.60% | Base rate |
 | bancor-v3 | 0.02% | 0.01% | Base rate |
-| uniswap-v2 | 0.10% | 0.67% | Base rate |
+| uniswap-v2 | 0.15% | 0.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WNXM yield today?
 
-11.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+11.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WNXM pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.34M in total.
+5 live pools clear this page's $100K TVL floor, $2.36M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WNXM pools have the most stable APY history?
 
-Based on APY history only, WNXM's lower-variability candidates are bancor-v3 (Ethereum), 0.02% APY, $344.1K TVL, https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token; uniswap-v3 (Ethereum), 1.46% APY, $903.6K TVL, https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $287.4K TVL, https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token; uniswap-v3 (Ethereum), 11.74% APY, $677.1K TVL, https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WNXM's lower-variability candidates are bancor-v3 (Ethereum), 0.02% APY, $344.1K TVL, https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token; uniswap-v3 (Ethereum), 1.47% APY, $910.5K TVL, https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be&src=seo_token; uniswap-v2 (Ethereum), 0.15% APY, $291.7K TVL, https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token; uniswap-v3 (Ethereum), 11.57% APY, $687.4K TVL, https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

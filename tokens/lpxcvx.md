@@ -4,7 +4,7 @@ The highest honest LPXCVX yield right now is 5.98% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e57719a3-14b1-4004-8c36-667fca3d05a3&src=seo_token) | Ethereum | 5.98% | $103.7K |
+| [curve-dex →](https://www.defi.garden/?pool=e57719a3-14b1-4004-8c36-667fca3d05a3&src=seo_token) | Ethereum | 5.98% | $104.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LPXCVX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.7K in total.
+1 live pool clear this page's $100K TVL floor, $104.4K in total.
 
 ### Are these rates safe?
 

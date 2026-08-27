@@ -1,10 +1,10 @@
 # AURA DeFi Yields
 
-The highest honest AURA yield right now is 58.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AURA yield right now is 55.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c2f18cd1-e4e6-4ecd-aec5-e078505c69e7&src=seo_token) | Solana | 58.03% | $2.3M |
+| [raydium-amm →](https://www.defi.garden/?pool=c2f18cd1-e4e6-4ecd-aec5-e078505c69e7&src=seo_token) | Solana | 55.27% | $2.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AURA yield today?
 
-58.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+55.27% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AURA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.3M in total.
+1 live pool clear this page's $100K TVL floor, $2.56M in total.
 
 ### Are these rates safe?
 

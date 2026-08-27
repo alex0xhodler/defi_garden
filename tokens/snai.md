@@ -1,10 +1,10 @@
 # SNAI DeFi Yields
 
-The highest honest SNAI yield right now is 1.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNAI yield right now is 1.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=974dad17-e889-495d-9445-5f89f965597f&src=seo_token) | Solana | 1.32% | $128K |
+| [raydium-amm →](https://www.defi.garden/?pool=974dad17-e889-495d-9445-5f89f965597f&src=seo_token) | Solana | 1.22% | $131.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNAI yield today?
 
-1.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128K in total.
+1 live pool clear this page's $100K TVL floor, $131.9K in total.
 
 ### Are these rates safe?
 

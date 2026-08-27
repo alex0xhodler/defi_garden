@@ -1,10 +1,10 @@
 # KRAV DeFi Yields
 
-The highest honest KRAV yield right now is 0.02% on sushiswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KRAV yield right now is 0.04% on sushiswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=66fa43a0-4af5-41f9-a88e-fe1accdac3f5&src=seo_token) | Base | 0.02% | $663.5K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=66fa43a0-4af5-41f9-a88e-fe1accdac3f5&src=seo_token) | Base | 0.04% | $674.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KRAV yield today?
 
-0.02% APY on sushiswap-v3 (Base), based on live DefiLlama data.
+0.04% APY on sushiswap-v3 (Base), based on live DefiLlama data.
 
 ### How many KRAV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $663.5K in total.
+1 live pool clear this page's $100K TVL floor, $674.7K in total.
 
 ### Are these rates safe?
 
