@@ -217,12 +217,83 @@ class HolyheldAdapter(CardBaaSAdapter):
         }
 
 
-def get_card_baas_adapter(provider_name: str = "fiat24", config: Optional[Dict[str, Any]] = None) -> CardBaaSAdapter:
+class GnosisPayAdapter(CardBaaSAdapter):
+    """
+    Gnosis Pay Adapter (European Visa Debit on Gnosis Chain Chain-ID 100).
+    Backbone: Monerium EURe, Non-Custodial Gnosis Safe, Spend Delay Module.
+    $0 Upfront B2B setup fee, 100% EU/EEA individual & freelancer compliance.
+    """
+
+    def __init__(self, config: Optional[Dict[str, Any]] = None):
+        super().__init__("gnosispay", config)
+        self.interchange_rebate_bps = 25  # EU Visa Debit standard cap
+        self.setup_fee_usd = 0.0
+        self.chain_id = 100  # Gnosis Chain
+
+    def resolve_deposit_address(self, user_wallet: str, card_id: str) -> str:
+        if not user_wallet.startswith("0x") or len(user_wallet) != 42:
+            raise ValueError(f"Invalid Ethereum address: {user_wallet}")
+        # In Gnosis Pay, the card spends directly from the user's non-custodial Gnosis Safe
+        safe_hash = hashlib.sha256(f"gnosis_safe:100:{user_wallet.lower()}:{card_id}".encode()).hexdigest()
+        return f"0x{safe_hash[:40]}"
+
+    def get_card_status(self, card_id: str) -> Dict[str, Any]:
+        return {
+            "card_id": card_id,
+            "provider": "gnosispay",
+            "status": "ACTIVE",
+            "chain": "Gnosis Chain (100)",
+            "regulatory_framework": "EU_VISA_DEBIT_MONERIUM",
+            "onchain_proxy_type": "GNOSIS_SAFE_NON_CUSTODIAL_WALLET",
+            "currencies_supported": ["EURe", "sDAI", "USDC"],
+            "apple_pay_ready": True,
+            "google_pay_ready": True,
+            "setup_fee_usd": 0.0,
+            "card_scheme": "Visa Debit"
+        }
+
+    def simulate_authorization(
+        self, card_id: str, amount_usd: float, merchant_mcc: str = "7372"
+    ) -> Dict[str, Any]:
+        if amount_usd <= 0:
+            return {"authorized": False, "reason": "INVALID_AMOUNT"}
+
+        valid_mccs = {"5734", "7372", "4816", "5818"}
+        if merchant_mcc not in valid_mccs:
+            return {
+                "authorized": False,
+                "reason": f"MCC_{merchant_mcc}_NOT_IN_PERMITTED_SAAS_POLICY"
+            }
+
+        return {
+            "authorized": True,
+            "card_id": card_id,
+            "amount_usd": round(amount_usd, 2),
+            "currency": "EURe",
+            "merchant_mcc": merchant_mcc,
+            "settlement_rail": "GNOSIS_CHAIN_EURE_SAFE_SPEND",
+            "invariant_principal_protected": True
+        }
+
+    def calculate_settlement(self, amount_usd: float, fee_tier: str = "standard") -> Dict[str, Any]:
+        rebate_usd = round(amount_usd * (self.interchange_rebate_bps / 10000.0), 4)
+        return {
+            "gross_usd": round(amount_usd, 2),
+            "fee_usd": 0.0,
+            "interchange_rebate_usd": rebate_usd,
+            "net_usd": round(amount_usd, 2),
+            "currency": "EURe",
+            "interchange_bps": self.interchange_rebate_bps
+        }
+
+
+def get_card_baas_adapter(provider_name: str = "gnosispay", config: Optional[Dict[str, Any]] = None) -> CardBaaSAdapter:
     """Factory function for instantiating zero-upfront BaaS adapters."""
     adapters = {
-        "fiat24": Fiat24Adapter,
+        "gnosispay": GnosisPayAdapter,
         "kulipa": KulipaAdapter,
-        "holyheld": HolyheldAdapter
+        "holyheld": HolyheldAdapter,
+        "fiat24": Fiat24Adapter
     }
     provider_key = provider_name.lower().strip()
     if provider_key not in adapters:
