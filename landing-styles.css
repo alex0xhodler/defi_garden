@@ -486,11 +486,14 @@
   color: var(--color-text);
 }
 .landing-subs-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 7px;
-  margin-bottom: 12px;
-  max-width: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 14px;
+  max-width: 620px;
+  width: 100%;
   transition: max-height 0.25s ease;
 }
 
@@ -506,6 +509,10 @@
   justify-content: center !important;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  padding: 7px 14px;
+  flex: 0 0 auto;
+  width: auto;
+  border-radius: 0 !important;
 }
 
 .landing-sub-chip-more:hover {
@@ -518,19 +525,20 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 6px;
-  padding: 7px 9px;
+  gap: 7px;
+  padding: 7px 12px;
   cursor: pointer;
   font-family: var(--font-family-base);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   background: var(--ui-surface-muted, #142018);
-  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
   color: var(--color-text);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  flex: 0 0 auto;
+  width: auto;
+  border-radius: 0 !important;
 }
 
 .landing-sub-chip:hover {
@@ -550,14 +558,16 @@
 
 .landing-sub-chip-name {
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .landing-sub-chip-price {
-  margin-left: auto;
+  margin-left: 4px;
   font-family: var(--font-family-mono);
-  font-size: 0.66rem;
+  font-size: 0.72rem;
   color: var(--color-text-secondary);
   opacity: 0.85;
+  white-space: nowrap;
 }
 
 .landing-sub-chip.is-selected .landing-sub-chip-price {
@@ -853,7 +863,10 @@
   }
   .landing-subs-grid {
     order: 8;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
     gap: 8px;
     max-width: 100%;
     margin-bottom: 16px;
@@ -867,11 +880,12 @@
     max-width: 480px;
   }
   .landing-sub-chip {
-    min-height: 44px;
+    flex: 0 0 auto;
+    width: auto;
+    min-height: 40px;
     padding: 8px 12px;
     font-size: 0.84rem;
-    gap: 8px;
-    border-radius: 4px;
+    gap: 7px;
   }
   .landing-sub-chip-price {
     font-size: 0.72rem;
@@ -956,11 +970,16 @@
     line-height: 1.45;
   }
   .landing-subs-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
     gap: 6px;
   }
   .landing-sub-chip {
-    min-height: 42px;
+    flex: 0 0 auto;
+    width: auto;
+    min-height: 36px;
     padding: 6px 10px;
     font-size: 0.80rem;
     gap: 6px;
