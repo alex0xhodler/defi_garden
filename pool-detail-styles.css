@@ -1969,6 +1969,20 @@ a.pool-token-chip:hover {
   color: var(--cert-on-green);
   border-color: var(--cert-green);
 }
+.yield-preset-snap-btn {
+  background: var(--cert-green-wash) !important;
+  border-color: var(--cert-green) !important;
+  color: var(--cert-green) !important;
+  font-weight: 700 !important;
+}
+.yield-preset-snap-btn:hover {
+  background: var(--cert-green-wash-strong) !important;
+  color: var(--cert-on-green) !important;
+}
+.yield-preset-snap-btn.is-active {
+  background: var(--cert-green) !important;
+  color: var(--cert-on-green) !important;
+}
 
 /* Subscription Unlock Grid */
 .yield-card-grid-section {

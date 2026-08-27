@@ -340,9 +340,32 @@ function YieldCardWidget({
   const selectedSub = catalog.find(i => i.id === selectedGoalId) || catalog[0];
   const monthlyYield = calculateMonthlyYield(depositAmount, totalApy);
 
+  const getSubTargetWithBuffer = (item) => {
+    if (!item) return 6.00;
+    return Number((item.monthlyCostUsd * 1.2).toFixed(2));
+  };
+
+  const getSubReqCapital = (item) => {
+    const target = getSubTargetWithBuffer(item);
+    const req = calculateRequiredCapital(target, totalApy);
+    return Number.isFinite(req) && req > 0 ? Math.max(300, Math.min(50000, Math.ceil(req / 50) * 50)) : 4000;
+  };
+
+  const snapDeposit = React.useMemo(() => {
+    return getSubReqCapital(selectedSub);
+  }, [selectedSub, totalApy]);
+
+  const [hasManuallyMovedSlider, setHasManuallyMovedSlider] = useState(false);
+
+  useEffect(() => {
+    if (!hasManuallyMovedSlider && snapDeposit > 0 && totalApy > 0) {
+      setDepositAmount(snapDeposit);
+    }
+  }, [snapDeposit, totalApy, hasManuallyMovedSlider]);
+
   const formatReqCap = (costUsd, costKrw) => {
     const cost = isKorean && costKrw ? (costKrw / 1380) : costUsd;
-    const req = calculateRequiredCapital(cost, totalApy);
+    const req = calculateRequiredCapital(cost * 1.2, totalApy);
     if (!Number.isFinite(req) || req <= 0) return '—';
     if (req >= 1000) {
       return `$${(req / 1000).toFixed(1)}k`;
@@ -353,6 +376,7 @@ function YieldCardWidget({
   const handleSliderChange = (e) => {
     const val = Number(e.target.value) || 1000;
     setDepositAmount(val);
+    setHasManuallyMovedSlider(true);
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
       Analytics.trackYieldCardSliderChange({
         pool,
@@ -362,37 +386,26 @@ function YieldCardWidget({
     }
   };
 
-  const handleCardClick = (item, isCovered, reqCap) => {
-    if (isCovered) {
-      setSelectedGoalId(item.id);
-      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSubscriptionSelected) {
+  const handleCardClick = (item) => {
+    setSelectedGoalId(item.id);
+    const targetDeposit = getSubReqCapital(item);
+    setDepositAmount(targetDeposit);
+    setHasManuallyMovedSlider(false);
+    if (typeof Analytics !== 'undefined') {
+      if (Analytics.trackYieldCardSliderChange) {
+        Analytics.trackYieldCardSliderChange({
+          pool,
+          depositAmount: targetDeposit,
+          monthlyYield: calculateMonthlyYield(targetDeposit, totalApy)
+        });
+      }
+      if (Analytics.trackYieldCardSubscriptionSelected) {
         Analytics.trackYieldCardSubscriptionSelected({
           pool,
           goalId: item.id,
           monthlyCost: item.monthlyCostUsd,
           isCovered: true
         });
-      }
-    } else {
-      const targetDeposit = Math.min(25000, Math.max(1000, reqCap));
-      setDepositAmount(targetDeposit);
-      setSelectedGoalId(item.id);
-      if (typeof Analytics !== 'undefined') {
-        if (Analytics.trackYieldCardSliderChange) {
-          Analytics.trackYieldCardSliderChange({
-            pool,
-            depositAmount: targetDeposit,
-            monthlyYield: calculateMonthlyYield(targetDeposit, totalApy)
-          });
-        }
-        if (Analytics.trackYieldCardSubscriptionSelected) {
-          Analytics.trackYieldCardSubscriptionSelected({
-            pool,
-            goalId: item.id,
-            monthlyCost: item.monthlyCostUsd,
-            isCovered: false
-          });
-        }
       }
     }
   };
@@ -673,18 +686,8 @@ function YieldCardWidget({
         )
       ),
 
-      // Centered Reservation Form under Card
       React.createElement('div', { className: 'yield-card-reservation-wrapper' },
         !isSubmitted ? React.createElement('div', { className: 'yield-card-reservation' },
-          // Live queue indicator
-          React.createElement('div', { className: 'reservation-queue-status' },
-            React.createElement('span', { className: 'queue-pulse-dot' }),
-            React.createElement('span', { className: 'queue-text' },
-              isKorean
-                ? `⚡ ${reservedSpot.toLocaleString('en-US')}명이 얼리 액세스 대기 중`
-                : `⚡ ${reservedSpot.toLocaleString('en-US')} in launch queue`
-            )
-          ),
           React.createElement('h3', { className: 'reservation-title' }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'),
           React.createElement('p', { className: 'reservation-subtitle' }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
 
@@ -716,7 +719,7 @@ function YieldCardWidget({
         ) : React.createElement('div', { className: 'yield-card-receipt animate-on-mount' },
           React.createElement('div', { className: 'receipt-badge-row' },
             React.createElement('div', { className: 'receipt-spot-badge' },
-              _t('yieldCard.spotNumber', reservedSpot) || `Waitlist Spot #${reservedSpot}`
+              _t('yieldCard.spotReserved') || 'Early Access Reserved'
             ),
             React.createElement('div', { className: 'receipt-alpha-pill' },
               _t('yieldCard.alphaUnlock') || '⚡ +1 Invite = Instant Alpha Access'
@@ -850,6 +853,21 @@ function YieldCardWidget({
           'aria-label': _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'
         }),
         React.createElement('div', { className: 'yield-card-presets' },
+          React.createElement('button', {
+            type: 'button',
+            className: `yield-preset-btn yield-preset-snap-btn${depositAmount === snapDeposit ? ' is-active' : ''}`,
+            onClick: () => {
+              setDepositAmount(snapDeposit);
+              setHasManuallyMovedSlider(true);
+              if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
+                Analytics.trackYieldCardSliderChange({
+                  pool,
+                  depositAmount: snapDeposit,
+                  monthlyYield: calculateMonthlyYield(snapDeposit, totalApy)
+                });
+              }
+            }
+          }, `✨ Auto-Cover ${selectedSub.name} ($${_formatNum(snapDeposit)})`),
           [300, 1000, 2000, 4000, 10000, 25000].map(amt =>
             React.createElement('button', {
               key: amt,
@@ -857,6 +875,7 @@ function YieldCardWidget({
               className: `yield-preset-btn${depositAmount === amt ? ' is-active' : ''}`,
               onClick: () => {
                 setDepositAmount(amt);
+                setHasManuallyMovedSlider(true);
                 if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
                   Analytics.trackYieldCardSliderChange({
                     pool,
