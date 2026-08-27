@@ -1721,28 +1721,6 @@ body {
   margin: 0;
   z-index: auto;
 }
-.app-header-controls .app-nav-home-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10px;
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-xs);
-  font-weight: 600;
-  color: var(--color-text-secondary);
-  text-decoration: none;
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-sm);
-  background: var(--color-background);
-  transition: all 0.15s ease;
-  min-width: 44px;
-  height: 38px;
-  box-sizing: border-box;
-}
-.app-header-controls .app-nav-home-btn:hover {
-  border-color: var(--ui-border-strong);
-  color: var(--color-primary);
-}
 /* Sub Intent Banner (Switch Pool from /for/<slug>) */
 .app-sub-intent-banner {
   display: flex;

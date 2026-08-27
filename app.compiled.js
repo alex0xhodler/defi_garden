@@ -3378,12 +3378,8 @@ function App() {
   // (the icon is aria-hidden, decorative).
   React.createElement('div', {
     className: 'app-logo',
-    onClick: function (e) {
-      if (currentView === 'search' && !selectedToken && !selectedChain && !searchInput && (!selectedPoolTypes || selectedPoolTypes.length === 0) && (!selectedProtocols || selectedProtocols.length === 0)) {
-        window.location.assign('/');
-        return;
-      }
-      resetApp();
+    onClick: function () {
+      window.location.assign('home.html');
     },
     'aria-label': 'DeFi Garden'
   }, React.createElement('span', {
@@ -3453,14 +3449,10 @@ function App() {
       }
     }
   }, '🔍'))),
-  // Controls (home, theme, language)
+  // Controls (theme, language)
   React.createElement('div', {
     className: 'app-header-controls'
-  }, React.createElement('a', {
-    className: 'app-control-btn app-nav-home-btn',
-    href: '/',
-    'aria-label': language === 'ko' ? '홈으로' : 'Home'
-  }, language === 'ko' ? '홈' : 'Home'), React.createElement('button', {
+  }, React.createElement('button', {
     className: 'app-control-btn language-toggle',
     onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
     'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
