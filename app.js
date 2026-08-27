@@ -1141,6 +1141,11 @@ function App() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
   const [error, setError] = useState('');
+  const [subParam, setSubParam] = useState(() => {
+    try {
+      return (typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('sub') : '') || '';
+    } catch (_) { return ''; }
+  });
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
@@ -1322,12 +1327,12 @@ function App() {
     if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
     if (minTvl > 0 && minTvl !== DEFAULT_MIN_TVL) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
+    if (subParam) params.set('sub', subParam);
 
     // Add language parameter if not English (default)
     if (language !== 'en') {
       params.set('lang', language);
     }
-
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
 
@@ -4079,6 +4084,21 @@ function App() {
       // Error State
       error && React.createElement('div', { className: 'error-state' },
         React.createElement('div', { className: 'error-message' }, error)
+      ),
+
+      // Intent Switch-Pool Banner (when visitor arrives from a /for/<slug> page)
+      subParam && (selectedToken || (chainMode && selectedChain) || deadPoolResolved) && React.createElement('div', { className: 'app-sub-intent-banner animate-on-mount' },
+        React.createElement('div', { className: 'intent-banner-content' },
+          React.createElement('span', { className: 'intent-banner-icon', 'aria-hidden': 'true' }, '🌱'),
+          React.createElement('div', { className: 'intent-banner-text' },
+            React.createElement('strong', null, language === 'ko' ? `${subParam.toUpperCase()} 카드 예치 볼트 선택 중` : `Selecting Vault for ${subParam.toUpperCase()} Card`),
+            React.createElement('span', null, language === 'ko' ? '아래 목록에서 원하는 풀을 선택하면 해당 구독이 자동 연결됩니다.' : 'Click any pool below to connect your subscription.')
+          )
+        ),
+        React.createElement('a', {
+          className: 'intent-banner-back-btn',
+          href: `/for/${subParam}`
+        }, language === 'ko' ? '← 원래 페이지로' : `← Back to /for/${subParam}`)
       ),
 
       // Results Section - show for both token mode and chain mode

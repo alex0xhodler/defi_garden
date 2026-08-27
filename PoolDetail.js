@@ -281,7 +281,41 @@ function YieldCardWidget({
   riskAssessment
 }) {
   const [depositAmount, setDepositAmount] = useState(4000);
-  const [selectedGoalId, setSelectedGoalId] = useState('codex_pro');
+  const [selectedGoalIds, setSelectedGoalIds] = useState(() => {
+    try {
+      if (typeof window !== 'undefined') {
+        const params = new URLSearchParams(window.location.search);
+        const subSlug = params.get('sub');
+        if (subSlug) {
+          const SUB_SLUG_MAP = {
+            'claude': 'claude_pro',
+            'cursor': 'cursor_pro',
+            'chatgpt': 'codex_pro',
+            'opencode': 'opencode_go',
+            'spotify': 'spotify',
+            'netflix': 'netflix',
+            'prime': 'prime_video',
+            'amazonprime': 'prime_video',
+            'telegram': 'telegram_prem',
+            'xbox': 'xbox',
+            'gamepass': 'xbox',
+            'openai': 'openai_api',
+            'aws': 'openai_api',
+            'baemin': 'baemin_club',
+            'naver': 'naver_plus',
+            'coupang': 'coupang_wow',
+            'melon': 'melon',
+            'tving': 'tving',
+            'youtube': 'youtube_kr'
+          };
+          const mapped = SUB_SLUG_MAP[subSlug.toLowerCase()] || subSlug;
+          return [mapped];
+        }
+      }
+    } catch (_) {}
+    return ['opencode_go'];
+  });
+  const selectedGoalId = selectedGoalIds[0] || 'opencode_go';
   const [email, setEmail] = useState('');
   const [validationError, setValidationError] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -337,23 +371,25 @@ function YieldCardWidget({
   ));
 
   const catalog = getYieldCardCatalog(isKorean ? 'ko' : 'en');
-  const selectedSub = catalog.find(i => i.id === selectedGoalId) || catalog[0];
+  const selectedSubs = catalog.filter(i => selectedGoalIds.includes(i.id));
+  const activeSubs = selectedSubs.length > 0 ? selectedSubs : [catalog.find(i => i.id === 'opencode_go') || catalog[0]];
+  const selectedSub = activeSubs[0];
   const monthlyYield = calculateMonthlyYield(depositAmount, totalApy);
 
-  const getSubTargetWithBuffer = (item) => {
-    if (!item) return 6.00;
-    return Number((item.monthlyCostUsd * 1.2).toFixed(2));
-  };
+  const totalMonthlyBase = activeSubs.reduce((sum, s) => sum + s.monthlyCostUsd, 0);
+  const totalMonthlyWithBuffer = activeSubs.reduce((sum, s) => sum + Number((s.monthlyCostUsd * 1.2).toFixed(2)), 0);
+  const totalMonthlyKrw = activeSubs.reduce((sum, s) => sum + (s.monthlyCostKrw || Math.round(s.monthlyCostUsd * 1380)), 0);
 
-  const getSubReqCapital = (item) => {
-    const target = getSubTargetWithBuffer(item);
-    const req = calculateRequiredCapital(target, totalApy);
-    return Number.isFinite(req) && req > 0 ? Math.max(300, Math.min(50000, Math.ceil(req / 50) * 50)) : 4000;
+  const getBundleReqCapital = (subs, apy) => {
+    if (!subs || subs.length === 0 || !apy || apy <= 0) return 4000;
+    const totalWithBuffer = subs.reduce((sum, s) => sum + Number((s.monthlyCostUsd * 1.2).toFixed(2)), 0);
+    const req = calculateRequiredCapital(totalWithBuffer, apy);
+    return Number.isFinite(req) && req > 0 ? Math.max(300, Math.min(100000, Math.ceil(req / 50) * 50)) : 4000;
   };
 
   const snapDeposit = React.useMemo(() => {
-    return getSubReqCapital(selectedSub);
-  }, [selectedSub, totalApy]);
+    return getBundleReqCapital(activeSubs, totalApy);
+  }, [activeSubs, totalApy]);
 
   const [hasManuallyMovedSlider, setHasManuallyMovedSlider] = useState(false);
 
@@ -387,26 +423,28 @@ function YieldCardWidget({
   };
 
   const handleCardClick = (item) => {
-    setSelectedGoalId(item.id);
-    const targetDeposit = getSubReqCapital(item);
+    let nextIds;
+    if (selectedGoalIds.includes(item.id)) {
+      if (selectedGoalIds.length > 1) {
+        nextIds = selectedGoalIds.filter(id => id !== item.id);
+      } else {
+        nextIds = selectedGoalIds;
+      }
+    } else {
+      nextIds = [...selectedGoalIds, item.id];
+    }
+    setSelectedGoalIds(nextIds);
+    const nextSubs = catalog.filter(i => nextIds.includes(i.id));
+    const targetDeposit = getBundleReqCapital(nextSubs, totalApy);
     setDepositAmount(targetDeposit);
     setHasManuallyMovedSlider(false);
-    if (typeof Analytics !== 'undefined') {
-      if (Analytics.trackYieldCardSliderChange) {
-        Analytics.trackYieldCardSliderChange({
-          pool,
-          depositAmount: targetDeposit,
-          monthlyYield: calculateMonthlyYield(targetDeposit, totalApy)
-        });
-      }
-      if (Analytics.trackYieldCardSubscriptionSelected) {
-        Analytics.trackYieldCardSubscriptionSelected({
-          pool,
-          goalId: item.id,
-          monthlyCost: item.monthlyCostUsd,
-          isCovered: true
-        });
-      }
+    if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSubscriptionSelected) {
+      Analytics.trackYieldCardSubscriptionSelected({
+        pool,
+        goalId: item.id,
+        monthlyCost: item.monthlyCostUsd,
+        isCovered: true
+      });
     }
   };
 
@@ -455,12 +493,13 @@ function YieldCardWidget({
           pool: `${pool.symbol || 'USDC'} (${pool.chain || 'DeFi'})`,
           pool_id: pool.pool || '',
           net_apy: `${Number(totalApy || 0).toFixed(2)}%`,
-          subscription: selectedSub.name,
-          monthly_cost: `$${selectedSub.monthlyCostUsd.toFixed(2)}`,
+          subscription: activeSubs.map(s => s.name).join(' + '),
+          subscription_count: activeSubs.length,
+          monthly_cost_usd: totalMonthlyBase,
+          monthly_cost_with_buffer_usd: totalMonthlyWithBuffer,
           deposit_simulated: `$${depositAmount}`,
-          _subject: `DeFi Garden Virtual Card Waitlist: ${trimmedEmail}`
+          _subject: `DeFi Garden Virtual Card Waitlist (${activeSubs.length} Subs): ${trimmedEmail}`
         };
-
         fetch('https://formspree.io/f/xzdqygjn', {
           method: 'POST',
           headers: {
@@ -655,12 +694,16 @@ function YieldCardWidget({
           React.createElement('div', { className: 'visa-card-center' },
             React.createElement('div', { className: 'visa-card-pan' }, '4242  ••••  ••••  8842'),
             React.createElement('div', { className: 'visa-card-label-sub' },
-              isKorean ? 'DEFI GARDEN • 가상 발급 전용' : 'DEFI GARDEN • VIRTUAL ISSUING'
+              activeSubs.length > 1
+                ? (isKorean ? `DEFI GARDEN • ${activeSubs.length}개 구독 통합` : `DEFI GARDEN • ${activeSubs.length} SUBS BUNDLE`)
+                : (isKorean ? `${selectedSub.id.toUpperCase()} • 가상 발급 전용` : `${selectedSub.id.toUpperCase()}-VAULT / AGENT-01`)
             ),
             React.createElement('div', { className: 'visa-card-funded-label' },
-              isKorean
-                ? `${selectedSub.name} ${(_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix')) || '결제 전용'}`
-                : `${selectedSub.name.toUpperCase()} ${(_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix')) || 'FUNDED'}`
+              activeSubs.length > 1
+                ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED`
+                : (isKorean
+                    ? `${selectedSub.name} ${(_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix')) || '결제 전용'}`
+                    : `${selectedSub.name.toUpperCase()} ${(_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix')) || 'FUNDED'}`)
             )
           ),
 
@@ -677,9 +720,9 @@ function YieldCardWidget({
             React.createElement('div', { className: 'visa-card-cap-badge' },
               renderLockIcon(),
               React.createElement('span', null,
-                isKorean && selectedSub.monthlyCostKrw
-                  ? (_t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}`)
-                  : (_t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`)
+                isKorean && totalMonthlyKrw
+                  ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}`
+                  : `CAP: $${totalMonthlyWithBuffer.toFixed(2)}/MO${activeSubs.length > 1 ? ` (${activeSubs.length} SUBS)` : ''}`
               )
             )
           )
@@ -727,7 +770,7 @@ function YieldCardWidget({
           ),
           React.createElement('h3', { className: 'receipt-title' }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'),
           React.createElement('div', { className: 'receipt-card-preview-chip' },
-            `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`
+            `${pool.symbol || 'USDC'} Yield Card • ${activeSubs.length > 1 ? `${activeSubs.map(s => s.name).join(' + ')} (${activeSubs.length} Subs)` : selectedSub.name} • ${isKorean && totalMonthlyKrw ? `₩${_formatNum(totalMonthlyKrw)}/mo` : `$${totalMonthlyBase.toFixed(2)}/mo`}`
           ),
 
           // Gamification Alpha Unlock Box
@@ -867,7 +910,7 @@ function YieldCardWidget({
                 });
               }
             }
-          }, `✨ Auto-Cover ${selectedSub.name} ($${_formatNum(snapDeposit)})`),
+          }, `✨ Auto-Cover ${activeSubs.length > 1 ? `Bundle (${activeSubs.length} Subs)` : selectedSub.name} ($${_formatNum(snapDeposit)})`),
           [300, 1000, 2000, 4000, 10000, 25000].map(amt =>
             React.createElement('button', {
               key: amt,
@@ -895,16 +938,17 @@ function YieldCardWidget({
       React.createElement('div', { className: 'yield-card-grid' },
         catalog.map(item => {
           const isCovered = isRungCovered(monthlyYield, item.monthlyCostUsd);
-          const isSelected = selectedGoalId === item.id;
-          const reqCap = calculateRequiredCapital(item.monthlyCostUsd, totalApy);
+          const isSelected = selectedGoalIds.includes(item.id);
+          const reqCap = calculateRequiredCapital(item.monthlyCostUsd * 1.2, totalApy);
 
           return React.createElement('div', {
             key: item.id,
             className: `yield-card-item ${isCovered ? 'is-covered' : 'is-locked'}${isSelected ? ' is-selected' : ''}`,
             'data-goal-id': item.id,
-            onClick: () => handleCardClick(item, isCovered, reqCap)
+            onClick: () => handleCardClick(item)
           },
             React.createElement('div', { className: 'yield-card-item-top' },
+              isSelected && React.createElement('span', { className: 'yield-card-selected-badge' }, '✓'),
               React.createElement('img', {
                 className: 'yield-card-brand-icon',
                 src: `https://www.google.com/s2/favicons?domain=${item.domain}&sz=64`,

@@ -1743,6 +1743,65 @@ body {
   border-color: var(--ui-border-strong);
   color: var(--color-primary);
 }
+/* Sub Intent Banner (Switch Pool from /for/<slug>) */
+.app-sub-intent-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--ui-surface-muted, #16211A);
+  border: 1px solid var(--ui-accent, #7CC9A0);
+  border-radius: var(--ui-radius-md, 8px);
+  padding: 12px 18px;
+  margin: 16px auto 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 16px rgba(124, 201, 160, 0.12);
+}
+.intent-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.intent-banner-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.intent-banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: var(--font-size-sm, 13px);
+  color: var(--color-text);
+}
+.intent-banner-text strong {
+  color: var(--color-primary);
+  font-size: var(--font-size-base, 14px);
+}
+.intent-banner-back-btn {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs, 12px);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border: 1px solid var(--ui-border);
+  padding: 6px 12px;
+  border-radius: var(--ui-radius-sm, 4px);
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+.intent-banner-back-btn:hover {
+  border-color: var(--ui-accent);
+  color: var(--color-primary);
+}
+@media (max-width: 600px) {
+  .app-sub-intent-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
 
 /* Backlog 222, third strand: even with the header's own theme/language
    buttons back in flow (the reset above), the header ROW itself had no
