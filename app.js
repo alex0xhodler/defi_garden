@@ -1143,7 +1143,11 @@ function App() {
   const [error, setError] = useState('');
   const [subParam, setSubParam] = useState(() => {
     try {
-      return (typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('sub') : '') || '';
+      const sp = (typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('sub') : '') || '';
+      if (sp && typeof sessionStorage !== 'undefined') {
+        sessionStorage.setItem('defi_garden_selected_sub', sp);
+      }
+      return sp || (typeof sessionStorage !== 'undefined' ? sessionStorage.getItem('defi_garden_selected_sub') : '') || '';
     } catch (_) { return ''; }
   });
   const [showAutocomplete, setShowAutocomplete] = useState(false);
@@ -3501,6 +3505,7 @@ function App() {
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
           pool: detailPool,
+          sub: subParam,
           onBack: handleBackFromDetail,
           calculateYields: calculateYields,
           futureValue: futureValue,

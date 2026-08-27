@@ -646,9 +646,59 @@ function renderVisaSvg() {
     d: 'M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z'
   }));
 }
+var SUB_SLUG_MAP = {
+  'claude': 'claude',
+  'claude_pro': 'claude',
+  'cursor': 'cursor',
+  'cursor_pro': 'cursor',
+  'chatgpt': 'chatgpt',
+  'codex_pro': 'chatgpt',
+  'spotify': 'spotify',
+  'netflix': 'netflix',
+  'amazonprime': 'amazonprime',
+  'prime': 'amazonprime',
+  'prime_video': 'amazonprime',
+  'opencode': 'opencode_go',
+  'opencode_go': 'opencode_go',
+  'aws': 'aws',
+  'openai_api': 'aws',
+  'github': 'github',
+  'youtube': 'youtube',
+  'youtube_kr': 'youtube',
+  'disney': 'disney',
+  'max': 'max',
+  'hulu': 'hulu',
+  'appletv': 'appletv',
+  'gamepass': 'gamepass',
+  'xbox': 'gamepass',
+  'paramount': 'paramount',
+  'peacock': 'peacock',
+  'doordash': 'doordash',
+  'uber': 'uber',
+  'audible': 'audible',
+  'walmart': 'walmart'
+};
+function resolveInitialSub(propsSub) {
+  try {
+    var subSlug = propsSub || null;
+    if (!subSlug && typeof window !== 'undefined') {
+      var params = new URLSearchParams(window.location.search);
+      subSlug = params.get('sub');
+      if (!subSlug && typeof sessionStorage !== 'undefined') {
+        subSlug = sessionStorage.getItem('defi_garden_selected_sub');
+      }
+    }
+    if (subSlug) {
+      var mapped = SUB_SLUG_MAP[String(subSlug).toLowerCase()] || subSlug;
+      return mapped;
+    }
+  } catch (_) {}
+  return 'claude';
+}
 function YieldCardWidget({
   pool,
   totalApy,
+  sub,
   t,
   formatCurrency,
   formatUsd,
@@ -657,41 +707,14 @@ function YieldCardWidget({
   riskAssessment
 }) {
   var [depositAmount, setDepositAmount] = useState(4000);
-  var [selectedGoalIds, setSelectedGoalIds] = useState(() => {
-    try {
-      if (typeof window !== 'undefined') {
-        var params = new URLSearchParams(window.location.search);
-        var subSlug = params.get('sub');
-        if (subSlug) {
-          var SUB_SLUG_MAP = {
-            'claude': 'claude_pro',
-            'cursor': 'cursor_pro',
-            'chatgpt': 'codex_pro',
-            'opencode': 'opencode_go',
-            'spotify': 'spotify',
-            'netflix': 'netflix',
-            'prime': 'prime_video',
-            'amazonprime': 'prime_video',
-            'telegram': 'telegram_prem',
-            'xbox': 'xbox',
-            'gamepass': 'xbox',
-            'openai': 'openai_api',
-            'aws': 'openai_api',
-            'baemin': 'baemin_club',
-            'naver': 'naver_plus',
-            'coupang': 'coupang_wow',
-            'melon': 'melon',
-            'tving': 'tving',
-            'youtube': 'youtube_kr'
-          };
-          var mapped = SUB_SLUG_MAP[subSlug.toLowerCase()] || subSlug;
-          return [mapped];
-        }
-      }
-    } catch (_) {}
-    return ['opencode_go'];
-  });
-  var selectedGoalId = selectedGoalIds[0] || 'opencode_go';
+  var [selectedGoalIds, setSelectedGoalIds] = useState(() => [resolveInitialSub(sub)]);
+  useEffect(() => {
+    if (sub) {
+      var targetSub = resolveInitialSub(sub);
+      setSelectedGoalIds([targetSub]);
+    }
+  }, [sub]);
+  var selectedGoalId = selectedGoalIds[0] || 'claude';
   var [email, setEmail] = useState('');
   var [validationError, setValidationError] = useState('');
   var [isSubmitted, setIsSubmitted] = useState(false);
@@ -1420,6 +1443,7 @@ function renderChevronIcon() {
 }
 function PoolDetail({
   pool,
+  sub,
   onBack,
   calculateYields,
   futureValue,
@@ -1916,6 +1940,7 @@ function PoolDetail({
   React.createElement(YieldCardWidget, {
     pool: pool,
     totalApy: totalApy,
+    sub: sub,
     t: t,
     formatCurrency: formatCurrency,
     formatUsd: _formatUsd,

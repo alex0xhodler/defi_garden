@@ -293,9 +293,61 @@ function renderVisaSvg() {
   );
 }
 
+const SUB_SLUG_MAP = {
+  'claude': 'claude',
+  'claude_pro': 'claude',
+  'cursor': 'cursor',
+  'cursor_pro': 'cursor',
+  'chatgpt': 'chatgpt',
+  'codex_pro': 'chatgpt',
+  'spotify': 'spotify',
+  'netflix': 'netflix',
+  'amazonprime': 'amazonprime',
+  'prime': 'amazonprime',
+  'prime_video': 'amazonprime',
+  'opencode': 'opencode_go',
+  'opencode_go': 'opencode_go',
+  'aws': 'aws',
+  'openai_api': 'aws',
+  'github': 'github',
+  'youtube': 'youtube',
+  'youtube_kr': 'youtube',
+  'disney': 'disney',
+  'max': 'max',
+  'hulu': 'hulu',
+  'appletv': 'appletv',
+  'gamepass': 'gamepass',
+  'xbox': 'gamepass',
+  'paramount': 'paramount',
+  'peacock': 'peacock',
+  'doordash': 'doordash',
+  'uber': 'uber',
+  'audible': 'audible',
+  'walmart': 'walmart'
+};
+
+function resolveInitialSub(propsSub) {
+  try {
+    let subSlug = propsSub || null;
+    if (!subSlug && typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      subSlug = params.get('sub');
+      if (!subSlug && typeof sessionStorage !== 'undefined') {
+        subSlug = sessionStorage.getItem('defi_garden_selected_sub');
+      }
+    }
+    if (subSlug) {
+      const mapped = SUB_SLUG_MAP[String(subSlug).toLowerCase()] || subSlug;
+      return mapped;
+    }
+  } catch (_) {}
+  return 'claude';
+}
+
 function YieldCardWidget({
   pool,
   totalApy,
+  sub,
   t,
   formatCurrency,
   formatUsd,
@@ -304,41 +356,16 @@ function YieldCardWidget({
   riskAssessment
 }) {
   const [depositAmount, setDepositAmount] = useState(4000);
-  const [selectedGoalIds, setSelectedGoalIds] = useState(() => {
-    try {
-      if (typeof window !== 'undefined') {
-        const params = new URLSearchParams(window.location.search);
-        const subSlug = params.get('sub');
-        if (subSlug) {
-          const SUB_SLUG_MAP = {
-            'claude': 'claude_pro',
-            'cursor': 'cursor_pro',
-            'chatgpt': 'codex_pro',
-            'opencode': 'opencode_go',
-            'spotify': 'spotify',
-            'netflix': 'netflix',
-            'prime': 'prime_video',
-            'amazonprime': 'prime_video',
-            'telegram': 'telegram_prem',
-            'xbox': 'xbox',
-            'gamepass': 'xbox',
-            'openai': 'openai_api',
-            'aws': 'openai_api',
-            'baemin': 'baemin_club',
-            'naver': 'naver_plus',
-            'coupang': 'coupang_wow',
-            'melon': 'melon',
-            'tving': 'tving',
-            'youtube': 'youtube_kr'
-          };
-          const mapped = SUB_SLUG_MAP[subSlug.toLowerCase()] || subSlug;
-          return [mapped];
-        }
-      }
-    } catch (_) {}
-    return ['opencode_go'];
-  });
-  const selectedGoalId = selectedGoalIds[0] || 'opencode_go';
+  const [selectedGoalIds, setSelectedGoalIds] = useState(() => [resolveInitialSub(sub)]);
+
+  useEffect(() => {
+    if (sub) {
+      const targetSub = resolveInitialSub(sub);
+      setSelectedGoalIds([targetSub]);
+    }
+  }, [sub]);
+
+  const selectedGoalId = selectedGoalIds[0] || 'claude';
   const [email, setEmail] = useState('');
   const [validationError, setValidationError] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -1154,6 +1181,7 @@ function renderChevronIcon() {
 
 function PoolDetail({
   pool,
+  sub,
   onBack,
   calculateYields,
   futureValue,
@@ -1677,6 +1705,7 @@ function PoolDetail({
     React.createElement(YieldCardWidget, {
       pool: pool,
       totalApy: totalApy,
+      sub: sub,
       t: t,
       formatCurrency: formatCurrency,
       formatUsd: _formatUsd,
