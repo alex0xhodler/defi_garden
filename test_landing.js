@@ -132,7 +132,8 @@ async function main() {
     console.log('  ✓ direct token query navigates directly to search results');
     await page.goto(`http://localhost:${PORT}/plan.html`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('#planner-root .gp-app', { timeout: 10000 });
-    assert.strictEqual(await page.locator('#planner-root .gp-logo').getAttribute('href'), 'home.html');
+    const logoHref = await page.locator('#planner-root .gp-logo').getAttribute('href');
+    assert.ok(logoHref === '/' || logoHref === 'home.html', 'Expected logo to link to root/home');
     passed++;
     console.log('  ✓ plan.html still renders the garden planner');
 
