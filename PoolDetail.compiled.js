@@ -1703,20 +1703,6 @@ function PoolDetail({
   }, t ? t('calcSubPrompt') : 'See your daily, weekly & monthly returns')), React.createElement('div', {
     className: 'calculator-toggle'
   }, renderChevronIcon())),
-  // Collapsed action row — quick scroll to the Yield-Funded Virtual Card terminal
-  !calculatorExpanded && React.createElement('div', {
-    className: 'calc-collapsed-action-row'
-  }, React.createElement('button', {
-    type: 'button',
-    className: 'calc-scroll-up-btn',
-    onClick: e => {
-      e.stopPropagation();
-      var el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
-      if (el) el.scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
-  }, '↑ Explore Yield-Funded Virtual Card')),
   // Expanded Calculator Content
   calculatorExpanded && React.createElement('div', {
     className: 'calculator-content',
