@@ -1,10 +1,10 @@
 # GNS DeFi Yields
 
-The highest honest GNS yield right now is 3.09% on camelot-v3 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNS yield right now is 2.10% on camelot-v3 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 3.09% | $257K |
+| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 2.10% | $255.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GNS shows up in 1 pools here, with rates from 3.09% to 3.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GNS shows up in 1 pools here, with rates from 2.10% to 2.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 9.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 9.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| camelot-v3 | 3.09% | 9.74% | Base rate |
+| camelot-v3 | 2.10% | 9.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GNS yield today?
 
-3.09% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+2.10% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many GNS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.15M in total.
+4 live pools clear this page's $100K TVL floor, $3.12M in total.
 
 ### Are these rates safe?
 
@@ -49,8 +49,8 @@ There is not enough qualifying APY history to rank GNS pools. This view covers A
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank GNS pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

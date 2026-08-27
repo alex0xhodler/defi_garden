@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank AEURC pools. This view covers
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
-- [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ADOT](https://www.defi.garden/tokens/adot)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

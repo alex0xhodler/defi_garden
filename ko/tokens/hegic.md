@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 6.58%예�
 
 ### HEGIC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.39M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,8 +49,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 6.58%예�
 
 ## 관련 토큰
 
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 6.58%예�
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 26, 2026
+## 마지막 업데이트: August 27, 2026

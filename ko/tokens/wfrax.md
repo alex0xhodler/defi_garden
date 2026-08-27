@@ -1,33 +1,33 @@
 # WFRAX 디파이 수익률
 
-현재 WFRAX의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 33.19%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WFRAX의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 32.78%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.16% | $2M |
-| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 21.95% | $146.7K |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.05% | $132K |
-| [stake-dao →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 33.19% | $102.8K |
+| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.17% | $2.07M |
+| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 22.85% | $150.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.06% | $138.5K |
+| [stake-dao →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 32.78% | $102.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WFRAX의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.05%, TVL $132K, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; Ethereum의 frax, APY 0.16%, TVL $2M, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; Fraxtal의 curve-dex, APY 21.95%, TVL $146.7K, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token; Fraxtal의 stake-dao, APY 33.19%, TVL $102.8K, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WFRAX의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $138.5K, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; Ethereum의 frax, APY 0.17%, TVL $2.07M, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; Fraxtal의 curve-dex, APY 22.85%, TVL $150.7K, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token; Fraxtal의 stake-dao, APY 32.78%, TVL $102.7K, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.05% | $132K |
-| 2 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.16% | $2M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 21.95% | $146.7K |
-| 4 | [stake-dao →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 33.19% | $102.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.06% | $138.5K |
+| 2 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.17% | $2.07M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 22.85% | $150.7K |
+| 4 | [stake-dao →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 32.78% | $102.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WFRAX 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.05%부터 33.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WFRAX 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.06%부터 32.78%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.09%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,10 +35,10 @@ WFRAX 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.05%부터 33.19%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| frax | 0.16% | 0.52% | 기본 금리 |
-| curve-dex | 21.95% | 29.66% | 인센티브 96.17% |
-| curve-dex | 0.05% | 0.07% | 기본 금리 |
-| stake-dao | 33.19% | 44.68% | 인센티브 91.59% |
+| frax | 0.17% | 0.46% | 기본 금리 |
+| curve-dex | 22.85% | 29.61% | 인센티브 94.70% |
+| curve-dex | 0.06% | 0.07% | 기본 금리 |
+| stake-dao | 32.78% | 44.54% | 인센티브 91.49% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ WFRAX 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.05%부터 33.19%�
 
 ### 오늘 WFRAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 33.19%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 32.78%예요.
 
 ### WFRAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $2.8M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $2.88M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 33.19%예�
 
 ### WFRAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WFRAX의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.05%, TVL $132K, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; Ethereum의 frax, APY 0.16%, TVL $2M, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; Fraxtal의 curve-dex, APY 21.95%, TVL $146.7K, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token; Fraxtal의 stake-dao, APY 33.19%, TVL $102.8K, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WFRAX의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $138.5K, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; Ethereum의 frax, APY 0.17%, TVL $2.07M, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; Fraxtal의 curve-dex, APY 22.85%, TVL $150.7K, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token; Fraxtal의 stake-dao, APY 32.78%, TVL $102.7K, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 WFRAX의 변동성 낮은 후보는 Ethereu
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/ko/chains/fraxtal)
 
-## 마지막 업데이트: August 26, 2026
+## 마지막 업데이트: August 27, 2026

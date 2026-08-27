@@ -1,10 +1,10 @@
 # CHI DeFi Yields
 
-The highest honest CHI yield right now is 356.75% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHI yield right now is 374.10% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=ce0d8283-c258-42dc-b744-29486ed9441c&src=seo_token) | OP Mainnet | 356.75% | $172.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=ce0d8283-c258-42dc-b744-29486ed9441c&src=seo_token) | OP Mainnet | 374.10% | $172.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CHI shows up in 1 pools here, with rates from 356.75% to 356.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CHI shows up in 1 pools here, with rates from 374.10% to 374.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 295.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 298.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ CHI shows up in 1 pools here, with rates from 356.75% to 356.75% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 356.75% | 295.80% | 100.00% incentives |
+| velodrome-v2 | 374.10% | 298.07% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CHI yield today?
 
-356.75% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+374.10% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many CHI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $311K in total.
+2 live pools clear this page's $100K TVL floor, $313.2K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CHI pools. This view covers A
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

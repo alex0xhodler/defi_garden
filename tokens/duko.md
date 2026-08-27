@@ -1,10 +1,10 @@
 # DUKO DeFi Yields
 
-The highest honest DUKO yield right now is 2.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUKO yield right now is 1.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=870cb804-842a-467e-9fbc-71857ab30b74&src=seo_token) | Solana | 2.48% | $156.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=870cb804-842a-467e-9fbc-71857ab30b74&src=seo_token) | Solana | 1.06% | $156.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUKO yield today?
 
-2.48% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.06% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DUKO pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DUKO pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

@@ -1,10 +1,10 @@
 # MOR DeFi Yields
 
-The highest honest MOR yield right now is 0.80% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOR yield right now is 0.81% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 0.80% | $1.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 0.81% | $1.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOR yield today?
 
-0.80% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.81% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many MOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.25M in total.
+1 live pool clear this page's $100K TVL floor, $1.26M in total.
 
 ### Are these rates safe?
 
@@ -33,8 +33,8 @@ There is not enough qualifying APY history to rank MOR pools. This view covers A
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOR pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

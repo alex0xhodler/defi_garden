@@ -1,12 +1,12 @@
 # GTWETHB — morpho-blue on Ethereum
 
-**Total APY:** 1.73% (1.73% Base · + 0.00% Rewards)
+**Total APY:** 1.72% (1.72% Base · + 0.00% Rewards)
 
-**TVL:** $1.27M
+**TVL:** $1.29M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 1.86%
+**30d Mean APY:** 1.87%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 26, 2026
+Last updated August 27, 2026

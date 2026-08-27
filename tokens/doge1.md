@@ -1,10 +1,10 @@
 # DOGE1 DeFi Yields
 
-The highest honest DOGE1 yield right now is 10.33% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGE1 yield right now is 1.47% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f8a4b9a4-74e4-4070-ba82-017974358c19&src=seo_token) | Ethereum | 10.33% | $122.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f8a4b9a4-74e4-4070-ba82-017974358c19&src=seo_token) | Ethereum | 1.47% | $124.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOGE1 yield today?
 
-10.33% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.47% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DOGE1 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.9K in total.
+1 live pool clear this page's $100K TVL floor, $124.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DOGE1 pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

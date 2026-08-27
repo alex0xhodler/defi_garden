@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.17%�
 - [APYUSD](https://www.defi.garden/ko/tokens/apyusd)
 - [GETH](https://www.defi.garden/ko/tokens/geth)
 - [VDOT](https://www.defi.garden/ko/tokens/vdot)
-- [HOLLAR](https://www.defi.garden/ko/tokens/hollar)
+- [ADOT](https://www.defi.garden/ko/tokens/adot)
 
 ## 이용 가능한 체인
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: August 26, 2026
+## 마지막 업데이트: August 27, 2026

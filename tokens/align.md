@@ -4,7 +4,7 @@ The highest honest ALIGN yield right now is 9.00% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 597.49% | $241.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 234.20% | $246.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=7cdc4785-7fff-54d8-89f4-a553396125df&src=seo_token) | Ethereum | 9.00% | $103.1K |
 
 <!-- rate-stability:insufficient -->
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ALIGN shows up in 2 pools here, with rates from 9.00% to 597.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALIGN shows up in 2 pools here, with rates from 9.00% to 234.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 2 pools has a trustworthy 30-day average on file, with a median of 9.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ ALIGN shows up in 2 pools here, with rates from 9.00% to 597.49% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 597.49% | — | 100.00% incentives |
+| aerodrome-slipstream | 234.20% | — | 100.00% incentives |
 | uniswap-v4 | 9.00% | 9.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALIGN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $520.2K in total.
+3 live pools clear this page's $100K TVL floor, $525.2K in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank ALIGN pools. This view covers
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

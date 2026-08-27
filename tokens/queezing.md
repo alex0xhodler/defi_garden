@@ -1,10 +1,10 @@
 # QUEEZING DeFi Yields
 
-The highest honest QUEEZING yield right now is 162.77% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUEEZING yield right now is 179.36% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=de5ff42c-7750-5d7e-a7ac-17e3d95e44be&src=seo_token) | Base | 162.77% | $234.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=de5ff42c-7750-5d7e-a7ac-17e3d95e44be&src=seo_token) | Base | 179.36% | $228.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QUEEZING yield today?
 
-162.77% APY on uniswap-v4 (Base), based on live DefiLlama data.
+179.36% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many QUEEZING pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $234.4K in total.
+1 live pool clear this page's $100K TVL floor, $228.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QUEEZING pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

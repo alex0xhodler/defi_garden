@@ -1,10 +1,10 @@
 # AMMVUSDC DeFi Yields
 
-The highest honest AMMVUSDC yield right now is 32.18% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMMVUSDC yield right now is 25.19% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63&src=seo_token) | Ethereum | 32.18% | $132.8K |
+| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63&src=seo_token) | Ethereum | 25.19% | $133.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMMVUSDC yield today?
 
-32.18% APY on lagoon (Ethereum), based on live DefiLlama data.
+25.19% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many AMMVUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.8K in total.
+1 live pool clear this page's $100K TVL floor, $133.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AMMVUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

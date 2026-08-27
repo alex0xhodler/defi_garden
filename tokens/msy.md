@@ -1,10 +1,10 @@
 # MSY DeFi Yields
 
-The highest honest MSY yield right now is 3.64% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSY yield right now is 3.62% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=183f122a-00c3-415c-8485-062fecf1d24f&src=seo_token) | Ethereum | 3.64% | $115.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=183f122a-00c3-415c-8485-062fecf1d24f&src=seo_token) | Ethereum | 3.62% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSY yield today?
 
-3.64% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+3.62% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MSY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.1K in total.
+1 live pool clear this page's $100K TVL floor, $109.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MSY pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

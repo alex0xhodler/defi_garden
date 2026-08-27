@@ -4,7 +4,7 @@ The highest honest ARPA yield right now is 3.99% on arpa-staking (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [arpa-staking →](https://www.defi.garden/?pool=cfec34a2-249d-4037-bdf3-a861c8673580&src=seo_token) | Ethereum | 3.99% | $230.2K |
+| [arpa-staking →](https://www.defi.garden/?pool=cfec34a2-249d-4037-bdf3-a861c8673580&src=seo_token) | Ethereum | 3.99% | $231.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARPA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $230.2K in total.
+1 live pool clear this page's $100K TVL floor, $231.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ARPA pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

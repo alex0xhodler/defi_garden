@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PEPETO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $761.6K in total.
+3 live pools clear this page's $100K TVL floor, $765.2K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank PEPETO pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

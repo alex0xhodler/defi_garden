@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SLNUSDT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

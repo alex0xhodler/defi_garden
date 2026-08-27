@@ -1,12 +1,12 @@
 # YMVOG-VBUSDT — morpho-blue on Katana
 
-**Total APY:** 3.64% (3.31% Base · + 0.33% Rewards)
+**Total APY:** 3.64% (3.34% Base · + 0.30% Rewards)
 
-**TVL:** $1.55M
+**TVL:** $1.56M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 4.15%
+**30d Mean APY:** 3.99%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 26, 2026
+Last updated August 27, 2026

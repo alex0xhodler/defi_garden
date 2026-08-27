@@ -1,10 +1,10 @@
 # HEU DeFi Yields
 
-The highest honest HEU yield right now is 4.01% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEU yield right now is 0.33% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=02954d79-f24b-5b7d-93ee-4d7161f29690&src=seo_token) | Base | 4.01% | $109.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02954d79-f24b-5b7d-93ee-4d7161f29690&src=seo_token) | Base | 0.33% | $108.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEU yield today?
 
-4.01% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many HEU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.9K in total.
+1 live pool clear this page's $100K TVL floor, $108.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HEU pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WHT pools. This view covers A
 
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

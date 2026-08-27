@@ -1,10 +1,10 @@
 # CLAWDICT DeFi Yields
 
-The highest honest CLAWDICT yield right now is 0.08% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWDICT yield right now is 0.03% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c528bf09-320d-49f2-bd4f-3ca20e464388&src=seo_token) | Base | 0.08% | $116.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c528bf09-320d-49f2-bd4f-3ca20e464388&src=seo_token) | Base | 0.03% | $118.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWDICT yield today?
 
-0.08% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWDICT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.7K in total.
+1 live pool clear this page's $100K TVL floor, $118.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CLAWDICT pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XCDOT](https://www.defi.garden/tokens/xcdot)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

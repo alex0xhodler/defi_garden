@@ -1,10 +1,10 @@
 # CLAWD 디파이 수익률
 
-현재 CLAWD의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 11.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CLAWD의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 31.20%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1683ae68-ff16-4fcf-823b-0ffc6f87d601&src=seo_token) | Base | 11.13% | $943K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1683ae68-ff16-4fcf-823b-0ffc6f87d601&src=seo_token) | Base | 31.20% | $960.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CLAWD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 11.13%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 31.20%예요.
 
 ### CLAWD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $943K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $960.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 11.13%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 26, 2026
+## 마지막 업데이트: August 27, 2026

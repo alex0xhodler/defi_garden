@@ -1,10 +1,10 @@
 # CATE DeFi Yields
 
-The highest honest CATE yield right now is 17.24% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATE yield right now is 13.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 17.24% | $113.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 13.01% | $108.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CATE yield today?
 
-17.24% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+13.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CATE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.7K in total.
+1 live pool clear this page's $100K TVL floor, $108.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CATE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

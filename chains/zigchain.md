@@ -1,12 +1,13 @@
 # ZIGChain DeFi Yields
 
-The highest honest ZIGChain yield right now is 14.44% on nawa-protocol (ZIGChain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZIGChain yield right now is 38.83% on permapod (ZIGChain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.85% | $8.36M |
-| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 14.44% | $3.43M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 4.92% | $8.33M |
+| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 7.11% | $3.43M |
 | ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.4M |
+| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 38.83% | $186.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZIGChain yield today?
 
-14.44% APY on nawa-protocol (ZIGChain), based on live DefiLlama data.
+38.83% APY on permapod (ZIGChain), based on live DefiLlama data.
 
 ### How many ZIGChain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.05M in total.
+5 live pools clear this page's $100K TVL floor, $14.21M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [ZIG](https://www.defi.garden/tokens/zig)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NOTE](https://www.defi.garden/tokens/note)
 - [WCANTO](https://www.defi.garden/tokens/wcanto)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

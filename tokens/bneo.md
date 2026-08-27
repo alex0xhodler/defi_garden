@@ -1,10 +1,10 @@
 # BNEO DeFi Yields
 
-The highest honest BNEO yield right now is 5.34% on flamingo-finance (Neo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNEO yield right now is 5.29% on flamingo-finance (Neo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [flamingo-finance →](https://www.defi.garden/?pool=1cbf99d6-acbd-4dd1-a4e0-140259a09ee9&src=seo_token) | Neo | 5.34% | $104.8K |
+| [flamingo-finance →](https://www.defi.garden/?pool=1cbf99d6-acbd-4dd1-a4e0-140259a09ee9&src=seo_token) | Neo | 5.29% | $108.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BNEO yield today?
 
-5.34% APY on flamingo-finance (Neo), based on live DefiLlama data.
+5.29% APY on flamingo-finance (Neo), based on live DefiLlama data.
 
 ### How many BNEO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.8K in total.
+1 live pool clear this page's $100K TVL floor, $108.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BNEO pools. This view covers 
 
 - [Neo](https://www.defi.garden/chains/neo)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

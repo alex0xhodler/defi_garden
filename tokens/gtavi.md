@@ -1,10 +1,11 @@
 # GTAVI DeFi Yields
 
-The highest honest GTAVI yield right now is 0.58% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTAVI yield right now is 78.48% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9127de99-7fbc-5e6f-a08e-f235226046d9&src=seo_token) | Ethereum | 0.58% | $254.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9127de99-7fbc-5e6f-a08e-f235226046d9&src=seo_token) | Ethereum | 18.94% | $259K |
+| [raydium-amm →](https://www.defi.garden/?pool=801ba4c9-74fe-5c12-a254-2e0ed1766088&src=seo_token) | Solana | 78.48% | $136.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -13,15 +14,32 @@ There is not enough qualifying APY history to rank GTAVI pools. This view covers
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
+## How this rate has behaved
+
+GTAVI shows up in 2 pools here, with rates from 18.94% to 78.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 44.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| uniswap-v2 | 18.94% | 9.13% | Base rate |
+| raydium-amm | 78.48% | 80.65% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
+
 ## Frequently asked questions
 
 ### What's the highest GTAVI yield today?
 
-0.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+78.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GTAVI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $254.3K in total.
+2 live pools clear this page's $100K TVL floor, $395.8K in total.
 
 ### Are these rates safe?
 
@@ -43,5 +61,6 @@ There is not enough qualifying APY history to rank GTAVI pools. This view covers
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

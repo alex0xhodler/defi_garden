@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BDAG pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.96M in total.
+4 live pools clear this page's $100K TVL floor, $4.97M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank BDAG pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

@@ -1,10 +1,10 @@
 # HAPPY DeFi Yields
 
-The highest honest HAPPY yield right now is 3.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAPPY yield right now is 3.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=16bb4bf6-e3ee-4aef-b34d-6ae00d19c4d1&src=seo_token) | Solana | 3.94% | $114.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=16bb4bf6-e3ee-4aef-b34d-6ae00d19c4d1&src=seo_token) | Solana | 3.69% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HAPPY yield today?
 
-3.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HAPPY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $118.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HAPPY pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

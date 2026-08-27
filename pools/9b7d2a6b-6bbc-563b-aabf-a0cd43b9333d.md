@@ -1,12 +1,12 @@
 # FRXUSD-SGHO — convex-finance on Ethereum
 
-**Total APY:** 8.65% (3.21% Base · + 5.44% Rewards)
+**Total APY:** 8.65% (3.13% Base · + 5.52% Rewards)
 
-**TVL:** $164.5K
+**TVL:** $166.6K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 7.62%
+**30d Mean APY:** 7.68%
 
 **Exposure:** multi
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated August 26, 2026
+Last updated August 27, 2026

@@ -1,10 +1,10 @@
 # DINAR DeFi Yields
 
-The highest honest DINAR yield right now is 13.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DINAR yield right now is 40.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a1b179f7-e9a1-5892-a15a-6120a7b077b0&src=seo_token) | Solana | 13.73% | $161.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=a1b179f7-e9a1-5892-a15a-6120a7b077b0&src=seo_token) | Solana | 40.63% | $169.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DINAR yield today?
 
-13.73% APY on raydium-amm (Solana), based on live DefiLlama data.
+40.63% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DINAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.8K in total.
+1 live pool clear this page's $100K TVL floor, $169.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DINAR pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026

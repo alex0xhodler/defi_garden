@@ -1,10 +1,10 @@
 # XAVA DeFi Yields
 
-The highest honest XAVA yield right now is 3.98% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAVA yield right now is 12.69% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [joe-v2.2 →](https://www.defi.garden/?pool=7a7dab1c-1504-492f-bdf8-6cc48ff93744&src=seo_token) | Avalanche | 3.98% | $115.8K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=7a7dab1c-1504-492f-bdf8-6cc48ff93744&src=seo_token) | Avalanche | 12.69% | $115.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAVA yield today?
 
-3.98% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+12.69% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many XAVA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.8K in total.
+1 live pool clear this page's $100K TVL floor, $115.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XAVA pools. This view covers 
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 26, 2026
+## Last updated August 27, 2026
