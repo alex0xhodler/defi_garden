@@ -56,7 +56,7 @@
       "technical_spec": {
         "input_file": "defi_garden/docs/v2-intent-framework/staged_b2b_treasury_leads.json",
         "outbound_script": "defi_garden/scripts/b2b_treasury_voucher_engine.py",
-        "safe_app_manifest": "defi_garden/public/safe-manifest.json",
+        "safe_app_manifest": "defi_garden/safe-manifest.json",
         "target_channels": [
           "Warpcast API",
           "Telegram direct message",
@@ -72,7 +72,7 @@
         "4. Lead engagement and voucher clicks are logged to `defi_garden/state/pipeline_receipts.jsonl` with UTM parameters."
       ],
       "definition_of_done": [
-        "File `defi_garden/public/safe-manifest.json` committed and validated against Safe App JSON schema.",
+        "File `defi_garden/safe-manifest.json` committed and validated against Safe App JSON schema.",
         "Receipt logged to `defi_garden/state/pipeline_receipts.jsonl` with status `DISPATCH_EXECUTED`.",
         "Integration test passing: `PYTHONPATH=. pytest tests/test_b2b_treasury_voucher.py`."
       ],
