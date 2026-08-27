@@ -34,149 +34,363 @@ function isStableSymbol(symbol) {
   return parts.every(p => STABLE_SYMBOLS.includes(p));
 }
 var YIELD_CARD_CATALOG_KR = [{
-  id: 'baemin_club',
-  name: '배민클럽 (배달의민족)',
-  monthlyCostKrw: 3990,
-  monthlyCostUsd: 2.95,
-  domain: 'baemin.com',
-  emoji: '🛵',
-  category: ['food_delivery', 'lifestyle']
+  id: 'claude',
+  name: 'Claude Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'claude.ai',
+  emoji: '🤖',
+  category: ['ai_service', 'software_subscription']
 }, {
-  id: 'naver_plus',
-  name: '네이버플러스 멤버십',
-  monthlyCostKrw: 4900,
-  monthlyCostUsd: 3.60,
-  domain: 'naver.com',
-  emoji: '🟢',
-  category: ['shopping', 'content']
+  id: 'cursor',
+  name: 'Cursor Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'cursor.com',
+  emoji: '⚡',
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'chatgpt',
+  name: 'ChatGPT Plus',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'spotify',
+  name: 'Spotify',
+  monthlyCostKrw: 15900,
+  monthlyCostUsd: 11.99,
+  taxBufferMonthlyUsd: 14.39,
+  domain: 'spotify.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'netflix',
+  name: 'Netflix',
+  monthlyCostKrw: 24000,
+  monthlyCostUsd: 17.99,
+  taxBufferMonthlyUsd: 21.59,
+  domain: 'netflix.com',
+  emoji: '🍿',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'amazonprime',
+  name: 'Amazon Prime',
+  monthlyCostKrw: 20000,
+  monthlyCostUsd: 15.00,
+  taxBufferMonthlyUsd: 18.00,
+  domain: 'amazon.com',
+  emoji: '📦',
+  category: ['shopping', 'entertainment']
 }, {
   id: 'opencode_go',
   name: 'OpenCode Go',
   monthlyCostKrw: 6800,
   monthlyCostUsd: 5.00,
+  taxBufferMonthlyUsd: 6.00,
   domain: 'opencode.ai',
   emoji: '⚡',
   category: ['developer_tool', 'ai_service']
 }, {
-  id: 'coupang_wow',
-  name: '쿠팡 와우 멤버십',
-  monthlyCostKrw: 7890,
-  monthlyCostUsd: 5.80,
-  domain: 'coupang.com',
-  emoji: '🚀',
-  category: ['shopping', 'delivery']
+  id: 'aws',
+  name: 'AWS Cloud',
+  monthlyCostKrw: 68000,
+  monthlyCostUsd: 50.00,
+  taxBufferMonthlyUsd: 60.00,
+  domain: 'amazon.com',
+  emoji: '☁️',
+  category: ['cloud_compute', 'infrastructure']
 }, {
-  id: 'melon',
-  name: '멜론 스트리밍',
-  monthlyCostKrw: 10900,
-  monthlyCostUsd: 8.10,
-  domain: 'melon.com',
-  emoji: '🎵',
-  category: ['music', 'streaming']
-}, {
-  id: 'tving',
-  name: '티빙 (TVING)',
-  monthlyCostKrw: 13500,
+  id: 'github',
+  name: 'GitHub',
+  monthlyCostKrw: 13800,
   monthlyCostUsd: 10.00,
-  domain: 'tving.com',
-  emoji: '📺',
-  category: ['entertainment', 'streaming']
+  taxBufferMonthlyUsd: 12.00,
+  domain: 'github.com',
+  emoji: '🐙',
+  category: ['developer_tool', 'software_subscription']
 }, {
-  id: 'youtube_kr',
-  name: '유튜브 프리미엄',
+  id: 'youtube',
+  name: 'YouTube',
   monthlyCostKrw: 14900,
-  monthlyCostUsd: 11.00,
+  monthlyCostUsd: 13.99,
+  taxBufferMonthlyUsd: 16.79,
   domain: 'youtube.com',
   emoji: '▶️',
   category: ['video', 'subscription']
 }, {
-  id: 'claude_pro',
-  name: 'Claude Pro',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'claude.ai',
-  emoji: '🤖',
-  category: ['ai_service', 'software_subscription']
-}, {
-  id: 'codex_pro',
-  name: 'Codex Pro / ChatGPT Plus',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'openai.com',
-  emoji: '💬',
-  category: ['ai_service', 'software_subscription']
-}, {
-  id: 'cursor_pro',
-  name: 'Cursor Pro',
-  monthlyCostKrw: 29000,
-  monthlyCostUsd: 20.00,
-  domain: 'cursor.com',
-  emoji: '✨',
-  category: ['developer_tool', 'ai_service']
-}];
-var YIELD_CARD_CATALOG_USD = [{
-  id: 'prime_video',
-  name: 'Amazon Prime Video',
-  monthlyCostUsd: 4.99,
-  domain: 'amazon.com',
-  emoji: '📦',
+  id: 'disney',
+  name: 'Disney+',
+  monthlyCostKrw: 19900,
+  monthlyCostUsd: 15.99,
+  taxBufferMonthlyUsd: 19.19,
+  domain: 'disneyplus.com',
+  emoji: '🏰',
   category: ['entertainment', 'streaming']
 }, {
-  id: 'telegram_prem',
-  name: 'Telegram Premium',
-  monthlyCostUsd: 4.99,
-  domain: 'telegram.org',
-  emoji: '✈️',
-  category: ['messaging', 'social']
+  id: 'max',
+  name: 'Max (HBO)',
+  monthlyCostKrw: 22000,
+  monthlyCostUsd: 16.99,
+  taxBufferMonthlyUsd: 20.39,
+  domain: 'max.com',
+  emoji: '🎬',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'opencode_go',
-  name: 'OpenCode Go',
-  monthlyCostUsd: 5.00,
-  domain: 'opencode.ai',
-  emoji: '⚡',
-  category: ['developer_tool', 'ai_service']
+  id: 'hulu',
+  name: 'Hulu',
+  monthlyCostKrw: 25000,
+  monthlyCostUsd: 18.99,
+  taxBufferMonthlyUsd: 22.79,
+  domain: 'hulu.com',
+  emoji: '📺',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'spotify',
-  name: 'Spotify Premium',
-  monthlyCostUsd: 11.00,
-  domain: 'spotify.com',
-  emoji: '🎵',
-  category: ['music', 'streaming']
+  id: 'appletv',
+  name: 'Apple TV+',
+  monthlyCostKrw: 17000,
+  monthlyCostUsd: 12.99,
+  taxBufferMonthlyUsd: 15.59,
+  domain: 'apple.com',
+  emoji: '🍎',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'xbox',
+  id: 'gamepass',
   name: 'Xbox Game Pass',
-  monthlyCostUsd: 17.00,
+  monthlyCostKrw: 26000,
+  monthlyCostUsd: 19.99,
+  taxBufferMonthlyUsd: 23.99,
   domain: 'xbox.com',
   emoji: '🎮',
   category: ['gaming', 'subscription']
 }, {
-  id: 'codex_pro',
-  name: 'Codex Pro',
-  monthlyCostUsd: 20.00,
-  domain: 'openai.com',
-  emoji: '💬',
-  category: ['ai_service', 'software_subscription']
+  id: 'paramount',
+  name: 'Paramount+',
+  monthlyCostKrw: 13000,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'paramountplus.com',
+  emoji: '⛰️',
+  category: ['entertainment', 'streaming']
 }, {
-  id: 'claude_pro',
+  id: 'peacock',
+  name: 'Peacock',
+  monthlyCostKrw: 14500,
+  monthlyCostUsd: 10.99,
+  taxBufferMonthlyUsd: 13.19,
+  domain: 'peacocktv.com',
+  emoji: '🦚',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'doordash',
+  name: 'DoorDash',
+  monthlyCostKrw: 13500,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'doordash.com',
+  emoji: '🥡',
+  category: ['food_delivery', 'lifestyle']
+}, {
+  id: 'uber',
+  name: 'Uber One',
+  monthlyCostKrw: 13500,
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'uber.com',
+  emoji: '🚗',
+  category: ['lifestyle', 'mobility']
+}, {
+  id: 'audible',
+  name: 'Audible',
+  monthlyCostKrw: 19900,
+  monthlyCostUsd: 14.95,
+  taxBufferMonthlyUsd: 17.94,
+  domain: 'audible.com',
+  emoji: '🎧',
+  category: ['audiobooks', 'media']
+}, {
+  id: 'walmart',
+  name: 'Walmart+',
+  monthlyCostKrw: 17500,
+  monthlyCostUsd: 12.95,
+  taxBufferMonthlyUsd: 15.54,
+  domain: 'walmart.com',
+  emoji: '🛒',
+  category: ['shopping', 'delivery']
+}];
+var YIELD_CARD_CATALOG_USD = [{
+  id: 'claude',
   name: 'Claude Pro',
   monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
   domain: 'claude.ai',
   emoji: '🤖',
   category: ['ai_service', 'software_subscription']
 }, {
-  id: 'cursor_pro',
+  id: 'cursor',
   name: 'Cursor Pro',
   monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
   domain: 'cursor.com',
-  emoji: '✨',
+  emoji: '⚡',
   category: ['developer_tool', 'ai_service']
 }, {
-  id: 'openai_api',
-  name: 'OpenAI API Tier 2',
-  monthlyCostUsd: 50.00,
-  domain: 'platform.openai.com',
+  id: 'chatgpt',
+  name: 'ChatGPT Plus',
+  monthlyCostUsd: 20.00,
+  taxBufferMonthlyUsd: 24.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'spotify',
+  name: 'Spotify',
+  monthlyCostUsd: 11.99,
+  taxBufferMonthlyUsd: 14.39,
+  domain: 'spotify.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'netflix',
+  name: 'Netflix',
+  monthlyCostUsd: 17.99,
+  taxBufferMonthlyUsd: 21.59,
+  domain: 'netflix.com',
+  emoji: '🍿',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'amazonprime',
+  name: 'Amazon Prime',
+  monthlyCostUsd: 15.00,
+  taxBufferMonthlyUsd: 18.00,
+  domain: 'amazon.com',
+  emoji: '📦',
+  category: ['shopping', 'entertainment']
+}, {
+  id: 'opencode_go',
+  name: 'OpenCode Go',
+  monthlyCostUsd: 5.00,
+  taxBufferMonthlyUsd: 6.00,
+  domain: 'opencode.ai',
   emoji: '⚡',
-  category: ['developer_tool', 'ai_api']
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'aws',
+  name: 'AWS Cloud',
+  monthlyCostUsd: 50.00,
+  taxBufferMonthlyUsd: 60.00,
+  domain: 'amazon.com',
+  emoji: '☁️',
+  category: ['cloud_compute', 'infrastructure']
+}, {
+  id: 'github',
+  name: 'GitHub',
+  monthlyCostUsd: 10.00,
+  taxBufferMonthlyUsd: 12.00,
+  domain: 'github.com',
+  emoji: '🐙',
+  category: ['developer_tool', 'software_subscription']
+}, {
+  id: 'youtube',
+  name: 'YouTube',
+  monthlyCostUsd: 13.99,
+  taxBufferMonthlyUsd: 16.79,
+  domain: 'youtube.com',
+  emoji: '▶️',
+  category: ['video', 'subscription']
+}, {
+  id: 'disney',
+  name: 'Disney+',
+  monthlyCostUsd: 15.99,
+  taxBufferMonthlyUsd: 19.19,
+  domain: 'disneyplus.com',
+  emoji: '🏰',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'max',
+  name: 'Max (HBO)',
+  monthlyCostUsd: 16.99,
+  taxBufferMonthlyUsd: 20.39,
+  domain: 'max.com',
+  emoji: '🎬',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'hulu',
+  name: 'Hulu',
+  monthlyCostUsd: 18.99,
+  taxBufferMonthlyUsd: 22.79,
+  domain: 'hulu.com',
+  emoji: '📺',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'appletv',
+  name: 'Apple TV+',
+  monthlyCostUsd: 12.99,
+  taxBufferMonthlyUsd: 15.59,
+  domain: 'apple.com',
+  emoji: '🍎',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'gamepass',
+  name: 'Xbox Game Pass',
+  monthlyCostUsd: 19.99,
+  taxBufferMonthlyUsd: 23.99,
+  domain: 'xbox.com',
+  emoji: '🎮',
+  category: ['gaming', 'subscription']
+}, {
+  id: 'paramount',
+  name: 'Paramount+',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'paramountplus.com',
+  emoji: '⛰️',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'peacock',
+  name: 'Peacock',
+  monthlyCostUsd: 10.99,
+  taxBufferMonthlyUsd: 13.19,
+  domain: 'peacocktv.com',
+  emoji: '🦚',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'doordash',
+  name: 'DoorDash',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'doordash.com',
+  emoji: '🥡',
+  category: ['food_delivery', 'lifestyle']
+}, {
+  id: 'uber',
+  name: 'Uber One',
+  monthlyCostUsd: 9.99,
+  taxBufferMonthlyUsd: 11.99,
+  domain: 'uber.com',
+  emoji: '🚗',
+  category: ['lifestyle', 'mobility']
+}, {
+  id: 'audible',
+  name: 'Audible',
+  monthlyCostUsd: 14.95,
+  taxBufferMonthlyUsd: 17.94,
+  domain: 'audible.com',
+  emoji: '🎧',
+  category: ['audiobooks', 'media']
+}, {
+  id: 'walmart',
+  name: 'Walmart+',
+  monthlyCostUsd: 12.95,
+  taxBufferMonthlyUsd: 15.54,
+  domain: 'walmart.com',
+  emoji: '🛒',
+  category: ['shopping', 'delivery']
 }];
 function getYieldCardCatalog(langOrLocale) {
   var isKo = false;

@@ -66,47 +66,37 @@ test('isRungCovered returns true when monthly yield >= monthly cost', () => {
   assert.strictEqual(PoolDetail.isRungCovered(10.0, 20.0), false);
 });
 
-test('USD subscription catalog has at least 3 options around the $5.00 minimum tier', () => {
+test('USD subscription catalog has 21 options matching homepage presets', () => {
   const usdCatalog = PoolDetail.getYieldCardCatalog('en');
   assert.ok(Array.isArray(usdCatalog), 'Catalog should be an array');
-  assert.ok(usdCatalog.length >= 8, 'USD catalog should have at least 8 items');
-
-  const fiveDollarTier = usdCatalog.filter(item => item.monthlyCostUsd <= 5.01);
-  assert.ok(fiveDollarTier.length >= 3, `Expected at least 3 items around $5.00 tier, found ${fiveDollarTier.length}`);
+  assert.strictEqual(usdCatalog.length, 21, 'USD catalog should have 21 items');
 
   const opencode = usdCatalog.find(i => i.id === 'opencode_go');
   assert.ok(opencode, 'OpenCode Go should exist');
   assert.strictEqual(opencode.domain, 'opencode.ai');
   assert.strictEqual(opencode.monthlyCostUsd, 5.0);
 
-  const prime = usdCatalog.find(i => i.id === 'prime_video');
-  assert.ok(prime, 'Prime Video should exist');
-  assert.strictEqual(prime.monthlyCostUsd, 4.99);
+  const claude = usdCatalog.find(i => i.id === 'claude');
+  assert.ok(claude, 'Claude Pro should exist');
+  assert.strictEqual(claude.monthlyCostUsd, 20.0);
 
-  const telegram = usdCatalog.find(i => i.id === 'telegram_prem');
-  assert.ok(telegram, 'Telegram Premium should exist');
-  assert.strictEqual(telegram.monthlyCostUsd, 4.99);
+  const spotify = usdCatalog.find(i => i.id === 'spotify');
+  assert.ok(spotify, 'Spotify should exist');
+  assert.strictEqual(spotify.monthlyCostUsd, 11.99);
 });
 
-test('KRW subscription catalog has at least 3 options at or under the ₩6,800 (~$5) tier', () => {
+test('KRW subscription catalog has 21 options matching homepage presets', () => {
   const krwCatalog = PoolDetail.getYieldCardCatalog('ko');
   assert.ok(Array.isArray(krwCatalog), 'KRW catalog should be an array');
-  assert.ok(krwCatalog.length >= 9, 'KRW catalog should have at least 9 items');
-
-  const sub5kKrwTier = krwCatalog.filter(item => item.monthlyCostKrw <= 6800);
-  assert.ok(sub5kKrwTier.length >= 3, `Expected at least 3 items <= ₩6,800, found ${sub5kKrwTier.length}`);
-
-  const baemin = krwCatalog.find(i => i.id === 'baemin_club');
-  assert.ok(baemin, 'Baemin Club should exist');
-  assert.strictEqual(baemin.monthlyCostKrw, 3990);
-
-  const naver = krwCatalog.find(i => i.id === 'naver_plus');
-  assert.ok(naver, 'Naver Plus should exist');
-  assert.strictEqual(naver.monthlyCostKrw, 4900);
+  assert.strictEqual(krwCatalog.length, 21, 'KRW catalog should have 21 items');
 
   const opencode = krwCatalog.find(i => i.id === 'opencode_go');
   assert.ok(opencode, 'OpenCode Go should exist in KRW');
   assert.strictEqual(opencode.monthlyCostKrw, 6800);
+
+  const claude = krwCatalog.find(i => i.id === 'claude');
+  assert.ok(claude, 'Claude Pro should exist in KRW');
+  assert.strictEqual(claude.monthlyCostKrw, 29000);
 });
 
 console.log('--- Card Handoff Payload Serialization ---');
