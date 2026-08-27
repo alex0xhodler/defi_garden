@@ -1738,6 +1738,15 @@
         setSlideCapital(needed);
       }
     }, [currentMixStats.neededCapital, archetype, isCapitalPath]);
+    // Live custom monthly bill editing (Phone bill, Rent, custom subscriptions)
+    var customMonthlyBillState = useState((goalDef && goalDef.target) ? goalDef.target : 20);
+    var customMonthlyBill = customMonthlyBillState[0], setCustomMonthlyBill = customMonthlyBillState[1];
+    var activeMonthly = (archetype === 'subscription' && currentMixStats.count > 1)
+      ? currentMixStats.combinedMonthly
+      : (typeof customMonthlyBill === 'number' && customMonthlyBill > 0 ? customMonthlyBill : (goalDef ? goalDef.target : 20));
+    var activeNeededCapital = apy > 0 ? Math.ceil((activeMonthly * 12) / (apy / 100)) : 2400;
+    var generatedYield = Math.floor((slideCapital * (apy / 100) / 12) * 100) / 100;
+    var coveragePct = activeMonthly > 0 ? Math.min(100, Math.round((generatedYield / activeMonthly) * 100)) : 100;
 
     // Live sliders state
     var slideMonthlyState = useState(monthly);
@@ -2416,10 +2425,111 @@
     var sharedCurrentPersonaOpt = sharedPersonaOptions.filter(function (p) { return p.key === pk; })[0] || sharedPersonaOptions[0];
     var currentRiskLabel = t(sharedCurrentPersonaOpt.shortKey);
 
+    var financialTunerElement = (archetype === 'subscription' && isCapitalPath) ? e('div', { className: 'gp-capital-tuner' },
+      e('div', { className: 'gp-tuner-header' },
+        e('span', { className: 'gp-tuner-title' }, t('tunerTitle') || 'Fine-tune your plan'),
+        e('span', { className: 'gp-tuner-apy-badge' }, formatApy(apy) + ' APY')
+      ),
+      e('div', { className: 'gp-tuner-grid' },
+        e('div', { className: 'gp-tuner-col' },
+          e('label', { className: 'gp-tuner-label' }, t('tunerMonthlyBill') || 'Monthly Bill ($/mo)'),
+          e('div', { className: 'gp-tuner-input-wrap' },
+            e('span', { className: 'gp-tuner-currency' }, '$'),
+            e('input', {
+              type: 'number',
+              className: 'gp-tuner-input',
+              min: '1',
+              max: '100000',
+              step: '1',
+              value: customMonthlyBill,
+              onChange: function (ev) {
+                var val = parseFloat(ev.target.value);
+                if (!isNaN(val) && val > 0) {
+                  setCustomMonthlyBill(val);
+                  if (apy > 0) {
+                    var newNeeded = Math.ceil((val * 12) / (apy / 100));
+                    setSlideCapital(newNeeded);
+                  }
+                } else if (ev.target.value === '') {
+                  setCustomMonthlyBill('');
+                }
+              }
+            }),
+            e('span', { className: 'gp-tuner-unit' }, '/mo')
+          )
+        ),
+        e('div', { className: 'gp-tuner-col' },
+          e('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center' } },
+            e('label', { className: 'gp-tuner-label' }, t('tunerCapitalDeposit') || 'Capital Deposit'),
+            e('span', { className: 'gp-tuner-val-readout' }, formatUsdRounded(slideCapital))
+          ),
+          e('div', { className: 'gp-tuner-input-wrap' },
+            e('span', { className: 'gp-tuner-currency' }, '$'),
+            e('input', {
+              type: 'number',
+              className: 'gp-tuner-input',
+              min: '50',
+              max: '2000000',
+              step: '50',
+              value: slideCapital,
+              onChange: function (ev) {
+                var val = parseInt(ev.target.value, 10);
+                if (!isNaN(val) && val >= 0) {
+                  setSlideCapital(val);
+                }
+              }
+            })
+          )
+        )
+      ),
+      e('div', { className: 'gp-tuner-slider-wrap' },
+        e('input', {
+          type: 'range',
+          className: 'gp-slider gp-tuner-slider',
+          min: '100',
+          max: capitalSliderMax || 50000,
+          step: '50',
+          value: slideCapital,
+          'aria-label': 'Capital Slider',
+          onChange: function (ev) {
+            setSlideCapital(parseInt(ev.target.value, 10));
+          }
+        }),
+        e('div', { className: 'gp-tuner-quick-row' },
+          e('button', {
+            type: 'button',
+            className: 'gp-tuner-quick-btn' + (slideCapital === activeNeededCapital ? ' is-active' : ''),
+            onClick: function () { setSlideCapital(activeNeededCapital); }
+          }, t('tunerAutoCoverCta', formatUsdRounded(activeNeededCapital)) || ('✨ Auto-fit 100% (' + formatUsdRounded(activeNeededCapital) + ')')),
+          e('button', {
+            type: 'button',
+            className: 'gp-tuner-quick-btn',
+            onClick: function () { setSlideCapital(function (c) { return c + 500; }); }
+          }, '+$500'),
+          e('button', {
+            type: 'button',
+            className: 'gp-tuner-quick-btn',
+            onClick: function () { setSlideCapital(function (c) { return c + 1000; }); }
+          }, '+$1k'),
+          e('button', {
+            type: 'button',
+            className: 'gp-tuner-quick-btn',
+            onClick: function () { setSlideCapital(function (c) { return c + 5000; }); }
+          }, '+$5k')
+        )
+      ),
+      e('div', { className: 'gp-tuner-status' + (coveragePct >= 100 ? ' is-covered' : ' is-partial') },
+        coveragePct >= 100
+          ? e('span', null, t('tunerCoveredFull', formatUsd(generatedYield), formatUsd(activeMonthly)))
+          : e('span', null, t('tunerCoveredPartial', formatUsd(generatedYield), formatUsd(activeMonthly), coveragePct))
+      )
+    ) : null;
+
     // YOUR PLAN card — subscription-only consolidated control block
     var planCardElement = archetype === 'subscription' ? (function () {
       return e('div', { className: 'gp-plan-card gp-animate-in' },
         e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
+        financialTunerElement,
         e('div', { className: 'gp-plan-card-cover' },
           mixElement
         )
@@ -3046,6 +3156,36 @@
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustYourKeys')),
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustWithdraw'))
       ),
+      archetype === 'subscription' ? e('div', { className: 'gp-card-explainer' },
+        e('div', { className: 'gp-explainer-title' }, t('cardExplainerTitle') || 'How the Virtual Visa Card Works'),
+        e('div', { className: 'gp-explainer-steps' },
+          e('div', { className: 'gp-explainer-step' },
+            e('span', { className: 'gp-explainer-num' }, '1'),
+            e('div', { className: 'gp-explainer-text' },
+              e('strong', null, t('cardExplainerStep1Title') || 'Deposit into Curated Base Vaults'),
+              e('p', null, t('cardExplainerStep1Desc') || '100% Non-custodial (ΔP ≡ 0). Full withdrawal rights at every block.')
+            )
+          ),
+          e('div', { className: 'gp-explainer-step' },
+            e('span', { className: 'gp-explainer-num' }, '2'),
+            e('div', { className: 'gp-explainer-text' },
+              e('strong', null, t('cardExplainerStep2Title') || 'Keepers Harvest Monthly Yield'),
+              e('p', null, t('cardExplainerStep2Desc') || 'Decentralized keepers automatically sweep realized yield prior to merchant billing.')
+            )
+          ),
+          e('div', { className: 'gp-explainer-step' },
+            e('span', { className: 'gp-explainer-num' }, '3'),
+            e('div', { className: 'gp-explainer-text' },
+              e('strong', null, t('cardExplainerStep3Title') || 'Virtual Visa Card Settles Merchant'),
+              e('p', null, t('cardExplainerStep3Desc') || 'Your dedicated card pays the subscription invoice directly from harvested yield.')
+            )
+          )
+        ),
+        e('div', { className: 'gp-card-faq-chip' },
+          e('strong', null, '💡 ' + (t('cardFaqQuestion') || 'Do I need a separate card for each subscription?')),
+          e('p', null, t('cardFaqAnswer') || 'You can use a single primary card for multiple bills, or issue dedicated merchant-locked virtual cards with strict spend caps.')
+        )
+      ) : null,
       e('p', { className: 'gp-checkout-note' }, t('checkoutNote'))
     );
 
@@ -3879,23 +4019,31 @@
 
   function PlannerHeader(props) {
     return e('header', { className: 'gp-header' + (props.isScrolled ? ' is-scrolled' : '') },
-      e('a', { className: 'gp-logo', href: 'home.html' },
+      e('a', { className: 'gp-logo', href: '/' },
         e('span', { className: 'gp-brand-mark', 'aria-hidden': 'true' }, e(BrandLeafMark)),
         'DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
+        e('a', {
+          className: 'gp-home-btn',
+          href: '/',
+          'aria-label': 'Home'
+        }, 'Home'),
         // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
           type: 'button', className: 'gp-my-garden-btn',
           onClick: props.onShowGarden
         }, '🌱 ' + props.myGardenLabel) : null,
         props.canRestart ? e('button', { type: 'button', className: 'gp-restart', onClick: props.onRestart }, props.restartLabel) : null,
-        // Analytics app icon button
+        // Analytics app button
         e('a', {
           className: 'gp-analytics-btn',
           href: '/?app=1',
-          'aria-label': 'Analytics — search yields',
+          'aria-label': 'Search yields',
           title: 'Search yields'
-        }, '📊'),
+        },
+          e('span', { 'aria-hidden': 'true' }, '📊'),
+          e('span', { className: 'gp-analytics-btn-label', style: { marginLeft: '4px' } }, 'Search yields')
+        ),
         e('button', {
           type: 'button', className: 'gp-theme-toggle' + (props.dark ? ' is-dark' : ''),
           onClick: props.onToggleTheme, 'aria-label': 'Toggle theme'

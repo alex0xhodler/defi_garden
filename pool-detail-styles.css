@@ -1969,6 +1969,20 @@ a.pool-token-chip:hover {
   color: var(--cert-on-green);
   border-color: var(--cert-green);
 }
+.yield-preset-snap-btn {
+  background: var(--cert-green-wash) !important;
+  border-color: var(--cert-green) !important;
+  color: var(--cert-green) !important;
+  font-weight: 700 !important;
+}
+.yield-preset-snap-btn:hover {
+  background: var(--cert-green-wash-strong) !important;
+  color: var(--cert-on-green) !important;
+}
+.yield-preset-snap-btn.is-active {
+  background: var(--cert-green) !important;
+  color: var(--cert-on-green) !important;
+}
 
 /* Subscription Unlock Grid */
 .yield-card-grid-section {
@@ -2807,31 +2821,4 @@ a.pool-token-chip:hover {
   .reservation-title {
     font-size: 1.12rem;
   }
-}
-/* Collapsed Calculator scroll-up action */
-.calc-collapsed-action-row {
-  padding: 10px 18px 14px;
-  background: var(--cert-vellum);
-  border-top: 1px solid var(--cert-rule);
-}
-
-.calc-scroll-up-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: none;
-  border: 1px solid var(--cert-rule);
-  color: var(--cert-green);
-  font-family: 'Public Sans', system-ui, sans-serif;
-  font-size: 0.82rem;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 0;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.calc-scroll-up-btn:hover {
-  background: var(--cert-green-wash);
-  border-color: var(--cert-green);
 }
