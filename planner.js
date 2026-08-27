@@ -1738,16 +1738,26 @@
         setSlideCapital(needed);
       }
     }, [currentMixStats.neededCapital, archetype, isCapitalPath]);
+
     // Live custom monthly bill editing (Phone bill, Rent, custom subscriptions)
     var customMonthlyBillState = useState((goalDef && goalDef.target) ? goalDef.target : 20);
     var customMonthlyBill = customMonthlyBillState[0], setCustomMonthlyBill = customMonthlyBillState[1];
-    var activeMonthly = (archetype === 'subscription' && currentMixStats.count > 1)
-      ? currentMixStats.combinedMonthly
-      : (typeof customMonthlyBill === 'number' && customMonthlyBill > 0 ? customMonthlyBill : (goalDef ? goalDef.target : 20));
+
+    // Sync customMonthlyBill with combined subscription ladder total whenever mix changes
+    useEffect(function () {
+      if (archetype !== 'subscription') return;
+      var cm = currentMixStats.combinedMonthly;
+      if (cm > 0 && cm !== customMonthlyBill) {
+        setCustomMonthlyBill(cm);
+      }
+    }, [currentMixStats.combinedMonthly, archetype]);
+
+    var activeMonthly = (typeof customMonthlyBill === 'number' && customMonthlyBill > 0)
+      ? customMonthlyBill
+      : (currentMixStats.combinedMonthly > 0 ? currentMixStats.combinedMonthly : ((goalDef && goalDef.target) ? goalDef.target : 20));
     var activeNeededCapital = apy > 0 ? Math.ceil((activeMonthly * 12) / (apy / 100)) : 2400;
     var generatedYield = Math.floor((slideCapital * (apy / 100) / 12) * 100) / 100;
     var coveragePct = activeMonthly > 0 ? Math.min(100, Math.round((generatedYield / activeMonthly) * 100)) : 100;
-
     // Live sliders state
     var slideMonthlyState = useState(monthly);
     var slideMonthly = slideMonthlyState[0], setSlideMonthly = slideMonthlyState[1];
