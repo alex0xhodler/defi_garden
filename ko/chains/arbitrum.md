@@ -1,17 +1,17 @@
 # Arbitrum 디파이 수익률
 
-현재 Arbitrum의 가장 높은 정직한 수익률은 Arbitrum의 gmx-v2-perps에서 15.21%이며, $100K TVL 기준을 넘는 436개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Arbitrum의 가장 높은 정직한 수익률은 Arbitrum의 gmx-v2-perps에서 13.76%이며, $100K TVL 기준을 넘는 439개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.12M |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.12M |
-| SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.66% | $357.23M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $207.3M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 7.53% | $61.14M |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=d9fa8e14-0447-4207-9ae8-7810199dfa1f&src=seo_chain) | 2.07% | $53.51M |
-| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 15.21% | $53.19M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.72% | $52M |
+| SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.22% | $407.77M |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.18M |
+| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.18M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $206.94M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 4.59% | $60.79M |
+| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 13.76% | $53.14M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.56% | $52.04M |
+| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.34% | $50.29M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Arbitrum의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 15.21%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 13.76%예요.
 
 ### Arbitrum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 436개이며, 합산 TVL은 $2.64B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 439개이며, 합산 TVL은 $2.65B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,20 +32,21 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 15.21%�
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Arbitrum의 인기 토큰
 
-- [USDS](https://www.defi.garden/ko/tokens/usds)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBTC.B](https://www.defi.garden/ko/tokens/wbtc-b)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
+- [USDAI](https://www.defi.garden/ko/tokens/usdai)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

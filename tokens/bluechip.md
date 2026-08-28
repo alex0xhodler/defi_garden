@@ -1,10 +1,10 @@
 # BLUECHIP DeFi Yields
 
-The highest honest BLUECHIP yield right now is 886.18% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLUECHIP yield right now is 761.07% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=047c2df8-687c-5b7d-9c95-71ef0a920205&src=seo_token) | Base | 886.18% | $167.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=047c2df8-687c-5b7d-9c95-71ef0a920205&src=seo_token) | Base | 761.07% | $136.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BLUECHIP shows up in 1 pools here, with rates from 886.18% to 886.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BLUECHIP shows up in 1 pools here, with rates from 761.07% to 761.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,7 +23,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 886.18% | — | Base rate |
+| uniswap-v4 | 761.07% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +31,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BLUECHIP yield today?
 
-886.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
+761.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BLUECHIP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $554.8K in total.
+2 live pools clear this page's $100K TVL floor, $529.8K in total.
 
 ### Are these rates safe?
 
@@ -47,15 +47,15 @@ There is not enough qualifying APY history to rank BLUECHIP pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

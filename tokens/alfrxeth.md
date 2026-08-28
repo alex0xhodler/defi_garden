@@ -1,10 +1,10 @@
 # ALFRXETH DeFi Yields
 
-The highest honest ALFRXETH yield right now is 2.68% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALFRXETH yield right now is 2.59% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.68% | $140.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.59% | $140.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALFRXETH yield today?
 
-2.68% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+2.59% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ALFRXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.3K in total.
+1 live pool clear this page's $100K TVL floor, $140.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ALFRXETH pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

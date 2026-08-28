@@ -1,30 +1,30 @@
 # ANSEM DeFi Yields
 
-The highest honest ANSEM yield right now is 556.43% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANSEM yield right now is 361.25% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 500.71% | $258.5K |
-| [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 556.43% | $209.9K |
-| [orca-dex →](https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token) | Solana | 374.32% | $131.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 565.24% | $259.2K |
+| [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 361.25% | $155.4K |
+| [orca-dex →](https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token) | Solana | 236.44% | $140.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ANSEM's lower-variability candidates are orca-dex (Solana), 374.32% APY, $131.2K TVL, https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token; orca-dex (Solana), 556.43% APY, $209.9K TVL, https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANSEM's lower-variability candidates are orca-dex (Solana), 236.44% APY, $140.8K TVL, https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token; orca-dex (Solana), 361.25% APY, $155.4K TVL, https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token) | Solana | 374.32% | $131.2K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 556.43% | $209.9K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token) | Solana | 236.44% | $140.8K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 361.25% | $155.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ANSEM shows up in 3 pools here, with rates from 374.32% to 556.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANSEM shows up in 3 pools here, with rates from 236.44% to 565.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 259.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 266.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,9 +32,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 500.71% | — | Base rate |
-| orca-dex | 556.43% | 334.59% | Base rate |
-| orca-dex | 374.32% | 183.60% | Base rate |
+| raydium-amm | 565.24% | — | Base rate |
+| orca-dex | 361.25% | 342.53% | Base rate |
+| orca-dex | 236.44% | 191.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANSEM yield today?
 
-556.43% APY on orca-dex (Solana), based on live DefiLlama data.
+361.25% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ANSEM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $599.5K in total.
+3 live pools clear this page's $100K TVL floor, $555.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ANSEM pools have the most stable APY history?
 
-Based on APY history only, ANSEM's lower-variability candidates are orca-dex (Solana), 374.32% APY, $131.2K TVL, https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token; orca-dex (Solana), 556.43% APY, $209.9K TVL, https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANSEM's lower-variability candidates are orca-dex (Solana), 236.44% APY, $140.8K TVL, https://www.defi.garden/?pool=c88dee93-cc91-5993-b2bb-9620b0e868f3&src=seo_token; orca-dex (Solana), 361.25% APY, $155.4K TVL, https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, ANSEM's lower-variability candidates are orca-dex (So
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

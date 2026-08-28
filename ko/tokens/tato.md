@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.22% | $499.8K |
+| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.22% | $488.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Sui의 turbos에서 APY 0.22%예요.
 
 ### TATO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $499.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $488.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Sui의 turbos에서 APY 0.22%예요.
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
+- [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

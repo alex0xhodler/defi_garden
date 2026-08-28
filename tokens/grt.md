@@ -1,10 +1,10 @@
 # GRT DeFi Yields
 
-The highest honest GRT yield right now is 23.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRT yield right now is 4.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc560bc4-58d4-42fa-9dfc-4d1f74aafa97&src=seo_token) | Ethereum | 23.43% | $132.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc560bc4-58d4-42fa-9dfc-4d1f74aafa97&src=seo_token) | Ethereum | 4.40% | $129.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRT yield today?
 
-23.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GRT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.4K in total.
+1 live pool clear this page's $100K TVL floor, $129.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GRT pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

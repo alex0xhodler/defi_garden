@@ -1,10 +1,10 @@
 # RXLP DeFi Yields
 
-The highest honest RXLP yield right now is 5.90% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RXLP yield right now is 6.01% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=471872a8-ff3c-424a-97fe-8617f497a150&src=seo_token) | Ethereum | 5.90% | $640.5K |
+| [lagoon →](https://www.defi.garden/?pool=471872a8-ff3c-424a-97fe-8617f497a150&src=seo_token) | Ethereum | 6.01% | $640.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RXLP yield today?
 
-5.90% APY on lagoon (Ethereum), based on live DefiLlama data.
+6.01% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many RXLP pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank RXLP pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

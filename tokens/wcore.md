@@ -4,7 +4,7 @@ The highest honest WCORE yield right now is 0.94% on colend-protocol (CORE), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.94% | $144.4K |
+| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.94% | $139.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144.4K in total.
+1 live pool clear this page's $100K TVL floor, $139.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WCORE pools. This view covers
 ## Related tokens
 
 - [CORE](https://www.defi.garden/tokens/core)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [CORE](https://www.defi.garden/chains/core)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,17 +1,17 @@
 # Cronos 디파이 수익률
 
-현재 Cronos의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 5.86%이며, $100K TVL 기준을 넘는 60개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Cronos의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 3.76%이며, $100K TVL 기준을 넘는 60개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC | [tectonic →](https://www.defi.garden/?pool=0c3c1b07-7c36-4fbb-8e71-226e02bf15c1&src=seo_chain) | 0.12% | $54.05M |
-| USDT | [tectonic →](https://www.defi.garden/?pool=b37c26c3-848f-45f0-bd75-af97f1674a4d&src=seo_chain) | 0.15% | $44.94M |
-| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_chain) | 0.06% | $32.44M |
-| CDCETH | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_chain) | 1.45% | $23.61M |
-| CDCETH-WETH | [vvs-standard →](https://www.defi.garden/?pool=ffcad946-616c-53c4-b3c6-6565d9a906ec&src=seo_chain) | 0.04% | $8.39M |
-| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_chain) | 5.86% | $5.95M |
-| USDC-USDC | [vvs-flawless →](https://www.defi.garden/?pool=3795ba8c-e9f7-50fa-87a5-de4a6e71facd&src=seo_chain) | 3.29% | $2.96M |
-| USDC-USDT | [ferro →](https://www.defi.garden/?pool=922160ef-a03f-42dc-9a5e-8a202b8c28b3&src=seo_chain) | 0.01% | $2.7M |
+| USDC | [tectonic →](https://www.defi.garden/?pool=0c3c1b07-7c36-4fbb-8e71-226e02bf15c1&src=seo_chain) | 0.12% | $54.04M |
+| USDT | [tectonic →](https://www.defi.garden/?pool=b37c26c3-848f-45f0-bd75-af97f1674a4d&src=seo_chain) | 0.15% | $44.95M |
+| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_chain) | 0.05% | $31.37M |
+| CDCETH | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_chain) | 1.45% | $23.55M |
+| USDT-USDC | [vvs-standard →](https://www.defi.garden/?pool=13b0db7c-491b-47d5-a2fb-e5af0a17b1d1&src=seo_chain) | 0.01% | $20.01M |
+| CDCETH-WETH | [vvs-standard →](https://www.defi.garden/?pool=ffcad946-616c-53c4-b3c6-6565d9a906ec&src=seo_chain) | 0.01% | $8.37M |
+| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_chain) | 3.76% | $5.86M |
+| USDC-USDC | [vvs-flawless →](https://www.defi.garden/?pool=3795ba8c-e9f7-50fa-87a5-de4a6e71facd&src=seo_chain) | 0.36% | $2.96M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Cronos의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 5.86%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 3.76%예요.
 
 ### Cronos 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 60개이며, 합산 TVL은 $250.36M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 60개이며, 합산 TVL은 $248.12M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,8 +32,8 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 5.86%예�
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
@@ -43,8 +43,8 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 5.86%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
-- [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
+- [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

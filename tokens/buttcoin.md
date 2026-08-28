@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BUTTCOIN pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

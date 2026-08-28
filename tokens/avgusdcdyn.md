@@ -1,10 +1,10 @@
 # AVGUSDCDYN DeFi Yields
 
-The highest honest AVGUSDCDYN yield right now is 4.23% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVGUSDCDYN yield right now is 3.78% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1cfe1261-cbc9-4607-88e0-6b5d831de67a&src=seo_token) | Ethereum | 4.23% | $105.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=1cfe1261-cbc9-4607-88e0-6b5d831de67a&src=seo_token) | Ethereum | 3.78% | $105.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVGUSDCDYN yield today?
 
-4.23% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.78% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many AVGUSDCDYN pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank AVGUSDCDYN pools. This view c
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

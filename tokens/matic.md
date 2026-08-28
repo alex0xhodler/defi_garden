@@ -1,29 +1,29 @@
 # MATIC DeFi Yields
 
-The highest honest MATIC yield right now is 41.68% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MATIC yield right now is 8.39% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 41.68% | $257.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 6.12% | $120.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 8.39% | $259K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 1.21% | $121.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 41.68% APY, $257.7K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 6.12% APY, $120.8K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 8.39% APY, $259K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 1.21% APY, $121.6K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 41.68% | $257.7K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 6.12% | $120.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 8.39% | $259K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 1.21% | $121.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MATIC shows up in 2 pools here, with rates from 6.12% to 41.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MATIC shows up in 2 pools here, with rates from 1.21% to 8.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 41.68% | 18.62% | Base rate |
-| uniswap-v3 | 6.12% | 2.48% | Base rate |
+| uniswap-v2 | 8.39% | 19.02% | Base rate |
+| uniswap-v3 | 1.21% | 2.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MATIC yield today?
 
-41.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+8.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MATIC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $378.4K in total.
+2 live pools clear this page's $100K TVL floor, $380.6K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MATIC pools have the most stable APY history?
 
-Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 41.68% APY, $257.7K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 6.12% APY, $120.8K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 8.39% APY, $259K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 1.21% APY, $121.6K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

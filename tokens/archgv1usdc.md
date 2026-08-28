@@ -1,10 +1,10 @@
 # ARCHGV1USDC DeFi Yields
 
-The highest honest ARCHGV1USDC yield right now is 4.21% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARCHGV1USDC yield right now is 4.23% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7&src=seo_token) | Base | 4.21% | $1.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7&src=seo_token) | Base | 4.23% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARCHGV1USDC yield today?
 
-4.21% APY on morpho-blue (Base), based on live DefiLlama data.
+4.23% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many ARCHGV1USDC pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ARCHGV1USDC pools. This view 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

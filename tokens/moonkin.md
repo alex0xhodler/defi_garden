@@ -1,10 +1,10 @@
 # MOONKIN DeFi Yields
 
-The highest honest MOONKIN yield right now is 1.24% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOONKIN yield right now is 11.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b91628c1-dccf-41a5-b5cf-a4764b17bef0&src=seo_token) | Ethereum | 1.24% | $126.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b91628c1-dccf-41a5-b5cf-a4764b17bef0&src=seo_token) | Ethereum | 11.32% | $124.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOONKIN yield today?
 
-1.24% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+11.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MOONKIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.3K in total.
+1 live pool clear this page's $100K TVL floor, $124.5K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank MOONKIN pools. This view cove
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,36 +1,36 @@
 # SATUSDC DeFi Yields
 
-The highest honest SATUSDC yield right now is 5.91% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATUSDC yield right now is 5.08% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.04% | $1.86M |
-| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.91% | $1.48M |
+| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.08% | $2.36M |
+| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.00% | $1.46M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SATUSDC's lower-variability candidates are morpho-blue (Monad), 5.04% APY, $1.86M TVL, https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token; morpho-blue (Ethereum), 5.91% APY, $1.48M TVL, https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATUSDC's lower-variability candidates are morpho-blue (Monad), 5.08% APY, $2.36M TVL, https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token; morpho-blue (Ethereum), 5.00% APY, $1.46M TVL, https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.04% | $1.86M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.91% | $1.48M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.08% | $2.36M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.00% | $1.46M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SATUSDC shows up in 2 pools here, with rates from 5.04% to 5.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SATUSDC shows up in 2 pools here, with rates from 5.00% to 5.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.04% | 6.14% | 3.28% incentives |
-| morpho-blue | 5.91% | 5.84% | Base rate |
+| morpho-blue | 5.08% | 5.96% | 3.23% incentives |
+| morpho-blue | 5.00% | 5.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SATUSDC yield today?
 
-5.91% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.08% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many SATUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.33M in total.
+2 live pools clear this page's $100K TVL floor, $3.82M in total.
 
 ### Are these rates safe?
 
@@ -50,20 +50,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SATUSDC pools have the most stable APY history?
 
-Based on APY history only, SATUSDC's lower-variability candidates are morpho-blue (Monad), 5.04% APY, $1.86M TVL, https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token; morpho-blue (Ethereum), 5.91% APY, $1.48M TVL, https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATUSDC's lower-variability candidates are morpho-blue (Monad), 5.08% APY, $2.36M TVL, https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token; morpho-blue (Ethereum), 5.00% APY, $1.46M TVL, https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

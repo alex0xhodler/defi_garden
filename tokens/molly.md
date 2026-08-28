@@ -1,10 +1,10 @@
 # MOLLY DeFi Yields
 
-The highest honest MOLLY yield right now is 1.64% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOLLY yield right now is 1.35% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=99606f8e-ffbc-4843-b403-67edd3b01c2f&src=seo_token) | Base | 1.64% | $203.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=99606f8e-ffbc-4843-b403-67edd3b01c2f&src=seo_token) | Base | 1.35% | $195.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOLLY yield today?
 
-1.64% APY on uniswap-v2 (Base), based on live DefiLlama data.
+1.35% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many MOLLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.2K in total.
+1 live pool clear this page's $100K TVL floor, $195.8K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank MOLLY pools. This view covers
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

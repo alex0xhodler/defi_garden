@@ -1,48 +1,48 @@
 # ACRED DeFi Yields
 
-The highest honest ACRED yield right now is 8.33% on apollo-diversified-credit-securitize-fund (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACRED yield right now is 8.55% on apollo-diversified-credit-securitize-fund (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 8.33% | $28.86M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 8.33% | $18.37M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 8.33% | $15.66M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 8.33% | $11.11M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 8.33% | $4.9M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 8.33% | $909.7K |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 8.55% | $28.87M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 8.55% | $18.37M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 8.55% | $15.67M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 8.55% | $11.11M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 8.55% | $4.91M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 8.55% | $909.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ACRED's lower-variability candidates are apollo-diversified-credit-securitize-fund (Avalanche), 8.33% APY, $4.9M TVL, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; apollo-diversified-credit-securitize-fund (Ethereum), 8.33% APY, $28.86M TVL, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; apollo-diversified-credit-securitize-fund (Ink), 8.33% APY, $11.11M TVL, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; apollo-diversified-credit-securitize-fund (Polygon), 8.33% APY, $909.7K TVL, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; apollo-diversified-credit-securitize-fund (Sei), 8.33% APY, $15.66M TVL, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; apollo-diversified-credit-securitize-fund (Solana), 8.33% APY, $18.37M TVL, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ACRED's lower-variability candidates are apollo-diversified-credit-securitize-fund (Avalanche), 8.55% APY, $4.91M TVL, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; apollo-diversified-credit-securitize-fund (Ethereum), 8.55% APY, $28.87M TVL, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; apollo-diversified-credit-securitize-fund (Ink), 8.55% APY, $11.11M TVL, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; apollo-diversified-credit-securitize-fund (Polygon), 8.55% APY, $909.9K TVL, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; apollo-diversified-credit-securitize-fund (Sei), 8.55% APY, $15.67M TVL, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; apollo-diversified-credit-securitize-fund (Solana), 8.55% APY, $18.37M TVL, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 8.33% | $4.9M |
-| 2 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 8.33% | $28.86M |
-| 3 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 8.33% | $11.11M |
-| 4 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 8.33% | $909.7K |
-| 5 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 8.33% | $15.66M |
-| 6 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 8.33% | $18.37M |
+| 1 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 8.55% | $4.91M |
+| 2 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 8.55% | $28.87M |
+| 3 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 8.55% | $11.11M |
+| 4 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 8.55% | $909.9K |
+| 5 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 8.55% | $15.67M |
+| 6 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 8.55% | $18.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ACRED shows up in 6 pools here, with rates from 8.33% to 8.33% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
+ACRED shows up in 6 pools here, with rates from 8.55% to 8.55% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.41% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.42% | Base rate |
-| apollo-diversified-credit-securitize-fund | 8.33% | 4.40% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.61% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.61% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.60% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.60% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.61% | Base rate |
+| apollo-diversified-credit-securitize-fund | 8.55% | 4.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ACRED yield today?
 
-8.33% APY on apollo-diversified-credit-securitize-fund (Ethereum), based on live DefiLlama data.
+8.55% APY on apollo-diversified-credit-securitize-fund (Ethereum), based on live DefiLlama data.
 
 ### How many ACRED pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $79.82M in total.
+6 live pools clear this page's $100K TVL floor, $79.83M in total.
 
 ### Are these rates safe?
 
@@ -62,16 +62,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ACRED pools have the most stable APY history?
 
-Based on APY history only, ACRED's lower-variability candidates are apollo-diversified-credit-securitize-fund (Avalanche), 8.33% APY, $4.9M TVL, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; apollo-diversified-credit-securitize-fund (Ethereum), 8.33% APY, $28.86M TVL, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; apollo-diversified-credit-securitize-fund (Ink), 8.33% APY, $11.11M TVL, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; apollo-diversified-credit-securitize-fund (Polygon), 8.33% APY, $909.7K TVL, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; apollo-diversified-credit-securitize-fund (Sei), 8.33% APY, $15.66M TVL, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; apollo-diversified-credit-securitize-fund (Solana), 8.33% APY, $18.37M TVL, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ACRED's lower-variability candidates are apollo-diversified-credit-securitize-fund (Avalanche), 8.55% APY, $4.91M TVL, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; apollo-diversified-credit-securitize-fund (Ethereum), 8.55% APY, $28.87M TVL, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; apollo-diversified-credit-securitize-fund (Ink), 8.55% APY, $11.11M TVL, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; apollo-diversified-credit-securitize-fund (Polygon), 8.55% APY, $909.9K TVL, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; apollo-diversified-credit-securitize-fund (Sei), 8.55% APY, $15.67M TVL, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; apollo-diversified-credit-securitize-fund (Solana), 8.55% APY, $18.37M TVL, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -82,4 +82,4 @@ Based on APY history only, ACRED's lower-variability candidates are apollo-diver
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

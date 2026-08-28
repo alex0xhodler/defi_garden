@@ -1,10 +1,10 @@
 # VLT DeFi Yields
 
-The highest honest VLT yield right now is 0.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VLT yield right now is 0.14% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=408c545b-ea02-44a8-a16c-451b94949e10&src=seo_token) | Ethereum | 0.16% | $1.17M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=408c545b-ea02-44a8-a16c-451b94949e10&src=seo_token) | Ethereum | 0.14% | $1.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VLT yield today?
 
-0.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.14% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many VLT pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank VLT pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

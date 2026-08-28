@@ -4,38 +4,38 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $15.05M |
-| [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.58M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.19% | $1.3M |
-| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 4.97% | $686.5K |
-| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $329.6K |
-| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 10.33% | $214.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 5.61% | $190.4K |
-| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 9.67% | $181.7K |
+| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $15.55M |
+| [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.61M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.27% | $1.3M |
+| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 5.21% | $685.8K |
+| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $329.9K |
+| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 10.33% | $213.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 3.32% | $190.2K |
+| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 9.15% | $181.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ZCHF의 변동성 낮은 후보는 Ethereum의 frankencoin, APY 3.50%, TVL $15.05M, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; Base의 frankencoin, APY 3.50%, TVL $329.6K, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; Gnosis의 frankencoin, APY 3.50%, TVL $1.58M, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; Ethereum의 uniswap-v3, APY 0.19%, TVL $1.3M, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; Ethereum의 curve-dex, APY 4.97%, TVL $686.5K, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; Ethereum의 stake-dao, APY 9.67%, TVL $181.7K, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; Ethereum의 convex-finance, APY 10.33%, TVL $214.1K, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; Ethereum의 uniswap-v3, APY 5.61%, TVL $190.4K, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZCHF의 변동성 낮은 후보는 Ethereum의 frankencoin, APY 3.50%, TVL $15.55M, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; Base의 frankencoin, APY 3.50%, TVL $329.9K, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; Gnosis의 frankencoin, APY 3.50%, TVL $1.61M, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; Ethereum의 uniswap-v3, APY 0.27%, TVL $1.3M, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; Ethereum의 curve-dex, APY 5.21%, TVL $685.8K, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; Ethereum의 stake-dao, APY 9.15%, TVL $181.5K, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; Ethereum의 convex-finance, APY 10.33%, TVL $213.9K, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; Ethereum의 uniswap-v3, APY 3.32%, TVL $190.2K, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $15.05M |
-| 2 | [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $329.6K |
-| 3 | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.58M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.19% | $1.3M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 4.97% | $686.5K |
-| 6 | [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 9.67% | $181.7K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 10.33% | $214.1K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 5.61% | $190.4K |
+| 1 | [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $15.55M |
+| 2 | [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $329.9K |
+| 3 | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.61M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.27% | $1.3M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 5.21% | $685.8K |
+| 6 | [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 9.15% | $181.5K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 10.33% | $213.9K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 3.32% | $190.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ZCHF 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.19%부터 10.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ZCHF 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.27%부터 10.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.78%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,12 +45,12 @@ ZCHF 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.19%부터 10.33%�
 |---|---|---|---|
 | frankencoin | 3.50% | 3.50% | 기본 금리 |
 | frankencoin | 3.50% | 3.50% | 기본 금리 |
-| uniswap-v3 | 0.19% | 0.34% | 기본 금리 |
-| curve-dex | 4.97% | 4.44% | 인센티브 97.79% |
+| uniswap-v3 | 0.27% | 0.34% | 기본 금리 |
+| curve-dex | 5.21% | 4.48% | 인센티브 89.05% |
 | frankencoin | 3.50% | 3.50% | 기본 금리 |
-| convex-finance | 10.33% | 9.23% | 인센티브 98.93% |
-| uniswap-v3 | 5.61% | 4.09% | 기본 금리 |
-| stake-dao | 9.67% | 8.13% | 인센티브 97.00% |
+| convex-finance | 10.33% | 9.30% | 인센티브 94.48% |
+| uniswap-v3 | 3.32% | 4.05% | 기본 금리 |
+| stake-dao | 9.15% | 8.20% | 인센티브 97.27% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 10.33
 
 ### ZCHF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.33M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,16 +70,16 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 10.33
 
 ### ZCHF 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ZCHF의 변동성 낮은 후보는 Ethereum의 frankencoin, APY 3.50%, TVL $15.05M, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; Base의 frankencoin, APY 3.50%, TVL $329.6K, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; Gnosis의 frankencoin, APY 3.50%, TVL $1.58M, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; Ethereum의 uniswap-v3, APY 0.19%, TVL $1.3M, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; Ethereum의 curve-dex, APY 4.97%, TVL $686.5K, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; Ethereum의 stake-dao, APY 9.67%, TVL $181.7K, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; Ethereum의 convex-finance, APY 10.33%, TVL $214.1K, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; Ethereum의 uniswap-v3, APY 5.61%, TVL $190.4K, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZCHF의 변동성 낮은 후보는 Ethereum의 frankencoin, APY 3.50%, TVL $15.55M, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; Base의 frankencoin, APY 3.50%, TVL $329.9K, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; Gnosis의 frankencoin, APY 3.50%, TVL $1.61M, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; Ethereum의 uniswap-v3, APY 0.27%, TVL $1.3M, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; Ethereum의 curve-dex, APY 5.21%, TVL $685.8K, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; Ethereum의 stake-dao, APY 9.15%, TVL $181.5K, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; Ethereum의 convex-finance, APY 10.33%, TVL $213.9K, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; Ethereum의 uniswap-v3, APY 3.32%, TVL $190.2K, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 ZCHF의 변동성 낮은 후보는 Ethereum
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

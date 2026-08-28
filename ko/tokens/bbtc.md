@@ -1,38 +1,31 @@
 # BBTC 디파이 수익률
 
-현재 BBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.60%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.00%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 0.01% | $481.4K |
-| [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token) | Ethereum | 0.43% | $139.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token) | Ethereum | 0.60% | $120.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 0.07% | $484.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token) | Ethereum | 1.00% | $120.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.43%, TVL $139.6K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token; Ethereum의 uniswap-v4, APY 0.60%, TVL $120.6K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token) | Ethereum | 0.43% | $139.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token) | Ethereum | 0.60% | $120.6K |
+비교할 수 있는 BBTC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BBTC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 0.60%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BBTC 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.07%부터 1.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.79%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.44%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.01% | 2.27% | 기본 금리 |
-| curve-dex | 0.43% | 0.03% | 기본 금리 |
-| uniswap-v4 | 0.60% | 0.79% | 기본 금리 |
+| uniswap-v3 | 0.07% | 2.09% | 기본 금리 |
+| uniswap-v4 | 1.00% | 0.78% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +33,11 @@ BBTC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 0.60%까
 
 ### 오늘 BBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.60%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.00%예요.
 
 ### BBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $741.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $747.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,19 +45,19 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.60%예�
 
 ### BBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.43%, TVL $139.6K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token; Ethereum의 uniswap-v4, APY 0.60%, TVL $120.6K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 BBTC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

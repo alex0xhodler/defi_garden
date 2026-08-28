@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Avalanche의 joe-v2.2에서 APY 0.16%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
+- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

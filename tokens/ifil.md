@@ -4,7 +4,7 @@ The highest honest IFIL yield right now is 3.65% on glif (Filecoin), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 3.65% | $20.37M |
+| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 3.65% | $19.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IFIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $20.37M in total.
+1 live pool clear this page's $100K TVL floor, $19.97M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank IFIL pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Filecoin](https://www.defi.garden/chains/filecoin)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

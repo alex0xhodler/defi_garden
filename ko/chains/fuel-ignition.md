@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| FUEL | [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_chain) | 20.00% | $1.23M |
+| FUEL | [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_chain) | 20.00% | $1.22M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Fuel Ignition의 fuel-staking에서 APY 20
 
 ### Fuel Ignition 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.22M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Fuel Ignition의 fuel-staking에서 APY 20
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Fuel Ignition의 fuel-staking에서 APY 20
 
 - [FUEL](https://www.defi.garden/ko/tokens/fuel)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

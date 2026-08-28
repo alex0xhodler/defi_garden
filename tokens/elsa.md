@@ -1,10 +1,10 @@
 # ELSA DeFi Yields
 
-The highest honest ELSA yield right now is 6.19% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELSA yield right now is 1.45% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_token) | Mantle | 6.19% | $145.3K |
+| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_token) | Mantle | 1.45% | $145.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELSA yield today?
 
-6.19% APY on fluxion-network (Mantle), based on live DefiLlama data.
+1.45% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many ELSA pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ELSA pools. This view covers 
 
 ## Related tokens
 
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
+- [KII](https://www.defi.garden/tokens/kii)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

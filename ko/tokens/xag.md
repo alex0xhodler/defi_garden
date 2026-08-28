@@ -1,10 +1,10 @@
 # XAG 디파이 수익률
 
-현재 XAG의 가장 높은 정직한 수익률은 Solana의 gmtrade에서 196.51%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAG의 가장 높은 정직한 수익률은 Solana의 gmtrade에서 170.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 196.51% | $1.66M |
+| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 170.09% | $1.66M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 XAG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 196.51%예요.
+DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 170.09%예요.
 
 ### XAG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 196.51%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

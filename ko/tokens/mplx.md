@@ -1,31 +1,31 @@
 # MPLX 디파이 수익률
 
-현재 MPLX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 13.28%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MPLX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 10.76%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 13.28% | $2.08M |
-| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 8.27% | $592.1K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 4.93% | $576.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 10.76% | $2.06M |
+| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 4.66% | $587K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 4.08% | $580.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MPLX의 변동성 낮은 후보는 Solana의 orca-dex, APY 8.27%, TVL $592.1K, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; Solana의 kamino-liquidity, APY 4.93%, TVL $576.9K, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; Solana의 raydium-amm, APY 13.28%, TVL $2.08M, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MPLX의 변동성 낮은 후보는 Solana의 orca-dex, APY 4.66%, TVL $587K, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; Solana의 kamino-liquidity, APY 4.08%, TVL $580.4K, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; Solana의 raydium-amm, APY 10.76%, TVL $2.06M, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 8.27% | $592.1K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 4.93% | $576.9K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 13.28% | $2.08M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 4.66% | $587K |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 4.08% | $580.4K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 10.76% | $2.06M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MPLX 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.93%부터 13.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MPLX 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.08%부터 10.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.87%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.00%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -33,9 +33,9 @@ MPLX 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.93%부터 13.28%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 13.28% | 5.59% | 기본 금리 |
-| orca-dex | 8.27% | 2.87% | 기본 금리 |
-| kamino-liquidity | 4.93% | 2.29% | 기본 금리 |
+| raydium-amm | 10.76% | 5.69% | 기본 금리 |
+| orca-dex | 4.66% | 3.00% | 기본 금리 |
+| kamino-liquidity | 4.08% | 2.43% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,7 +43,7 @@ MPLX 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.93%부터 13.28%�
 
 ### 오늘 MPLX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 13.28%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 10.76%예요.
 
 ### MPLX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 13.28%예�
 
 ### MPLX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MPLX의 변동성 낮은 후보는 Solana의 orca-dex, APY 8.27%, TVL $592.1K, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; Solana의 kamino-liquidity, APY 4.93%, TVL $576.9K, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; Solana의 raydium-amm, APY 13.28%, TVL $2.08M, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MPLX의 변동성 낮은 후보는 Solana의 orca-dex, APY 4.66%, TVL $587K, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; Solana의 kamino-liquidity, APY 4.08%, TVL $580.4K, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; Solana의 raydium-amm, APY 10.76%, TVL $2.06M, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 MPLX의 변동성 낮은 후보는 Solana�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

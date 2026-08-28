@@ -1,10 +1,10 @@
 # HEU DeFi Yields
 
-The highest honest HEU yield right now is 0.37% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEU yield right now is 8.19% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=02954d79-f24b-5b7d-93ee-4d7161f29690&src=seo_token) | Base | 0.37% | $108.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02954d79-f24b-5b7d-93ee-4d7161f29690&src=seo_token) | Base | 8.19% | $106.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEU yield today?
 
-0.37% APY on uniswap-v3 (Base), based on live DefiLlama data.
+8.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many HEU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.4K in total.
+1 live pool clear this page's $100K TVL floor, $106.2K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank HEU pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

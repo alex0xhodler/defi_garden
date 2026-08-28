@@ -1,10 +1,10 @@
 # INTMKSRROYUSDC DeFi Yields
 
-The highest honest INTMKSRROYUSDC yield right now is 5.40% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INTMKSRROYUSDC yield right now is 6.19% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=9bdf55a5-348a-5e51-bbc3-6daecd6165eb&src=seo_token) | Ethereum | 5.40% | $11.04M |
+| [makina →](https://www.defi.garden/?pool=9bdf55a5-348a-5e51-bbc3-6daecd6165eb&src=seo_token) | Ethereum | 6.19% | $11.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INTMKSRROYUSDC yield today?
 
-5.40% APY on makina (Ethereum), based on live DefiLlama data.
+6.19% APY on makina (Ethereum), based on live DefiLlama data.
 
 ### How many INTMKSRROYUSDC pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank INTMKSRROYUSDC pools. This vi
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

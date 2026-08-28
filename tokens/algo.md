@@ -4,7 +4,7 @@ The highest honest ALGO yield right now is 1.94% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.94% | $3.53M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.94% | $3.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALGO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.81M in total.
+2 live pools clear this page's $100K TVL floor, $3.73M in total.
 
 ### Are these rates safe?
 
@@ -51,11 +51,11 @@ There is not enough qualifying APY history to rank ALGO pools. This view covers 
 - [GOLD](https://www.defi.garden/tokens/gold)
 - [SILVER](https://www.defi.garden/tokens/silver)
 - [GOETH](https://www.defi.garden/tokens/goeth)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

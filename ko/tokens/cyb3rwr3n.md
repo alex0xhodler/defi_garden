@@ -1,10 +1,10 @@
 # CYB3RWR3N 디파이 수익률
 
-현재 CYB3RWR3N의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 22.73%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CYB3RWR3N의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 5.61%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=33aeaa63-daa1-4ab2-b074-18047faa7be2&src=seo_token) | Base | 22.73% | $347.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=33aeaa63-daa1-4ab2-b074-18047faa7be2&src=seo_token) | Base | 5.61% | $354.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CYB3RWR3N의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 22.73%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 5.61%예요.
 
 ### CYB3RWR3N 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $347.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $354.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 22.73%예요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

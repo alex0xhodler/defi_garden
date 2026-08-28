@@ -1,10 +1,10 @@
 # GTCBBTCC DeFi Yields
 
-The highest honest GTCBBTCC yield right now is 0.02% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTCBBTCC yield right now is 0.03% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.02% | $554K |
+| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.03% | $571K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTCBBTCC yield today?
 
-0.02% APY on morpho-blue (Base), based on live DefiLlama data.
+0.03% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many GTCBBTCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $554K in total.
+1 live pool clear this page's $100K TVL floor, $571K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GTCBBTCC pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

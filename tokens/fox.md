@@ -1,10 +1,10 @@
 # FOX DeFi Yields
 
-The highest honest FOX yield right now is 1.49% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOX yield right now is 6.62% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 1.49% | $1.32M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 6.62% | $1.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOX yield today?
 
-1.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.62% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.32M in total.
+1 live pool clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank FOX pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

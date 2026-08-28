@@ -4,7 +4,7 @@ The highest honest SPSEI yield right now is 0.61% on takara-lend (Sei), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_token) | Sei | 0.61% | $3.16M |
+| [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_token) | Sei | 0.61% | $3.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPSEI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.16M in total.
+1 live pool clear this page's $100K TVL floor, $3.12M in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank SPSEI pools. This view covers
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [WSEI](https://www.defi.garden/tokens/wsei)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Sei](https://www.defi.garden/chains/sei)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

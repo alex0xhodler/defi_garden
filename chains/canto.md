@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NOTE](https://www.defi.garden/tokens/note)
 - [WCANTO](https://www.defi.garden/tokens/wcanto)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

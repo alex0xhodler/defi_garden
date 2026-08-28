@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, Canto의 canto-lending에서 APY 32.06%예
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Canto의 canto-lending에서 APY 32.06%예
 - [NOTE](https://www.defi.garden/ko/tokens/note)
 - [WCANTO](https://www.defi.garden/ko/tokens/wcanto)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

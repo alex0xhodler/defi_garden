@@ -1,10 +1,10 @@
 # HFUN 디파이 수익률
 
-현재 HFUN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 3.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HFUN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 3.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 3.54% | $534K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 3.53% | $534K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 HFUN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 3.54%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 3.53%예요.
 
 ### HFUN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 3
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
-- [FEHYPE](https://www.defi.garden/ko/tokens/fehype)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

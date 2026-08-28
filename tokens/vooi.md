@@ -1,10 +1,10 @@
 # VOOI DeFi Yields
 
-The highest honest VOOI yield right now is 1.93% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VOOI yield right now is 1.56% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=b5933580-18c1-43b6-aec3-2563cd30e3a2&src=seo_token) | Mantle | 1.93% | $119.6K |
+| [fluxion-network →](https://www.defi.garden/?pool=b5933580-18c1-43b6-aec3-2563cd30e3a2&src=seo_token) | Mantle | 1.56% | $118.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VOOI yield today?
 
-1.93% APY on fluxion-network (Mantle), based on live DefiLlama data.
+1.56% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many VOOI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.6K in total.
+1 live pool clear this page's $100K TVL floor, $118.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank VOOI pools. This view covers 
 
 ## Related tokens
 
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
+- [KII](https://www.defi.garden/tokens/kii)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

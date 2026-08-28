@@ -1,10 +1,10 @@
 # SAFE DeFi Yields
 
-The highest honest SAFE yield right now is 7.53% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAFE yield right now is 2.25% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2505d5de-74c0-4d4c-b9cb-8ce082319f74&src=seo_token) | Ethereum | 7.53% | $210.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2505d5de-74c0-4d4c-b9cb-8ce082319f74&src=seo_token) | Ethereum | 2.25% | $205.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAFE yield today?
 
-7.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.25% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SAFE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.4K in total.
+1 live pool clear this page's $100K TVL floor, $205.3K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SAFE pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

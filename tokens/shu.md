@@ -1,10 +1,10 @@
 # SHU DeFi Yields
 
-The highest honest SHU yield right now is 0.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHU yield right now is 0.17% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b1e56e17-c055-4db1-8160-42a9bee82844&src=seo_token) | Ethereum | 0.16% | $149.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b1e56e17-c055-4db1-8160-42a9bee82844&src=seo_token) | Ethereum | 0.17% | $149.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHU yield today?
 
-0.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.17% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.6K in total.
+1 live pool clear this page's $100K TVL floor, $149.2K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SHU pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

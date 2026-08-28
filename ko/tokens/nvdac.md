@@ -1,11 +1,14 @@
 # NVDAC 디파이 수익률
 
-현재 NVDAC의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 463.46%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVDAC의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 44.68%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 198.51% | $363.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a&src=seo_token) | Base | 463.46% | $116.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 748.49% | $1.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 25.49% | $360.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1c31bd0c-2835-5ea5-9848-c65531372bd0&src=seo_token) | Base | 1.62% | $151K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a&src=seo_token) | Base | 150.90% | $117.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3039f3d3-858a-550a-9bec-84b3ca1a002e&src=seo_token) | Base | 44.68% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -16,18 +19,21 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NVDAC 풀은 여기 2개가 있고, 1개 체인에서 APY가 198.51%부터 463.46%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NVDAC 풀은 여기 5개가 있고, 1개 체인에서 APY가 1.62%부터 748.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 1개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 485.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 183.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+5개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-2개 풀 중 2개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+5개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 198.51% | 485.80% | 기본 금리 |
-| uniswap-v4 | 463.46% | — | 기본 금리 |
+| aerodrome-slipstream | 748.49% | 475.82% | 인센티브 85.28% |
+| uniswap-v4 | 25.49% | 332.93% | 기본 금리 |
+| uniswap-v4 | 1.62% | 9.02% | 기본 금리 |
+| uniswap-v4 | 150.90% | — | 기본 금리 |
+| uniswap-v4 | 44.68% | 33.98% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -35,11 +41,11 @@ NVDAC 풀은 여기 2개가 있고, 1개 체인에서 APY가 198.51%부터 463.4
 
 ### 오늘 NVDAC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 463.46%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 44.68%예요.
 
 ### NVDAC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $2.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $4.27M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,15 +57,15 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 463.46%예요
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

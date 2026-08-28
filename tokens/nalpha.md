@@ -1,10 +1,10 @@
 # NALPHA DeFi Yields
 
-The highest honest NALPHA yield right now is 8.50% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NALPHA yield right now is 8.39% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_token) | Plume Mainnet | 8.50% | $13.28M |
+| [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_token) | Plume Mainnet | 8.39% | $13.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NALPHA yield today?
 
-8.50% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+8.39% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NALPHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $13.28M in total.
+1 live pool clear this page's $100K TVL floor, $13.21M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NALPHA pools. This view cover
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

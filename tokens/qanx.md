@@ -1,10 +1,10 @@
 # QANX DeFi Yields
 
-The highest honest QANX yield right now is 2.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QANX yield right now is 6.46% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd&src=seo_token) | Ethereum | 2.02% | $342.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd&src=seo_token) | Ethereum | 6.46% | $346.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QANX yield today?
 
-2.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QANX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $342.6K in total.
+1 live pool clear this page's $100K TVL floor, $346.1K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank QANX pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

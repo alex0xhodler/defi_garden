@@ -1,10 +1,10 @@
 # SIREN DeFi Yields
 
-The highest honest SIREN yield right now is 13.16% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIREN yield right now is 4.13% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 13.16% | $180.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 4.13% | $184K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIREN yield today?
 
-13.16% APY on uniswap-v2 (Base), based on live DefiLlama data.
+4.13% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SIREN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.5K in total.
+1 live pool clear this page's $100K TVL floor, $184K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SIREN pools. This view covers
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

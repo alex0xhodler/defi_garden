@@ -1,10 +1,10 @@
 # MRNA DeFi Yields
 
-The highest honest MRNA yield right now is 88.95% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MRNA yield right now is 69.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4b9a0221-7e69-54b8-89b6-15180ecb6adf&src=seo_token) | Solana | 88.95% | $150K |
+| [raydium-amm →](https://www.defi.garden/?pool=4b9a0221-7e69-54b8-89b6-15180ecb6adf&src=seo_token) | Solana | 69.69% | $147.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MRNA yield today?
 
-88.95% APY on raydium-amm (Solana), based on live DefiLlama data.
+69.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MRNA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150K in total.
+1 live pool clear this page's $100K TVL floor, $147.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MRNA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

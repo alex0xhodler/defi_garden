@@ -1,10 +1,10 @@
 # DAUSDRWA DeFi Yields
 
-The highest honest DAUSDRWA yield right now is 4.51% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAUSDRWA yield right now is 4.24% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 4.51% | $100.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 4.24% | $100.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAUSDRWA yield today?
 
-4.51% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.24% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many DAUSDRWA pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank DAUSDRWA pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

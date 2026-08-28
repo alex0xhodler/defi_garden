@@ -4,7 +4,7 @@ The highest honest EARNXLM yield right now is 5.00% on gami-labs (Stellar), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 5.00% | $3.77M |
+| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 5.00% | $3.81M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EARNXLM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.77M in total.
+1 live pool clear this page's $100K TVL floor, $3.81M in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank EARNXLM pools. This view cove
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [EARNUSDC](https://www.defi.garden/tokens/earnusdc)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

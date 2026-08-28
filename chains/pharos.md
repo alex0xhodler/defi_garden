@@ -1,11 +1,10 @@
 # Pharos DeFi Yields
 
-The highest honest Pharos yield right now is 4.09% on centrifuge-protocol (Pharos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Pharos yield right now is 4.02% on centrifuge-protocol (Pharos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 4.09% | $4.39M |
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=bb569576-9211-570b-b60d-fab36a132589&src=seo_chain) | 3.91% | $100.2K |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 4.02% | $4.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Pharos yield today?
 
-4.09% APY on centrifuge-protocol (Pharos), based on live DefiLlama data.
+4.02% APY on centrifuge-protocol (Pharos), based on live DefiLlama data.
 
 ### How many Pharos pools clear the TVL floor?
 
@@ -26,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
@@ -36,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

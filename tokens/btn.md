@@ -1,10 +1,10 @@
 # BTN DeFi Yields
 
-The highest honest BTN yield right now is 10.00% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTN yield right now is 23.88% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=29e5362c-53da-41c5-a33f-66c33fa4c2d1&src=seo_token) | Base | 10.00% | $109.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=29e5362c-53da-41c5-a33f-66c33fa4c2d1&src=seo_token) | Base | 23.88% | $122.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTN yield today?
 
-10.00% APY on uniswap-v3 (Base), based on live DefiLlama data.
+23.88% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BTN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.9K in total.
+1 live pool clear this page's $100K TVL floor, $122.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank BTN pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

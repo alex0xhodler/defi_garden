@@ -1,10 +1,10 @@
 # MYKCLAWD DeFi Yields
 
-The highest honest MYKCLAWD yield right now is 7.39% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MYKCLAWD yield right now is 0.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=441be081-6672-4d86-bee1-4f903de3fd8e&src=seo_token) | Base | 7.39% | $105.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=441be081-6672-4d86-bee1-4f903de3fd8e&src=seo_token) | Base | 0.18% | $104.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MYKCLAWD yield today?
 
-7.39% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MYKCLAWD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.5K in total.
+1 live pool clear this page's $100K TVL floor, $104.7K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank MYKCLAWD pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

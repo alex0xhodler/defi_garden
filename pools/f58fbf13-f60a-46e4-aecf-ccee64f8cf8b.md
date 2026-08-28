@@ -2,7 +2,7 @@
 
 **Total APY:** 0.55% (0.55% Base · + 0.00% Rewards)
 
-**TVL:** $2.06M
+**TVL:** $2.04M
 
 **Pool Type:** LP/DEX
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,028 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+We've been tracking this pool's rate for 22 days. Watching how a rate holds up over time is one honest way to judge it.
 
 [Garden this pool → ~$1,028 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on quickswap-dex](https://quickswap.exchange/?ref=defi.garden)
 
-Last updated August 27, 2026
+Last updated August 28, 2026

@@ -1,10 +1,10 @@
 # WGOOGLX DeFi Yields
 
-The highest honest WGOOGLX yield right now is 0.37% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGOOGLX yield right now is 0.36% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.37% | $109.9K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.36% | $109.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGOOGLX yield today?
 
-0.37% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.36% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WGOOGLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.9K in total.
+1 live pool clear this page's $100K TVL floor, $109.2K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 
 ## Related tokens
 
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
+- [KII](https://www.defi.garden/tokens/kii)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

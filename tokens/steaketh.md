@@ -1,31 +1,31 @@
 # STEAKETH DeFi Yields
 
-The highest honest STEAKETH yield right now is 2.93% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKETH yield right now is 2.90% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.93% | $45.08M |
-| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.63% | $30.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.62% | $20.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.90% | $44.95M |
+| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.69% | $29.94M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.66% | $21.06M |
 | [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.46% | $2.15M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.62% APY, $20.74M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.63% APY, $30.11M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.46% APY, $2.15M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.93% APY, $45.08M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.66% APY, $21.06M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.69% APY, $29.94M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.46% APY, $2.15M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.90% APY, $44.95M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.62% | $20.74M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.63% | $30.11M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.66% | $21.06M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.69% | $29.94M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.46% | $2.15M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.93% | $45.08M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.90% | $44.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STEAKETH shows up in 4 pools here, with rates from 1.46% to 2.93% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+STEAKETH shows up in 4 pools here, with rates from 1.46% to 2.90% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ STEAKETH shows up in 4 pools here, with rates from 1.46% to 2.93% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.93% | 2.95% | 51.26% incentives |
-| morpho-blue | 1.63% | 1.77% | Base rate |
-| morpho-blue | 1.62% | 1.77% | Base rate |
+| morpho-blue | 2.90% | 2.91% | 51.66% incentives |
+| morpho-blue | 1.69% | 1.77% | Base rate |
+| morpho-blue | 1.66% | 1.77% | Base rate |
 | morpho-blue | 1.46% | 1.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STEAKETH yield today?
 
-2.93% APY on morpho-blue (Monad), based on live DefiLlama data.
+2.90% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many STEAKETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $98.08M in total.
+4 live pools clear this page's $100K TVL floor, $98.1M in total.
 
 ### Are these rates safe?
 
@@ -56,16 +56,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKETH pools have the most stable APY history?
 
-Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.62% APY, $20.74M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.63% APY, $30.11M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.46% APY, $2.15M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.93% APY, $45.08M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.66% APY, $21.06M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.69% APY, $29.94M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.46% APY, $2.15M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.90% APY, $44.95M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -73,4 +73,4 @@ Based on APY history only, STEAKETH's lower-variability candidates are morpho-bl
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

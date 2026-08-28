@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.41% | $1.97M |
+| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
 | [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 4.96% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AUSDC의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.41%, TVL $1.97M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; Ethereum의 morpho-blue, APY 4.96%, TVL $1.07M, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; Ethereum의 curve-dex, APY 0.35%, TVL $309K, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUSDC의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.40%, TVL $1.98M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; Ethereum의 morpho-blue, APY 4.96%, TVL $1.07M, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; Ethereum의 curve-dex, APY 0.35%, TVL $308.7K, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.41% | $1.97M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 4.96% | $1.07M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,9 +33,9 @@ AUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.35%부터 4.96%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hydration-dex | 0.41% | 0.41% | 기본 금리 |
+| hydration-dex | 0.40% | 0.41% | 기본 금리 |
 | morpho-blue | 4.96% | 6.30% | 기본 금리 |
-| curve-dex | 0.35% | 0.32% | 기본 금리 |
+| curve-dex | 0.35% | 0.33% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,20 +55,20 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.96%예
 
 ### AUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AUSDC의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.41%, TVL $1.97M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; Ethereum의 morpho-blue, APY 4.96%, TVL $1.07M, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; Ethereum의 curve-dex, APY 0.35%, TVL $309K, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUSDC의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.40%, TVL $1.98M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; Ethereum의 morpho-blue, APY 4.96%, TVL $1.07M, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; Ethereum의 curve-dex, APY 0.35%, TVL $308.7K, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SAND](https://www.defi.garden/ko/tokens/sand)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

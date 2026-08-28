@@ -4,7 +4,7 @@ The highest honest NSTR yield right now is 0.01% on nostra-pools (Starknet), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 0.01% | $113.5K |
+| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 0.01% | $113.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.5K in total.
+1 live pool clear this page's $100K TVL floor, $113.3K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 ## Related tokens
 
+- [TBTC](https://www.defi.garden/tokens/tbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
-- [ZEC](https://www.defi.garden/tokens/zec)
-- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

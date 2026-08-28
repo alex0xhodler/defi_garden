@@ -1,10 +1,10 @@
 # VAULT7 DeFi Yields
 
-The highest honest VAULT7 yield right now is 4.60% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VAULT7 yield right now is 4.26% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.60% | $299K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.26% | $293.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VAULT7 yield today?
 
-4.60% APY on affluent (TON), based on live DefiLlama data.
+4.26% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many VAULT7 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299K in total.
+1 live pool clear this page's $100K TVL floor, $293.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VAULT7 pools. This view cover
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

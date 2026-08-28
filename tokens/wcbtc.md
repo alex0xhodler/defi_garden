@@ -1,10 +1,10 @@
 # WCBTC DeFi Yields
 
-The highest honest WCBTC yield right now is 0.43% on accountable (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCBTC yield right now is 0.55% on accountable (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_token) | Citrea | 0.43% | $3.19M |
+| [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_token) | Citrea | 0.55% | $3.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WCBTC yield today?
 
-0.43% APY on accountable (Citrea), based on live DefiLlama data.
+0.55% APY on accountable (Citrea), based on live DefiLlama data.
 
 ### How many WCBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.19M in total.
+1 live pool clear this page's $100K TVL floor, $3.18M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WCBTC pools. This view covers
 ## Related tokens
 
 - [CTUSD](https://www.defi.garden/tokens/ctusd)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Citrea](https://www.defi.garden/chains/citrea)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

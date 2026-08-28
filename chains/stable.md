@@ -1,10 +1,10 @@
 # Stable DeFi Yields
 
-The highest honest Stable yield right now is 5.38% on morpho-blue (Stable), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Stable yield right now is 6.47% on morpho-blue (Stable), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 5.38% | $23.26M |
+| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 6.47% | $21.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Stable yield today?
 
-5.38% APY on morpho-blue (Stable), based on live DefiLlama data.
+6.47% APY on morpho-blue (Stable), based on live DefiLlama data.
 
 ### How many Stable pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $113.31M in total.
+5 live pools clear this page's $100K TVL floor, $111.16M in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [GTUSDTB](https://www.defi.garden/tokens/gtusdtb)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

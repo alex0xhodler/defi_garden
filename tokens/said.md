@@ -4,7 +4,7 @@ The highest honest SAID yield right now is 10.68% on gaib (Ethereum), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.68% | $18.58M |
+| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.68% | $18.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $18.58M in total.
+1 live pool clear this page's $100K TVL floor, $18.15M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SAID pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

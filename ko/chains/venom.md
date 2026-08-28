@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| VENOM | [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_chain) | 7.59% | $6.42M |
+| VENOM | [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_chain) | 7.59% | $6.53M |
 | WVENOM-USDT | [web3.world →](https://www.defi.garden/?pool=049cfb62-8663-4c50-a814-be2d00d7736e&src=seo_chain) | 2.66% | $161.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.59%예요.
 
 ### Venom 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.69M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.59%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.59%예요.
 - [WVENOM](https://www.defi.garden/ko/tokens/wvenom)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

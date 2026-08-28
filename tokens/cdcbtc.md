@@ -1,27 +1,27 @@
 # CDCBTC DeFi Yields
 
-The highest honest CDCBTC yield right now is 0.01% on tectonic (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CDCBTC yield right now is 0.80% on vvs-flawless (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.64M |
-| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.44% | $316.9K |
+| [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.63M |
+| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.80% | $310.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CDCBTC's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.64M TVL, https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token; vvs-flawless (Cronos), 0.44% APY, $316.9K TVL, https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDCBTC's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.63M TVL, https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token; vvs-flawless (Cronos), 0.80% APY, $310.9K TVL, https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.64M |
-| 2 | [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.44% | $316.9K |
+| 1 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.63M |
+| 2 | [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.80% | $310.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.44% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tectonic | 0.01% | 0.01% | 50.11% incentives |
-| vvs-flawless | 0.44% | 1.28% | Base rate |
+| tectonic | 0.01% | 0.01% | 49.63% incentives |
+| vvs-flawless | 0.80% | 1.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CDCBTC yield today?
 
-0.01% APY on tectonic (Cronos), based on live DefiLlama data.
+0.80% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many CDCBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.96M in total.
+2 live pools clear this page's $100K TVL floor, $2.94M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CDCBTC pools have the most stable APY history?
 
-Based on APY history only, CDCBTC's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.64M TVL, https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token; vvs-flawless (Cronos), 0.44% APY, $316.9K TVL, https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDCBTC's lower-variability candidates are tectonic (Cronos), 0.01% APY, $2.63M TVL, https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token; vvs-flawless (Cronos), 0.80% APY, $310.9K TVL, https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,10 +61,10 @@ Based on APY history only, CDCBTC's lower-variability candidates are tectonic (C
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

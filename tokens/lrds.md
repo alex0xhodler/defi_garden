@@ -1,10 +1,10 @@
 # LRDS DeFi Yields
 
-The highest honest LRDS yield right now is 80.73% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LRDS yield right now is 83.19% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 80.73% | $288.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 83.19% | $280.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LRDS yield today?
 
-80.73% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+83.19% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many LRDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.8K in total.
+1 live pool clear this page's $100K TVL floor, $280.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank LRDS pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

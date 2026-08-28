@@ -5,12 +5,17 @@ The highest honest MTPOOL yield right now is 3.63% on lagoon (Ethereum), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
-| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $673K |
+| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $670.3K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank MTPOOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MTPOOL's lower-variability candidates are lagoon (Ethereum), 1.57% APY, $670.3K TVL, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; lagoon (Ethereum), 3.63% APY, $833.3K TVL, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $670.3K |
+| 2 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MTPOOL pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank MTPOOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MTPOOL's lower-variability candidates are lagoon (Ethereum), 1.57% APY, $670.3K TVL, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; lagoon (Ethereum), 3.63% APY, $833.3K TVL, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

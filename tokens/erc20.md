@@ -4,7 +4,7 @@ The highest honest ERC20 yield right now is 0.01% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c8268161-6b6e-5487-92c0-698a6f1817e9&src=seo_token) | Base | 0.01% | $181.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c8268161-6b6e-5487-92c0-698a6f1817e9&src=seo_token) | Base | 0.01% | $181.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ERC20 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.2K in total.
+1 live pool clear this page's $100K TVL floor, $181.1K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ERC20 pools. This view covers
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

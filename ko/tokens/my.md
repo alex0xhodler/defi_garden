@@ -1,10 +1,10 @@
 # MY 디파이 수익률
 
-현재 MY의 가장 높은 정직한 수익률은 TON의 dedust에서 0.39%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MY의 가장 높은 정직한 수익률은 TON의 dedust에서 0.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.39% | $264.8K |
+| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.18% | $264.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 MY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.39%예요.
+DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.18%예요.
 
 ### MY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $264.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $264.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.39%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

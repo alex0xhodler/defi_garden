@@ -4,7 +4,7 @@ The highest honest YZSYRUP yield right now is 9.95% on yuzu-money (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.95% | $3.86M |
+| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.95% | $3.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YZSYRUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.86M in total.
+1 live pool clear this page's $100K TVL floor, $3.84M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank YZSYRUP pools. This view cove
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,12 +1,12 @@
 # TBTC — hydration-dex on Polkadot
 
-**Total APY:** 0.33% (0.33% Base · + 0.00% Rewards)
+**Total APY:** 0.32% (0.32% Base · + 0.00% Rewards)
 
-**TVL:** $2.07M
+**TVL:** $2.05M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 5.06%
+**30d Mean APY:** 4.93%
 
 **Exposure:** single
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,016 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.33% right now vs a 5.06% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.32% right now vs a 4.93% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,016 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 
-Last updated August 27, 2026
+Last updated August 28, 2026

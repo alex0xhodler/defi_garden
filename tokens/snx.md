@@ -1,10 +1,10 @@
 # SNX DeFi Yields
 
-The highest honest SNX yield right now is 3.91% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNX yield right now is 32.96% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae1d429a-ec54-44fb-95f5-e89e5f1e860c&src=seo_token) | Ethereum | 3.91% | $104.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae1d429a-ec54-44fb-95f5-e89e5f1e860c&src=seo_token) | Ethereum | 32.96% | $102.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNX yield today?
 
-3.91% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+32.96% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SNX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.1K in total.
+1 live pool clear this page's $100K TVL floor, $102.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SNX pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

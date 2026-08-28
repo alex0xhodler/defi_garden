@@ -1,10 +1,10 @@
 # MANLET DeFi Yields
 
-The highest honest MANLET yield right now is 500.71% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MANLET yield right now is 565.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 500.71% | $258.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 565.24% | $259.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MANLET yield today?
 
-500.71% APY on raydium-amm (Solana), based on live DefiLlama data.
+565.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MANLET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258.5K in total.
+1 live pool clear this page's $100K TVL floor, $259.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MANLET pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

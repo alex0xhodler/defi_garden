@@ -1,11 +1,11 @@
 # SILV DeFi Yields
 
-The highest honest SILV yield right now is 25.57% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SILV yield right now is 16.77% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=6eff43ec-b057-59f8-8039-c76d2b20d930&src=seo_token) | Solana | 25.57% | $863.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=8714b2f4-980c-5051-9a7d-6438ff0204cc&src=seo_token) | Solana | 0.98% | $424.3K |
+| [orca-dex →](https://www.defi.garden/?pool=6eff43ec-b057-59f8-8039-c76d2b20d930&src=seo_token) | Solana | 16.77% | $901.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=8714b2f4-980c-5051-9a7d-6438ff0204cc&src=seo_token) | Solana | 0.84% | $426.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SILV shows up in 2 pools here, with rates from 0.98% to 25.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SILV shows up in 2 pools here, with rates from 0.84% to 16.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 25.57% | 17.86% | Base rate |
-| raydium-amm | 0.98% | 5.41% | Base rate |
+| orca-dex | 16.77% | 19.40% | Base rate |
+| raydium-amm | 0.84% | 5.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SILV yield today?
 
-25.57% APY on orca-dex (Solana), based on live DefiLlama data.
+16.77% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SILV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.29M in total.
+2 live pools clear this page's $100K TVL floor, $1.33M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SILV pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

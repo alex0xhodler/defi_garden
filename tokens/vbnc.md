@@ -4,7 +4,7 @@ The highest honest VBNC yield right now is 2.19% on bifrost-liquid-staking (Bifr
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5&src=seo_token) | Bifrost | 2.19% | $331.8K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5&src=seo_token) | Bifrost | 2.19% | $308.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VBNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $331.8K in total.
+1 live pool clear this page's $100K TVL floor, $308.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank VBNC pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Bifrost](https://www.defi.garden/chains/bifrost)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

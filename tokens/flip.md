@@ -1,10 +1,10 @@
 # FLIP DeFi Yields
 
-The highest honest FLIP yield right now is 2.24% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLIP yield right now is 9.40% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 2.24% | $258.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 9.40% | $265.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLIP yield today?
 
-2.24% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.40% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FLIP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258.3K in total.
+1 live pool clear this page's $100K TVL floor, $265.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank FLIP pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

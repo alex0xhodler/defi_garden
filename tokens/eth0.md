@@ -1,10 +1,10 @@
 # ETH0 DeFi Yields
 
-The highest honest ETH0 yield right now is 3.35% on usual-eth0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETH0 yield right now is 3.28% on usual-eth0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.35% | $1.82M |
+| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.28% | $1.82M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETH0 yield today?
 
-3.35% APY on usual-eth0 (Ethereum), based on live DefiLlama data.
+3.28% APY on usual-eth0 (Ethereum), based on live DefiLlama data.
 
 ### How many ETH0 pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ETH0 pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,14 +1,14 @@
 # BASECAT DeFi Yields
 
-The highest honest BASECAT yield right now is 851.48% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASECAT yield right now is 684.31% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.90% | $1.33M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 851.48% | $805.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 41.37% | $446.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8&src=seo_token) | Base | 47.84% | $159.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e4427798-a61a-5e29-8311-001e2263a92f&src=seo_token) | Base | 0.40% | $140.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.61% | $1.16M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 684.31% | $762.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 9.11% | $402.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e4427798-a61a-5e29-8311-001e2263a92f&src=seo_token) | Base | 0.28% | $121.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fe50ea0-3298-58e8-a54d-08b9b6beccd8&src=seo_token) | Base | 49.85% | $111.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BASECAT shows up in 5 pools here, with rates from 0.40% to 851.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BASECAT shows up in 5 pools here, with rates from 0.28% to 684.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,11 +27,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.90% | — | Base rate |
-| uniswap-v4 | 851.48% | — | Base rate |
-| uniswap-v4 | 41.37% | — | Base rate |
-| uniswap-v4 | 47.84% | — | Base rate |
-| uniswap-v4 | 0.40% | — | Base rate |
+| uniswap-v4 | 0.61% | — | Base rate |
+| uniswap-v4 | 684.31% | — | Base rate |
+| uniswap-v4 | 9.11% | — | Base rate |
+| uniswap-v4 | 0.28% | — | Base rate |
+| uniswap-v4 | 49.85% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BASECAT yield today?
 
-851.48% APY on uniswap-v4 (Base), based on live DefiLlama data.
+684.31% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BASECAT pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.66M in total.
+6 live pools clear this page's $100K TVL floor, $3.28M in total.
 
 ### Are these rates safe?
 
@@ -55,15 +55,15 @@ There is not enough qualifying APY history to rank BASECAT pools. This view cove
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,10 +1,10 @@
 # REACT DeFi Yields
 
-The highest honest REACT yield right now is 13.36% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REACT yield right now is 7.54% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72c6fa77-eed2-4b88-acbc-90718b0b966b&src=seo_token) | Ethereum | 13.36% | $152K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=72c6fa77-eed2-4b88-acbc-90718b0b966b&src=seo_token) | Ethereum | 7.54% | $151.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REACT yield today?
 
-13.36% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+7.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REACT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152K in total.
+1 live pool clear this page's $100K TVL floor, $151.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank REACT pools. This view covers
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

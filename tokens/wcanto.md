@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WCANTO pools. This view cover
 ## Related tokens
 
 - [NOTE](https://www.defi.garden/tokens/note)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Canto](https://www.defi.garden/chains/canto)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

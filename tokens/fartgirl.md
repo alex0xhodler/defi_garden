@@ -1,10 +1,10 @@
 # FARTGIRL DeFi Yields
 
-The highest honest FARTGIRL yield right now is 8.36% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTGIRL yield right now is 6.46% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=64d47699-ce1b-42ef-9c97-6fe76ddf1abc&src=seo_token) | Solana | 8.36% | $112.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=64d47699-ce1b-42ef-9c97-6fe76ddf1abc&src=seo_token) | Solana | 6.46% | $109.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTGIRL yield today?
 
-8.36% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.46% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTGIRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.5K in total.
+1 live pool clear this page's $100K TVL floor, $109.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FARTGIRL pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

@@ -1,29 +1,29 @@
 # FUL DeFi Yields
 
-The highest honest FUL yield right now is 0.27% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUL yield right now is 0.85% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.27% | $489.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.32% | $122.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.22% | $476.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.85% | $118.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.32% APY, $122.1K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.27% APY, $489.8K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.85% APY, $118.5K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.22% APY, $476.2K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.32% | $122.1K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.27% | $489.8K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.85% | $118.5K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.22% | $476.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUL shows up in 2 pools here, with rates from 0.27% to 0.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUL shows up in 2 pools here, with rates from 0.22% to 0.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.27% | 0.65% | Base rate |
-| vvs-standard | 0.32% | 1.40% | Base rate |
+| vvs-standard | 0.22% | 0.65% | Base rate |
+| vvs-standard | 0.85% | 1.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUL yield today?
 
-0.27% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.85% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many FUL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $612K in total.
+2 live pools clear this page's $100K TVL floor, $594.7K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUL pools have the most stable APY history?
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.32% APY, $122.1K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.27% APY, $489.8K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.85% APY, $118.5K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.22% APY, $476.2K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,10 +61,10 @@ Based on APY history only, FUL's lower-variability candidates are vvs-standard (
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

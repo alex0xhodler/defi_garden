@@ -1,17 +1,17 @@
 # Aptos 디파이 수익률
 
-현재 Aptos의 가장 높은 정직한 수익률은 Aptos의 thalaswap에서 20.80%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Aptos의 가장 높은 정직한 수익률은 Aptos의 thalaswap에서 16.77%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_chain) | 3.24% | $966.95M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_chain) | 3.24% | $966.96M |
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a&src=seo_chain) | 15.13% | $6.29M |
-| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $3.19M |
-| USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60&src=seo_chain) | 2.29% | $2.17M |
-| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 20.80% | $2.13M |
-| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.19% | $1.78M |
+| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $3.11M |
+| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 16.77% | $2.15M |
+| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.19% | $1.73M |
+| USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 4.07% | $1.62M |
 | APT-AMAPT | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_chain) | 4.80% | $1.58M |
-| APT-TRUAPT | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_chain) | 1.12% | $1.44M |
+| USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60&src=seo_chain) | 3.32% | $1.47M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 Aptos의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Aptos의 thalaswap에서 APY 20.80%예요.
+DefiLlama 실시간 데이터 기준, Aptos의 thalaswap에서 APY 16.77%예요.
 
 ### Aptos 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -32,8 +32,8 @@ DefiLlama 실시간 데이터 기준, Aptos의 thalaswap에서 APY 20.80%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 thalaswap에서 APY 20.80%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [APT](https://www.defi.garden/ko/tokens/apt)
+- [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [AMAPT](https://www.defi.garden/ko/tokens/amapt)
-- [TRUAPT](https://www.defi.garden/ko/tokens/truapt)
 
-## 마지막 업데이트: August 27, 2026
+## 마지막 업데이트: August 28, 2026

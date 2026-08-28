@@ -1,31 +1,31 @@
 # STS DeFi Yields
 
-The highest honest STS yield right now is 37.84% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STS yield right now is 36.85% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 37.84% | $336.9K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.37% | $270.7K |
-| [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $142.3K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 36.85% | $335.9K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.22% | $269.1K |
+| [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.74% | $138.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STS's lower-variability candidates are silo-v2 (Sonic), 0.70% APY, $142.3K TVL, https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token; beets-dex-v3 (Sonic), 9.37% APY, $270.7K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; beets-dex (Sonic), 37.84% APY, $336.9K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STS's lower-variability candidates are silo-v2 (Sonic), 0.74% APY, $138.3K TVL, https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token; beets-dex-v3 (Sonic), 9.22% APY, $269.1K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; beets-dex (Sonic), 36.85% APY, $335.9K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $142.3K |
-| 2 | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.37% | $270.7K |
-| 3 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 37.84% | $336.9K |
+| 1 | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.74% | $138.3K |
+| 2 | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 9.22% | $269.1K |
+| 3 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 36.85% | $335.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STS shows up in 3 pools here, with rates from 0.70% to 37.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STS shows up in 3 pools here, with rates from 0.74% to 36.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ STS shows up in 3 pools here, with rates from 0.70% to 37.84% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| beets-dex | 37.84% | 49.03% | 95.06% incentives |
-| beets-dex-v3 | 9.37% | 7.51% | 75.51% incentives |
-| silo-v2 | 0.70% | 0.71% | Base rate |
+| beets-dex | 36.85% | 48.45% | 97.65% incentives |
+| beets-dex-v3 | 9.22% | 7.57% | 76.95% incentives |
+| silo-v2 | 0.74% | 0.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STS yield today?
 
-37.84% APY on beets-dex (Sonic), based on live DefiLlama data.
+36.85% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many STS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.75M in total.
+4 live pools clear this page's $100K TVL floor, $2.73M in total.
 
 ### Are these rates safe?
 
@@ -55,13 +55,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STS pools have the most stable APY history?
 
-Based on APY history only, STS's lower-variability candidates are silo-v2 (Sonic), 0.70% APY, $142.3K TVL, https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token; beets-dex-v3 (Sonic), 9.37% APY, $270.7K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; beets-dex (Sonic), 37.84% APY, $336.9K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STS's lower-variability candidates are silo-v2 (Sonic), 0.74% APY, $138.3K TVL, https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token; beets-dex-v3 (Sonic), 9.22% APY, $269.1K TVL, https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token; beets-dex (Sonic), 36.85% APY, $335.9K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
+- [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [WS](https://www.defi.garden/tokens/ws)
 - [SFTUSD](https://www.defi.garden/tokens/sftusd)
@@ -70,4 +70,4 @@ Based on APY history only, STS's lower-variability candidates are silo-v2 (Sonic
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

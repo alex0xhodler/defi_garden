@@ -1,10 +1,10 @@
 # YEE DeFi Yields
 
-The highest honest YEE yield right now is 16.68% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YEE yield right now is 20.27% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 16.68% | $462K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 20.27% | $469.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YEE yield today?
 
-16.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+20.27% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many YEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $462K in total.
+1 live pool clear this page's $100K TVL floor, $469.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank YEE pools. This view covers A
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026

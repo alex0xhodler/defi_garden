@@ -1,10 +1,10 @@
 # DICKBUTT DeFi Yields
 
-The highest honest DICKBUTT yield right now is 5.32% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DICKBUTT yield right now is 7.24% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bbafaee9-b1c1-4cdf-afd3-79f97353823c&src=seo_token) | Base | 5.32% | $229.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbafaee9-b1c1-4cdf-afd3-79f97353823c&src=seo_token) | Base | 7.24% | $224.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DICKBUTT yield today?
 
-5.32% APY on uniswap-v3 (Base), based on live DefiLlama data.
+7.24% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DICKBUTT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.6K in total.
+1 live pool clear this page's $100K TVL floor, $224.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank DICKBUTT pools. This view cov
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
-- [SAND](https://www.defi.garden/tokens/sand)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 27, 2026
+## Last updated August 28, 2026
