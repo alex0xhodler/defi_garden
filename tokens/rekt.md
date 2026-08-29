@@ -1,29 +1,29 @@
 # REKT DeFi Yields
 
-The highest honest REKT yield right now is 42.84% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REKT yield right now is 12.48% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 11.86% | $1.16M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 42.84% | $203.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 4.20% | $1.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 12.48% | $201K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, REKT's lower-variability candidates are uniswap-v4 (Ethereum), 42.84% APY, $203.6K TVL, https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token; uniswap-v3 (Ethereum), 11.86% APY, $1.16M TVL, https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REKT's lower-variability candidates are uniswap-v4 (Ethereum), 12.48% APY, $201K TVL, https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token; uniswap-v3 (Ethereum), 4.20% APY, $1.13M TVL, https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 42.84% | $203.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 11.86% | $1.16M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 12.48% | $201K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 4.20% | $1.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REKT shows up in 2 pools here, with rates from 11.86% to 42.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REKT shows up in 2 pools here, with rates from 4.20% to 12.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 11.86% | 6.12% | Base rate |
-| uniswap-v4 | 42.84% | 16.35% | Base rate |
+| uniswap-v3 | 4.20% | 6.25% | Base rate |
+| uniswap-v4 | 12.48% | 16.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest REKT yield today?
 
-42.84% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.48% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REKT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.36M in total.
+2 live pools clear this page's $100K TVL floor, $1.33M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which REKT pools have the most stable APY history?
 
-Based on APY history only, REKT's lower-variability candidates are uniswap-v4 (Ethereum), 42.84% APY, $203.6K TVL, https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token; uniswap-v3 (Ethereum), 11.86% APY, $1.16M TVL, https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REKT's lower-variability candidates are uniswap-v4 (Ethereum), 12.48% APY, $201K TVL, https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token; uniswap-v3 (Ethereum), 4.20% APY, $1.13M TVL, https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, REKT's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,8 +1,8 @@
 # NYA-WAVAX — uniswap-v3 on Avalanche
 
-**Total APY:** 0.05% (0.05% Base · + 0.00% Rewards)
+**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
 
-**TVL:** $111.3K
+**TVL:** $108.5K
 
 **Pool Type:** LP/DEX
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,003 in 5y at current rates.
+$1,000 in this pool grows to ~$1,001 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 9 days. Watching how a rate holds up over time is one honest way to judge it.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,001 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 28, 2026
+Last updated August 29, 2026

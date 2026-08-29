@@ -4,7 +4,7 @@ The highest honest Polkadot yield right now is 2.77% on bifrost-liquid-staking (
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 2.77% | $7.56M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 2.77% | $7.3M |
 | AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_chain) | 0.11% | $4.17M |
 | ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.35% | $4M |
 | HOLLAR-AUSDT | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_chain) | 0.98% | $2.14M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Polkadot pools clear the TVL floor?
 
-31 live pools clear this page's $100K TVL floor, $35.49M in total.
+31 live pools clear this page's $100K TVL floor, $35.22M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [AUSDC](https://www.defi.garden/tokens/ausdc)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

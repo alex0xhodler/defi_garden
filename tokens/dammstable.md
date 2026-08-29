@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank DAMMSTABLE pools. This view c
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

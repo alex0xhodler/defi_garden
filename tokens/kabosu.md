@@ -4,7 +4,7 @@ The highest honest KABOSU yield right now is 0.02% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e6a6f1b0-2c36-4578-a68b-084a420262fa&src=seo_token) | Ethereum | 0.02% | $103.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e6a6f1b0-2c36-4578-a68b-084a420262fa&src=seo_token) | Ethereum | 0.02% | $100.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KABOSU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.6K in total.
+1 live pool clear this page's $100K TVL floor, $100.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KABOSU pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

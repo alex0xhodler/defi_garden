@@ -1,10 +1,10 @@
 # RESERVOIRUSDC DeFi Yields
 
-The highest honest RESERVOIRUSDC yield right now is 6.35% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RESERVOIRUSDC yield right now is 6.33% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.35% | $13.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.33% | $13.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RESERVOIRUSDC yield today?
 
-6.35% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.33% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RESERVOIRUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank RESERVOIRUSDC pools. This vie
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

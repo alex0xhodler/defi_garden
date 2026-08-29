@@ -1,10 +1,10 @@
 # THINK DeFi Yields
 
-The highest honest THINK yield right now is 0.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THINK yield right now is 0.13% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=02d5bd0e-03ee-413b-801b-1749ac0a2540&src=seo_token) | Base | 0.02% | $106.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02d5bd0e-03ee-413b-801b-1749ac0a2540&src=seo_token) | Base | 0.13% | $103.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THINK yield today?
 
-0.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.13% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many THINK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.4K in total.
+1 live pool clear this page's $100K TVL floor, $103.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank THINK pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

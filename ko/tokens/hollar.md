@@ -43,8 +43,8 @@ HOLLAR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.10%부터 2.53%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | hydration-dex | 0.98% | 0.86% | 기본 금리 |
-| hydration-dex | 2.53% | 13.81% | 기본 금리 |
-| hydration-dex | 0.40% | 0.41% | 기본 금리 |
+| hydration-dex | 2.53% | 13.73% | 기본 금리 |
+| hydration-dex | 0.40% | 0.40% | 기본 금리 |
 | hydration-dex | 0.18% | 0.16% | 기본 금리 |
 | hydration-dex | 0.14% | 0.22% | 기본 금리 |
 | hydration-dex | 0.49% | 0.34% | 기본 금리 |
@@ -84,4 +84,4 @@ APY 이력만 기준으로 비교한 HOLLAR의 변동성 낮은 후보는 Polkad
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

@@ -1,31 +1,31 @@
 # YIELD 디파이 수익률
 
-현재 YIELD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.34%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YIELD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.10%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.34% | $9.18M |
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 23.80% | $4.96M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.88% | $2.4M |
-| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8&src=seo_token) | Ethereum | 6.22% | $510.7K |
-| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.50% | $203.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 7.10% | $8.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 25.06% | $5.07M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.93% | $2.34M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8&src=seo_token) | Ethereum | 5.84% | $510.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.47% | $202.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 2.50%, TVL $203.1K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; Ethereum의 morpho-blue, APY 2.88%, TVL $2.4M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 6.34%, TVL $9.18M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 2.47%, TVL $202.1K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.34M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 7.10%, TVL $8.96M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.50% | $203.1K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.88% | $2.4M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.34% | $9.18M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.47% | $202.1K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.93% | $2.34M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 7.10% | $8.96M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YIELD 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.50%부터 23.80%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YIELD 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.47%부터 25.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -35,11 +35,11 @@ YIELD 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.50%부터 23.80%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 6.34% | 6.97% | 기본 금리 |
-| morpho-blue | 23.80% | 12.77% | 인센티브 95.32% |
-| morpho-blue | 2.88% | 2.90% | 기본 금리 |
-| morpho-blue | 6.22% | 7.44% | 인센티브 10.81% |
-| morpho-blue | 2.50% | 2.83% | 기본 금리 |
+| morpho-blue | 7.10% | 6.97% | 기본 금리 |
+| morpho-blue | 25.06% | 13.16% | 인센티브 100.00% |
+| morpho-blue | 2.93% | 2.91% | 기본 금리 |
+| morpho-blue | 5.84% | 7.26% | 인센티브 10.49% |
+| morpho-blue | 2.47% | 2.83% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -47,11 +47,11 @@ YIELD 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.50%부터 23.80%�
 
 ### 오늘 YIELD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.34%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.10%예요.
 
 ### YIELD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $18.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $17.99M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.34%예
 
 ### YIELD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 2.50%, TVL $203.1K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; Ethereum의 morpho-blue, APY 2.88%, TVL $2.4M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 6.34%, TVL $9.18M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 2.47%, TVL $202.1K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.34M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 7.10%, TVL $8.96M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

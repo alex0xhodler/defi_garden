@@ -5,8 +5,8 @@ The highest honest MVP yield right now is 0.05% on raydium-amm (Solana), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=b6322b1c-0129-52dd-87c9-79c82b70bd7b&src=seo_token) | Solana | 0.01% | $833.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=b7986bd7-e39e-5fce-b6e6-5113da8c14f9&src=seo_token) | Solana | 0.05% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=6598ecb3-3a29-529d-9003-5535a32bd942&src=seo_token) | Solana | 0.05% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=b7986bd7-e39e-5fce-b6e6-5113da8c14f9&src=seo_token) | Solana | 0.05% | $300K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -28,8 +28,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.01% | 0.02% | Base rate |
-| raydium-amm | 0.05% | 0.07% | Base rate |
 | raydium-amm | 0.05% | 0.06% | Base rate |
+| raydium-amm | 0.05% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,14 +54,14 @@ There is not enough qualifying APY history to rank MVP pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

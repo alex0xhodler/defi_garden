@@ -1,10 +1,10 @@
 # WVENOM 디파이 수익률
 
-현재 WVENOM의 가장 높은 정직한 수익률은 Venom의 web3.world에서 2.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WVENOM의 가장 높은 정직한 수익률은 Venom의 web3.world에서 2.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [web3.world →](https://www.defi.garden/?pool=049cfb62-8663-4c50-a814-be2d00d7736e&src=seo_token) | Venom | 2.66% | $161.3K |
+| [web3.world →](https://www.defi.garden/?pool=049cfb62-8663-4c50-a814-be2d00d7736e&src=seo_token) | Venom | 2.43% | $161.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 WVENOM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Venom의 web3.world에서 APY 2.66%예요.
+DefiLlama 실시간 데이터 기준, Venom의 web3.world에서 APY 2.43%예요.
 
 ### WVENOM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Venom의 web3.world에서 APY 2.66%예요.
 
 - [Venom](https://www.defi.garden/ko/chains/venom)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

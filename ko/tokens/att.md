@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 frigg.eco에서 APY 4.00%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

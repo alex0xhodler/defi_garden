@@ -1,29 +1,29 @@
 # LFI DeFi Yields
 
-The highest honest LFI yield right now is 871.64% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LFI yield right now is 571.57% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 38.43% | $896.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 871.64% | $114.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 24.56% | $867.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 571.57% | $108.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 38.43% APY, $896.1K TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 871.64% APY, $114.1K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 24.56% APY, $867.5K TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 571.57% APY, $108.3K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 38.43% | $896.1K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 871.64% | $114.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 24.56% | $867.5K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 571.57% | $108.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LFI shows up in 2 pools here, with rates from 38.43% to 871.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LFI shows up in 2 pools here, with rates from 24.56% to 571.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 442.39% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 443.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ LFI shows up in 2 pools here, with rates from 38.43% to 871.64% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 38.43% | 74.55% | Base rate |
-| aerodrome-slipstream | 871.64% | 810.23% | 28.79% incentives |
+| uniswap-v4 | 24.56% | 73.73% | Base rate |
+| aerodrome-slipstream | 571.57% | 813.07% | 46.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LFI yield today?
 
-871.64% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+571.57% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LFI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.01M in total.
+2 live pools clear this page's $100K TVL floor, $975.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LFI pools have the most stable APY history?
 
-Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 38.43% APY, $896.1K TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 871.64% APY, $114.1K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 24.56% APY, $867.5K TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 571.57% APY, $108.3K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Ba
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

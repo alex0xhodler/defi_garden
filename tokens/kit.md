@@ -1,29 +1,29 @@
 # KIT DeFi Yields
 
-The highest honest KIT yield right now is 0.34% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KIT yield right now is 0.22% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.34% | $508.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.06% | $505.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.22% | $502.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.07% | $501K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KIT's lower-variability candidates are uniswap-v4 (Polygon), 0.34% APY, $508.4K TVL, https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token; uniswap-v4 (Ethereum), 0.06% APY, $505.8K TVL, https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KIT's lower-variability candidates are uniswap-v4 (Polygon), 0.07% APY, $501K TVL, https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $502.6K TVL, https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.34% | $508.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.06% | $505.8K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.07% | $501K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.22% | $502.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KIT shows up in 2 pools here, with rates from 0.06% to 0.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+KIT shows up in 2 pools here, with rates from 0.07% to 0.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.34% | 0.07% | Base rate |
-| uniswap-v4 | 0.06% | 0.16% | Base rate |
+| uniswap-v4 | 0.22% | 0.16% | Base rate |
+| uniswap-v4 | 0.07% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KIT yield today?
 
-0.34% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+0.22% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many KIT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.01M in total.
+2 live pools clear this page's $100K TVL floor, $1M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KIT pools have the most stable APY history?
 
-Based on APY history only, KIT's lower-variability candidates are uniswap-v4 (Polygon), 0.34% APY, $508.4K TVL, https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token; uniswap-v4 (Ethereum), 0.06% APY, $505.8K TVL, https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KIT's lower-variability candidates are uniswap-v4 (Polygon), 0.07% APY, $501K TVL, https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $502.6K TVL, https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,7 +65,7 @@ Based on APY history only, KIT's lower-variability candidates are uniswap-v4 (Po
 
 ## Available on
 
-- [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

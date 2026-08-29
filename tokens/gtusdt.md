@@ -1,29 +1,36 @@
 # GTUSDT DeFi Yields
 
-The highest honest GTUSDT yield right now is 3.90% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDT yield right now is 3.80% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 3.90% | $110.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.51% | $5.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 3.80% | $110.4K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank GTUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.51% APY, $5.96M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 3.80% APY, $110.4K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.51% | $5.96M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 3.80% | $110.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTUSDT shows up in 1 pools here, with rates from 3.90% to 3.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDT shows up in 2 pools here, with rates from 2.51% to 3.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 3.90% | 3.63% | Base rate |
+| morpho-blue | 2.51% | 3.28% | Base rate |
+| morpho-blue | 3.80% | 3.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTUSDT yield today?
 
-3.90% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.80% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many GTUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.1M in total.
+2 live pools clear this page's $100K TVL floor, $6.07M in total.
 
 ### Are these rates safe?
 
@@ -43,19 +50,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDT pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank GTUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.51% APY, $5.96M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 3.80% APY, $110.4K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
-- [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
-- [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
-- [YMVOG](https://www.defi.garden/tokens/ymvog)
-- [VBUSDC](https://www.defi.garden/tokens/vbusdc)
-- [VBETH](https://www.defi.garden/tokens/vbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

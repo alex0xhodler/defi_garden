@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ATUSD pools. This view covers
 
 - [Gravity](https://www.defi.garden/chains/gravity)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

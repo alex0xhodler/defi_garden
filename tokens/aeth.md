@@ -65,4 +65,4 @@ Based on APY history only, AETH's lower-variability candidates are hydration-dex
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

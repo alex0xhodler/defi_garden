@@ -4,7 +4,7 @@ The highest honest MOONETH yield right now is 2.58% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=dc160057-2338-4527-bb5a-f82c6bdf07bd&src=seo_token) | Ethereum | 2.58% | $212.3K |
+| [lagoon →](https://www.defi.garden/?pool=dc160057-2338-4527-bb5a-f82c6bdf07bd&src=seo_token) | Ethereum | 2.58% | $207.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOONETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $212.3K in total.
+1 live pool clear this page's $100K TVL floor, $207.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOONETH pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

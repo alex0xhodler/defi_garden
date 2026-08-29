@@ -1,10 +1,10 @@
 # BBT DeFi Yields
 
-The highest honest BBT yield right now is 2.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBT yield right now is 1.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c33605c-307a-4162-8279-0fdc5119d048&src=seo_token) | Solana | 2.11% | $145K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c33605c-307a-4162-8279-0fdc5119d048&src=seo_token) | Solana | 1.82% | $142.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BBT yield today?
 
-2.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.82% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145K in total.
+1 live pool clear this page's $100K TVL floor, $142.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BBT pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

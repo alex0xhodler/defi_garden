@@ -1,29 +1,29 @@
 # CHAT DeFi Yields
 
-The highest honest CHAT yield right now is 1.49% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHAT yield right now is 3.75% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token) | Solana | 1.49% | $126.7K |
-| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 1.17% | $109K |
+| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 3.75% | $111.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CHAT's lower-variability candidates are icpswap (ICP), 1.17% APY, $109K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; raydium-amm (Solana), 1.49% APY, $126.7K TVL, https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CHAT's lower-variability candidates are icpswap (ICP), 3.75% APY, $111.8K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; raydium-amm (Solana), 1.49% APY, $126.7K TVL, https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 1.17% | $109K |
+| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 3.75% | $111.8K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token) | Solana | 1.49% | $126.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CHAT shows up in 2 pools here, with rates from 1.17% to 1.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CHAT shows up in 2 pools here, with rates from 1.49% to 3.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.49% | 5.98% | Base rate |
-| icpswap | 1.17% | 4.48% | Base rate |
+| raydium-amm | 1.49% | 5.42% | Base rate |
+| icpswap | 3.75% | 4.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CHAT yield today?
 
-1.49% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.75% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CHAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $235.7K in total.
+2 live pools clear this page's $100K TVL floor, $238.5K in total.
 
 ### Are these rates safe?
 
@@ -52,20 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CHAT pools have the most stable APY history?
 
-Based on APY history only, CHAT's lower-variability candidates are icpswap (ICP), 1.17% APY, $109K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; raydium-amm (Solana), 1.49% APY, $126.7K TVL, https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CHAT's lower-variability candidates are icpswap (ICP), 3.75% APY, $111.8K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; raydium-amm (Solana), 1.49% APY, $126.7K TVL, https://www.defi.garden/?pool=1fd827a6-e3dd-4bc1-9183-987ad462fdd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

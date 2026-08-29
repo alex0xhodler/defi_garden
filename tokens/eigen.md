@@ -4,29 +4,29 @@ The highest honest EIGEN yield right now is 19.21% on balancer-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 0.13% | $3.51M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.69% | $1.08M |
-| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 1.16% | $246.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 0.08% | $3.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.36% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.63% | $241.6K |
 | [balancer-v3 →](https://www.defi.garden/?pool=03c93049-b76a-4d20-aa71-983fc89b27be&src=seo_token) | Ethereum | 19.21% | $100.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 1.16% APY, $246.8K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $3.51M TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 1.69% APY, $1.08M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.63% APY, $241.6K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $3.41M TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 1.36% APY, $1.07M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 1.16% | $246.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 0.13% | $3.51M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.69% | $1.08M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.63% | $241.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 0.08% | $3.41M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.36% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EIGEN shows up in 4 pools here, with rates from 0.13% to 19.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EIGEN shows up in 4 pools here, with rates from 0.08% to 19.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -34,9 +34,9 @@ EIGEN shows up in 4 pools here, with rates from 0.13% to 19.21% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.13% | 3.50% | Base rate |
-| uniswap-v3 | 1.69% | 4.86% | Base rate |
-| curve-dex | 1.16% | 1.67% | Base rate |
+| uniswap-v3 | 0.08% | 3.40% | Base rate |
+| uniswap-v3 | 1.36% | 4.82% | Base rate |
+| curve-dex | 0.63% | 1.66% | Base rate |
 | balancer-v3 | 19.21% | 18.56% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EIGEN pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $5.38M in total.
+6 live pools clear this page's $100K TVL floor, $5.27M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EIGEN pools have the most stable APY history?
 
-Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 1.16% APY, $246.8K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $3.51M TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 1.69% APY, $1.08M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.63% APY, $241.6K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $3.41M TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 1.36% APY, $1.07M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, EIGEN's lower-variability candidates are curve-dex (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

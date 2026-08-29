@@ -66,4 +66,4 @@ Based on APY history only, USYC's lower-variability candidates are circle-usyc (
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

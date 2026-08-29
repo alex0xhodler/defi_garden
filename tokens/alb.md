@@ -1,29 +1,29 @@
 # ALB DeFi Yields
 
-The highest honest ALB yield right now is 3.71% on alien-base-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALB yield right now is 8.26% on alien-base-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 3.71% | $509K |
-| [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 10.09% | $138.5K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 1.64% | $496.5K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 8.26% | $135K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 10.09% APY, $138.5K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 3.71% APY, $509K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 8.26% APY, $135K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 1.64% APY, $496.5K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 10.09% | $138.5K |
-| 2 | [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 3.71% | $509K |
+| 1 | [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 8.26% | $135K |
+| 2 | [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 1.64% | $496.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALB shows up in 2 pools here, with rates from 3.71% to 10.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALB shows up in 2 pools here, with rates from 1.64% to 8.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| alien-base-v3 | 3.71% | 3.82% | Base rate |
-| alien-base-v3 | 10.09% | 6.48% | Base rate |
+| alien-base-v3 | 1.64% | 3.79% | Base rate |
+| alien-base-v3 | 8.26% | 6.61% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALB yield today?
 
-3.71% APY on alien-base-v3 (Base), based on live DefiLlama data.
+8.26% APY on alien-base-v3 (Base), based on live DefiLlama data.
 
 ### How many ALB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $647.5K in total.
+2 live pools clear this page's $100K TVL floor, $631.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALB pools have the most stable APY history?
 
-Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 10.09% APY, $138.5K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 3.71% APY, $509K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 8.26% APY, $135K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 1.64% APY, $496.5K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, ALB's lower-variability candidates are alien-base-v3 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # ZEREBRO DeFi Yields
 
-The highest honest ZEREBRO yield right now is 10.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEREBRO yield right now is 11.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b7c5a111-447f-4af6-9f18-581591249a76&src=seo_token) | Solana | 10.82% | $3.48M |
+| [raydium-amm →](https://www.defi.garden/?pool=b7c5a111-447f-4af6-9f18-581591249a76&src=seo_token) | Solana | 11.53% | $3.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEREBRO yield today?
 
-10.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZEREBRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.48M in total.
+1 live pool clear this page's $100K TVL floor, $3.36M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ZEREBRO pools. This view cove
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

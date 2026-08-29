@@ -1,10 +1,10 @@
 # USA DeFi Yields
 
-The highest honest USA yield right now is 2.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USA yield right now is 1.52% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 2.11% | $572.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 1.52% | $560.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USA yield today?
 
-2.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.52% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many USA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $572.5K in total.
+1 live pool clear this page's $100K TVL floor, $560.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank USA pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

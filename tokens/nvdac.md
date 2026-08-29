@@ -1,14 +1,13 @@
 # NVDAC DeFi Yields
 
-The highest honest NVDAC yield right now is 44.68% on uniswap-v4 (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAC yield right now is 358.69% on aerodrome-slipstream (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 748.49% | $1.75M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 25.49% | $360.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1c31bd0c-2835-5ea5-9848-c65531372bd0&src=seo_token) | Base | 1.62% | $151K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a&src=seo_token) | Base | 150.90% | $117.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3039f3d3-858a-550a-9bec-84b3ca1a002e&src=seo_token) | Base | 44.68% | $101K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 358.69% | $1.9M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 96.65% | $353.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3039f3d3-858a-550a-9bec-84b3ca1a002e&src=seo_token) | Base | 48.47% | $119.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1cc8ccc1-80ef-5044-8afd-2b9f4dfe0b9e&src=seo_token) | Base | 6.68% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,21 +18,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NVDAC shows up in 5 pools here, with rates from 1.62% to 748.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAC shows up in 4 pools here, with rates from 6.68% to 358.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 5 pools have a trustworthy 30-day average on file, with a median of 183.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 154.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 748.49% | 475.82% | 85.28% incentives |
-| uniswap-v4 | 25.49% | 332.93% | Base rate |
-| uniswap-v4 | 1.62% | 9.02% | Base rate |
-| uniswap-v4 | 150.90% | — | Base rate |
-| uniswap-v4 | 44.68% | 33.98% | Base rate |
+| aerodrome-slipstream | 358.69% | 471.25% | 71.19% incentives |
+| uniswap-v4 | 96.65% | 272.40% | Base rate |
+| uniswap-v4 | 48.47% | 36.83% | Base rate |
+| uniswap-v4 | 6.68% | 3.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NVDAC yield today?
 
-44.68% APY on uniswap-v4 (Base), based on live DefiLlama data.
+358.69% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many NVDAC pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $4.27M in total.
+14 live pools clear this page's $100K TVL floor, $4.46M in total.
 
 ### Are these rates safe?
 
@@ -68,4 +66,4 @@ There is not enough qualifying APY history to rank NVDAC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # BLACK DeFi Yields
 
-The highest honest BLACK yield right now is 9.60% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLACK yield right now is 9.14% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 9.60% | $206.1K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 9.14% | $200.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLACK yield today?
 
-9.60% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+9.14% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many BLACK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.1K in total.
+1 live pool clear this page's $100K TVL floor, $200.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BLACK pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

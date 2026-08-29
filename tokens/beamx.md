@@ -1,10 +1,10 @@
 # BEAMX DeFi Yields
 
-The highest honest BEAMX yield right now is 0.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BEAMX yield right now is 0.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fec7053d-747a-5f05-8022-be85f3e181fb&src=seo_token) | Solana | 0.40% | $1.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=fec7053d-747a-5f05-8022-be85f3e181fb&src=seo_token) | Solana | 0.69% | $1.9M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BEAMX yield today?
 
-0.40% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BEAMX pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BEAMX pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

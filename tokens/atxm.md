@@ -1,10 +1,10 @@
 # ATXM DeFi Yields
 
-The highest honest ATXM yield right now is 10.59% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATXM yield right now is 20.77% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bb4f946a-a9d1-4b13-a377-202bfd3262f0&src=seo_token) | Polygon | 10.59% | $172.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bb4f946a-a9d1-4b13-a377-202bfd3262f0&src=seo_token) | Polygon | 20.77% | $169.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATXM yield today?
 
-10.59% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+20.77% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many ATXM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172.5K in total.
+1 live pool clear this page's $100K TVL floor, $169.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ATXM pools. This view covers 
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # FYP DeFi Yields
 
-The highest honest FYP yield right now is 199.24% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FYP yield right now is 237.39% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3c18865a-aacf-4fd2-bf68-77659c495cbd&src=seo_token) | Base | 199.24% | $120.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3c18865a-aacf-4fd2-bf68-77659c495cbd&src=seo_token) | Base | 237.39% | $102.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FYP yield today?
 
-199.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+237.39% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many FYP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.1K in total.
+1 live pool clear this page's $100K TVL floor, $102.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FYP pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

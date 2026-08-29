@@ -1,12 +1,12 @@
 # SIUSD DeFi Yields
 
-The highest honest SIUSD yield right now is 10.25% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIUSD yield right now is 12.38% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.16% | $30.09M |
-| [pendle →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 9.13% | $471.9K |
-| [pendle →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 10.25% | $471.9K |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.58% | $29.6M |
+| [pendle →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 12.38% | $473.8K |
+| [pendle →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 8.61% | $473.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIUSD shows up in 3 pools here, with rates from 6.16% to 10.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIUSD shows up in 3 pools here, with rates from 6.58% to 12.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,9 +25,9 @@ SIUSD shows up in 3 pools here, with rates from 6.16% to 10.25% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 6.16% | 5.71% | Base rate |
-| pendle | 9.13% | 8.72% | Base rate |
-| pendle | 10.25% | 10.25% | 13.77% incentives |
+| infinifi | 6.58% | 5.72% | Base rate |
+| pendle | 12.38% | 10.33% | 18.55% incentives |
+| pendle | 8.61% | 8.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SIUSD yield today?
 
-10.25% APY on pendle (Ethereum), based on live DefiLlama data.
+12.38% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SIUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $46.97M in total.
+5 live pools clear this page's $100K TVL floor, $47.02M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SIUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # MWEURC DeFi Yields
 
-The highest honest MWEURC yield right now is 4.10% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MWEURC yield right now is 3.90% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c1aee434-6c8e-4958-a851-eda8ab8bb32d&src=seo_token) | Base | 4.10% | $1.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=c1aee434-6c8e-4958-a851-eda8ab8bb32d&src=seo_token) | Base | 3.90% | $1.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MWEURC yield today?
 
-4.10% APY on morpho-blue (Base), based on live DefiLlama data.
+3.90% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many MWEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.03M in total.
+1 live pool clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MWEURC pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # FLT DeFi Yields
 
-The highest honest FLT yield right now is 12.19% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLT yield right now is 18.72% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0be0578a-fccc-417f-ba96-e3bd1ea997b3&src=seo_token) | Ethereum | 12.19% | $165.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0be0578a-fccc-417f-ba96-e3bd1ea997b3&src=seo_token) | Ethereum | 18.72% | $160.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLT yield today?
 
-12.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+18.72% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many FLT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.4K in total.
+1 live pool clear this page's $100K TVL floor, $160.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

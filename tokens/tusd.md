@@ -1,23 +1,23 @@
 # TUSD DeFi Yields
 
-The highest honest TUSD yield right now is 2.59% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TUSD yield right now is 3.05% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.39% | $1.08M |
-| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.59% | $350.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 3.05% | $350.9K |
 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.02% | $221.1K |
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $107.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $106.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.59% APY, $350.9K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.01% APY, $107.7K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.39% APY, $1.08M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.1K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 3.05% APY, $350.9K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.01% APY, $106.9K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.39% APY, $1.08M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.1K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.59% | $350.9K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $107.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 3.05% | $350.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $106.9K |
 | 3 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.39% | $1.08M |
 | 4 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.02% | $221.1K |
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TUSD shows up in 4 pools here, with rates from 0.01% to 2.59% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+TUSD shows up in 4 pools here, with rates from 0.01% to 3.05% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -36,7 +36,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | justlend-v1 | 1.39% | 1.41% | Base rate |
-| raydium-amm | 2.59% | 2.01% | Base rate |
+| raydium-amm | 3.05% | 2.04% | Base rate |
 | pancakeswap-amm-v3 | 0.02% | 0.06% | Base rate |
 | curve-dex | 0.01% | 0.08% | Base rate |
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TUSD yield today?
 
-2.59% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TUSD pools clear the TVL floor?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TUSD pools have the most stable APY history?
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.59% APY, $350.9K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.01% APY, $107.7K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.39% APY, $1.08M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.1K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 3.05% APY, $350.9K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.01% APY, $106.9K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.39% APY, $1.08M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.1K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, TUSD's lower-variability candidates are raydium-amm (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

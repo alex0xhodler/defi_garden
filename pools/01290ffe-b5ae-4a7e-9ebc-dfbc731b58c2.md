@@ -1,8 +1,8 @@
 # THYPE-HYPERLENDKHYPE — balancer-v3 on Hyperliquid L1
 
-**Total APY:** 3.91% (2.75% Base · + 1.17% Rewards)
+**Total APY:** 3.38% (2.19% Base · + 1.20% Rewards)
 
-**TVL:** $167.4K
+**TVL:** $166.4K
 
 **Pool Type:** LP/DEX
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,212 in 5y at current rates.
+$1,000 in this pool grows to ~$1,181 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 22 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,212 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,181 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on balancer-v3](https://balancer.fi/?ref=defi.garden)
 
-Last updated August 28, 2026
+Last updated August 29, 2026

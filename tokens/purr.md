@@ -1,38 +1,41 @@
 # PURR DeFi Yields
 
-The highest honest PURR yield right now is 2.23% on hyperswap-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PURR yield right now is 139.75% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 8.25% | $373.3K |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 2.23% | $145.1K |
+| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 2.03% | $256.1K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 0.73% | $138.5K |
+| [nest-cl →](https://www.defi.garden/?pool=351b43c4-805a-45eb-88ab-d36cc087e7c1&src=seo_token) | Hyperliquid L1 | 139.75% | $114.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 2.23% APY, $145.1K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 8.25% APY, $373.3K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.73% APY, $138.5K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 2.03% APY, $256.1K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token; nest-cl (Hyperliquid L1), 139.75% APY, $114.8K TVL, https://www.defi.garden/?pool=351b43c4-805a-45eb-88ab-d36cc087e7c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 2.23% | $145.1K |
-| 2 | [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 8.25% | $373.3K |
+| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 0.73% | $138.5K |
+| 2 | [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 2.03% | $256.1K |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=351b43c4-805a-45eb-88ab-d36cc087e7c1&src=seo_token) | Hyperliquid L1 | 139.75% | $114.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PURR shows up in 2 pools here, with rates from 2.23% to 8.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PURR shows up in 3 pools here, with rates from 0.73% to 139.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 15.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 30.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 8.25% | 29.80% | Base rate |
-| hyperswap-v3 | 2.23% | 1.92% | Base rate |
+| project-x | 2.03% | 30.13% | Base rate |
+| hyperswap-v3 | 0.73% | 2.01% | Base rate |
+| nest-cl | 139.75% | 82.50% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PURR yield today?
 
-2.23% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+139.75% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PURR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $518.4K in total.
+3 live pools clear this page's $100K TVL floor, $509.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PURR pools have the most stable APY history?
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 2.23% APY, $145.1K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 8.25% APY, $373.3K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.73% APY, $138.5K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 2.03% APY, $256.1K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token; nest-cl (Hyperliquid L1), 139.75% APY, $114.8K TVL, https://www.defi.garden/?pool=351b43c4-805a-45eb-88ab-d36cc087e7c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +70,4 @@ Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

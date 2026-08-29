@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 aave-v3에서 APY 1.62%예요
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

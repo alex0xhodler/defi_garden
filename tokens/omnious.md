@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OMNIOUS pools. This view cove
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

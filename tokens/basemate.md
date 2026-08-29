@@ -1,10 +1,10 @@
 # BASEMATE DeFi Yields
 
-The highest honest BASEMATE yield right now is 23.92% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASEMATE yield right now is 30.41% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0df1bc73-8981-4a65-bc2f-e3e6bec8ca69&src=seo_token) | Base | 23.92% | $192.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0df1bc73-8981-4a65-bc2f-e3e6bec8ca69&src=seo_token) | Base | 30.41% | $221.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BASEMATE yield today?
 
-23.92% APY on uniswap-v4 (Base), based on live DefiLlama data.
+30.41% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BASEMATE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $192.3K in total.
+1 live pool clear this page's $100K TVL floor, $221.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BASEMATE pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

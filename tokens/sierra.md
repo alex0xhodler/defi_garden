@@ -1,12 +1,13 @@
 # SIERRA DeFi Yields
 
-The highest honest SIERRA yield right now is 7.62% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIERRA yield right now is 6.66% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.06% | $10.43M |
-| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 7.62% | $10.43M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.11% | $4.65M |
+| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 6.66% | $14.75M |
+| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 4.81% | $14.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 1.68% | $3.53M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 7.71% | $829.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,19 +18,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIERRA shows up in 3 pools here, with rates from 0.11% to 7.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIERRA shows up in 4 pools here, with rates from 1.68% to 7.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.06% | 5.95% | 3.24% incentives |
-| pendle | 7.62% | 8.26% | Base rate |
-| uniswap-v4 | 0.11% | 0.19% | Base rate |
+| pendle | 6.66% | 8.19% | Base rate |
+| pendle | 4.81% | 5.90% | 2.97% incentives |
+| uniswap-v4 | 1.68% | 0.26% | Base rate |
+| uniswap-v4 | 7.71% | 0.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SIERRA yield today?
 
-7.62% APY on pendle (Ethereum), based on live DefiLlama data.
+6.66% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SIERRA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $26.49M in total.
+5 live pools clear this page's $100K TVL floor, $34.03M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +66,4 @@ There is not enough qualifying APY history to rank SIERRA pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

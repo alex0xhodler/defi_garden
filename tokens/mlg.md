@@ -1,10 +1,10 @@
 # MLG DeFi Yields
 
-The highest honest MLG yield right now is 15.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MLG yield right now is 5.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=784c24d2-8578-4124-9f30-068cb6522388&src=seo_token) | Solana | 15.00% | $307.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=784c24d2-8578-4124-9f30-068cb6522388&src=seo_token) | Solana | 5.97% | $306.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MLG yield today?
 
-15.00% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MLG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $307.4K in total.
+1 live pool clear this page's $100K TVL floor, $306.2K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MLG pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

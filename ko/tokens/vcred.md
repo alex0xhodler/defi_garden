@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_token) | Hemi | 0.01% | $1.28M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_token) | Hemi | 0.01% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 0.01%예요
 
 ### VCRED 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.78M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 0.01%예요
 
 - [Hemi](https://www.defi.garden/ko/chains/hemi)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

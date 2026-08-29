@@ -5,27 +5,27 @@ The highest honest VAULT yield right now is 16.38% on 40-acres (Base), among 4 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 16.38% | $6.97M |
-| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.17% | $838.5K |
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 61.42% | $481.2K |
+| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.16% | $838.8K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 61.74% | $475.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VAULT's lower-variability candidates are 40-acres (Base), 16.38% APY, $6.97M TVL, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; 40-acres (OP Mainnet), 16.17% APY, $838.5K TVL, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token; 40-acres (Avalanche), 61.42% APY, $481.2K TVL, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VAULT's lower-variability candidates are 40-acres (Base), 16.38% APY, $6.97M TVL, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; 40-acres (OP Mainnet), 16.16% APY, $838.8K TVL, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token; 40-acres (Avalanche), 61.74% APY, $475.3K TVL, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 16.38% | $6.97M |
-| 2 | [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.17% | $838.5K |
-| 3 | [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 61.42% | $481.2K |
+| 2 | [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.16% | $838.8K |
+| 3 | [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 61.74% | $475.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VAULT shows up in 3 pools here, with rates from 16.17% to 61.42% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+VAULT shows up in 3 pools here, with rates from 16.16% to 61.74% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 40-acres | 16.38% | 12.16% | Base rate |
-| 40-acres | 16.17% | 16.26% | Base rate |
-| 40-acres | 61.42% | 14.19% | Base rate |
+| 40-acres | 16.38% | 12.26% | Base rate |
+| 40-acres | 16.16% | 16.27% | Base rate |
+| 40-acres | 61.74% | 15.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VAULT pools have the most stable APY history?
 
-Based on APY history only, VAULT's lower-variability candidates are 40-acres (Base), 16.38% APY, $6.97M TVL, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; 40-acres (OP Mainnet), 16.17% APY, $838.5K TVL, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token; 40-acres (Avalanche), 61.42% APY, $481.2K TVL, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VAULT's lower-variability candidates are 40-acres (Base), 16.38% APY, $6.97M TVL, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; 40-acres (OP Mainnet), 16.16% APY, $838.8K TVL, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token; 40-acres (Avalanche), 61.74% APY, $475.3K TVL, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, VAULT's lower-variability candidates are 40-acres (Ba
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

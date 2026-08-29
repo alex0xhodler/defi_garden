@@ -1,10 +1,10 @@
 # LPT DeFi Yields
 
-The highest honest LPT yield right now is 6.20% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LPT yield right now is 16.15% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 6.20% | $221K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 16.15% | $214.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LPT yield today?
 
-6.20% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+16.15% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many LPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $221K in total.
+1 live pool clear this page's $100K TVL floor, $214.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank LPT pools. This view covers A
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # ROXFX DeFi Yields
 
-The highest honest ROXFX yield right now is 7.83% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROXFX yield right now is 7.19% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=6818a7a1-3fe0-5082-b910-106466e26335&src=seo_token) | Ethereum | 7.83% | $855.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=6818a7a1-3fe0-5082-b910-106466e26335&src=seo_token) | Ethereum | 7.19% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROXFX yield today?
 
-7.83% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.19% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ROXFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $855.4K in total.
+1 live pool clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ROXFX pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

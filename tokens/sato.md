@@ -1,30 +1,30 @@
 # SATO DeFi Yields
 
-The highest honest SATO yield right now is 53.41% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATO yield right now is 60.27% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 6.84% | $309.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 7.86% | $281.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a97c6431-5644-435c-b0dd-4480c7f7f9aa&src=seo_token) | Ethereum | 53.41% | $230.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 5.57% | $298K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 6.22% | $272K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a97c6431-5644-435c-b0dd-4480c7f7f9aa&src=seo_token) | Ethereum | 60.27% | $223.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 6.84% APY, $309.5K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 7.86% APY, $281.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 5.57% APY, $298K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 6.22% APY, $272K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 6.84% | $309.5K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 7.86% | $281.7K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 5.57% | $298K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 6.22% | $272K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SATO shows up in 3 pools here, with rates from 6.84% to 53.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SATO shows up in 3 pools here, with rates from 5.57% to 60.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,9 +32,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 6.84% | 11.60% | Base rate |
-| uniswap-v4 | 7.86% | 11.80% | Base rate |
-| uniswap-v4 | 53.41% | 45.06% | Base rate |
+| uniswap-v4 | 5.57% | 11.39% | Base rate |
+| uniswap-v4 | 6.22% | 11.54% | Base rate |
+| uniswap-v4 | 60.27% | 46.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SATO yield today?
 
-53.41% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+60.27% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SATO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $821.3K in total.
+3 live pools clear this page's $100K TVL floor, $793.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SATO pools have the most stable APY history?
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 6.84% APY, $309.5K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 7.86% APY, $281.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 5.57% APY, $298K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 6.22% APY, $272K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

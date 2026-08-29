@@ -1,12 +1,12 @@
 # DOGE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 1.92% (1.92% Base · + 0.00% Rewards)
+**Total APY:** 1.35% (1.35% Base · + 0.00% Rewards)
 
-**TVL:** $536.6K
+**TVL:** $521.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 2.26%
+**30d Mean APY:** 2.28%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,100 in 5y at current rates.
+$1,000 in this pool grows to ~$1,069 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 22 days. Watching how a rate holds up over time is one honest way to judge it.
+This pool's rate moves a lot: 1.35% right now vs a 2.28% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,100 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,069 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 28, 2026
+Last updated August 29, 2026

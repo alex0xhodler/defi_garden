@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank ATVPTMAX pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

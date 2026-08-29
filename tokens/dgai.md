@@ -1,10 +1,10 @@
 # DGAI DeFi Yields
 
-The highest honest DGAI yield right now is 179.17% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DGAI yield right now is 186.52% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0aaa584a-3100-5e86-87e7-f61f89cd661a&src=seo_token) | Base | 179.17% | $300.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0aaa584a-3100-5e86-87e7-f61f89cd661a&src=seo_token) | Base | 186.52% | $286.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DGAI yield today?
 
-179.17% APY on uniswap-v2 (Base), based on live DefiLlama data.
+186.52% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DGAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.3K in total.
+1 live pool clear this page's $100K TVL floor, $286.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DGAI pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

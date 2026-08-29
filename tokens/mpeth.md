@@ -4,7 +4,7 @@ The highest honest MPETH yield right now is 0.24% on meta-pool-eth (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meta-pool-eth →](https://www.defi.garden/?pool=a500f58a-178e-4710-bd0b-37ced12be76e&src=seo_token) | Ethereum | 0.24% | $29.09M |
+| [meta-pool-eth →](https://www.defi.garden/?pool=a500f58a-178e-4710-bd0b-37ced12be76e&src=seo_token) | Ethereum | 0.24% | $28.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $29.09M in total.
+1 live pool clear this page's $100K TVL floor, $28.37M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MPETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

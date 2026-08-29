@@ -43,8 +43,8 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | hydration-dex | 0.98% | 0.86% | Base rate |
-| hydration-dex | 2.53% | 13.81% | Base rate |
-| hydration-dex | 0.40% | 0.41% | Base rate |
+| hydration-dex | 2.53% | 13.73% | Base rate |
+| hydration-dex | 0.40% | 0.40% | Base rate |
 | hydration-dex | 0.18% | 0.16% | Base rate |
 | hydration-dex | 0.14% | 0.22% | Base rate |
 | hydration-dex | 0.49% | 0.34% | Base rate |
@@ -84,4 +84,4 @@ Based on APY history only, HOLLAR's lower-variability candidates are hydration-d
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

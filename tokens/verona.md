@@ -1,10 +1,10 @@
 # VERONA DeFi Yields
 
-The highest honest VERONA yield right now is 0.05% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VERONA yield right now is 0.04% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053&src=seo_token) | Osmosis | 0.05% | $101.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053&src=seo_token) | Osmosis | 0.04% | $100.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VERONA yield today?
 
-0.05% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+0.04% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many VERONA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.3K in total.
+1 live pool clear this page's $100K TVL floor, $100.5K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank VERONA pools. This view cover
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [ATOM](https://www.defi.garden/tokens/atom)
+- [USDC.N](https://www.defi.garden/tokens/usdc-n)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [AKT](https://www.defi.garden/tokens/akt)
 - [ATONE](https://www.defi.garden/tokens/atone)
-- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

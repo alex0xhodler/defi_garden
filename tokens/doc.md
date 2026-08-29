@@ -1,10 +1,10 @@
 # DOC DeFi Yields
 
-The highest honest DOC yield right now is 0.46% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOC yield right now is 1.51% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 0.46% | $278.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 1.51% | $276.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOC yield today?
 
-0.46% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+1.51% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many DOC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $278.2K in total.
+1 live pool clear this page's $100K TVL floor, $276.3K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank DOC pools. This view covers A
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

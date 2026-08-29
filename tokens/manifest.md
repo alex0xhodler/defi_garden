@@ -1,10 +1,10 @@
 # MANIFEST DeFi Yields
 
-The highest honest MANIFEST yield right now is 8.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MANIFEST yield right now is 1.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6b74a24c-6153-49af-a134-864c3f7bf849&src=seo_token) | Solana | 8.96% | $119.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b74a24c-6153-49af-a134-864c3f7bf849&src=seo_token) | Solana | 1.91% | $116.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MANIFEST yield today?
 
-8.96% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MANIFEST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.6K in total.
+1 live pool clear this page's $100K TVL floor, $116.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MANIFEST pools. This view cov
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

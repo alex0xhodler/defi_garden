@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=668b9b43-33fb-45e8-88bf-4ca1049713a5&src=seo_token) | Base | 0.07% | $112.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=668b9b43-33fb-45e8-88bf-4ca1049713a5&src=seo_token) | Base | 0.07% | $109.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
 
 ### IRA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $112.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $109.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

@@ -1,41 +1,41 @@
 # CAKE DeFi Yields
 
-The highest honest CAKE yield right now is 7.69% on pancakeswap-amm-v3 (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAKE yield right now is 5.20% on pancakeswap-amm (BSC), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.02% | $22.38M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.74% | $8.95M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.31% | $4.38M |
-| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $778.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 4.63% | $410K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.91% | $342.7K |
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 7.69% | $175.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 7.13% | $145.7K |
+| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.02% | $21.98M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 0.95% | $8.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.28% | $4.31M |
+| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $765K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 5.20% | $407.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 2.39% | $339.9K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 3.63% | $171.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 5.66% | $145.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CAKE's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $778.1K TVL, https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token; uniswap-v3 (BSC), 0.31% APY, $4.38M TVL, https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token; venus-core-pool (BSC), 0.02% APY, $22.38M TVL, https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token; pancakeswap-amm (BSC), 4.63% APY, $410K TVL, https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token; pancakeswap-amm (BSC), 1.74% APY, $8.95M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; pancakeswap-amm (BSC), 1.91% APY, $342.7K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token; uniswap-v3 (BSC), 7.13% APY, $145.7K TVL, https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token; pancakeswap-amm-v3 (Ethereum), 7.69% APY, $175.1K TVL, https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CAKE's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $765K TVL, https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token; uniswap-v3 (BSC), 0.28% APY, $4.31M TVL, https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token; venus-core-pool (BSC), 0.02% APY, $21.98M TVL, https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token; pancakeswap-amm (BSC), 5.20% APY, $407.1K TVL, https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token; pancakeswap-amm (BSC), 0.95% APY, $8.76M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; pancakeswap-amm (BSC), 2.39% APY, $339.9K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token; uniswap-v3 (BSC), 5.66% APY, $145.8K TVL, https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token; pancakeswap-amm-v3 (Ethereum), 3.63% APY, $171.6K TVL, https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $778.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.31% | $4.38M |
-| 3 | [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.02% | $22.38M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 4.63% | $410K |
-| 5 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.74% | $8.95M |
-| 6 | [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.91% | $342.7K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 7.13% | $145.7K |
-| 8 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 7.69% | $175.1K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $765K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.28% | $4.31M |
+| 3 | [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.02% | $21.98M |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 5.20% | $407.1K |
+| 5 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 0.95% | $8.76M |
+| 6 | [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 2.39% | $339.9K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 5.66% | $145.8K |
+| 8 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 3.63% | $171.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CAKE shows up in 8 pools here, with rates from 0.01% to 7.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CAKE shows up in 8 pools here, with rates from 0.01% to 5.66% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -44,13 +44,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | venus-core-pool | 0.02% | 0.01% | Base rate |
-| pancakeswap-amm | 1.74% | 1.55% | Base rate |
-| uniswap-v3 | 0.31% | 0.53% | Base rate |
+| pancakeswap-amm | 0.95% | 1.54% | Base rate |
+| uniswap-v3 | 0.28% | 0.53% | Base rate |
 | aave-v3 | 0.01% | 0.01% | Base rate |
-| pancakeswap-amm | 4.63% | 3.99% | Base rate |
-| pancakeswap-amm | 1.91% | 1.95% | Base rate |
-| pancakeswap-amm-v3 | 7.69% | 10.03% | Base rate |
-| uniswap-v3 | 7.13% | 22.11% | Base rate |
+| pancakeswap-amm | 5.20% | 4.04% | Base rate |
+| pancakeswap-amm | 2.39% | 1.97% | Base rate |
+| pancakeswap-amm-v3 | 3.63% | 10.13% | Base rate |
+| uniswap-v3 | 5.66% | 21.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CAKE yield today?
 
-7.69% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
+5.20% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
 
 ### How many CAKE pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $37.81M in total.
+11 live pools clear this page's $100K TVL floor, $37.33M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CAKE pools have the most stable APY history?
 
-Based on APY history only, CAKE's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $778.1K TVL, https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token; uniswap-v3 (BSC), 0.31% APY, $4.38M TVL, https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token; venus-core-pool (BSC), 0.02% APY, $22.38M TVL, https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token; pancakeswap-amm (BSC), 4.63% APY, $410K TVL, https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token; pancakeswap-amm (BSC), 1.74% APY, $8.95M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; pancakeswap-amm (BSC), 1.91% APY, $342.7K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token; uniswap-v3 (BSC), 7.13% APY, $145.7K TVL, https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token; pancakeswap-amm-v3 (Ethereum), 7.69% APY, $175.1K TVL, https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CAKE's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $765K TVL, https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token; uniswap-v3 (BSC), 0.28% APY, $4.31M TVL, https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token; venus-core-pool (BSC), 0.02% APY, $21.98M TVL, https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token; pancakeswap-amm (BSC), 5.20% APY, $407.1K TVL, https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token; pancakeswap-amm (BSC), 0.95% APY, $8.76M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token; pancakeswap-amm (BSC), 2.39% APY, $339.9K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token; uniswap-v3 (BSC), 5.66% APY, $145.8K TVL, https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token; pancakeswap-amm-v3 (Ethereum), 3.63% APY, $171.6K TVL, https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,4 +86,4 @@ Based on APY history only, CAKE's lower-variability candidates are aave-v3 (BSC)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -4,10 +4,10 @@ The highest honest Hemi yield right now is 0.01% on sushiswap-v3 (Hemi), among 5
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VCRED-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_chain) | 0.01% | $1.28M |
-| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 42.07% | $413.1K |
-| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 48.66% | $260.8K |
-| HEMI-USDC.E | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_chain) | 52.19% | $228.4K |
+| VCRED-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_chain) | 0.01% | $1.29M |
+| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 37.46% | $410.7K |
+| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 28.86% | $257.1K |
+| HEMI-USDC.E | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_chain) | 51.09% | $227.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hemi pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.69M in total.
+5 live pools clear this page's $100K TVL floor, $2.68M in total.
 
 ### Are these rates safe?
 
@@ -42,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

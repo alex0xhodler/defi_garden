@@ -1,10 +1,10 @@
 # AIDOGE DeFi Yields
 
-The highest honest AIDOGE yield right now is 0.47% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIDOGE yield right now is 0.49% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=5e46e127-f39d-4ab1-b57b-f6de6c895772&src=seo_token) | Arbitrum | 0.47% | $477.1K |
+| [camelot-v2 →](https://www.defi.garden/?pool=5e46e127-f39d-4ab1-b57b-f6de6c895772&src=seo_token) | Arbitrum | 0.49% | $463K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIDOGE yield today?
 
-0.47% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
+0.49% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many AIDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $477.1K in total.
+1 live pool clear this page's $100K TVL floor, $463K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank AIDOGE pools. This view cover
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

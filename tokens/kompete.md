@@ -1,10 +1,10 @@
 # KOMPETE DeFi Yields
 
-The highest honest KOMPETE yield right now is 0.30% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KOMPETE yield right now is 0.10% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.30% | $343.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.10% | $336.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KOMPETE yield today?
 
-0.30% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KOMPETE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $343.5K in total.
+1 live pool clear this page's $100K TVL floor, $336.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KOMPETE pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -6,18 +6,18 @@ The highest honest AUSDC yield right now is 4.96% on morpho-blue (Ethereum), amo
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
 | [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 4.96% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.7K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; morpho-blue (Ethereum), 4.96% APY, $1.07M TVL, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; curve-dex (Ethereum), 0.35% APY, $308.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; morpho-blue (Ethereum), 4.96% APY, $1.07M TVL, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 4.96% | $1.07M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.7K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AUSDC shows up in 3 pools here, with rates from 0.35% to 4.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydration-dex | 0.40% | 0.41% | Base rate |
+| hydration-dex | 0.40% | 0.40% | Base rate |
 | morpho-blue | 4.96% | 6.30% | Base rate |
 | curve-dex | 0.35% | 0.33% | Base rate |
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUSDC pools have the most stable APY history?
 
-Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; morpho-blue (Ethereum), 4.96% APY, $1.07M TVL, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; curve-dex (Ethereum), 0.35% APY, $308.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; morpho-blue (Ethereum), 4.96% APY, $1.07M TVL, https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.7K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, AUSDC's lower-variability candidates are hydration-de
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

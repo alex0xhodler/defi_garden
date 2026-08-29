@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank UZR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

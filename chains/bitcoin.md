@@ -1,12 +1,12 @@
 # Bitcoin DeFi Yields
 
-The highest honest Bitcoin yield right now is 6.30% on chainflip-amm (Bitcoin), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Bitcoin yield right now is 6.18% on chainflip-amm (Bitcoin), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.14% | $187.73M |
-| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 6.30% | $4.23M |
-| BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.29% | $2.33M |
+| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.13% | $183.49M |
+| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 6.18% | $4.14M |
+| BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.29% | $2.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Bitcoin yield today?
 
-6.30% APY on chainflip-amm (Bitcoin), based on live DefiLlama data.
+6.18% APY on chainflip-amm (Bitcoin), based on live DefiLlama data.
 
 ### How many Bitcoin pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $194.3M in total.
+3 live pools clear this page's $100K TVL floor, $189.91M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BTC](https://www.defi.garden/tokens/btc)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

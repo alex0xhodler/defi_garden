@@ -1,10 +1,10 @@
 # CSAAUSD 디파이 수익률
 
-현재 CSAAUSD의 가장 높은 정직한 수익률은 Monad의 morpho-blue에서 8.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CSAAUSD의 가장 높은 정직한 수익률은 Monad의 morpho-blue에서 8.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 8.14% | $1.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 8.25% | $1.77M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CSAAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 8.14%예요.
+DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 8.25%예요.
 
 ### CSAAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 8.14%예요
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
+- [PT](https://www.defi.garden/ko/tokens/pt)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

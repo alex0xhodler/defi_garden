@@ -4,7 +4,7 @@ The highest honest VCRED yield right now is 0.01% on sushiswap-v3 (Hemi), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_token) | Hemi | 0.01% | $1.28M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=5a5ce24a-c108-4d83-9925-8ebf49dbfd01&src=seo_token) | Hemi | 0.01% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VCRED pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.78M in total.
+2 live pools clear this page's $100K TVL floor, $1.79M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank VCRED pools. This view covers
 
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

@@ -1,10 +1,10 @@
 # ARCN DeFi Yields
 
-The highest honest ARCN yield right now is 3.64% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARCN yield right now is 3.12% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cfd3281b-19f2-40c7-9aa0-aea258e2fc43&src=seo_token) | Ethereum | 3.64% | $128.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cfd3281b-19f2-40c7-9aa0-aea258e2fc43&src=seo_token) | Ethereum | 3.12% | $127.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARCN yield today?
 
-3.64% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.12% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ARCN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.2K in total.
+1 live pool clear this page's $100K TVL floor, $127.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ARCN pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

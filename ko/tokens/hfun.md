@@ -1,10 +1,10 @@
 # HFUN 디파이 수익률
 
-현재 HFUN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 3.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HFUN의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 4.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 3.53% | $534K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 4.84% | $526.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 HFUN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 3.53%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 4.84%예요.
 
 ### HFUN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $534K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $526.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 3
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 28, 2026
+## 마지막 업데이트: August 29, 2026

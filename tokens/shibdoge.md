@@ -4,7 +4,7 @@ The highest honest SHIBDOGE yield right now is 0.01% on uniswap-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ed5785c9-4592-4e55-a7bb-201df65f4c62&src=seo_token) | Ethereum | 0.01% | $1.58M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ed5785c9-4592-4e55-a7bb-201df65f4c62&src=seo_token) | Ethereum | 0.01% | $1.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIBDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.58M in total.
+1 live pool clear this page's $100K TVL floor, $1.54M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SHIBDOGE pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

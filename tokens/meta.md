@@ -1,30 +1,30 @@
 # META DeFi Yields
 
-The highest honest META yield right now is 30.31% on omnipair (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest META yield right now is 195.77% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=1f9afa3b-3843-40fe-b8fb-d56327c40cd2&src=seo_token) | Solana | 407.70% | $344.5K |
-| [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 347.85% | $209.4K |
-| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 30.31% | $159.2K |
+| [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 195.77% | $173.9K |
+| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 27.88% | $154.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, META's lower-variability candidates are omnipair (Solana), 30.31% APY, $159.2K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 347.85% APY, $209.4K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, META's lower-variability candidates are omnipair (Solana), 27.88% APY, $154.8K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 195.77% APY, $173.9K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 30.31% | $159.2K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 347.85% | $209.4K |
+| 1 | [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 27.88% | $154.8K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 195.77% | $173.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-META shows up in 3 pools here, with rates from 30.31% to 407.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+META shows up in 3 pools here, with rates from 27.88% to 407.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 29.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 29.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | orca-dex | 407.70% | 10.42% | Base rate |
-| orca-dex | 347.85% | 149.13% | Base rate |
-| omnipair | 30.31% | 29.70% | Base rate |
+| orca-dex | 195.77% | 146.37% | Base rate |
+| omnipair | 27.88% | 29.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest META yield today?
 
-30.31% APY on omnipair (Solana), based on live DefiLlama data.
+195.77% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many META pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $852.6K in total.
+4 live pools clear this page's $100K TVL floor, $828.7K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which META pools have the most stable APY history?
 
-Based on APY history only, META's lower-variability candidates are omnipair (Solana), 30.31% APY, $159.2K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 347.85% APY, $209.4K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, META's lower-variability candidates are omnipair (Solana), 27.88% APY, $154.8K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 195.77% APY, $173.9K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

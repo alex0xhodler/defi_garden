@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AEURC pools. This view covers
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

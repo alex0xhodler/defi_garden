@@ -1,10 +1,10 @@
 # MOONUSDC DeFi Yields
 
-The highest honest MOONUSDC yield right now is 6.26% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOONUSDC yield right now is 4.55% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5a0f23f0-480b-43d4-9f6f-46aaacb80025&src=seo_token) | Ethereum | 6.26% | $859K |
+| [lagoon →](https://www.defi.garden/?pool=5a0f23f0-480b-43d4-9f6f-46aaacb80025&src=seo_token) | Ethereum | 4.55% | $861.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOONUSDC yield today?
 
-6.26% APY on lagoon (Ethereum), based on live DefiLlama data.
+4.55% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many MOONUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $859K in total.
+1 live pool clear this page's $100K TVL floor, $861.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOONUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026

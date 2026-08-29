@@ -1,10 +1,10 @@
 # GS DeFi Yields
 
-The highest honest GS yield right now is 18.29% on gammaswap-open-interest (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GS yield right now is 76.76% on gammaswap-open-interest (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 18.29% | $450.8K |
+| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 76.76% | $372.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GS yield today?
 
-18.29% APY on gammaswap-open-interest (Arbitrum), based on live DefiLlama data.
+76.76% APY on gammaswap-open-interest (Arbitrum), based on live DefiLlama data.
 
 ### How many GS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $450.8K in total.
+1 live pool clear this page's $100K TVL floor, $372.7K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GS pools. This view covers AP
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 28, 2026
+## Last updated August 29, 2026
