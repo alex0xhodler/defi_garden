@@ -1,41 +1,41 @@
 # AAVE 디파이 수익률
 
-현재 AAVE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 15.46%이며, $100K TVL 기준을 넘는 37개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AAVE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 25.40%이며, $100K TVL 기준을 넘는 36개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.77% | $10.27M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 7.93% | $5.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 15.46% | $3.6M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 11.59% | $2.47M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 1.89% | $2.38M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 6.99% | $1.26M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 178.27% | $1.05M |
-| [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $583.6K |
+| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.64% | $10.54M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 8.51% | $5.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 11.10% | $4.49M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 25.40% | $2.91M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 0.83% | $2.08M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 10.19% | $1.28M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 114.13% | $1.09M |
+| [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $602.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AAVE의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.01%, TVL $583.6K, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; Ethereum의 uniswap-v4, APY 6.99%, TVL $1.26M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 7.93%, TVL $5.3M, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; Ethereum의 uniswap-v4, APY 1.89%, TVL $2.38M, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; Base의 aerodrome-slipstream, APY 178.27%, TVL $1.05M, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; Ethereum의 uniswap-v3, APY 15.46%, TVL $3.6M, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; Ethereum의 uniswap-v4, APY 11.59%, TVL $2.47M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 balancer-v2, APY 0.77%, TVL $10.27M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AAVE의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.01%, TVL $602.3K, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; Ethereum의 uniswap-v4, APY 10.19%, TVL $1.28M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 8.51%, TVL $5.44M, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; Ethereum의 uniswap-v4, APY 0.83%, TVL $2.08M, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; Base의 aerodrome-slipstream, APY 114.13%, TVL $1.09M, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; Ethereum의 uniswap-v3, APY 11.10%, TVL $4.49M, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; Ethereum의 uniswap-v4, APY 25.40%, TVL $2.91M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 balancer-v2, APY 0.64%, TVL $10.54M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $583.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 6.99% | $1.26M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 7.93% | $5.3M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 1.89% | $2.38M |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 178.27% | $1.05M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 15.46% | $3.6M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 11.59% | $2.47M |
-| 8 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.77% | $10.27M |
+| 1 | [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $602.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 10.19% | $1.28M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 8.51% | $5.44M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 0.83% | $2.08M |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 114.13% | $1.09M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 11.10% | $4.49M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 25.40% | $2.91M |
+| 8 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.64% | $10.54M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AAVE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 178.27%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AAVE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 114.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 18.85%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 18.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -43,13 +43,13 @@ AAVE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 178.27%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v2 | 0.77% | 1.02% | 기본 금리 |
-| uniswap-v4 | 7.93% | 15.39% | 기본 금리 |
-| uniswap-v3 | 15.46% | 26.65% | 기본 금리 |
-| uniswap-v4 | 11.59% | 29.16% | 기본 금리 |
-| uniswap-v4 | 1.89% | 16.88% | 기본 금리 |
-| uniswap-v4 | 6.99% | 20.81% | 기본 금리 |
-| aerodrome-slipstream | 178.27% | 63.97% | 인센티브 66.72% |
+| balancer-v2 | 0.64% | 1.02% | 기본 금리 |
+| uniswap-v4 | 8.51% | 15.03% | 기본 금리 |
+| uniswap-v3 | 11.10% | 26.39% | 기본 금리 |
+| uniswap-v4 | 25.40% | 28.60% | 기본 금리 |
+| uniswap-v4 | 0.83% | 15.81% | 기본 금리 |
+| uniswap-v4 | 10.19% | 20.29% | 기본 금리 |
+| aerodrome-slipstream | 114.13% | 68.02% | 인센티브 93.84% |
 | venus-core-pool | 0.01% | 0.01% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,11 +58,11 @@ AAVE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 178.27%�
 
 ### 오늘 AAVE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 15.46%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 25.40%예요.
 
 ### AAVE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 37개이며, 합산 TVL은 $137.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 36개이며, 합산 TVL은 $142.49M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,16 +70,16 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 15.46%예
 
 ### AAVE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AAVE의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.01%, TVL $583.6K, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; Ethereum의 uniswap-v4, APY 6.99%, TVL $1.26M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 7.93%, TVL $5.3M, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; Ethereum의 uniswap-v4, APY 1.89%, TVL $2.38M, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; Base의 aerodrome-slipstream, APY 178.27%, TVL $1.05M, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; Ethereum의 uniswap-v3, APY 15.46%, TVL $3.6M, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; Ethereum의 uniswap-v4, APY 11.59%, TVL $2.47M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 balancer-v2, APY 0.77%, TVL $10.27M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AAVE의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.01%, TVL $602.3K, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; Ethereum의 uniswap-v4, APY 10.19%, TVL $1.28M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 8.51%, TVL $5.44M, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; Ethereum의 uniswap-v4, APY 0.83%, TVL $2.08M, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; Base의 aerodrome-slipstream, APY 114.13%, TVL $1.09M, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; Ethereum의 uniswap-v3, APY 11.10%, TVL $4.49M, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; Ethereum의 uniswap-v4, APY 25.40%, TVL $2.91M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 balancer-v2, APY 0.64%, TVL $10.54M, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 AAVE의 변동성 낮은 후보는 BSC의 v
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

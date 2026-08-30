@@ -1,39 +1,39 @@
 # SPX DeFi Yields
 
-The highest honest SPX yield right now is 20.98% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX yield right now is 99.39% on aerodrome-slipstream (Base), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 18.99% | $12.97M |
-| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 27.73% | $2.41M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.53% | $702.7K |
-| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 99.68% | $401.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 6.98% | $237.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 20.98% | $160.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token) | Base | 154.82% | $118.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 18.71% | $13.3M |
+| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 15.57% | $2.48M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.36% | $722.3K |
+| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 49.65% | $413.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 4.69% | $243.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 14.07% | $164.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token) | Base | 99.39% | $124.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPX's lower-variability candidates are aerodrome-v1 (Base), 7.53% APY, $702.7K TVL, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; uniswap-v4 (Ethereum), 6.98% APY, $237.4K TVL, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; raydium-amm (Solana), 27.73% APY, $2.41M TVL, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; uniswap-v2 (Ethereum), 18.99% APY, $12.97M TVL, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; aerodrome-slipstream (Base), 154.82% APY, $118.2K TVL, https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token; uniswap-v3 (Ethereum), 20.98% APY, $160.1K TVL, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; orca-dex (Solana), 99.68% APY, $401.3K TVL, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPX's lower-variability candidates are aerodrome-v1 (Base), 7.36% APY, $722.3K TVL, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; uniswap-v4 (Ethereum), 4.69% APY, $243.4K TVL, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; raydium-amm (Solana), 15.57% APY, $2.48M TVL, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; uniswap-v2 (Ethereum), 18.71% APY, $13.3M TVL, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; aerodrome-slipstream (Base), 99.39% APY, $124.4K TVL, https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token; uniswap-v3 (Ethereum), 14.07% APY, $164.9K TVL, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; orca-dex (Solana), 49.65% APY, $413.1K TVL, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.53% | $702.7K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 6.98% | $237.4K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 27.73% | $2.41M |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 18.99% | $12.97M |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token) | Base | 154.82% | $118.2K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 20.98% | $160.1K |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 99.68% | $401.3K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.36% | $722.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 4.69% | $243.4K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 15.57% | $2.48M |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 18.71% | $13.3M |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token) | Base | 99.39% | $124.4K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 14.07% | $164.9K |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 49.65% | $413.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPX shows up in 7 pools here, with rates from 6.98% to 154.82% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPX shows up in 7 pools here, with rates from 4.69% to 99.39% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 14.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 14.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,13 +41,13 @@ SPX shows up in 7 pools here, with rates from 6.98% to 154.82% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 18.99% | 7.99% | Base rate |
-| raydium-amm | 27.73% | 14.09% | Base rate |
-| aerodrome-v1 | 7.53% | 8.47% | 100.00% incentives |
-| orca-dex | 99.68% | 53.95% | Base rate |
-| uniswap-v4 | 6.98% | 2.73% | Base rate |
-| uniswap-v3 | 20.98% | 29.57% | Base rate |
-| aerodrome-slipstream | 154.82% | 68.07% | 77.65% incentives |
+| uniswap-v2 | 18.71% | 8.43% | Base rate |
+| raydium-amm | 15.57% | 14.57% | Base rate |
+| aerodrome-v1 | 7.36% | 8.33% | 100.00% incentives |
+| orca-dex | 49.65% | 55.29% | Base rate |
+| uniswap-v4 | 4.69% | 2.92% | Base rate |
+| uniswap-v3 | 14.07% | 29.66% | Base rate |
+| aerodrome-slipstream | 99.39% | 71.24% | 97.01% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,11 +55,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPX yield today?
 
-20.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+99.39% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SPX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $17M in total.
+7 live pools clear this page's $100K TVL floor, $17.45M in total.
 
 ### Are these rates safe?
 
@@ -67,16 +67,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPX pools have the most stable APY history?
 
-Based on APY history only, SPX's lower-variability candidates are aerodrome-v1 (Base), 7.53% APY, $702.7K TVL, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; uniswap-v4 (Ethereum), 6.98% APY, $237.4K TVL, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; raydium-amm (Solana), 27.73% APY, $2.41M TVL, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; uniswap-v2 (Ethereum), 18.99% APY, $12.97M TVL, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; aerodrome-slipstream (Base), 154.82% APY, $118.2K TVL, https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token; uniswap-v3 (Ethereum), 20.98% APY, $160.1K TVL, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; orca-dex (Solana), 99.68% APY, $401.3K TVL, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPX's lower-variability candidates are aerodrome-v1 (Base), 7.36% APY, $722.3K TVL, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; uniswap-v4 (Ethereum), 4.69% APY, $243.4K TVL, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; raydium-amm (Solana), 15.57% APY, $2.48M TVL, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; uniswap-v2 (Ethereum), 18.71% APY, $13.3M TVL, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; aerodrome-slipstream (Base), 99.39% APY, $124.4K TVL, https://www.defi.garden/?pool=778c6d99-9148-4f58-91a7-11232060b95f&src=seo_token; uniswap-v3 (Ethereum), 14.07% APY, $164.9K TVL, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; orca-dex (Solana), 49.65% APY, $413.1K TVL, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -84,4 +84,4 @@ Based on APY history only, SPX's lower-variability candidates are aerodrome-v1 (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

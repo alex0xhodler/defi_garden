@@ -1,10 +1,10 @@
 # CAPX DeFi Yields
 
-The highest honest CAPX yield right now is 4.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAPX yield right now is 4.85% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ed309d3d-19bd-54fa-9673-39dd33813b18&src=seo_token) | Solana | 4.05% | $942.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=ed309d3d-19bd-54fa-9673-39dd33813b18&src=seo_token) | Solana | 4.85% | $970.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAPX yield today?
 
-4.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.85% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CAPX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $942.6K in total.
+1 live pool clear this page's $100K TVL floor, $970.5K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank CAPX pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

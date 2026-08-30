@@ -1,10 +1,10 @@
 # 80TREE DeFi Yields
 
-The highest honest 80TREE yield right now is 0.88% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 80TREE yield right now is 2.08% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 0.88% | $241.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 2.08% | $246.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 80TREE yield today?
 
-0.88% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+2.08% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 80TREE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $241.9K in total.
+1 live pool clear this page's $100K TVL floor, $246.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank 80TREE pools. This view cover
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,10 +1,10 @@
 # STCELO 디파이 수익률
 
-현재 STCELO의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 6.31%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STCELO의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 6.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 6.31% | $1.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 6.30% | $1.19M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 STCELO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 6.31%예요.
+DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 6.30%예요.
 
 ### STCELO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 6.31%예요.
 - [EURM](https://www.defi.garden/ko/tokens/eurm)
 - [AXLEUROC](https://www.defi.garden/ko/tokens/axleuroc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

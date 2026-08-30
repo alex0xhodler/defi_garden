@@ -1,35 +1,35 @@
 # PT DeFi Yields
 
-The highest honest PT yield right now is 4.41% on neverland (Monad), among 47 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PT yield right now is 4.21% on neverland (Monad), among 47 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $19.91M |
-| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.31% | $18.96M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $19.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.34% | $19.26M |
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $6.98M |
-| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 4.41% | $2.25M |
-| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $777K |
+| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 4.21% | $2.42M |
+| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $777.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PT's lower-variability candidates are curvance (Monad), 0.20% APY, $19.91M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curvance (Monad), 0.20% APY, $777K TVL, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; neverland (Monad), 4.41% APY, $2.25M TVL, https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token; morpho-blue (Ethereum), 1.31% APY, $18.96M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Monad), 2.00% APY, $6.98M TVL, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PT's lower-variability candidates are curvance (Monad), 0.20% APY, $19.92M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curvance (Monad), 0.20% APY, $777.3K TVL, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; neverland (Monad), 4.21% APY, $2.42M TVL, https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token; morpho-blue (Ethereum), 1.34% APY, $19.26M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Monad), 2.00% APY, $6.98M TVL, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $19.91M |
-| 2 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $777K |
-| 3 | [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 4.41% | $2.25M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.31% | $18.96M |
+| 1 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $19.92M |
+| 2 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $777.3K |
+| 3 | [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 4.21% | $2.42M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.34% | $19.26M |
 | 5 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $6.98M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PT shows up in 5 pools here, with rates from 0.20% to 4.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PT shows up in 5 pools here, with rates from 0.20% to 4.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -38,9 +38,9 @@ PT shows up in 5 pools here, with rates from 0.20% to 4.41% APY across 2 chains 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 100.00% incentives |
-| morpho-blue | 1.31% | 1.71% | 100.00% incentives |
-| morpho-blue | 2.00% | 1.25% | 100.00% incentives |
-| neverland | 4.41% | 4.11% | 100.00% incentives |
+| morpho-blue | 1.34% | 1.70% | 100.00% incentives |
+| morpho-blue | 2.00% | 1.30% | 100.00% incentives |
+| neverland | 4.21% | 4.12% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PT yield today?
 
-4.41% APY on neverland (Monad), based on live DefiLlama data.
+4.21% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many PT pools clear the TVL floor?
 
-47 live pools clear this page's $100K TVL floor, $501.34M in total.
+47 live pools clear this page's $100K TVL floor, $498.88M in total.
 
 ### Are these rates safe?
 
@@ -61,20 +61,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PT pools have the most stable APY history?
 
-Based on APY history only, PT's lower-variability candidates are curvance (Monad), 0.20% APY, $19.91M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curvance (Monad), 0.20% APY, $777K TVL, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; neverland (Monad), 4.41% APY, $2.25M TVL, https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token; morpho-blue (Ethereum), 1.31% APY, $18.96M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Monad), 2.00% APY, $6.98M TVL, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PT's lower-variability candidates are curvance (Monad), 0.20% APY, $19.92M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curvance (Monad), 0.20% APY, $777.3K TVL, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; neverland (Monad), 4.21% APY, $2.42M TVL, https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token; morpho-blue (Ethereum), 1.34% APY, $19.26M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Monad), 2.00% APY, $6.98M TVL, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

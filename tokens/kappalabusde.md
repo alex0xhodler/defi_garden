@@ -4,7 +4,7 @@ The highest honest KAPPALABUSDE yield right now is 12.00% on wildcat-protocol (E
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 12.00% | $161.2K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 12.00% | $161.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KAPPALABUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.2K in total.
+1 live pool clear this page's $100K TVL floor, $161.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank KAPPALABUSDE pools. This view
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

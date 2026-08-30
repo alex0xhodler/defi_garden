@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 2.
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

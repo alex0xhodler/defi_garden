@@ -1,10 +1,10 @@
 # METIS DeFi Yields
 
-The highest honest METIS yield right now is 3.75% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METIS yield right now is 2.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7d288858-94b1-4217-ad09-5992bdea59ae&src=seo_token) | Ethereum | 3.75% | $598.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7d288858-94b1-4217-ad09-5992bdea59ae&src=seo_token) | Ethereum | 2.16% | $604.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest METIS yield today?
 
-3.75% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many METIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $598.4K in total.
+1 live pool clear this page's $100K TVL floor, $604.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank METIS pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

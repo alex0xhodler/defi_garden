@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 2.77% | $7.3M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 2.77% | $7.29M |
 | AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_chain) | 0.11% | $4.17M |
 | ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.35% | $4M |
 | HOLLAR-AUSDT | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_chain) | 0.98% | $2.14M |
@@ -32,11 +32,11 @@ DefiLlama 실시간 데이터 기준, Polkadot의 bifrost-liquid-staking에서 A
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## Polkadot의 인기 토큰
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Polkadot의 bifrost-liquid-staking에서 A
 - [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [AUSDC](https://www.defi.garden/ko/tokens/ausdc)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

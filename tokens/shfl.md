@@ -1,10 +1,10 @@
 # SHFL DeFi Yields
 
-The highest honest SHFL yield right now is 5.19% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHFL yield right now is 4.93% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e55823a3-3b38-4699-812c-fb19852d845d&src=seo_token) | Ethereum | 5.19% | $7.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e55823a3-3b38-4699-812c-fb19852d845d&src=seo_token) | Ethereum | 4.93% | $7.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHFL yield today?
 
-5.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.93% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SHFL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.38M in total.
+1 live pool clear this page's $100K TVL floor, $7.51M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SHFL pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,29 +1,29 @@
 # DEGEN DeFi Yields
 
-The highest honest DEGEN yield right now is 23.92% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEGEN yield right now is 5.78% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 8.45% | $945.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 23.92% | $112K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 3.64% | $963.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 5.78% | $114K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 23.92% APY, $112K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 8.45% APY, $945.4K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 5.78% APY, $114K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 3.64% APY, $963.2K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 23.92% | $112K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 8.45% | $945.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 5.78% | $114K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 3.64% | $963.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEGEN shows up in 2 pools here, with rates from 8.45% to 23.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEGEN shows up in 2 pools here, with rates from 3.64% to 5.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 8.45% | 9.96% | Base rate |
-| uniswap-v3 | 23.92% | 36.00% | Base rate |
+| uniswap-v3 | 3.64% | 9.94% | Base rate |
+| uniswap-v3 | 5.78% | 35.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEGEN yield today?
 
-23.92% APY on uniswap-v3 (Base), based on live DefiLlama data.
+5.78% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DEGEN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.39M in total.
+3 live pools clear this page's $100K TVL floor, $1.41M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEGEN pools have the most stable APY history?
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 23.92% APY, $112K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 8.45% APY, $945.4K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 5.78% APY, $114K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 3.64% APY, $963.2K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

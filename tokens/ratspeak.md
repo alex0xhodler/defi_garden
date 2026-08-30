@@ -1,10 +1,10 @@
 # RATSPEAK DeFi Yields
 
-The highest honest RATSPEAK yield right now is 83.64% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RATSPEAK yield right now is 122.60% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c770eb58-49db-492d-b42c-11acedff8ce1&src=seo_token) | Base | 83.64% | $881K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c770eb58-49db-492d-b42c-11acedff8ce1&src=seo_token) | Base | 122.60% | $775.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RATSPEAK yield today?
 
-83.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
+122.60% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many RATSPEAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $881K in total.
+1 live pool clear this page's $100K TVL floor, $775.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank RATSPEAK pools. This view cov
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

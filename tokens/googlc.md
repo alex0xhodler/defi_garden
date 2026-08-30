@@ -4,7 +4,7 @@ The highest honest GOOGLC yield right now is 16.59% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 192.98% | $1.3M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 126.05% | $1.42M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e9167a4b-7c7f-5732-bb6c-5d27051812b1&src=seo_token) | Base | 16.59% | $208.4K |
 
 <!-- rate-stability:insufficient -->
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLC shows up in 2 pools here, with rates from 16.59% to 192.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLC shows up in 2 pools here, with rates from 16.59% to 126.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 2 pools has a trustworthy 30-day average on file, with a median of 16.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ GOOGLC shows up in 2 pools here, with rates from 16.59% to 192.98% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 192.98% | — | 70.49% incentives |
+| aerodrome-slipstream | 126.05% | — | 81.52% incentives |
 | uniswap-v4 | 16.59% | 16.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOOGLC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.67M in total.
+3 live pools clear this page's $100K TVL floor, $1.78M in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank GOOGLC pools. This view cover
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

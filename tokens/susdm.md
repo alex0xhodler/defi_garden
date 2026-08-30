@@ -1,10 +1,10 @@
 # SUSDM DeFi Yields
 
-The highest honest SUSDM yield right now is 20.21% on monetrix-usdm (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDM yield right now is 14.25% on monetrix-usdm (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix-usdm →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 20.21% | $2.32M |
+| [monetrix-usdm →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 14.25% | $2.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDM yield today?
 
-20.21% APY on monetrix-usdm (Hyperliquid L1), based on live DefiLlama data.
+14.25% APY on monetrix-usdm (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SUSDM pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SUSDM pools. This view covers
 
 ## Related tokens
 
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

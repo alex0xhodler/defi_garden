@@ -1,10 +1,10 @@
 # PENGUINS DeFi Yields
 
-The highest honest PENGUINS yield right now is 21.04% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENGUINS yield right now is 23.48% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e09422b-66dc-4875-a37c-55015beebacc&src=seo_token) | Base | 21.04% | $189K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e09422b-66dc-4875-a37c-55015beebacc&src=seo_token) | Base | 23.48% | $192.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PENGUINS yield today?
 
-21.04% APY on uniswap-v3 (Base), based on live DefiLlama data.
+23.48% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many PENGUINS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $189K in total.
+1 live pool clear this page's $100K TVL floor, $192.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank PENGUINS pools. This view cov
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

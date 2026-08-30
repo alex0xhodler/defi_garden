@@ -1,10 +1,10 @@
 # MOOBIFI DeFi Yields
 
-The highest honest MOOBIFI yield right now is 5.20% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOOBIFI yield right now is 5.16% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917&src=seo_token) | OP Mainnet | 5.20% | $155.9K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917&src=seo_token) | OP Mainnet | 5.16% | $157.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MOOBIFI shows up in 1 pools here, with rates from 5.20% to 5.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOOBIFI shows up in 1 pools here, with rates from 5.16% to 5.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 8.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 8.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ MOOBIFI shows up in 1 pools here, with rates from 5.20% to 5.20% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 5.20% | 8.33% | 100.00% incentives |
+| velodrome-v2 | 5.16% | 8.47% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOOBIFI yield today?
 
-5.20% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+5.16% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many MOOBIFI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $310.8K in total.
+2 live pools clear this page's $100K TVL floor, $313.6K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank MOOBIFI pools. This view cove
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

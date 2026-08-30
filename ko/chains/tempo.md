@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.29% | $24.12M |
-| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.27% | $285.9K |
+| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.32% | $24.23M |
+| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.27% | $286.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.27%예요
 
 ### Tempo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $43.72M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $43.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,12 +29,12 @@ DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.27%예요
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Monad](https://www.defi.garden/ko/chains/monad)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
-- [Tron](https://www.defi.garden/ko/chains/tron)
 
 ## Tempo의 인기 토큰
 
 - [SENPATHUSD](https://www.defi.garden/ko/tokens/senpathusd)
 - [GTPATHUSDP](https://www.defi.garden/ko/tokens/gtpathusdp)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

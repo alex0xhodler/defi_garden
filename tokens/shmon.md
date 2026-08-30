@@ -1,35 +1,35 @@
 # SHMON DeFi Yields
 
-The highest honest SHMON yield right now is 21.21% on pendle (Monad), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHMON yield right now is 21.16% on pendle (Monad), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 11.87% | $10.69M |
-| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.24% | $1.69M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.41% | $576.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $181.3K |
-| [pendle →](https://www.defi.garden/?pool=a90bb38b-4f91-5159-90e0-af93e3f24a70&src=seo_token) | Monad | 10.11% | $140.1K |
-| [pendle →](https://www.defi.garden/?pool=4942a58b-7f2e-519a-96ed-06e6b8b793dc&src=seo_token) | Monad | 21.21% | $140.1K |
+| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 11.49% | $10.38M |
+| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.38% | $1.58M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.51% | $569.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $178.4K |
+| [pendle →](https://www.defi.garden/?pool=4942a58b-7f2e-519a-96ed-06e6b8b793dc&src=seo_token) | Monad | 21.16% | $136.7K |
+| [pendle →](https://www.defi.garden/?pool=a90bb38b-4f91-5159-90e0-af93e3f24a70&src=seo_token) | Monad | 10.09% | $136.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $181.3K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; neverland (Monad), 1.24% APY, $1.69M TVL, https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token; shmonad (Monad), 11.87% APY, $10.69M TVL, https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token; curve-dex (Monad), 13.41% APY, $576.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $178.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; neverland (Monad), 1.38% APY, $1.58M TVL, https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token; shmonad (Monad), 11.49% APY, $10.38M TVL, https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token; curve-dex (Monad), 12.51% APY, $569.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $181.3K |
-| 2 | [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.24% | $1.69M |
-| 3 | [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 11.87% | $10.69M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.41% | $576.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $178.4K |
+| 2 | [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.38% | $1.58M |
+| 3 | [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 11.49% | $10.38M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 12.51% | $569.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHMON shows up in 6 pools here, with rates from 0.01% to 21.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHMON shows up in 6 pools here, with rates from 0.01% to 21.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 12.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 12.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,12 +37,12 @@ SHMON shows up in 6 pools here, with rates from 0.01% to 21.21% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| shmonad | 11.87% | 12.05% | Base rate |
-| neverland | 1.24% | 1.29% | 100.00% incentives |
-| curve-dex | 13.41% | 19.02% | 100.00% incentives |
+| shmonad | 11.49% | 12.06% | Base rate |
+| neverland | 1.38% | 1.33% | 100.00% incentives |
+| curve-dex | 12.51% | 18.62% | 100.00% incentives |
 | uniswap-v3 | 0.01% | 0.01% | Base rate |
-| pendle | 10.11% | 12.17% | Base rate |
-| pendle | 21.21% | 16.92% | 24.75% incentives |
+| pendle | 21.16% | 17.24% | 25.76% incentives |
+| pendle | 10.09% | 12.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHMON yield today?
 
-21.21% APY on pendle (Monad), based on live DefiLlama data.
+21.16% APY on pendle (Monad), based on live DefiLlama data.
 
 ### How many SHMON pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $14.33M in total.
+8 live pools clear this page's $100K TVL floor, $13.87M in total.
 
 ### Are these rates safe?
 
@@ -62,19 +62,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHMON pools have the most stable APY history?
 
-Based on APY history only, SHMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $181.3K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; neverland (Monad), 1.24% APY, $1.69M TVL, https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token; shmonad (Monad), 11.87% APY, $10.69M TVL, https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token; curve-dex (Monad), 13.41% APY, $576.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $178.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; neverland (Monad), 1.38% APY, $1.58M TVL, https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token; shmonad (Monad), 11.49% APY, $10.38M TVL, https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token; curve-dex (Monad), 12.51% APY, $569.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
-- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

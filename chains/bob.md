@@ -4,8 +4,7 @@ The highest honest Bob yield right now is 1.92% on segment-finance (Bob), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.92% | $109.3K |
-| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.01% | $108.8K |
+| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.92% | $109.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bob pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $54.14M in total.
+4 live pools clear this page's $100K TVL floor, $54.47M in total.
 
 ### Are these rates safe?
 
@@ -26,15 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Aptos](https://www.defi.garden/chains/aptos)
 
 ## Top tokens on Bob
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

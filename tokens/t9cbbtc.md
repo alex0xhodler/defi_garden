@@ -4,7 +4,7 @@ The highest honest T9CBBTC yield right now is 2.03% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=11705150-c5d1-4ba9-a019-f3648055a441&src=seo_token) | Ethereum | 2.03% | $9.73M |
+| [lagoon →](https://www.defi.garden/?pool=11705150-c5d1-4ba9-a019-f3648055a441&src=seo_token) | Ethereum | 2.03% | $9.76M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many T9CBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.73M in total.
+1 live pool clear this page's $100K TVL floor, $9.76M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank T9CBBTC pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

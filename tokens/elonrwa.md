@@ -1,10 +1,10 @@
 # ELONRWA DeFi Yields
 
-The highest honest ELONRWA yield right now is 25.08% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELONRWA yield right now is 0.32% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 25.08% | $602.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.32% | $506.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELONRWA yield today?
 
-25.08% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.32% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ELONRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $602.6K in total.
+1 live pool clear this page's $100K TVL floor, $506.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ELONRWA pools. This view cove
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

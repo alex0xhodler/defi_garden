@@ -1,11 +1,11 @@
 # ACX DeFi Yields
 
-The highest honest ACX yield right now is 15.55% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACX yield right now is 11.49% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ddbf80b-bc6a-4a63-b420-89eb6b4b25e6&src=seo_token) | Ethereum | 12.43% | $711.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3f48f1bb-df7d-53ba-89b1-a14ca2b8018a&src=seo_token) | Ethereum | 15.55% | $148.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1ddbf80b-bc6a-4a63-b420-89eb6b4b25e6&src=seo_token) | Ethereum | 11.49% | $715.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3f48f1bb-df7d-53ba-89b1-a14ca2b8018a&src=seo_token) | Ethereum | 0.68% | $148.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ACX shows up in 2 pools here, with rates from 12.43% to 15.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ACX shows up in 2 pools here, with rates from 0.68% to 11.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 12.43% | 40.45% | Base rate |
-| uniswap-v4 | 15.55% | 7.59% | Base rate |
+| uniswap-v4 | 11.49% | 40.54% | Base rate |
+| uniswap-v4 | 0.68% | 7.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ACX yield today?
 
-15.55% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+11.49% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ACX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.82M in total.
+3 live pools clear this page's $100K TVL floor, $1.83M in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank ACX pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

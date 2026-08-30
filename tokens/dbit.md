@@ -4,7 +4,7 @@ The highest honest DBIT yield right now is 0.59% on makina (Ethereum), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 0.59% | $743.5K |
+| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 0.59% | $749.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DBIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $743.5K in total.
+1 live pool clear this page's $100K TVL floor, $749.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DBIT pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

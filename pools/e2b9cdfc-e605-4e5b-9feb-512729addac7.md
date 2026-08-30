@@ -2,11 +2,11 @@
 
 **Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
 
-**TVL:** $8.04M
+**TVL:** $8.11M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 0.48%
+**30d Mean APY:** 0.43%
 
 **Exposure:** single
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,003 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.06% right now vs a 0.48% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.06% right now vs a 0.43% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on vesper](https://vesper.finance/?ref=defi.garden)
 
-Last updated August 29, 2026
+Last updated August 30, 2026

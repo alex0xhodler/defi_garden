@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank EARNXLM pools. This view cove
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [EARNUSDC](https://www.defi.garden/tokens/earnusdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

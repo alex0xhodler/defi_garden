@@ -4,7 +4,7 @@ The highest honest GNZ yield right now is 0.17% on quickswap-dex (Polygon), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 0.17% | $152.4K |
+| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 0.17% | $152.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GNZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.4K in total.
+1 live pool clear this page's $100K TVL floor, $152.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GNZ pools. This view covers A
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

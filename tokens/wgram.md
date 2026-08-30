@@ -1,10 +1,10 @@
 # WGRAM DeFi Yields
 
-The highest honest WGRAM yield right now is 415.28% on tonco (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGRAM yield right now is 77.43% on tonco (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 415.28% | $123.3K |
+| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 77.43% | $124K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WGRAM shows up in 1 pools here, with rates from 415.28% to 415.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WGRAM shows up in 1 pools here, with rates from 77.43% to 77.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 128.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 131.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tonco | 415.28% | 128.11% | Base rate |
+| tonco | 77.43% | 131.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WGRAM yield today?
 
-415.28% APY on tonco (TON), based on live DefiLlama data.
+77.43% APY on tonco (TON), based on live DefiLlama data.
 
 ### How many WGRAM pools clear the TVL floor?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WGRAM pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

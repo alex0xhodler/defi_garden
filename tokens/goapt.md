@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank GOAPT pools. This view covers
 ## Related tokens
 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USD1](https://www.defi.garden/tokens/usd1)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [USD1](https://www.defi.garden/tokens/usd1)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GOAPT pools. This view covers
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

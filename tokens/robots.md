@@ -1,10 +1,10 @@
 # ROBOTS DeFi Yields
 
-The highest honest ROBOTS yield right now is 4.11% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROBOTS yield right now is 1.29% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1a212db8-1495-4fcf-9fd9-59fad7be2336&src=seo_token) | BSC | 4.11% | $192.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1a212db8-1495-4fcf-9fd9-59fad7be2336&src=seo_token) | BSC | 1.29% | $192.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROBOTS yield today?
 
-4.11% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+1.29% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many ROBOTS pools clear the TVL floor?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank ROBOTS pools. This view cover
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

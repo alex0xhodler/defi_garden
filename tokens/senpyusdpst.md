@@ -1,10 +1,10 @@
 # SENPYUSDPST DeFi Yields
 
-The highest honest SENPYUSDPST yield right now is 8.02% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDPST yield right now is 7.96% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d437f7b3-09ba-5450-be41-d2b7d0e9406d&src=seo_token) | Ethereum | 8.02% | $8.9M |
+| [morpho-blue →](https://www.defi.garden/?pool=d437f7b3-09ba-5450-be41-d2b7d0e9406d&src=seo_token) | Ethereum | 7.96% | $8.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDPST yield today?
 
-8.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.96% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDPST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.9M in total.
+1 live pool clear this page's $100K TVL floor, $8.89M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SENPYUSDPST pools. This view 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

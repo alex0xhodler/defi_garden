@@ -1,10 +1,10 @@
 # BAD DeFi Yields
 
-The highest honest BAD yield right now is 2.69% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAD yield right now is 1.73% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 2.69% | $255.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 1.73% | $321.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAD yield today?
 
-2.69% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.73% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $255.5K in total.
+1 live pool clear this page's $100K TVL floor, $321.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BAD pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

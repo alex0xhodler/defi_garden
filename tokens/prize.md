@@ -4,7 +4,7 @@ The highest honest PRIZE yield right now is 0.02% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.02% | $1.21M |
+| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.02% | $1.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIZE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.21M in total.
+1 live pool clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank PRIZE pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

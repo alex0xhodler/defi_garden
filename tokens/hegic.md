@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HEGIC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.27M in total.
+2 live pools clear this page's $100K TVL floor, $2.14M in total.
 
 ### Are these rates safe?
 
@@ -49,8 +49,8 @@ There is not enough qualifying APY history to rank HEGIC pools. This view covers
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank HEGIC pools. This view covers
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

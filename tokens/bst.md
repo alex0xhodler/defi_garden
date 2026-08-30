@@ -1,10 +1,10 @@
 # BST DeFi Yields
 
-The highest honest BST yield right now is 0.36% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BST yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=35ab5ebe-99eb-482d-8ab2-1ad19b297e01&src=seo_token) | Ethereum | 0.36% | $142.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=35ab5ebe-99eb-482d-8ab2-1ad19b297e01&src=seo_token) | Ethereum | 0.01% | $144.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BST yield today?
 
-0.36% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.7K in total.
+1 live pool clear this page's $100K TVL floor, $144.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BST pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

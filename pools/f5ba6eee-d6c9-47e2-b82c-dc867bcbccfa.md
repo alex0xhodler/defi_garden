@@ -1,12 +1,12 @@
 # WETH-VVVEITY — uniswap-v4 on Base
 
-**Total APY:** 36.87% (36.87% Base · + 0.00% Rewards)
+**Total APY:** 549.15% (549.15% Base · + 0.00% Rewards)
 
-**TVL:** $147.5K
+**TVL:** $143.4K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 974.54%
+**30d Mean APY:** 922.41%
 
 **Exposure:** multi
 
@@ -17,21 +17,21 @@
 Advanced DeFi strategy
 
 - Low liquidity
-- High yield
+- Very high yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,785 in 5y at current rates.
+$1,000 in this pool grows to ~$181,684 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (36.87% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (549.15% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 36.87% right now vs a 974.54% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 549.15% right now vs a 922.41% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,785 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$181,684 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 29, 2026
+Last updated August 30, 2026

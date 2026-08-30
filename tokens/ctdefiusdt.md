@@ -1,10 +1,10 @@
 # CTDEFIUSDT DeFi Yields
 
-The highest honest CTDEFIUSDT yield right now is 13.06% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTDEFIUSDT yield right now is 8.19% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=9ffcea5d-ef46-4b80-a8fb-74b03d38b2ba&src=seo_token) | Ethereum | 13.06% | $29.54M |
+| [concrete →](https://www.defi.garden/?pool=9ffcea5d-ef46-4b80-a8fb-74b03d38b2ba&src=seo_token) | Ethereum | 8.19% | $29.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTDEFIUSDT yield today?
 
-13.06% APY on concrete (Ethereum), based on live DefiLlama data.
+8.19% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many CTDEFIUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $29.54M in total.
+1 live pool clear this page's $100K TVL floor, $29.55M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank CTDEFIUSDT pools. This view c
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

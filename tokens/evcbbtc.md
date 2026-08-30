@@ -4,7 +4,7 @@ The highest honest EVCBBTC yield right now is 5.15% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=caa4d20a-f61f-419a-883f-2d493264e92f&src=seo_token) | Ethereum | 5.15% | $486.2K |
+| [lagoon →](https://www.defi.garden/?pool=caa4d20a-f61f-419a-883f-2d493264e92f&src=seo_token) | Ethereum | 5.15% | $487.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EVCBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $486.2K in total.
+1 live pool clear this page's $100K TVL floor, $487.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank EVCBBTC pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

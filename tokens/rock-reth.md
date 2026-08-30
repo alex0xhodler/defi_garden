@@ -4,7 +4,7 @@ The highest honest ROCK.RETH yield right now is 0.68% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b22108bd-d542-4701-8701-cf59ae8308fb&src=seo_token) | Ethereum | 0.68% | $23.21M |
+| [lagoon →](https://www.defi.garden/?pool=b22108bd-d542-4701-8701-cf59ae8308fb&src=seo_token) | Ethereum | 0.68% | $23.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROCK.RETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $23.21M in total.
+1 live pool clear this page's $100K TVL floor, $23.37M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ROCK.RETH pools. This view co
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

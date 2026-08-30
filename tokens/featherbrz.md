@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

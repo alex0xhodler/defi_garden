@@ -1,10 +1,10 @@
 # SHADOW DeFi Yields
 
-The highest honest SHADOW yield right now is 93.12% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHADOW yield right now is 98.51% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 93.12% | $116.6K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 98.51% | $118K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHADOW yield today?
 
-93.12% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
+98.51% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
 
 ### How many SHADOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.6K in total.
+1 live pool clear this page's $100K TVL floor, $118K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank SHADOW pools. This view cover
 ## Related tokens
 
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
+- [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [STS](https://www.defi.garden/tokens/sts)
 - [WS](https://www.defi.garden/tokens/ws)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SHADOW pools. This view cover
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

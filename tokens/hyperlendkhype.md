@@ -1,10 +1,10 @@
 # HYPERLENDKHYPE DeFi Yields
 
-The highest honest HYPERLENDKHYPE yield right now is 3.38% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPERLENDKHYPE yield right now is 3.41% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.38% | $166.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.41% | $167.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPERLENDKHYPE yield today?
 
-3.38% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+3.41% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HYPERLENDKHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.4K in total.
+1 live pool clear this page's $100K TVL floor, $167.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank HYPERLENDKHYPE pools. This vi
 
 ## Related tokens
 
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,10 +1,10 @@
 # DGAI DeFi Yields
 
-The highest honest DGAI yield right now is 186.52% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DGAI yield right now is 176.35% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0aaa584a-3100-5e86-87e7-f61f89cd661a&src=seo_token) | Base | 186.52% | $286.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0aaa584a-3100-5e86-87e7-f61f89cd661a&src=seo_token) | Base | 176.35% | $302K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DGAI yield today?
 
-186.52% APY on uniswap-v2 (Base), based on live DefiLlama data.
+176.35% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DGAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $286.9K in total.
+1 live pool clear this page's $100K TVL floor, $302K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DGAI pools. This view covers 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

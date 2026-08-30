@@ -1,42 +1,42 @@
 # SDAI DeFi Yields
 
-The highest honest SDAI yield right now is 4.53% on curve-dex (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDAI yield right now is 4.24% on sdai (Gnosis), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.8M |
-| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.23% | $52.09M |
-| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 4.53% | $5.43M |
-| [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.13% | $203.4K |
+| [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.9M |
+| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $51.99M |
+| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.31% | $5.43M |
+| [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.4K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; sdai (Gnosis), 4.23% APY, $52.09M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; sky-lending (Ethereum), 1.25% APY, $204.8M TVL, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; curve-dex (Ethereum), 4.53% APY, $5.43M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.12% APY, $203.4K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; sdai (Gnosis), 4.24% APY, $51.99M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; sky-lending (Ethereum), 1.25% APY, $204.9M TVL, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; curve-dex (Ethereum), 3.31% APY, $5.43M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.13% | $203.4K |
-| 2 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.23% | $52.09M |
-| 3 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.8M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 4.53% | $5.43M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.4K |
+| 2 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $51.99M |
+| 3 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.9M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.31% | $5.43M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDAI shows up in 4 pools here, with rates from 0.13% to 4.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDAI shows up in 4 pools here, with rates from 0.12% to 4.24% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sky-lending | 1.25% | 1.25% | Base rate |
-| sdai | 4.23% | 4.13% | Base rate |
-| curve-dex | 4.53% | 3.20% | Base rate |
-| curve-dex | 0.13% | 0.13% | 0.38% incentives |
+| sdai | 4.24% | 4.13% | Base rate |
+| curve-dex | 3.31% | 3.22% | Base rate |
+| curve-dex | 0.12% | 0.13% | 0.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDAI yield today?
 
-4.53% APY on curve-dex (Ethereum), based on live DefiLlama data.
+4.24% APY on sdai (Gnosis), based on live DefiLlama data.
 
 ### How many SDAI pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $270.21M in total.
+5 live pools clear this page's $100K TVL floor, $270.2M in total.
 
 ### Are these rates safe?
 
@@ -56,20 +56,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDAI pools have the most stable APY history?
 
-Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.4K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; sdai (Gnosis), 4.23% APY, $52.09M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; sky-lending (Ethereum), 1.25% APY, $204.8M TVL, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; curve-dex (Ethereum), 4.53% APY, $5.43M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.12% APY, $203.4K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; sdai (Gnosis), 4.24% APY, $51.99M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; sky-lending (Ethereum), 1.25% APY, $204.9M TVL, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; curve-dex (Ethereum), 3.31% APY, $5.43M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

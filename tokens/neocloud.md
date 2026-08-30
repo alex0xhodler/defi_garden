@@ -1,10 +1,10 @@
 # NEOCLOUD DeFi Yields
 
-The highest honest NEOCLOUD yield right now is 42.82% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEOCLOUD yield right now is 2.07% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60&src=seo_token) | BSC | 42.82% | $367.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60&src=seo_token) | BSC | 2.07% | $367.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEOCLOUD yield today?
 
-42.82% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+2.07% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many NEOCLOUD pools clear the TVL floor?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NEOCLOUD pools. This view cov
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

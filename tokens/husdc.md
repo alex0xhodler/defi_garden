@@ -1,10 +1,10 @@
 # HUSDC DeFi Yields
 
-The highest honest HUSDC yield right now is 3.43% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUSDC yield right now is 3.53% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.43% | $17.5M |
+| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.53% | $17.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HUSDC yield today?
 
-3.43% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.53% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many HUSDC pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank HUSDC pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

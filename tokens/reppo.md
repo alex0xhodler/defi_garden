@@ -1,10 +1,10 @@
 # REPPO DeFi Yields
 
-The highest honest REPPO yield right now is 0.27% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REPPO yield right now is 0.41% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c&src=seo_token) | Base | 0.27% | $179.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c&src=seo_token) | Base | 0.41% | $181.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REPPO yield today?
 
-0.27% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.41% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many REPPO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.3K in total.
+1 live pool clear this page's $100K TVL floor, $181.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank REPPO pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

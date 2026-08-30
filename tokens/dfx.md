@@ -4,7 +4,7 @@ The highest honest DFX yield right now is 29.30% on steer-protocol (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 29.30% | $111.2K |
+| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 29.30% | $113.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.2K in total.
+1 live pool clear this page's $100K TVL floor, $113.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DFX pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

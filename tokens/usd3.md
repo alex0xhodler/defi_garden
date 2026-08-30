@@ -1,56 +1,56 @@
 # USD3 DeFi Yields
 
-The highest honest USD3 yield right now is 13.80% on pendle (Ethereum), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD3 yield right now is 15.37% on reserve-protocol (Ethereum), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.72% | $67.51M |
-| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.31% | $18.96M |
-| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.66% | $16.53M |
-| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.66% | $6.51M |
-| [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.80% | $6.51M |
-| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.43% | $2.67M |
-| [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.00% | $1.5M |
-| [stake-dao →](https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token) | Ethereum | 11.67% | $1.04M |
+| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 7.00% | $67.52M |
+| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.34% | $19.26M |
+| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.80% | $16.53M |
+| [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.79% | $6.51M |
+| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.72% | $6.51M |
+| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.34% | $2.7M |
+| [reserve-protocol →](https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token) | Ethereum | 15.37% | $1.71M |
+| [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 12.65% | $1.53M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USD3's lower-variability candidates are morpho-blue (Ethereum), 1.31% APY, $18.96M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Ethereum), 1.66% APY, $16.53M TVL, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; 3jane-lending (Ethereum), 6.72% APY, $67.51M TVL, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; pendle (Ethereum), 13.80% APY, $6.51M TVL, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; stake-dao (Ethereum), 11.67% APY, $1.04M TVL, https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token; curve-dex (Ethereum), 8.43% APY, $2.67M TVL, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; pendle (Ethereum), 11.66% APY, $6.51M TVL, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; convex-finance (Ethereum), 13.00% APY, $1.5M TVL, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USD3's lower-variability candidates are morpho-blue (Ethereum), 1.34% APY, $19.26M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Ethereum), 1.80% APY, $16.53M TVL, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; 3jane-lending (Ethereum), 7.00% APY, $67.52M TVL, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; reserve-protocol (Ethereum), 15.37% APY, $1.71M TVL, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; pendle (Ethereum), 13.79% APY, $6.51M TVL, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; curve-dex (Ethereum), 8.34% APY, $2.7M TVL, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; pendle (Ethereum), 11.72% APY, $6.51M TVL, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; convex-finance (Ethereum), 12.65% APY, $1.53M TVL, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.31% | $18.96M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.66% | $16.53M |
-| 3 | [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.72% | $67.51M |
-| 4 | [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.80% | $6.51M |
-| 5 | [stake-dao →](https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token) | Ethereum | 11.67% | $1.04M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.43% | $2.67M |
-| 7 | [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.66% | $6.51M |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 13.00% | $1.5M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.34% | $19.26M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.80% | $16.53M |
+| 3 | [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 7.00% | $67.52M |
+| 4 | [reserve-protocol →](https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token) | Ethereum | 15.37% | $1.71M |
+| 5 | [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.79% | $6.51M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 8.34% | $2.7M |
+| 7 | [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.72% | $6.51M |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token) | Ethereum | 12.65% | $1.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USD3 shows up in 8 pools here, with rates from 1.31% to 13.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USD3 shows up in 8 pools here, with rates from 1.34% to 15.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 1 of 8 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 3jane-lending | 6.72% | 6.83% | Base rate |
-| morpho-blue | 1.31% | 1.71% | 100.00% incentives |
-| morpho-blue | 1.66% | 1.92% | 100.00% incentives |
-| pendle | 11.66% | 11.97% | 3.54% incentives |
-| pendle | 13.80% | 13.92% | Base rate |
-| curve-dex | 8.43% | 10.36% | 62.76% incentives |
-| convex-finance | 13.00% | 12.67% | 75.85% incentives |
-| stake-dao | 11.67% | 12.99% | 72.58% incentives |
+| 3jane-lending | 7.00% | 6.84% | Base rate |
+| morpho-blue | 1.34% | 1.70% | 100.00% incentives |
+| morpho-blue | 1.80% | 1.91% | 100.00% incentives |
+| pendle | 13.79% | 13.91% | Base rate |
+| pendle | 11.72% | 11.96% | 3.57% incentives |
+| curve-dex | 8.34% | 10.33% | 61.16% incentives |
+| reserve-protocol | 15.37% | 10.39% | Base rate |
+| convex-finance | 12.65% | 12.86% | 74.39% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USD3 yield today?
 
-13.80% APY on pendle (Ethereum), based on live DefiLlama data.
+15.37% APY on reserve-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many USD3 pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $124.5M in total.
+13 live pools clear this page's $100K TVL floor, $124.83M in total.
 
 ### Are these rates safe?
 
@@ -70,19 +70,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USD3 pools have the most stable APY history?
 
-Based on APY history only, USD3's lower-variability candidates are morpho-blue (Ethereum), 1.31% APY, $18.96M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Ethereum), 1.66% APY, $16.53M TVL, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; 3jane-lending (Ethereum), 6.72% APY, $67.51M TVL, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; pendle (Ethereum), 13.80% APY, $6.51M TVL, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; stake-dao (Ethereum), 11.67% APY, $1.04M TVL, https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token; curve-dex (Ethereum), 8.43% APY, $2.67M TVL, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; pendle (Ethereum), 11.66% APY, $6.51M TVL, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; convex-finance (Ethereum), 13.00% APY, $1.5M TVL, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USD3's lower-variability candidates are morpho-blue (Ethereum), 1.34% APY, $19.26M TVL, https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token; morpho-blue (Ethereum), 1.80% APY, $16.53M TVL, https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token; 3jane-lending (Ethereum), 7.00% APY, $67.52M TVL, https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token; reserve-protocol (Ethereum), 15.37% APY, $1.71M TVL, https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token; pendle (Ethereum), 13.79% APY, $6.51M TVL, https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token; curve-dex (Ethereum), 8.34% APY, $2.7M TVL, https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token; pendle (Ethereum), 11.72% APY, $6.51M TVL, https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token; convex-finance (Ethereum), 12.65% APY, $1.53M TVL, https://www.defi.garden/?pool=4ea20421-ce5f-5a0d-971a-39e7afa017f8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -25,14 +25,14 @@ DefiLlama 실시간 데이터 기준, Noble의 ondo-yield-assets에서 APY 3.55%
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 - [Sei](https://www.defi.garden/ko/chains/sei)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 
 ## Noble의 인기 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

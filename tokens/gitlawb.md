@@ -1,10 +1,10 @@
 # GITLAWB DeFi Yields
 
-The highest honest GITLAWB yield right now is 22.10% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GITLAWB yield right now is 25.30% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=30946957-e36a-4867-8273-795e8e40208a&src=seo_token) | Base | 22.10% | $1.56M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=30946957-e36a-4867-8273-795e8e40208a&src=seo_token) | Base | 25.30% | $1.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GITLAWB yield today?
 
-22.10% APY on uniswap-v4 (Base), based on live DefiLlama data.
+25.30% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many GITLAWB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.56M in total.
+1 live pool clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank GITLAWB pools. This view cove
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,33 +1,33 @@
 # DIEM 디파이 수익률
 
-현재 DIEM의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 38.92%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DIEM의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 1.53%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 1.55% | $6.45M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 49.83% | $4.18M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 38.92% | $263.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 231.32% | $127.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 1.53% | $6.56M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 56.73% | $4.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 15.58% | $260K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 53.51% | $149.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DIEM의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.55%, TVL $6.45M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 49.83%, TVL $4.18M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 uniswap-v3, APY 38.92%, TVL $263.1K, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; Base의 aerodrome-slipstream, APY 231.32%, TVL $127.1K, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DIEM의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.53%, TVL $6.56M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 56.73%, TVL $4.07M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 uniswap-v3, APY 15.58%, TVL $260K, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; Base의 aerodrome-slipstream, APY 53.51%, TVL $149.9K, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 1.55% | $6.45M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 49.83% | $4.18M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 38.92% | $263.1K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 231.32% | $127.1K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 1.53% | $6.56M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 56.73% | $4.07M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 15.58% | $260K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 53.51% | $149.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DIEM 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.55%부터 231.32%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DIEM 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.53%부터 56.73%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 38.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 39.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,10 +35,10 @@ DIEM 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.55%부터 231.32%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 1.55% | 2.76% | 인센티브 100.00% |
-| aerodrome-slipstream | 49.83% | 19.27% | 인센티브 88.40% |
-| uniswap-v3 | 38.92% | 58.38% | 기본 금리 |
-| aerodrome-slipstream | 231.32% | 120.42% | 인센티브 26.67% |
+| aerodrome-v1 | 1.53% | 2.69% | 인센티브 100.00% |
+| aerodrome-slipstream | 56.73% | 20.48% | 인센티브 80.32% |
+| uniswap-v3 | 15.58% | 58.45% | 기본 금리 |
+| aerodrome-slipstream | 53.51% | 124.91% | 인센티브 84.80% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ DIEM 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.55%부터 231.32%�
 
 ### 오늘 DIEM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 38.92%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 1.53%예요.
 
 ### DIEM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $11.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $11.58M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,19 +58,19 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 38.92%예요.
 
 ### DIEM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DIEM의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.55%, TVL $6.45M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 49.83%, TVL $4.18M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 uniswap-v3, APY 38.92%, TVL $263.1K, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; Base의 aerodrome-slipstream, APY 231.32%, TVL $127.1K, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DIEM의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.53%, TVL $6.56M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 56.73%, TVL $4.07M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 uniswap-v3, APY 15.58%, TVL $260K, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; Base의 aerodrome-slipstream, APY 53.51%, TVL $149.9K, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

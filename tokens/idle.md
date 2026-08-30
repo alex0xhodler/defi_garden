@@ -1,10 +1,10 @@
 # IDLE DeFi Yields
 
-The highest honest IDLE yield right now is 21.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IDLE yield right now is 15.15% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71dc090b-7c1c-4481-85cf-9184fb7fb950&src=seo_token) | Solana | 21.90% | $415.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=71dc090b-7c1c-4481-85cf-9184fb7fb950&src=seo_token) | Solana | 15.15% | $419.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IDLE yield today?
 
-21.90% APY on raydium-amm (Solana), based on live DefiLlama data.
+15.15% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many IDLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $415.1K in total.
+1 live pool clear this page's $100K TVL floor, $419.5K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank IDLE pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

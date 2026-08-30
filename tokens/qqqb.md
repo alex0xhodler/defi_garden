@@ -1,12 +1,13 @@
 # QQQB DeFi Yields
 
-The highest honest QQQB yield right now is 235.00% on uniswap-v3 (BSC), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQB yield right now is 25.33% on native-credit-pool (BSC), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 25.33% | $1.16M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 235.00% | $213.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 171.71% | $438.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a5292a66-060e-5113-a25d-2e624a04dcf5&src=seo_token) | BSC | 0.57% | $155.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f56a32db-9dca-5fe9-bab4-706706ebfb47&src=seo_token) | BSC | 2.61% | $152.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,19 +18,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-QQQB shows up in 3 pools here, with rates from 0.57% to 235.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QQQB shows up in 4 pools here, with rates from 0.57% to 171.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 87.91% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 55.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| native-credit-pool | 25.33% | 24.14% | Base rate |
-| uniswap-v3 | 235.00% | 445.11% | Base rate |
+| native-credit-pool | 25.33% | 23.78% | Base rate |
+| uniswap-v3 | 171.71% | 380.31% | Base rate |
 | uniswap-v4 | 0.57% | 87.91% | Base rate |
+| uniswap-v4 | 2.61% | 2.61% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QQQB yield today?
 
-235.00% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+25.33% APY on native-credit-pool (BSC), based on live DefiLlama data.
 
 ### How many QQQB pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $3.18M in total.
+14 live pools clear this page's $100K TVL floor, $4.26M in total.
 
 ### Are these rates safe?
 
@@ -57,11 +59,11 @@ There is not enough qualifying APY history to rank QQQB pools. This view covers 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

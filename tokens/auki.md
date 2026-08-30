@@ -1,10 +1,10 @@
 # AUKI DeFi Yields
 
-The highest honest AUKI yield right now is 16.11% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUKI yield right now is 13.12% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f8c0b897-6e0d-4623-8628-977a8f33abfd&src=seo_token) | Base | 16.11% | $299K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f8c0b897-6e0d-4623-8628-977a8f33abfd&src=seo_token) | Base | 13.12% | $298K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUKI yield today?
 
-16.11% APY on uniswap-v3 (Base), based on live DefiLlama data.
+13.12% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many AUKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299K in total.
+1 live pool clear this page's $100K TVL floor, $298K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank AUKI pools. This view covers 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

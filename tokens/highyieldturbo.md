@@ -4,7 +4,7 @@ The highest honest HIGHYIELDTURBO yield right now is 0.03% on steakhouse-financi
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09&src=seo_token) | Ethereum | 0.03% | $243.5K |
+| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09&src=seo_token) | Ethereum | 0.03% | $245.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HIGHYIELDTURBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $243.5K in total.
+1 live pool clear this page's $100K TVL floor, $245.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank HIGHYIELDTURBO pools. This vi
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

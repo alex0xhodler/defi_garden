@@ -1,37 +1,37 @@
 # NVDAX DeFi Yields
 
-The highest honest NVDAX yield right now is 26.78% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAX yield right now is 9.31% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.03% | $2.48M |
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 12.31% | $1.95M |
-| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $999.6K |
-| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $243.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 26.78% | $150.4K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 8.13% | $128.7K |
+| [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.03% | $2.47M |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 2.32% | $1.95M |
+| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $1M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $244K |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 1.36% | $151.4K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 9.31% | $128.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $2.48M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $243.2K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $999.6K TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 12.31% APY, $1.95M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 26.78% APY, $150.4K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 8.13% APY, $128.7K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $2.47M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $244K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $1M TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 2.32% APY, $1.95M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 1.36% APY, $151.4K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 9.31% APY, $128.6K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.03% | $2.48M |
-| 2 | [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $243.2K |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $999.6K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 12.31% | $1.95M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 26.78% | $150.4K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 8.13% | $128.7K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.03% | $2.47M |
+| 2 | [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $244K |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $1M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 2.32% | $1.95M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 1.36% | $151.4K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 9.31% | $128.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NVDAX shows up in 6 pools here, with rates from 0.03% to 26.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAX shows up in 6 pools here, with rates from 0.03% to 9.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -40,11 +40,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kamino-lend | 0.03% | 0.02% | Base rate |
-| raydium-amm | 12.31% | 13.39% | Base rate |
-| jupiter-lend | 2.02% | 1.42% | Base rate |
-| jupiter-lend | 2.02% | 1.42% | Base rate |
-| raydium-amm | 26.78% | 20.67% | Base rate |
-| orca-dex | 8.13% | 10.96% | Base rate |
+| raydium-amm | 2.32% | 12.86% | Base rate |
+| jupiter-lend | 2.02% | 1.48% | Base rate |
+| jupiter-lend | 2.02% | 1.48% | Base rate |
+| raydium-amm | 1.36% | 20.34% | Base rate |
+| orca-dex | 9.31% | 11.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NVDAX yield today?
 
-26.78% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.31% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many NVDAX pools clear the TVL floor?
 
@@ -64,19 +64,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NVDAX pools have the most stable APY history?
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $2.48M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $243.2K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $999.6K TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 12.31% APY, $1.95M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 26.78% APY, $150.4K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 8.13% APY, $128.7K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $2.47M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $244K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $1M TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 2.32% APY, $1.95M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 1.36% APY, $151.4K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 9.31% APY, $128.6K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

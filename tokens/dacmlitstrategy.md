@@ -4,7 +4,7 @@ The highest honest DACMLITSTRATEGY yield right now is 40.85% on lagoon (Arbitrum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0&src=seo_token) | Arbitrum | 40.85% | $442.4K |
+| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0&src=seo_token) | Arbitrum | 40.85% | $442.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DACMLITSTRATEGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $442.4K in total.
+1 live pool clear this page's $100K TVL floor, $442.3K in total.
 
 ### Are these rates safe?
 
@@ -33,8 +33,8 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

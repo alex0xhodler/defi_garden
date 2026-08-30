@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3237c68c-add4-5adf-8d9c-00b24bd0c7b0&src=seo_token) | Solana | 0.08% | $995K |
+| [raydium-amm →](https://www.defi.garden/?pool=3237c68c-add4-5adf-8d9c-00b24bd0c7b0&src=seo_token) | Solana | 0.08% | $995.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -52,12 +52,12 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.08%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

@@ -1,29 +1,29 @@
 # BRIAN DeFi Yields
 
-The highest honest BRIAN yield right now is 3.41% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRIAN yield right now is 4.09% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 3.41% | $135.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.07% | $133.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 4.09% | $135.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.04% | $134.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BRIAN's lower-variability candidates are uniswap-v4 (Base), 0.07% APY, $133.3K TVL, https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token; uniswap-v4 (Base), 3.41% APY, $135.9K TVL, https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BRIAN's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $134.7K TVL, https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token; uniswap-v4 (Base), 4.09% APY, $135.7K TVL, https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.07% | $133.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 3.41% | $135.9K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.04% | $134.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 4.09% | $135.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BRIAN shows up in 2 pools here, with rates from 0.07% to 3.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BRIAN shows up in 2 pools here, with rates from 0.04% to 4.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 3.41% | 49.63% | Base rate |
-| uniswap-v4 | 0.07% | 2.65% | Base rate |
+| uniswap-v4 | 4.09% | 47.72% | Base rate |
+| uniswap-v4 | 0.04% | 2.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BRIAN yield today?
 
-3.41% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.09% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BRIAN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $269.3K in total.
+2 live pools clear this page's $100K TVL floor, $270.4K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BRIAN pools have the most stable APY history?
 
-Based on APY history only, BRIAN's lower-variability candidates are uniswap-v4 (Base), 0.07% APY, $133.3K TVL, https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token; uniswap-v4 (Base), 3.41% APY, $135.9K TVL, https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BRIAN's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $134.7K TVL, https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token; uniswap-v4 (Base), 4.09% APY, $135.7K TVL, https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

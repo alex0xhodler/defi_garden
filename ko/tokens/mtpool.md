@@ -5,16 +5,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
-| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $654.1K |
+| [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $660K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 1.57%, TVL $654.1K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 3.63%, TVL $833.3K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 1.57%, TVL $660K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 3.63%, TVL $833.3K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $654.1K |
+| 1 | [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 1.57% | $660K |
 | 2 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.63%예요.
 
 ### MTPOOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.76M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,19 +52,19 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.63%예요.
 
 ### MTPOOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 1.57%, TVL $654.1K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 3.63%, TVL $833.3K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 1.57%, TVL $660K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 3.63%, TVL $833.3K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=b8931912-9de5-4a9c-afdf-b377c184d0ec&src=seo_token) | Cronos | 0.02% | $2.69M |
+| [vvs-standard →](https://www.defi.garden/?pool=b8931912-9de5-4a9c-afdf-b377c184d0ec&src=seo_token) | Cronos | 0.02% | $2.7M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.02%예�
 
 ### LOAF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.7M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.02%예�
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
+- [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

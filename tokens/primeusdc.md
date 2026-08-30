@@ -4,7 +4,7 @@ The highest honest PRIMEUSDC yield right now is 4.45% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.45% | $303.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.45% | $303.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIMEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $303.8K in total.
+1 live pool clear this page's $100K TVL floor, $303.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank PRIMEUSDC pools. This view co
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

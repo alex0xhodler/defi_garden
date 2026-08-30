@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank WARPED pools. This view cover
 
 ## Related tokens
 
-- [USDY](https://www.defi.garden/tokens/usdy)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
-- [BUCK](https://www.defi.garden/tokens/buck)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

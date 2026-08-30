@@ -1,12 +1,12 @@
 # SIERRA — pendle on Ethereum
 
-**Total APY:** 6.66% (6.66% Base · + 0.00% Rewards)
+**Total APY:** 7.16% (7.16% Base · + 0.00% Rewards)
 
 **TVL:** $14.75M
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 8.19%
+**30d Mean APY:** 8.13%
 
 **Exposure:** single
 
@@ -21,14 +21,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,380 in 5y at current rates.
+$1,000 in this pool grows to ~$1,413 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,380 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,413 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on pendle](https://pendle.finance/?ref=defi.garden)
 
-Last updated August 29, 2026
+Last updated August 30, 2026

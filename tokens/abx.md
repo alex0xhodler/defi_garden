@@ -1,10 +1,10 @@
 # ABX DeFi Yields
 
-The highest honest ABX yield right now is 17.72% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ABX yield right now is 4.92% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f5c8b063-e873-4fe8-86b3-a03e1b76ce8c&src=seo_token) | Base | 17.72% | $115.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f5c8b063-e873-4fe8-86b3-a03e1b76ce8c&src=seo_token) | Base | 4.92% | $115.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ABX yield today?
 
-17.72% APY on uniswap-v3 (Base), based on live DefiLlama data.
+4.92% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ABX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.8K in total.
+1 live pool clear this page's $100K TVL floor, $115.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ABX pools. This view covers A
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

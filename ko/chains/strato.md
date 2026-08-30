@@ -26,15 +26,15 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.41%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
-- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## Strato의 인기 토큰
 
 - [USDST](https://www.defi.garden/ko/tokens/usdst)
 - [STRATO](https://www.defi.garden/ko/tokens/strato)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

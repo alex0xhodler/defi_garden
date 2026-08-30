@@ -1,10 +1,10 @@
 # ESUI DeFi Yields
 
-The highest honest ESUI yield right now is 9.82% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESUI yield right now is 9.25% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a&src=seo_token) | Sui | 9.82% | $536.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a&src=seo_token) | Sui | 9.25% | $577.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ESUI yield today?
 
-9.82% APY on bluefin-spot (Sui), based on live DefiLlama data.
+9.25% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many ESUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $536.7K in total.
+1 live pool clear this page's $100K TVL floor, $577.7K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ESUI pools. This view covers 
 
 ## Related tokens
 
-- [USDY](https://www.defi.garden/tokens/usdy)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
-- [BUCK](https://www.defi.garden/tokens/buck)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,29 +1,29 @@
 # UTYA DeFi Yields
 
-The highest honest UTYA yield right now is 35.03% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UTYA yield right now is 19.41% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 35.03% | $687.9K |
-| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 7.82% | $632.6K |
+| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 19.41% | $699.9K |
+| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 4.19% | $644K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UTYA's lower-variability candidates are dedust (TON), 7.82% APY, $632.6K TVL, https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token; ston.fi (TON), 35.03% APY, $687.9K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UTYA's lower-variability candidates are dedust (TON), 4.19% APY, $644K TVL, https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token; ston.fi (TON), 19.41% APY, $699.9K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 7.82% | $632.6K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 35.03% | $687.9K |
+| 1 | [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 4.19% | $644K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 19.41% | $699.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UTYA shows up in 2 pools here, with rates from 7.82% to 35.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UTYA shows up in 2 pools here, with rates from 4.19% to 19.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 37.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 35.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 35.03% | 50.98% | Base rate |
-| dedust | 7.82% | 23.07% | Base rate |
+| ston.fi | 19.41% | 47.91% | Base rate |
+| dedust | 4.19% | 22.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UTYA yield today?
 
-35.03% APY on ston.fi (TON), based on live DefiLlama data.
+19.41% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many UTYA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.32M in total.
+2 live pools clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UTYA pools have the most stable APY history?
 
-Based on APY history only, UTYA's lower-variability candidates are dedust (TON), 7.82% APY, $632.6K TVL, https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token; ston.fi (TON), 35.03% APY, $687.9K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UTYA's lower-variability candidates are dedust (TON), 4.19% APY, $644K TVL, https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token; ston.fi (TON), 19.41% APY, $699.9K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, UTYA's lower-variability candidates are dedust (TON),
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

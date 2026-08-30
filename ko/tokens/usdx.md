@@ -52,13 +52,13 @@ DefiLlama 실시간 데이터 기준, Flare의 clearpool-lending에서 APY 3.50%
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

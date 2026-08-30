@@ -1,10 +1,10 @@
 # GGAVAX DeFi Yields
 
-The highest honest GGAVAX yield right now is 4.48% on hypha (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GGAVAX yield right now is 3.54% on hypha (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 4.48% | $3.73M |
+| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 3.54% | $3.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GGAVAX yield today?
 
-4.48% APY on hypha (Avalanche), based on live DefiLlama data.
+3.54% APY on hypha (Avalanche), based on live DefiLlama data.
 
 ### How many GGAVAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.73M in total.
+1 live pool clear this page's $100K TVL floor, $3.74M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GGAVAX pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

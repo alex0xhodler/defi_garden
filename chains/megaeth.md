@@ -1,11 +1,11 @@
 # MegaETH DeFi Yields
 
-The highest honest MegaETH yield right now is 6.06% on aave-v3 (MegaETH), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MegaETH yield right now is 6.09% on aave-v3 (MegaETH), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 6.06% | $457.8K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.67% | $220.3K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 6.09% | $457.1K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.67% | $221.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MegaETH yield today?
 
-6.06% APY on aave-v3 (MegaETH), based on live DefiLlama data.
+6.09% APY on aave-v3 (MegaETH), based on live DefiLlama data.
 
 ### How many MegaETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $28.14M in total.
+4 live pools clear this page's $100K TVL floor, $28.15M in total.
 
 ### Are these rates safe?
 
@@ -26,15 +26,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Sui](https://www.defi.garden/chains/sui)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Plasma](https://www.defi.garden/chains/plasma)
 
 ## Top tokens on MegaETH
 
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

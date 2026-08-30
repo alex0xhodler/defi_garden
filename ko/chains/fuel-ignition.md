@@ -25,14 +25,14 @@ DefiLlama 실시간 데이터 기준, Fuel Ignition의 fuel-staking에서 APY 20
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
-- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## Fuel Ignition의 인기 토큰
 
 - [FUEL](https://www.defi.garden/ko/tokens/fuel)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

@@ -1,10 +1,10 @@
 # MOCHI DeFi Yields
 
-The highest honest MOCHI yield right now is 5.32% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOCHI yield right now is 7.82% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5788765-cbeb-4032-b20a-c85663b30925&src=seo_token) | Base | 5.32% | $163.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5788765-cbeb-4032-b20a-c85663b30925&src=seo_token) | Base | 7.82% | $160K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOCHI yield today?
 
-5.32% APY on uniswap-v3 (Base), based on live DefiLlama data.
+7.82% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MOCHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.7K in total.
+1 live pool clear this page's $100K TVL floor, $160K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MOCHI pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

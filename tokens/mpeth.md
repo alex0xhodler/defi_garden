@@ -4,7 +4,7 @@ The highest honest MPETH yield right now is 0.24% on meta-pool-eth (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meta-pool-eth →](https://www.defi.garden/?pool=a500f58a-178e-4710-bd0b-37ced12be76e&src=seo_token) | Ethereum | 0.24% | $28.37M |
+| [meta-pool-eth →](https://www.defi.garden/?pool=a500f58a-178e-4710-bd0b-37ced12be76e&src=seo_token) | Ethereum | 0.24% | $28.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.37M in total.
+1 live pool clear this page's $100K TVL floor, $28.64M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MPETH pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

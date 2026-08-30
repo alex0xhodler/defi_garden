@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.37% | $131.4K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.37% | $131.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Celo의 mento-v3에서 APY 0.37%예요.
 
 ### AXLEUROC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $131.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $131.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Celo의 mento-v3에서 APY 0.37%예요.
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
 - [EURM](https://www.defi.garden/ko/tokens/eurm)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

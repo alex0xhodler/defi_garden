@@ -1,35 +1,35 @@
 # ASTEROID 디파이 수익률
 
-현재 ASTEROID의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 55.92%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ASTEROID의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 103.00%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 55.92% | $1.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 9.72% | $609K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 15.68% | $290.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 186.32% | $136.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 10.19% | $114.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 103.00% | $1.78M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 13.43% | $587.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 37.12% | $309.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 35.76% | $118.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 15.53% | $111.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ASTEROID의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 15.68%, TVL $290.3K, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; Ethereum의 uniswap-v2, APY 55.92%, TVL $1.93M, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; Ethereum의 uniswap-v4, APY 10.19%, TVL $114.6K, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; Ethereum의 uniswap-v4, APY 9.72%, TVL $609K, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token; Ethereum의 uniswap-v4, APY 186.32%, TVL $136.8K, https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ASTEROID의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 37.12%, TVL $309.1K, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; Ethereum의 uniswap-v2, APY 103.00%, TVL $1.78M, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; Ethereum의 uniswap-v4, APY 15.53%, TVL $111.5K, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; Ethereum의 uniswap-v4, APY 13.43%, TVL $587.2K, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token; Ethereum의 uniswap-v4, APY 35.76%, TVL $118.1K, https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 15.68% | $290.3K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 55.92% | $1.93M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 10.19% | $114.6K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 9.72% | $609K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 186.32% | $136.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 37.12% | $309.1K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 103.00% | $1.78M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 15.53% | $111.5K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 13.43% | $587.2K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 35.76% | $118.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ASTEROID 풀은 여기 5개가 있고, 1개 체인에서 APY가 9.72%부터 186.32%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ASTEROID 풀은 여기 5개가 있고, 1개 체인에서 APY가 13.43%부터 103.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 26.40%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 26.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -37,11 +37,11 @@ ASTEROID 풀은 여기 5개가 있고, 1개 체인에서 APY가 9.72%부터 186.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 55.92% | 83.08% | 기본 금리 |
-| uniswap-v4 | 9.72% | 16.35% | 기본 금리 |
-| uniswap-v2 | 15.68% | 26.40% | 기본 금리 |
-| uniswap-v4 | 186.32% | 456.75% | 기본 금리 |
-| uniswap-v4 | 10.19% | 18.24% | 기본 금리 |
+| uniswap-v2 | 103.00% | 82.59% | 기본 금리 |
+| uniswap-v4 | 13.43% | 16.60% | 기본 금리 |
+| uniswap-v2 | 37.12% | 26.86% | 기본 금리 |
+| uniswap-v4 | 35.76% | 446.77% | 기본 금리 |
+| uniswap-v4 | 15.53% | 18.82% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,11 +49,11 @@ ASTEROID 풀은 여기 5개가 있고, 1개 체인에서 APY가 9.72%부터 186.
 
 ### 오늘 ASTEROID의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 55.92%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 103.00%예요.
 
 ### ASTEROID 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $6.74M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $6.56M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -61,19 +61,19 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 55.92%예
 
 ### ASTEROID 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ASTEROID의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 15.68%, TVL $290.3K, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; Ethereum의 uniswap-v2, APY 55.92%, TVL $1.93M, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; Ethereum의 uniswap-v4, APY 10.19%, TVL $114.6K, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; Ethereum의 uniswap-v4, APY 9.72%, TVL $609K, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token; Ethereum의 uniswap-v4, APY 186.32%, TVL $136.8K, https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ASTEROID의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 37.12%, TVL $309.1K, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; Ethereum의 uniswap-v2, APY 103.00%, TVL $1.78M, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; Ethereum의 uniswap-v4, APY 15.53%, TVL $111.5K, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; Ethereum의 uniswap-v4, APY 13.43%, TVL $587.2K, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token; Ethereum의 uniswap-v4, APY 35.76%, TVL $118.1K, https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

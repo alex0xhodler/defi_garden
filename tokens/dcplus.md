@@ -4,7 +4,7 @@ The highest honest DCPLUS yield right now is 0.39% on uniswap-v2 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=71d08aa2-79a7-4df2-9042-9b2366bcc9a6&src=seo_token) | Base | 0.39% | $432.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=71d08aa2-79a7-4df2-9042-9b2366bcc9a6&src=seo_token) | Base | 0.39% | $435.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DCPLUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $432.1K in total.
+1 live pool clear this page's $100K TVL floor, $435.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DCPLUS pools. This view cover
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

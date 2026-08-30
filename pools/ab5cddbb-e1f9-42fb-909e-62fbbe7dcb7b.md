@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 44.19%
+**30d Mean APY:** 44.07%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on gmtrade](https://gmtrade.xyz/?ref=defi.garden)
 
-Last updated August 29, 2026
+Last updated August 30, 2026

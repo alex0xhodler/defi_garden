@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EULERRLUSD pools. This view c
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

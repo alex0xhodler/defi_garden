@@ -61,11 +61,11 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

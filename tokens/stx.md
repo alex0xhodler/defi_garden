@@ -1,10 +1,10 @@
 # STX DeFi Yields
 
-The highest honest STX yield right now is 1.29% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STX yield right now is 1.26% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_token) | Stacks | 1.29% | $2.48M |
+| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_token) | Stacks | 1.26% | $2.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STX yield today?
 
-1.29% APY on zest-v2 (Stacks), based on live DefiLlama data.
+1.26% APY on zest-v2 (Stacks), based on live DefiLlama data.
 
 ### How many STX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.48M in total.
+1 live pool clear this page's $100K TVL floor, $2.42M in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank STX pools. This view covers A
 
 - [STSTX](https://www.defi.garden/tokens/ststx)
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

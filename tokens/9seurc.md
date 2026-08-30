@@ -4,7 +4,7 @@ The highest honest 9SEURC yield right now is 4.74% on lagoon (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1&src=seo_token) | Ethereum | 4.74% | $718.6K |
+| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1&src=seo_token) | Ethereum | 4.74% | $718.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 9SEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $718.6K in total.
+1 live pool clear this page's $100K TVL floor, $718.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank 9SEURC pools. This view cover
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

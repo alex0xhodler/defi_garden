@@ -1,10 +1,10 @@
 # XAVIER DeFi Yields
 
-The highest honest XAVIER yield right now is 18.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAVIER yield right now is 14.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=91241600-bd10-4507-a69e-0abc08b1816a&src=seo_token) | Solana | 18.94% | $291.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=91241600-bd10-4507-a69e-0abc08b1816a&src=seo_token) | Solana | 14.75% | $312.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAVIER yield today?
 
-18.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XAVIER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.5K in total.
+1 live pool clear this page's $100K TVL floor, $312.2K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank XAVIER pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

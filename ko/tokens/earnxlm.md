@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 5.00%예요
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [EARNUSDC](https://www.defi.garden/ko/tokens/earnusdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 
-## 마지막 업데이트: August 29, 2026
+## 마지막 업데이트: August 30, 2026

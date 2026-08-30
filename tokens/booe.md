@@ -1,10 +1,10 @@
 # BOOE DeFi Yields
 
-The highest honest BOOE yield right now is 3.84% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOE yield right now is 1.49% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 3.84% | $495.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 1.49% | $494.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOE yield today?
 
-3.84% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BOOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $495.3K in total.
+1 live pool clear this page's $100K TVL floor, $494.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BOOE pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

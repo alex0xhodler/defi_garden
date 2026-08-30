@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on tectonic](https://tectonic.finance/?ref=defi.garden)
 
-Last updated August 29, 2026
+Last updated August 30, 2026

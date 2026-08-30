@@ -4,7 +4,7 @@ The highest honest IBNAI yield right now is 0.24% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5b316d19-4b4e-57a9-a632-1e56f7af3d2d&src=seo_token) | Ethereum | 0.24% | $327.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5b316d19-4b4e-57a9-a632-1e56f7af3d2d&src=seo_token) | Ethereum | 0.24% | $330.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IBNAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $327.8K in total.
+1 live pool clear this page's $100K TVL floor, $330.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank IBNAI pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

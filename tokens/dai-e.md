@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAI.E pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

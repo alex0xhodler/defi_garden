@@ -4,7 +4,7 @@ The highest honest QUILL yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.01% | $140.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.01% | $141.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QUILL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.6K in total.
+1 live pool clear this page's $100K TVL floor, $141.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank QUILL pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

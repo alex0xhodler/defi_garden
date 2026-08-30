@@ -43,13 +43,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | hydration-dex | 0.98% | 0.86% | Base rate |
-| hydration-dex | 2.53% | 13.73% | Base rate |
+| hydration-dex | 2.53% | 13.66% | Base rate |
 | hydration-dex | 0.40% | 0.40% | Base rate |
-| hydration-dex | 0.18% | 0.16% | Base rate |
-| hydration-dex | 0.14% | 0.22% | Base rate |
+| hydration-dex | 0.18% | 0.15% | Base rate |
+| hydration-dex | 0.14% | 0.21% | Base rate |
 | hydration-dex | 0.49% | 0.34% | Base rate |
 | hydration-dex | 0.10% | 0.08% | Base rate |
-| hydration-dex | 0.46% | 0.51% | Base rate |
+| hydration-dex | 0.46% | 0.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -84,4 +84,4 @@ Based on APY history only, HOLLAR's lower-variability candidates are hydration-d
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

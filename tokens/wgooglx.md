@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

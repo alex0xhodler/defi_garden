@@ -1,10 +1,10 @@
 # LIQUIDUSD DeFi Yields
 
-The highest honest LIQUIDUSD yield right now is 5.19% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIQUIDUSD yield right now is 5.59% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4&src=seo_token) | Ethereum | 5.19% | $25.69M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4&src=seo_token) | Ethereum | 5.59% | $30.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIQUIDUSD yield today?
 
-5.19% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
+5.59% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many LIQUIDUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $25.69M in total.
+1 live pool clear this page's $100K TVL floor, $30.19M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank LIQUIDUSD pools. This view co
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026

@@ -1,10 +1,10 @@
 # ROXWETH DeFi Yields
 
-The highest honest ROXWETH yield right now is 1.72% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROXWETH yield right now is 1.68% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.72% | $3.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.68% | $3.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROXWETH yield today?
 
-1.72% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.68% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ROXWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.24M in total.
+1 live pool clear this page's $100K TVL floor, $3.27M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ROXWETH pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 29, 2026
+## Last updated August 30, 2026
