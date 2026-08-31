@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many THUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $104.03M in total.
+6 live pools clear this page's $100K TVL floor, $104.02M in total.
 
 ### Are these rates safe?
 
@@ -50,14 +50,14 @@ There is not enough qualifying APY history to rank THUSD pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -1,10 +1,10 @@
 # TOWER DeFi Yields
 
-The highest honest TOWER yield right now is 16.43% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOWER yield right now is 16.53% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=552798ed-99e0-4866-88cf-dbbc3e8d6192&src=seo_token) | Base | 16.43% | $253.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=552798ed-99e0-4866-88cf-dbbc3e8d6192&src=seo_token) | Base | 16.53% | $248.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOWER yield today?
 
-16.43% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+16.53% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TOWER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.4K in total.
+1 live pool clear this page's $100K TVL floor, $248.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank TOWER pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

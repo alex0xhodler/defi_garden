@@ -1,10 +1,10 @@
 # MTX DeFi Yields
 
-The highest honest MTX yield right now is 1.93% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MTX yield right now is 2.37% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=13201fe0-48a2-4e06-a653-237c407fe97e&src=seo_token) | Ethereum | 1.93% | $2.88M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=13201fe0-48a2-4e06-a653-237c407fe97e&src=seo_token) | Ethereum | 2.37% | $2.99M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MTX yield today?
 
-1.93% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.37% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.88M in total.
+1 live pool clear this page's $100K TVL floor, $2.99M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MTX pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -26,11 +26,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Venom
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WVENOM](https://www.defi.garden/tokens/wvenom)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

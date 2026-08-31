@@ -4,7 +4,7 @@ The highest honest AVWETH yield right now is 0.53% on curve-dex (Avalanche), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $517.2K |
+| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $515.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $517.2K in total.
+1 live pool clear this page's $100K TVL floor, $515.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AVWETH pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

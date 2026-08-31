@@ -1,17 +1,17 @@
 # ICP DeFi Yields
 
-The highest honest ICP yield right now is 15.83% on icpswap (ICP), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICP yield right now is 18.86% on icpswap (ICP), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_chain) | 7.95% | $5.81M |
-| BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_chain) | 0.02% | $1.13M |
-| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_chain) | 15.83% | $633K |
-| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_chain) | 9.23% | $481.5K |
-| TOKO-ICP | [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc&src=seo_chain) | 0.53% | $405.1K |
-| USDT | [liquidium →](https://www.defi.garden/?pool=3212366c-3e08-4da7-8ccb-a69fbf7840c1&src=seo_chain) | 2.78% | $275.3K |
-| GLDT-CKUSDT | [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_chain) | 0.01% | $217.7K |
-| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7&src=seo_chain) | 3.63% | $193.2K |
+| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_chain) | 7.95% | $5.74M |
+| BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_chain) | 0.02% | $1.16M |
+| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_chain) | 18.86% | $592.3K |
+| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_chain) | 12.06% | $476.8K |
+| TOKO-ICP | [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc&src=seo_chain) | 0.32% | $421.1K |
+| USDT | [liquidium →](https://www.defi.garden/?pool=3212366c-3e08-4da7-8ccb-a69fbf7840c1&src=seo_chain) | 2.99% | $248.6K |
+| GLDT-CKUSDT | [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_chain) | 0.01% | $217.9K |
+| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7&src=seo_chain) | 3.51% | $208.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ICP yield today?
 
-15.83% APY on icpswap (ICP), based on live DefiLlama data.
+18.86% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many ICP pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $11.35M in total.
+13 live pools clear this page's $100K TVL floor, $11.27M in total.
 
 ### Are these rates safe?
 
@@ -32,11 +32,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on ICP
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [GLDT](https://www.defi.garden/tokens/gldt)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

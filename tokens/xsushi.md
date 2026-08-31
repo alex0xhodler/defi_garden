@@ -1,10 +1,10 @@
 # XSUSHI DeFi Yields
 
-The highest honest XSUSHI yield right now is 1.76% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSUSHI yield right now is 1.47% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 1.76% | $184.4K |
+| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 1.47% | $182.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XSUSHI yield today?
 
-1.76% APY on sushiswap (Ethereum), based on live DefiLlama data.
+1.47% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many XSUSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.4K in total.
+1 live pool clear this page's $100K TVL floor, $182.6K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank XSUSHI pools. This view cover
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

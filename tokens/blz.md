@@ -1,29 +1,29 @@
 # BLZ DeFi Yields
 
-The highest honest BLZ yield right now is 18.85% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLZ yield right now is 9.79% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 18.85% | $182.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 17.23% | $181.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 9.79% | $181K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 9.78% | $179K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 18.85% APY, $182.5K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 17.23% APY, $181.1K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 9.79% APY, $181K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 9.78% APY, $179K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 18.85% | $182.5K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 17.23% | $181.1K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 9.79% | $181K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 9.78% | $179K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BLZ shows up in 2 pools here, with rates from 17.23% to 18.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BLZ shows up in 2 pools here, with rates from 9.78% to 9.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 18.85% | 25.04% | Base rate |
-| uniswap-v2 | 17.23% | 25.03% | Base rate |
+| uniswap-v2 | 9.79% | 25.81% | Base rate |
+| uniswap-v2 | 9.78% | 25.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BLZ yield today?
 
-18.85% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+9.79% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BLZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $363.6K in total.
+2 live pools clear this page's $100K TVL floor, $360K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BLZ pools have the most stable APY history?
 
-Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 18.85% APY, $182.5K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 17.23% APY, $181.1K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 9.79% APY, $181K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 9.78% APY, $179K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

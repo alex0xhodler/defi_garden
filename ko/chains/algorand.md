@@ -1,15 +1,15 @@
 # Algorand 디파이 수익률
 
-현재 Algorand의 가장 높은 정직한 수익률은 Algorand의 folks-finance-lending에서 1.92%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Algorand의 가장 높은 정직한 수익률은 Algorand의 folks-finance-lending에서 7.13%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ALGO | [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_chain) | 1.92% | $3.44M |
+| ALGO | [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_chain) | 1.93% | $3.36M |
 | GOBTC | [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_chain) | 0.08% | $1.07M |
-| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $748.9K |
-| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 13.02% | $560.4K |
-| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.17% | $558.6K |
-| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $445K |
+| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $745.5K |
+| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 7.13% | $624.1K |
+| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.17% | $559.9K |
+| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $441.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,11 +17,11 @@
 
 ### 오늘 Algorand의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 APY 1.92%예요.
+DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 APY 7.13%예요.
 
 ### Algorand 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $21.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $20.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -30,11 +30,11 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Algorand의 인기 토큰
 
@@ -45,4 +45,4 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 - [GOLD](https://www.defi.garden/ko/tokens/gold)
 - [GOETH](https://www.defi.garden/ko/tokens/goeth)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

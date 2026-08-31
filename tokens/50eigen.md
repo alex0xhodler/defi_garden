@@ -1,10 +1,10 @@
 # 50EIGEN DeFi Yields
 
-The highest honest 50EIGEN yield right now is 11.02% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 50EIGEN yield right now is 13.26% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 11.02% | $125.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 13.26% | $124.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 50EIGEN yield today?
 
-11.02% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+13.26% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 50EIGEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $125.9K in total.
+1 live pool clear this page's $100K TVL floor, $124.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank 50EIGEN pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

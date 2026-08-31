@@ -4,7 +4,7 @@ The highest honest Kava yield right now is 6.11% on scrub-invest (Kava), among 8
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.11% | $6.99M |
+| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.11% | $6.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kava pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $19.51M in total.
+8 live pools clear this page's $100K TVL floor, $19.39M in total.
 
 ### Are these rates safe?
 
@@ -25,15 +25,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Kava
 
 - [TIGER](https://www.defi.garden/tokens/tiger)
 - [LION](https://www.defi.garden/tokens/lion)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

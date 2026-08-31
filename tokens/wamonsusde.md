@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank WAMONSUSDE pools. This view c
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank GOBTC pools. This view covers
 - [SILVER](https://www.defi.garden/tokens/silver)
 - [GOETH](https://www.defi.garden/tokens/goeth)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

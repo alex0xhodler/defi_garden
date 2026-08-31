@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank WVENOM pools. This view cover
 
 - [VENOM](https://www.defi.garden/tokens/venom)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Venom](https://www.defi.garden/chains/venom)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

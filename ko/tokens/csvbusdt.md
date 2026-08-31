@@ -1,10 +1,10 @@
 # CSVBUSDT 디파이 수익률
 
-현재 CSVBUSDT의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 7.32%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CSVBUSDT의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 7.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=130d0e23-8a40-5108-b9b6-fc754456a786&src=seo_token) | Katana | 7.32% | $1M |
+| [morpho-blue →](https://www.defi.garden/?pool=130d0e23-8a40-5108-b9b6-fc754456a786&src=seo_token) | Katana | 7.84% | $1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CSVBUSDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 7.32%예요.
+DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 7.84%예요.
 
 ### CSVBUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 7.32%예�
 - [VBWBTC](https://www.defi.garden/ko/tokens/vbwbtc)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
 - [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
-- [VBETH](https://www.defi.garden/ko/tokens/vbeth)
+- [YOG](https://www.defi.garden/ko/tokens/yog)
 
 ## 이용 가능한 체인
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

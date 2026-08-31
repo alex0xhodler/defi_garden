@@ -1,10 +1,10 @@
 # AAA DeFi Yields
 
-The highest honest AAA yield right now is 41.76% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAA yield right now is 35.21% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9ee0f1c6-8075-4ec7-9cb1-aad2b6f6bb28&src=seo_token) | Base | 41.76% | $112.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9ee0f1c6-8075-4ec7-9cb1-aad2b6f6bb28&src=seo_token) | Base | 35.21% | $112.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAA yield today?
 
-41.76% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+35.21% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AAA pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank AAA pools. This view covers A
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

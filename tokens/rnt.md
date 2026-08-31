@@ -1,33 +1,33 @@
 # RNT DeFi Yields
 
-The highest honest RNT yield right now is 15.95% on gt3 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNT yield right now is 16.49% on gt3 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.18% | $3.71M |
-| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 4.07% | $493.2K |
-| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.90% | $259.1K |
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.95% | $120K |
+| [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.16% | $3.72M |
+| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 7.18% | $482K |
+| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.92% | $258.4K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 16.49% | $116.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RNT's lower-variability candidates are sushiswap (Polygon), 0.18% APY, $3.71M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; gt3 (Polygon), 5.90% APY, $259.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; raydium-amm (Solana), 4.07% APY, $493.2K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; gt3 (Polygon), 15.95% APY, $120K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNT's lower-variability candidates are sushiswap (Polygon), 0.16% APY, $3.72M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; gt3 (Polygon), 5.92% APY, $258.4K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; raydium-amm (Solana), 7.18% APY, $482K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; gt3 (Polygon), 16.49% APY, $116.3K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.18% | $3.71M |
-| 2 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.90% | $259.1K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 4.07% | $493.2K |
-| 4 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.95% | $120K |
+| 1 | [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.16% | $3.72M |
+| 2 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.92% | $258.4K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 7.18% | $482K |
+| 4 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 16.49% | $116.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RNT shows up in 4 pools here, with rates from 0.18% to 15.95% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RNT shows up in 4 pools here, with rates from 0.16% to 16.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap | 0.18% | 0.24% | Base rate |
-| raydium-amm | 4.07% | 3.52% | Base rate |
-| gt3 | 5.90% | 6.64% | Base rate |
-| gt3 | 15.95% | 17.06% | Base rate |
+| sushiswap | 0.16% | 0.23% | Base rate |
+| raydium-amm | 7.18% | 3.74% | Base rate |
+| gt3 | 5.92% | 6.58% | Base rate |
+| gt3 | 16.49% | 16.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RNT yield today?
 
-15.95% APY on gt3 (Polygon), based on live DefiLlama data.
+16.49% APY on gt3 (Polygon), based on live DefiLlama data.
 
 ### How many RNT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.59M in total.
+4 live pools clear this page's $100K TVL floor, $4.58M in total.
 
 ### Are these rates safe?
 
@@ -58,20 +58,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RNT pools have the most stable APY history?
 
-Based on APY history only, RNT's lower-variability candidates are sushiswap (Polygon), 0.18% APY, $3.71M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; gt3 (Polygon), 5.90% APY, $259.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; raydium-amm (Solana), 4.07% APY, $493.2K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; gt3 (Polygon), 15.95% APY, $120K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNT's lower-variability candidates are sushiswap (Polygon), 0.16% APY, $3.72M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; gt3 (Polygon), 5.92% APY, $258.4K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; raydium-amm (Solana), 7.18% APY, $482K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; gt3 (Polygon), 16.49% APY, $116.3K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

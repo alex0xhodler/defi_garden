@@ -4,7 +4,7 @@ The highest honest USD0A yield right now is 3.88% on usual-usd0 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 3.88% | $584.2K |
+| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 3.88% | $584.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USD0A pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $584.2K in total.
+1 live pool clear this page's $100K TVL floor, $584.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank USD0A pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

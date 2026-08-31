@@ -4,7 +4,7 @@ The highest honest ROCK.LOOPEDETH yield right now is 1.74% on lagoon (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=da34e200-9300-400f-a45d-f196a4aa6874&src=seo_token) | Ethereum | 1.74% | $1.95M |
+| [lagoon →](https://www.defi.garden/?pool=da34e200-9300-400f-a45d-f196a4aa6874&src=seo_token) | Ethereum | 1.74% | $1.93M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROCK.LOOPEDETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.95M in total.
+1 live pool clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ROCK.LOOPEDETH pools. This vi
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

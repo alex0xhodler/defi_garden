@@ -1,17 +1,17 @@
 # Sui DeFi Yields
 
-The highest honest Sui yield right now is 3.55% on ondo-yield-assets (Sui), among 118 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sui yield right now is 12.00% on ember-protocol (Sui), among 111 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC-USDC | [bluefin-spot →](https://www.defi.garden/?pool=0a12fc1a-5c60-41c2-8a28-1ead843c98ee&src=seo_chain) | 0.26% | $6.17B |
-| XBTC-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=e0a53e8b-472e-4de4-9280-011fa24a6329&src=seo_chain) | 0.97% | $2.4B |
-| LBTC-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=c1768ce4-36e9-4164-a789-ae6777f5f409&src=seo_chain) | 0.21% | $1.31B |
-| SUI-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=d171da13-4dce-4dc5-9d08-92a4fe90658d&src=seo_chain) | 2.89% | $164.73M |
-| WBTC-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=fbda1342-d6e7-5b73-a2f3-6ac3c9c78f0b&src=seo_chain) | 0.20% | $33.81M |
-| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.21% | $18.73M |
-| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.17% | $16.87M |
+| WBTC-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=fbda1342-d6e7-5b73-a2f3-6ac3c9c78f0b&src=seo_chain) | 0.17% | $33.81M |
+| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.21% | $18.74M |
+| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.18% | $16.31M |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_chain) | 3.55% | $15.2M |
+| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_chain) | 1.07% | $12.3M |
+| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23&src=seo_chain) | 9.02% | $10.62M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0&src=seo_chain) | 12.00% | $9.04M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c&src=seo_chain) | 10.11% | $7.32M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Sui yield today?
 
-3.55% APY on ondo-yield-assets (Sui), based on live DefiLlama data.
+12.00% APY on ember-protocol (Sui), based on live DefiLlama data.
 
 ### How many Sui pools clear the TVL floor?
 
-118 live pools clear this page's $100K TVL floor, $10.34B in total.
+111 live pools clear this page's $100K TVL floor, $293.55M in total.
 
 ### Are these rates safe?
 
@@ -42,11 +42,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [VSUI](https://www.defi.garden/tokens/vsui)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

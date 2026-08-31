@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 4.80%예요.
 ## 관련 토큰
 
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [APT](https://www.defi.garden/ko/tokens/apt)
 - [TRUAPT](https://www.defi.garden/ko/tokens/truapt)
 - [ABTC](https://www.defi.garden/ko/tokens/abtc)
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 4.80%예요.
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

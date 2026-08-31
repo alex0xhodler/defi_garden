@@ -1,10 +1,10 @@
 # BANANA DeFi Yields
 
-The highest honest BANANA yield right now is 0.80% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BANANA yield right now is 2.71% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 0.80% | $3.07M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 2.71% | $3.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BANANA yield today?
 
-0.80% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BANANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.07M in total.
+1 live pool clear this page's $100K TVL floor, $3.05M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BANANA pools. This view cover
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

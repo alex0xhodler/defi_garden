@@ -1,12 +1,12 @@
 # OVER-USDC — aerodrome-v1 on Base
 
-**Total APY:** 13.04% (0.00% Base · + 13.04% Rewards)
+**Total APY:** 12.80% (0.00% Base · + 12.80% Rewards)
 
-**TVL:** $330.7K
+**TVL:** $332.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.67%
+**30d Mean APY:** 11.74%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,237 in 5y at current rates.
+$1,000 in this pool grows to ~$1,232 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (13.04% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (12.80% headline) — farm rates decay. Active management required.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,237 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,232 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-v1](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated August 30, 2026
+Last updated August 31, 2026

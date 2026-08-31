@@ -1,10 +1,10 @@
 # DWBTC DeFi Yields
 
-The highest honest DWBTC yield right now is 0.26% on gami-labs (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DWBTC yield right now is 0.25% on gami-labs (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.26% | $369.2K |
+| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.25% | $368.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DWBTC yield today?
 
-0.26% APY on gami-labs (Ethereum), based on live DefiLlama data.
+0.25% APY on gami-labs (Ethereum), based on live DefiLlama data.
 
 ### How many DWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $369.2K in total.
+1 live pool clear this page's $100K TVL floor, $368.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DWBTC pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

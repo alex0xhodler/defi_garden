@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on frigg.eco](https://www.frigg.eco/?ref=defi.garden)
 
-Last updated August 30, 2026
+Last updated August 31, 2026

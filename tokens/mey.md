@@ -1,10 +1,10 @@
 # MEY DeFi Yields
 
-The highest honest MEY yield right now is 74.90% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEY yield right now is 140.99% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 74.90% | $126.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 140.99% | $127.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEY yield today?
 
-74.90% APY on uniswap-v3 (Base), based on live DefiLlama data.
+140.99% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.2K in total.
+1 live pool clear this page's $100K TVL floor, $127.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MEY pools. This view covers A
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

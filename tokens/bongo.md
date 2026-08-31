@@ -1,10 +1,10 @@
 # BONGO DeFi Yields
 
-The highest honest BONGO yield right now is 1.55% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BONGO yield right now is 3.25% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=72151b32-52e4-4ef7-92ba-c182d57e9264&src=seo_token) | Solana | 1.55% | $168.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=72151b32-52e4-4ef7-92ba-c182d57e9264&src=seo_token) | Solana | 3.25% | $148.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BONGO yield today?
 
-1.55% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.25% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BONGO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $168.2K in total.
+1 live pool clear this page's $100K TVL floor, $148.1K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank BONGO pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

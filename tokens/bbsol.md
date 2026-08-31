@@ -1,10 +1,10 @@
 # BBSOL DeFi Yields
 
-The highest honest BBSOL yield right now is 4.57% on bybit-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBSOL yield right now is 4.86% on bybit-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bybit-staked-sol →](https://www.defi.garden/?pool=f76cc844-73a2-4cc7-8de7-f9fb874c626d&src=seo_token) | Solana | 4.57% | $128.36M |
+| [bybit-staked-sol →](https://www.defi.garden/?pool=f76cc844-73a2-4cc7-8de7-f9fb874c626d&src=seo_token) | Solana | 4.86% | $125.93M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BBSOL yield today?
 
-4.57% APY on bybit-staked-sol (Solana), based on live DefiLlama data.
+4.86% APY on bybit-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many BBSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.36M in total.
+1 live pool clear this page's $100K TVL floor, $125.93M in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank BBSOL pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

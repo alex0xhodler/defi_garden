@@ -5,13 +5,13 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_chain) | 3.55% | $6.38M |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 2.78% | $714K |
-| ATOM-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.26% | $454.5K |
-| ATOM-STATOM | [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_chain) | 0.08% | $435.3K |
-| BTC-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.07% | $424.7K |
-| BTC-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_chain) | 0.02% | $398.2K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.08% | $365.5K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.08% | $337.5K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 3.06% | $697.8K |
+| ATOM-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.31% | $453.5K |
+| ATOM-STATOM | [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_chain) | 0.15% | $433.4K |
+| BTC-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.06% | $426.9K |
+| BTC-USDC.N | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_chain) | 0.02% | $399.8K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.09% | $358.8K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.09% | $329.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 ondo-yield-assets에서 APY 3.5
 
 ### Osmosis 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $15.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $15.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,11 +32,11 @@ DefiLlama 실시간 데이터 기준, Osmosis의 ondo-yield-assets에서 APY 3.5
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 - [Sei](https://www.defi.garden/ko/chains/sei)
+- [Sui](https://www.defi.garden/ko/chains/sui)
 
 ## Osmosis의 인기 토큰
 
@@ -48,4 +48,4 @@ DefiLlama 실시간 데이터 기준, Osmosis의 ondo-yield-assets에서 APY 3.5
 - [STATOM](https://www.defi.garden/ko/tokens/statom)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

@@ -4,7 +4,7 @@ The highest honest STARL yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=302ad2ef-aee0-4ebe-b225-39b08ac44d68&src=seo_token) | Ethereum | 0.01% | $1.18M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=302ad2ef-aee0-4ebe-b225-39b08ac44d68&src=seo_token) | Ethereum | 0.01% | $1.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STARL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.18M in total.
+1 live pool clear this page's $100K TVL floor, $1.17M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank STARL pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

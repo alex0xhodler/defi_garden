@@ -73,11 +73,11 @@ APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos�
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

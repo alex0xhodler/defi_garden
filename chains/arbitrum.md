@@ -5,13 +5,13 @@ The highest honest Arbitrum yield right now is 7.20% on usd-ai (Arbitrum), among
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.20% | $408.33M |
-| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.18M |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.18M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $205.28M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 3.30% | $60.22M |
-| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 6.21% | $52.69M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.54% | $52.32M |
-| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.40% | $50.36M |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.3M |
+| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.3M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $204.63M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 3.43% | $60.01M |
+| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 6.11% | $52.5M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.58% | $52.3M |
+| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.42% | $50.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,21 +32,21 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Arbitrum
 
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WBTC.B](https://www.defi.garden/tokens/wbtc-b)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDAI](https://www.defi.garden/tokens/usdai)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

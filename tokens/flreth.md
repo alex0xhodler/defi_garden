@@ -4,24 +4,24 @@ The highest honest FLRETH yield right now is 0.01% on kinetic (Flare), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.33M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 7.27% | $101.4K |
+| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.3M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 7.28% | $100.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FLRETH's lower-variability candidates are sparkdex-v4 (Flare), 7.27% APY, $101.4K TVL, https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token; kinetic (Flare), 0.01% APY, $2.33M TVL, https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FLRETH's lower-variability candidates are sparkdex-v4 (Flare), 7.28% APY, $100.5K TVL, https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token; kinetic (Flare), 0.01% APY, $2.3M TVL, https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 7.27% | $101.4K |
-| 2 | [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.33M |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 7.28% | $100.5K |
+| 2 | [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FLRETH shows up in 2 pools here, with rates from 0.01% to 7.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLRETH shows up in 2 pools here, with rates from 0.01% to 7.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,7 +30,7 @@ FLRETH shows up in 2 pools here, with rates from 0.01% to 7.27% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kinetic | 0.01% | 0.04% | Base rate |
-| sparkdex-v4 | 7.27% | 16.60% | 95.70% incentives |
+| sparkdex-v4 | 7.28% | 16.60% | 97.78% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLRETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.43M in total.
+2 live pools clear this page's $100K TVL floor, $2.4M in total.
 
 ### Are these rates safe?
 
@@ -50,13 +50,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FLRETH pools have the most stable APY history?
 
-Based on APY history only, FLRETH's lower-variability candidates are sparkdex-v4 (Flare), 7.27% APY, $101.4K TVL, https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token; kinetic (Flare), 0.01% APY, $2.33M TVL, https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FLRETH's lower-variability candidates are sparkdex-v4 (Flare), 7.28% APY, $100.5K TVL, https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token; kinetic (Flare), 0.01% APY, $2.3M TVL, https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
@@ -65,4 +65,4 @@ Based on APY history only, FLRETH's lower-variability candidates are sparkdex-v4
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

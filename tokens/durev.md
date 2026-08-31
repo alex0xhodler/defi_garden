@@ -1,10 +1,10 @@
 # DUREV DeFi Yields
 
-The highest honest DUREV yield right now is 1.03% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUREV yield right now is 3.72% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=2dfd8d9e-1b61-4ad0-b217-f85a5ddb383a&src=seo_token) | TON | 1.03% | $148.2K |
+| [dedust →](https://www.defi.garden/?pool=2dfd8d9e-1b61-4ad0-b217-f85a5ddb383a&src=seo_token) | TON | 3.72% | $144.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUREV yield today?
 
-1.03% APY on dedust (TON), based on live DefiLlama data.
+3.72% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many DUREV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.2K in total.
+1 live pool clear this page's $100K TVL floor, $144.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DUREV pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

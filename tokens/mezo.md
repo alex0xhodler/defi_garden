@@ -1,10 +1,10 @@
 # MEZO DeFi Yields
 
-The highest honest MEZO yield right now is 37.32% on mezo-earn (Mezo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEZO yield right now is 37.31% on mezo-earn (Mezo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_token) | Mezo | 37.32% | $1.98M |
+| [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_token) | Mezo | 37.31% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEZO yield today?
 
-37.32% APY on mezo-earn (Mezo), based on live DefiLlama data.
+37.31% APY on mezo-earn (Mezo), based on live DefiLlama data.
 
 ### How many MEZO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.98M in total.
+1 live pool clear this page's $100K TVL floor, $1.94M in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank MEZO pools. This view covers 
 - [BTC](https://www.defi.garden/tokens/btc)
 - [SMUSD](https://www.defi.garden/tokens/smusd)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Mezo](https://www.defi.garden/chains/mezo)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

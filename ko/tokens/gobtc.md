@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 - [SILVER](https://www.defi.garden/ko/tokens/silver)
 - [GOETH](https://www.defi.garden/ko/tokens/goeth)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 
 - [Algorand](https://www.defi.garden/ko/chains/algorand)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

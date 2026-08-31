@@ -4,7 +4,7 @@ The highest honest GTUETH yield right now is 0.04% on morpho-blue (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $193K |
+| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $191.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $193K in total.
+1 live pool clear this page's $100K TVL floor, $191.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GTUETH pools. This view cover
 
 ## Related tokens
 
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

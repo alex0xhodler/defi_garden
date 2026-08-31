@@ -1,10 +1,10 @@
 # PRIMEUSD DeFi Yields
 
-The highest honest PRIMEUSD yield right now is 6.52% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRIMEUSD yield right now is 6.41% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 6.52% | $6.32M |
+| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 6.41% | $6.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRIMEUSD yield today?
 
-6.52% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
+6.41% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
 
 ### How many PRIMEUSD pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank PRIMEUSD pools. This view cov
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -4,7 +4,7 @@ The highest honest SUP yield right now is 20.13% on superform (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa&src=seo_token) | Base | 20.13% | $717.1K |
+| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa&src=seo_token) | Base | 20.13% | $733.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $717.1K in total.
+1 live pool clear this page's $100K TVL floor, $733.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SUP pools. This view covers A
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -1,10 +1,10 @@
 # JRNOPAL DeFi Yields
 
-The highest honest JRNOPAL yield right now is 11.43% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRNOPAL yield right now is 9.75% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=4dbe1258-b4bc-53f5-b9c0-4c497e028939&src=seo_token) | Ethereum | 11.43% | $299.6K |
+| [strata-markets →](https://www.defi.garden/?pool=4dbe1258-b4bc-53f5-b9c0-4c497e028939&src=seo_token) | Ethereum | 9.75% | $299.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRNOPAL yield today?
 
-11.43% APY on strata-markets (Ethereum), based on live DefiLlama data.
+9.75% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many JRNOPAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299.6K in total.
+1 live pool clear this page's $100K TVL floor, $299.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank JRNOPAL pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

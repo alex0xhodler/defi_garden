@@ -1,10 +1,10 @@
 # LCPEDU DeFi Yields
 
-The highest honest LCPEDU yield right now is 0.16% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCPEDU yield right now is 0.20% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [joe-v2.2 →](https://www.defi.garden/?pool=62cea2ab-65f4-49cc-8088-b7d13251dc79&src=seo_token) | Avalanche | 0.16% | $7.95M |
+| [joe-v2.2 →](https://www.defi.garden/?pool=62cea2ab-65f4-49cc-8088-b7d13251dc79&src=seo_token) | Avalanche | 0.20% | $7.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LCPEDU yield today?
 
-0.16% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+0.20% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many LCPEDU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.95M in total.
+1 live pool clear this page's $100K TVL floor, $7.87M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LCPEDU pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

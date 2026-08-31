@@ -4,7 +4,7 @@ The highest honest Pharos yield right now is 3.49% on centrifuge-protocol (Pharo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 3.49% | $4.4M |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 3.49% | $4.39M |
 | USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=bb569576-9211-570b-b60d-fab36a132589&src=seo_chain) | 18.88% | $100.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -26,14 +26,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Pharos
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

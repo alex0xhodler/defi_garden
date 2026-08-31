@@ -4,7 +4,7 @@ The highest honest ANKRFLOWEVM yield right now is 7.90% on ankr (Flow), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $4.23M |
+| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $5.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRFLOWEVM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.53M in total.
+2 live pools clear this page's $100K TVL floor, $8.04M in total.
 
 ### Are these rates safe?
 
@@ -51,11 +51,11 @@ There is not enough qualifying APY history to rank ANKRFLOWEVM pools. This view 
 - [STGUSDC](https://www.defi.garden/tokens/stgusdc)
 - [PYUSD0](https://www.defi.garden/tokens/pyusd0)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

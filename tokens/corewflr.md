@@ -1,10 +1,10 @@
 # COREWFLR DeFi Yields
 
-The highest honest COREWFLR yield right now is 3.92% on mystic-finance-lending (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COREWFLR yield right now is 3.62% on mystic-finance-lending (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mystic-finance-lending →](https://www.defi.garden/?pool=cd22e73a-e73d-48b1-a919-2522b109119a&src=seo_token) | Flare | 3.92% | $614.6K |
+| [mystic-finance-lending →](https://www.defi.garden/?pool=cd22e73a-e73d-48b1-a919-2522b109119a&src=seo_token) | Flare | 3.62% | $626.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COREWFLR yield today?
 
-3.92% APY on mystic-finance-lending (Flare), based on live DefiLlama data.
+3.62% APY on mystic-finance-lending (Flare), based on live DefiLlama data.
 
 ### How many COREWFLR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $614.6K in total.
+1 live pool clear this page's $100K TVL floor, $626.2K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank COREWFLR pools. This view cov
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COREWFLR pools. This view cov
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

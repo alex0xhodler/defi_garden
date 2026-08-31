@@ -61,11 +61,11 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -74,4 +74,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [Solana](https://www.defi.garden/chains/solana)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

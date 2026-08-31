@@ -4,7 +4,7 @@ The highest honest SHI yield right now is 0.04% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9e666bc6-8c20-46b5-ae4a-0765724872e0&src=seo_token) | Ethereum | 0.04% | $772.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9e666bc6-8c20-46b5-ae4a-0765724872e0&src=seo_token) | Ethereum | 0.04% | $767K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $772.4K in total.
+1 live pool clear this page's $100K TVL floor, $767K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SHI pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

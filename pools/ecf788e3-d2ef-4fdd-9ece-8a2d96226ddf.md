@@ -2,11 +2,11 @@
 
 **Total APY:** 6.60% (6.60% Base · + 0.00% Rewards)
 
-**TVL:** $9.87M
+**TVL:** $9.86M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 6.62%
+**30d Mean APY:** 6.61%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 48 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on blend-pools-v2](https://www.blend.capital/?ref=defi.garden)
 
-Last updated August 30, 2026
+Last updated August 31, 2026

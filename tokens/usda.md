@@ -1,10 +1,10 @@
 # USDA DeFi Yields
 
-The highest honest USDA yield right now is 16.49% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDA yield right now is 18.41% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 16.49% | $704.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 18.41% | $689.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDA shows up in 1 pools here, with rates from 16.49% to 16.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDA shows up in 1 pools here, with rates from 18.41% to 18.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ USDA shows up in 1 pools here, with rates from 16.49% to 16.49% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 16.49% | 17.71% | 72.10% incentives |
+| minswap-dex | 18.41% | 17.66% | 74.14% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDA yield today?
 
-16.49% APY on minswap-dex (Cardano), based on live DefiLlama data.
+18.41% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.22M in total.
+3 live pools clear this page's $100K TVL floor, $3.2M in total.
 
 ### Are these rates safe?
 
@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank USDA pools. This view covers 
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [FET](https://www.defi.garden/tokens/fet)
+- [NIGHT](https://www.defi.garden/tokens/night)
 - [MIN](https://www.defi.garden/tokens/min)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

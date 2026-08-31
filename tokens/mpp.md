@@ -1,10 +1,10 @@
 # MPP DeFi Yields
 
-The highest honest MPP yield right now is 0.33% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPP yield right now is 0.24% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.33% | $3.18M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.24% | $3.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MPP yield today?
 
-0.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.24% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MPP pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MPP pools. This view covers A
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

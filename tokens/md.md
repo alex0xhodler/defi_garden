@@ -1,10 +1,10 @@
 # MD DeFi Yields
 
-The highest honest MD yield right now is 1.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MD yield right now is 7.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1&src=seo_token) | Solana | 1.94% | $197.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1&src=seo_token) | Solana | 7.80% | $202.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MD yield today?
 
-1.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.80% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $197.3K in total.
+1 live pool clear this page's $100K TVL floor, $202.7K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank MD pools. This view covers AP
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

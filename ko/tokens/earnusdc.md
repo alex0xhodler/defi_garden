@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_token) | Stellar | 10.00% | $23.91M |
+| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_token) | Stellar | 10.00% | $24.84M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 
 ### EARNUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $23.91M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $24.84M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [EARNXLM](https://www.defi.garden/ko/tokens/earnxlm)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

@@ -1,10 +1,10 @@
 # DOGINME DeFi Yields
 
-The highest honest DOGINME yield right now is 1.98% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGINME yield right now is 16.26% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7ecd9b5-5bcc-40bf-be46-f8bdbf4d0a30&src=seo_token) | Base | 1.98% | $1.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e7ecd9b5-5bcc-40bf-be46-f8bdbf4d0a30&src=seo_token) | Base | 16.26% | $1.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOGINME yield today?
 
-1.98% APY on uniswap-v3 (Base), based on live DefiLlama data.
+16.26% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DOGINME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.3M in total.
+1 live pool clear this page's $100K TVL floor, $1.26M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank DOGINME pools. This view cove
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

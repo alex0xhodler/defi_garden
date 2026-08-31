@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.05% | $366.4K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.05% | $365.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 loopscale에서 APY 1.05%예요.
 
 ### ZBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $514.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $513.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,12 +50,12 @@ DefiLlama 실시간 데이터 기준, Solana의 loopscale에서 APY 1.05%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

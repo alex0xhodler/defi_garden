@@ -4,7 +4,7 @@ The highest honest WSEI yield right now is 1.08% on takara-lend (Sei), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_token) | Sei | 1.08% | $932.2K |
+| [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_token) | Sei | 1.08% | $908.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSEI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $932.2K in total.
+1 live pool clear this page's $100K TVL floor, $908.8K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank WSEI pools. This view covers 
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [SPSEI](https://www.defi.garden/tokens/spsei)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Sei](https://www.defi.garden/chains/sei)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

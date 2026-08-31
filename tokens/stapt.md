@@ -4,7 +4,7 @@ The highest honest STAPT yield right now is 2.45% on echelon-market (Aptos), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.45% | $439.4K |
+| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.45% | $421.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STAPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $439.4K in total.
+1 live pool clear this page's $100K TVL floor, $421.8K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank STAPT pools. This view covers
 ## Related tokens
 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USD1](https://www.defi.garden/tokens/usd1)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STAPT pools. This view covers
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

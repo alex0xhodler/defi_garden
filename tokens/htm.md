@@ -1,10 +1,10 @@
 # HTM DeFi Yields
 
-The highest honest HTM yield right now is 4.98% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HTM yield right now is 5.64% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.98% | $258.6K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 5.64% | $269.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HTM shows up in 1 pools here, with rates from 4.98% to 4.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HTM shows up in 1 pools here, with rates from 5.64% to 5.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ HTM shows up in 1 pools here, with rates from 4.98% to 4.98% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 4.98% | 4.27% | 64.11% incentives |
+| xexchange | 5.64% | 4.34% | 56.15% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HTM yield today?
 
-4.98% APY on xexchange (MultiversX), based on live DefiLlama data.
+5.64% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many HTM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $724.4K in total.
+2 live pools clear this page's $100K TVL floor, $758K in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ There is not enough qualifying APY history to rank HTM pools. This view covers A
 - [EGLD](https://www.defi.garden/tokens/egld)
 - [USH](https://www.defi.garden/tokens/ush)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

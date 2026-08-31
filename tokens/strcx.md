@@ -1,12 +1,12 @@
 # STRCX DeFi Yields
 
-The highest honest STRCX yield right now is 44.28% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRCX yield right now is 42.47% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 44.28% | $1.1M |
-| [pendle →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 28.93% | $1.1M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 8.23% | $187.6K |
+| [pendle →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 29.58% | $1.11M |
+| [pendle →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 42.47% | $1.11M |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 31.33% | $183.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STRCX shows up in 3 pools here, with rates from 8.23% to 44.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRCX shows up in 3 pools here, with rates from 29.58% to 42.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,9 +27,9 @@ STRCX shows up in 3 pools here, with rates from 8.23% to 44.28% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 44.28% | 44.18% | 16.16% incentives |
-| pendle | 28.93% | 28.75% | Base rate |
-| raydium-amm | 8.23% | 7.80% | Base rate |
+| pendle | 29.58% | 28.86% | Base rate |
+| pendle | 42.47% | 43.98% | 16.62% incentives |
+| raydium-amm | 31.33% | 8.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRCX yield today?
 
-44.28% APY on pendle (Ethereum), based on live DefiLlama data.
+42.47% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many STRCX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.14M in total.
+4 live pools clear this page's $100K TVL floor, $3.2M in total.
 
 ### Are these rates safe?
 
@@ -54,15 +54,15 @@ There is not enough qualifying APY history to rank STRCX pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

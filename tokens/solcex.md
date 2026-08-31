@@ -1,10 +1,10 @@
 # SOLCEX DeFi Yields
 
-The highest honest SOLCEX yield right now is 4.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOLCEX yield right now is 3.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3311c809-c3e2-4d3c-b23b-a5493fdc5f56&src=seo_token) | Solana | 4.03% | $291.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3311c809-c3e2-4d3c-b23b-a5493fdc5f56&src=seo_token) | Solana | 3.90% | $287.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOLCEX yield today?
 
-4.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.90% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOLCEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.6K in total.
+1 live pool clear this page's $100K TVL floor, $287.4K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank SOLCEX pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

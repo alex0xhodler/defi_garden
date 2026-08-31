@@ -1,10 +1,10 @@
 # EAI DeFi Yields
 
-The highest honest EAI yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EAI yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=835e310f-97b8-4ddb-bd0a-c7e693219987&src=seo_token) | Ethereum | 0.02% | $352.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=835e310f-97b8-4ddb-bd0a-c7e693219987&src=seo_token) | Ethereum | 0.01% | $349.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EAI yield today?
 
-0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $352.1K in total.
+1 live pool clear this page's $100K TVL floor, $349.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank EAI pools. This view covers A
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

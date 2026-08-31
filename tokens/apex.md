@@ -1,10 +1,10 @@
 # APEX DeFi Yields
 
-The highest honest APEX yield right now is 7.36% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APEX yield right now is 11.67% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 7.36% | $288.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 11.67% | $287K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APEX yield today?
 
-7.36% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+11.67% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many APEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.1K in total.
+1 live pool clear this page's $100K TVL floor, $287K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank APEX pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

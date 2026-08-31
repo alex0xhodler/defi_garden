@@ -1,10 +1,10 @@
 # SDFXN DeFi Yields
 
-The highest honest SDFXN yield right now is 30.36% on stake-dao (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDFXN yield right now is 29.70% on stake-dao (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 30.36% | $710.5K |
+| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 29.70% | $725.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDFXN yield today?
 
-30.36% APY on stake-dao (Ethereum), based on live DefiLlama data.
+29.70% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDFXN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $710.5K in total.
+1 live pool clear this page's $100K TVL floor, $725.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SDFXN pools. This view covers
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -6,12 +6,12 @@
 |---|---|---|---|
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_chain) | 3.25% | $966.98M |
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a&src=seo_chain) | 15.13% | $6.29M |
-| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $3.03M |
-| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 14.14% | $2.14M |
-| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.19% | $1.69M |
+| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $2.91M |
+| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 13.20% | $2.04M |
+| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.19% | $1.63M |
 | APT-AMAPT | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_chain) | 4.80% | $1.58M |
-| USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 4.14% | $1.53M |
-| USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60&src=seo_chain) | 3.14% | $1.52M |
+| USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60&src=seo_chain) | 3.04% | $1.53M |
+| USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 4.11% | $1.51M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,11 +32,11 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 15.13%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## Aptos의 인기 토큰
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 15.13%예요.
 - [AMAPT](https://www.defi.garden/ko/tokens/amapt)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

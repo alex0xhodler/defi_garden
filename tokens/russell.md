@@ -1,10 +1,10 @@
 # RUSSELL DeFi Yields
 
-The highest honest RUSSELL yield right now is 4.91% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSSELL yield right now is 30.02% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5d212bdb-7272-40f1-93e5-ff058cedeb0e&src=seo_token) | Base | 4.91% | $390.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5d212bdb-7272-40f1-93e5-ff058cedeb0e&src=seo_token) | Base | 30.02% | $402.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSSELL yield today?
 
-4.91% APY on uniswap-v2 (Base), based on live DefiLlama data.
+30.02% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many RUSSELL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $390.2K in total.
+1 live pool clear this page's $100K TVL floor, $402.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank RUSSELL pools. This view cove
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

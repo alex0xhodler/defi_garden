@@ -1,6 +1,6 @@
 # Etherlink 디파이 수익률
 
-현재 Etherlink의 가장 높은 정직한 수익률은 Etherlink의 midas-rwa에서 6.93%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Etherlink의 가장 높은 정직한 수익률은 Etherlink의 midas-rwa에서 16.26%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
@@ -8,7 +8,7 @@
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.22% | $1.22M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 6.02% | $1.12M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=6b5e7c07-976c-43b4-bba4-33dfb7864a4e&src=seo_chain) | 6.93% | $865.2K |
-| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $590.2K |
+| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $590.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@
 
 ### 오늘 Etherlink의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 6.93%예요.
+DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 16.26%예요.
 
 ### Etherlink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -29,14 +29,14 @@ DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 6.93%예�
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Etherlink의 인기 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

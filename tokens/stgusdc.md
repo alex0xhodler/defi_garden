@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank STGUSDC pools. This view cove
 - [WFLOW](https://www.defi.garden/tokens/wflow)
 - [PYUSD0](https://www.defi.garden/tokens/pyusd0)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

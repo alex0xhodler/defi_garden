@@ -4,18 +4,18 @@ The highest honest CDAI yield right now is 0.08% on convex-finance (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $567K |
-| [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token) | Ethereum | 0.08% | $180.2K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $566.8K |
+| [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token) | Ethereum | 0.08% | $180.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $567K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token; convex-finance (Ethereum), 0.08% APY, $180.2K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $566.8K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token; convex-finance (Ethereum), 0.08% APY, $180.1K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $567K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token) | Ethereum | 0.08% | $180.2K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $566.8K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token) | Ethereum | 0.08% | $180.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CDAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $747.2K in total.
+2 live pools clear this page's $100K TVL floor, $746.9K in total.
 
 ### Are these rates safe?
 
@@ -50,19 +50,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CDAI pools have the most stable APY history?
 
-Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $567K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token; convex-finance (Ethereum), 0.08% APY, $180.2K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $566.8K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token; convex-finance (Ethereum), 0.08% APY, $180.1K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

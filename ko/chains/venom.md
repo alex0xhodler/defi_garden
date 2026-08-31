@@ -26,11 +26,11 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.51%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## Venom의 인기 토큰
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.51%예요.
 - [WVENOM](https://www.defi.garden/ko/tokens/wvenom)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

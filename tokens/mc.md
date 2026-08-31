@@ -1,10 +1,10 @@
 # MC DeFi Yields
 
-The highest honest MC yield right now is 6.14% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MC yield right now is 4.80% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 6.14% | $364.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 4.80% | $364.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MC yield today?
 
-6.14% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.80% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many MC pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MC pools. This view covers AP
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

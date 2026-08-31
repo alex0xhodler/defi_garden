@@ -4,7 +4,7 @@ The highest honest Cronos zkEVM yield right now is 0.01% on amply-finance (Crono
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WZKCRO | [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_chain) | 0.01% | $203.7K |
+| WZKCRO | [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_chain) | 0.01% | $191K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Cronos zkEVM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.7K in total.
+1 live pool clear this page's $100K TVL floor, $191K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Cronos zkEVM
 
 - [WZKCRO](https://www.defi.garden/tokens/wzkcro)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

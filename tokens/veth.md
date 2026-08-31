@@ -4,7 +4,7 @@ The highest honest VETH yield right now is 2.69% on bifrost-liquid-staking (Ethe
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eb101287-7f4f-4847-9c16-8b06c2067dc8&src=seo_token) | Ethereum | 2.69% | $1.5M |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eb101287-7f4f-4847-9c16-8b06c2067dc8&src=seo_token) | Ethereum | 2.69% | $1.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.5M in total.
+1 live pool clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank VETH pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

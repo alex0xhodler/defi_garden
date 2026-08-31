@@ -1,10 +1,10 @@
 # MYSTERY DeFi Yields
 
-The highest honest MYSTERY yield right now is 0.70% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MYSTERY yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5e11a3-98d2-4ab8-bb11-49d05fbd3f7d&src=seo_token) | Ethereum | 0.70% | $119.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5e11a3-98d2-4ab8-bb11-49d05fbd3f7d&src=seo_token) | Ethereum | 0.03% | $118.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MYSTERY yield today?
 
-0.70% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MYSTERY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.6K in total.
+1 live pool clear this page's $100K TVL floor, $118.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MYSTERY pools. This view cove
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

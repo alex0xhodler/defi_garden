@@ -1,10 +1,10 @@
 # TABOSHI DeFi Yields
 
-The highest honest TABOSHI yield right now is 3.99% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TABOSHI yield right now is 38.15% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d0ba09f0-abb2-4ecb-adfd-1bbb744e4a35&src=seo_token) | Base | 3.99% | $133.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d0ba09f0-abb2-4ecb-adfd-1bbb744e4a35&src=seo_token) | Base | 38.15% | $115.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TABOSHI yield today?
 
-3.99% APY on uniswap-v3 (Base), based on live DefiLlama data.
+38.15% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many TABOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.1K in total.
+1 live pool clear this page's $100K TVL floor, $115.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank TABOSHI pools. This view cove
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

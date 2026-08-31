@@ -1,10 +1,10 @@
 # JARVIS DeFi Yields
 
-The highest honest JARVIS yield right now is 3.46% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JARVIS yield right now is 3.43% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.46% | $144.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.43% | $143.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JARVIS yield today?
 
-3.46% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+3.43% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many JARVIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144.2K in total.
+1 live pool clear this page's $100K TVL floor, $143.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank JARVIS pools. This view cover
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

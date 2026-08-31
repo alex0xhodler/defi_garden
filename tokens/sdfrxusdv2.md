@@ -4,7 +4,7 @@ The highest honest SDFRXUSDV2 yield right now is 3.30% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 3.30% | $909.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 3.30% | $909.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDFRXUSDV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $909.2K in total.
+1 live pool clear this page's $100K TVL floor, $909.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SDFRXUSDV2 pools. This view c
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

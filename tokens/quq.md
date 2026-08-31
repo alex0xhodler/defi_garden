@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank QUQ pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [BTCB](https://www.defi.garden/tokens/btcb)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QUQ pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

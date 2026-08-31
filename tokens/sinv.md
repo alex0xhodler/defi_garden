@@ -4,7 +4,7 @@ The highest honest SINV yield right now is 0.50% on inverse-finance-firm (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.50% | $1.5M |
+| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.50% | $1.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SINV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.76M in total.
+2 live pools clear this page's $100K TVL floor, $1.78M in total.
 
 ### Are these rates safe?
 
@@ -48,14 +48,14 @@ There is not enough qualifying APY history to rank SINV pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

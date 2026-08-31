@@ -31,10 +31,10 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Tron](https://www.defi.garden/ko/chains/tron)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## Heco의 인기 토큰
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 - [DOGE](https://www.defi.garden/ko/tokens/doge)
 - [CON](https://www.defi.garden/ko/tokens/con)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

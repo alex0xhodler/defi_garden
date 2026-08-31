@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.45% | $439.4K |
+| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.45% | $421.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 echelon-market에서 APY 2.45%예
 
 ### STAPT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $439.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $421.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Aptos의 echelon-market에서 APY 2.45%예
 ## 관련 토큰
 
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [APT](https://www.defi.garden/ko/tokens/apt)
 - [AMAPT](https://www.defi.garden/ko/tokens/amapt)
 - [TRUAPT](https://www.defi.garden/ko/tokens/truapt)
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 echelon-market에서 APY 2.45%예
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

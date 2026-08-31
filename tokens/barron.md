@@ -1,10 +1,10 @@
 # BARRON DeFi Yields
 
-The highest honest BARRON yield right now is 59.89% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BARRON yield right now is 4.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a&src=seo_token) | Solana | 59.89% | $238.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a&src=seo_token) | Solana | 4.41% | $228.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BARRON yield today?
 
-59.89% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.41% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BARRON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.1K in total.
+1 live pool clear this page's $100K TVL floor, $228.1K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank BARRON pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

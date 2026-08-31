@@ -4,7 +4,7 @@ The highest honest Opbnb yield right now is 0.38% on kiloex (Opbnb), among 1 poo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDT | [kiloex →](https://www.defi.garden/?pool=414c2509-6ee2-45ad-8f85-b150986c741a&src=seo_chain) | 0.38% | $278.7K |
+| USDT | [kiloex →](https://www.defi.garden/?pool=414c2509-6ee2-45ad-8f85-b150986c741a&src=seo_chain) | 0.38% | $272.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Opbnb pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $278.7K in total.
+1 live pool clear this page's $100K TVL floor, $272.4K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Opbnb
 
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

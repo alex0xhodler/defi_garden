@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.9M |
-| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $51.99M |
-| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.31% | $5.43M |
+| [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.93M |
+| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $52.01M |
+| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.28% | $5.43M |
 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SDAI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.12%, TVL $203.4K, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; Gnosis의 sdai, APY 4.24%, TVL $51.99M, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; Ethereum의 sky-lending, APY 1.25%, TVL $204.9M, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; Ethereum의 curve-dex, APY 3.31%, TVL $5.43M, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDAI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.12%, TVL $203.4K, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; Gnosis의 sdai, APY 4.24%, TVL $52.01M, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; Ethereum의 sky-lending, APY 1.25%, TVL $204.93M, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; Ethereum의 curve-dex, APY 3.28%, TVL $5.43M, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.4K |
-| 2 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $51.99M |
-| 3 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.9M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.31% | $5.43M |
+| 2 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.24% | $52.01M |
+| 3 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $204.93M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 3.28% | $5.43M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,9 +34,9 @@ SDAI 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.12%부터 4.24%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | sky-lending | 1.25% | 1.25% | 기본 금리 |
-| sdai | 4.24% | 4.13% | 기본 금리 |
-| curve-dex | 3.31% | 3.22% | 기본 금리 |
-| curve-dex | 0.12% | 0.13% | 인센티브 0.40% |
+| sdai | 4.24% | 4.12% | 기본 금리 |
+| curve-dex | 3.28% | 3.24% | 기본 금리 |
+| curve-dex | 0.12% | 0.13% | 인센티브 0.41% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -48,7 +48,7 @@ DefiLlama 실시간 데이터 기준, Gnosis의 sdai에서 APY 4.24%예요.
 
 ### SDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $270.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $270.24M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,20 +56,20 @@ DefiLlama 실시간 데이터 기준, Gnosis의 sdai에서 APY 4.24%예요.
 
 ### SDAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SDAI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.12%, TVL $203.4K, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; Gnosis의 sdai, APY 4.24%, TVL $51.99M, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; Ethereum의 sky-lending, APY 1.25%, TVL $204.9M, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; Ethereum의 curve-dex, APY 3.31%, TVL $5.43M, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDAI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.12%, TVL $203.4K, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token; Gnosis의 sdai, APY 4.24%, TVL $52.01M, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token; Ethereum의 sky-lending, APY 1.25%, TVL $204.93M, https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token; Ethereum의 curve-dex, APY 3.28%, TVL $5.43M, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

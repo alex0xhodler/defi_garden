@@ -1,10 +1,10 @@
 # CLAWD DeFi Yields
 
-The highest honest CLAWD yield right now is 2.52% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWD yield right now is 2.91% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1683ae68-ff16-4fcf-823b-0ffc6f87d601&src=seo_token) | Base | 2.52% | $918.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1683ae68-ff16-4fcf-823b-0ffc6f87d601&src=seo_token) | Base | 2.91% | $911.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWD yield today?
 
-2.52% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.91% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $918.6K in total.
+1 live pool clear this page's $100K TVL floor, $911.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank CLAWD pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

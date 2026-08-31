@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank WCBTC pools. This view covers
 
 - [CTUSD](https://www.defi.garden/tokens/ctusd)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Citrea](https://www.defi.garden/chains/citrea)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

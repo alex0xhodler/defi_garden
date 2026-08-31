@@ -4,7 +4,7 @@ The highest honest EETH yield right now is 1.30% on origin-arm (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $297.7K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $295.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $297.7K in total.
+1 live pool clear this page's $100K TVL floor, $295.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank EETH pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 7.51%예요.
 
 - [WVENOM](https://www.defi.garden/ko/tokens/wvenom)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Venom](https://www.defi.garden/ko/chains/venom)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

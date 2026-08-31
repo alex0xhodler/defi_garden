@@ -1,10 +1,10 @@
 # FREECODE DeFi Yields
 
-The highest honest FREECODE yield right now is 48.00% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FREECODE yield right now is 81.15% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=047746a3-bc7c-4f44-a5b1-043d1787a1fb&src=seo_token) | Base | 48.00% | $229.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=047746a3-bc7c-4f44-a5b1-043d1787a1fb&src=seo_token) | Base | 81.15% | $230.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FREECODE yield today?
 
-48.00% APY on uniswap-v4 (Base), based on live DefiLlama data.
+81.15% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many FREECODE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.1K in total.
+1 live pool clear this page's $100K TVL floor, $230.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank FREECODE pools. This view cov
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

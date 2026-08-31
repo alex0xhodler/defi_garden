@@ -4,7 +4,7 @@ The highest honest YZM yield right now is 0.40% on curvance (Monad), among 2 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.40% | $386.1K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.40% | $386.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -49,13 +49,13 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

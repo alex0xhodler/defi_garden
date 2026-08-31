@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GSOL pools. This view covers 
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

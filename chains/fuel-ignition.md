@@ -4,7 +4,7 @@ The highest honest Fuel Ignition yield right now is 20.00% on fuel-staking (Fuel
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| FUEL | [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_chain) | 20.00% | $1.19M |
+| FUEL | [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_chain) | 20.00% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Fuel Ignition pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.19M in total.
+1 live pool clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Fuel Ignition
 
 - [FUEL](https://www.defi.garden/tokens/fuel)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

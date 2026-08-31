@@ -5,13 +5,13 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.20% | $408.33M |
-| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.18M |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.18M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $205.28M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 3.30% | $60.22M |
-| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 6.21% | $52.69M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.54% | $52.32M |
-| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.40% | $50.36M |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.3M |
+| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.3M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.03% | $204.63M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 3.43% | $60.01M |
+| ETH-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_chain) | 6.11% | $52.5M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c&src=seo_chain) | 4.58% | $52.3M |
+| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.42% | $50.3M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,21 +32,21 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 usd-ai에서 APY 7.20%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Sui](https://www.defi.garden/ko/chains/sui)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Arbitrum의 인기 토큰
 
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBTC.B](https://www.defi.garden/ko/tokens/wbtc-b)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDAI](https://www.defi.garden/ko/tokens/usdai)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

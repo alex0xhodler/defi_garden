@@ -1,10 +1,10 @@
 # TAC DeFi Yields
 
-The highest honest TAC yield right now is 30.37% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAC yield right now is 16.49% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3622556a-7718-50ef-a91d-2d5d418efab1&src=seo_token) | BSC | 30.37% | $260.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3622556a-7718-50ef-a91d-2d5d418efab1&src=seo_token) | BSC | 16.49% | $258.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TAC yield today?
 
-30.37% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+16.49% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many TAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $260.4K in total.
+1 live pool clear this page's $100K TVL floor, $258.8K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank TAC pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [BTCB](https://www.defi.garden/tokens/btcb)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TAC pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

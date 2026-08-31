@@ -1,10 +1,10 @@
 # EULERPYUSD DeFi Yields
 
-The highest honest EULERPYUSD yield right now is 5.07% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EULERPYUSD yield right now is 4.74% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 5.07% | $531.4K |
+| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 4.74% | $531.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EULERPYUSD yield today?
 
-5.07% APY on affluent (TON), based on live DefiLlama data.
+4.74% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many EULERPYUSD pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EULERPYUSD pools. This view c
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -1,10 +1,10 @@
 # CLEV 디파이 수익률
 
-현재 CLEV의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 5.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CLEV의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 5.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0&src=seo_token) | Ethereum | 5.03% | $274.4K |
+| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0&src=seo_token) | Ethereum | 5.11% | $272.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CLEV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.11%예요.
 
 ### CLEV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $274.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $272.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.03%예�
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

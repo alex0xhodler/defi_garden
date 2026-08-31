@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.01% | $233.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.01% | $232.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.01%예요.
 
 ### VOY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $233.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $232.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.01%예요.
 ## 관련 토큰
 
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

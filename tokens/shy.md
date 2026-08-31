@@ -4,7 +4,7 @@ The highest honest SHY yield right now is 1.08% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9660adfa-0c89-4ba0-9f81-d516e4720ad3&src=seo_token) | Solana | 1.08% | $141.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=9660adfa-0c89-4ba0-9f81-d516e4720ad3&src=seo_token) | Solana | 1.08% | $140.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $141.6K in total.
+1 live pool clear this page's $100K TVL floor, $140.6K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank SHY pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

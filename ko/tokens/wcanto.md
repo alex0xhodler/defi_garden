@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Canto의 canto-lending에서 APY 32.06%예
 
 - [NOTE](https://www.defi.garden/ko/tokens/note)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Canto](https://www.defi.garden/ko/chains/canto)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

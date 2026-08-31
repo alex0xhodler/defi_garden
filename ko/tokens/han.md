@@ -1,10 +1,10 @@
 # HAN 디파이 수익률
 
-현재 HAN의 가장 높은 정직한 수익률은 OP Mainnet의 uniswap-v3에서 1.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HAN의 가장 높은 정직한 수익률은 OP Mainnet의 uniswap-v3에서 0.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=59a6ad92-662b-4030-9fc8-f75204773ffa&src=seo_token) | OP Mainnet | 1.15% | $110.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59a6ad92-662b-4030-9fc8-f75204773ffa&src=seo_token) | OP Mainnet | 0.02% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 HAN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 uniswap-v3에서 APY 1.15%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 uniswap-v3에서 APY 0.02%예요.
 
 ### HAN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $109.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 uniswap-v3에서 APY 1.15%�
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 - [MSETH](https://www.defi.garden/ko/tokens/mseth)
-- [USX](https://www.defi.garden/ko/tokens/usx)
 - [ALETH](https://www.defi.garden/ko/tokens/aleth)
+- [ALUSD](https://www.defi.garden/ko/tokens/alusd)
 
 ## 이용 가능한 체인
 
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: August 30, 2026
+## 마지막 업데이트: August 31, 2026

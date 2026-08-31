@@ -1,15 +1,15 @@
 # Algorand DeFi Yields
 
-The highest honest Algorand yield right now is 1.92% on folks-finance-lending (Algorand), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Algorand yield right now is 7.13% on folks-finance-lending (Algorand), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ALGO | [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_chain) | 1.92% | $3.44M |
+| ALGO | [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_chain) | 1.93% | $3.36M |
 | GOBTC | [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_chain) | 0.08% | $1.07M |
-| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $748.9K |
-| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 13.02% | $560.4K |
-| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.17% | $558.6K |
-| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $445K |
+| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $745.5K |
+| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 7.13% | $624.1K |
+| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.17% | $559.9K |
+| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $441.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Algorand yield today?
 
-1.92% APY on folks-finance-lending (Algorand), based on live DefiLlama data.
+7.13% APY on folks-finance-lending (Algorand), based on live DefiLlama data.
 
 ### How many Algorand pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $21.28M in total.
+8 live pools clear this page's $100K TVL floor, $20.98M in total.
 
 ### Are these rates safe?
 
@@ -30,11 +30,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Algorand
 
@@ -45,4 +45,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [GOLD](https://www.defi.garden/tokens/gold)
 - [GOETH](https://www.defi.garden/tokens/goeth)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

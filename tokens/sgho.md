@@ -1,13 +1,13 @@
 # SGHO DeFi Yields
 
-The highest honest SGHO yield right now is 8.82% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SGHO yield right now is 8.86% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $161.26M |
-| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 7.06% | $671.8K |
-| [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 8.82% | $485.7K |
-| [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 8.40% | $157.6K |
+| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $161.57M |
+| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 7.21% | $671.8K |
+| [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 8.86% | $485.7K |
+| [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 8.57% | $157.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SGHO shows up in 4 pools here, with rates from 4.25% to 8.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SGHO shows up in 4 pools here, with rates from 4.25% to 8.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 4.25% | 4.25% | Base rate |
-| curve-dex | 7.06% | 23.12% | 56.68% incentives |
-| stake-dao | 8.82% | 12.40% | 62.45% incentives |
-| convex-finance | 8.40% | 7.76% | 63.57% incentives |
+| curve-dex | 7.21% | 23.22% | 56.17% incentives |
+| stake-dao | 8.86% | 12.26% | 62.99% incentives |
+| convex-finance | 8.57% | 7.79% | 63.15% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SGHO yield today?
 
-8.82% APY on stake-dao (Ethereum), based on live DefiLlama data.
+8.86% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SGHO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $195.28M in total.
+5 live pools clear this page's $100K TVL floor, $195.6M in total.
 
 ### Are these rates safe?
 
@@ -54,14 +54,14 @@ There is not enough qualifying APY history to rank SGHO pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

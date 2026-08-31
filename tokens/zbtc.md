@@ -4,7 +4,7 @@ The highest honest ZBTC yield right now is 1.05% on loopscale (Solana), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.05% | $366.4K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.05% | $365.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $514.5K in total.
+2 live pools clear this page's $100K TVL floor, $513.4K in total.
 
 ### Are these rates safe?
 
@@ -50,12 +50,12 @@ There is not enough qualifying APY history to rank ZBTC pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

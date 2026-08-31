@@ -1,10 +1,10 @@
 # BITMXNBP DeFi Yields
 
-The highest honest BITMXNBP yield right now is 8.00% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITMXNBP yield right now is 7.83% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 8.00% | $258K |
+| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 7.83% | $261.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BITMXNBP yield today?
 
-8.00% APY on morpho-blue (Base), based on live DefiLlama data.
+7.83% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many BITMXNBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258K in total.
+1 live pool clear this page's $100K TVL floor, $261.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BITMXNBP pools. This view cov
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

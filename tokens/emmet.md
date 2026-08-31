@@ -1,10 +1,10 @@
 # EMMET DeFi Yields
 
-The highest honest EMMET yield right now is 1.78% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EMMET yield right now is 0.58% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=53d68dfc-132c-4f8d-acd5-3042d14d6c0d&src=seo_token) | Base | 1.78% | $112.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=53d68dfc-132c-4f8d-acd5-3042d14d6c0d&src=seo_token) | Base | 0.58% | $110K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EMMET yield today?
 
-1.78% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.58% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many EMMET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.2K in total.
+1 live pool clear this page's $100K TVL floor, $110K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank EMMET pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

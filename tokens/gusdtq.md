@@ -1,10 +1,10 @@
 # GUSDTQ DeFi Yields
 
-The highest honest GUSDTQ yield right now is 2.50% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSDTQ yield right now is 2.49% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=09946099-2c68-4fcb-bc6c-32b6bf6019fe&src=seo_token) | Ethereum | 2.50% | $22.97M |
+| [morpho-blue →](https://www.defi.garden/?pool=09946099-2c68-4fcb-bc6c-32b6bf6019fe&src=seo_token) | Ethereum | 2.49% | $22.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSDTQ yield today?
 
-2.50% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GUSDTQ pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank GUSDTQ pools. This view cover
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

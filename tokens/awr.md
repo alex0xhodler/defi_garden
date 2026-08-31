@@ -1,10 +1,10 @@
 # AWR DeFi Yields
 
-The highest honest AWR yield right now is 5.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AWR yield right now is 5.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=437f0155-0099-4487-b78e-f5886097e554&src=seo_token) | Solana | 5.10% | $150.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=437f0155-0099-4487-b78e-f5886097e554&src=seo_token) | Solana | 5.09% | $142.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AWR yield today?
 
-5.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.09% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AWR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.5K in total.
+1 live pool clear this page's $100K TVL floor, $142.6K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank AWR pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

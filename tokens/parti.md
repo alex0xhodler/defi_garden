@@ -1,10 +1,10 @@
 # PARTI DeFi Yields
 
-The highest honest PARTI yield right now is 6.26% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PARTI yield right now is 6.56% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4533a42b-d826-47ca-92c7-3505a89256ae&src=seo_token) | Base | 6.26% | $182.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4533a42b-d826-47ca-92c7-3505a89256ae&src=seo_token) | Base | 6.56% | $179.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PARTI yield today?
 
-6.26% APY on uniswap-v3 (Base), based on live DefiLlama data.
+6.56% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many PARTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.6K in total.
+1 live pool clear this page's $100K TVL floor, $179.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank PARTI pools. This view covers
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

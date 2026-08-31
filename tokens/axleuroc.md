@@ -4,7 +4,7 @@ The highest honest AXLEUROC yield right now is 0.37% on mento-v3 (Celo), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.37% | $131.2K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.37% | $131.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AXLEUROC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.2K in total.
+1 live pool clear this page's $100K TVL floor, $131.4K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank AXLEUROC pools. This view cov
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [EURM](https://www.defi.garden/tokens/eurm)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

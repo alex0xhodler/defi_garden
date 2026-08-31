@@ -4,32 +4,32 @@ The highest honest TSLAX yield right now is 2.02% on jupiter-lend (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 2.32% | $2M |
-| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $711.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 0.41% | $488.1K |
-| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $226.4K |
-| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.80% | $108.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 4.54% | $2M |
+| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $732K |
+| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 2.29% | $485.4K |
+| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $224.4K |
+| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 7.36% | $108.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $226.4K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $711.2K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 2.32% APY, $2M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 0.41% APY, $488.1K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 0.80% APY, $108.8K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $224.4K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $732K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 4.54% APY, $2M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 2.29% APY, $485.4K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 7.36% APY, $108.1K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $226.4K |
-| 2 | [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $711.2K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 2.32% | $2M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 0.41% | $488.1K |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.80% | $108.8K |
+| 1 | [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $224.4K |
+| 2 | [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $732K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 4.54% | $2M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 2.29% | $485.4K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 7.36% | $108.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TSLAX shows up in 5 pools here, with rates from 0.41% to 2.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSLAX shows up in 5 pools here, with rates from 2.02% to 7.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,11 +37,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.32% | 12.87% | Base rate |
-| jupiter-lend | 2.02% | 1.48% | Base rate |
-| raydium-amm | 0.41% | 8.58% | Base rate |
-| jupiter-lend | 2.02% | 1.48% | Base rate |
-| orca-dex | 0.80% | 1.81% | Base rate |
+| raydium-amm | 4.54% | 11.65% | Base rate |
+| jupiter-lend | 2.02% | 1.55% | Base rate |
+| raydium-amm | 2.29% | 8.00% | Base rate |
+| jupiter-lend | 2.02% | 1.55% | Base rate |
+| orca-dex | 7.36% | 1.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TSLAX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.31M in total.
+6 live pools clear this page's $100K TVL floor, $6.27M in total.
 
 ### Are these rates safe?
 
@@ -61,19 +61,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TSLAX pools have the most stable APY history?
 
-Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $226.4K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $711.2K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 2.32% APY, $2M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 0.41% APY, $488.1K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 0.80% APY, $108.8K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $224.4K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $732K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 4.54% APY, $2M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 2.29% APY, $485.4K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 7.36% APY, $108.1K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

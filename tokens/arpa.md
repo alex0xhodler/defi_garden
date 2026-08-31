@@ -4,7 +4,7 @@ The highest honest ARPA yield right now is 3.99% on arpa-staking (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [arpa-staking →](https://www.defi.garden/?pool=cfec34a2-249d-4037-bdf3-a861c8673580&src=seo_token) | Ethereum | 3.99% | $231.4K |
+| [arpa-staking →](https://www.defi.garden/?pool=cfec34a2-249d-4037-bdf3-a861c8673580&src=seo_token) | Ethereum | 3.99% | $233K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARPA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $231.4K in total.
+1 live pool clear this page's $100K TVL floor, $233K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ARPA pools. This view covers 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026

@@ -1,10 +1,10 @@
 # SHADOW DeFi Yields
 
-The highest honest SHADOW yield right now is 98.51% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHADOW yield right now is 106.23% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 98.51% | $118K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 106.23% | $113.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHADOW yield today?
 
-98.51% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
+106.23% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
 
 ### How many SHADOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118K in total.
+1 live pool clear this page's $100K TVL floor, $113.1K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank SHADOW pools. This view cover
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [STS](https://www.defi.garden/tokens/sts)
-- [WS](https://www.defi.garden/tokens/ws)
+- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 
 ## Available on
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated August 30, 2026
+## Last updated August 31, 2026
