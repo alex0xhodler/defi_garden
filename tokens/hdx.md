@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HDX pools. This view covers A
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

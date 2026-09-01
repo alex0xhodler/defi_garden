@@ -4,7 +4,7 @@ The highest honest KEYCAT yield right now is 45.01% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=87d86f70-8910-45be-b18a-4590f5965ea5&src=seo_token) | Base | 46.47% | $919K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=87d86f70-8910-45be-b18a-4590f5965ea5&src=seo_token) | Base | 18.17% | $962.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=48b74c54-4cc2-51db-970d-76a028512c9b&src=seo_token) | Base | 45.01% | $107.1K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-KEYCAT shows up in 2 pools here, with rates from 45.01% to 46.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KEYCAT shows up in 2 pools here, with rates from 18.17% to 45.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 46.47% | 26.07% | Base rate |
+| uniswap-v2 | 18.17% | 27.10% | Base rate |
 | uniswap-v4 | 45.01% | 34.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KEYCAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.03M in total.
+2 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -53,13 +53,13 @@ There is not enough qualifying APY history to rank KEYCAT pools. This view cover
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

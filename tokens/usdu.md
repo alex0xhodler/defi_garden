@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.95M in total.
+2 live pools clear this page's $100K TVL floor, $7.93M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank USDU pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

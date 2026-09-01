@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.15% right now vs a 0.01% 30-day average. Reward 
 
 [Start Earning on osmosis-dex](https://osmosis.zone/?ref=defi.garden)
 
-Last updated August 31, 2026
+Last updated September 1, 2026

@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $8.07M |
-| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 14.20% | $374.9K |
-| [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 13.17% | $374.9K |
-| [pendle →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c&src=seo_token) | Ethereum | 13.92% | $168.1K |
-| [pendle →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae&src=seo_token) | Ethereum | 9.20% | $168.1K |
+| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $7.54M |
+| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 14.20% | $381.9K |
+| [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 13.15% | $381.9K |
+| [pendle →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c&src=seo_token) | Ethereum | 14.16% | $166.5K |
+| [pendle →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae&src=seo_token) | Ethereum | 9.22% | $166.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,17 +21,17 @@
 
 SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 14.20%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| strata-markets | 8.11% | 8.08% | 기본 금리 |
-| pendle | 14.20% | 16.15% | 인센티브 9.60% |
-| pendle | 13.17% | 12.46% | 기본 금리 |
-| pendle | 13.92% | 15.42% | 인센티브 30.02% |
-| pendle | 9.20% | 9.84% | 기본 금리 |
+| strata-markets | 8.11% | 8.09% | 기본 금리 |
+| pendle | 14.20% | 16.06% | 인센티브 9.85% |
+| pendle | 13.15% | 12.49% | 기본 금리 |
+| pendle | 14.16% | 15.32% | 인센티브 31.20% |
+| pendle | 9.22% | 9.80% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,7 +43,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 14.20%예요.
 
 ### SRUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $9.44M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $9.21M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 14.20%예요.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 31, 2026
+## 마지막 업데이트: September 1, 2026

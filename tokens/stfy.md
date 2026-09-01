@@ -1,10 +1,10 @@
 # STFY DeFi Yields
 
-The highest honest STFY yield right now is 356.73% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STFY yield right now is 194.89% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1e6c13d6-bb00-5e07-b267-efb9a34d2c44&src=seo_token) | Base | 356.73% | $137.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1e6c13d6-bb00-5e07-b267-efb9a34d2c44&src=seo_token) | Base | 194.89% | $131K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STFY yield today?
 
-356.73% APY on uniswap-v4 (Base), based on live DefiLlama data.
+194.89% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many STFY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.9K in total.
+1 live pool clear this page's $100K TVL floor, $131K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank STFY pools. This view covers 
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

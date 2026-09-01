@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank STATOM pools. This view cover
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

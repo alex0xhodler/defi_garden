@@ -1,29 +1,29 @@
 # ALB DeFi Yields
 
-The highest honest ALB yield right now is 7.44% on alien-base-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALB yield right now is 6.63% on alien-base-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 1.79% | $482.3K |
-| [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 7.44% | $129.5K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 2.64% | $480.8K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 6.63% | $127.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 7.44% APY, $129.5K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 1.79% APY, $482.3K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 6.63% APY, $127.8K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 2.64% APY, $480.8K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 7.44% | $129.5K |
-| 2 | [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 1.79% | $482.3K |
+| 1 | [alien-base-v3 →](https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token) | Base | 6.63% | $127.8K |
+| 2 | [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 2.64% | $480.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALB shows up in 2 pools here, with rates from 1.79% to 7.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALB shows up in 2 pools here, with rates from 2.64% to 6.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| alien-base-v3 | 1.79% | 3.68% | Base rate |
-| alien-base-v3 | 7.44% | 6.80% | Base rate |
+| alien-base-v3 | 2.64% | 3.71% | Base rate |
+| alien-base-v3 | 6.63% | 6.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALB yield today?
 
-7.44% APY on alien-base-v3 (Base), based on live DefiLlama data.
+6.63% APY on alien-base-v3 (Base), based on live DefiLlama data.
 
 ### How many ALB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $611.8K in total.
+2 live pools clear this page's $100K TVL floor, $608.6K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALB pools have the most stable APY history?
 
-Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 7.44% APY, $129.5K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 1.79% APY, $482.3K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALB's lower-variability candidates are alien-base-v3 (Base), 6.63% APY, $127.8K TVL, https://www.defi.garden/?pool=473b9001-bc73-47a0-b5f4-a18448611031&src=seo_token; alien-base-v3 (Base), 2.64% APY, $480.8K TVL, https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

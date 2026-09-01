@@ -1,10 +1,10 @@
 # MNNCUSDC DeFi Yields
 
-The highest honest MNNCUSDC yield right now is 9.50% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MNNCUSDC yield right now is 8.00% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=a9bf4c45-bf23-4956-bc6d-7f12b916c7b3&src=seo_token) | Ethereum | 9.50% | $2.8M |
+| [wildcat-protocol →](https://www.defi.garden/?pool=a9bf4c45-bf23-4956-bc6d-7f12b916c7b3&src=seo_token) | Ethereum | 8.00% | $2.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MNNCUSDC yield today?
 
-9.50% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
+8.00% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many MNNCUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MNNCUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

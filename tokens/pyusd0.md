@@ -1,10 +1,10 @@
 # PYUSD0 DeFi Yields
 
-The highest honest PYUSD0 yield right now is 5.22% on more-markets (Flow), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYUSD0 yield right now is 11.32% on more-markets (Flow), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_token) | Flow | 5.22% | $144.1K |
+| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_token) | Flow | 11.32% | $124.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PYUSD0 yield today?
 
-5.22% APY on more-markets (Flow), based on live DefiLlama data.
+11.32% APY on more-markets (Flow), based on live DefiLlama data.
 
 ### How many PYUSD0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144.1K in total.
+1 live pool clear this page's $100K TVL floor, $124.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank PYUSD0 pools. This view cover
 ## Related tokens
 
 - [ANKRFLOWEVM](https://www.defi.garden/tokens/ankrflowevm)
-- [WFLOW](https://www.defi.garden/tokens/wflow)
 - [STGUSDC](https://www.defi.garden/tokens/stgusdc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

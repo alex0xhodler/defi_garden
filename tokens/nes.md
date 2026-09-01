@@ -1,15 +1,13 @@
 # NES DeFi Yields
 
-The highest honest NES yield right now is 76.87% on uniswap-v4 (Ethereum), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NES yield right now is 67.11% on uniswap-v4 (Ethereum), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=01dcc4c4-702c-41fe-9ea7-03afde39f76c&src=seo_token) | Ethereum | 2.66% | $1.61M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=71fe3d5e-3b19-56fd-80cc-d68a0ada6817&src=seo_token) | BSC | 2.42% | $1.29M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=71fe3d5e-3b19-56fd-80cc-d68a0ada6817&src=seo_token) | BSC | 0.73% | $1.27M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=282bb56c-15eb-5485-8189-19eb852f2787&src=seo_token) | BSC | 0.05% | $616.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=48c636c2-c189-5e1f-978d-998c61d70aa8&src=seo_token) | Ethereum | 28.03% | $350.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5baa838c-4bd7-536c-beba-6545ec7a624b&src=seo_token) | Ethereum | 140.13% | $232.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ab8f3130-4a15-52fb-a36e-b70c671eccd9&src=seo_token) | Ethereum | 0.47% | $202.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7e32e5e3-72f6-5658-8024-b0d063d13cb7&src=seo_token) | Ethereum | 76.87% | $118.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5baa838c-4bd7-536c-beba-6545ec7a624b&src=seo_token) | Ethereum | 67.11% | $296.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,22 +18,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NES shows up in 6 pools here, with rates from 0.47% to 140.13% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NES shows up in 4 pools here, with rates from 0.05% to 67.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 60.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 32.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 2.66% | 6.80% | Base rate |
-| uniswap-v4 | 2.42% | 2.37% | Base rate |
+| uniswap-v4 | 0.73% | 2.32% | Base rate |
+| uniswap-v4 | 0.05% | 0.14% | Base rate |
 | uniswap-v4 | 28.03% | 106.28% | Base rate |
-| uniswap-v4 | 140.13% | 43.73% | Base rate |
-| uniswap-v4 | 0.47% | 360.62% | Base rate |
-| uniswap-v4 | 76.87% | 76.87% | Base rate |
+| uniswap-v4 | 67.11% | 62.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NES yield today?
 
-76.87% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+67.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NES pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $10.47M in total.
+21 live pools clear this page's $100K TVL floor, $8.7M in total.
 
 ### Are these rates safe?
 
@@ -68,7 +64,7 @@ There is not enough qualifying APY history to rank NES pools. This view covers A
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

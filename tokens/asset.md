@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASSET pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

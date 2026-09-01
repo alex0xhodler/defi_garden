@@ -1,29 +1,29 @@
 # XUSD 디파이 수익률
 
-현재 XUSD의 가장 높은 정직한 수익률은 Arbitrum의 overnight-finance에서 0.94%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XUSD의 가장 높은 정직한 수익률은 Rootstock의 sovryn-dex에서 0.96%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 1.41% | $1.06M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token) | Ethereum | 11.05% | $246.7K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.96% | $1.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token) | Ethereum | 7.08% | $250.5K |
 | [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.94% | $118.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum의 overnight-finance, APY 0.94%, TVL $118.2K, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; Rootstock의 sovryn-dex, APY 1.41%, TVL $1.06M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token; Ethereum의 uniswap-v3, APY 11.05%, TVL $246.7K, https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum의 overnight-finance, APY 0.94%, TVL $118.2K, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; Rootstock의 sovryn-dex, APY 0.96%, TVL $1.06M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token; Ethereum의 uniswap-v3, APY 7.08%, TVL $250.5K, https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.94% | $118.2K |
-| 2 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 1.41% | $1.06M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token) | Ethereum | 11.05% | $246.7K |
+| 2 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.96% | $1.06M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token) | Ethereum | 7.08% | $250.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XUSD 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.94%부터 11.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XUSD 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.94%부터 7.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.88%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,8 +33,8 @@ XUSD 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.94%부터 11.05%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sovryn-dex | 1.41% | 0.63% | 인센티브 100.00% |
-| uniswap-v3 | 11.05% | 3.81% | 기본 금리 |
+| sovryn-dex | 0.96% | 0.65% | 인센티브 100.00% |
+| uniswap-v3 | 7.08% | 4.19% | 기본 금리 |
 | overnight-finance | 0.94% | 0.88% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -43,11 +43,11 @@ XUSD 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.94%부터 11.05%�
 
 ### 오늘 XUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 overnight-finance에서 APY 0.94%예요.
+DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.96%예요.
 
 ### XUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.91M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 overnight-finance에서 APY 0.
 
 ### XUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum의 overnight-finance, APY 0.94%, TVL $118.2K, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; Rootstock의 sovryn-dex, APY 1.41%, TVL $1.06M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token; Ethereum의 uniswap-v3, APY 11.05%, TVL $246.7K, https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum의 overnight-finance, APY 0.94%, TVL $118.2K, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; Rootstock의 sovryn-dex, APY 0.96%, TVL $1.06M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token; Ethereum의 uniswap-v3, APY 7.08%, TVL $250.5K, https://www.defi.garden/?pool=2bc274d9-a927-41d2-84ec-0fc7d994589f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 31, 2026
+## 마지막 업데이트: September 1, 2026

@@ -1,41 +1,41 @@
 # SUSN DeFi Yields
 
-The highest honest SUSN yield right now is 9.63% on bluefin-spot (Sui), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSN yield right now is 10.89% on bluefin-spot (Sui), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 7.78% | $1.2M |
+| [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 7.76% | $1.2M |
 | [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.62% | $1.2M |
-| [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579&src=seo_token) | Sui | 9.63% | $758.3K |
-| [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 0.02% | $552.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579&src=seo_token) | Sui | 10.89% | $758.4K |
+| [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 2.88% | $553K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSN's lower-variability candidates are pendle (Ethereum), 8.62% APY, $1.2M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token; pendle (Ethereum), 7.78% APY, $1.2M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token; ekubo (Starknet), 0.02% APY, $552.6K TVL, https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSN's lower-variability candidates are pendle (Ethereum), 8.62% APY, $1.2M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token; pendle (Ethereum), 7.76% APY, $1.2M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token; ekubo (Starknet), 2.88% APY, $553K TVL, https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.62% | $1.2M |
-| 2 | [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 7.78% | $1.2M |
-| 3 | [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 0.02% | $552.6K |
+| 2 | [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 7.76% | $1.2M |
+| 3 | [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 2.88% | $553K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSN shows up in 4 pools here, with rates from 0.02% to 9.63% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSN shows up in 4 pools here, with rates from 2.88% to 10.89% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 7.78% | 7.65% | Base rate |
-| pendle | 8.62% | 8.32% | Base rate |
-| bluefin-spot | 9.63% | 12.99% | 99.91% incentives |
-| ekubo | 0.02% | 0.62% | Base rate |
+| pendle | 7.76% | 7.65% | Base rate |
+| pendle | 8.62% | 8.33% | Base rate |
+| bluefin-spot | 10.89% | 12.65% | 88.42% incentives |
+| ekubo | 2.88% | 0.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSN yield today?
 
-9.63% APY on bluefin-spot (Sui), based on live DefiLlama data.
+10.89% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many SUSN pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSN pools have the most stable APY history?
 
-Based on APY history only, SUSN's lower-variability candidates are pendle (Ethereum), 8.62% APY, $1.2M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token; pendle (Ethereum), 7.78% APY, $1.2M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token; ekubo (Starknet), 0.02% APY, $552.6K TVL, https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSN's lower-variability candidates are pendle (Ethereum), 8.62% APY, $1.2M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token; pendle (Ethereum), 7.76% APY, $1.2M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token; ekubo (Starknet), 2.88% APY, $553K TVL, https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, SUSN's lower-variability candidates are pendle (Ether
 - [Sui](https://www.defi.garden/chains/sui)
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

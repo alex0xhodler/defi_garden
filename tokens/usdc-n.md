@@ -1,33 +1,33 @@
 # USDC.N DeFi Yields
 
-The highest honest USDC.N yield right now is 0.31% on osmosis-dex (Osmosis), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.N yield right now is 0.46% on osmosis-dex (Osmosis), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.31% | $453.5K |
-| [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.06% | $426.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token) | Osmosis | 0.02% | $399.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.19% | $107.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.46% | $453.5K |
+| [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.05% | $426.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token) | Osmosis | 0.01% | $399.8K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.25% | $107.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.06% APY, $426.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.02% APY, $399.8K TVL, https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token; osmosis-dex (Osmosis), 0.19% APY, $107.9K TVL, https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token; osmosis-dex (Osmosis), 0.31% APY, $453.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.05% APY, $426.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.01% APY, $399.8K TVL, https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token; osmosis-dex (Osmosis), 0.25% APY, $107.9K TVL, https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token; osmosis-dex (Osmosis), 0.46% APY, $453.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.06% | $426.9K |
-| 2 | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token) | Osmosis | 0.02% | $399.8K |
-| 3 | [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.19% | $107.9K |
-| 4 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.31% | $453.5K |
+| 1 | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.05% | $426.9K |
+| 2 | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token) | Osmosis | 0.01% | $399.8K |
+| 3 | [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.25% | $107.9K |
+| 4 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.46% | $453.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDC.N shows up in 4 pools here, with rates from 0.02% to 0.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDC.N shows up in 4 pools here, with rates from 0.01% to 0.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| osmosis-dex | 0.31% | 0.31% | Base rate |
-| osmosis-dex | 0.06% | 0.13% | Base rate |
-| osmosis-dex | 0.02% | 0.81% | Base rate |
-| osmosis-dex | 0.19% | 0.54% | Base rate |
+| osmosis-dex | 0.46% | 0.34% | Base rate |
+| osmosis-dex | 0.05% | 0.14% | Base rate |
+| osmosis-dex | 0.01% | 0.81% | Base rate |
+| osmosis-dex | 0.25% | 0.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDC.N yield today?
 
-0.31% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+0.46% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many USDC.N pools clear the TVL floor?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDC.N pools have the most stable APY history?
 
-Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.06% APY, $426.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.02% APY, $399.8K TVL, https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token; osmosis-dex (Osmosis), 0.19% APY, $107.9K TVL, https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token; osmosis-dex (Osmosis), 0.31% APY, $453.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.05% APY, $426.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.01% APY, $399.8K TVL, https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_token; osmosis-dex (Osmosis), 0.25% APY, $107.9K TVL, https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token; osmosis-dex (Osmosis), 0.46% APY, $453.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

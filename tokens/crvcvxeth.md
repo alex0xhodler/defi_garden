@@ -1,10 +1,10 @@
 # CRVCVXETH DeFi Yields
 
-The highest honest CRVCVXETH yield right now is 14.80% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVCVXETH yield right now is 16.77% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=dcc0dac0-631e-4030-88a5-720e85e8e25a&src=seo_token) | Ethereum | 14.80% | $480.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=dcc0dac0-631e-4030-88a5-720e85e8e25a&src=seo_token) | Ethereum | 16.77% | $503.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVCVXETH yield today?
 
-14.80% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+16.77% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRVCVXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $480.8K in total.
+1 live pool clear this page's $100K TVL floor, $503.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CRVCVXETH pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

@@ -1,10 +1,10 @@
 # FFI 디파이 수익률
 
-현재 FFI의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 14.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FFI의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 11.94%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 14.18% | $119.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 11.94% | $124K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 FFI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 14.18%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 11.94%예요.
 
 ### FFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $119.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $124K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 14.18%�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 31, 2026
+## 마지막 업데이트: September 1, 2026

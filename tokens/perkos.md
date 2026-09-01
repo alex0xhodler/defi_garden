@@ -1,10 +1,10 @@
 # PERKOS DeFi Yields
 
-The highest honest PERKOS yield right now is 1.36% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PERKOS yield right now is 0.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e30f5d09-6b47-44bd-829d-53716d5e6115&src=seo_token) | Base | 1.36% | $137.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e30f5d09-6b47-44bd-829d-53716d5e6115&src=seo_token) | Base | 0.01% | $139.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PERKOS yield today?
 
-1.36% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PERKOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.4K in total.
+1 live pool clear this page's $100K TVL floor, $139.6K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank PERKOS pools. This view cover
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

@@ -1,10 +1,10 @@
 # WINR DeFi Yields
 
-The highest honest WINR yield right now is 52.93% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WINR yield right now is 68.29% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=c7f6aa58-9faa-44b6-8649-053b833a09f8&src=seo_token) | Arbitrum | 52.93% | $117.5K |
+| [camelot-v3 →](https://www.defi.garden/?pool=c7f6aa58-9faa-44b6-8649-053b833a09f8&src=seo_token) | Arbitrum | 68.29% | $120.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WINR yield today?
 
-52.93% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+68.29% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many WINR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.5K in total.
+1 live pool clear this page's $100K TVL floor, $120.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank WINR pools. This view covers 
 
 ## Related tokens
 
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

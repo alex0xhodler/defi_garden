@@ -1,10 +1,10 @@
 # MWEURC DeFi Yields
 
-The highest honest MWEURC yield right now is 3.43% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MWEURC yield right now is 3.46% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c1aee434-6c8e-4958-a851-eda8ab8bb32d&src=seo_token) | Base | 3.43% | $1.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=c1aee434-6c8e-4958-a851-eda8ab8bb32d&src=seo_token) | Base | 3.46% | $1.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MWEURC yield today?
 
-3.43% APY on morpho-blue (Base), based on live DefiLlama data.
+3.46% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many MWEURC pools clear the TVL floor?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank MWEURC pools. This view cover
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

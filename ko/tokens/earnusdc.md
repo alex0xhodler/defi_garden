@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 
-## 마지막 업데이트: August 31, 2026
+## 마지막 업데이트: September 1, 2026

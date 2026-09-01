@@ -1,10 +1,10 @@
 # AVB DeFi Yields
 
-The highest honest AVB yield right now is 3.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVB yield right now is 1.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80dff3b9-92af-4212-8430-449d16519fe5&src=seo_token) | Solana | 3.62% | $178.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=80dff3b9-92af-4212-8430-449d16519fe5&src=seo_token) | Solana | 1.53% | $180.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVB yield today?
 
-3.62% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.6K in total.
+1 live pool clear this page's $100K TVL floor, $180.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AVB pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

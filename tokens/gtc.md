@@ -1,10 +1,10 @@
 # GTC DeFi Yields
 
-The highest honest GTC yield right now is 3.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTC yield right now is 1.68% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f6a01394-b4d4-45b5-9dfc-20e678810b2e&src=seo_token) | Ethereum | 3.01% | $132.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f6a01394-b4d4-45b5-9dfc-20e678810b2e&src=seo_token) | Ethereum | 1.68% | $130.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTC yield today?
 
-3.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.68% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.7K in total.
+1 live pool clear this page's $100K TVL floor, $130.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTC pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

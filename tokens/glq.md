@@ -1,10 +1,10 @@
 # GLQ DeFi Yields
 
-The highest honest GLQ yield right now is 2.03% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GLQ yield right now is 0.56% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=92ab6a52-060a-49ff-950c-dfdfb345bf87&src=seo_token) | Ethereum | 2.03% | $215.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=92ab6a52-060a-49ff-950c-dfdfb345bf87&src=seo_token) | Ethereum | 0.56% | $221.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GLQ yield today?
 
-2.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.56% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GLQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.2K in total.
+1 live pool clear this page's $100K TVL floor, $221.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GLQ pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

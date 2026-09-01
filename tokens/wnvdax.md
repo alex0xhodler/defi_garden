@@ -1,10 +1,10 @@
 # WNVDAX DeFi Yields
 
-The highest honest WNVDAX yield right now is 0.20% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNVDAX yield right now is 0.44% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.20% | $111.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.44% | $111.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WNVDAX yield today?
 
-0.20% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.44% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WNVDAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.4K in total.
+1 live pool clear this page's $100K TVL floor, $111.9K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank WNVDAX pools. This view cover
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [KII](https://www.defi.garden/tokens/kii)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

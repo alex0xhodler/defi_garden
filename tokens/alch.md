@@ -1,10 +1,10 @@
 # ALCH DeFi Yields
 
-The highest honest ALCH yield right now is 9.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALCH yield right now is 5.88% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa&src=seo_token) | Solana | 9.04% | $2.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa&src=seo_token) | Solana | 5.88% | $2.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALCH yield today?
 
-9.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.88% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALCH pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ALCH pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

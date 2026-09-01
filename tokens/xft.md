@@ -1,10 +1,10 @@
 # XFT DeFi Yields
 
-The highest honest XFT yield right now is 0.10% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XFT yield right now is 0.27% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6773e454-4a0f-4ed0-b213-60cf9556d1ec&src=seo_token) | Ethereum | 0.10% | $195.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6773e454-4a0f-4ed0-b213-60cf9556d1ec&src=seo_token) | Ethereum | 0.27% | $197.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XFT yield today?
 
-0.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many XFT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $195.4K in total.
+1 live pool clear this page's $100K TVL floor, $197.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XFT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

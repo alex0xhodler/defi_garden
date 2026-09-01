@@ -4,8 +4,8 @@ The highest honest HAHYPE yield right now is 3.34% on pendle (Hyperliquid L1), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.34% | $100.5K |
-| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.71% | $100.5K |
+| [pendle →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.81% | $105K |
+| [pendle →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.34% | $105K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HAHYPE shows up in 2 pools here, with rates from 2.71% to 3.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAHYPE shows up in 2 pools here, with rates from 2.81% to 3.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -24,8 +24,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| pendle | 2.81% | 2.61% | Base rate |
 | pendle | 3.34% | 3.38% | Base rate |
-| pendle | 2.71% | 2.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HAHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $200.9K in total.
+2 live pools clear this page's $100K TVL floor, $209.9K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank HAHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

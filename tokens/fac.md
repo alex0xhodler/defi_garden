@@ -1,10 +1,10 @@
 # FAC DeFi Yields
 
-The highest honest FAC yield right now is 2.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAC yield right now is 0.24% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0bc1b1b1-dcb3-416d-bb90-ffc636c81ca8&src=seo_token) | Ethereum | 2.07% | $112K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0bc1b1b1-dcb3-416d-bb90-ffc636c81ca8&src=seo_token) | Ethereum | 0.24% | $113.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAC yield today?
 
-2.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.24% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112K in total.
+1 live pool clear this page's $100K TVL floor, $113.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FAC pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

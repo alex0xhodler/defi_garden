@@ -1,10 +1,10 @@
 # HL DeFi Yields
 
-The highest honest HL yield right now is 0.93% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HL yield right now is 0.70% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=66e09588-e579-4885-acc0-8f829fba1a46&src=seo_token) | Hyperliquid L1 | 0.93% | $117.8K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=66e09588-e579-4885-acc0-8f829fba1a46&src=seo_token) | Hyperliquid L1 | 0.70% | $122.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HL yield today?
 
-0.93% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+0.70% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.8K in total.
+1 live pool clear this page's $100K TVL floor, $122.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HL pools. This view covers AP
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

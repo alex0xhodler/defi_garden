@@ -1,12 +1,12 @@
 # WETH-USDC-USDT-WBTC-DAI-LINK-OP — clipper on OP Mainnet
 
-**Total APY:** 1.67% (0.00% Base · + 1.67% Rewards)
+**Total APY:** 1.65% (0.00% Base · + 1.65% Rewards)
 
-**TVL:** $101.9K
+**TVL:** $103K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.83%
+**30d Mean APY:** 1.82%
 
 **Exposure:** multi
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,086 in 5y at current rates.
+$1,000 in this pool grows to ~$1,085 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,086 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,085 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on clipper](https://clipper.exchange/?ref=defi.garden)
 
-Last updated August 31, 2026
+Last updated September 1, 2026

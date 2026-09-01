@@ -1,12 +1,12 @@
 # PMUSD-IREET — convex-finance on Ethereum
 
-**Total APY:** 33.47% (0.72% Base · + 32.75% Rewards)
+**Total APY:** 42.38% (2.91% Base · + 39.47% Rewards)
 
-**TVL:** $1.86M
+**TVL:** $1.81M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 35.90%
+**30d Mean APY:** 36.04%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$4,236 in 5y at current rates.
+$1,000 in this pool grows to ~$5,851 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$4,236 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$5,851 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated August 31, 2026
+Last updated September 1, 2026

@@ -1,10 +1,10 @@
 # MOG DeFi Yields
 
-The highest honest MOG yield right now is 2.87% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOG yield right now is 1.76% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=49b23f29-ffea-4676-9c7b-40b58845be74&src=seo_token) | Ethereum | 2.87% | $5.33M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=49b23f29-ffea-4676-9c7b-40b58845be74&src=seo_token) | Ethereum | 1.76% | $5.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOG yield today?
 
-2.87% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MOG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.33M in total.
+1 live pool clear this page's $100K TVL floor, $5.38M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOG pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

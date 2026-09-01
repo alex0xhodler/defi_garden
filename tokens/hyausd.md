@@ -1,10 +1,10 @@
 # HYAUSD DeFi Yields
 
-The highest honest HYAUSD yield right now is 2.85% on curvance (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYAUSD yield right now is 2.88% on curvance (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 2.85% | $414K |
+| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 2.88% | $406.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYAUSD yield today?
 
-2.85% APY on curvance (Monad), based on live DefiLlama data.
+2.88% APY on curvance (Monad), based on live DefiLlama data.
 
 ### How many HYAUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $414K in total.
+1 live pool clear this page's $100K TVL floor, $406.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank HYAUSD pools. This view cover
 
 ## Related tokens
 
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

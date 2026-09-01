@@ -71,4 +71,4 @@ Based on APY history only, AUSDC's lower-variability candidates are hydration-de
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

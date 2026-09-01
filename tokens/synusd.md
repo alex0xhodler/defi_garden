@@ -1,10 +1,10 @@
 # SYNUSD DeFi Yields
 
-The highest honest SYNUSD yield right now is 8.23% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYNUSD yield right now is 8.70% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b77a60fc-002a-4941-ac26-ec89836c5202&src=seo_token) | Ethereum | 8.23% | $1.15M |
+| [lagoon →](https://www.defi.garden/?pool=b77a60fc-002a-4941-ac26-ec89836c5202&src=seo_token) | Ethereum | 8.70% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYNUSD yield today?
 
-8.23% APY on lagoon (Ethereum), based on live DefiLlama data.
+8.70% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many SYNUSD pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SYNUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

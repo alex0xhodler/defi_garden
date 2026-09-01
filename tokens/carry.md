@@ -1,10 +1,10 @@
 # CARRY DeFi Yields
 
-The highest honest CARRY yield right now is 8.86% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARRY yield right now is 8.92% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street-primeusd →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 8.86% | $225.9K |
+| [vault-street-primeusd →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 8.92% | $225.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CARRY yield today?
 
-8.86% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
+8.92% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
 
 ### How many CARRY pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CARRY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

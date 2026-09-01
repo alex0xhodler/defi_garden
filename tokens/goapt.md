@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GOAPT pools. This view covers
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

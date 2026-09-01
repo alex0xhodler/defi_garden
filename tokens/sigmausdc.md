@@ -1,10 +1,10 @@
 # SIGMAUSDC DeFi Yields
 
-The highest honest SIGMAUSDC yield right now is 5.36% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIGMAUSDC yield right now is 5.31% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.36% | $631.8K |
+| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.31% | $641.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIGMAUSDC yield today?
 
-5.36% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.31% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many SIGMAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $631.8K in total.
+1 live pool clear this page's $100K TVL floor, $641.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SIGMAUSDC pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

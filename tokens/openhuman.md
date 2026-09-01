@@ -1,10 +1,10 @@
 # OPENHUMAN DeFi Yields
 
-The highest honest OPENHUMAN yield right now is 0.26% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPENHUMAN yield right now is 0.27% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0647b01e-9a01-4d64-afa8-a267776a0a94&src=seo_token) | Base | 0.26% | $131.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0647b01e-9a01-4d64-afa8-a267776a0a94&src=seo_token) | Base | 0.27% | $133.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPENHUMAN yield today?
 
-0.26% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.27% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many OPENHUMAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.1K in total.
+1 live pool clear this page's $100K TVL floor, $133.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank OPENHUMAN pools. This view co
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

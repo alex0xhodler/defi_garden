@@ -4,7 +4,7 @@ The highest honest KEYEURC yield right now is 9.50% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=7b417350-9dfb-4bea-aade-bac5d33b3fe6&src=seo_token) | Ethereum | 9.50% | $106.6K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=7b417350-9dfb-4bea-aade-bac5d33b3fe6&src=seo_token) | Ethereum | 9.50% | $106.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KEYEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.6K in total.
+1 live pool clear this page's $100K TVL floor, $106.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KEYEURC pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

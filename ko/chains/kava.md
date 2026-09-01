@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.11% | $6.96M |
+| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.11% | $7.16M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.11%예요
 
 ### Kava 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $19.39M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $19.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.11%예요
 - [TIGER](https://www.defi.garden/ko/tokens/tiger)
 - [LION](https://www.defi.garden/ko/tokens/lion)
 
-## 마지막 업데이트: August 31, 2026
+## 마지막 업데이트: September 1, 2026

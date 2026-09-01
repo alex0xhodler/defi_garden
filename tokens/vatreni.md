@@ -1,10 +1,10 @@
 # VATRENI DeFi Yields
 
-The highest honest VATRENI yield right now is 2.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VATRENI yield right now is 12.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=83c135f3-e327-4f2d-be2e-ae33ccb2a77c&src=seo_token) | Solana | 2.98% | $154.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=83c135f3-e327-4f2d-be2e-ae33ccb2a77c&src=seo_token) | Solana | 12.48% | $150.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VATRENI yield today?
 
-2.98% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VATRENI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154.1K in total.
+1 live pool clear this page's $100K TVL floor, $150.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VATRENI pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026

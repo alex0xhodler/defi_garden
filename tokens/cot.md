@@ -1,10 +1,10 @@
 # COT DeFi Yields
 
-The highest honest COT yield right now is 2.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COT yield right now is 2.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=81777285-dca6-5ea5-bb41-851d0e3754fb&src=seo_token) | Solana | 2.32% | $714K |
+| [raydium-amm →](https://www.defi.garden/?pool=81777285-dca6-5ea5-bb41-851d0e3754fb&src=seo_token) | Solana | 2.76% | $714K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COT yield today?
 
-2.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.76% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 31, 2026
+## Last updated September 1, 2026
