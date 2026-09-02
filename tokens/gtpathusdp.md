@@ -1,10 +1,10 @@
 # GTPATHUSDP DeFi Yields
 
-The highest honest GTPATHUSDP yield right now is 3.33% on morpho-blue (Tempo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTPATHUSDP yield right now is 3.29% on morpho-blue (Tempo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_token) | Tempo | 3.33% | $287K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_token) | Tempo | 3.29% | $287.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTPATHUSDP yield today?
 
-3.33% APY on morpho-blue (Tempo), based on live DefiLlama data.
+3.29% APY on morpho-blue (Tempo), based on live DefiLlama data.
 
 ### How many GTPATHUSDP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $287K in total.
+1 live pool clear this page's $100K TVL floor, $287.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTPATHUSDP pools. This view c
 
 - [Tempo](https://www.defi.garden/chains/tempo)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

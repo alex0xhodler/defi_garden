@@ -4,7 +4,7 @@ The highest honest DSOL yield right now is 4.88% on drift-staked-sol (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 4.88% | $292.63M |
+| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 4.88% | $282.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 DSOL shows up in 1 pools here, with rates from 4.88% to 4.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| drift-staked-sol | 4.88% | 5.37% | Base rate |
+| drift-staked-sol | 4.88% | 5.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $528.29M in total.
+2 live pools clear this page's $100K TVL floor, $508.46M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank DSOL pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

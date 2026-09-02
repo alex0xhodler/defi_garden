@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BEAT pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

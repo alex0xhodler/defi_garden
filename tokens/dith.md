@@ -1,10 +1,10 @@
 # DITH DeFi Yields
 
-The highest honest DITH yield right now is 4.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DITH yield right now is 8.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4af0ded2-899f-4017-b725-1afb709b7574&src=seo_token) | Solana | 4.06% | $109K |
+| [raydium-amm →](https://www.defi.garden/?pool=4af0ded2-899f-4017-b725-1afb709b7574&src=seo_token) | Solana | 8.62% | $105.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DITH yield today?
 
-4.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.62% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DITH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109K in total.
+1 live pool clear this page's $100K TVL floor, $105.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DITH pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

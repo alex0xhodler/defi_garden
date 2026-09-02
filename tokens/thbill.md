@@ -1,33 +1,33 @@
 # THBILL DeFi Yields
 
-The highest honest THBILL yield right now is 3.55% on theo-network-thbill (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THBILL yield right now is 3.66% on theo-network-thbill (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.55% | $58.36M |
-| [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.55% | $1.37M |
-| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.55% | $584.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.41% | $178.6K |
+| [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.66% | $57.95M |
+| [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.66% | $1.36M |
+| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.66% | $585.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.79% | $197.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.55% APY, $584.6K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.55% APY, $58.36M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.55% APY, $1.37M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; uniswap-v3 (Arbitrum), 0.41% APY, $178.6K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.66% APY, $585.7K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.66% APY, $57.95M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.66% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; uniswap-v3 (Arbitrum), 0.79% APY, $197.8K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.55% | $584.6K |
-| 2 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.55% | $58.36M |
-| 3 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.55% | $1.37M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.41% | $178.6K |
+| 1 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.66% | $585.7K |
+| 2 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.66% | $57.95M |
+| 3 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.66% | $1.36M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.79% | $197.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-THBILL shows up in 4 pools here, with rates from 0.41% to 3.55% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+THBILL shows up in 4 pools here, with rates from 0.79% to 3.66% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| theo-network-thbill | 3.55% | 3.47% | Base rate |
-| theo-network-thbill | 3.55% | 3.47% | Base rate |
-| theo-network-thbill | 3.55% | 3.47% | Base rate |
-| uniswap-v3 | 0.41% | 0.27% | Base rate |
+| theo-network-thbill | 3.66% | 3.49% | Base rate |
+| theo-network-thbill | 3.66% | 3.49% | Base rate |
+| theo-network-thbill | 3.66% | 3.49% | Base rate |
+| uniswap-v3 | 0.79% | 0.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest THBILL yield today?
 
-3.55% APY on theo-network-thbill (Ethereum), based on live DefiLlama data.
+3.66% APY on theo-network-thbill (Ethereum), based on live DefiLlama data.
 
 ### How many THBILL pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $130.99M in total.
+6 live pools clear this page's $100K TVL floor, $130.74M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which THBILL pools have the most stable APY history?
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.55% APY, $584.6K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.55% APY, $58.36M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.55% APY, $1.37M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; uniswap-v3 (Arbitrum), 0.41% APY, $178.6K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 3.66% APY, $585.7K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; theo-network-thbill (Ethereum), 3.66% APY, $57.95M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; theo-network-thbill (Hyperliquid L1), 3.66% APY, $1.36M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; uniswap-v3 (Arbitrum), 0.79% APY, $197.8K TVL, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, THBILL's lower-variability candidates are theo-networ
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

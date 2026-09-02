@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 4.74% | $260.8K |
-| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.93% | $260.4K |
+| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.93% | $254.4K |
+| [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 4.74% | $254.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 4.74%, TVL $260.8K, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; Ethereum의 lagoon, APY 3.93%, TVL $260.4K, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 4.74%, TVL $254.3K, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; Ethereum의 lagoon, APY 3.93%, TVL $254.4K, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 4.74% | $260.8K |
-| 2 | [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.93% | $260.4K |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 4.74% | $254.3K |
+| 2 | [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.93% | $254.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,14 +23,14 @@ APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ether
 
 GAMIETH 풀은 여기 2개가 있고, 1개 체인에서 APY가 3.93%부터 4.74%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.13%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.18%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| gami-labs | 4.74% | 3.98% | 기본 금리 |
-| lagoon | 3.93% | 4.27% | 기본 금리 |
+| lagoon | 3.93% | 4.31% | 기본 금리 |
+| gami-labs | 4.74% | 4.04% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 4.74%예�
 
 ### GAMIETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $521.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $508.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 4.74%예�
 
 ### GAMIETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 4.74%, TVL $260.8K, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; Ethereum의 lagoon, APY 3.93%, TVL $260.4K, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 4.74%, TVL $254.3K, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; Ethereum의 lagoon, APY 3.93%, TVL $254.4K, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -65,4 +65,4 @@ APY 이력만 기준으로 비교한 GAMIETH의 변동성 낮은 후보는 Ether
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

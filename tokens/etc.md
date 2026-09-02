@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank ETC pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

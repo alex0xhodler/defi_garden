@@ -1,10 +1,10 @@
 # EPS 디파이 수익률
 
-현재 EPS의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 1.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EPS의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 0.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 1.10% | $230.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 0.87% | $230.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 EPS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 1.10%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 0.87%예요.
 
 ### EPS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 1.10%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [BTCB](https://www.defi.garden/ko/tokens/btcb)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

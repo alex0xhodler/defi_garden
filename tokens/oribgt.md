@@ -4,7 +4,7 @@ The highest honest ORIBGT yield right now is 40.79% on origami-finance (Berachai
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $151.2K |
+| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $149.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORIBGT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.2K in total.
+1 live pool clear this page's $100K TVL floor, $149.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ORIBGT pools. This view cover
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -1,10 +1,10 @@
 # EVCBBTC DeFi Yields
 
-The highest honest EVCBBTC yield right now is 5.15% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVCBBTC yield right now is 6.75% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=caa4d20a-f61f-419a-883f-2d493264e92f&src=seo_token) | Ethereum | 5.15% | $495K |
+| [lagoon →](https://www.defi.garden/?pool=caa4d20a-f61f-419a-883f-2d493264e92f&src=seo_token) | Ethereum | 6.75% | $498K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EVCBBTC yield today?
 
-5.15% APY on lagoon (Ethereum), based on live DefiLlama data.
+6.75% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many EVCBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $495K in total.
+1 live pool clear this page's $100K TVL floor, $498K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EVCBBTC pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

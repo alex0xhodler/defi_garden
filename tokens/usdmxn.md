@@ -1,10 +1,10 @@
 # USDMXN DeFi Yields
 
-The highest honest USDMXN yield right now is 56.66% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDMXN yield right now is 59.09% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 56.66% | $1.52M |
+| [gmtrade →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 59.09% | $1.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDMXN yield today?
 
-56.66% APY on gmtrade (Solana), based on live DefiLlama data.
+59.09% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many USDMXN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.52M in total.
+1 live pool clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank USDMXN pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

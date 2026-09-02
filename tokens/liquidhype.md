@@ -4,7 +4,7 @@ The highest honest LIQUIDHYPE yield right now is 1.30% on ether.fi-liquid (Hyper
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=175dee04-353e-4e90-af77-e20f455f8372&src=seo_token) | Hyperliquid L1 | 1.30% | $3.34M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=175dee04-353e-4e90-af77-e20f455f8372&src=seo_token) | Hyperliquid L1 | 1.30% | $3.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LIQUIDHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.34M in total.
+1 live pool clear this page's $100K TVL floor, $3.29M in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank LIQUIDHYPE pools. This view c
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

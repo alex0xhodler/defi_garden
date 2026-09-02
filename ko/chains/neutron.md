@@ -4,9 +4,9 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 18.04% | $1.51M |
-| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.09% | $708.2K |
-| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.53% | $143.9K |
+| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 18.04% | $1.47M |
+| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.09% | $706.3K |
+| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.54% | $141.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 hydro-inflow에서 APY 18.04%�
 
 ### Neutron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $7.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $7.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Neutron의 hydro-inflow에서 APY 18.04%�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

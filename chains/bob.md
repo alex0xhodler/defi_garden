@@ -4,7 +4,8 @@ The highest honest Bob yield right now is 1.92% on segment-finance (Bob), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.92% | $111.3K |
+| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.92% | $109.3K |
+| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.11% | $108.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bob pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $55.06M in total.
+4 live pools clear this page's $100K TVL floor, $54.21M in total.
 
 ### Are these rates safe?
 
@@ -34,5 +35,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Top tokens on Bob
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

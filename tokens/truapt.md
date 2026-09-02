@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TRUAPT pools. This view cover
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -4,7 +4,7 @@ The highest honest CELO yield right now is 6.32% on uniswap-v3 (Celo), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 6.32% | $1.21M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 6.32% | $1.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CELO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.21M in total.
+1 live pool clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank CELO pools. This view covers 
 
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [EURM](https://www.defi.garden/tokens/eurm)
+- [CNGN](https://www.defi.garden/tokens/cngn)
 - [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

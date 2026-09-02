@@ -1,29 +1,29 @@
 # GHST DeFi Yields
 
-The highest honest GHST yield right now is 2.04% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHST yield right now is 2.09% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 135.97% | $747.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.04% | $223.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 28.94% | $713.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.09% | $210.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GHST's lower-variability candidates are aerodrome-v1 (Base), 2.04% APY, $223.7K TVL, https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token; aerodrome-slipstream (Base), 135.97% APY, $747.8K TVL, https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GHST's lower-variability candidates are aerodrome-v1 (Base), 2.09% APY, $210.7K TVL, https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token; aerodrome-slipstream (Base), 28.94% APY, $713.8K TVL, https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.04% | $223.7K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 135.97% | $747.8K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.09% | $210.7K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 28.94% | $713.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GHST shows up in 2 pools here, with rates from 2.04% to 135.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GHST shows up in 2 pools here, with rates from 2.09% to 28.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 36.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 34.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ GHST shows up in 2 pools here, with rates from 2.04% to 135.97% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 135.97% | 69.45% | 4.33% incentives |
-| aerodrome-v1 | 2.04% | 3.76% | 100.00% incentives |
+| aerodrome-slipstream | 28.94% | 65.01% | 20.45% incentives |
+| aerodrome-v1 | 2.09% | 3.36% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GHST yield today?
 
-2.04% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+2.09% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many GHST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $971.5K in total.
+2 live pools clear this page's $100K TVL floor, $924.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GHST pools have the most stable APY history?
 
-Based on APY history only, GHST's lower-variability candidates are aerodrome-v1 (Base), 2.04% APY, $223.7K TVL, https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token; aerodrome-slipstream (Base), 135.97% APY, $747.8K TVL, https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GHST's lower-variability candidates are aerodrome-v1 (Base), 2.09% APY, $210.7K TVL, https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token; aerodrome-slipstream (Base), 28.94% APY, $713.8K TVL, https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, GHST's lower-variability candidates are aerodrome-v1 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

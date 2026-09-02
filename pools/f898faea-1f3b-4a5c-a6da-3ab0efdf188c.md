@@ -1,12 +1,12 @@
 # USDT-MQT — uniswap-v3 on Avalanche
 
-**Total APY:** 0.87% (0.87% Base · + 0.00% Rewards)
+**Total APY:** 1.95% (1.95% Base · + 0.00% Rewards)
 
-**TVL:** $228.5K
+**TVL:** $256K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.49%
+**30d Mean APY:** 0.53%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,045 in 5y at current rates.
+$1,000 in this pool grows to ~$1,101 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.87% right now vs a 0.49% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 1.95% right now vs a 0.53% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,045 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,101 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 1, 2026
+Last updated September 2, 2026

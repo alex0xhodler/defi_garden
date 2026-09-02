@@ -1,6 +1,6 @@
 # USDC-USX — velodrome-v2 on OP Mainnet
 
-**Total APY:** 0.28% (0.00% Base · + 0.28% Rewards)
+**Total APY:** 0.27% (0.00% Base · + 0.27% Rewards)
 
 **TVL:** $100.7K
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,014 in 5y at current rates.
+$1,000 in this pool grows to ~$1,013 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+We've been tracking this pool's rate for 15 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,014 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,013 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on velodrome-v2](https://velodrome.finance/?ref=defi.garden)
 
-Last updated September 1, 2026
+Last updated September 2, 2026

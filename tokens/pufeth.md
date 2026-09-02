@@ -1,51 +1,51 @@
 # PUFETH DeFi Yields
 
-The highest honest PUFETH yield right now is 5.67% on curve-dex (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFETH yield right now is 6.18% on curve-dex (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 2.06% | $59.56M |
-| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.05% | $2.84M |
-| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.46% | $1.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.54% | $745.2K |
-| [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 1.70% | $291.1K |
-| [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 3.04% | $291.1K |
-| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 5.67% | $134K |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 2.06% | $58.25M |
+| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.04% | $2.76M |
+| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.37% | $1.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.34% | $726.9K |
+| [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 1.70% | $283.4K |
+| [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 3.05% | $283.4K |
+| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 6.18% | $124K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 2.06% APY, $59.56M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 3.04% APY, $291.1K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 1.70% APY, $291.1K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.46% APY, $1.65M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 5.67% APY, $134K TVL, https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token; curve-dex (Ethereum), 0.05% APY, $2.84M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 4.54% APY, $745.2K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 2.06% APY, $58.25M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 3.05% APY, $283.4K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 1.70% APY, $283.4K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.37% APY, $1.84M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 6.18% APY, $124K TVL, https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token; curve-dex (Ethereum), 0.04% APY, $2.76M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 4.34% APY, $726.9K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 2.06% | $59.56M |
-| 2 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 3.04% | $291.1K |
-| 3 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 1.70% | $291.1K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.46% | $1.65M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 5.67% | $134K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.05% | $2.84M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.54% | $745.2K |
+| 1 | [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 2.06% | $58.25M |
+| 2 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 3.05% | $283.4K |
+| 3 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 1.70% | $283.4K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.37% | $1.84M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 6.18% | $124K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.04% | $2.76M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.34% | $726.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PUFETH shows up in 7 pools here, with rates from 0.05% to 5.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PUFETH shows up in 7 pools here, with rates from 0.04% to 6.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 3.48% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 3.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| puffer-stake | 2.06% | 2.44% | 1.18% incentives |
-| curve-dex | 0.05% | 1.86% | 100.00% incentives |
-| curve-dex | 2.46% | 3.48% | 66.60% incentives |
-| uniswap-v3 | 4.54% | 4.43% | 99.94% incentives |
-| pendle | 1.70% | 2.99% | Base rate |
-| pendle | 3.04% | 3.74% | Base rate |
-| curve-dex | 5.67% | 6.72% | 100.00% incentives |
+| puffer-stake | 2.06% | 2.45% | 1.12% incentives |
+| curve-dex | 0.04% | 1.86% | 100.00% incentives |
+| curve-dex | 2.37% | 3.49% | 56.58% incentives |
+| uniswap-v3 | 4.34% | 4.44% | 98.26% incentives |
+| pendle | 1.70% | 2.92% | Base rate |
+| pendle | 3.05% | 3.70% | Base rate |
+| curve-dex | 6.18% | 6.77% | 90.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,11 +53,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PUFETH yield today?
 
-5.67% APY on curve-dex (Ethereum), based on live DefiLlama data.
+6.18% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many PUFETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $65.8M in total.
+8 live pools clear this page's $100K TVL floor, $64.54M in total.
 
 ### Are these rates safe?
 
@@ -65,7 +65,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PUFETH pools have the most stable APY history?
 
-Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 2.06% APY, $59.56M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 3.04% APY, $291.1K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 1.70% APY, $291.1K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.46% APY, $1.65M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 5.67% APY, $134K TVL, https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token; curve-dex (Ethereum), 0.05% APY, $2.84M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 4.54% APY, $745.2K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 2.06% APY, $58.25M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 3.05% APY, $283.4K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 1.70% APY, $283.4K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.37% APY, $1.84M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 6.18% APY, $124K TVL, https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token; curve-dex (Ethereum), 0.04% APY, $2.76M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 4.34% APY, $726.9K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,4 +80,4 @@ Based on APY history only, PUFETH's lower-variability candidates are puffer-stak
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

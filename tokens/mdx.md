@@ -6,7 +6,7 @@ The highest honest MDX yield right now is 1.49% on mdex (Heco), among 6 pools ab
 |---|---|---|---|
 | [mdex →](https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token) | BSC | 0.03% | $7.51M |
 | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token) | Heco | 0.05% | $5.54M |
-| [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $544.2K |
+| [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $544.9K |
 | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token) | Heco | 0.51% | $143.5K |
 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
 | [mdex →](https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token) | BSC | 0.31% | $117.4K |
@@ -14,7 +14,7 @@ The highest honest MDX yield right now is 1.49% on mdex (Heco), among 6 pools ab
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.31% APY, $117.4K TVL, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; mdex (BSC), 0.03% APY, $7.51M TVL, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; mdex (Heco), 0.51% APY, $143.5K TVL, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; mdex (Heco), 0.05% APY, $5.54M TVL, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; mdex (Heco), 1.49% APY, $135.5K TVL, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; mdex (BSC), 0.03% APY, $544.2K TVL, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.31% APY, $117.4K TVL, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; mdex (BSC), 0.03% APY, $7.51M TVL, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; mdex (Heco), 0.51% APY, $143.5K TVL, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; mdex (Heco), 0.05% APY, $5.54M TVL, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; mdex (Heco), 1.49% APY, $135.5K TVL, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; mdex (BSC), 0.03% APY, $544.9K TVL, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.
 | 3 | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token) | Heco | 0.51% | $143.5K |
 | 4 | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token) | Heco | 0.05% | $5.54M |
 | 5 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
-| 6 | [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $544.2K |
+| 6 | [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $544.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -41,7 +41,7 @@ MDX shows up in 6 pools here, with rates from 0.03% to 1.49% APY across 2 chains
 |---|---|---|---|
 | mdex | 0.03% | 0.03% | 100.00% incentives |
 | mdex | 0.05% | 0.05% | 100.00% incentives |
-| mdex | 0.03% | 0.03% | 99.86% incentives |
+| mdex | 0.03% | 0.03% | 99.80% incentives |
 | mdex | 0.51% | 0.51% | 100.00% incentives |
 | mdex | 1.49% | 1.49% | 99.86% incentives |
 | mdex | 0.31% | 0.31% | 100.00% incentives |
@@ -64,15 +64,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MDX pools have the most stable APY history?
 
-Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.31% APY, $117.4K TVL, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; mdex (BSC), 0.03% APY, $7.51M TVL, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; mdex (Heco), 0.51% APY, $143.5K TVL, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; mdex (Heco), 0.05% APY, $5.54M TVL, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; mdex (Heco), 1.49% APY, $135.5K TVL, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; mdex (BSC), 0.03% APY, $544.2K TVL, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.31% APY, $117.4K TVL, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; mdex (BSC), 0.03% APY, $7.51M TVL, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; mdex (Heco), 0.51% APY, $143.5K TVL, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; mdex (Heco), 0.05% APY, $5.54M TVL, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; mdex (Heco), 1.49% APY, $135.5K TVL, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; mdex (BSC), 0.03% APY, $544.9K TVL, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
@@ -80,4 +80,4 @@ Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

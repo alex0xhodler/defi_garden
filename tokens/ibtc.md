@@ -1,10 +1,10 @@
 # IBTC DeFi Yields
 
-The highest honest IBTC yield right now is 5.82% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBTC yield right now is 5.47% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 5.82% | $105.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 5.47% | $103.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-IBTC shows up in 1 pools here, with rates from 5.82% to 5.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+IBTC shows up in 1 pools here, with rates from 5.47% to 5.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 6.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 6.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ IBTC shows up in 1 pools here, with rates from 5.82% to 5.82% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 5.82% | 6.60% | 13.57% incentives |
+| minswap-dex | 5.47% | 6.59% | 14.63% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest IBTC yield today?
 
-5.82% APY on minswap-dex (Cardano), based on live DefiLlama data.
+5.47% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $928.3K in total.
+2 live pools clear this page's $100K TVL floor, $909.7K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank IBTC pools. This view covers 
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

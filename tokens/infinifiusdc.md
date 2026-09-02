@@ -1,36 +1,36 @@
 # INFINIFIUSDC DeFi Yields
 
-The highest honest INFINIFIUSDC yield right now is 6.02% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INFINIFIUSDC yield right now is 5.82% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 6.02% | $1.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.88% | $906.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 5.60% | $1.11M |
+| [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.82% | $900.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INFINIFIUSDC's lower-variability candidates are morpho-blue (Ethereum), 6.02% APY, $1.11M TVL, https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token; morpho-blue (Ethereum), 5.88% APY, $906.4K TVL, https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INFINIFIUSDC's lower-variability candidates are morpho-blue (Ethereum), 5.60% APY, $1.11M TVL, https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token; morpho-blue (Ethereum), 5.82% APY, $900.4K TVL, https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 6.02% | $1.11M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.88% | $906.4K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 5.60% | $1.11M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.82% | $900.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INFINIFIUSDC shows up in 2 pools here, with rates from 5.88% to 6.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+INFINIFIUSDC shows up in 2 pools here, with rates from 5.60% to 5.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.02% | 6.03% | Base rate |
-| morpho-blue | 5.88% | 6.02% | Base rate |
+| morpho-blue | 5.60% | 6.05% | Base rate |
+| morpho-blue | 5.82% | 6.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INFINIFIUSDC yield today?
 
-6.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.82% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many INFINIFIUSDC pools clear the TVL floor?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INFINIFIUSDC pools have the most stable APY history?
 
-Based on APY history only, INFINIFIUSDC's lower-variability candidates are morpho-blue (Ethereum), 6.02% APY, $1.11M TVL, https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token; morpho-blue (Ethereum), 5.88% APY, $906.4K TVL, https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INFINIFIUSDC's lower-variability candidates are morpho-blue (Ethereum), 5.60% APY, $1.11M TVL, https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token; morpho-blue (Ethereum), 5.82% APY, $900.4K TVL, https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ Based on APY history only, INFINIFIUSDC's lower-variability candidates are morph
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

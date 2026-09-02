@@ -4,7 +4,7 @@ The highest honest WGOOGLX yield right now is 0.36% on fluxion-network (Mantle),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.36% | $109.5K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.36% | $108.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WGOOGLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.5K in total.
+1 live pool clear this page's $100K TVL floor, $108.8K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [KII](https://www.defi.garden/tokens/kii)
-- [BSB](https://www.defi.garden/tokens/bsb)
+- [WSPYX](https://www.defi.garden/tokens/wspyx)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -1,10 +1,10 @@
 # THEO DeFi Yields
 
-The highest honest THEO yield right now is 73.07% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THEO yield right now is 74.70% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b9c0c804-c7d0-5a60-ade7-91d376d8e609&src=seo_token) | Base | 73.07% | $284.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b9c0c804-c7d0-5a60-ade7-91d376d8e609&src=seo_token) | Base | 74.70% | $283.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THEO yield today?
 
-73.07% APY on uniswap-v2 (Base), based on live DefiLlama data.
+74.70% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many THEO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.4K in total.
+1 live pool clear this page's $100K TVL floor, $283.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank THEO pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

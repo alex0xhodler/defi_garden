@@ -1,10 +1,10 @@
 # DOPPEL DeFi Yields
 
-The highest honest DOPPEL yield right now is 1.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOPPEL yield right now is 0.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 1.14% | $128.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 0.02% | $125.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOPPEL yield today?
 
-1.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DOPPEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.7K in total.
+1 live pool clear this page's $100K TVL floor, $125.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DOPPEL pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

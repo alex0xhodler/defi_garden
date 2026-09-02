@@ -1,10 +1,10 @@
 # RAM DeFi Yields
 
-The highest honest RAM yield right now is 0.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAM yield right now is 0.16% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=aebaf1e4-a380-5cd5-9e19-c78dcc18465a&src=seo_token) | Solana | 0.21% | $24.88M |
+| [raydium-amm →](https://www.defi.garden/?pool=aebaf1e4-a380-5cd5-9e19-c78dcc18465a&src=seo_token) | Solana | 0.16% | $24.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAM yield today?
 
-0.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.16% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RAM pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank RAM pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

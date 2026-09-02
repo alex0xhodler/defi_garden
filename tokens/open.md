@@ -1,38 +1,41 @@
 # OPEN DeFi Yields
 
-The highest honest OPEN yield right now is 4.08% on steer-protocol (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPEN yield right now is 3.27% on steer-protocol (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.08% | $353.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 0.03% | $255.8K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.27% | $347.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 10.62% | $250.7K |
+| [dedust →](https://www.defi.garden/?pool=2d480d21-4d00-4634-b4f1-1448b88769bb&src=seo_token) | TON | 0.02% | $190.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OPEN's lower-variability candidates are steer-protocol (Ethereum), 4.08% APY, $353.2K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $255.8K TVL, https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPEN's lower-variability candidates are dedust (TON), 0.02% APY, $190.6K TVL, https://www.defi.garden/?pool=2d480d21-4d00-4634-b4f1-1448b88769bb&src=seo_token; steer-protocol (Ethereum), 3.27% APY, $347.9K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token; uniswap-v3 (Ethereum), 10.62% APY, $250.7K TVL, https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.08% | $353.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 0.03% | $255.8K |
+| 1 | [dedust →](https://www.defi.garden/?pool=2d480d21-4d00-4634-b4f1-1448b88769bb&src=seo_token) | TON | 0.02% | $190.6K |
+| 2 | [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.27% | $347.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 10.62% | $250.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OPEN shows up in 2 pools here, with rates from 0.03% to 4.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPEN shows up in 3 pools here, with rates from 0.02% to 10.62% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| steer-protocol | 4.08% | 5.65% | Base rate |
-| uniswap-v3 | 0.03% | 3.63% | Base rate |
+| steer-protocol | 3.27% | 5.62% | Base rate |
+| uniswap-v3 | 10.62% | 3.60% | Base rate |
+| dedust | 0.02% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPEN yield today?
 
-4.08% APY on steer-protocol (Ethereum), based on live DefiLlama data.
+3.27% APY on steer-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many OPEN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.01M in total.
+4 live pools clear this page's $100K TVL floor, $979.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OPEN pools have the most stable APY history?
 
-Based on APY history only, OPEN's lower-variability candidates are steer-protocol (Ethereum), 4.08% APY, $353.2K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $255.8K TVL, https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPEN's lower-variability candidates are dedust (TON), 0.02% APY, $190.6K TVL, https://www.defi.garden/?pool=2d480d21-4d00-4634-b4f1-1448b88769bb&src=seo_token; steer-protocol (Ethereum), 3.27% APY, $347.9K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token; uniswap-v3 (Ethereum), 10.62% APY, $250.7K TVL, https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,5 +69,6 @@ Based on APY history only, OPEN's lower-variability candidates are steer-protoco
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

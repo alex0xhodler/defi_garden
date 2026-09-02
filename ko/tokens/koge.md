@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 0.01%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [BTCB](https://www.defi.garden/ko/tokens/btcb)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

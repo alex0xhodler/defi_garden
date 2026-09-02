@@ -1,12 +1,12 @@
 # STRUSD — tori-finance on Ethereum
 
-**Total APY:** 10.63% (10.63% Base · + 0.00% Rewards)
+**Total APY:** 10.62% (10.62% Base · + 0.00% Rewards)
 
-**TVL:** $48.4M
+**TVL:** $48.44M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 10.99%
+**30d Mean APY:** 10.96%
 
 **Exposure:** single
 
@@ -21,14 +21,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,657 in 5y at current rates.
+$1,000 in this pool grows to ~$1,656 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 50 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,657 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,656 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on tori-finance](https://tori.finance/?ref=defi.garden)
 
-Last updated September 1, 2026
+Last updated September 2, 2026

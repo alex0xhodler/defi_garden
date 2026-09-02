@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SCAM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $405.1K in total.
+2 live pools clear this page's $100K TVL floor, $399.1K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SCAM pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

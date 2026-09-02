@@ -1,10 +1,10 @@
 # NEX DeFi Yields
 
-The highest honest NEX yield right now is 0.02% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEX yield right now is 0.03% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=406a6d43-ece9-42db-a628-5299cada09b0&src=seo_token) | Ethereum | 0.02% | $244.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=406a6d43-ece9-42db-a628-5299cada09b0&src=seo_token) | Ethereum | 0.03% | $239.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEX yield today?
 
-0.02% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.6K in total.
+1 live pool clear this page's $100K TVL floor, $239.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NEX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

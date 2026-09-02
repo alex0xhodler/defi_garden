@@ -1,54 +1,54 @@
 # RETH DeFi Yields
 
-The highest honest RETH yield right now is 7.03% on convex-finance (Ethereum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RETH yield right now is 7.73% on convex-finance (Ethereum), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.16% | $3.36B |
-| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.09% | $13.8M |
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.36% | $6.7M |
-| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.03% | $2.1M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 5.71% | $805.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 5.99% | $799.7K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $295.9K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $281K |
+| [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.18% | $3.28B |
+| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.37% | $13.55M |
+| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 8.84% | $6.53M |
+| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.73% | $2.06M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 13.26% | $811K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 8.53% | $785.4K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 4.05% | $289.2K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 4.05% | $274.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.16% APY, $3.36B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.09% APY, $13.8M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 2.43% APY, $295.9K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.43% APY, $281K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 7.03% APY, $2.1M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 5.36% APY, $6.7M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; uniswap-v3 (Ethereum), 5.71% APY, $805.9K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; uniswap-v4 (Ethereum), 5.99% APY, $799.7K TVL, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.18% APY, $3.28B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.37% APY, $13.55M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 4.05% APY, $289.2K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 4.05% APY, $274.6K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 7.73% APY, $2.06M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 8.84% APY, $6.53M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; uniswap-v3 (Ethereum), 8.53% APY, $785.4K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; uniswap-v4 (Ethereum), 13.26% APY, $811K TVL, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.16% | $3.36B |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.09% | $13.8M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $295.9K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $281K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.03% | $2.1M |
-| 6 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.36% | $6.7M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 5.71% | $805.9K |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 5.99% | $799.7K |
+| 1 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.18% | $3.28B |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.37% | $13.55M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 4.05% | $289.2K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 4.05% | $274.6K |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.73% | $2.06M |
+| 6 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 8.84% | $6.53M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 8.53% | $785.4K |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 13.26% | $811K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RETH shows up in 8 pools here, with rates from 2.09% to 7.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RETH shows up in 8 pools here, with rates from 2.18% to 13.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| rocket-pool | 2.16% | 2.18% | Base rate |
-| curve-dex | 2.09% | 2.24% | Base rate |
-| balancer-v3 | 5.36% | 5.72% | 64.71% incentives |
-| convex-finance | 7.03% | 6.58% | 70.25% incentives |
-| uniswap-v3 | 5.71% | 2.96% | Base rate |
-| uniswap-v4 | 5.99% | 2.26% | Base rate |
-| curve-dex | 2.43% | 2.58% | Base rate |
-| convex-finance | 2.43% | 2.58% | Base rate |
+| rocket-pool | 2.18% | 2.18% | Base rate |
+| curve-dex | 2.37% | 2.24% | Base rate |
+| balancer-v3 | 8.84% | 5.74% | 38.97% incentives |
+| convex-finance | 7.73% | 6.62% | 69.32% incentives |
+| uniswap-v4 | 13.26% | 2.99% | Base rate |
+| uniswap-v3 | 8.53% | 3.09% | Base rate |
+| curve-dex | 4.05% | 2.59% | Base rate |
+| convex-finance | 4.05% | 2.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,11 +56,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RETH yield today?
 
-7.03% APY on convex-finance (Ethereum), based on live DefiLlama data.
+7.73% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many RETH pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $3.52B in total.
+24 live pools clear this page's $100K TVL floor, $3.43B in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RETH pools have the most stable APY history?
 
-Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.16% APY, $3.36B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.09% APY, $13.8M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 2.43% APY, $295.9K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.43% APY, $281K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 7.03% APY, $2.1M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 5.36% APY, $6.7M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; uniswap-v3 (Ethereum), 5.71% APY, $805.9K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; uniswap-v4 (Ethereum), 5.99% APY, $799.7K TVL, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.18% APY, $3.28B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.37% APY, $13.55M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 4.05% APY, $289.2K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 4.05% APY, $274.6K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 7.73% APY, $2.06M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 8.84% APY, $6.53M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; uniswap-v3 (Ethereum), 8.53% APY, $785.4K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; uniswap-v4 (Ethereum), 13.26% APY, $811K TVL, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -83,4 +83,4 @@ Based on APY history only, RETH's lower-variability candidates are rocket-pool (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -1,10 +1,10 @@
 # XPT DeFi Yields
 
-The highest honest XPT yield right now is 141.93% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XPT yield right now is 135.79% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=0fe1de2a-b3a6-4575-94a2-f3938da47f79&src=seo_token) | Solana | 141.93% | $300.4K |
+| [gmtrade →](https://www.defi.garden/?pool=0fe1de2a-b3a6-4575-94a2-f3938da47f79&src=seo_token) | Solana | 135.79% | $292K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XPT yield today?
 
-141.93% APY on gmtrade (Solana), based on live DefiLlama data.
+135.79% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many XPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.4K in total.
+1 live pool clear this page's $100K TVL floor, $292K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XPT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

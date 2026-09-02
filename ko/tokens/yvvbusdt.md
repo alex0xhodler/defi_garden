@@ -1,10 +1,10 @@
 # YVVBUSDT 디파이 수익률
 
-현재 YVVBUSDT의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 1.59%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YVVBUSDT의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 1.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=23c5f50c-ee67-46eb-a813-3ab665b105fe&src=seo_token) | Katana | 1.59% | $523.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=23c5f50c-ee67-46eb-a813-3ab665b105fe&src=seo_token) | Katana | 1.53% | $523.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 YVVBUSDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 1.59%예요.
+DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 1.53%예요.
 
 ### YVVBUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 1.59%예�
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

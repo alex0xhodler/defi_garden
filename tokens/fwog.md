@@ -1,10 +1,10 @@
 # FWOG DeFi Yields
 
-The highest honest FWOG yield right now is 5.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FWOG yield right now is 6.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f4b95102-0632-4d7f-899c-65b9b941590c&src=seo_token) | Solana | 5.05% | $1.5M |
+| [raydium-amm →](https://www.defi.garden/?pool=f4b95102-0632-4d7f-899c-65b9b941590c&src=seo_token) | Solana | 6.03% | $1.4M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FWOG yield today?
 
-5.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FWOG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.5M in total.
+1 live pool clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FWOG pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

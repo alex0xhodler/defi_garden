@@ -1,10 +1,10 @@
 # DORY 디파이 수익률
 
-현재 DORY의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v4에서 52.76%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DORY의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v4에서 49.29%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 52.76% | $4.05M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 49.29% | $4.05M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 DORY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 52.76%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 49.29%예요.
 
 ### DORY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 52.76%예
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

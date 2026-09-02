@@ -4,7 +4,7 @@ The highest honest XCFX yield right now is 0.14% on nucleon (Conflux), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_token) | Conflux | 0.14% | $219.4K |
+| [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_token) | Conflux | 0.14% | $222K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XCFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $219.4K in total.
+1 live pool clear this page's $100K TVL floor, $222K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XCFX pools. This view covers 
 
 - [Conflux](https://www.defi.garden/chains/conflux)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

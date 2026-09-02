@@ -1,17 +1,17 @@
 # Gnosis DeFi Yields
 
-The highest honest Gnosis yield right now is 4.16% on sdai (Gnosis), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Gnosis yield right now is 4.13% on sdai (Gnosis), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.16% | $51.07M |
-| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $7.32M |
-| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.24% | $5.99M |
-| ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.61M |
-| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 1.81% | $1.26M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.07% | $808.9K |
-| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.18% | $441.6K |
-| WXDAI | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_chain) | 1.76% | $282.4K |
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.13% | $51.45M |
+| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $7.16M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.24% | $6M |
+| ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.55M |
+| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 1.78% | $1.29M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.07% | $793K |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.14% | $439.6K |
+| WXDAI | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_chain) | 1.76% | $282.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Gnosis yield today?
 
-4.16% APY on sdai (Gnosis), based on live DefiLlama data.
+4.13% APY on sdai (Gnosis), based on live DefiLlama data.
 
 ### How many Gnosis pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $113.21M in total.
+14 live pools clear this page's $100K TVL floor, $112.48M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WXDAI](https://www.defi.garden/tokens/wxdai)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

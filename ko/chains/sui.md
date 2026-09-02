@@ -5,13 +5,13 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | WBTC-WBTC | [bluefin-spot →](https://www.defi.garden/?pool=fbda1342-d6e7-5b73-a2f3-6ac3c9c78f0b&src=seo_chain) | 0.17% | $33.81M |
-| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.21% | $18.74M |
-| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.05% | $16.69M |
+| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.21% | $18.73M |
+| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.06% | $16.5M |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_chain) | 3.55% | $15.18M |
-| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_chain) | 0.97% | $12.49M |
-| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23&src=seo_chain) | 10.00% | $10.89M |
-| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0&src=seo_chain) | 12.00% | $9.05M |
-| USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c&src=seo_chain) | 10.11% | $7.32M |
+| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_chain) | 0.97% | $12.37M |
+| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23&src=seo_chain) | 9.78% | $11.11M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0&src=seo_chain) | 12.00% | $9.08M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c&src=seo_chain) | 10.20% | $7.48M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Sui의 ember-protocol에서 APY 12.00%예�
 
 ### Sui 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 113개이며, 합산 TVL은 $298.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 113개이며, 합산 TVL은 $294.63M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Sui의 ember-protocol에서 APY 12.00%예�
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [VSUI](https://www.defi.garden/ko/tokens/vsui)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

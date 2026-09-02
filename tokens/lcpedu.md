@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LCPEDU pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

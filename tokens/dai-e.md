@@ -4,7 +4,7 @@ The highest honest DAI.E yield right now is 1.62% on aave-v3 (Avalanche), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.62% | $1.85M |
+| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.62% | $1.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAI.E pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.85M in total.
+1 live pool clear this page's $100K TVL floor, $1.84M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAI.E pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -1,12 +1,12 @@
 # GOOGLC DeFi Yields
 
-The highest honest GOOGLC yield right now is 16.59% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLC yield right now is 16.59% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 124.25% | $1.38M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 233.71% | $1.34M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e9167a4b-7c7f-5732-bb6c-5d27051812b1&src=seo_token) | Base | 16.59% | $208.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 89.48% | $180.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 84.68% | $132.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLC shows up in 3 pools here, with rates from 16.59% to 124.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLC shows up in 3 pools here, with rates from 16.59% to 233.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 241.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 209.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,9 +27,9 @@ GOOGLC shows up in 3 pools here, with rates from 16.59% to 124.25% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 124.25% | — | 63.60% incentives |
+| aerodrome-slipstream | 233.71% | — | 80.52% incentives |
 | uniswap-v4 | 16.59% | 16.59% | Base rate |
-| uniswap-v3 | 89.48% | 466.58% | Base rate |
+| uniswap-v3 | 84.68% | 402.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOOGLC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.9M in total.
+3 live pools clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank GOOGLC pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

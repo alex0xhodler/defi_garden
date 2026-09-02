@@ -1,11 +1,10 @@
 # USDX DeFi Yields
 
-The highest honest USDX yield right now is 3.50% on clearpool-lending (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDX yield right now is 3.50% on clearpool-lending (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $14.89M |
-| [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 1.20% | $142.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -13,21 +12,6 @@ The highest honest USDX yield right now is 3.50% on clearpool-lending (Flare), a
 There is not enough qualifying APY history to rank USDX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
-
-## How this rate has behaved
-
-USDX shows up in 2 pools here, with rates from 1.20% to 3.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.42% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| clearpool-lending | 3.50% | 3.50% | Base rate |
-| raydium-amm | 1.20% | 1.34% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
@@ -37,7 +21,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $15.03M in total.
+1 live pool clear this page's $100K TVL floor, $14.89M in total.
 
 ### Are these rates safe?
 
@@ -49,16 +33,15 @@ There is not enough qualifying APY history to rank USDX pools. This view covers 
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [FXRP](https://www.defi.garden/tokens/fxrp)
+- [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [STXRP](https://www.defi.garden/tokens/stxrp)
+- [WFLR](https://www.defi.garden/tokens/wflr)
 
 ## Available on
 
 - [Flare](https://www.defi.garden/chains/flare)
-- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

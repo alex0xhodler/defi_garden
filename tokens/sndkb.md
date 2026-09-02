@@ -4,7 +4,7 @@ The highest honest SNDKB yield right now is 3.93% on native-credit-pool (BSC), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=06081a23-0157-4141-951b-eae858070214&src=seo_token) | BSC | 3.93% | $765K |
+| [native-credit-pool →](https://www.defi.garden/?pool=06081a23-0157-4141-951b-eae858070214&src=seo_token) | BSC | 3.93% | $759.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SNDKB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $765K in total.
+1 live pool clear this page's $100K TVL floor, $759.7K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank SNDKB pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

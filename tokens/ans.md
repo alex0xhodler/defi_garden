@@ -1,10 +1,10 @@
 # ANS DeFi Yields
 
-The highest honest ANS yield right now is 26.91% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANS yield right now is 21.87% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 26.91% | $593.9K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 21.87% | $578.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANS yield today?
 
-26.91% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
+21.87% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
 
 ### How many ANS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $593.9K in total.
+1 live pool clear this page's $100K TVL floor, $578.9K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank ANS pools. This view covers A
 ## Related tokens
 
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
+- [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [STS](https://www.defi.garden/tokens/sts)
 - [SFTUSD](https://www.defi.garden/tokens/sftusd)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ANS pools. This view covers A
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

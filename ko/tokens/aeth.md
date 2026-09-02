@@ -65,4 +65,4 @@ APY 이력만 기준으로 비교한 AETH의 변동성 낮은 후보는 Polkadot
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: September 1, 2026
+## 마지막 업데이트: September 2, 2026

@@ -1,29 +1,29 @@
 # ALPHA DeFi Yields
 
-The highest honest ALPHA yield right now is 0.37% on bluefin-spot (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALPHA yield right now is 8.09% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.37% | $227.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token) | Base | 38.96% | $138.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.66% | $225.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token) | Base | 8.09% | $128.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALPHA's lower-variability candidates are bluefin-spot (Sui), 0.37% APY, $227.8K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; uniswap-v3 (Base), 38.96% APY, $138.6K TVL, https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALPHA's lower-variability candidates are bluefin-spot (Sui), 0.66% APY, $225.5K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; uniswap-v3 (Base), 8.09% APY, $128.9K TVL, https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.37% | $227.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token) | Base | 38.96% | $138.6K |
+| 1 | [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.66% | $225.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token) | Base | 8.09% | $128.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALPHA shows up in 2 pools here, with rates from 0.37% to 38.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALPHA shows up in 2 pools here, with rates from 0.66% to 8.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bluefin-spot | 0.37% | 0.37% | Base rate |
-| uniswap-v3 | 38.96% | 6.27% | Base rate |
+| bluefin-spot | 0.66% | 0.40% | Base rate |
+| uniswap-v3 | 8.09% | 6.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALPHA yield today?
 
-0.37% APY on bluefin-spot (Sui), based on live DefiLlama data.
+8.09% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ALPHA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $366.4K in total.
+2 live pools clear this page's $100K TVL floor, $354.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALPHA pools have the most stable APY history?
 
-Based on APY history only, ALPHA's lower-variability candidates are bluefin-spot (Sui), 0.37% APY, $227.8K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; uniswap-v3 (Base), 38.96% APY, $138.6K TVL, https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALPHA's lower-variability candidates are bluefin-spot (Sui), 0.66% APY, $225.5K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; uniswap-v3 (Base), 8.09% APY, $128.9K TVL, https://www.defi.garden/?pool=74776d60-ca16-44f5-80f1-a82e900c69a1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, ALPHA's lower-variability candidates are bluefin-spot
 - [Sui](https://www.defi.garden/chains/sui)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NXUSD pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

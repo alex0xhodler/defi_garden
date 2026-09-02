@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank BASELIFE pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

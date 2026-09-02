@@ -1,10 +1,10 @@
 # SMT DeFi Yields
 
-The highest honest SMT yield right now is 0.04% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMT yield right now is 0.19% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.04% | $103.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.19% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMT yield today?
 
-0.04% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+0.19% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many SMT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.5K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank SMT pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

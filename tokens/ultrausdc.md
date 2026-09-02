@@ -1,10 +1,10 @@
 # ULTRAUSDC DeFi Yields
 
-The highest honest ULTRAUSDC yield right now is 6.92% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTRAUSDC yield right now is 7.20% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4&src=seo_token) | Ethereum | 6.92% | $101.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4&src=seo_token) | Ethereum | 7.20% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTRAUSDC yield today?
 
-6.92% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.20% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ULTRAUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ULTRAUSDC pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

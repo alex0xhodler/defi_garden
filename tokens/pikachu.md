@@ -1,10 +1,10 @@
 # PIKACHU DeFi Yields
 
-The highest honest PIKACHU yield right now is 4.35% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIKACHU yield right now is 23.00% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=14a4d443-b76b-40b3-927f-1b95aedca183&src=seo_token) | Ethereum | 4.35% | $112.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=14a4d443-b76b-40b3-927f-1b95aedca183&src=seo_token) | Ethereum | 23.00% | $112.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIKACHU yield today?
 
-4.35% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+23.00% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PIKACHU pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PIKACHU pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

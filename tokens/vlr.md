@@ -1,10 +1,10 @@
 # VLR DeFi Yields
 
-The highest honest VLR yield right now is 0.14% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VLR yield right now is 0.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d0063492-4f96-55a3-a28a-2367a522e7c0&src=seo_token) | Solana | 0.14% | $4.32M |
+| [raydium-amm →](https://www.defi.garden/?pool=d0063492-4f96-55a3-a28a-2367a522e7c0&src=seo_token) | Solana | 0.31% | $4.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VLR yield today?
 
-0.14% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VLR pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VLR pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026

@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [KII](https://www.defi.garden/tokens/kii)
-- [BSB](https://www.defi.garden/tokens/bsb)
+- [WSPYX](https://www.defi.garden/tokens/wspyx)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 1, 2026
+## Last updated September 2, 2026
