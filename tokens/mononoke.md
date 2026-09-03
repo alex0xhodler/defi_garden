@@ -1,10 +1,10 @@
 # MONONOKE DeFi Yields
 
-The highest honest MONONOKE yield right now is 0.27% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MONONOKE yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.27% | $112.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.01% | $111.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MONONOKE yield today?
 
-0.27% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MONONOKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.9K in total.
+1 live pool clear this page's $100K TVL floor, $111.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MONONOKE pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

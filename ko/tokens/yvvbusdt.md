@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 1.53%예�
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

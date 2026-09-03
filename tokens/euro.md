@@ -1,10 +1,10 @@
 # EURO DeFi Yields
 
-The highest honest EURO yield right now is 0.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURO yield right now is 0.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=846c9d84-616d-5bc6-a558-43f7619d6bd5&src=seo_token) | Solana | 0.18% | $116K |
+| [raydium-amm →](https://www.defi.garden/?pool=846c9d84-616d-5bc6-a558-43f7619d6bd5&src=seo_token) | Solana | 0.58% | $116K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURO yield today?
 
-0.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many EURO pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EURO pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

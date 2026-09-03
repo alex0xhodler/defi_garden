@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hatom-lending →](https://www.defi.garden/?pool=1f263ce1-d20e-484f-b7ad-01bc8e4218d5&src=seo_token) | MultiversX | 0.01% | $853.6K |
+| [hatom-lending →](https://www.defi.garden/?pool=1f263ce1-d20e-484f-b7ad-01bc8e4218d5&src=seo_token) | MultiversX | 0.01% | $838K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 0.01
 
 ### SWTAO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $853.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $838K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 0.01
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

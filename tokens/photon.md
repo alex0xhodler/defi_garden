@@ -1,10 +1,10 @@
 # PHOTON DeFi Yields
 
-The highest honest PHOTON yield right now is 22.40% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PHOTON yield right now is 8.18% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0a1f629d-7152-487b-909b-8588e1f116b0&src=seo_token) | BSC | 22.40% | $557.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0a1f629d-7152-487b-909b-8588e1f116b0&src=seo_token) | BSC | 8.18% | $567K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PHOTON yield today?
 
-22.40% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+8.18% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many PHOTON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $557.8K in total.
+1 live pool clear this page's $100K TVL floor, $567K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PHOTON pools. This view cover
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

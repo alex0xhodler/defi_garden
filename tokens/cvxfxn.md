@@ -1,29 +1,29 @@
 # CVXFXN DeFi Yields
 
-The highest honest CVXFXN yield right now is 11.72% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVXFXN yield right now is 10.66% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.75% | $874.7K |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.72% | $608.1K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.13% | $904.8K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 10.66% | $630.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 7.75% APY, $874.7K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; convex-finance (Ethereum), 11.72% APY, $608.1K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 7.13% APY, $904.8K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; convex-finance (Ethereum), 10.66% APY, $630.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.75% | $874.7K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.72% | $608.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.13% | $904.8K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 10.66% | $630.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CVXFXN shows up in 2 pools here, with rates from 7.75% to 11.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CVXFXN shows up in 2 pools here, with rates from 7.13% to 10.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ CVXFXN shows up in 2 pools here, with rates from 7.75% to 11.72% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.75% | 6.92% | 96.78% incentives |
-| convex-finance | 11.72% | 10.06% | 97.87% incentives |
+| curve-dex | 7.13% | 6.90% | 97.90% incentives |
+| convex-finance | 10.66% | 10.05% | 98.59% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CVXFXN yield today?
 
-11.72% APY on convex-finance (Ethereum), based on live DefiLlama data.
+10.66% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CVXFXN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.09M in total.
+3 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CVXFXN pools have the most stable APY history?
 
-Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 7.75% APY, $874.7K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; convex-finance (Ethereum), 11.72% APY, $608.1K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 7.13% APY, $904.8K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; convex-finance (Ethereum), 10.66% APY, $630.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

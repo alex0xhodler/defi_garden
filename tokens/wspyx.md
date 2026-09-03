@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $673.6K in total.
+2 live pools clear this page's $100K TVL floor, $676.1K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WSPYX pools. This view covers
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

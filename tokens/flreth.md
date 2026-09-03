@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLRETH pools. This view cover
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

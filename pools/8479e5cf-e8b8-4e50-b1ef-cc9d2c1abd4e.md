@@ -2,7 +2,7 @@
 
 **Total APY:** 6.00% (6.00% Base · + 0.00% Rewards)
 
-**TVL:** $2.87M
+**TVL:** $2.86M
 
 **Pool Type:** Yield Farming
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,338 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 27 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 28 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
 [Garden this pool → ~$1,338 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on plume-vaults](https://app.plume.org/vaults?ref=defi.garden)
 
-Last updated September 2, 2026
+Last updated September 3, 2026

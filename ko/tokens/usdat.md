@@ -1,48 +1,41 @@
 # USDAT 디파이 수익률
 
-현재 USDAT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 6.84%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDAT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 6.84%이며, $100K TVL 기준을 넘는 21개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.25% | $9.16M |
-| [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $6.98M |
-| [pendle →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 6.13% | $5.77M |
-| [pendle →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 3.60% | $5.77M |
-| [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 3.98% | $1.55M |
-| [pendle →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 6.29% | $1.55M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.27% | $9.23M |
+| [pendle →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 2.43% | $5.8M |
+| [pendle →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 6.16% | $5.8M |
+| [pendle →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 6.28% | $1.56M |
+| [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 2.97% | $1.56M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f17e8b28-ccd6-5dfc-a43a-c0e35ac72f60&src=seo_token) | Ethereum | 4.71% | $299.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=63ab47b3-4378-5622-9ac9-a73f4a1e6fba&src=seo_token) | Ethereum | 6.84% | $299.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=37c5026a-6dfc-56ca-91f3-7ec6ee4f8481&src=seo_token) | Ethereum | 1.95% | $280K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDAT의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.25%, TVL $9.16M, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; Monad의 morpho-blue, APY 2.00%, TVL $6.98M, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.25% | $9.16M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $6.98M |
+비교할 수 있는 USDAT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.25%부터 6.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.27%부터 6.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
-
-8개 풀 중 1개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.25% | 0.74% | 기본 금리 |
-| morpho-blue | 2.00% | 1.46% | 인센티브 100.00% |
-| pendle | 6.13% | 6.52% | 기본 금리 |
-| pendle | 3.60% | 5.07% | 인센티브 24.58% |
-| pendle | 3.98% | 7.97% | 인센티브 68.88% |
-| pendle | 6.29% | 6.72% | 기본 금리 |
+| curve-dex | 0.27% | 0.73% | 기본 금리 |
+| pendle | 2.43% | 4.97% | 인센티브 19.88% |
+| pendle | 6.16% | 6.51% | 기본 금리 |
+| pendle | 6.28% | 6.70% | 기본 금리 |
+| pendle | 2.97% | 7.77% | 인센티브 58.86% |
+| uniswap-v4 | 4.71% | 2.54% | 기본 금리 |
 | uniswap-v4 | 6.84% | 6.84% | 기본 금리 |
 | uniswap-v4 | 1.95% | 2.02% | 기본 금리 |
 
@@ -56,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 6.84%예�
 
 ### USDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $52.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $42.27M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 6.84%예�
 
 ### USDAT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDAT의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.25%, TVL $9.16M, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; Monad의 morpho-blue, APY 2.00%, TVL $6.98M, https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 USDAT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,4 +73,4 @@ APY 이력만 기준으로 비교한 USDAT의 변동성 낮은 후보는 Ethereu
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

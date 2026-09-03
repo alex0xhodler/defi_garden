@@ -1,29 +1,29 @@
 # AUDIO DeFi Yields
 
-The highest honest AUDIO yield right now is 2.10% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUDIO yield right now is 3.59% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.23% | $464.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 2.10% | $203.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 3.59% | $460.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 49.16% | $203.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 1.23% APY, $464.7K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 2.10% APY, $203.9K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 3.59% APY, $460.7K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 49.16% APY, $203.2K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.23% | $464.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 2.10% | $203.9K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 3.59% | $460.7K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 49.16% | $203.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUDIO shows up in 2 pools here, with rates from 1.23% to 2.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUDIO shows up in 2 pools here, with rates from 3.59% to 49.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.23% | 3.92% | Base rate |
-| raydium-amm | 2.10% | 4.59% | Base rate |
+| uniswap-v2 | 3.59% | 3.92% | Base rate |
+| raydium-amm | 49.16% | 6.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUDIO yield today?
 
-2.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AUDIO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $668.7K in total.
+2 live pools clear this page's $100K TVL floor, $663.9K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUDIO pools have the most stable APY history?
 
-Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 1.23% APY, $464.7K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 2.10% APY, $203.9K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 3.59% APY, $460.7K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 49.16% APY, $203.2K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

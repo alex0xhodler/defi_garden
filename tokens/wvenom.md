@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WVENOM pools. This view cover
 
 - [Venom](https://www.defi.garden/chains/venom)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

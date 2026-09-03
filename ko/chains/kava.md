@@ -1,11 +1,11 @@
 # Kava 디파이 수익률
 
-현재 Kava의 가장 높은 정직한 수익률은 Kava의 scrubvault에서 15.47%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Kava의 가장 높은 정직한 수익률은 Kava의 scrubvault에서 15.95%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.11% | $7.15M |
-| USDT | [scrubvault →](https://www.defi.garden/?pool=a0c2aee6-f17e-4483-8312-031542fdb67c&src=seo_chain) | 15.47% | $103.5K |
+| USDT | [scrubvault →](https://www.defi.garden/?pool=a0c2aee6-f17e-4483-8312-031542fdb67c&src=seo_chain) | 15.95% | $103.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 Kava의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.47%예요.
+DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.95%예요.
 
 ### Kava 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.77M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.47%예요.
 - [LION](https://www.defi.garden/ko/tokens/lion)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

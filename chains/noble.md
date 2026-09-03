@@ -1,10 +1,10 @@
 # Noble DeFi Yields
 
-The highest honest Noble yield right now is 3.55% on ondo-yield-assets (Noble), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Noble yield right now is 3.56% on ondo-yield-assets (Noble), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_chain) | 3.55% | $14.13M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_chain) | 3.56% | $14.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Noble yield today?
 
-3.55% APY on ondo-yield-assets (Noble), based on live DefiLlama data.
+3.56% APY on ondo-yield-assets (Noble), based on live DefiLlama data.
 
 ### How many Noble pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.13M in total.
+1 live pool clear this page's $100K TVL floor, $14.14M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SYNUSDX pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

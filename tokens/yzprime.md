@@ -4,7 +4,7 @@ The highest honest YZPRIME yield right now is 6.95% on yuzu-money (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.95% | $7.42M |
+| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.95% | $7.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YZPRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.42M in total.
+1 live pool clear this page's $100K TVL floor, $7.56M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank YZPRIME pools. This view cove
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
+- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

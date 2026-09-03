@@ -1,10 +1,10 @@
 # STONK DeFi Yields
 
-The highest honest STONK yield right now is 1.49% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONK yield right now is 600.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=67894743-c261-4aab-9b65-98f70d563ac0&src=seo_token) | Ethereum | 1.49% | $101K |
+| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token) | Solana | 600.26% | $640.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONK yield today?
 
-1.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+600.26% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101K in total.
+1 live pool clear this page's $100K TVL floor, $640.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank STONK pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

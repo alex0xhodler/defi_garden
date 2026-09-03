@@ -1,10 +1,10 @@
 # FLUID DeFi Yields
 
-The highest honest FLUID yield right now is 0.27% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLUID yield right now is 1.02% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 0.27% | $215.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 1.02% | $210K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FLUID shows up in 1 pools here, with rates from 0.27% to 0.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLUID shows up in 1 pools here, with rates from 1.02% to 1.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.27% | 1.42% | Base rate |
+| uniswap-v3 | 1.02% | 1.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FLUID yield today?
 
-0.27% APY on uniswap-v3 (Base), based on live DefiLlama data.
+1.02% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FLUID pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.29M in total.
+4 live pools clear this page's $100K TVL floor, $4.18M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank FLUID pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

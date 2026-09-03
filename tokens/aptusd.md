@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank APTUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

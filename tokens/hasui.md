@@ -1,31 +1,31 @@
 # HASUI DeFi Yields
 
-The highest honest HASUI yield right now is 2.71% on current (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HASUI yield right now is 4.97% on cetus-clmm (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.06% | $16.5M |
-| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.71% | $4.03M |
-| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.04% | $2.53M |
-| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 3.09% | $106.4K |
+| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.06% | $17.41M |
+| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.69% | $4.27M |
+| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.03% | $2.68M |
+| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 4.97% | $108.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.06% APY, $16.5M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.71% APY, $4.03M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.04% APY, $2.53M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; cetus-clmm (Sui), 3.09% APY, $106.4K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.06% APY, $17.41M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.69% APY, $4.27M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.03% APY, $2.68M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; cetus-clmm (Sui), 4.97% APY, $108.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.06% | $16.5M |
-| 2 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.71% | $4.03M |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.04% | $2.53M |
-| 4 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 3.09% | $106.4K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.06% | $17.41M |
+| 2 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.69% | $4.27M |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.03% | $2.68M |
+| 4 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 4.97% | $108.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HASUI shows up in 4 pools here, with rates from 0.04% to 3.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HASUI shows up in 4 pools here, with rates from 0.03% to 4.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -36,9 +36,9 @@ HASUI shows up in 4 pools here, with rates from 0.04% to 3.09% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | navi-lending | 1.06% | 1.15% | 99.78% incentives |
-| current | 2.71% | 2.67% | 41.71% incentives |
-| cetus-clmm | 0.04% | 0.06% | Base rate |
-| cetus-clmm | 3.09% | 6.63% | Base rate |
+| current | 2.69% | 2.67% | 41.27% incentives |
+| cetus-clmm | 0.03% | 0.06% | Base rate |
+| cetus-clmm | 4.97% | 6.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HASUI yield today?
 
-2.71% APY on current (Sui), based on live DefiLlama data.
+4.97% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HASUI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $23.17M in total.
+4 live pools clear this page's $100K TVL floor, $24.47M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HASUI pools have the most stable APY history?
 
-Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.06% APY, $16.5M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.71% APY, $4.03M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.04% APY, $2.53M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; cetus-clmm (Sui), 3.09% APY, $106.4K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.06% APY, $17.41M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.69% APY, $4.27M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.03% APY, $2.68M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; cetus-clmm (Sui), 4.97% APY, $108.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, HASUI's lower-variability candidates are navi-lending
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

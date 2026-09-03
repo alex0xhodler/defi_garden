@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ENZOBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $129.84M in total.
+4 live pools clear this page's $100K TVL floor, $129.98M in total.
 
 ### Are these rates safe?
 
@@ -50,12 +50,12 @@ There is not enough qualifying APY history to rank ENZOBTC pools. This view cove
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [BUCK](https://www.defi.garden/tokens/buck)
 - [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

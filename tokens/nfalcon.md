@@ -4,7 +4,7 @@ The highest honest NFALCON yield right now is 7.36% on plume-vaults (Plume Mainn
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.36% | $28.83M |
+| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.36% | $28.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NFALCON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.83M in total.
+1 live pool clear this page's $100K TVL floor, $28.84M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NFALCON pools. This view cove
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

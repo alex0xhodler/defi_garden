@@ -1,10 +1,10 @@
 # PUPPIES DeFi Yields
 
-The highest honest PUPPIES yield right now is 9.64% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUPPIES yield right now is 5.81% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8eccaabc-6883-4b6d-bbec-d48ae929ccd3&src=seo_token) | Ethereum | 9.64% | $883.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8eccaabc-6883-4b6d-bbec-d48ae929ccd3&src=seo_token) | Ethereum | 5.81% | $855.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUPPIES yield today?
 
-9.64% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.81% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PUPPIES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $883.1K in total.
+1 live pool clear this page's $100K TVL floor, $855.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PUPPIES pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

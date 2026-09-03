@@ -1,10 +1,10 @@
 # BUILDOUT DeFi Yields
 
-The highest honest BUILDOUT yield right now is 9.30% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUILDOUT yield right now is 3.16% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a18f690c-73f1-461f-bceb-2951e3291579&src=seo_token) | BSC | 9.30% | $682.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a18f690c-73f1-461f-bceb-2951e3291579&src=seo_token) | BSC | 3.16% | $720.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUILDOUT yield today?
 
-9.30% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+3.16% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BUILDOUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $682.2K in total.
+1 live pool clear this page's $100K TVL floor, $720.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BUILDOUT pools. This view cov
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

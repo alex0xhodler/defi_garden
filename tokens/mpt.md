@@ -1,10 +1,10 @@
 # MPT DeFi Yields
 
-The highest honest MPT yield right now is 4.68% on mstable-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPT yield right now is 4.41% on mstable-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mstable-v2 →](https://www.defi.garden/?pool=6d177bd3-fafa-4d2e-b86f-4fb14ea73c7c&src=seo_token) | Ethereum | 4.68% | $4.11M |
+| [mstable-v2 →](https://www.defi.garden/?pool=6d177bd3-fafa-4d2e-b86f-4fb14ea73c7c&src=seo_token) | Ethereum | 4.41% | $4.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MPT yield today?
 
-4.68% APY on mstable-v2 (Ethereum), based on live DefiLlama data.
+4.41% APY on mstable-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MPT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MPT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

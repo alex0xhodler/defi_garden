@@ -1,10 +1,10 @@
 # KP3R DeFi Yields
 
-The highest honest KP3R yield right now is 0.01% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KP3R yield right now is 0.05% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.01% | $199.9K |
+| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.05% | $198K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-KP3R shows up in 1 pools here, with rates from 0.01% to 0.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KP3R shows up in 1 pools here, with rates from 0.05% to 0.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| convex-finance | 0.01% | 0.06% | Base rate |
+| convex-finance | 0.05% | 0.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KP3R yield today?
 
-0.01% APY on convex-finance (Ethereum), based on live DefiLlama data.
+0.05% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $553K in total.
+3 live pools clear this page's $100K TVL floor, $548.2K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank KP3R pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

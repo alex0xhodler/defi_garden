@@ -1,10 +1,10 @@
 # YFIETH DeFi Yields
 
-The highest honest YFIETH yield right now is 12.48% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YFIETH yield right now is 11.72% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 12.48% | $228.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 11.72% | $227.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YFIETH yield today?
 
-12.48% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+11.72% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YFIETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.8K in total.
+1 live pool clear this page's $100K TVL floor, $227.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YFIETH pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

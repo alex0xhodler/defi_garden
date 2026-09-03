@@ -4,7 +4,7 @@ The highest honest USD yield right now is 3.63% on lagoon (Ethereum), among 8 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.3K |
+| [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 3.63% | $833.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $28.62M in total.
+8 live pools clear this page's $100K TVL floor, $28.58M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank USD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

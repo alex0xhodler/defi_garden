@@ -1,10 +1,10 @@
 # DRAGONX DeFi Yields
 
-The highest honest DRAGONX yield right now is 14.72% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRAGONX yield right now is 4.90% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 14.72% | $196.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 4.90% | $182.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DRAGONX yield today?
 
-14.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DRAGONX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.8K in total.
+1 live pool clear this page's $100K TVL floor, $182.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DRAGONX pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

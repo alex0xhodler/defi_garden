@@ -1,10 +1,10 @@
 # AKE DeFi Yields
 
-The highest honest AKE yield right now is 10.92% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKE yield right now is 122.74% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 10.92% | $355.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 122.74% | $519K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AKE yield today?
 
-10.92% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+122.74% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many AKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $355.7K in total.
+1 live pool clear this page's $100K TVL floor, $519K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

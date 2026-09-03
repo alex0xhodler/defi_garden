@@ -1,10 +1,10 @@
 # AAA DeFi Yields
 
-The highest honest AAA yield right now is 41.48% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAA yield right now is 27.89% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9ee0f1c6-8075-4ec7-9cb1-aad2b6f6bb28&src=seo_token) | Base | 41.48% | $113.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9ee0f1c6-8075-4ec7-9cb1-aad2b6f6bb28&src=seo_token) | Base | 27.89% | $113.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAA yield today?
 
-41.48% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+27.89% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AAA pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AAA pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

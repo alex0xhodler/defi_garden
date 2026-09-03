@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QUQ pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

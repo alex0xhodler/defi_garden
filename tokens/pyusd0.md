@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PYUSD0 pools. This view cover
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank MICRODUCK pools. This view co
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

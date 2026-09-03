@@ -1,27 +1,50 @@
 # AVNT DeFi Yields
 
-The highest honest AVNT yield right now is 85.02% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVNT yield right now is 518.37% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5f6f96a5-03c0-4b17-b7ca-c94933e83ec9&src=seo_token) | Base | 85.02% | $112.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token) | Base | 518.37% | $641K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5f6f96a5-03c0-4b17-b7ca-c94933e83ec9&src=seo_token) | Base | 48.53% | $110.1K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank AVNT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVNT's lower-variability candidates are aerodrome-slipstream (Base), 48.53% APY, $110.1K TVL, https://www.defi.garden/?pool=5f6f96a5-03c0-4b17-b7ca-c94933e83ec9&src=seo_token; aerodrome-slipstream (Base), 518.37% APY, $641K TVL, https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=5f6f96a5-03c0-4b17-b7ca-c94933e83ec9&src=seo_token) | Base | 48.53% | $110.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token) | Base | 518.37% | $641K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+AVNT shows up in 2 pools here, with rates from 48.53% to 518.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 141.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| aerodrome-slipstream | 518.37% | — | 99.87% incentives |
+| aerodrome-slipstream | 48.53% | 141.65% | 65.93% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest AVNT yield today?
 
-85.02% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+518.37% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AVNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.2K in total.
+2 live pools clear this page's $100K TVL floor, $751.2K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AVNT pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank AVNT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVNT's lower-variability candidates are aerodrome-slipstream (Base), 48.53% APY, $110.1K TVL, https://www.defi.garden/?pool=5f6f96a5-03c0-4b17-b7ca-c94933e83ec9&src=seo_token; aerodrome-slipstream (Base), 518.37% APY, $641K TVL, https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +67,4 @@ There is not enough qualifying APY history to rank AVNT pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

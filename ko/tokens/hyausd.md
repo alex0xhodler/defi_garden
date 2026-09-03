@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 2.87% | $407.8K |
+| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe&src=seo_token) | Monad | 2.87% | $449.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 2.87%예요.
 
 ### HYAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $407.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $449.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 2.87%예요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
-- [AUSD](https://www.defi.garden/ko/tokens/ausd)
+- [PT](https://www.defi.garden/ko/tokens/pt)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

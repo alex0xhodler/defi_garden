@@ -1,10 +1,10 @@
 # EMXN 디파이 수익률
 
-현재 EMXN의 가장 높은 정직한 수익률은 Polygon의 uniswap-v4에서 0.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EMXN의 가장 높은 정직한 수익률은 Polygon의 uniswap-v4에서 4.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9eb57ee5-bf21-4ec0-9e99-cdeb5bbce564&src=seo_token) | Polygon | 0.08% | $130.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9eb57ee5-bf21-4ec0-9e99-cdeb5bbce564&src=seo_token) | Polygon | 4.54% | $130.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 EMXN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 0.08%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 4.54%예요.
 
 ### EMXN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 0.08%예�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

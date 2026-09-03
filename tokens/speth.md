@@ -1,10 +1,10 @@
 # SPETH DeFi Yields
 
-The highest honest SPETH yield right now is 1.81% on meta-pool-eth (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPETH yield right now is 2.14% on meta-pool-eth (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meta-pool-eth →](https://www.defi.garden/?pool=2de60ea8-0b96-4eeb-a100-a147628b79b7&src=seo_token) | Ethereum | 1.81% | $1.12M |
+| [meta-pool-eth →](https://www.defi.garden/?pool=2de60ea8-0b96-4eeb-a100-a147628b79b7&src=seo_token) | Ethereum | 2.14% | $1.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPETH yield today?
 
-1.81% APY on meta-pool-eth (Ethereum), based on live DefiLlama data.
+2.14% APY on meta-pool-eth (Ethereum), based on live DefiLlama data.
 
 ### How many SPETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.12M in total.
+1 live pool clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SPETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

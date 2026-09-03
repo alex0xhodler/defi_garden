@@ -1,16 +1,16 @@
 # Sei DeFi Yields
 
-The highest honest Sei yield right now is 10.76% on takara-lend (Sei), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sei yield right now is 10.63% on takara-lend (Sei), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_chain) | 3.55% | $258.59M |
-| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 8.66% | $15.67M |
-| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 7.52% | $9.86M |
-| SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $3.14M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.08% | $959.9K |
-| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 9.79% | $659.5K |
-| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea&src=seo_chain) | 10.76% | $184.7K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_chain) | 3.56% | $258.61M |
+| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 8.40% | $15.66M |
+| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 7.64% | $8.98M |
+| SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $3.24M |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.08% | $993.9K |
+| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 10.19% | $619K |
+| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea&src=seo_chain) | 10.63% | $187.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Sei yield today?
 
-10.76% APY on takara-lend (Sei), based on live DefiLlama data.
+10.63% APY on takara-lend (Sei), based on live DefiLlama data.
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $331.27M in total.
+10 live pools clear this page's $100K TVL floor, $330.67M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WSEI](https://www.defi.garden/tokens/wsei)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

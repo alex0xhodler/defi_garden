@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASTR pools. This view covers 
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

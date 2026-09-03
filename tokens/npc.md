@@ -1,29 +1,29 @@
 # NPC DeFi Yields
 
-The highest honest NPC yield right now is 12.43% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NPC yield right now is 13.48% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 9.44% | $4.32M |
-| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 12.43% | $759.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 11.77% | $702.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 8.86% | $4.31M |
+| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 9.72% | $765.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 13.48% | $702K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 12.43% APY, $759.9K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; uniswap-v2 (Base), 11.77% APY, $702.4K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; uniswap-v2 (Ethereum), 9.44% APY, $4.32M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 9.72% APY, $765.4K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; uniswap-v2 (Base), 13.48% APY, $702K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; uniswap-v2 (Ethereum), 8.86% APY, $4.31M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 12.43% | $759.9K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 11.77% | $702.4K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 9.44% | $4.32M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 9.72% | $765.4K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 13.48% | $702K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 8.86% | $4.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NPC shows up in 3 pools here, with rates from 9.44% to 12.43% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+NPC shows up in 3 pools here, with rates from 8.86% to 13.48% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 9.44% | 12.78% | Base rate |
-| raydium-amm | 12.43% | 11.68% | Base rate |
-| uniswap-v2 | 11.77% | 19.78% | Base rate |
+| uniswap-v2 | 8.86% | 12.78% | Base rate |
+| raydium-amm | 9.72% | 11.78% | Base rate |
+| uniswap-v2 | 13.48% | 19.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NPC yield today?
 
-12.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+13.48% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many NPC pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NPC pools have the most stable APY history?
 
-Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 12.43% APY, $759.9K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; uniswap-v2 (Base), 11.77% APY, $702.4K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; uniswap-v2 (Ethereum), 9.44% APY, $4.32M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 9.72% APY, $765.4K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; uniswap-v2 (Base), 13.48% APY, $702K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; uniswap-v2 (Ethereum), 8.86% APY, $4.31M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, NPC's lower-variability candidates are raydium-amm (S
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

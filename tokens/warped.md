@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank WARPED pools. This view cover
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

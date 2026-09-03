@@ -1,12 +1,12 @@
 # Rootstock DeFi Yields
 
-The highest honest Rootstock yield right now is 0.32% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Rootstock yield right now is 0.91% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.32% | $1.05M |
-| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.05% | $946.7K |
-| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.28% | $874.6K |
+| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.91% | $1.06M |
+| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.19% | $950.8K |
+| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.21% | $882.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Rootstock yield today?
 
-0.32% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.91% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many Rootstock pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.54M in total.
+4 live pools clear this page's $100K TVL floor, $3.56M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

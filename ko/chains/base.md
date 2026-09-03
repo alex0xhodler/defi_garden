@@ -1,17 +1,17 @@
 # Base 디파이 수익률
 
-현재 Base의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 73.99%이며, $100K TVL 기준을 넘는 1,079개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Base의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 76.53%이며, $100K TVL 기준을 넘는 1,069개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_chain) | 4.27% | $448.44M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_chain) | 4.27% | $422.85M |
-| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_chain) | 5.74% | $364M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_chain) | 4.75% | $345.06M |
-| SPARKUSDC | [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_chain) | 3.83% | $289.49M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_chain) | 0.01% | $202.45M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_chain) | 3.18% | $138.05M |
-| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_chain) | 73.99% | $115.46M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_chain) | 4.26% | $449.47M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_chain) | 4.26% | $422.87M |
+| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_chain) | 5.66% | $367.76M |
+| USDE | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_chain) | 4.75% | $344.73M |
+| SPARKUSDC | [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_chain) | 3.82% | $289.54M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_chain) | 0.01% | $202.96M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_chain) | 3.17% | $137.46M |
+| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_chain) | 76.53% | $115.5M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Base의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 73.99%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 76.53%예요.
 
 ### Base 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,079개이며, 합산 TVL은 $7.22B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,069개이며, 합산 TVL은 $7.22B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 73.99%예요.
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

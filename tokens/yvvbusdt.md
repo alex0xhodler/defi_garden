@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YVVBUSDT pools. This view cov
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

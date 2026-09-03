@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 25.33% | $1.37M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ab4b547-a04c-54e2-8f5d-78054621f78f&src=seo_token) | BSC | 36.98% | $510.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efff9386-5a35-527b-8140-bc66563e9e69&src=seo_token) | BSC | 0.70% | $478.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 104.50% | $225.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ab4b547-a04c-54e2-8f5d-78054621f78f&src=seo_token) | BSC | 22.31% | $511.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efff9386-5a35-527b-8140-bc66563e9e69&src=seo_token) | BSC | 0.98% | $290K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 77.22% | $238.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a5292a66-060e-5113-a25d-2e624a04dcf5&src=seo_token) | BSC | 0.57% | $155.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f56a32db-9dca-5fe9-bab4-706706ebfb47&src=seo_token) | BSC | 2.61% | $152.4K |
 
@@ -20,9 +20,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-QQQB 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.57%부터 104.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+QQQB 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.57%부터 77.22%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.27%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -30,10 +30,10 @@ QQQB 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.57%부터 104.50%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| native-credit-pool | 25.33% | 23.48% | 기본 금리 |
-| uniswap-v4 | 36.98% | 2.74% | 기본 금리 |
-| uniswap-v4 | 0.70% | 3.05% | 기본 금리 |
-| uniswap-v3 | 104.50% | 294.48% | 기본 금리 |
+| native-credit-pool | 25.33% | 23.66% | 기본 금리 |
+| uniswap-v4 | 22.31% | 4.72% | 기본 금리 |
+| uniswap-v4 | 0.98% | 1.87% | 기본 금리 |
+| uniswap-v3 | 77.22% | 265.20% | 기본 금리 |
 | uniswap-v4 | 0.57% | 87.91% | 기본 금리 |
 | uniswap-v4 | 2.61% | 2.61% | 기본 금리 |
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 25.33%
 
 ### QQQB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $7.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $6.65M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,4 +70,4 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 25.33%
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

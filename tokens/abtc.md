@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ABTC pools. This view covers 
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

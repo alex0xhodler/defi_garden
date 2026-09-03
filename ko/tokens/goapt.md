@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 0.09%예요.
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

@@ -1,10 +1,10 @@
 # 9SETH 디파이 수익률
 
-현재 9SETH의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 3.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 9SETH의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 2.51%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 3.55% | $4.92M |
+| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 2.51% | $4.74M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 9SETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.55%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 2.51%예요.
 
 ### 9SETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $4.92M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $4.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.55%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

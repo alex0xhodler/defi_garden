@@ -31,4 +31,4 @@ This pool's rate moves a lot: 1.53% right now vs a 0.98% 30-day average. Reward 
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 2, 2026
+Last updated September 3, 2026

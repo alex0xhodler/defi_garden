@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on spark-savings](https://spark.finance/?ref=defi.garden)
 
-Last updated September 2, 2026
+Last updated September 3, 2026

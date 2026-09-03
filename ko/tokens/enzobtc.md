@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.03%예요.
 
 ### ENZOBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $129.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $129.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,12 +50,12 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.03%예요.
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
+- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

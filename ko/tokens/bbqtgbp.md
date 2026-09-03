@@ -1,10 +1,10 @@
 # BBQTGBP 디파이 수익률
 
-현재 BBQTGBP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.56%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BBQTGBP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.59%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97&src=seo_token) | Ethereum | 3.56% | $5.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97&src=seo_token) | Ethereum | 3.59% | $5.25M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 BBQTGBP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.56%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.59%예요.
 
 ### BBQTGBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.56%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

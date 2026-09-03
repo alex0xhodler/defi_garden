@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=0864f70d-085b-4a19-a2bc-fc107ab3750a&src=seo_token) | Tron | 0.01% | $690.3K |
+| [justlend-v1 →](https://www.defi.garden/?pool=0864f70d-085b-4a19-a2bc-fc107ab3750a&src=seo_token) | Tron | 0.01% | $846.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.01%예요.
 
 ### WIN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $690.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $846.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.01%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
+- [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [JST](https://www.defi.garden/ko/tokens/jst)
 - [SUN](https://www.defi.garden/ko/tokens/sun)
-- [TUSD](https://www.defi.garden/ko/tokens/tusd)
 
 ## 이용 가능한 체인
 
 - [Tron](https://www.defi.garden/ko/chains/tron)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

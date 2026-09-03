@@ -67,4 +67,4 @@ Based on APY history only, STB's lower-variability candidates are orca-dex (Sola
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

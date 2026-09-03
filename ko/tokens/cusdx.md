@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 1.94%예�
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

@@ -1,10 +1,10 @@
 # USDSHFMK DeFi Yields
 
-The highest honest USDSHFMK yield right now is 2.56% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDSHFMK yield right now is 6.63% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785&src=seo_token) | Ethereum | 2.56% | $22.08M |
+| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785&src=seo_token) | Ethereum | 6.63% | $22.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDSHFMK yield today?
 
-2.56% APY on makina (Ethereum), based on live DefiLlama data.
+6.63% APY on makina (Ethereum), based on live DefiLlama data.
 
 ### How many USDSHFMK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.08M in total.
+1 live pool clear this page's $100K TVL floor, $22.09M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank USDSHFMK pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

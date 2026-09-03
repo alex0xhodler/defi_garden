@@ -1,11 +1,11 @@
 # SUSDD DeFi Yields
 
-The highest honest SUSDD yield right now is 11.47% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDD yield right now is 5.14% on pendle (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.18% | $193.9K |
-| [pendle →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 11.47% | $193.9K |
+| [pendle →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 7.32% | $157.7K |
+| [pendle →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.14% | $157.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,16 +16,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSDD shows up in 2 pools here, with rates from 5.18% to 11.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDD shows up in 2 pools here, with rates from 5.14% to 7.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.18% | 5.33% | Base rate |
-| pendle | 11.47% | 20.42% | 53.41% incentives |
+| pendle | 7.32% | 18.90% | 37.37% incentives |
+| pendle | 5.14% | 5.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDD yield today?
 
-11.47% APY on pendle (Ethereum), based on live DefiLlama data.
+5.14% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.56M in total.
+2 live pools clear this page's $100K TVL floor, $315.5K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SUSDD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

@@ -1,10 +1,10 @@
 # NLCRD DeFi Yields
 
-The highest honest NLCRD yield right now is 15.95% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NLCRD yield right now is 25.78% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 15.95% | $2.07M |
+| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 25.78% | $2.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NLCRD yield today?
 
-15.95% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+25.78% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NLCRD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.07M in total.
+1 live pool clear this page's $100K TVL floor, $2.08M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NLCRD pools. This view covers
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.51%�
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

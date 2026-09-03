@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DIAMONDPEPE pools. This view 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

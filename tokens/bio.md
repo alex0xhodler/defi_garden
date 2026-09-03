@@ -1,35 +1,35 @@
 # BIO DeFi Yields
 
-The highest honest BIO yield right now is 6.48% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIO yield right now is 131.45% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 1.51% | $359.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 39.70% | $327.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 3.19% | $326.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 30.96% | $301.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 6.48% | $137.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 2.81% | $362.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 131.45% | $327K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 5.09% | $322.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 28.47% | $296.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 5.73% | $138.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BIO's lower-variability candidates are uniswap-v4 (Ethereum), 3.19% APY, $326.9K TVL, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; raydium-amm (Solana), 1.51% APY, $359.3K TVL, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; aerodrome-slipstream (Base), 30.96% APY, $301.4K TVL, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; aerodrome-slipstream (Base), 6.48% APY, $137.6K TVL, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; aerodrome-slipstream (Base), 39.70% APY, $327.7K TVL, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BIO's lower-variability candidates are uniswap-v4 (Ethereum), 5.09% APY, $322.5K TVL, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; raydium-amm (Solana), 2.81% APY, $362.2K TVL, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; aerodrome-slipstream (Base), 28.47% APY, $296.6K TVL, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; aerodrome-slipstream (Base), 5.73% APY, $138.6K TVL, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; aerodrome-slipstream (Base), 131.45% APY, $327K TVL, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 3.19% | $326.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 1.51% | $359.3K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 30.96% | $301.4K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 6.48% | $137.6K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 39.70% | $327.7K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 5.09% | $322.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 2.81% | $362.2K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 28.47% | $296.6K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 5.73% | $138.6K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 131.45% | $327K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BIO shows up in 5 pools here, with rates from 1.51% to 39.70% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+BIO shows up in 5 pools here, with rates from 2.81% to 131.45% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 11.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 11.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,11 +37,11 @@ BIO shows up in 5 pools here, with rates from 1.51% to 39.70% APY across 3 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.51% | 6.18% | Base rate |
-| aerodrome-slipstream | 39.70% | 120.16% | 78.39% incentives |
-| uniswap-v4 | 3.19% | 5.28% | Base rate |
-| aerodrome-slipstream | 30.96% | 67.48% | 82.47% incentives |
-| aerodrome-slipstream | 6.48% | 11.62% | 96.04% incentives |
+| raydium-amm | 2.81% | 6.20% | Base rate |
+| aerodrome-slipstream | 131.45% | 122.64% | 90.88% incentives |
+| uniswap-v4 | 5.09% | 5.31% | Base rate |
+| aerodrome-slipstream | 28.47% | 67.91% | 80.88% incentives |
+| aerodrome-slipstream | 5.73% | 11.35% | 89.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BIO yield today?
 
-6.48% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+131.45% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BIO pools clear the TVL floor?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BIO pools have the most stable APY history?
 
-Based on APY history only, BIO's lower-variability candidates are uniswap-v4 (Ethereum), 3.19% APY, $326.9K TVL, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; raydium-amm (Solana), 1.51% APY, $359.3K TVL, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; aerodrome-slipstream (Base), 30.96% APY, $301.4K TVL, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; aerodrome-slipstream (Base), 6.48% APY, $137.6K TVL, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; aerodrome-slipstream (Base), 39.70% APY, $327.7K TVL, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BIO's lower-variability candidates are uniswap-v4 (Ethereum), 5.09% APY, $322.5K TVL, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; raydium-amm (Solana), 2.81% APY, $362.2K TVL, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; aerodrome-slipstream (Base), 28.47% APY, $296.6K TVL, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; aerodrome-slipstream (Base), 5.73% APY, $138.6K TVL, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; aerodrome-slipstream (Base), 131.45% APY, $327K TVL, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +78,4 @@ Based on APY history only, BIO's lower-variability candidates are uniswap-v4 (Et
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

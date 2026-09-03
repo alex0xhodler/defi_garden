@@ -1,10 +1,10 @@
 # TOWER DeFi Yields
 
-The highest honest TOWER yield right now is 23.73% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOWER yield right now is 21.32% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=552798ed-99e0-4866-88cf-dbbc3e8d6192&src=seo_token) | Base | 23.73% | $239.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=552798ed-99e0-4866-88cf-dbbc3e8d6192&src=seo_token) | Base | 21.32% | $239.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOWER yield today?
 
-23.73% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+21.32% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TOWER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.2K in total.
+1 live pool clear this page's $100K TVL floor, $239.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TOWER pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

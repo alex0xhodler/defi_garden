@@ -61,4 +61,4 @@ There is not enough qualifying APY history to rank ETHCATE pools. This view cove
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

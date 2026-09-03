@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

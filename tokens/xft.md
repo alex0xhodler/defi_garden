@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XFT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

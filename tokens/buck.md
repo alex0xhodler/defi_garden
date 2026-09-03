@@ -1,33 +1,33 @@
 # BUCK DeFi Yields
 
-The highest honest BUCK yield right now is 11.78% on cetus-clmm (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUCK yield right now is 14.96% on cetus-clmm (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.21% | $18.73M |
-| [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.20% | $1.73M |
-| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.59% | $182.7K |
-| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 11.78% | $126K |
+| [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.21% | $18.74M |
+| [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.27% | $1.73M |
+| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.43% | $178.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 14.96% | $132K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUCK's lower-variability candidates are navi-lending (Sui), 0.21% APY, $18.73M TVL, https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token; cetus-clmm (Sui), 0.20% APY, $1.73M TVL, https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token; raydium-amm (Solana), 1.59% APY, $182.7K TVL, https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token; cetus-clmm (Sui), 11.78% APY, $126K TVL, https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUCK's lower-variability candidates are navi-lending (Sui), 0.21% APY, $18.74M TVL, https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token; cetus-clmm (Sui), 0.27% APY, $1.73M TVL, https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token; raydium-amm (Solana), 1.43% APY, $178.1K TVL, https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token; cetus-clmm (Sui), 14.96% APY, $132K TVL, https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.21% | $18.73M |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.20% | $1.73M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.59% | $182.7K |
-| 4 | [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 11.78% | $126K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.21% | $18.74M |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.27% | $1.73M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.43% | $178.1K |
+| 4 | [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 14.96% | $132K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BUCK shows up in 4 pools here, with rates from 0.20% to 11.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUCK shows up in 4 pools here, with rates from 0.21% to 14.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.69% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,9 +36,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | navi-lending | 0.21% | 0.21% | Base rate |
-| cetus-clmm | 0.20% | 0.27% | Base rate |
-| raydium-amm | 1.59% | 3.10% | Base rate |
-| cetus-clmm | 11.78% | 11.44% | Base rate |
+| cetus-clmm | 0.27% | 0.28% | Base rate |
+| raydium-amm | 1.43% | 2.95% | Base rate |
+| cetus-clmm | 14.96% | 11.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUCK yield today?
 
-11.78% APY on cetus-clmm (Sui), based on live DefiLlama data.
+14.96% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many BUCK pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $23.23M in total.
+7 live pools clear this page's $100K TVL floor, $23.24M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUCK pools have the most stable APY history?
 
-Based on APY history only, BUCK's lower-variability candidates are navi-lending (Sui), 0.21% APY, $18.73M TVL, https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token; cetus-clmm (Sui), 0.20% APY, $1.73M TVL, https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token; raydium-amm (Solana), 1.59% APY, $182.7K TVL, https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token; cetus-clmm (Sui), 11.78% APY, $126K TVL, https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUCK's lower-variability candidates are navi-lending (Sui), 0.21% APY, $18.74M TVL, https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token; cetus-clmm (Sui), 0.27% APY, $1.73M TVL, https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token; raydium-amm (Solana), 1.43% APY, $178.1K TVL, https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token; cetus-clmm (Sui), 14.96% APY, $132K TVL, https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, BUCK's lower-variability candidates are navi-lending 
 - [Sui](https://www.defi.garden/chains/sui)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

@@ -1,10 +1,10 @@
 # EPS DeFi Yields
 
-The highest honest EPS yield right now is 0.87% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EPS yield right now is 0.41% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 0.87% | $230.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 0.41% | $229.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EPS yield today?
 
-0.87% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.41% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many EPS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $230.1K in total.
+1 live pool clear this page's $100K TVL floor, $229.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EPS pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

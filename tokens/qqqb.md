@@ -5,9 +5,9 @@ The highest honest QQQB yield right now is 25.33% on native-credit-pool (BSC), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 25.33% | $1.37M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ab4b547-a04c-54e2-8f5d-78054621f78f&src=seo_token) | BSC | 36.98% | $510.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efff9386-5a35-527b-8140-bc66563e9e69&src=seo_token) | BSC | 0.70% | $478.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 104.50% | $225.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ab4b547-a04c-54e2-8f5d-78054621f78f&src=seo_token) | BSC | 22.31% | $511.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efff9386-5a35-527b-8140-bc66563e9e69&src=seo_token) | BSC | 0.98% | $290K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 77.22% | $238.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a5292a66-060e-5113-a25d-2e624a04dcf5&src=seo_token) | BSC | 0.57% | $155.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f56a32db-9dca-5fe9-bab4-706706ebfb47&src=seo_token) | BSC | 2.61% | $152.4K |
 
@@ -20,9 +20,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-QQQB shows up in 6 pools here, with rates from 0.57% to 104.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QQQB shows up in 6 pools here, with rates from 0.57% to 77.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 14.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +30,10 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| native-credit-pool | 25.33% | 23.48% | Base rate |
-| uniswap-v4 | 36.98% | 2.74% | Base rate |
-| uniswap-v4 | 0.70% | 3.05% | Base rate |
-| uniswap-v3 | 104.50% | 294.48% | Base rate |
+| native-credit-pool | 25.33% | 23.66% | Base rate |
+| uniswap-v4 | 22.31% | 4.72% | Base rate |
+| uniswap-v4 | 0.98% | 1.87% | Base rate |
+| uniswap-v3 | 77.22% | 265.20% | Base rate |
 | uniswap-v4 | 0.57% | 87.91% | Base rate |
 | uniswap-v4 | 2.61% | 2.61% | Base rate |
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many QQQB pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $7.34M in total.
+26 live pools clear this page's $100K TVL floor, $6.65M in total.
 
 ### Are these rates safe?
 
@@ -70,4 +70,4 @@ There is not enough qualifying APY history to rank QQQB pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

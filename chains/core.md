@@ -4,7 +4,7 @@ The highest honest CORE yield right now is 0.94% on colend-protocol (CORE), amon
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.94% | $111.6K |
+| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.94% | $112.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.9M in total.
+2 live pools clear this page's $100K TVL floor, $1.89M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [WCORE](https://www.defi.garden/tokens/wcore)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026

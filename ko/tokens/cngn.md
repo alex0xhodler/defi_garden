@@ -1,10 +1,10 @@
 # CNGN 디파이 수익률
 
-현재 CNGN의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 0.05%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CNGN의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 0.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.05% | $180.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.02% | $180.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CNGN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.05%예요.
+DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.02%예요.
 
 ### CNGN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $180.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $180.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.05%예요.
 
 ## 관련 토큰
 
+- [USAT](https://www.defi.garden/ko/tokens/usat)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
-- [EURM](https://www.defi.garden/ko/tokens/eurm)
-- [AXLEUROC](https://www.defi.garden/ko/tokens/axleuroc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: September 2, 2026
+## 마지막 업데이트: September 3, 2026

@@ -1,10 +1,10 @@
 # FROGE DeFi Yields
 
-The highest honest FROGE yield right now is 5.74% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FROGE yield right now is 3.88% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 5.74% | $463.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 3.88% | $459.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FROGE yield today?
 
-5.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+3.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FROGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $463.5K in total.
+1 live pool clear this page's $100K TVL floor, $459.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FROGE pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 2, 2026
+## Last updated September 3, 2026
