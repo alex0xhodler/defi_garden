@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank YZPRIME pools. This view cove
 ## Related tokens
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,10 +1,10 @@
 # SHADOW DeFi Yields
 
-The highest honest SHADOW yield right now is 35.25% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHADOW yield right now is 28.93% on shadow-exchange-legacy (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 35.25% | $110.2K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 28.93% | $116.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHADOW yield today?
 
-35.25% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
+28.93% APY on shadow-exchange-legacy (Sonic), based on live DefiLlama data.
 
 ### How many SHADOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.2K in total.
+1 live pool clear this page's $100K TVL floor, $116.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SHADOW pools. This view cover
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

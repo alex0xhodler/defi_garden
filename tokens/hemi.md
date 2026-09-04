@@ -1,33 +1,33 @@
 # HEMI DeFi Yields
 
-The highest honest HEMI yield right now is 16.57% on sushiswap-v3 (Hemi), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEMI yield right now is 32.00% on sushiswap-v3 (Hemi), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 32.20% | $492.8K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 16.57% | $390.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 52.75% | $213.4K |
-| [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 39.48% | $182.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 26.07% | $493.5K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 21.88% | $347.2K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 32.00% | $279.7K |
+| [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 24.27% | $171K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HEMI's lower-variability candidates are sushiswap-v3 (Hemi), 16.57% APY, $390.6K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; curve-dex (Ethereum), 39.48% APY, $182.1K TVL, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; sushiswap-v3 (Hemi), 52.75% APY, $213.4K TVL, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; sushiswap-v3 (Hemi), 32.20% APY, $492.8K TVL, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMI's lower-variability candidates are sushiswap-v3 (Hemi), 21.88% APY, $347.2K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; curve-dex (Ethereum), 24.27% APY, $171K TVL, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; sushiswap-v3 (Hemi), 32.00% APY, $279.7K TVL, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; sushiswap-v3 (Hemi), 26.07% APY, $493.5K TVL, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 16.57% | $390.6K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 39.48% | $182.1K |
-| 3 | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 52.75% | $213.4K |
-| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 32.20% | $492.8K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 21.88% | $347.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 24.27% | $171K |
+| 3 | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 32.00% | $279.7K |
+| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 26.07% | $493.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEMI shows up in 4 pools here, with rates from 16.57% to 52.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEMI shows up in 4 pools here, with rates from 21.88% to 32.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 16.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 17.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 32.20% | 15.66% | Base rate |
-| sushiswap-v3 | 16.57% | 12.73% | Base rate |
-| sushiswap-v3 | 52.75% | 22.25% | Base rate |
-| curve-dex | 39.48% | 16.85% | Base rate |
+| sushiswap-v3 | 26.07% | 17.06% | Base rate |
+| sushiswap-v3 | 21.88% | 13.72% | Base rate |
+| sushiswap-v3 | 32.00% | 24.06% | Base rate |
+| curve-dex | 24.27% | 17.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEMI yield today?
 
-16.57% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
+32.00% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
 
 ### How many HEMI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.28M in total.
+4 live pools clear this page's $100K TVL floor, $1.29M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HEMI pools have the most stable APY history?
 
-Based on APY history only, HEMI's lower-variability candidates are sushiswap-v3 (Hemi), 16.57% APY, $390.6K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; curve-dex (Ethereum), 39.48% APY, $182.1K TVL, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; sushiswap-v3 (Hemi), 52.75% APY, $213.4K TVL, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; sushiswap-v3 (Hemi), 32.20% APY, $492.8K TVL, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMI's lower-variability candidates are sushiswap-v3 (Hemi), 21.88% APY, $347.2K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; curve-dex (Ethereum), 24.27% APY, $171K TVL, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; sushiswap-v3 (Hemi), 32.00% APY, $279.7K TVL, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; sushiswap-v3 (Hemi), 26.07% APY, $493.5K TVL, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, HEMI's lower-variability candidates are sushiswap-v3 
 - [Hemi](https://www.defi.garden/chains/hemi)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EARNUSDC pools. This view cov
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

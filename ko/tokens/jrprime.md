@@ -1,10 +1,10 @@
 # JRPRIME 디파이 수익률
 
-현재 JRPRIME의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 5.60%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRPRIME의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 5.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 5.60% | $261.7K |
+| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 5.68% | $261.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 JRPRIME의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 5.60%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 5.68%예요.
 
 ### JRPRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 5.60%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

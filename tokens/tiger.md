@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TIGER pools. This view covers
 
 - [Kava](https://www.defi.garden/chains/kava)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,10 +1,10 @@
 # FORA DeFi Yields
 
-The highest honest FORA yield right now is 1.92% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FORA yield right now is 1.36% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8f20e002-63ba-4ad5-88eb-22c4974dbf22&src=seo_token) | Arbitrum | 1.92% | $673.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8f20e002-63ba-4ad5-88eb-22c4974dbf22&src=seo_token) | Arbitrum | 1.36% | $661.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FORA yield today?
 
-1.92% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+1.36% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many FORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $673.3K in total.
+1 live pool clear this page's $100K TVL floor, $661.7K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank FORA pools. This view covers 
 ## Related tokens
 
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FORA pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

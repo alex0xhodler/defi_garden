@@ -1,10 +1,10 @@
 # AOL DeFi Yields
 
-The highest honest AOL yield right now is 5.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AOL yield right now is 16.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d59f3331-ac44-417b-825b-d3583bc48edb&src=seo_token) | Solana | 5.61% | $164.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=d59f3331-ac44-417b-825b-d3583bc48edb&src=seo_token) | Solana | 16.92% | $164K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AOL yield today?
 
-5.61% APY on raydium-amm (Solana), based on live DefiLlama data.
+16.92% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.7K in total.
+1 live pool clear this page's $100K TVL floor, $164K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank AOL pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [DOGE](https://www.defi.garden/tokens/doge)
 - [CON](https://www.defi.garden/tokens/con)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank STRADAUSDC pools. This view c
 ## Related tokens
 
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STRADAUSDC pools. This view c
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

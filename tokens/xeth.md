@@ -4,7 +4,7 @@ The highest honest XETH yield right now is 0.42% on aave-v3 (Xlayer), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.42% | $11.52M |
+| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.42% | $12.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $11.69M in total.
+2 live pools clear this page's $100K TVL floor, $12.49M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank XETH pools. This view covers 
 
 - [Xlayer](https://www.defi.garden/chains/xlayer)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

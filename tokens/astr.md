@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ASTR pools. This view covers 
 ## Related tokens
 
 - [SKY](https://www.defi.garden/tokens/sky)
-- [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
-- [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ADOT](https://www.defi.garden/tokens/adot)
+- [AETH](https://www.defi.garden/tokens/aeth)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

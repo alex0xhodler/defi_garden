@@ -4,7 +4,7 @@ The highest honest COREUSDT0 yield right now is 4.76% on mystic-finance-lending 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_token) | Flare | 4.76% | $22.84M |
+| [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_token) | Flare | 4.76% | $22.93M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COREUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.84M in total.
+1 live pool clear this page's $100K TVL floor, $22.93M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank COREUSDT0 pools. This view co
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
 - [SFLR](https://www.defi.garden/tokens/sflr)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
 - [WFLR](https://www.defi.garden/tokens/wflr)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COREUSDT0 pools. This view co
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,10 +1,10 @@
 # HERMESOS DeFi Yields
 
-The highest honest HERMESOS yield right now is 4.90% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HERMESOS yield right now is 1.21% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=307fb6a5-7b29-4bc6-9f59-b958482388f7&src=seo_token) | Base | 4.90% | $155.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=307fb6a5-7b29-4bc6-9f59-b958482388f7&src=seo_token) | Base | 1.21% | $161.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HERMESOS yield today?
 
-4.90% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.21% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many HERMESOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $155.9K in total.
+1 live pool clear this page's $100K TVL floor, $161.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HERMESOS pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

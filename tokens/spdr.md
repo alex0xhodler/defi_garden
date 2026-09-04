@@ -1,10 +1,10 @@
 # SPDR DeFi Yields
 
-The highest honest SPDR yield right now is 0.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPDR yield right now is 0.03% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 0.02% | $172.8K |
+| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 0.03% | $177.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPDR yield today?
 
-0.02% APY on orca-dex (Solana), based on live DefiLlama data.
+0.03% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SPDR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172.8K in total.
+1 live pool clear this page's $100K TVL floor, $177.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SPDR pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

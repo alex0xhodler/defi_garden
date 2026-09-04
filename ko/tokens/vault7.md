@@ -1,10 +1,10 @@
 # VAULT7 디파이 수익률
 
-현재 VAULT7의 가장 높은 정직한 수익률은 TON의 affluent에서 4.76%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VAULT7의 가장 높은 정직한 수익률은 TON의 affluent에서 4.32%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.76% | $293.1K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.32% | $293.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 VAULT7의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.76%예요.
+DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.32%예요.
 
 ### VAULT7 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.76%예요.
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
 - [HGRAM](https://www.defi.garden/ko/tokens/hgram)
 - [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
-- [WGRAM](https://www.defi.garden/ko/tokens/wgram)
 - [UTYA](https://www.defi.garden/ko/tokens/utya)
+- [STON](https://www.defi.garden/ko/tokens/ston)
 
 ## 이용 가능한 체인
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

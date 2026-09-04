@@ -4,7 +4,7 @@ The highest honest XSOL yield right now is 2.65% on loopscale (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 2.65% | $603.3K |
+| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 2.65% | $642.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $603.3K in total.
+1 live pool clear this page's $100K TVL floor, $642.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank XSOL pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

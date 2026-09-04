@@ -1,17 +1,17 @@
 # Hyperliquid L1 DeFi Yields
 
-The highest honest Hyperliquid L1 yield right now is 10.95% on kinetiq-khype (Hyperliquid L1), among 184 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Hyperliquid L1 yield right now is 10.95% on kinetiq-khype (Hyperliquid L1), among 191 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.93% | $1.1B |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 1.09% | $47.95M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 3.87% | $26.82M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 7.49% | $22.25M |
-| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 9.54% | $18.03M |
-| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $17.73M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.33% | $17.03M |
-| UBTC | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_chain) | 0.14% | $10.01M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 2.09% | $1.15B |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.62% | $54.17M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 3.61% | $25.21M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 7.08% | $23.35M |
+| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $18.97M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.32% | $17.16M |
+| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 11.56% | $17.09M |
+| UBTC | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_chain) | 0.13% | $10.51M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hyperliquid L1 pools clear the TVL floor?
 
-184 live pools clear this page's $100K TVL floor, $2.27B in total.
+191 live pools clear this page's $100K TVL floor, $2.38B in total.
 
 ### Are these rates safe?
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SKNTQ](https://www.defi.garden/tokens/skntq)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,11 +1,11 @@
 # OVPP DeFi Yields
 
-The highest honest OVPP yield right now is 241.20% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OVPP yield right now is 241.09% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6e1db1e9-7f77-5423-a02c-b4c1aa00cc56&src=seo_token) | Ethereum | 241.20% | $297.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b48cb6dd-873c-584f-8bec-41ac99e15d4a&src=seo_token) | Ethereum | 40.27% | $104.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6e1db1e9-7f77-5423-a02c-b4c1aa00cc56&src=seo_token) | Ethereum | 241.09% | $291.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b48cb6dd-873c-584f-8bec-41ac99e15d4a&src=seo_token) | Ethereum | 40.25% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-OVPP shows up in 2 pools here, with rates from 40.27% to 241.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OVPP shows up in 2 pools here, with rates from 40.25% to 241.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 37.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 45.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 241.20% | 67.58% | Base rate |
-| uniswap-v4 | 40.27% | 8.23% | Base rate |
+| uniswap-v4 | 241.09% | 80.92% | Base rate |
+| uniswap-v4 | 40.25% | 10.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OVPP yield today?
 
-241.20% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+241.09% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many OVPP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $401.9K in total.
+2 live pools clear this page's $100K TVL floor, $393.5K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank OVPP pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

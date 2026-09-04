@@ -4,7 +4,7 @@ The highest honest PEPES yield right now is 0.02% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3cad2d2c-09f7-4126-87fe-b7f670f29ab4&src=seo_token) | Ethereum | 0.02% | $115.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3cad2d2c-09f7-4126-87fe-b7f670f29ab4&src=seo_token) | Ethereum | 0.02% | $115.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEPES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.5K in total.
+1 live pool clear this page's $100K TVL floor, $115.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PEPES pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

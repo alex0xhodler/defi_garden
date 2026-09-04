@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.11%예요
 
 - [Kava](https://www.defi.garden/ko/chains/kava)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

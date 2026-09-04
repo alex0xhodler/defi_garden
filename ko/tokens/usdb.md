@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.12% | $851.5K |
+| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.12% | $850.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ USDB 풀은 여기 1개가 있고, 1개 체인에서 APY가 0.12%부터 0.12%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| cetus-clmm | 0.12% | 0.11% | 인센티브 90.00% |
+| cetus-clmm | 0.12% | 0.11% | 인센티브 87.95% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.12%예요.
 
 ### USDB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.74M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.73M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,15 +47,15 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.12%예요.
 
 ## 관련 토큰
 
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

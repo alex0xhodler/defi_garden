@@ -1,39 +1,39 @@
 # TEL 디파이 수익률
 
-현재 TEL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 24.98%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TEL의 가장 높은 정직한 수익률은 Polygon의 uniswap-v4에서 23.36%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 0.71% | $857K |
-| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 1.47% | $602.2K |
-| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 0.88% | $377.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 16.96% | $224.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 24.98% | $189.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 4.51% | $110.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token) | Base | 9.17% | $104K |
+| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 1.34% | $876.7K |
+| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 2.42% | $610.9K |
+| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 1.36% | $386.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 23.36% | $230.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 26.12% | $193.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 2.97% | $142.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token) | Base | 16.20% | $106.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TEL의 변동성 낮은 후보는 Polygon의 balancer-v2, APY 0.71%, TVL $857K, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; Polygon의 balancer-v2, APY 0.88%, TVL $377.8K, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; Polygon의 balancer-v2, APY 1.47%, TVL $602.2K, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; Base의 uniswap-v4, APY 9.17%, TVL $104K, https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token; Ethereum의 uniswap-v4, APY 4.51%, TVL $110.3K, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; Polygon의 uniswap-v4, APY 16.96%, TVL $224.5K, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; Ethereum의 uniswap-v3, APY 24.98%, TVL $189.6K, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TEL의 변동성 낮은 후보는 Polygon의 balancer-v2, APY 1.34%, TVL $876.7K, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; Polygon의 balancer-v2, APY 1.36%, TVL $386.6K, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; Polygon의 balancer-v2, APY 2.42%, TVL $610.9K, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; Base의 uniswap-v4, APY 16.20%, TVL $106.4K, https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token; Ethereum의 uniswap-v4, APY 2.97%, TVL $142.2K, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; Polygon의 uniswap-v4, APY 23.36%, TVL $230.4K, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; Ethereum의 uniswap-v3, APY 26.12%, TVL $193.7K, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 0.71% | $857K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 0.88% | $377.8K |
-| 3 | [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 1.47% | $602.2K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token) | Base | 9.17% | $104K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 4.51% | $110.3K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 16.96% | $224.5K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 24.98% | $189.6K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 1.34% | $876.7K |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 1.36% | $386.6K |
+| 3 | [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 2.42% | $610.9K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token) | Base | 16.20% | $106.4K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 2.97% | $142.2K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 23.36% | $230.4K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 26.12% | $193.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TEL 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.71%부터 24.98%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TEL 풀은 여기 7개가 있고, 3개 체인에서 APY가 1.34%부터 26.12%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.88%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.52%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 7개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -41,13 +41,13 @@ TEL 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.71%부터 24.98%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v2 | 0.71% | 3.60% | 기본 금리 |
-| balancer-v2 | 1.47% | 6.71% | 기본 금리 |
-| balancer-v2 | 0.88% | 4.89% | 기본 금리 |
-| uniswap-v4 | 16.96% | 45.25% | 기본 금리 |
-| uniswap-v3 | 24.98% | 55.02% | 기본 금리 |
-| uniswap-v4 | 4.51% | 10.88% | 기본 금리 |
-| uniswap-v4 | 9.17% | 19.75% | 기본 금리 |
+| balancer-v2 | 1.34% | 3.54% | 기본 금리 |
+| balancer-v2 | 2.42% | 6.64% | 기본 금리 |
+| balancer-v2 | 1.36% | 4.82% | 기본 금리 |
+| uniswap-v4 | 23.36% | 43.41% | 기본 금리 |
+| uniswap-v3 | 26.12% | 54.11% | 기본 금리 |
+| uniswap-v4 | 2.97% | 10.52% | 기본 금리 |
+| uniswap-v4 | 16.20% | 19.45% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,11 +55,11 @@ TEL 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.71%부터 24.98%까
 
 ### 오늘 TEL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 24.98%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 23.36%예요.
 
 ### TEL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $2.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $2.66M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 24.98%예
 
 ### TEL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TEL의 변동성 낮은 후보는 Polygon의 balancer-v2, APY 0.71%, TVL $857K, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; Polygon의 balancer-v2, APY 0.88%, TVL $377.8K, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; Polygon의 balancer-v2, APY 1.47%, TVL $602.2K, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; Base의 uniswap-v4, APY 9.17%, TVL $104K, https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token; Ethereum의 uniswap-v4, APY 4.51%, TVL $110.3K, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; Polygon의 uniswap-v4, APY 16.96%, TVL $224.5K, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; Ethereum의 uniswap-v3, APY 24.98%, TVL $189.6K, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TEL의 변동성 낮은 후보는 Polygon의 balancer-v2, APY 1.34%, TVL $876.7K, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; Polygon의 balancer-v2, APY 1.36%, TVL $386.6K, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; Polygon의 balancer-v2, APY 2.42%, TVL $610.9K, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; Base의 uniswap-v4, APY 16.20%, TVL $106.4K, https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca&src=seo_token; Ethereum의 uniswap-v4, APY 2.97%, TVL $142.2K, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; Polygon의 uniswap-v4, APY 23.36%, TVL $230.4K, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; Ethereum의 uniswap-v3, APY 26.12%, TVL $193.7K, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -84,4 +84,4 @@ APY 이력만 기준으로 비교한 TEL의 변동성 낮은 후보는 Polygon�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

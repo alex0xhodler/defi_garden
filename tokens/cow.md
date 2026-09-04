@@ -1,31 +1,31 @@
 # COW DeFi Yields
 
-The highest honest COW yield right now is 11.73% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COW yield right now is 23.32% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 11.73% | $393.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 4.26% | $376.4K |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 1.84% | $313.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 23.32% | $405.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 5.19% | $385.2K |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 38.84% | $323.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, COW's lower-variability candidates are balancer-v2 (Ethereum), 1.84% APY, $313.4K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 11.73% APY, $393.1K TVL, https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token; uniswap-v3 (Ethereum), 4.26% APY, $376.4K TVL, https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COW's lower-variability candidates are balancer-v2 (Ethereum), 38.84% APY, $323.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 23.32% APY, $405.1K TVL, https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token; uniswap-v3 (Ethereum), 5.19% APY, $385.2K TVL, https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 1.84% | $313.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 11.73% | $393.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 4.26% | $376.4K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 38.84% | $323.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 23.32% | $405.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 5.19% | $385.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-COW shows up in 3 pools here, with rates from 1.84% to 11.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+COW shows up in 3 pools here, with rates from 5.19% to 38.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 36.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 36.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 11.73% | 36.08% | Base rate |
-| uniswap-v3 | 4.26% | 65.55% | Base rate |
-| balancer-v2 | 1.84% | 8.15% | Base rate |
+| uniswap-v3 | 23.32% | 36.42% | Base rate |
+| uniswap-v3 | 5.19% | 65.28% | Base rate |
+| balancer-v2 | 38.84% | 8.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest COW yield today?
 
-11.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+23.32% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many COW pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.08M in total.
+3 live pools clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COW pools have the most stable APY history?
 
-Based on APY history only, COW's lower-variability candidates are balancer-v2 (Ethereum), 1.84% APY, $313.4K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 11.73% APY, $393.1K TVL, https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token; uniswap-v3 (Ethereum), 4.26% APY, $376.4K TVL, https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COW's lower-variability candidates are balancer-v2 (Ethereum), 38.84% APY, $323.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 23.32% APY, $405.1K TVL, https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token; uniswap-v3 (Ethereum), 5.19% APY, $385.2K TVL, https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, COW's lower-variability candidates are balancer-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,10 +1,10 @@
 # UNLEASH DeFi Yields
 
-The highest honest UNLEASH yield right now is 0.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNLEASH yield right now is 0.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2b0c9069-f947-4896-82c6-9b4145a82850&src=seo_token) | Ethereum | 0.09% | $214.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2b0c9069-f947-4896-82c6-9b4145a82850&src=seo_token) | Ethereum | 0.07% | $224.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNLEASH yield today?
 
-0.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many UNLEASH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.3K in total.
+1 live pool clear this page's $100K TVL floor, $224.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank UNLEASH pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

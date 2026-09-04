@@ -4,7 +4,7 @@ The highest honest RSETH yield right now is 2.35% on kelp (Ethereum), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.35% | $1.07B |
+| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.35% | $1.12B |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 RSETH shows up in 1 pools here, with rates from 2.35% to 2.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kelp | 2.35% | 2.34% | Base rate |
+| kelp | 2.35% | 2.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RSETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.08B in total.
+4 live pools clear this page's $100K TVL floor, $1.13B in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank RSETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

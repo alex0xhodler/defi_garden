@@ -1,10 +1,10 @@
 # SRROYAA DeFi Yields
 
-The highest honest SRROYAA yield right now is 6.56% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYAA yield right now is 6.46% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 6.56% | $2.63M |
+| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 6.46% | $2.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYAA yield today?
 
-6.56% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+6.46% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYAA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.63M in total.
+1 live pool clear this page's $100K TVL floor, $2.64M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SRROYAA pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

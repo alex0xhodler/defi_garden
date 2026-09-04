@@ -1,10 +1,10 @@
 # WMTX DeFi Yields
 
-The highest honest WMTX yield right now is 8.55% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMTX yield right now is 7.43% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 8.55% | $158.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 7.43% | $173.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMTX yield today?
 
-8.55% APY on minswap-dex (Cardano), based on live DefiLlama data.
+7.43% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many WMTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.7K in total.
+1 live pool clear this page's $100K TVL floor, $173.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WMTX pools. This view covers 
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

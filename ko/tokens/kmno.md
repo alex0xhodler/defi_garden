@@ -1,44 +1,47 @@
 # KMNO 디파이 수익률
 
-현재 KMNO의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 7.13%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KMNO의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 7.24%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token) | Solana | 2.94% | $1.45M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token) | Solana | 2.10% | $1.44M |
-| [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token) | Solana | 7.13% | $191.7K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token) | Solana | 5.44% | $191K |
+| [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token) | Solana | 2.86% | $1.45M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token) | Solana | 2.29% | $1.45M |
+| [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token) | Solana | 7.24% | $193.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token) | Solana | 5.07% | $193.2K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a&src=seo_token) | Solana | 24.07% | $100.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 KMNO의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.94%, TVL $1.45M, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token; Solana의 orca-dex, APY 7.13%, TVL $191.7K, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token; Solana의 kamino-liquidity, APY 2.10%, TVL $1.44M, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token; Solana의 kamino-liquidity, APY 5.44%, TVL $191K, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KMNO의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.86%, TVL $1.45M, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token; Solana의 orca-dex, APY 7.24%, TVL $193.7K, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token; Solana의 kamino-liquidity, APY 2.29%, TVL $1.45M, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token; Solana의 kamino-liquidity, APY 5.07%, TVL $193.2K, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token; Solana의 kamino-liquidity, APY 24.07%, TVL $100.5K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token) | Solana | 2.94% | $1.45M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token) | Solana | 7.13% | $191.7K |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token) | Solana | 2.10% | $1.44M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token) | Solana | 5.44% | $191K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token) | Solana | 2.86% | $1.45M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token) | Solana | 7.24% | $193.7K |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token) | Solana | 2.29% | $1.45M |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token) | Solana | 5.07% | $193.2K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a&src=seo_token) | Solana | 24.07% | $100.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-KMNO 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.10%부터 7.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+KMNO 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.29%부터 24.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.13%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.69%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
-4개 풀 중 4개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+5개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 2.94% | 3.68% | 기본 금리 |
-| kamino-liquidity | 2.10% | 2.83% | 기본 금리 |
-| orca-dex | 7.13% | 10.26% | 기본 금리 |
-| kamino-liquidity | 5.44% | 8.57% | 기본 금리 |
+| orca-dex | 2.86% | 3.78% | 기본 금리 |
+| kamino-liquidity | 2.29% | 2.91% | 기본 금리 |
+| orca-dex | 7.24% | 10.40% | 기본 금리 |
+| kamino-liquidity | 5.07% | 8.69% | 기본 금리 |
+| kamino-liquidity | 24.07% | 105.17% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +49,11 @@ KMNO 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.10%부터 7.13%까
 
 ### 오늘 KMNO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 7.13%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 7.24%예요.
 
 ### KMNO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.39M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,19 +61,19 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 7.13%예요.
 
 ### KMNO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 KMNO의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.94%, TVL $1.45M, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token; Solana의 orca-dex, APY 7.13%, TVL $191.7K, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token; Solana의 kamino-liquidity, APY 2.10%, TVL $1.44M, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token; Solana의 kamino-liquidity, APY 5.44%, TVL $191K, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KMNO의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.86%, TVL $1.45M, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71&src=seo_token; Solana의 orca-dex, APY 7.24%, TVL $193.7K, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f&src=seo_token; Solana의 kamino-liquidity, APY 2.29%, TVL $1.45M, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c&src=seo_token; Solana의 kamino-liquidity, APY 5.07%, TVL $193.2K, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4&src=seo_token; Solana의 kamino-liquidity, APY 24.07%, TVL $100.5K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

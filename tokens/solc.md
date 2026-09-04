@@ -4,7 +4,7 @@ The highest honest SOLC yield right now is 0.91% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2920812d-eda8-4578-9af7-94f028d6a505&src=seo_token) | Solana | 0.91% | $170.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=2920812d-eda8-4578-9af7-94f028d6a505&src=seo_token) | Solana | 0.91% | $176.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.3K in total.
+1 live pool clear this page's $100K TVL floor, $176.9K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SOLC pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

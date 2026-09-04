@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank AVDAI pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
+- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

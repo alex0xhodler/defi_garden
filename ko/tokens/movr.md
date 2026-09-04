@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e07aa5b4-d994-51cc-ab51-fc21de0cf30d&src=seo_token) | Solana | 0.04% | $82.05M |
 | [raydium-amm →](https://www.defi.garden/?pool=48e7c0a5-00b3-5d6c-a209-205a4a033114&src=seo_token) | Solana | 0.15% | $16.71M |
-| [raydium-amm →](https://www.defi.garden/?pool=92947d53-c777-501d-a074-ffd87a412161&src=seo_token) | Solana | 0.11% | $16.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=92947d53-c777-501d-a074-ffd87a412161&src=seo_token) | Solana | 0.12% | $16.54M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -29,7 +29,7 @@ MOVR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.04%부터 0.15%까
 |---|---|---|---|
 | raydium-amm | 0.04% | 0.04% | 기본 금리 |
 | raydium-amm | 0.15% | 0.59% | 기본 금리 |
-| raydium-amm | 0.11% | 2.07% | 기본 금리 |
+| raydium-amm | 0.12% | 1.76% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,14 +54,14 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.15%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

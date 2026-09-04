@@ -1,10 +1,10 @@
 # AFFSENTORA DeFi Yields
 
-The highest honest AFFSENTORA yield right now is 2.61% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AFFSENTORA yield right now is 2.51% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_token) | TON | 2.61% | $955K |
+| [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_token) | TON | 2.51% | $994.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AFFSENTORA yield today?
 
-2.61% APY on affluent (TON), based on live DefiLlama data.
+2.51% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many AFFSENTORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $955K in total.
+1 live pool clear this page's $100K TVL floor, $994.3K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank AFFSENTORA pools. This view c
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [WGRAM](https://www.defi.garden/tokens/wgram)
 - [UTYA](https://www.defi.garden/tokens/utya)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

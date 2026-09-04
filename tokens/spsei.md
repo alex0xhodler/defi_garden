@@ -4,7 +4,7 @@ The highest honest SPSEI yield right now is 0.61% on takara-lend (Sei), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_token) | Sei | 0.61% | $3.24M |
+| [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_token) | Sei | 0.61% | $3.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPSEI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.24M in total.
+1 live pool clear this page's $100K TVL floor, $3.22M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SPSEI pools. This view covers
 
 - [Sei](https://www.defi.garden/chains/sei)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

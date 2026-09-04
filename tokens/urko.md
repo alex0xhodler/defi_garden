@@ -4,7 +4,7 @@ The highest honest URKO yield right now is 0.12% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.12% | $140.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.12% | $141K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many URKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.6K in total.
+1 live pool clear this page's $100K TVL floor, $141K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank URKO pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| BNSOL | [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_chain) | 4.61% | $1.04B |
-| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_chain) | 4.94% | $1.01B |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_chain) | 3.56% | $890.69M |
-| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_chain) | 5.17% | $519.28M |
-| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_chain) | 4.67% | $452.6M |
-| DSOL | [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_chain) | 4.80% | $281.98M |
-| ONYC | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_chain) | 11.54% | $280.09M |
-| MSOL | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_chain) | 5.28% | $232.23M |
+| BNSOL | [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_chain) | 4.64% | $1.07B |
+| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_chain) | 4.92% | $1.05B |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_chain) | 3.57% | $937.81M |
+| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_chain) | 5.08% | $534.04M |
+| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_chain) | 4.94% | $451.74M |
+| DSOL | [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_chain) | 4.72% | $291.06M |
+| ONYC | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_chain) | 11.54% | $287.86M |
+| MSOL | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_chain) | 6.53% | $238.73M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.54%예요.
 
 ### Solana 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,020개이며, 합산 TVL은 $10.1B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,020개이며, 합산 TVL은 $10.38B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.54%예요.
 - [ONYC](https://www.defi.garden/ko/tokens/onyc)
 - [MSOL](https://www.defi.garden/ko/tokens/msol)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

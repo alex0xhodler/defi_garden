@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NACRDX pools. This view cover
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

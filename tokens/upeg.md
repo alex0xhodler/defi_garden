@@ -1,29 +1,29 @@
 # UPEG DeFi Yields
 
-The highest honest UPEG yield right now is 73.33% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPEG yield right now is 18.07% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 73.33% | $762.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 59.91% | $138.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 20.49% | $1.6M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 18.07% | $141.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UPEG's lower-variability candidates are uniswap-v4 (Ethereum), 59.91% APY, $138.6K TVL, https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token; uniswap-v4 (Ethereum), 73.33% APY, $762.3K TVL, https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UPEG's lower-variability candidates are uniswap-v4 (Ethereum), 18.07% APY, $141.9K TVL, https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token; uniswap-v4 (Ethereum), 20.49% APY, $1.6M TVL, https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 59.91% | $138.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 73.33% | $762.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 18.07% | $141.9K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 20.49% | $1.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UPEG shows up in 2 pools here, with rates from 59.91% to 73.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UPEG shows up in 2 pools here, with rates from 18.07% to 20.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 73.33% | 48.67% | Base rate |
-| uniswap-v4 | 59.91% | 12.44% | Base rate |
+| uniswap-v4 | 20.49% | 47.33% | Base rate |
+| uniswap-v4 | 18.07% | 14.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UPEG yield today?
 
-73.33% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+18.07% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UPEG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.02M in total.
+3 live pools clear this page's $100K TVL floor, $1.86M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UPEG pools have the most stable APY history?
 
-Based on APY history only, UPEG's lower-variability candidates are uniswap-v4 (Ethereum), 59.91% APY, $138.6K TVL, https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token; uniswap-v4 (Ethereum), 73.33% APY, $762.3K TVL, https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UPEG's lower-variability candidates are uniswap-v4 (Ethereum), 18.07% APY, $141.9K TVL, https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token; uniswap-v4 (Ethereum), 20.49% APY, $1.6M TVL, https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, UPEG's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

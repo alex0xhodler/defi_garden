@@ -1,10 +1,10 @@
 # VEDUST DeFi Yields
 
-The highest honest VEDUST yield right now is 44.99% on neverland (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VEDUST yield right now is 43.88% on neverland (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [neverland →](https://www.defi.garden/?pool=f663c0ae-34cd-4209-a0dd-f65c5a84c0f8&src=seo_token) | Monad | 44.99% | $315K |
+| [neverland →](https://www.defi.garden/?pool=f663c0ae-34cd-4209-a0dd-f65c5a84c0f8&src=seo_token) | Monad | 43.88% | $323K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEDUST yield today?
 
-44.99% APY on neverland (Monad), based on live DefiLlama data.
+43.88% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many VEDUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $315K in total.
+1 live pool clear this page's $100K TVL floor, $323K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank VEDUST pools. This view cover
 ## Related tokens
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YIELDUSDT pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,10 +1,10 @@
 # TYBG DeFi Yields
 
-The highest honest TYBG yield right now is 5.03% on sushiswap (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TYBG yield right now is 10.94% on sushiswap (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=98f18889-a5cf-45ae-95e8-ccba5afde611&src=seo_token) | Base | 5.03% | $206.4K |
+| [sushiswap →](https://www.defi.garden/?pool=98f18889-a5cf-45ae-95e8-ccba5afde611&src=seo_token) | Base | 10.94% | $227.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TYBG yield today?
 
-5.03% APY on sushiswap (Base), based on live DefiLlama data.
+10.94% APY on sushiswap (Base), based on live DefiLlama data.
 
 ### How many TYBG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.4K in total.
+1 live pool clear this page's $100K TVL floor, $227.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TYBG pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

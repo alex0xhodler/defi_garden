@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 0.12%예요.
 
 ## 관련 토큰
 
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

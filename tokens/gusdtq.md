@@ -1,10 +1,10 @@
 # GUSDTQ DeFi Yields
 
-The highest honest GUSDTQ yield right now is 4.19% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSDTQ yield right now is 3.83% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=09946099-2c68-4fcb-bc6c-32b6bf6019fe&src=seo_token) | Ethereum | 4.19% | $22.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=09946099-2c68-4fcb-bc6c-32b6bf6019fe&src=seo_token) | Ethereum | 3.83% | $22.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSDTQ yield today?
 
-4.19% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.83% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GUSDTQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.96M in total.
+1 live pool clear this page's $100K TVL floor, $22.97M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GUSDTQ pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

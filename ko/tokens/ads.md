@@ -1,35 +1,35 @@
 # ADS 디파이 수익률
 
-현재 ADS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.92%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ADS의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 4.03%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.92% | $925.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.82% | $847.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.29% | $826.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 11.37% | $385.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 6.08% | $259.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.91% | $952.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.76% | $880.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.32% | $855K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 4.01% | $399.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 4.03% | $265.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ADS의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.29%, TVL $826.1K, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; Ethereum의 uniswap-v4, APY 0.92%, TVL $925.5K, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; Ethereum의 uniswap-v4, APY 0.82%, TVL $847.7K, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; Base의 uniswap-v3, APY 6.08%, TVL $259.7K, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; Base의 uniswap-v3, APY 11.37%, TVL $385.6K, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ADS의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.32%, TVL $855K, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; Ethereum의 uniswap-v4, APY 0.91%, TVL $952.3K, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; Ethereum의 uniswap-v4, APY 0.76%, TVL $880.3K, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; Base의 uniswap-v3, APY 4.03%, TVL $265.8K, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; Base의 uniswap-v3, APY 4.01%, TVL $399.4K, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.29% | $826.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.92% | $925.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.82% | $847.7K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 6.08% | $259.7K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 11.37% | $385.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.32% | $855K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.91% | $952.3K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.76% | $880.3K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 4.03% | $265.8K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 4.01% | $399.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ADS 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.29%부터 11.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ADS 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.32%부터 4.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.68%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -37,11 +37,11 @@ ADS 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.29%부터 11.37%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 0.92% | 0.61% | 기본 금리 |
-| uniswap-v4 | 0.82% | 0.68% | 기본 금리 |
-| uniswap-v4 | 0.29% | 0.23% | 기본 금리 |
-| uniswap-v3 | 11.37% | 5.49% | 기본 금리 |
-| uniswap-v3 | 6.08% | 3.17% | 기본 금리 |
+| uniswap-v4 | 0.91% | 0.64% | 기본 금리 |
+| uniswap-v4 | 0.76% | 0.70% | 기본 금리 |
+| uniswap-v4 | 0.32% | 0.23% | 기본 금리 |
+| uniswap-v3 | 4.01% | 5.57% | 기본 금리 |
+| uniswap-v3 | 4.03% | 3.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,11 +49,11 @@ ADS 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.29%부터 11.37%까
 
 ### 오늘 ADS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.92%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 4.03%예요.
 
 ### ADS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.49M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.6M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.92%예�
 
 ### ADS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ADS의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.29%, TVL $826.1K, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; Ethereum의 uniswap-v4, APY 0.92%, TVL $925.5K, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; Ethereum의 uniswap-v4, APY 0.82%, TVL $847.7K, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; Base의 uniswap-v3, APY 6.08%, TVL $259.7K, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; Base의 uniswap-v3, APY 11.37%, TVL $385.6K, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ADS의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.32%, TVL $855K, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; Ethereum의 uniswap-v4, APY 0.91%, TVL $952.3K, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; Ethereum의 uniswap-v4, APY 0.76%, TVL $880.3K, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; Base의 uniswap-v3, APY 4.03%, TVL $265.8K, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; Base의 uniswap-v3, APY 4.01%, TVL $399.4K, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -77,4 +77,4 @@ APY 이력만 기준으로 비교한 ADS의 변동성 낮은 후보는 Ethereum�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

@@ -1,17 +1,17 @@
 # Tron 디파이 수익률
 
-현재 Tron의 가장 높은 정직한 수익률은 Tron의 tr-energy에서 11.36%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Tron의 가장 높은 정직한 수익률은 Tron의 tr-energy에서 11.89%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.39% | $658.17M |
-| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 3.98% | $400.98M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.36% | $90.66M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.37% | $68.27M |
-| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.32% | $8.86M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.88% | $4.29M |
-| U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0&src=seo_chain) | 0.38% | $4.19M |
-| TUSD | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_chain) | 1.43% | $1.07M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.37% | $673.69M |
+| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.00% | $401.09M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.89% | $91.58M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.31% | $71.15M |
+| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.32% | $8.76M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.88% | $4.42M |
+| U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0&src=seo_chain) | 0.44% | $4.09M |
+| USDT | [symbiosis →](https://www.defi.garden/?pool=dc5e88c5-b161-4f53-b5bc-ae5694e759ca&src=seo_chain) | 8.23% | $1.19M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Tron의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.36%예요.
+DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.89%예요.
 
 ### Tron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $3.74B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $3.86B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,6 +45,5 @@ DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.36%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [JST](https://www.defi.garden/ko/tokens/jst)
 - [SUN](https://www.defi.garden/ko/tokens/sun)
-- [TUSD](https://www.defi.garden/ko/tokens/tusd)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

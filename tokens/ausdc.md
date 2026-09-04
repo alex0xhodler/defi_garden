@@ -5,17 +5,17 @@ The highest honest AUSDC yield right now is 0.40% on hydration-dex (Polkadot), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $310.4K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; curve-dex (Ethereum), 0.35% APY, $310.4K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; curve-dex (Ethereum), 0.35% APY, $308.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.40% | $1.98M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $310.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $308.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | hydration-dex | 0.40% | 0.39% | Base rate |
-| curve-dex | 0.35% | 0.33% | Base rate |
+| curve-dex | 0.35% | 0.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.29M in total.
+2 live pools clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUSDC pools have the most stable APY history?
 
-Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; curve-dex (Ethereum), 0.35% APY, $310.4K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUSDC's lower-variability candidates are hydration-dex (Polkadot), 0.40% APY, $1.98M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token; curve-dex (Ethereum), 0.35% APY, $308.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, AUSDC's lower-variability candidates are hydration-de
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -1,33 +1,40 @@
 # SAND DeFi Yields
 
-The highest honest SAND yield right now is 8.94% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAND yield right now is 7.48% on quickswap-dex (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 8.94% | $332.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f1443e01-4fbd-5c6e-848e-670b4f719057&src=seo_token) | Base | 0.01% | $121.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 4.91% | $341.8K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 7.48% | $174.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f1443e01-4fbd-5c6e-848e-670b4f719057&src=seo_token) | Base | 0.06% | $121.9K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank SAND pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAND's lower-variability candidates are quickswap-dex (Polygon), 7.48% APY, $174.6K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; uniswap-v2 (Ethereum), 4.91% APY, $341.8K TVL, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 7.48% | $174.6K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 4.91% | $341.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SAND shows up in 2 pools here, with rates from 0.01% to 8.94% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAND shows up in 3 pools here, with rates from 0.06% to 7.48% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 10.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 8.94% | 10.65% | Base rate |
-| uniswap-v4 | 0.01% | — | Base rate |
+| uniswap-v2 | 4.91% | 10.81% | Base rate |
+| quickswap-dex | 7.48% | 29.30% | Base rate |
+| uniswap-v4 | 0.06% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SAND yield today?
 
-8.94% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.48% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many SAND pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $454.6K in total.
+3 live pools clear this page's $100K TVL floor, $638.4K in total.
 
 ### Are these rates safe?
 
@@ -47,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAND pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank SAND pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAND's lower-variability candidates are quickswap-dex (Polygon), 7.48% APY, $174.6K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; uniswap-v2 (Ethereum), 4.91% APY, $341.8K TVL, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,6 +68,7 @@ There is not enough qualifying APY history to rank SAND pools. This view covers 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Polygon](https://www.defi.garden/chains/polygon)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

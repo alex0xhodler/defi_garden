@@ -1,10 +1,10 @@
 # RONNIE DeFi Yields
 
-The highest honest RONNIE yield right now is 5.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RONNIE yield right now is 6.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1d8a5512-9d96-464e-9db9-c67407c1009e&src=seo_token) | Solana | 5.08% | $107.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=1d8a5512-9d96-464e-9db9-c67407c1009e&src=seo_token) | Solana | 6.53% | $115.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RONNIE yield today?
 
-5.08% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RONNIE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.9K in total.
+1 live pool clear this page's $100K TVL floor, $115.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank RONNIE pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

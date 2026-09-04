@@ -1,10 +1,10 @@
 # HEEBOO DeFi Yields
 
-The highest honest HEEBOO yield right now is 151.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEEBOO yield right now is 110.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c40be899-1c27-564e-8e35-62a2a09b3330&src=seo_token) | Solana | 151.80% | $309.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=c40be899-1c27-564e-8e35-62a2a09b3330&src=seo_token) | Solana | 110.99% | $308.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEEBOO yield today?
 
-151.80% APY on raydium-amm (Solana), based on live DefiLlama data.
+110.99% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEEBOO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $309.6K in total.
+1 live pool clear this page's $100K TVL floor, $308.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank HEEBOO pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

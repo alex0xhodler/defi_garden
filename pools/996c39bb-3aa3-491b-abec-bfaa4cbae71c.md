@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $367.5K
+**TVL:** $367.6K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.06% 30-day average. Reward 
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated September 3, 2026
+Last updated September 4, 2026

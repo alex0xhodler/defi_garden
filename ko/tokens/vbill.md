@@ -7,17 +7,17 @@
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.53% | $21.67M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.57% | $21.53M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.57% | $13.95M |
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.8K |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.53%, TVL $21.67M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.57%, TVL $703.8K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.57%, TVL $21.53M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.57%, TVL $13.95M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.53%, TVL $21.67M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.57%, TVL $703.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.57%, TVL $21.53M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.57%, TVL $13.95M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.53% | $21.67M |
-| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.8K |
+| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.9K |
 | 3 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.57% | $21.53M |
 | 4 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.57% | $13.95M |
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, BSC의 vaneck-treasury-fund에서 APY 3.57
 
 ### VBILL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.53%, TVL $21.67M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.57%, TVL $703.8K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.57%, TVL $21.53M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.57%, TVL $13.95M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.53%, TVL $21.67M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.57%, TVL $703.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.57%, TVL $21.53M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.57%, TVL $13.95M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

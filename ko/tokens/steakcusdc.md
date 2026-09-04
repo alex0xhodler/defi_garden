@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $40.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $39.26M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.20%예
 
 ### STEAKCUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $40.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $39.26M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.20%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

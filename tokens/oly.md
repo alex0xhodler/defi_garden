@@ -1,10 +1,10 @@
 # OLY DeFi Yields
 
-The highest honest OLY yield right now is 20.51% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OLY yield right now is 13.45% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5a0c564e-c96f-5ee7-97b1-7b4a73f47fdc&src=seo_token) | Ethereum | 20.51% | $126K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5a0c564e-c96f-5ee7-97b1-7b4a73f47fdc&src=seo_token) | Ethereum | 13.45% | $131.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OLY yield today?
 
-20.51% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+13.45% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many OLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126K in total.
+1 live pool clear this page's $100K TVL floor, $131.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OLY pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

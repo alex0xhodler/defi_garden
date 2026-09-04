@@ -1,17 +1,17 @@
 # Ethereum DeFi Yields
 
-The highest honest Ethereum yield right now is 5.08% on maple (Ethereum), among 3,319 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Ethereum yield right now is 5.03% on maple (Ethereum), among 3,351 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_chain) | 2.18% | $23.21B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_chain) | 2.18% | $8.44B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_chain) | 2.31% | $4.93B |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_chain) | 3.52% | $4.7B |
-| RETH | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_chain) | 2.18% | $3.25B |
-| USDC | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_chain) | 5.08% | $2.66B |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_chain) | 0.01% | $2.54B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_chain) | 4.74% | $1.36B |
+| STETH | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_chain) | 2.19% | $24.25B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_chain) | 2.23% | $8.81B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_chain) | 2.35% | $5.31B |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_chain) | 3.60% | $4.64B |
+| RETH | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_chain) | 2.17% | $3.4B |
+| USDC | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_chain) | 5.03% | $2.74B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_chain) | 4.62% | $1.39B |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_chain) | 3.56% | $1.16B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Ethereum yield today?
 
-5.08% APY on maple (Ethereum), based on live DefiLlama data.
+5.03% APY on maple (Ethereum), based on live DefiLlama data.
 
 ### How many Ethereum pools clear the TVL floor?
 
-3,319 live pools clear this page's $100K TVL floor, $102.98B in total.
+3,351 live pools clear this page's $100K TVL floor, $106.5B in total.
 
 ### Are these rates safe?
 
@@ -46,7 +46,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [RETH](https://www.defi.garden/tokens/reth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

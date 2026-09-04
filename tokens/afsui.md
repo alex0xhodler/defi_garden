@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank AFSUI pools. This view covers
 
 ## Related tokens
 
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
-- [BUCK](https://www.defi.garden/tokens/buck)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

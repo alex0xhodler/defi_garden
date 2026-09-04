@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MATICX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.82M in total.
+4 live pools clear this page's $100K TVL floor, $5.83M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank MATICX pools. This view cover
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

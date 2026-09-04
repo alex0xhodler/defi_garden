@@ -6,7 +6,7 @@ The highest honest MOVR yield right now is 0.15% on raydium-amm (Solana), among 
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e07aa5b4-d994-51cc-ab51-fc21de0cf30d&src=seo_token) | Solana | 0.04% | $82.05M |
 | [raydium-amm →](https://www.defi.garden/?pool=48e7c0a5-00b3-5d6c-a209-205a4a033114&src=seo_token) | Solana | 0.15% | $16.71M |
-| [raydium-amm →](https://www.defi.garden/?pool=92947d53-c777-501d-a074-ffd87a412161&src=seo_token) | Solana | 0.11% | $16.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=92947d53-c777-501d-a074-ffd87a412161&src=seo_token) | Solana | 0.12% | $16.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | raydium-amm | 0.04% | 0.04% | Base rate |
 | raydium-amm | 0.15% | 0.59% | Base rate |
-| raydium-amm | 0.11% | 2.07% | Base rate |
+| raydium-amm | 0.12% | 1.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,14 +54,14 @@ There is not enough qualifying APY history to rank MOVR pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

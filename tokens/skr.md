@@ -1,10 +1,10 @@
 # SKR DeFi Yields
 
-The highest honest SKR yield right now is 191.74% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKR yield right now is 153.58% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 191.74% | $723.4K |
+| [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 153.58% | $700.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKR yield today?
 
-191.74% APY on orca-dex (Solana), based on live DefiLlama data.
+153.58% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SKR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $723.4K in total.
+1 live pool clear this page's $100K TVL floor, $700.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SKR pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 3, 2026
+## Last updated September 4, 2026

@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Monad의 yuzu-money에서 APY 6.95%예요.
 ## 관련 토큰
 
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
-- [PT](https://www.defi.garden/ko/tokens/pt)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

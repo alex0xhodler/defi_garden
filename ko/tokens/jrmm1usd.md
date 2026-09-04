@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 2.23%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

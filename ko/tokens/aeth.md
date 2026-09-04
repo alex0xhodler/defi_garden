@@ -55,14 +55,14 @@ APY 이력만 기준으로 비교한 AETH의 변동성 낮은 후보는 Polkadot
 ## 관련 토큰
 
 - [SKY](https://www.defi.garden/ko/tokens/sky)
-- [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/ko/tokens/apyusd)
-- [GETH](https://www.defi.garden/ko/tokens/geth)
 - [VDOT](https://www.defi.garden/ko/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/ko/tokens/hollar)
+- [ADOT](https://www.defi.garden/ko/tokens/adot)
+- [AUSDT](https://www.defi.garden/ko/tokens/ausdt)
 
 ## 이용 가능한 체인
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026

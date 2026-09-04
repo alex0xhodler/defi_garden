@@ -1,34 +1,34 @@
 # ZBU 디파이 수익률
 
-현재 ZBU의 가장 높은 정직한 수익률은 Base의 zeebu에서 169.61%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZBU의 가장 높은 정직한 수익률은 Base의 zeebu에서 171.08%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token) | Base | 169.61% | $3.26M |
-| [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token) | Ethereum | 72.76% | $3.19M |
+| [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token) | Base | 171.08% | $3.24M |
+| [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token) | Ethereum | 73.16% | $3.17M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ZBU의 변동성 낮은 후보는 Ethereum의 zeebu, APY 72.76%, TVL $3.19M, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token; Base의 zeebu, APY 169.61%, TVL $3.26M, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZBU의 변동성 낮은 후보는 Ethereum의 zeebu, APY 73.16%, TVL $3.17M, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token; Base의 zeebu, APY 171.08%, TVL $3.24M, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token) | Ethereum | 72.76% | $3.19M |
-| 2 | [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token) | Base | 169.61% | $3.26M |
+| 1 | [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token) | Ethereum | 73.16% | $3.17M |
+| 2 | [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token) | Base | 171.08% | $3.24M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ZBU 풀은 여기 2개가 있고, 2개 체인에서 APY가 72.76%부터 169.61%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ZBU 풀은 여기 2개가 있고, 2개 체인에서 APY가 73.16%부터 171.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| zeebu | 169.61% | — | 인센티브 100.00% |
-| zeebu | 72.76% | — | 인센티브 100.00% |
+| zeebu | 171.08% | — | 인센티브 100.00% |
+| zeebu | 73.16% | — | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -36,11 +36,11 @@ ZBU 풀은 여기 2개가 있고, 2개 체인에서 APY가 72.76%부터 169.61%�
 
 ### 오늘 ZBU의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 zeebu에서 APY 169.61%예요.
+DefiLlama 실시간 데이터 기준, Base의 zeebu에서 APY 171.08%예요.
 
 ### ZBU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.41M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -48,7 +48,7 @@ DefiLlama 실시간 데이터 기준, Base의 zeebu에서 APY 169.61%예요.
 
 ### ZBU 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ZBU의 변동성 낮은 후보는 Ethereum의 zeebu, APY 72.76%, TVL $3.19M, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token; Base의 zeebu, APY 169.61%, TVL $3.26M, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZBU의 변동성 낮은 후보는 Ethereum의 zeebu, APY 73.16%, TVL $3.17M, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331&src=seo_token; Base의 zeebu, APY 171.08%, TVL $3.24M, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -64,4 +64,4 @@ APY 이력만 기준으로 비교한 ZBU의 변동성 낮은 후보는 Ethereum�
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 3, 2026
+## 마지막 업데이트: September 4, 2026
