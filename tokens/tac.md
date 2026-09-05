@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TAC pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

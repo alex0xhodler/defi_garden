@@ -1,10 +1,10 @@
 # GRIFFAIN DeFi Yields
 
-The highest honest GRIFFAIN yield right now is 28.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRIFFAIN yield right now is 23.55% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b&src=seo_token) | Solana | 28.02% | $1.72M |
+| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b&src=seo_token) | Solana | 23.55% | $1.67M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRIFFAIN yield today?
 
-28.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+23.55% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GRIFFAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.72M in total.
+1 live pool clear this page's $100K TVL floor, $1.67M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GRIFFAIN pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

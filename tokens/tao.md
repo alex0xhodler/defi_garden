@@ -1,10 +1,10 @@
 # TAO DeFi Yields
 
-The highest honest TAO yield right now is 212.26% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAO yield right now is 74.95% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 212.26% | $532.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 74.95% | $537.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TAO yield today?
 
-212.26% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+74.95% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TAO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $532.9K in total.
+1 live pool clear this page's $100K TVL floor, $537.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TAO pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

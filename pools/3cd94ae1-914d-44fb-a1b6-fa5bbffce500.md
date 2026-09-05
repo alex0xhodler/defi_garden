@@ -1,12 +1,12 @@
 # WETH-BIRB — uniswap-v2 on Base
 
-**Total APY:** 0.40% (0.40% Base · + 0.00% Rewards)
+**Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
 
-**TVL:** $104.1K
+**TVL:** $101.4K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.21%
+**30d Mean APY:** 0.23%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,020 in 5y at current rates.
+$1,000 in this pool grows to ~$1,003 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.40% right now vs a 0.21% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.06% right now vs a 0.23% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,020 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 4, 2026
+Last updated September 5, 2026

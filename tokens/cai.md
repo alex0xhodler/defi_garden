@@ -1,10 +1,10 @@
 # CAI DeFi Yields
 
-The highest honest CAI yield right now is 0.17% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAI yield right now is 0.06% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=049555bc-c67d-4cd4-b5a0-3f522d447ddd&src=seo_token) | Ethereum | 0.17% | $290.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=049555bc-c67d-4cd4-b5a0-3f522d447ddd&src=seo_token) | Ethereum | 0.06% | $283.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAI yield today?
 
-0.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many CAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $290.4K in total.
+1 live pool clear this page's $100K TVL floor, $283.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CAI pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

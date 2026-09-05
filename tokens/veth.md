@@ -4,7 +4,7 @@ The highest honest VETH yield right now is 2.69% on bifrost-liquid-staking (Ethe
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eb101287-7f4f-4847-9c16-8b06c2067dc8&src=seo_token) | Ethereum | 2.69% | $1.53M |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eb101287-7f4f-4847-9c16-8b06c2067dc8&src=seo_token) | Ethereum | 2.69% | $1.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.53M in total.
+1 live pool clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VETH pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

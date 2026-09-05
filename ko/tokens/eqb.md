@@ -1,10 +1,10 @@
 # EQB 디파이 수익률
 
-현재 EQB의 가장 높은 정직한 수익률은 Arbitrum의 camelot-v2에서 2.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EQB의 가장 높은 정직한 수익률은 Arbitrum의 camelot-v2에서 4.05%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 2.62% | $185.8K |
+| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 4.05% | $185.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 EQB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v2에서 APY 2.62%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v2에서 APY 4.05%예요.
 
 ### EQB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v2에서 APY 2.62%예�
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

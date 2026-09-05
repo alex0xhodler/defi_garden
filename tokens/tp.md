@@ -1,10 +1,10 @@
 # TP DeFi Yields
 
-The highest honest TP yield right now is 0.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TP yield right now is 0.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f2683a1-cf2d-5803-8967-4bd13c8d1c47&src=seo_token) | Solana | 0.05% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f2683a1-cf2d-5803-8967-4bd13c8d1c47&src=seo_token) | Solana | 0.02% | $300K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TP yield today?
 
-0.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TP pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TP pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

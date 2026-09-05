@@ -1,33 +1,33 @@
 # MXNB 디파이 수익률
 
-현재 MXNB의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 9.18%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MXNB의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.21%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.25% | $167.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 1.95% | $161.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token) | Polygon | 0.50% | $145.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 9.18% | $117.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.21% | $167.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 10.00% | $148.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token) | Polygon | 1.94% | $145.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 15.04% | $113.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MXNB의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.25%, TVL $167.2K, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token; Polygon의 uniswap-v3, APY 0.50%, TVL $145.6K, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token; Arbitrum의 uniswap-v3, APY 1.95%, TVL $161.1K, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; Base의 aerodrome-slipstream, APY 9.18%, TVL $117.7K, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MXNB의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.21%, TVL $167.3K, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token; Polygon의 uniswap-v3, APY 1.94%, TVL $145.6K, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token; Arbitrum의 uniswap-v3, APY 10.00%, TVL $148.3K, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; Base의 aerodrome-slipstream, APY 15.04%, TVL $113.5K, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.25% | $167.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token) | Polygon | 0.50% | $145.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 1.95% | $161.1K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 9.18% | $117.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.21% | $167.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token) | Polygon | 1.94% | $145.6K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 10.00% | $148.3K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 15.04% | $113.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MXNB 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.25%부터 9.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MXNB 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.21%부터 15.04%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.30%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,10 +35,10 @@ MXNB 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.25%부터 9.18%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.25% | 0.24% | 기본 금리 |
-| uniswap-v3 | 1.95% | 0.37% | 기본 금리 |
-| uniswap-v3 | 0.50% | 0.23% | 기본 금리 |
-| aerodrome-slipstream | 9.18% | 7.43% | 인센티브 62.75% |
+| uniswap-v3 | 0.21% | 0.23% | 기본 금리 |
+| uniswap-v3 | 10.00% | 0.56% | 기본 금리 |
+| uniswap-v3 | 1.94% | 0.26% | 기본 금리 |
+| aerodrome-slipstream | 15.04% | 7.57% | 인센티브 39.78% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ MXNB 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.25%부터 9.18%까
 
 ### 오늘 MXNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 9.18%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.21%예요.
 
 ### MXNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $591.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $574.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 9.1
 
 ### MXNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MXNB의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.25%, TVL $167.2K, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token; Polygon의 uniswap-v3, APY 0.50%, TVL $145.6K, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token; Arbitrum의 uniswap-v3, APY 1.95%, TVL $161.1K, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; Base의 aerodrome-slipstream, APY 9.18%, TVL $117.7K, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MXNB의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.21%, TVL $167.3K, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token; Polygon의 uniswap-v3, APY 1.94%, TVL $145.6K, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636&src=seo_token; Arbitrum의 uniswap-v3, APY 10.00%, TVL $148.3K, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; Base의 aerodrome-slipstream, APY 15.04%, TVL $113.5K, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -75,4 +75,4 @@ APY 이력만 기준으로 비교한 MXNB의 변동성 낮은 후보는 Arbitrum
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

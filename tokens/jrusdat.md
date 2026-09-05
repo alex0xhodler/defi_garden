@@ -1,10 +1,10 @@
 # JRUSDAT DeFi Yields
 
-The highest honest JRUSDAT yield right now is 36.96% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRUSDAT yield right now is 37.75% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 36.96% | $1.81M |
+| [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 37.75% | $1.81M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRUSDAT yield today?
 
-36.96% APY on strata-markets (Ethereum), based on live DefiLlama data.
+37.75% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many JRUSDAT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JRUSDAT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

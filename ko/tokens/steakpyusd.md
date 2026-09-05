@@ -1,10 +1,10 @@
 # STEAKPYUSD 디파이 수익률
 
-현재 STEAKPYUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STEAKPYUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.39%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 7.01% | $278.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 6.39% | $278.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 STEAKPYUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.01%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.39%예요.
 
 ### STEAKPYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.01%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

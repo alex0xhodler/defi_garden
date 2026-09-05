@@ -1,10 +1,10 @@
 # APYXUSDC DeFi Yields
 
-The highest honest APYXUSDC yield right now is 5.75% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APYXUSDC yield right now is 6.12% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=79197779-01a2-4e36-b49c-c26eb427c991&src=seo_token) | Ethereum | 5.75% | $4.72M |
+| [morpho-blue →](https://www.defi.garden/?pool=79197779-01a2-4e36-b49c-c26eb427c991&src=seo_token) | Ethereum | 6.12% | $4.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APYXUSDC yield today?
 
-5.75% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.12% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many APYXUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank APYXUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

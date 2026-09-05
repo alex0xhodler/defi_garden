@@ -1,31 +1,31 @@
 # RAIN DeFi Yields
 
-The highest honest RAIN yield right now is 3.18% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAIN yield right now is 2.57% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 2.49% | $1.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 3.23% | $1.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token) | Arbitrum | 3.18% | $122.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 2.57% | $1.6M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 1.37% | $1M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token) | Arbitrum | 1.37% | $119K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 3.23% APY, $1.02M TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 2.49% APY, $1.65M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token; uniswap-v3 (Arbitrum), 3.18% APY, $122.8K TVL, https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 1.37% APY, $1M TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 2.57% APY, $1.6M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token; uniswap-v3 (Arbitrum), 1.37% APY, $119K TVL, https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 3.23% | $1.02M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 2.49% | $1.65M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token) | Arbitrum | 3.18% | $122.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 1.37% | $1M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 2.57% | $1.6M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token) | Arbitrum | 1.37% | $119K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAIN shows up in 3 pools here, with rates from 2.49% to 3.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAIN shows up in 3 pools here, with rates from 1.37% to 2.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 2.49% | 5.75% | Base rate |
-| uniswap-v3 | 3.23% | 7.73% | Base rate |
-| uniswap-v3 | 3.18% | 5.24% | Base rate |
+| uniswap-v3 | 2.57% | 5.44% | Base rate |
+| uniswap-v3 | 1.37% | 7.75% | Base rate |
+| uniswap-v3 | 1.37% | 5.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAIN yield today?
 
-3.18% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+2.57% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RAIN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.8M in total.
+3 live pools clear this page's $100K TVL floor, $2.72M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAIN pools have the most stable APY history?
 
-Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 3.23% APY, $1.02M TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 2.49% APY, $1.65M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token; uniswap-v3 (Arbitrum), 3.18% APY, $122.8K TVL, https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 1.37% APY, $1M TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 2.57% APY, $1.6M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token; uniswap-v3 (Arbitrum), 1.37% APY, $119K TVL, https://www.defi.garden/?pool=7629b38d-021f-49dd-a342-c8330870d810&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

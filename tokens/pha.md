@@ -1,10 +1,10 @@
 # PHA DeFi Yields
 
-The highest honest PHA yield right now is 19.29% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PHA yield right now is 8.54% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=eed0e360-a9fc-4c3a-bbcf-d0f841c67167&src=seo_token) | Ethereum | 19.29% | $163.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eed0e360-a9fc-4c3a-bbcf-d0f841c67167&src=seo_token) | Ethereum | 8.54% | $163.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PHA yield today?
 
-19.29% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+8.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.9K in total.
+1 live pool clear this page's $100K TVL floor, $163.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PHA pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

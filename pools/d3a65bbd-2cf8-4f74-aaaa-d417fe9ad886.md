@@ -1,8 +1,8 @@
 # LP-HAY — wombat-exchange on BSC
 
-**Total APY:** 0.06% (0.01% Base · + 0.05% Rewards)
+**Total APY:** 0.07% (0.03% Base · + 0.05% Rewards)
 
-**TVL:** $363.4K
+**TVL:** $363.6K
 
 **Pool Type:** Yield Farming
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,003 in 5y at current rates.
+$1,000 in this pool grows to ~$1,004 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,004 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on wombat-exchange](https://www.wombat.exchange/?ref=defi.garden)
 
-Last updated September 4, 2026
+Last updated September 5, 2026

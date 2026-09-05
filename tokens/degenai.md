@@ -4,7 +4,7 @@ The highest honest DEGENAI yield right now is 1.06% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=db296555-ae98-4cae-a94d-274d45a0dea6&src=seo_token) | Solana | 1.06% | $122.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=db296555-ae98-4cae-a94d-274d45a0dea6&src=seo_token) | Solana | 1.06% | $115.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DEGENAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.8K in total.
+1 live pool clear this page's $100K TVL floor, $115.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DEGENAI pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

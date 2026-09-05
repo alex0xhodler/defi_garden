@@ -1,10 +1,10 @@
 # SUN DeFi Yields
 
-The highest honest SUN yield right now is 1.88% on justlend-v1 (Tron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUN yield right now is 1.85% on justlend-v1 (Tron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_token) | Tron | 1.88% | $4.42M |
+| [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_token) | Tron | 1.85% | $4.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUN yield today?
 
-1.88% APY on justlend-v1 (Tron), based on live DefiLlama data.
+1.85% APY on justlend-v1 (Tron), based on live DefiLlama data.
 
 ### How many SUN pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUN pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

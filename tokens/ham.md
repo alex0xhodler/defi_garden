@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HAM pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -4,7 +4,7 @@ The highest honest BULLY yield right now is 1.11% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71bb6b62-f970-45de-b0ea-4da5a8c4b797&src=seo_token) | Solana | 1.11% | $127.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=71bb6b62-f970-45de-b0ea-4da5a8c4b797&src=seo_token) | Solana | 1.11% | $120.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BULLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.5K in total.
+1 live pool clear this page's $100K TVL floor, $120.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BULLY pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

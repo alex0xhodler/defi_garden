@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LILPEPE pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.46M in total.
+5 live pools clear this page's $100K TVL floor, $1.44M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank LILPEPE pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

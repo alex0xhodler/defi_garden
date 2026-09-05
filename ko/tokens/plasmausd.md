@@ -1,10 +1,10 @@
 # PLASMAUSD 디파이 수익률
 
-현재 PLASMAUSD의 가장 높은 정직한 수익률은 Plasma의 veda에서 3.74%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PLASMAUSD의 가장 높은 정직한 수익률은 Plasma의 veda에서 6.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 3.74% | $32.7M |
+| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 6.30% | $32.72M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 PLASMAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.74%예요.
+DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 6.30%예요.
 
 ### PLASMAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $32.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $32.72M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.74%예요.
 
 ## 관련 토큰
 
+- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [GHO](https://www.defi.garden/ko/tokens/gho)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [YZPP](https://www.defi.garden/ko/tokens/yzpp)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 
 ## 이용 가능한 체인
 
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

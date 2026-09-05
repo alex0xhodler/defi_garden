@@ -4,7 +4,7 @@ The highest honest CRVUSDBTCETH yield right now is 0.07% on curve-dex (Polygon),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b3dba47e-da83-4267-891e-67194f33443d&src=seo_token) | Polygon | 0.07% | $337.6K |
+| [curve-dex →](https://www.defi.garden/?pool=b3dba47e-da83-4267-891e-67194f33443d&src=seo_token) | Polygon | 0.07% | $338.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVUSDBTCETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $337.6K in total.
+1 live pool clear this page's $100K TVL floor, $338.6K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank CRVUSDBTCETH pools. This view
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 - [WPOL](https://www.defi.garden/tokens/wpol)
+- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

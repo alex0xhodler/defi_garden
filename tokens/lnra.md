@@ -1,10 +1,10 @@
 # LNRA DeFi Yields
 
-The highest honest LNRA yield right now is 72.09% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LNRA yield right now is 68.73% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d7aec004-2d2c-5512-a425-1bd22196ab01&src=seo_token) | Base | 72.09% | $290.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d7aec004-2d2c-5512-a425-1bd22196ab01&src=seo_token) | Base | 68.73% | $331.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LNRA yield today?
 
-72.09% APY on uniswap-v2 (Base), based on live DefiLlama data.
+68.73% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many LNRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $290.5K in total.
+1 live pool clear this page's $100K TVL floor, $331.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LNRA pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

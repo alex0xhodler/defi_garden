@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank OKSD pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

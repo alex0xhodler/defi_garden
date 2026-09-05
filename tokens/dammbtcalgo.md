@@ -4,7 +4,7 @@ The highest honest DAMMBTCALGO yield right now is 1.13% on lagoon (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=28896dc3-f2c1-5bb1-95c8-9e3fe940f797&src=seo_token) | Ethereum | 1.13% | $916.6K |
+| [lagoon →](https://www.defi.garden/?pool=28896dc3-f2c1-5bb1-95c8-9e3fe940f797&src=seo_token) | Ethereum | 1.13% | $899.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMBTCALGO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $916.6K in total.
+1 live pool clear this page's $100K TVL floor, $899.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAMMBTCALGO pools. This view 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -1,10 +1,10 @@
 # NFALCON 디파이 수익률
 
-현재 NFALCON의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 7.33%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NFALCON의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 7.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.33% | $25.76M |
+| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.30% | $25.76M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 NFALCON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 7.33%예요.
+DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 7.30%예요.
 
 ### NFALCON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 7.
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NAXI](https://www.defi.garden/ko/tokens/naxi)
-- [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
+- [NTBILL](https://www.defi.garden/ko/tokens/ntbill)
 
 ## 이용 가능한 체인
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

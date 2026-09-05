@@ -1,10 +1,10 @@
 # GTUSDCB DeFi Yields
 
-The highest honest GTUSDCB yield right now is 3.99% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCB yield right now is 3.88% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 3.99% | $422.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 3.88% | $405.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCB yield today?
 
-3.99% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+3.88% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
 
 ### How many GTUSDCB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $422.4K in total.
+1 live pool clear this page's $100K TVL floor, $405.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTUSDCB pools. This view cove
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

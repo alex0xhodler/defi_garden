@@ -1,10 +1,11 @@
 # MM DeFi Yields
 
-The highest honest MM yield right now is 0.13% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MM yield right now is 0.10% on uniswap-v4 (BSC), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.13% | $104.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8063667a-8290-5e42-92a0-c9fe313d353d&src=seo_token) | BSC | 0.10% | $127.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.21% | $103.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,17 +16,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MM shows up in 1 pools here, with rates from 0.13% to 0.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MM shows up in 2 pools here, with rates from 0.10% to 0.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.13% | 1.01% | Base rate |
+| uniswap-v4 | 0.10% | 0.01% | Base rate |
+| uniswap-v3 | 0.21% | 1.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MM yield today?
 
-0.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.10% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many MM pools clear the TVL floor?
 
@@ -58,6 +60,7 @@ There is not enough qualifying APY history to rank MM pools. This view covers AP
 
 ## Available on
 
+- [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

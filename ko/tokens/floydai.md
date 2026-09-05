@@ -1,10 +1,10 @@
 # FLOYDAI 디파이 수익률
 
-현재 FLOYDAI의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.35%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FLOYDAI의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.40%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=85781f19-d948-48b1-b6cd-40f87c7ab6be&src=seo_token) | Solana | 1.35% | $102.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=85781f19-d948-48b1-b6cd-40f87c7ab6be&src=seo_token) | Solana | 2.40% | $106.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 FLOYDAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.35%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.40%예요.
 
 ### FLOYDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $102.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $106.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.35%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

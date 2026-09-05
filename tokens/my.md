@@ -1,10 +1,10 @@
 # MY DeFi Yields
 
-The highest honest MY yield right now is 0.12% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MY yield right now is 1.25% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.12% | $259.2K |
+| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 1.25% | $264.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MY yield today?
 
-0.12% APY on dedust (TON), based on live DefiLlama data.
+1.25% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many MY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $259.2K in total.
+1 live pool clear this page's $100K TVL floor, $264.7K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank MY pools. This view covers AP
 ## Related tokens
 
 - [GRAM](https://www.defi.garden/tokens/gram)
-- [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
+- [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
 - [STON](https://www.defi.garden/tokens/ston)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MY pools. This view covers AP
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

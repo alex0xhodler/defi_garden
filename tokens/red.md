@@ -1,29 +1,29 @@
 # RED DeFi Yields
 
-The highest honest RED yield right now is 213.28% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RED yield right now is 154.28% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 120.73% | $492.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 213.28% | $172.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 24.91% | $495.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 154.28% | $176.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RED's lower-variability candidates are uniswap-v4 (Ethereum), 120.73% APY, $492.1K TVL, https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token; aerodrome-slipstream (Base), 213.28% APY, $172.6K TVL, https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RED's lower-variability candidates are uniswap-v4 (Ethereum), 24.91% APY, $495.8K TVL, https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token; aerodrome-slipstream (Base), 154.28% APY, $176.6K TVL, https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 120.73% | $492.1K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 213.28% | $172.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 24.91% | $495.8K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 154.28% | $176.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RED shows up in 2 pools here, with rates from 120.73% to 213.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RED shows up in 2 pools here, with rates from 24.91% to 154.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 107.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 110.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ RED shows up in 2 pools here, with rates from 120.73% to 213.28% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 120.73% | 63.02% | Base rate |
-| aerodrome-slipstream | 213.28% | 151.37% | 37.02% incentives |
+| uniswap-v4 | 24.91% | 64.93% | Base rate |
+| aerodrome-slipstream | 154.28% | 155.81% | 49.27% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RED yield today?
 
-213.28% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+154.28% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RED pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $664.6K in total.
+2 live pools clear this page's $100K TVL floor, $672.3K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RED pools have the most stable APY history?
 
-Based on APY history only, RED's lower-variability candidates are uniswap-v4 (Ethereum), 120.73% APY, $492.1K TVL, https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token; aerodrome-slipstream (Base), 213.28% APY, $172.6K TVL, https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RED's lower-variability candidates are uniswap-v4 (Ethereum), 24.91% APY, $495.8K TVL, https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token; aerodrome-slipstream (Base), 154.28% APY, $176.6K TVL, https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, RED's lower-variability candidates are uniswap-v4 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

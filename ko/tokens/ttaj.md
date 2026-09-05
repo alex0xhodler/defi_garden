@@ -1,10 +1,10 @@
 # TTAJ 디파이 수익률
 
-현재 TTAJ의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 0.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TTAJ의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 0.22%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=da876bad-f2f1-43c6-a3bb-bd983798475e&src=seo_token) | Polygon | 0.14% | $119.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da876bad-f2f1-43c6-a3bb-bd983798475e&src=seo_token) | Polygon | 0.22% | $120.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 TTAJ의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.14%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.22%예요.
 
 ### TTAJ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $119.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.14%예�
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
 - [WPOL](https://www.defi.garden/ko/tokens/wpol)
+- [MATICX](https://www.defi.garden/ko/tokens/maticx)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

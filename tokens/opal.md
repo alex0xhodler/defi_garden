@@ -1,30 +1,30 @@
 # OPAL DeFi Yields
 
-The highest honest OPAL yield right now is 7.34% on origami-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPAL yield right now is 5.52% on origami-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 2.51% | $2.78M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 0.38% | $2.72M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.90% | $2.71M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.34% | $494.3K |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 5.52% | $495.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Ethereum), 0.90% APY, $2.71M TVL, https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token; origami-finance (Ethereum), 7.34% APY, $494.3K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Ethereum), 0.90% APY, $2.71M TVL, https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token; origami-finance (Ethereum), 5.52% APY, $495.6K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.90% | $2.71M |
-| 2 | [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.34% | $494.3K |
+| 2 | [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 5.52% | $495.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OPAL shows up in 3 pools here, with rates from 0.90% to 7.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPAL shows up in 3 pools here, with rates from 0.38% to 5.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,9 +32,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.51% | 4.42% | Base rate |
-| uniswap-v2 | 0.90% | 1.07% | Base rate |
-| origami-finance | 7.34% | 10.57% | Base rate |
+| uniswap-v2 | 0.38% | 3.29% | Base rate |
+| uniswap-v2 | 0.90% | 1.10% | Base rate |
+| origami-finance | 5.52% | 10.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPAL yield today?
 
-7.34% APY on origami-finance (Ethereum), based on live DefiLlama data.
+5.52% APY on origami-finance (Ethereum), based on live DefiLlama data.
 
 ### How many OPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.99M in total.
+3 live pools clear this page's $100K TVL floor, $5.92M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OPAL pools have the most stable APY history?
 
-Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Ethereum), 0.90% APY, $2.71M TVL, https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token; origami-finance (Ethereum), 7.34% APY, $494.3K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Ethereum), 0.90% APY, $2.71M TVL, https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token; origami-finance (Ethereum), 5.52% APY, $495.6K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (E
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -1,14 +1,14 @@
 # SRUSDAT DeFi Yields
 
-The highest honest SRUSDAT yield right now is 14.51% on pendle-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDAT yield right now is 12.78% on pendle-v2 (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $6.72M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 11.13% | $455.2K |
-| [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 10.42% | $455.2K |
-| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c&src=seo_token) | Ethereum | 14.51% | $166.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae&src=seo_token) | Ethereum | 9.14% | $166.6K |
+| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $6.68M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 12.78% | $455.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 10.57% | $455.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c&src=seo_token) | Ethereum | 10.77% | $279.2K |
+| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae&src=seo_token) | Ethereum | 8.89% | $279.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SRUSDAT shows up in 5 pools here, with rates from 8.11% to 14.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRUSDAT shows up in 5 pools here, with rates from 8.11% to 12.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 12.50% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 12.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 8.11% | 8.11% | Base rate |
-| pendle-v2 | 11.13% | 15.73% | Base rate |
-| pendle-v2 | 10.42% | 12.50% | Base rate |
-| pendle-v2 | 14.51% | 15.19% | 39.84% incentives |
-| pendle-v2 | 9.14% | 9.70% | Base rate |
+| pendle-v2 | 12.78% | 15.62% | 11.24% incentives |
+| pendle-v2 | 10.57% | 12.42% | Base rate |
+| pendle-v2 | 10.77% | 15.02% | 20.54% incentives |
+| pendle-v2 | 8.89% | 9.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRUSDAT yield today?
 
-14.51% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+12.78% APY on pendle-v2 (Monad), based on live DefiLlama data.
 
 ### How many SRUSDAT pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $8.6M in total.
+6 live pools clear this page's $100K TVL floor, $8.78M in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank SRUSDAT pools. This view cove
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

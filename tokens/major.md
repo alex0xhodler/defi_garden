@@ -1,10 +1,10 @@
 # MAJOR DeFi Yields
 
-The highest honest MAJOR yield right now is 37.95% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAJOR yield right now is 80.66% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715&src=seo_token) | TON | 37.95% | $132.8K |
+| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715&src=seo_token) | TON | 80.66% | $135.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAJOR yield today?
 
-37.95% APY on ston.fi (TON), based on live DefiLlama data.
+80.66% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many MAJOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.8K in total.
+1 live pool clear this page's $100K TVL floor, $135.5K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank MAJOR pools. This view covers
 ## Related tokens
 
 - [GRAM](https://www.defi.garden/tokens/gram)
-- [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
+- [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
 - [STON](https://www.defi.garden/tokens/ston)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MAJOR pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

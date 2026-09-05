@@ -1,17 +1,17 @@
 # Plasma 디파이 수익률
 
-현재 Plasma의 가장 높은 정직한 수익률은 Plasma의 yuzu-money에서 28.25%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Plasma의 가장 높은 정직한 수익률은 Plasma의 yuzu-money에서 7.78%이며, $100K TVL 기준을 넘는 28개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_chain) | 1.34% | $251.4M |
-| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_chain) | 7.78% | $36.53M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_chain) | 4.59% | $32.95M |
-| PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_chain) | 3.74% | $32.7M |
-| USDT0 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_chain) | 5.72% | $30.9M |
-| GHO | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_chain) | 5.62% | $7.3M |
-| YZPP | [yuzu-money →](https://www.defi.garden/?pool=eca0cde2-12f7-4716-a10b-ee57bde764e1&src=seo_chain) | 28.25% | $4.77M |
-| SUSDE | [pendle-v2 →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_chain) | 5.14% | $3.37M |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_chain) | 4.74% | $264.99M |
+| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_chain) | 3.30% | $220.72M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_chain) | 5.45% | $37.64M |
+| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_chain) | 7.78% | $36.48M |
+| PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_chain) | 6.30% | $32.72M |
+| USDT0 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_chain) | 5.94% | $30.47M |
+| GHO | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_chain) | 5.46% | $7.28M |
+| GHO | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_chain) | 6.44% | $6.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Plasma의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plasma의 yuzu-money에서 APY 28.25%예요.
+DefiLlama 실시간 데이터 기준, Plasma의 yuzu-money에서 APY 7.78%예요.
 
 ### Plasma 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $847.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 28개이며, 합산 TVL은 $922.81M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -41,11 +41,10 @@ DefiLlama 실시간 데이터 기준, Plasma의 yuzu-money에서 APY 28.25%예�
 ## Plasma의 인기 토큰
 
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [PLASMAUSD](https://www.defi.garden/ko/tokens/plasmausd)
 - [GHO](https://www.defi.garden/ko/tokens/gho)
-- [YZPP](https://www.defi.garden/ko/tokens/yzpp)
-- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

@@ -1,10 +1,10 @@
 # BRIDGE 디파이 수익률
 
-현재 BRIDGE의 가장 높은 정직한 수익률은 Hyperliquid L1의 project-x에서 0.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BRIDGE의 가장 높은 정직한 수익률은 Hyperliquid L1의 project-x에서 0.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88&src=seo_token) | Hyperliquid L1 | 0.18% | $154.5K |
+| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88&src=seo_token) | Hyperliquid L1 | 0.11% | $155.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 BRIDGE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.18%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.11%예요.
 
 ### BRIDGE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $154.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $155.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.18
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

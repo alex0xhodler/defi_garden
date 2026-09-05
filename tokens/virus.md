@@ -1,10 +1,10 @@
 # VIRUS DeFi Yields
 
-The highest honest VIRUS yield right now is 0.45% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIRUS yield right now is 0.51% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.45% | $101.8K |
+| [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.51% | $102.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VIRUS yield today?
 
-0.45% APY on dedust (TON), based on live DefiLlama data.
+0.51% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many VIRUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.8K in total.
+1 live pool clear this page's $100K TVL floor, $102.5K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank VIRUS pools. This view covers
 ## Related tokens
 
 - [GRAM](https://www.defi.garden/tokens/gram)
-- [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
+- [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
 - [STON](https://www.defi.garden/tokens/ston)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VIRUS pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

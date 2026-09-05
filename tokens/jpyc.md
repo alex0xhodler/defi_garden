@@ -1,10 +1,10 @@
 # JPYC DeFi Yields
 
-The highest honest JPYC yield right now is 31.52% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JPYC yield right now is 13.36% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 31.52% | $316.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 13.36% | $321.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JPYC yield today?
 
-31.52% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+13.36% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many JPYC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $316.8K in total.
+1 live pool clear this page's $100K TVL floor, $321.8K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank JPYC pools. This view covers 
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 - [WPOL](https://www.defi.garden/tokens/wpol)
+- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

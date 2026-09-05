@@ -1,10 +1,10 @@
 # DRB DeFi Yields
 
-The highest honest DRB yield right now is 112.76% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRB yield right now is 77.22% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 112.76% | $1.33M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 77.22% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DRB yield today?
 
-112.76% APY on uniswap-v3 (Base), based on live DefiLlama data.
+77.22% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DRB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.33M in total.
+1 live pool clear this page's $100K TVL floor, $1.28M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DRB pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

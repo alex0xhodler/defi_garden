@@ -4,7 +4,7 @@ The highest honest SEGLD yield right now is 0.10% on ashswap (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $111.9K |
+| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $113.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SEGLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.53M in total.
+2 live pools clear this page's $100K TVL floor, $3.74M in total.
 
 ### Are these rates safe?
 
@@ -50,8 +50,8 @@ There is not enough qualifying APY history to rank SEGLD pools. This view covers
 ## Related tokens
 
 - [WEGLD](https://www.defi.garden/tokens/wegld)
-- [SWTAO](https://www.defi.garden/tokens/swtao)
 - [HTM](https://www.defi.garden/tokens/htm)
+- [SWTAO](https://www.defi.garden/tokens/swtao)
 - [MEX](https://www.defi.garden/tokens/mex)
 - [EGLD](https://www.defi.garden/tokens/egld)
 - [USH](https://www.defi.garden/tokens/ush)
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SEGLD pools. This view covers
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

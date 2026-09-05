@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 
 - [XCDOT](https://www.defi.garden/ko/tokens/xcdot)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

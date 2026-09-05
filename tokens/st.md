@@ -67,4 +67,4 @@ Based on APY history only, ST's lower-variability candidates are orca-dex (Solan
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

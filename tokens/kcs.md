@@ -1,10 +1,10 @@
 # KCS DeFi Yields
 
-The highest honest KCS yield right now is 0.87% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KCS yield right now is 0.50% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=add9f7d1-74f7-49e1-b49b-5b2772776708&src=seo_token) | Ethereum | 0.87% | $4.69M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=add9f7d1-74f7-49e1-b49b-5b2772776708&src=seo_token) | Ethereum | 0.50% | $4.63M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KCS yield today?
 
-0.87% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.50% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many KCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.69M in total.
+1 live pool clear this page's $100K TVL floor, $4.63M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KCS pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

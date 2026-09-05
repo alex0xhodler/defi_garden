@@ -4,7 +4,7 @@ The highest honest SILV yield right now is 6.03% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=6eff43ec-b057-59f8-8039-c76d2b20d930&src=seo_token) | Solana | 1.86% | $841.8K |
+| [orca-dex →](https://www.defi.garden/?pool=6eff43ec-b057-59f8-8039-c76d2b20d930&src=seo_token) | Solana | 1.97% | $841.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=8714b2f4-980c-5051-9a7d-6438ff0204cc&src=seo_token) | Solana | 6.03% | $386.4K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SILV shows up in 2 pools here, with rates from 1.86% to 6.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SILV shows up in 2 pools here, with rates from 1.97% to 6.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 1.86% | 14.32% | Base rate |
+| orca-dex | 1.97% | 13.78% | Base rate |
 | raydium-amm | 6.03% | 5.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SILV pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

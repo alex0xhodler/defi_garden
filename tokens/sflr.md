@@ -1,37 +1,37 @@
 # SFLR DeFi Yields
 
-The highest honest SFLR yield right now is 15.58% on spectra-v2 (Flare), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFLR yield right now is 15.55% on spectra-v2 (Flare), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 7.85% | $16.26M |
-| [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.57% | $5.18M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.63% | $1.05M |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.64% | $854.9K |
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.58% | $854.9K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.93% | $340.3K |
+| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 7.82% | $15.62M |
+| [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.61% | $4.7M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.74% | $951.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.66% | $817.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.55% | $817.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.44% | $328.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFLR's lower-variability candidates are kinetic (Flare), 0.57% APY, $5.18M TVL, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token; sparkdex-v4 (Flare), 6.63% APY, $1.05M TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; spectra-v2 (Flare), 7.64% APY, $854.9K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.58% APY, $854.9K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token; sparkdex-v3.1 (Flare), 0.93% APY, $340.3K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sceptre-liquid (Flare), 7.85% APY, $16.26M TVL, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFLR's lower-variability candidates are kinetic (Flare), 0.61% APY, $4.7M TVL, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token; sparkdex-v4 (Flare), 6.74% APY, $951.2K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; spectra-v2 (Flare), 7.66% APY, $817.2K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.55% APY, $817.2K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token; sparkdex-v3.1 (Flare), 1.44% APY, $328.1K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sceptre-liquid (Flare), 7.82% APY, $15.62M TVL, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.57% | $5.18M |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.63% | $1.05M |
-| 3 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.64% | $854.9K |
-| 4 | [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.58% | $854.9K |
-| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.93% | $340.3K |
-| 6 | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 7.85% | $16.26M |
+| 1 | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.61% | $4.7M |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.74% | $951.2K |
+| 3 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.66% | $817.2K |
+| 4 | [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 15.55% | $817.2K |
+| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.44% | $328.1K |
+| 6 | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 7.82% | $15.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFLR shows up in 6 pools here, with rates from 0.57% to 15.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFLR shows up in 6 pools here, with rates from 0.61% to 15.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 7.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 7.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -39,12 +39,12 @@ SFLR shows up in 6 pools here, with rates from 0.57% to 15.58% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sceptre-liquid | 7.85% | 8.30% | Base rate |
-| kinetic | 0.57% | 0.51% | 83.12% incentives |
-| sparkdex-v4 | 6.63% | 6.33% | 99.46% incentives |
-| spectra-v2 | 7.64% | 8.26% | Base rate |
-| spectra-v2 | 15.58% | 15.13% | Base rate |
-| sparkdex-v3.1 | 0.93% | 1.07% | 68.16% incentives |
+| sceptre-liquid | 7.82% | 8.27% | Base rate |
+| kinetic | 0.61% | 0.52% | 83.95% incentives |
+| sparkdex-v4 | 6.74% | 6.34% | 98.71% incentives |
+| spectra-v2 | 7.66% | 8.27% | Base rate |
+| spectra-v2 | 15.55% | 15.19% | Base rate |
+| sparkdex-v3.1 | 1.44% | 1.06% | 33.69% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFLR yield today?
 
-15.58% APY on spectra-v2 (Flare), based on live DefiLlama data.
+15.55% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many SFLR pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $24.54M in total.
+6 live pools clear this page's $100K TVL floor, $23.23M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFLR pools have the most stable APY history?
 
-Based on APY history only, SFLR's lower-variability candidates are kinetic (Flare), 0.57% APY, $5.18M TVL, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token; sparkdex-v4 (Flare), 6.63% APY, $1.05M TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; spectra-v2 (Flare), 7.64% APY, $854.9K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.58% APY, $854.9K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token; sparkdex-v3.1 (Flare), 0.93% APY, $340.3K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sceptre-liquid (Flare), 7.85% APY, $16.26M TVL, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFLR's lower-variability candidates are kinetic (Flare), 0.61% APY, $4.7M TVL, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token; sparkdex-v4 (Flare), 6.74% APY, $951.2K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; spectra-v2 (Flare), 7.66% APY, $817.2K TVL, https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token; spectra-v2 (Flare), 15.55% APY, $817.2K TVL, https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token; sparkdex-v3.1 (Flare), 1.44% APY, $328.1K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sceptre-liquid (Flare), 7.82% APY, $15.62M TVL, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -79,4 +79,4 @@ Based on APY history only, SFLR's lower-variability candidates are kinetic (Flar
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

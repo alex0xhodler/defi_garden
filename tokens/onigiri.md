@@ -1,10 +1,10 @@
 # ONIGIRI DeFi Yields
 
-The highest honest ONIGIRI yield right now is 0.67% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ONIGIRI yield right now is 0.27% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=79997db6-0474-4132-8c70-567345c5239c&src=seo_token) | Ethereum | 0.67% | $107.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=79997db6-0474-4132-8c70-567345c5239c&src=seo_token) | Ethereum | 0.27% | $105.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONIGIRI yield today?
 
-0.67% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.27% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ONIGIRI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.2K in total.
+1 live pool clear this page's $100K TVL floor, $105.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ONIGIRI pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

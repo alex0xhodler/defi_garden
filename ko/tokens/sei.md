@@ -1,10 +1,10 @@
 # SEI 디파이 수익률
 
-현재 SEI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 29.91%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SEI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 33.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5e9db4c8-e4c7-4e0a-8fcb-787e02e8c316&src=seo_token) | Ethereum | 29.91% | $2.29M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5e9db4c8-e4c7-4e0a-8fcb-787e02e8c316&src=seo_token) | Ethereum | 33.66% | $2.26M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 SEI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 29.91%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 33.66%예요.
 
 ### SEI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.26M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 29.91%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

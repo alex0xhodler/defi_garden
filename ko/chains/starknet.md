@@ -1,17 +1,17 @@
 # Starknet 디파이 수익률
 
-현재 Starknet의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 12.34%이며, $100K TVL 기준을 넘는 81개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Starknet의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 21.80%이며, $100K TVL 기준을 넘는 80개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_chain) | 23.23% | $4.07M |
-| STRK | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17&src=seo_chain) | 6.59% | $3.82M |
+| STRK | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17&src=seo_chain) | 6.59% | $4.08M |
+| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_chain) | 21.80% | $3.98M |
 | WBTC | [vesu →](https://www.defi.garden/?pool=d8d0a6ee-cca9-4b4c-aec8-d0fa32eda559&src=seo_chain) | 2.00% | $2.91M |
-| ETH | [nostra-money-market →](https://www.defi.garden/?pool=af241622-7d27-4afe-98cb-53dfef00e0c4&src=seo_chain) | 1.84% | $2.49M |
-| WBTC | [endur →](https://www.defi.garden/?pool=867e3e6b-4ebb-46fd-92d5-4d4afbf28553&src=seo_chain) | 1.80% | $2.02M |
-| WSTETH-ETH | [ekubo →](https://www.defi.garden/?pool=181574ad-9c60-4a18-91c8-45a22da62202&src=seo_chain) | 0.01% | $1.95M |
-| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_chain) | 83.05% | $1.89M |
-| SOLVBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_chain) | 12.34% | $1.59M |
+| ETH | [nostra-money-market →](https://www.defi.garden/?pool=af241622-7d27-4afe-98cb-53dfef00e0c4&src=seo_chain) | 1.84% | $2.44M |
+| WBTC | [endur →](https://www.defi.garden/?pool=867e3e6b-4ebb-46fd-92d5-4d4afbf28553&src=seo_chain) | 1.96% | $1.96M |
+| WSTETH-ETH | [ekubo →](https://www.defi.garden/?pool=181574ad-9c60-4a18-91c8-45a22da62202&src=seo_chain) | 0.28% | $1.91M |
+| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_chain) | 19.41% | $1.89M |
+| SOLVBTC | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_chain) | 2.00% | $1.59M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Starknet의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 12.34%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 21.80%예요.
 
 ### Starknet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 81개이며, 합산 TVL은 $65.16M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 80개이며, 합산 TVL은 $64.4M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -48,4 +48,4 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 12.34%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

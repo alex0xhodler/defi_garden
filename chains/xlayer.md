@@ -1,12 +1,12 @@
 # Xlayer DeFi Yields
 
-The highest honest Xlayer yield right now is 0.42% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Xlayer yield right now is 0.43% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 2.16% | $17.56M |
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.42% | $12.31M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 2.94% | $284.8K |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 1.96% | $17.65M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.43% | $11.84M |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 2.75% | $270.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Xlayer yield today?
 
-0.42% APY on aave-v3 (Xlayer), based on live DefiLlama data.
+0.43% APY on aave-v3 (Xlayer), based on live DefiLlama data.
 
 ### How many Xlayer pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $109M in total.
+7 live pools clear this page's $100K TVL floor, $103.39M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XETH](https://www.defi.garden/tokens/xeth)
 - [USDG](https://www.defi.garden/tokens/usdg)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

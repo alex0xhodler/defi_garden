@@ -1,10 +1,10 @@
 # LINU DeFi Yields
 
-The highest honest LINU yield right now is 0.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINU yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1bed3efe-8b75-4014-beab-c7371fce87a3&src=seo_token) | Ethereum | 0.09% | $287.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1bed3efe-8b75-4014-beab-c7371fce87a3&src=seo_token) | Ethereum | 0.01% | $281.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LINU yield today?
 
-0.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LINU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $287.9K in total.
+1 live pool clear this page's $100K TVL floor, $281.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LINU pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -4,7 +4,7 @@ The highest honest BDT yield right now is 0.04% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44e3665b-3c73-4d11-b534-599811608af4&src=seo_token) | Arbitrum | 0.04% | $128.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44e3665b-3c73-4d11-b534-599811608af4&src=seo_token) | Arbitrum | 0.04% | $126.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.5K in total.
+1 live pool clear this page's $100K TVL floor, $126.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BDT pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

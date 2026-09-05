@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 1.45% | $280K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 1.45% | $272.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 1.45%예�
 
 ### LEDGER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $280K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $272.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 1.45%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

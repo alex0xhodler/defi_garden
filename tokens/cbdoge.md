@@ -1,10 +1,10 @@
 # CBDOGE DeFi Yields
 
-The highest honest CBDOGE yield right now is 115.70% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBDOGE yield right now is 44.44% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5976df72-17ff-4813-95ee-4f152d17c9c6&src=seo_token) | Base | 115.70% | $103.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5976df72-17ff-4813-95ee-4f152d17c9c6&src=seo_token) | Base | 44.44% | $119K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CBDOGE shows up in 1 pools here, with rates from 115.70% to 115.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBDOGE shows up in 1 pools here, with rates from 44.44% to 44.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 74.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 76.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ CBDOGE shows up in 1 pools here, with rates from 115.70% to 115.70% APY across 1
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 115.70% | 74.84% | 31.94% incentives |
+| aerodrome-slipstream | 44.44% | 76.29% | 71.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBDOGE yield today?
 
-115.70% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+44.44% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBDOGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.33M in total.
+2 live pools clear this page's $100K TVL floor, $6.17M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CBDOGE pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

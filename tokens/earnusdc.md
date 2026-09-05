@@ -4,7 +4,7 @@ The highest honest EARNUSDC yield right now is 10.00% on gami-labs (Stellar), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_token) | Stellar | 10.00% | $24.85M |
+| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_token) | Stellar | 10.00% | $24.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EARNUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $24.85M in total.
+1 live pool clear this page's $100K TVL floor, $24.86M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EARNUSDC pools. This view cov
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

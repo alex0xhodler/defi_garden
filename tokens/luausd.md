@@ -1,0 +1,47 @@
+# LUAUSD DeFi Yields
+
+The highest honest LUAUSD yield right now is 0.01% on curve-dex (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [curve-dex →](https://www.defi.garden/?pool=1f7d105b-9f30-425e-99af-59abfc8654c6&src=seo_token) | Arbitrum | 0.01% | $3.36M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank LUAUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest LUAUSD yield today?
+
+0.01% APY on curve-dex (Arbitrum), based on live DefiLlama data.
+
+### How many LUAUSD pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $3.36M in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which LUAUSD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank LUAUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+## Related tokens
+
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
+
+## Available on
+
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
+
+## Last updated September 5, 2026

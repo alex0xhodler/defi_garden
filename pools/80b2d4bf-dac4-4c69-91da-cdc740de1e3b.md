@@ -1,8 +1,8 @@
 # SBMORPHOUSDC — morpho-blue on Ethereum
 
-**Total APY:** 3.76% (3.76% Base · + 0.00% Rewards)
+**Total APY:** 3.72% (3.72% Base · + 0.00% Rewards)
 
-**TVL:** $10.14M
+**TVL:** $9.99M
 
 **Pool Type:** Lending
 
@@ -16,19 +16,19 @@
 
 Conservative DeFi strategy
 
-- High liquidity
+- Medium liquidity
 - Credit risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,203 in 5y at current rates.
+$1,000 in this pool grows to ~$1,200 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 11 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 12 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,203 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,200 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 4, 2026
+Last updated September 5, 2026

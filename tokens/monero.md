@@ -1,10 +1,10 @@
 # MONERO DeFi Yields
 
-The highest honest MONERO yield right now is 0.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MONERO yield right now is 0.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=08d22bca-6f3c-5801-9f17-087497be69b9&src=seo_token) | Solana | 0.01% | $1.42M |
+| [raydium-amm →](https://www.defi.garden/?pool=08d22bca-6f3c-5801-9f17-087497be69b9&src=seo_token) | Solana | 0.39% | $1.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MONERO yield today?
 
-0.01% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.39% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MONERO pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MONERO pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

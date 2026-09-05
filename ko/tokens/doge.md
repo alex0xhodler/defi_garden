@@ -1,39 +1,39 @@
 # DOGE 디파이 수익률
 
-현재 DOGE의 가장 높은 정직한 수익률은 Solana의 gmtrade에서 120.85%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DOGE의 가장 높은 정직한 수익률은 Solana의 gmtrade에서 120.01%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 3.20% | $3M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 6.16% | $2.99M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 4.53% | $538.8K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 5.32% | $329K |
-| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 120.85% | $150.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 11.01% | $2.95M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 8.02% | $2.93M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 0.99% | $518.5K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 3.70% | $324.1K |
+| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 120.01% | $149K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token) | Solana | 1.36% | $104.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token) | Solana | 1.03% | $104.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DOGE의 변동성 낮은 후보는 Heco의 mdex, APY 0.07%, TVL $143.7K, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token; Ethereum의 uniswap-v2, APY 3.20%, TVL $3M, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token; Ethereum의 uniswap-v2, APY 6.16%, TVL $2.99M, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token; BSC의 pancakeswap-amm, APY 5.32%, TVL $329K, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token; Solana의 raydium-amm, APY 1.36%, TVL $104.7K, https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token; Solana의 gmtrade, APY 120.85%, TVL $150.5K, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token; Ethereum의 uniswap-v2, APY 4.53%, TVL $538.8K, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DOGE의 변동성 낮은 후보는 Heco의 mdex, APY 0.07%, TVL $143.7K, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token; Ethereum의 uniswap-v2, APY 8.02%, TVL $2.93M, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token; Ethereum의 uniswap-v2, APY 11.01%, TVL $2.95M, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token; BSC의 pancakeswap-amm, APY 3.70%, TVL $324.1K, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token; Solana의 raydium-amm, APY 1.03%, TVL $104.9K, https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token; Solana의 gmtrade, APY 120.01%, TVL $149K, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token; Ethereum의 uniswap-v2, APY 0.99%, TVL $518.5K, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 3.20% | $3M |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 6.16% | $2.99M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 5.32% | $329K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token) | Solana | 1.36% | $104.7K |
-| 6 | [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 120.85% | $150.5K |
-| 7 | [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 4.53% | $538.8K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 8.02% | $2.93M |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 11.01% | $2.95M |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 3.70% | $324.1K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token) | Solana | 1.03% | $104.9K |
+| 6 | [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 120.01% | $149K |
+| 7 | [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 0.99% | $518.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DOGE 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.07%부터 120.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DOGE 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.07%부터 120.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.85%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,13 +41,13 @@ DOGE 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.07%부터 120.85%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 3.20% | 2.29% | 기본 금리 |
-| uniswap-v2 | 6.16% | 3.99% | 기본 금리 |
-| uniswap-v2 | 4.53% | 2.80% | 기본 금리 |
-| pancakeswap-amm | 5.32% | 4.54% | 기본 금리 |
-| gmtrade | 120.85% | 82.16% | 기본 금리 |
+| uniswap-v2 | 11.01% | 4.32% | 기본 금리 |
+| uniswap-v2 | 8.02% | 2.52% | 기본 금리 |
+| uniswap-v2 | 0.99% | 2.85% | 기본 금리 |
+| pancakeswap-amm | 3.70% | 4.60% | 기본 금리 |
+| gmtrade | 120.01% | 83.93% | 기본 금리 |
 | mdex | 0.07% | 0.07% | 인센티브 96.90% |
-| raydium-amm | 1.36% | 1.79% | 기본 금리 |
+| raydium-amm | 1.03% | 1.75% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,11 +55,11 @@ DOGE 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.07%부터 120.85%�
 
 ### 오늘 DOGE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 120.85%예요.
+DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 120.01%예요.
 
 ### DOGE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $14.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $13.92M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 120.85%예요.
 
 ### DOGE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DOGE의 변동성 낮은 후보는 Heco의 mdex, APY 0.07%, TVL $143.7K, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token; Ethereum의 uniswap-v2, APY 3.20%, TVL $3M, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token; Ethereum의 uniswap-v2, APY 6.16%, TVL $2.99M, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token; BSC의 pancakeswap-amm, APY 5.32%, TVL $329K, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token; Solana의 raydium-amm, APY 1.36%, TVL $104.7K, https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token; Solana의 gmtrade, APY 120.85%, TVL $150.5K, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token; Ethereum의 uniswap-v2, APY 4.53%, TVL $538.8K, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DOGE의 변동성 낮은 후보는 Heco의 mdex, APY 0.07%, TVL $143.7K, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token; Ethereum의 uniswap-v2, APY 8.02%, TVL $2.93M, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token; Ethereum의 uniswap-v2, APY 11.01%, TVL $2.95M, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token; BSC의 pancakeswap-amm, APY 3.70%, TVL $324.1K, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token; Solana의 raydium-amm, APY 1.03%, TVL $104.9K, https://www.defi.garden/?pool=71a69236-d08b-45e9-9524-69a31741141e&src=seo_token; Solana의 gmtrade, APY 120.01%, TVL $149K, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token; Ethereum의 uniswap-v2, APY 0.99%, TVL $518.5K, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 DOGE의 변동성 낮은 후보는 Heco의 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

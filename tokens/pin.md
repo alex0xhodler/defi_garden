@@ -1,10 +1,10 @@
 # PIN DeFi Yields
 
-The highest honest PIN yield right now is 81.80% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIN yield right now is 23.50% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 81.80% | $543.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 23.50% | $517.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIN yield today?
 
-81.80% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+23.50% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $543.5K in total.
+1 live pool clear this page's $100K TVL floor, $517.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PIN pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

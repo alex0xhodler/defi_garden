@@ -1,10 +1,10 @@
 # M1USDC DeFi Yields
 
-The highest honest M1USDC yield right now is 8.19% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest M1USDC yield right now is 8.62% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 8.19% | $8.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 8.62% | $8.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest M1USDC yield today?
 
-8.19% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.62% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many M1USDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank M1USDC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
+- [NTBILL](https://www.defi.garden/tokens/ntbill)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

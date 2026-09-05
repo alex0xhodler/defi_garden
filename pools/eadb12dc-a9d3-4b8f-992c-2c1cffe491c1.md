@@ -2,7 +2,7 @@
 
 **Total APY:** 0.07% (0.07% Base · + 0.00% Rewards)
 
-**TVL:** $175K
+**TVL:** $171.3K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.07% right now vs a 0.15% 30-day average. Reward 
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 4, 2026
+Last updated September 5, 2026

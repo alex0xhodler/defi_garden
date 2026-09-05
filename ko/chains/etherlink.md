@@ -5,9 +5,9 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 4.71% | $4.83M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.36% | $1.22M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.64% | $1.22M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 5.43% | $1.12M |
-| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $590.1K |
+| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $590.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 5.43%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026

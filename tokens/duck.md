@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DUCK pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

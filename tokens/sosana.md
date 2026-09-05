@@ -1,10 +1,10 @@
 # SOSANA DeFi Yields
 
-The highest honest SOSANA yield right now is 13.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOSANA yield right now is 12.51% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3971048-1f63-4d59-ab50-930864bb3811&src=seo_token) | Solana | 13.67% | $120K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3971048-1f63-4d59-ab50-930864bb3811&src=seo_token) | Solana | 12.51% | $111K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOSANA yield today?
 
-13.67% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.51% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOSANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120K in total.
+1 live pool clear this page's $100K TVL floor, $111K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SOSANA pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

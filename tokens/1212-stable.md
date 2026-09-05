@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 1212.STABLE pools. This view 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

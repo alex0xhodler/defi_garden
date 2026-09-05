@@ -66,4 +66,4 @@ Based on APY history only, USDO's lower-variability candidates are openeden-usdo
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

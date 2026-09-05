@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank EFI pools. This view covers A
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 - [WPOL](https://www.defi.garden/tokens/wpol)
+- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

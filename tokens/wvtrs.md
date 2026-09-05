@@ -4,7 +4,7 @@ The highest honest WVTRS yield right now is 0.05% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e669ca11-c5a0-47cd-b658-e4e7c0ba5bc4&src=seo_token) | Ethereum | 0.05% | $531.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e669ca11-c5a0-47cd-b658-e4e7c0ba5bc4&src=seo_token) | Ethereum | 0.05% | $535K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WVTRS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $531.4K in total.
+1 live pool clear this page's $100K TVL floor, $535K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WVTRS pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NCLOA pools. This view covers
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 4, 2026
+## Last updated September 5, 2026

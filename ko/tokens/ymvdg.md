@@ -1,10 +1,10 @@
 # YMVDG 디파이 수익률
 
-현재 YMVDG의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 4.52%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YMVDG의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 4.70%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 4.52% | $1.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 4.70% | $1.74M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 YMVDG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 4.52%예요.
+DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 4.70%예요.
 
 ### YMVDG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 4.52%예�
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: September 4, 2026
+## 마지막 업데이트: September 5, 2026
