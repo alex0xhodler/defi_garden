@@ -4,7 +4,7 @@ The highest honest FLUSD yield right now is 10.00% on lagoon (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=169cdca0-381f-435c-831b-e61c11f92953&src=seo_token) | Ethereum | 10.00% | $684.5K |
+| [lagoon →](https://www.defi.garden/?pool=169cdca0-381f-435c-831b-e61c11f92953&src=seo_token) | Ethereum | 10.00% | $684.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $684.5K in total.
+1 live pool clear this page's $100K TVL floor, $684.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

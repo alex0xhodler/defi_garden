@@ -1,10 +1,10 @@
 # CADC 디파이 수익률
 
-현재 CADC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 85.63%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CADC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 26.77%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8c0d3027-f688-4255-b926-48efdae2e74a&src=seo_token) | Base | 85.63% | $114K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8c0d3027-f688-4255-b926-48efdae2e74a&src=seo_token) | Base | 26.77% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CADC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 85.63%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 26.77%예요.
 
 ### CADC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 85.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 5, 2026
+## 마지막 업데이트: September 6, 2026

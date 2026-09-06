@@ -1,12 +1,12 @@
 # ALETH-WETH — velodrome-v2 on OP Mainnet
 
-**Total APY:** 5.31% (0.00% Base · + 5.31% Rewards)
+**Total APY:** 5.41% (0.00% Base · + 5.41% Rewards)
 
-**TVL:** $3.25M
+**TVL:** $3.33M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 6.94%
+**30d Mean APY:** 6.91%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,295 in 5y at current rates.
+$1,000 in this pool grows to ~$1,301 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,295 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,301 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on velodrome-v2](https://velodrome.finance/?ref=defi.garden)
 
-Last updated September 5, 2026
+Last updated September 6, 2026

@@ -1,12 +1,12 @@
 # SIERRA 디파이 수익률
 
-현재 SIERRA의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 8.04%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SIERRA의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 8.07%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.63% | $14.75M |
-| [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.04% | $14.75M |
-| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.01% | $105.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.76% | $14.75M |
+| [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.07% | $14.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.97% | $829.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,9 +17,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SIERRA 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 8.04%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SIERRA 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.97%부터 8.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.83%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,9 +27,9 @@ SIERRA 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 8.04%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle-v2 | 6.63% | 5.83% | 인센티브 2.47% |
-| pendle-v2 | 8.04% | 8.06% | 기본 금리 |
-| joe-v2.2 | 0.01% | 0.46% | 기본 금리 |
+| pendle-v2 | 6.76% | 5.86% | 인센티브 2.66% |
+| pendle-v2 | 8.07% | 8.06% | 기본 금리 |
+| uniswap-v4 | 0.97% | 0.79% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -37,7 +37,7 @@ SIERRA 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 8.04%�
 
 ### 오늘 SIERRA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 8.04%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 8.07%예요.
 
 ### SIERRA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -63,6 +63,5 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 8.04%예�
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 5, 2026
+## 마지막 업데이트: September 6, 2026

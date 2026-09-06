@@ -1,12 +1,12 @@
 # YVVBWBTC — morpho-blue on Katana
 
-**Total APY:** 4.14% (0.00% Base · + 4.14% Rewards)
+**Total APY:** 0.73% (0.00% Base · + 0.73% Rewards)
 
-**TVL:** $296.3K
+**TVL:** $297.6K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 0.57%
+**30d Mean APY:** 0.69%
 
 **Exposure:** single
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,225 in 5y at current rates.
+$1,000 in this pool grows to ~$1,037 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 4.14% right now vs a 0.57% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,225 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,037 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 5, 2026
+Last updated September 6, 2026

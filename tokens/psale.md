@@ -4,7 +4,7 @@ The highest honest PSALE yield right now is 0.01% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=75c3d621-b436-4427-92c7-accccdd2e73c&src=seo_token) | Ethereum | 0.01% | $216.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75c3d621-b436-4427-92c7-accccdd2e73c&src=seo_token) | Ethereum | 0.01% | $216.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PSALE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216.7K in total.
+1 live pool clear this page's $100K TVL floor, $216.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PSALE pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

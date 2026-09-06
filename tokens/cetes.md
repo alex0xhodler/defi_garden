@@ -68,4 +68,4 @@ Based on APY history only, CETES's lower-variability candidates are orca-dex (So
 - [Monad](https://www.defi.garden/chains/monad)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

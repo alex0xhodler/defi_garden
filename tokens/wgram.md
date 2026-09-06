@@ -1,10 +1,10 @@
 # WGRAM DeFi Yields
 
-The highest honest WGRAM yield right now is 255.42% on tonco (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGRAM yield right now is 120.34% on tonco (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 255.42% | $138.6K |
+| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 120.34% | $141.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGRAM yield today?
 
-255.42% APY on tonco (TON), based on live DefiLlama data.
+120.34% APY on tonco (TON), based on live DefiLlama data.
 
 ### How many WGRAM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.6K in total.
+1 live pool clear this page's $100K TVL floor, $141.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WGRAM pools. This view covers
 ## Related tokens
 
 - [GRAM](https://www.defi.garden/tokens/gram)
-- [HGRAM](https://www.defi.garden/tokens/hgram)
 - [TSTON](https://www.defi.garden/tokens/tston)
+- [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 - [UTYA](https://www.defi.garden/tokens/utya)
-- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

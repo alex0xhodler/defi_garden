@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

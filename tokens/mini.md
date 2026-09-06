@@ -1,10 +1,10 @@
 # MINI DeFi Yields
 
-The highest honest MINI yield right now is 7.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MINI yield right now is 6.49% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 7.07% | $427K |
+| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 6.49% | $465K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MINI yield today?
 
-7.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.49% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MINI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $427K in total.
+1 live pool clear this page's $100K TVL floor, $465K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MINI pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

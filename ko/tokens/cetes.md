@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 CETES의 변동성 낮은 후보는 Solana�
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 5, 2026
+## 마지막 업데이트: September 6, 2026

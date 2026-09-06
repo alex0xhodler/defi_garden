@@ -1,6 +1,6 @@
 # USDB DeFi Yields
 
-The highest honest USDB yield right now is 0.11% on cetus-clmm (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDB yield right now is 0.11% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -23,7 +23,7 @@ USDB shows up in 1 pools here, with rates from 0.11% to 0.11% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| cetus-clmm | 0.11% | 0.11% | 90.46% incentives |
+| cetus-clmm | 0.11% | 0.11% | 88.01% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.73M in total.
+3 live pools clear this page's $100K TVL floor, $3.02M in total.
 
 ### Are these rates safe?
 
@@ -52,10 +52,10 @@ There is not enough qualifying APY history to rank USDB pools. This view covers 
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

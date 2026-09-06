@@ -1,12 +1,12 @@
 # STRUSD — tori-finance on Ethereum
 
-**Total APY:** 10.49% (10.49% Base · + 0.00% Rewards)
+**Total APY:** 10.50% (10.50% Base · + 0.00% Rewards)
 
-**TVL:** $48.95M
+**TVL:** $48.93M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 10.85%
+**30d Mean APY:** 10.81%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on tori-finance](https://tori.finance/?ref=defi.garden)
 
-Last updated September 5, 2026
+Last updated September 6, 2026

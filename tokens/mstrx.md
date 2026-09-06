@@ -1,40 +1,42 @@
 # MSTRX DeFi Yields
 
-The highest honest MSTRX yield right now is 66.02% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTRX yield right now is 17.06% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 51.07% | $767.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 28.63% | $750K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4873fcd4-1cd9-53e9-8da4-36bad9ade458&src=seo_token) | Ethereum | 0.46% | $676.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=fc93c2cb-dd9c-54d1-8164-c46ac80836b3&src=seo_token) | Ethereum | 17.06% | $666K |
-| [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 66.02% | $556.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 12.61% | $563.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSTRX's lower-variability candidates are raydium-amm (Solana), 66.02% APY, $556.7K TVL, https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token; raydium-amm (Solana), 51.07% APY, $767.7K TVL, https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTRX's lower-variability candidates are raydium-amm (Solana), 12.61% APY, $563.1K TVL, https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token; raydium-amm (Solana), 28.63% APY, $750K TVL, https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 66.02% | $556.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 51.07% | $767.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 12.61% | $563.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 28.63% | $750K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTRX shows up in 3 pools here, with rates from 17.06% to 66.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTRX shows up in 4 pools here, with rates from 0.46% to 28.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 57.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 34.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 51.07% | 58.78% | Base rate |
+| raydium-amm | 28.63% | 58.67% | Base rate |
+| uniswap-v4 | 0.46% | 0.17% | Base rate |
 | uniswap-v4 | 17.06% | 11.70% | Base rate |
-| raydium-amm | 66.02% | 57.68% | Base rate |
+| raydium-amm | 12.61% | 57.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSTRX yield today?
 
-66.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.06% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many MSTRX pools clear the TVL floor?
 
@@ -54,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSTRX pools have the most stable APY history?
 
-Based on APY history only, MSTRX's lower-variability candidates are raydium-amm (Solana), 66.02% APY, $556.7K TVL, https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token; raydium-amm (Solana), 51.07% APY, $767.7K TVL, https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTRX's lower-variability candidates are raydium-amm (Solana), 12.61% APY, $563.1K TVL, https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token; raydium-amm (Solana), 28.63% APY, $750K TVL, https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +72,4 @@ Based on APY history only, MSTRX's lower-variability candidates are raydium-amm 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

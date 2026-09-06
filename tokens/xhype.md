@@ -4,35 +4,26 @@ The highest honest XHYPE yield right now is 6.66% on liminal-basis (Hyperliquid 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 6.66% | $6.85M |
-| [project-x →](https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token) | Hyperliquid L1 | 0.34% | $142.1K |
+| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 6.66% | $6.84M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, XHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.34% APY, $142.1K TVL, https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token; liminal-basis (Hyperliquid L1), 6.66% APY, $6.85M TVL, https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [project-x →](https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token) | Hyperliquid L1 | 0.34% | $142.1K |
-| 2 | [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 6.66% | $6.85M |
+There is not enough qualifying APY history to rank XHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XHYPE shows up in 2 pools here, with rates from 0.34% to 6.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XHYPE shows up in 1 pools here, with rates from 6.66% to 6.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| liminal-basis | 6.66% | 5.45% | Base rate |
-| project-x | 0.34% | 0.03% | Base rate |
+| liminal-basis | 6.66% | 5.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7M in total.
+2 live pools clear this page's $100K TVL floor, $6.98M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +43,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XHYPE pools have the most stable APY history?
 
-Based on APY history only, XHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.34% APY, $142.1K TVL, https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token; liminal-basis (Hyperliquid L1), 6.66% APY, $6.85M TVL, https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank XHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +58,4 @@ Based on APY history only, XHYPE's lower-variability candidates are project-x (H
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 5, 2026
+## Last updated September 6, 2026

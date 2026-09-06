@@ -1,0 +1,47 @@
+# FRIES DeFi Yields
+
+The highest honest FRIES yield right now is 31.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=d736c767-673a-57c6-a6ca-d5495b116c29&src=seo_token) | Solana | 31.74% | $418.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank FRIES pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest FRIES yield today?
+
+31.74% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many FRIES pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $418.6K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which FRIES pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank FRIES pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+## Related tokens
+
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
+
+## Available on
+
+- [Solana](https://www.defi.garden/chains/solana)
+
+## Last updated September 6, 2026
