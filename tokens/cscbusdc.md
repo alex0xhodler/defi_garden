@@ -1,10 +1,10 @@
 # CSCBUSDC DeFi Yields
 
-The highest honest CSCBUSDC yield right now is 6.39% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSCBUSDC yield right now is 5.88% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=097b18e2-9232-4c44-bd2e-502de4ba889e&src=seo_token) | Base | 6.39% | $34.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=097b18e2-9232-4c44-bd2e-502de4ba889e&src=seo_token) | Base | 5.88% | $32.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSCBUSDC yield today?
 
-6.39% APY on morpho-blue (Base), based on live DefiLlama data.
+5.88% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many CSCBUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $34.13M in total.
+1 live pool clear this page's $100K TVL floor, $32.94M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CSCBUSDC pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

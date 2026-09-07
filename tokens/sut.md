@@ -1,10 +1,10 @@
 # SUT DeFi Yields
 
-The highest honest SUT yield right now is 438.79% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUT yield right now is 311.37% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9692e0b1-afc2-4e24-ac63-2bb2b1779c9f&src=seo_token) | Polygon | 438.79% | $108.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9692e0b1-afc2-4e24-ac63-2bb2b1779c9f&src=seo_token) | Polygon | 311.37% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUT yield today?
 
-438.79% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+311.37% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many SUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.2K in total.
+1 live pool clear this page's $100K TVL floor, $111.3K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank SUT pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
-- [MATICX](https://www.defi.garden/tokens/maticx)
+- [EUSD](https://www.defi.garden/tokens/eusd)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

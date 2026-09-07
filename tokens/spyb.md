@@ -4,8 +4,8 @@ The highest honest SPYB yield right now is 126.17% on native-credit-pool (BSC), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=aac54220-64b5-558b-9fc9-b62b9c68f32a&src=seo_token) | BSC | 46.22% | $1.11M |
-| [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 126.17% | $100.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=aac54220-64b5-558b-9fc9-b62b9c68f32a&src=seo_token) | BSC | 76.44% | $1.11M |
+| [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 126.17% | $100.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SPYB shows up in 2 pools here, with rates from 46.22% to 126.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPYB shows up in 2 pools here, with rates from 76.44% to 126.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 91.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 92.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 46.22% | 57.07% | Base rate |
-| native-credit-pool | 126.17% | 126.07% | Base rate |
+| uniswap-v4 | 76.44% | 58.37% | Base rate |
+| native-credit-pool | 126.17% | 126.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,13 +53,13 @@ There is not enough qualifying APY history to rank SPYB pools. This view covers 
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

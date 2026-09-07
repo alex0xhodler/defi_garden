@@ -1,41 +1,41 @@
 # YB DeFi Yields
 
-The highest honest YB yield right now is 34.79% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YB yield right now is 38.54% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 20.16% | $1.16M |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.24% | $404.5K |
-| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 34.79% | $390K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 25.80% | $239.1K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.63% | $211.6K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token) | Ethereum | 34.57% | $210K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token) | Ethereum | 24.86% | $179.9K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 15.23% | $159K |
+| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 23.75% | $1.16M |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.60% | $396.4K |
+| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 38.54% | $389.4K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 26.41% | $234.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token) | Ethereum | 34.65% | $210.3K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 8.24% | $207.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token) | Ethereum | 25.18% | $176.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 15.43% | $156.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YB's lower-variability candidates are stake-dao-yield (Ethereum), 34.57% APY, $210K TVL, https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token; curve-dex (Ethereum), 20.16% APY, $1.16M TVL, https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token; convex-finance (Ethereum), 34.79% APY, $390K TVL, https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token; curve-dex (Ethereum), 13.24% APY, $404.5K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; stake-dao-yield (Ethereum), 15.23% APY, $159K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token; curve-dex (Ethereum), 9.63% APY, $211.6K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token; convex-finance (Ethereum), 25.80% APY, $239.1K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; stake-dao-yield (Ethereum), 24.86% APY, $179.9K TVL, https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YB's lower-variability candidates are stake-dao-yield (Ethereum), 34.65% APY, $210.3K TVL, https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token; curve-dex (Ethereum), 23.75% APY, $1.16M TVL, https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token; convex-finance (Ethereum), 38.54% APY, $389.4K TVL, https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token; curve-dex (Ethereum), 13.60% APY, $396.4K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; stake-dao-yield (Ethereum), 15.43% APY, $156.1K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token; curve-dex (Ethereum), 8.24% APY, $207.1K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token; convex-finance (Ethereum), 26.41% APY, $234.1K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; stake-dao-yield (Ethereum), 25.18% APY, $176.8K TVL, https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token) | Ethereum | 34.57% | $210K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 20.16% | $1.16M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 34.79% | $390K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.24% | $404.5K |
-| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 15.23% | $159K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.63% | $211.6K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 25.80% | $239.1K |
-| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token) | Ethereum | 24.86% | $179.9K |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token) | Ethereum | 34.65% | $210.3K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 23.75% | $1.16M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 38.54% | $389.4K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.60% | $396.4K |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 15.43% | $156.1K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 8.24% | $207.1K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 26.41% | $234.1K |
+| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token) | Ethereum | 25.18% | $176.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YB shows up in 8 pools here, with rates from 9.63% to 34.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YB shows up in 8 pools here, with rates from 8.24% to 38.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 24.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 23.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,14 +43,14 @@ YB shows up in 8 pools here, with rates from 9.63% to 34.79% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 20.16% | 20.89% | 85.37% incentives |
-| curve-dex | 13.24% | 14.52% | 100.00% incentives |
-| convex-finance | 34.79% | 33.23% | 91.52% incentives |
-| convex-finance | 25.80% | 28.05% | 99.42% incentives |
-| curve-dex | 9.63% | 8.74% | 84.12% incentives |
-| stake-dao-yield | 34.57% | 35.08% | 90.80% incentives |
-| stake-dao-yield | 24.86% | 27.23% | 99.40% incentives |
-| stake-dao-yield | 15.23% | 15.00% | 97.90% incentives |
+| curve-dex | 23.75% | 20.98% | 71.91% incentives |
+| curve-dex | 13.60% | 14.41% | 98.31% incentives |
+| convex-finance | 38.54% | 33.58% | 82.69% incentives |
+| convex-finance | 26.41% | 27.78% | 99.13% incentives |
+| stake-dao-yield | 34.65% | 35.11% | 89.96% incentives |
+| curve-dex | 8.24% | 8.74% | 99.51% incentives |
+| stake-dao-yield | 25.18% | 26.94% | 99.29% incentives |
+| stake-dao-yield | 15.43% | 15.02% | 97.93% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YB yield today?
 
-34.79% APY on convex-finance (Ethereum), based on live DefiLlama data.
+38.54% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YB pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $3.09M in total.
+9 live pools clear this page's $100K TVL floor, $3.06M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YB pools have the most stable APY history?
 
-Based on APY history only, YB's lower-variability candidates are stake-dao-yield (Ethereum), 34.57% APY, $210K TVL, https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token; curve-dex (Ethereum), 20.16% APY, $1.16M TVL, https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token; convex-finance (Ethereum), 34.79% APY, $390K TVL, https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token; curve-dex (Ethereum), 13.24% APY, $404.5K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; stake-dao-yield (Ethereum), 15.23% APY, $159K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token; curve-dex (Ethereum), 9.63% APY, $211.6K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token; convex-finance (Ethereum), 25.80% APY, $239.1K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; stake-dao-yield (Ethereum), 24.86% APY, $179.9K TVL, https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YB's lower-variability candidates are stake-dao-yield (Ethereum), 34.65% APY, $210.3K TVL, https://www.defi.garden/?pool=233dd762-aaee-4546-b3da-20acb75368c4&src=seo_token; curve-dex (Ethereum), 23.75% APY, $1.16M TVL, https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token; convex-finance (Ethereum), 38.54% APY, $389.4K TVL, https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token; curve-dex (Ethereum), 13.60% APY, $396.4K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; stake-dao-yield (Ethereum), 15.43% APY, $156.1K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token; curve-dex (Ethereum), 8.24% APY, $207.1K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token; convex-finance (Ethereum), 26.41% APY, $234.1K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; stake-dao-yield (Ethereum), 25.18% APY, $176.8K TVL, https://www.defi.garden/?pool=72c5b9fc-d8e7-49a9-a2ff-b4fb624ef833&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +85,4 @@ Based on APY history only, YB's lower-variability candidates are stake-dao-yield
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

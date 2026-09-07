@@ -1,12 +1,12 @@
 # WHYPE-PURR — ramses-cl-v2 on Hyperliquid L1
 
-**Total APY:** 124.73% (47.58% Base · + 77.15% Rewards)
+**Total APY:** 234.56% (157.81% Base · + 76.75% Rewards)
 
-**TVL:** $134.4K
+**TVL:** $133.4K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 93.84%
+**30d Mean APY:** 138.10%
 
 **Exposure:** multi
 
@@ -21,16 +21,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$5,688 in 5y at current rates.
+$1,000 in this pool grows to ~$17,962 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (124.73% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (234.56% headline) — farm rates decay. Active management required.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+This pool's rate moves a lot: 234.56% right now vs a 138.10% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$5,688 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$17,962 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on ramses-cl-v2](https://ramses.xyz/?ref=defi.garden)
 
-Last updated September 6, 2026
+Last updated September 7, 2026

@@ -1,10 +1,10 @@
 # STX DeFi Yields
 
-The highest honest STX yield right now is 1.26% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STX yield right now is 2.57% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_token) | Stacks | 1.26% | $2.67M |
+| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_token) | Stacks | 2.57% | $1.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STX yield today?
 
-1.26% APY on zest-v2 (Stacks), based on live DefiLlama data.
+2.57% APY on zest-v2 (Stacks), based on live DefiLlama data.
 
 ### How many STX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.67M in total.
+1 live pool clear this page's $100K TVL floor, $1.87M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STX pools. This view covers A
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

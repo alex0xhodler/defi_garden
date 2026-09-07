@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BDT pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

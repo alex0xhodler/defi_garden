@@ -65,4 +65,4 @@ Based on APY history only, MHYPER's lower-variability candidates are pendle-v2 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

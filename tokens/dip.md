@@ -4,7 +4,7 @@ The highest honest DIP yield right now is 0.01% on vvs-standard (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $2.49M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $2.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DIP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.62M in total.
+2 live pools clear this page's $100K TVL floor, $2.64M in total.
 
 ### Are these rates safe?
 
@@ -51,13 +51,13 @@ There is not enough qualifying APY history to rank DIP pools. This view covers A
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

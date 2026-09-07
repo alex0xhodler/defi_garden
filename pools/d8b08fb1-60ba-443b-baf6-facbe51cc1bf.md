@@ -1,8 +1,8 @@
 # SHEESHA-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
+**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
 
-**TVL:** $160.4K
+**TVL:** $160.3K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 6, 2026
+Last updated September 7, 2026

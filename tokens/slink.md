@@ -1,6 +1,6 @@
 # SLINK DeFi Yields
 
-The highest honest SLINK yield right now is 46.25% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLINK yield right now is 46.25% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLINK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $477.3K in total.
+3 live pools clear this page's $100K TVL floor, $618K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SLINK pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

@@ -1,10 +1,10 @@
 # CHAMELEON DeFi Yields
 
-The highest honest CHAMELEON yield right now is 1.56% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHAMELEON yield right now is 0.49% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=2e3d0528-4603-5e67-b1ac-2614f1834339&src=seo_token) | Hyperliquid L1 | 1.56% | $122.5K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=2e3d0528-4603-5e67-b1ac-2614f1834339&src=seo_token) | Hyperliquid L1 | 0.49% | $118.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHAMELEON yield today?
 
-1.56% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+0.49% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many CHAMELEON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.5K in total.
+1 live pool clear this page's $100K TVL floor, $118.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CHAMELEON pools. This view co
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

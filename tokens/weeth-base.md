@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WEETH.BASE pools. This view c
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

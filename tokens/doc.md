@@ -1,10 +1,10 @@
 # DOC DeFi Yields
 
-The highest honest DOC yield right now is 1.01% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOC yield right now is 0.01% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 1.01% | $182K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 0.01% | $181.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOC yield today?
 
-1.01% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many DOC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182K in total.
+1 live pool clear this page's $100K TVL floor, $181.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DOC pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

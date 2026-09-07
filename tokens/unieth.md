@@ -4,26 +4,26 @@ The highest honest UNIETH yield right now is 2.67% on bedrock-unieth (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.67% | $25.85M |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.86% | $625.5K |
-| [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.27% | $550.4K |
+| [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.67% | $25.95M |
+| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.78% | $671.4K |
+| [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.01% | $554.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UNIETH's lower-variability candidates are morpho-blue (Ethereum), 1.86% APY, $625.5K TVL, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token; bedrock-unieth (Ethereum), 2.67% APY, $25.85M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.27% APY, $550.4K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UNIETH's lower-variability candidates are morpho-blue (Ethereum), 1.78% APY, $671.4K TVL, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token; bedrock-unieth (Ethereum), 2.67% APY, $25.95M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.01% APY, $554.6K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.86% | $625.5K |
-| 2 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.67% | $25.85M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.27% | $550.4K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.78% | $671.4K |
+| 2 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.67% | $25.95M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.01% | $554.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UNIETH shows up in 3 pools here, with rates from 0.27% to 2.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UNIETH shows up in 3 pools here, with rates from 0.01% to 2.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,9 +31,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bedrock-unieth | 2.67% | 2.46% | Base rate |
-| morpho-blue | 1.86% | 1.84% | Base rate |
-| curve-dex | 0.27% | 1.02% | Base rate |
+| bedrock-unieth | 2.67% | 2.47% | Base rate |
+| morpho-blue | 1.78% | 1.84% | Base rate |
+| curve-dex | 0.01% | 1.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many UNIETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $27.02M in total.
+3 live pools clear this page's $100K TVL floor, $27.18M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UNIETH pools have the most stable APY history?
 
-Based on APY history only, UNIETH's lower-variability candidates are morpho-blue (Ethereum), 1.86% APY, $625.5K TVL, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token; bedrock-unieth (Ethereum), 2.67% APY, $25.85M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.27% APY, $550.4K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UNIETH's lower-variability candidates are morpho-blue (Ethereum), 1.78% APY, $671.4K TVL, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token; bedrock-unieth (Ethereum), 2.67% APY, $25.95M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.01% APY, $554.6K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, UNIETH's lower-variability candidates are morpho-blue
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

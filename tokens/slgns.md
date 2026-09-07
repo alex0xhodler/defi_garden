@@ -1,10 +1,10 @@
 # SLGNS DeFi Yields
 
-The highest honest SLGNS yield right now is 206.25% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLGNS yield right now is 133.32% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=810d0c5a-17ef-48b3-9414-ab6c05d3a9cb&src=seo_token) | Polygon | 206.25% | $771.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=810d0c5a-17ef-48b3-9414-ab6c05d3a9cb&src=seo_token) | Polygon | 133.32% | $916.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SLGNS yield today?
 
-206.25% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+133.32% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many SLGNS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $771.6K in total.
+1 live pool clear this page's $100K TVL floor, $916.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank SLGNS pools. This view covers
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
-- [MATICX](https://www.defi.garden/tokens/maticx)
+- [EUSD](https://www.defi.garden/tokens/eusd)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

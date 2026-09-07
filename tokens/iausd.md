@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank IAUSD pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

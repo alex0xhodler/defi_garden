@@ -1,10 +1,10 @@
 # KUSDT DeFi Yields
 
-The highest honest KUSDT yield right now is 3.41% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KUSDT yield right now is 2.57% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4bcd9f41-e648-4e25-aebd-9b8caf04860c&src=seo_token) | Ethereum | 3.41% | $201.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=4bcd9f41-e648-4e25-aebd-9b8caf04860c&src=seo_token) | Ethereum | 2.57% | $201.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KUSDT yield today?
 
-3.41% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.57% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many KUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.4K in total.
+1 live pool clear this page's $100K TVL floor, $201.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KUSDT pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

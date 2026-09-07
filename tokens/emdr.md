@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EMDR pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

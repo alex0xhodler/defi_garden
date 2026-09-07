@@ -4,37 +4,31 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.01% | $554.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e3791a52-54f1-4aa3-bcb5-92723760cafb&src=seo_token) | BSC | 0.01% | $251K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.16% | $203K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $203K, https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token; Avalanche의 curve-dex, APY 0.16%, TVL $164.1K, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; BSC의 uniswap-v4, APY 0.01%, TVL $251K, https://www.defi.garden/?pool=e3791a52-54f1-4aa3-bcb5-92723760cafb&src=seo_token; BSC의 uniswap-v4, APY 0.01%, TVL $554.8K, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $203K, https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token; Avalanche의 curve-dex, APY 0.16%, TVL $164.1K, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.16% | $203K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164.1K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=e3791a52-54f1-4aa3-bcb5-92723760cafb&src=seo_token) | BSC | 0.01% | $251K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.01% | $554.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YUSD 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.01%부터 0.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.16%부터 0.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.04%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.11%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 0.01% | 0.02% | 기본 금리 |
-| uniswap-v4 | 0.01% | 0.01% | 기본 금리 |
 | uniswap-v4 | 0.16% | 0.06% | 기본 금리 |
 | curve-dex | 0.16% | 0.16% | 기본 금리 |
 
@@ -56,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.16%예�
 
 ### YUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $203K, https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token; Avalanche의 curve-dex, APY 0.16%, TVL $164.1K, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; BSC의 uniswap-v4, APY 0.01%, TVL $251K, https://www.defi.garden/?pool=e3791a52-54f1-4aa3-bcb5-92723760cafb&src=seo_token; BSC의 uniswap-v4, APY 0.01%, TVL $554.8K, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.16%, TVL $203K, https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token; Avalanche의 curve-dex, APY 0.16%, TVL $164.1K, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -69,8 +63,7 @@ APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum
 
 ## 이용 가능한 체인
 
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 6, 2026
+## 마지막 업데이트: September 7, 2026

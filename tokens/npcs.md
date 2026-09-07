@@ -1,10 +1,10 @@
 # NPCS DeFi Yields
 
-The highest honest NPCS yield right now is 2.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NPCS yield right now is 1.81% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a45203ae-57d5-4e55-a66e-39a8b234e4b5&src=seo_token) | Solana | 2.40% | $127.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a45203ae-57d5-4e55-a66e-39a8b234e4b5&src=seo_token) | Solana | 1.81% | $127.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NPCS yield today?
 
-2.40% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.81% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NPCS pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NPCS pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

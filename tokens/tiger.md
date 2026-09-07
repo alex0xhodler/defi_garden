@@ -4,7 +4,7 @@ The highest honest TIGER yield right now is 6.10% on scrub-invest (Kava), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_token) | Kava | 6.10% | $7.21M |
+| [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_token) | Kava | 6.10% | $7.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TIGER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.21M in total.
+1 live pool clear this page's $100K TVL floor, $7.31M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TIGER pools. This view covers
 
 - [Kava](https://www.defi.garden/chains/kava)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

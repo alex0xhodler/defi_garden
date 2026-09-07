@@ -1,10 +1,10 @@
 # TELEBTC DeFi Yields
 
-The highest honest TELEBTC yield right now is 4.89% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TELEBTC yield right now is 4.33% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd&src=seo_token) | Polygon | 4.89% | $205.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd&src=seo_token) | Polygon | 4.33% | $205.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TELEBTC yield today?
 
-4.89% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+4.33% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many TELEBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.6K in total.
+1 live pool clear this page's $100K TVL floor, $205.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank TELEBTC pools. This view cove
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
-- [MATICX](https://www.defi.garden/tokens/maticx)
+- [EUSD](https://www.defi.garden/tokens/eusd)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

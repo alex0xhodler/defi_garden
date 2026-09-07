@@ -1,10 +1,10 @@
 # COST DeFi Yields
 
-The highest honest COST yield right now is 1.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COST yield right now is 12.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=afc28926-8578-4459-b73b-b671f9355f84&src=seo_token) | Solana | 1.21% | $114.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=afc28926-8578-4459-b73b-b671f9355f84&src=seo_token) | Solana | 12.65% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COST yield today?
 
-1.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COST pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

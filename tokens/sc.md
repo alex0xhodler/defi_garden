@@ -1,10 +1,10 @@
 # SC DeFi Yields
 
-The highest honest SC yield right now is 5.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SC yield right now is 4.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80c8defd-8541-4099-99d1-b7b072758066&src=seo_token) | Solana | 5.77% | $485.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=80c8defd-8541-4099-99d1-b7b072758066&src=seo_token) | Solana | 4.99% | $450.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SC yield today?
 
-5.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.99% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $485.2K in total.
+1 live pool clear this page's $100K TVL floor, $450.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SC pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

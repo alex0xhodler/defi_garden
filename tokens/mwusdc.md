@@ -4,7 +4,7 @@ The highest honest MWUSDC yield right now is 4.06% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 4.06% | $4.7M |
+| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 4.06% | $4.65M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MWUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.7M in total.
+1 live pool clear this page's $100K TVL floor, $4.65M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MWUSDC pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

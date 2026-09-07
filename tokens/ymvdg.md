@@ -1,10 +1,10 @@
 # YMVDG DeFi Yields
 
-The highest honest YMVDG yield right now is 4.95% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVDG yield right now is 5.57% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 4.95% | $1.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 5.57% | $1.48M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVDG yield today?
 
-4.95% APY on morpho-blue (Katana), based on live DefiLlama data.
+5.57% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YMVDG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.51M in total.
+1 live pool clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank YMVDG pools. This view covers
 ## Related tokens
 
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
-- [STCUSD](https://www.defi.garden/tokens/stcusd)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
+- [VBETH](https://www.defi.garden/tokens/vbeth)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

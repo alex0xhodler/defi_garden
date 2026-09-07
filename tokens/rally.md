@@ -1,29 +1,29 @@
 # RALLY DeFi Yields
 
-The highest honest RALLY yield right now is 89.44% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RALLY yield right now is 53.25% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 89.44% | $118.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 19.30% | $100.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 53.25% | $122.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 7.47% | $103K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 89.44% APY, $118.2K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 19.30% APY, $100.5K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 53.25% APY, $122.2K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 7.47% APY, $103K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 89.44% | $118.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 19.30% | $100.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 53.25% | $122.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 7.47% | $103K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RALLY shows up in 2 pools here, with rates from 19.30% to 89.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RALLY shows up in 2 pools here, with rates from 7.47% to 53.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 55.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 53.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 89.44% | 92.50% | Base rate |
-| uniswap-v4 | 19.30% | 17.68% | Base rate |
+| uniswap-v4 | 53.25% | 91.03% | Base rate |
+| uniswap-v4 | 7.47% | 15.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RALLY yield today?
 
-89.44% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+53.25% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RALLY pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $918.9K in total.
+3 live pools clear this page's $100K TVL floor, $925.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RALLY pools have the most stable APY history?
 
-Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 89.44% APY, $118.2K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 19.30% APY, $100.5K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 53.25% APY, $122.2K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 7.47% APY, $103K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

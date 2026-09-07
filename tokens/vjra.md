@@ -1,10 +1,10 @@
 # VJRA DeFi Yields
 
-The highest honest VJRA yield right now is 2.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VJRA yield right now is 2.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=59800dab-07d8-5149-8a28-dc098847b7c1&src=seo_token) | Solana | 2.12% | $122.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=59800dab-07d8-5149-8a28-dc098847b7c1&src=seo_token) | Solana | 2.18% | $117.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VJRA yield today?
 
-2.12% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VJRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.2K in total.
+1 live pool clear this page's $100K TVL floor, $117.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VJRA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

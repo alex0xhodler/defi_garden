@@ -1,12 +1,12 @@
 # OVER-USDC — aerodrome-v1 on Base
 
-**Total APY:** 12.96% (0.00% Base · + 12.96% Rewards)
+**Total APY:** 12.94% (0.00% Base · + 12.94% Rewards)
 
-**TVL:** $353.5K
+**TVL:** $353.2K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 12.13%
+**30d Mean APY:** 12.21%
 
 **Exposure:** multi
 
@@ -26,7 +26,7 @@ $1,000 in this pool grows to ~$1,235 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (12.96% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (12.94% headline) — farm rates decay. Active management required.
 
 Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
@@ -34,4 +34,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on aerodrome-v1](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated September 6, 2026
+Last updated September 7, 2026

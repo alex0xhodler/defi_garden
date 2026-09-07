@@ -1,10 +1,10 @@
 # NEMESIS DeFi Yields
 
-The highest honest NEMESIS yield right now is 4.23% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEMESIS yield right now is 0.95% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fa985a29-682c-46f7-92c0-db411b4b8140&src=seo_token) | Base | 4.23% | $124.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa985a29-682c-46f7-92c0-db411b4b8140&src=seo_token) | Base | 0.95% | $123.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEMESIS yield today?
 
-4.23% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.95% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many NEMESIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.8K in total.
+1 live pool clear this page's $100K TVL floor, $123.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NEMESIS pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026

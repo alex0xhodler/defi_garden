@@ -1,10 +1,10 @@
 # WGRAM 디파이 수익률
 
-현재 WGRAM의 가장 높은 정직한 수익률은 TON의 tonco에서 120.34%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WGRAM의 가장 높은 정직한 수익률은 TON의 tonco에서 185.91%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 120.34% | $141.7K |
+| [tonco →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 185.91% | $141.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 WGRAM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 tonco에서 APY 120.34%예요.
+DefiLlama 실시간 데이터 기준, TON의 tonco에서 APY 185.91%예요.
 
 ### WGRAM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, TON의 tonco에서 APY 120.34%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: September 6, 2026
+## 마지막 업데이트: September 7, 2026

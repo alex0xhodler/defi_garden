@@ -1,10 +1,10 @@
 # AFSUI DeFi Yields
 
-The highest honest AFSUI yield right now is 0.12% on scallop-lend (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AFSUI yield right now is 0.13% on scallop-lend (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.12% | $132.5K |
+| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.13% | $131.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AFSUI yield today?
 
-0.12% APY on scallop-lend (Sui), based on live DefiLlama data.
+0.13% APY on scallop-lend (Sui), based on live DefiLlama data.
 
 ### How many AFSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.5K in total.
+1 live pool clear this page's $100K TVL floor, $131.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank AFSUI pools. This view covers
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 6, 2026
+## Last updated September 7, 2026
