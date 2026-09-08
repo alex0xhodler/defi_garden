@@ -1448,28 +1448,44 @@
                     <span class="laso-brand-dot"></span>
                     <span>Laso.finance Virtual Visa Card Rail</span>
                   </div>
-                  <div class="laso-mode-badge">🧪 Instant Simulator</div>
+                  <div class="laso-mode-switch-group">
+                    <button type="button" class="laso-mode-btn is-active live" id="laso-mode-live-btn">⚡ Live Base USDC</button>
+                    <button type="button" class="laso-mode-btn" id="laso-mode-sim-btn">🧪 Simulator</button>
+                  </div>
                 </div>
                 <div class="laso-idle-card" id="laso-idle-view">
-                  <p class="laso-terminal-desc">
-                    Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. 6-month validity, US online merchant checkout, 0% load fee.
+                  <p class="laso-terminal-desc" id="laso-desc-text">
+                    Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.
                   </p>
+                  <div class="laso-amount-section">
+                    <span class="laso-amount-label">Card Load Amount:</span>
+                    <div class="laso-amount-chips-row">
+                      <button type="button" class="laso-amount-chip is-active" id="laso-chip-test5">🧪 Test Min $5.00</button>
+                      <button type="button" class="laso-amount-chip" id="laso-chip-service">💼 Service Bill $15.59</button>
+                      <button type="button" class="laso-amount-chip" id="laso-chip-custom">✏️ Custom</button>
+                    </div>
+                    <div class="laso-custom-amount-row" id="laso-custom-row" style="display:none;">
+                      <span>$</span>
+                      <input type="number" class="laso-custom-amount-input" id="laso-custom-input" min="5" max="1000" step="1" value="5.00" />
+                      <span class="laso-custom-amount-hint">Min $5.00 — Max $1,000</span>
+                    </div>
+                  </div>
                   <div class="laso-specs-grid">
                     <div class="laso-spec-item">
                       <span class="laso-spec-k">Type:</span>
                       <span class="laso-spec-v">USA Prepaid Visa</span>
                     </div>
                     <div class="laso-spec-item">
-                      <span class="laso-spec-k">Fee:</span>
-                      <span class="laso-spec-v highlight">0% (Zero Fee)</span>
+                      <span class="laso-spec-k">Network:</span>
+                      <span class="laso-spec-v highlight">Base (eip155:8453)</span>
                     </div>
                     <div class="laso-spec-item">
-                      <span class="laso-spec-k">Speed:</span>
-                      <span class="laso-spec-v">Instant (~7-10s)</span>
+                      <span class="laso-spec-k">Gas Fee:</span>
+                      <span class="laso-spec-v highlight">0 ETH (Sponsored)</span>
                     </div>
                   </div>
                   <button type="button" class="laso-issue-cta-btn" id="laso-issue-btn">
-                    ⚡ Issue Virtual Visa Card ($15.59) →
+                    ⚡ Connect Wallet &amp; Issue Live Card ($5.00 USDC) →
                   </button>
                 </div>
                 <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
@@ -1481,22 +1497,26 @@
                     <div class="laso-step-dot" id="laso-dot-3">3</div>
                     <div class="laso-step-line" id="laso-line-3"></div>
                     <div class="laso-step-dot" id="laso-dot-4">4</div>
+                    <div class="laso-step-line" id="laso-line-4"></div>
+                    <div class="laso-step-dot" id="laso-dot-5">5</div>
                   </div>
                   <div class="laso-step-labels">
-                    <span>SIWx Auth</span>
-                    <span>x402 Base</span>
-                    <span>Laso BaaS</span>
+                    <span>Base Net</span>
+                    <span>USDC Check</span>
+                    <span>402 Quote</span>
+                    <span>EIP-712 Sign</span>
                     <span>Activate</span>
                   </div>
                   <div class="laso-spinner-msg-row">
                     <span class="laso-pulse-spinner"></span>
-                    <span class="laso-progress-text" id="laso-msg-text">Requesting CAIP-122 wallet signature (SIWx)...</span>
+                    <span class="laso-progress-text" id="laso-msg-text">Connecting wallet &amp; verifying Base network...</span>
                   </div>
                 </div>
                 <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
                   <div class="laso-issued-card">
                     <div class="laso-card-top-row">
                       <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
+                      <span class="laso-card-live-badge live" id="laso-card-badge">⚡ LIVE BASE</span>
                       <span class="laso-card-debit">DEBIT</span>
                     </div>
                     <div class="laso-card-pan-row">
@@ -1519,7 +1539,7 @@
                       </div>
                       <div>
                         <span class="laso-meta-label">BAL: </span>
-                        <span class="laso-meta-val balance" id="laso-bal-text">$15.59</span>
+                        <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
                       </div>
                     </div>
                   </div>
@@ -1528,7 +1548,11 @@
                       <span class="billing-title">🇺🇸 Assigned US Billing Address (for checkout)</span>
                       <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
                     </div>
-                    <p class="billing-text">1209 Orange St, Suite 400, Wilmington, DE 19801, US</p>
+                    <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
+                  </div>
+                  <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
+                    <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
+                    <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">🔓 Sign with Wallet to Reveal</button>
                   </div>
                   <form class="laso-merchant-search-box" id="laso-merchant-form">
                     <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI, Spotify)..." />
@@ -1536,8 +1560,14 @@
                     <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
                   </form>
                   <div class="laso-issued-footer-actions">
+                    <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">🔄 Refresh Live Balance</button>
                     <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
                   </div>
+                </div>
+                <div class="laso-error-card" id="laso-error-view" style="display:none; margin-top:10px;">
+                  <span class="laso-error-title">⚠️ Card Issuance Interrupted</span>
+                  <p class="laso-error-msg" id="laso-error-msg">Error message</p>
+                  <button type="button" class="laso-error-retry-btn" id="laso-error-retry-btn">← Back &amp; Try Again</button>
                 </div>
               </div>
             </div>
@@ -2020,6 +2050,85 @@
       var currentLasoCard = null;
       var isPanRevealed = false;
       var isCvvRevealed = false;
+      var currentLasoMode = 'live'; // 'live' | 'sim'
+      var currentAmountPreset = 'test5'; // 'test5' | 'service' | 'custom'
+      var serviceAmount = 15.59;
+
+      var lasoModeLiveBtn = document.getElementById('laso-mode-live-btn');
+      var lasoModeSimBtn = document.getElementById('laso-mode-sim-btn');
+      var lasoDescText = document.getElementById('laso-desc-text');
+      var lasoChipTest5 = document.getElementById('laso-chip-test5');
+      var lasoChipService = document.getElementById('laso-chip-service');
+      var lasoChipCustom = document.getElementById('laso-chip-custom');
+      var lasoCustomRow = document.getElementById('laso-custom-row');
+      var lasoCustomInput = document.getElementById('laso-custom-input');
+      var lasoErrorView = document.getElementById('laso-error-view');
+      var lasoErrorMsg = document.getElementById('laso-error-msg');
+      var lasoErrorRetryBtn = document.getElementById('laso-error-retry-btn');
+      var lasoSiwxBanner = document.getElementById('laso-siwx-banner');
+      var lasoSiwxBtn = document.getElementById('laso-siwx-btn');
+      var lasoRefreshBtn = document.getElementById('laso-refresh-btn');
+      var lasoCardBadge = document.getElementById('laso-card-badge');
+
+      function updateCtaText() {
+        var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(lasoCustomInput.value) || 5)));
+        if (lasoIssueBtn) {
+          lasoIssueBtn.textContent = currentLasoMode === 'live'
+            ? ('⚡ Connect Wallet & Issue Live Card ($' + amt.toFixed(2) + ' USDC) →')
+            : ('🧪 Simulate Card Issuance ($' + amt.toFixed(2) + ') →');
+        }
+      }
+
+      if (lasoModeLiveBtn && lasoModeSimBtn) {
+        lasoModeLiveBtn.addEventListener('click', function() {
+          currentLasoMode = 'live';
+          lasoModeLiveBtn.className = 'laso-mode-btn is-active live';
+          lasoModeSimBtn.className = 'laso-mode-btn';
+          if (lasoDescText) lasoDescText.textContent = 'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.';
+          updateCtaText();
+        });
+        lasoModeSimBtn.addEventListener('click', function() {
+          currentLasoMode = 'sim';
+          lasoModeSimBtn.className = 'laso-mode-btn is-active';
+          lasoModeLiveBtn.className = 'laso-mode-btn';
+          if (lasoDescText) lasoDescText.textContent = 'Interactive test simulator mimicking live Laso BaaS issuance, SIWx auth, and Base x402 micro-payments.';
+          updateCtaText();
+        });
+      }
+
+      if (lasoChipTest5) {
+        lasoChipTest5.addEventListener('click', function() {
+          currentAmountPreset = 'test5';
+          lasoChipTest5.className = 'laso-amount-chip is-active';
+          if (lasoChipService) lasoChipService.className = 'laso-amount-chip';
+          if (lasoChipCustom) lasoChipCustom.className = 'laso-amount-chip';
+          if (lasoCustomRow) lasoCustomRow.style.display = 'none';
+          updateCtaText();
+        });
+      }
+      if (lasoChipService) {
+        lasoChipService.addEventListener('click', function() {
+          currentAmountPreset = 'service';
+          lasoChipService.className = 'laso-amount-chip is-active';
+          if (lasoChipTest5) lasoChipTest5.className = 'laso-amount-chip';
+          if (lasoChipCustom) lasoChipCustom.className = 'laso-amount-chip';
+          if (lasoCustomRow) lasoCustomRow.style.display = 'none';
+          updateCtaText();
+        });
+      }
+      if (lasoChipCustom) {
+        lasoChipCustom.addEventListener('click', function() {
+          currentAmountPreset = 'custom';
+          lasoChipCustom.className = 'laso-amount-chip is-active';
+          if (lasoChipTest5) lasoChipTest5.className = 'laso-amount-chip';
+          if (lasoChipService) lasoChipService.className = 'laso-amount-chip';
+          if (lasoCustomRow) lasoCustomRow.style.display = 'flex';
+          updateCtaText();
+        });
+      }
+      if (lasoCustomInput) {
+        lasoCustomInput.addEventListener('input', updateCtaText);
+      }
 
       if (lasoToggleBtn && lasoTerminal) {
         lasoToggleBtn.addEventListener('click', function() {
@@ -2029,63 +2138,121 @@
         });
       }
 
+      function updateStep(stepNum, msg) {
+        if (lasoMsgText) lasoMsgText.textContent = msg;
+        for (var i = 1; i <= 5; i++) {
+          var dot = document.getElementById('laso-dot-' + i);
+          var line = document.getElementById('laso-line-' + (i - 1));
+          if (dot) {
+            if (i <= stepNum) dot.classList.add('is-active');
+            else dot.classList.remove('is-active');
+          }
+          if (line) {
+            if (i <= stepNum) line.classList.add('is-active');
+            else line.classList.remove('is-active');
+          }
+        }
+      }
+
+      function showError(msg) {
+        if (lasoProgressView) lasoProgressView.style.display = 'none';
+        if (lasoIdleView) lasoIdleView.style.display = 'none';
+        if (lasoCardView) lasoCardView.style.display = 'none';
+        if (lasoErrorView) {
+          lasoErrorView.style.display = 'block';
+          if (lasoErrorMsg) lasoErrorMsg.textContent = msg;
+        }
+      }
+
+      function showCard(card) {
+        currentLasoCard = card;
+        if (lasoProgressView) lasoProgressView.style.display = 'none';
+        if (lasoErrorView) lasoErrorView.style.display = 'none';
+        if (lasoIdleView) lasoIdleView.style.display = 'none';
+        if (lasoCardView) lasoCardView.style.display = 'block';
+
+        if (lasoCardBadge) {
+          lasoCardBadge.textContent = card.is_simulation ? '🧪 SIMULATOR' : '⚡ LIVE BASE';
+          lasoCardBadge.className = 'laso-card-live-badge ' + (card.is_simulation ? 'sim' : 'live');
+        }
+
+        var pan = card.card_number ? card.card_number : '•••• •••• •••• ' + (card.last4 || '8842');
+        if (lasoPanText) {
+          lasoPanText.textContent = card.card_number ? ('•••• •••• •••• ' + card.card_number.slice(-4)) : pan;
+        }
+        if (lasoExpText) lasoExpText.textContent = (card.exp_month || '02') + '/' + (card.exp_year || '32');
+        if (lasoCvvText) lasoCvvText.textContent = card.cvv ? '•••' : '•••';
+        if (lasoBalText) {
+          var balNum = Number(card.available_balance || card.initial_amount || 5);
+          lasoBalText.textContent = '$' + balNum.toFixed(2);
+        }
+
+        if (lasoSiwxBanner) {
+          lasoSiwxBanner.style.display = (!card.card_number && !card.is_simulation) ? 'flex' : 'none';
+        }
+      }
+
+      if (lasoErrorRetryBtn) {
+        lasoErrorRetryBtn.addEventListener('click', function() {
+          if (lasoErrorView) lasoErrorView.style.display = 'none';
+          if (lasoIdleView) lasoIdleView.style.display = 'block';
+        });
+      }
+
       if (lasoIssueBtn) {
         lasoIssueBtn.addEventListener('click', function() {
+          var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(lasoCustomInput.value) || 5)));
           if (lasoIdleView) lasoIdleView.style.display = 'none';
+          if (lasoErrorView) lasoErrorView.style.display = 'none';
           if (lasoProgressView) lasoProgressView.style.display = 'block';
 
-          function updateStep(stepNum, msg) {
-            if (lasoMsgText) lasoMsgText.textContent = msg;
-            for (var i = 1; i <= 4; i++) {
-              var dot = document.getElementById('laso-dot-' + i);
-              var line = document.getElementById('laso-line-' + (i - 1));
-              if (dot) {
-                if (i <= stepNum) dot.classList.add('is-active');
-                else dot.classList.remove('is-active');
-              }
-              if (line) {
-                if (i <= stepNum) line.classList.add('is-active');
-                else line.classList.remove('is-active');
-              }
+          if (currentLasoMode === 'live') {
+            updateStep(1, 'Connecting wallet & verifying Base network...');
+            if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
+              window.LasoService.issueCardWithLiveWallet({
+                amount: amt,
+                subName: 'Apple TV+',
+                onProgress: function(p) {
+                  updateStep(p.step || 1, p.message || '');
+                }
+              }).then(function(card) {
+                showCard(card);
+              }).catch(function(err) {
+                showError(err.message || 'Live issuance failed');
+              });
+            } else {
+              showError('Laso Service unavailable in browser');
             }
-          }
-
-          updateStep(1, 'Requesting CAIP-122 wallet signature (SIWx)...');
-
-          if (typeof window !== 'undefined' && window.LasoService) {
-            window.LasoService.simulateIssuance({
-              amount: 15.59,
-              subName: 'Apple TV+',
-              walletAddress: '0x71C...B49a',
-              onProgress: function(p) {
-                updateStep(p.step || 1, p.message || '');
-              }
-            }).then(function(card) {
-              currentLasoCard = card;
-              if (lasoProgressView) lasoProgressView.style.display = 'none';
-              if (lasoCardView) lasoCardView.style.display = 'block';
-              if (lasoPanText) lasoPanText.textContent = '•••• •••• •••• ' + (card.card_number ? card.card_number.slice(-4) : '8842');
-              if (lasoExpText) lasoExpText.textContent = (card.exp_month || '02') + '/' + (card.exp_year || '32');
-              if (lasoCvvText) lasoCvvText.textContent = '•••';
-            });
           } else {
-            setTimeout(function() {
-              updateStep(2, 'Transacting USDC on Base via x402...');
+            updateStep(1, 'Requesting CAIP-122 wallet signature (SIWx)...');
+            if (typeof window !== 'undefined' && window.LasoService) {
+              window.LasoService.simulateIssuance({
+                amount: amt,
+                subName: 'Apple TV+',
+                walletAddress: '0x71C...B49a',
+                onProgress: function(p) {
+                  updateStep(p.step || 1, p.message || '');
+                }
+              }).then(function(card) {
+                showCard(card);
+              }).catch(function(err) {
+                showError(err.message || 'Issuance failed');
+              });
+            } else {
               setTimeout(function() {
                 updateStep(3, 'Laso BaaS issuing USA Prepaid Visa Debit card...');
                 setTimeout(function() {
-                  updateStep(4, 'Virtual Visa Card ready for Apple TV+!');
-                  currentLasoCard = {
+                  showCard({
                     card_number: '4242884919208842',
                     exp_month: '02',
                     exp_year: '32',
-                    cvv: '942'
-                  };
-                  if (lasoProgressView) lasoProgressView.style.display = 'none';
-                  if (lasoCardView) lasoCardView.style.display = 'block';
+                    cvv: '942',
+                    available_balance: amt,
+                    is_simulation: true
+                  });
                 }, 1200);
               }, 1000);
-            }, 800);
+            }
           }
         });
       }
@@ -2094,14 +2261,14 @@
         lasoPanToggleBtn.addEventListener('click', function() {
           isPanRevealed = !isPanRevealed;
           lasoPanToggleBtn.textContent = isPanRevealed ? 'Hide' : 'Show';
-          var pan = currentLasoCard ? currentLasoCard.card_number : '4242884919208842';
+          var pan = (currentLasoCard && currentLasoCard.card_number) ? currentLasoCard.card_number : '4242884919208842';
           lasoPanText.textContent = isPanRevealed ? (pan.match(/.{1,4}/g) ? pan.match(/.{1,4}/g).join(' ') : pan) : ('•••• •••• •••• ' + pan.slice(-4));
         });
       }
 
       if (lasoPanCopyBtn) {
         lasoPanCopyBtn.addEventListener('click', function() {
-          var pan = currentLasoCard ? currentLasoCard.card_number : '4242884919208842';
+          var pan = (currentLasoCard && currentLasoCard.card_number) ? currentLasoCard.card_number : '4242884919208842';
           if (navigator.clipboard) {
             navigator.clipboard.writeText(pan);
             lasoPanCopyBtn.textContent = 'Copied!';
@@ -2114,13 +2281,13 @@
         lasoCvvToggleBtn.addEventListener('click', function() {
           isCvvRevealed = !isCvvRevealed;
           lasoCvvToggleBtn.textContent = isCvvRevealed ? 'Hide' : 'Show';
-          lasoCvvText.textContent = isCvvRevealed ? (currentLasoCard ? currentLasoCard.cvv : '942') : '•••';
+          lasoCvvText.textContent = isCvvRevealed ? ((currentLasoCard && currentLasoCard.cvv) ? currentLasoCard.cvv : '942') : '•••';
         });
       }
 
       if (lasoCvvCopyBtn) {
         lasoCvvCopyBtn.addEventListener('click', function() {
-          var cvv = currentLasoCard ? currentLasoCard.cvv : '942';
+          var cvv = (currentLasoCard && currentLasoCard.cvv) ? currentLasoCard.cvv : '942';
           if (navigator.clipboard) {
             navigator.clipboard.writeText(cvv);
             lasoCvvCopyBtn.textContent = 'Copied!';
@@ -2132,9 +2299,68 @@
       if (lasoAddrCopyBtn) {
         lasoAddrCopyBtn.addEventListener('click', function() {
           if (navigator.clipboard) {
-            navigator.clipboard.writeText('1209 Orange St, Suite 400, Wilmington, DE 19801, US');
+            navigator.clipboard.writeText('440 N Barranca Avenue, #4496, Covina, CA 91723, US');
             lasoAddrCopyBtn.textContent = 'Copied!';
             setTimeout(function() { lasoAddrCopyBtn.textContent = 'Copy Address'; }, 2000);
+          }
+        });
+      }
+
+      if (lasoSiwxBtn) {
+        lasoSiwxBtn.addEventListener('click', function() {
+          if (!currentLasoCard || !currentLasoCard.card_id) return;
+          lasoSiwxBtn.textContent = 'Signing…';
+          lasoSiwxBtn.disabled = true;
+          if (typeof window !== 'undefined' && window.LasoService && window.LasoService.revealCardWithSiwx) {
+            window.LasoService.revealCardWithSiwx({
+              cardId: currentLasoCard.card_id,
+              walletAddress: currentLasoCard.wallet_address
+            }).then(function(revealed) {
+              currentLasoCard = Object.assign({}, currentLasoCard, revealed);
+              isPanRevealed = true;
+              isCvvRevealed = true;
+              if (lasoPanToggleBtn) lasoPanToggleBtn.textContent = 'Hide';
+              if (lasoCvvToggleBtn) lasoCvvToggleBtn.textContent = 'Hide';
+              var panStr = revealed.card_number ? (revealed.card_number.match(/.{1,4}/g) ? revealed.card_number.match(/.{1,4}/g).join(' ') : revealed.card_number) : '•••• •••• •••• 8842';
+              if (lasoPanText) lasoPanText.textContent = panStr;
+              if (lasoCvvText) lasoCvvText.textContent = revealed.cvv || '942';
+              if (lasoBalText) lasoBalText.textContent = '$' + Number(revealed.available_balance || currentLasoCard.available_balance || 5).toFixed(2);
+              if (lasoSiwxBanner) lasoSiwxBanner.style.display = 'none';
+              lasoSiwxBtn.textContent = '🔓 Sign with Wallet to Reveal';
+              lasoSiwxBtn.disabled = false;
+            }).catch(function(err) {
+              lasoSiwxBtn.textContent = '🔓 Sign with Wallet to Reveal';
+              lasoSiwxBtn.disabled = false;
+              alert(err.message || 'SIWx authentication failed');
+            });
+          }
+        });
+      }
+
+      if (lasoRefreshBtn) {
+        lasoRefreshBtn.addEventListener('click', function() {
+          if (!currentLasoCard || !currentLasoCard.card_id) return;
+          lasoRefreshBtn.textContent = 'Refreshing…';
+          lasoRefreshBtn.disabled = true;
+          if (typeof window !== 'undefined' && window.LasoService && !currentLasoCard.is_simulation) {
+            window.LasoService.pollCardUntilReady({
+              cardId: currentLasoCard.card_id,
+              idToken: currentLasoCard.id_token,
+              maxWaitMs: 6000
+            }).then(function(updated) {
+              currentLasoCard = Object.assign({}, currentLasoCard, updated);
+              if (lasoBalText) lasoBalText.textContent = '$' + Number(updated.available_balance || currentLasoCard.available_balance).toFixed(2);
+              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
+              lasoRefreshBtn.disabled = false;
+            }).catch(function() {
+              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
+              lasoRefreshBtn.disabled = false;
+            });
+          } else {
+            setTimeout(function() {
+              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
+              lasoRefreshBtn.disabled = false;
+            }, 700);
           }
         });
       }
@@ -2156,6 +2382,7 @@
         lasoResetBtn.addEventListener('click', function() {
           if (lasoCardView) lasoCardView.style.display = 'none';
           if (lasoProgressView) lasoProgressView.style.display = 'none';
+          if (lasoErrorView) lasoErrorView.style.display = 'none';
           if (lasoIdleView) lasoIdleView.style.display = 'block';
           currentLasoCard = null;
           isPanRevealed = false;
