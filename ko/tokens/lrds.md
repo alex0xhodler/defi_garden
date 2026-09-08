@@ -1,10 +1,10 @@
 # LRDS 디파이 수익률
 
-현재 LRDS의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 57.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LRDS의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 68.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 57.97% | $273.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 68.15% | $273.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 LRDS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 57.97%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 68.15%예요.
 
 ### LRDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 57.97%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 7, 2026
+## 마지막 업데이트: September 8, 2026

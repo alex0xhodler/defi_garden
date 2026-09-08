@@ -4,7 +4,7 @@ The highest honest BURN yield right now is 18.74% on uniswap-v4 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 0.02% | $173.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 4.20% | $165.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=35de5a61-f4b9-5824-a66b-d6418e8f0ba1&src=seo_token) | Base | 18.74% | $106.6K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BURN shows up in 2 pools here, with rates from 0.02% to 18.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BURN shows up in 2 pools here, with rates from 4.20% to 18.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.02% | 0.35% | Base rate |
+| uniswap-v3 | 4.20% | 0.43% | Base rate |
 | uniswap-v4 | 18.74% | 17.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BURN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $280.3K in total.
+2 live pools clear this page's $100K TVL floor, $271.8K in total.
 
 ### Are these rates safe?
 
@@ -53,9 +53,9 @@ There is not enough qualifying APY history to rank BURN pools. This view covers 
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 
 ## Available on
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank BURN pools. This view covers 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

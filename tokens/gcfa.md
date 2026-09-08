@@ -1,10 +1,10 @@
 # GCFA DeFi Yields
 
-The highest honest GCFA yield right now is 1.45% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GCFA yield right now is 3.25% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9f425c8d-29d1-57de-b7b6-fda7feef8b4e&src=seo_token) | Ethereum | 1.45% | $181.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=9f425c8d-29d1-57de-b7b6-fda7feef8b4e&src=seo_token) | Ethereum | 3.25% | $184.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GCFA yield today?
 
-1.45% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+3.25% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GCFA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.9K in total.
+1 live pool clear this page's $100K TVL floor, $184.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GCFA pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

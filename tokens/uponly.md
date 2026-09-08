@@ -1,10 +1,10 @@
 # UPONLY DeFi Yields
 
-The highest honest UPONLY yield right now is 2.03% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPONLY yield right now is 276.42% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=edca562a-7f20-4392-9728-f3457c0874bb&src=seo_token) | Base | 2.03% | $101.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=edca562a-7f20-4392-9728-f3457c0874bb&src=seo_token) | Base | 276.42% | $101.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPONLY yield today?
 
-2.03% APY on uniswap-v3 (Base), based on live DefiLlama data.
+276.42% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UPONLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.4K in total.
+1 live pool clear this page's $100K TVL floor, $101.6K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank UPONLY pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

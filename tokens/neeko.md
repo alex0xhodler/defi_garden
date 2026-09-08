@@ -1,10 +1,10 @@
 # NEEKO DeFi Yields
 
-The highest honest NEEKO yield right now is 297.78% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEEKO yield right now is 263.95% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ff6250f9-c7b5-52f7-8fb3-d764e0a1f9ab&src=seo_token) | Base | 297.78% | $181.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ff6250f9-c7b5-52f7-8fb3-d764e0a1f9ab&src=seo_token) | Base | 263.95% | $203.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEEKO yield today?
 
-297.78% APY on uniswap-v2 (Base), based on live DefiLlama data.
+263.95% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many NEEKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.1K in total.
+1 live pool clear this page's $100K TVL floor, $203.3K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NEEKO pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

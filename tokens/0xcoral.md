@@ -1,10 +1,10 @@
 # 0XCORAL DeFi Yields
 
-The highest honest 0XCORAL yield right now is 1.41% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 0XCORAL yield right now is 50.55% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd262e86-6319-4679-bdfe-51abe38cbd40&src=seo_token) | Base | 1.41% | $104.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd262e86-6319-4679-bdfe-51abe38cbd40&src=seo_token) | Base | 50.55% | $108K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 0XCORAL yield today?
 
-1.41% APY on uniswap-v4 (Base), based on live DefiLlama data.
+50.55% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 0XCORAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.2K in total.
+1 live pool clear this page's $100K TVL floor, $108K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank 0XCORAL pools. This view cove
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

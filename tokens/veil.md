@@ -1,10 +1,10 @@
 # VEIL DeFi Yields
 
-The highest honest VEIL yield right now is 85.38% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VEIL yield right now is 105.35% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=dbbc6ff4-72c5-43cf-aa5c-46e393cdd97e&src=seo_token) | Base | 85.38% | $547.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=dbbc6ff4-72c5-43cf-aa5c-46e393cdd97e&src=seo_token) | Base | 105.35% | $521.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEIL yield today?
 
-85.38% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+105.35% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many VEIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $547.4K in total.
+1 live pool clear this page's $100K TVL floor, $521.2K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank VEIL pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

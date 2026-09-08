@@ -1,29 +1,29 @@
 # ELEVATE DeFi Yields
 
-The highest honest ELEVATE yield right now is 12.95% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELEVATE yield right now is 7.31% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token) | Ethereum | 12.95% | $118.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 2.79% | $112.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token) | Ethereum | 7.31% | $127.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 1.91% | $113.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ELEVATE's lower-variability candidates are uniswap-v4 (Ethereum), 12.95% APY, $118.6K TVL, https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token; uniswap-v4 (Ethereum), 2.79% APY, $112.2K TVL, https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELEVATE's lower-variability candidates are uniswap-v4 (Ethereum), 7.31% APY, $127.1K TVL, https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token; uniswap-v4 (Ethereum), 1.91% APY, $113.2K TVL, https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token) | Ethereum | 12.95% | $118.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 2.79% | $112.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token) | Ethereum | 7.31% | $127.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 1.91% | $113.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ELEVATE shows up in 2 pools here, with rates from 2.79% to 12.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ELEVATE shows up in 2 pools here, with rates from 1.91% to 7.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 12.95% | 14.38% | Base rate |
-| uniswap-v4 | 2.79% | 4.25% | Base rate |
+| uniswap-v4 | 7.31% | 14.21% | Base rate |
+| uniswap-v4 | 1.91% | 4.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ELEVATE yield today?
 
-12.95% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+7.31% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ELEVATE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $230.8K in total.
+2 live pools clear this page's $100K TVL floor, $240.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ELEVATE pools have the most stable APY history?
 
-Based on APY history only, ELEVATE's lower-variability candidates are uniswap-v4 (Ethereum), 12.95% APY, $118.6K TVL, https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token; uniswap-v4 (Ethereum), 2.79% APY, $112.2K TVL, https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELEVATE's lower-variability candidates are uniswap-v4 (Ethereum), 7.31% APY, $127.1K TVL, https://www.defi.garden/?pool=5b7b5d88-5e5b-4841-a6a4-92df499a2183&src=seo_token; uniswap-v4 (Ethereum), 1.91% APY, $113.2K TVL, https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, ELEVATE's lower-variability candidates are uniswap-v4
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

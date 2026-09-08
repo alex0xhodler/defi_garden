@@ -1,10 +1,10 @@
 # JRROYAA DeFi Yields
 
-The highest honest JRROYAA yield right now is 14.41% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYAA yield right now is 14.11% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 14.41% | $160.2K |
+| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 14.11% | $160.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYAA yield today?
 
-14.41% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+14.11% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JRROYAA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.2K in total.
+1 live pool clear this page's $100K TVL floor, $160.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JRROYAA pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

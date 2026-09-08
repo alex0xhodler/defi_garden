@@ -2,11 +2,11 @@
 
 **Total APY:** 1.75% (1.75% Base · + 0.00% Rewards)
 
-**TVL:** $293.3K
+**TVL:** $289.6K
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 2.65%
+**30d Mean APY:** 2.61%
 
 **Exposure:** single
 
@@ -27,10 +27,10 @@ Your deposit stays yours — you keep your money, and it keeps working.
 
 Projected at ⅓ haircut (1.75% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 1.75% right now vs a 2.65% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
 [Garden this pool → ~$1,029 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on pendle-v2](https://pendle.finance/?ref=defi.garden)
 
-Last updated September 7, 2026
+Last updated September 8, 2026

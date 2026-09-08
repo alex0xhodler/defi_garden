@@ -1,29 +1,29 @@
 # BRETT 디파이 수익률
 
-현재 BRETT의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 58.35%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BRETT의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 45.72%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 4.44% | $1.22M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 58.35% | $864.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.68% | $136.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 1.45% | $1.2M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 45.72% | $849.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 2.43% | $132.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.68%, TVL $136.8K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 58.35%, TVL $864.6K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 4.44%, TVL $1.22M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 2.43%, TVL $132.1K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 45.72%, TVL $849.8K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 1.45%, TVL $1.2M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.68% | $136.8K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 58.35% | $864.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 4.44% | $1.22M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 2.43% | $132.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 45.72% | $849.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 1.45% | $1.2M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.68%부터 58.35%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 1.45%부터 45.72%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.92%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,9 +33,9 @@ BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.68%부터 58.35%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 4.44% | 2.92% | 기본 금리 |
-| aerodrome-slipstream | 58.35% | 85.14% | 인센티브 76.02% |
-| uniswap-v2 | 0.68% | 2.30% | 기본 금리 |
+| uniswap-v3 | 1.45% | 2.92% | 기본 금리 |
+| aerodrome-slipstream | 45.72% | 85.17% | 인센티브 83.66% |
+| uniswap-v2 | 2.43% | 2.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,11 +43,11 @@ BRETT 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.68%부터 58.35%�
 
 ### 오늘 BRETT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 58.35%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 45.72%예요.
 
 ### BRETT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.33M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.29M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 58.
 
 ### BRETT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.68%, TVL $136.8K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 58.35%, TVL $864.6K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 4.44%, TVL $1.22M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 2.43%, TVL $132.1K, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; Base의 aerodrome-slipstream, APY 45.72%, TVL $849.8K, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; Base의 uniswap-v3, APY 1.45%, TVL $1.2M, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -71,4 +71,4 @@ APY 이력만 기준으로 비교한 BRETT의 변동성 낮은 후보는 Ethereu
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 7, 2026
+## 마지막 업데이트: September 8, 2026

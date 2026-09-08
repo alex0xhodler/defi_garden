@@ -4,7 +4,7 @@ The highest honest VCRED yield right now is 0.09% on sushiswap-v3 (Hemi), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token) | Hemi | 0.09% | $498.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token) | Hemi | 0.09% | $500K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VCRED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $498.1K in total.
+1 live pool clear this page's $100K TVL floor, $500K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank VCRED pools. This view covers
 
 ## Related tokens
 
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 - [HEMI](https://www.defi.garden/tokens/hemi)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

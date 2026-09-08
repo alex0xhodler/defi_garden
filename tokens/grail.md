@@ -1,10 +1,10 @@
 # GRAIL DeFi Yields
 
-The highest honest GRAIL yield right now is 0.72% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRAIL yield right now is 0.69% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=cbe1ac9a-0b0e-47ab-a90b-e2a44574a84b&src=seo_token) | Arbitrum | 0.72% | $188.5K |
+| [camelot-v3 →](https://www.defi.garden/?pool=cbe1ac9a-0b0e-47ab-a90b-e2a44574a84b&src=seo_token) | Arbitrum | 0.69% | $183.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRAIL yield today?
 
-0.72% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+0.69% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many GRAIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.5K in total.
+1 live pool clear this page's $100K TVL floor, $183.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GRAIL pools. This view covers
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

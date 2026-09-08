@@ -1,10 +1,10 @@
 # BIZUSDT0 DeFi Yields
 
-The highest honest BIZUSDT0 yield right now is 6.68% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIZUSDT0 yield right now is 6.89% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 6.68% | $755.7K |
+| [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 6.89% | $756.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIZUSDT0 yield today?
 
-6.68% APY on superform (Flare), based on live DefiLlama data.
+6.89% APY on superform (Flare), based on live DefiLlama data.
 
 ### How many BIZUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $755.7K in total.
+1 live pool clear this page's $100K TVL floor, $756.2K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank BIZUSDT0 pools. This view cov
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
 - [SFLR](https://www.defi.garden/tokens/sflr)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDX](https://www.defi.garden/tokens/usdx)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BIZUSDT0 pools. This view cov
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

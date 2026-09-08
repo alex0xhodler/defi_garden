@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YZPRIME pools. This view cove
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

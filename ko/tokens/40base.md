@@ -1,10 +1,10 @@
 # 40BASE 디파이 수익률
 
-현재 40BASE의 가장 높은 정직한 수익률은 Base의 40-acres에서 22.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 40BASE의 가장 높은 정직한 수익률은 Base의 40-acres에서 22.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 22.85% | $6.92M |
+| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 22.84% | $6.92M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 40BASE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 40-acres에서 APY 22.85%예요.
+DefiLlama 실시간 데이터 기준, Base의 40-acres에서 APY 22.84%예요.
 
 ### 40BASE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Base의 40-acres에서 APY 22.85%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 7, 2026
+## 마지막 업데이트: September 8, 2026

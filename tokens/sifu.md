@@ -4,7 +4,7 @@ The highest honest SIFU yield right now is 0.02% on uwu-lend (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $382.5K |
+| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $382.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SIFU pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

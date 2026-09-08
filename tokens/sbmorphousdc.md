@@ -1,10 +1,10 @@
 # SBMORPHOUSDC DeFi Yields
 
-The highest honest SBMORPHOUSDC yield right now is 3.89% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBMORPHOUSDC yield right now is 3.88% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=80b2d4bf-dac4-4c69-91da-cdc740de1e3b&src=seo_token) | Ethereum | 3.89% | $9.99M |
+| [morpho-blue →](https://www.defi.garden/?pool=80b2d4bf-dac4-4c69-91da-cdc740de1e3b&src=seo_token) | Ethereum | 3.88% | $10M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SBMORPHOUSDC yield today?
 
-3.89% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.88% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SBMORPHOUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.99M in total.
+1 live pool clear this page's $100K TVL floor, $10M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SBMORPHOUSDC pools. This view
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

@@ -1,10 +1,10 @@
 # CRONUS DeFi Yields
 
-The highest honest CRONUS yield right now is 4.83% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRONUS yield right now is 7.36% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 4.83% | $116.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 7.36% | $129K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRONUS yield today?
 
-4.83% APY on vvs-standard (Cronos), based on live DefiLlama data.
+7.36% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many CRONUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.3K in total.
+1 live pool clear this page's $100K TVL floor, $129K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank CRONUS pools. This view cover
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

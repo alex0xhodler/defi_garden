@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WSTUSDT pools. This view cove
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

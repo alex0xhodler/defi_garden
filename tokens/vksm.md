@@ -4,7 +4,7 @@ The highest honest VKSM yield right now is 12.06% on bifrost-liquid-staking (Kus
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_token) | Kusama | 12.06% | $573.1K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_token) | Kusama | 12.06% | $592.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VKSM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $573.1K in total.
+1 live pool clear this page's $100K TVL floor, $592.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VKSM pools. This view covers 
 
 - [Kusama](https://www.defi.garden/chains/kusama)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

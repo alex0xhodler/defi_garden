@@ -4,7 +4,7 @@ The highest honest YOSHI yield right now is 0.12% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4b49cd15-1b61-4c96-b08c-289055f85416&src=seo_token) | Base | 0.12% | $112.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4b49cd15-1b61-4c96-b08c-289055f85416&src=seo_token) | Base | 0.12% | $111.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.6K in total.
+1 live pool clear this page's $100K TVL floor, $111.1K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank YOSHI pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

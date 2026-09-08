@@ -1,10 +1,10 @@
 # GHX DeFi Yields
 
-The highest honest GHX yield right now is 10.46% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHX yield right now is 2.86% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=de299ee8-e682-4f19-b779-57e42a01a40f&src=seo_token) | Ethereum | 10.46% | $127.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=de299ee8-e682-4f19-b779-57e42a01a40f&src=seo_token) | Ethereum | 2.86% | $128K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GHX yield today?
 
-10.46% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GHX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.6K in total.
+1 live pool clear this page's $100K TVL floor, $128K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GHX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

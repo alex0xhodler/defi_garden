@@ -1,10 +1,10 @@
 # ZIG DeFi Yields
 
-The highest honest ZIG yield right now is 75.59% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZIG yield right now is 58.87% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 75.59% | $181.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 58.87% | $172.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZIG yield today?
 
-75.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+58.87% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZIG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.4K in total.
+1 live pool clear this page's $100K TVL floor, $172.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZIG pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

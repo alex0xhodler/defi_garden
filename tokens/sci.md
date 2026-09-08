@@ -1,10 +1,10 @@
 # SCI DeFi Yields
 
-The highest honest SCI yield right now is 0.75% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SCI yield right now is 2.29% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b15cab2f-bedd-4f4f-a841-02556af903bc&src=seo_token) | Base | 0.75% | $116.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b15cab2f-bedd-4f4f-a841-02556af903bc&src=seo_token) | Base | 2.29% | $114.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SCI yield today?
 
-0.75% APY on uniswap-v3 (Base), based on live DefiLlama data.
+2.29% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many SCI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.1K in total.
+1 live pool clear this page's $100K TVL floor, $114.2K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank SCI pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

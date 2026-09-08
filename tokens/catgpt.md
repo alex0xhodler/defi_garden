@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CATGPT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $755K in total.
+2 live pools clear this page's $100K TVL floor, $752.7K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CATGPT pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

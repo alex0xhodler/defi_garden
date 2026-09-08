@@ -4,7 +4,7 @@ The highest honest PUSDC yield right now is 3.84% on morpho-blue (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc&src=seo_token) | Base | 3.84% | $15.73M |
+| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc&src=seo_token) | Base | 3.84% | $11.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.73M in total.
+1 live pool clear this page's $100K TVL floor, $11.87M in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank PUSDC pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

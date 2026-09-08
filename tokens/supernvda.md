@@ -1,10 +1,10 @@
 # SUPERNVDA DeFi Yields
 
-The highest honest SUPERNVDA yield right now is 31.18% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERNVDA yield right now is 22.10% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=bc128d75-8019-5d5c-9e6c-2ab94b03b642&src=seo_token) | Base | 31.18% | $130.3K |
+| [superform →](https://www.defi.garden/?pool=bc128d75-8019-5d5c-9e6c-2ab94b03b642&src=seo_token) | Base | 22.10% | $123.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERNVDA yield today?
 
-31.18% APY on superform (Base), based on live DefiLlama data.
+22.10% APY on superform (Base), based on live DefiLlama data.
 
 ### How many SUPERNVDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.3K in total.
+1 live pool clear this page's $100K TVL floor, $123.1K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank SUPERNVDA pools. This view co
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

@@ -1,12 +1,12 @@
 # GOOGLC DeFi Yields
 
-The highest honest GOOGLC yield right now is 194.01% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLC yield right now is 297.64% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 90.39% | $1.7M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a1265a82-835c-533c-bbad-18cca93bec6e&src=seo_token) | Base | 194.01% | $150.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 13.00% | $129.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 297.64% | $1.63M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a1265a82-835c-533c-bbad-18cca93bec6e&src=seo_token) | Base | 142.34% | $168.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 10.73% | $128.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLC shows up in 3 pools here, with rates from 13.00% to 194.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLC shows up in 3 pools here, with rates from 10.73% to 297.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 331.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 296.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,9 +27,9 @@ GOOGLC shows up in 3 pools here, with rates from 13.00% to 194.01% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 90.39% | — | 70.04% incentives |
-| aerodrome-slipstream | 194.01% | 420.92% | 54.33% incentives |
-| uniswap-v3 | 13.00% | 242.41% | Base rate |
+| aerodrome-slipstream | 297.64% | — | 80.35% incentives |
+| aerodrome-slipstream | 142.34% | 369.92% | 46.99% incentives |
+| uniswap-v3 | 10.73% | 222.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOOGLC yield today?
 
-194.01% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+297.64% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many GOOGLC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.1M in total.
+3 live pools clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
@@ -57,11 +57,11 @@ There is not enough qualifying APY history to rank GOOGLC pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

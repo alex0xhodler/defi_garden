@@ -1,10 +1,10 @@
 # PNP DeFi Yields
 
-The highest honest PNP yield right now is 0.86% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNP yield right now is 5.39% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 0.86% | $103.9K |
+| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 5.39% | $103.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNP yield today?
 
-0.86% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+5.39% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PNP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.9K in total.
+1 live pool clear this page's $100K TVL floor, $103.5K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank PNP pools. This view covers A
 
 ## Related tokens
 
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

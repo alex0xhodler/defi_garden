@@ -1,10 +1,10 @@
 # LYNK DeFi Yields
 
-The highest honest LYNK yield right now is 3.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LYNK yield right now is 2.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=321afd81-def7-4df5-9034-c7c3b19ec321&src=seo_token) | Solana | 3.39% | $352.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=321afd81-def7-4df5-9034-c7c3b19ec321&src=seo_token) | Solana | 2.08% | $344.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LYNK yield today?
 
-3.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LYNK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $352.1K in total.
+1 live pool clear this page's $100K TVL floor, $344.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LYNK pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

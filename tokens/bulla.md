@@ -1,10 +1,10 @@
 # BULLA DeFi Yields
 
-The highest honest BULLA yield right now is 2.10% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BULLA yield right now is 1.80% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 2.10% | $291K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 1.80% | $289.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BULLA yield today?
 
-2.10% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+1.80% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BULLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291K in total.
+1 live pool clear this page's $100K TVL floor, $289.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BULLA pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

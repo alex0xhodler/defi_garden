@@ -1,10 +1,10 @@
 # KIBSHI DeFi Yields
 
-The highest honest KIBSHI yield right now is 7.47% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KIBSHI yield right now is 3.88% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=072f98e7-dcc6-4382-8004-71d297338690&src=seo_token) | Ethereum | 7.47% | $319.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=072f98e7-dcc6-4382-8004-71d297338690&src=seo_token) | Ethereum | 3.88% | $310.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KIBSHI yield today?
 
-7.47% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.88% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KIBSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $319.7K in total.
+1 live pool clear this page's $100K TVL floor, $310.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KIBSHI pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

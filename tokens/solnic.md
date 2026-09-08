@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SOLNIC pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

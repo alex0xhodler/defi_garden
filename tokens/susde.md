@@ -1,54 +1,54 @@
 # SUSDE DeFi Yields
 
-The highest honest SUSDE yield right now is 8.13% on pendle-v2 (Monad), among 59 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDE yield right now is 8.12% on pendle-v2 (Monad), among 59 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.57% | $1.39B |
-| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 3.02% | $279.96M |
-| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 3.62% | $215.69M |
-| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 4.24% | $84.8M |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 4.29% | $56.24M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.95% | $47.74M |
-| [pendle-v2 →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.13% | $23.41M |
-| [pendle-v2 →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 5.12% | $23.41M |
+| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.64% | $1.37B |
+| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 3.08% | $266.38M |
+| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 3.65% | $215.04M |
+| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 4.13% | $82.43M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 4.16% | $56.25M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.26% | $47.75M |
+| [pendle-v2 →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 5.12% | $22.85M |
+| [pendle-v2 →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.12% | $22.85M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDE's lower-variability candidates are pendle-v2 (Monad), 5.12% APY, $23.41M TVL, https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token; aave-v3 (Ethereum), 3.02% APY, $279.96M TVL, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; aave-v3 (Plasma), 3.62% APY, $215.69M TVL, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; aave-v3 (Mantle), 4.24% APY, $84.8M TVL, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; pendle-v2 (Monad), 8.13% APY, $23.41M TVL, https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token; convex-finance (Ethereum), 5.95% APY, $47.74M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; curve-dex (Ethereum), 4.29% APY, $56.24M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.57% APY, $1.39B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDE's lower-variability candidates are pendle-v2 (Monad), 5.12% APY, $22.85M TVL, https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token; aave-v3 (Ethereum), 3.08% APY, $266.38M TVL, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; aave-v3 (Plasma), 3.65% APY, $215.04M TVL, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; aave-v3 (Mantle), 4.13% APY, $82.43M TVL, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; pendle-v2 (Monad), 8.12% APY, $22.85M TVL, https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token; convex-finance (Ethereum), 5.26% APY, $47.75M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; curve-dex (Ethereum), 4.16% APY, $56.25M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.64% APY, $1.37B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 5.12% | $23.41M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 3.02% | $279.96M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 3.62% | $215.69M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 4.24% | $84.8M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.13% | $23.41M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.95% | $47.74M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 4.29% | $56.24M |
-| 8 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.57% | $1.39B |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 5.12% | $22.85M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 3.08% | $266.38M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 3.65% | $215.04M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 4.13% | $82.43M |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 8.12% | $22.85M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.26% | $47.75M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 4.16% | $56.25M |
+| 8 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.64% | $1.37B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDE shows up in 8 pools here, with rates from 3.02% to 8.13% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDE shows up in 8 pools here, with rates from 3.08% to 8.12% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ethena-usde | 4.57% | 4.44% | Base rate |
-| aave-v3 | 3.02% | 1.42% | 100.00% incentives |
-| aave-v3 | 3.62% | 2.06% | 100.00% incentives |
-| aave-v3 | 4.24% | 3.62% | 100.00% incentives |
-| curve-dex | 4.29% | 3.73% | 71.32% incentives |
-| convex-finance | 5.95% | 5.60% | 79.31% incentives |
-| pendle-v2 | 8.13% | 9.71% | 0.94% incentives |
-| pendle-v2 | 5.12% | 4.65% | Base rate |
+| ethena-usde | 4.64% | 4.45% | Base rate |
+| aave-v3 | 3.08% | 1.46% | 100.00% incentives |
+| aave-v3 | 3.65% | 2.11% | 100.00% incentives |
+| aave-v3 | 4.13% | 3.64% | 100.00% incentives |
+| curve-dex | 4.16% | 3.75% | 70.44% incentives |
+| convex-finance | 5.26% | 5.60% | 76.62% incentives |
+| pendle-v2 | 5.12% | 4.67% | Base rate |
+| pendle-v2 | 8.12% | 9.66% | 1.03% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,11 +56,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDE yield today?
 
-8.13% APY on pendle-v2 (Monad), based on live DefiLlama data.
+8.12% APY on pendle-v2 (Monad), based on live DefiLlama data.
 
 ### How many SUSDE pools clear the TVL floor?
 
-59 live pools clear this page's $100K TVL floor, $2.44B in total.
+59 live pools clear this page's $100K TVL floor, $2.4B in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDE pools have the most stable APY history?
 
-Based on APY history only, SUSDE's lower-variability candidates are pendle-v2 (Monad), 5.12% APY, $23.41M TVL, https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token; aave-v3 (Ethereum), 3.02% APY, $279.96M TVL, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; aave-v3 (Plasma), 3.62% APY, $215.69M TVL, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; aave-v3 (Mantle), 4.24% APY, $84.8M TVL, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; pendle-v2 (Monad), 8.13% APY, $23.41M TVL, https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token; convex-finance (Ethereum), 5.95% APY, $47.74M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; curve-dex (Ethereum), 4.29% APY, $56.24M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.57% APY, $1.39B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDE's lower-variability candidates are pendle-v2 (Monad), 5.12% APY, $22.85M TVL, https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token; aave-v3 (Ethereum), 3.08% APY, $266.38M TVL, https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token; aave-v3 (Plasma), 3.65% APY, $215.04M TVL, https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token; aave-v3 (Mantle), 4.13% APY, $82.43M TVL, https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token; pendle-v2 (Monad), 8.12% APY, $22.85M TVL, https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token; convex-finance (Ethereum), 5.26% APY, $47.75M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; curve-dex (Ethereum), 4.16% APY, $56.25M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.64% APY, $1.37B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,4 +86,4 @@ Based on APY history only, SUSDE's lower-variability candidates are pendle-v2 (M
 - [Mantle](https://www.defi.garden/chains/mantle)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

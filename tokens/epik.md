@@ -1,10 +1,10 @@
 # EPIK DeFi Yields
 
-The highest honest EPIK yield right now is 6.46% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EPIK yield right now is 5.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e2b3b187-6efd-40b1-8cb3-3000d47b91c7&src=seo_token) | Solana | 6.46% | $391.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=e2b3b187-6efd-40b1-8cb3-3000d47b91c7&src=seo_token) | Solana | 5.10% | $388.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EPIK yield today?
 
-6.46% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many EPIK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $391.3K in total.
+1 live pool clear this page's $100K TVL floor, $388.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EPIK pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

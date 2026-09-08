@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ALQUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026

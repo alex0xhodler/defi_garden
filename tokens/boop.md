@@ -1,29 +1,29 @@
 # BOOP DeFi Yields
 
-The highest honest BOOP yield right now is 15.86% on camelot-v2 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOP yield right now is 7.48% on camelot-v2 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token) | Solana | 0.90% | $157.6K |
-| [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 15.86% | $145.4K |
+| [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 7.48% | $149.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOOP's lower-variability candidates are camelot-v2 (Arbitrum), 15.86% APY, $145.4K TVL, https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token; raydium-amm (Solana), 0.90% APY, $157.6K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOOP's lower-variability candidates are camelot-v2 (Arbitrum), 7.48% APY, $149.9K TVL, https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token; raydium-amm (Solana), 0.90% APY, $157.6K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 15.86% | $145.4K |
+| 1 | [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 7.48% | $149.9K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token) | Solana | 0.90% | $157.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BOOP shows up in 2 pools here, with rates from 0.90% to 15.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOOP shows up in 2 pools here, with rates from 0.90% to 7.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.90% | 1.05% | Base rate |
-| camelot-v2 | 15.86% | 12.88% | Base rate |
+| camelot-v2 | 7.48% | 13.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOOP yield today?
 
-15.86% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
+7.48% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many BOOP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $302.9K in total.
+2 live pools clear this page's $100K TVL floor, $307.4K in total.
 
 ### Are these rates safe?
 
@@ -52,20 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOOP pools have the most stable APY history?
 
-Based on APY history only, BOOP's lower-variability candidates are camelot-v2 (Arbitrum), 15.86% APY, $145.4K TVL, https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token; raydium-amm (Solana), 0.90% APY, $157.6K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOOP's lower-variability candidates are camelot-v2 (Arbitrum), 7.48% APY, $149.9K TVL, https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token; raydium-amm (Solana), 0.90% APY, $157.6K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 7, 2026
+## Last updated September 8, 2026
