@@ -81,6 +81,10 @@
     {
       "source": "/.well-known/ai-catalog",
       "destination": "/.well-known/ai-catalog.json"
+    },
+    {
+      "source": "/api/laso/:match*",
+      "destination": "https://laso.finance/:match*"
     }
   ],
   "redirects": [
@@ -187,6 +191,15 @@
     }
   ],
   "headers": [
+    {
+      "source": "/api/laso/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS, PUT, DELETE, PATCH" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, X-Payment, Authorization, Payment-Required, Sign-In-With-X, Accept" },
+        { "key": "Access-Control-Expose-Headers", "value": "Payment-Required, X-Payment, Authorization, X-Laso-Docs-Version, X-Laso-Docs-Manifest, Link" }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

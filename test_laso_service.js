@@ -40,6 +40,49 @@ async function asyncTest(name, fn) {
     assert.strictEqual(nonce.length, 16);
     assert.match(nonce, /^[a-zA-Z0-9]{16}$/);
   });
+  test('generateHexNonce returns 64-character valid hex string for 32 bytes', () => {
+    const hex = LasoService.generateHexNonce(32);
+    assert.strictEqual(hex.length, 64);
+    assert.strictEqual(/^[0-9a-f]{64}$/.test(hex), true);
+  });
+
+  test('buildEip712TransferWithAuthorization constructs compliant Base USDC EIP-3009 payload', () => {
+    const typedData = LasoService.buildEip712TransferWithAuthorization({
+      from: '0x71C67Ed300791a50e544a63Cd32924BD475B9077',
+      to: '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37',
+      amount: 5
+    });
+    assert.strictEqual(typedData.primaryType, 'TransferWithAuthorization');
+    assert.strictEqual(typedData.domain.name, 'USD Coin');
+    assert.strictEqual(typedData.domain.version, '2');
+    assert.strictEqual(typedData.domain.chainId, 8453);
+    assert.strictEqual(typedData.domain.verifyingContract, '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913');
+    assert.strictEqual(typedData.message.from, '0x71C67Ed300791a50e544a63Cd32924BD475B9077');
+    assert.strictEqual(typedData.message.to, '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37');
+    assert.strictEqual(typedData.message.value, '5000000');
+    assert.strictEqual(typedData.message.validAfter, 0);
+    assert.strictEqual(typeof typedData.message.validBefore, 'number');
+    assert.strictEqual(typeof typedData.message.nonce, 'string');
+  });
+
+  test('buildX402PaymentHeaderV2 constructs compliant x402 v2 payment header', () => {
+    const header = LasoService.buildX402PaymentHeaderV2({
+      signature: '0xdeadbeef',
+      from: '0x71C67Ed300791a50e544a63Cd32924BD475B9077',
+      to: '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37',
+      value: '5000000',
+      validBefore: 1757350000,
+      nonce: '0x1234567890abcdef'
+    });
+    assert.strictEqual(typeof header, 'string');
+    const decoded = JSON.parse(Buffer.from(header, 'base64').toString('utf8'));
+    assert.strictEqual(decoded.x402Version, 2);
+    assert.strictEqual(decoded.scheme, 'exact');
+    assert.strictEqual(decoded.network, 'eip155:8453');
+    assert.strictEqual(decoded.payload.signature, '0xdeadbeef');
+    assert.strictEqual(decoded.payload.authorization.value, '5000000');
+  });
+
 
   test('validateLuhn verifies valid Luhn numbers and rejects invalid ones', () => {
     assert.strictEqual(LasoService.validateLuhn('4242424242424242'), true);
@@ -138,6 +181,44 @@ async function asyncTest(name, fn) {
     assert.strictEqual(res.recipient, '0x49942a17fF59F13Eb6FE3725A64Eb1F985F85860');
     assert.strictEqual(res.priceUsdc, 24);
   });
+  await asyncTest('getCardChallenge parses x402 v2 challenge from payment-required header', async () => {
+    const sampleV2Challenge = {
+      x402Version: 2,
+      accepts: [
+        {
+          scheme: 'exact',
+          network: 'eip155:8453',
+          amount: '5000000',
+          asset: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+          payTo: '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37'
+        }
+      ]
+    };
+    const b64Header = Buffer.from(JSON.stringify(sampleV2Challenge)).toString('base64');
+
+    const mockFetch = async () => {
+      return {
+        status: 402,
+        ok: false,
+        headers: {
+          get: (h) => (h.toLowerCase() === 'payment-required' ? b64Header : null)
+        },
+        json: async () => ({})
+      };
+    };
+
+    const res = await LasoService.getCardChallenge({
+      amount: 5,
+      product: 'usa_prepaid',
+      fetchFn: mockFetch
+    });
+    assert.strictEqual(res.status, 402);
+    assert.strictEqual(res.x402Version, 2);
+    assert.strictEqual(res.recipient, '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37');
+    assert.strictEqual(res.priceUsdc, 5);
+    assert.strictEqual(res.tokenAddress, '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913');
+  });
+
 
   await asyncTest('issueCardWithPayment replays with X-Payment header', async () => {
     const mockFetch = async (url, opts) => {
@@ -225,6 +306,34 @@ async function asyncTest(name, fn) {
     assert.strictEqual(card.billing_address.city, 'Wilmington');
     assert.strictEqual(card.billing_address.state, 'DE');
     assert.strictEqual(progressEvents.length >= 4, true);
+  });
+
+  console.log('--- Laso Service: Credential Security & Disk Hygiene ---');
+
+  test('stored card sanitized metadata does not expose full PAN or CVV to storage', () => {
+    const store = {};
+    global.localStorage = {
+      getItem: (k) => store[k] || null,
+      setItem: (k, v) => { store[k] = String(v); },
+      removeItem: (k) => { delete store[k]; }
+    };
+    const mockWallet = '0x1234567890abcdef1234567890abcdef12345678';
+    const safeCard = {
+      card_id: 'laso_test_123',
+      status: 'ready',
+      last4: '8842',
+      exp_month: '02',
+      exp_year: '32',
+      available_balance: 5.00
+    };
+    LasoService.saveStoredCard(mockWallet, safeCard);
+    const stored = LasoService.getStoredCards(mockWallet);
+    assert.strictEqual(stored.length >= 1, true);
+    const found = stored.find(c => c.card_id === 'laso_test_123');
+    assert.strictEqual(found.last4, '8842');
+    assert.strictEqual(found.card_number, undefined);
+    assert.strictEqual(found.cvv, undefined);
+    delete global.localStorage;
   });
 
   console.log(`\nPassed all ${passed} Laso service tests.`);

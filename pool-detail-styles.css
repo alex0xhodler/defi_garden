@@ -2966,7 +2966,7 @@ a.pool-token-chip:hover {
   background: var(--cert-green);
   border: none;
   border-radius: 4px;
-  color: #08140f;
+  color: var(--ui-on-accent, #ffffff);
   font-family: var(--font-family-base, "Public Sans", sans-serif);
   font-size: 0.88rem;
   font-weight: 700;
@@ -3290,4 +3290,230 @@ a.pool-token-chip:hover {
 .laso-reset-btn:hover {
   border-color: var(--cert-green);
   color: var(--cert-ink);
+}
+
+/* Laso Mode Switcher */
+.laso-mode-switch-group {
+  display: flex;
+  gap: 4px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-pill, 999px);
+  padding: 2px;
+}
+
+.laso-mode-btn {
+  background: transparent;
+  border: none;
+  border-radius: var(--ui-radius-pill, 999px);
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.laso-mode-btn:hover {
+  color: var(--cert-ink, #fff);
+}
+
+.laso-mode-btn.is-active {
+  background: var(--ui-surface-sunken, rgba(255, 255, 255, 0.12));
+  color: var(--cert-ink, #fff);
+}
+
+.laso-mode-btn.is-active.live {
+  background: var(--cert-green, #7CC9A0);
+  color: #08140f;
+}
+
+/* Amount Selector */
+.laso-amount-section {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.laso-amount-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+}
+
+.laso-amount-chips-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.laso-amount-chip {
+  flex: 1;
+  min-width: 80px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.laso-amount-chip:hover {
+  border-color: var(--cert-ink, rgba(255, 255, 255, 0.5));
+  color: var(--cert-ink, #fff);
+}
+
+.laso-amount-chip.is-active {
+  background: var(--ui-accent-soft, rgba(124, 201, 160, 0.16));
+  border-color: var(--cert-green, #7CC9A0);
+  color: var(--cert-green, #7CC9A0);
+  font-weight: 700;
+}
+
+.laso-custom-amount-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.laso-custom-amount-input {
+  width: 110px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--cert-ink, #fff);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.8rem;
+}
+
+.laso-custom-amount-hint {
+  font-size: 0.66rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Error Card */
+.laso-error-card {
+  padding: 14px 16px;
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.laso-error-title {
+  font-size: 0.80rem;
+  font-weight: 700;
+  color: #f87171;
+}
+
+.laso-error-msg {
+  font-size: 0.74rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  line-height: 1.4;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-error-retry-btn {
+  align-self: flex-start;
+  padding: 6px 14px;
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.laso-card-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.laso-card-live-badge.live {
+  background: rgba(124, 201, 160, 0.2);
+  color: var(--cert-green, #7CC9A0);
+  border: 1px solid var(--cert-green, #7CC9A0);
+}
+
+.laso-card-live-badge.sim {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--cert-rule, #333);
+}
+
+/* On-Demand SIWx Reveal Banner */
+.laso-siwx-unlock-banner {
+  padding: 10px 12px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px dashed rgba(124, 201, 160, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.laso-siwx-unlock-btn {
+  padding: 5px 12px;
+  background: var(--cert-green, #7CC9A0);
+  border: 1px solid var(--cert-green, #7CC9A0);
+  border-radius: 4px;
+  color: #08140f;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.laso-siwx-note {
+  font-size: 0.68rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Automatic Pending Order Recovery Banner */
+.laso-pending-recovery-banner {
+  padding: 10px 14px;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.laso-pending-recovery-text {
+  font-size: 0.72rem;
+  color: #ffc107;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-pending-recovery-btn {
+  padding: 4px 10px;
+  background: #ffc107;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
 }

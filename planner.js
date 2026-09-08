@@ -1852,7 +1852,49 @@
     var plannerLasoMerchantQuery = plannerLasoMerchantQueryState[0], setPlannerLasoMerchantQuery = plannerLasoMerchantQueryState[1];
     var plannerLasoMerchantResultState = useState(null);
     var plannerLasoMerchantResult = plannerLasoMerchantResultState[0], setPlannerLasoMerchantResult = plannerLasoMerchantResultState[1];
+    var plannerLasoModeState = useState('live'); // 'live' | 'sim'
+    var plannerLasoMode = plannerLasoModeState[0], setPlannerLasoMode = plannerLasoModeState[1];
+    var plannerLasoAmountPresetState = useState('test5'); // 'test5' | 'service' | 'custom'
+    var plannerLasoAmountPreset = plannerLasoAmountPresetState[0], setPlannerLasoAmountPreset = plannerLasoAmountPresetState[1];
+    var plannerLasoCustomAmountState = useState('5.00');
+    var plannerLasoCustomAmount = plannerLasoCustomAmountState[0], setPlannerLasoCustomAmount = plannerLasoCustomAmountState[1];
+    var plannerLasoBalanceRefreshingState = useState(false);
+    var plannerLasoBalanceRefreshing = plannerLasoBalanceRefreshingState[0], setPlannerLasoBalanceRefreshing = plannerLasoBalanceRefreshingState[1];
+    var plannerLasoSiwxUnlockingState = useState(false);
+    var plannerLasoSiwxUnlocking = plannerLasoSiwxUnlockingState[0], setPlannerLasoSiwxUnlocking = plannerLasoSiwxUnlockingState[1];
 
+    // Automatic Pending Order Recovery & Saved Card Check
+    useEffect(function () {
+      if (typeof window === 'undefined' || !window.LasoService) return;
+      try {
+        var cards = window.LasoService.getStoredCards();
+        if (cards && cards.length) {
+          var latest = cards[0];
+          if (latest.status === 'pending' && latest.card_id) {
+            var ageMs = Date.now() - new Date(latest.created_at || Date.now()).getTime();
+            if (ageMs < 300000) {
+              setPlannerLasoOpen(true);
+              setPlannerLasoState('issuing');
+              setPlannerLasoStep(5);
+              setPlannerLasoMsg('Resuming pending card provisioning (' + latest.card_id + ')...');
+              window.LasoService.pollCardUntilReady({
+                cardId: latest.card_id,
+                idToken: latest.id_token,
+                onProgress: function (p) {
+                  setPlannerLasoMsg(p.message || '');
+                }
+              }).then(function (card) {
+                setPlannerLasoCard(card);
+                setPlannerLasoState('issued');
+              }).catch(function (err) {
+                setPlannerLasoState('error');
+                setPlannerLasoMsg('Order recovery: ' + (err.message || 'Please retry'));
+              });
+            }
+          }
+        }
+      } catch (_e) {}
+    }, []);
     function handlePlannerCopyLaso(field, val) {
       if (typeof navigator !== 'undefined' && navigator.clipboard) {
         navigator.clipboard.writeText(val);
@@ -1870,33 +1912,105 @@
       setPlannerLasoMerchantResult({ query: plannerLasoMerchantQuery, status: isAccepted ? 'accepted' : 'unknown' });
     }
 
-    function handleStartPlannerLasoIssuance() {
-      setPlannerLasoState('issuing');
-      setPlannerLasoStep(1);
-      setPlannerLasoMsg('Requesting CAIP-122 wallet signature (SIWx)...');
-
-      var amountToIssue = Math.max(5, Math.min(1000, Math.round(activeMonthly * 1.2)));
-
-      if (typeof window !== 'undefined' && window.LasoService) {
-        window.LasoService.simulateIssuance({
-          amount: amountToIssue,
-          subName: chkServiceName || 'Subscription',
-          walletAddress: '0x71C...B49a',
-          onProgress: function (p) {
-            setPlannerLasoStep(p.step || 1);
-            setPlannerLasoMsg(p.message || '');
-          }
-        }).then(function (card) {
-          setPlannerLasoCard(card);
-          setPlannerLasoState('issued');
-        }).catch(function (err) {
-          setPlannerLasoState('error');
-          setPlannerLasoMsg(err.message || 'Issuance failed');
+    function handlePlannerRefreshBalance() {
+      if (!plannerLasoCard || !plannerLasoCard.card_id) return;
+      setPlannerLasoBalanceRefreshing(true);
+      if (typeof window !== 'undefined' && window.LasoService && !plannerLasoCard.is_simulation) {
+        window.LasoService.pollCardUntilReady({
+          cardId: plannerLasoCard.card_id,
+          idToken: plannerLasoCard.id_token,
+          maxWaitMs: 6000,
+          pollIntervalMs: 1500
+        }).then(function (updated) {
+          setPlannerLasoCard(Object.assign({}, plannerLasoCard, updated));
+          setPlannerLasoBalanceRefreshing(false);
+        }).catch(function () {
+          setPlannerLasoBalanceRefreshing(false);
         });
       } else {
-        setTimeout(function () {
-          setPlannerLasoState('issued');
-        }, 2000);
+        setTimeout(function () { setPlannerLasoBalanceRefreshing(false); }, 700);
+      }
+    }
+
+    function handlePlannerSiwxUnlock() {
+      if (!plannerLasoCard || !plannerLasoCard.card_id) return;
+      setPlannerLasoSiwxUnlocking(true);
+      if (typeof window !== 'undefined' && window.LasoService && window.LasoService.revealCardWithSiwx) {
+        window.LasoService.revealCardWithSiwx({
+          cardId: plannerLasoCard.card_id,
+          walletAddress: plannerLasoCard.wallet_address
+        }).then(function (revealed) {
+          setPlannerLasoCard(Object.assign({}, plannerLasoCard, revealed));
+          setPlannerLasoPanRevealed(true);
+          setPlannerLasoCvvRevealed(true);
+          setPlannerLasoSiwxUnlocking(false);
+        }).catch(function (err) {
+          setPlannerLasoSiwxUnlocking(false);
+          alert(err.message || 'SIWx authentication failed');
+        });
+      } else {
+        setPlannerLasoSiwxUnlocking(false);
+      }
+    }
+
+    function handleStartPlannerLasoIssuance() {
+      var serviceAmount = Math.max(5, Math.min(1000, Math.round(activeMonthly * 1.2)));
+      var amountToIssue = 5;
+      if (plannerLasoAmountPreset === 'test5') {
+        amountToIssue = 5;
+      } else if (plannerLasoAmountPreset === 'service') {
+        amountToIssue = serviceAmount;
+      } else {
+        amountToIssue = Math.max(5, Math.min(1000, Number(plannerLasoCustomAmount) || 5));
+      }
+
+      setPlannerLasoState('issuing');
+      setPlannerLasoStep(1);
+
+      if (plannerLasoMode === 'live') {
+        setPlannerLasoMsg('Connecting wallet & verifying Base network...');
+        if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
+          window.LasoService.issueCardWithLiveWallet({
+            amount: amountToIssue,
+            subName: chkServiceName || 'Subscription',
+            onProgress: function (p) {
+              setPlannerLasoStep(p.step || 1);
+              setPlannerLasoMsg(p.message || '');
+            }
+          }).then(function (card) {
+            setPlannerLasoCard(card);
+            setPlannerLasoState('issued');
+          }).catch(function (err) {
+            setPlannerLasoState('error');
+            setPlannerLasoMsg(err.message || 'Live issuance failed');
+          });
+        } else {
+          setPlannerLasoState('error');
+          setPlannerLasoMsg('Laso Service unavailable in browser');
+        }
+      } else {
+        setPlannerLasoMsg('Requesting CAIP-122 wallet signature (SIWx)...');
+        if (typeof window !== 'undefined' && window.LasoService) {
+          window.LasoService.simulateIssuance({
+            amount: amountToIssue,
+            subName: chkServiceName || 'Subscription',
+            walletAddress: '0x71C...B49a',
+            onProgress: function (p) {
+              setPlannerLasoStep(p.step || 1);
+              setPlannerLasoMsg(p.message || '');
+            }
+          }).then(function (card) {
+            setPlannerLasoCard(card);
+            setPlannerLasoState('issued');
+          }).catch(function (err) {
+            setPlannerLasoState('error');
+            setPlannerLasoMsg(err.message || 'Issuance failed');
+          });
+        } else {
+          setTimeout(function () {
+            setPlannerLasoState('issued');
+          }, 2000);
+        }
       }
     }
     function renderPlannerLasoTerminal() {
@@ -1906,34 +2020,89 @@
             e('span', { className: 'laso-brand-dot' }),
             e('span', null, 'Laso.finance Virtual Visa Card Rail')
           ),
-          e('div', { className: 'laso-mode-badge' }, '🧪 Instant Simulator')
+          e('div', { className: 'laso-mode-switch-group' },
+            e('button', {
+              type: 'button',
+              className: 'laso-mode-btn ' + (plannerLasoMode === 'live' ? 'is-active live' : ''),
+              onClick: function () { setPlannerLasoMode('live'); }
+            }, '⚡ Live Base USDC'),
+            e('button', {
+              type: 'button',
+              className: 'laso-mode-btn ' + (plannerLasoMode === 'sim' ? 'is-active' : ''),
+              onClick: function () { setPlannerLasoMode('sim'); }
+            }, '🧪 Simulator')
+          )
         ),
 
         plannerLasoState === 'idle'
-          ? e('div', { className: 'laso-idle-card' },
-              e('p', { className: 'laso-terminal-desc' },
-                'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. 6-month validity, US online merchant checkout, 0% load fee.'
-              ),
-              e('div', { className: 'laso-specs-grid' },
-                e('div', { className: 'laso-spec-item' },
-                  e('span', { className: 'laso-spec-k' }, 'Type:'),
-                  e('span', { className: 'laso-spec-v' }, 'USA Prepaid Visa')
+          ? (function () {
+              var sAmount = Math.max(5, Math.min(1000, Math.round(activeMonthly * 1.2)));
+              var currentAmount = plannerLasoAmountPreset === 'test5' ? 5 : (plannerLasoAmountPreset === 'service' ? sAmount : Math.max(5, Math.min(1000, Number(plannerLasoCustomAmount) || 5)));
+              return e('div', { className: 'laso-idle-card' },
+                e('p', { className: 'laso-terminal-desc' },
+                  plannerLasoMode === 'live'
+                    ? 'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.'
+                    : 'Interactive test simulator mimicking live Laso BaaS issuance, SIWx auth, and Base x402 micro-payments.'
                 ),
-                e('div', { className: 'laso-spec-item' },
-                  e('span', { className: 'laso-spec-k' }, 'Fee:'),
-                  e('span', { className: 'laso-spec-v highlight' }, '0% (Zero Fee)')
+                e('div', { className: 'laso-amount-section' },
+                  e('span', { className: 'laso-amount-label' }, 'Card Load Amount:'),
+                  e('div', { className: 'laso-amount-chips-row' },
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-amount-chip ' + (plannerLasoAmountPreset === 'test5' ? 'is-active' : ''),
+                      onClick: function () { setPlannerLasoAmountPreset('test5'); }
+                    }, '🧪 Test Min $5.00'),
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-amount-chip ' + (plannerLasoAmountPreset === 'service' ? 'is-active' : ''),
+                      onClick: function () { setPlannerLasoAmountPreset('service'); }
+                    }, '💼 Service Bill $' + sAmount.toFixed(2)),
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-amount-chip ' + (plannerLasoAmountPreset === 'custom' ? 'is-active' : ''),
+                      onClick: function () { setPlannerLasoAmountPreset('custom'); }
+                    }, '✏️ Custom')
+                  ),
+                  plannerLasoAmountPreset === 'custom'
+                    ? e('div', { className: 'laso-custom-amount-row' },
+                        e('span', null, '$'),
+                        e('input', {
+                          type: 'number',
+                          className: 'laso-custom-amount-input',
+                          min: 5,
+                          max: 1000,
+                          step: '1',
+                          value: plannerLasoCustomAmount,
+                          onChange: function (ev) { setPlannerLasoCustomAmount(ev.target.value); }
+                        }),
+                        e('span', { className: 'laso-custom-amount-hint' }, 'Min $5.00 — Max $1,000')
+                      )
+                    : null
                 ),
-                e('div', { className: 'laso-spec-item' },
-                  e('span', { className: 'laso-spec-k' }, 'Speed:'),
-                  e('span', { className: 'laso-spec-v' }, 'Instant (~7-10s)')
+                e('div', { className: 'laso-specs-grid' },
+                  e('div', { className: 'laso-spec-item' },
+                    e('span', { className: 'laso-spec-k' }, 'Type:'),
+                    e('span', { className: 'laso-spec-v' }, 'USA Prepaid Visa')
+                  ),
+                  e('div', { className: 'laso-spec-item' },
+                    e('span', { className: 'laso-spec-k' }, 'Network:'),
+                    e('span', { className: 'laso-spec-v highlight' }, 'Base (eip155:8453)')
+                  ),
+                  e('div', { className: 'laso-spec-item' },
+                    e('span', { className: 'laso-spec-k' }, 'Gas Fee:'),
+                    e('span', { className: 'laso-spec-v highlight' }, '0 ETH (Sponsored)')
+                  )
+                ),
+                e('button', {
+                  type: 'button',
+                  className: 'laso-issue-cta-btn',
+                  onClick: handleStartPlannerLasoIssuance
+                }, plannerLasoMode === 'live'
+                  ? ('⚡ Connect Wallet & Issue Live Card ($' + currentAmount.toFixed(2) + ' USDC) →')
+                  : ('🧪 Simulate Card Issuance ($' + currentAmount.toFixed(2) + ') →')
                 )
-              ),
-              e('button', {
-                type: 'button',
-                className: 'laso-issue-cta-btn',
-                onClick: handleStartPlannerLasoIssuance
-              }, '⚡ Issue Virtual Visa Card ($' + (activeMonthly * 1.2).toFixed(2) + ') →')
-            )
+              );
+            })()
           : null,
 
         plannerLasoState === 'issuing'
@@ -1945,12 +2114,15 @@
                 e('div', { className: 'laso-step-line ' + (plannerLasoStep >= 3 ? 'is-active' : '') }),
                 e('div', { className: 'laso-step-dot ' + (plannerLasoStep >= 3 ? 'is-active' : '') }, '3'),
                 e('div', { className: 'laso-step-line ' + (plannerLasoStep >= 4 ? 'is-active' : '') }),
-                e('div', { className: 'laso-step-dot ' + (plannerLasoStep >= 4 ? 'is-active' : '') }, '4')
+                e('div', { className: 'laso-step-dot ' + (plannerLasoStep >= 4 ? 'is-active' : '') }, '4'),
+                e('div', { className: 'laso-step-line ' + (plannerLasoStep >= 5 ? 'is-active' : '') }),
+                e('div', { className: 'laso-step-dot ' + (plannerLasoStep >= 5 ? 'is-active' : '') }, '5')
               ),
               e('div', { className: 'laso-step-labels' },
-                e('span', null, 'SIWx Auth'),
-                e('span', null, 'x402 Base'),
-                e('span', null, 'Laso BaaS'),
+                e('span', null, 'Base Net'),
+                e('span', null, 'USDC Check'),
+                e('span', null, '402 Quote'),
+                e('span', null, 'EIP-712 Sign'),
                 e('span', null, 'Activate')
               ),
               e('div', { className: 'laso-spinner-msg-row' },
@@ -1965,11 +2137,16 @@
               e('div', { className: 'laso-issued-card' },
                 e('div', { className: 'laso-card-top-row' },
                   e('span', { className: 'laso-card-brand' }, 'DEFI GARDEN • LASO VISA'),
+                  e('span', { className: 'laso-card-live-badge ' + (plannerLasoCard.is_simulation ? 'sim' : 'live') },
+                    plannerLasoCard.is_simulation ? '🧪 SIMULATOR' : '⚡ LIVE BASE'
+                  ),
                   e('span', { className: 'laso-card-debit' }, 'DEBIT')
                 ),
                 e('div', { className: 'laso-card-pan-row' },
                   e('span', { className: 'laso-card-pan' },
-                    plannerLasoPanRevealed ? (plannerLasoCard.card_number || '4242 8849 1920 8842') : ('•••• •••• •••• ' + (plannerLasoCard.card_number ? plannerLasoCard.card_number.slice(-4) : '8842'))
+                    plannerLasoCard.card_number
+                      ? (plannerLasoPanRevealed ? plannerLasoCard.card_number : ('•••• •••• •••• ' + plannerLasoCard.card_number.slice(-4)))
+                      : ('•••• •••• •••• ' + (plannerLasoCard.last4 || '8842'))
                   ),
                   e('div', { className: 'laso-pan-controls' },
                     e('button', {
@@ -2010,17 +2187,36 @@
                 )
               ),
 
-              e('div', { className: 'laso-billing-address-box' },
-                e('div', { className: 'billing-header-row' },
-                  e('span', { className: 'billing-title' }, '🇺🇸 Assigned US Billing Address (for checkout)'),
-                  e('button', {
-                    type: 'button',
-                    className: 'laso-mini-btn highlight',
-                    onClick: function () { handlePlannerCopyLaso('addr', '1209 Orange St, Suite 400, Wilmington, DE 19801, US'); }
-                  }, plannerLasoCopied === 'addr' ? 'Copied!' : 'Copy Address')
-                ),
-                e('p', { className: 'billing-text' }, '1209 Orange St, Suite 400, Wilmington, DE 19801, US')
-              ),
+              (function () {
+                var bAddr = plannerLasoCard.billing_address || {};
+                var addrStr = bAddr.line_1
+                  ? (bAddr.line_1 + (bAddr.line_2 ? ', ' + bAddr.line_2 : '') + ', ' + bAddr.city + ', ' + bAddr.state + ' ' + (bAddr.zip || bAddr.postal_code || '') + ', ' + (bAddr.country || 'US'))
+                  : '440 N Barranca Avenue, #4496, Covina, CA 91723, US';
+                return e('div', { className: 'laso-billing-address-box' },
+                  e('div', { className: 'billing-header-row' },
+                    e('span', { className: 'billing-title' }, '🇺🇸 Assigned US Billing Address (for checkout)'),
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-mini-btn highlight',
+                      onClick: function () { handlePlannerCopyLaso('addr', addrStr); }
+                    }, plannerLasoCopied === 'addr' ? 'Copied!' : 'Copy Address')
+                  ),
+                  e('p', { className: 'billing-text' }, addrStr)
+                );
+              })(),
+              !plannerLasoCard.card_number && !plannerLasoCard.is_simulation
+                ? e('div', { className: 'laso-siwx-unlock-banner animate-on-mount' },
+                    e('div', null,
+                      e('span', { className: 'laso-siwx-note' }, 'Credentials locked for security. Authenticate to decrypt.'),
+                    ),
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-siwx-unlock-btn',
+                      onClick: handlePlannerSiwxUnlock,
+                      disabled: plannerLasoSiwxUnlocking
+                    }, plannerLasoSiwxUnlocking ? 'Signing…' : '🔓 Sign with Wallet to Reveal')
+                  )
+                : null,
 
               e('form', { className: 'laso-merchant-search-box', onSubmit: handlePlannerSearchLasoMerchant },
                 e('input', {
@@ -2044,6 +2240,12 @@
               e('div', { className: 'laso-issued-footer-actions' },
                 e('button', {
                   type: 'button',
+                  className: 'laso-refresh-btn',
+                  onClick: handlePlannerRefreshBalance,
+                  disabled: plannerLasoBalanceRefreshing
+                }, plannerLasoBalanceRefreshing ? 'Refreshing…' : '🔄 Refresh Live Balance'),
+                e('button', {
+                  type: 'button',
                   className: 'laso-reset-btn',
                   onClick: function () {
                     setPlannerLasoState('idle');
@@ -2051,6 +2253,18 @@
                   }
                 }, 'Issue Another Card')
               )
+            )
+          : null,
+
+        plannerLasoState === 'error'
+          ? e('div', { className: 'laso-error-card animate-on-mount' },
+              e('span', { className: 'laso-error-title' }, '⚠️ Card Issuance Interrupted'),
+              e('p', { className: 'laso-error-msg' }, plannerLasoMsg),
+              e('button', {
+                type: 'button',
+                className: 'laso-error-retry-btn',
+                onClick: function () { setPlannerLasoState('idle'); }
+              }, '← Back & Try Again')
             )
           : null
       );
@@ -3263,44 +3477,53 @@
               e('div', { className: 'receipt-card-preview-chip', style: { margin: '8px 0 14px' } },
                 `${chkServiceName || 'Subscription'} Yield Card • ${formatUsd(activeMonthly)}/mo Covered (${formatUsd(activeMonthly * 1.2)}/mo with buffer)`
               ),
-              e('form', { className: 'gp-waitlist-form', onSubmit: submitWaitlist },
-                e('input', {
-                  type: 'email',
-                  className: 'gp-waitlist-email-input',
-                  placeholder: 'Enter developer / user email...',
-                  value: waitlistEmail,
-                  required: true,
-                  autoFocus: true,
-                  onChange: function (ev) {
-                    if (!waitlistEmailEnteredRef.current) {
-                      waitlistEmailEnteredRef.current = true;
-                      if (typeof Analytics !== 'undefined') {
-                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
+              plannerLasoOpen
+                ? e('div', { className: 'laso-modal-open-view animate-on-mount' },
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-instant-launch-toggle-btn',
+                      style: { marginBottom: '12px', width: '100%' },
+                      onClick: function () { setPlannerLasoOpen(false); }
+                    }, '← Back to Email Reservation'),
+                    renderPlannerLasoTerminal()
+                  )
+                : e('form', { className: 'gp-waitlist-form', onSubmit: submitWaitlist },
+                    e('input', {
+                      type: 'email',
+                      className: 'gp-waitlist-email-input',
+                      placeholder: 'Enter developer / user email...',
+                      value: waitlistEmail,
+                      required: true,
+                      autoFocus: true,
+                      onChange: function (ev) {
+                        if (!waitlistEmailEnteredRef.current) {
+                          waitlistEmailEnteredRef.current = true;
+                          if (typeof Analytics !== 'undefined') {
+                            Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
+                          }
+                        }
+                        setWaitlistEmail(ev.target.value);
+                        setWaitlistStatus('idle');
                       }
-                    }
-                    setWaitlistEmail(ev.target.value);
-                    setWaitlistStatus('idle');
-                  }
-                }),
-                waitlistStatus === 'error'
-                  ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
-                  : null,
-                e('button', {
-                  type: 'submit',
-                  className: 'gp-waitlist-submit' + (!emailValid ? ' is-disabled' : ''),
-                  disabled: waitlistStatus === 'submitting' || !emailValid
-                },
-                  waitlistStatus === 'submitting' ? '…' : 'Reserve Card at Launch →'
-                ),
-                e('p', { className: 'gp-waitlist-nospam' }, 'No wallet connection or KYC required • 100% free forever'),
-                e('button', {
-                  type: 'button',
-                  className: 'laso-instant-launch-toggle-btn',
-                  style: { marginTop: '10px' },
-                  onClick: function () { setPlannerLasoOpen(!plannerLasoOpen); }
-                }, plannerLasoOpen ? '← Back to Email Reservation' : '⚡ Try Instant Laso Card Issuance (Base x402) →'),
-                plannerLasoOpen ? renderPlannerLasoTerminal() : null
-              )
+                    }),
+                    waitlistStatus === 'error'
+                      ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
+                      : null,
+                    e('button', {
+                      type: 'submit',
+                      className: 'gp-waitlist-submit' + (!emailValid ? ' is-disabled' : ''),
+                      disabled: waitlistStatus === 'submitting' || !emailValid
+                    },
+                      waitlistStatus === 'submitting' ? '…' : 'Reserve Card at Launch →'
+                    ),
+                    e('p', { className: 'gp-waitlist-nospam' }, 'No wallet connection or KYC required • 100% free forever'),
+                    e('button', {
+                      type: 'button',
+                      className: 'laso-instant-launch-toggle-btn',
+                      style: { marginTop: '10px' },
+                      onClick: function () { setPlannerLasoOpen(true); }
+                    }, '⚡ Try Instant Laso Card Issuance (Base x402) →')
+                  )
             )
           // --- Step 2: accepted + gamified alpha access + share ---
           : e('div', { className: 'gp-waitlist-body' },
