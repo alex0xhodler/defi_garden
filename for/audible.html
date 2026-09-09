@@ -62,13 +62,15 @@
       border-radius: 0 !important;
       box-sizing: border-box;
     }
-    .store-checkout-card, .checkout-receipt, .checkout-pay-btn, .checkout-security-tag, .receipt-amount-toggle, .amount-btn {
+    .store-checkout-card, .checkout-receipt, .checkout-pay-btn, .checkout-security-tag, .receipt-amount-toggle, .amount-btn, .checkout-error-banner, .error-retry-btn {
       border-radius: 0 !important;
     }
     body, .landing-app {
       overflow-x: hidden;
       width: 100%;
       max-width: 100%;
+      background-image: radial-gradient(1100px 500px at 50% -80px, rgba(124, 201, 160, 0.07), transparent 65%);
+      background-repeat: no-repeat;
     }
     .portal-shell {
       max-width: 1040px;
@@ -124,7 +126,7 @@
     }
     .portal-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1.05fr 0.95fr;
       grid-template-areas: "hero buybox";
       gap: 28px;
       margin-bottom: 40px;
@@ -138,6 +140,7 @@
       align-items: center;
       justify-content: center;
       width: 100%;
+      perspective: 1200px;
     }
     .store-checkout-card {
       grid-area: buybox;
@@ -157,10 +160,11 @@
       max-width: 440px;
       aspect-ratio: 1.586 / 1;
       padding: 22px 24px;
-      background: radial-gradient(circle at 20% 15%, rgba(124, 201, 160, 0.14) 0%, transparent 55%),
-                  linear-gradient(135deg, #091712 0%, #132a1f 52%, #08140f 100%);
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 14px 34px rgba(0, 0, 0, 0.45);
+      background:
+        repeating-linear-gradient(105deg, rgba(255,255,255,0.018) 0 1px, transparent 1px 3px),
+        linear-gradient(135deg, #0B1B13 0%, #12261B 40%, #0B1B13 100%);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10), inset 0 -1px 0 rgba(0, 0, 0, 0.5), 0 24px 48px -16px rgba(0, 0, 0, 0.55);
       color: #ffffff;
       display: flex;
       flex-direction: column;
@@ -171,6 +175,100 @@
       user-select: none;
       margin: 0 auto;
       cursor: default;
+      transform-style: preserve-3d;
+      transition: transform 0.18s ease-out;
+      will-change: transform;
+    }
+    .virtual-visa-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(115deg, transparent 30%, rgba(255,255,255,0.09) 45%, rgba(255,255,255,0.02) 50%, transparent 65%);
+      background-size: 250% 100%;
+      background-position: var(--sheen-x, 50% 0);
+      z-index: 5;
+      animation: card-sheen-sweep 1.2s ease-out forwards;
+    }
+    .virtual-visa-card:hover::after {
+      background-position: var(--sheen-x, 50% 0);
+    }
+    @keyframes card-sheen-sweep {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: var(--sheen-x, 50% 0);
+      }
+    }
+    .visa-gold-chip {
+      width: 44px;
+      height: 34px;
+      background: linear-gradient(135deg, #C9A96A, #E8D5A3 45%, #B08D4F);
+      border: 1px solid rgba(0, 0, 0, 0.35);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.40), inset 0 -1px 0 rgba(0, 0, 0, 0.30), 0 1px 3px rgba(0, 0, 0, 0.45);
+      position: relative;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      border-radius: 0 !important;
+    }
+    .visa-gold-chip::before {
+      content: '';
+      position: absolute;
+      top: 11px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.42);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      pointer-events: none;
+    }
+    .visa-gold-chip::after {
+      content: '';
+      position: absolute;
+      top: 22px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.42);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      pointer-events: none;
+    }
+    .visa-card-hologram {
+      width: 28px;
+      height: 28px;
+      background: conic-gradient(from 180deg, #7CC9A0, #93D6B2, #5EA87F, #A8E0C0, #7CC9A0);
+      opacity: 0.7;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.4);
+      flex-shrink: 0;
+      border-radius: 0 !important;
+    }
+    .visa-card-meta-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .checkout-pay-btn {
+      transition: background 0.15s ease-out, border-color 0.15s ease-out, transform 0.15s ease-out, box-shadow 0.15s ease-out;
+    }
+    .checkout-pay-btn:hover {
+      box-shadow: 0 6px 20px -6px rgba(124, 201, 160, 0.45);
+    }
+    .checkout-trust-line {
+      margin-top: 14px;
+      margin-bottom: 10px;
+    }
+    .checkout-secondary-links {
+      margin-top: 0;
+    }
+    .checkout-error-banner {
+      border-radius: 0 !important;
+      margin-top: 16px;
+    }
+    .error-retry-btn {
+      border-radius: 0 !important;
     }
     .metric-label {
       color: var(--ui-text-secondary);
@@ -190,10 +288,10 @@
       font-family: var(--font-family-mono, monospace);
       font-size: 1.05rem;
       letter-spacing: 0.22em;
-      color: rgba(255, 255, 255, 0.95);
+      color: #DDE8E0;
       font-weight: 600;
       margin-bottom: 5px;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      text-shadow: 0 1px 0 rgba(0,0,0,0.7), 0 -1px 1px rgba(255,255,255,0.14);
     }
     .visa-card-label-sub {
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
@@ -208,12 +306,12 @@
       font-family: var(--font-family-mono, monospace);
       font-size: 1.12rem;
       font-weight: 700;
-      color: #ffffff;
+      color: #DDE8E0;
       letter-spacing: 0.04em;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+      text-shadow: 0 1px 0 rgba(0,0,0,0.7), 0 -1px 1px rgba(255,255,255,0.14);
     }
     .visa-card-expiry {
       font-family: var(--font-family-mono, monospace);
@@ -672,7 +770,10 @@
       font-family: var(--font-family-mono, monospace);
       font-size: 0.80rem;
       color: var(--ui-text);
-      transition: border-color 0.15s ease, background 0.15s ease;
+      transition: border-color 0.15s ease-out, background 0.15s ease-out;
+    }
+    .amount-radio:hover:not(:has(input:checked)):not(.is-selected) {
+      border-color: rgba(124, 201, 160, 0.5);
     }
     .amount-radio input[type="radio"] {
       accent-color: var(--ui-accent);
@@ -683,6 +784,9 @@
     .amount-radio.is-selected {
       border-color: var(--ui-accent);
       background: rgba(124, 201, 160, 0.08);
+    }
+    [data-theme="light"] .amount-radio:hover:not(:has(input:checked)):not(.is-selected) {
+      border-color: rgba(45, 138, 94, 0.5);
     }
     [data-theme="light"] .amount-radio:has(input:checked),
     [data-theme="light"] .amount-radio.is-selected {
@@ -711,6 +815,10 @@
       background: var(--ui-surface);
       user-select: none;
       border-radius: 0 !important;
+      transition: color 0.15s ease-out;
+    }
+    .trust-accordion summary:hover {
+      color: var(--ui-accent);
     }
     .trust-accordion summary::-webkit-details-marker {
       display: none;
@@ -721,7 +829,7 @@
       font-size: 0.85rem;
       font-weight: 700;
       color: var(--ui-accent);
-      transition: transform 0.2s ease;
+      transition: transform 0.18s ease-out;
     }
     .trust-accordion[open] summary::after {
       transform: rotate(180deg);
@@ -731,6 +839,9 @@
     }
     .trust-accordion-body {
       padding: 24px 26px;
+    }
+    [data-theme="light"] .trust-accordion summary:hover {
+      color: #2d8a5e;
     }
     [data-theme="light"] .trust-accordion summary::after {
       color: #2d8a5e;
@@ -742,6 +853,11 @@
       display: flex;
       gap: 16px;
       align-items: flex-start;
+      transition: transform 0.18s ease-out, border-color 0.18s ease-out;
+    }
+    .step-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--ui-border-strong);
     }
     .step-num {
       font-family: var(--font-family-mono, monospace);
@@ -909,19 +1025,30 @@
       justify-content: center;
       text-decoration: none;
       box-shadow: 0 4px 14px rgba(124, 201, 160, 0.32);
-      transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+      transition: background 0.15s ease-out, transform 0.15s ease-out, box-shadow 0.15s ease-out;
     }
     .sticky-bar-btn:hover {
       background: var(--ui-accent-hover, #93D6B2) !important;
       color: #08140f !important;
       transform: translateY(-1px);
-      box-shadow: 0 6px 18px rgba(124, 201, 160, 0.42);
+      box-shadow: 0 6px 20px -6px rgba(124, 201, 160, 0.45);
     }
     .sticky-bar-btn:active {
       transform: translateY(1px);
     }
 
     /* Light mode overrides */
+    [data-theme="light"] body,
+    [data-theme="light"] .landing-app {
+      background-image: radial-gradient(1100px 500px at 50% -80px, rgba(18, 38, 27, 0.05), transparent 65%);
+      background-repeat: no-repeat;
+    }
+    [data-theme="light"] .checkout-pay-btn:hover {
+      box-shadow: 0 6px 20px -6px rgba(45, 138, 94, 0.45);
+    }
+    [data-theme="light"] .step-card:hover {
+      border-color: rgba(0, 0, 0, 0.25);
+    }
     [data-theme="light"] .badge-intent-portal {
       background: rgba(45, 138, 94, 0.08);
       border-color: rgba(45, 138, 94, 0.25);
@@ -1065,7 +1192,25 @@
     [data-theme="light"] .sticky-bar-btn:hover {
       background: #236c49 !important;
       border-color: #236c49 !important;
-      box-shadow: 0 6px 18px rgba(45, 138, 94, 0.42);
+      box-shadow: 0 6px 20px -6px rgba(45, 138, 94, 0.45);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .virtual-visa-card,
+      .virtual-visa-card::after,
+      .checkout-pay-btn,
+      .sticky-bar-btn,
+      .step-card,
+      .amount-radio,
+      .trust-accordion summary,
+      .trust-accordion summary::after {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+      .virtual-visa-card::after {
+        background-position: 50% 0 !important;
+      }
     }
 
     /* Mobile Responsive Overrides - SOTA Fluid & Overflow-Free */
@@ -1309,22 +1454,7 @@
           <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
           <div class="visa-card-top-row">
             <div class="visa-card-chip-group">
-              <svg class="visa-gold-chip visa-gold-chip-svg" viewBox="0 0 46 34" width="42" height="31" aria-hidden="true" role="img">
-    <defs>
-      <linearGradient id="emv-metallic-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#ded5c5" />
-        <stop offset="35%" stop-color="#bfae95" />
-        <stop offset="70%" stop-color="#d6cbba" />
-        <stop offset="100%" stop-color="#9e8c72" />
-      </linearGradient>
-      <linearGradient id="emv-bevel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="rgba(255,255,255,0.7)" />
-        <stop offset="100%" stop-color="rgba(0,0,0,0.3)" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="45" height="33" rx="0" fill="url(#emv-metallic-grad)" stroke="rgba(30,25,18,0.4)" stroke-width="0.8" />
-    <rect x="1.2" y="1.2" width="43.6" height="31.6" rx="0" fill="none" stroke="url(#emv-bevel-grad)" stroke-width="0.6" />
-  </svg>
+              <div class="visa-gold-chip visa-gold-chip-svg" aria-hidden="true" role="img"></div>
               <svg class="visa-nfc-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
     <path d="M7 16a5.5 5.5 0 0 1 0-8" />
     <path d="M11 18.5a9 9 0 0 1 0-13" />
@@ -1342,21 +1472,23 @@
           <!-- Card Center: PAN & Dedicated Sub -->
           <div class="visa-card-center">
             <div class="visa-card-pan">•••• •••• •••• 8453</div>
-            <div class="visa-card-label-sub">AUDIBLE-VAULT / AGENT-01</div>
-            <div class="visa-card-funded-label">AUDIBLE PREMIUM PLUS FUNDED</div>
+            <div class="visa-card-funded-label">AUDIBLE PREMIUM PLUS</div>
           </div>
 
           <!-- Card Bottom Row: Expiry & Spend Cap Badge -->
           <div class="visa-card-bottom-row">
             <div class="visa-card-meta-left">
               <span class="visa-card-expiry">VALID 08/31</span>
-              <span class="visa-card-network-info">BASE VAULT · YIELD FUNDED</span>
+              <span class="visa-card-network-info">YIELD-FUNDED · BASE</span>
             </div>
-            <div class="visa-card-cap-badge">
-              <svg class="card-lock-icon" viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+            <div class="visa-card-meta-right">
+              <div class="visa-card-hologram" aria-hidden="true"></div>
+              <div class="visa-card-cap-badge">
+                <svg class="card-lock-icon" viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
     <path d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z" />
   </svg>
-              <span>🟢 ACTIVE ($17.94/MO)</span>
+                <span>🟢 ACTIVE ($17.94/MO)</span>
+              </div>
             </div>
           </div>
           </div>
@@ -1412,11 +1544,11 @@
 
             <!-- Trust Microcopy -->
             <div class="checkout-trust-line">
+              <span>Yours in under a minute</span>
+              <span class="trust-sep">•</span>
               <span>Zero KYC</span>
               <span class="trust-sep">•</span>
-              <span>Direct Self-Custody</span>
-              <span class="trust-sep">•</span>
-              <span>Instant Activation</span>
+              <span>Withdraw anytime</span>
             </div>
 
             <!-- Secondary Alternate Paths (Clean text links) -->
@@ -2379,6 +2511,46 @@
           isCvvRevealed = false;
         });
       }
+      // 3D Card Tilt & Cursor Sheen Tracking (pointer: fine & reduced-motion gated)
+      (function() {
+        var cardCell = document.querySelector('.card-hero-cell');
+        var visaCard = document.getElementById('visa-card');
+        if (!cardCell || !visaCard || typeof window === 'undefined' || !window.matchMedia) return;
+
+        var fineMatch = window.matchMedia('(pointer: fine)');
+        var motionMatch = window.matchMedia('(prefers-reduced-motion: no-preference)');
+
+        function isTiltEligible() {
+          return fineMatch.matches && motionMatch.matches;
+        }
+
+        cardCell.addEventListener('pointermove', function(e) {
+          if (!isTiltEligible()) return;
+          var rect = cardCell.getBoundingClientRect();
+          if (rect.width <= 0 || rect.height <= 0) return;
+          var x = (e.clientX - rect.left) / rect.width;
+          var y = (e.clientY - rect.top) / rect.height;
+          x = Math.max(0, Math.min(1, x));
+          y = Math.max(0, Math.min(1, y));
+
+          // Max ±7deg
+          var rotateY = (x - 0.5) * 14;
+          var rotateX = (0.5 - y) * 14;
+
+          visaCard.style.transition = 'none';
+          visaCard.style.transform = 'perspective(1200px) rotateX(' + rotateX.toFixed(2) + 'deg) rotateY(' + rotateY.toFixed(2) + 'deg)';
+
+          // Shift sheen position ±15% (35% to 65%)
+          var sheenX = 50 + (x - 0.5) * 30;
+          visaCard.style.setProperty('--sheen-x', sheenX.toFixed(1) + '% 0');
+        });
+
+        cardCell.addEventListener('pointerleave', function() {
+          visaCard.style.transition = 'transform 0.18s ease-out';
+          visaCard.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+          visaCard.style.setProperty('--sheen-x', '50% 0');
+        });
+      })();
     })();
   </script>
 </body>
