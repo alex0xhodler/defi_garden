@@ -162,10 +162,10 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
         });
 
         await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
-        // Switch to email waitlist panel
-        const waitlistTab = page.locator('#tab-waitlist');
-        if (await waitlistTab.count() > 0) {
-          await waitlistTab.click();
+        // Open accordion to reveal email waitlist reservation form
+        const accordion = page.locator('details.trust-accordion summary');
+        if (await accordion.count() > 0) {
+          await accordion.click();
         }
         // Submit email reservation form
         await page.fill('#email-input', 'builder@anthropic.com');

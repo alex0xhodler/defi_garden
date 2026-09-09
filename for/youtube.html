@@ -865,50 +865,7 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 16px;
     }
-    .amount-radio-group {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .amount-radio-group[hidden] {
-      display: none;
-    }
-    .amount-radio {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      background: var(--ui-surface);
-      border: 1px solid var(--ui-border);
-      border-radius: 0 !important;
-      cursor: pointer;
-      font-family: var(--font-family-mono, monospace);
-      font-size: 0.80rem;
-      color: var(--ui-text);
-      transition: border-color 0.15s ease-out, background 0.15s ease-out;
-    }
-    .amount-radio:hover:not(:has(input:checked)):not(.is-selected) {
-      border-color: rgba(124, 201, 160, 0.5);
-    }
-    .amount-radio input[type="radio"] {
-      accent-color: var(--ui-accent);
-      cursor: pointer;
-      margin: 0;
-    }
-    .amount-radio:has(input:checked),
-    .amount-radio.is-selected {
-      border-color: var(--ui-accent);
-      background: rgba(124, 201, 160, 0.08);
-    }
-    [data-theme="light"] .amount-radio:hover:not(:has(input:checked)):not(.is-selected) {
-      border-color: rgba(45, 138, 94, 0.5);
-    }
-    [data-theme="light"] .amount-radio:has(input:checked),
-    [data-theme="light"] .amount-radio.is-selected {
-      border-color: #2d8a5e;
-      background: rgba(45, 138, 94, 0.08);
-    }
+
     .trust-accordion {
       background: var(--ui-surface);
       border: 1px solid var(--ui-border);
@@ -1317,7 +1274,6 @@
       .checkout-pay-btn,
       .sticky-bar-btn,
       .step-card,
-      .amount-radio,
       .trust-accordion summary,
       .trust-accordion summary::after {
         transition: none !important;
@@ -1627,12 +1583,6 @@
 
           <!-- VIEW A: Direct Store Checkout Flow -->
           <div class="checkout-flow" id="panel-instant-card">
-            <!-- Amount Radio Group (Hidden by default, unlocked via easter egg) -->
-            <div class="amount-radio-group" id="amount-radio-group" hidden>
-              <label class="amount-radio"><input type="radio" name="load-amount" value="full" checked> <span>$16.79 FULL — 1 month covered</span></label>
-              <label class="amount-radio"><input type="radio" name="load-amount" value="test"> <span>$5.00 TEST — provisioning check</span></label>
-            </div>
-
             <!-- Line Items Breakdown (Receipt Style) -->
             <div class="checkout-receipt">
               <div class="receipt-row receipt-row-muted">
@@ -1656,174 +1606,21 @@
               </div>
             </div>
 
-            <!-- Single Primary Checkout CTA -->
-            <button type="button" class="checkout-pay-btn" id="laso-issue-btn">
-              Pay $16.79 USDC with Wallet →
-            </button>
+            <!-- Single Primary Checkout CTA (redirects via referral to Laso) -->
+            <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="checkout-pay-btn" id="laso-issue-btn" style="text-decoration:none; display:flex; align-items:center; justify-content:center;">
+              Pay $16.79 USDC on Laso →
+            </a>
 
-            <!-- Trust Microcopy -->
-            <div class="checkout-trust-line">
-              <span>Yours in under a minute</span>
-              <span class="trust-sep">•</span>
-              <span>Zero KYC</span>
-              <span class="trust-sep">•</span>
-              <span>Withdraw anytime</span>
+            <!-- Encouraging Partner Redirection Banner -->
+            <div class="laso-redirect-status" id="laso-redirect-status" style="display:none; margin:14px 0; padding:14px 16px; background:rgba(124, 201, 160, 0.08); border:1px solid var(--ui-accent); text-align:center;">
+              <span style="display:block; font-size:0.88rem; font-weight:600; color:var(--ui-text); margin-bottom:4px;">🚀 Opening Laso.finance with Partner Perks applied!</span>
+              <span style="display:block; font-size:0.80rem; color:var(--ui-text-secondary); margin-bottom:10px;">Complete your quick 30-second setup on Laso to fund your virtual Visa card.</span>
+              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="link-btn" style="font-size:0.84rem; color:var(--ui-accent); font-weight:700; text-decoration:underline;">Continue to Laso.finance ↗</a>
             </div>
 
-            <!-- Secondary Alternate Paths (Clean text links) -->
-            <div class="checkout-secondary-links">
-              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="link-btn highlight-link" style="color:var(--ui-accent); font-weight:600;">Or order directly on Laso.finance (Partner Referral) ↗</a>
-              <button type="button" class="link-btn" id="tab-waitlist">Prefer email notification instead?</button>
-              <button type="button" class="link-btn link-muted" id="laso-mode-toggle">Switch to test simulator</button>
-            </div>
             <div class="checkout-switch-pool-row">
               <a class="switch-pool-link" href="/?app=1&chain=Popular&minTvl=1000000&sub=youtube">Want to choose your own vault? Explore &amp; switch pools →</a>
             </div>
-          </div>
-
-          <!-- Issuing Progress Box (Hidden during idle) -->
-          <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
-            <div class="checkout-progress-spinner"></div>
-            <p class="checkout-progress-status" id="laso-msg-text">Connecting wallet...</p>
-            <div class="checkout-progress-sub">Gas is sponsored by Coinbase. Please sign the prompt in your wallet.</div>
-          </div>
-
-          <!-- Card Ready Surface (Hidden during idle) -->
-          <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
-            <div class="laso-issued-card">
-              <div class="laso-card-top-row">
-                <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
-                <span class="laso-card-live-badge live" id="laso-card-badge">LIVE BASE</span>
-                <span class="laso-card-debit">DEBIT</span>
-              </div>
-              <div class="laso-card-pan-row">
-                <span class="laso-card-pan" id="laso-pan-text">•••• •••• •••• 8842</span>
-                <div class="laso-pan-controls">
-                  <button type="button" class="laso-mini-btn" id="laso-pan-toggle-btn">Show</button>
-                  <button type="button" class="laso-mini-btn highlight" id="laso-pan-copy-btn">Copy PAN</button>
-                </div>
-              </div>
-              <div class="laso-card-meta-row">
-                <div>
-                  <span class="laso-meta-label">EXP: </span>
-                  <span class="laso-meta-val" id="laso-exp-text">02/32</span>
-                </div>
-                <div>
-                  <span class="laso-meta-label">CVV: </span>
-                  <span class="laso-meta-val" id="laso-cvv-text">•••</span>
-                  <button type="button" class="laso-mini-btn text-only" id="laso-cvv-toggle-btn">Show</button>
-                  <button type="button" class="laso-mini-btn" id="laso-cvv-copy-btn">Copy</button>
-                </div>
-                <div>
-                  <span class="laso-meta-label">BAL: </span>
-                  <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="laso-billing-address-box">
-              <div class="billing-header-row">
-                <span class="billing-title">Assigned US Billing Address</span>
-                <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
-              </div>
-              <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
-            </div>
-            <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
-              <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
-              <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">Sign with Wallet to Reveal</button>
-            </div>
-            <form class="laso-merchant-search-box" id="laso-merchant-form">
-              <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI)..." />
-              <button type="submit" class="laso-merchant-btn" id="laso-merchant-btn">Check</button>
-              <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
-            </form>
-            <div class="laso-issued-footer-actions">
-              <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">Refresh Live Balance</button>
-              <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
-            </div>
-          </div>
-
-          <!-- Error View -->
-          <div class="checkout-error-banner" id="laso-error-view" style="display:none;">
-            <span class="error-text" id="laso-error-msg">Payment failed</span>
-            <span class="error-guidance" id="laso-error-guidance" style="display:none;"></span>
-            <div style="display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap;">
-              <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
-              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="error-laso-link" style="color:var(--ui-accent); font-size:0.84rem; text-decoration:underline; font-weight:500;">Order on Laso.finance directly (Partner Referral) ↗</a>
-            </div>
-          </div>
-
-          <!-- Pending Recovery View (paid, card still provisioning) -->
-          <div class="checkout-pending-banner" id="laso-pending-view" style="display:none;">
-            <div class="pending-pulse-row">
-              <span class="pending-dot" aria-hidden="true"></span>
-              <span class="pending-title">Payment received — card is being issued</span>
-            </div>
-            <p class="pending-desc">Laso is provisioning your Visa card. This can take a few minutes. Your order is saved — you can safely leave and return to this page with the same wallet to pick it up.</p>
-            <div class="pending-meta" id="laso-pending-meta"></div>
-            <div class="pending-actions">
-              <button type="button" class="pending-check-btn" id="laso-pending-check-btn">Check status now</button>
-              <span class="pending-status" id="laso-pending-status"></span>
-            </div>
-          </div>
-
-          <!-- VIEW B: Email Waitlist (Secondary Flow) -->
-          <div class="checkout-flow" id="panel-waitlist" style="display:none;">
-            <div class="checkout-header">
-              <h4 class="checkout-product-title" style="font-size:1.15rem;">Launch Waitlist Reservation</h4>
-              <p class="checkout-product-desc">We will email you the moment automated Base vault compounding launches.</p>
-            </div>
-            <form class="reservation-form" id="reserve-form" novalidate style="margin-top:10px;">
-              <div class="reservation-input-group">
-                <input type="email" class="email-input" id="email-input" placeholder="Enter your email address..." required autocomplete="email" />
-                <button type="submit" class="reserve-submit-btn" id="submit-btn">
-                  Reserve Spot →
-                </button>
-              </div>
-              <div class="validation-error" id="form-error" style="display:none;"></div>
-            </form>
-            <div class="checkout-secondary-links" style="margin-top:10px;">
-              <button type="button" class="link-btn" id="tab-instant-card">← Back to instant card checkout</button>
-            </div>
-          </div>
-
-          <!-- Early Access Confirmation Receipt (Inside Buy Box Column) -->
-          <div class="yield-card-receipt" id="receipt-card" style="display:none;">
-            <div class="receipt-badge-row">
-              <div class="receipt-spot-badge">Early Access Reserved</div>
-              <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
-            </div>
-            <h3 class="receipt-title">Waitlist Spot Reserved</h3>
-            <div class="receipt-card-preview-chip">YouTube Premium Yield Card • $13.99/mo Covered</div>
-            <div class="receipt-gamification-box" id="gamification-box">
-              <div class="gamification-header">
-                <span class="gamification-label" id="gamification-label">Alpha Priority Fast-Track</span>
-                <span class="gamification-status" id="gamification-status">0 / 1 Invited</span>
-              </div>
-              <div class="gamification-progress-bar">
-                <div class="gamification-progress-fill" id="gamification-progress-fill" style="width:25%;"></div>
-              </div>
-              <p class="gamification-desc" id="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.</p>
-              <a class="receipt-telegram-cta-btn" id="telegram-cta-btn" href="https://t.me/+rXf7XKhsffMxNzdk" target="_blank" rel="noopener noreferrer" style="display:none;">
-                <svg class="telegram-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
-    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
-  </svg>
-                <span>Claim Alpha in Private Telegram →</span>
-              </a>
-            </div>
-            <div class="receipt-actions-group">
-              <button type="button" class="receipt-twitter-btn" id="twitter-share-btn">
-                <svg class="x-twitter-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-  </svg>
-                <span>Share on X to Unlock Alpha ⚡</span>
-              </button>
-              <button type="button" class="receipt-share-btn" id="copy-btn">
-                🔗 Copy invite link
-              </button>
-            </div>
-            <button type="button" class="receipt-verify-link-btn" id="verify-invite-btn">
-              ⚡ Check invite status / claim access
-            </button>
           </div>
         </div>
 
@@ -1919,6 +1716,63 @@
           </div>
           <div class="invariant-banner">
             &ldquo;Buy it outright and the money is gone. Garden it and you keep the money AND get the thing.&rdquo;
+          </div>
+
+          <!-- Email Waitlist Reservation -->
+          <div class="checkout-flow" id="panel-waitlist" style="margin-top:24px; border-top:1px solid var(--ui-border); padding-top:16px;">
+            <div class="checkout-header">
+              <h4 class="checkout-product-title" style="font-size:1.15rem;">Launch Waitlist Reservation</h4>
+              <p class="checkout-product-desc">Prefer email notification? We will email you the moment automated Base vault compounding launches.</p>
+            </div>
+            <form class="reservation-form" id="reserve-form" novalidate style="margin-top:10px;">
+              <div class="reservation-input-group">
+                <input type="email" class="email-input" id="email-input" placeholder="Enter your email address..." required autocomplete="email" />
+                <button type="submit" class="reserve-submit-btn" id="submit-btn">
+                  Reserve Spot →
+                </button>
+              </div>
+              <div class="validation-error" id="form-error" style="display:none;"></div>
+            </form>
+          </div>
+
+          <!-- Early Access Confirmation Receipt -->
+          <div class="yield-card-receipt" id="receipt-card" style="display:none; margin-top:16px;">
+            <div class="receipt-badge-row">
+              <div class="receipt-spot-badge">Early Access Reserved</div>
+              <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
+            </div>
+            <h3 class="receipt-title">Waitlist Spot Reserved</h3>
+            <div class="receipt-card-preview-chip">YouTube Premium Yield Card • $13.99/mo Covered</div>
+            <div class="receipt-gamification-box" id="gamification-box">
+              <div class="gamification-header">
+                <span class="gamification-label" id="gamification-label">Alpha Priority Fast-Track</span>
+                <span class="gamification-status" id="gamification-status">0 / 1 Invited</span>
+              </div>
+              <div class="gamification-progress-bar">
+                <div class="gamification-progress-fill" id="gamification-progress-fill" style="width:25%;"></div>
+              </div>
+              <p class="gamification-desc" id="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.</p>
+              <a class="receipt-telegram-cta-btn" id="telegram-cta-btn" href="https://t.me/+rXf7XKhsffMxNzdk" target="_blank" rel="noopener noreferrer" style="display:none;">
+                <svg class="telegram-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+  </svg>
+                <span>Claim Alpha in Private Telegram →</span>
+              </a>
+            </div>
+            <div class="receipt-actions-group">
+              <button type="button" class="receipt-twitter-btn" id="twitter-share-btn">
+                <svg class="x-twitter-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+  </svg>
+                <span>Share on X to Unlock Alpha ⚡</span>
+              </button>
+              <button type="button" class="receipt-share-btn" id="copy-btn">
+                🔗 Copy invite link
+              </button>
+            </div>
+            <button type="button" class="receipt-verify-link-btn" id="verify-invite-btn">
+              ⚡ Check invite status / claim access
+            </button>
           </div>
         </div>
       </details>
@@ -2256,476 +2110,35 @@
       var currentLasoCard = null;
       var isPanRevealed = false;
       var isCvvRevealed = false;
-      var currentLasoMode = 'live'; // 'live' | 'sim'
       var serviceAmount = 16.79;
-      var selectedAmount = serviceAmount;
-
-      // SOTA Store Checkout Controls
-      var tabInstant = document.getElementById('tab-instant-card');
-      var tabWaitlist = document.getElementById('tab-waitlist');
-      var panelInstant = document.getElementById('panel-instant-card');
-      var panelWaitlist = document.getElementById('panel-waitlist');
       var checkoutTotalVal = document.getElementById('checkout-total-val');
-      var lasoModeToggle = document.getElementById('laso-mode-toggle');
-
-      var lasoProgressView = document.getElementById('laso-progress-view');
-      var lasoCardView = document.getElementById('laso-card-view');
       var lasoIssueBtn = document.getElementById('laso-issue-btn');
-      var lasoMsgText = document.getElementById('laso-msg-text');
-      var lasoPanText = document.getElementById('laso-pan-text');
-      var lasoPanToggleBtn = document.getElementById('laso-pan-toggle-btn');
-      var lasoPanCopyBtn = document.getElementById('laso-pan-copy-btn');
-      var lasoExpText = document.getElementById('laso-exp-text');
-      var lasoCvvText = document.getElementById('laso-cvv-text');
-      var lasoCvvToggleBtn = document.getElementById('laso-cvv-toggle-btn');
-      var lasoCvvCopyBtn = document.getElementById('laso-cvv-copy-btn');
-      var lasoBalText = document.getElementById('laso-bal-text');
-      var lasoAddrCopyBtn = document.getElementById('laso-addr-copy-btn');
-      var lasoMerchantForm = document.getElementById('laso-merchant-form');
-      var lasoMerchantInput = document.getElementById('laso-merchant-input');
-      var lasoMerchantBtn = document.getElementById('laso-merchant-btn');
-      var lasoMerchantBadge = document.getElementById('laso-merchant-badge');
-      var lasoResetBtn = document.getElementById('laso-reset-btn');
-      var lasoErrorView = document.getElementById('laso-error-view');
-      var lasoErrorMsg = document.getElementById('laso-error-msg');
-      var lasoErrorRetryBtn = document.getElementById('laso-error-retry-btn');
-      var lasoSiwxBanner = document.getElementById('laso-siwx-banner');
-      var lasoSiwxBtn = document.getElementById('laso-siwx-btn');
-      var lasoRefreshBtn = document.getElementById('laso-refresh-btn');
-      var lasoCardBadge = document.getElementById('laso-card-badge');
+      var stickyBtn = document.getElementById('sticky-reserve-btn');
 
       function updateCtaText() {
-        if (checkoutTotalVal) checkoutTotalVal.textContent = '$' + selectedAmount.toFixed(2);
+        if (checkoutTotalVal) checkoutTotalVal.textContent = '$' + serviceAmount.toFixed(2);
         if (lasoIssueBtn) {
-          lasoIssueBtn.textContent = currentLasoMode === 'live'
-            ? ('Pay $' + selectedAmount.toFixed(2) + ' USDC with Wallet →')
-            : ('Simulate Payment ($' + selectedAmount.toFixed(2) + ') →');
+          lasoIssueBtn.textContent = 'Pay $' + serviceAmount.toFixed(2) + ' USDC on Laso →';
         }
-        var stickyBtn = document.getElementById('sticky-reserve-btn');
         if (stickyBtn) {
-          stickyBtn.textContent = '$' + selectedAmount.toFixed(2) + ' →';
+          stickyBtn.textContent = 'Pay $' + serviceAmount.toFixed(2) + ' on Laso →';
         }
       }
 
-      // Tab Switcher (Instant Card vs Waitlist)
-      if (tabInstant && tabWaitlist && panelInstant && panelWaitlist) {
-        tabInstant.addEventListener('click', function() {
-          panelInstant.style.display = 'block';
-          panelWaitlist.style.display = 'none';
-        });
-        tabWaitlist.addEventListener('click', function() {
-          panelWaitlist.style.display = 'block';
-          panelInstant.style.display = 'none';
-        });
-      }
-
-      // Amount Switcher (Radio Group)
-      var amountRadioGroup = document.getElementById('amount-radio-group');
-      var radioFull = amountRadioGroup ? amountRadioGroup.querySelector('input[value="full"]') : null;
-      var radioTest = amountRadioGroup ? amountRadioGroup.querySelector('input[value="test"]') : null;
-
-      function syncRadioStyles() {
-        if (amountRadioGroup) {
-          var labels = amountRadioGroup.querySelectorAll('.amount-radio');
-          for (var i = 0; i < labels.length; i++) {
-            var input = labels[i].querySelector('input[type="radio"]');
-            if (input && input.checked) {
-              labels[i].classList.add('is-selected');
-            } else {
-              labels[i].classList.remove('is-selected');
-            }
-          }
-        }
-      }
-
-      if (amountRadioGroup) {
-        amountRadioGroup.addEventListener('change', function(e) {
-          var target = e.target;
-          if (target && target.name === 'load-amount') {
-            selectedAmount = (target.value === 'test') ? 5.00 : serviceAmount;
-            syncRadioStyles();
-            updateCtaText();
-          }
-        });
-      }
-
-      // Easter egg: 5 clicks on .badge-intent-portal within 3000ms toggles test mode
-      var badgeIntentPortal = document.querySelector('.badge-intent-portal');
-      var easterClicks = [];
-      if (badgeIntentPortal) {
-        badgeIntentPortal.style.cursor = 'pointer';
-        badgeIntentPortal.addEventListener('click', function() {
-          var now = Date.now();
-          easterClicks.push(now);
-          easterClicks = easterClicks.filter(function(t) { return now - t < 3000; });
-          if (easterClicks.length >= 5) {
-            easterClicks = [];
-            var isCurrentlyHidden = !amountRadioGroup || amountRadioGroup.hasAttribute('hidden');
-            if (isCurrentlyHidden) {
-              // UNLOCK test mode
-              try { localStorage.setItem('dg_test_mode', '1'); } catch (e) {}
-              if (amountRadioGroup) amountRadioGroup.removeAttribute('hidden');
-              if (radioFull) radioFull.checked = true;
-              if (radioTest) radioTest.checked = false;
-              selectedAmount = serviceAmount;
-              syncRadioStyles();
-              updateCtaText();
-            } else {
-              // LOCK test mode (toggle off)
-              try { localStorage.setItem('dg_test_mode', '0'); } catch (e) {}
-              if (amountRadioGroup) amountRadioGroup.setAttribute('hidden', '');
-              if (radioFull) radioFull.checked = true;
-              if (radioTest) radioTest.checked = false;
-              selectedAmount = serviceAmount;
-              syncRadioStyles();
-              updateCtaText();
-            }
-          }
-        });
-      }
-
-      // ON LOAD: restore test mode if previously unlocked
-      try {
-        if (localStorage.getItem('dg_test_mode') === '1') {
-          if (amountRadioGroup) {
-            amountRadioGroup.removeAttribute('hidden');
-          }
-          if (radioTest && radioTest.checked) {
-            selectedAmount = 5.00;
-          } else {
-            selectedAmount = serviceAmount;
-            if (radioFull) radioFull.checked = true;
-          }
-        }
-      } catch (e) {}
-
-      syncRadioStyles();
       updateCtaText();
-      // Mode Toggle (Simulator vs Live)
-      if (lasoModeToggle) {
-        lasoModeToggle.addEventListener('click', function() {
-          if (currentLasoMode === 'live') {
-            currentLasoMode = 'sim';
-            lasoModeToggle.textContent = 'Switch to live payment';
-          } else {
-            currentLasoMode = 'live';
-            lasoModeToggle.textContent = 'Switch to test simulator';
-          }
-          updateCtaText();
-        });
-      }
-
-      function updateStep(msg) {
-        if (lasoMsgText) lasoMsgText.textContent = msg;
-      }
-
-      function showError(msg, guidance) {
-        if (lasoProgressView) lasoProgressView.style.display = 'none';
-        if (panelInstant) panelInstant.style.display = 'block';
-        if (lasoCardView) lasoCardView.style.display = 'none';
-        if (lasoErrorView) {
-          lasoErrorView.style.display = 'flex';
-          if (lasoErrorMsg) lasoErrorMsg.textContent = msg;
-          var g = document.getElementById('laso-error-guidance');
-          if (g) {
-            if (guidance) {
-              g.textContent = guidance;
-              g.style.display = 'block';
-            } else {
-              g.style.display = 'none';
-            }
-          }
-        }
-      }
-
-      var lasoPendingView = document.getElementById('laso-pending-view');
-      var lasoPendingMeta = document.getElementById('laso-pending-meta');
-      var lasoPendingStatus = document.getElementById('laso-pending-status');
-      var lasoPendingCheckBtn = document.getElementById('laso-pending-check-btn');
-      var pendingWalletAddress = null;
-
-      function showPendingRecovery(err) {
-        if (lasoProgressView) lasoProgressView.style.display = 'none';
-        if (lasoErrorView) lasoErrorView.style.display = 'none';
-        if (lasoCardView) lasoCardView.style.display = 'none';
-        if (panelInstant) panelInstant.style.display = 'block';
-        if (lasoPendingView) {
-          lasoPendingView.style.display = 'flex';
-          if (lasoPendingMeta && err && err.cardId) {
-            lasoPendingMeta.textContent = 'Order: ' + err.cardId;
-          }
-        }
-      }
-
-      function resumePendingOrder() {
-        if (!pendingWalletAddress || !window.LasoService || !window.LasoService.resumeCardPolling) return;
-        if (lasoPendingCheckBtn) lasoPendingCheckBtn.disabled = true;
-        if (lasoPendingStatus) lasoPendingStatus.textContent = 'Checking…';
-        window.LasoService.resumeCardPolling({
-          walletAddress: pendingWalletAddress,
-          maxWaitMs: 120000,
-          onProgress: function(p) {
-            if (lasoPendingStatus) lasoPendingStatus.textContent = p.message || 'Checking…';
-          }
-        }).then(function(card) {
-          if (lasoPendingView) lasoPendingView.style.display = 'none';
-          showCard(card);
-        }).catch(function(e) {
-          if (lasoPendingCheckBtn) lasoPendingCheckBtn.disabled = false;
-          if (lasoPendingStatus) {
-            lasoPendingStatus.textContent = (e && e.isProvisioningTimeout)
-              ? 'Still provisioning — try again shortly.'
-              : (e && e.message) || 'Could not check status.';
-          }
-        });
-      }
-
-      if (lasoPendingCheckBtn) {
-        lasoPendingCheckBtn.addEventListener('click', resumePendingOrder);
-      }
-
-      // On load: if the connected wallet has a paid-but-unissued order, surface recovery.
-      (function detectPendingOrder() {
-        if (typeof window === 'undefined' || !window.LasoService || !window.LasoService.getStoredCards) return;
-        if (!window.ethereum || !window.ethereum.selectedAddress) return;
-        var addr = window.ethereum.selectedAddress;
-        var cards = window.LasoService.getStoredCards(addr) || [];
-        var pending = null;
-        for (var i = 0; i < cards.length; i++) {
-          if (cards[i].status === 'pending' && (cards[i].card_id || cards[i].id)) { pending = cards[i]; break; }
-        }
-        if (pending) {
-          pendingWalletAddress = addr;
-          showPendingRecovery({ cardId: pending.card_id || pending.id });
-        }
-      })();
-
-      function showCard(card) {
-        currentLasoCard = card;
-        if (lasoProgressView) lasoProgressView.style.display = 'none';
-        if (lasoErrorView) lasoErrorView.style.display = 'none';
-        if (lasoPendingView) lasoPendingView.style.display = 'none';
-        if (panelInstant) panelInstant.style.display = 'none';
-        if (lasoCardView) lasoCardView.style.display = 'block';
-
-        if (lasoCardBadge) {
-          lasoCardBadge.textContent = card.is_simulation ? 'SIMULATOR' : 'LIVE BASE';
-          lasoCardBadge.className = 'laso-card-live-badge ' + (card.is_simulation ? 'sim' : 'live');
-        }
-
-        var pan = card.card_number ? card.card_number : '•••• •••• •••• ' + (card.last4 || '8842');
-        if (lasoPanText) {
-          lasoPanText.textContent = card.card_number ? ('•••• •••• •••• ' + card.card_number.slice(-4)) : pan;
-        }
-        if (lasoExpText) lasoExpText.textContent = (card.exp_month || '02') + '/' + (card.exp_year || '32');
-        if (lasoCvvText) lasoCvvText.textContent = '•••';
-        if (lasoBalText) {
-          var balNum = Number(card.available_balance || card.initial_amount || selectedAmount);
-          lasoBalText.textContent = '$' + balNum.toFixed(2);
-        }
-
-        if (lasoSiwxBanner) {
-          lasoSiwxBanner.style.display = (!card.card_number && !card.is_simulation) ? 'flex' : 'none';
-        }
-      }
-
-      if (lasoErrorRetryBtn) {
-        lasoErrorRetryBtn.addEventListener('click', function() {
-          if (lasoErrorView) lasoErrorView.style.display = 'none';
-        });
-      }
 
       if (lasoIssueBtn) {
         lasoIssueBtn.addEventListener('click', function() {
-          if (panelInstant) panelInstant.style.display = 'none';
-          if (lasoErrorView) lasoErrorView.style.display = 'none';
-          if (lasoProgressView) lasoProgressView.style.display = 'block';
-
-          if (currentLasoMode === 'live') {
-            updateStep('Connecting wallet & verifying Base network...');
-            if (window.ethereum && window.ethereum.selectedAddress) {
-              pendingWalletAddress = window.ethereum.selectedAddress;
-            }
-            if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
-              window.LasoService.issueCardWithLiveWallet({
-                amount: selectedAmount,
-                subName: 'YouTube Premium',
-                onProgress: function(p) {
-                  updateStep(p.message || '');
-                }
-              }).then(function(card) {
-                showCard(card);
-              }).catch(function(err) {
-                if (err && err.isProvisioningTimeout) {
-                  showPendingRecovery(err);
-                } else {
-                  showError(err.message || 'Live issuance failed', err.lasoGuidance || null);
-                }
-              });
-            } else {
-              showError('Laso Service unavailable in browser');
-            }
-          } else {
-            updateStep('Simulating Base x402 payment...');
-            if (typeof window !== 'undefined' && window.LasoService) {
-              window.LasoService.simulateIssuance({
-                amount: selectedAmount,
-                subName: 'YouTube Premium',
-                walletAddress: '0x71C...B49a',
-                onProgress: function(p) {
-                  updateStep(p.message || '');
-                }
-              }).then(function(card) {
-                showCard(card);
-              }).catch(function(err) {
-                showError(err.message || 'Issuance failed');
-              });
-            } else {
-              setTimeout(function() {
-                showCard({
-                  card_number: '4242884919208842',
-                  exp_month: '02',
-                  exp_year: '32',
-                  cvv: '942',
-                  available_balance: selectedAmount,
-                  is_simulation: true
-                });
-              }, 1200);
-            }
+          var redirectStatus = document.getElementById('laso-redirect-status');
+          if (redirectStatus) {
+            redirectStatus.style.display = 'block';
           }
         });
       }
 
-      if (lasoPanToggleBtn && lasoPanText) {
-        lasoPanToggleBtn.addEventListener('click', function() {
-          isPanRevealed = !isPanRevealed;
-          lasoPanToggleBtn.textContent = isPanRevealed ? 'Hide' : 'Show';
-          var pan = (currentLasoCard && currentLasoCard.card_number) ? currentLasoCard.card_number : '4242884919208842';
-          lasoPanText.textContent = isPanRevealed ? (pan.match(/.{1,4}/g) ? pan.match(/.{1,4}/g).join(' ') : pan) : ('•••• •••• •••• ' + pan.slice(-4));
-        });
-      }
-
-      if (lasoPanCopyBtn) {
-        lasoPanCopyBtn.addEventListener('click', function() {
-          var pan = (currentLasoCard && currentLasoCard.card_number) ? currentLasoCard.card_number : '4242884919208842';
-          if (navigator.clipboard) {
-            navigator.clipboard.writeText(pan);
-            lasoPanCopyBtn.textContent = 'Copied!';
-            setTimeout(function() { lasoPanCopyBtn.textContent = 'Copy PAN'; }, 2000);
-          }
-        });
-      }
-
-      if (lasoCvvToggleBtn && lasoCvvText) {
-        lasoCvvToggleBtn.addEventListener('click', function() {
-          isCvvRevealed = !isCvvRevealed;
-          lasoCvvToggleBtn.textContent = isCvvRevealed ? 'Hide' : 'Show';
-          lasoCvvText.textContent = isCvvRevealed ? ((currentLasoCard && currentLasoCard.cvv) ? currentLasoCard.cvv : '942') : '•••';
-        });
-      }
-
-      if (lasoCvvCopyBtn) {
-        lasoCvvCopyBtn.addEventListener('click', function() {
-          var cvv = (currentLasoCard && currentLasoCard.cvv) ? currentLasoCard.cvv : '942';
-          if (navigator.clipboard) {
-            navigator.clipboard.writeText(cvv);
-            lasoCvvCopyBtn.textContent = 'Copied!';
-            setTimeout(function() { lasoCvvCopyBtn.textContent = 'Copy'; }, 2000);
-          }
-        });
-      }
-
-      if (lasoAddrCopyBtn) {
-        lasoAddrCopyBtn.addEventListener('click', function() {
-          if (navigator.clipboard) {
-            navigator.clipboard.writeText('440 N Barranca Avenue, #4496, Covina, CA 91723, US');
-            lasoAddrCopyBtn.textContent = 'Copied!';
-            setTimeout(function() { lasoAddrCopyBtn.textContent = 'Copy Address'; }, 2000);
-          }
-        });
-      }
-
-      if (lasoSiwxBtn) {
-        lasoSiwxBtn.addEventListener('click', function() {
-          if (!currentLasoCard || !currentLasoCard.card_id) return;
-          lasoSiwxBtn.textContent = 'Signing…';
-          lasoSiwxBtn.disabled = true;
-          if (typeof window !== 'undefined' && window.LasoService && window.LasoService.revealCardWithSiwx) {
-            window.LasoService.revealCardWithSiwx({
-              cardId: currentLasoCard.card_id,
-              walletAddress: currentLasoCard.wallet_address
-            }).then(function(revealed) {
-              currentLasoCard = Object.assign({}, currentLasoCard, revealed);
-              isPanRevealed = true;
-              isCvvRevealed = true;
-              if (lasoPanToggleBtn) lasoPanToggleBtn.textContent = 'Hide';
-              if (lasoCvvToggleBtn) lasoCvvToggleBtn.textContent = 'Hide';
-              var panStr = revealed.card_number ? (revealed.card_number.match(/.{1,4}/g) ? revealed.card_number.match(/.{1,4}/g).join(' ') : revealed.card_number) : '•••• •••• •••• 8842';
-              if (lasoPanText) lasoPanText.textContent = panStr;
-              if (lasoCvvText) lasoCvvText.textContent = revealed.cvv || '942';
-              if (lasoBalText) lasoBalText.textContent = '$' + Number(revealed.available_balance || currentLasoCard.available_balance || 5).toFixed(2);
-              if (lasoSiwxBanner) lasoSiwxBanner.style.display = 'none';
-              lasoSiwxBtn.textContent = '🔓 Sign with Wallet to Reveal';
-              lasoSiwxBtn.disabled = false;
-            }).catch(function(err) {
-              lasoSiwxBtn.textContent = '🔓 Sign with Wallet to Reveal';
-              lasoSiwxBtn.disabled = false;
-              alert(err.message || 'SIWx authentication failed');
-            });
-          }
-        });
-      }
-
-      if (lasoRefreshBtn) {
-        lasoRefreshBtn.addEventListener('click', function() {
-          if (!currentLasoCard || !currentLasoCard.card_id) return;
-          lasoRefreshBtn.textContent = 'Refreshing…';
-          lasoRefreshBtn.disabled = true;
-          if (typeof window !== 'undefined' && window.LasoService && !currentLasoCard.is_simulation) {
-            window.LasoService.pollCardUntilReady({
-              cardId: currentLasoCard.card_id,
-              idToken: currentLasoCard.id_token,
-              maxWaitMs: 6000
-            }).then(function(updated) {
-              currentLasoCard = Object.assign({}, currentLasoCard, updated);
-              if (lasoBalText) lasoBalText.textContent = '$' + Number(updated.available_balance || currentLasoCard.available_balance).toFixed(2);
-              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
-              lasoRefreshBtn.disabled = false;
-            }).catch(function() {
-              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
-              lasoRefreshBtn.disabled = false;
-            });
-          } else {
-            setTimeout(function() {
-              lasoRefreshBtn.textContent = '🔄 Refresh Live Balance';
-              lasoRefreshBtn.disabled = false;
-            }, 700);
-          }
-        });
-      }
-
-      if (lasoMerchantForm && lasoMerchantInput && lasoMerchantBadge) {
-        lasoMerchantForm.addEventListener('submit', function(e) {
-          e.preventDefault();
-          var q = (lasoMerchantInput.value || '').toLowerCase().trim();
-          if (!q) return;
-          var known = ['amazon', 'claude', 'anthropic', 'openai', 'chatgpt', 'cursor', 'spotify', 'netflix', 'aws', 'github', 'youtube', 'google', 'apple', 'hulu', 'disney', 'max', 'uber', 'doordash', 'walmart', 'audible'];
-          var isAccepted = known.some(function(k) { return q.indexOf(k) >= 0 || k.indexOf(q) >= 0; });
-          lasoMerchantBadge.style.display = 'block';
-          lasoMerchantBadge.textContent = isAccepted ? '✅ Accepted for US Checkout' : '⚠️ Unknown / Test Required';
-          lasoMerchantBadge.className = 'laso-merchant-badge ' + (isAccepted ? 'accepted' : 'unknown');
-        });
-      }
-
-      if (lasoResetBtn) {
-        lasoResetBtn.addEventListener('click', function() {
-          if (lasoCardView) lasoCardView.style.display = 'none';
-          if (lasoProgressView) lasoProgressView.style.display = 'none';
-          if (lasoErrorView) lasoErrorView.style.display = 'none';
-          if (lasoIdleView) lasoIdleView.style.display = 'block';
-          currentLasoCard = null;
-          isPanRevealed = false;
-          isCvvRevealed = false;
+      if (stickyBtn) {
+        stickyBtn.addEventListener('click', function() {
+          window.open('https://laso.finance?ref=lmretyujvzr9jiutxi4d', '_blank', 'noopener,noreferrer');
         });
       }
       // 3D Card Tilt & Cursor Sheen Tracking (pointer: fine & reduced-motion gated)

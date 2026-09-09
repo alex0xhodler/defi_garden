@@ -1551,15 +1551,7 @@ function YieldCardWidget({
     className: 'validation-error'
   }, validationError)), React.createElement('p', {
     className: 'reservation-micro-hint'
-  }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever'), React.createElement('div', {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '8px',
-      width: '100%',
-      marginTop: '8px'
-    }
-  }, React.createElement('a', {
+  }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever'), React.createElement('a', {
     className: 'laso-instant-launch-toggle-btn',
     href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
     target: '_blank',
@@ -1567,21 +1559,10 @@ function YieldCardWidget({
     style: {
       textAlign: 'center',
       textDecoration: 'none',
-      display: 'block'
+      display: 'block',
+      marginTop: '12px'
     }
-  }, isKorean ? '⚡ Laso 공식 사이트에서 발급하기 (제휴 레퍼럴) ↗' : '⚡ Get Virtual Visa Card on Laso.finance (Partner Referral) ↗'), React.createElement('button', {
-    type: 'button',
-    className: 'link-btn',
-    style: {
-      fontSize: '0.82rem',
-      color: 'var(--ui-text-secondary)',
-      background: 'transparent',
-      border: 'none',
-      cursor: 'pointer',
-      padding: '4px'
-    },
-    onClick: () => setShowLasoTerminal(true)
-  }, isKorean ? '또는 인앱 시뮬레이터 체험 →' : 'Or try in-app simulator →')))) : React.createElement('div', {
+  }, isKorean ? '⚡ Laso 공식 사이트에서 발급하기 (제휴 레퍼럴) ↗' : '⚡ Get Virtual Visa Card on Laso.finance (Partner Referral) ↗'))) : React.createElement('div', {
     className: 'yield-card-receipt animate-on-mount'
   }, React.createElement('div', {
     className: 'receipt-badge-row'
@@ -1635,15 +1616,7 @@ function YieldCardWidget({
     'aria-hidden': 'true'
   }, React.createElement('path', {
     d: 'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z'
-  })), React.createElement('span', null, _t('yieldCard.joinTelegramAlpha') || 'Claim Alpha in Private Telegram →'))), (invitedCount >= 1 || showLasoTerminal) && renderLasoTerminal(), invitedCount < 1 && React.createElement('div', {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '8px',
-      width: '100%',
-      marginTop: '8px'
-    }
-  }, React.createElement('a', {
+  })), React.createElement('span', null, _t('yieldCard.joinTelegramAlpha') || 'Claim Alpha in Private Telegram →'))), (invitedCount >= 1 || showLasoTerminal) && renderLasoTerminal(), invitedCount < 1 && React.createElement('a', {
     className: 'laso-instant-launch-toggle-btn',
     href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
     target: '_blank',
@@ -1651,21 +1624,10 @@ function YieldCardWidget({
     style: {
       textAlign: 'center',
       textDecoration: 'none',
-      display: 'block'
+      display: 'block',
+      marginTop: '12px'
     }
-  }, isKorean ? '⚡ Laso 공식 가상 Visa 카드 발급 (제휴 링크) ↗' : '⚡ Issue Virtual Visa Card with Laso (Partner Referral) ↗'), React.createElement('button', {
-    type: 'button',
-    className: 'link-btn',
-    style: {
-      fontSize: '0.82rem',
-      color: 'var(--ui-text-secondary)',
-      background: 'transparent',
-      border: 'none',
-      cursor: 'pointer',
-      padding: '4px'
-    },
-    onClick: () => setShowLasoTerminal(!showLasoTerminal)
-  }, showLasoTerminal ? isKorean ? 'Laso 시뮬레이터 접기' : 'Hide Laso Simulator' : isKorean ? '인앱 시뮬레이터 체험 →' : 'Or try in-app simulator →')),
+  }, isKorean ? '⚡ Laso 공식 가상 Visa 카드 발급 (제휴 링크) ↗' : '⚡ Issue Virtual Visa Card with Laso (Partner Referral) ↗'),
   // Action Buttons: X (Twitter) Viral Share + Copy Link
   React.createElement('div', {
     className: 'receipt-actions-group'

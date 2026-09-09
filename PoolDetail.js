@@ -1263,21 +1263,13 @@ function YieldCardWidget({
                     ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내'
                     : 'No wallet connection or KYC required to reserve • 100% free forever'
                 ),
-                React.createElement('div', { style: { display: 'flex', flexDirection: 'column', gap: '8px', width: '100%', marginTop: '8px' } },
-                  React.createElement('a', {
-                    className: 'laso-instant-launch-toggle-btn',
-                    href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
-                    target: '_blank',
-                    rel: 'noopener noreferrer',
-                    style: { textAlign: 'center', textDecoration: 'none', display: 'block' }
-                  }, isKorean ? '⚡ Laso 공식 사이트에서 발급하기 (제휴 레퍼럴) ↗' : '⚡ Get Virtual Visa Card on Laso.finance (Partner Referral) ↗'),
-                  React.createElement('button', {
-                    type: 'button',
-                    className: 'link-btn',
-                    style: { fontSize: '0.82rem', color: 'var(--ui-text-secondary)', background: 'transparent', border: 'none', cursor: 'pointer', padding: '4px' },
-                    onClick: () => setShowLasoTerminal(true)
-                  }, isKorean ? '또는 인앱 시뮬레이터 체험 →' : 'Or try in-app simulator →')
-                )
+                React.createElement('a', {
+                  className: 'laso-instant-launch-toggle-btn',
+                  href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
+                  target: '_blank',
+                  rel: 'noopener noreferrer',
+                  style: { textAlign: 'center', textDecoration: 'none', display: 'block', marginTop: '12px' }
+                }, isKorean ? '⚡ Laso 공식 사이트에서 발급하기 (제휴 레퍼럴) ↗' : '⚡ Get Virtual Visa Card on Laso.finance (Partner Referral) ↗')
               )
         ) : React.createElement('div', { className: 'yield-card-receipt animate-on-mount' },
           React.createElement('div', { className: 'receipt-badge-row' },
@@ -1344,21 +1336,13 @@ function YieldCardWidget({
             )
           ),
             (invitedCount >= 1 || showLasoTerminal) && renderLasoTerminal(),
-            invitedCount < 1 && React.createElement('div', { style: { display: 'flex', flexDirection: 'column', gap: '8px', width: '100%', marginTop: '8px' } },
-              React.createElement('a', {
-                className: 'laso-instant-launch-toggle-btn',
-                href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                style: { textAlign: 'center', textDecoration: 'none', display: 'block' }
-              }, isKorean ? '⚡ Laso 공식 가상 Visa 카드 발급 (제휴 링크) ↗' : '⚡ Issue Virtual Visa Card with Laso (Partner Referral) ↗'),
-              React.createElement('button', {
-                type: 'button',
-                className: 'link-btn',
-                style: { fontSize: '0.82rem', color: 'var(--ui-text-secondary)', background: 'transparent', border: 'none', cursor: 'pointer', padding: '4px' },
-                onClick: () => setShowLasoTerminal(!showLasoTerminal)
-              }, showLasoTerminal ? (isKorean ? 'Laso 시뮬레이터 접기' : 'Hide Laso Simulator') : (isKorean ? '인앱 시뮬레이터 체험 →' : 'Or try in-app simulator →'))
-            ),
+            invitedCount < 1 && React.createElement('a', {
+              className: 'laso-instant-launch-toggle-btn',
+              href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              style: { textAlign: 'center', textDecoration: 'none', display: 'block', marginTop: '12px' }
+            }, isKorean ? '⚡ Laso 공식 가상 Visa 카드 발급 (제휴 링크) ↗' : '⚡ Issue Virtual Visa Card with Laso (Partner Referral) ↗'),
 
           // Action Buttons: X (Twitter) Viral Share + Copy Link
           React.createElement('div', { className: 'receipt-actions-group' },
