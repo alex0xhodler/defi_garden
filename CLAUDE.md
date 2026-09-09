@@ -28,6 +28,13 @@ An inline IA router in `home.html` (`window.__APP_MODE`) decides which experienc
 - Data: `https://yields.llama.fi/pools` fetched client-side. Pool deep link: `/?pool=<pool.pool>`.
 - State conventions: theme = localStorage `theme` + `data-theme` attr; language = `?lang` + localStorage `defi-garden-lang`; saved plan = localStorage `garden-plan`.
 
+## Card rail & partner integration architecture (Laso.finance)
+
+- **DeFi Garden is a yield discovery engine and goal planner, NOT a card issuer or BaaS.**
+- Laso's regulatory compliance and anti-money-laundering (AML) policies strictly prohibit third-party API issuance and white-labeling. End-users must complete direct account onboarding (country confirmation, E-Sign disclosure, Cardholder Agreement) on `laso.finance`.
+- Card activations hand off via official referral links (`https://laso.finance?ref=lmretyujvzr9jiutxi4d`). Never build in-browser card issuance or simulated white-label payment terminals.
+- Geographic constraints: US cards (`/get-card`) are domestic-only and geo-blocked to US residents ($5 min API / $20 web, 0% fee). Non-US/international users are restricted to the International Non-Reloadable Card (`/order-intl-card`), requiring a **$100 minimum load** and **3.8% deposit fee**.
+
 ## Design system — "Quiet" (design reset 2026-08-04, item 225; SUPERSEDES the neumorphic mandate)
 
 The neumorphic skin and the legacy google-mimic analytics chrome are both GONE (human directive, strategy interview Q2b). Full spec: `product-loop-kit/specs/225-design-system.md` — read it before any UI change.
@@ -40,6 +47,7 @@ The neumorphic skin and the legacy google-mimic analytics chrome are both GONE (
 - **Banned**: neumorphic dual-direction shadows, gradients on page backgrounds, electric glow, bounce easings, scale-pop hovers, fake urgency. Press physics: interactive controls `transform: translateY(1px)` + `--ui-surface-muted` on `:active` (no transform under reduced motion).
 - `--neuro-*` names still resolve as DEPRECATED aliases pointing at the flat values — they exist ONLY so the ~4,400 generated static pages that baked them into inline `<style>` blocks inherit the reset. **Never use a `--neuro-*` name in a new rule.**
 - `prefers-reduced-motion` respected for every animation. Must be flawless at 360/768/1280px and in dark mode.
+- **Buy box conversion law**: A conversion buy box must contain **exactly one primary action CTA** and **at most one quiet secondary link below it** (e.g. `Want to choose your own vault? Explore & switch pools →`). Never render competing buttons, stacked modal dialogs, or duplicate redirect banners. When the user triggers the partner handoff, the page transitions into a clean session-persistent in-progress state (`sessionStorage`) that reinforces partner perks and provides a single `Resume on Laso.finance ↗` button.
 
 ## Hard rules
 
@@ -50,8 +58,10 @@ The neumorphic skin and the legacy google-mimic analytics chrome are both GONE (
 
 ## Development & verification
 
-- Serve: `python3 -m http.server 8000` (any static server). No tests/lint pipeline; verification is Playwright-based E2E + critical screenshot review (a working Playwright install is typically at `/tmp/neuro-shots`).
+- Serve: `python3 -m http.server 8000` (any static server) or `node dev-server.js` (proxies `/api/laso` to `laso.finance` for partner testing). No tests/lint pipeline; verification is Playwright-based E2E + critical screenshot review (a working Playwright install is typically at `/tmp/neuro-shots`).
 - Verify both router paths after ANY change near `index.html`: bare `/` → planner, `/?token=USDC` → analytics app with pool cards.
+- **Committed static assets**: `tokens/*.html` and `ko/tokens/*.html` (~4,550 static files) and `for/*.html` are committed static files served directly by the web server. Updating `generate-token-pages.js` or `generate-for-pages.js` alone does NOT update the static files on disk. Always batch-regenerate and commit the static HTML files whenever templates, CTAs, or card layouts change.
+- **Compilation step**: Any edit to `PoolDetail.js` or `pool-detail-styles.css` requires running `npm run compile && npm run minify` before committing; `home.html` loads the `.compiled.min.js` and `.min.css` bundles.
 - After changing presets/personas, re-run `node generate-stories.js` and commit regenerated `stories/`.
 - Sandbox note: external font/analytics fetches fail locally (ignorable); page errors are not.
 
