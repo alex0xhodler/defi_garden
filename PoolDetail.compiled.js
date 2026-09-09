@@ -1513,146 +1513,32 @@ function YieldCardWidget({
     className: 'visa-card-cap-badge'
   }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `🟢 ACTIVE ($${totalMonthlyWithBuffer.toFixed(2)}/MO)`)))))), React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
-  }, !isSubmitted ? React.createElement('div', {
+  }, React.createElement('div', {
     className: 'yield-card-reservation'
   }, React.createElement('h3', {
     className: 'reservation-title'
-  }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'), React.createElement('p', {
+  }, isKorean ? `${pool.symbol || 'USDC'} 이자 직결 가상 Visa 카드` : `Get ${pool.symbol || 'USDC'} Yield Card`), React.createElement('p', {
     className: 'reservation-subtitle'
-  }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'), showLasoTerminal ? React.createElement('div', {
-    className: 'laso-modal-open-view animate-on-mount'
-  }, React.createElement('button', {
-    type: 'button',
-    className: 'laso-instant-launch-toggle-btn',
+  }, isKorean ? '원금 100% 보존 • 전 세계 Visa 결제 • Laso 공식 파트너 제휴' : 'Spend your idle yield anywhere Visa is accepted worldwide • 100% principal protected'), React.createElement('a', {
+    className: 'reserve-submit-btn',
+    href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
+    target: '_blank',
+    rel: 'noopener noreferrer',
     style: {
-      marginBottom: '12px',
-      width: '100%'
-    },
-    onClick: () => setShowLasoTerminal(false)
-  }, isKorean ? '← 이메일 사전 예약으로 돌아가기' : '← Back to Email Reservation'), renderLasoTerminal()) : React.createElement(React.Fragment, null, React.createElement('form', {
-    className: 'reservation-form',
-    noValidate: true,
-    onSubmit: handleSubmit
-  }, React.createElement('div', {
-    className: 'reservation-input-group'
-  }, React.createElement('div', {
-    className: 'input-with-icon'
-  }, React.createElement('input', {
-    type: 'email',
-    className: 'email-input',
-    placeholder: _t('yieldCard.emailPlaceholder') || 'Enter developer / user email...',
-    value: email,
-    onChange: e => setEmail(e.target.value),
-    required: true
-  })), React.createElement('button', {
-    type: 'submit',
-    className: 'reserve-submit-btn'
-  }, _t('yieldCard.submitBtn') || 'Issue My Card at Launch →')), validationError && React.createElement('div', {
-    className: 'validation-error'
-  }, validationError)), React.createElement('p', {
+      textDecoration: 'none',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '100%',
+      height: '46px',
+      fontSize: '0.98rem',
+      fontWeight: '700',
+      marginTop: '16px',
+      boxSizing: 'border-box'
+    }
+  }, isKorean ? '⚡ Laso에서 Visa 카드 발급받기 →' : 'Get Visa Card on Laso →'), React.createElement('p', {
     className: 'reservation-micro-hint'
-  }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever'), React.createElement('a', {
-    className: 'laso-instant-launch-toggle-btn',
-    href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    style: {
-      textAlign: 'center',
-      textDecoration: 'none',
-      display: 'block',
-      marginTop: '12px'
-    }
-  }, isKorean ? '⚡ Laso 공식 사이트에서 발급하기 (제휴 레퍼럴) ↗' : '⚡ Get Virtual Visa Card on Laso.finance (Partner Referral) ↗'))) : React.createElement('div', {
-    className: 'yield-card-receipt animate-on-mount'
-  }, React.createElement('div', {
-    className: 'receipt-badge-row'
-  }, React.createElement('div', {
-    className: 'receipt-spot-badge'
-  }, _t('yieldCard.spotReserved') || 'Early Access Reserved'), React.createElement('div', {
-    className: 'receipt-alpha-pill'
-  }, _t('yieldCard.alphaUnlock') || '⚡ +1 Invite = Instant Alpha Access')), React.createElement('h3', {
-    className: 'receipt-title'
-  }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'), React.createElement('div', {
-    className: 'receipt-card-preview-chip'
-  }, `${pool.symbol || 'USDC'} Yield Card • ${activeSubs.length > 1 ? `${activeSubs.map(s => s.name).join(' + ')} (${activeSubs.length} Subs)` : selectedSub.name} • ${isKorean && totalMonthlyKrw ? `₩${_formatNum(totalMonthlyKrw)}/mo` : `$${totalMonthlyBase.toFixed(2)}/mo`}`),
-  // Gamification Alpha Unlock Box
-  React.createElement('div', {
-    className: `receipt-gamification-box${invitedCount >= 1 ? ' is-unlocked' : ''}`
-  }, React.createElement('div', {
-    className: 'gamification-header'
-  }, React.createElement('span', {
-    className: 'gamification-label'
-  }, invitedCount >= 1 ? isKorean ? '⚡ 알파 우선 발급 승인 완료' : '⚡ Alpha Access Unlocked' : isKorean ? '🚀 알파 우선 발급 패스트트랙' : '🚀 Alpha Priority Fast-Track'), React.createElement('span', {
-    className: 'gamification-status'
-  }, invitedCount >= 1 ? isKorean ? '1 / 1명 달성 (완료)' : '1 / 1 (Unlocked 🎉)' : _t('yieldCard.inviteProgress') || '0 / 1 Invited')), React.createElement('div', {
-    className: 'gamification-progress-bar'
-  }, React.createElement('div', {
-    className: 'gamification-progress-fill',
-    style: {
-      width: invitedCount >= 1 ? '100%' : '25%'
-    }
-  })), React.createElement('p', {
-    className: 'gamification-desc'
-  }, invitedCount >= 1 ? isKorean ? '알파 액세스 자격을 획득하셨습니다! 아래 비공개 텔레그램 그룹에 입장하여 테스트넷 카드 발급 슬롯을 수령하세요.' : 'Alpha priority unlocked! You skipped the 2,480+ launch queue. Join the private Alpha Telegram group to claim your card issuance slot.' : isKorean ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.' : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.'), invitedCount >= 1 && React.createElement('a', {
-    className: 'receipt-telegram-cta-btn',
-    href: 'https://t.me/+rXf7XKhsffMxNzdk',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    onClick: () => {
-      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTelegramJoined) {
-        Analytics.trackYieldCardTelegramJoined({
-          pool,
-          goalId: selectedSub.id,
-          referral_code: myRefCode
-        });
-      }
-    }
-  }, React.createElement('svg', {
-    className: 'telegram-svg-icon',
-    viewBox: '0 0 24 24',
-    width: 15,
-    height: 15,
-    fill: 'currentColor',
-    'aria-hidden': 'true'
-  }, React.createElement('path', {
-    d: 'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z'
-  })), React.createElement('span', null, _t('yieldCard.joinTelegramAlpha') || 'Claim Alpha in Private Telegram →'))), (invitedCount >= 1 || showLasoTerminal) && renderLasoTerminal(), invitedCount < 1 && React.createElement('a', {
-    className: 'laso-instant-launch-toggle-btn',
-    href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    style: {
-      textAlign: 'center',
-      textDecoration: 'none',
-      display: 'block',
-      marginTop: '12px'
-    }
-  }, isKorean ? '⚡ Laso 공식 가상 Visa 카드 발급 (제휴 링크) ↗' : '⚡ Issue Virtual Visa Card with Laso (Partner Referral) ↗'),
-  // Action Buttons: X (Twitter) Viral Share + Copy Link
-  React.createElement('div', {
-    className: 'receipt-actions-group'
-  }, React.createElement('button', {
-    type: 'button',
-    className: 'receipt-twitter-btn',
-    onClick: handleTwitterShare
-  }, React.createElement('svg', {
-    className: 'x-twitter-icon',
-    viewBox: '0 0 24 24',
-    width: 14,
-    height: 14,
-    fill: 'currentColor',
-    'aria-hidden': 'true'
-  }, React.createElement('path', {
-    d: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z'
-  })), React.createElement('span', null, _t('yieldCard.twitterShare') || 'Share on X to Unlock Alpha ⚡')), React.createElement('button', {
-    type: 'button',
-    className: 'receipt-share-btn',
-    onClick: handleCopyLink
-  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || '🔗 Copy invite link')), invitedCount === 0 && React.createElement('button', {
-    type: 'button',
-    className: 'receipt-verify-link-btn',
-    onClick: handleCheckInviteStatus
-  }, _t('yieldCard.checkStatus') || '⚡ Check invite status / claim access')))),
+  }, isKorean ? '파트너 제휴 링크 적용 • 발급 수수료 면제 • 전 세계 Visa Debit' : 'Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit')))),
   // Deposit simulator slider section (Second controller in widget)
   React.createElement('div', {
     className: 'yield-card-slider-section'

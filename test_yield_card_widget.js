@@ -251,45 +251,22 @@ async function run() {
       await page.close();
     });
 
-    await test('Form validation halts invalid email, and valid email submits reservation to localStorage', async () => {
+    await test('Reservation widget renders Get Visa Card on Laso button with referral link and zero email capture', async () => {
       const page = await browser.newPage();
-      await page.addInitScript(() => {
-        // Neutralize host gate for analytics
-        if (window.Analytics) {
-          window.Analytics.isProductionHost = () => true;
-        }
-      });
-
       await page.goto(`http://localhost:${PORT}/?app=1&pool=747c1d2a-c668-4682-b9f9-296708a3dd90`);
       await page.waitForSelector('.yield-card-terminal', { timeout: 5000 });
 
+      // Verify no email input is rendered
       const emailInput = await page.$('.yield-card-reservation input[type="email"], .yield-card-reservation input.email-input');
-      assert.ok(emailInput, 'Email input should exist');
-      const submitBtn = await page.$('.yield-card-reservation button.reserve-submit-btn');
-      assert.ok(submitBtn, 'Submit button should exist');
+      assert.strictEqual(emailInput, null, 'Email input should NOT exist in reservation section');
 
-      // Try invalid email
-      await emailInput.fill('invalid-email-no-at');
-      await submitBtn.click();
-
-      // Error hint should appear
-      const errorMsg = await page.$('.yield-card-reservation .validation-error');
-      assert.ok(errorMsg, 'Validation error should appear for invalid email');
-
-      // Now fill valid email and submit
-      await emailInput.fill('alice@developer.xyz');
-      await submitBtn.click();
-
-      // Receipt state should appear
-      await page.waitForSelector('.yield-card-receipt', { timeout: 3000 });
-      const receiptText = await page.$eval('.yield-card-receipt', el => el.textContent);
-      assert.ok(receiptText.toLowerCase().includes('reserved') || receiptText.includes('Spot') || receiptText.includes('Waitlist') || receiptText.includes('신청 완료'), `Expected success receipt, got: ${receiptText}`);
-
-      // Verify localStorage was written
-      const storedWaitlist = await page.evaluate(() => localStorage.getItem('defi_garden_card_waitlist'));
-      assert.ok(storedWaitlist, 'Waitlist payload should be saved in localStorage');
-      const parsed = JSON.parse(storedWaitlist);
-      assert.ok(Array.isArray(parsed) ? parsed[0].user_email === 'alice@developer.xyz' : parsed.user_email === 'alice@developer.xyz');
+      // Verify primary Laso referral button
+      const lasoBtn = await page.$('.yield-card-reservation a.reserve-submit-btn');
+      assert.ok(lasoBtn, 'Get Visa Card on Laso button should exist');
+      const href = await lasoBtn.getAttribute('href');
+      assert.strictEqual(href, 'https://laso.finance?ref=lmretyujvzr9jiutxi4d', 'Expected Laso referral link');
+      const text = await lasoBtn.textContent();
+      assert.ok(text.includes('Get Visa Card on Laso'), `Expected button text to mention Get Visa Card on Laso, got: ${text}`);
 
       await page.close();
     });
