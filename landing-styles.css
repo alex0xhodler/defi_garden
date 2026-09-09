@@ -380,6 +380,47 @@
   padding: 10px 0;
 }
 
+/* Page indicator (fintech-seo v2) — 2 square dots, iPhone-style. Filled =
+   active panel, outline = inactive; clicking swaps. Quiet: hairline, no
+   shadow, sits under the hero. Makes the horizontal swap discoverable. */
+.landing-page-dots {
+  position: fixed;
+  bottom: 74px;   /* just above the fixed .app-footer */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 2px;
+  border: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.28));
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+.landing-page-dot:hover {
+  border-color: var(--color-primary, var(--ui-accent));
+  transform: scale(1.15);
+}
+.landing-page-dot.is-active {
+  background: var(--color-primary, var(--ui-accent));
+  border-color: var(--color-primary, var(--ui-accent));
+}
+.landing-page-dot:focus-visible {
+  outline: none;
+  box-shadow: var(--ui-focus-ring);
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-page-dot { transition: none; }
+  .landing-page-dot:hover { transform: none; }
+}
+
 .landing-spotlight-wrapper {
   width: 100%;
   display: flex;

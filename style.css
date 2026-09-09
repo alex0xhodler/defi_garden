@@ -4151,11 +4151,15 @@ html[data-app-mode="landing"] .seo-hub-links {
 }
 
 /* ═══ PERMANENT SEO CONTENT (255, fintech-seo v2) ══════════════════════════
-   Shared across home.html and plan.html. Static indexable content below the
-   mounted app — "screen 2" of the landing: separated from the hero by a
-   surface step + hairline rule, visible to crawlers AND users (hidden
-   content would be soft-cloaking). Tokens only (--ui-*), hairline borders,
-   no box-shadows except focus rings. */
+   Two surfaces share the .seo-content base:
+   - plan.html: a quiet document column below the planner (table + prose).
+   - home.html landing: a full-viewport "screen 2" snap surface, composed to
+     the hero's grammar (eyebrow chip, Besley display headline, green CTA,
+     chip row, quiet trust lines, footer folded in). Visible to crawlers AND
+     users — hidden content would be soft-cloaking. Tokens only (--ui-*),
+     hairline borders, no box-shadows except focus rings. */
+
+/* ── Shared base (plan.html document column) ─────────────────────────── */
 .seo-content {
   max-width: 860px;
   margin: 0 auto;
@@ -4163,210 +4167,292 @@ html[data-app-mode="landing"] .seo-hub-links {
   color: var(--ui-text);
 }
 
-/* Screen-2 separation on the landing: a background step + top hairline,
-   mirroring how the certificate/pool surfaces step down from the page bg. */
-html[data-app-mode="landing"] .seo-content {
-  max-width: none;
-  border-top: 1px solid var(--ui-border);
-  background: var(--ui-surface);
-}
-html[data-app-mode="landing"] .seo-content > * {
-  max-width: 860px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.seo-content h1 {
+.seo-content h1,
+.seo-title {
   font-family: var(--font-family-display);
-  font-size: 1.75rem;
-  font-weight: 700;
-  line-height: 1.25;
+  font-weight: 600;
+  line-height: 1.1;
   color: var(--ui-text);
-  margin: 0 0 16px 0;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
+/* Base (plan.html document column) heading scale — the landing overrides
+   .seo-title with a clamp() display size; plan.html's h1/h2 use these. */
+.seo-content h1 { font-size: 1.75rem; margin: 0 0 16px; }
 .seo-content h2 {
   font-family: var(--font-family-display);
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.35;
   color: var(--ui-text);
-  margin: 28px 0 12px 0;
+  margin: 28px 0 12px;
 }
 
-.seo-content p {
-  color: var(--ui-text);
-  line-height: 1.6;
-  margin: 12px 0;
-  font-size: 0.95rem;
-}
+.seo-content p { color: var(--ui-text); line-height: 1.6; }
 
-/* Plain inline links only — never the CTA/pills, whose own rules set
+/* Plain inline links only — never the CTA/chips, whose own rules set
    colors and would otherwise lose the cascade to this later rule. */
-.seo-content a:not(.seo-cta):not(.seo-market-links a) {
+.seo-content a:not(.seo-cta):not(.seo-chip) {
   color: var(--ui-accent);
   text-decoration: none;
 }
+.seo-content a:not(.seo-cta):not(.seo-chip):hover { text-decoration: underline; }
 
-.seo-content a:not(.seo-cta):not(.seo-market-links a):hover {
-  text-decoration: underline;
-}
-
-.seo-lede {
-  color: var(--ui-text-secondary);
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-/* Primary-button pattern — mirrors landing-styles.css .landing-garden-link
-   exactly (green accent, dark-ink text, same border/hover/active) so the
-   calculator CTA reads as the same brand action as the hero's. */
-.seo-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--ui-accent, #7CC9A0);
-  color: #08140f !important;
-  padding: 12px 22px;
-  border-radius: var(--ui-radius-md);
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  border: 1px solid var(--ui-accent, #7CC9A0);
-  transition: background 0.15s ease, transform 0.1s ease;
-}
-
-.seo-cta:hover {
-  background: var(--ui-accent-hover, #8fd4ae);
-  color: #08140f !important;
-  text-decoration: none !important;
-}
-
-.seo-cta:active {
-  transform: translateY(1px);
-}
-
-/* Light mode: same override the landing CTA uses — dark-ink text is
-   unreadable on the light-theme accent (#1E5C3F). */
-[data-theme="light"] .seo-cta {
-  background: #2d8a5e;
-  color: #ffffff !important;
-  border-color: #2d8a5e;
-}
-
-[data-theme="light"] .seo-cta:hover {
-  background: #236c49;
-  border-color: #236c49;
-  color: #ffffff !important;
-}
-
-.seo-cta:focus-visible {
-  outline: none;
-  box-shadow: var(--ui-focus-ring);
-}
-
-/* Market pill links mirroring token pages' .related-links a pattern */
-.seo-market-links {
-  list-style: none;
-  padding: 0;
-  margin: 12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.seo-market-links li {
-  margin: 0;
-  padding: 0;
-}
-
-.seo-market-links a {
-  display: inline-block;
-  padding: 8px 14px;
-  background: var(--ui-surface);
-  color: var(--ui-accent);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-pill);
-  box-shadow: none;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
-}
-
-.seo-market-links a:hover {
-  background: var(--ui-surface-muted);
-  border-color: var(--ui-border-strong);
-  text-decoration: none;
-}
-
-.seo-market-links a:active {
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-}
-
-.seo-market-links a:focus-visible {
-  outline: none;
-  box-shadow: var(--ui-focus-ring);
-}
-
-/* YMYL Risk Notice */
-.seo-risk {
-  font-size: 0.85rem;
-  color: var(--ui-text-muted);
-  border-top: 1px solid var(--ui-border);
-  padding-top: 16px;
-  margin-top: 24px;
-  line-height: 1.5;
-}
-
-/* Shared SEO content table (used by plan.html calculator tables) */
+/* Shared SEO content table (plan.html calculator tables) */
 .seo-content table {
   width: 100%;
   border-collapse: collapse;
   margin: 16px 0 24px;
   font-size: 0.9rem;
 }
-
-.seo-content th,
-.seo-content td {
+.seo-content th, .seo-content td {
   padding: 10px 12px;
   text-align: left;
   border-bottom: 1px solid var(--ui-border);
 }
+.seo-content th { color: var(--ui-text-secondary); font-weight: 600; font-size: 0.85rem; }
+.seo-content td { color: var(--ui-text); font-variant-numeric: tabular-nums; }
 
-.seo-content th {
+/* ── Landing "screen 2": horizontal-swap panel ───────────────────────── */
+/* The landing's header/footer render INSIDE #landing-root (React). To keep
+   them fixed while only the content switches, #landing-root becomes a
+   horizontal snap track: the hero panel (.landing-app) and this panel sit
+   side-by-side, each 100% wide, snapping on the x-axis. The React header
+   (.landing-header) and footer (.app-footer) are pulled out of the track
+   and fixed to the viewport so they persist across the swap. Crawlers get
+   every word in the served HTML; users get a clean one-gesture swap. */
+
+/* plan.html keeps the quiet document column — no track, no fixed chrome. */
+html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
+
+/* The horizontal snap track is the BODY: its direct children (#landing-root
+   = hero panel, #seo-content = rates panel) sit side-by-side, each 100vw,
+   snapping on the x-axis. React mounts inside #landing-root and never
+   touches body's child list, so the track survives hydration. */
+html[data-app-mode="landing"],
+html[data-app-mode="landing"] body {
+  overflow-x: hidden;
+  height: 100%;
+}
+html[data-app-mode="landing"] body {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;            /* Firefox */
+}
+html[data-app-mode="landing"] body::-webkit-scrollbar { display: none; }
+
+/* Each body child that participates is a full-width snap panel. */
+html[data-app-mode="landing"] body > #landing-root,
+html[data-app-mode="landing"] body > .seo-content {
+  flex: 0 0 100vw;
+  width: 100vw;
+  min-width: 100vw;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+/* Non-panel body children (#root, #planner-root, the static .seo-hub-links
+   footer, scripts) must not become flex panels. */
+html[data-app-mode="landing"] body > #root,
+html[data-app-mode="landing"] body > #planner-root,
+html[data-app-mode="landing"] body > .seo-hub-links {
+  position: absolute;
+  width: 0; height: 0;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+/* Fixed chrome: header pinned to top, footer pinned to bottom, spanning the
+   swap. z-index above the panels; the backdrop already sits at z-index -1. */
+html[data-app-mode="landing"] .landing-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 60;
+}
+html[data-app-mode="landing"] .app-footer {
+  position: fixed !important;   /* override item 218's in-flow reset */
+  bottom: 0; left: 0; right: 0;
+  margin-top: 0;
+  z-index: 60;
+}
+/* Panels clear the fixed chrome so content never slides under it. */
+html[data-app-mode="landing"] body > #landing-root > .landing-app {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+/* The SEO panel — full-height, centered single-column, radial backdrop. */
+html[data-app-mode="landing"] .seo-content {
+  max-width: none;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
+    radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
+    var(--ui-bg);
+  padding: 72px 24px;   /* clears the fixed header (top) + footer (bottom) */
+  box-sizing: border-box;
+}
+
+/* Eyebrow chip — mirrors .landing-spotlight-eyebrow. */
+.seo-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background: rgba(var(--color-teal-500-rgb, 124, 201, 160), 0.08);
+  border: 1px solid rgba(var(--color-teal-500-rgb, 124, 201, 160), 0.22);
+  color: var(--color-primary, var(--ui-accent));
+  font-family: var(--font-family-mono);
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+/* Display headline — Besley, clamp-sized like the hero title. */
+html[data-app-mode="landing"] .seo-title {
+  font-size: clamp(34px, 4.2vw, 54px);
+  margin: 0 0 16px;
+  max-width: 720px;
+}
+
+html[data-app-mode="landing"] .seo-lede {
   color: var(--ui-text-secondary);
+  font-size: 1.06rem;
+  line-height: 1.55;
+  max-width: 620px;
+  margin: 0 0 14px;
+}
+
+html[data-app-mode="landing"] .seo-calc-line {
+  color: var(--ui-text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 0 26px;
+}
+
+.seo-cta-row { margin: 0 0 34px; }
+
+/* CTA reuses the shared .btn .btn--primary classes (rounded --ui-radius-lg,
+   --color-primary green) — no custom button styling, per Quiet design. The
+   .seo-cta hook only centers it within the panel's flow. */
+a.seo-cta { text-decoration: none !important; }
+
+/* Market chips — Quiet card spec: --ui-radius-md, muted surface, hairline
+   border, accent hover. Text-only (hero's runtime Google-favicon icons
+   aren't available to static crawler HTML). */
+.seo-market-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 720px;
+}
+.seo-market-links li { margin: 0; padding: 0; }
+/* Matches the hero's .landing-sub-chip spec (Netflix/Spotify chips): sharp
+   corners, muted surface, favicon icon, teal hover lift. */
+.seo-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+  padding: 7px 12px;
+  font-size: 0.82rem;
   font-weight: 600;
-  font-size: 0.85rem;
-}
-
-.seo-content td {
+  font-family: var(--font-family-base);
+  background: var(--ui-surface-muted, #142018);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
   color: var(--ui-text);
-  font-variant-numeric: tabular-nums;
+  border-radius: 0;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.seo-chip:hover {
+  border-color: var(--color-primary, var(--ui-accent));
+  color: var(--color-primary, var(--ui-accent));
+  background: rgba(var(--color-teal-500-rgb, 124, 201, 160), 0.10);
+  transform: translateY(-2px);
+}
+.seo-chip:active { transform: translateY(0); }
+.seo-chip:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+.seo-chip-icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
-/* Reduced motion support */
+/* Quiet trust + risk lines — present for crawlers, visually subordinate. */
+html[data-app-mode="landing"] .seo-rails {
+  color: var(--ui-text-muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+  max-width: 600px;
+  margin: 0 0 10px;
+}
+.seo-risk {
+  color: var(--ui-text-muted);
+  font-size: 0.80rem;
+  line-height: 1.5;
+  max-width: 620px;
+  border-top: 1px solid var(--ui-border);
+  padding-top: 16px;
+  margin: 8px auto 0;
+}
+html[data-app-mode="landing"] .seo-guide-row { margin: 14px 0 0; font-size: 0.9rem; }
+
+/* Footer links folded into the panel base (crawler reach) — the fixed
+   .app-footer is the visible chrome; this is the panel's own quiet nav. */
+.seo-footer-nav {
+  margin-top: 30px;
+  padding-top: 18px;
+  border-top: 1px solid var(--ui-border);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.84rem;
+  color: var(--ui-text-muted);
+  width: 100%;
+  max-width: 620px;
+}
+.seo-footer-nav a { color: var(--ui-text-secondary); text-decoration: none; }
+.seo-footer-nav a:hover { color: var(--ui-accent); text-decoration: underline; }
+.seo-footer-nav a + a::before { content: "·"; margin-right: 8px; color: var(--ui-text-muted); }
+
+/* plan.html keeps the quiet document column (no fixed chrome, no swap). */
+html:not([data-app-mode="landing"]) .seo-footer-nav { display: none; }
+
+/* Reduced motion: no snap, no transitions. */
 @media (prefers-reduced-motion: reduce) {
-  .seo-cta,
-  .seo-market-links a {
-    transition: none;
-  }
-  .seo-cta:active,
-  .seo-market-links a:active {
-    transform: none;
-  }
+  html[data-app-mode="landing"] body { scroll-snap-type: none; }
+  .seo-chip { transition: none; }
 }
 
 /* Mode-conditional visibility (255) — mirrors the critical CSS in home.html */
 html[data-app-mode="analytics"] .seo-content,
 html[data-app-mode="planner"] .seo-content {
   display: none;
-}
-
-html[data-app-mode="landing"] #landing-root:empty {
-  min-height: 70vh;
 }
 
 /* Reset Filters Button - recovery action (empty state).
