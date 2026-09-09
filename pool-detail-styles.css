@@ -3764,3 +3764,349 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
 .mode-toggle-link:hover {
   color: var(--ui-accent, #7CC9A0);
 }
+
+/* ==========================================================================
+   SOTA Store Checkout Card (Fintech / E-Commerce Standard)
+   ========================================================================== */
+
+.store-checkout-card {
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-lg, 12px) !important;
+  padding: 24px;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.checkout-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.checkout-item-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.checkout-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ui-accent);
+}
+
+.checkout-security-tag {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ui-text-secondary);
+  border: 1px solid var(--ui-border);
+  border-radius: 3px !important;
+  padding: 1px 6px;
+}
+
+.checkout-product-title {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.checkout-product-desc {
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.82rem;
+  color: var(--ui-text-secondary);
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Receipt Breakdown */
+.checkout-receipt {
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md, 8px) !important;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.receipt-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.84rem;
+}
+
+.receipt-label {
+  color: var(--ui-text);
+  font-weight: 500;
+}
+
+.receipt-row-muted .receipt-label {
+  color: var(--ui-text-secondary);
+  font-size: 0.78rem;
+}
+
+.receipt-value {
+  font-weight: 600;
+  color: var(--ui-text);
+  font-family: var(--font-family-mono, monospace);
+}
+
+.receipt-value.free {
+  color: var(--ui-accent);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Amount Selector Toggle inside Receipt */
+.receipt-amount-toggle {
+  display: flex;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 2px;
+  gap: 2px;
+}
+
+.amount-btn {
+  background: transparent;
+  border: none;
+  border-radius: 4px !important;
+  padding: 4px 10px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ui-text-secondary);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.amount-btn .amt-tag {
+  font-size: 0.62rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.amount-btn:hover {
+  color: var(--ui-text);
+}
+
+.amount-btn.is-selected {
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent);
+  border: 1px solid var(--ui-accent);
+}
+
+.receipt-divider {
+  height: 1px;
+  background: var(--ui-border);
+  margin: 2px 0;
+}
+
+.receipt-total-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.total-label-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.01em;
+}
+
+.total-caption {
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary);
+}
+
+.total-price-col {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.total-price-val {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.02em;
+}
+
+.total-price-currency {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--ui-accent);
+}
+
+/* Pay CTA Button */
+.checkout-pay-btn {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.96rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+html[data-theme="dark"] .checkout-pay-btn,
+[data-theme="dark"] .checkout-pay-btn {
+  background: #7CC9A0 !important;
+  color: #08140F !important;
+  box-shadow: 0 4px 14px rgba(124, 201, 160, 0.28);
+}
+
+html[data-theme="dark"] .checkout-pay-btn:hover,
+[data-theme="dark"] .checkout-pay-btn:hover {
+  background: #93D6B2 !important;
+  color: #08140F !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(124, 201, 160, 0.45);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn {
+  background: #1E5C3F !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(30, 92, 63, 0.25);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn:hover {
+  background: #174A32 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(30, 92, 63, 0.4);
+}
+
+.checkout-pay-btn:active {
+  transform: translateY(1px) !important;
+  box-shadow: none !important;
+}
+
+/* Trust Line */
+.checkout-trust-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: var(--ui-text-secondary);
+}
+
+.trust-sep {
+  opacity: 0.4;
+}
+
+/* Secondary Actions */
+.checkout-secondary-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.link-btn:hover {
+  color: var(--ui-text);
+}
+
+.link-btn.link-muted {
+  font-size: 0.68rem;
+  opacity: 0.6;
+}
+
+/* Progress Spinner inside Checkout */
+.checkout-progress-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(124, 201, 160, 0.2);
+  border-top-color: var(--ui-accent);
+  border-radius: 50% !important;
+  animation: spin 0.8s linear infinite;
+  margin: 12px auto;
+}
+
+.checkout-progress-status {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+.checkout-progress-sub {
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-align: center;
+}
+
+/* Error Banner */
+.checkout-error-banner {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.error-text {
+  font-size: 0.78rem;
+  color: #f87171;
+}
+
+.error-retry-btn {
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px !important;
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  cursor: pointer;
+}
