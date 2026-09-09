@@ -375,6 +375,21 @@
     <div id="planner-root"></div>
     <div id="landing-root"></div>
 
+    <!-- SEO surface hub links (045) — server-rendered, present in the raw
+         HTML in BOTH router modes so crawlers reach /tokens and /chains
+         without executing the app. Static, outside #root/#planner-root:
+         the IA router and the mounted React apps never touch this. -->
+    <footer class="seo-hub-links">
+      <a href="/tokens">Browse tokens</a>
+      <a href="/chains">Browse chains</a>
+      <a href="/agents">AI Agents & MCP</a>
+    </footer>
+
+    <!-- Permanent SEO content (fintech-seo v2) — "screen 2" of the landing:
+         visible to crawlers AND users (never hidden on the landing route —
+         hidden content would be soft-cloaking), one scroll below the hero.
+         Hidden entirely in analytics/planner modes via the critical inline
+         style above. landing.js localizes the ids for ?lang=ko post-mount. -->
     <section class="seo-content" id="seo-content">
       <h1 id="seo-h1">DeFi Savings &amp; Yield Discovery — Live On-Chain Rates</h1>
       <p class="seo-lede" id="seo-lede">Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.</p>
@@ -399,16 +414,6 @@
       <p class="seo-risk" id="seo-risk">Notice: Cryptocurrency and DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government agency. Yields fluctuate continuously. Smart contract, protocol, depeg, and liquidation risks apply.</p>
       <p><a href="/guide/defi-yield-rates-explained" id="seo-guide-link">How DeFi yield works →</a></p>
     </section>
-
-    <!-- SEO surface hub links (045) — server-rendered, present in the raw
-         HTML in BOTH router modes so crawlers reach /tokens and /chains
-         without executing the app. Static, outside #root/#planner-root:
-         the IA router and the mounted React apps never touch this. -->
-    <footer class="seo-hub-links">
-      <a href="/tokens">Browse tokens</a>
-      <a href="/chains">Browse chains</a>
-      <a href="/agents">AI Agents & MCP</a>
-    </footer>
 
     <!-- Analytics-app scripts — injected only when needed, as the CI-compiled
          AND minified output (compile-app.js + minify-assets.js / npm run

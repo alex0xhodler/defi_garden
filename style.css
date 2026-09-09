@@ -4152,14 +4152,28 @@ html[data-app-mode="landing"] .seo-hub-links {
 
 /* ═══ PERMANENT SEO CONTENT (255, fintech-seo v2) ══════════════════════════
    Shared across home.html and plan.html. Static indexable content below the
-   mounted app. Tokens only (--ui-*), hairline borders, no box-shadows except
-   focus rings. Preserves CLS and ensures crawlers and users see identical
-   content without soft-cloaking. */
+   mounted app — "screen 2" of the landing: separated from the hero by a
+   surface step + hairline rule, visible to crawlers AND users (hidden
+   content would be soft-cloaking). Tokens only (--ui-*), hairline borders,
+   no box-shadows except focus rings. */
 .seo-content {
   max-width: 860px;
   margin: 0 auto;
-  padding: 32px 20px;
+  padding: 56px 20px 48px;
   color: var(--ui-text);
+}
+
+/* Screen-2 separation on the landing: a background step + top hairline,
+   mirroring how the certificate/pool surfaces step down from the page bg. */
+html[data-app-mode="landing"] .seo-content {
+  max-width: none;
+  border-top: 1px solid var(--ui-border);
+  background: var(--ui-surface);
+}
+html[data-app-mode="landing"] .seo-content > * {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seo-content h1 {
@@ -4188,12 +4202,14 @@ html[data-app-mode="landing"] .seo-hub-links {
   font-size: 0.95rem;
 }
 
-.seo-content a {
+/* Plain inline links only — never the CTA/pills, whose own rules set
+   colors and would otherwise lose the cascade to this later rule. */
+.seo-content a:not(.seo-cta):not(.seo-market-links a) {
   color: var(--ui-accent);
   text-decoration: none;
 }
 
-.seo-content a:hover {
+.seo-content a:not(.seo-cta):not(.seo-market-links a):hover {
   text-decoration: underline;
 }
 
@@ -4203,31 +4219,46 @@ html[data-app-mode="landing"] .seo-hub-links {
   line-height: 1.6;
 }
 
-/* Primary-button pattern (247 / 225) */
+/* Primary-button pattern — mirrors landing-styles.css .landing-garden-link
+   exactly (green accent, dark-ink text, same border/hover/active) so the
+   calculator CTA reads as the same brand action as the hero's. */
 .seo-cta {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--ui-accent);
-  color: var(--ui-on-accent) !important;
-  padding: 10px 20px;
+  background: var(--ui-accent, #7CC9A0);
+  color: #08140f !important;
+  padding: 12px 22px;
   border-radius: var(--ui-radius-md);
   font-weight: 600;
   font-size: 0.95rem;
-  text-decoration: none !important;
-  border: 1px solid var(--ui-accent-active);
+  text-decoration: none;
+  border: 1px solid var(--ui-accent, #7CC9A0);
   transition: background 0.15s ease, transform 0.1s ease;
 }
 
 .seo-cta:hover {
-  background: var(--ui-accent-hover);
-  color: var(--ui-on-accent) !important;
+  background: var(--ui-accent-hover, #8fd4ae);
+  color: #08140f !important;
   text-decoration: none !important;
 }
 
 .seo-cta:active {
-  background: var(--ui-accent-active);
   transform: translateY(1px);
+}
+
+/* Light mode: same override the landing CTA uses — dark-ink text is
+   unreadable on the light-theme accent (#1E5C3F). */
+[data-theme="light"] .seo-cta {
+  background: #2d8a5e;
+  color: #ffffff !important;
+  border-color: #2d8a5e;
+}
+
+[data-theme="light"] .seo-cta:hover {
+  background: #236c49;
+  border-color: #236c49;
+  color: #ffffff !important;
 }
 
 .seo-cta:focus-visible {
