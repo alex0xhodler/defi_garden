@@ -1974,8 +1974,8 @@ function generateHtml(sub) {
                 <span class="receipt-value free">Free</span>
               </div>
               <div class="receipt-row receipt-row-muted">
-                <span class="receipt-label">Network gas (Base)</span>
-                <span class="receipt-value free">Sponsored</span>
+                <span class="receipt-label">Partner referral perks</span>
+                <span class="receipt-value free">Applied</span>
               </div>
               <div class="receipt-divider"></div>
               <div class="receipt-total-row">
@@ -1994,13 +1994,6 @@ function generateHtml(sub) {
             <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="checkout-pay-btn" id="laso-issue-btn" style="text-decoration:none; display:flex; align-items:center; justify-content:center;">
               Pay $${sub.taxBufferMonthlyUsd.toFixed(2)} USDC on Laso →
             </a>
-
-            <!-- Encouraging Partner Redirection Banner -->
-            <div class="laso-redirect-status" id="laso-redirect-status" style="display:none; margin:14px 0; padding:14px 16px; background:rgba(124, 201, 160, 0.08); border:1px solid var(--ui-accent); text-align:center;">
-              <span style="display:block; font-size:0.88rem; font-weight:600; color:var(--ui-text); margin-bottom:4px;">🚀 Opening Laso.finance with Partner Perks applied!</span>
-              <span style="display:block; font-size:0.80rem; color:var(--ui-text-secondary); margin-bottom:10px;">Complete your quick 30-second setup on Laso to fund your virtual Visa card.</span>
-              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="link-btn" style="font-size:0.84rem; color:var(--ui-accent); font-weight:700; text-decoration:underline;">Continue to Laso.finance ↗</a>
-            </div>
 
             <div class="checkout-switch-pool-row">
               <a class="switch-pool-link" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">Want to choose your own vault? Explore &amp; switch pools →</a>
@@ -2462,28 +2455,6 @@ function generateHtml(sub) {
       // Laso.finance Virtual Visa Card Terminal Logic
       var lasoToggleBtn = document.getElementById('laso-toggle-btn');
       var lasoTerminal = document.getElementById('laso-terminal');
-      var lasoIdleView = document.getElementById('laso-idle-view');
-      var lasoProgressView = document.getElementById('laso-progress-view');
-      var lasoCardView = document.getElementById('laso-card-view');
-      var lasoIssueBtn = document.getElementById('laso-issue-btn');
-      var lasoMsgText = document.getElementById('laso-msg-text');
-      var lasoPanText = document.getElementById('laso-pan-text');
-      var lasoPanToggleBtn = document.getElementById('laso-pan-toggle-btn');
-      var lasoPanCopyBtn = document.getElementById('laso-pan-copy-btn');
-      var lasoExpText = document.getElementById('laso-exp-text');
-      var lasoCvvText = document.getElementById('laso-cvv-text');
-      var lasoCvvToggleBtn = document.getElementById('laso-cvv-toggle-btn');
-      var lasoCvvCopyBtn = document.getElementById('laso-cvv-copy-btn');
-      var lasoAddrCopyBtn = document.getElementById('laso-addr-copy-btn');
-      var lasoMerchantForm = document.getElementById('laso-merchant-form');
-      var lasoMerchantInput = document.getElementById('laso-merchant-input');
-      var lasoMerchantBtn = document.getElementById('laso-merchant-btn');
-      var lasoMerchantBadge = document.getElementById('laso-merchant-badge');
-      var lasoResetBtn = document.getElementById('laso-reset-btn');
-
-      var currentLasoCard = null;
-      var isPanRevealed = false;
-      var isCvvRevealed = false;
       var serviceAmount = ${sub.taxBufferMonthlyUsd.toFixed(2)};
       var checkoutTotalVal = document.getElementById('checkout-total-val');
       var lasoIssueBtn = document.getElementById('laso-issue-btn');
@@ -2503,10 +2474,8 @@ function generateHtml(sub) {
 
       if (lasoIssueBtn) {
         lasoIssueBtn.addEventListener('click', function() {
-          var redirectStatus = document.getElementById('laso-redirect-status');
-          if (redirectStatus) {
-            redirectStatus.style.display = 'block';
-          }
+          lasoIssueBtn.textContent = 'Opening Laso with Referral applied… ↗';
+          setTimeout(updateCtaText, 3000);
         });
       }
 
