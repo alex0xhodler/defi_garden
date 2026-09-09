@@ -59,6 +59,7 @@
 
   <style>
     *, *::before, *::after {
+      border-radius: 0 !important;
       box-sizing: border-box;
     }
     body, .landing-app {
@@ -88,7 +89,6 @@
       padding: 6px 14px;
       background: var(--ui-surface);
       border: 1px solid var(--ui-border-strong);
-      border-radius: var(--ui-radius-pill, 999px);
       color: var(--ui-accent);
       font-family: var(--font-family-mono, monospace);
       font-size: clamp(0.66rem, 2.5vw, 0.74rem);
@@ -131,7 +131,6 @@
     .panel-ledger {
       background: var(--ui-surface);
       border: 1px solid var(--ui-border-strong);
-      border-radius: var(--ui-radius-lg, 16px);
       padding: 24px;
       box-sizing: border-box;
       display: flex;
@@ -163,7 +162,6 @@
       padding: 3px 8px;
       background: var(--ui-surface-muted);
       border: 1px solid var(--ui-border-strong);
-      border-radius: var(--ui-radius-pill, 999px);
       color: var(--ui-text-secondary);
       letter-spacing: 0.06em;
     }
@@ -179,7 +177,7 @@
       margin: 0 auto 12px;
       cursor: pointer;
       text-align: center;
-      border-radius: var(--ui-radius-pill, 999px);
+      border-radius: 4px !important;
       transition: all 0.15s ease;
     }
     .card-tap-hint:hover {
@@ -194,7 +192,6 @@
       background: radial-gradient(circle at 20% 15%, rgba(124, 201, 160, 0.14) 0%, transparent 55%),
                   linear-gradient(135deg, #091712 0%, #132a1f 52%, #08140f 100%);
       border: 1px solid rgba(255, 255, 255, 0.18);
-      border-radius: var(--ui-radius-lg, 16px);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 14px 34px rgba(0, 0, 0, 0.45);
       color: #ffffff;
       display: flex;
@@ -272,7 +269,6 @@
       font-weight: 700;
       background: rgba(0, 0, 0, 0.65);
       border: 1px solid rgba(255, 255, 255, 0.24);
-      border-radius: var(--ui-radius-pill, 999px);
       padding: 4px 10px;
       color: #34d399;
       white-space: nowrap;
@@ -306,57 +302,44 @@
     }
     .reserve-submit-btn,
     .portal-cta-button {
-      position: relative;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
       width: 100%;
-      height: var(--ui-control-h-lg, 48px);
+      height: 48px;
       min-height: 48px;
-      padding: 0 24px;
-      background: var(--ui-accent) !important;
-      color: var(--ui-on-accent) !important;
-      border: 1px solid var(--ui-accent-active) !important;
-      border-radius: var(--ui-radius-md, 12px) !important;
+      padding: 0 20px;
+      background: var(--ui-accent, #7CC9A0) !important;
+      color: #08140f !important;
+      border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      border-radius: 0 !important;
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-      font-weight: 600 !important;
+      font-weight: 700 !important;
       font-size: 0.94rem;
-      letter-spacing: 0.015em;
       text-decoration: none;
       box-sizing: border-box;
       cursor: pointer;
-      box-shadow: none !important;
-      transition: background 0.2s ease, transform 0.15s ease;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
     }
-    .reserve-submit-btn::after,
-    .portal-cta-button::after {
-      content: '';
-      position: absolute;
-      inset: 4px;
-      border: 1px solid var(--ui-on-accent);
-      border-radius: calc(var(--ui-radius-md, 12px) - 3px);
-      opacity: 0.25;
-      pointer-events: none;
+    .reserve-submit-btn:hover,
+    .portal-cta-button:hover {
+      background: var(--ui-accent-hover, #93D6B2) !important;
+      color: #08140f !important;
+      border-color: var(--ui-accent-hover, #93D6B2) !important;
+      transform: translateY(-1px);
     }
-    .reserve-submit-btn:hover:not(:disabled),
-    .portal-cta-button:hover:not(:disabled) {
-      background: var(--ui-accent-hover) !important;
-      color: var(--ui-on-accent) !important;
-      transform: none !important;
-    }
-    .reserve-submit-btn:active:not(:disabled),
-    .portal-cta-button:active:not(:disabled) {
-      background: var(--ui-accent-active) !important;
-      color: var(--ui-on-accent) !important;
-      transform: translateY(1px) !important;
+    .reserve-submit-btn:active,
+    .portal-cta-button:active {
+      background: var(--ui-accent-active, #66B78D) !important;
+      color: #08140f !important;
+      transform: translateY(1px);
     }
     .yield-card-reservation,
     .yield-card-receipt {
       width: 100%;
       background: var(--ui-surface-muted, #16211A);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
-      border-radius: var(--ui-radius-lg, 16px);
       padding: 20px 22px;
       display: flex;
       flex-direction: column;
@@ -411,7 +394,6 @@
       box-sizing: border-box;
       padding: 0 12px 0 38px;
       border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
-      border-radius: var(--ui-radius-md, 12px);
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
       font-size: 0.90rem;
       background: var(--ui-surface, #0E1611);
@@ -453,7 +435,6 @@
       font-weight: 700;
       background: var(--ui-accent, #7CC9A0);
       color: #08140f;
-      border-radius: var(--ui-radius-pill, 999px);
       padding: 4px 10px;
       letter-spacing: 0.04em;
     }
@@ -464,7 +445,6 @@
       background: rgba(124, 201, 160, 0.12);
       color: var(--ui-accent, #7CC9A0);
       border: 1px solid rgba(124, 201, 160, 0.25);
-      border-radius: var(--ui-radius-pill, 999px);
       padding: 4px 10px;
       letter-spacing: 0.02em;
     }
@@ -480,7 +460,6 @@
       padding: 6px 14px;
       background: var(--ui-surface, #0E1611);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
-      border-radius: var(--ui-radius-pill, 999px);
       font-family: var(--font-family-mono, monospace);
       font-size: 0.82rem;
       font-weight: 600;
@@ -496,7 +475,7 @@
       width: 100%;
       background: var(--ui-surface, #0E1611);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
-      border-radius: var(--ui-radius-md, 12px);
+      border-radius: 0 !important;
       padding: 14px 16px;
       margin-bottom: 16px;
       text-align: left;
@@ -530,7 +509,7 @@
       height: 6px;
       background: var(--ui-surface-muted, #16211A);
       border: 1px solid var(--ui-border, rgba(255,255,255,0.12));
-      border-radius: var(--ui-radius-pill, 999px);
+      border-radius: 0 !important;
       margin-bottom: 8px;
       overflow: hidden;
     }
@@ -556,7 +535,7 @@
       background: var(--ui-accent, #7CC9A0) !important;
       color: #08140f !important;
       border: 1px solid var(--ui-accent, #7CC9A0) !important;
-      border-radius: var(--ui-radius-md, 12px) !important;
+      border-radius: 0 !important;
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
       font-size: 0.86rem;
       font-weight: 700;
@@ -599,7 +578,7 @@
       background: #000000;
       color: #ffffff;
       border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: var(--ui-radius-md, 12px) !important;
+      border-radius: 0 !important;
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
       font-size: 0.82rem;
       font-weight: 600;
@@ -628,7 +607,7 @@
       border: 1px solid var(--ui-border-strong, rgba(255,255,255,0.2));
       background: var(--ui-surface-muted, #16211A);
       color: var(--ui-text, #FFFFFF);
-      border-radius: var(--ui-radius-md, 12px) !important;
+      border-radius: 0 !important;
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
       font-size: 0.82rem;
       font-weight: 600;
@@ -682,7 +661,7 @@
       color: var(--ui-accent, #7CC9A0);
       background: rgba(124, 201, 160, 0.08);
       border: 1px solid rgba(124, 201, 160, 0.25);
-      border-radius: var(--ui-radius-md, 12px);
+      border-radius: 0 !important;
       text-decoration: none;
       transition: all 0.15s ease;
     }
@@ -710,7 +689,6 @@
     .step-card {
       background: var(--ui-surface-muted);
       border: 1px solid var(--ui-border);
-      border-radius: var(--ui-radius-lg, 16px);
       padding: 18px 20px;
       display: flex;
       gap: 16px;
@@ -723,7 +701,6 @@
       padding: 4px 9px;
       background: var(--ui-surface);
       border: 1px solid var(--ui-border-strong);
-      border-radius: var(--ui-radius-sm, 8px);
       color: var(--ui-accent);
       flex-shrink: 0;
     }
@@ -750,14 +727,12 @@
       color: var(--ui-text-muted);
       background: var(--ui-surface);
       border: 1px solid var(--ui-border);
-      border-radius: var(--ui-radius-pill, 999px);
-      padding: 3px 8px;
+      padding: 2px 6px;
     }
     .trust-guarantee-box {
       margin-top: 20px;
       background: var(--ui-surface-muted);
       border: 1px solid var(--ui-border);
-      border-radius: var(--ui-radius-md, 12px);
       padding: 14px 18px;
       display: flex;
       align-items: center;
@@ -884,11 +859,11 @@
       height: 46px;
       min-height: 46px;
       padding: 0 20px;
-      background: var(--ui-accent) !important;
-      color: var(--ui-on-accent) !important;
-      border: 1px solid var(--ui-accent-active) !important;
-      border-radius: var(--ui-radius-md, 12px) !important;
-      font-weight: 600 !important;
+      background: var(--ui-accent, #7CC9A0) !important;
+      color: #08140f !important;
+      border: 1px solid var(--ui-accent, #7CC9A0) !important;
+      border-radius: 0 !important;
+      font-weight: 700 !important;
       font-size: 0.92rem;
       cursor: pointer;
       flex-shrink: 0;
@@ -897,17 +872,16 @@
       align-items: center;
       justify-content: center;
       text-decoration: none;
-      box-shadow: none !important;
-      transition: background 0.15s ease, transform 0.15s ease;
+      box-shadow: 0 4px 14px rgba(124, 201, 160, 0.32);
+      transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
     }
     .sticky-bar-btn:hover {
-      background: var(--ui-accent-hover) !important;
-      color: var(--ui-on-accent) !important;
-      transform: none !important;
+      background: var(--ui-accent-hover, #93D6B2) !important;
+      color: #08140f !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(124, 201, 160, 0.42);
     }
     .sticky-bar-btn:active {
-      background: var(--ui-accent-active) !important;
-      color: var(--ui-on-accent) !important;
       transform: translateY(1px);
     }
 
