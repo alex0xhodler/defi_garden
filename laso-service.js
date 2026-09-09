@@ -469,10 +469,22 @@
     }).then(function (res) {
       if (!res.ok) {
         return res.json().catch(function () { return {}; }).then(function (err) {
-          throw new Error(err.message || err.error || ('Card issuance failed with HTTP ' + res.status));
+          var e = new Error(err.errorMessage || err.message || err.error || ('Card issuance failed with HTTP ' + res.status));
+          e.lasoGuidance = err.x_laso_guidance || null;
+          e.lasoReason = err.errorReason || null;
+          throw e;
         });
       }
-      return res.json();
+      return res.json().then(function (body) {
+        // Laso can return 200 with success:false (e.g. settlement_failed)
+        if (body && body.success === false) {
+          var e2 = new Error(body.errorMessage || body.message || 'Card issuance failed');
+          e2.lasoGuidance = body.x_laso_guidance || null;
+          e2.lasoReason = body.errorReason || null;
+          throw e2;
+        }
+        return body;
+      });
     });
   }
 
@@ -895,6 +907,7 @@
     var userAccount = null;
     var idToken = null;
     var pendingCardId = null;
+    var userBalance = 0;
 
     return connectEthereumWallet()
       .then(function (account) {
@@ -917,6 +930,7 @@
         return checkBaseUsdcBalance(userAccount);
       })
       .then(function (balance) {
+        userBalance = balance;
         if (balance < amount) {
           throw new Error('Insufficient USDC on Base. Required: $' + amount.toFixed(2) + ', Available: $' + balance.toFixed(2) + '. Please top up your wallet with USDC on Base.');
         }
@@ -934,11 +948,22 @@
           throw new Error('Expected 402 challenge, received status ' + challengeRes.status);
         }
 
+        // Laso fees are charged ON TOP of the requested amount: the 402
+        // challenge carries the full total (atomic units). Sign THAT, not the
+        // bare requested amount, or settlement fails after the transfer.
+        var settleAmount = (typeof challengeRes.amount === 'number' && challengeRes.amount > 0)
+          ? challengeRes.amount
+          : amount;
+
+        if (settleAmount > userBalance) {
+          throw new Error('Insufficient USDC on Base for the full charge. Total including Laso fees: $' + settleAmount.toFixed(2) + ', Available: $' + userBalance.toFixed(2) + '. Top up and retry — nothing was charged.');
+        }
+
         var payTo = challengeRes.recipient || challengeRes.payTo || '0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37';
         var typedData = buildEip712TransferWithAuthorization({
           from: userAccount,
           to: payTo,
-          amount: amount
+          amount: settleAmount
         });
 
         onProgress({

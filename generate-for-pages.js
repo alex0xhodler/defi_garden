@@ -666,6 +666,13 @@ function generateHtml(sub) {
     .error-retry-btn {
       border-radius: 0 !important;
     }
+    .error-guidance {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.78rem;
+      line-height: 1.5;
+      color: var(--ui-text-secondary, rgba(255,255,255,0.65));
+      margin-top: 2px;
+    }
     .metric-label {
       color: var(--ui-text-secondary);
       flex-shrink: 1;
@@ -2009,6 +2016,7 @@ function generateHtml(sub) {
           <!-- Error View -->
           <div class="checkout-error-banner" id="laso-error-view" style="display:none;">
             <span class="error-text" id="laso-error-msg">Payment failed</span>
+            <span class="error-guidance" id="laso-error-guidance" style="display:none;"></span>
             <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
           </div>
 
@@ -2655,13 +2663,22 @@ function generateHtml(sub) {
         if (lasoMsgText) lasoMsgText.textContent = msg;
       }
 
-      function showError(msg) {
+      function showError(msg, guidance) {
         if (lasoProgressView) lasoProgressView.style.display = 'none';
         if (panelInstant) panelInstant.style.display = 'block';
         if (lasoCardView) lasoCardView.style.display = 'none';
         if (lasoErrorView) {
           lasoErrorView.style.display = 'flex';
           if (lasoErrorMsg) lasoErrorMsg.textContent = msg;
+          var g = document.getElementById('laso-error-guidance');
+          if (g) {
+            if (guidance) {
+              g.textContent = guidance;
+              g.style.display = 'block';
+            } else {
+              g.style.display = 'none';
+            }
+          }
         }
       }
 
@@ -2717,7 +2734,7 @@ function generateHtml(sub) {
               }).then(function(card) {
                 showCard(card);
               }).catch(function(err) {
-                showError(err.message || 'Live issuance failed');
+                showError(err.message || 'Live issuance failed', err.lasoGuidance || null);
               });
             } else {
               showError('Laso Service unavailable in browser');
