@@ -4248,10 +4248,10 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
    ========================================================================== */
 
 .store-checkout-card {
-  background: var(--ui-surface);
-  border: 1px solid var(--ui-border-strong);
-  border-radius: var(--ui-radius-lg, 12px) !important;
-  padding: 24px;
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg, 16px) !important;
+  padding: 20px;
   max-width: 480px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -4259,6 +4259,7 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
   flex-direction: column;
   gap: 16px;
   position: relative;
+  box-shadow: none !important;
 }
 
 .checkout-header {
@@ -4290,13 +4291,14 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
   letter-spacing: 0.08em;
   color: var(--ui-text-secondary);
   border: 1px solid var(--ui-border);
-  border-radius: 3px !important;
-  padding: 1px 6px;
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  padding: 2px 8px;
+  background: var(--ui-surface-sunken);
 }
 
 .checkout-product-title {
   font-family: var(--font-family-display, 'Besley', Georgia, serif);
-  font-size: 1.35rem;
+  font-size: 1.30rem;
   font-weight: 600;
   color: var(--ui-text);
   margin: 0;
@@ -4304,7 +4306,7 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
 }
 
 .checkout-product-desc {
-  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.82rem;
   color: var(--ui-text-secondary);
   margin: 0;
@@ -4313,13 +4315,14 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
 
 /* Receipt Breakdown */
 .checkout-receipt {
-  background: var(--ui-surface-sunken);
+  background: var(--ui-surface);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-md, 8px) !important;
-  padding: 16px;
+  border-radius: var(--ui-radius-md, 12px) !important;
+  padding: 14px 18px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  box-shadow: none !important;
 }
 
 .receipt-row {
@@ -4355,24 +4358,24 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
 /* Amount Selector Toggle inside Receipt */
 .receipt-amount-toggle {
   display: flex;
-  background: var(--ui-surface);
+  background: var(--ui-surface-muted);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-sm, 6px) !important;
-  padding: 2px;
-  gap: 2px;
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  padding: 3px;
+  gap: 3px;
 }
 
 .amount-btn {
   background: transparent;
-  border: none;
-  border-radius: 4px !important;
+  border: 1px solid transparent;
+  border-radius: var(--ui-radius-pill, 999px) !important;
   padding: 4px 10px;
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 600;
   color: var(--ui-text-secondary);
   cursor: pointer;
-  transition: all 0.12s ease;
+  transition: all 0.15s ease;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -4391,7 +4394,7 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
 .amount-btn.is-selected {
   background: var(--ui-accent-soft);
   color: var(--ui-accent);
-  border: 1px solid var(--ui-accent);
+  border: 1px solid var(--ui-accent-border, var(--ui-accent));
 }
 
 .receipt-divider {
@@ -4445,54 +4448,50 @@ html:not([data-theme="dark"]) .conversion-primary-cta:hover {
   color: var(--ui-accent);
 }
 
-/* Pay CTA Button */
+/* Pay CTA Button (On-Brand Quiet Certificate Skin) */
 .checkout-pay-btn {
+  position: relative;
   width: 100%;
-  padding: 14px 20px;
-  border: none;
-  border-radius: var(--ui-radius-sm, 6px) !important;
-  font-family: var(--font-family-base, 'Public Sans', sans-serif);
-  font-size: 0.96rem;
-  font-weight: 700;
+  height: var(--ui-control-h-lg, 48px);
+  padding: 0 24px;
+  border: 1px solid var(--ui-accent-active) !important;
+  border-radius: var(--ui-radius-md, 12px) !important;
+  background: var(--ui-accent) !important;
+  color: var(--ui-on-accent) !important;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-size: 0.94rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
-}
-
-html[data-theme="dark"] .checkout-pay-btn,
-[data-theme="dark"] .checkout-pay-btn {
-  background: #7CC9A0 !important;
-  color: #08140F !important;
-  box-shadow: 0 4px 14px rgba(124, 201, 160, 0.28);
-}
-
-html[data-theme="dark"] .checkout-pay-btn:hover,
-[data-theme="dark"] .checkout-pay-btn:hover {
-  background: #93D6B2 !important;
-  color: #08140F !important;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(124, 201, 160, 0.45);
-}
-
-html:not([data-theme="dark"]) .checkout-pay-btn {
-  background: #1E5C3F !important;
-  color: #FFFFFF !important;
-  box-shadow: 0 4px 14px rgba(30, 92, 63, 0.25);
-}
-
-html:not([data-theme="dark"]) .checkout-pay-btn:hover {
-  background: #174A32 !important;
-  color: #FFFFFF !important;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(30, 92, 63, 0.4);
-}
-
-.checkout-pay-btn:active {
-  transform: translateY(1px) !important;
   box-shadow: none !important;
+  transition: background 0.2s ease, transform 0.15s ease;
+  box-sizing: border-box;
+}
+
+.checkout-pay-btn::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: calc(var(--ui-radius-md, 12px) - 3px);
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.checkout-pay-btn:hover:not(:disabled) {
+  background: var(--ui-accent-hover) !important;
+  color: var(--ui-on-accent) !important;
+  transform: none !important;
+}
+
+.checkout-pay-btn:active:not(:disabled) {
+  background: var(--ui-accent-active) !important;
+  color: var(--ui-on-accent) !important;
+  transform: translateY(1px) !important;
 }
 
 /* Trust Line */
