@@ -473,6 +473,9 @@ function generateHtml(sub) {
       border-radius: 0 !important;
       box-sizing: border-box;
     }
+    .store-checkout-card, .checkout-receipt, .checkout-pay-btn, .checkout-security-tag, .receipt-amount-toggle, .amount-btn {
+      border-radius: 0 !important;
+    }
     body, .landing-app {
       overflow-x: hidden;
       width: 100%;
@@ -533,13 +536,17 @@ function generateHtml(sub) {
     .portal-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "hero buybox"
+        "panel buybox";
       gap: 28px;
       margin-bottom: 36px;
-      align-items: stretch;
+      align-items: start;
       width: 100%;
       box-sizing: border-box;
     }
     .panel-ledger {
+      grid-area: panel;
       background: var(--ui-surface);
       border: 1px solid var(--ui-border-strong);
       padding: 24px;
@@ -547,6 +554,13 @@ function generateHtml(sub) {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+    }
+    .panel-ledger .metric-table {
+      margin-top: 0;
+      border-top: none;
+    }
+    .store-checkout-card {
+      grid-area: buybox;
     }
     .panel-header {
       display: flex;
@@ -588,7 +602,6 @@ function generateHtml(sub) {
       margin: 0 auto 12px;
       cursor: pointer;
       text-align: center;
-      border-radius: 4px !important;
       transition: all 0.15s ease;
     }
     .card-tap-hint:hover {
@@ -596,6 +609,7 @@ function generateHtml(sub) {
       border-color: var(--ui-accent, #7CC9A0);
     }
     .virtual-visa-card {
+      grid-area: hero;
       width: 100%;
       max-width: 440px;
       aspect-ratio: 1.586 / 1;
@@ -1091,11 +1105,94 @@ function generateHtml(sub) {
       background: rgba(45, 138, 94, 0.14);
       color: #111827;
     }
-    .steps-container {
+    .how-it-works-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .amount-radio-group {
       display: flex;
       flex-direction: column;
-      gap: 16px;
-      flex-grow: 1;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .amount-radio-group[hidden] {
+      display: none;
+    }
+    .amount-radio {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border);
+      border-radius: 0 !important;
+      cursor: pointer;
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.80rem;
+      color: var(--ui-text);
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+    .amount-radio input[type="radio"] {
+      accent-color: var(--ui-accent);
+      cursor: pointer;
+      margin: 0;
+    }
+    .amount-radio:has(input:checked),
+    .amount-radio.is-selected {
+      border-color: var(--ui-accent);
+      background: rgba(124, 201, 160, 0.08);
+    }
+    [data-theme="light"] .amount-radio:has(input:checked),
+    [data-theme="light"] .amount-radio.is-selected {
+      border-color: #2d8a5e;
+      background: rgba(45, 138, 94, 0.08);
+    }
+    .trust-accordion {
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border);
+      border-radius: 0 !important;
+      margin-bottom: 36px;
+    }
+    .trust-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      cursor: pointer;
+      list-style: none;
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ui-text-secondary);
+      background: var(--ui-surface);
+      user-select: none;
+      border-radius: 0 !important;
+    }
+    .trust-accordion summary::-webkit-details-marker {
+      display: none;
+    }
+    .trust-accordion summary::after {
+      content: '▾';
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--ui-accent);
+      transition: transform 0.2s ease;
+    }
+    .trust-accordion[open] summary::after {
+      transform: rotate(180deg);
+    }
+    .trust-accordion[open] summary {
+      border-bottom: 1px solid var(--ui-border);
+    }
+    .trust-accordion-body {
+      padding: 24px 26px;
+    }
+    [data-theme="light"] .trust-accordion summary::after {
+      color: #2d8a5e;
     }
     .step-card {
       background: var(--ui-surface-muted);
@@ -1461,6 +1558,10 @@ function generateHtml(sub) {
     @media (max-width: 860px) {
       .portal-grid {
         grid-template-columns: 1fr;
+        grid-template-areas:
+          "hero"
+          "buybox"
+          "panel";
         gap: 20px;
         margin-bottom: 24px;
         width: 100%;
@@ -1501,7 +1602,7 @@ function generateHtml(sub) {
       }
       .virtual-visa-card {
         width: 100%;
-        max-width: 100%;
+        max-width: 440px;
         padding: 14px 16px;
         margin: 0 auto 6px;
         cursor: pointer;
@@ -1595,9 +1696,12 @@ function generateHtml(sub) {
         font-size: 0.88rem;
         width: 100%;
       }
-      .steps-container {
-        align-items: center;
-        width: 100%;
+      .how-it-works-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .trust-accordion-body {
+        padding: 18px 14px;
       }
       .step-card {
         flex-direction: column;
@@ -1732,349 +1836,334 @@ function generateHtml(sub) {
 
       <!-- Interactive Two-Column Simulator Grid -->
       <div class="portal-grid sim-grid">
-        <!-- Left: Virtual Card Preview -->
-        <div class="panel-ledger card-shell">
-          <div>
-            <div class="panel-header">
-              <h2 class="panel-title">${renderServiceIconSvg(sub.slug, 18, 18)} Virtual Card Simulation</h2>
-              <span class="panel-badge">BASE LENDING VAULT</span>
+        <!-- Hero: Virtual Visa Card Mockup -->
+        <div class="virtual-visa-card virtual-card-preview" id="visa-card" role="button" tabindex="0" aria-expanded="false" aria-label="Tap card to view financial breakdown">
+          <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
+          <div class="visa-card-top-row">
+            <div class="visa-card-chip-group">
+              ${renderEmvChipSvg()}
+              ${renderNfcIconSvg()}
             </div>
-
-            <!-- Virtual Visa Card Mockup -->
-            <div class="virtual-visa-card-wrapper" style="margin: 0 auto 12px;">
-              <div class="virtual-visa-card virtual-card-preview" id="visa-card" role="button" tabindex="0" aria-expanded="false" aria-label="Tap card to view financial breakdown">
-                <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
-                <div class="visa-card-top-row">
-                  <div class="visa-card-chip-group">
-                    ${renderEmvChipSvg()}
-                    ${renderNfcIconSvg()}
-                  </div>
-                  <div class="visa-card-brand-group">
-                    ${renderVisaLogoSvg()}
-                    <span class="visa-card-type-badge">DEBIT</span>
-                  </div>
-                </div>
-                <!-- Card Center: PAN & Dedicated Sub -->
-                <div class="visa-card-center">
-                  <div class="visa-card-pan">•••• •••• •••• 8453</div>
-                  <div class="visa-card-label-sub">${sub.slug.toUpperCase()}-VAULT / AGENT-01</div>
-                  <div class="visa-card-funded-label">${sub.name.toUpperCase()} FUNDED</div>
-                </div>
-
-                <!-- Card Bottom Row: Expiry & Spend Cap Badge -->
-                <div class="visa-card-bottom-row">
-                  <div class="visa-card-meta-left">
-                    <span class="visa-card-expiry">VALID 08/31</span>
-                    <span class="visa-card-network-info">BASE VAULT · YIELD FUNDED</span>
-                  </div>
-                  <div class="visa-card-cap-badge">
-                    ${renderLockIconSvg()}
-                    <span>🟢 ACTIVE ($${sub.taxBufferMonthlyUsd.toFixed(2)}/MO)</span>
-                  </div>
-                </div>
-              </div>
+            <div class="visa-card-brand-group">
+              ${renderVisaLogoSvg()}
+              <span class="visa-card-type-badge">DEBIT</span>
             </div>
-            <button type="button" class="card-tap-hint" id="card-tap-hint" aria-expanded="false">
-              Tap Card to View Breakdown ▾
-            </button>
+          </div>
+          <!-- Card Center: PAN & Dedicated Sub -->
+          <div class="visa-card-center">
+            <div class="visa-card-pan">•••• •••• •••• 8453</div>
+            <div class="visa-card-label-sub">${sub.slug.toUpperCase()}-VAULT / AGENT-01</div>
+            <div class="visa-card-funded-label">${sub.name.toUpperCase()} FUNDED</div>
+          </div>
 
-            <!-- Ledger Financial Breakdown (Collapsible on Mobile) -->
-            <div class="metric-table">
-              <div class="metric-row-item">
-                <span class="metric-label">Monthly Subscription</span>
-                <span class="metric-value">$${sub.baseMonthlyUsd.toFixed(2)} USD</span>
-              </div>
-              <div class="metric-row-item">
-                <span class="metric-label">Tax / VAT Buffer (+20%)</span>
-                <span class="metric-value">$${sub.taxBufferDeltaUsd.toFixed(2)} USD</span>
-              </div>
-              <div class="metric-row-item">
-                <span class="metric-label">Funding Settlement Rail</span>
-                <span class="metric-value highlight">Curated Base Lending Vaults</span>
-              </div>
-              <div class="metric-row-item">
-                <span class="metric-label">Supported Currencies</span>
-                <span class="metric-value highlight" style="white-space:normal; text-align:right;">USDC · baseEUR · ETH · USDT</span>
-              </div>
-              <div class="metric-row-item" style="border-bottom:none;">
-                <span class="metric-label" style="font-weight:600; color:var(--ui-text);">Principal Protection</span>
-                <span class="metric-value highlight" style="font-weight:700;">100% Self-Custodial (&Delta;P &equiv; 0)</span>
-              </div>
+          <!-- Card Bottom Row: Expiry & Spend Cap Badge -->
+          <div class="visa-card-bottom-row">
+            <div class="visa-card-meta-left">
+              <span class="visa-card-expiry">VALID 08/31</span>
+              <span class="visa-card-network-info">BASE VAULT · YIELD FUNDED</span>
             </div>
-
-            <!-- SOTA Store Checkout Card (E-Commerce Standard) -->
-            <div class="store-checkout-card" id="conversion-card">
-              <!-- Header / Product Badge -->
-              <div class="checkout-header">
-                <div class="checkout-item-title-row">
-                  <span class="checkout-badge">Virtual Card Rail</span>
-                  <span class="checkout-security-tag">Visa Debit</span>
-                </div>
-                <h3 class="checkout-product-title">${sub.name} Yield Card</h3>
-                <p class="checkout-product-desc">Perpetual subscription card funded directly from Base USDC yield.</p>
-              </div>
-
-              <!-- VIEW A: Direct Store Checkout Flow -->
-              <div class="checkout-flow" id="panel-instant-card">
-                <!-- Line Items Breakdown (Receipt Style) -->
-                <div class="checkout-receipt">
-                  <div class="receipt-row">
-                    <span class="receipt-label">Card balance to load</span>
-                    <div class="receipt-amount-toggle">
-                      <button type="button" class="amount-btn is-selected" id="pill-test5">$5.00 <span class="amt-tag">Test</span></button>
-                      <button type="button" class="amount-btn" id="pill-service">$${sub.taxBufferMonthlyUsd.toFixed(2)} <span class="amt-tag">Full</span></button>
-                    </div>
-                  </div>
-                  <div class="receipt-row receipt-row-muted">
-                    <span class="receipt-label">Issuance &amp; setup fee</span>
-                    <span class="receipt-value free">Free</span>
-                  </div>
-                  <div class="receipt-row receipt-row-muted">
-                    <span class="receipt-label">Network gas (Base)</span>
-                    <span class="receipt-value free">Sponsored</span>
-                  </div>
-                  <div class="receipt-divider"></div>
-                  <div class="receipt-total-row">
-                    <div class="total-label-col">
-                      <span class="total-label">Total due now</span>
-                      <span class="total-caption">Charged once in USDC</span>
-                    </div>
-                    <div class="total-price-col">
-                      <span class="total-price-val" id="checkout-total-val">$5.00</span>
-                      <span class="total-price-currency">USDC</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Single Primary Checkout CTA -->
-                <button type="button" class="checkout-pay-btn" id="laso-issue-btn">
-                  Pay $5.00 USDC with Wallet →
-                </button>
-
-                <!-- Trust Microcopy -->
-                <div class="checkout-trust-line">
-                  <span>Zero KYC</span>
-                  <span class="trust-sep">•</span>
-                  <span>Direct Self-Custody</span>
-                  <span class="trust-sep">•</span>
-                  <span>Instant Activation</span>
-                </div>
-
-                <!-- Secondary Alternate Paths (Clean text links) -->
-                <div class="checkout-secondary-links">
-                  <button type="button" class="link-btn" id="tab-waitlist">Prefer email notification instead?</button>
-                  <button type="button" class="link-btn link-muted" id="laso-mode-toggle">Switch to test simulator</button>
-                </div>
-              </div>
-
-              <!-- Issuing Progress Box (Hidden during idle) -->
-              <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
-                <div class="checkout-progress-spinner"></div>
-                <p class="checkout-progress-status" id="laso-msg-text">Connecting wallet...</p>
-                <div class="checkout-progress-sub">Gas is sponsored by Coinbase. Please sign the prompt in your wallet.</div>
-              </div>
-
-              <!-- Card Ready Surface (Hidden during idle) -->
-              <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
-                <div class="laso-issued-card">
-                  <div class="laso-card-top-row">
-                    <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
-                    <span class="laso-card-live-badge live" id="laso-card-badge">LIVE BASE</span>
-                    <span class="laso-card-debit">DEBIT</span>
-                  </div>
-                  <div class="laso-card-pan-row">
-                    <span class="laso-card-pan" id="laso-pan-text">•••• •••• •••• 8842</span>
-                    <div class="laso-pan-controls">
-                      <button type="button" class="laso-mini-btn" id="laso-pan-toggle-btn">Show</button>
-                      <button type="button" class="laso-mini-btn highlight" id="laso-pan-copy-btn">Copy PAN</button>
-                    </div>
-                  </div>
-                  <div class="laso-card-meta-row">
-                    <div>
-                      <span class="laso-meta-label">EXP: </span>
-                      <span class="laso-meta-val" id="laso-exp-text">02/32</span>
-                    </div>
-                    <div>
-                      <span class="laso-meta-label">CVV: </span>
-                      <span class="laso-meta-val" id="laso-cvv-text">•••</span>
-                      <button type="button" class="laso-mini-btn text-only" id="laso-cvv-toggle-btn">Show</button>
-                      <button type="button" class="laso-mini-btn" id="laso-cvv-copy-btn">Copy</button>
-                    </div>
-                    <div>
-                      <span class="laso-meta-label">BAL: </span>
-                      <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="laso-billing-address-box">
-                  <div class="billing-header-row">
-                    <span class="billing-title">Assigned US Billing Address</span>
-                    <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
-                  </div>
-                  <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
-                </div>
-                <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
-                  <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
-                  <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">Sign with Wallet to Reveal</button>
-                </div>
-                <form class="laso-merchant-search-box" id="laso-merchant-form">
-                  <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI)..." />
-                  <button type="submit" class="laso-merchant-btn" id="laso-merchant-btn">Check</button>
-                  <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
-                </form>
-                <div class="laso-issued-footer-actions">
-                  <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">Refresh Live Balance</button>
-                  <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
-                </div>
-              </div>
-
-              <!-- Error View -->
-              <div class="checkout-error-banner" id="laso-error-view" style="display:none;">
-                <span class="error-text" id="laso-error-msg">Payment failed</span>
-                <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
-              </div>
-
-              <!-- VIEW B: Email Waitlist (Secondary Flow) -->
-              <div class="checkout-flow" id="panel-waitlist" style="display:none;">
-                <div class="checkout-header">
-                  <h4 class="checkout-product-title" style="font-size:1.15rem;">Launch Waitlist Reservation</h4>
-                  <p class="checkout-product-desc">We will email you the moment automated Base vault compounding launches.</p>
-                </div>
-                <form class="reservation-form" id="reserve-form" novalidate style="margin-top:10px;">
-                  <div class="reservation-input-group">
-                    <input type="email" class="email-input" id="email-input" placeholder="Enter your email address..." required autocomplete="email" />
-                    <button type="submit" class="reserve-submit-btn" id="submit-btn">
-                      Reserve Spot →
-                    </button>
-                  </div>
-                  <div class="validation-error" id="form-error" style="display:none;"></div>
-                </form>
-                <div class="checkout-secondary-links" style="margin-top:10px;">
-                  <button type="button" class="link-btn" id="tab-instant-card">← Back to instant card checkout</button>
-                </div>
-              </div>
-            </div>
-            <div class="switch-pool-action">
-              <a class="switch-pool-btn" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">
-                🔍 Want to choose your own vault? Explore &amp; switch pools →
-              </a>
-            </div>
-
-            <!-- Early Access Confirmation Receipt -->
-            <div class="yield-card-receipt" id="receipt-card" style="display:none;">
-              <div class="receipt-badge-row">
-                <div class="receipt-spot-badge">Early Access Reserved</div>
-                <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
-              </div>
-              <h3 class="receipt-title">Waitlist Spot Reserved</h3>
-              <div class="receipt-card-preview-chip">${sub.name} Yield Card • $${sub.baseMonthlyUsd.toFixed(2)}/mo Covered</div>
-              <div class="receipt-gamification-box" id="gamification-box">
-                <div class="gamification-header">
-                  <span class="gamification-label" id="gamification-label">Alpha Priority Fast-Track</span>
-                  <span class="gamification-status" id="gamification-status">0 / 1 Invited</span>
-                </div>
-                <div class="gamification-progress-bar">
-                  <div class="gamification-progress-fill" id="gamification-progress-fill" style="width:25%;"></div>
-                </div>
-                <p class="gamification-desc" id="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.</p>
-                <a class="receipt-telegram-cta-btn" id="telegram-cta-btn" href="https://t.me/+rXf7XKhsffMxNzdk" target="_blank" rel="noopener noreferrer" style="display:none;">
-                  ${renderTelegramIconSvg(16, 16)}
-                  <span>Claim Alpha in Private Telegram →</span>
-                </a>
-              </div>
-              <div class="receipt-actions-group">
-                <button type="button" class="receipt-twitter-btn" id="twitter-share-btn">
-                  ${renderTwitterIconSvg(14, 14)}
-                  <span>Share on X to Unlock Alpha ⚡</span>
-                </button>
-                <button type="button" class="receipt-share-btn" id="copy-btn">
-                  🔗 Copy invite link
-                </button>
-              </div>
-              <button type="button" class="receipt-verify-link-btn" id="verify-invite-btn">
-                ⚡ Check invite status / claim access
-              </button>
+            <div class="visa-card-cap-badge">
+              ${renderLockIconSvg()}
+              <span>🟢 ACTIVE ($${sub.taxBufferMonthlyUsd.toFixed(2)}/MO)</span>
             </div>
           </div>
         </div>
 
-        <!-- Right: How Intent Resolution Works -->
-        <div class="panel-ledger">
-          <div>
-            <div class="panel-header">
-              <h2 class="panel-title">Intent Resolution Rails</h2>
-              <span class="panel-badge">NON-CUSTODIAL</span>
+        <!-- Buy Box: SOTA Store Checkout Card -->
+        <div class="store-checkout-card" id="conversion-card">
+          <!-- Header / Product Badge -->
+          <div class="checkout-header">
+            <div class="checkout-item-title-row">
+              <span class="checkout-badge">Virtual Card Rail</span>
+              <span class="checkout-security-tag">Visa Debit</span>
+            </div>
+            <h3 class="checkout-product-title">${sub.name} Yield Card</h3>
+            <p class="checkout-product-desc">Perpetual subscription card funded directly from Base USDC yield.</p>
+          </div>
+
+          <!-- VIEW A: Direct Store Checkout Flow -->
+          <div class="checkout-flow" id="panel-instant-card">
+            <!-- Amount Radio Group (Hidden by default, unlocked via easter egg) -->
+            <div class="amount-radio-group" id="amount-radio-group" hidden>
+              <label class="amount-radio"><input type="radio" name="load-amount" value="full" checked> <span>$${sub.taxBufferMonthlyUsd.toFixed(2)} FULL — 1 month covered</span></label>
+              <label class="amount-radio"><input type="radio" name="load-amount" value="test"> <span>$5.00 TEST — provisioning check</span></label>
             </div>
 
-            <div class="steps-container">
-              <div class="step-card">
-                <span class="step-num">01</span>
-                <div class="step-content">
-                  <strong>Deposit Preferred Currency on Base</strong>
-                  <p>Deposit USDC, baseEUR, ETH, or USDT into curated Base lending vaults. Zero gas friction via Coinbase Smart Wallet or Passkey.</p>
-                  <div class="step-tags">
-                    <span class="step-tag">Curated Base Vaults</span>
-                    <span class="step-tag">Passkey / Smart Wallet</span>
-                  </div>
+            <!-- Line Items Breakdown (Receipt Style) -->
+            <div class="checkout-receipt">
+              <div class="receipt-row receipt-row-muted">
+                <span class="receipt-label">Issuance &amp; setup fee</span>
+                <span class="receipt-value free">Free</span>
+              </div>
+              <div class="receipt-row receipt-row-muted">
+                <span class="receipt-label">Network gas (Base)</span>
+                <span class="receipt-value free">Sponsored</span>
+              </div>
+              <div class="receipt-divider"></div>
+              <div class="receipt-total-row">
+                <div class="total-label-col">
+                  <span class="total-label">Total due now</span>
+                  <span class="total-caption">Charged once in USDC</span>
+                </div>
+                <div class="total-price-col">
+                  <span class="total-price-val" id="checkout-total-val">$${sub.taxBufferMonthlyUsd.toFixed(2)}</span>
+                  <span class="total-price-currency">USDC</span>
                 </div>
               </div>
+            </div>
 
-              <div class="step-card">
-                <span class="step-num">02</span>
-                <div class="step-content">
-                  <strong>Automated Monthly Yield Sweeps</strong>
-                  <p>Autonomous decentralized keepers continuously harvest realized yield ($${sub.taxBufferMonthlyUsd.toFixed(2)}/mo) to settle your ${sub.name} invoice prior to merchant billing.</p>
-                  <div class="step-tags">
-                    <span class="step-tag">Automated Harvest</span>
-                    <span class="step-tag">Zero Human Ops</span>
-                  </div>
-                </div>
-              </div>
+            <!-- Single Primary Checkout CTA -->
+            <button type="button" class="checkout-pay-btn" id="laso-issue-btn">
+              Pay $${sub.taxBufferMonthlyUsd.toFixed(2)} USDC with Wallet →
+            </button>
 
-              <div class="step-card">
-                <span class="step-num">03</span>
-                <div class="step-content">
-                  <strong>100% Principal Protection</strong>
-                  <p>Your deposit remains self-custodial onchain (&Delta;Principal &equiv; 0). Full withdrawal rights are retained at every block with instant liquidity.</p>
-                  <div class="step-tags">
-                    <span class="step-tag">Non-Custodial</span>
-                    <span class="step-tag">&Delta;P &equiv; 0</span>
-                  </div>
-                </div>
-              </div>
+            <!-- Trust Microcopy -->
+            <div class="checkout-trust-line">
+              <span>Zero KYC</span>
+              <span class="trust-sep">•</span>
+              <span>Direct Self-Custody</span>
+              <span class="trust-sep">•</span>
+              <span>Instant Activation</span>
+            </div>
+
+            <!-- Secondary Alternate Paths (Clean text links) -->
+            <div class="checkout-secondary-links">
+              <button type="button" class="link-btn" id="tab-waitlist">Prefer email notification instead?</button>
+              <button type="button" class="link-btn link-muted" id="laso-mode-toggle">Switch to test simulator</button>
             </div>
           </div>
 
-          <div class="trust-guarantee-box">
-            ${renderShieldCheckIconSvg()}
-            <span>Protocol Invariant: &Delta; Principal &equiv; 0 (Capital never burns)</span>
+          <!-- Issuing Progress Box (Hidden during idle) -->
+          <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
+            <div class="checkout-progress-spinner"></div>
+            <p class="checkout-progress-status" id="laso-msg-text">Connecting wallet...</p>
+            <div class="checkout-progress-sub">Gas is sponsored by Coinbase. Please sign the prompt in your wallet.</div>
+          </div>
+
+          <!-- Card Ready Surface (Hidden during idle) -->
+          <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
+            <div class="laso-issued-card">
+              <div class="laso-card-top-row">
+                <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
+                <span class="laso-card-live-badge live" id="laso-card-badge">LIVE BASE</span>
+                <span class="laso-card-debit">DEBIT</span>
+              </div>
+              <div class="laso-card-pan-row">
+                <span class="laso-card-pan" id="laso-pan-text">•••• •••• •••• 8842</span>
+                <div class="laso-pan-controls">
+                  <button type="button" class="laso-mini-btn" id="laso-pan-toggle-btn">Show</button>
+                  <button type="button" class="laso-mini-btn highlight" id="laso-pan-copy-btn">Copy PAN</button>
+                </div>
+              </div>
+              <div class="laso-card-meta-row">
+                <div>
+                  <span class="laso-meta-label">EXP: </span>
+                  <span class="laso-meta-val" id="laso-exp-text">02/32</span>
+                </div>
+                <div>
+                  <span class="laso-meta-label">CVV: </span>
+                  <span class="laso-meta-val" id="laso-cvv-text">•••</span>
+                  <button type="button" class="laso-mini-btn text-only" id="laso-cvv-toggle-btn">Show</button>
+                  <button type="button" class="laso-mini-btn" id="laso-cvv-copy-btn">Copy</button>
+                </div>
+                <div>
+                  <span class="laso-meta-label">BAL: </span>
+                  <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="laso-billing-address-box">
+              <div class="billing-header-row">
+                <span class="billing-title">Assigned US Billing Address</span>
+                <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
+              </div>
+              <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
+            </div>
+            <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
+              <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
+              <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">Sign with Wallet to Reveal</button>
+            </div>
+            <form class="laso-merchant-search-box" id="laso-merchant-form">
+              <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI)..." />
+              <button type="submit" class="laso-merchant-btn" id="laso-merchant-btn">Check</button>
+              <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
+            </form>
+            <div class="laso-issued-footer-actions">
+              <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">Refresh Live Balance</button>
+              <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
+            </div>
+          </div>
+
+          <!-- Error View -->
+          <div class="checkout-error-banner" id="laso-error-view" style="display:none;">
+            <span class="error-text" id="laso-error-msg">Payment failed</span>
+            <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
+          </div>
+
+          <!-- VIEW B: Email Waitlist (Secondary Flow) -->
+          <div class="checkout-flow" id="panel-waitlist" style="display:none;">
+            <div class="checkout-header">
+              <h4 class="checkout-product-title" style="font-size:1.15rem;">Launch Waitlist Reservation</h4>
+              <p class="checkout-product-desc">We will email you the moment automated Base vault compounding launches.</p>
+            </div>
+            <form class="reservation-form" id="reserve-form" novalidate style="margin-top:10px;">
+              <div class="reservation-input-group">
+                <input type="email" class="email-input" id="email-input" placeholder="Enter your email address..." required autocomplete="email" />
+                <button type="submit" class="reserve-submit-btn" id="submit-btn">
+                  Reserve Spot →
+                </button>
+              </div>
+              <div class="validation-error" id="form-error" style="display:none;"></div>
+            </form>
+            <div class="checkout-secondary-links" style="margin-top:10px;">
+              <button type="button" class="link-btn" id="tab-instant-card">← Back to instant card checkout</button>
+            </div>
+          </div>
+
+          <!-- Early Access Confirmation Receipt (Inside Buy Box Column) -->
+          <div class="yield-card-receipt" id="receipt-card" style="display:none;">
+            <div class="receipt-badge-row">
+              <div class="receipt-spot-badge">Early Access Reserved</div>
+              <div class="receipt-alpha-pill">+1 Invite = Instant Alpha Access</div>
+            </div>
+            <h3 class="receipt-title">Waitlist Spot Reserved</h3>
+            <div class="receipt-card-preview-chip">${sub.name} Yield Card • $${sub.baseMonthlyUsd.toFixed(2)}/mo Covered</div>
+            <div class="receipt-gamification-box" id="gamification-box">
+              <div class="gamification-header">
+                <span class="gamification-label" id="gamification-label">Alpha Priority Fast-Track</span>
+                <span class="gamification-status" id="gamification-status">0 / 1 Invited</span>
+              </div>
+              <div class="gamification-progress-bar">
+                <div class="gamification-progress-fill" id="gamification-progress-fill" style="width:25%;"></div>
+              </div>
+              <p class="gamification-desc" id="gamification-desc">Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.</p>
+              <a class="receipt-telegram-cta-btn" id="telegram-cta-btn" href="https://t.me/+rXf7XKhsffMxNzdk" target="_blank" rel="noopener noreferrer" style="display:none;">
+                ${renderTelegramIconSvg(16, 16)}
+                <span>Claim Alpha in Private Telegram →</span>
+              </a>
+            </div>
+            <div class="receipt-actions-group">
+              <button type="button" class="receipt-twitter-btn" id="twitter-share-btn">
+                ${renderTwitterIconSvg(14, 14)}
+                <span>Share on X to Unlock Alpha ⚡</span>
+              </button>
+              <button type="button" class="receipt-share-btn" id="copy-btn">
+                🔗 Copy invite link
+              </button>
+            </div>
+            <button type="button" class="receipt-verify-link-btn" id="verify-invite-btn">
+              ⚡ Check invite status / claim access
+            </button>
+          </div>
+        </div>
+
+        <!-- Panel: Collapsible Metric Table + Switch Pool Action -->
+        <div class="panel-ledger">
+          <!-- Ledger Financial Breakdown (Collapsible on Mobile) -->
+          <div class="metric-table">
+            <div class="metric-row-item">
+              <span class="metric-label">Monthly Subscription</span>
+              <span class="metric-value">$${sub.baseMonthlyUsd.toFixed(2)} USD</span>
+            </div>
+            <div class="metric-row-item">
+              <span class="metric-label">Tax / VAT Buffer (+20%)</span>
+              <span class="metric-value">$${sub.taxBufferDeltaUsd.toFixed(2)} USD</span>
+            </div>
+            <div class="metric-row-item">
+              <span class="metric-label">Funding Settlement Rail</span>
+              <span class="metric-value highlight">Curated Base Lending Vaults</span>
+            </div>
+            <div class="metric-row-item">
+              <span class="metric-label">Supported Currencies</span>
+              <span class="metric-value highlight" style="white-space:normal; text-align:right;">USDC · baseEUR · ETH · USDT</span>
+            </div>
+            <div class="metric-row-item" style="border-bottom:none;">
+              <span class="metric-label" style="font-weight:600; color:var(--ui-text);">Principal Protection</span>
+              <span class="metric-value highlight" style="font-weight:700;">100% Self-Custodial (&Delta;P &equiv; 0)</span>
+            </div>
+          </div>
+          <div class="switch-pool-action">
+            <a class="switch-pool-btn" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">
+              🔍 Want to choose your own vault? Explore &amp; switch pools →
+            </a>
           </div>
         </div>
       </div>
 
-      <!-- Protocol Invariants Card -->
-      <section class="invariants-panel">
-        <div class="invariants-header">
-          <h3 style="display:flex; align-items:center; gap:8px;">${renderShieldCheckIconSvg()} Protocol Invariants &amp; Risk Mitigation</h3>
+      <!-- How It Works Section -->
+      <section class="how-it-works-section" style="margin-bottom: 36px;">
+        <div style="margin-bottom: 14px;">
+          <span class="panel-badge">HOW IT WORKS</span>
         </div>
-        <div class="invariants-cols">
-          <div class="invariant-item">
-            <strong>1.25x Over-collateralization</strong>
-            <p>1.25x capital buffer absorbs interest rate fluctuations and guarantees uninterrupted card payments.</p>
+        <div class="how-it-works-row">
+          <div class="step-card">
+            <span class="step-num">01</span>
+            <div class="step-content">
+              <strong>Deposit Preferred Currency on Base</strong>
+              <p>Deposit USDC, baseEUR, ETH, or USDT into curated Base lending vaults. Zero gas friction via Coinbase Smart Wallet or Passkey.</p>
+              <div class="step-tags">
+                <span class="step-tag">Curated Base Vaults</span>
+                <span class="step-tag">Passkey / Smart Wallet</span>
+              </div>
+            </div>
           </div>
-          <div class="invariant-item">
-            <strong>1-Month Liquid Escrow</strong>
-            <p>Upfront 30-day yield reserve cushions temporary harvest delays and eliminates billing decline risk.</p>
+
+          <div class="step-card">
+            <span class="step-num">02</span>
+            <div class="step-content">
+              <strong>Automated Monthly Yield Sweeps</strong>
+              <p>Autonomous decentralized keepers continuously harvest realized yield ($${sub.taxBufferMonthlyUsd.toFixed(2)}/mo) to settle your ${sub.name} invoice prior to merchant billing.</p>
+              <div class="step-tags">
+                <span class="step-tag">Automated Harvest</span>
+                <span class="step-tag">Zero Human Ops</span>
+              </div>
+            </div>
           </div>
-          <div class="invariant-item">
-            <strong>Self-Custodial Architecture</strong>
-            <p>Direct smart contract withdrawal authority remains exclusively with the user at all times.</p>
+
+          <div class="step-card">
+            <span class="step-num">03</span>
+            <div class="step-content">
+              <strong>100% Principal Protection</strong>
+              <p>Your deposit remains self-custodial onchain (&Delta;Principal &equiv; 0). Full withdrawal rights are retained at every block with instant liquidity.</p>
+              <div class="step-tags">
+                <span class="step-tag">Non-Custodial</span>
+                <span class="step-tag">&Delta;P &equiv; 0</span>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="invariant-banner">
-          &ldquo;Buy it outright and the money is gone. Garden it and you keep the money AND get the thing.&rdquo;
         </div>
       </section>
+
+      <!-- Trust & Protocol Invariants Accordion -->
+      <details class="trust-accordion" style="margin-bottom: 36px;">
+        <summary>Security, risk &amp; protocol invariants</summary>
+        <div class="trust-accordion-body">
+          <div class="invariants-header">
+            <h3 style="display:flex; align-items:center; gap:8px;">${renderShieldCheckIconSvg()} Protocol Invariants &amp; Risk Mitigation</h3>
+          </div>
+          <div class="invariants-cols">
+            <div class="invariant-item">
+              <strong>1.25x Over-collateralization</strong>
+              <p>1.25x capital buffer absorbs interest rate fluctuations and guarantees uninterrupted card payments.</p>
+            </div>
+            <div class="invariant-item">
+              <strong>1-Month Liquid Escrow</strong>
+              <p>Upfront 30-day yield reserve cushions temporary harvest delays and eliminates billing decline risk.</p>
+            </div>
+            <div class="invariant-item">
+              <strong>Self-Custodial Architecture</strong>
+              <p>Direct smart contract withdrawal authority remains exclusively with the user at all times.</p>
+            </div>
+          </div>
+          <div class="trust-guarantee-box" style="margin-bottom: 16px;">
+            ${renderShieldCheckIconSvg()}
+            <span>Protocol Invariant: &Delta; Principal &equiv; 0 (Capital never burns)</span>
+          </div>
+          <div class="invariant-banner">
+            &ldquo;Buy it outright and the money is gone. Garden it and you keep the money AND get the thing.&rdquo;
+          </div>
+        </div>
+      </details>
 
     </div>
 
@@ -2090,7 +2179,7 @@ function generateHtml(sub) {
         </div>
       </div>
       <button type="button" class="sticky-bar-btn" id="sticky-reserve-btn">
-        Reserve Card →
+        Pay $${sub.taxBufferMonthlyUsd.toFixed(2)} USDC →
       </button>
     </div>
     <!-- Shared Footer from home.html -->
@@ -2161,7 +2250,7 @@ function generateHtml(sub) {
       var form = document.getElementById('reserve-form');
       var emailInput = document.getElementById('email-input');
       var errorEl = document.getElementById('form-error');
-      var reservationCard = document.getElementById('reservation-card');
+      var reservationCard = document.getElementById('panel-waitlist');
       var receiptCard = document.getElementById('receipt-card');
       var copyBtn = document.getElementById('copy-btn');
       var twitterBtn = document.getElementById('twitter-share-btn');
@@ -2246,10 +2335,16 @@ function generateHtml(sub) {
         }
       } catch (e) {}
 
-      if (stickyBtn && emailInput && reservationCard) {
+      if (stickyBtn) {
         stickyBtn.addEventListener('click', function() {
-          reservationCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          setTimeout(function() { emailInput.focus(); }, 350);
+          var conversionCard = document.getElementById('conversion-card');
+          if (conversionCard) {
+            conversionCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+          var issueBtn = document.getElementById('laso-issue-btn');
+          if (issueBtn) {
+            setTimeout(function() { issueBtn.focus(); }, 350);
+          }
         });
       }
 
@@ -2424,16 +2519,14 @@ function generateHtml(sub) {
       var isPanRevealed = false;
       var isCvvRevealed = false;
       var currentLasoMode = 'live'; // 'live' | 'sim'
-      var selectedAmount = 5.00;
       var serviceAmount = ${sub.taxBufferMonthlyUsd.toFixed(2)};
+      var selectedAmount = serviceAmount;
 
       // SOTA Store Checkout Controls
       var tabInstant = document.getElementById('tab-instant-card');
       var tabWaitlist = document.getElementById('tab-waitlist');
       var panelInstant = document.getElementById('panel-instant-card');
       var panelWaitlist = document.getElementById('panel-waitlist');
-      var pillTest5 = document.getElementById('pill-test5');
-      var pillService = document.getElementById('pill-service');
       var checkoutTotalVal = document.getElementById('checkout-total-val');
       var lasoModeToggle = document.getElementById('laso-mode-toggle');
 
@@ -2470,6 +2563,10 @@ function generateHtml(sub) {
             ? ('Pay $' + selectedAmount.toFixed(2) + ' USDC with Wallet →')
             : ('Simulate Payment ($' + selectedAmount.toFixed(2) + ') →');
         }
+        var stickyBtn = document.getElementById('sticky-reserve-btn');
+        if (stickyBtn) {
+          stickyBtn.textContent = 'Pay $' + selectedAmount.toFixed(2) + ' USDC →';
+        }
       }
 
       // Tab Switcher (Instant Card vs Waitlist)
@@ -2484,24 +2581,88 @@ function generateHtml(sub) {
         });
       }
 
-      // Amount Switcher ($5 Test vs Full Bill)
-      if (pillTest5) {
-        pillTest5.addEventListener('click', function() {
-          selectedAmount = 5.00;
-          pillTest5.className = 'amount-btn is-selected';
-          if (pillService) pillService.className = 'amount-btn';
-          updateCtaText();
-        });
+      // Amount Switcher (Radio Group)
+      var amountRadioGroup = document.getElementById('amount-radio-group');
+      var radioFull = amountRadioGroup ? amountRadioGroup.querySelector('input[value="full"]') : null;
+      var radioTest = amountRadioGroup ? amountRadioGroup.querySelector('input[value="test"]') : null;
+
+      function syncRadioStyles() {
+        if (amountRadioGroup) {
+          var labels = amountRadioGroup.querySelectorAll('.amount-radio');
+          for (var i = 0; i < labels.length; i++) {
+            var input = labels[i].querySelector('input[type="radio"]');
+            if (input && input.checked) {
+              labels[i].classList.add('is-selected');
+            } else {
+              labels[i].classList.remove('is-selected');
+            }
+          }
+        }
       }
-      if (pillService) {
-        pillService.addEventListener('click', function() {
-          selectedAmount = serviceAmount;
-          pillService.className = 'amount-btn is-selected';
-          if (pillTest5) pillTest5.className = 'amount-btn';
-          updateCtaText();
+
+      if (amountRadioGroup) {
+        amountRadioGroup.addEventListener('change', function(e) {
+          var target = e.target;
+          if (target && target.name === 'load-amount') {
+            selectedAmount = (target.value === 'test') ? 5.00 : serviceAmount;
+            syncRadioStyles();
+            updateCtaText();
+          }
         });
       }
 
+      // Easter egg: 5 clicks on .badge-intent-portal within 3000ms toggles test mode
+      var badgeIntentPortal = document.querySelector('.badge-intent-portal');
+      var easterClicks = [];
+      if (badgeIntentPortal) {
+        badgeIntentPortal.style.cursor = 'pointer';
+        badgeIntentPortal.addEventListener('click', function() {
+          var now = Date.now();
+          easterClicks.push(now);
+          easterClicks = easterClicks.filter(function(t) { return now - t < 3000; });
+          if (easterClicks.length >= 5) {
+            easterClicks = [];
+            var isCurrentlyHidden = !amountRadioGroup || amountRadioGroup.hasAttribute('hidden');
+            if (isCurrentlyHidden) {
+              // UNLOCK test mode
+              try { localStorage.setItem('dg_test_mode', '1'); } catch (e) {}
+              if (amountRadioGroup) amountRadioGroup.removeAttribute('hidden');
+              if (radioFull) radioFull.checked = true;
+              if (radioTest) radioTest.checked = false;
+              selectedAmount = serviceAmount;
+              syncRadioStyles();
+              updateCtaText();
+            } else {
+              // LOCK test mode (toggle off)
+              try { localStorage.setItem('dg_test_mode', '0'); } catch (e) {}
+              if (amountRadioGroup) amountRadioGroup.setAttribute('hidden', '');
+              if (radioFull) radioFull.checked = true;
+              if (radioTest) radioTest.checked = false;
+              selectedAmount = serviceAmount;
+              syncRadioStyles();
+              updateCtaText();
+            }
+          }
+        });
+      }
+
+      // ON LOAD: restore test mode if previously unlocked
+      try {
+        if (localStorage.getItem('dg_test_mode') === '1') {
+          if (amountRadioGroup) {
+            amountRadioGroup.removeAttribute('hidden');
+          }
+          if (radioTest && radioTest.checked) {
+            selectedAmount = 5.00;
+          } else {
+            selectedAmount = serviceAmount;
+            if (radioFull) radioFull.checked = true;
+          }
+        }
+      } catch (e) {}
+
+      syncRadioStyles();
+      updateCtaText();
       // Mode Toggle (Simulator vs Live)
       if (lasoModeToggle) {
         lasoModeToggle.addEventListener('click', function() {
