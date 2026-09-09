@@ -22,6 +22,7 @@
   // 1. Constants & Product Matrix
   // ---------------------------------------------------------------------------
   var BASE_URL = 'https://laso.finance';
+  var LASO_REFERRAL_URL = 'https://laso.finance?ref=lmretyujvzr9jiutxi4d';
   var AGENT_DOCS_URL = 'https://agents.laso.finance';
   var USDC_BASE_ADDRESS = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913';
   var USDC_SOLANA_MINT = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v';
@@ -1182,6 +1183,7 @@
   // ---------------------------------------------------------------------------
   return {
     BASE_URL: BASE_URL,
+    LASO_REFERRAL_URL: LASO_REFERRAL_URL,
     AGENT_DOCS_URL: AGENT_DOCS_URL,
     USDC_BASE_ADDRESS: USDC_BASE_ADDRESS,
     USDC_SOLANA_MINT: USDC_SOLANA_MINT,

@@ -1672,6 +1672,7 @@
 
             <!-- Secondary Alternate Paths (Clean text links) -->
             <div class="checkout-secondary-links">
+              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="link-btn highlight-link" style="color:var(--ui-accent); font-weight:600;">Or order directly on Laso.finance (Partner Referral) ↗</a>
               <button type="button" class="link-btn" id="tab-waitlist">Prefer email notification instead?</button>
               <button type="button" class="link-btn link-muted" id="laso-mode-toggle">Switch to test simulator</button>
             </div>
@@ -1745,7 +1746,10 @@
           <div class="checkout-error-banner" id="laso-error-view" style="display:none;">
             <span class="error-text" id="laso-error-msg">Payment failed</span>
             <span class="error-guidance" id="laso-error-guidance" style="display:none;"></span>
-            <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
+            <div style="display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap;">
+              <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
+              <a href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer" class="error-laso-link" style="color:var(--ui-accent); font-size:0.84rem; text-decoration:underline; font-weight:500;">Order on Laso.finance directly (Partner Referral) ↗</a>
+            </div>
           </div>
 
           <!-- Pending Recovery View (paid, card still provisioning) -->
