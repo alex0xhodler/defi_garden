@@ -1,12 +1,12 @@
 # CRV-CVXCRV — convex-finance on Ethereum
 
-**Total APY:** 12.75% (0.10% Base · + 12.65% Rewards)
+**Total APY:** 12.86% (0.04% Base · + 12.82% Rewards)
 
-**TVL:** $213.3K
+**TVL:** $210.6K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 6.20%
+**30d Mean APY:** 6.63%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,822 in 5y at current rates.
+$1,000 in this pool grows to ~$1,831 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 12.75% right now vs a 6.20% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 12.86% right now vs a 6.63% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,822 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,831 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated September 8, 2026
+Last updated September 9, 2026

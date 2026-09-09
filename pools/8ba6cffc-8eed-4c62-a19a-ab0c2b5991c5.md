@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $204.6K
+**TVL:** $205.3K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.04% 30-day average. Reward 
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated September 8, 2026
+Last updated September 9, 2026

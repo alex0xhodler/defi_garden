@@ -1,10 +1,10 @@
 # SPSC DeFi Yields
 
-The highest honest SPSC yield right now is 22.57% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPSC yield right now is 23.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c0fcae4f-28ee-4467-965d-41dd15a128f6&src=seo_token) | Solana | 22.57% | $105.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=c0fcae4f-28ee-4467-965d-41dd15a128f6&src=seo_token) | Solana | 23.38% | $102.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPSC yield today?
 
-22.57% APY on raydium-amm (Solana), based on live DefiLlama data.
+23.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPSC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.6K in total.
+1 live pool clear this page's $100K TVL floor, $102.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SPSC pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

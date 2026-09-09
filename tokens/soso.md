@@ -1,10 +1,10 @@
 # SOSO DeFi Yields
 
-The highest honest SOSO yield right now is 35.17% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOSO yield right now is 35.87% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1a265ef-1c32-4d98-b2d6-a473447286a2&src=seo_token) | Base | 35.17% | $217K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1a265ef-1c32-4d98-b2d6-a473447286a2&src=seo_token) | Base | 35.87% | $213.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOSO yield today?
 
-35.17% APY on uniswap-v3 (Base), based on live DefiLlama data.
+35.87% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many SOSO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217K in total.
+1 live pool clear this page's $100K TVL floor, $213.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SOSO pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

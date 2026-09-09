@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34&src=seo_token) | Polygon | 0.08% | $943.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34&src=seo_token) | Polygon | 0.08% | $952.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.08%예�
 
 ### VOLLAR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $943.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $952.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.08%예�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

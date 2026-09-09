@@ -1,10 +1,10 @@
 # HWHYPE DeFi Yields
 
-The highest honest HWHYPE yield right now is 4.92% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HWHYPE yield right now is 4.55% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.92% | $1.6M |
+| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.55% | $1.63M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HWHYPE yield today?
 
-4.92% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
+4.55% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HWHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.6M in total.
+1 live pool clear this page's $100K TVL floor, $1.63M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HWHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

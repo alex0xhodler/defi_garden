@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.63% | $19.89M |
+| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.63% | $19.9M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.63%예
 
 ### HUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $19.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $19.9M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.63%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

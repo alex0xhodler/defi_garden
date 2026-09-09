@@ -1,17 +1,17 @@
 # Katana DeFi Yields
 
-The highest honest Katana yield right now is 4.69% on yearn-finance (Katana), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Katana yield right now is 5.61% on yearn-finance (Katana), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VBWBTC | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_chain) | 0.58% | $24.37M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 2.59% | $11.42M |
-| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 1.76% | $7.64M |
-| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 4.69% | $7.42M |
-| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 1.70% | $6.68M |
-| YVVBETH | [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_chain) | 0.34% | $5.38M |
-| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 2.99% | $3.4M |
-| VBETH | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_chain) | 3.10% | $2.35M |
+| VBWBTC | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_chain) | 0.59% | $24.44M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 2.33% | $11.2M |
+| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 1.99% | $7.59M |
+| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 5.61% | $7.42M |
+| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 1.71% | $6.7M |
+| YVVBETH | [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_chain) | 0.41% | $5.41M |
+| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 3.28% | $3.4M |
+| VBETH | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_chain) | 3.96% | $2.36M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Katana yield today?
 
-4.69% APY on yearn-finance (Katana), based on live DefiLlama data.
+5.61% APY on yearn-finance (Katana), based on live DefiLlama data.
 
 ### How many Katana pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $92.55M in total.
+32 live pools clear this page's $100K TVL floor, $92.93M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [YVVBETH](https://www.defi.garden/tokens/yvvbeth)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

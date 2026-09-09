@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FRED pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

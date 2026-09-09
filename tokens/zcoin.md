@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZCOIN pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

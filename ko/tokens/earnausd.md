@@ -1,39 +1,39 @@
 # EARNAUSD 디파이 수익률
 
-현재 EARNAUSD의 가장 높은 정직한 수익률은 Monad의 pendle-v2에서 9.49%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EARNAUSD의 가장 높은 정직한 수익률은 Monad의 pendle-v2에서 9.17%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 6.07% | $24.44M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.84% | $24M |
 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.70% | $2.38M |
-| [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.49% | $2.2M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.78% | $2.2M |
-| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $778.6K |
-| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $714.6K |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 2.17% | $397.1K |
+| [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.17% | $2.2M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.75% | $2.2M |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.26% | $826.9K |
+| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $788.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $569.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EARNAUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $778.6K, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; Monad의 morpho-blue, APY 2.50%, TVL $714.6K, https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token; Monad의 curvance, APY 0.70%, TVL $2.38M, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; Monad의 pendle-v2, APY 8.78%, TVL $2.2M, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; Monad의 upshift, APY 6.07%, TVL $24.44M, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; Monad의 pendle-v2, APY 9.49%, TVL $2.2M, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; Monad의 neverland, APY 2.17%, TVL $397.1K, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EARNAUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $788.8K, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; Monad의 morpho-blue, APY 2.50%, TVL $569.4K, https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token; Monad의 curvance, APY 0.70%, TVL $2.38M, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; Monad의 pendle-v2, APY 8.75%, TVL $2.2M, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; Monad의 upshift, APY 5.84%, TVL $24M, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; Monad의 pendle-v2, APY 9.17%, TVL $2.2M, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; Monad의 neverland, APY 1.26%, TVL $826.9K, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $778.6K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $714.6K |
+| 1 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $788.8K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $569.4K |
 | 3 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.70% | $2.38M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.78% | $2.2M |
-| 5 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 6.07% | $24.44M |
-| 6 | [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.49% | $2.2M |
-| 7 | [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 2.17% | $397.1K |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.75% | $2.2M |
+| 5 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.84% | $24M |
+| 6 | [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.17% | $2.2M |
+| 7 | [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.26% | $826.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 9.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 9.17%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,13 +41,13 @@ EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 9.49
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| upshift | 6.07% | 5.40% | 인센티브 8.63% |
-| curvance | 0.70% | 0.80% | 인센티브 100.00% |
-| pendle-v2 | 9.49% | 9.15% | 인센티브 19.79% |
-| pendle-v2 | 8.78% | 9.69% | 기본 금리 |
+| upshift | 5.84% | 5.48% | 인센티브 8.95% |
+| curvance | 0.70% | 0.79% | 인센티브 100.00% |
+| pendle-v2 | 9.17% | 9.15% | 인센티브 19.47% |
+| pendle-v2 | 8.75% | 9.66% | 기본 금리 |
+| neverland | 1.26% | 1.41% | 인센티브 100.00% |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
-| morpho-blue | 2.50% | 2.43% | 인센티브 100.00% |
-| neverland | 2.17% | 1.41% | 인센티브 100.00% |
+| morpho-blue | 2.50% | 2.46% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,11 +55,11 @@ EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 9.49
 
 ### 오늘 EARNAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 pendle-v2에서 APY 9.49%예요.
+DefiLlama 실시간 데이터 기준, Monad의 pendle-v2에서 APY 9.17%예요.
 
 ### EARNAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $41.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $41.08M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle-v2에서 APY 9.49%예요.
 
 ### EARNAUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EARNAUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $778.6K, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; Monad의 morpho-blue, APY 2.50%, TVL $714.6K, https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token; Monad의 curvance, APY 0.70%, TVL $2.38M, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; Monad의 pendle-v2, APY 8.78%, TVL $2.2M, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; Monad의 upshift, APY 6.07%, TVL $24.44M, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; Monad의 pendle-v2, APY 9.49%, TVL $2.2M, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; Monad의 neverland, APY 2.17%, TVL $397.1K, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EARNAUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $788.8K, https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token; Monad의 morpho-blue, APY 2.50%, TVL $569.4K, https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token; Monad의 curvance, APY 0.70%, TVL $2.38M, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; Monad의 pendle-v2, APY 8.75%, TVL $2.2M, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; Monad의 upshift, APY 5.84%, TVL $24M, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; Monad의 pendle-v2, APY 9.17%, TVL $2.2M, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; Monad의 neverland, APY 1.26%, TVL $826.9K, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -82,4 +82,4 @@ APY 이력만 기준으로 비교한 EARNAUSD의 변동성 낮은 후보는 Mona
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

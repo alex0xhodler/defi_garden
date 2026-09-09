@@ -4,20 +4,20 @@ The highest honest VBILL yield right now is 3.57% on vaneck-treasury-fund (Ether
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.57% | $21.67M |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.57% | $21.68M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.57% | $21.54M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.57% | $13.95M |
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.9K |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $704.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBILL's lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.57% APY, $21.67M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; vaneck-treasury-fund (Avalanche), 3.57% APY, $703.9K TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; vaneck-treasury-fund (BSC), 3.57% APY, $21.54M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; vaneck-treasury-fund (Solana), 3.57% APY, $13.95M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBILL's lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.57% APY, $21.68M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; vaneck-treasury-fund (Avalanche), 3.57% APY, $704.2K TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; vaneck-treasury-fund (BSC), 3.57% APY, $21.54M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; vaneck-treasury-fund (Solana), 3.57% APY, $13.95M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.57% | $21.67M |
-| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $703.9K |
+| 1 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.57% | $21.68M |
+| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $704.2K |
 | 3 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.57% | $21.54M |
 | 4 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.57% | $13.95M |
 
@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VBILL shows up in 4 pools here, with rates from 3.57% to 3.57% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBILL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $64.11M in total.
+5 live pools clear this page's $100K TVL floor, $64.13M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBILL pools have the most stable APY history?
 
-Based on APY history only, VBILL's lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.57% APY, $21.67M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; vaneck-treasury-fund (Avalanche), 3.57% APY, $703.9K TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; vaneck-treasury-fund (BSC), 3.57% APY, $21.54M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; vaneck-treasury-fund (Solana), 3.57% APY, $13.95M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBILL's lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.57% APY, $21.68M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; vaneck-treasury-fund (Avalanche), 3.57% APY, $704.2K TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; vaneck-treasury-fund (BSC), 3.57% APY, $21.54M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; vaneck-treasury-fund (Solana), 3.57% APY, $13.95M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [Solana](https://www.defi.garden/chains/solana)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

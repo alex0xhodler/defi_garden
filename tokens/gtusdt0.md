@@ -1,10 +1,10 @@
 # GTUSDT0 DeFi Yields
 
-The highest honest GTUSDT0 yield right now is 5.79% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDT0 yield right now is 5.82% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 5.79% | $514.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 5.82% | $475.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDT0 yield today?
 
-5.79% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+5.82% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many GTUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $514.9K in total.
+1 live pool clear this page's $100K TVL floor, $475.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTUSDT0 pools. This view cove
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

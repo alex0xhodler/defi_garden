@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLINK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $592.9K in total.
+3 live pools clear this page's $100K TVL floor, $589K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SLINK pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

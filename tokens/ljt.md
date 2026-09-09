@@ -1,10 +1,10 @@
 # LJT DeFi Yields
 
-The highest honest LJT yield right now is 70.77% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LJT yield right now is 65.15% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8f28cfd3-fb10-57e6-b030-dd429edcd348&src=seo_token) | Base | 70.77% | $321.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8f28cfd3-fb10-57e6-b030-dd429edcd348&src=seo_token) | Base | 65.15% | $326.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LJT yield today?
 
-70.77% APY on uniswap-v2 (Base), based on live DefiLlama data.
+65.15% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many LJT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $321.4K in total.
+1 live pool clear this page's $100K TVL floor, $326.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LJT pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

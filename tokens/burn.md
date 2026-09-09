@@ -4,7 +4,6 @@ The highest honest BURN yield right now is 18.74% on uniswap-v4 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 4.20% | $165.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=35de5a61-f4b9-5824-a66b-d6418e8f0ba1&src=seo_token) | Base | 18.74% | $106.6K |
 
 <!-- rate-stability:insufficient -->
@@ -16,17 +15,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BURN shows up in 2 pools here, with rates from 4.20% to 18.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BURN shows up in 1 pools here, with rates from 18.74% to 18.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 4.20% | 0.43% | Base rate |
 | uniswap-v4 | 18.74% | 17.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,12 +53,11 @@ There is not enough qualifying APY history to rank BURN pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
-- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

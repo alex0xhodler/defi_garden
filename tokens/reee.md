@@ -4,7 +4,7 @@ The highest honest REEE yield right now is 0.02% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7662569e-7efe-4a36-8678-44b518f18344&src=seo_token) | Ethereum | 0.02% | $263.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7662569e-7efe-4a36-8678-44b518f18344&src=seo_token) | Ethereum | 0.02% | $265.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.8K in total.
+1 live pool clear this page's $100K TVL floor, $265.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REEE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

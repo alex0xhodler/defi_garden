@@ -1,10 +1,10 @@
 # BOOMER DeFi Yields
 
-The highest honest BOOMER yield right now is 0.90% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOMER yield right now is 0.10% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=278da864-ae8b-46cc-b7e3-dea131b1f45b&src=seo_token) | Base | 0.90% | $105.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=278da864-ae8b-46cc-b7e3-dea131b1f45b&src=seo_token) | Base | 0.10% | $106.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOMER yield today?
 
-0.90% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.10% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BOOMER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.6K in total.
+1 live pool clear this page's $100K TVL floor, $106.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BOOMER pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

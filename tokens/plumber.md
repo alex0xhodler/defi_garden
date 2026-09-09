@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PLUMBER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $299.5K in total.
+2 live pools clear this page's $100K TVL floor, $281.8K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank PLUMBER pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

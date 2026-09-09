@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.90% | $3M |
+| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.90% | $2.98M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.90%예�
 
 ### XVS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.90%예�
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
-- [BTCB](https://www.defi.garden/ko/tokens/btcb)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

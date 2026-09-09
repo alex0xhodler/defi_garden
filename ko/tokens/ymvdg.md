@@ -1,10 +1,10 @@
 # YMVDG 디파이 수익률
 
-현재 YMVDG의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 3.72%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YMVDG의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 4.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 3.72% | $1.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 4.01% | $1.46M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 YMVDG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 3.72%예요.
+DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 4.01%예요.
 
 ### YMVDG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 3.72%예�
 - [VBWBTC](https://www.defi.garden/ko/tokens/vbwbtc)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
 - [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
-- [VBETH](https://www.defi.garden/ko/tokens/vbeth)
+- [YOG](https://www.defi.garden/ko/tokens/yog)
 
 ## 이용 가능한 체인
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

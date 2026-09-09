@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank VCRED pools. This view covers
 
 ## Related tokens
 
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 - [HEMI](https://www.defi.garden/tokens/hemi)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

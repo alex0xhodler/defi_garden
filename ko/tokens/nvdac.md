@@ -1,17 +1,14 @@
 # NVDAC 디파이 수익률
 
-현재 NVDAC의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 28.07%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVDAC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 234.52%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 170.75% | $2.36M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 11.05% | $304.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 143.28% | $2.41M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 33.47% | $298.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4fc5cf41-1362-599e-a605-73945a4951a9&src=seo_token) | Base | 28.07% | $172.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d58688c5-c859-5dc2-9fa7-c5b7cc6ba3da&src=seo_token) | Base | 0.01% | $170.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=07b76cea-0496-5dc1-ae16-13f08a70f2ee&src=seo_token) | Base | 0.86% | $164.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f6f4ab63-9a82-5ea6-a79c-28484454865d&src=seo_token) | Base | 238.42% | $125.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=14b919fc-c846-56ce-a887-5e53c9b47f0a&src=seo_token) | Base | 0.14% | $111.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=06209a15-a5db-58c0-adf2-209c26460ac8&src=seo_token) | Base | 0.79% | $106.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f6f4ab63-9a82-5ea6-a79c-28484454865d&src=seo_token) | Base | 234.52% | $119.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -22,24 +19,21 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NVDAC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 238.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NVDAC 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 234.52%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.66%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 101.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+5개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 8개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+5개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 170.75% | 473.22% | 인센티브 75.84% |
-| uniswap-v4 | 11.05% | 106.84% | 기본 금리 |
+| aerodrome-slipstream | 143.28% | 467.44% | 인센티브 65.00% |
+| uniswap-v4 | 33.47% | 101.17% | 기본 금리 |
 | uniswap-v4 | 28.07% | 30.45% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.01% | 기본 금리 |
-| uniswap-v4 | 0.86% | 0.86% | 기본 금리 |
-| aerodrome-slipstream | 238.42% | 482.89% | 인센티브 45.75% |
-| uniswap-v4 | 0.14% | 0.14% | 기본 금리 |
-| uniswap-v4 | 0.79% | 0.79% | 기본 금리 |
+| aerodrome-slipstream | 234.52% | 451.39% | 인센티브 53.90% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -47,11 +41,11 @@ NVDAC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 238.42%
 
 ### 오늘 NVDAC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 28.07%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 234.52%예요.
 
 ### NVDAC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $4.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $3.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -74,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 28.07%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

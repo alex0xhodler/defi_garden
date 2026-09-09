@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank MRNAB pools. This view covers
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

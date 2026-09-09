@@ -1,10 +1,10 @@
 # GDEX DeFi Yields
 
-The highest honest GDEX yield right now is 2.71% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GDEX yield right now is 0.29% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b804cb3-f6ad-4db6-908a-a3458247df1e&src=seo_token) | Base | 2.71% | $301.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b804cb3-f6ad-4db6-908a-a3458247df1e&src=seo_token) | Base | 0.29% | $303.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GDEX yield today?
 
-2.71% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.29% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many GDEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $301.2K in total.
+1 live pool clear this page's $100K TVL floor, $303.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GDEX pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

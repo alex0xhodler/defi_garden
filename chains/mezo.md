@@ -4,11 +4,11 @@ The highest honest Mezo yield right now is 37.26% on mezo-earn (Mezo), among 5 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 3.01% | $64.51M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 2.06% | $5.44M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.69% | $2.02M |
-| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 37.26% | $1.72M |
-| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 14.45% | $173.7K |
+| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 3.00% | $64.4M |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 2.00% | $5.44M |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.68% | $2.03M |
+| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 37.26% | $1.68M |
+| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 14.45% | $173.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Mezo pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $73.86M in total.
+5 live pools clear this page's $100K TVL floor, $73.73M in total.
 
 ### Are these rates safe?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SMUSD](https://www.defi.garden/tokens/smusd)
 - [MEZO](https://www.defi.garden/tokens/mezo)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

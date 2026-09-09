@@ -1,10 +1,10 @@
 # FTXTOKEN DeFi Yields
 
-The highest honest FTXTOKEN yield right now is 274.34% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FTXTOKEN yield right now is 16.63% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=00dde020-46a5-435b-a5b0-eaf869404b8b&src=seo_token) | Ethereum | 274.34% | $109.7K |
+| [sushiswap →](https://www.defi.garden/?pool=00dde020-46a5-435b-a5b0-eaf869404b8b&src=seo_token) | Ethereum | 16.63% | $109.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FTXTOKEN yield today?
 
-274.34% APY on sushiswap (Ethereum), based on live DefiLlama data.
+16.63% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many FTXTOKEN pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FTXTOKEN pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

@@ -1,10 +1,10 @@
 # ODYS DeFi Yields
 
-The highest honest ODYS yield right now is 582.75% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ODYS yield right now is 573.21% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=663bc68e-d51d-5867-9695-8340e92de889&src=seo_token) | Arbitrum | 582.75% | $184.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=663bc68e-d51d-5867-9695-8340e92de889&src=seo_token) | Arbitrum | 573.21% | $208.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ODYS yield today?
 
-582.75% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+573.21% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ODYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.9K in total.
+1 live pool clear this page's $100K TVL floor, $208.3K in total.
 
 ### Are these rates safe?
 
@@ -33,8 +33,8 @@ There is not enough qualifying APY history to rank ODYS pools. This view covers 
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ODYS pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

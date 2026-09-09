@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AVDAI pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

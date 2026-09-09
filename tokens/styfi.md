@@ -1,10 +1,10 @@
 # STYFI DeFi Yields
 
-The highest honest STYFI yield right now is 15.25% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STYFI yield right now is 15.20% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=e53ed73e-e7c7-589b-ba90-a249710507fc&src=seo_token) | Ethereum | 15.25% | $1.44M |
+| [yearn-finance →](https://www.defi.garden/?pool=e53ed73e-e7c7-589b-ba90-a249710507fc&src=seo_token) | Ethereum | 15.20% | $1.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STYFI yield today?
 
-15.25% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+15.20% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many STYFI pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STYFI pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

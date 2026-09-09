@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 9.95% | $759.4K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 9.95% | $766.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 9.95%예요
 
 ### KODISWBERA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $759.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $766.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 9.95%예요
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [BUSD](https://www.defi.garden/ko/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/ko/tokens/csrhoney)
 
 ## 이용 가능한 체인
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

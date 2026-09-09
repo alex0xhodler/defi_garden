@@ -1,10 +1,10 @@
 # CLOUD DeFi Yields
 
-The highest honest CLOUD yield right now is 8.40% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLOUD yield right now is 0.50% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token) | ICP | 8.40% | $115.4K |
+| [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token) | ICP | 0.50% | $109.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLOUD yield today?
 
-8.40% APY on icpswap (ICP), based on live DefiLlama data.
+0.50% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CLOUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.4K in total.
+1 live pool clear this page's $100K TVL floor, $109.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CLOUD pools. This view covers
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

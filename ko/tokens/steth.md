@@ -4,36 +4,36 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token) | Ethereum | 2.24% | $23.92B |
-| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.25% | $101.11M |
-| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.25% | $54.56M |
-| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.60% | $23.96M |
-| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.71% | $21.77M |
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.55% | $17.46M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 1.95% | $17.46M |
-| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.76% | $15.55M |
+| [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token) | Ethereum | 2.24% | $24.22B |
+| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.18% | $102.04M |
+| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.18% | $55.06M |
+| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.42% | $24.18M |
+| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.53% | $21.97M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.56% | $17.57M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 1.94% | $17.57M |
+| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.69% | $15.65M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STETH의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.55%, TVL $17.46M, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; Ethereum의 lido, APY 2.24%, TVL $23.92B, https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token; Ethereum의 curve-dex, APY 1.60%, TVL $23.96M, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token; Ethereum의 convex-finance, APY 1.71%, TVL $21.77M, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token; Ethereum의 convex-finance, APY 1.95%, TVL $17.46M, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; Ethereum의 convex-finance, APY 1.25%, TVL $54.56M, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; Ethereum의 vesper, APY 1.76%, TVL $15.55M, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token; Ethereum의 curve-dex, APY 1.25%, TVL $101.11M, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STETH의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.56%, TVL $17.57M, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; Ethereum의 lido, APY 2.24%, TVL $24.22B, https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token; Ethereum의 curve-dex, APY 1.42%, TVL $24.18M, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token; Ethereum의 convex-finance, APY 1.53%, TVL $21.97M, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token; Ethereum의 convex-finance, APY 1.94%, TVL $17.57M, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; Ethereum의 convex-finance, APY 1.18%, TVL $55.06M, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; Ethereum의 vesper, APY 1.69%, TVL $15.65M, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token; Ethereum의 curve-dex, APY 1.18%, TVL $102.04M, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.55% | $17.46M |
-| 2 | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token) | Ethereum | 2.24% | $23.92B |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.60% | $23.96M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.71% | $21.77M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 1.95% | $17.46M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.25% | $54.56M |
-| 7 | [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.76% | $15.55M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.25% | $101.11M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.56% | $17.57M |
+| 2 | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token) | Ethereum | 2.24% | $24.22B |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.42% | $24.18M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.53% | $21.97M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 1.94% | $17.57M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.18% | $55.06M |
+| 7 | [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.69% | $15.65M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.18% | $102.04M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-STETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.25%부터 2.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+STETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.18%부터 2.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.65%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -42,13 +42,13 @@ STETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.25%부터 2.24%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | lido | 2.24% | 2.22% | 기본 금리 |
-| curve-dex | 1.25% | 1.24% | 기본 금리 |
-| convex-finance | 1.25% | 1.24% | 기본 금리 |
-| curve-dex | 1.60% | 1.55% | 인센티브 12.87% |
-| convex-finance | 1.71% | 1.67% | 인센티브 18.65% |
-| curve-dex | 1.55% | 1.63% | 인센티브 44.02% |
-| convex-finance | 1.95% | 2.08% | 인센티브 55.36% |
-| vesper | 1.76% | 1.94% | 기본 금리 |
+| curve-dex | 1.18% | 1.25% | 기본 금리 |
+| convex-finance | 1.18% | 1.25% | 기본 금리 |
+| curve-dex | 1.42% | 1.55% | 인센티브 14.50% |
+| convex-finance | 1.53% | 1.67% | 인센티브 20.70% |
+| curve-dex | 1.56% | 1.62% | 인센티브 44.07% |
+| convex-finance | 1.94% | 2.07% | 인센티브 55.21% |
+| vesper | 1.69% | 1.95% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lido에서 APY 2.24%예요.
 
 ### STETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $24.19B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $24.48B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lido에서 APY 2.24%예요.
 
 ### STETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STETH의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.55%, TVL $17.46M, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; Ethereum의 lido, APY 2.24%, TVL $23.92B, https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token; Ethereum의 curve-dex, APY 1.60%, TVL $23.96M, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token; Ethereum의 convex-finance, APY 1.71%, TVL $21.77M, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token; Ethereum의 convex-finance, APY 1.95%, TVL $17.46M, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; Ethereum의 convex-finance, APY 1.25%, TVL $54.56M, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; Ethereum의 vesper, APY 1.76%, TVL $15.55M, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token; Ethereum의 curve-dex, APY 1.25%, TVL $101.11M, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STETH의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.56%, TVL $17.57M, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; Ethereum의 lido, APY 2.24%, TVL $24.22B, https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token; Ethereum의 curve-dex, APY 1.42%, TVL $24.18M, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token; Ethereum의 convex-finance, APY 1.53%, TVL $21.97M, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token; Ethereum의 convex-finance, APY 1.94%, TVL $17.57M, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; Ethereum의 convex-finance, APY 1.18%, TVL $55.06M, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; Ethereum의 vesper, APY 1.69%, TVL $15.65M, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token; Ethereum의 curve-dex, APY 1.18%, TVL $102.04M, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -83,4 +83,4 @@ APY 이력만 기준으로 비교한 STETH의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

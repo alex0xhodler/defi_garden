@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NTBILL pools. This view cover
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

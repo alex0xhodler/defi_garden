@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank GMT pools. This view covers A
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

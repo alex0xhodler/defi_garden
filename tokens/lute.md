@@ -1,10 +1,10 @@
 # LUTE DeFi Yields
 
-The highest honest LUTE yield right now is 798.17% on alandale-v3 (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LUTE yield right now is 761.98% on alandale-v3 (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alandale-v3 →](https://www.defi.garden/?pool=80de08b9-2155-54a4-aa4f-b0c468903148&src=seo_token) | Robinhood Chain | 798.17% | $154.3K |
+| [alandale-v3 →](https://www.defi.garden/?pool=80de08b9-2155-54a4-aa4f-b0c468903148&src=seo_token) | Robinhood Chain | 761.98% | $157.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LUTE yield today?
 
-798.17% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
+761.98% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many LUTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154.3K in total.
+1 live pool clear this page's $100K TVL floor, $157.7K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank LUTE pools. This view covers 
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [RIPE](https://www.defi.garden/tokens/ripe)
 - [GREEN](https://www.defi.garden/tokens/green)
+- [RIPE](https://www.defi.garden/tokens/ripe)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

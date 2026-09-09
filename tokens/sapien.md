@@ -4,7 +4,7 @@ The highest honest SAPIEN yield right now is 22.14% on sapien-vault (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sapien-vault →](https://www.defi.garden/?pool=ead38545-adfe-5878-b561-9194700850d3&src=seo_token) | Base | 22.14% | $206.5K |
+| [sapien-vault →](https://www.defi.garden/?pool=ead38545-adfe-5878-b561-9194700850d3&src=seo_token) | Base | 22.14% | $205.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAPIEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.5K in total.
+1 live pool clear this page's $100K TVL floor, $205.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SAPIEN pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

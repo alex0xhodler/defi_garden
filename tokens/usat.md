@@ -1,11 +1,11 @@
 # USAT DeFi Yields
 
-The highest honest USAT yield right now is 3.35% on centrifuge-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USAT yield right now is 6.08% on centrifuge-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 3.35% | $397.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_token) | Celo | 0.04% | $105.3K |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 6.08% | $397.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_token) | Celo | 0.03% | $105.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USAT shows up in 2 pools here, with rates from 0.04% to 3.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USAT shows up in 2 pools here, with rates from 0.03% to 6.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| centrifuge-protocol | 3.35% | 4.56% | Base rate |
-| uniswap-v3 | 0.04% | 0.19% | Base rate |
+| centrifuge-protocol | 6.08% | 4.61% | Base rate |
+| uniswap-v3 | 0.03% | 0.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USAT yield today?
 
-3.35% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
+6.08% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many USAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $407.15M in total.
+3 live pools clear this page's $100K TVL floor, $407.4M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank USAT pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

@@ -1,10 +1,10 @@
 # ZBTC DeFi Yields
 
-The highest honest ZBTC yield right now is 1.06% on loopscale (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZBTC yield right now is 1.08% on loopscale (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $362.2K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.08% | $354.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZBTC yield today?
 
-1.06% APY on loopscale (Solana), based on live DefiLlama data.
+1.08% APY on loopscale (Solana), based on live DefiLlama data.
 
 ### How many ZBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $362.2K in total.
+1 live pool clear this page's $100K TVL floor, $354.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZBTC pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

@@ -1,10 +1,10 @@
 # FFI DeFi Yields
 
-The highest honest FFI yield right now is 6.40% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FFI yield right now is 10.01% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 6.40% | $134.2K |
+| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 10.01% | $134.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FFI yield today?
 
-6.40% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+10.01% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many FFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.2K in total.
+1 live pool clear this page's $100K TVL floor, $134.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FFI pools. This view covers A
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

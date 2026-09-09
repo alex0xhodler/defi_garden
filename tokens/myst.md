@@ -4,7 +4,7 @@ The highest honest MYST yield right now is 2.47% on quickswap-dex (Polygon), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947&src=seo_token) | Polygon | 2.47% | $145.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947&src=seo_token) | Polygon | 2.47% | $146.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MYST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.5K in total.
+1 live pool clear this page's $100K TVL floor, $146.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MYST pools. This view covers 
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

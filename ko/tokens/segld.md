@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $114.4K |
+| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $125.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 ashswap에서 APY 0.10%예�
 
 ### SEGLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $3.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $3.94M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,8 +50,8 @@ DefiLlama 실시간 데이터 기준, MultiversX의 ashswap에서 APY 0.10%예�
 ## 관련 토큰
 
 - [WEGLD](https://www.defi.garden/ko/tokens/wegld)
-- [SWTAO](https://www.defi.garden/ko/tokens/swtao)
 - [HTM](https://www.defi.garden/ko/tokens/htm)
+- [SWTAO](https://www.defi.garden/ko/tokens/swtao)
 - [EGLD](https://www.defi.garden/ko/tokens/egld)
 - [MEX](https://www.defi.garden/ko/tokens/mex)
 - [USH](https://www.defi.garden/ko/tokens/ush)
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, MultiversX의 ashswap에서 APY 0.10%예�
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026

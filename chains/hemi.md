@@ -5,8 +5,8 @@ The highest honest Hemi yield right now is 0.09% on sushiswap-v3 (Hemi), among 3
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | VCRED-USDC.E | [sushiswap-v3 →](https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_chain) | 0.09% | $500K |
-| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 7.71% | $200.4K |
-| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 7.33% | $127.8K |
+| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 6.61% | $185.1K |
+| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 9.40% | $156.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hemi pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $828.2K in total.
+3 live pools clear this page's $100K TVL floor, $841.4K in total.
 
 ### Are these rates safe?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

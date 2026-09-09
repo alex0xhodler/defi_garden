@@ -1,29 +1,29 @@
 # RAVE DeFi Yields
 
-The highest honest RAVE yield right now is 117.31% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAVE yield right now is 128.77% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 4.25% | $237.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 117.31% | $179.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 5.43% | $236.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 128.77% | $192.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.25% APY, $237.1K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 117.31% APY, $179.2K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 5.43% APY, $236.4K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 128.77% APY, $192.9K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 4.25% | $237.1K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 117.31% | $179.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 5.43% | $236.4K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 128.77% | $192.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAVE shows up in 2 pools here, with rates from 4.25% to 117.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAVE shows up in 2 pools here, with rates from 5.43% to 128.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 92.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 85.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ RAVE shows up in 2 pools here, with rates from 4.25% to 117.31% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 4.25% | 6.58% | Base rate |
-| aerodrome-slipstream | 117.31% | 178.77% | 56.06% incentives |
+| uniswap-v4 | 5.43% | 6.04% | Base rate |
+| aerodrome-slipstream | 128.77% | 165.29% | 62.41% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAVE yield today?
 
-117.31% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+128.77% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RAVE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $416.3K in total.
+2 live pools clear this page's $100K TVL floor, $429.3K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAVE pools have the most stable APY history?
 
-Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.25% APY, $237.1K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 117.31% APY, $179.2K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 5.43% APY, $236.4K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 128.77% APY, $192.9K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

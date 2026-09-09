@@ -4,7 +4,7 @@ The highest honest KODISWBERA yield right now is 9.95% on berapaw (Berachain), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 9.95% | $759.4K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 9.95% | $766.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KODISWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $759.4K in total.
+1 live pool clear this page's $100K TVL floor, $766.4K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank KODISWBERA pools. This view c
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

@@ -1,10 +1,10 @@
 # HWHLP DeFi Yields
 
-The highest honest HWHLP yield right now is 1.83% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HWHLP yield right now is 4.53% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 1.83% | $517.4K |
+| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 4.53% | $517.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HWHLP yield today?
 
-1.83% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
+4.53% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HWHLP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $517.4K in total.
+1 live pool clear this page's $100K TVL floor, $517.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HWHLP pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

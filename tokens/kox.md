@@ -1,10 +1,10 @@
 # KOX DeFi Yields
 
-The highest honest KOX yield right now is 626.31% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KOX yield right now is 243.00% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=ce085941-8e26-5cd5-8769-509208a37d83&src=seo_token) | Solana | 626.31% | $110.4K |
+| [orca-dex →](https://www.defi.garden/?pool=ce085941-8e26-5cd5-8769-509208a37d83&src=seo_token) | Solana | 243.00% | $164.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KOX yield today?
 
-626.31% APY on orca-dex (Solana), based on live DefiLlama data.
+243.00% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many KOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.4K in total.
+1 live pool clear this page's $100K TVL floor, $164.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KOX pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

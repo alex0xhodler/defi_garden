@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank USDST pools. This view covers
 
 - [Strato](https://www.defi.garden/chains/strato)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

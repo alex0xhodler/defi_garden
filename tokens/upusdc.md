@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank UPUSDC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

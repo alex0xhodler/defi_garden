@@ -1,10 +1,10 @@
 # VDOT DeFi Yields
 
-The highest honest VDOT yield right now is 3.47% on bifrost-liquid-staking (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VDOT yield right now is 3.40% on bifrost-liquid-staking (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 3.47% | $9.28M |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 3.40% | $10.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VDOT yield today?
 
-3.47% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
+3.40% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
 
 ### How many VDOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.28M in total.
+1 live pool clear this page's $100K TVL floor, $10.32M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VDOT pools. This view covers 
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

@@ -4,14 +4,14 @@ The highest honest Flare yield right now is 8.04% on sceptre-liquid (Flare), amo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 0.72% | $26.24M |
-| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 5.88% | $21.21M |
-| USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_chain) | 3.50% | $14.89M |
-| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.04% | $14.76M |
-| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 2.26% | $5.77M |
-| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_chain) | 0.17% | $5.08M |
-| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_chain) | 0.60% | $4.65M |
-| FXRP | [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_chain) | 6.45% | $3.54M |
+| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 0.70% | $26.98M |
+| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 8.56% | $21.18M |
+| USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_chain) | 3.50% | $18.95M |
+| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.04% | $14.56M |
+| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 1.84% | $6.78M |
+| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_chain) | 0.16% | $5.08M |
+| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_chain) | 0.59% | $4.67M |
+| CSXRP | [mystic-finance-lending →](https://www.defi.garden/?pool=ae77c3b6-f9ca-49a8-b24d-08c12ac2d7b4&src=seo_chain) | 0.73% | $3.78M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Flare pools clear the TVL floor?
 
-41 live pools clear this page's $100K TVL floor, $126.36M in total.
+41 live pools clear this page's $100K TVL floor, $132.66M in total.
 
 ### Are these rates safe?
 
@@ -46,5 +46,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [CSXRP](https://www.defi.garden/tokens/csxrp)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

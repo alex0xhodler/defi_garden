@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EFI pools. This view covers A
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

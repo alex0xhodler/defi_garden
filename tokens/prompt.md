@@ -1,29 +1,29 @@
 # PROMPT DeFi Yields
 
-The highest honest PROMPT yield right now is 38.96% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PROMPT yield right now is 23.30% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 1.93% | $250.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token) | Base | 38.96% | $136.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 14.83% | $246.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token) | Base | 23.30% | $124.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PROMPT's lower-variability candidates are uniswap-v3 (Ethereum), 1.93% APY, $250.2K TVL, https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token; uniswap-v3 (Base), 38.96% APY, $136.1K TVL, https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PROMPT's lower-variability candidates are uniswap-v3 (Ethereum), 14.83% APY, $246.2K TVL, https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token; uniswap-v3 (Base), 23.30% APY, $124.8K TVL, https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 1.93% | $250.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token) | Base | 38.96% | $136.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 14.83% | $246.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token) | Base | 23.30% | $124.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PROMPT shows up in 2 pools here, with rates from 1.93% to 38.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PROMPT shows up in 2 pools here, with rates from 14.83% to 23.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 37.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 35.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.93% | 9.80% | Base rate |
-| uniswap-v3 | 38.96% | 64.60% | Base rate |
+| uniswap-v3 | 14.83% | 9.59% | Base rate |
+| uniswap-v3 | 23.30% | 61.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PROMPT yield today?
 
-38.96% APY on uniswap-v3 (Base), based on live DefiLlama data.
+23.30% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many PROMPT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $386.3K in total.
+2 live pools clear this page's $100K TVL floor, $371K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PROMPT pools have the most stable APY history?
 
-Based on APY history only, PROMPT's lower-variability candidates are uniswap-v3 (Ethereum), 1.93% APY, $250.2K TVL, https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token; uniswap-v3 (Base), 38.96% APY, $136.1K TVL, https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PROMPT's lower-variability candidates are uniswap-v3 (Ethereum), 14.83% APY, $246.2K TVL, https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token; uniswap-v3 (Base), 23.30% APY, $124.8K TVL, https://www.defi.garden/?pool=56c353f8-165b-4126-b2de-7d951d3d5c6e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, PROMPT's lower-variability candidates are uniswap-v3 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

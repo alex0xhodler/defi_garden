@@ -4,7 +4,7 @@ The highest honest BILL yield right now is 0.01% on fluxion-network (Mantle), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.01% | $388.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.01% | $385.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BILL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $388.4K in total.
+1 live pool clear this page's $100K TVL floor, $385.6K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank BILL pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
+- [BSB](https://www.defi.garden/tokens/bsb)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 8, 2026
+## Last updated September 9, 2026

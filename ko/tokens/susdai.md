@@ -1,54 +1,56 @@
 # SUSDAI 디파이 수익률
 
-현재 SUSDAI의 가장 높은 정직한 수익률은 Arbitrum의 pendle-v2에서 11.68%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDAI의 가장 높은 정직한 수익률은 Arbitrum의 pendle-v2에서 11.58%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.03% | $460.09M |
-| [fluid-dex →](https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token) | Ethereum | 0.01% | $26.38M |
-| [fluid-dex →](https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token) | Ethereum | 0.04% | $26.35M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.03% | $17.87M |
-| [pendle-v2 →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.77% | $11.5M |
-| [pendle-v2 →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 11.68% | $11.5M |
-| [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 3.58% | $1.5M |
-| [pendle-v2 →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 10.49% | $1.42M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.03% | $461.76M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.58% | $17.88M |
+| [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.13% | $17.73M |
+| [pendle-v2 →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 11.58% | $11.62M |
+| [pendle-v2 →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.74% | $11.62M |
+| [fluid-dex →](https://www.defi.garden/?pool=1a833dd0-fc33-4bc2-8383-6c34b71bb735&src=seo_token) | Base | 0.43% | $2.94M |
+| [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 3.75% | $1.51M |
+| [pendle-v2 →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 10.39% | $1.42M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.04%, TVL $26.35M, https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token; Ethereum의 fluid-dex, APY 0.01%, TVL $26.38M, https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token; Arbitrum의 usd-ai, APY 7.03%, TVL $460.09M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle-v2, APY 11.68%, TVL $11.5M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 pendle-v2, APY 8.77%, TVL $11.5M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 pendle-v2, APY 10.49%, TVL $1.42M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 fluid-dex, APY 0.03%, TVL $17.87M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 curve-dex, APY 3.58%, TVL $1.5M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Arbitrum의 usd-ai, APY 7.03%, TVL $461.76M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle-v2, APY 11.58%, TVL $11.62M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 pendle-v2, APY 8.74%, TVL $11.62M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 fluid-dex, APY 0.13%, TVL $17.73M, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; Arbitrum의 pendle-v2, APY 10.39%, TVL $1.42M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 fluid-dex, APY 0.58%, TVL $17.88M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 curve-dex, APY 3.75%, TVL $1.51M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token; Base의 fluid-dex, APY 0.43%, TVL $2.94M, https://www.defi.garden/?pool=1a833dd0-fc33-4bc2-8383-6c34b71bb735&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [fluid-dex →](https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token) | Ethereum | 0.04% | $26.35M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token) | Ethereum | 0.01% | $26.38M |
-| 3 | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.03% | $460.09M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 11.68% | $11.5M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.77% | $11.5M |
-| 6 | [pendle-v2 →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 10.49% | $1.42M |
-| 7 | [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.03% | $17.87M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 3.58% | $1.5M |
+| 1 | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.03% | $461.76M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 11.58% | $11.62M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.74% | $11.62M |
+| 4 | [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.13% | $17.73M |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 10.39% | $1.42M |
+| 6 | [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.58% | $17.88M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 3.75% | $1.51M |
+| 8 | [fluid-dex →](https://www.defi.garden/?pool=1a833dd0-fc33-4bc2-8383-6c34b71bb735&src=seo_token) | Base | 0.43% | $2.94M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 11.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.13%부터 11.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
+8개 풀 중 1개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| usd-ai | 7.03% | 7.47% | 기본 금리 |
-| fluid-dex | 0.01% | 0.11% | 기본 금리 |
-| fluid-dex | 0.04% | 0.04% | 기본 금리 |
-| fluid-dex | 0.03% | 0.18% | 기본 금리 |
-| pendle-v2 | 8.77% | 8.82% | 인센티브 3.06% |
-| pendle-v2 | 11.68% | 10.45% | 기본 금리 |
-| curve-dex | 3.58% | 4.47% | 기본 금리 |
-| pendle-v2 | 10.49% | 9.84% | 인센티브 7.85% |
+| usd-ai | 7.03% | 7.45% | 기본 금리 |
+| fluid-dex | 0.58% | 0.18% | 기본 금리 |
+| fluid-dex | 0.13% | 0.20% | 기본 금리 |
+| pendle-v2 | 11.58% | 10.49% | 기본 금리 |
+| pendle-v2 | 8.74% | 8.82% | 인센티브 2.87% |
+| fluid-dex | 0.43% | 0.26% | 기본 금리 |
+| curve-dex | 3.75% | 4.44% | 기본 금리 |
+| pendle-v2 | 10.39% | 9.86% | 인센티브 7.54% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,11 +58,11 @@ SUSDAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 11.68%
 
 ### 오늘 SUSDAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.68%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.58%예요.
 
 ### SUSDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $741.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $748.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,20 +70,20 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.68%예�
 
 ### SUSDAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.04%, TVL $26.35M, https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token; Ethereum의 fluid-dex, APY 0.01%, TVL $26.38M, https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token; Arbitrum의 usd-ai, APY 7.03%, TVL $460.09M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle-v2, APY 11.68%, TVL $11.5M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 pendle-v2, APY 8.77%, TVL $11.5M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 pendle-v2, APY 10.49%, TVL $1.42M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 fluid-dex, APY 0.03%, TVL $17.87M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 curve-dex, APY 3.58%, TVL $1.5M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Arbitrum의 usd-ai, APY 7.03%, TVL $461.76M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle-v2, APY 11.58%, TVL $11.62M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 pendle-v2, APY 8.74%, TVL $11.62M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 fluid-dex, APY 0.13%, TVL $17.73M, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; Arbitrum의 pendle-v2, APY 10.39%, TVL $1.42M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 fluid-dex, APY 0.58%, TVL $17.88M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 curve-dex, APY 3.75%, TVL $1.51M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token; Base의 fluid-dex, APY 0.43%, TVL $2.94M, https://www.defi.garden/?pool=1a833dd0-fc33-4bc2-8383-6c34b71bb735&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 8, 2026
+## 마지막 업데이트: September 9, 2026
