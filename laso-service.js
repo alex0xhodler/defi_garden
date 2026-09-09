@@ -498,8 +498,8 @@
     var onProgress = p.onProgress || function () {};
     var fetchFn = p.fetchFn || (typeof fetch !== 'undefined' ? fetch : null);
     var baseUrl = p.baseUrl || getBaseUrl();
-    var pollIntervalMs = p.pollIntervalMs || 2000;
-    var maxWaitMs = p.maxWaitMs || 45000;
+    var pollIntervalMs = p.pollIntervalMs || 3000;
+    var maxWaitMs = p.maxWaitMs || 180000;
     var startTime = Date.now();
 
     if (!fetchFn) {
@@ -510,7 +510,10 @@
       function check() {
         var elapsed = Date.now() - startTime;
         if (elapsed > maxWaitMs) {
-          return reject(new Error('Card provisioning timed out after ' + Math.round(maxWaitMs / 1000) + 's. Card ID: ' + cardId));
+          var timeoutErr = new Error('Card provisioning is taking longer than expected. Your payment was accepted — the card is still being issued.');
+          timeoutErr.isProvisioningTimeout = true;
+          timeoutErr.cardId = cardId;
+          return reject(timeoutErr);
         }
 
         onProgress({
@@ -1222,6 +1225,49 @@
     getLasoDashboardUrl: getLasoDashboardUrl,
 
     // Simulator
-    simulateIssuance: simulateIssuance
+    simulateIssuance: simulateIssuance,
+
+    // Pending-order recovery
+    resumeCardPolling: resumeCardPolling
   };
+
+  /**
+   * Resumes polling for a previously-accepted order that timed out or whose
+   * page was closed mid-provisioning. Resolves with the ready card and updates
+   * the stored record. Rejects if the card never becomes ready.
+   */
+  function resumeCardPolling(params) {
+    var p = params || {};
+    var walletAddress = p.walletAddress;
+    var onProgress = p.onProgress || function () {};
+    if (!walletAddress) {
+      return Promise.reject(new Error('walletAddress is required to resume polling'));
+    }
+    var cards = getStoredCards(walletAddress);
+    var pending = null;
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].status === 'pending' && (cards[i].card_id || cards[i].id)) {
+        pending = cards[i];
+        break;
+      }
+    }
+    if (!pending) {
+      return Promise.reject(new Error('No pending card order found for this wallet'));
+    }
+    var cardId = pending.card_id || pending.id;
+    return pollCardUntilReady({
+      cardId: cardId,
+      idToken: pending.id_token,
+      onProgress: onProgress,
+      pollIntervalMs: p.pollIntervalMs,
+      maxWaitMs: p.maxWaitMs
+    }).then(function (cardDetails) {
+      saveStoredCard(walletAddress, Object.assign({}, pending, cardDetails, {
+        card_id: cardId,
+        status: 'ready',
+        last4: cardDetails.card_number ? String(cardDetails.card_number).slice(-4) : pending.last4
+      }));
+      return cardDetails;
+    });
+  }
 });

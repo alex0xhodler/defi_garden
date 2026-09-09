@@ -277,6 +277,85 @@
       color: var(--ui-text-secondary, rgba(255,255,255,0.65));
       margin-top: 2px;
     }
+    .checkout-pending-banner {
+      border-radius: 0 !important;
+      margin-top: 16px;
+      background: rgba(124, 201, 160, 0.06);
+      border: 1px solid rgba(124, 201, 160, 0.28);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-sizing: border-box;
+    }
+    .pending-pulse-row {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+    .pending-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--ui-accent, #7CC9A0);
+      flex-shrink: 0;
+      animation: pending-pulse 1.6s ease-in-out infinite;
+    }
+    @keyframes pending-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pending-dot { animation: none; }
+    }
+    .pending-title {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.90rem;
+      font-weight: 700;
+      color: var(--ui-text, #FFFFFF);
+    }
+    .pending-desc {
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.80rem;
+      line-height: 1.55;
+      color: var(--ui-text-secondary, rgba(255,255,255,0.68));
+      margin: 0;
+    }
+    .pending-meta {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.70rem;
+      color: var(--ui-text-muted, #64748B);
+      word-break: break-all;
+    }
+    .pending-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .pending-check-btn {
+      height: 38px;
+      padding: 0 16px;
+      background: var(--ui-accent, #7CC9A0);
+      color: #08140f;
+      border: 1px solid var(--ui-accent, #7CC9A0);
+      border-radius: 0 !important;
+      font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s ease-out;
+    }
+    .pending-check-btn:hover:not(:disabled) {
+      background: var(--ui-accent-hover, #93D6B2);
+    }
+    .pending-check-btn:disabled {
+      opacity: 0.55;
+      cursor: default;
+    }
+    .pending-status {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.72rem;
+      color: var(--ui-text-secondary, rgba(255,255,255,0.6));
+    }
     .metric-label {
       color: var(--ui-text-secondary);
       flex-shrink: 1;
@@ -1636,6 +1715,20 @@
             <button type="button" class="error-retry-btn" id="laso-error-retry-btn">Try again</button>
           </div>
 
+          <!-- Pending Recovery View (paid, card still provisioning) -->
+          <div class="checkout-pending-banner" id="laso-pending-view" style="display:none;">
+            <div class="pending-pulse-row">
+              <span class="pending-dot" aria-hidden="true"></span>
+              <span class="pending-title">Payment received — card is being issued</span>
+            </div>
+            <p class="pending-desc">Laso is provisioning your Visa card. This can take a few minutes. Your order is saved — you can safely leave and return to this page with the same wallet to pick it up.</p>
+            <div class="pending-meta" id="laso-pending-meta"></div>
+            <div class="pending-actions">
+              <button type="button" class="pending-check-btn" id="laso-pending-check-btn">Check status now</button>
+              <span class="pending-status" id="laso-pending-status"></span>
+            </div>
+          </div>
+
           <!-- VIEW B: Email Waitlist (Secondary Flow) -->
           <div class="checkout-flow" id="panel-waitlist" style="display:none;">
             <div class="checkout-header">
@@ -2308,10 +2401,73 @@
         }
       }
 
+      var lasoPendingView = document.getElementById('laso-pending-view');
+      var lasoPendingMeta = document.getElementById('laso-pending-meta');
+      var lasoPendingStatus = document.getElementById('laso-pending-status');
+      var lasoPendingCheckBtn = document.getElementById('laso-pending-check-btn');
+      var pendingWalletAddress = null;
+
+      function showPendingRecovery(err) {
+        if (lasoProgressView) lasoProgressView.style.display = 'none';
+        if (lasoErrorView) lasoErrorView.style.display = 'none';
+        if (lasoCardView) lasoCardView.style.display = 'none';
+        if (panelInstant) panelInstant.style.display = 'block';
+        if (lasoPendingView) {
+          lasoPendingView.style.display = 'flex';
+          if (lasoPendingMeta && err && err.cardId) {
+            lasoPendingMeta.textContent = 'Order: ' + err.cardId;
+          }
+        }
+      }
+
+      function resumePendingOrder() {
+        if (!pendingWalletAddress || !window.LasoService || !window.LasoService.resumeCardPolling) return;
+        if (lasoPendingCheckBtn) lasoPendingCheckBtn.disabled = true;
+        if (lasoPendingStatus) lasoPendingStatus.textContent = 'Checking…';
+        window.LasoService.resumeCardPolling({
+          walletAddress: pendingWalletAddress,
+          maxWaitMs: 120000,
+          onProgress: function(p) {
+            if (lasoPendingStatus) lasoPendingStatus.textContent = p.message || 'Checking…';
+          }
+        }).then(function(card) {
+          if (lasoPendingView) lasoPendingView.style.display = 'none';
+          showCard(card);
+        }).catch(function(e) {
+          if (lasoPendingCheckBtn) lasoPendingCheckBtn.disabled = false;
+          if (lasoPendingStatus) {
+            lasoPendingStatus.textContent = (e && e.isProvisioningTimeout)
+              ? 'Still provisioning — try again shortly.'
+              : (e && e.message) || 'Could not check status.';
+          }
+        });
+      }
+
+      if (lasoPendingCheckBtn) {
+        lasoPendingCheckBtn.addEventListener('click', resumePendingOrder);
+      }
+
+      // On load: if the connected wallet has a paid-but-unissued order, surface recovery.
+      (function detectPendingOrder() {
+        if (typeof window === 'undefined' || !window.LasoService || !window.LasoService.getStoredCards) return;
+        if (!window.ethereum || !window.ethereum.selectedAddress) return;
+        var addr = window.ethereum.selectedAddress;
+        var cards = window.LasoService.getStoredCards(addr) || [];
+        var pending = null;
+        for (var i = 0; i < cards.length; i++) {
+          if (cards[i].status === 'pending' && (cards[i].card_id || cards[i].id)) { pending = cards[i]; break; }
+        }
+        if (pending) {
+          pendingWalletAddress = addr;
+          showPendingRecovery({ cardId: pending.card_id || pending.id });
+        }
+      })();
+
       function showCard(card) {
         currentLasoCard = card;
         if (lasoProgressView) lasoProgressView.style.display = 'none';
         if (lasoErrorView) lasoErrorView.style.display = 'none';
+        if (lasoPendingView) lasoPendingView.style.display = 'none';
         if (panelInstant) panelInstant.style.display = 'none';
         if (lasoCardView) lasoCardView.style.display = 'block';
 
@@ -2350,6 +2506,9 @@
 
           if (currentLasoMode === 'live') {
             updateStep('Connecting wallet & verifying Base network...');
+            if (window.ethereum && window.ethereum.selectedAddress) {
+              pendingWalletAddress = window.ethereum.selectedAddress;
+            }
             if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
               window.LasoService.issueCardWithLiveWallet({
                 amount: selectedAmount,
@@ -2360,7 +2519,11 @@
               }).then(function(card) {
                 showCard(card);
               }).catch(function(err) {
-                showError(err.message || 'Live issuance failed', err.lasoGuidance || null);
+                if (err && err.isProvisioningTimeout) {
+                  showPendingRecovery(err);
+                } else {
+                  showError(err.message || 'Live issuance failed', err.lasoGuidance || null);
+                }
               });
             } else {
               showError('Laso Service unavailable in browser');
