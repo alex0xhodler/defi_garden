@@ -485,7 +485,7 @@ function renderEmvChip() {
     y: 0.5,
     width: 45,
     height: 33,
-    rx: 4.5,
+    rx: 0,
     fill: 'url(#emv-metallic-grad)',
     stroke: 'rgba(30,25,18,0.4)',
     strokeWidth: 0.8
@@ -494,7 +494,7 @@ function renderEmvChip() {
     y: 1.2,
     width: 43.6,
     height: 31.6,
-    rx: 4,
+    rx: 0,
     fill: 'none',
     stroke: 'url(#emv-bevel-grad)',
     strokeWidth: 0.6
@@ -780,6 +780,418 @@ function YieldCardWidget({
       setDepositAmount(snapDeposit);
     }
   }, [snapDeposit, totalApy, hasManuallyMovedSlider]);
+  // Laso.finance Virtual Visa Card State
+  var [showLasoTerminal, setShowLasoTerminal] = useState(false);
+  var [lasoIssuingState, setLasoIssuingState] = useState('idle'); // 'idle' | 'issuing' | 'issued' | 'error'
+  var [lasoProgressStep, setLasoProgressStep] = useState(0);
+  var [lasoProgressMessage, setLasoProgressMessage] = useState('');
+  var [lasoCardData, setLasoCardData] = useState(null);
+  var [lasoPanRevealed, setLasoPanRevealed] = useState(false);
+  var [lasoCvvRevealed, setLasoCvvRevealed] = useState(false);
+  var [lasoSimMode, setLasoSimMode] = useState(false);
+  var [lasoAmountPreset, setLasoAmountPreset] = useState('test5'); // 'test5' | 'service' | 'custom'
+  var [lasoCustomAmount, setLasoCustomAmount] = useState('5.00');
+  var [lasoCopiedField, setLasoCopiedField] = useState('');
+  var [lasoMerchantQuery, setLasoMerchantQuery] = useState('');
+  var [lasoMerchantResult, setLasoMerchantResult] = useState(null);
+  var [lasoMerchantSearching, setLasoMerchantSearching] = useState(false);
+  var [lasoBalanceRefreshing, setLasoBalanceRefreshing] = useState(false);
+  var [lasoSiwxUnlocking, setLasoSiwxUnlocking] = useState(false);
+
+  // Automatic Pending Order Recovery
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.LasoService) return;
+    try {
+      var cards = window.LasoService.getStoredCards();
+      if (cards && cards.length) {
+        var latest = cards[0];
+        if (latest.status === 'pending' && latest.card_id) {
+          var ageMs = Date.now() - new Date(latest.created_at || Date.now()).getTime();
+          if (ageMs < 300000) {
+            setShowLasoTerminal(true);
+            setLasoIssuingState('issuing');
+            setLasoProgressStep(5);
+            setLasoProgressMessage(isKorean ? `발급 재개 중 (${latest.card_id})...` : `Resuming pending card provisioning (${latest.card_id})...`);
+            window.LasoService.pollCardUntilReady({
+              cardId: latest.card_id,
+              idToken: latest.id_token,
+              onProgress: p => setLasoProgressMessage(p.message || '')
+            }).then(card => {
+              setLasoCardData(card);
+              setLasoIssuingState('issued');
+            }).catch(err => {
+              setLasoIssuingState('error');
+              setLasoProgressMessage(`Order recovery: ${err.message || 'Please retry'}`);
+            });
+          }
+        }
+      }
+    } catch (_) {}
+  }, []);
+  var handleCopyLasoField = (field, value) => {
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(value);
+      setLasoCopiedField(field);
+      setTimeout(() => setLasoCopiedField(''), 2500);
+    }
+  };
+  var handleSearchLasoMerchant = e => {
+    if (e && e.preventDefault) e.preventDefault();
+    if (!lasoMerchantQuery || !lasoMerchantQuery.trim()) return;
+    setLasoMerchantSearching(true);
+    try {
+      var q = lasoMerchantQuery.toLowerCase().trim();
+      var known = ['amazon', 'claude', 'anthropic', 'openai', 'chatgpt', 'cursor', 'spotify', 'netflix', 'aws', 'github', 'youtube', 'google', 'apple', 'hulu', 'disney', 'max', 'uber', 'doordash', 'walmart', 'audible'];
+      var isAccepted = known.some(k => q.includes(k) || k.includes(q));
+      setLasoMerchantResult({
+        query: lasoMerchantQuery,
+        status: isAccepted ? 'accepted' : 'unknown'
+      });
+    } catch (_) {
+      setLasoMerchantResult({
+        query: lasoMerchantQuery,
+        status: 'unknown'
+      });
+    } finally {
+      setLasoMerchantSearching(false);
+    }
+  };
+  var handleRefreshLasoBalance = () => {
+    if (!lasoCardData || !lasoCardData.card_id) return;
+    setLasoBalanceRefreshing(true);
+    if (typeof window !== 'undefined' && window.LasoService && !lasoCardData.is_simulation) {
+      window.LasoService.pollCardUntilReady({
+        cardId: lasoCardData.card_id,
+        idToken: lasoCardData.id_token,
+        maxWaitMs: 6000,
+        pollIntervalMs: 1500
+      }).then(updated => {
+        setLasoCardData(Object.assign({}, lasoCardData, updated));
+        setLasoBalanceRefreshing(false);
+      }).catch(() => {
+        setLasoBalanceRefreshing(false);
+      });
+    } else {
+      setTimeout(() => {
+        setLasoBalanceRefreshing(false);
+      }, 700);
+    }
+  };
+  var handleSiwxUnlock = async () => {
+    if (!lasoCardData || !lasoCardData.card_id) return;
+    setLasoSiwxUnlocking(true);
+    try {
+      if (typeof window !== 'undefined' && window.LasoService && window.LasoService.revealCardWithSiwx) {
+        var revealed = await window.LasoService.revealCardWithSiwx({
+          cardId: lasoCardData.card_id,
+          walletAddress: lasoCardData.wallet_address
+        });
+        setLasoCardData(Object.assign({}, lasoCardData, revealed));
+        setLasoPanRevealed(true);
+        setLasoCvvRevealed(true);
+      }
+    } catch (err) {
+      alert(err.message || 'SIWx signature verification failed');
+    } finally {
+      setLasoSiwxUnlocking(false);
+    }
+  };
+  var handleStartLasoIssuance = async () => {
+    var subTitle = activeSubs.length > 1 ? `${activeSubs.map(s => s.name).join(' + ')}` : selectedSub.name;
+    var serviceAmount = Math.max(5, Math.min(1000, Math.round(totalMonthlyWithBuffer)));
+    var amountToIssue = 5;
+    if (lasoAmountPreset === 'test5') {
+      amountToIssue = 5;
+    } else if (lasoAmountPreset === 'service') {
+      amountToIssue = serviceAmount;
+    } else {
+      amountToIssue = Math.max(5, Math.min(1000, Number(lasoCustomAmount) || 5));
+    }
+    setLasoIssuingState('issuing');
+    setLasoProgressStep(1);
+    if (!lasoSimMode) {
+      setLasoProgressMessage(isKorean ? '지갑 연결 및 Base 네트워크 확인 중...' : 'Connecting wallet & verifying Base network...');
+      try {
+        if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
+          var card = await window.LasoService.issueCardWithLiveWallet({
+            amount: amountToIssue,
+            subName: subTitle,
+            onProgress: p => {
+              setLasoProgressStep(p.step || 1);
+              setLasoProgressMessage(p.message || '');
+            }
+          });
+          setLasoCardData(card);
+          setLasoIssuingState('issued');
+        } else {
+          setLasoIssuingState('error');
+          setLasoProgressMessage('Laso Service unavailable in browser');
+        }
+      } catch (err) {
+        setLasoIssuingState('error');
+        setLasoProgressMessage(err.message || 'Live issuance failed');
+      }
+    } else {
+      setLasoProgressMessage(isKorean ? '지갑 서명 (SIWx CAIP-122) 요청 중...' : 'Requesting CAIP-122 wallet signature (SIWx)...');
+      try {
+        if (typeof window !== 'undefined' && window.LasoService) {
+          var _card = await window.LasoService.simulateIssuance({
+            amount: amountToIssue,
+            subName: subTitle,
+            walletAddress: '0x71C...B49a',
+            onProgress: p => {
+              setLasoProgressStep(p.step || 1);
+              setLasoProgressMessage(p.message || '');
+            }
+          });
+          setLasoCardData(_card);
+          setLasoIssuingState('issued');
+        } else {
+          setTimeout(() => {
+            setLasoIssuingState('issued');
+          }, 2000);
+        }
+      } catch (err) {
+        setLasoIssuingState('error');
+        setLasoProgressMessage(err.message || 'Issuance failed');
+      }
+    }
+  };
+  var renderLasoTerminal = () => {
+    return React.createElement('div', {
+      className: 'laso-terminal-container animate-on-mount'
+    },
+    // Header
+    React.createElement('div', {
+      className: 'laso-terminal-header'
+    }, React.createElement('div', {
+      className: 'laso-brand-title'
+    }, React.createElement('span', {
+      className: 'laso-brand-dot'
+    }), React.createElement('span', null, 'Laso.finance Virtual Visa Card Rail')), React.createElement('div', {
+      className: 'laso-mode-switch-group'
+    }, React.createElement('button', {
+      type: 'button',
+      className: `laso-mode-btn ${!lasoSimMode ? 'is-active live' : ''}`,
+      onClick: () => setLasoSimMode(false)
+    }, '⚡ Live Base USDC'), React.createElement('button', {
+      type: 'button',
+      className: `laso-mode-btn ${lasoSimMode ? 'is-active' : ''}`,
+      onClick: () => setLasoSimMode(true)
+    }, '🧪 Simulator'))), lasoIssuingState === 'idle' && (() => {
+      var sAmount = Math.max(5, Math.min(1000, Math.round(totalMonthlyWithBuffer)));
+      var currentAmount = lasoAmountPreset === 'test5' ? 5 : lasoAmountPreset === 'service' ? sAmount : Math.max(5, Math.min(1000, Number(lasoCustomAmount) || 5));
+      return React.createElement('div', {
+        className: 'laso-idle-card'
+      }, React.createElement('p', {
+        className: 'laso-terminal-desc'
+      }, !lasoSimMode ? isKorean ? 'Base 체인 x402 마이크로 결제로 즉시 발급되는 미국 가상 Visa 데빗 카드입니다. Coinbase 릴레이어로 가스비 0원 후원. 6개월 유효, 미국 온라인 가맹점 결제, 0% 충전 수수료.' : 'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.' : isKorean ? 'Laso BaaS 발급, SIWx 지갑 인증 및 Base x402 마이크로 결제를 시뮬레이션하는 인터랙티브 테스트 환경입니다.' : 'Interactive test simulator mimicking live Laso BaaS issuance, SIWx auth, and Base x402 micro-payments.'), React.createElement('div', {
+        className: 'laso-amount-section'
+      }, React.createElement('span', {
+        className: 'laso-amount-label'
+      }, isKorean ? '카드 충전 금액 선택:' : 'Card Load Amount:'), React.createElement('div', {
+        className: 'laso-amount-chips-row'
+      }, React.createElement('button', {
+        type: 'button',
+        className: `laso-amount-chip ${lasoAmountPreset === 'test5' ? 'is-active' : ''}`,
+        onClick: () => setLasoAmountPreset('test5')
+      }, isKorean ? '🧪 테스트 최소 $5.00' : '🧪 Test Min $5.00'), React.createElement('button', {
+        type: 'button',
+        className: `laso-amount-chip ${lasoAmountPreset === 'service' ? 'is-active' : ''}`,
+        onClick: () => setLasoAmountPreset('service')
+      }, isKorean ? `💼 구독료 $${sAmount.toFixed(2)}` : `💼 Service Bill $${sAmount.toFixed(2)}`), React.createElement('button', {
+        type: 'button',
+        className: `laso-amount-chip ${lasoAmountPreset === 'custom' ? 'is-active' : ''}`,
+        onClick: () => setLasoAmountPreset('custom')
+      }, isKorean ? '✏️ 직접 입력' : '✏️ Custom')), lasoAmountPreset === 'custom' && React.createElement('div', {
+        className: 'laso-custom-amount-row'
+      }, React.createElement('span', null, '$'), React.createElement('input', {
+        type: 'number',
+        className: 'laso-custom-amount-input',
+        min: 5,
+        max: 1000,
+        step: '1',
+        value: lasoCustomAmount,
+        onChange: e => setLasoCustomAmount(e.target.value)
+      }), React.createElement('span', {
+        className: 'laso-custom-amount-hint'
+      }, 'Min $5.00 — Max $1,000'))), React.createElement('div', {
+        className: 'laso-specs-grid'
+      }, React.createElement('div', {
+        className: 'laso-spec-item'
+      }, React.createElement('span', {
+        className: 'laso-spec-k'
+      }, 'Type:'), React.createElement('span', {
+        className: 'laso-spec-v'
+      }, 'USA Prepaid Visa')), React.createElement('div', {
+        className: 'laso-spec-item'
+      }, React.createElement('span', {
+        className: 'laso-spec-k'
+      }, 'Network:'), React.createElement('span', {
+        className: 'laso-spec-v highlight'
+      }, 'Base (eip155:8453)')), React.createElement('div', {
+        className: 'laso-spec-item'
+      }, React.createElement('span', {
+        className: 'laso-spec-k'
+      }, 'Gas Fee:'), React.createElement('span', {
+        className: 'laso-spec-v highlight'
+      }, '0 ETH (Sponsored)'))), React.createElement('button', {
+        type: 'button',
+        className: 'laso-issue-cta-btn',
+        onClick: handleStartLasoIssuance
+      }, !lasoSimMode ? isKorean ? `⚡ 지갑 연결 및 실시간 발급 ($${currentAmount.toFixed(2)} USDC) →` : `⚡ Connect Wallet & Issue Live Card ($${currentAmount.toFixed(2)} USDC) →` : isKorean ? `🧪 가상 카드 발급 시뮬레이션 ($${currentAmount.toFixed(2)}) →` : `🧪 Simulate Card Issuance ($${currentAmount.toFixed(2)}) →`));
+    })(), lasoIssuingState === 'issuing' && React.createElement('div', {
+      className: 'laso-issuing-progress-box'
+    }, React.createElement('div', {
+      className: 'laso-steps-track'
+    }, React.createElement('div', {
+      className: `laso-step-dot ${lasoProgressStep >= 1 ? 'is-active' : ''}`
+    }, '1'), React.createElement('div', {
+      className: `laso-step-line ${lasoProgressStep >= 2 ? 'is-active' : ''}`
+    }), React.createElement('div', {
+      className: `laso-step-dot ${lasoProgressStep >= 2 ? 'is-active' : ''}`
+    }, '2'), React.createElement('div', {
+      className: `laso-step-line ${lasoProgressStep >= 3 ? 'is-active' : ''}`
+    }), React.createElement('div', {
+      className: `laso-step-dot ${lasoProgressStep >= 3 ? 'is-active' : ''}`
+    }, '3'), React.createElement('div', {
+      className: `laso-step-line ${lasoProgressStep >= 4 ? 'is-active' : ''}`
+    }), React.createElement('div', {
+      className: `laso-step-dot ${lasoProgressStep >= 4 ? 'is-active' : ''}`
+    }, '4'), React.createElement('div', {
+      className: `laso-step-line ${lasoProgressStep >= 5 ? 'is-active' : ''}`
+    }), React.createElement('div', {
+      className: `laso-step-dot ${lasoProgressStep >= 5 ? 'is-active' : ''}`
+    }, '5')), React.createElement('div', {
+      className: 'laso-step-labels'
+    }, React.createElement('span', null, 'Base Net'), React.createElement('span', null, 'USDC Check'), React.createElement('span', null, '402 Quote'), React.createElement('span', null, 'EIP-712 Sign'), React.createElement('span', null, 'Activate')), React.createElement('div', {
+      className: 'laso-spinner-msg-row'
+    }, React.createElement('span', {
+      className: 'laso-pulse-spinner'
+    }), React.createElement('span', {
+      className: 'laso-progress-text'
+    }, lasoProgressMessage))), lasoIssuingState === 'issued' && lasoCardData && React.createElement('div', {
+      className: 'laso-active-card-surface'
+    },
+    // Virtual Visa card visualizer
+    React.createElement('div', {
+      className: 'laso-issued-card'
+    }, React.createElement('div', {
+      className: 'laso-card-top-row'
+    }, React.createElement('span', {
+      className: 'laso-card-brand'
+    }, 'DEFI GARDEN • LASO VISA'), React.createElement('span', {
+      className: `laso-card-live-badge ${lasoCardData.is_simulation ? 'sim' : 'live'}`
+    }, lasoCardData.is_simulation ? '🧪 SIMULATOR' : '⚡ LIVE BASE'), React.createElement('span', {
+      className: 'laso-card-debit'
+    }, 'DEBIT')), React.createElement('div', {
+      className: 'laso-card-pan-row'
+    }, React.createElement('span', {
+      className: 'laso-card-pan'
+    }, lasoCardData.card_number ? lasoPanRevealed ? lasoCardData.card_number : '•••• •••• •••• ' + lasoCardData.card_number.slice(-4) : '•••• •••• •••• ' + (lasoCardData.last4 || '8842')), React.createElement('div', {
+      className: 'laso-pan-controls'
+    }, React.createElement('button', {
+      type: 'button',
+      className: 'laso-mini-btn',
+      onClick: () => setLasoPanRevealed(!lasoPanRevealed)
+    }, lasoPanRevealed ? 'Hide' : 'Show'), React.createElement('button', {
+      type: 'button',
+      className: 'laso-mini-btn highlight',
+      onClick: () => handleCopyLasoField('pan', lasoCardData.card_number || '4242884919208842')
+    }, lasoCopiedField === 'pan' ? 'Copied!' : 'Copy PAN'))), React.createElement('div', {
+      className: 'laso-card-meta-row'
+    }, React.createElement('div', null, React.createElement('span', {
+      className: 'laso-meta-label'
+    }, 'EXP: '), React.createElement('span', {
+      className: 'laso-meta-val'
+    }, `${lasoCardData.exp_month || '02'}/${lasoCardData.exp_year || '32'}`)), React.createElement('div', null, React.createElement('span', {
+      className: 'laso-meta-label'
+    }, 'CVV: '), React.createElement('span', {
+      className: 'laso-meta-val'
+    }, lasoCvvRevealed ? lasoCardData.cvv || '942' : '•••'), React.createElement('button', {
+      type: 'button',
+      className: 'laso-mini-btn text-only',
+      onClick: () => setLasoCvvRevealed(!lasoCvvRevealed)
+    }, lasoCvvRevealed ? 'Hide' : 'Show'), React.createElement('button', {
+      type: 'button',
+      className: 'laso-mini-btn',
+      onClick: () => handleCopyLasoField('cvv', lasoCardData.cvv || '942')
+    }, lasoCopiedField === 'cvv' ? 'Copied!' : 'Copy')), React.createElement('div', null, React.createElement('span', {
+      className: 'laso-meta-label'
+    }, 'BAL: '), React.createElement('span', {
+      className: 'laso-meta-val balance'
+    }, `$${Number(lasoCardData.available_balance || totalMonthlyWithBuffer).toFixed(2)}`)))),
+    // US Billing Address Card
+    (() => {
+      var bAddr = lasoCardData.billing_address || {};
+      var addrStr = bAddr.line_1 ? `${bAddr.line_1}${bAddr.line_2 ? ', ' + bAddr.line_2 : ''}, ${bAddr.city}, ${bAddr.state} ${bAddr.zip || bAddr.postal_code || ''}, ${bAddr.country || 'US'}` : '440 N Barranca Avenue, #4496, Covina, CA 91723, US';
+      return React.createElement('div', {
+        className: 'laso-billing-address-box'
+      }, React.createElement('div', {
+        className: 'billing-header-row'
+      }, React.createElement('span', {
+        className: 'billing-title'
+      }, '🇺🇸 Assigned US Billing Address (for checkout)'), React.createElement('button', {
+        type: 'button',
+        className: 'laso-mini-btn highlight',
+        onClick: () => handleCopyLasoField('addr', addrStr)
+      }, lasoCopiedField === 'addr' ? 'Copied!' : 'Copy Address')), React.createElement('p', {
+        className: 'billing-text'
+      }, addrStr));
+    })(), !lasoCardData.card_number && !lasoCardData.is_simulation && React.createElement('div', {
+      className: 'laso-siwx-unlock-banner animate-on-mount'
+    }, React.createElement('div', null, React.createElement('span', {
+      className: 'laso-siwx-note'
+    }, isKorean ? '카드 정보가 잠겨 있습니다. 지갑 서명으로 복호화합니다.' : 'Credentials locked for security. Authenticate to decrypt.')), React.createElement('button', {
+      type: 'button',
+      className: 'laso-siwx-unlock-btn',
+      onClick: handleSiwxUnlock,
+      disabled: lasoSiwxUnlocking
+    }, lasoSiwxUnlocking ? isKorean ? '서명 중…' : 'Signing…' : isKorean ? '🔓 지갑 서명으로 카드 확인' : '🔓 Sign with Wallet to Reveal')),
+    // Merchant Acceptance Search Tool
+    React.createElement('form', {
+      className: 'laso-merchant-search-box',
+      onSubmit: handleSearchLasoMerchant
+    }, React.createElement('input', {
+      type: 'text',
+      className: 'laso-merchant-input',
+      placeholder: 'Check merchant (e.g. Claude, Cursor, OpenAI, Spotify)...',
+      value: lasoMerchantQuery,
+      onChange: e => setLasoMerchantQuery(e.target.value)
+    }), React.createElement('button', {
+      type: 'submit',
+      className: 'laso-merchant-btn',
+      disabled: lasoMerchantSearching
+    }, lasoMerchantSearching ? '…' : 'Check'), lasoMerchantResult && React.createElement('div', {
+      className: `laso-merchant-badge ${lasoMerchantResult.status}`
+    }, lasoMerchantResult.status === 'accepted' ? '✅ Accepted for US Checkout' : '⚠️ Unknown / Test Required')),
+    // Action Buttons
+    React.createElement('div', {
+      className: 'laso-issued-footer-actions'
+    }, React.createElement('button', {
+      type: 'button',
+      className: 'laso-refresh-btn',
+      onClick: handleRefreshLasoBalance,
+      disabled: lasoBalanceRefreshing
+    }, lasoBalanceRefreshing ? 'Refreshing…' : '🔄 Refresh Live Balance'), React.createElement('button', {
+      type: 'button',
+      className: 'laso-reset-btn',
+      onClick: () => {
+        setLasoIssuingState('idle');
+        setLasoCardData(null);
+      }
+    }, 'Issue Another Card'))), lasoIssuingState === 'error' && React.createElement('div', {
+      className: 'laso-error-card animate-on-mount'
+    }, React.createElement('span', {
+      className: 'laso-error-title'
+    }, '⚠️ Card Issuance Interrupted'), React.createElement('p', {
+      className: 'laso-error-msg'
+    }, lasoProgressMessage), React.createElement('button', {
+      type: 'button',
+      className: 'laso-error-retry-btn',
+      onClick: () => setLasoIssuingState('idle')
+    }, '← Back & Try Again')));
+  };
   var formatReqCap = (costUsd, costKrw) => {
     var cost = isKorean && costKrw ? costKrw / 1380 : costUsd;
     var req = calculateRequiredCapital(cost * 1.2, totalApy);
@@ -1041,34 +1453,46 @@ function YieldCardWidget({
   React.createElement('div', {
     className: 'virtual-visa-card-wrapper'
   }, React.createElement('div', {
-    className: 'virtual-visa-card'
+    className: 'virtual-visa-card',
+    onPointerMove: ev => {
+      if (typeof window !== 'undefined' && window.matchMedia && (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !window.matchMedia('(pointer: fine)').matches)) return;
+      var rect = ev.currentTarget.getBoundingClientRect();
+      if (!rect.width || !rect.height) return;
+      var x = Math.max(0, Math.min(1, (ev.clientX - rect.left) / rect.width));
+      var y = Math.max(0, Math.min(1, (ev.clientY - rect.top) / rect.height));
+      var rotateY = (x - 0.5) * 14;
+      var rotateX = (0.5 - y) * 14;
+      ev.currentTarget.style.transition = 'none';
+      ev.currentTarget.style.transform = `perspective(1200px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg)`;
+      var sheenX = 50 + (x - 0.5) * 30;
+      ev.currentTarget.style.setProperty('--sheen-x', `${sheenX.toFixed(1)}% 0`);
+    },
+    onPointerLeave: ev => {
+      ev.currentTarget.style.transition = 'transform 0.2s ease-out';
+      ev.currentTarget.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+      ev.currentTarget.style.setProperty('--sheen-x', '50% 0');
+    }
   },
-  // Guilloche lathework pattern background
-  React.createElement('div', {
-    className: 'visa-card-guilloche',
-    'aria-hidden': 'true'
-  }), React.createElement('div', {
-    className: 'visa-card-specular',
-    'aria-hidden': 'true'
-  }),
-  // Card top row: EMV Chip + NFC Wave (left) & Visa Logo (right)
+  // Card top row: EMV Chip + NFC Wave (left) & Visa Logo + Metal (right)
   React.createElement('div', {
     className: 'visa-card-top-row'
   }, React.createElement('div', {
     className: 'visa-card-chip-group'
   }, renderEmvChip(), renderNfcIcon()), React.createElement('div', {
     className: 'visa-card-brand-group'
-  }, renderVisaSvg(), React.createElement('span', {
+  }, renderVisaSvg(), React.createElement('div', {
+    className: 'visa-card-tier-row'
+  }, React.createElement('span', {
     className: 'visa-card-type-badge'
-  }, 'DEBIT'))),
+  }, 'DEBIT'), React.createElement('span', {
+    className: 'visa-card-metal-badge'
+  }, 'METAL')))),
   // Card center: Masked PAN & Dedicated Spend label
   React.createElement('div', {
     className: 'visa-card-center'
   }, React.createElement('div', {
     className: 'visa-card-pan'
-  }, '4242  ••••  ••••  8842'), React.createElement('div', {
-    className: 'visa-card-label-sub'
-  }, activeSubs.length > 1 ? isKorean ? `DEFI GARDEN • ${activeSubs.length}개 구독 통합` : `DEFI GARDEN • ${activeSubs.length} SUBS BUNDLE` : isKorean ? `${selectedSub.id.toUpperCase()} • 가상 발급 전용` : `${selectedSub.id.toUpperCase()}-VAULT / AGENT-01`), React.createElement('div', {
+  }, '•••• •••• •••• 8453'), React.createElement('div', {
     className: 'visa-card-funded-label'
   }, activeSubs.length > 1 ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED` : isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
   // Card bottom row: Expiration, Network info & Spend cap badge
@@ -1080,118 +1504,41 @@ function YieldCardWidget({
     className: 'visa-card-expiry'
   }, 'VALID 08/31'), React.createElement('span', {
     className: 'visa-card-network-info'
-  }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`)), React.createElement('div', {
+  }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} · YIELD FUNDED`)), React.createElement('div', {
+    className: 'visa-card-meta-right'
+  }, React.createElement('div', {
+    className: 'visa-card-hologram',
+    'aria-hidden': 'true'
+  }), React.createElement('div', {
     className: 'visa-card-cap-badge'
-  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `CAP: $${totalMonthlyWithBuffer.toFixed(2)}/MO${activeSubs.length > 1 ? ` (${activeSubs.length} SUBS)` : ''}`))))), React.createElement('div', {
+  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `🟢 ACTIVE ($${totalMonthlyWithBuffer.toFixed(2)}/MO)`)))))), React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
-  }, !isSubmitted ? React.createElement('div', {
+  }, React.createElement('div', {
     className: 'yield-card-reservation'
   }, React.createElement('h3', {
     className: 'reservation-title'
-  }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'), React.createElement('p', {
+  }, isKorean ? `${pool.symbol || 'USDC'} 이자 직결 가상 Visa 카드` : `Get ${pool.symbol || 'USDC'} Yield Card`), React.createElement('p', {
     className: 'reservation-subtitle'
-  }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'), React.createElement('form', {
-    className: 'reservation-form',
-    noValidate: true,
-    onSubmit: handleSubmit
-  }, React.createElement('div', {
-    className: 'reservation-input-group'
-  }, React.createElement('div', {
-    className: 'input-with-icon'
-  }, renderMailIcon(), React.createElement('input', {
-    type: 'email',
-    className: 'email-input',
-    placeholder: _t('yieldCard.emailPlaceholder') || 'Enter developer / user email...',
-    value: email,
-    onChange: e => setEmail(e.target.value),
-    required: true
-  })), React.createElement('button', {
-    type: 'submit',
-    className: 'reserve-submit-btn'
-  }, _t('yieldCard.submitBtn') || 'Issue My Card at Launch →')), validationError && React.createElement('div', {
-    className: 'validation-error'
-  }, validationError)), React.createElement('p', {
-    className: 'reservation-micro-hint'
-  }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever')) : React.createElement('div', {
-    className: 'yield-card-receipt animate-on-mount'
-  }, React.createElement('div', {
-    className: 'receipt-badge-row'
-  }, React.createElement('div', {
-    className: 'receipt-spot-badge'
-  }, _t('yieldCard.spotReserved') || 'Early Access Reserved'), React.createElement('div', {
-    className: 'receipt-alpha-pill'
-  }, _t('yieldCard.alphaUnlock') || '⚡ +1 Invite = Instant Alpha Access')), React.createElement('h3', {
-    className: 'receipt-title'
-  }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'), React.createElement('div', {
-    className: 'receipt-card-preview-chip'
-  }, `${pool.symbol || 'USDC'} Yield Card • ${activeSubs.length > 1 ? `${activeSubs.map(s => s.name).join(' + ')} (${activeSubs.length} Subs)` : selectedSub.name} • ${isKorean && totalMonthlyKrw ? `₩${_formatNum(totalMonthlyKrw)}/mo` : `$${totalMonthlyBase.toFixed(2)}/mo`}`),
-  // Gamification Alpha Unlock Box
-  React.createElement('div', {
-    className: `receipt-gamification-box${invitedCount >= 1 ? ' is-unlocked' : ''}`
-  }, React.createElement('div', {
-    className: 'gamification-header'
-  }, React.createElement('span', {
-    className: 'gamification-label'
-  }, invitedCount >= 1 ? isKorean ? '⚡ 알파 우선 발급 승인 완료' : '⚡ Alpha Access Unlocked' : isKorean ? '🚀 알파 우선 발급 패스트트랙' : '🚀 Alpha Priority Fast-Track'), React.createElement('span', {
-    className: 'gamification-status'
-  }, invitedCount >= 1 ? isKorean ? '1 / 1명 달성 (완료)' : '1 / 1 (Unlocked 🎉)' : _t('yieldCard.inviteProgress') || '0 / 1 Invited')), React.createElement('div', {
-    className: 'gamification-progress-bar'
-  }, React.createElement('div', {
-    className: 'gamification-progress-fill',
-    style: {
-      width: invitedCount >= 1 ? '100%' : '25%'
-    }
-  })), React.createElement('p', {
-    className: 'gamification-desc'
-  }, invitedCount >= 1 ? isKorean ? '알파 액세스 자격을 획득하셨습니다! 아래 비공개 텔레그램 그룹에 입장하여 테스트넷 카드 발급 슬롯을 수령하세요.' : 'Alpha priority unlocked! You skipped the 2,480+ launch queue. Join the private Alpha Telegram group to claim your card issuance slot.' : isKorean ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.' : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.'), invitedCount >= 1 && React.createElement('a', {
-    className: 'receipt-telegram-cta-btn',
-    href: 'https://t.me/+rXf7XKhsffMxNzdk',
+  }, isKorean ? '원금 100% 보존 • 전 세계 Visa 결제 • Laso 공식 파트너 제휴' : 'Spend your idle yield anywhere Visa is accepted worldwide • 100% principal protected'), React.createElement('a', {
+    className: 'reserve-submit-btn',
+    href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
     target: '_blank',
     rel: 'noopener noreferrer',
-    onClick: () => {
-      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTelegramJoined) {
-        Analytics.trackYieldCardTelegramJoined({
-          pool,
-          goalId: selectedSub.id,
-          referral_code: myRefCode
-        });
-      }
+    style: {
+      textDecoration: 'none',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '100%',
+      height: '46px',
+      fontSize: '0.98rem',
+      fontWeight: '700',
+      marginTop: '16px',
+      boxSizing: 'border-box'
     }
-  }, React.createElement('svg', {
-    className: 'telegram-svg-icon',
-    viewBox: '0 0 24 24',
-    width: 15,
-    height: 15,
-    fill: 'currentColor',
-    'aria-hidden': 'true'
-  }, React.createElement('path', {
-    d: 'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z'
-  })), React.createElement('span', null, _t('yieldCard.joinTelegramAlpha') || 'Claim Alpha in Private Telegram →'))),
-  // Action Buttons: X (Twitter) Viral Share + Copy Link
-  React.createElement('div', {
-    className: 'receipt-actions-group'
-  }, React.createElement('button', {
-    type: 'button',
-    className: 'receipt-twitter-btn',
-    onClick: handleTwitterShare
-  }, React.createElement('svg', {
-    className: 'x-twitter-icon',
-    viewBox: '0 0 24 24',
-    width: 14,
-    height: 14,
-    fill: 'currentColor',
-    'aria-hidden': 'true'
-  }, React.createElement('path', {
-    d: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z'
-  })), React.createElement('span', null, _t('yieldCard.twitterShare') || 'Share on X to Unlock Alpha ⚡')), React.createElement('button', {
-    type: 'button',
-    className: 'receipt-share-btn',
-    onClick: handleCopyLink
-  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || '🔗 Copy invite link')), invitedCount === 0 && React.createElement('button', {
-    type: 'button',
-    className: 'receipt-verify-link-btn',
-    onClick: handleCheckInviteStatus
-  }, _t('yieldCard.checkStatus') || '⚡ Check invite status / claim access')))),
+  }, isKorean ? '⚡ Laso에서 Visa 카드 발급받기 →' : 'Get Visa Card on Laso →'), React.createElement('p', {
+    className: 'reservation-micro-hint'
+  }, isKorean ? '파트너 제휴 링크 적용 • 발급 수수료 면제 • 전 세계 Visa Debit' : 'Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit')))),
   // Deposit simulator slider section (Second controller in widget)
   React.createElement('div', {
     className: 'yield-card-slider-section'

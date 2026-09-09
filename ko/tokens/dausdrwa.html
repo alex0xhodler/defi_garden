@@ -74,11 +74,236 @@
       .tp-rate-stability table { min-width: 620px; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-      .tp-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
-      .tp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+.tp-waitlist {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-lg);
+        box-shadow: none;
+        padding: 24px 26px;
+        margin: 24px 0;
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 24px;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .tp-waitlist {
+          grid-template-columns: 1fr;
+          padding: 20px 18px;
+          gap: 20px;
+        }
+      }
+      .tp-waitlist h2 { font-size: 1.05rem; margin: 0 0 8px; color: var(--ui-text); }
       .tp-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
-      .tp-waitlist .tp-cta { margin: 4px 0 10px; }
+      .tp-waitlist .tp-cta { margin: 4px 0 10px; display: inline-block; }
       .tp-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
+      .tp-waitlist .tp-in-progress-state {
+        display: flex;
+        flex-direction: column;
+      }
+      .tp-waitlist .in-progress-status-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 4px 8px;
+        background: rgba(52, 211, 153, 0.12);
+        border: 1px solid rgba(52, 211, 153, 0.35);
+        color: rgba(52, 211, 153, 1);
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        margin-bottom: 10px;
+        align-self: flex-start;
+      }
+      .tp-waitlist .status-pulse-dot {
+        width: 6px;
+        height: 6px;
+        background: rgba(52, 211, 153, 1);
+        box-shadow: 0 0 8px rgba(52, 211, 153, 1);
+      }
+      .tp-waitlist .tp-reset-btn {
+        background: none;
+        border: none;
+        color: var(--ui-text-secondary);
+        cursor: pointer;
+        font-size: 0.78rem;
+        margin-top: 8px;
+        text-align: left;
+        padding: 0;
+      }
+      .tp-waitlist .tp-reset-btn:hover {
+        text-decoration: underline;
+        color: var(--ui-text);
+      }
+      .tp-waitlist .virtual-visa-card {
+        width: 100%;
+        max-width: 340px;
+        aspect-ratio: 1.586 / 1;
+        padding: 16px 18px;
+        background:
+          repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+          repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+          radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+          linear-gradient(138deg, rgba(11, 21, 17, 1) 0%, rgba(19, 37, 27, 1) 38%, rgba(10, 20, 15, 1) 70%, rgba(18, 36, 26, 1) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.32),
+          inset 1px 0 0 rgba(255, 255, 255, 0.14),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+          inset -1px 0 0 rgba(0, 0, 0, 0.45),
+          0 18px 40px -10px rgba(0, 0, 0, 0.7);
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        user-select: none;
+        margin: 0 auto;
+        border-radius: 0 !important;
+      }
+      .tp-waitlist .virtual-visa-card::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, 0.12) 42%, rgba(255, 255, 255, 0.26) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 72%);
+        background-size: 260% 100%;
+        background-position: 50% 0;
+        z-index: 5;
+      }
+      .tp-waitlist .visa-card-top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      .tp-waitlist .visa-card-chip-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .tp-waitlist .visa-gold-chip {
+        width: 36px;
+        height: 26px;
+        background: linear-gradient(135deg, rgba(199, 164, 98, 1) 0%, rgba(235, 216, 167, 1) 35%, rgba(180, 145, 76, 1) 70%, rgba(216, 190, 130, 1) 100%);
+        border: 1px solid rgba(40, 30, 15, 0.5);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+        position: relative;
+        flex-shrink: 0;
+        border-radius: 0 !important;
+      }
+      .tp-waitlist .visa-card-brand-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2px;
+      }
+      .tp-waitlist .visa-card-tier-row {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .tp-waitlist .visa-card-type-badge {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.50rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        color: rgba(255, 255, 255, 0.72);
+      }
+      .tp-waitlist .visa-card-metal-badge {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.46rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        background: rgba(255, 255, 255, 0.14);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        color: rgba(230, 255, 250, 1);
+        padding: 1px 4px;
+        border-radius: 0 !important;
+      }
+      .tp-waitlist .visa-card-center {
+        margin: 4px 0;
+        position: relative;
+        z-index: 2;
+      }
+      .tp-waitlist .visa-card-pan {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.82rem;
+        letter-spacing: 0.20em;
+        color: rgba(226, 236, 230, 1);
+        font-weight: 600;
+        margin-bottom: 2px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
+      }
+      .tp-waitlist .visa-card-funded-label {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.84rem;
+        font-weight: 700;
+        color: rgba(232, 242, 236, 1);
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
+      }
+      .tp-waitlist .visa-card-bottom-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 6px;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        position: relative;
+        z-index: 2;
+      }
+      .tp-waitlist .visa-card-meta-left {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+      }
+      .tp-waitlist .visa-card-expiry {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.58rem;
+        color: rgba(255, 255, 255, 0.72);
+        letter-spacing: 0.06em;
+      }
+      .tp-waitlist .visa-card-network-info {
+        font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+        font-size: 0.62rem;
+        color: rgba(255, 255, 255, 0.92);
+        letter-spacing: 0.03em;
+        font-weight: 600;
+      }
+      .tp-waitlist .visa-card-meta-right {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .tp-waitlist .visa-card-hologram {
+        width: 22px;
+        height: 22px;
+        background: conic-gradient(from 180deg at 50% 50%, rgba(78, 154, 112, 1), rgba(147, 214, 178, 1), rgba(212, 175, 55, 1), rgba(124, 201, 160, 1), rgba(78, 154, 112, 1));
+        opacity: 0.82;
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        border-radius: 0 !important;
+      }
+      .tp-waitlist .visa-card-cap-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.60rem;
+        font-weight: 700;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        padding: 3px 6px;
+        color: rgba(52, 211, 153, 1);
+        white-space: nowrap;
+        border-radius: 0 !important;
+      }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -165,12 +390,88 @@
         <a href="https://www.defi.garden/?token=DAUSDRWA&minTvl=100000&poolTypes=Lending&src=seo_token">Lending</a>
       </div>
     </nav>
-    <div class="tp-waitlist">
-      <h2>카드 얼리 액세스 신청하기</h2>
-      <p>내 DAUSDRWA 수익으로 결제되는 카드예요 — DAUSDRWA 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.</p>
-      <a class="tp-cta" href="/plan.html?waitlist=1&amp;src=seo_token">대기자 명단에 등록 →</a>
-      <p class="tp-waitlist-micro">무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요</p>
+    <div class="tp-waitlist" id="token-card-section">
+      <div class="tp-waitlist-content" id="token-laso-default-view">
+        <h2>DAUSDRWA Yield Card • Powered by Laso</h2>
+        <p>Spend your DAUSDRWA yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
+        <a class="tp-cta" id="token-laso-btn" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Get DAUSDRWA Card on Laso.finance →</a>
+        <p class="tp-waitlist-micro">Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit</p>
+      </div>
+      <div class="tp-waitlist-content tp-in-progress-state" id="token-laso-in-progress" style="display:none;">
+        <div class="in-progress-status-badge">
+          <span class="status-pulse-dot" aria-hidden="true"></span>
+          <span>CHECKOUT IN PROGRESS ON LASO</span>
+        </div>
+        <h2>Your DAUSDRWA partner perks are active.</h2>
+        <p>Complete your quick 30-second setup on Laso to claim your DAUSDRWA Visa debit card.</p>
+        <a class="tp-cta" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Resume on Laso.finance ↗</a>
+        <button type="button" class="tp-reset-btn" id="token-laso-reset-btn">← Back to card details</button>
+      </div>
+      <div class="tp-waitlist-card-col">
+        <div class="virtual-visa-card" data-card-tilt="true">
+          <div class="visa-card-top-row">
+            <div class="visa-card-chip-group">
+              <div class="visa-gold-chip" aria-hidden="true"></div>
+              <svg class="visa-nfc-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                <path d="M7 16a5.5 5.5 0 0 1 0-8" />
+                <path d="M11 18.5a9 9 0 0 1 0-13" />
+                <path d="M15 21a12.5 12.5 0 0 1 0-18" />
+                <path d="M3 13.5a2 2 0 0 1 0-3" />
+              </svg>
+            </div>
+            <div class="visa-card-brand-group">
+              <svg class="visa-logo-svg" viewBox="0 0 780 250" width="46" height="15" fill="rgba(255,255,255,1)" aria-label="VISA" role="img">
+                <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
+              </svg>
+              <div class="visa-card-tier-row">
+                <span class="visa-card-type-badge">DEBIT</span>
+                <span class="visa-card-metal-badge">METAL</span>
+              </div>
+            </div>
+          </div>
+          <div class="visa-card-center">
+            <div class="visa-card-pan">•••• •••• •••• 8453</div>
+            <div class="visa-card-funded-label">DAUSDRWA YIELD VAULT</div>
+          </div>
+          <div class="visa-card-bottom-row">
+            <div class="visa-card-meta-left">
+              <span class="visa-card-expiry">VALID 08/31</span>
+              <span class="visa-card-network-info">DAUSDRWA · BASE RAIL</span>
+            </div>
+            <div class="visa-card-meta-right">
+              <div class="visa-card-hologram" aria-hidden="true"></div>
+              <div class="visa-card-cap-badge">
+                <span>🟢 100% PRINCIPAL INTACT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <script>
+      (function() {
+        var btn = document.getElementById('token-laso-btn');
+        var inProg = document.getElementById('token-laso-in-progress');
+        var defaultView = document.getElementById('token-laso-default-view');
+        var resetBtn = document.getElementById('token-laso-reset-btn');
+        var tokenKey = 'dg_laso_token_' + 'dausdrwa';
+        function activate() {
+          if (defaultView) defaultView.style.display = 'none';
+          if (inProg) inProg.style.display = 'flex';
+          try { sessionStorage.setItem(tokenKey, '1'); } catch(e) {}
+        }
+        function deactivate() {
+          if (inProg) inProg.style.display = 'none';
+          if (defaultView) defaultView.style.display = 'flex';
+          try { sessionStorage.removeItem(tokenKey); } catch(e) {}
+        }
+        try {
+          if (sessionStorage.getItem(tokenKey) === '1') activate();
+        } catch(e) {}
+        if (btn) btn.addEventListener('click', activate);
+        if (resetBtn) resetBtn.addEventListener('click', deactivate);
+      })();
+    </script>
     <p class="note">수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.</p>
     <p class="note">마지막 업데이트: September 9, 2026</p>
     <p class="note"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — 목표에 맞춰 디파이 저축을 계획해요.</p>

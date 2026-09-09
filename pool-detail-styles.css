@@ -2137,11 +2137,19 @@ a.pool-token-chip:hover {
   width: 100%;
   max-width: 440px;
   aspect-ratio: 1.586 / 1;
-  border-radius: 12px;
   padding: 22px 24px;
-  background: linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), inset 0 -1px 0 rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.35);
+  background:
+    repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+    repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+    radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+    linear-gradient(138deg, #0B1511 0%, #13251B 38%, #0A140F 70%, #12241A 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32),
+    inset 1px 0 0 rgba(255, 255, 255, 0.14),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+    inset -1px 0 0 rgba(0, 0, 0, 0.45),
+    0 24px 50px -14px rgba(0, 0, 0, 0.7);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -2150,6 +2158,33 @@ a.pool-token-chip:hover {
   position: relative;
   overflow: hidden;
   user-select: none;
+  margin: 0 auto;
+  cursor: default;
+  transform-style: preserve-3d;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+  border-radius: 0 !important;
+}
+
+.virtual-visa-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, 0.12) 42%, rgba(255, 255, 255, 0.26) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 72%);
+  background-size: 260% 100%;
+  background-position: var(--sheen-x, 50% 0);
+  z-index: 5;
+  animation: card-sheen-sweep 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes card-sheen-sweep {
+  0% {
+    background-position: 230% 0;
+  }
+  100% {
+    background-position: var(--sheen-x, 50% 0);
+  }
 }
 
 .yield-card-reservation-wrapper {
@@ -2159,39 +2194,6 @@ a.pool-token-chip:hover {
   width: 100%;
   max-width: 480px;
   box-sizing: border-box;
-}
-
-.virtual-visa-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 25% 15%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 65%);
-  pointer-events: none;
-  border-radius: 12px;
-}
-
-.visa-card-specular {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.35) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.35) 75%, rgba(255, 255, 255, 0) 100%);
-  pointer-events: none;
-}
-
-.visa-card-guilloche {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 80% 80%, rgba(124, 201, 160, 0.08) 0%, transparent 60%),
-                    radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
-  pointer-events: none;
 }
 
 .visa-card-top-row {
@@ -2205,57 +2207,96 @@ a.pool-token-chip:hover {
 .visa-card-chip-group {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+}
+
+.visa-gold-chip {
+  width: 44px;
+  height: 33px;
+  background: linear-gradient(135deg, #c7a462 0%, #ebd8a7 35%, #b4914c 70%, #d8be82 100%);
+  border: 1px solid rgba(40, 30, 15, 0.5);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    0 1px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border-radius: 0 !important;
 }
 
 .visa-gold-chip-svg {
   display: block;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+  border-radius: 0 !important;
 }
 
 .visa-nfc-icon {
   display: block;
-  opacity: 0.85;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  width: 18px;
+  height: 18px;
+  opacity: 0.88;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+  flex-shrink: 0;
 }
 
 .visa-card-brand-group {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 2px;
+  gap: 3px;
+  flex-shrink: 0;
 }
 
 .visa-logo-svg {
   display: block;
-  width: 46px;
-  height: 15px;
-  max-width: 100%;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  width: 50px;
+  height: 16px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+
+.visa-card-tier-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .visa-card-type-badge {
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.56rem;
-  letter-spacing: 0.16em;
-  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.54rem;
   font-weight: 700;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.72);
+  text-transform: uppercase;
+}
+
+.visa-card-metal-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.50rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #e6fffa;
+  padding: 1px 5px;
+  border-radius: 0 !important;
+  text-shadow: 0 0 6px rgba(124, 201, 160, 0.5);
 }
 
 .visa-card-center {
-  margin: 10px 0;
+  margin: 6px 0;
   position: relative;
   z-index: 2;
 }
 
 .visa-card-pan {
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.95rem;
+  font-size: clamp(0.82rem, 3vw, 1.05rem);
   letter-spacing: 0.22em;
-  color: rgba(255, 255, 255, 0.92);
+  color: #E2ECE6;
   font-weight: 600;
-  margin-bottom: 6px;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  margin-bottom: 4px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 -1px 1px rgba(255, 255, 255, 0.2);
 }
 
 .visa-card-label-sub {
@@ -2270,21 +2311,23 @@ a.pool-token-chip:hover {
 
 .visa-card-funded-label {
   font-family: var(--font-family-mono, monospace);
-  font-size: 1.08rem;
+  font-size: clamp(0.84rem, 3.2vw, 1.10rem);
   font-weight: 700;
-  color: #ffffff;
-  letter-spacing: 0.04em;
+  color: #E8F2EC;
+  letter-spacing: 0.05em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 -1px 1px rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
 }
 
 .visa-card-bottom-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   position: relative;
   z-index: 2;
 }
@@ -2292,14 +2335,14 @@ a.pool-token-chip:hover {
 .visa-card-meta-left {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
   min-width: 0;
 }
 
 .visa-card-expiry {
   font-family: var(--font-family-mono, monospace);
   font-size: 0.64rem;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.72);
   letter-spacing: 0.08em;
   font-weight: 600;
 }
@@ -2307,29 +2350,45 @@ a.pool-token-chip:hover {
 .visa-card-network-info {
   font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.88);
-  letter-spacing: 0.03em;
-  font-weight: 550;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.visa-card-meta-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.visa-card-hologram {
+  width: 28px;
+  height: 28px;
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 0%, transparent 60%),
+    conic-gradient(from 180deg at 50% 50%, #4E9A70, #93D6B2, #68B28B, #D4AF37, #7CC9A0, #A8E0C0, #4E9A70);
+  opacity: 0.82;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 4px rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+  border-radius: 0 !important;
 }
 
 .visa-card-cap-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-family: var(--font-family-mono, monospace);
   font-size: 0.70rem;
   font-weight: 700;
-  background: rgba(0, 0, 0, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  padding: 4px 10px;
-  border-radius: 9999px;
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 4px 9px;
+  color: #34d399;
   white-space: nowrap;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0 !important;
+  text-shadow: 0 0 8px rgba(52, 211, 153, 0.4);
 }
 
 /* Reservation Form & Receipt (The Certificate Grammar / Brand On-Theme) */
@@ -2796,10 +2855,10 @@ a.pool-token-chip:hover {
 @media (max-width: 480px) {
   .virtual-visa-card {
     padding: 14px 16px;
-    border-radius: 10px;
+    border-radius: 0 !important;
   }
   .virtual-visa-card::before {
-    border-radius: 10px;
+    border-radius: 0 !important;
   }
   .visa-gold-chip-svg {
     width: 36px;
@@ -2839,4 +2898,1274 @@ a.pool-token-chip:hover {
   .reservation-title {
     font-size: 1.12rem;
   }
+}
+
+/* ==========================================================================
+   Laso.finance Virtual Visa Card Terminal & Agent Rails
+   ========================================================================== */
+
+.laso-instant-launch-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 14px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px solid var(--cert-green-wash);
+  border-radius: var(--cert-radius);
+  color: var(--cert-green);
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-top: 10px;
+}
+
+.laso-instant-launch-toggle-btn:hover {
+  background: rgba(124, 201, 160, 0.16);
+  border-color: var(--cert-green);
+  transform: translateY(-1px);
+}
+
+.laso-terminal-container {
+  margin-top: 12px;
+  padding: 14px 16px;
+  background: var(--cert-surface);
+  border: 1px solid var(--cert-green-wash);
+  border-radius: var(--cert-radius);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.laso-terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--cert-rule);
+}
+
+.laso-brand-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--cert-ink);
+  letter-spacing: 0.02em;
+}
+
+.laso-brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cert-green);
+  box-shadow: 0 0 8px var(--cert-green);
+}
+
+.laso-mode-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(124, 201, 160, 0.12);
+  border: 1px solid var(--cert-green-wash);
+  color: var(--cert-green);
+  font-weight: 600;
+}
+
+.laso-terminal-desc {
+  font-size: 0.80rem;
+  color: var(--cert-dim);
+  line-height: 1.45;
+  margin: 0 0 12px;
+}
+
+.laso-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--cert-rule);
+}
+
+.laso-spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.laso-spec-k {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.64rem;
+  color: var(--cert-dim);
+  text-transform: uppercase;
+}
+
+.laso-spec-v {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--cert-ink);
+}
+
+.laso-spec-v.highlight {
+  color: var(--cert-green);
+}
+
+.laso-issue-cta-btn,
+.conversion-primary-cta {
+  width: 100%;
+  padding: 13px 20px;
+  border: none;
+  border-radius: var(--ui-radius-sm, 6px);
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.94rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #7CC9A0;
+  color: #08140F;
+}
+
+html[data-theme="dark"] .laso-issue-cta-btn,
+html[data-theme="dark"] .conversion-primary-cta,
+[data-theme="dark"] .laso-issue-cta-btn,
+[data-theme="dark"] .conversion-primary-cta {
+  background: #7CC9A0 !important;
+  color: #08140F !important;
+  box-shadow: 0 2px 10px rgba(124, 201, 160, 0.25);
+}
+
+html[data-theme="dark"] .laso-issue-cta-btn:hover,
+html[data-theme="dark"] .conversion-primary-cta:hover,
+[data-theme="dark"] .laso-issue-cta-btn:hover,
+[data-theme="dark"] .conversion-primary-cta:hover {
+  background: #93D6B2 !important;
+  color: #08140F !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(124, 201, 160, 0.45);
+}
+
+html:not([data-theme="dark"]) .laso-issue-cta-btn,
+html:not([data-theme="dark"]) .conversion-primary-cta {
+  background: #1E5C3F !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 10px rgba(30, 92, 63, 0.2);
+}
+
+html:not([data-theme="dark"]) .laso-issue-cta-btn:hover,
+html:not([data-theme="dark"]) .conversion-primary-cta:hover {
+  background: #174A32 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(30, 92, 63, 0.35);
+}
+
+.laso-issue-cta-btn:active,
+.conversion-primary-cta:active {
+  transform: translateY(1px) !important;
+  box-shadow: none !important;
+}
+
+/* Progress Box */
+.laso-issuing-progress-box {
+  padding: 16px 12px;
+  text-align: center;
+}
+
+.laso-steps-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.laso-step-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--cert-rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  color: var(--cert-dim);
+  transition: all 0.2s ease;
+}
+
+.laso-step-dot.is-active {
+  background: var(--cert-green);
+  border-color: var(--cert-green);
+  color: #08140f;
+  box-shadow: 0 0 10px rgba(124, 201, 160, 0.5);
+}
+
+.laso-step-line {
+  flex: 1;
+  max-width: 48px;
+  height: 2px;
+  background: var(--cert-rule);
+  transition: all 0.2s ease;
+}
+
+.laso-step-line.is-active {
+  background: var(--cert-green);
+}
+
+.laso-step-labels {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  color: var(--cert-dim);
+  max-width: 280px;
+  margin: 0 auto 14px;
+}
+
+.laso-spinner-msg-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(124, 201, 160, 0.08);
+  border-radius: 4px;
+}
+
+.laso-pulse-spinner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--cert-green);
+  animation: pulse-dot 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.3); opacity: 1; }
+}
+
+.laso-progress-text {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  color: var(--cert-green);
+  font-weight: 600;
+}
+
+/* Active Card Surface */
+.laso-active-card-surface {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.laso-issued-card {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%);
+  border: 1px solid rgba(124, 201, 160, 0.35);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 24px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.laso-card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.laso-card-brand {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  color: var(--cert-green);
+}
+
+.laso-card-debit {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.laso-card-pan-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.laso-card-pan {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #fff;
+}
+
+.laso-pan-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.laso-mini-btn {
+  padding: 3px 7px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.laso-mini-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.laso-mini-btn.highlight {
+  background: var(--cert-green);
+  border-color: var(--cert-green);
+  color: #08140f;
+}
+
+.laso-mini-btn.text-only {
+  background: transparent;
+  border: none;
+  color: var(--cert-dim);
+  text-decoration: underline;
+  padding: 0 4px;
+}
+
+.laso-card-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.laso-meta-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.62rem;
+}
+
+.laso-meta-val {
+  color: #fff;
+  font-weight: 600;
+}
+
+.laso-meta-val.balance {
+  color: var(--cert-green);
+  font-weight: 700;
+}
+
+.laso-billing-address-box {
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--cert-rule);
+  border-radius: 4px;
+}
+
+.billing-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.billing-title {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--cert-dim);
+  font-weight: 600;
+}
+
+.billing-text {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  color: var(--cert-ink);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.laso-merchant-search-box {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--cert-rule);
+  border-radius: 4px;
+}
+
+.laso-merchant-input {
+  flex: 1;
+  min-width: 160px;
+  padding: 6px 10px;
+  background: var(--cert-paper, #0b1c13);
+  border: 1px solid var(--cert-rule);
+  border-radius: 3px;
+  color: var(--cert-ink);
+  font-size: 0.76rem;
+}
+
+.laso-merchant-btn {
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--cert-rule);
+  border-radius: 3px;
+  color: var(--cert-ink);
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.laso-merchant-badge {
+  width: 100%;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.laso-merchant-badge.accepted {
+  background: rgba(124, 201, 160, 0.15);
+  color: var(--cert-green);
+  border: 1px solid var(--cert-green-wash);
+}
+
+.laso-merchant-badge.unknown {
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.laso-issued-footer-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.laso-refresh-btn,
+.laso-reset-btn {
+  flex: 1;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid var(--cert-rule);
+  border-radius: 4px;
+  color: var(--cert-dim);
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.74rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.laso-refresh-btn:hover,
+.laso-reset-btn:hover {
+  border-color: var(--cert-green);
+  color: var(--cert-ink);
+}
+
+/* Laso Mode Switcher */
+.laso-mode-switch-group {
+  display: flex;
+  gap: 4px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-pill, 999px);
+  padding: 2px;
+}
+
+.laso-mode-btn {
+  background: transparent;
+  border: none;
+  border-radius: var(--ui-radius-pill, 999px);
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.laso-mode-btn:hover {
+  color: var(--cert-ink, #fff);
+}
+
+.laso-mode-btn.is-active {
+  background: var(--ui-surface-sunken, rgba(255, 255, 255, 0.12));
+  color: var(--cert-ink, #fff);
+}
+
+.laso-mode-btn.is-active.live {
+  background: var(--cert-green, #7CC9A0);
+  color: #08140f;
+}
+
+/* Amount Selector */
+.laso-amount-section {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.laso-amount-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+}
+
+.laso-amount-chips-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.laso-amount-chip {
+  flex: 1;
+  min-width: 80px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.laso-amount-chip:hover {
+  border-color: var(--cert-ink, rgba(255, 255, 255, 0.5));
+  color: var(--cert-ink, #fff);
+}
+
+.laso-amount-chip.is-active {
+  background: var(--ui-accent-soft, rgba(124, 201, 160, 0.16));
+  border-color: var(--cert-green, #7CC9A0);
+  color: var(--cert-green, #7CC9A0);
+  font-weight: 700;
+}
+
+.laso-custom-amount-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.laso-custom-amount-input {
+  width: 110px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #1b2820);
+  border: 1px solid var(--cert-rule, #333);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--cert-ink, #fff);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.8rem;
+}
+
+.laso-custom-amount-hint {
+  font-size: 0.66rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Error Card */
+.laso-error-card {
+  padding: 14px 16px;
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.laso-error-title {
+  font-size: 0.80rem;
+  font-weight: 700;
+  color: #f87171;
+}
+
+.laso-error-msg {
+  font-size: 0.74rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  line-height: 1.4;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-error-retry-btn {
+  align-self: flex-start;
+  padding: 6px 14px;
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.laso-card-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.laso-card-live-badge.live {
+  background: rgba(124, 201, 160, 0.2);
+  color: var(--cert-green, #7CC9A0);
+  border: 1px solid var(--cert-green, #7CC9A0);
+}
+
+.laso-card-live-badge.sim {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--cert-rule, #333);
+}
+
+/* On-Demand SIWx Reveal Banner */
+.laso-siwx-unlock-banner {
+  padding: 10px 12px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px dashed rgba(124, 201, 160, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.laso-siwx-unlock-btn {
+  padding: 5px 12px;
+  background: var(--cert-green, #7CC9A0);
+  border: 1px solid var(--cert-green, #7CC9A0);
+  border-radius: 4px;
+  color: #08140f;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.laso-siwx-note {
+  font-size: 0.68rem;
+  color: var(--cert-dim, rgba(255, 255, 255, 0.7));
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Automatic Pending Order Recovery Banner */
+.laso-pending-recovery-banner {
+  padding: 10px 14px;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.laso-pending-recovery-text {
+  font-size: 0.72rem;
+  color: #ffc107;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-pending-recovery-btn {
+  padding: 4px 10px;
+  background: #ffc107;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* --- SOTA Conversion Card --- */
+.conversion-path-switcher {
+  display: flex;
+  background: var(--ui-surface-sunken, rgba(0, 0, 0, 0.3));
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  padding: 3px;
+  margin-bottom: 20px;
+  gap: 4px;
+}
+
+.path-switch-btn {
+  flex: 1;
+  padding: 9px 14px;
+  background: transparent;
+  border: none;
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.65));
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.path-switch-btn:hover {
+  color: var(--ui-text, #fff);
+}
+
+.path-switch-btn.is-active {
+  background: var(--ui-surface, #1b2820);
+  color: var(--ui-text, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.conversion-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conversion-header {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.conversion-title {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: var(--ui-text, #fff);
+  margin: 0 0 6px;
+  line-height: 1.25;
+}
+
+.conversion-subtitle {
+  font-size: 0.82rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.65));
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* SOTA Amount Box */
+.conversion-amount-box {
+  background: var(--ui-surface-sunken, rgba(0, 0, 0, 0.2));
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--ui-radius-md, 8px) !important;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.conversion-amount-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.6));
+}
+
+.conversion-amount-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.amount-pill {
+  flex: 1;
+  padding: 9px 8px;
+  background: var(--ui-surface, #121f17);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transition: all 0.15s ease;
+}
+
+.amount-pill:hover {
+  border-color: var(--ui-border-strong, rgba(255, 255, 255, 0.25));
+}
+
+.amount-pill.is-active {
+  background: var(--ui-accent-soft, rgba(124, 201, 160, 0.14));
+  border-color: var(--ui-accent, #7CC9A0);
+}
+
+.amount-pill .pill-title {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.amount-pill.is-active .pill-title {
+  color: var(--ui-accent, #7CC9A0);
+  font-weight: 700;
+}
+
+.amount-pill .pill-val {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ui-text, #fff);
+}
+
+.amount-pill.is-active .pill-val {
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.custom-amount-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.custom-amount-input {
+  width: 120px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #121f17);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.15));
+  border-radius: var(--ui-radius-sm, 4px) !important;
+  color: var(--ui-text, #fff);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.85rem;
+}
+
+.custom-hint {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.5));
+}
+
+/* SOTA Trust Badge */
+.conversion-trust-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 14px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px solid rgba(124, 201, 160, 0.2);
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.trust-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--ui-accent, #7CC9A0);
+  border-radius: 50% !important;
+}
+
+/* Discreet Mode Footer */
+.conversion-mode-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.5));
+}
+
+.mode-toggle-link {
+  background: none;
+  border: none;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.6));
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
+.mode-toggle-link:hover {
+  color: var(--ui-accent, #7CC9A0);
+}
+
+/* ==========================================================================
+   SOTA Store Checkout Card (Fintech / E-Commerce Standard)
+   ========================================================================== */
+
+.store-checkout-card {
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-lg, 12px) !important;
+  padding: 24px;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.checkout-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.checkout-item-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.checkout-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ui-accent);
+}
+
+.checkout-security-tag {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ui-text-secondary);
+  border: 1px solid var(--ui-border);
+  border-radius: 3px !important;
+  padding: 1px 6px;
+}
+
+.checkout-product-title {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.checkout-product-desc {
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.82rem;
+  color: var(--ui-text-secondary);
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Receipt Breakdown */
+.checkout-receipt {
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md, 8px) !important;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.receipt-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.84rem;
+}
+
+.receipt-label {
+  color: var(--ui-text);
+  font-weight: 500;
+}
+
+.receipt-row-muted .receipt-label {
+  color: var(--ui-text-secondary);
+  font-size: 0.78rem;
+}
+
+.receipt-value {
+  font-weight: 600;
+  color: var(--ui-text);
+  font-family: var(--font-family-mono, monospace);
+}
+
+.receipt-value.free {
+  color: var(--ui-accent);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Amount Selector Toggle inside Receipt */
+.receipt-amount-toggle {
+  display: flex;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 2px;
+  gap: 2px;
+}
+
+.amount-btn {
+  background: transparent;
+  border: none;
+  border-radius: 4px !important;
+  padding: 4px 10px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ui-text-secondary);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.amount-btn .amt-tag {
+  font-size: 0.62rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.amount-btn:hover {
+  color: var(--ui-text);
+}
+
+.amount-btn.is-selected {
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent);
+  border: 1px solid var(--ui-accent);
+}
+
+.receipt-divider {
+  height: 1px;
+  background: var(--ui-border);
+  margin: 2px 0;
+}
+
+.receipt-total-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.total-label-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.01em;
+}
+
+.total-caption {
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary);
+}
+
+.total-price-col {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.total-price-val {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.02em;
+}
+
+.total-price-currency {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--ui-accent);
+}
+
+/* Pay CTA Button */
+.checkout-pay-btn {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.96rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+html[data-theme="dark"] .checkout-pay-btn,
+[data-theme="dark"] .checkout-pay-btn {
+  background: #7CC9A0 !important;
+  color: #08140F !important;
+  box-shadow: 0 4px 14px rgba(124, 201, 160, 0.28);
+}
+
+html[data-theme="dark"] .checkout-pay-btn:hover,
+[data-theme="dark"] .checkout-pay-btn:hover {
+  background: #93D6B2 !important;
+  color: #08140F !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(124, 201, 160, 0.45);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn {
+  background: #1E5C3F !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(30, 92, 63, 0.25);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn:hover {
+  background: #174A32 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(30, 92, 63, 0.4);
+}
+
+.checkout-pay-btn:active {
+  transform: translateY(1px) !important;
+  box-shadow: none !important;
+}
+
+/* Trust Line */
+.checkout-trust-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: var(--ui-text-secondary);
+}
+
+.trust-sep {
+  opacity: 0.4;
+}
+
+/* Secondary Actions */
+.checkout-secondary-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.link-btn:hover {
+  color: var(--ui-text);
+}
+
+.link-btn.link-muted {
+  font-size: 0.68rem;
+  opacity: 0.6;
+}
+
+/* Progress Spinner inside Checkout */
+.checkout-progress-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(124, 201, 160, 0.2);
+  border-top-color: var(--ui-accent);
+  border-radius: 50% !important;
+  animation: spin 0.8s linear infinite;
+  margin: 12px auto;
+}
+
+.checkout-progress-status {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+.checkout-progress-sub {
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-align: center;
+}
+
+/* Error Banner */
+.checkout-error-banner {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.error-text {
+  font-size: 0.78rem;
+  color: #f87171;
+}
+
+.error-retry-btn {
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px !important;
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  cursor: pointer;
 }

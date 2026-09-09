@@ -3324,3 +3324,1267 @@
   line-height: 1.45;
   font-style: italic;
 }
+
+/* ==========================================================================
+   Laso.finance Virtual Visa Card Terminal & Agent Rails
+   ========================================================================== */
+
+.laso-instant-launch-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 14px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px solid rgba(124, 201, 160, 0.3);
+  border-radius: var(--ui-radius-sm, 4px);
+  color: var(--ui-accent, #7CC9A0);
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.laso-instant-launch-toggle-btn:hover {
+  background: rgba(124, 201, 160, 0.16);
+  border-color: var(--ui-accent, #7CC9A0);
+  transform: translateY(-1px);
+}
+
+.laso-terminal-container {
+  margin-top: 12px;
+  padding: 14px 16px;
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md, 8px);
+}
+
+.laso-terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.laso-brand-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--color-text, #fff);
+  letter-spacing: 0.02em;
+}
+
+.laso-brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ui-accent, #7CC9A0);
+  box-shadow: 0 0 8px var(--ui-accent, #7CC9A0);
+}
+
+.laso-mode-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(124, 201, 160, 0.12);
+  border: 1px solid rgba(124, 201, 160, 0.3);
+  color: var(--ui-accent, #7CC9A0);
+  font-weight: 600;
+}
+
+.laso-terminal-desc {
+  font-size: 0.80rem;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
+  line-height: 1.45;
+  margin: 0 0 12px;
+}
+
+.laso-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--ui-border);
+}
+
+.laso-spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.laso-spec-k {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.64rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+}
+
+.laso-spec-v {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--color-text, #fff);
+}
+
+.laso-spec-v.highlight {
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.laso-issue-cta-btn,
+.conversion-primary-cta {
+  width: 100%;
+  padding: 13px 20px;
+  border: none;
+  border-radius: var(--ui-radius-sm, 6px);
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.94rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #7CC9A0;
+  color: #08140F;
+}
+
+html[data-theme="dark"] .laso-issue-cta-btn,
+html[data-theme="dark"] .conversion-primary-cta,
+[data-theme="dark"] .laso-issue-cta-btn,
+[data-theme="dark"] .conversion-primary-cta {
+  background: #7CC9A0 !important;
+  color: #08140F !important;
+  box-shadow: 0 2px 10px rgba(124, 201, 160, 0.25);
+}
+
+html[data-theme="dark"] .laso-issue-cta-btn:hover,
+html[data-theme="dark"] .conversion-primary-cta:hover,
+[data-theme="dark"] .laso-issue-cta-btn:hover,
+[data-theme="dark"] .conversion-primary-cta:hover {
+  background: #93D6B2 !important;
+  color: #08140F !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(124, 201, 160, 0.45);
+}
+
+html:not([data-theme="dark"]) .laso-issue-cta-btn,
+html:not([data-theme="dark"]) .conversion-primary-cta {
+  background: #1E5C3F !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 10px rgba(30, 92, 63, 0.2);
+}
+
+html:not([data-theme="dark"]) .laso-issue-cta-btn:hover,
+html:not([data-theme="dark"]) .conversion-primary-cta:hover {
+  background: #174A32 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(30, 92, 63, 0.35);
+}
+
+.laso-issue-cta-btn:active,
+.conversion-primary-cta:active {
+  transform: translateY(1px) !important;
+  box-shadow: none !important;
+}
+
+/* Progress Box */
+.laso-issuing-progress-box {
+  padding: 16px 12px;
+  text-align: center;
+}
+
+.laso-steps-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.laso-step-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--ui-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  transition: all 0.2s ease;
+}
+
+.laso-step-dot.is-active {
+  background: var(--ui-accent, #7CC9A0);
+  border-color: var(--ui-accent, #7CC9A0);
+  color: #08140f;
+  box-shadow: 0 0 10px rgba(124, 201, 160, 0.5);
+}
+
+.laso-step-line {
+  flex: 1;
+  max-width: 48px;
+  height: 2px;
+  background: var(--ui-border);
+  transition: all 0.2s ease;
+}
+
+.laso-step-line.is-active {
+  background: var(--ui-accent, #7CC9A0);
+}
+
+.laso-step-labels {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  color: var(--color-text-secondary);
+  max-width: 280px;
+  margin: 0 auto 14px;
+}
+
+.laso-spinner-msg-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(124, 201, 160, 0.08);
+  border-radius: 4px;
+}
+
+.laso-pulse-spinner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ui-accent, #7CC9A0);
+  animation: pulse-dot 1.2s infinite ease-in-out;
+}
+
+.laso-progress-text {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  color: var(--ui-accent, #7CC9A0);
+  font-weight: 600;
+}
+
+/* Active Card Surface */
+.laso-active-card-surface {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.laso-issued-card {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%);
+  border: 1px solid rgba(124, 201, 160, 0.35);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 24px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.laso-card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.laso-card-brand {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.laso-card-debit {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.laso-card-pan-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.laso-card-pan {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #fff;
+}
+
+.laso-pan-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.laso-mini-btn {
+  padding: 3px 7px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.laso-mini-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.laso-mini-btn.highlight {
+  background: var(--ui-accent, #7CC9A0);
+  border-color: var(--ui-accent, #7CC9A0);
+  color: #08140f;
+}
+
+.laso-mini-btn.text-only {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+  padding: 0 4px;
+}
+
+.laso-card-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.laso-meta-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.62rem;
+}
+
+.laso-meta-val {
+  color: #fff;
+  font-weight: 600;
+}
+
+.laso-meta-val.balance {
+  color: var(--ui-accent, #7CC9A0);
+  font-weight: 700;
+}
+
+.laso-billing-address-box {
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--ui-border);
+  border-radius: 4px;
+}
+
+.billing-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.billing-title {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+.billing-text {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  color: var(--color-text, #fff);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.laso-merchant-search-box {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--ui-border);
+  border-radius: 4px;
+}
+
+.laso-merchant-input {
+  flex: 1;
+  min-width: 160px;
+  padding: 6px 10px;
+  background: var(--ui-surface-muted, #0b1c13);
+  border: 1px solid var(--ui-border);
+  border-radius: 3px;
+  color: var(--color-text, #fff);
+  font-size: 0.76rem;
+}
+
+.laso-merchant-btn {
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--ui-border);
+  border-radius: 3px;
+  color: var(--color-text, #fff);
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.laso-merchant-badge {
+  width: 100%;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.laso-merchant-badge.accepted {
+  background: rgba(124, 201, 160, 0.15);
+  color: var(--ui-accent, #7CC9A0);
+  border: 1px solid rgba(124, 201, 160, 0.3);
+}
+
+.laso-merchant-badge.unknown {
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.laso-issued-footer-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.laso-refresh-btn,
+.laso-reset-btn {
+  flex: 1;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid var(--ui-border);
+  border-radius: 4px;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.74rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.laso-refresh-btn:hover,
+.laso-reset-btn:hover {
+  border-color: var(--ui-accent, #7CC9A0);
+  color: var(--color-text, #fff);
+}
+
+/* Laso Mode Switcher */
+.laso-mode-switch-group {
+  display: flex;
+  gap: 4px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill, 999px);
+  padding: 2px;
+}
+
+.laso-mode-btn {
+  background: transparent;
+  border: none;
+  border-radius: var(--ui-radius-pill, 999px);
+  color: var(--ui-text-secondary);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.laso-mode-btn:hover {
+  color: var(--ui-text);
+}
+
+.laso-mode-btn.is-active {
+  background: var(--ui-surface-sunken);
+  color: var(--ui-text);
+}
+
+.laso-mode-btn.is-active.live {
+  background: var(--ui-accent);
+  color: #fff;
+}
+
+/* Amount Selector */
+.laso-amount-section {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.laso-amount-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary);
+}
+
+.laso-amount-chips-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.laso-amount-chip {
+  flex: 1;
+  min-width: 80px;
+  padding: 6px 10px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--ui-text-secondary);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.laso-amount-chip:hover {
+  border-color: var(--ui-border-strong);
+  color: var(--ui-text);
+}
+
+.laso-amount-chip.is-active {
+  background: var(--ui-accent-soft, rgba(124, 201, 160, 0.16));
+  border-color: var(--ui-accent);
+  color: var(--ui-accent);
+  font-weight: 700;
+}
+
+.laso-custom-amount-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.laso-custom-amount-input {
+  width: 110px;
+  padding: 6px 10px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 6px);
+  color: var(--ui-text);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.8rem;
+}
+
+.laso-custom-amount-hint {
+  font-size: 0.66rem;
+  color: var(--ui-text-secondary);
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Error Card */
+.laso-error-card {
+  padding: 14px 16px;
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.laso-error-title {
+  font-size: 0.80rem;
+  font-weight: 700;
+  color: #f87171;
+}
+
+.laso-error-msg {
+  font-size: 0.74rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-error-retry-btn {
+  align-self: flex-start;
+  padding: 6px 14px;
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.laso-card-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.laso-card-live-badge.live {
+  background: rgba(124, 201, 160, 0.2);
+  color: var(--ui-accent, #7CC9A0);
+  border: 1px solid var(--ui-accent, #7CC9A0);
+}
+
+.laso-card-live-badge.sim {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--ui-border);
+}
+
+/* On-Demand SIWx Reveal Banner */
+.laso-siwx-unlock-banner {
+  padding: 10px 12px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px dashed rgba(124, 201, 160, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.laso-siwx-unlock-btn {
+  padding: 5px 12px;
+  background: var(--ui-accent, #7CC9A0);
+  border: 1px solid var(--ui-accent, #7CC9A0);
+  border-radius: 4px;
+  color: #08140f;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.laso-siwx-note {
+  font-size: 0.68rem;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Automatic Pending Order Recovery Banner */
+.laso-pending-recovery-banner {
+  padding: 10px 14px;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.laso-pending-recovery-text {
+  font-size: 0.72rem;
+  color: #ffc107;
+  font-family: var(--font-family-mono, monospace);
+}
+
+.laso-pending-recovery-btn {
+  padding: 4px 10px;
+  background: #ffc107;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* --- SOTA Conversion Card --- */
+.conversion-path-switcher {
+  display: flex;
+  background: var(--ui-surface-sunken, rgba(0, 0, 0, 0.3));
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  padding: 3px;
+  margin-bottom: 20px;
+  gap: 4px;
+}
+
+.path-switch-btn {
+  flex: 1;
+  padding: 9px 14px;
+  background: transparent;
+  border: none;
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.65));
+  font-family: var(--font-family-base, "Public Sans", sans-serif);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.path-switch-btn:hover {
+  color: var(--ui-text, #fff);
+}
+
+.path-switch-btn.is-active {
+  background: var(--ui-surface, #1b2820);
+  color: var(--ui-text, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.conversion-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conversion-header {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.conversion-title {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: var(--ui-text, #fff);
+  margin: 0 0 6px;
+  line-height: 1.25;
+}
+
+.conversion-subtitle {
+  font-size: 0.82rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.65));
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* SOTA Amount Box */
+.conversion-amount-box {
+  background: var(--ui-surface-sunken, rgba(0, 0, 0, 0.2));
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--ui-radius-md, 8px) !important;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.conversion-amount-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.6));
+}
+
+.conversion-amount-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.amount-pill {
+  flex: 1;
+  padding: 9px 8px;
+  background: var(--ui-surface, #121f17);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transition: all 0.15s ease;
+}
+
+.amount-pill:hover {
+  border-color: var(--ui-border-strong, rgba(255, 255, 255, 0.25));
+}
+
+.amount-pill.is-active {
+  background: var(--ui-accent-soft, rgba(124, 201, 160, 0.14));
+  border-color: var(--ui-accent, #7CC9A0);
+}
+
+.amount-pill .pill-title {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.amount-pill.is-active .pill-title {
+  color: var(--ui-accent, #7CC9A0);
+  font-weight: 700;
+}
+
+.amount-pill .pill-val {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ui-text, #fff);
+}
+
+.amount-pill.is-active .pill-val {
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.custom-amount-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.custom-amount-input {
+  width: 120px;
+  padding: 6px 10px;
+  background: var(--ui-surface, #121f17);
+  border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.15));
+  border-radius: var(--ui-radius-sm, 4px) !important;
+  color: var(--ui-text, #fff);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.85rem;
+}
+
+.custom-hint {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.5));
+}
+
+/* SOTA Trust Badge */
+.conversion-trust-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 14px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px solid rgba(124, 201, 160, 0.2);
+  border-radius: var(--ui-radius-pill, 999px) !important;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  color: var(--ui-accent, #7CC9A0);
+}
+
+.trust-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--ui-accent, #7CC9A0);
+  border-radius: 50% !important;
+}
+
+/* Discreet Mode Footer */
+.conversion-mode-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.5));
+}
+
+.mode-toggle-link {
+  background: none;
+  border: none;
+  color: var(--ui-text-secondary, rgba(255, 255, 255, 0.6));
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
+.mode-toggle-link:hover {
+  color: var(--ui-accent, #7CC9A0);
+}
+
+/* ==========================================================================
+   SOTA Store Checkout Card (Fintech / E-Commerce Standard)
+   ========================================================================== */
+
+.store-checkout-card {
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-lg, 12px) !important;
+  padding: 24px;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.checkout-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.checkout-item-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.checkout-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ui-accent);
+}
+
+.checkout-security-tag {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ui-text-secondary);
+  border: 1px solid var(--ui-border);
+  border-radius: 3px !important;
+  padding: 1px 6px;
+}
+
+.checkout-product-title {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.checkout-product-desc {
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.82rem;
+  color: var(--ui-text-secondary);
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Receipt Breakdown */
+.checkout-receipt {
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md, 8px) !important;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.receipt-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.84rem;
+}
+
+.receipt-label {
+  color: var(--ui-text);
+  font-weight: 500;
+}
+
+.receipt-row-muted .receipt-label {
+  color: var(--ui-text-secondary);
+  font-size: 0.78rem;
+}
+
+.receipt-value {
+  font-weight: 600;
+  color: var(--ui-text);
+  font-family: var(--font-family-mono, monospace);
+}
+
+.receipt-value.free {
+  color: var(--ui-accent);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Amount Selector Toggle inside Receipt */
+.receipt-amount-toggle {
+  display: flex;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 2px;
+  gap: 2px;
+}
+
+.amount-btn {
+  background: transparent;
+  border: none;
+  border-radius: 4px !important;
+  padding: 4px 10px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ui-text-secondary);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.amount-btn .amt-tag {
+  font-size: 0.62rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.amount-btn:hover {
+  color: var(--ui-text);
+}
+
+.amount-btn.is-selected {
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent);
+  border: 1px solid var(--ui-accent);
+}
+
+.receipt-divider {
+  height: 1px;
+  background: var(--ui-border);
+  margin: 2px 0;
+}
+
+.receipt-total-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.total-label-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.01em;
+}
+
+.total-caption {
+  font-size: 0.68rem;
+  color: var(--ui-text-secondary);
+}
+
+.total-price-col {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.total-price-val {
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--ui-text);
+  letter-spacing: -0.02em;
+}
+
+.total-price-currency {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--ui-accent);
+}
+
+/* Pay CTA Button */
+.checkout-pay-btn {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  font-family: var(--font-family-base, 'Public Sans', sans-serif);
+  font-size: 0.96rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+html[data-theme="dark"] .checkout-pay-btn,
+[data-theme="dark"] .checkout-pay-btn {
+  background: #7CC9A0 !important;
+  color: #08140F !important;
+  box-shadow: 0 4px 14px rgba(124, 201, 160, 0.28);
+}
+
+html[data-theme="dark"] .checkout-pay-btn:hover,
+[data-theme="dark"] .checkout-pay-btn:hover {
+  background: #93D6B2 !important;
+  color: #08140F !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(124, 201, 160, 0.45);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn {
+  background: #1E5C3F !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(30, 92, 63, 0.25);
+}
+
+html:not([data-theme="dark"]) .checkout-pay-btn:hover {
+  background: #174A32 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(30, 92, 63, 0.4);
+}
+
+.checkout-pay-btn:active {
+  transform: translateY(1px) !important;
+  box-shadow: none !important;
+}
+
+/* Trust Line */
+.checkout-trust-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: var(--ui-text-secondary);
+}
+
+.trust-sep {
+  opacity: 0.4;
+}
+
+/* Secondary Actions */
+.checkout-secondary-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.link-btn:hover {
+  color: var(--ui-text);
+}
+
+.link-btn.link-muted {
+  font-size: 0.68rem;
+  opacity: 0.6;
+}
+
+/* Progress Spinner inside Checkout */
+.checkout-progress-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(124, 201, 160, 0.2);
+  border-top-color: var(--ui-accent);
+  border-radius: 50% !important;
+  animation: spin 0.8s linear infinite;
+  margin: 12px auto;
+}
+
+.checkout-progress-status {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ui-text);
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+.checkout-progress-sub {
+  font-size: 0.74rem;
+  color: var(--ui-text-secondary);
+  text-align: center;
+}
+
+/* Error Banner */
+.checkout-error-banner {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  border-radius: var(--ui-radius-sm, 6px) !important;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.error-text {
+  font-size: 0.78rem;
+  color: #f87171;
+}
+
+.error-retry-btn {
+  background: rgba(248, 113, 113, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  border-radius: 4px !important;
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  cursor: pointer;
+}

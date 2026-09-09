@@ -212,36 +212,18 @@
     }, props.emoji || '🌱');
   }
   function EmvChip() {
-    return e('svg', {
+    return e('div', {
       className: 'visa-gold-chip visa-gold-chip-svg',
-      viewBox: '0 0 46 34',
-      width: 32,
-      height: 24,
       'aria-hidden': 'true',
       role: 'img'
-    },
-      e('defs', null,
-        e('linearGradient', { id: 'emv-metallic-grad-landing', x1: '0%', y1: '0%', x2: '100%', y2: '100%' },
-          e('stop', { offset: '0%', stopColor: '#ded5c5' }),
-          e('stop', { offset: '35%', stopColor: '#bfae95' }),
-          e('stop', { offset: '70%', stopColor: '#d6cbba' }),
-          e('stop', { offset: '100%', stopColor: '#9e8c72' })
-        ),
-        e('linearGradient', { id: 'emv-bevel-grad-landing', x1: '0%', y1: '0%', x2: '0%', y2: '100%' },
-          e('stop', { offset: '0%', stopColor: 'rgba(255,255,255,0.7)' }),
-          e('stop', { offset: '100%', stopColor: 'rgba(0,0,0,0.3)' })
-        )
-      ),
-      e('rect', { x: 0.5, y: 0.5, width: 45, height: 33, rx: 4.5, fill: 'url(#emv-metallic-grad-landing)', stroke: 'rgba(30,25,18,0.4)', strokeWidth: 0.8 }),
-      e('rect', { x: 1.2, y: 1.2, width: 43.6, height: 31.6, rx: 4, fill: 'none', stroke: 'url(#emv-bevel-grad-landing)', strokeWidth: 0.6 }),
-      e('path', {
-        d: 'M 13 1 L 13 33 M 33 1 L 33 33 M 1 17 L 13 17 M 33 17 L 45 17 M 13 11.5 C 18 11.5, 28 11.5, 33 11.5 M 13 22.5 C 18 22.5, 28 22.5, 33 22.5 M 19 11.5 L 19 22.5 M 27 11.5 L 27 22.5',
-        fill: 'none',
-        stroke: 'rgba(50, 40, 25, 0.75)',
-        strokeWidth: 0.75,
-        strokeLinecap: 'round'
-      })
-    );
+    });
+  }
+
+  function CardHologram() {
+    return e('div', {
+      className: 'visa-card-hologram',
+      'aria-hidden': 'true'
+    });
   }
 
   function NfcIcon() {
@@ -591,35 +573,58 @@
                 'aria-expanded': showMetrics ? 'true' : 'false',
                 'aria-label': 'Tap card to toggle financial ledger breakdown',
                 onClick: function() { setShowMetrics(!showMetrics); },
-                onKeyDown: function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowMetrics(!showMetrics); } }
+                onKeyDown: function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowMetrics(!showMetrics); } },
+                onPointerMove: function(ev) {
+                  if (typeof window !== 'undefined' && window.matchMedia && (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !window.matchMedia('(pointer: fine)').matches)) return;
+                  var rect = ev.currentTarget.getBoundingClientRect();
+                  if (!rect.width || !rect.height) return;
+                  var x = Math.max(0, Math.min(1, (ev.clientX - rect.left) / rect.width));
+                  var y = Math.max(0, Math.min(1, (ev.clientY - rect.top) / rect.height));
+                  var rotateY = (x - 0.5) * 14;
+                  var rotateX = (0.5 - y) * 14;
+                  ev.currentTarget.style.transition = 'none';
+                  ev.currentTarget.style.transform = 'perspective(1200px) rotateX(' + rotateX.toFixed(2) + 'deg) rotateY(' + rotateY.toFixed(2) + 'deg)';
+                  var sheenX = 50 + (x - 0.5) * 30;
+                  ev.currentTarget.style.setProperty('--sheen-x', sheenX.toFixed(1) + '% 0');
+                },
+                onPointerLeave: function(ev) {
+                  ev.currentTarget.style.transition = 'transform 0.2s ease-out';
+                  ev.currentTarget.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+                  ev.currentTarget.style.setProperty('--sheen-x', '50% 0');
+                }
               },
                 e(CardBotanicalWatermark),
                 // Top row
-                e('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 } },
-                  e('div', { style: { display: 'flex', alignItems: 'center', gap: '8px' } },
+                e('div', { className: 'visa-card-top-row' },
+                  e('div', { className: 'visa-card-chip-group' },
                     e(EmvChip),
                     e(NfcIcon)
                   ),
-                  e('div', { style: { display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '2px' } },
+                  e('div', { className: 'visa-card-brand-group' },
                     e(VisaLogo),
-                    e('span', { style: { fontFamily: 'var(--font-family-mono)', fontSize: '0.52rem', letterSpacing: '0.15em', color: 'rgba(255,255,255,0.7)', fontWeight: '700' } }, 'DEBIT')
+                    e('div', { className: 'visa-card-tier-row' },
+                      e('span', { className: 'visa-card-type-badge' }, 'DEBIT'),
+                      e('span', { className: 'visa-card-metal-badge' }, 'METAL')
+                    )
                   )
                 ),
                 // Center
-                e('div', { style: { margin: '2px 0', position: 'relative', zIndex: 2 } },
-                  e('div', { className: 'card-pan-number' }, '•••• •••• •••• 8453'),
-                  e('div', { className: 'card-holder-tier' }, activeSub.slug.toUpperCase() + '-VAULT / AGENT-01'),
-                  e('div', { className: 'card-holder-name' }, activeSub.name.toUpperCase() + ' FUNDED')
+                e('div', { className: 'visa-card-center' },
+                  e('div', { className: 'visa-card-pan card-pan-number' }, '•••• •••• •••• 8453'),
+                  e('div', { className: 'visa-card-funded-label card-holder-name' }, activeSub.name.toUpperCase())
                 ),
                 // Bottom row
-                e('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', paddingTop: '6px', borderTop: '1px solid rgba(255,255,255,0.12)', position: 'relative', zIndex: 2 } },
-                  e('div', null,
-                    e('div', { style: { fontSize: '0.62rem', color: 'rgba(255,255,255,0.7)', fontFamily: 'var(--font-family-mono)', letterSpacing: '0.06em', fontWeight: '600' } }, 'VALID 08/31'),
-                    e('div', { style: { fontSize: '0.68rem', color: 'rgba(255,255,255,0.9)', fontWeight: '550' } }, 'BASE VAULT · YIELD FUNDED')
+                e('div', { className: 'visa-card-bottom-row' },
+                  e('div', { className: 'visa-card-meta-left' },
+                    e('span', { className: 'visa-card-expiry' }, 'VALID 08/31'),
+                    e('span', { className: 'visa-card-network-info' }, 'YIELD-FUNDED · BASE')
                   ),
-                  e('div', { className: 'card-active-pill' },
-                    e(CardLockIcon),
-                    e('span', null, '$' + activeSub.monthly.toFixed(2) + '/mo')
+                  e('div', { className: 'visa-card-meta-right' },
+                    e(CardHologram),
+                    e('div', { className: 'visa-card-cap-badge card-active-pill' },
+                      e(CardLockIcon),
+                      e('span', null, '🟢 ACTIVE ($' + activeSub.monthly.toFixed(2) + '/MO)')
+                    )
                   )
                 )
               ),

@@ -135,6 +135,11 @@ export default {
     } else if (isApiMcpPath) {
       return handleMcp(request, url, env, ctx);
     }
+    const isLasoPath = url.pathname === '/api/laso' || url.pathname.startsWith('/api/laso/');
+    if (isLasoPath) {
+      return handleLasoProxy(request, url, env, ctx);
+    }
+
 
     // 227: dispatch /api and /api/* to the API handler BEFORE the
     // pass-through — see this file's header comment. `new URL(request.url)`
@@ -401,6 +406,66 @@ async function handleApi(request, url, env, ctx) {
   }
 
   return apiResponse;
+}
+
+// ---------------------------------------------------------------------------
+// Laso.finance Virtual Visa Card Proxy: transparent edge gateway forwarder
+// Relay Laso endpoints with CORS headers so in-browser clients can read
+// Payment-Required challenges and send X-Payment / Authorization headers.
+// ---------------------------------------------------------------------------
+
+const LASO_CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE, PATCH',
+  'Access-Control-Allow-Headers': 'Content-Type, X-Payment, Authorization, Payment-Required, Sign-In-With-X, Accept',
+  'Access-Control-Expose-Headers': 'Payment-Required, X-Payment, Authorization, X-Laso-Docs-Version, X-Laso-Docs-Manifest, Link',
+};
+
+async function handleLasoProxy(request, url, env, ctx) {
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: LASO_CORS_HEADERS });
+  }
+
+  const targetPath = url.pathname.replace(/^\/api\/laso/, '') || '/';
+  const targetUrl = 'https://laso.finance' + targetPath + url.search;
+
+  const fwdHeaders = new Headers();
+  const allowedHeaders = ['authorization', 'x-payment', 'content-type', 'accept', 'sign-in-with-x'];
+  for (const h of allowedHeaders) {
+    const val = request.headers.get(h);
+    if (val) fwdHeaders.set(h, val);
+  }
+
+  const lasoReqInit = {
+    method: request.method,
+    headers: fwdHeaders,
+    redirect: 'follow',
+  };
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    lasoReqInit.body = await request.arrayBuffer();
+  }
+
+  let lasoRes;
+  try {
+    lasoRes = await fetch(targetUrl, lasoReqInit);
+  } catch (err) {
+    return new Response(JSON.stringify({ error: 'Laso upstream unreachable', details: err.message }), {
+      status: 502,
+      headers: Object.assign({ 'Content-Type': 'application/json' }, LASO_CORS_HEADERS),
+    });
+  }
+
+  const resHeaders = new Headers(lasoRes.headers);
+  for (const [k, v] of Object.entries(LASO_CORS_HEADERS)) {
+    resHeaders.set(k, v);
+  }
+  resHeaders.set('Cache-Control', 'no-store');
+
+  return new Response(lasoRes.body, {
+    status: lasoRes.status,
+    statusText: lasoRes.statusText,
+    headers: resHeaders,
+  });
 }
 
 // ---------------------------------------------------------------------------
