@@ -161,10 +161,17 @@
       aspect-ratio: 1.586 / 1;
       padding: 22px 24px;
       background:
-        repeating-linear-gradient(105deg, rgba(255,255,255,0.018) 0 1px, transparent 1px 3px),
-        linear-gradient(135deg, #0B1B13 0%, #12261B 40%, #0B1B13 100%);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10), inset 0 -1px 0 rgba(0, 0, 0, 0.5), 0 24px 48px -16px rgba(0, 0, 0, 0.55);
+        repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+        repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+        radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+        linear-gradient(138deg, #0B1511 0%, #13251B 38%, #0A140F 70%, #12241A 100%);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.32),
+        inset 1px 0 0 rgba(255, 255, 255, 0.14),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+        inset -1px 0 0 rgba(0, 0, 0, 0.45),
+        0 24px 50px -14px rgba(0, 0, 0, 0.7);
       color: #ffffff;
       display: flex;
       flex-direction: column;
@@ -178,24 +185,25 @@
       transform-style: preserve-3d;
       transition: transform 0.18s ease-out;
       will-change: transform;
+      border-radius: 0 !important;
     }
     .virtual-visa-card::after {
       content: '';
       position: absolute;
       inset: 0;
       pointer-events: none;
-      background: linear-gradient(115deg, transparent 30%, rgba(255,255,255,0.09) 45%, rgba(255,255,255,0.02) 50%, transparent 65%);
-      background-size: 250% 100%;
+      background: linear-gradient(115deg, transparent 28%, rgba(255,255,255,0.12) 42%, rgba(255,255,255,0.26) 48%, rgba(255,255,255,0.06) 54%, transparent 72%);
+      background-size: 260% 100%;
       background-position: var(--sheen-x, 50% 0);
       z-index: 5;
-      animation: card-sheen-sweep 1.2s ease-out forwards;
+      animation: card-sheen-sweep 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
     .virtual-visa-card:hover::after {
       background-position: var(--sheen-x, 50% 0);
     }
     @keyframes card-sheen-sweep {
       0% {
-        background-position: 200% 0;
+        background-position: 230% 0;
       }
       100% {
         background-position: var(--sheen-x, 50% 0);
@@ -203,10 +211,13 @@
     }
     .visa-gold-chip {
       width: 44px;
-      height: 34px;
-      background: linear-gradient(135deg, #C9A96A, #E8D5A3 45%, #B08D4F);
-      border: 1px solid rgba(0, 0, 0, 0.35);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.40), inset 0 -1px 0 rgba(0, 0, 0, 0.30), 0 1px 3px rgba(0, 0, 0, 0.45);
+      height: 33px;
+      background: linear-gradient(135deg, #c7a462 0%, #ebd8a7 35%, #b4914c 70%, #d8be82 100%);
+      border: 1px solid rgba(40, 30, 15, 0.5);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.55),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+        0 1px 4px rgba(0, 0, 0, 0.5);
       position: relative;
       flex-shrink: 0;
       box-sizing: border-box;
@@ -215,32 +226,34 @@
     .visa-gold-chip::before {
       content: '';
       position: absolute;
-      top: 11px;
+      top: 10px;
       left: 0;
       right: 0;
       height: 1px;
-      background: rgba(0, 0, 0, 0.42);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      background: rgba(45, 32, 16, 0.55);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
       pointer-events: none;
     }
     .visa-gold-chip::after {
       content: '';
       position: absolute;
-      top: 22px;
+      top: 21px;
       left: 0;
       right: 0;
       height: 1px;
-      background: rgba(0, 0, 0, 0.42);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      background: rgba(45, 32, 16, 0.55);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
       pointer-events: none;
     }
     .visa-card-hologram {
       width: 28px;
       height: 28px;
-      background: conic-gradient(from 180deg, #7CC9A0, #93D6B2, #5EA87F, #A8E0C0, #7CC9A0);
-      opacity: 0.7;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.4);
+      background:
+        radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 0%, transparent 60%),
+        conic-gradient(from 180deg at 50% 50%, #4E9A70, #93D6B2, #68B28B, #D4AF37, #7CC9A0, #A8E0C0, #4E9A70);
+      opacity: 0.82;
+      border: 1px solid rgba(255, 255, 255, 0.32);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 4px rgba(0, 0, 0, 0.45);
       flex-shrink: 0;
       border-radius: 0 !important;
     }
@@ -249,6 +262,23 @@
       align-items: center;
       gap: 8px;
       flex-shrink: 0;
+    }
+    .visa-card-tier-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .visa-card-metal-badge {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.50rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08));
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #e6fffa;
+      padding: 1px 5px;
+      border-radius: 0 !important;
+      text-shadow: 0 0 6px rgba(124, 201, 160, 0.5);
     }
     .checkout-pay-btn {
       transition: background 0.15s ease-out, border-color 0.15s ease-out, transform 0.15s ease-out, box-shadow 0.15s ease-out;
@@ -1552,7 +1582,10 @@
               <svg class="visa-logo-svg" viewBox="0 0 780 250" width="54" height="18" fill="#ffffff" aria-label="VISA" role="img">
     <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
   </svg>
-              <span class="visa-card-type-badge">DEBIT</span>
+              <div class="visa-card-tier-row">
+                <span class="visa-card-type-badge">DEBIT</span>
+                <span class="visa-card-metal-badge">METAL</span>
+              </div>
             </div>
           </div>
           <!-- Card Center: PAN & Dedicated Sub -->

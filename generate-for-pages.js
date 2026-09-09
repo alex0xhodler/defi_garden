@@ -557,10 +557,17 @@ function generateHtml(sub) {
       aspect-ratio: 1.586 / 1;
       padding: 22px 24px;
       background:
-        repeating-linear-gradient(105deg, rgba(255,255,255,0.018) 0 1px, transparent 1px 3px),
-        linear-gradient(135deg, #0B1B13 0%, #12261B 40%, #0B1B13 100%);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10), inset 0 -1px 0 rgba(0, 0, 0, 0.5), 0 24px 48px -16px rgba(0, 0, 0, 0.55);
+        repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+        repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+        radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+        linear-gradient(138deg, #0B1511 0%, #13251B 38%, #0A140F 70%, #12241A 100%);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.32),
+        inset 1px 0 0 rgba(255, 255, 255, 0.14),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+        inset -1px 0 0 rgba(0, 0, 0, 0.45),
+        0 24px 50px -14px rgba(0, 0, 0, 0.7);
       color: #ffffff;
       display: flex;
       flex-direction: column;
@@ -574,24 +581,25 @@ function generateHtml(sub) {
       transform-style: preserve-3d;
       transition: transform 0.18s ease-out;
       will-change: transform;
+      border-radius: 0 !important;
     }
     .virtual-visa-card::after {
       content: '';
       position: absolute;
       inset: 0;
       pointer-events: none;
-      background: linear-gradient(115deg, transparent 30%, rgba(255,255,255,0.09) 45%, rgba(255,255,255,0.02) 50%, transparent 65%);
-      background-size: 250% 100%;
+      background: linear-gradient(115deg, transparent 28%, rgba(255,255,255,0.12) 42%, rgba(255,255,255,0.26) 48%, rgba(255,255,255,0.06) 54%, transparent 72%);
+      background-size: 260% 100%;
       background-position: var(--sheen-x, 50% 0);
       z-index: 5;
-      animation: card-sheen-sweep 1.2s ease-out forwards;
+      animation: card-sheen-sweep 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
     .virtual-visa-card:hover::after {
       background-position: var(--sheen-x, 50% 0);
     }
     @keyframes card-sheen-sweep {
       0% {
-        background-position: 200% 0;
+        background-position: 230% 0;
       }
       100% {
         background-position: var(--sheen-x, 50% 0);
@@ -599,10 +607,13 @@ function generateHtml(sub) {
     }
     .visa-gold-chip {
       width: 44px;
-      height: 34px;
-      background: linear-gradient(135deg, #C9A96A, #E8D5A3 45%, #B08D4F);
-      border: 1px solid rgba(0, 0, 0, 0.35);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.40), inset 0 -1px 0 rgba(0, 0, 0, 0.30), 0 1px 3px rgba(0, 0, 0, 0.45);
+      height: 33px;
+      background: linear-gradient(135deg, #c7a462 0%, #ebd8a7 35%, #b4914c 70%, #d8be82 100%);
+      border: 1px solid rgba(40, 30, 15, 0.5);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.55),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+        0 1px 4px rgba(0, 0, 0, 0.5);
       position: relative;
       flex-shrink: 0;
       box-sizing: border-box;
@@ -611,32 +622,34 @@ function generateHtml(sub) {
     .visa-gold-chip::before {
       content: '';
       position: absolute;
-      top: 11px;
+      top: 10px;
       left: 0;
       right: 0;
       height: 1px;
-      background: rgba(0, 0, 0, 0.42);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      background: rgba(45, 32, 16, 0.55);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
       pointer-events: none;
     }
     .visa-gold-chip::after {
       content: '';
       position: absolute;
-      top: 22px;
+      top: 21px;
       left: 0;
       right: 0;
       height: 1px;
-      background: rgba(0, 0, 0, 0.42);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+      background: rgba(45, 32, 16, 0.55);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
       pointer-events: none;
     }
     .visa-card-hologram {
       width: 28px;
       height: 28px;
-      background: conic-gradient(from 180deg, #7CC9A0, #93D6B2, #5EA87F, #A8E0C0, #7CC9A0);
-      opacity: 0.7;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.4);
+      background:
+        radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 0%, transparent 60%),
+        conic-gradient(from 180deg at 50% 50%, #4E9A70, #93D6B2, #68B28B, #D4AF37, #7CC9A0, #A8E0C0, #4E9A70);
+      opacity: 0.82;
+      border: 1px solid rgba(255, 255, 255, 0.32);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 4px rgba(0, 0, 0, 0.45);
       flex-shrink: 0;
       border-radius: 0 !important;
     }
@@ -645,6 +658,23 @@ function generateHtml(sub) {
       align-items: center;
       gap: 8px;
       flex-shrink: 0;
+    }
+    .visa-card-tier-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .visa-card-metal-badge {
+      font-family: var(--font-family-mono, monospace);
+      font-size: 0.50rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08));
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #e6fffa;
+      padding: 1px 5px;
+      border-radius: 0 !important;
+      text-shadow: 0 0 6px rgba(124, 201, 160, 0.5);
     }
     .checkout-pay-btn {
       transition: background 0.15s ease-out, border-color 0.15s ease-out, transform 0.15s ease-out, box-shadow 0.15s ease-out;
@@ -1938,7 +1968,10 @@ function generateHtml(sub) {
             </div>
             <div class="visa-card-brand-group">
               ${renderVisaLogoSvg()}
-              <span class="visa-card-type-badge">DEBIT</span>
+              <div class="visa-card-tier-row">
+                <span class="visa-card-type-badge">DEBIT</span>
+                <span class="visa-card-metal-badge">METAL</span>
+              </div>
             </div>
           </div>
           <!-- Card Center: PAN & Dedicated Sub -->

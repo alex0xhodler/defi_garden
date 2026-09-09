@@ -2137,11 +2137,19 @@ a.pool-token-chip:hover {
   width: 100%;
   max-width: 440px;
   aspect-ratio: 1.586 / 1;
-  border-radius: 12px;
   padding: 22px 24px;
-  background: linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), inset 0 -1px 0 rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.35);
+  background:
+    repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+    repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+    radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+    linear-gradient(138deg, #0B1511 0%, #13251B 38%, #0A140F 70%, #12241A 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32),
+    inset 1px 0 0 rgba(255, 255, 255, 0.14),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+    inset -1px 0 0 rgba(0, 0, 0, 0.45),
+    0 24px 50px -14px rgba(0, 0, 0, 0.7);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -2150,6 +2158,33 @@ a.pool-token-chip:hover {
   position: relative;
   overflow: hidden;
   user-select: none;
+  margin: 0 auto;
+  cursor: default;
+  transform-style: preserve-3d;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+  border-radius: 0 !important;
+}
+
+.virtual-visa-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, 0.12) 42%, rgba(255, 255, 255, 0.26) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 72%);
+  background-size: 260% 100%;
+  background-position: var(--sheen-x, 50% 0);
+  z-index: 5;
+  animation: card-sheen-sweep 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes card-sheen-sweep {
+  0% {
+    background-position: 230% 0;
+  }
+  100% {
+    background-position: var(--sheen-x, 50% 0);
+  }
 }
 
 .yield-card-reservation-wrapper {
@@ -2159,39 +2194,6 @@ a.pool-token-chip:hover {
   width: 100%;
   max-width: 480px;
   box-sizing: border-box;
-}
-
-.virtual-visa-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 25% 15%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 65%);
-  pointer-events: none;
-  border-radius: 12px;
-}
-
-.visa-card-specular {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.35) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.35) 75%, rgba(255, 255, 255, 0) 100%);
-  pointer-events: none;
-}
-
-.visa-card-guilloche {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 80% 80%, rgba(124, 201, 160, 0.08) 0%, transparent 60%),
-                    radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
-  pointer-events: none;
 }
 
 .visa-card-top-row {
@@ -2205,57 +2207,96 @@ a.pool-token-chip:hover {
 .visa-card-chip-group {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+}
+
+.visa-gold-chip {
+  width: 44px;
+  height: 33px;
+  background: linear-gradient(135deg, #c7a462 0%, #ebd8a7 35%, #b4914c 70%, #d8be82 100%);
+  border: 1px solid rgba(40, 30, 15, 0.5);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    0 1px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border-radius: 0 !important;
 }
 
 .visa-gold-chip-svg {
   display: block;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+  border-radius: 0 !important;
 }
 
 .visa-nfc-icon {
   display: block;
-  opacity: 0.85;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  width: 18px;
+  height: 18px;
+  opacity: 0.88;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+  flex-shrink: 0;
 }
 
 .visa-card-brand-group {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 2px;
+  gap: 3px;
+  flex-shrink: 0;
 }
 
 .visa-logo-svg {
   display: block;
-  width: 46px;
-  height: 15px;
-  max-width: 100%;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  width: 50px;
+  height: 16px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+
+.visa-card-tier-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .visa-card-type-badge {
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.56rem;
-  letter-spacing: 0.16em;
-  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.54rem;
   font-weight: 700;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.72);
+  text-transform: uppercase;
+}
+
+.visa-card-metal-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.50rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #e6fffa;
+  padding: 1px 5px;
+  border-radius: 0 !important;
+  text-shadow: 0 0 6px rgba(124, 201, 160, 0.5);
 }
 
 .visa-card-center {
-  margin: 10px 0;
+  margin: 6px 0;
   position: relative;
   z-index: 2;
 }
 
 .visa-card-pan {
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.95rem;
+  font-size: clamp(0.82rem, 3vw, 1.05rem);
   letter-spacing: 0.22em;
-  color: rgba(255, 255, 255, 0.92);
+  color: #E2ECE6;
   font-weight: 600;
-  margin-bottom: 6px;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  margin-bottom: 4px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 -1px 1px rgba(255, 255, 255, 0.2);
 }
 
 .visa-card-label-sub {
@@ -2270,21 +2311,23 @@ a.pool-token-chip:hover {
 
 .visa-card-funded-label {
   font-family: var(--font-family-mono, monospace);
-  font-size: 1.08rem;
+  font-size: clamp(0.84rem, 3.2vw, 1.10rem);
   font-weight: 700;
-  color: #ffffff;
-  letter-spacing: 0.04em;
+  color: #E8F2EC;
+  letter-spacing: 0.05em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 -1px 1px rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
 }
 
 .visa-card-bottom-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   position: relative;
   z-index: 2;
 }
@@ -2292,14 +2335,14 @@ a.pool-token-chip:hover {
 .visa-card-meta-left {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
   min-width: 0;
 }
 
 .visa-card-expiry {
   font-family: var(--font-family-mono, monospace);
   font-size: 0.64rem;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.72);
   letter-spacing: 0.08em;
   font-weight: 600;
 }
@@ -2307,29 +2350,45 @@ a.pool-token-chip:hover {
 .visa-card-network-info {
   font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.88);
-  letter-spacing: 0.03em;
-  font-weight: 550;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.visa-card-meta-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.visa-card-hologram {
+  width: 28px;
+  height: 28px;
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 0%, transparent 60%),
+    conic-gradient(from 180deg at 50% 50%, #4E9A70, #93D6B2, #68B28B, #D4AF37, #7CC9A0, #A8E0C0, #4E9A70);
+  opacity: 0.82;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 4px rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+  border-radius: 0 !important;
 }
 
 .visa-card-cap-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-family: var(--font-family-mono, monospace);
   font-size: 0.70rem;
   font-weight: 700;
-  background: rgba(0, 0, 0, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  padding: 4px 10px;
-  border-radius: 9999px;
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 4px 9px;
+  color: #34d399;
   white-space: nowrap;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0 !important;
+  text-shadow: 0 0 8px rgba(52, 211, 153, 0.4);
 }
 
 /* Reservation Form & Receipt (The Certificate Grammar / Brand On-Theme) */
@@ -2796,10 +2855,10 @@ a.pool-token-chip:hover {
 @media (max-width: 480px) {
   .virtual-visa-card {
     padding: 14px 16px;
-    border-radius: 10px;
+    border-radius: 0 !important;
   }
   .virtual-visa-card::before {
-    border-radius: 10px;
+    border-radius: 0 !important;
   }
   .visa-gold-chip-svg {
     width: 36px;

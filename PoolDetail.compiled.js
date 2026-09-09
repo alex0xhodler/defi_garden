@@ -485,7 +485,7 @@ function renderEmvChip() {
     y: 0.5,
     width: 45,
     height: 33,
-    rx: 4.5,
+    rx: 0,
     fill: 'url(#emv-metallic-grad)',
     stroke: 'rgba(30,25,18,0.4)',
     strokeWidth: 0.8
@@ -494,7 +494,7 @@ function renderEmvChip() {
     y: 1.2,
     width: 43.6,
     height: 31.6,
-    rx: 4,
+    rx: 0,
     fill: 'none',
     stroke: 'url(#emv-bevel-grad)',
     strokeWidth: 0.6
@@ -1453,34 +1453,46 @@ function YieldCardWidget({
   React.createElement('div', {
     className: 'virtual-visa-card-wrapper'
   }, React.createElement('div', {
-    className: 'virtual-visa-card'
+    className: 'virtual-visa-card',
+    onPointerMove: ev => {
+      if (typeof window !== 'undefined' && window.matchMedia && (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !window.matchMedia('(pointer: fine)').matches)) return;
+      var rect = ev.currentTarget.getBoundingClientRect();
+      if (!rect.width || !rect.height) return;
+      var x = Math.max(0, Math.min(1, (ev.clientX - rect.left) / rect.width));
+      var y = Math.max(0, Math.min(1, (ev.clientY - rect.top) / rect.height));
+      var rotateY = (x - 0.5) * 14;
+      var rotateX = (0.5 - y) * 14;
+      ev.currentTarget.style.transition = 'none';
+      ev.currentTarget.style.transform = `perspective(1200px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg)`;
+      var sheenX = 50 + (x - 0.5) * 30;
+      ev.currentTarget.style.setProperty('--sheen-x', `${sheenX.toFixed(1)}% 0`);
+    },
+    onPointerLeave: ev => {
+      ev.currentTarget.style.transition = 'transform 0.2s ease-out';
+      ev.currentTarget.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+      ev.currentTarget.style.setProperty('--sheen-x', '50% 0');
+    }
   },
-  // Guilloche lathework pattern background
-  React.createElement('div', {
-    className: 'visa-card-guilloche',
-    'aria-hidden': 'true'
-  }), React.createElement('div', {
-    className: 'visa-card-specular',
-    'aria-hidden': 'true'
-  }),
-  // Card top row: EMV Chip + NFC Wave (left) & Visa Logo (right)
+  // Card top row: EMV Chip + NFC Wave (left) & Visa Logo + Metal (right)
   React.createElement('div', {
     className: 'visa-card-top-row'
   }, React.createElement('div', {
     className: 'visa-card-chip-group'
   }, renderEmvChip(), renderNfcIcon()), React.createElement('div', {
     className: 'visa-card-brand-group'
-  }, renderVisaSvg(), React.createElement('span', {
+  }, renderVisaSvg(), React.createElement('div', {
+    className: 'visa-card-tier-row'
+  }, React.createElement('span', {
     className: 'visa-card-type-badge'
-  }, 'DEBIT'))),
+  }, 'DEBIT'), React.createElement('span', {
+    className: 'visa-card-metal-badge'
+  }, 'METAL')))),
   // Card center: Masked PAN & Dedicated Spend label
   React.createElement('div', {
     className: 'visa-card-center'
   }, React.createElement('div', {
     className: 'visa-card-pan'
-  }, '4242  ••••  ••••  8842'), React.createElement('div', {
-    className: 'visa-card-label-sub'
-  }, activeSubs.length > 1 ? isKorean ? `DEFI GARDEN • ${activeSubs.length}개 구독 통합` : `DEFI GARDEN • ${activeSubs.length} SUBS BUNDLE` : isKorean ? `${selectedSub.id.toUpperCase()} • 가상 발급 전용` : `${selectedSub.id.toUpperCase()}-VAULT / AGENT-01`), React.createElement('div', {
+  }, '•••• •••• •••• 8453'), React.createElement('div', {
     className: 'visa-card-funded-label'
   }, activeSubs.length > 1 ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED` : isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
   // Card bottom row: Expiration, Network info & Spend cap badge
@@ -1492,9 +1504,14 @@ function YieldCardWidget({
     className: 'visa-card-expiry'
   }, 'VALID 08/31'), React.createElement('span', {
     className: 'visa-card-network-info'
-  }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`)), React.createElement('div', {
+  }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} · YIELD FUNDED`)), React.createElement('div', {
+    className: 'visa-card-meta-right'
+  }, React.createElement('div', {
+    className: 'visa-card-hologram',
+    'aria-hidden': 'true'
+  }), React.createElement('div', {
     className: 'visa-card-cap-badge'
-  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `CAP: $${totalMonthlyWithBuffer.toFixed(2)}/MO${activeSubs.length > 1 ? ` (${activeSubs.length} SUBS)` : ''}`))))), React.createElement('div', {
+  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `🟢 ACTIVE ($${totalMonthlyWithBuffer.toFixed(2)}/MO)`)))))), React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
   }, !isSubmitted ? React.createElement('div', {
     className: 'yield-card-reservation'

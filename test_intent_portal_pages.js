@@ -118,7 +118,7 @@ EXPECTED_PRESETS.forEach(preset => {
     assert.strictEqual(app['@id'], `https://www.defi.garden/for/${preset.slug}#app`);
 
     // Check cardholder and card visualizer
-    assert.ok(html.includes(`${preset.slug.toUpperCase()}-VAULT / AGENT-01`), 'Expected cardholder name');
+    assert.ok(html.includes(preset.name.toUpperCase()), 'Expected cardholder name');
     assert.ok(html.includes(`•••• •••• •••• 8453`), 'Expected 8453 card number');
     assert.ok(html.includes('id="email-input"'), 'Expected email input for card waitlist reservation');
     assert.ok(html.includes('id="submit-btn"'), 'Expected reservation submit button');
@@ -162,6 +162,11 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
         });
 
         await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
+        // Switch to email waitlist panel
+        const waitlistTab = page.locator('#tab-waitlist');
+        if (await waitlistTab.count() > 0) {
+          await waitlistTab.click();
+        }
         // Submit email reservation form
         await page.fill('#email-input', 'builder@anthropic.com');
         await page.click('#submit-btn');
