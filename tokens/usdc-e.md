@@ -1,5 +1,7 @@
 # USDC.E DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest USDC.E yield right now is 6.10% on sparkdex-v4 (Flare), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

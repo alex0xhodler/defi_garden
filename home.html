@@ -6,8 +6,8 @@
 
     <!-- Default title/meta for the search-first landing — planner and analytics
          modes rewrite these values in the router or their mounted app. -->
-    <title>DeFi Garden 🌱 | Find your next yield</title>
-    <meta name="description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
+    <title>DeFi Yield Finder &amp; Savings Planner — Live On-Chain Rates | DeFi Garden 🌱</title>
+    <meta name="description" content="Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
@@ -26,8 +26,8 @@
     <link rel="alternate" type="text/markdown" href="https://www.defi.garden/ai-info.md" title="AI Info Guide">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="DeFi Garden 🌱 | Find your next yield">
-    <meta property="og:description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
+    <meta property="og:title" content="DeFi Yield Finder &amp; Savings Planner — Live On-Chain Rates | DeFi Garden 🌱">
+    <meta property="og:description" content="Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/">
     <meta property="og:site_name" content="DeFi Garden">
@@ -139,9 +139,9 @@
                 var ogTitle = document.querySelector('meta[property="og:title"]');
                 if (ogTitle) ogTitle.content = document.title;
             } else if (needsPlanner) {
-                document.title = 'Garden Planner 🌱 | Plan Your DeFi Savings by Goal — DeFi Garden';
+                document.title = 'DeFi Savings Calculator — Compound Yield & Goal Planner | DeFi Garden 🌱';
                 var plannerDesc = document.querySelector('meta[name="description"]');
-                if (plannerDesc) plannerDesc.content = 'A goal-first DeFi savings planner. Tell us what you\'re saving for and how much you can set aside each month — we\'ll show what live, real pool rates could grow it into. Education, not advice.';
+                if (plannerDesc) plannerDesc.content = 'Calculate compound savings growth from live DeFi pool rates. Model monthly deposits, goal timelines, and forever numbers. Free, no wallet needed.';
                 var plannerOgTitle = document.querySelector('meta[property="og:title"]');
                 if (plannerOgTitle) plannerOgTitle.content = document.title;
             }
@@ -170,7 +170,7 @@
          runs on) sets no matching data-app-mode, so its static links stay
          visible + clickable — no rule needed for that case.
          Keep this selector identical to the style.css rule. -->
-    <style>html[data-app-mode="analytics"] .seo-hub-links,html[data-app-mode="landing"] .seo-hub-links{display:none}</style>
+    <style>html[data-app-mode="analytics"] .seo-hub-links,html[data-app-mode="landing"] .seo-hub-links{display:none}html[data-app-mode="analytics"] .seo-content,html[data-app-mode="planner"] .seo-content{display:none}html[data-app-mode="landing"] #landing-root:empty{min-height:70vh}</style>
 
     <!-- Mode-conditional CSS: injected synchronously so it fetches in parallel -->
     <script>
@@ -374,6 +374,31 @@
     <div id="root"></div>
     <div id="planner-root"></div>
     <div id="landing-root"></div>
+
+    <section class="seo-content" id="seo-content">
+      <h1 id="seo-h1">DeFi Savings &amp; Yield Discovery — Live On-Chain Rates</h1>
+      <p class="seo-lede" id="seo-lede">Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.</p>
+      <h2 id="seo-calc-h">Plan a Savings Goal with Real Pool Rates</h2>
+      <p id="seo-calc-p">The Garden Planner compounds monthly deposits at live stablecoin pool rates and shows what they could grow into — illustrative example: at a fixed hypothetical 5% APY, $500/month for 3 years totals $18,000 deposited and about $19,457 in value. Not a live rate; open the planner for today's numbers.</p>
+      <p><a class="seo-cta" href="/plan.html" id="seo-calc-cta">Open the DeFi Savings Calculator →</a></p>
+      <h2 id="seo-markets-h">Top Yield Markets</h2>
+      <nav aria-label="Top yield markets">
+        <ul class="seo-market-links">
+          <li><a href="/tokens/usdc" id="seo-link-usdc">USDC yield rates</a></li>
+          <li><a href="/tokens/usdt" id="seo-link-usdt">USDT yield rates</a></li>
+          <li><a href="/tokens/eth" id="seo-link-eth">ETH staking &amp; lending yields</a></li>
+          <li><a href="/tokens/dai" id="seo-link-dai">DAI yield rates</a></li>
+          <li><a href="/chains/base" id="seo-link-base">Base chain yields</a></li>
+          <li><a href="/chains/arbitrum" id="seo-link-arbitrum">Arbitrum yields</a></li>
+          <li><a href="/chains/solana" id="seo-link-solana">Solana yields</a></li>
+          <li><a href="/chains/ethereum" id="seo-link-ethereum">Ethereum yields</a></li>
+        </ul>
+      </nav>
+      <h2 id="seo-rails-h">Trust Rails</h2>
+      <p id="seo-rails-p">Listings exclude pools under $100K TVL and any pool with an anomalous APY above 1,000%. Rates come from DefiLlama and change continuously.</p>
+      <p class="seo-risk" id="seo-risk">Notice: Cryptocurrency and DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government agency. Yields fluctuate continuously. Smart contract, protocol, depeg, and liquidation risks apply.</p>
+      <p><a href="/guide/defi-yield-rates-explained" id="seo-guide-link">How DeFi yield works →</a></p>
+    </section>
 
     <!-- SEO surface hub links (045) — server-rendered, present in the raw
          HTML in BOTH router modes so crawlers reach /tokens and /chains

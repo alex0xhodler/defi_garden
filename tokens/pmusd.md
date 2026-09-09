@@ -1,5 +1,7 @@
 # PMUSD DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest PMUSD yield right now is 35.54% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

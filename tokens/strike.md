@@ -1,5 +1,7 @@
 # STRIKE DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest STRIKE yield right now is 11.47% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

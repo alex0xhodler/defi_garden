@@ -4150,6 +4150,194 @@ html[data-app-mode="landing"] .seo-hub-links {
   display: none;
 }
 
+/* ═══ PERMANENT SEO CONTENT (255, fintech-seo v2) ══════════════════════════
+   Shared across home.html and plan.html. Static indexable content below the
+   mounted app. Tokens only (--ui-*), hairline borders, no box-shadows except
+   focus rings. Preserves CLS and ensures crawlers and users see identical
+   content without soft-cloaking. */
+.seo-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  color: var(--ui-text);
+}
+
+.seo-content h1 {
+  font-family: var(--font-family-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ui-text);
+  margin: 0 0 16px 0;
+  letter-spacing: -0.01em;
+}
+
+.seo-content h2 {
+  font-family: var(--font-family-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--ui-text);
+  margin: 28px 0 12px 0;
+}
+
+.seo-content p {
+  color: var(--ui-text);
+  line-height: 1.6;
+  margin: 12px 0;
+  font-size: 0.95rem;
+}
+
+.seo-content a {
+  color: var(--ui-accent);
+  text-decoration: none;
+}
+
+.seo-content a:hover {
+  text-decoration: underline;
+}
+
+.seo-lede {
+  color: var(--ui-text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Primary-button pattern (247 / 225) */
+.seo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent) !important;
+  padding: 10px 20px;
+  border-radius: var(--ui-radius-md);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid var(--ui-accent-active);
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.seo-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent) !important;
+  text-decoration: none !important;
+}
+
+.seo-cta:active {
+  background: var(--ui-accent-active);
+  transform: translateY(1px);
+}
+
+.seo-cta:focus-visible {
+  outline: none;
+  box-shadow: var(--ui-focus-ring);
+}
+
+/* Market pill links mirroring token pages' .related-links a pattern */
+.seo-market-links {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.seo-market-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.seo-market-links a {
+  display: inline-block;
+  padding: 8px 14px;
+  background: var(--ui-surface);
+  color: var(--ui-accent);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
+  box-shadow: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.seo-market-links a:hover {
+  background: var(--ui-surface-muted);
+  border-color: var(--ui-border-strong);
+  text-decoration: none;
+}
+
+.seo-market-links a:active {
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
+}
+
+.seo-market-links a:focus-visible {
+  outline: none;
+  box-shadow: var(--ui-focus-ring);
+}
+
+/* YMYL Risk Notice */
+.seo-risk {
+  font-size: 0.85rem;
+  color: var(--ui-text-muted);
+  border-top: 1px solid var(--ui-border);
+  padding-top: 16px;
+  margin-top: 24px;
+  line-height: 1.5;
+}
+
+/* Shared SEO content table (used by plan.html calculator tables) */
+.seo-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 0.9rem;
+}
+
+.seo-content th,
+.seo-content td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.seo-content th {
+  color: var(--ui-text-secondary);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.seo-content td {
+  color: var(--ui-text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .seo-cta,
+  .seo-market-links a {
+    transition: none;
+  }
+  .seo-cta:active,
+  .seo-market-links a:active {
+    transform: none;
+  }
+}
+
+/* Mode-conditional visibility (255) — mirrors the critical CSS in home.html */
+html[data-app-mode="analytics"] .seo-content,
+html[data-app-mode="planner"] .seo-content {
+  display: none;
+}
+
+html[data-app-mode="landing"] #landing-root:empty {
+  min-height: 70vh;
+}
+
 /* Reset Filters Button - recovery action (empty state).
    height/padding/border-radius/font owned by the shared secondary-button
    rule, style.css end. */

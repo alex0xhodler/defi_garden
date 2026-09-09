@@ -1,5 +1,7 @@
 # SOL DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest SOL yield right now is 66.00% on orca-dex (Solana), among 93 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -12,6 +14,14 @@ The highest honest SOL yield right now is 66.00% on orca-dex (Solana), among 93 
 | [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 2.91% | $6.9M |
 | [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 25.16% | $6.88M |
 | [orca-dex →](https://www.defi.garden/?pool=55c24466-7169-4b51-97f0-025ab1c34b0d&src=seo_token) | Solana | 6.29% | $4.25M |
+
+## How SOL Yield is Generated
+
+Yield on SOL comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.
+
+Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.
+
+All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history

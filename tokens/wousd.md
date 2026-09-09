@@ -1,5 +1,7 @@
 # WOUSD DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest WOUSD yield right now is 6.53% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

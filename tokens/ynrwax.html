@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"YNRWAX","item":"https://www.defi.garden/tokens/ynrwax"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b"},{"@type":"ListItem","position":2,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95"},{"@type":"ListItem","position":3,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872"},{"@type":"ListItem","position":4,"name":"spectra-v2 on Ethereum","url":"https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9"},{"@type":"ListItem","position":5,"name":"spectra-v2 on Ethereum","url":"https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"YNRWAX DeFi Yields Dataset","description":"Live DefiLlama yield data for YNRWAX pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/ynrwax","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest YNRWAX yield today?","acceptedAnswer":{"@type":"Answer","text":"9.81% APY on pendle-v2 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many YNRWAX pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"7 live pools clear this page's $100K TVL floor, $11.23M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which YNRWAX pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, YNRWAX's lower-variability candidates are pendle-v2 (Ethereum), 9.81% APY, $551.5K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; spectra-v2 (Ethereum), 6.40% APY, $106.4K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; spectra-v2 (Ethereum), 8.55% APY, $106.4K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; pendle-v2 (Ethereum), 3.95% APY, $551.5K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; stake-dao-yield (Ethereum), 2.38% APY, $322.8K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="YNRWAX DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="7 live YNRWAX pools above the $100K TVL floor, up to 9.81% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>YNRWAX DeFi Yields</h1>
     <p class="tp-answer">The highest honest YNRWAX yield right now is 9.81% on pendle-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">7 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">YNRWAX's largest live pool is pendle-v2 on Ethereum at 3.95% ($551.5K TVL). 7 YNRWAX pools across 1 chain clear this page's $100K TVL floor, $11.23M in total.</p>
     <p class="tp-yield-headline">Your idle YNRWAX could earn ~6.40% — park $3.7K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=YNRWAX&minTvl=100000&src=seo_token">See live YNRWAX pools →</a>
@@ -371,6 +373,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, YNRWAX&#39;s lower-variability candidates are pendle-v2 (Ethereum), 9.81% APY, $551.5K TVL, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&amp;src=seo_token; spectra-v2 (Ethereum), 6.40% APY, $106.4K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&amp;src=seo_token; spectra-v2 (Ethereum), 8.55% APY, $106.4K TVL, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&amp;src=seo_token; pendle-v2 (Ethereum), 3.95% APY, $551.5K TVL, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&amp;src=seo_token; stake-dao-yield (Ethereum), 2.38% APY, $322.8K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

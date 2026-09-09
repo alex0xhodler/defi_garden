@@ -9,6 +9,11 @@
   --gp-curve-bank: var(--color-text-secondary);
 }
 
+/* CLS guard while planner mounts (plan.html sets no data-app-mode) */
+#planner-root:empty {
+  min-height: 80vh;
+}
+
 .gp-app {
   position: relative;
   isolation: isolate;

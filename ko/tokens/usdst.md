@@ -1,5 +1,7 @@
 # USDST 디파이 수익률
 
+*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+
 현재 USDST의 가장 높은 정직한 수익률은 Strato의 strato에서 5.00%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |

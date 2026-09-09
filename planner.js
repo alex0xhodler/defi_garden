@@ -4625,6 +4625,43 @@
       } catch (eFooterI18n) {}
     }, [lang]);
 
+    // Post-mount KO localization for static SEO content on plan.html (Plan Step 3).
+    // Ships EN in raw HTML for crawlers; when language is KO, localize visible
+    // strings from translations.ko.planner. Fails safe if translations global,
+    // dictionary, or key is missing. No-op in EN; never throws.
+    useEffect(function () {
+      if (lang !== 'ko') return;
+      try {
+        var tr = safeTranslations();
+        var pDict = tr && ((tr[lang] && tr[lang].planner) || (tr.ko && tr.ko.planner));
+        if (!pDict) return;
+        var map = {
+          'seo-calc-title': 'seoCalcTitle',
+          'seo-calc-lede': 'seoCalcLede',
+          'seo-table-h': 'seoTableH',
+          'seo-table-note': 'seoTableNote',
+          'seo-th-monthly': 'seoThMonthly',
+          'seo-th-apy': 'seoThApy',
+          'seo-th-years': 'seoThYears',
+          'seo-th-deposited': 'seoThDeposited',
+          'seo-th-value': 'seoThValue',
+          'seo-math-h': 'seoMathH',
+          'seo-math-p': 'seoMathP',
+          'seo-risk-h': 'seoRiskH',
+          'seo-risk-p': 'seoRiskP'
+        };
+        for (var id in map) {
+          if (!Object.prototype.hasOwnProperty.call(map, id)) continue;
+          var key = map[id];
+          var val = pDict[key];
+          if (val) {
+            var el = document.getElementById(id);
+            if (el) el.textContent = val;
+          }
+        }
+      } catch (eSeoI18n) {}
+    }, [lang]);
+
     var themeState = useState(function () {
       try {
         var s = localStorage.getItem('theme');

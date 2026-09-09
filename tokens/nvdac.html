@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"NVDAC","item":"https://www.defi.garden/tokens/nvdac"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c"},{"@type":"ListItem","position":2,"name":"uniswap-v4 on Base","url":"https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2"},{"@type":"ListItem","position":3,"name":"uniswap-v4 on Base","url":"https://www.defi.garden/?pool=4fc5cf41-1362-599e-a605-73945a4951a9"},{"@type":"ListItem","position":4,"name":"uniswap-v4 on Base","url":"https://www.defi.garden/?pool=d58688c5-c859-5dc2-9fa7-c5b7cc6ba3da"},{"@type":"ListItem","position":5,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=f6f4ab63-9a82-5ea6-a79c-28484454865d"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"NVDAC DeFi Yields Dataset","description":"Live DefiLlama yield data for NVDAC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/nvdac","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest NVDAC yield today?","acceptedAnswer":{"@type":"Answer","text":"307.26% APY on aerodrome-slipstream (Base), based on live DefiLlama data."}},{"@type":"Question","name":"How many NVDAC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"7 live pools clear this page's $100K TVL floor, $3.6M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which NVDAC pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"There is not enough qualifying APY history to rank NVDAC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="NVDAC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="7 live NVDAC pools above the $100K TVL floor, up to 307.26% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>NVDAC DeFi Yields</h1>
     <p class="tp-answer">The highest honest NVDAC yield right now is 307.26% on aerodrome-slipstream (Base), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">7 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">NVDAC's largest live pool is aerodrome-slipstream on Base at 307.26% ($2.17M TVL). 7 NVDAC pools across 1 chain clear this page's $100K TVL floor, $3.6M in total.</p>
     <p class="tp-yield-headline">Your idle NVDAC could earn ~47.43% — park $506 and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=NVDAC&minTvl=100000&src=seo_token">See live NVDAC pools →</a>
@@ -371,6 +373,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="insufficient" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>There is not enough qualifying APY history to rank NVDAC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

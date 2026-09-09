@@ -205,8 +205,8 @@ projectionHeading: "The long game",
 
     // Search-first landing
     landing: {
-      pageTitle: "DeFi Garden 🌱 | Find your next yield",
-      metaDescription: "Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.",
+      pageTitle: "DeFi Yield Finder & Savings Planner — Live On-Chain Rates | DeFi Garden 🌱",
+      metaDescription: "Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.",
       navSearch: "Search yields",
       navPlanner: "Savings Planner",
       navAgents: "AI Agents & MCP",
@@ -255,7 +255,29 @@ projectionHeading: "The long game",
       searchFallback: "Search",
       returnCaption: "Welcome back",
       returnStatus: (date) => `Planted ${date}`,
-      returnCta: "Tend your garden"
+      returnCta: "Tend your garden",
+
+      // Permanent static SEO content section (fintech-seo v2) — raw HTML in
+      // home.html ships EN; landing.js localizes these by element id when
+      // language is KO. Keep EN/KO in sync (hard rule).
+      seoH1: "DeFi Savings & Yield Discovery — Live On-Chain Rates",
+      seoLede: "Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.",
+      seoCalcH: "Plan a Savings Goal with Real Pool Rates",
+      seoCalcP: "The Garden Planner compounds monthly deposits at live stablecoin pool rates and shows what they could grow into — illustrative example: at a fixed hypothetical 5% APY, $500/month for 3 years totals $18,000 deposited and about $19,457 in value. Not a live rate; open the planner for today's numbers.",
+      seoCalcCta: "Open the DeFi Savings Calculator →",
+      seoMarketsH: "Top Yield Markets",
+      seoRailsH: "Trust Rails",
+      seoRailsP: "Listings exclude pools under $100K TVL and any pool with an anomalous APY above 1,000%. Rates come from DefiLlama and change continuously.",
+      seoRisk: "Notice: Cryptocurrency and DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government agency. Yields fluctuate continuously. Smart contract, protocol, depeg, and liquidation risks apply.",
+      seoGuideLink: "How DeFi yield works →",
+      seoLinkUsdc: "USDC yield rates",
+      seoLinkUsdt: "USDT yield rates",
+      seoLinkEth: "ETH staking & lending yields",
+      seoLinkDai: "DAI yield rates",
+      seoLinkBase: "Base chain yields",
+      seoLinkArbitrum: "Arbitrum yields",
+      seoLinkSolana: "Solana yields",
+      seoLinkEthereum: "Ethereum yields"
     },
 
     // Garden Planner v2
@@ -700,7 +722,23 @@ projectionHeading: "The long game",
       waitlistStepLabel: function (n) { return 'Step ' + n + ' of 2'; },
 
       // Share — image path confirmation (spec 005)
-      shareImageSaved: "Image saved — link copied!"
+      shareImageSaved: "Image saved — link copied!",
+
+      // Permanent static SEO content on plan.html (fintech-seo v2) — raw HTML
+      // ships EN; planner.js localizes these by element id when lang is KO.
+      seoCalcTitle: "DeFi Savings Calculator — Compound Yield & Goal Planner",
+      seoCalcLede: "Model monthly deposits compounding at real DeFi pool rates. The planner above uses live DefiLlama data filtered by a $100K TVL floor. Education, not financial advice.",
+      seoTableH: "Illustrative Compound Growth",
+      seoTableNote: "Fixed hypothetical rates for illustration only — not live rates, not a forecast:",
+      seoThMonthly: "Monthly deposit",
+      seoThApy: "Hypothetical APY",
+      seoThYears: "Years",
+      seoThDeposited: "Total deposited",
+      seoThValue: "Illustrative value",
+      seoMathH: "How the Math Works",
+      seoMathP: "Monthly compounding of a recurring deposit (annuity-due): FV = P × ((1 + r)ⁿ − 1) / r × (1 + r), where P is the monthly deposit, r = APY ÷ 12, and n = years × 12. DeFi APYs change daily — the planner re-pulls live rates on every visit, which is why the table above is labeled illustrative.",
+      seoRiskH: "Risk & Reality",
+      seoRiskP: "DeFi yields are variable and can fall to zero. Pools carry smart contract, oracle, depeg, and liquidation risk. Nothing here is a bank deposit; no FDIC/SIPC protection applies. Education, not financial advice."
     },
 
     // Static token/chain landing pages (spec 050) — copy-only strings for
@@ -708,6 +746,14 @@ projectionHeading: "The long game",
     // are NOT translated here (en-US formatted, identical en/ko — CLAUDE.md).
     tcpTokenTitle: (sym) => `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,
     tcpChainTitle: (chain) => `${chain} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,
+    // Tier-1 head token upgrades (fintech-seo v2 Step 4) — head-token title
+    // pattern, educational block, and generation-time freshness stamp.
+    tokenHeadTitle: (sym, count) => `Best ${sym} Yield Rates Today — ${count} Live Pools Compared | DeFi Garden 🌱`,
+    tokenHowTitle: (sym) => `How ${sym} Yield is Generated`,
+    tokenHowSources: (sym) => `Yield on ${sym} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
+    tokenHowBaseReward: "Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.",
+    tokenHowRisk: "All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.",
+    tokenUpdated: (date) => `Pool data verified from DefiLlama at generation time: ${date}. Rates change continuously.`,
     // 174: floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL) — never a
     // re-typed literal, so a verifier changing MIN_POOL_TVL sees this copy
     // move with it. "clears this page's floor" replaces "clears DeFi
@@ -1124,8 +1170,8 @@ projectionHeading: "The long game",
 
     // Search-first landing
     landing: {
-      pageTitle: "DeFi Garden 🌱 | 다음 수익률 찾기",
-      metaDescription: "모든 체인의 실시간 DeFi 수익률을 검색하고, 키우고 싶은 목표를 위한 정원을 심어보세요. 투자 조언이 아닙니다.",
+      pageTitle: "DeFi 수익률 탐색 & 저축 플래너 — 실시간 온체인 금리 | DeFi Garden 🌱",
+      metaDescription: "50개 이상의 프로토콜, 30개 이상의 체인에서 신뢰 필터를 거친 실시간 DeFi 수익률을 목표 기반 저축 계산기와 함께 비교하세요. $100K TVL 기준. DefiLlama 데이터. 투자 조언이 아닌 교육용입니다.",
       navSearch: "수익률 검색",
       navPlanner: "저축 플래너",
       navAgents: "AI 에이전트 & MCP",
@@ -1178,7 +1224,28 @@ projectionHeading: "The long game",
       searchFallback: "검색",
       returnCaption: "다시 오셨네요",
       returnStatus: (date) => `${date}에 심었어요`,
-      returnCta: "정원 돌보기"
+      returnCta: "정원 돌보기",
+
+      // Permanent static SEO content section (fintech-seo v2) — KO mirror of
+      // the EN keys above; landing.js applies these by element id post-mount.
+      seoH1: "DeFi 저축 & 수익률 탐색 — 실시간 온체인 금리",
+      seoLede: "50개 이상의 프로토콜과 30개 이상의 체인에서 신뢰 필터를 거친 실시간 DeFi 수익률을 비교하세요. 모든 풀은 $100K TVL 기준을 통과하고 이상 수익률은 제외됩니다. 투자 조언이 아닌 교육용입니다.",
+      seoCalcH: "실제 풀 금리로 저축 목표 계획하기",
+      seoCalcP: "가든 플래너는 매월 입금액을 실시간 스테이블코인 풀 금리로 복리 계산해 얼마나 불어날 수 있는지 보여줍니다 — 예시: 고정 가정 5% APY로 매월 $500씩 3년간 입금하면 원금 $18,000, 평가액 약 $19,457입니다. 실시간 금리가 아닌 예시이며, 오늘의 수치는 플래너에서 확인하세요.",
+      seoCalcCta: "DeFi 저축 계산기 열기 →",
+      seoMarketsH: "주요 수익률 마켓",
+      seoRailsH: "신뢰 기준",
+      seoRailsP: "TVL $100K 미만 풀과 1,000%를 초과하는 이상 APY 풀은 목록에서 제외됩니다. 수익률은 DefiLlama 데이터 기반이며 지속적으로 변동합니다.",
+      seoRisk: "안내: 암호화폐와 DeFi 상품은 은행 예금이 아니며 FDIC, SIPC 또는 어떤 정부 기관의 보호도 받지 않습니다. 수익률은 지속적으로 변동합니다. 스마트 컨트랙트, 프로토콜, 디페그, 청산 위험이 있습니다.",
+      seoGuideLink: "DeFi 수익률 작동 원리 →",
+      seoLinkUsdc: "USDC 수익률",
+      seoLinkUsdt: "USDT 수익률",
+      seoLinkEth: "ETH 스테이킹 & 렌딩 수익률",
+      seoLinkDai: "DAI 수익률",
+      seoLinkBase: "Base 체인 수익률",
+      seoLinkArbitrum: "Arbitrum 수익률",
+      seoLinkSolana: "Solana 수익률",
+      seoLinkEthereum: "Ethereum 수익률"
     },
 
     // Garden Planner
@@ -1603,13 +1670,36 @@ projectionHeading: "The long game",
       waitlistStepLabel: function (n) { return n + ' / 2 단계'; },
 
       // Share — image path confirmation (spec 005)
-      shareImageSaved: "이미지 저장됨 — 링크 복사됨!"
+      shareImageSaved: "이미지 저장됨 — 링크 복사됨!",
+
+      // plan.html 정적 SEO 콘텐츠 (fintech-seo v2) — EN 키의 KO 미러; planner.js가
+      // 언어가 KO일 때 요소 id로 적용합니다.
+      seoCalcTitle: "DeFi 저축 계산기 — 복리 수익 & 목표 플래너",
+      seoCalcLede: "실제 DeFi 풀 금리로 매월 입금액이 복리로 어떻게 불어나는지 계산하세요. 위 플래너는 $100K TVL 기준을 거친 DefiLlama 실시간 데이터를 사용합니다. 투자 조언이 아닌 교육용입니다.",
+      seoTableH: "복리 성장 예시",
+      seoTableNote: "설명을 위한 고정 가정 금리입니다 — 실시간 금리도, 예측도 아닙니다:",
+      seoThMonthly: "월 입금액",
+      seoThApy: "가정 APY",
+      seoThYears: "기간(년)",
+      seoThDeposited: "총 입금액",
+      seoThValue: "예상 평가액",
+      seoMathH: "계산 원리",
+      seoMathP: "정기 적립의 월 복리 계산(기초 연금): FV = P × ((1 + r)ⁿ − 1) / r × (1 + r), 여기서 P는 월 입금액, r = APY ÷ 12, n = 연수 × 12입니다. DeFi APY는 매일 변동합니다 — 플래너는 방문할 때마다 실시간 금리를 다시 불러오므로 위 표는 예시로 표시됩니다.",
+      seoRiskH: "위험과 현실",
+      seoRiskP: "DeFi 수익률은 변동성이 크며 0이 될 수 있습니다. 풀에는 스마트 컨트랙트, 오라클, 디페그, 청산 위험이 있습니다. 은행 예금이 아니며 FDIC/SIPC 보호가 적용되지 않습니다. 투자 조언이 아닌 교육용입니다."
     },
 
     // Static token/chain landing pages (spec 050) — copy-only strings for
     // generate-token-pages.js / generate-chain-pages.js. Numbers/pool data
     // are NOT translated here (en-US formatted, identical en/ko — CLAUDE.md).
     tcpTokenTitle: (sym) => `${sym} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱`,
+    // Tier-1 헤드 토큰 업그레이드 (fintech-seo v2 Step 4) — EN 키의 KO 미러.
+    tokenHeadTitle: (sym, count) => `오늘의 최고 ${sym} 수익률 — ${count}개 실시간 풀 비교 | DeFi Garden 🌱`,
+    tokenHowTitle: (sym) => `${sym} 디파이 수익률 생성 원리`,
+    tokenHowSources: (sym) => `${sym}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
+    tokenHowBaseReward: "총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.",
+    tokenHowRisk: "모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.",
+    tokenUpdated: (date) => `DefiLlama 데이터 생성 시점 검증: ${date}. 수익률은 지속적으로 변동합니다.`,
     tcpChainTitle: (chain) => `${chain} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱`,
     // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
     // "DeFi Garden의 기준" 대신 "이 페이지의 기준"으로 — 이 기준은 이 페이지의 게재

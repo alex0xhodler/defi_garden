@@ -1,5 +1,7 @@
 # DAI DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest DAI yield right now is 8.10% on sushiswap-v3 (Ethereum), among 69 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -12,6 +14,14 @@ The highest honest DAI yield right now is 8.10% on sushiswap-v3 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 5.42% | $3.55M |
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.56% | $1.81M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 5.15% | $1.46M |
+
+## How DAI Yield is Generated
+
+Yield on DAI comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.
+
+Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.
+
+All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history

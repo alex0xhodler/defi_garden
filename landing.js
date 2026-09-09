@@ -424,6 +424,42 @@
       writeTheme(dark);
     }, [language, dark, copy]);
 
+    // Post-mount KO localization for static SEO content section (fintech-seo v2)
+    useEffect(function () {
+      if (detectLanguage() !== 'ko') return;
+      try {
+        var landingCopy = getCopy('ko');
+        if (!landingCopy) return;
+        var seoMap = {
+          'seo-h1': 'seoH1',
+          'seo-lede': 'seoLede',
+          'seo-calc-h': 'seoCalcH',
+          'seo-calc-p': 'seoCalcP',
+          'seo-calc-cta': 'seoCalcCta',
+          'seo-markets-h': 'seoMarketsH',
+          'seo-rails-h': 'seoRailsH',
+          'seo-rails-p': 'seoRailsP',
+          'seo-risk': 'seoRisk',
+          'seo-guide-link': 'seoGuideLink',
+          'seo-link-usdc': 'seoLinkUsdc',
+          'seo-link-usdt': 'seoLinkUsdt',
+          'seo-link-eth': 'seoLinkEth',
+          'seo-link-dai': 'seoLinkDai',
+          'seo-link-base': 'seoLinkBase',
+          'seo-link-arbitrum': 'seoLinkArbitrum',
+          'seo-link-solana': 'seoLinkSolana',
+          'seo-link-ethereum': 'seoLinkEthereum'
+        };
+        for (var id in seoMap) {
+          var el = document.getElementById(id);
+          var key = seoMap[id];
+          if (el && landingCopy[key]) {
+            el.textContent = landingCopy[key];
+          }
+        }
+      } catch (err) {}
+    }, [language]);
+
     useEffect(function () {
       if (showReturnCard && typeof Analytics !== 'undefined') {
         Analytics.track('garden_reentry_shown', { goal: savedPlan.goal, archetype: savedPlan.archetype || null });

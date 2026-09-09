@@ -1,5 +1,7 @@
 # WFRAX DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest WFRAX yield right now is 35.04% on stake-dao-yield (Fraxtal), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

@@ -153,12 +153,16 @@ const ESTATE_URL_PATH_PREFIXES = ['/tokens', '/chains', '/ko/tokens', '/ko/chain
  * Exported so tests can call it directly against a scratch estate.
  */
 function buildFullUrlPopulation(sitemapUrls, estateRoot) {
+  const guideUrl = `${SITE_URL}/guide/defi-yield-rates-explained`;
   const specialUrls = sitemapUrls.filter(u => {
     let pathname;
     try { pathname = new URL(u).pathname; }
     catch (e) { return true; } // unparseable — keep as-is; categorizeUrls/downstream will skip it too
     return !ESTATE_URL_PATH_PREFIXES.some(prefix => pathname === prefix || pathname.startsWith(prefix + '/'));
   });
+  if (!specialUrls.includes(guideUrl)) {
+    specialUrls.push(guideUrl);
+  }
   const estateUrls = collectEstateUrls(estateRoot);
   return Array.from(new Set([...specialUrls, ...estateUrls])).sort();
 }
@@ -698,6 +702,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- "High TVL pools" → ${meta.baseUrl}/?minTvl=10000000`);
   lines.push(`- "How do I make yield pay a monthly subscription" → ${meta.baseUrl}/plan.html`);
   lines.push(`- "Save toward retirement with crypto yield" → ${meta.baseUrl}/plan.html`);
+  lines.push(`- "How DeFi yield works (APY, lending rates, risk rails)" → ${meta.baseUrl}/guide/defi-yield-rates-explained`);
   lines.push('');
   
   // Current top yields

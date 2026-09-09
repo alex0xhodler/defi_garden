@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"VBUSDC","item":"https://www.defi.garden/tokens/vbusdc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"yearn-finance on Katana","url":"https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6"},{"@type":"ListItem","position":2,"name":"morpho-blue on Katana","url":"https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a"},{"@type":"ListItem","position":3,"name":"spectra-metavaults on Katana","url":"https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VBUSDC DeFi Yields Dataset","description":"Live DefiLlama yield data for VBUSDC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/vbusdc","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest VBUSDC yield today?","acceptedAnswer":{"@type":"Answer","text":"7.59% APY on spectra-metavaults (Katana), based on live DefiLlama data."}},{"@type":"Question","name":"How many VBUSDC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $11.24M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which VBUSDC pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.79% APY, $7.42M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token; morpho-blue (Katana), 3.37% APY, $3.4M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token; spectra-metavaults (Katana), 7.59% APY, $422.8K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="VBUSDC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live VBUSDC pools above the $100K TVL floor, up to 7.59% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>VBUSDC DeFi Yields</h1>
     <p class="tp-answer">The highest honest VBUSDC yield right now is 7.59% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">3 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">VBUSDC's largest live pool is yearn-finance on Katana at 5.79% ($7.42M TVL). 3 VBUSDC pools across 1 chain clear this page's $100K TVL floor, $11.24M in total.</p>
     <p class="tp-yield-headline">Your idle VBUSDC could earn ~5.79% — park $4.1K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=VBUSDC&minTvl=100000&src=seo_token">See live VBUSDC pools →</a>
@@ -359,6 +361,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, VBUSDC&#39;s lower-variability candidates are yearn-finance (Katana), 5.79% APY, $7.42M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&amp;src=seo_token; morpho-blue (Katana), 3.37% APY, $3.4M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&amp;src=seo_token; spectra-metavaults (Katana), 7.59% APY, $422.8K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

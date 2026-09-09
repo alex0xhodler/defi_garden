@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"BIRB","item":"https://www.defi.garden/tokens/birb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a"},{"@type":"ListItem","position":2,"name":"uniswap-v2 on Base","url":"https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"BIRB DeFi Yields Dataset","description":"Live DefiLlama yield data for BIRB pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/birb","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BIRB yield today?","acceptedAnswer":{"@type":"Answer","text":"0.02% APY on uniswap-v2 (Base), based on live DefiLlama data."}},{"@type":"Question","name":"How many BIRB pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $1.7M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which BIRB pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $101K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token; raydium-amm (Solana), 3.54% APY, $1.6M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="BIRB DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live BIRB pools above the $100K TVL floor, up to 0.02% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>BIRB DeFi Yields</h1>
     <p class="tp-answer">The highest honest BIRB yield right now is 0.02% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">2 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">BIRB's largest live pool is raydium-amm on Solana at 3.54% ($1.6M TVL). 2 BIRB pools across 2 chains clear this page's $100K TVL floor, $1.7M in total.</p>
     <p class="tp-yield-headline">Your idle BIRB could earn ~1.78% — park $13.5K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=BIRB&minTvl=100000&src=seo_token">See live BIRB pools →</a>
@@ -353,6 +355,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, BIRB&#39;s lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $101K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&amp;src=seo_token; raydium-amm (Solana), 3.54% APY, $1.6M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

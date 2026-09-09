@@ -1,5 +1,7 @@
 # WETH DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest WETH yield right now is 53.22% on uniswap-v3 (Base), among 1,790 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -12,6 +14,14 @@ The highest honest WETH yield right now is 53.22% on uniswap-v3 (Base), among 1,
 | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.80% | $61.4M |
 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 1.40% | $57.35M |
 | [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 6.72% | $53.85M |
+
+## How WETH Yield is Generated
+
+Yield on WETH comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.
+
+Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.
+
+All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history

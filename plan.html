@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
-    <title>Garden Planner 🌱 | Plan Your DeFi Savings by Goal — DeFi Garden</title>
-    <meta name="description" content="A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.">
+    <title>DeFi Savings Calculator — Compound Yield &amp; Goal Planner | DeFi Garden 🌱</title>
+    <meta name="description" content="Calculate compound savings growth from live DeFi pool rates. Model monthly deposits, goal timelines, and forever numbers. Free, no wallet needed.">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, monthly deposit calculator, DeFi Garden">
@@ -18,8 +18,8 @@
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/plan.html">
 
     <!-- Open Graph Meta Tags for Social Media Sharing -->
-    <meta property="og:title" content="Garden Planner 🌱 | Plan Your DeFi Savings by Goal">
-    <meta property="og:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into. Every number is live data — education, not advice.">
+    <meta property="og:title" content="DeFi Savings Calculator — Compound Yield &amp; Goal Planner | DeFi Garden 🌱">
+    <meta property="og:description" content="Calculate compound savings growth from live DeFi pool rates. Model monthly deposits, goal timelines, and forever numbers. Free, no wallet needed.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/plan.html">
     <meta property="og:site_name" content="DeFi Garden">
@@ -31,11 +31,14 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Garden Planner 🌱 | Plan Your DeFi Savings by Goal">
-    <meta name="twitter:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into.">
+    <meta name="twitter:title" content="DeFi Savings Calculator — Compound Yield &amp; Goal Planner | DeFi Garden 🌱">
+    <meta name="twitter:description" content="Calculate compound savings growth from live DeFi pool rates. Model monthly deposits, goal timelines, and forever numbers. Free, no wallet needed.">
     <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"DeFi Garden Savings Calculator","url":"https://www.defi.garden/plan.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","description":"Calculate compound savings growth and goal timelines from live, trust-filtered DeFi yield pool data.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Monthly deposit compound projection","Goal timeline estimation","Live DefiLlama rate integration","Trust-filtered pools ($100K TVL floor)"]}</script>
     <!-- App Icons and Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
@@ -109,6 +112,35 @@
 </head>
 <body>
     <div id="planner-root"></div>
+
+    <section class="seo-content">
+      <h1 id="seo-calc-title">DeFi Savings Calculator — Compound Yield &amp; Goal Planner</h1>
+      <p class="seo-lede" id="seo-calc-lede">Model monthly deposits compounding at real DeFi pool rates. The planner above uses live DefiLlama data filtered by a $100K TVL floor. Education, not financial advice.</p>
+      <h2 id="seo-table-h">Illustrative Compound Growth</h2>
+      <p id="seo-table-note">Fixed hypothetical rates for illustration only — not live rates, not a forecast:</p>
+      <table>
+        <thead>
+          <tr>
+            <th id="seo-th-monthly">Monthly deposit</th>
+            <th id="seo-th-apy">Hypothetical APY</th>
+            <th id="seo-th-years">Years</th>
+            <th id="seo-th-deposited">Total deposited</th>
+            <th id="seo-th-value">Illustrative value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>$100</td><td>5%</td><td>3</td><td>$3,600</td><td>$3,891</td></tr>
+          <tr><td>$500</td><td>5%</td><td>3</td><td>$18,000</td><td>$19,457</td></tr>
+          <tr><td>$1,000</td><td>5%</td><td>5</td><td>$60,000</td><td>$68,289</td></tr>
+          <tr><td>$500</td><td>8%</td><td>5</td><td>$30,000</td><td>$36,983</td></tr>
+          <tr><td>$1,000</td><td>10%</td><td>10</td><td>$120,000</td><td>$206,552</td></tr>
+        </tbody>
+      </table>
+      <h2 id="seo-math-h">How the Math Works</h2>
+      <p id="seo-math-p">Monthly compounding of a recurring deposit (annuity-due): FV = P × ((1 + r)ⁿ − 1) / r × (1 + r), where P is the monthly deposit, r = APY ÷ 12, and n = years × 12. DeFi APYs change daily — the planner re-pulls live rates on every visit, which is why the table above is labeled illustrative.</p>
+      <h2 id="seo-risk-h">Risk &amp; Reality</h2>
+      <p class="seo-risk" id="seo-risk-p">DeFi yields are variable and can fall to zero. Pools carry smart contract, oracle, depeg, and liquidation risk. Nothing here is a bank deposit; no FDIC/SIPC protection applies. Education, not financial advice.</p>
+    </section>
 
     <!-- SEO surface hub links (045, 179) — server-rendered, present in the raw
          HTML so crawlers reach /tokens and /chains without executing the app.
