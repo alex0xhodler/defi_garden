@@ -1802,154 +1802,177 @@ function generateHtml(sub) {
               </div>
             </div>
 
-            <!-- Early Access Reservation Form -->
-            <div class="yield-card-reservation" id="reservation-card">
-              <h3 class="reservation-title">Reserve ${sub.name} Card</h3>
-              <p class="reservation-subtitle">Free to reserve • Spends yield, never principal • No wallet required</p>
+            <!-- SOTA Conversion Card -->
+            <div class="yield-card-reservation" id="conversion-card">
+              <!-- Top Segmented Switcher (Single Focus) -->
+              <div class="conversion-path-switcher" role="tablist">
+                <button type="button" class="path-switch-btn is-active" id="tab-instant-card" role="tab" aria-selected="true">
+                  ⚡ Issue Virtual Card
+                </button>
+                <button type="button" class="path-switch-btn" id="tab-waitlist" role="tab" aria-selected="false">
+                  ✉️ Waitlist Notification
+                </button>
+              </div>
 
-              <form class="reservation-form" id="reserve-form" novalidate>
-                <div class="reservation-input-group">
-                  <div class="input-with-icon">
-                    ${renderMailIconSvg()}
-                    <input type="email" class="email-input" id="email-input" placeholder="Enter developer / user email..." required autocomplete="email" />
-                  </div>
-                  <button type="submit" class="reserve-submit-btn" id="submit-btn">
-                    Reserve Card at Launch →
-                  </button>
+              <!-- VIEW A: Instant Card Issuance (Default Active) -->
+              <div class="conversion-panel" id="panel-instant-card">
+                <div class="conversion-header">
+                  <h3 class="conversion-title">Instant ${sub.name} Visa Card</h3>
+                  <p class="conversion-subtitle">Zero issuance fee • Funded via Base USDC • Instant online checkout</p>
                 </div>
-                <div class="validation-error" id="form-error" style="display:none;"></div>
-              </form>
-              <p class="reservation-micro-hint">No wallet connection or KYC required to reserve • Pick your currency at launch</p>
-              <button type="button" class="laso-instant-launch-toggle-btn" id="laso-toggle-btn" style="margin-top:10px; width:100%;">
-                ⚡ Try Instant Laso Card Issuance (Base x402) →
-              </button>
-              <div class="laso-terminal-container" id="laso-terminal" style="display:none; margin-top:14px;">
-                <div class="laso-terminal-header">
-                  <div class="laso-brand-title">
-                    <span class="laso-brand-dot"></span>
-                    <span>Laso.finance Virtual Visa Card Rail</span>
-                  </div>
-                  <div class="laso-mode-switch-group">
-                    <button type="button" class="laso-mode-btn is-active live" id="laso-mode-live-btn">⚡ Live Base USDC</button>
-                    <button type="button" class="laso-mode-btn" id="laso-mode-sim-btn">🧪 Simulator</button>
-                  </div>
-                </div>
-                <div class="laso-idle-card" id="laso-idle-view">
-                  <p class="laso-terminal-desc" id="laso-desc-text">
-                    Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.
-                  </p>
-                  <div class="laso-amount-section">
-                    <span class="laso-amount-label">Card Load Amount:</span>
-                    <div class="laso-amount-chips-row">
-                      <button type="button" class="laso-amount-chip is-active" id="laso-chip-test5">🧪 Test Min $5.00</button>
-                      <button type="button" class="laso-amount-chip" id="laso-chip-service">💼 Service Bill $${sub.taxBufferMonthlyUsd.toFixed(2)}</button>
-                      <button type="button" class="laso-amount-chip" id="laso-chip-custom">✏️ Custom</button>
-                    </div>
-                    <div class="laso-custom-amount-row" id="laso-custom-row" style="display:none;">
-                      <span>$</span>
-                      <input type="number" class="laso-custom-amount-input" id="laso-custom-input" min="5" max="1000" step="1" value="5.00" />
-                      <span class="laso-custom-amount-hint">Min $5.00 — Max $1,000</span>
-                    </div>
-                  </div>
-                  <div class="laso-specs-grid">
-                    <div class="laso-spec-item">
-                      <span class="laso-spec-k">Type:</span>
-                      <span class="laso-spec-v">USA Prepaid Visa</span>
-                    </div>
-                    <div class="laso-spec-item">
-                      <span class="laso-spec-k">Network:</span>
-                      <span class="laso-spec-v highlight">Base (eip155:8453)</span>
-                    </div>
-                    <div class="laso-spec-item">
-                      <span class="laso-spec-k">Gas Fee:</span>
-                      <span class="laso-spec-v highlight">0 ETH (Sponsored)</span>
-                    </div>
-                  </div>
-                  <button type="button" class="laso-issue-cta-btn" id="laso-issue-btn">
-                    ⚡ Connect Wallet &amp; Issue Live Card ($5.00 USDC) →
-                  </button>
-                </div>
-                <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
-                  <div class="laso-steps-track">
-                    <div class="laso-step-dot is-active" id="laso-dot-1">1</div>
-                    <div class="laso-step-line" id="laso-line-1"></div>
-                    <div class="laso-step-dot" id="laso-dot-2">2</div>
-                    <div class="laso-step-line" id="laso-line-2"></div>
-                    <div class="laso-step-dot" id="laso-dot-3">3</div>
-                    <div class="laso-step-line" id="laso-line-3"></div>
-                    <div class="laso-step-dot" id="laso-dot-4">4</div>
-                    <div class="laso-step-line" id="laso-line-4"></div>
-                    <div class="laso-step-dot" id="laso-dot-5">5</div>
-                  </div>
-                  <div class="laso-step-labels">
-                    <span>Base Net</span>
-                    <span>USDC Check</span>
-                    <span>402 Quote</span>
-                    <span>EIP-712 Sign</span>
-                    <span>Activate</span>
-                  </div>
-                  <div class="laso-spinner-msg-row">
-                    <span class="laso-pulse-spinner"></span>
-                    <span class="laso-progress-text" id="laso-msg-text">Connecting wallet &amp; verifying Base network...</span>
-                  </div>
-                </div>
-                <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
-                  <div class="laso-issued-card">
-                    <div class="laso-card-top-row">
-                      <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
-                      <span class="laso-card-live-badge live" id="laso-card-badge">⚡ LIVE BASE</span>
-                      <span class="laso-card-debit">DEBIT</span>
-                    </div>
-                    <div class="laso-card-pan-row">
-                      <span class="laso-card-pan" id="laso-pan-text">•••• •••• •••• 8842</span>
-                      <div class="laso-pan-controls">
-                        <button type="button" class="laso-mini-btn" id="laso-pan-toggle-btn">Show</button>
-                        <button type="button" class="laso-mini-btn highlight" id="laso-pan-copy-btn">Copy PAN</button>
+
+                <div class="laso-terminal-container" id="laso-terminal" style="margin-top:0;">
+                  <div class="laso-idle-card" id="laso-idle-view">
+                    <!-- Amount Segmented Control -->
+                    <div class="conversion-amount-box">
+                      <span class="conversion-amount-label">Initial Card Balance:</span>
+                      <div class="conversion-amount-pills">
+                        <button type="button" class="amount-pill is-active" id="pill-test5">
+                          <span class="pill-title">🧪 Test Min</span>
+                          <span class="pill-val">$5.00 USDC</span>
+                        </button>
+                        <button type="button" class="amount-pill" id="pill-service">
+                          <span class="pill-title">💼 ${sub.name}</span>
+                          <span class="pill-val">$${sub.taxBufferMonthlyUsd.toFixed(2)} USDC</span>
+                        </button>
+                        <button type="button" class="amount-pill" id="pill-custom">
+                          <span class="pill-title">✏️ Custom</span>
+                          <span class="pill-val">Amount</span>
+                        </button>
+                      </div>
+                      <div class="custom-amount-input-row" id="custom-amount-row" style="display:none;">
+                        <span class="custom-currency-symbol">$</span>
+                        <input type="number" class="custom-amount-input" id="custom-amount-input" min="5" max="1000" step="1" value="5.00" placeholder="5.00" />
+                        <span class="custom-hint">Min $5.00 — Max $1,000</span>
                       </div>
                     </div>
-                    <div class="laso-card-meta-row">
-                      <div>
-                        <span class="laso-meta-label">EXP: </span>
-                        <span class="laso-meta-val" id="laso-exp-text">02/32</span>
-                      </div>
-                      <div>
-                        <span class="laso-meta-label">CVV: </span>
-                        <span class="laso-meta-val" id="laso-cvv-text">•••</span>
-                        <button type="button" class="laso-mini-btn text-only" id="laso-cvv-toggle-btn">Show</button>
-                        <button type="button" class="laso-mini-btn" id="laso-cvv-copy-btn">Copy</button>
-                      </div>
-                      <div>
-                        <span class="laso-meta-label">BAL: </span>
-                        <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
-                      </div>
+
+                    <!-- Trust & Protocol Badge (Clean single line) -->
+                    <div class="conversion-trust-badge">
+                      <span class="trust-dot"></span>
+                      <span class="trust-text">Base Mainnet (eip155:8453) • Gas 100% Sponsored (0 ETH)</span>
+                    </div>
+
+                    <!-- Single Unmistakable Primary CTA -->
+                    <button type="button" class="conversion-primary-cta" id="laso-issue-btn">
+                      ⚡ Connect Wallet &amp; Issue Live Card ($5.00 USDC) →
+                    </button>
+
+                    <!-- Discreet Developer Mode Switcher -->
+                    <div class="conversion-mode-footer">
+                      <span class="mode-caption">Mode:</span>
+                      <button type="button" class="mode-toggle-link" id="laso-mode-toggle">Switch to 🧪 Simulator</button>
                     </div>
                   </div>
-                  <div class="laso-billing-address-box">
-                    <div class="billing-header-row">
-                      <span class="billing-title">🇺🇸 Assigned US Billing Address (for checkout)</span>
-                      <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
+
+                  <!-- Issuing Progress Box -->
+                  <div class="laso-issuing-progress-box" id="laso-progress-view" style="display:none;">
+                    <div class="laso-steps-track">
+                      <div class="laso-step-dot is-active" id="laso-dot-1">1</div>
+                      <div class="laso-step-line" id="laso-line-1"></div>
+                      <div class="laso-step-dot" id="laso-dot-2">2</div>
+                      <div class="laso-step-line" id="laso-line-2"></div>
+                      <div class="laso-step-dot" id="laso-dot-3">3</div>
+                      <div class="laso-step-line" id="laso-line-3"></div>
+                      <div class="laso-step-dot" id="laso-dot-4">4</div>
+                      <div class="laso-step-line" id="laso-line-4"></div>
+                      <div class="laso-step-dot" id="laso-dot-5">5</div>
                     </div>
-                    <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
+                    <div class="laso-step-labels">
+                      <span>Base Net</span>
+                      <span>USDC Check</span>
+                      <span>402 Quote</span>
+                      <span>EIP-712 Sign</span>
+                      <span>Activate</span>
+                    </div>
+                    <div class="laso-spinner-msg-row">
+                      <span class="laso-pulse-spinner"></span>
+                      <span class="laso-progress-text" id="laso-msg-text">Connecting wallet &amp; verifying Base network...</span>
+                    </div>
                   </div>
-                  <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
-                    <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
-                    <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">🔓 Sign with Wallet to Reveal</button>
+
+                  <!-- Active Card Surface -->
+                  <div class="laso-active-card-surface" id="laso-card-view" style="display:none;">
+                    <div class="laso-issued-card">
+                      <div class="laso-card-top-row">
+                        <span class="laso-card-brand">DEFI GARDEN • LASO VISA</span>
+                        <span class="laso-card-live-badge live" id="laso-card-badge">⚡ LIVE BASE</span>
+                        <span class="laso-card-debit">DEBIT</span>
+                      </div>
+                      <div class="laso-card-pan-row">
+                        <span class="laso-card-pan" id="laso-pan-text">•••• •••• •••• 8842</span>
+                        <div class="laso-pan-controls">
+                          <button type="button" class="laso-mini-btn" id="laso-pan-toggle-btn">Show</button>
+                          <button type="button" class="laso-mini-btn highlight" id="laso-pan-copy-btn">Copy PAN</button>
+                        </div>
+                      </div>
+                      <div class="laso-card-meta-row">
+                        <div>
+                          <span class="laso-meta-label">EXP: </span>
+                          <span class="laso-meta-val" id="laso-exp-text">02/32</span>
+                        </div>
+                        <div>
+                          <span class="laso-meta-label">CVV: </span>
+                          <span class="laso-meta-val" id="laso-cvv-text">•••</span>
+                          <button type="button" class="laso-mini-btn text-only" id="laso-cvv-toggle-btn">Show</button>
+                          <button type="button" class="laso-mini-btn" id="laso-cvv-copy-btn">Copy</button>
+                        </div>
+                        <div>
+                          <span class="laso-meta-label">BAL: </span>
+                          <span class="laso-meta-val balance" id="laso-bal-text">$5.00</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="laso-billing-address-box">
+                      <div class="billing-header-row">
+                        <span class="billing-title">🇺🇸 Assigned US Billing Address (for checkout)</span>
+                        <button type="button" class="laso-mini-btn highlight" id="laso-addr-copy-btn">Copy Address</button>
+                      </div>
+                      <p class="billing-text">440 N Barranca Avenue, #4496, Covina, CA 91723, US</p>
+                    </div>
+                    <div class="laso-siwx-unlock-banner" id="laso-siwx-banner" style="display:none; margin-top:10px;">
+                      <span class="laso-siwx-note">Credentials locked for security. Authenticate to decrypt.</span>
+                      <button type="button" class="laso-siwx-unlock-btn" id="laso-siwx-btn">🔓 Sign with Wallet to Reveal</button>
+                    </div>
+                    <form class="laso-merchant-search-box" id="laso-merchant-form">
+                      <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI, Spotify)..." />
+                      <button type="submit" class="laso-merchant-btn" id="laso-merchant-btn">Check</button>
+                      <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
+                    </form>
+                    <div class="laso-issued-footer-actions">
+                      <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">🔄 Refresh Live Balance</button>
+                      <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
+                    </div>
                   </div>
-                  <form class="laso-merchant-search-box" id="laso-merchant-form">
-                    <input type="text" class="laso-merchant-input" id="laso-merchant-input" placeholder="Check merchant (e.g. Claude, Cursor, OpenAI, Spotify)..." />
-                    <button type="submit" class="laso-merchant-btn" id="laso-merchant-btn">Check</button>
-                    <div class="laso-merchant-badge accepted" id="laso-merchant-badge" style="display:none;"></div>
-                  </form>
-                  <div class="laso-issued-footer-actions">
-                    <button type="button" class="laso-refresh-btn" id="laso-refresh-btn">🔄 Refresh Live Balance</button>
-                    <button type="button" class="laso-reset-btn" id="laso-reset-btn">Issue Another Card</button>
+
+                  <!-- Error View -->
+                  <div class="laso-error-card" id="laso-error-view" style="display:none; margin-top:10px;">
+                    <span class="laso-error-title">⚠️ Card Issuance Interrupted</span>
+                    <p class="laso-error-msg" id="laso-error-msg">Error message</p>
+                    <button type="button" class="laso-error-retry-btn" id="laso-error-retry-btn">← Back &amp; Try Again</button>
                   </div>
                 </div>
-                <div class="laso-error-card" id="laso-error-view" style="display:none; margin-top:10px;">
-                  <span class="laso-error-title">⚠️ Card Issuance Interrupted</span>
-                  <p class="laso-error-msg" id="laso-error-msg">Error message</p>
-                  <button type="button" class="laso-error-retry-btn" id="laso-error-retry-btn">← Back &amp; Try Again</button>
+              </div>
+
+              <!-- VIEW B: Email Waitlist (Secondary) -->
+              <div class="conversion-panel" id="panel-waitlist" style="display:none;">
+                <div class="conversion-header">
+                  <h3 class="conversion-title">Reserve ${sub.name} Card</h3>
+                  <p class="conversion-subtitle">Free to reserve • Spends yield, never principal • No wallet required</p>
                 </div>
+                <form class="reservation-form" id="reserve-form" novalidate>
+                  <div class="reservation-input-group">
+                    <div class="input-with-icon">
+                      ${renderMailIconSvg()}
+                      <input type="email" class="email-input" id="email-input" placeholder="Enter developer / user email..." required autocomplete="email" />
+                    </div>
+                    <button type="submit" class="reserve-submit-btn" id="submit-btn">
+                      Reserve Card at Launch →
+                    </button>
+                  </div>
+                  <div class="validation-error" id="form-error" style="display:none;"></div>
+                </form>
+                <p class="reservation-micro-hint">No wallet connection or KYC required to reserve • Pick your currency at launch</p>
               </div>
             </div>
             <div class="switch-pool-action">
@@ -2425,14 +2448,38 @@ function generateHtml(sub) {
       var currentAmountPreset = 'test5'; // 'test5' | 'service' | 'custom'
       var serviceAmount = ${sub.taxBufferMonthlyUsd.toFixed(2)};
 
-      var lasoModeLiveBtn = document.getElementById('laso-mode-live-btn');
-      var lasoModeSimBtn = document.getElementById('laso-mode-sim-btn');
-      var lasoDescText = document.getElementById('laso-desc-text');
-      var lasoChipTest5 = document.getElementById('laso-chip-test5');
-      var lasoChipService = document.getElementById('laso-chip-service');
-      var lasoChipCustom = document.getElementById('laso-chip-custom');
-      var lasoCustomRow = document.getElementById('laso-custom-row');
-      var lasoCustomInput = document.getElementById('laso-custom-input');
+      // SOTA Switchers & Controls
+      var tabInstant = document.getElementById('tab-instant-card');
+      var tabWaitlist = document.getElementById('tab-waitlist');
+      var panelInstant = document.getElementById('panel-instant-card');
+      var panelWaitlist = document.getElementById('panel-waitlist');
+      var pillTest5 = document.getElementById('pill-test5');
+      var pillService = document.getElementById('pill-service');
+      var pillCustom = document.getElementById('pill-custom');
+      var customAmountRow = document.getElementById('custom-amount-row');
+      var customAmountInput = document.getElementById('custom-amount-input');
+      var lasoModeToggle = document.getElementById('laso-mode-toggle');
+
+      var lasoTerminal = document.getElementById('laso-terminal');
+      var lasoIdleView = document.getElementById('laso-idle-view');
+      var lasoProgressView = document.getElementById('laso-progress-view');
+      var lasoCardView = document.getElementById('laso-card-view');
+      var lasoIssueBtn = document.getElementById('laso-issue-btn');
+      var lasoMsgText = document.getElementById('laso-msg-text');
+      var lasoPanText = document.getElementById('laso-pan-text');
+      var lasoPanToggleBtn = document.getElementById('laso-pan-toggle-btn');
+      var lasoPanCopyBtn = document.getElementById('laso-pan-copy-btn');
+      var lasoExpText = document.getElementById('laso-exp-text');
+      var lasoCvvText = document.getElementById('laso-cvv-text');
+      var lasoCvvToggleBtn = document.getElementById('laso-cvv-toggle-btn');
+      var lasoCvvCopyBtn = document.getElementById('laso-cvv-copy-btn');
+      var lasoBalText = document.getElementById('laso-bal-text');
+      var lasoAddrCopyBtn = document.getElementById('laso-addr-copy-btn');
+      var lasoMerchantForm = document.getElementById('laso-merchant-form');
+      var lasoMerchantInput = document.getElementById('laso-merchant-input');
+      var lasoMerchantBtn = document.getElementById('laso-merchant-btn');
+      var lasoMerchantBadge = document.getElementById('laso-merchant-badge');
+      var lasoResetBtn = document.getElementById('laso-reset-btn');
       var lasoErrorView = document.getElementById('laso-error-view');
       var lasoErrorMsg = document.getElementById('laso-error-msg');
       var lasoErrorRetryBtn = document.getElementById('laso-error-retry-btn');
@@ -2442,7 +2489,7 @@ function generateHtml(sub) {
       var lasoCardBadge = document.getElementById('laso-card-badge');
 
       function updateCtaText() {
-        var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(lasoCustomInput.value) || 5)));
+        var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(customAmountInput.value) || 5)));
         if (lasoIssueBtn) {
           lasoIssueBtn.textContent = currentLasoMode === 'live'
             ? ('⚡ Connect Wallet & Issue Live Card ($' + amt.toFixed(2) + ' USDC) →')
@@ -2450,65 +2497,74 @@ function generateHtml(sub) {
         }
       }
 
-      if (lasoModeLiveBtn && lasoModeSimBtn) {
-        lasoModeLiveBtn.addEventListener('click', function() {
-          currentLasoMode = 'live';
-          lasoModeLiveBtn.className = 'laso-mode-btn is-active live';
-          lasoModeSimBtn.className = 'laso-mode-btn';
-          if (lasoDescText) lasoDescText.textContent = 'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.';
-          updateCtaText();
+      // SOTA Tab Switcher
+      if (tabInstant && tabWaitlist && panelInstant && panelWaitlist) {
+        tabInstant.addEventListener('click', function() {
+          tabInstant.className = 'path-switch-btn is-active';
+          tabWaitlist.className = 'path-switch-btn';
+          tabInstant.setAttribute('aria-selected', 'true');
+          tabWaitlist.setAttribute('aria-selected', 'false');
+          panelInstant.style.display = 'flex';
+          panelWaitlist.style.display = 'none';
         });
-        lasoModeSimBtn.addEventListener('click', function() {
-          currentLasoMode = 'sim';
-          lasoModeSimBtn.className = 'laso-mode-btn is-active';
-          lasoModeLiveBtn.className = 'laso-mode-btn';
-          if (lasoDescText) lasoDescText.textContent = 'Interactive test simulator mimicking live Laso BaaS issuance, SIWx auth, and Base x402 micro-payments.';
-          updateCtaText();
+        tabWaitlist.addEventListener('click', function() {
+          tabWaitlist.className = 'path-switch-btn is-active';
+          tabInstant.className = 'path-switch-btn';
+          tabWaitlist.setAttribute('aria-selected', 'true');
+          tabInstant.setAttribute('aria-selected', 'false');
+          panelWaitlist.style.display = 'flex';
+          panelInstant.style.display = 'none';
         });
       }
 
-      if (lasoChipTest5) {
-        lasoChipTest5.addEventListener('click', function() {
+      // SOTA Amount Pills
+      if (pillTest5) {
+        pillTest5.addEventListener('click', function() {
           currentAmountPreset = 'test5';
-          lasoChipTest5.className = 'laso-amount-chip is-active';
-          if (lasoChipService) lasoChipService.className = 'laso-amount-chip';
-          if (lasoChipCustom) lasoChipCustom.className = 'laso-amount-chip';
-          if (lasoCustomRow) lasoCustomRow.style.display = 'none';
+          pillTest5.className = 'amount-pill is-active';
+          if (pillService) pillService.className = 'amount-pill';
+          if (pillCustom) pillCustom.className = 'amount-pill';
+          if (customAmountRow) customAmountRow.style.display = 'none';
           updateCtaText();
         });
       }
-      if (lasoChipService) {
-        lasoChipService.addEventListener('click', function() {
+      if (pillService) {
+        pillService.addEventListener('click', function() {
           currentAmountPreset = 'service';
-          lasoChipService.className = 'laso-amount-chip is-active';
-          if (lasoChipTest5) lasoChipTest5.className = 'laso-amount-chip';
-          if (lasoChipCustom) lasoChipCustom.className = 'laso-amount-chip';
-          if (lasoCustomRow) lasoCustomRow.style.display = 'none';
+          pillService.className = 'amount-pill is-active';
+          if (pillTest5) pillTest5.className = 'amount-pill';
+          if (pillCustom) pillCustom.className = 'amount-pill';
+          if (customAmountRow) customAmountRow.style.display = 'none';
           updateCtaText();
         });
       }
-      if (lasoChipCustom) {
-        lasoChipCustom.addEventListener('click', function() {
+      if (pillCustom) {
+        pillCustom.addEventListener('click', function() {
           currentAmountPreset = 'custom';
-          lasoChipCustom.className = 'laso-amount-chip is-active';
-          if (lasoChipTest5) lasoChipTest5.className = 'laso-amount-chip';
-          if (lasoChipService) lasoChipService.className = 'laso-amount-chip';
-          if (lasoCustomRow) lasoCustomRow.style.display = 'flex';
+          pillCustom.className = 'amount-pill is-active';
+          if (pillTest5) pillTest5.className = 'amount-pill';
+          if (pillService) pillService.className = 'amount-pill';
+          if (customAmountRow) customAmountRow.style.display = 'flex';
           updateCtaText();
         });
       }
-      if (lasoCustomInput) {
-        lasoCustomInput.addEventListener('input', updateCtaText);
+      if (customAmountInput) {
+        customAmountInput.addEventListener('input', updateCtaText);
       }
 
-      if (lasoToggleBtn && lasoTerminal) {
-        lasoToggleBtn.addEventListener('click', function() {
-          var isHidden = lasoTerminal.style.display === 'none';
-          lasoTerminal.style.display = isHidden ? 'block' : 'none';
-          lasoToggleBtn.textContent = isHidden ? '← Back to Email Reservation' : '⚡ Try Instant Laso Card Issuance (Base x402) →';
+      // SOTA Mode Toggle Link
+      if (lasoModeToggle) {
+        lasoModeToggle.addEventListener('click', function() {
+          if (currentLasoMode === 'live') {
+            currentLasoMode = 'sim';
+            lasoModeToggle.textContent = 'Switch to ⚡ Live Mode';
+          } else {
+            currentLasoMode = 'live';
+            lasoModeToggle.textContent = 'Switch to 🧪 Simulator';
+          }
+          updateCtaText();
         });
       }
-
       function updateStep(stepNum, msg) {
         if (lasoMsgText) lasoMsgText.textContent = msg;
         for (var i = 1; i <= 5; i++) {
@@ -2572,7 +2628,7 @@ function generateHtml(sub) {
 
       if (lasoIssueBtn) {
         lasoIssueBtn.addEventListener('click', function() {
-          var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(lasoCustomInput.value) || 5)));
+          var amt = currentAmountPreset === 'test5' ? 5 : (currentAmountPreset === 'service' ? serviceAmount : Math.max(5, Math.min(1000, Number(customAmountInput.value) || 5)));
           if (lasoIdleView) lasoIdleView.style.display = 'none';
           if (lasoErrorView) lasoErrorView.style.display = 'none';
           if (lasoProgressView) lasoProgressView.style.display = 'block';
