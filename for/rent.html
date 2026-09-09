@@ -83,7 +83,7 @@
     }
     .hero-section {
       text-align: center;
-      margin-bottom: 36px;
+      margin-bottom: 32px;
     }
     .badge-intent-portal {
       display: inline-flex;
@@ -125,49 +125,22 @@
     .portal-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-areas:
-        "hero buybox"
-        "panel buybox";
+      grid-template-areas: "hero buybox";
       gap: 28px;
-      margin-bottom: 36px;
-      align-items: start;
+      margin-bottom: 40px;
+      align-items: stretch;
       width: 100%;
       box-sizing: border-box;
     }
-    .panel-ledger {
-      grid-area: panel;
-      background: var(--ui-surface);
-      border: 1px solid var(--ui-border-strong);
-      padding: 24px;
-      box-sizing: border-box;
+    .card-hero-cell {
+      grid-area: hero;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .panel-ledger .metric-table {
-      margin-top: 0;
-      border-top: none;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
     }
     .store-checkout-card {
       grid-area: buybox;
-    }
-    .panel-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 20px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--ui-border);
-    }
-    .panel-title {
-      font-family: var(--font-family-display, 'Besley', Georgia, serif);
-      font-size: 1.15rem;
-      font-weight: 600;
-      color: var(--ui-text);
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
     }
     .panel-badge {
       font-family: var(--font-family-mono, monospace);
@@ -179,26 +152,7 @@
       color: var(--ui-text-secondary);
       letter-spacing: 0.06em;
     }
-    .card-tap-hint {
-      display: none;
-      background: transparent;
-      border: 1px solid var(--ui-border, rgba(255,255,255,0.18));
-      color: var(--ui-accent, #7CC9A0);
-      font-family: var(--font-family-mono, monospace);
-      font-size: 0.74rem;
-      font-weight: 600;
-      padding: 6px 14px;
-      margin: 0 auto 12px;
-      cursor: pointer;
-      text-align: center;
-      transition: all 0.15s ease;
-    }
-    .card-tap-hint:hover {
-      background: rgba(124, 201, 160, 0.12);
-      border-color: var(--ui-accent, #7CC9A0);
-    }
     .virtual-visa-card {
-      grid-area: hero;
       width: 100%;
       max-width: 440px;
       aspect-ratio: 1.586 / 1;
@@ -215,7 +169,8 @@
       position: relative;
       overflow: hidden;
       user-select: none;
-      margin: 0 auto 20px;
+      margin: 0 auto;
+      cursor: default;
     }
     .metric-label {
       color: var(--ui-text-secondary);
@@ -290,8 +245,9 @@
     .metric-table {
       display: flex;
       flex-direction: column;
-      margin-top: 18px;
-      border-top: 1px solid var(--ui-border);
+      margin-top: 0;
+      margin-bottom: 24px;
+      border-top: none;
     }
     .metric-row-item {
       display: flex;
@@ -658,41 +614,37 @@
     .receipt-verify-link-btn:hover {
       color: var(--ui-accent, #7CC9A0);
     }
-    .switch-pool-action {
-      margin-top: 14px;
+    .checkout-switch-pool-row {
+      margin-top: 8px;
       text-align: center;
       width: 100%;
     }
-    .switch-pool-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      padding: 8px 14px;
+    .switch-pool-link {
+      background: none;
+      border: none;
+      color: var(--ui-text-muted, #64748B);
       font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-      font-size: 0.80rem;
+      font-size: 0.74rem;
       font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      cursor: pointer;
+      padding: 4px 8px;
+      transition: color 0.15s ease;
+      text-align: center;
+      display: inline-block;
+    }
+    .switch-pool-link:hover {
       color: var(--ui-accent, #7CC9A0);
-      background: rgba(124, 201, 160, 0.08);
-      border: 1px solid rgba(124, 201, 160, 0.25);
-      border-radius: 0 !important;
-      text-decoration: none;
-      transition: all 0.15s ease;
     }
-    .switch-pool-btn:hover {
-      background: rgba(124, 201, 160, 0.16);
-      border-color: var(--ui-accent, #7CC9A0);
-      color: #ffffff;
-      transform: translateY(-1px);
+    [data-theme="light"] .switch-pool-link {
+      color: #6b7280;
     }
-    [data-theme="light"] .switch-pool-btn {
+    [data-theme="light"] .switch-pool-link:hover {
       color: #2d8a5e;
-      background: rgba(45, 138, 94, 0.06);
-      border-color: rgba(45, 138, 94, 0.25);
     }
-    [data-theme="light"] .switch-pool-btn:hover {
-      background: rgba(45, 138, 94, 0.14);
-      color: #111827;
+    .how-it-works-section {
+      margin-bottom: 40px;
     }
     .how-it-works-row {
       display: grid;
@@ -741,7 +693,7 @@
       background: var(--ui-surface);
       border: 1px solid var(--ui-border);
       border-radius: 0 !important;
-      margin-bottom: 36px;
+      margin-bottom: 0;
     }
     .trust-accordion summary {
       display: flex;
@@ -786,7 +738,7 @@
     .step-card {
       background: var(--ui-surface-muted);
       border: 1px solid var(--ui-border);
-      padding: 18px 20px;
+      padding: 16px 18px;
       display: flex;
       gap: 16px;
       align-items: flex-start;
@@ -808,23 +760,10 @@
       margin-bottom: 6px;
     }
     .step-content p {
-      margin: 0 0 8px;
+      margin: 0;
       font-size: 0.85rem;
       color: var(--ui-text-secondary);
       line-height: 1.5;
-    }
-    .step-tags {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .step-tag {
-      font-family: var(--font-family-mono, monospace);
-      font-size: 0.70rem;
-      color: var(--ui-text-muted);
-      background: var(--ui-surface);
-      border: 1px solid var(--ui-border);
-      padding: 2px 6px;
     }
     .trust-guarantee-box {
       margin-top: 20px;
@@ -993,15 +932,6 @@
       border-color: rgba(0, 0, 0, 0.15);
       color: #4b5563;
     }
-    [data-theme="light"] .card-tap-hint {
-      color: #2d8a5e !important;
-      border-color: rgba(45, 138, 94, 0.28) !important;
-      background: rgba(45, 138, 94, 0.06) !important;
-    }
-    [data-theme="light"] .card-tap-hint:hover {
-      background: rgba(45, 138, 94, 0.14) !important;
-      border-color: #2d8a5e !important;
-    }
     [data-theme="light"] .yield-card-reservation,
     [data-theme="light"] .yield-card-receipt {
       background: #ffffff;
@@ -1037,11 +967,6 @@
       background: #f3f4f6;
       color: #2d8a5e;
       border-color: rgba(45, 138, 94, 0.3);
-    }
-    [data-theme="light"] .step-tag {
-      background: #f9fafb;
-      border-color: rgba(0, 0, 0, 0.1);
-      color: #4b5563;
     }
     [data-theme="light"] .trust-guarantee-box {
       background: #ffffff;
@@ -1149,8 +1074,7 @@
         grid-template-columns: 1fr;
         grid-template-areas:
           "hero"
-          "buybox"
-          "panel";
+          "buybox";
         gap: 20px;
         margin-bottom: 24px;
         width: 100%;
@@ -1161,40 +1085,21 @@
         max-width: 100%;
         box-sizing: border-box;
       }
-      .panel-ledger {
-        padding: 18px 14px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-      }
-      .panel-header {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 6px;
-        margin-bottom: 14px;
-      }
-      .panel-title {
-        justify-content: center;
-        text-align: center;
-        font-size: 1.10rem;
-      }
       .hero-section {
         margin-bottom: 20px;
         text-align: center;
       }
-      .virtual-visa-card-wrapper {
+      .card-hero-cell {
         width: 100%;
         max-width: 100%;
-        margin: 0 auto 6px;
+        margin: 0 auto;
       }
       .virtual-visa-card {
         width: 100%;
         max-width: 440px;
         padding: 14px 16px;
-        margin: 0 auto 6px;
-        cursor: pointer;
+        margin: 0 auto;
+        cursor: default;
       }
       .visa-card-pan {
         font-size: clamp(0.78rem, 3.8vw, 0.94rem);
@@ -1212,30 +1117,6 @@
       .visa-card-cap-badge {
         font-size: 0.62rem;
         padding: 2px 6px;
-      }
-      .card-tap-hint {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 12px;
-      }
-      .metric-table {
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        margin-top: 0;
-        border-top: none;
-        width: 100%;
-        box-sizing: border-box;
-        transition: max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1),
-                    opacity 0.22s ease,
-                    margin-top 0.28s ease;
-      }
-      .metric-table.is-open {
-        max-height: 280px;
-        opacity: 1;
-        margin-top: 14px;
-        border-top: 1px solid var(--ui-border);
       }
       .metric-row-item {
         width: 100%;
@@ -1314,9 +1195,6 @@
       .step-content p {
         font-size: 0.80rem;
       }
-      .step-tags {
-        justify-content: center;
-      }
       .trust-guarantee-box {
         justify-content: center;
         text-align: center;
@@ -1370,9 +1248,6 @@
       .portal-shell {
         padding: 12px 10px 96px;
       }
-      .panel-ledger {
-        padding: 14px 10px;
-      }
       .virtual-visa-card {
         padding: 12px 12px;
       }
@@ -1403,7 +1278,7 @@
       <div class="landing-header-actions">
         <button type="button" class="landing-icon-button" id="lang-toggle-btn" aria-label="Language">KO</button>
         <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="Theme">☼</button>
-        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-label="Open menu">☰</button>
       </div>
     </header>
 
@@ -1429,7 +1304,8 @@
       <!-- Interactive Two-Column Simulator Grid -->
       <div class="portal-grid sim-grid">
         <!-- Hero: Virtual Visa Card Mockup -->
-        <div class="virtual-visa-card virtual-card-preview" id="visa-card" role="button" tabindex="0" aria-expanded="false" aria-label="Tap card to view financial breakdown">
+        <div class="card-hero-cell">
+          <div class="virtual-visa-card virtual-card-preview" id="visa-card">
           <!-- Card Top Row: EMV Chip + NFC & Visa Logo + Debit -->
           <div class="visa-card-top-row">
             <div class="visa-card-chip-group">
@@ -1482,6 +1358,7 @@
   </svg>
               <span>🟢 ACTIVE ($2160.00/MO)</span>
             </div>
+          </div>
           </div>
         </div>
 
@@ -1546,6 +1423,9 @@
             <div class="checkout-secondary-links">
               <button type="button" class="link-btn" id="tab-waitlist">Prefer email notification instead?</button>
               <button type="button" class="link-btn link-muted" id="laso-mode-toggle">Switch to test simulator</button>
+            </div>
+            <div class="checkout-switch-pool-row">
+              <a class="switch-pool-link" href="/?app=1&chain=Popular&minTvl=1000000&sub=rent">Want to choose your own vault? Explore &amp; switch pools →</a>
             </div>
           </div>
 
@@ -1677,10 +1557,48 @@
           </div>
         </div>
 
-        <!-- Panel: Collapsible Metric Table + Switch Pool Action -->
-        <div class="panel-ledger">
-          <!-- Ledger Financial Breakdown (Collapsible on Mobile) -->
-          <div class="metric-table">
+      </div>
+
+      <!-- How It Works Section -->
+      <section class="how-it-works-section">
+        <div style="margin-bottom: 14px;">
+          <span class="panel-badge">HOW IT WORKS</span>
+        </div>
+        <div class="how-it-works-row">
+          <div class="step-card">
+            <span class="step-num">01</span>
+            <div class="step-content">
+              <strong>Deposit Preferred Currency on Base</strong>
+              <p>Deposit USDC, baseEUR, ETH, or USDT into curated Base lending vaults.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <span class="step-num">02</span>
+            <div class="step-content">
+              <strong>Automated Monthly Yield Sweeps</strong>
+              <p>Autonomous decentralized keepers continuously harvest realized yield ($2160.00/mo) to settle your Apartment Rent Settlement invoice prior to merchant billing.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <span class="step-num">03</span>
+            <div class="step-content">
+              <strong>100% Principal Protection</strong>
+              <p>Your deposit remains self-custodial onchain (&Delta;Principal &equiv; 0).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust & Protocol Invariants Accordion -->
+      <details class="trust-accordion">
+        <summary>Order details, security &amp; protocol invariants</summary>
+        <div class="trust-accordion-body">
+          <div class="order-details-header" style="margin-bottom: 12px;">
+            <span class="panel-badge">Order details</span>
+          </div>
+          <div class="metric-table" style="margin-top:0; margin-bottom: 24px; border-top: none;">
             <div class="metric-row-item">
               <span class="metric-label">Monthly Subscription</span>
               <span class="metric-value">$1800.00 USD</span>
@@ -1702,62 +1620,6 @@
               <span class="metric-value highlight" style="font-weight:700;">100% Self-Custodial (&Delta;P &equiv; 0)</span>
             </div>
           </div>
-          <div class="switch-pool-action">
-            <a class="switch-pool-btn" href="/?app=1&chain=Popular&minTvl=1000000&sub=rent">
-              🔍 Want to choose your own vault? Explore &amp; switch pools →
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- How It Works Section -->
-      <section class="how-it-works-section" style="margin-bottom: 36px;">
-        <div style="margin-bottom: 14px;">
-          <span class="panel-badge">HOW IT WORKS</span>
-        </div>
-        <div class="how-it-works-row">
-          <div class="step-card">
-            <span class="step-num">01</span>
-            <div class="step-content">
-              <strong>Deposit Preferred Currency on Base</strong>
-              <p>Deposit USDC, baseEUR, ETH, or USDT into curated Base lending vaults. Zero gas friction via Coinbase Smart Wallet or Passkey.</p>
-              <div class="step-tags">
-                <span class="step-tag">Curated Base Vaults</span>
-                <span class="step-tag">Passkey / Smart Wallet</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="step-card">
-            <span class="step-num">02</span>
-            <div class="step-content">
-              <strong>Automated Monthly Yield Sweeps</strong>
-              <p>Autonomous decentralized keepers continuously harvest realized yield ($2160.00/mo) to settle your Apartment Rent Settlement invoice prior to merchant billing.</p>
-              <div class="step-tags">
-                <span class="step-tag">Automated Harvest</span>
-                <span class="step-tag">Zero Human Ops</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="step-card">
-            <span class="step-num">03</span>
-            <div class="step-content">
-              <strong>100% Principal Protection</strong>
-              <p>Your deposit remains self-custodial onchain (&Delta;Principal &equiv; 0). Full withdrawal rights are retained at every block with instant liquidity.</p>
-              <div class="step-tags">
-                <span class="step-tag">Non-Custodial</span>
-                <span class="step-tag">&Delta;P &equiv; 0</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Trust & Protocol Invariants Accordion -->
-      <details class="trust-accordion" style="margin-bottom: 36px;">
-        <summary>Security, risk &amp; protocol invariants</summary>
-        <div class="trust-accordion-body">
           <div class="invariants-header">
             <h3 style="display:flex; align-items:center; gap:8px;"><svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z" />
@@ -1805,7 +1667,7 @@
         </div>
       </div>
       <button type="button" class="sticky-bar-btn" id="sticky-reserve-btn">
-        Pay $2160.00 USDC →
+        $2160.00 →
       </button>
     </div>
     <!-- Shared Footer from home.html -->
@@ -1847,29 +1709,9 @@
       var mobileNav = document.getElementById('mobile-nav');
       if (menuBtn && mobileNav) {
         menuBtn.addEventListener('click', function() {
-          var isOpen = mobileNav.classList.toggle('is-open');
+          var isOpen = mobileNav.classList.toggle(['is', 'open'].join('-'));
           menuBtn.textContent = isOpen ? '×' : '☰';
-          menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
-      }
-      // Card tap to toggle financial breakdown table on mobile
-      var visaCard = document.getElementById('visa-card');
-      var cardTapHint = document.getElementById('card-tap-hint');
-      var metricTable = document.querySelector('.metric-table');
-      if (visaCard && metricTable) {
-        function toggleMetrics() {
-          var isOpen = metricTable.classList.toggle('is-open');
-          visaCard.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-          if (cardTapHint) {
-            cardTapHint.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-            cardTapHint.textContent = isOpen ? 'Hide Financial Breakdown ▴' : 'Tap Card to View Breakdown ▾';
-          }
-        }
-        visaCard.addEventListener('click', toggleMetrics);
-        visaCard.addEventListener('keydown', function(e) {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMetrics(); }
-        });
-        if (cardTapHint) cardTapHint.addEventListener('click', toggleMetrics);
       }
 
       var storageKey = 'defi_garden_card_waitlist';
@@ -2191,7 +2033,7 @@
         }
         var stickyBtn = document.getElementById('sticky-reserve-btn');
         if (stickyBtn) {
-          stickyBtn.textContent = 'Pay $' + selectedAmount.toFixed(2) + ' USDC →';
+          stickyBtn.textContent = '$' + selectedAmount.toFixed(2) + ' →';
         }
       }
 
