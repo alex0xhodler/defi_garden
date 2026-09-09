@@ -433,6 +433,7 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
   const symbol = (cardProps && cardProps.symbol) ? escapeHtml(cardProps.symbol) : '';
   const cardholderName = symbol ? `${symbol.toUpperCase()} YIELD VAULT` : 'DEFI GARDEN METAL';
   const networkLabel = symbol ? `${symbol.toUpperCase()} · BASE RAIL` : 'YIELD-FUNDED · BASE';
+  const lasoReferralUrl = 'https://laso.finance?ref=lmretyujvzr9jiutxi4d';
 
   const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col">
         <div class="virtual-visa-card" data-card-tilt="true">
@@ -474,6 +475,52 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
           </div>
         </div>
       </div>`;
+
+  if (symbol) {
+    return `    <div class="${cssPrefix}-waitlist" id="token-card-section">
+      <div class="${cssPrefix}-waitlist-content" id="token-laso-default-view">
+        <h2>${symbol} Yield Card • Powered by Laso</h2>
+        <p>Spend your ${symbol} yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
+        <a class="${cssPrefix}-cta" id="token-laso-btn" href="${lasoReferralUrl}" target="_blank" rel="noopener noreferrer">Get ${symbol} Card on Laso.finance →</a>
+        <p class="${cssPrefix}-waitlist-micro">Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit</p>
+      </div>
+      <div class="${cssPrefix}-waitlist-content ${cssPrefix}-in-progress-state" id="token-laso-in-progress" style="display:none;">
+        <div class="in-progress-status-badge">
+          <span class="status-pulse-dot" aria-hidden="true"></span>
+          <span>CHECKOUT IN PROGRESS ON LASO</span>
+        </div>
+        <h2>Your ${symbol} partner perks are active.</h2>
+        <p>Complete your quick 30-second setup on Laso to claim your ${symbol} Visa debit card.</p>
+        <a class="${cssPrefix}-cta" href="${lasoReferralUrl}" target="_blank" rel="noopener noreferrer">Resume on Laso.finance ↗</a>
+        <button type="button" class="${cssPrefix}-reset-btn" id="token-laso-reset-btn">← Back to card details</button>
+      </div>
+${cardHtml}
+    </div>
+    <script>
+      (function() {
+        var btn = document.getElementById('token-laso-btn');
+        var inProg = document.getElementById('token-laso-in-progress');
+        var defaultView = document.getElementById('token-laso-default-view');
+        var resetBtn = document.getElementById('token-laso-reset-btn');
+        var tokenKey = 'dg_laso_token_' + '${symbol.toLowerCase()}';
+        function activate() {
+          if (defaultView) defaultView.style.display = 'none';
+          if (inProg) inProg.style.display = 'flex';
+          try { sessionStorage.setItem(tokenKey, '1'); } catch(e) {}
+        }
+        function deactivate() {
+          if (inProg) inProg.style.display = 'none';
+          if (defaultView) defaultView.style.display = 'flex';
+          try { sessionStorage.removeItem(tokenKey); } catch(e) {}
+        }
+        try {
+          if (sessionStorage.getItem(tokenKey) === '1') activate();
+        } catch(e) {}
+        if (btn) btn.addEventListener('click', activate);
+        if (resetBtn) resetBtn.addEventListener('click', deactivate);
+      })();
+    </script>\n`;
+  }
 
   return `    <div class="${cssPrefix}-waitlist">
       <div class="${cssPrefix}-waitlist-content">
@@ -580,6 +627,45 @@ function renderWaitlistCtaStyle(cssPrefix) {
       .${cssPrefix}-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .${cssPrefix}-waitlist .${cssPrefix}-cta { margin: 4px 0 10px; display: inline-block; }
       .${cssPrefix}-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
+      .${cssPrefix}-waitlist .${cssPrefix}-in-progress-state {
+        display: flex;
+        flex-direction: column;
+      }
+      .${cssPrefix}-waitlist .in-progress-status-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 4px 8px;
+        background: rgba(52, 211, 153, 0.12);
+        border: 1px solid rgba(52, 211, 153, 0.35);
+        color: rgba(52, 211, 153, 1);
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        margin-bottom: 10px;
+        align-self: flex-start;
+      }
+      .${cssPrefix}-waitlist .status-pulse-dot {
+        width: 6px;
+        height: 6px;
+        background: rgba(52, 211, 153, 1);
+        box-shadow: 0 0 8px rgba(52, 211, 153, 1);
+      }
+      .${cssPrefix}-waitlist .${cssPrefix}-reset-btn {
+        background: none;
+        border: none;
+        color: var(--ui-text-secondary);
+        cursor: pointer;
+        font-size: 0.78rem;
+        margin-top: 8px;
+        text-align: left;
+        padding: 0;
+      }
+      .${cssPrefix}-waitlist .${cssPrefix}-reset-btn:hover {
+        text-decoration: underline;
+        color: var(--ui-text);
+      }
       .${cssPrefix}-waitlist .virtual-visa-card {
         width: 100%;
         max-width: 340px;

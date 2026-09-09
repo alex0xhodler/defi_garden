@@ -120,15 +120,8 @@ EXPECTED_PRESETS.forEach(preset => {
     // Check cardholder and card visualizer
     assert.ok(html.includes(preset.name.toUpperCase()), 'Expected cardholder name');
     assert.ok(html.includes(`•••• •••• •••• 8453`), 'Expected 8453 card number');
-    assert.ok(html.includes('id="email-input"'), 'Expected email input for card waitlist reservation');
-    assert.ok(html.includes('id="submit-btn"'), 'Expected reservation submit button');
-    assert.ok(html.includes('id="receipt-card"'), 'Expected reservation receipt container');
-    assert.ok(html.includes('id="copy-btn"'), 'Expected copy invite link button');
-    assert.ok(html.includes('id="twitter-share-btn"'), 'Expected Twitter share button');
-    assert.ok(html.includes('id="verify-invite-btn"'), 'Expected Check invite status button');
-    assert.ok(html.includes('id="telegram-cta-btn"'), 'Expected Telegram unlock CTA button');
-    assert.ok(html.includes('https://t.me/+rXf7XKhsffMxNzdk'), 'Expected Telegram group link');
-    assert.ok(html.includes('https://formspree.io/f/xzdqygjn'), 'Expected Formspree waitlist endpoint');
+    assert.ok(html.includes('id="laso-issue-btn"'), 'Expected Laso referral CTA button');
+    assert.ok(html.includes('https://laso.finance?ref=lmretyujvzr9jiutxi4d'), 'Expected Laso referral link');
     assert.ok(html.includes(`/?app=1&chain=Popular&minTvl=1000000&sub=${preset.slug}`), 'Expected explore & switch pools link');
     assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'Expected style.css link');
     assert.ok(html.includes('Protocol Invariants'), 'Expected Protocol Invariants section');
@@ -162,36 +155,25 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
         });
 
         await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
-        // Open accordion to reveal email waitlist reservation form
-        const accordion = page.locator('details.trust-accordion summary');
-        if (await accordion.count() > 0) {
-          await accordion.click();
-        }
-        // Submit email reservation form
-        await page.fill('#email-input', 'builder@anthropic.com');
-        await page.click('#submit-btn');
-        await page.waitForSelector('#receipt-card:not([style*="display:none"])', { timeout: 5000 });
+        
+        // Verify primary CTA button
+        const ctaBtn = page.locator('#laso-issue-btn');
+        assert.ok(await ctaBtn.isVisible(), 'Expected Laso CTA button to be visible');
+        const ctaHref = await ctaBtn.getAttribute('href');
+        assert.strictEqual(ctaHref, 'https://laso.finance?ref=lmretyujvzr9jiutxi4d', 'Expected referral link on CTA');
 
-        const receiptText = await page.locator('#receipt-card').innerText();
-        assert.ok(receiptText.includes('Waitlist Spot Reserved'), 'Expected confirmation receipt');
-        assert.ok(receiptText.includes('Early Access Reserved'), 'Expected early access badge');
-        assert.ok(receiptText.includes('Alpha Priority Fast-Track'), 'Expected gamification header');
+        // Click CTA button and verify in-progress recovery view appears
+        await Promise.all([
+          context.waitForEvent('page').catch(() => null),
+          ctaBtn.click()
+        ]);
+        await page.waitForSelector('#checkout-in-progress-view:not([style*="display:none"])', { timeout: 5000 });
+        const resumeBtn = page.locator('#laso-resume-btn');
+        assert.ok(await resumeBtn.isVisible(), 'Expected Resume on Laso button in recovery state');
 
-        // Verify copy invite link button
-        await page.click('#copy-btn');
-        const copyBtnText = await page.locator('#copy-btn').innerText();
-        assert.ok(copyBtnText.includes('Link Copied') || copyBtnText.includes('Copy'), 'Expected copy link button feedback');
-
-        // Verify Twitter share button
-        assert.ok(await page.locator('#twitter-share-btn').isVisible(), 'Expected Twitter share button');
-
-        // Verify check invite status unlocks Alpha Telegram CTA
-        await page.click('#verify-invite-btn');
-        await page.waitForSelector('#telegram-cta-btn:not([style*="display:none"])', { timeout: 5000 });
-        const telegramHref = await page.locator('#telegram-cta-btn').getAttribute('href');
-        assert.strictEqual(telegramHref, 'https://t.me/+rXf7XKhsffMxNzdk', 'Expected Telegram group link');
-        const unlockedLabel = await page.locator('#gamification-label').innerText();
-        assert.ok(unlockedLabel.includes('Alpha Access Unlocked'), 'Expected unlocked gamification state');
+        // Click restart button to go back to checkout details
+        await page.click('#laso-restart-btn');
+        await page.waitForSelector('#panel-instant-card:not([style*="display:none"])', { timeout: 5000 });
 
         await page.close();
         if (errors.length) throw new Error('Errors on page:\n' + errors.join('\n'));
