@@ -4,7 +4,7 @@ The highest honest LAUKI yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e46fa575-dfa9-4084-9a94-a33e6cb6a941&src=seo_token) | Base | 0.01% | $217.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e46fa575-dfa9-4084-9a94-a33e6cb6a941&src=seo_token) | Base | 0.01% | $217.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LAUKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.5K in total.
+1 live pool clear this page's $100K TVL floor, $217.8K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LAUKI pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

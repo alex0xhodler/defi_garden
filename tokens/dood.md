@@ -1,29 +1,29 @@
 # DOOD DeFi Yields
 
-The highest honest DOOD yield right now is 51.48% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOOD yield right now is 49.70% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 47.10% | $516.7K |
-| [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 51.48% | $149.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 43.55% | $516.7K |
+| [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 49.70% | $149.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 51.48% APY, $149.9K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 47.10% APY, $516.7K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 49.70% APY, $149.9K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 43.55% APY, $516.7K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 51.48% | $149.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 47.10% | $516.7K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 49.70% | $149.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 43.55% | $516.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DOOD shows up in 2 pools here, with rates from 47.10% to 51.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOOD shows up in 2 pools here, with rates from 43.55% to 49.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 47.10% | 23.31% | Base rate |
-| orca-dex | 51.48% | 25.94% | Base rate |
+| raydium-amm | 43.55% | 23.57% | Base rate |
+| orca-dex | 49.70% | 26.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOOD yield today?
 
-51.48% APY on orca-dex (Solana), based on live DefiLlama data.
+49.70% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DOOD pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOOD pools have the most stable APY history?
 
-Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 51.48% APY, $149.9K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 47.10% APY, $516.7K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 49.70% APY, $149.9K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 43.55% APY, $516.7K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

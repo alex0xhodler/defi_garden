@@ -1,29 +1,29 @@
 # DEAI DeFi Yields
 
-The highest honest DEAI yield right now is 9.31% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEAI yield right now is 9.47% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 9.31% | $7.57M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 11.20% | $317.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 9.47% | $7.56M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 10.65% | $315.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 11.20% APY, $317.3K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 9.31% APY, $7.57M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 10.65% APY, $315.8K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 9.47% APY, $7.56M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 11.20% | $317.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 9.31% | $7.57M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 10.65% | $315.8K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 9.47% | $7.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEAI shows up in 2 pools here, with rates from 9.31% to 11.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEAI shows up in 2 pools here, with rates from 9.47% to 10.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 9.31% | 10.37% | Base rate |
-| uniswap-v2 | 11.20% | 6.45% | Base rate |
+| uniswap-v4 | 9.47% | 10.34% | Base rate |
+| uniswap-v2 | 10.65% | 6.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEAI yield today?
 
-9.31% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+9.47% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many DEAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.89M in total.
+2 live pools clear this page's $100K TVL floor, $7.88M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEAI pools have the most stable APY history?
 
-Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 11.20% APY, $317.3K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 9.31% APY, $7.57M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 10.65% APY, $315.8K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 9.47% APY, $7.56M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

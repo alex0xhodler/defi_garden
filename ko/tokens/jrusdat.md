@@ -1,10 +1,10 @@
 # JRUSDAT 디파이 수익률
 
-현재 JRUSDAT의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 38.95%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRUSDAT의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 38.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 38.95% | $1.81M |
+| [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 38.92% | $1.8M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 JRUSDAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 38.95%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 38.92%예요.
 
 ### JRUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.8M예요.
 
 ### 이 수익률은 안전한가요?
 

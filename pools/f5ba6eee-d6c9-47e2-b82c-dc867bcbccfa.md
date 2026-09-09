@@ -1,12 +1,12 @@
 # WETH-VVVEITY — uniswap-v4 on Base
 
-**Total APY:** 851.13% (851.13% Base · + 0.00% Rewards)
+**Total APY:** 791.33% (791.33% Base · + 0.00% Rewards)
 
-**TVL:** $174.4K
+**TVL:** $192.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 615.20%
+**30d Mean APY:** 616.97%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$831,781 in 5y at current rates.
+$1,000 in this pool grows to ~$637,043 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (851.13% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (791.33% headline) — farm rates decay. Active management required.
 
 We've been tracking this pool's rate for 25 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$831,781 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$637,043 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 

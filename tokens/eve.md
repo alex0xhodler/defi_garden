@@ -1,10 +1,10 @@
 # EVE DeFi Yields
 
-The highest honest EVE yield right now is 15.17% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVE yield right now is 6.35% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=27aa0483-8210-4a32-ad49-165fe56f869d&src=seo_token) | Base | 15.17% | $123.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=27aa0483-8210-4a32-ad49-165fe56f869d&src=seo_token) | Base | 6.35% | $125.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EVE yield today?
 
-15.17% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.35% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many EVE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.2K in total.
+1 live pool clear this page's $100K TVL floor, $125.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank EVE pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

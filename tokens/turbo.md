@@ -4,7 +4,7 @@ The highest honest TURBO yield right now is 0.01% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=710420bd-8f3a-4fb8-b970-9b2c5b418460&src=seo_token) | Solana | 0.01% | $152.9K |
+| [orca-dex →](https://www.defi.garden/?pool=710420bd-8f3a-4fb8-b970-9b2c5b418460&src=seo_token) | Solana | 0.01% | $152.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TURBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.9K in total.
+1 live pool clear this page's $100K TVL floor, $152.6K in total.
 
 ### Are these rates safe?
 

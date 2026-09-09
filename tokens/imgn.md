@@ -4,7 +4,7 @@ The highest honest IMGN yield right now is 2.15% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 2.15% | $173K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 2.15% | $173.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IMGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $173K in total.
+1 live pool clear this page's $100K TVL floor, $173.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank IMGN pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

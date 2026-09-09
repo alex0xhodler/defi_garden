@@ -1,10 +1,10 @@
 # NOICE DeFi Yields
 
-The highest honest NOICE yield right now is 59.30% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOICE yield right now is 40.10% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b986f99-8823-4912-b80b-fd1071aabbc0&src=seo_token) | Base | 59.30% | $241.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b986f99-8823-4912-b80b-fd1071aabbc0&src=seo_token) | Base | 40.10% | $239.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOICE yield today?
 
-59.30% APY on uniswap-v3 (Base), based on live DefiLlama data.
+40.10% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many NOICE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $241.2K in total.
+1 live pool clear this page's $100K TVL floor, $239.9K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank NOICE pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -59,7 +59,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APT pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $9.76M in total.
+11 live pools clear this page's $100K TVL floor, $9.77M in total.
 
 ### Are these rates safe?
 

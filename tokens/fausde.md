@@ -1,10 +1,10 @@
 # FAUSDE DeFi Yields
 
-The highest honest FAUSDE yield right now is 2.47% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAUSDE yield right now is 1.95% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 2.47% | $6.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 1.95% | $6.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAUSDE yield today?
 
-2.47% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.95% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many FAUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.1M in total.
+1 live pool clear this page's $100K TVL floor, $6.09M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SLICE yield right now is 0.10% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a099a59c-b9f7-4d13-abdb-b434387777f3&src=seo_token) | Ethereum | 0.10% | $100.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a099a59c-b9f7-4d13-abdb-b434387777f3&src=seo_token) | Ethereum | 0.10% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLICE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.8K in total.
+1 live pool clear this page's $100K TVL floor, $101K in total.
 
 ### Are these rates safe?
 

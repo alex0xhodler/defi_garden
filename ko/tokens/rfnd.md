@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.05%예요.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

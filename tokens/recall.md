@@ -1,10 +1,10 @@
 # RECALL DeFi Yields
 
-The highest honest RECALL yield right now is 43.77% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RECALL yield right now is 79.25% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4e01eb90-f885-40e9-a484-3624be86fd66&src=seo_token) | Base | 43.77% | $571.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4e01eb90-f885-40e9-a484-3624be86fd66&src=seo_token) | Base | 79.25% | $540.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RECALL yield today?
 
-43.77% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+79.25% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RECALL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $571.2K in total.
+1 live pool clear this page's $100K TVL floor, $540.8K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank RECALL pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

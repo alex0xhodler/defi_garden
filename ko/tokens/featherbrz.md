@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 0.03% | $193.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 0.03% | $194.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 morpho-blue에서 APY 0.03%예�
 
 ### FEATHERBRZ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $193.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $194.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,11 +34,11 @@ DefiLlama 실시간 데이터 기준, Polygon의 morpho-blue에서 APY 0.03%예�
 ## 관련 토큰
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
 - [BET](https://www.defi.garden/ko/tokens/bet)
-- [WPOL](https://www.defi.garden/ko/tokens/wpol)
 
 ## 이용 가능한 체인
 

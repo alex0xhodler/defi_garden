@@ -1,10 +1,10 @@
 # LIKES DeFi Yields
 
-The highest honest LIKES yield right now is 7.88% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIKES yield right now is 4.60% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=eca3bd67-df5e-4959-bc5a-272f6863ac24&src=seo_token) | Base | 7.88% | $206.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=eca3bd67-df5e-4959-bc5a-272f6863ac24&src=seo_token) | Base | 4.60% | $207.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIKES yield today?
 
-7.88% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.60% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many LIKES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.6K in total.
+1 live pool clear this page's $100K TVL floor, $207.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LIKES pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

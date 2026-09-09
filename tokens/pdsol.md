@@ -4,7 +4,7 @@ The highest honest PDSOL yield right now is 3.19% on phase-delegation (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.19% | $114.13M |
+| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.19% | $114.23M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PDSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.13M in total.
+1 live pool clear this page's $100K TVL floor, $114.23M in total.
 
 ### Are these rates safe?
 

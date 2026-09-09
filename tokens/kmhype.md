@@ -4,7 +4,7 @@ The highest honest KMHYPE yield right now is 0.14% on project-x (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.14% | $291.2K |
+| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.14% | $295.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KMHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $888.2K in total.
+2 live pools clear this page's $100K TVL floor, $892.2K in total.
 
 ### Are these rates safe?
 

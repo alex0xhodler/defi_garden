@@ -1,13 +1,13 @@
 # Xlayer DeFi Yields
 
-The highest honest Xlayer yield right now is 0.44% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Xlayer yield right now is 2.62% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.44% | $12.22M |
-| XBTC | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_chain) | 0.01% | $8.53M |
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 3.47% | $8.27M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 3.82% | $245.7K |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.44% | $12.31M |
+| XBTC | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_chain) | 0.01% | $8.56M |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 3.55% | $7.61M |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 2.62% | $354.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Xlayer yield today?
 
-0.44% APY on aave-v3 (Xlayer), based on live DefiLlama data.
+2.62% APY on aave-v3 (Xlayer), based on live DefiLlama data.
 
 ### How many Xlayer pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $120.49M in total.
+7 live pools clear this page's $100K TVL floor, $120.86M in total.
 
 ### Are these rates safe?
 

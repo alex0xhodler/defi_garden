@@ -4,7 +4,7 @@ The highest honest GIKO yield right now is 4.65% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=793b63bd-0ae7-47c5-a264-43771203bcc5&src=seo_token) | Solana | 4.65% | $117K |
+| [raydium-amm →](https://www.defi.garden/?pool=793b63bd-0ae7-47c5-a264-43771203bcc5&src=seo_token) | Solana | 4.65% | $119.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GIKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117K in total.
+1 live pool clear this page's $100K TVL floor, $119.1K in total.
 
 ### Are these rates safe?
 

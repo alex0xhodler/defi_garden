@@ -4,7 +4,7 @@ The highest honest QE yield right now is 0.37% on uniswap-v4 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 0.37% | $167.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 0.37% | $168K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.8K in total.
+1 live pool clear this page's $100K TVL floor, $168K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank QE pools. This view covers AP
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

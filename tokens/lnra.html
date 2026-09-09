@@ -74,7 +74,7 @@
       .tp-rate-stability table { min-width: 620px; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-.tp-waitlist {
+      .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
         border-radius: var(--ui-radius-lg);
@@ -374,8 +374,8 @@
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/cbbtc">CBBTC</a>
         <a href="https://www.defi.garden/tokens/weth">WETH</a>
+        <a href="https://www.defi.garden/tokens/usds">USDS</a>
         <a href="https://www.defi.garden/tokens/usde">USDE</a>
-        <a href="https://www.defi.garden/tokens/jitosol">JITOSOL</a>
       </div>
     </nav>
     <nav class="related xlink-chains" aria-label="Chains">
@@ -392,9 +392,9 @@
     </nav>
     <div class="tp-waitlist" id="token-card-section">
       <div class="tp-waitlist-content" id="token-laso-default-view">
-        <h2>DGAI Yield Card • Powered by Laso</h2>
-        <p>Spend your DGAI yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
-        <a class="tp-cta" id="token-laso-btn" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Get DGAI Card on Laso.finance →</a>
+        <h2>LNRA Yield Card • Powered by Laso</h2>
+        <p>Spend your LNRA yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
+        <a class="tp-cta" id="token-laso-btn" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Get LNRA Card on Laso.finance →</a>
         <p class="tp-waitlist-micro">Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit</p>
       </div>
       <div class="tp-waitlist-content tp-in-progress-state" id="token-laso-in-progress" style="display:none;">
@@ -402,8 +402,8 @@
           <span class="status-pulse-dot" aria-hidden="true"></span>
           <span>CHECKOUT IN PROGRESS ON LASO</span>
         </div>
-        <h2>Your DGAI partner perks are active.</h2>
-        <p>Complete your quick 30-second setup on Laso to claim your DGAI Visa debit card.</p>
+        <h2>Your LNRA partner perks are active.</h2>
+        <p>Complete your quick 30-second setup on Laso to claim your LNRA Visa debit card.</p>
         <a class="tp-cta" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Resume on Laso.finance ↗</a>
         <button type="button" class="tp-reset-btn" id="token-laso-reset-btn">← Back to card details</button>
       </div>
@@ -431,12 +431,12 @@
           </div>
           <div class="visa-card-center">
             <div class="visa-card-pan">•••• •••• •••• 8453</div>
-            <div class="visa-card-funded-label">DGAI YIELD VAULT</div>
+            <div class="visa-card-funded-label">LNRA YIELD VAULT</div>
           </div>
           <div class="visa-card-bottom-row">
             <div class="visa-card-meta-left">
               <span class="visa-card-expiry">VALID 08/31</span>
-              <span class="visa-card-network-info">DGAI · BASE RAIL</span>
+              <span class="visa-card-network-info">LNRA · BASE RAIL</span>
             </div>
             <div class="visa-card-meta-right">
               <div class="visa-card-hologram" aria-hidden="true"></div>
@@ -454,7 +454,7 @@
         var inProg = document.getElementById('token-laso-in-progress');
         var defaultView = document.getElementById('token-laso-default-view');
         var resetBtn = document.getElementById('token-laso-reset-btn');
-        var tokenKey = 'dg_laso_token_' + 'dgai';
+        var tokenKey = 'dg_laso_token_' + 'lnra';
         function activate() {
           if (defaultView) defaultView.style.display = 'none';
           if (inProg) inProg.style.display = 'flex';

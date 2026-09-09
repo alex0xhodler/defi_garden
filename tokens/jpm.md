@@ -1,10 +1,10 @@
 # JPM DeFi Yields
 
-The highest honest JPM yield right now is 0.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JPM yield right now is 0.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=dd336a0e-6a02-5e6d-8323-e284bf8f9edc&src=seo_token) | Solana | 0.07% | $386.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd336a0e-6a02-5e6d-8323-e284bf8f9edc&src=seo_token) | Solana | 0.06% | $386.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JPM yield today?
 
-0.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JPM pools clear the TVL floor?
 

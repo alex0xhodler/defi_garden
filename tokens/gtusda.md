@@ -4,20 +4,20 @@ The highest honest GTUSDA yield right now is 4.71% on gauntlet (Base), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.71% | $51.63M |
+| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.71% | $51.73M |
 | [gauntlet →](https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token) | Arbitrum | 4.71% | $5.02M |
 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.58M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.02M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.71% APY, $51.63M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.02M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.71% APY, $51.73M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [gauntlet →](https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token) | Arbitrum | 4.71% | $5.02M |
 | 2 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.58M |
-| 3 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.71% | $51.63M |
+| 3 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.71% | $51.73M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $58.24M in total.
+3 live pools clear this page's $100K TVL floor, $58.33M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDA pools have the most stable APY history?
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.02M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.71% APY, $51.63M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.02M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.71% APY, $51.73M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

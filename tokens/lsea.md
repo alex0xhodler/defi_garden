@@ -4,7 +4,7 @@ The highest honest LSEA yield right now is 3.94% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8&src=seo_token) | Base | 3.94% | $149.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8&src=seo_token) | Base | 3.94% | $150K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LSEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.8K in total.
+1 live pool clear this page's $100K TVL floor, $150K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LSEA pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

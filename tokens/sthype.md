@@ -4,9 +4,9 @@ The highest honest STHYPE yield right now is 2.31% on pendle-v2 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.24% | $1.4M |
-| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.31% | $1.4M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb&src=seo_token) | Hyperliquid L1 | 0.09% | $120.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.24% | $1.41M |
+| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.31% | $1.41M |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb&src=seo_token) | Hyperliquid L1 | 0.09% | $120.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -27,9 +27,9 @@ STHYPE shows up in 3 pools here, with rates from 0.09% to 2.31% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.24% | 2.61% | 5.17% incentives |
+| pendle-v2 | 2.24% | 2.60% | 5.07% incentives |
 | pendle-v2 | 2.31% | 2.27% | Base rate |
-| hyperswap-v3 | 0.09% | 0.69% | Base rate |
+| hyperswap-v3 | 0.09% | 0.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.92M in total.
+3 live pools clear this page's $100K TVL floor, $2.93M in total.
 
 ### Are these rates safe?
 

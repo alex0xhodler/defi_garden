@@ -1,10 +1,10 @@
 # BGB DeFi Yields
 
-The highest honest BGB yield right now is 3.00% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BGB yield right now is 4.65% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2b7aa6a6-3154-4288-889b-98534cd1b4e6&src=seo_token) | Ethereum | 3.00% | $471.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2b7aa6a6-3154-4288-889b-98534cd1b4e6&src=seo_token) | Ethereum | 4.65% | $471.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BGB yield today?
 
-3.00% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.65% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BGB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $471.8K in total.
+1 live pool clear this page's $100K TVL floor, $471.2K in total.
 
 ### Are these rates safe?
 

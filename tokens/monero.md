@@ -1,10 +1,10 @@
 # MONERO DeFi Yields
 
-The highest honest MONERO yield right now is 0.21% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MONERO yield right now is 0.18% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c974675c-0fad-54a9-b6cf-71b13fada055&src=seo_token) | Solana | 0.21% | $1.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=c974675c-0fad-54a9-b6cf-71b13fada055&src=seo_token) | Solana | 0.18% | $1.45M |
 | [raydium-amm →](https://www.defi.garden/?pool=16658fc6-6d32-54af-9bb4-118dc97f12e5&src=seo_token) | Solana | 0.05% | $1.44M |
 | [raydium-amm →](https://www.defi.garden/?pool=08d22bca-6f3c-5801-9f17-087497be69b9&src=seo_token) | Solana | 0.07% | $1.42M |
 | [raydium-amm →](https://www.defi.garden/?pool=3b2dc74f-a862-5138-950f-00058fe5ea40&src=seo_token) | Solana | 0.05% | $1.42M |
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MONERO shows up in 4 pools here, with rates from 0.05% to 0.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MONERO shows up in 4 pools here, with rates from 0.05% to 0.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.21% | 0.14% | Base rate |
+| raydium-amm | 0.18% | 0.14% | Base rate |
 | raydium-amm | 0.05% | 0.05% | Base rate |
 | raydium-amm | 0.07% | 0.16% | Base rate |
 | raydium-amm | 0.05% | 0.05% | Base rate |
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MONERO yield today?
 
-0.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MONERO pools clear the TVL floor?
 

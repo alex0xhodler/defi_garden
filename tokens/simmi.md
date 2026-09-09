@@ -1,10 +1,10 @@
 # SIMMI DeFi Yields
 
-The highest honest SIMMI yield right now is 0.06% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIMMI yield right now is 0.08% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 0.06% | $284.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 0.08% | $279.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIMMI yield today?
 
-0.06% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.08% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many SIMMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.4K in total.
+1 live pool clear this page's $100K TVL floor, $279.6K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SIMMI pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

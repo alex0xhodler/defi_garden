@@ -1,10 +1,10 @@
 # YVVBUSDC DeFi Yields
 
-The highest honest YVVBUSDC yield right now is 0.79% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVVBUSDC yield right now is 0.80% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=29f136e4-979f-4a31-8937-21e130a2b5f4&src=seo_token) | Katana | 0.79% | $951.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=29f136e4-979f-4a31-8937-21e130a2b5f4&src=seo_token) | Katana | 0.80% | $951.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YVVBUSDC yield today?
 
-0.79% APY on morpho-blue (Katana), based on live DefiLlama data.
+0.80% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YVVBUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $951.2K in total.
+1 live pool clear this page's $100K TVL floor, $951.1K in total.
 
 ### Are these rates safe?
 

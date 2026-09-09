@@ -1,11 +1,11 @@
 # OPAL DeFi Yields
 
-The highest honest OPAL yield right now is 7.45% on origami-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPAL yield right now is 7.66% on origami-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 0.68% | $2.6M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.45% | $495.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 0.40% | $2.61M |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.66% | $494.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-OPAL shows up in 2 pools here, with rates from 0.68% to 7.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPAL shows up in 2 pools here, with rates from 0.40% to 7.66% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.68% | 2.15% | Base rate |
-| origami-finance | 7.45% | 9.05% | Base rate |
+| uniswap-v2 | 0.40% | 2.09% | Base rate |
+| origami-finance | 7.66% | 8.98% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPAL yield today?
 
-7.45% APY on origami-finance (Ethereum), based on live DefiLlama data.
+7.66% APY on origami-finance (Ethereum), based on live DefiLlama data.
 
 ### How many OPAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.1M in total.
+2 live pools clear this page's $100K TVL floor, $3.11M in total.
 
 ### Are these rates safe?
 

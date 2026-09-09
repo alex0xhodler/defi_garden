@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNC4 pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $919.9K in total.
+5 live pools clear this page's $100K TVL floor, $744.1K in total.
 
 ### Are these rates safe?
 

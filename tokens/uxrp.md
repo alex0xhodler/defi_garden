@@ -1,10 +1,10 @@
 # UXRP DeFi Yields
 
-The highest honest UXRP yield right now is 5.69% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UXRP yield right now is 6.51% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=77c0d868-9f87-41f1-980f-990cca319f08&src=seo_token) | Base | 5.69% | $1.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=77c0d868-9f87-41f1-980f-990cca319f08&src=seo_token) | Base | 6.51% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UXRP yield today?
 
-5.69% APY on uniswap-v3 (Base), based on live DefiLlama data.
+6.51% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UXRP pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank UXRP pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # HEEBOO DeFi Yields
 
-The highest honest HEEBOO yield right now is 205.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEEBOO yield right now is 177.36% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c40be899-1c27-564e-8e35-62a2a09b3330&src=seo_token) | Solana | 205.43% | $281.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=c40be899-1c27-564e-8e35-62a2a09b3330&src=seo_token) | Solana | 177.36% | $283K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEEBOO yield today?
 
-205.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+177.36% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEEBOO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $281.4K in total.
+1 live pool clear this page's $100K TVL floor, $283K in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@ The highest honest Plume Mainnet yield right now is 11.67% on plume-vaults (Plum
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 10.63% | $93.54M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 10.63% | $94.17M |
 | NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.19% | $26.08M |
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1&src=seo_chain) | 3.28% | $20.82M |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1&src=seo_chain) | 4.97% | $20.82M |
 | USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_chain) | 7.27% | $16.91M |
 | NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 11.67% | $13.39M |
 | NAXI | [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_chain) | 11.50% | $5.48M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plume Mainnet pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $194.01M in total.
+14 live pools clear this page's $100K TVL floor, $194.64M in total.
 
 ### Are these rates safe?
 

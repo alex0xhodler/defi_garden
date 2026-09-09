@@ -1,10 +1,10 @@
 # CANTONCC DeFi Yields
 
-The highest honest CANTONCC yield right now is 5.54% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CANTONCC yield right now is 5.44% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a1b20e45-b645-4713-85e8-76b9c151c87e&src=seo_token) | Base | 5.54% | $127K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a1b20e45-b645-4713-85e8-76b9c151c87e&src=seo_token) | Base | 5.44% | $127.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CANTONCC yield today?
 
-5.54% APY on uniswap-v4 (Base), based on live DefiLlama data.
+5.44% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CANTONCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127K in total.
+1 live pool clear this page's $100K TVL floor, $127.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CANTONCC pools. This view cov
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

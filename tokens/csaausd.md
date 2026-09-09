@@ -1,10 +1,10 @@
 # CSAAUSD DeFi Yields
 
-The highest honest CSAAUSD yield right now is 7.89% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSAAUSD yield right now is 7.93% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 7.89% | $2.36M |
+| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 7.93% | $2.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSAAUSD yield today?
 
-7.89% APY on morpho-blue (Monad), based on live DefiLlama data.
+7.93% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many CSAAUSD pools clear the TVL floor?
 

@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=5c6863e0-f351-533b-880d-b48790376e4b&src=seo_token) | Solana | 16.19% | $120.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=9cdd89e5-bdbd-55e6-8eff-692062548149&src=seo_token) | Solana | 14.64% | $100.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=9cdd89e5-bdbd-55e6-8eff-692062548149&src=seo_token) | Solana | 14.95% | $100.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=f525f21b-3296-5989-83d0-d8a34760c4a2&src=seo_token) | Solana | 12.60% | $100.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=c0ac61b0-0c66-5adc-a430-850333cf9f0f&src=seo_token) | Solana | 15.11% | $100.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=c0ac61b0-0c66-5adc-a430-850333cf9f0f&src=seo_token) | Solana | 16.40% | $100.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=e4fef556-6fce-5d3a-80e2-d1606b6b55e2&src=seo_token) | Solana | 24.68% | $100.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=ba867f5d-8707-53e4-aa8a-4cc6809375c8&src=seo_token) | Solana | 18.08% | $100.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3720e9-1219-55c6-8c3f-95c12cf51fee&src=seo_token) | Solana | 16.61% | $100.2K |
@@ -33,9 +33,9 @@ XMR 풀은 여기 8개가 있고, 1개 체인에서 APY가 3.65%부터 24.68%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 16.19% | 16.59% | 기본 금리 |
-| raydium-amm | 14.64% | 20.02% | 기본 금리 |
+| raydium-amm | 14.95% | 19.78% | 기본 금리 |
 | raydium-amm | 12.60% | 8.67% | 기본 금리 |
-| raydium-amm | 15.11% | 7.35% | 기본 금리 |
+| raydium-amm | 16.40% | 9.56% | 기본 금리 |
 | raydium-amm | 24.68% | 20.24% | 기본 금리 |
 | raydium-amm | 18.08% | 12.52% | 기본 금리 |
 | raydium-amm | 16.61% | 12.96% | 기본 금리 |

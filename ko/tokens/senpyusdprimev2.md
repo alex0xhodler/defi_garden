@@ -1,10 +1,10 @@
 # SENPYUSDPRIMEV2 디파이 수익률
 
-현재 SENPYUSDPRIMEV2의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SENPYUSDPRIMEV2의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.16%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.18% | $199.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.16% | $199.51M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SENPYUSDPRIMEV2의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.18%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.16%예요.
 
 ### SENPYUSDPRIMEV2 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HOME pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $458.2K in total.
+2 live pools clear this page's $100K TVL floor, $455.3K in total.
 
 ### Are these rates safe?
 
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank HOME pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

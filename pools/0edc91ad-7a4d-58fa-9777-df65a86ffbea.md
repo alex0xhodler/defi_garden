@@ -1,6 +1,6 @@
 # SUSN — pendle-v2 on Ethereum
 
-**Total APY:** 8.62% (8.62% Base · + 0.00% Rewards)
+**Total APY:** 8.63% (8.63% Base · + 0.00% Rewards)
 
 **TVL:** $1.2M
 

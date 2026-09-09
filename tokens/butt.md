@@ -1,10 +1,10 @@
 # BUTT DeFi Yields
 
-The highest honest BUTT yield right now is 543.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUTT yield right now is 492.81% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2dead0a4-27db-565d-9b7c-6e80f71897e2&src=seo_token) | Solana | 543.06% | $202.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=2dead0a4-27db-565d-9b7c-6e80f71897e2&src=seo_token) | Solana | 492.81% | $230K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUTT yield today?
 
-543.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+492.81% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BUTT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.8K in total.
+1 live pool clear this page's $100K TVL floor, $230K in total.
 
 ### Are these rates safe?
 

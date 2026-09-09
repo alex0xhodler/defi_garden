@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $18.95M |
-| [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 1.92% | $2.17M |
-| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 14.59% | $2M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 11.01% | $1.36M |
+| [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 1.75% | $2.17M |
+| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 15.14% | $2M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 10.97% | $1.36M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436&src=seo_token) | Ethereum | 15.24% | $1.36M |
 | [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 0.80% | $143.2K |
 
@@ -22,17 +22,17 @@
 
 USDX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.80%부터 15.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.96%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.06%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 6개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | 기본 금리 |
-| curve-dex | 1.92% | 1.23% | 기본 금리 |
-| curve-dex | 14.59% | 10.43% | 기본 금리 |
-| pendle-v2 | 11.01% | 11.09% | 인센티브 32.39% |
-| pendle-v2 | 15.24% | 15.04% | 기본 금리 |
+| curve-dex | 1.75% | 1.25% | 기본 금리 |
+| curve-dex | 15.14% | 10.62% | 기본 금리 |
+| pendle-v2 | 10.97% | 11.09% | 인센티브 32.06% |
+| pendle-v2 | 15.24% | 15.05% | 기본 금리 |
 | raydium-amm | 0.80% | 1.21% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

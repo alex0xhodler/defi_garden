@@ -1,31 +1,38 @@
 # BAL DeFi Yields
 
-The highest honest BAL yield right now is 1.59% on balancer-v2 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAL yield right now is 2.12% on balancer-v2 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=d077bb72-ecf2-4f12-acc9-362bf50d0bae&src=seo_token) | Polygon | 1.59% | $107K |
+| [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 0.29% | $4.38M |
+| [balancer-v2 →](https://www.defi.garden/?pool=d077bb72-ecf2-4f12-acc9-362bf50d0bae&src=seo_token) | Polygon | 2.12% | $108K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank BAL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BAL's lower-variability candidates are balancer-v2 (Ethereum), 0.29% APY, $4.38M TVL, https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token; balancer-v2 (Polygon), 2.12% APY, $108K TVL, https://www.defi.garden/?pool=d077bb72-ecf2-4f12-acc9-362bf50d0bae&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 0.29% | $4.38M |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=d077bb72-ecf2-4f12-acc9-362bf50d0bae&src=seo_token) | Polygon | 2.12% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BAL shows up in 1 pools here, with rates from 1.59% to 1.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BAL shows up in 2 pools here, with rates from 0.29% to 2.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v2 | 1.59% | 4.67% | Base rate |
+| balancer-v2 | 0.29% | 1.16% | Base rate |
+| balancer-v2 | 2.12% | 4.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BAL yield today?
 
-1.59% APY on balancer-v2 (Polygon), based on live DefiLlama data.
+2.12% APY on balancer-v2 (Polygon), based on live DefiLlama data.
 
 ### How many BAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.44M in total.
+2 live pools clear this page's $100K TVL floor, $4.49M in total.
 
 ### Are these rates safe?
 
@@ -45,19 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BAL pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank BAL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BAL's lower-variability candidates are balancer-v2 (Ethereum), 0.29% APY, $4.38M TVL, https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token; balancer-v2 (Polygon), 2.12% APY, $108K TVL, https://www.defi.garden/?pool=d077bb72-ecf2-4f12-acc9-362bf50d0bae&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [LINK](https://www.defi.garden/tokens/link)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
-- [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
 ## Last updated September 9, 2026

@@ -1,10 +1,10 @@
 # GREEN DeFi Yields
 
-The highest honest GREEN yield right now is 15.91% on ripe-protocol (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GREEN yield right now is 14.40% on ripe-protocol (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ripe-protocol →](https://www.defi.garden/?pool=4b8560f9-027f-5d1d-ab95-487a9dbbde74&src=seo_token) | Robinhood Chain | 15.91% | $359.8K |
+| [ripe-protocol →](https://www.defi.garden/?pool=4b8560f9-027f-5d1d-ab95-487a9dbbde74&src=seo_token) | Robinhood Chain | 14.40% | $359.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GREEN yield today?
 
-15.91% APY on ripe-protocol (Robinhood Chain), based on live DefiLlama data.
+14.40% APY on ripe-protocol (Robinhood Chain), based on live DefiLlama data.
 
 ### How many GREEN pools clear the TVL floor?
 

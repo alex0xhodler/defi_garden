@@ -1,10 +1,10 @@
 # FREYA DeFi Yields
 
-The highest honest FREYA yield right now is 46.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FREYA yield right now is 47.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f9b5a38f-4ab9-41cd-918f-6f5d7761eb14&src=seo_token) | Solana | 46.00% | $193.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=f9b5a38f-4ab9-41cd-918f-6f5d7761eb14&src=seo_token) | Solana | 47.00% | $185.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FREYA yield today?
 
-46.00% APY on raydium-amm (Solana), based on live DefiLlama data.
+47.00% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FREYA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $193.9K in total.
+1 live pool clear this page's $100K TVL floor, $185.7K in total.
 
 ### Are these rates safe?
 

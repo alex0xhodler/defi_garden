@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monad 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱</title>
-    <meta name="description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 77개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
+    <meta name="description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 76개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
     <link rel="canonical" href="https://www.defi.garden/ko/chains/monad">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/monad">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/monad">
@@ -15,12 +15,12 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"오늘 Monad의 가장 높은 수익률은 얼마인가요?","acceptedAnswer":{"@type":"Answer","text":"DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 11.69%예요."}},{"@type":"Question","name":"Monad 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?","acceptedAnswer":{"@type":"Answer","text":"이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 168개이며, 합산 TVL은 $1.36B예요."}},{"@type":"Question","name":"이 수익률은 안전한가요?","acceptedAnswer":{"@type":"Answer","text":"이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Monad 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱">
-    <meta property="og:description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 77개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
+    <meta property="og:description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 76개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
     <meta property="og:url" content="https://www.defi.garden/ko/chains/monad">
     <meta property="og:image" content="https://www.defi.garden/og/chains/monad.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Monad 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱">
-    <meta name="twitter:description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 77개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
+    <meta name="twitter:description" content="Monad에서 $100K TVL 기준을 넘는 실시간 풀 168개, 최고 APY 11.69%, 76개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.">
     <meta name="twitter:image" content="https://www.defi.garden/og/chains/monad.png">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
@@ -69,11 +69,236 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
-      .cp-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
-      .cp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .cp-waitlist {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-lg);
+        box-shadow: none;
+        padding: 24px 26px;
+        margin: 24px 0;
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 24px;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .cp-waitlist {
+          grid-template-columns: 1fr;
+          padding: 20px 18px;
+          gap: 20px;
+        }
+      }
+      .cp-waitlist h2 { font-size: 1.05rem; margin: 0 0 8px; color: var(--ui-text); }
       .cp-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
-      .cp-waitlist .cp-cta { margin: 4px 0 10px; }
+      .cp-waitlist .cp-cta { margin: 4px 0 10px; display: inline-block; }
       .cp-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
+      .cp-waitlist .cp-in-progress-state {
+        display: flex;
+        flex-direction: column;
+      }
+      .cp-waitlist .in-progress-status-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 4px 8px;
+        background: rgba(52, 211, 153, 0.12);
+        border: 1px solid rgba(52, 211, 153, 0.35);
+        color: rgba(52, 211, 153, 1);
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        margin-bottom: 10px;
+        align-self: flex-start;
+      }
+      .cp-waitlist .status-pulse-dot {
+        width: 6px;
+        height: 6px;
+        background: rgba(52, 211, 153, 1);
+        box-shadow: 0 0 8px rgba(52, 211, 153, 1);
+      }
+      .cp-waitlist .cp-reset-btn {
+        background: none;
+        border: none;
+        color: var(--ui-text-secondary);
+        cursor: pointer;
+        font-size: 0.78rem;
+        margin-top: 8px;
+        text-align: left;
+        padding: 0;
+      }
+      .cp-waitlist .cp-reset-btn:hover {
+        text-decoration: underline;
+        color: var(--ui-text);
+      }
+      .cp-waitlist .virtual-visa-card {
+        width: 100%;
+        max-width: 340px;
+        aspect-ratio: 1.586 / 1;
+        padding: 16px 18px;
+        background:
+          repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
+          repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
+          radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
+          linear-gradient(138deg, rgba(11, 21, 17, 1) 0%, rgba(19, 37, 27, 1) 38%, rgba(10, 20, 15, 1) 70%, rgba(18, 36, 26, 1) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.32),
+          inset 1px 0 0 rgba(255, 255, 255, 0.14),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.65),
+          inset -1px 0 0 rgba(0, 0, 0, 0.45),
+          0 18px 40px -10px rgba(0, 0, 0, 0.7);
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        user-select: none;
+        margin: 0 auto;
+        border-radius: 0 !important;
+      }
+      .cp-waitlist .virtual-visa-card::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, 0.12) 42%, rgba(255, 255, 255, 0.26) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 72%);
+        background-size: 260% 100%;
+        background-position: 50% 0;
+        z-index: 5;
+      }
+      .cp-waitlist .visa-card-top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      .cp-waitlist .visa-card-chip-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .cp-waitlist .visa-gold-chip {
+        width: 36px;
+        height: 26px;
+        background: linear-gradient(135deg, rgba(199, 164, 98, 1) 0%, rgba(235, 216, 167, 1) 35%, rgba(180, 145, 76, 1) 70%, rgba(216, 190, 130, 1) 100%);
+        border: 1px solid rgba(40, 30, 15, 0.5);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+        position: relative;
+        flex-shrink: 0;
+        border-radius: 0 !important;
+      }
+      .cp-waitlist .visa-card-brand-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2px;
+      }
+      .cp-waitlist .visa-card-tier-row {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .cp-waitlist .visa-card-type-badge {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.50rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        color: rgba(255, 255, 255, 0.72);
+      }
+      .cp-waitlist .visa-card-metal-badge {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.46rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        background: rgba(255, 255, 255, 0.14);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        color: rgba(230, 255, 250, 1);
+        padding: 1px 4px;
+        border-radius: 0 !important;
+      }
+      .cp-waitlist .visa-card-center {
+        margin: 4px 0;
+        position: relative;
+        z-index: 2;
+      }
+      .cp-waitlist .visa-card-pan {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.82rem;
+        letter-spacing: 0.20em;
+        color: rgba(226, 236, 230, 1);
+        font-weight: 600;
+        margin-bottom: 2px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
+      }
+      .cp-waitlist .visa-card-funded-label {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.84rem;
+        font-weight: 700;
+        color: rgba(232, 242, 236, 1);
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
+      }
+      .cp-waitlist .visa-card-bottom-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 6px;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        position: relative;
+        z-index: 2;
+      }
+      .cp-waitlist .visa-card-meta-left {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+      }
+      .cp-waitlist .visa-card-expiry {
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.58rem;
+        color: rgba(255, 255, 255, 0.72);
+        letter-spacing: 0.06em;
+      }
+      .cp-waitlist .visa-card-network-info {
+        font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+        font-size: 0.62rem;
+        color: rgba(255, 255, 255, 0.92);
+        letter-spacing: 0.03em;
+        font-weight: 600;
+      }
+      .cp-waitlist .visa-card-meta-right {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .cp-waitlist .visa-card-hologram {
+        width: 22px;
+        height: 22px;
+        background: conic-gradient(from 180deg at 50% 50%, rgba(78, 154, 112, 1), rgba(147, 214, 178, 1), rgba(212, 175, 55, 1), rgba(124, 201, 160, 1), rgba(78, 154, 112, 1));
+        opacity: 0.82;
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        border-radius: 0 !important;
+      }
+      .cp-waitlist .visa-card-cap-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-family: var(--font-family-mono, monospace);
+        font-size: 0.60rem;
+        font-weight: 700;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        padding: 3px 6px;
+        color: rgba(52, 211, 153, 1);
+        white-space: nowrap;
+        border-radius: 0 !important;
+      }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -94,8 +319,8 @@
     <h1>Monad 디파이 수익률</h1>
     <p class="cp-answer">현재 Monad의 가장 높은 정직한 수익률은 Monad의 accountable에서 11.69%이며, $100K TVL 기준을 넘는 168개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 168개 · TVL 순 정렬</p>
-    <p class="intro">Monad의 가장 큰 실시간 풀은 aave-v3(SYRUPUSDC)로, APY 1.25%(TVL $121.32M)예요. 풀 168개가 77개 토큰에 걸쳐 이 페이지의 $100K TVL 기준을 통과했고, 합산 TVL은 $1.36B이에요.</p>
-    <p class="cp-yield-headline">Monad의 유휴 자산으로 약 4.34%의 수익을 낼 수 있어요 — $5.5K를 예치하면 월 $20 Claude Pro 구독료를 영원히 낼 수 있어요.</p>
+    <p class="intro">Monad의 가장 큰 실시간 풀은 aave-v3(SYRUPUSDC)로, APY 1.25%(TVL $126.09M)예요. 풀 168개가 76개 토큰에 걸쳐 이 페이지의 $100K TVL 기준을 통과했고, 합산 TVL은 $1.36B이에요.</p>
+    <p class="cp-yield-headline">Monad의 유휴 자산으로 약 4.35%의 수익을 낼 수 있어요 — $5.5K를 예치하면 월 $20 Claude Pro 구독료를 영원히 낼 수 있어요.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=Monad&minTvl=100000&src=seo_chain">Monad의 실시간 풀 보기 →</a>
     <div class="cp-card">
     <div class="scroll">
@@ -108,19 +333,19 @@
           <td>SYRUPUSDC</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_chain">aave-v3 &rarr;</a></td>
           <td class="num">1.25%</td>
-          <td class="num">$121.32M</td>
+          <td class="num">$126.09M</td>
         </tr>
         <tr>
           <td>AUSD</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain">accountable &rarr;</a></td>
           <td class="num">6.81%</td>
-          <td class="num">$100.66M</td>
+          <td class="num">$100.65M</td>
         </tr>
         <tr>
           <td>USDE</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_chain">aave-v3 &rarr;</a></td>
           <td class="num">5.75%</td>
-          <td class="num">$92.5M</td>
+          <td class="num">$89.74M</td>
         </tr>
         <tr>
           <td>USDC</td>
@@ -131,8 +356,8 @@
         <tr>
           <td>WETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain">euler-v2 &rarr;</a></td>
-          <td class="num">2.82%</td>
-          <td class="num">$61.38M</td>
+          <td class="num">2.80%</td>
+          <td class="num">$61.4M</td>
         </tr>
         <tr>
           <td>AHYPER</td>
@@ -143,14 +368,14 @@
         <tr>
           <td>STEAKETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain">morpho-blue &rarr;</a></td>
-          <td class="num">2.93%</td>
-          <td class="num">$45.91M</td>
+          <td class="num">2.94%</td>
+          <td class="num">$45.93M</td>
         </tr>
         <tr>
           <td>HYPERUSDCA</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain">morpho-blue &rarr;</a></td>
-          <td class="num">8.86%</td>
-          <td class="num">$42.31M</td>
+          <td class="num">8.14%</td>
+          <td class="num">$42.36M</td>
         </tr>
       </tbody>
     </table>
@@ -203,10 +428,52 @@
       </div>
     </nav>
     <div class="cp-waitlist">
-      <h2>카드 얼리 액세스 신청하기</h2>
-      <p>Monad 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.</p>
-      <a class="cp-cta" href="/plan.html?waitlist=1&amp;src=seo_chain">대기자 명단에 등록 →</a>
-      <p class="cp-waitlist-micro">무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요</p>
+      <div class="cp-waitlist-content">
+        <h2>카드 얼리 액세스 신청하기</h2>
+        <p>Monad 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.</p>
+        <a class="cp-cta" href="/plan.html?waitlist=1&amp;src=seo_chain">대기자 명단에 등록 →</a>
+        <p class="cp-waitlist-micro">무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요</p>
+      </div>
+      <div class="cp-waitlist-card-col">
+        <div class="virtual-visa-card" data-card-tilt="true">
+          <div class="visa-card-top-row">
+            <div class="visa-card-chip-group">
+              <div class="visa-gold-chip" aria-hidden="true"></div>
+              <svg class="visa-nfc-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                <path d="M7 16a5.5 5.5 0 0 1 0-8" />
+                <path d="M11 18.5a9 9 0 0 1 0-13" />
+                <path d="M15 21a12.5 12.5 0 0 1 0-18" />
+                <path d="M3 13.5a2 2 0 0 1 0-3" />
+              </svg>
+            </div>
+            <div class="visa-card-brand-group">
+              <svg class="visa-logo-svg" viewBox="0 0 780 250" width="46" height="15" fill="rgba(255,255,255,1)" aria-label="VISA" role="img">
+                <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
+              </svg>
+              <div class="visa-card-tier-row">
+                <span class="visa-card-type-badge">DEBIT</span>
+                <span class="visa-card-metal-badge">METAL</span>
+              </div>
+            </div>
+          </div>
+          <div class="visa-card-center">
+            <div class="visa-card-pan">•••• •••• •••• 8453</div>
+            <div class="visa-card-funded-label">DEFI GARDEN METAL</div>
+          </div>
+          <div class="visa-card-bottom-row">
+            <div class="visa-card-meta-left">
+              <span class="visa-card-expiry">VALID 08/31</span>
+              <span class="visa-card-network-info">YIELD-FUNDED · BASE</span>
+            </div>
+            <div class="visa-card-meta-right">
+              <div class="visa-card-hologram" aria-hidden="true"></div>
+              <div class="visa-card-cap-badge">
+                <span>🟢 100% PRINCIPAL INTACT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <p class="note">수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.</p>
     <p class="note">마지막 업데이트: September 9, 2026</p>

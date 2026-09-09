@@ -1,10 +1,10 @@
 # PATIENCE DeFi Yields
 
-The highest honest PATIENCE yield right now is 3.49% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PATIENCE yield right now is 3.29% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=314f171a-8d08-490a-afcd-40225cbafa62&src=seo_token) | Base | 3.49% | $138.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=314f171a-8d08-490a-afcd-40225cbafa62&src=seo_token) | Base | 3.29% | $137.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PATIENCE yield today?
 
-3.49% APY on uniswap-v2 (Base), based on live DefiLlama data.
+3.29% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many PATIENCE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.5K in total.
+1 live pool clear this page's $100K TVL floor, $137.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank PATIENCE pools. This view cov
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # ALIGN 디파이 수익률
 
-현재 ALIGN의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 90.82%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALIGN의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 198.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 90.82% | $267.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 198.62% | $200.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 ALIGN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 90.82%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 198.62%예요.
 
 ### ALIGN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $267.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $200.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 90.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

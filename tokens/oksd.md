@@ -1,6 +1,6 @@
 # OKSD DeFi Yields
 
-The highest honest OKSD yield right now is 0.24% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OKSD yield right now is 0.24% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OKSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $532.1K in total.
+2 live pools clear this page's $100K TVL floor, $402.3K in total.
 
 ### Are these rates safe?
 

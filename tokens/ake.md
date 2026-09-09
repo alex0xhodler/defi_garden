@@ -1,11 +1,10 @@
 # AKE DeFi Yields
 
-The highest honest AKE yield right now is 23.98% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKE yield right now is 21.05% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f47fc2d5-8d35-59af-bdde-911ff29c5cf0&src=seo_token) | Solana | 0.10% | $16.08M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 23.98% | $611.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 21.05% | $623.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -14,32 +13,15 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
-## How this rate has behaved
-
-AKE shows up in 2 pools here, with rates from 0.10% to 23.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 125.00% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| raydium-amm | 0.10% | 215.71% | Base rate |
-| uniswap-v4 | 23.98% | 34.28% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
-
 ## Frequently asked questions
 
 ### What's the highest AKE yield today?
 
-23.98% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+21.05% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many AKE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.69M in total.
+1 live pool clear this page's $100K TVL floor, $623.7K in total.
 
 ### Are these rates safe?
 
@@ -52,15 +34,14 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [USDY](https://www.defi.garden/tokens/usdy)
+- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
-- [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 
 ## Last updated September 9, 2026

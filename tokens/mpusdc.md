@@ -1,10 +1,10 @@
 # MPUSDC DeFi Yields
 
-The highest honest MPUSDC yield right now is 4.23% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPUSDC yield right now is 4.19% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.23% | $581.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.19% | $581.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MPUSDC yield today?
 
-4.23% APY on morpho-blue (Base), based on live DefiLlama data.
+4.19% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many MPUSDC pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank MPUSDC pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

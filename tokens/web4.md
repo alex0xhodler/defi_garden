@@ -4,7 +4,7 @@ The highest honest WEB4 yield right now is 0.12% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b8e0f4a8-5d3f-4477-80ad-9b7bd5574705&src=seo_token) | Base | 0.12% | $109.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b8e0f4a8-5d3f-4477-80ad-9b7bd5574705&src=seo_token) | Base | 0.12% | $109.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WEB4 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.3K in total.
+1 live pool clear this page's $100K TVL floor, $109.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WEB4 pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

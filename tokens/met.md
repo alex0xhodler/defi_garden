@@ -1,29 +1,29 @@
 # MET DeFi Yields
 
-The highest honest MET yield right now is 42.93% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MET yield right now is 42.38% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.25% | $566.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.03% | $562.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token) | Ethereum | 0.19% | $320.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 42.93% | $185.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 42.38% | $184.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MET's lower-variability candidates are uniswap-v3 (Ethereum), 0.19% APY, $320.3K TVL, https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token; aerodrome-v1 (Base), 16.25% APY, $566.8K TVL, https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token; aerodrome-v1 (Base), 42.93% APY, $185.9K TVL, https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MET's lower-variability candidates are uniswap-v3 (Ethereum), 0.19% APY, $320.3K TVL, https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token; aerodrome-v1 (Base), 16.03% APY, $562.8K TVL, https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token; aerodrome-v1 (Base), 42.38% APY, $184.5K TVL, https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token) | Ethereum | 0.19% | $320.3K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.25% | $566.8K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 42.93% | $185.9K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.03% | $562.8K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 42.38% | $184.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MET shows up in 3 pools here, with rates from 0.19% to 42.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MET shows up in 3 pools here, with rates from 0.19% to 42.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 50.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ MET shows up in 3 pools here, with rates from 0.19% to 42.93% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 16.25% | 50.99% | 100.00% incentives |
-| uniswap-v3 | 0.19% | 0.99% | Base rate |
-| aerodrome-v1 | 42.93% | 86.38% | 100.00% incentives |
+| aerodrome-v1 | 16.03% | 50.99% | 100.00% incentives |
+| uniswap-v3 | 0.19% | 0.98% | Base rate |
+| aerodrome-v1 | 42.38% | 86.46% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MET yield today?
 
-42.93% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+42.38% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many MET pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.83M in total.
+5 live pools clear this page's $100K TVL floor, $1.82M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MET pools have the most stable APY history?
 
-Based on APY history only, MET's lower-variability candidates are uniswap-v3 (Ethereum), 0.19% APY, $320.3K TVL, https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token; aerodrome-v1 (Base), 16.25% APY, $566.8K TVL, https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token; aerodrome-v1 (Base), 42.93% APY, $185.9K TVL, https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MET's lower-variability candidates are uniswap-v3 (Ethereum), 0.19% APY, $320.3K TVL, https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token; aerodrome-v1 (Base), 16.03% APY, $562.8K TVL, https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token; aerodrome-v1 (Base), 42.38% APY, $184.5K TVL, https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

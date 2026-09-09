@@ -4,7 +4,7 @@ The highest honest Elrond yield right now is 2.84% on xoxno-lending (Elrond), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [xoxno-lending →](https://www.defi.garden/?pool=44747e50-aa6c-5f9e-b47b-6b46e6d44751&src=seo_chain) | 2.84% | $123.5K |
+| USDC | [xoxno-lending →](https://www.defi.garden/?pool=44747e50-aa6c-5f9e-b47b-6b46e6d44751&src=seo_chain) | 2.84% | $123K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Elrond pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $872.8K in total.
+2 live pools clear this page's $100K TVL floor, $852.9K in total.
 
 ### Are these rates safe?
 

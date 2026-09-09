@@ -74,7 +74,7 @@
       .tp-rate-stability table { min-width: 620px; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-.tp-waitlist {
+      .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
         border-radius: var(--ui-radius-lg);
@@ -325,7 +325,7 @@
     <p class="tp-answer">The highest honest LBP yield right now is 0.16% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">1 live pool above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">LBP's largest live pool is balancer-v3 on Ethereum at 0.16% ($454.5K TVL). 1 LBP pool across 1 chain clear this page's $100K TVL floor, $454.5K in total.</p>
-    <p class="tp-yield-headline">Your idle LBP could earn ~0.16% — park $148.7K and it could run a $20/mo Claude Pro subscription, forever.</p>
+    <p class="tp-yield-headline">Your idle LBP could earn ~0.16% — park $148.9K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=LBP&minTvl=100000&src=seo_token">See live LBP pools →</a>
     <div class="tp-card">
     <div class="scroll">
@@ -392,9 +392,9 @@
     </nav>
     <div class="tp-waitlist" id="token-card-section">
       <div class="tp-waitlist-content" id="token-laso-default-view">
-        <h2>FLM Yield Card • Powered by Laso</h2>
-        <p>Spend your FLM yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
-        <a class="tp-cta" id="token-laso-btn" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Get FLM Card on Laso.finance →</a>
+        <h2>LBP Yield Card • Powered by Laso</h2>
+        <p>Spend your LBP yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
+        <a class="tp-cta" id="token-laso-btn" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Get LBP Card on Laso.finance →</a>
         <p class="tp-waitlist-micro">Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit</p>
       </div>
       <div class="tp-waitlist-content tp-in-progress-state" id="token-laso-in-progress" style="display:none;">
@@ -402,8 +402,8 @@
           <span class="status-pulse-dot" aria-hidden="true"></span>
           <span>CHECKOUT IN PROGRESS ON LASO</span>
         </div>
-        <h2>Your FLM partner perks are active.</h2>
-        <p>Complete your quick 30-second setup on Laso to claim your FLM Visa debit card.</p>
+        <h2>Your LBP partner perks are active.</h2>
+        <p>Complete your quick 30-second setup on Laso to claim your LBP Visa debit card.</p>
         <a class="tp-cta" href="https://laso.finance?ref=lmretyujvzr9jiutxi4d" target="_blank" rel="noopener noreferrer">Resume on Laso.finance ↗</a>
         <button type="button" class="tp-reset-btn" id="token-laso-reset-btn">← Back to card details</button>
       </div>
@@ -431,12 +431,12 @@
           </div>
           <div class="visa-card-center">
             <div class="visa-card-pan">•••• •••• •••• 8453</div>
-            <div class="visa-card-funded-label">FLM YIELD VAULT</div>
+            <div class="visa-card-funded-label">LBP YIELD VAULT</div>
           </div>
           <div class="visa-card-bottom-row">
             <div class="visa-card-meta-left">
               <span class="visa-card-expiry">VALID 08/31</span>
-              <span class="visa-card-network-info">FLM · BASE RAIL</span>
+              <span class="visa-card-network-info">LBP · BASE RAIL</span>
             </div>
             <div class="visa-card-meta-right">
               <div class="visa-card-hologram" aria-hidden="true"></div>
@@ -454,7 +454,7 @@
         var inProg = document.getElementById('token-laso-in-progress');
         var defaultView = document.getElementById('token-laso-default-view');
         var resetBtn = document.getElementById('token-laso-reset-btn');
-        var tokenKey = 'dg_laso_token_' + 'flm';
+        var tokenKey = 'dg_laso_token_' + 'lbp';
         function activate() {
           if (defaultView) defaultView.style.display = 'none';
           if (inProg) inProg.style.display = 'flex';

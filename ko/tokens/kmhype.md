@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.14% | $291.2K |
+| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.14% | $295.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.14
 
 ### KMHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $888.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $892.2K예요.
 
 ### 이 수익률은 안전한가요?
 

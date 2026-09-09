@@ -4,7 +4,7 @@ The highest honest OXI yield right now is 0.35% on uniswap-v3 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=194b26ff-0ba5-4cc9-80df-57010cc202b6&src=seo_token) | Base | 0.35% | $128.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=194b26ff-0ba5-4cc9-80df-57010cc202b6&src=seo_token) | Base | 0.35% | $128.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OXI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.6K in total.
+1 live pool clear this page's $100K TVL floor, $128.9K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank OXI pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

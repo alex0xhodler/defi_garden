@@ -34,8 +34,8 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liminal-basis | 8.26% | 4.66% | Base rate |
-| pendle-v2 | 9.19% | 10.14% | Base rate |
-| pendle-v2 | 11.12% | 10.43% | Base rate |
+| pendle-v2 | 9.19% | 10.13% | Base rate |
+| pendle-v2 | 11.12% | 10.44% | Base rate |
 | liminal-basis | 8.26% | 4.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIMUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $13.16M in total.
+4 live pools clear this page's $100K TVL floor, $13.15M in total.
 
 ### Are these rates safe?
 

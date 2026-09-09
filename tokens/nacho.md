@@ -1,10 +1,10 @@
 # NACHO DeFi Yields
 
-The highest honest NACHO yield right now is 22.30% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NACHO yield right now is 20.40% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token) | Igra | 22.30% | $102K |
+| [zealousswap →](https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token) | Igra | 20.40% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NACHO yield today?
 
-22.30% APY on zealousswap (Igra), based on live DefiLlama data.
+20.40% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many NACHO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,11 @@
 # GOOGLC DeFi Yields
 
-The highest honest GOOGLC yield right now is 171.51% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLC yield right now is 495.04% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=383917ff-e71c-5d60-888e-e817b06f5436&src=seo_token) | Base | 171.51% | $1.71M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a1265a82-835c-533c-bbad-18cca93bec6e&src=seo_token) | Base | 168.60% | $172.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 88.75% | $123.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a1265a82-835c-533c-bbad-18cca93bec6e&src=seo_token) | Base | 495.04% | $127.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e5825524-92c3-55ae-8f6f-8226b8ee0088&src=seo_token) | Base | 108.05% | $121.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,19 +16,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLC shows up in 3 pools here, with rates from 88.75% to 171.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLC shows up in 2 pools here, with rates from 108.05% to 495.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 273.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 270.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 171.51% | — | 71.41% incentives |
-| aerodrome-slipstream | 168.60% | 337.42% | 37.59% incentives |
-| uniswap-v3 | 88.75% | 210.22% | Base rate |
+| aerodrome-slipstream | 495.04% | 334.08% | 71.70% incentives |
+| uniswap-v3 | 108.05% | 207.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOOGLC yield today?
 
-171.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+495.04% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many GOOGLC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2M in total.
+2 live pools clear this page's $100K TVL floor, $249.4K in total.
 
 ### Are these rates safe?
 
@@ -57,8 +55,8 @@ There is not enough qualifying APY history to rank GOOGLC pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

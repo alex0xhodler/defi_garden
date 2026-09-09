@@ -1,38 +1,38 @@
 # LIT 디파이 수익률
 
-현재 LIT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 110.38%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LIT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 137.42%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=851f0a24-f4e7-4f05-be4b-feb14b97bcb5&src=seo_token) | Solana | 320.07% | $853.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 82.28% | $820.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 160.04% | $598.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 81.49% | $383.4K |
-| [balancer-v2 →](https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token) | Ethereum | 0.71% | $352.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 110.38% | $250K |
-| [raydium-amm →](https://www.defi.garden/?pool=49083a0b-4aaa-50de-83ae-7da74efb0f9e&src=seo_token) | Solana | 778.11% | $117K |
-| [raydium-amm →](https://www.defi.garden/?pool=ca7cbb1e-3193-578f-9a40-a61800b99fd9&src=seo_token) | Solana | 722.23% | $108.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 65.67% | $1.28M |
+| [orca-dex →](https://www.defi.garden/?pool=851f0a24-f4e7-4f05-be4b-feb14b97bcb5&src=seo_token) | Solana | 256.48% | $845.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 68.16% | $785.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 78.03% | $397.4K |
+| [balancer-v2 →](https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token) | Ethereum | 0.70% | $352.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 137.42% | $249.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=49083a0b-4aaa-50de-83ae-7da74efb0f9e&src=seo_token) | Solana | 571.01% | $122.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=ca7cbb1e-3193-578f-9a40-a61800b99fd9&src=seo_token) | Solana | 613.08% | $121.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LIT의 변동성 낮은 후보는 Ethereum의 balancer-v2, APY 0.71%, TVL $352.2K, https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token; Ethereum의 uniswap-v4, APY 160.04%, TVL $598.4K, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; Ethereum의 uniswap-v3, APY 110.38%, TVL $250K, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; Ethereum의 uniswap-v4, APY 82.28%, TVL $820.8K, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; Ethereum의 uniswap-v4, APY 81.49%, TVL $383.4K, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIT의 변동성 낮은 후보는 Ethereum의 balancer-v2, APY 0.70%, TVL $352.3K, https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token; Ethereum의 uniswap-v4, APY 65.67%, TVL $1.28M, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; Ethereum의 uniswap-v3, APY 137.42%, TVL $249.9K, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; Ethereum의 uniswap-v4, APY 68.16%, TVL $785.3K, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; Ethereum의 uniswap-v4, APY 78.03%, TVL $397.4K, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token) | Ethereum | 0.71% | $352.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 160.04% | $598.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 110.38% | $250K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 82.28% | $820.8K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 81.49% | $383.4K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token) | Ethereum | 0.70% | $352.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 65.67% | $1.28M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 137.42% | $249.9K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 68.16% | $785.3K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 78.03% | $397.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LIT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.71%부터 778.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LIT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.70%부터 613.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 82.79%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 83.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -40,14 +40,14 @@ LIT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.71%부터 778.11%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 320.07% | — | 기본 금리 |
-| uniswap-v4 | 82.28% | 71.54% | 기본 금리 |
-| uniswap-v4 | 160.04% | 96.32% | 기본 금리 |
-| uniswap-v4 | 81.49% | 63.12% | 기본 금리 |
-| balancer-v2 | 0.71% | 0.15% | 기본 금리 |
-| uniswap-v3 | 110.38% | 94.05% | 기본 금리 |
-| raydium-amm | 778.11% | 177.56% | 기본 금리 |
-| raydium-amm | 722.23% | — | 기본 금리 |
+| uniswap-v4 | 65.67% | 96.50% | 기본 금리 |
+| orca-dex | 256.48% | — | 기본 금리 |
+| uniswap-v4 | 68.16% | 71.85% | 기본 금리 |
+| uniswap-v4 | 78.03% | 63.54% | 기본 금리 |
+| balancer-v2 | 0.70% | 0.15% | 기본 금리 |
+| uniswap-v3 | 137.42% | 94.97% | 기본 금리 |
+| raydium-amm | 571.01% | 188.97% | 기본 금리 |
+| raydium-amm | 613.08% | — | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,11 +55,11 @@ LIT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.71%부터 778.11%�
 
 ### 오늘 LIT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 110.38%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 137.42%예요.
 
 ### LIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $3.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $4.16M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 110.38%�
 
 ### LIT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LIT의 변동성 낮은 후보는 Ethereum의 balancer-v2, APY 0.71%, TVL $352.2K, https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token; Ethereum의 uniswap-v4, APY 160.04%, TVL $598.4K, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; Ethereum의 uniswap-v3, APY 110.38%, TVL $250K, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; Ethereum의 uniswap-v4, APY 82.28%, TVL $820.8K, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; Ethereum의 uniswap-v4, APY 81.49%, TVL $383.4K, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIT의 변동성 낮은 후보는 Ethereum의 balancer-v2, APY 0.70%, TVL $352.3K, https://www.defi.garden/?pool=acfb20fb-df0d-44bc-97a8-46e1c3dad255&src=seo_token; Ethereum의 uniswap-v4, APY 65.67%, TVL $1.28M, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; Ethereum의 uniswap-v3, APY 137.42%, TVL $249.9K, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; Ethereum의 uniswap-v4, APY 68.16%, TVL $785.3K, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; Ethereum의 uniswap-v4, APY 78.03%, TVL $397.4K, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,7 +80,7 @@ APY 이력만 기준으로 비교한 LIT의 변동성 낮은 후보는 Ethereum�
 
 ## 이용 가능한 체인
 
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 
 ## 마지막 업데이트: September 9, 2026

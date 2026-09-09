@@ -4,7 +4,7 @@ The highest honest XLEND yield right now is 6.19% on liminal-basis (Hyperliquid 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.19% | $4.62M |
+| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.19% | $4.61M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XLEND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.62M in total.
+1 live pool clear this page's $100K TVL floor, $4.61M in total.
 
 ### Are these rates safe?
 

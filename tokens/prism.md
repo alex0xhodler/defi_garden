@@ -1,29 +1,29 @@
 # PRISM DeFi Yields
 
-The highest honest PRISM yield right now is 73.19% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRISM yield right now is 51.22% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 73.19% | $148.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 0.21% | $126.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 51.22% | $160.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 0.25% | $145.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PRISM's lower-variability candidates are uniswap-v4 (Ethereum), 73.19% APY, $148.8K TVL, https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token; uniswap-v4 (Ethereum), 0.21% APY, $126.3K TVL, https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRISM's lower-variability candidates are uniswap-v4 (Ethereum), 51.22% APY, $160.6K TVL, https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token; uniswap-v4 (Ethereum), 0.25% APY, $145.7K TVL, https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 73.19% | $148.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 0.21% | $126.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 51.22% | $160.6K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 0.25% | $145.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PRISM shows up in 2 pools here, with rates from 0.21% to 73.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PRISM shows up in 2 pools here, with rates from 0.25% to 51.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 122.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 121.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 73.19% | 242.40% | Base rate |
-| uniswap-v4 | 0.21% | 2.19% | Base rate |
+| uniswap-v4 | 51.22% | 240.20% | Base rate |
+| uniswap-v4 | 0.25% | 2.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PRISM yield today?
 
-73.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+51.22% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PRISM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $275.1K in total.
+2 live pools clear this page's $100K TVL floor, $306.2K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PRISM pools have the most stable APY history?
 
-Based on APY history only, PRISM's lower-variability candidates are uniswap-v4 (Ethereum), 73.19% APY, $148.8K TVL, https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token; uniswap-v4 (Ethereum), 0.21% APY, $126.3K TVL, https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRISM's lower-variability candidates are uniswap-v4 (Ethereum), 51.22% APY, $160.6K TVL, https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token; uniswap-v4 (Ethereum), 0.25% APY, $145.7K TVL, https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

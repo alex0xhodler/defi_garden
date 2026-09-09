@@ -1,10 +1,10 @@
 # BRL DeFi Yields
 
-The highest honest BRL yield right now is 0.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRL yield right now is 0.18% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ab783068-c169-4225-a99a-1cb5f08450b6&src=seo_token) | Ethereum | 0.21% | $257.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ab783068-c169-4225-a99a-1cb5f08450b6&src=seo_token) | Ethereum | 0.18% | $257.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRL yield today?
 
-0.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BRL pools clear the TVL floor?
 

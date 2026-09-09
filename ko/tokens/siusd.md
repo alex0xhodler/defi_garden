@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.54% | $28.43M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 8.49% | $3.09M |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.81% | $28.43M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 8.46% | $3.09M |
 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 9.19% | $3.09M |
 
 <!-- rate-stability:insufficient -->
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SIUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 6.54%부터 9.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SIUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 6.81%부터 9.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.87%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,8 +25,8 @@ SIUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 6.54%부터 9.19%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| infinifi | 6.54% | 6.16% | 기본 금리 |
-| pendle-v2 | 8.49% | 10.32% | 인센티브 3.86% |
+| infinifi | 6.81% | 6.19% | 기본 금리 |
+| pendle-v2 | 8.46% | 10.31% | 인센티브 3.82% |
 | pendle-v2 | 9.19% | 8.87% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

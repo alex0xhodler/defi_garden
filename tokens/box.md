@@ -1,29 +1,29 @@
 # BOX DeFi Yields
 
-The highest honest BOX yield right now is 6.48% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOX yield right now is 3.17% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 6.48% | $144K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 2.10% | $121.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 3.17% | $142K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 2.88% | $120K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOX's lower-variability candidates are uniswap-v2 (Ethereum), 2.10% APY, $121.5K TVL, https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token; uniswap-v3 (BSC), 6.48% APY, $144K TVL, https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOX's lower-variability candidates are uniswap-v2 (Ethereum), 2.88% APY, $120K TVL, https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token; uniswap-v3 (BSC), 3.17% APY, $142K TVL, https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 2.10% | $121.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 6.48% | $144K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 2.88% | $120K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 3.17% | $142K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BOX shows up in 2 pools here, with rates from 2.10% to 6.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOX shows up in 2 pools here, with rates from 2.88% to 3.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 6.48% | 14.11% | Base rate |
-| uniswap-v2 | 2.10% | 7.48% | Base rate |
+| uniswap-v3 | 3.17% | 14.03% | Base rate |
+| uniswap-v2 | 2.88% | 7.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOX yield today?
 
-6.48% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+3.17% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BOX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $265.5K in total.
+2 live pools clear this page's $100K TVL floor, $262K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOX pools have the most stable APY history?
 
-Based on APY history only, BOX's lower-variability candidates are uniswap-v2 (Ethereum), 2.10% APY, $121.5K TVL, https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token; uniswap-v3 (BSC), 6.48% APY, $144K TVL, https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOX's lower-variability candidates are uniswap-v2 (Ethereum), 2.88% APY, $120K TVL, https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token; uniswap-v3 (BSC), 3.17% APY, $142K TVL, https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,21 +1,21 @@
 # NYA DeFi Yields
 
-The highest honest NYA yield right now is 0.01% on uniswap-v3 (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NYA yield right now is 0.01% on uniswap-v3 (Avalanche), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $191.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token) | Avalanche | 0.01% | $115.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $192K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token) | Avalanche | 0.01% | $115.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $191.1K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Avalanche), 0.01% APY, $115.4K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $192K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Avalanche), 0.01% APY, $115.2K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $191.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token) | Avalanche | 0.01% | $115.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $192K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token) | Avalanche | 0.01% | $115.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NYA yield today?
 
-0.01% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many NYA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $689.4K in total.
+4 live pools clear this page's $100K TVL floor, $691.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NYA pools have the most stable APY history?
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $191.1K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Avalanche), 0.01% APY, $115.4K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $192K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Avalanche), 0.01% APY, $115.2K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

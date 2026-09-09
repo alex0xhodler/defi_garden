@@ -4,7 +4,7 @@ The highest honest MONGOOSE yield right now is 0.01% on uniswap-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fc849390-7ddb-40dd-991c-887bf780b283&src=seo_token) | Ethereum | 0.01% | $1.03M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fc849390-7ddb-40dd-991c-887bf780b283&src=seo_token) | Ethereum | 0.01% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MONGOOSE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.03M in total.
+1 live pool clear this page's $100K TVL floor, $1.04M in total.
 
 ### Are these rates safe?
 

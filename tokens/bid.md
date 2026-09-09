@@ -1,10 +1,10 @@
 # BID DeFi Yields
 
-The highest honest BID yield right now is 14.38% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BID yield right now is 13.18% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 14.38% | $359.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 13.18% | $358.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BID yield today?
 
-14.38% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+13.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $359.2K in total.
+1 live pool clear this page's $100K TVL floor, $358.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank BID pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

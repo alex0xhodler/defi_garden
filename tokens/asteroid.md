@@ -1,41 +1,44 @@
 # ASTEROID DeFi Yields
 
-The highest honest ASTEROID yield right now is 23.71% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASTEROID yield right now is 97.38% on uniswap-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 233.55% | $1.33M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 24.01% | $495K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 23.71% | $300.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 97.38% | $1.34M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 5.83% | $528.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 23.18% | $296.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.37% | $103.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ASTEROID's lower-variability candidates are uniswap-v2 (Ethereum), 23.71% APY, $300.1K TVL, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; uniswap-v2 (Ethereum), 233.55% APY, $1.33M TVL, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; uniswap-v4 (Ethereum), 24.01% APY, $495K TVL, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTEROID's lower-variability candidates are uniswap-v2 (Ethereum), 23.18% APY, $296.1K TVL, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; uniswap-v2 (Ethereum), 97.38% APY, $1.34M TVL, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; uniswap-v4 (Ethereum), 0.37% APY, $103.5K TVL, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; uniswap-v4 (Ethereum), 5.83% APY, $528.1K TVL, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 23.71% | $300.1K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 233.55% | $1.33M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 24.01% | $495K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 23.18% | $296.1K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 97.38% | $1.34M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.37% | $103.5K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 5.83% | $528.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ASTEROID shows up in 3 pools here, with rates from 23.71% to 233.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ASTEROID shows up in 4 pools here, with rates from 0.37% to 97.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 29.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 20.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 233.55% | 77.62% | Base rate |
-| uniswap-v4 | 24.01% | 12.36% | Base rate |
-| uniswap-v2 | 23.71% | 29.42% | Base rate |
+| uniswap-v2 | 97.38% | 78.66% | Base rate |
+| uniswap-v4 | 5.83% | 12.39% | Base rate |
+| uniswap-v2 | 23.18% | 29.51% | Base rate |
+| uniswap-v4 | 0.37% | 11.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ASTEROID yield today?
 
-23.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+97.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ASTEROID pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $5.79M in total.
+7 live pools clear this page's $100K TVL floor, $5.93M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ASTEROID pools have the most stable APY history?
 
-Based on APY history only, ASTEROID's lower-variability candidates are uniswap-v2 (Ethereum), 23.71% APY, $300.1K TVL, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; uniswap-v2 (Ethereum), 233.55% APY, $1.33M TVL, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; uniswap-v4 (Ethereum), 24.01% APY, $495K TVL, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTEROID's lower-variability candidates are uniswap-v2 (Ethereum), 23.18% APY, $296.1K TVL, https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token; uniswap-v2 (Ethereum), 97.38% APY, $1.34M TVL, https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token; uniswap-v4 (Ethereum), 0.37% APY, $103.5K TVL, https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token; uniswap-v4 (Ethereum), 5.83% APY, $528.1K TVL, https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

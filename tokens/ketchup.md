@@ -1,10 +1,10 @@
 # KETCHUP DeFi Yields
 
-The highest honest KETCHUP yield right now is 265.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KETCHUP yield right now is 346.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d736c767-673a-57c6-a6ca-d5495b116c29&src=seo_token) | Solana | 265.09% | $121.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=d736c767-673a-57c6-a6ca-d5495b116c29&src=seo_token) | Solana | 346.63% | $251.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KETCHUP yield today?
 
-265.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+346.63% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KETCHUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.4K in total.
+1 live pool clear this page's $100K TVL floor, $251.4K in total.
 
 ### Are these rates safe?
 

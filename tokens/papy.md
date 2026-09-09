@@ -1,10 +1,10 @@
 # PAPY DeFi Yields
 
-The highest honest PAPY yield right now is 10.97% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PAPY yield right now is 10.41% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=267a1599-c88b-57c2-8dc6-87c067d48b86&src=seo_token) | Ethereum | 10.97% | $10.91M |
+| [morpho-blue →](https://www.defi.garden/?pool=267a1599-c88b-57c2-8dc6-87c067d48b86&src=seo_token) | Ethereum | 10.41% | $10.91M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PAPY yield today?
 
-10.97% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+10.41% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many PAPY pools clear the TVL floor?
 

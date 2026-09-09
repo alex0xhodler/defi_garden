@@ -4,7 +4,8 @@ The highest honest EUROP yield right now is 1.07% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 1.07% | $116.4K |
+| [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f&src=seo_token) | Solana | 0.08% | $425.7K |
+| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 1.07% | $116.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,14 +16,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-EUROP shows up in 1 pools here, with rates from 1.07% to 1.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROP shows up in 2 pools here, with rates from 0.08% to 1.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| orca-dex | 0.08% | 0.04% | Base rate |
 | curve-dex | 1.07% | 0.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EUROP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $541.9K in total.
+2 live pools clear this page's $100K TVL floor, $542.5K in total.
 
 ### Are these rates safe?
 
@@ -56,6 +60,7 @@ There is not enough qualifying APY history to rank EUROP pools. This view covers
 
 ## Available on
 
+- [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated September 9, 2026

@@ -4,7 +4,7 @@ The highest honest MWETH yield right now is 1.69% on morpho-blue (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4280d14b-b720-41e2-afab-a1760dbb0d54&src=seo_token) | Base | 1.69% | $3.82M |
+| [morpho-blue →](https://www.defi.garden/?pool=4280d14b-b720-41e2-afab-a1760dbb0d54&src=seo_token) | Base | 1.69% | $4.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.82M in total.
+1 live pool clear this page's $100K TVL floor, $4.12M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank MWETH pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
