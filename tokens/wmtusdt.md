@@ -1,12 +1,12 @@
 # WMTUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest WMTUSDT yield right now is 8.75% on wildcat-protocol (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $718.4K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $721.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WMTUSDT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

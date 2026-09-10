@@ -1,12 +1,12 @@
 # X3CRV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest X3CRV yield right now is 2.49% on curve-dex (Gnosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest X3CRV yield right now is 2.75% on curve-dex (Gnosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 2.49% | $229.6K |
+| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 2.75% | $229.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest X3CRV yield today?
 
-2.49% APY on curve-dex (Gnosis), based on live DefiLlama data.
+2.75% APY on curve-dex (Gnosis), based on live DefiLlama data.
 
 ### How many X3CRV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.6K in total.
+1 live pool clear this page's $100K TVL floor, $229.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank X3CRV pools. This view covers
 
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

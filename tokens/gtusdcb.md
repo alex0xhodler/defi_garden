@@ -1,12 +1,12 @@
 # GTUSDCB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest GTUSDCB yield right now is 4.67% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCB yield right now is 4.73% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 4.67% | $372.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 4.73% | $371.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCB yield today?
 
-4.67% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+4.73% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
 
 ### How many GTUSDCB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $372.8K in total.
+1 live pool clear this page's $100K TVL floor, $371.1K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank GTUSDCB pools. This view cove
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTUSDCB pools. This view cove
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

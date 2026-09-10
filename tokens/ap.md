@@ -1,14 +1,13 @@
 # AP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest AP yield right now is 16.93% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AP yield right now is 16.93% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=a467980c-3389-5081-a5a7-678107505a4e&src=seo_token) | Base | 16.93% | $214.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee60e54c-2beb-5e84-af04-957d92a64d43&src=seo_token) | Ethereum | 707.88% | $114.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3a6edb9-d167-4a64-b557-15cb402eb6a1&src=seo_token) | Ethereum | 1.10% | $104K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3a6edb9-d167-4a64-b557-15cb402eb6a1&src=seo_token) | Ethereum | 1.01% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AP shows up in 3 pools here, with rates from 1.10% to 707.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AP shows up in 2 pools here, with rates from 1.01% to 16.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 16.93% | 13.48% | Base rate |
-| uniswap-v4 | 707.88% | — | Base rate |
-| uniswap-v2 | 1.10% | 1.54% | Base rate |
+| uniswap-v2 | 1.01% | 1.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $535.8K in total.
+2 live pools clear this page's $100K TVL floor, $316.5K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +65,4 @@ There is not enough qualifying APY history to rank AP pools. This view covers AP
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

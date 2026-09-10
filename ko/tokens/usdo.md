@@ -1,6 +1,6 @@
 # USDO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USDO의 가장 높은 정직한 수익률은 Ethereum의 openeden-usdo에서 3.10%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 o
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

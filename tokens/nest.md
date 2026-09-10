@@ -1,33 +1,33 @@
 # NEST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest NEST yield right now is 291.23% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEST yield right now is 216.05% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 90.98% | $747.1K |
-| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 55.21% | $294.8K |
-| [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 291.23% | $235.2K |
+| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 41.72% | $718.9K |
+| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 44.68% | $280.9K |
+| [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 216.05% | $222.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NEST's lower-variability candidates are nest-amm (Hyperliquid L1), 55.21% APY, $294.8K TVL, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; nest-cl (Hyperliquid L1), 291.23% APY, $235.2K TVL, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; nest-cl (Hyperliquid L1), 90.98% APY, $747.1K TVL, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEST's lower-variability candidates are nest-amm (Hyperliquid L1), 44.68% APY, $280.9K TVL, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; nest-cl (Hyperliquid L1), 216.05% APY, $222.5K TVL, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; nest-cl (Hyperliquid L1), 41.72% APY, $718.9K TVL, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 55.21% | $294.8K |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 291.23% | $235.2K |
-| 3 | [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 90.98% | $747.1K |
+| 1 | [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 44.68% | $280.9K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 216.05% | $222.5K |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 41.72% | $718.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEST shows up in 3 pools here, with rates from 55.21% to 291.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEST shows up in 3 pools here, with rates from 41.72% to 216.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 85.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 86.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ NEST shows up in 3 pools here, with rates from 55.21% to 291.23% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| nest-cl | 90.98% | 85.96% | 100.00% incentives |
-| nest-amm | 55.21% | 46.96% | 100.00% incentives |
-| nest-cl | 291.23% | 281.62% | 100.00% incentives |
+| nest-cl | 41.72% | 86.63% | 100.00% incentives |
+| nest-amm | 44.68% | 47.39% | 100.00% incentives |
+| nest-cl | 216.05% | 284.40% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEST yield today?
 
-291.23% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+216.05% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many NEST pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.28M in total.
+3 live pools clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEST pools have the most stable APY history?
 
-Based on APY history only, NEST's lower-variability candidates are nest-amm (Hyperliquid L1), 55.21% APY, $294.8K TVL, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; nest-cl (Hyperliquid L1), 291.23% APY, $235.2K TVL, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; nest-cl (Hyperliquid L1), 90.98% APY, $747.1K TVL, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEST's lower-variability candidates are nest-amm (Hyperliquid L1), 44.68% APY, $280.9K TVL, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; nest-cl (Hyperliquid L1), 216.05% APY, $222.5K TVL, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; nest-cl (Hyperliquid L1), 41.72% APY, $718.9K TVL, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, NEST's lower-variability candidates are nest-amm (Hyp
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

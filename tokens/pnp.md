@@ -1,12 +1,12 @@
 # PNP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest PNP yield right now is 5.09% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNP yield right now is 1.71% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 5.09% | $110.7K |
+| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 1.71% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNP yield today?
 
-5.09% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+1.71% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PNP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.7K in total.
+1 live pool clear this page's $100K TVL floor, $110.1K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank PNP pools. This view covers A
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PNP pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

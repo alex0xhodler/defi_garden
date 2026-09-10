@@ -1,12 +1,12 @@
 # TOKEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest TOKEN yield right now is 4.73% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOKEN yield right now is 4.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=da71ceff-a9d4-40b9-9e7d-4d8ff7c2e964&src=seo_token) | Ethereum | 4.73% | $1.1M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=da71ceff-a9d4-40b9-9e7d-4d8ff7c2e964&src=seo_token) | Ethereum | 4.09% | $1.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOKEN yield today?
 
-4.73% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TOKEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.1M in total.
+1 live pool clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TOKEN pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

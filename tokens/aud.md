@@ -1,12 +1,12 @@
 # AUD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest AUD yield right now is 57.14% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUD yield right now is 51.03% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13&src=seo_token) | Solana | 57.14% | $1.61M |
+| [gmtrade →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13&src=seo_token) | Solana | 51.03% | $1.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUD yield today?
 
-57.14% APY on gmtrade (Solana), based on live DefiLlama data.
+51.03% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many AUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.61M in total.
+1 live pool clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AUD pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

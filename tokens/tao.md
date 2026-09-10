@@ -1,14 +1,14 @@
 # TAO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest TAO yield right now is 441.67% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAO yield right now is 915.54% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 812.42% | $432.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=2dead0a4-27db-565d-9b7c-6e80f71897e2&src=seo_token) | Solana | 492.81% | $230K |
-| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303&src=seo_token) | Solana | 441.67% | $184.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 306.55% | $437.9K |
+| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303&src=seo_token) | Solana | 392.31% | $181.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=2dead0a4-27db-565d-9b7c-6e80f71897e2&src=seo_token) | Solana | 915.54% | $135.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TAO shows up in 3 pools here, with rates from 441.67% to 812.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TAO shows up in 3 pools here, with rates from 306.55% to 915.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 349.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 352.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ TAO shows up in 3 pools here, with rates from 441.67% to 812.42% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 812.42% | 236.92% | 75.64% incentives |
-| raydium-amm | 492.81% | — | Base rate |
-| orca-dex | 441.67% | 462.35% | Base rate |
+| aerodrome-slipstream | 306.55% | 247.18% | 84.06% incentives |
+| orca-dex | 392.31% | 457.41% | Base rate |
+| raydium-amm | 915.54% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TAO yield today?
 
-441.67% APY on orca-dex (Solana), based on live DefiLlama data.
+915.54% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TAO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $846.7K in total.
+3 live pools clear this page's $100K TVL floor, $755.2K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank TAO pools. This view covers A
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

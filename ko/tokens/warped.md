@@ -1,12 +1,12 @@
 # WARPED 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WARPED의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.27%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WARPED의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.48%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=5a600ec7-5f86-41db-acdb-c836d56c566e&src=seo_token) | Sui | 0.27% | $153.5K |
+| [cetus-clmm →](https://www.defi.garden/?pool=5a600ec7-5f86-41db-acdb-c836d56c566e&src=seo_token) | Sui | 0.48% | $147K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 WARPED의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.27%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.48%예요.
 
 ### WARPED 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $153.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $147K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.27%예요.
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

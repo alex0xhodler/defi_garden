@@ -1,6 +1,6 @@
 # XIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -8,25 +8,25 @@ The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token) | Solana | 15.31% | $137.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 16.87% | $131.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 6.96% | $125.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 5.78% | $125.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=f19d1bb8-79d6-57b3-b843-4721b4ee72f7&src=seo_token) | Solana | 14.52% | $117K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 6.96% APY, $125.9K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 5.78% APY, $125.7K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token) | Solana | 15.31% | $137.5K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 16.87% | $131.2K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 6.96% | $125.9K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 5.78% | $125.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XIN shows up in 4 pools here, with rates from 6.96% to 16.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XIN shows up in 4 pools here, with rates from 5.78% to 16.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -38,7 +38,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | raydium-amm | 15.31% | 14.36% | Base rate |
 | raydium-amm | 16.87% | 11.98% | Base rate |
-| raydium-amm | 6.96% | 5.39% | Base rate |
+| raydium-amm | 5.78% | 5.41% | Base rate |
 | raydium-amm | 14.52% | 16.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $511.6K in total.
+4 live pools clear this page's $100K TVL floor, $511.4K in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XIN pools have the most stable APY history?
 
-Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 6.96% APY, $125.9K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 5.78% APY, $125.7K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, XIN's lower-variability candidates are raydium-amm (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

@@ -1,43 +1,43 @@
 # AERO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 AERO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 95.35%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AERO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 97.02%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 22.10% | $32.38M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 24.45% | $11.03M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 1.90% | $7.75M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 4.79% | $3.2M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 12.07% | $2.97M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 95.35% | $2.77M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 192.28% | $2.77M |
-| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.39% | $2.55M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 26.63% | $32.01M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 30.26% | $10.69M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 1.97% | $7.08M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 82.56% | $3.6M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 3.93% | $3.01M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 9.96% | $2.86M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 97.02% | $2.75M |
+| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.42% | $2.37M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AERO의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 22.10%, TVL $32.38M, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token; Base의 aerodrome-v1, APY 12.07%, TVL $2.97M, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token; Base의 moonwell-lending, APY 1.39%, TVL $2.55M, https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token; Base의 extra-finance-leverage-farming, APY 1.90%, TVL $7.75M, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token; Base의 aerodrome-v1, APY 4.79%, TVL $3.2M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token; Base의 aerodrome-slipstream, APY 95.35%, TVL $2.77M, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token; Base의 aerodrome-slipstream, APY 192.28%, TVL $2.77M, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token; Base의 extra-finance-leverage-farming, APY 24.45%, TVL $11.03M, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AERO의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 26.63%, TVL $32.01M, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token; Base의 aerodrome-v1, APY 9.96%, TVL $2.86M, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token; Base의 moonwell-lending, APY 1.42%, TVL $2.37M, https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token; Base의 extra-finance-leverage-farming, APY 1.97%, TVL $7.08M, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token; Base의 aerodrome-v1, APY 3.93%, TVL $3.01M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token; Base의 aerodrome-slipstream, APY 82.56%, TVL $3.6M, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token; Base의 aerodrome-slipstream, APY 97.02%, TVL $2.75M, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token; Base의 extra-finance-leverage-farming, APY 30.26%, TVL $10.69M, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 22.10% | $32.38M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 12.07% | $2.97M |
-| 3 | [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.39% | $2.55M |
-| 4 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 1.90% | $7.75M |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 4.79% | $3.2M |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 95.35% | $2.77M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 192.28% | $2.77M |
-| 8 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 24.45% | $11.03M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 26.63% | $32.01M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 9.96% | $2.86M |
+| 3 | [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.42% | $2.37M |
+| 4 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 1.97% | $7.08M |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 3.93% | $3.01M |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 82.56% | $3.6M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 97.02% | $2.75M |
+| 8 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 30.26% | $10.69M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AERO 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.39%부터 192.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AERO 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.42%부터 97.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ AERO 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.39%부터 192.28%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 22.10% | 22.65% | 인센티브 100.00% |
-| extra-finance-leverage-farming | 24.45% | 25.14% | 기본 금리 |
-| extra-finance-leverage-farming | 1.90% | 4.36% | 기본 금리 |
-| aerodrome-v1 | 4.79% | 51.06% | 인센티브 100.00% |
-| aerodrome-v1 | 12.07% | 9.47% | 인센티브 100.00% |
-| aerodrome-slipstream | 95.35% | 77.32% | 인센티브 76.29% |
-| aerodrome-slipstream | 192.28% | 106.49% | 인센티브 10.50% |
-| moonwell-lending | 1.39% | 1.04% | 인센티브 6.76% |
+| aerodrome-v1 | 26.63% | 22.62% | 인센티브 100.00% |
+| extra-finance-leverage-farming | 30.26% | 25.03% | 기본 금리 |
+| extra-finance-leverage-farming | 1.97% | 4.31% | 기본 금리 |
+| aerodrome-slipstream | 82.56% | 78.73% | 인센티브 63.15% |
+| aerodrome-v1 | 3.93% | 49.75% | 인센티브 100.00% |
+| aerodrome-v1 | 9.96% | 9.19% | 인센티브 100.00% |
+| aerodrome-slipstream | 97.02% | 111.42% | 인센티브 22.17% |
+| moonwell-lending | 1.42% | 1.04% | 인센티브 7.42% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ AERO 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.39%부터 192.28%�
 
 ### 오늘 AERO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 95.35%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 97.02%예요.
 
 ### AERO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $74.68M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $73.85M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 95.
 
 ### AERO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AERO의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 22.10%, TVL $32.38M, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token; Base의 aerodrome-v1, APY 12.07%, TVL $2.97M, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token; Base의 moonwell-lending, APY 1.39%, TVL $2.55M, https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token; Base의 extra-finance-leverage-farming, APY 1.90%, TVL $7.75M, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token; Base의 aerodrome-v1, APY 4.79%, TVL $3.2M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token; Base의 aerodrome-slipstream, APY 95.35%, TVL $2.77M, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token; Base의 aerodrome-slipstream, APY 192.28%, TVL $2.77M, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token; Base의 extra-finance-leverage-farming, APY 24.45%, TVL $11.03M, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AERO의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 26.63%, TVL $32.01M, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token; Base의 aerodrome-v1, APY 9.96%, TVL $2.86M, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token; Base의 moonwell-lending, APY 1.42%, TVL $2.37M, https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token; Base의 extra-finance-leverage-farming, APY 1.97%, TVL $7.08M, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token; Base의 aerodrome-v1, APY 3.93%, TVL $3.01M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token; Base의 aerodrome-slipstream, APY 82.56%, TVL $3.6M, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token; Base의 aerodrome-slipstream, APY 97.02%, TVL $2.75M, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token; Base의 extra-finance-leverage-farming, APY 30.26%, TVL $10.69M, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 AERO의 변동성 낮은 후보는 Base의 
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

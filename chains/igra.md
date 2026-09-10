@@ -1,12 +1,11 @@
 # Igra DeFi Yields
 
-The highest honest Igra yield right now is 27.45% on zealousswap (Igra), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Igra yield right now is 24.75% on zealousswap (Igra), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 27.45% | $129.9K |
-| WIKAS-ZEAL | [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_chain) | 20.98% | $107.1K |
-| NACHO-WIKAS | [zealousswap →](https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_chain) | 20.40% | $101.7K |
+| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 24.75% | $144.1K |
+| WIKAS-ZEAL | [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_chain) | 22.78% | $111.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Igra yield today?
 
-27.45% APY on zealousswap (Igra), based on live DefiLlama data.
+24.75% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many Igra pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $338.7K in total.
+2 live pools clear this page's $100K TVL floor, $255.4K in total.
 
 ### Are these rates safe?
 
@@ -38,6 +37,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WIKAS](https://www.defi.garden/tokens/wikas)
 - [IGRA](https://www.defi.garden/tokens/igra)
 - [ZEAL](https://www.defi.garden/tokens/zeal)
-- [NACHO](https://www.defi.garden/tokens/nacho)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

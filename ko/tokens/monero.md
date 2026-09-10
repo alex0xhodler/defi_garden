@@ -1,12 +1,12 @@
 # MONERO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MONERO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.18%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MONERO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.17%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c974675c-0fad-54a9-b6cf-71b13fada055&src=seo_token) | Solana | 0.18% | $1.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=c974675c-0fad-54a9-b6cf-71b13fada055&src=seo_token) | Solana | 0.17% | $1.45M |
 | [raydium-amm →](https://www.defi.garden/?pool=16658fc6-6d32-54af-9bb4-118dc97f12e5&src=seo_token) | Solana | 0.05% | $1.44M |
 | [raydium-amm →](https://www.defi.garden/?pool=08d22bca-6f3c-5801-9f17-087497be69b9&src=seo_token) | Solana | 0.07% | $1.42M |
 | [raydium-amm →](https://www.defi.garden/?pool=3b2dc74f-a862-5138-950f-00058fe5ea40&src=seo_token) | Solana | 0.05% | $1.42M |
@@ -20,7 +20,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MONERO 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.05%부터 0.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MONERO 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.05%부터 0.17%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.10%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -30,7 +30,7 @@ MONERO 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.05%부터 0.18%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 0.18% | 0.14% | 기본 금리 |
+| raydium-amm | 0.17% | 0.15% | 기본 금리 |
 | raydium-amm | 0.05% | 0.05% | 기본 금리 |
 | raydium-amm | 0.07% | 0.16% | 기본 금리 |
 | raydium-amm | 0.05% | 0.05% | 기본 금리 |
@@ -41,7 +41,7 @@ MONERO 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.05%부터 0.18%�
 
 ### 오늘 MONERO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.18%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.17%예요.
 
 ### MONERO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -68,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.18%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

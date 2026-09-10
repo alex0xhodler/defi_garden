@@ -1,12 +1,12 @@
 # STEAKEURCV — morpho-blue on Ethereum
 
-**Total APY:** 1.51% (1.51% Base · + 0.00% Rewards)
+**Total APY:** 1.52% (1.52% Base · + 0.00% Rewards)
 
 **TVL:** $1.82M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 1.05%
+**30d Mean APY:** 1.06%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 9, 2026
+Last updated September 10, 2026

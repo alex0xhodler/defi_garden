@@ -1,12 +1,12 @@
 # LANTERNSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest LANTERNSOL yield right now is 6.07% on lantern-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.07% | $3M |
+| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.07% | $2.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LANTERNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.78M in total.
+2 live pools clear this page's $100K TVL floor, $5.66M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank LANTERNSOL pools. This view c
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

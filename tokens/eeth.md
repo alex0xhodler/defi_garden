@@ -1,12 +1,12 @@
 # EETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest EETH yield right now is 1.30% on origin-arm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $302.7K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $300.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $302.7K in total.
+1 live pool clear this page's $100K TVL floor, $300.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EETH pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

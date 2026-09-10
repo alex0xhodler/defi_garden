@@ -1,12 +1,12 @@
 # HTX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest HTX yield right now is 0.04% on justlend-v1 (Tron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=fbffe534-e01b-418e-b2be-276c760b69f2&src=seo_token) | Tron | 0.04% | $940.8K |
+| [justlend-v1 →](https://www.defi.garden/?pool=fbffe534-e01b-418e-b2be-276c760b69f2&src=seo_token) | Tron | 0.04% | $936.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $940.8K in total.
+1 live pool clear this page's $100K TVL floor, $936.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HTX pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

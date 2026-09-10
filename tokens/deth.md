@@ -1,38 +1,31 @@
 # DETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest DETH yield right now is 3.78% on makina (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.78% | $6.43M |
-| [curve-dex →](https://www.defi.garden/?pool=3cf5b14b-d922-48cd-a6c6-b39127e18b50&src=seo_token) | Ethereum | 16.48% | $103.3K |
+| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.78% | $6.38M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, DETH's lower-variability candidates are makina (Ethereum), 3.78% APY, $6.43M TVL, https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token; curve-dex (Ethereum), 16.48% APY, $103.3K TVL, https://www.defi.garden/?pool=3cf5b14b-d922-48cd-a6c6-b39127e18b50&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.78% | $6.43M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3cf5b14b-d922-48cd-a6c6-b39127e18b50&src=seo_token) | Ethereum | 16.48% | $103.3K |
+There is not enough qualifying APY history to rank DETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DETH shows up in 2 pools here, with rates from 3.78% to 16.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DETH shows up in 1 pools here, with rates from 3.78% to 3.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| makina | 3.78% | 3.10% | Base rate |
-| curve-dex | 16.48% | 2.59% | Base rate |
+| makina | 3.78% | 3.12% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.53M in total.
+2 live pools clear this page's $100K TVL floor, $6.48M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +45,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DETH pools have the most stable APY history?
 
-Based on APY history only, DETH's lower-variability candidates are makina (Ethereum), 3.78% APY, $6.43M TVL, https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token; curve-dex (Ethereum), 16.48% APY, $103.3K TVL, https://www.defi.garden/?pool=3cf5b14b-d922-48cd-a6c6-b39127e18b50&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank DETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +60,4 @@ Based on APY history only, DETH's lower-variability candidates are makina (Ether
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

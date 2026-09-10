@@ -1,38 +1,38 @@
 # GAMILUSPC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest GAMILUSPC yield right now is 12.09% on lagoon (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GAMILUSPC yield right now is 13.58% on lagoon (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.20% | $515.1K |
-| [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 12.09% | $515.1K |
+| [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 13.58% | $515.5K |
+| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.99% | $515.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GAMILUSPC's lower-variability candidates are gami-labs (Ethereum), 10.20% APY, $515.1K TVL, https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token; lagoon (Ethereum), 12.09% APY, $515.1K TVL, https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMILUSPC's lower-variability candidates are gami-labs (Ethereum), 10.99% APY, $515.4K TVL, https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token; lagoon (Ethereum), 13.58% APY, $515.5K TVL, https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.20% | $515.1K |
-| 2 | [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 12.09% | $515.1K |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 10.99% | $515.4K |
+| 2 | [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 13.58% | $515.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GAMILUSPC shows up in 2 pools here, with rates from 10.20% to 12.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GAMILUSPC shows up in 2 pools here, with rates from 10.99% to 13.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gami-labs | 10.20% | 9.62% | Base rate |
-| lagoon | 12.09% | 9.62% | Base rate |
+| lagoon | 13.58% | 9.72% | Base rate |
+| gami-labs | 10.99% | 9.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GAMILUSPC yield today?
 
-12.09% APY on lagoon (Ethereum), based on live DefiLlama data.
+13.58% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many GAMILUSPC pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GAMILUSPC pools have the most stable APY history?
 
-Based on APY history only, GAMILUSPC's lower-variability candidates are gami-labs (Ethereum), 10.20% APY, $515.1K TVL, https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token; lagoon (Ethereum), 12.09% APY, $515.1K TVL, https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMILUSPC's lower-variability candidates are gami-labs (Ethereum), 10.99% APY, $515.4K TVL, https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token; lagoon (Ethereum), 13.58% APY, $515.5K TVL, https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, GAMILUSPC's lower-variability candidates are gami-lab
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

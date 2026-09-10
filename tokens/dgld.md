@@ -1,12 +1,12 @@
 # DGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest DGLD yield right now is 0.15% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e4e322de-9f71-5762-a95f-ecbe128dab03&src=seo_token) | Base | 0.08% | $970.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e4e322de-9f71-5762-a95f-ecbe128dab03&src=seo_token) | Base | 0.07% | $973.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 0.04% | $462.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.15% | $102.4K |
 
@@ -26,7 +26,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 DGLD shows up in 3 pools here, with rates from 0.04% to 0.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,8 +34,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.08% | 1.05% | Base rate |
-| uniswap-v4 | 0.04% | 0.63% | Base rate |
+| uniswap-v4 | 0.07% | 0.97% | Base rate |
+| uniswap-v4 | 0.04% | 0.60% | Base rate |
 | uniswap-v4 | 0.15% | 0.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DGLD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.23M in total.
+4 live pools clear this page's $100K TVL floor, $2.93M in total.
 
 ### Are these rates safe?
 
@@ -72,4 +72,4 @@ Based on APY history only, DGLD's lower-variability candidates are uniswap-v4 (B
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

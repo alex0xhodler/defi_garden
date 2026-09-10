@@ -1,12 +1,12 @@
 # SAVBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SAVBTC yield right now is 3.11% on avant-avbtc (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAVBTC yield right now is 3.15% on avant-avbtc (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28&src=seo_token) | Avalanche | 3.11% | $6.9M |
+| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28&src=seo_token) | Avalanche | 3.15% | $6.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SAVBTC shows up in 1 pools here, with rates from 3.11% to 3.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAVBTC shows up in 1 pools here, with rates from 3.15% to 3.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| avant-avbtc | 3.11% | 2.93% | Base rate |
+| avant-avbtc | 3.15% | 2.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SAVBTC yield today?
 
-3.11% APY on avant-avbtc (Avalanche), based on live DefiLlama data.
+3.15% APY on avant-avbtc (Avalanche), based on live DefiLlama data.
 
 ### How many SAVBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.63M in total.
+2 live pools clear this page's $100K TVL floor, $8.54M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SAVBTC pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

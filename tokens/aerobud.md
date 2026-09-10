@@ -1,12 +1,12 @@
 # AEROBUD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest AEROBUD yield right now is 1.63% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEROBUD yield right now is 1.19% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ef2bca1f-10b9-4b51-8f3d-1c8a60204353&src=seo_token) | Base | 1.63% | $164K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ef2bca1f-10b9-4b51-8f3d-1c8a60204353&src=seo_token) | Base | 1.19% | $162.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEROBUD yield today?
 
-1.63% APY on uniswap-v2 (Base), based on live DefiLlama data.
+1.19% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many AEROBUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164K in total.
+1 live pool clear this page's $100K TVL floor, $162.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AEROBUD pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

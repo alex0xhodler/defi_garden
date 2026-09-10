@@ -1,39 +1,39 @@
 # WMON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WMON yield right now is 8.58% on neverland (Monad), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMON yield right now is 138.01% on uniswap-v3 (Monad), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 59.60% | $1.3M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.79% | $549.2K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.77% | $297.2K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 8.58% | $254.5K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 2.23% | $215.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.15% | $170.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 138.01% | $1.26M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.43% | $550.9K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.00% | $411.4K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.89% | $284.1K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.59% | $254.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.10% | $159.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WMON's lower-variability candidates are uniswap-v3 (Monad), 0.15% APY, $170.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; curvance (Monad), 2.23% APY, $215.9K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 8.58% APY, $254.5K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.77% APY, $297.2K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 5.79% APY, $549.2K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 59.60% APY, $1.3M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WMON's lower-variability candidates are uniswap-v3 (Monad), 0.10% APY, $159.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; curvance (Monad), 1.89% APY, $284.1K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 7.59% APY, $254.6K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.00% APY, $411.4K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 5.43% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 138.01% APY, $1.26M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.15% | $170.4K |
-| 2 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 2.23% | $215.9K |
-| 3 | [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 8.58% | $254.5K |
-| 4 | [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.77% | $297.2K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.79% | $549.2K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 59.60% | $1.3M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.10% | $159.4K |
+| 2 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.89% | $284.1K |
+| 3 | [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.59% | $254.6K |
+| 4 | [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.00% | $411.4K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.43% | $550.9K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 138.01% | $1.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WMON shows up in 6 pools here, with rates from 0.15% to 59.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WMON shows up in 6 pools here, with rates from 0.10% to 138.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 5.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 5.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ WMON shows up in 6 pools here, with rates from 0.15% to 59.60% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 59.60% | 235.14% | Base rate |
-| curve-dex | 5.79% | 14.12% | 100.00% incentives |
-| curvance | 2.77% | 2.86% | 48.67% incentives |
-| neverland | 8.58% | 9.07% | 37.08% incentives |
-| curvance | 2.23% | 1.87% | 60.43% incentives |
-| uniswap-v3 | 0.15% | 0.02% | Base rate |
+| uniswap-v3 | 138.01% | 234.60% | Base rate |
+| curve-dex | 5.43% | 13.87% | 100.00% incentives |
+| curvance | 2.00% | 2.85% | 58.02% incentives |
+| curvance | 1.89% | 1.88% | 71.53% incentives |
+| neverland | 7.59% | 9.03% | 43.32% incentives |
+| uniswap-v3 | 0.10% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WMON yield today?
 
-8.58% APY on neverland (Monad), based on live DefiLlama data.
+138.01% APY on uniswap-v3 (Monad), based on live DefiLlama data.
 
 ### How many WMON pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.34M in total.
+8 live pools clear this page's $100K TVL floor, $3.45M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WMON pools have the most stable APY history?
 
-Based on APY history only, WMON's lower-variability candidates are uniswap-v3 (Monad), 0.15% APY, $170.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; curvance (Monad), 2.23% APY, $215.9K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 8.58% APY, $254.5K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.77% APY, $297.2K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 5.79% APY, $549.2K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 59.60% APY, $1.3M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WMON's lower-variability candidates are uniswap-v3 (Monad), 0.10% APY, $159.4K TVL, https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token; curvance (Monad), 1.89% APY, $284.1K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 7.59% APY, $254.6K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.00% APY, $411.4K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 5.43% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 138.01% APY, $1.26M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -81,4 +81,4 @@ Based on APY history only, WMON's lower-variability candidates are uniswap-v3 (M
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

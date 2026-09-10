@@ -1,12 +1,12 @@
 # SMCF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SMCF yield right now is 0.12% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMCF yield right now is 0.06% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.12% | $155K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.06% | $152.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMCF yield today?
 
-0.12% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.06% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SMCF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $155K in total.
+1 live pool clear this page's $100K TVL floor, $152.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SMCF pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

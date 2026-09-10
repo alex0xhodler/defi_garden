@@ -1,12 +1,12 @@
 # FLOWER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest FLOWER yield right now is 26.77% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLOWER yield right now is 36.57% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c3bf7641-16f2-458e-8aad-c02d230c3817&src=seo_token) | Base | 26.77% | $291.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c3bf7641-16f2-458e-8aad-c02d230c3817&src=seo_token) | Base | 36.57% | $261.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLOWER yield today?
 
-26.77% APY on uniswap-v3 (Base), based on live DefiLlama data.
+36.57% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FLOWER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.9K in total.
+1 live pool clear this page's $100K TVL floor, $261.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FLOWER pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

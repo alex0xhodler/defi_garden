@@ -1,17 +1,17 @@
 # Berachain DeFi Yields
 
-The highest honest Berachain yield right now is 14.49% on berapaw (Berachain), among 48 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Berachain yield right now is 15.16% on berapaw (Berachain), among 48 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KODIBRBTC-UNIBTC | [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_chain) | 0.93% | $19.03M |
-| IBERA | [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_chain) | 3.09% | $16.02M |
-| RE7HONEY | [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_chain) | 9.98% | $4.43M |
-| CSRHONEY | [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_chain) | 7.44% | $2.69M |
-| KODIUSDE-HONEY | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_chain) | 10.01% | $1.61M |
-| KODISAIL.R-USDE | [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513&src=seo_chain) | 14.49% | $1.29M |
-| KODIWBTC-WETH | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_chain) | 2.72% | $1.08M |
-| KODISWBERA-OSBGT | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_chain) | 10.00% | $766.4K |
+| KODIBRBTC-UNIBTC | [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_chain) | 0.80% | $18.9M |
+| IBERA | [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_chain) | 3.00% | $15.31M |
+| RE7HONEY | [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_chain) | 9.66% | $4.44M |
+| CSRHONEY | [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_chain) | 7.20% | $2.7M |
+| KODIUSDE-HONEY | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_chain) | 9.67% | $1.61M |
+| KODISAIL.R-USDE | [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513&src=seo_chain) | 15.16% | $1.29M |
+| KODIWBTC-WETH | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_chain) | 2.70% | $1.07M |
+| KODISWBERA-OSBGT | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_chain) | 9.64% | $766.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Berachain yield today?
 
-14.49% APY on berapaw (Berachain), based on live DefiLlama data.
+15.16% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many Berachain pools clear the TVL floor?
 
-48 live pools clear this page's $100K TVL floor, $133.45M in total.
+48 live pools clear this page's $100K TVL floor, $132M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [KODISAIL.R](https://www.defi.garden/tokens/kodisail-r)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

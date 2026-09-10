@@ -1,12 +1,12 @@
 # LCS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest LCS yield right now is 0.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCS yield right now is 0.77% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 0.04% | $302.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 0.77% | $298K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LCS yield today?
 
-0.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.77% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $302.2K in total.
+1 live pool clear this page's $100K TVL floor, $298K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LCS pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

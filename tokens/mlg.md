@@ -1,12 +1,12 @@
 # MLG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest MLG yield right now is 2.88% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MLG yield right now is 5.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=784c24d2-8578-4124-9f30-068cb6522388&src=seo_token) | Solana | 2.88% | $258.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=784c24d2-8578-4124-9f30-068cb6522388&src=seo_token) | Solana | 5.90% | $260.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MLG yield today?
 
-2.88% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.90% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MLG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258.1K in total.
+1 live pool clear this page's $100K TVL floor, $260.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MLG pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

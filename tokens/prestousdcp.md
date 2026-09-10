@@ -1,12 +1,12 @@
 # PRESTOUSDCP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest PRESTOUSDCP yield right now is 4.30% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRESTOUSDCP yield right now is 4.55% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=dbc0aad9-d4d5-53df-9428-5b9404cdb222&src=seo_token) | Ethereum | 4.30% | $301.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=dbc0aad9-d4d5-53df-9428-5b9404cdb222&src=seo_token) | Ethereum | 4.55% | $301.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRESTOUSDCP yield today?
 
-4.30% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.55% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many PRESTOUSDCP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $301.4K in total.
+1 live pool clear this page's $100K TVL floor, $301.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PRESTOUSDCP pools. This view 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

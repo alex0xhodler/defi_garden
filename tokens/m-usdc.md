@@ -1,12 +1,12 @@
 # M.USDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest M.USDC yield right now is 1.59% on hercules-v3 (Metis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest M.USDC yield right now is 0.10% on hercules-v3 (Metis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_token) | Metis | 1.59% | $109.1K |
+| [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_token) | Metis | 0.10% | $109.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest M.USDC yield today?
 
-1.59% APY on hercules-v3 (Metis), based on live DefiLlama data.
+0.10% APY on hercules-v3 (Metis), based on live DefiLlama data.
 
 ### How many M.USDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.1K in total.
+1 live pool clear this page's $100K TVL floor, $109.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank M.USDC pools. This view cover
 
 - [Metis](https://www.defi.garden/chains/metis)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

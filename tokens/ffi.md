@@ -1,12 +1,12 @@
 # FFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest FFI yield right now is 8.91% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FFI yield right now is 3.65% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 8.91% | $133.8K |
+| [quickswap-dex →](https://www.defi.garden/?pool=211a4616-a0aa-4650-bcdc-64b825490e94&src=seo_token) | Polygon | 3.65% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FFI yield today?
 
-8.91% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+3.65% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many FFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.8K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank FFI pools. This view covers A
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

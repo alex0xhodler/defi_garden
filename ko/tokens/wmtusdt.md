@@ -1,12 +1,12 @@
 # WMTUSDT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WMTUSDT의 가장 높은 정직한 수익률은 Ethereum의 wildcat-protocol에서 8.75%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $718.4K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $721.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 8.7
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

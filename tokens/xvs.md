@@ -1,12 +1,12 @@
 # XVS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest XVS yield right now is 0.90% on venus-core-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.90% | $2.98M |
+| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.90% | $2.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XVS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.98M in total.
+1 live pool clear this page's $100K TVL floor, $2.88M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank XVS pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

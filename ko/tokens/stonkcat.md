@@ -1,12 +1,12 @@
 # STONKCAT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 STONKCAT의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 129.06%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STONKCAT의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 230.26%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa&src=seo_token) | Solana | 129.06% | $402.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa&src=seo_token) | Solana | 230.26% | $328.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 STONKCAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 129.06%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 230.26%예요.
 
 ### STONKCAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $402.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $328.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 129.06%예
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

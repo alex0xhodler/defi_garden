@@ -1,12 +1,12 @@
 # HAHA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest HAHA yield right now is 11.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAHA yield right now is 4.55% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6b0ad536-52f6-479e-b33e-78d6b765b3e2&src=seo_token) | Ethereum | 11.40% | $191.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6b0ad536-52f6-479e-b33e-78d6b765b3e2&src=seo_token) | Ethereum | 4.55% | $189.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HAHA yield today?
 
-11.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.55% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HAHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $191.7K in total.
+1 live pool clear this page's $100K TVL floor, $189.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HAHA pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

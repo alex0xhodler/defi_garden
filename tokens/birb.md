@@ -1,31 +1,31 @@
 # BIRB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest BIRB yield right now is 0.02% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 3.54% | $1.6M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token) | Base | 0.02% | $101K |
+| [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 5.51% | $1.59M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token) | Base | 0.02% | $100.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $101K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token; raydium-amm (Solana), 3.54% APY, $1.6M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $100.5K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token; raydium-amm (Solana), 5.51% APY, $1.59M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token) | Base | 0.02% | $101K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 3.54% | $1.6M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token) | Base | 0.02% | $100.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 5.51% | $1.59M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BIRB shows up in 2 pools here, with rates from 0.02% to 3.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BIRB shows up in 2 pools here, with rates from 0.02% to 5.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 3.54% | 0.88% | Base rate |
+| raydium-amm | 5.51% | 0.97% | Base rate |
 | uniswap-v2 | 0.02% | 0.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BIRB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.7M in total.
+2 live pools clear this page's $100K TVL floor, $1.69M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BIRB pools have the most stable APY history?
 
-Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $101K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token; raydium-amm (Solana), 3.54% APY, $1.6M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (Base), 0.02% APY, $100.5K TVL, https://www.defi.garden/?pool=3cd94ae1-914d-44fb-a1b6-fa5bbffce500&src=seo_token; raydium-amm (Solana), 5.51% APY, $1.59M TVL, https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, BIRB's lower-variability candidates are uniswap-v2 (B
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

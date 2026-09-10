@@ -1,12 +1,12 @@
 # SAIRI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SAIRI yield right now is 0.07% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAIRI yield right now is 2.05% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c1a9d3de-8ece-45d7-abd6-eeabef9bbad5&src=seo_token) | Base | 0.07% | $272.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c1a9d3de-8ece-45d7-abd6-eeabef9bbad5&src=seo_token) | Base | 2.05% | $268.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAIRI yield today?
 
-0.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SAIRI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $272.9K in total.
+1 live pool clear this page's $100K TVL floor, $268.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SAIRI pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

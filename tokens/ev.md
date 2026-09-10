@@ -1,12 +1,12 @@
 # EV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest EV yield right now is 40.78% on everything (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EV yield right now is 40.61% on everything (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 40.78% | $1.66M |
+| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 40.61% | $1.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EV yield today?
 
-40.78% APY on everything (Arbitrum), based on live DefiLlama data.
+40.61% APY on everything (Arbitrum), based on live DefiLlama data.
 
 ### How many EV pools clear the TVL floor?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank EV pools. This view covers AP
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EV pools. This view covers AP
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

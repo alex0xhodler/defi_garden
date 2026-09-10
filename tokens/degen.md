@@ -1,33 +1,33 @@
 # DEGEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest DEGEN yield right now is 48.16% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEGEN yield right now is 25.30% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 12.41% | $1.02M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token) | Ethereum | 0.01% | $339.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 48.16% | $102.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 4.92% | $997.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token) | Ethereum | 0.08% | $336.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 25.30% | $101.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $339.3K TVL, https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token; uniswap-v3 (Base), 48.16% APY, $102.6K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 12.41% APY, $1.02M TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEGEN's lower-variability candidates are uniswap-v2 (Ethereum), 0.08% APY, $336.2K TVL, https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token; uniswap-v3 (Base), 25.30% APY, $101.1K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 4.92% APY, $997.8K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token) | Ethereum | 0.01% | $339.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 48.16% | $102.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 12.41% | $1.02M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token) | Ethereum | 0.08% | $336.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 25.30% | $101.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 4.92% | $997.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEGEN shows up in 3 pools here, with rates from 0.01% to 48.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEGEN shows up in 3 pools here, with rates from 0.08% to 25.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 12.41% | 15.16% | Base rate |
-| uniswap-v2 | 0.01% | 0.01% | Base rate |
-| uniswap-v3 | 48.16% | 45.27% | Base rate |
+| uniswap-v3 | 4.92% | 15.25% | Base rate |
+| uniswap-v2 | 0.08% | 0.01% | Base rate |
+| uniswap-v3 | 25.30% | 45.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEGEN yield today?
 
-48.16% APY on uniswap-v3 (Base), based on live DefiLlama data.
+25.30% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DEGEN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.46M in total.
+3 live pools clear this page's $100K TVL floor, $1.44M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEGEN pools have the most stable APY history?
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $339.3K TVL, https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token; uniswap-v3 (Base), 48.16% APY, $102.6K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 12.41% APY, $1.02M TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEGEN's lower-variability candidates are uniswap-v2 (Ethereum), 0.08% APY, $336.2K TVL, https://www.defi.garden/?pool=0d078421-b674-4dda-9794-f0314ea84ddb&src=seo_token; uniswap-v3 (Base), 25.30% APY, $101.1K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 4.92% APY, $997.8K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, DEGEN's lower-variability candidates are uniswap-v2 (
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

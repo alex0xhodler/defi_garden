@@ -1,31 +1,31 @@
 # BSDETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BSDETH yield right now is 5.54% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSDETH yield right now is 1.03% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 0.91% | $1.54M |
-| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.05% | $1.38M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 5.54% | $744.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 1.03% | $1.63M |
+| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.06% | $1.42M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 6.71% | $738.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BSDETH's lower-variability candidates are aerodrome-v1 (Base), 5.54% APY, $744.8K TVL, https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token; reserve-protocol (Base), 0.05% APY, $1.38M TVL, https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token; aerodrome-slipstream (Base), 0.91% APY, $1.54M TVL, https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSDETH's lower-variability candidates are aerodrome-v1 (Base), 6.71% APY, $738.6K TVL, https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token; reserve-protocol (Base), 0.06% APY, $1.42M TVL, https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token; aerodrome-slipstream (Base), 1.03% APY, $1.63M TVL, https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 5.54% | $744.8K |
-| 2 | [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.05% | $1.38M |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 0.91% | $1.54M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 6.71% | $738.6K |
+| 2 | [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.06% | $1.42M |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 1.03% | $1.63M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BSDETH shows up in 3 pools here, with rates from 0.05% to 5.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BSDETH shows up in 3 pools here, with rates from 0.06% to 6.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ BSDETH shows up in 3 pools here, with rates from 0.05% to 5.54% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 0.91% | 1.00% | 99.20% incentives |
-| reserve-protocol | 0.05% | 0.24% | Base rate |
-| aerodrome-v1 | 5.54% | 4.29% | 100.00% incentives |
+| aerodrome-slipstream | 1.03% | 1.00% | 98.97% incentives |
+| reserve-protocol | 0.06% | 0.23% | Base rate |
+| aerodrome-v1 | 6.71% | 4.34% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BSDETH yield today?
 
-5.54% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+1.03% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BSDETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.69M in total.
+5 live pools clear this page's $100K TVL floor, $4.81M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BSDETH pools have the most stable APY history?
 
-Based on APY history only, BSDETH's lower-variability candidates are aerodrome-v1 (Base), 5.54% APY, $744.8K TVL, https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token; reserve-protocol (Base), 0.05% APY, $1.38M TVL, https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token; aerodrome-slipstream (Base), 0.91% APY, $1.54M TVL, https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSDETH's lower-variability candidates are aerodrome-v1 (Base), 6.71% APY, $738.6K TVL, https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token; reserve-protocol (Base), 0.06% APY, $1.42M TVL, https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token; aerodrome-slipstream (Base), 1.03% APY, $1.63M TVL, https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, BSDETH's lower-variability candidates are aerodrome-v
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

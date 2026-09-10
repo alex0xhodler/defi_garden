@@ -1,12 +1,12 @@
 # STSUI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest STSUI yield right now is 0.11% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STSUI yield right now is 0.10% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.11% | $252.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.10% | $240K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STSUI yield today?
 
-0.11% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.10% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many STSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252.6K in total.
+1 live pool clear this page's $100K TVL floor, $240K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank STSUI pools. This view covers
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [BUCK](https://www.defi.garden/tokens/buck)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

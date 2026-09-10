@@ -1,40 +1,33 @@
 # EURAU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest EURAU yield right now is 0.19% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 1.51% | $141.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.19% | $110.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, EURAU's lower-variability candidates are raydium-amm (Solana), 0.19% APY, $110.9K TVL, https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token; aerodrome-slipstream (Base), 1.51% APY, $141.7K TVL, https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.19% | $110.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 1.51% | $141.7K |
+There is not enough qualifying APY history to rank EURAU pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURAU shows up in 2 pools here, with rates from 0.19% to 1.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURAU shows up in 1 pools here, with rates from 0.19% to 0.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 1.51% | 0.96% | Base rate |
-| raydium-amm | 0.19% | 0.50% | Base rate |
+| raydium-amm | 0.19% | 0.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $252.7K in total.
+2 live pools clear this page's $100K TVL floor, $252.6K in total.
 
 ### Are these rates safe?
 
@@ -54,20 +47,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURAU pools have the most stable APY history?
 
-Based on APY history only, EURAU's lower-variability candidates are raydium-amm (Solana), 0.19% APY, $110.9K TVL, https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token; aerodrome-slipstream (Base), 1.51% APY, $141.7K TVL, https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank EURAU pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

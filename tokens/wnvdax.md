@@ -1,13 +1,13 @@
 # WNVDAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WNVDAX yield right now is 0.12% on fluxion-network (Mantle), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNVDAX yield right now is 249.43% on project-x (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=2f476585-3585-5127-8f64-76f15146d9e8&src=seo_token) | Hyperliquid L1 | 170.52% | $146.9K |
-| [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.12% | $113.2K |
+| [project-x →](https://www.defi.garden/?pool=2f476585-3585-5127-8f64-76f15146d9e8&src=seo_token) | Hyperliquid L1 | 249.43% | $147.8K |
+| [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.10% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WNVDAX shows up in 2 pools here, with rates from 0.12% to 170.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WNVDAX shows up in 2 pools here, with rates from 0.10% to 249.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 236.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 233.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 170.52% | 472.46% | Base rate |
-| fluxion-network | 0.12% | 0.52% | Base rate |
+| project-x | 249.43% | 465.84% | Base rate |
+| fluxion-network | 0.10% | 0.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WNVDAX yield today?
 
-0.12% APY on fluxion-network (Mantle), based on live DefiLlama data.
+249.43% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many WNVDAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $260.1K in total.
+2 live pools clear this page's $100K TVL floor, $260.7K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank WNVDAX pools. This view cover
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

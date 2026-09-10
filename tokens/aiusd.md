@@ -1,12 +1,12 @@
 # AIUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest AIUSD yield right now is 3.52% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIUSD yield right now is 5.33% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce&src=seo_token) | Avalanche | 3.52% | $783.3K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce&src=seo_token) | Avalanche | 5.33% | $817.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIUSD yield today?
 
-3.52% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
+5.33% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
 
 ### How many AIUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $783.3K in total.
+1 live pool clear this page's $100K TVL floor, $817.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AIUSD pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

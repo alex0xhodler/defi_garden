@@ -1,12 +1,12 @@
 # PNP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 PNP의 가장 높은 정직한 수익률은 Arbitrum의 camelot-v3에서 5.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PNP의 가장 높은 정직한 수익률은 Arbitrum의 camelot-v3에서 1.71%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 5.09% | $110.7K |
+| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 1.71% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 PNP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v3에서 APY 5.09%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v3에서 APY 1.71%예요.
 
 ### PNP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v3에서 APY 5.09%예�
 
 ## 관련 토큰
 
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v3에서 APY 5.09%예�
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

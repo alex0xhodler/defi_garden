@@ -1,31 +1,31 @@
 # FUL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest FUL yield right now is 4.69% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUL yield right now is 1.20% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 3.36% | $472.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 4.69% | $117.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.59% | $457.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 1.20% | $113.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 4.69% APY, $117.3K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 3.36% APY, $472.9K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 1.20% APY, $113.4K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.59% APY, $457.7K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 4.69% | $117.3K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 3.36% | $472.9K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 1.20% | $113.4K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.59% | $457.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUL shows up in 2 pools here, with rates from 3.36% to 4.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUL shows up in 2 pools here, with rates from 0.59% to 1.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 3.36% | 0.67% | Base rate |
-| vvs-standard | 4.69% | 1.38% | Base rate |
+| vvs-standard | 0.59% | 0.69% | Base rate |
+| vvs-standard | 1.20% | 1.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUL yield today?
 
-4.69% APY on vvs-standard (Cronos), based on live DefiLlama data.
+1.20% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many FUL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $590.2K in total.
+2 live pools clear this page's $100K TVL floor, $571.1K in total.
 
 ### Are these rates safe?
 
@@ -54,14 +54,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUL pools have the most stable APY history?
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 4.69% APY, $117.3K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 3.36% APY, $472.9K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 1.20% APY, $113.4K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token; vvs-standard (Cronos), 0.59% APY, $457.7K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [VVS](https://www.defi.garden/tokens/vvs)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
 
@@ -69,4 +69,4 @@ Based on APY history only, FUL's lower-variability candidates are vvs-standard (
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

@@ -1,12 +1,12 @@
 # DFX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest DFX yield right now is 14.38% on steer-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DFX yield right now is 7.95% on steer-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 14.38% | $121.7K |
+| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 7.95% | $118K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DFX yield today?
 
-14.38% APY on steer-protocol (Ethereum), based on live DefiLlama data.
+7.95% APY on steer-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many DFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.7K in total.
+1 live pool clear this page's $100K TVL floor, $118K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DFX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

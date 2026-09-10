@@ -1,12 +1,12 @@
 # SRMM1USD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SRMM1USD yield right now is 1.57% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRMM1USD yield right now is 9.07% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 1.57% | $420.7K |
+| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 9.07% | $420.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRMM1USD yield today?
 
-1.57% APY on strata-markets (Ethereum), based on live DefiLlama data.
+9.07% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRMM1USD pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SRMM1USD pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

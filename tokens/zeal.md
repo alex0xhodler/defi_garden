@@ -1,12 +1,12 @@
 # ZEAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest ZEAL yield right now is 20.98% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEAL yield right now is 22.78% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 20.98% | $107.1K |
+| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 22.78% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEAL yield today?
 
-20.98% APY on zealousswap (Igra), based on live DefiLlama data.
+22.78% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many ZEAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.1K in total.
+1 live pool clear this page's $100K TVL floor, $111.3K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank ZEAL pools. This view covers 
 
 - [WIKAS](https://www.defi.garden/tokens/wikas)
 - [IGRA](https://www.defi.garden/tokens/igra)
-- [NACHO](https://www.defi.garden/tokens/nacho)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Igra](https://www.defi.garden/chains/igra)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

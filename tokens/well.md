@@ -1,31 +1,31 @@
 # WELL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest WELL yield right now is 0.32% on moonwell-lending (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 10.16% | $1.17M |
-| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $223.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 130.45% | $1.21M |
+| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $231.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.32% APY, $223.3K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 10.16% APY, $1.17M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.32% APY, $231.7K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 130.45% APY, $1.21M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $223.3K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 10.16% | $1.17M |
+| 1 | [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $231.7K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 130.45% | $1.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WELL shows up in 2 pools here, with rates from 0.32% to 10.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WELL shows up in 2 pools here, with rates from 0.32% to 130.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,7 +33,7 @@ WELL shows up in 2 pools here, with rates from 0.32% to 10.16% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 10.16% | 5.23% | 100.00% incentives |
+| aerodrome-v1 | 130.45% | 5.51% | 100.00% incentives |
 | moonwell-lending | 0.32% | 0.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.39M in total.
+2 live pools clear this page's $100K TVL floor, $1.44M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WELL pools have the most stable APY history?
 
-Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.32% APY, $223.3K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 10.16% APY, $1.17M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.32% APY, $231.7K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 130.45% APY, $1.21M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, WELL's lower-variability candidates are moonwell-lend
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

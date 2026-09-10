@@ -1,12 +1,12 @@
 # HIPPO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest HIPPO yield right now is 7.43% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIPPO yield right now is 8.68% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=69c7107f-4db7-4800-b61e-5de3d3ce82df&src=seo_token) | Sui | 7.43% | $221.6K |
+| [cetus-clmm →](https://www.defi.garden/?pool=69c7107f-4db7-4800-b61e-5de3d3ce82df&src=seo_token) | Sui | 8.68% | $210.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIPPO yield today?
 
-7.43% APY on cetus-clmm (Sui), based on live DefiLlama data.
+8.68% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HIPPO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $221.6K in total.
+1 live pool clear this page's $100K TVL floor, $210.2K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank HIPPO pools. This view covers
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [BUCK](https://www.defi.garden/tokens/buck)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

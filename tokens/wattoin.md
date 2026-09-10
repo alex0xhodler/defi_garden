@@ -1,12 +1,12 @@
 # WATTOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WATTOIN yield right now is 97.87% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WATTOIN yield right now is 85.55% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=412eaa20-0826-572b-a608-9a00952531ae&src=seo_token) | Base | 97.87% | $217.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=412eaa20-0826-572b-a608-9a00952531ae&src=seo_token) | Base | 85.55% | $242.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WATTOIN yield today?
 
-97.87% APY on uniswap-v2 (Base), based on live DefiLlama data.
+85.55% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many WATTOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.6K in total.
+1 live pool clear this page's $100K TVL floor, $242.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WATTOIN pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

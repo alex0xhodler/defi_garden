@@ -1,12 +1,12 @@
 # CRCLB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
 The highest honest CRCLB yield right now is 6.10% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=a1e52090-7faf-46e9-9e1e-174982f4cad9&src=seo_token) | BSC | 6.10% | $160.8K |
+| [native-credit-pool →](https://www.defi.garden/?pool=a1e52090-7faf-46e9-9e1e-174982f4cad9&src=seo_token) | BSC | 6.10% | $154.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRCLB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.8K in total.
+1 live pool clear this page's $100K TVL floor, $154.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CRCLB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

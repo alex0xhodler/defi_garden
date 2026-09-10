@@ -1,12 +1,12 @@
 # WIRON 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WIRON의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 2.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WIRON의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 61.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2f24b50a-760d-4057-931c-ffd3fd5d7b9b&src=seo_token) | Base | 2.75% | $103.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2f24b50a-760d-4057-931c-ffd3fd5d7b9b&src=seo_token) | Base | 61.97% | $103.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 WIRON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.75%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 61.97%예요.
 
 ### WIRON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $103.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $103.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.75%예요
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 9, 2026
+## 마지막 업데이트: September 10, 2026

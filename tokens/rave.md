@@ -1,31 +1,31 @@
 # RAVE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest RAVE yield right now is 151.09% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAVE yield right now is 4.77% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 4.77% | $237.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 151.09% | $170.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 79.41% | $168.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.77% APY, $237.5K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 151.09% APY, $170.5K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.77% APY, $237.5K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 79.41% APY, $168.5K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token) | Ethereum | 4.77% | $237.5K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 151.09% | $170.5K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 79.41% | $168.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAVE shows up in 2 pools here, with rates from 4.77% to 151.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAVE shows up in 2 pools here, with rates from 4.77% to 79.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 84.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 82.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -34,7 +34,7 @@ RAVE shows up in 2 pools here, with rates from 4.77% to 151.09% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 4.77% | 6.00% | Base rate |
-| aerodrome-slipstream | 151.09% | 163.73% | 65.39% incentives |
+| aerodrome-slipstream | 79.41% | 159.08% | 18.73% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAVE yield today?
 
-151.09% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+4.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RAVE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $408K in total.
+2 live pools clear this page's $100K TVL floor, $405.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAVE pools have the most stable APY history?
 
-Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.77% APY, $237.5K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 151.09% APY, $170.5K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (Ethereum), 4.77% APY, $237.5K TVL, https://www.defi.garden/?pool=23dcb82b-a76d-468f-a2b0-bd5bc01a0c79&src=seo_token; aerodrome-slipstream (Base), 79.41% APY, $168.5K TVL, https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, RAVE's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026

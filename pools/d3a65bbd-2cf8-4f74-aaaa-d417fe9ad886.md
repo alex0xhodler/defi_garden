@@ -1,6 +1,6 @@
 # LP-HAY — wombat-exchange on BSC
 
-**Total APY:** 0.07% (0.02% Base · + 0.05% Rewards)
+**Total APY:** 0.06% (0.01% Base · + 0.05% Rewards)
 
 **TVL:** $363.4K
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on wombat-exchange](https://www.wombat.exchange/?ref=defi.garden)
 
-Last updated September 9, 2026
+Last updated September 10, 2026

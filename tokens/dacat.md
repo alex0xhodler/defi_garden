@@ -1,12 +1,12 @@
 # DACAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest DACAT yield right now is 0.10% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DACAT yield right now is 0.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5036e16d-ce75-4c90-a3f5-038e747f15a1&src=seo_token) | Ethereum | 0.10% | $279.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5036e16d-ce75-4c90-a3f5-038e747f15a1&src=seo_token) | Ethereum | 0.09% | $278K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DACAT yield today?
 
-0.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DACAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $279.2K in total.
+1 live pool clear this page's $100K TVL floor, $278K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DACAT pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 9, 2026
+## Last updated September 10, 2026
