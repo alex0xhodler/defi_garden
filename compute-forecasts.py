@@ -477,6 +477,19 @@ def main():
     os.replace(tmp_out, out_path)
     print(f"💾 Saved enriched snapshot with {enriched_count} multivariate forecasts to {out_path}")
 
+    # 10. Update meta file so snapshot remains fresh
+    meta_path = os.path.join(os.path.dirname(out_path), "pools-snapshot-meta.json")
+    if os.path.exists(meta_path):
+        meta_data = {
+            "schemaVersion": 1,
+            "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime()),
+            "count": len(pools),
+            "bytes": os.path.getsize(out_path)
+        }
+        with open(meta_path, "w") as mf:
+            json.dump(meta_data, mf)
+        print(f"📄 Updated {meta_path} freshness: {meta_data['generatedAt']}")
+
 
 if __name__ == "__main__":
     main()

@@ -1510,15 +1510,9 @@ function App() {
   // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
   // are byte-untouched and run identically on whichever payload loads.
   useEffect(() => {
-    // 6h ≈ 2× the slowest observed CI-bake gap (~1.5–3h). The committed
-    // snapshot is baked by the sitemap-update.yml CI (git-observable ~8
-    // bakes/24h), NOT the 109 poller — that writes Cloudflare D1, not this
-    // repo file, so the never-realized ~5-min cadence never applied here.
-    // The old 15-min gate rejected an otherwise-valid snapshot ~85–90% of the
-    // day, dropping every visitor (incl. ?pool=/?token= SEO landers) onto the
-    // slow live fetch 059 exists to avoid. Same "cover a missed run" intent as
-    // the original multiplier, sized to the real cadence.
-    var SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+    // 48h covers the 24h daily CI cadence + generous buffer so valid snapshots
+    // are never falsely rejected as stale throughout the day.
+    var SNAPSHOT_MAX_AGE_MS = 48 * 60 * 60 * 1000;
     var loadLive = async startTime => {
       var response = await fetch('https://yields.llama.fi/pools');
       if (!response.ok) {
@@ -1526,6 +1520,28 @@ function App() {
       }
       var data = await response.json();
       poolsSourceRef.current = 'live';
+
+      // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+      try {
+        var snapRes = await fetch('/data/pools-snapshot.json');
+        if (snapRes.ok) {
+          var snap = await snapRes.json();
+          if (snap && Array.isArray(snap.pools)) {
+            var snapMap = new Map();
+            snap.pools.forEach(p => {
+              if (p && p.pool) snapMap.set(p.pool, p);
+            });
+            (data.data || []).forEach(lp => {
+              var sp = snapMap.get(lp.pool);
+              if (sp) {
+                if (sp.kpis && !lp.kpis) lp.kpis = sp.kpis;
+                if (sp.forecast && !lp.forecast) lp.forecast = sp.forecast;
+                if (sp.defiScore && !lp.defiScore) lp.defiScore = sp.defiScore;
+              }
+            });
+          }
+        }
+      } catch (_) {}
       setPools(data.data || []);
       Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
         pools_count: data.data?.length || 0,
@@ -1686,6 +1702,28 @@ function App() {
         var data = await response.json();
         if (!alive) return;
         poolsSourceRef.current = 'live';
+
+        // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+        try {
+          var snapRes = await fetch('/data/pools-snapshot.json');
+          if (snapRes.ok) {
+            var snap = await snapRes.json();
+            if (snap && Array.isArray(snap.pools)) {
+              var snapMap = new Map();
+              snap.pools.forEach(p => {
+                if (p && p.pool) snapMap.set(p.pool, p);
+              });
+              (data.data || []).forEach(lp => {
+                var sp = snapMap.get(lp.pool);
+                if (sp) {
+                  if (sp.kpis && !lp.kpis) lp.kpis = sp.kpis;
+                  if (sp.forecast && !lp.forecast) lp.forecast = sp.forecast;
+                  if (sp.defiScore && !lp.defiScore) lp.defiScore = sp.defiScore;
+                }
+              });
+            }
+          }
+        } catch (_) {}
         setPools(data.data || []);
       } catch (err) {
         // Keep the snapshot pools; they're all >= $10M so nothing regresses.
@@ -1762,7 +1800,8 @@ function App() {
   // from the snapshot, leaves detailPool untouched and the notes hide as today.
   // Never mutates the `pools` array or any trust-rail logic.
   useEffect(() => {
-    if (currentView !== 'pool-detail' || !detailPool || detailPool.kpis) return;
+    if (currentView !== 'pool-detail' || !detailPool) return;
+    if (detailPool.kpis && detailPool.forecast && detailPool.defiScore) return;
     var poolId = detailPool.pool;
     if (!poolId || kpiEnrichedPoolRef.current === poolId) return;
     kpiEnrichedPoolRef.current = poolId;
@@ -1774,10 +1813,15 @@ function App() {
         var snap = await res.json();
         if (!alive || !snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools)) return;
         var match = snap.pools.find(p => p && p.pool === poolId);
-        if (!match || !match.kpis || typeof match.kpis !== 'object') return;
-        setDetailPool(prev => prev && prev.pool === poolId && !prev.kpis ? Object.assign({}, prev, {
-          kpis: match.kpis
-        }) : prev);
+        if (!match) return;
+        setDetailPool(prev => {
+          if (!prev || prev.pool !== poolId) return prev;
+          var patch = {};
+          if (!prev.kpis && match.kpis) patch.kpis = match.kpis;
+          if (!prev.forecast && match.forecast) patch.forecast = match.forecast;
+          if (!prev.defiScore && match.defiScore) patch.defiScore = match.defiScore;
+          return Object.keys(patch).length > 0 ? Object.assign({}, prev, patch) : prev;
+        });
       } catch (e) {
         // Live landing keeps no kpis — the notes hide, exactly today's behavior.
       }
