@@ -484,40 +484,139 @@
 
     useEffect(function () {
       var body = document.body;
-      var settling = false;       // true while a programmatic swap animates
+
+      // The horizontal swap is desktop-only; on mobile (<=768px) the panels
+      // stack vertically and the body scrolls normally — never intercept.
+      function isDesktopTrack() { return window.innerWidth > 768; }
+
+      // ---- Gesture state machine ----------------------------------------
+      // One deliberate scroll gesture = exactly one panel swap. The failure
+      // mode this replaces: a fixed-time lock released mid-gesture, so the
+      // momentum tail of a single trackpad flick re-triggered a (wrapping)
+      // swap — the page bounced straight back ("wobble").
+      //
+      // IDLE:      wheel deltas accumulate; |acc| >= THRESHOLD fires a swap.
+      //            A > QUIET_MS gap between wheel events resets acc (new
+      //            gesture), so momentum from a previous gesture never
+      //            carries over.
+      // SWAPPING:  every wheel event is swallowed (preventDefault) and only
+      //            extends the quiet window. The state exits ONLY when the
+      //            scroll has physically landed AND the wheel has been quiet
+      //            for QUIET_MS — i.e. after the gesture's momentum tail has
+      //            fully died. Hard-capped so a stuck state is impossible.
+      var navPanel = 0;              // source of truth while swapping
+      var swapping = false;
+      var acc = 0;
+      var lastWheelAt = 0;
       var settleTimer = null;
-      // Target panel for an in-flight swap. Reading this (not the mid-animation
-      // scrollLeft) for the current panel keeps rapid wheel gestures from
-      // re-firing and fighting the scroll-snap, which caused the wiggle.
-      var navPanel = 0;
+      var hardCapTimer = null;
+      var THRESHOLD = 50;            // px of accumulated delta to trigger
+      var QUIET_MS = 150;            // silence that separates two gestures
+      var HARD_CAP_MS = 1600;        // max time a swap may hold the lock
 
       function currentPanel() {
         var max = panelMax();
         return max === 0 ? 0 : Math.round(body.scrollLeft / max);
       }
-      function syncFromScroll() { setActivePanel(currentPanel()); }
-      function goToPanelEffect(panel) {
-        navPanel = panel;
-        setActivePanel(panel);
-        settling = true;
+      function targetLeft(p) { return panelMax() * p; }
+      // While swapping, navPanel is authoritative (scrollLeft is mid-flight).
+      function syncFromScroll() { if (!swapping) setActivePanel(currentPanel()); }
+
+      function endSwap() {
         clearTimeout(settleTimer);
-        // Release the lock shortly after the smooth scroll should have landed;
-        // syncFromScroll also clears it when the target scrollLeft is reached.
-        settleTimer = setTimeout(function () { settling = false; }, 600);
+        clearTimeout(hardCapTimer);
+        // Snap exactly onto the panel (kills any sub-pixel residue) with an
+        // instant jump, then re-enable mandatory snap.
+        body.scrollTo({ left: targetLeft(navPanel), behavior: 'auto' });
+        body.classList.remove('is-swapping');
+        swapping = false;
+        acc = 0;
+      }
+      function checkSettled() {
+        if (!swapping) return;
+        var landed = Math.abs(body.scrollLeft - targetLeft(navPanel)) <= 2;
+        var quiet = performance.now() - lastWheelAt > QUIET_MS;
+        if (landed && quiet) { endSwap(); return; }
+        settleTimer = setTimeout(checkSettled, 60);
+      }
+      function goToPanelEffect(panel) {
+        if (!isDesktopTrack()) return;
+        var next = ((panel % 2) + 2) % 2;   // wrap: 2-panel ring
+        navPanel = next;
+        setActivePanel(next);
+        swapping = true;
+        acc = 0;
+        clearTimeout(settleTimer);
+        clearTimeout(hardCapTimer);
+        hardCapTimer = setTimeout(endSwap, HARD_CAP_MS);
+        // A freshly-entered panel starts at its vertical top.
+        var el = next === 0 ? document.getElementById('landing-root') : seoEl;
+        if (el) el.scrollTop = 0;
+        // Mandatory x-snap fights programmatic smooth scrolling (stutter);
+        // disable it for the duration of the swap, restore on land.
+        body.classList.add('is-swapping');
         var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        body.scrollTo({ left: panelMax() * panel, behavior: reduced ? 'auto' : 'smooth' });
+        body.scrollTo({ left: targetLeft(next), behavior: reduced ? 'auto' : 'smooth' });
+        settleTimer = setTimeout(checkSettled, 60);
       }
       goToPanelRef.current = goToPanelEffect;
-      // The horizontal swap is desktop-only; on mobile (<=768px) the panels
-      // stack vertically and the body scrolls normally — never intercept.
-      function isDesktopTrack() { return window.innerWidth > 768; }
+
+      // The scrollable panel for the active page (vertical overflow lives
+      // inside the panel, body never scrolls vertically on desktop).
+      var seoEl = document.querySelector('body > .seo-content') || document.querySelector('.seo-content');
+      function activeScroller() {
+        return navPanel === 0 ? document.getElementById('landing-root') : seoEl;
+      }
+
+      function onWheel(e) {
+        if (window.__APP_MODE !== 'landing') return;
+        if (!isDesktopTrack()) return;
+        if (e.ctrlKey) return;                  // pinch-zoom: never intercept
+        var now = performance.now();
+        var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+        if (e.deltaMode === 1) delta *= 16;     // line-mode wheels (Firefox)
+        if (swapping) {                         // swallow momentum tail
+          e.preventDefault();
+          lastWheelAt = now;
+          return;
+        }
+        // Vertical room inside the active panel? Let the native vertical
+        // scroll happen — a panel swap only triggers at the vertical edge.
+        var isVertical = Math.abs(e.deltaY) >= Math.abs(e.deltaX);
+        if (isVertical) {
+          var el = activeScroller();
+          if (el) {
+            var maxTop = el.scrollHeight - el.clientHeight;
+            if (maxTop > 1) {
+              if (delta > 0 && el.scrollTop < maxTop - 1) { acc = 0; return; }
+              if (delta < 0 && el.scrollTop > 1) { acc = 0; return; }
+            }
+          }
+        }
+        e.preventDefault();
+        if (now - lastWheelAt > QUIET_MS) acc = 0;   // new gesture
+        lastWheelAt = now;
+        acc += delta;
+        if (Math.abs(acc) >= THRESHOLD) {
+          var dir = acc > 0 ? 1 : -1;
+          goToPanelEffect(navPanel + dir);
+        }
+      }
+      function onKey(e) {
+        if (window.__APP_MODE !== 'landing') return;
+        if (!isDesktopTrack()) return;
+        if (e.repeat) return;                   // held key = one swap
+        var tag = (e.target && e.target.tagName) || '';
+        if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(navPanel + 1); }
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(navPanel - 1); }
+      }
 
       // Mobile: pull the static .seo-content rates panel INTO .landing-app,
       // between .landing-main (hero) and the fixed-position .app-footer, so
       // the document reads hero -> rates -> footer top-to-bottom and a normal
       // vertical scroll flows through all three. (On desktop the body is a
       // horizontal snap track and .seo-content stays a direct body child.)
-      var seoEl = document.querySelector('body > .seo-content');
       var landingApp = document.querySelector('#landing-root > .landing-app');
       var footerEl = landingApp ? landingApp.querySelector('.app-footer') : null;
       var movedSeo = false;
@@ -530,37 +629,22 @@
           body.appendChild(seoEl);
           movedSeo = false;
         }
+        // Keep the body pinned to the active panel across resizes (panelMax
+        // changes with viewport width).
+        if (window.innerWidth > 768 && !swapping) {
+          body.scrollTo({ left: targetLeft(navPanel), behavior: 'auto' });
+        }
       }
       placeSeoForViewport();
-      function onWheel(e) {
-        if (window.__APP_MODE !== 'landing') return;
-        if (!isDesktopTrack()) return;
-        if (settling) { e.preventDefault(); return; }
-        var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-        if (Math.abs(delta) < 8) return;
-        var dir = delta > 0 ? 1 : -1;
-        // Wrap at the edges: scrolling past the last panel loops back to the
-        // first (and vice versa), so the user scrolls continuously through both.
-        var next = navPanel + dir;
-        if (next > 1) next = 0;
-        else if (next < 0) next = 1;
-        e.preventDefault();
-        goToPanelEffect(next);
-      }
-      function onKey(e) {
-        if (window.__APP_MODE !== 'landing') return;
-        if (!isDesktopTrack()) return;
-        var tag = (e.target && e.target.tagName) || '';
-        if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
-        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(navPanel === 1 ? 0 : 1); }
-        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(navPanel === 0 ? 1 : 0); }
-      }
+
       body.addEventListener('wheel', onWheel, { passive: false });
       document.addEventListener('keydown', onKey);
       body.addEventListener('scroll', syncFromScroll, { passive: true });
       window.addEventListener('resize', placeSeoForViewport);
       return function () {
         clearTimeout(settleTimer);
+        clearTimeout(hardCapTimer);
+        body.classList.remove('is-swapping');
         // Restore .seo-content to its original body position before unmount so
         // React never tries to remove/reconcile a node we reparented.
         if (movedSeo && seoEl) { body.appendChild(seoEl); }

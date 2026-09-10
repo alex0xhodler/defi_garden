@@ -4250,15 +4250,28 @@ html[data-app-mode="landing"] body {
 }
 html[data-app-mode="landing"] body::-webkit-scrollbar { display: none; }
 
-/* Each body child that participates is a full-width snap panel. */
+/* Each body child that participates is a full-width snap panel. Each panel
+   is also its own VERTICAL scroller (content taller than the viewport — e.g.
+   short windows — scrolls inside the panel; the body never scrolls on y).
+   Scrollbars hidden to avoid the x-layout jitter a gutter would cause. */
 html[data-app-mode="landing"] body > #landing-root,
 html[data-app-mode="landing"] body > .seo-content {
   flex: 0 0 100vw;
   width: 100vw;
   min-width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;   /* panel edge doesn't leak into body x-scroll */
+  scrollbar-width: none;
   scroll-snap-align: center;
   scroll-snap-stop: always;
 }
+html[data-app-mode="landing"] body > #landing-root::-webkit-scrollbar,
+html[data-app-mode="landing"] body > .seo-content::-webkit-scrollbar { display: none; }
+
+/* While JS drives a panel swap, mandatory snap fights the smooth scroll
+   (stutter / bounce-back). .is-swapping disables it; restored on land. */
+html[data-app-mode="landing"] body.is-swapping { scroll-snap-type: none; }
 /* Non-panel body children (#root, #planner-root, the static .seo-hub-links
    footer, scripts) must not become flex panels. */
 html[data-app-mode="landing"] body > #root,
@@ -4291,14 +4304,15 @@ html[data-app-mode="landing"] body > #landing-root > .landing-app {
   min-height: 100vh;
 }
 
-/* The SEO panel — full-height, centered single-column, radial backdrop. */
+/* The SEO panel — full-height, centered single-column, radial backdrop.
+   justify-content: center would clip overflowing content at the top in a
+   scroll container, so centering lives on .seo-content-inner's auto margins
+   instead (overflow-safe). */
 html[data-app-mode="landing"] .seo-content {
   max-width: none;
   margin: 0;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background:
@@ -4309,6 +4323,17 @@ html[data-app-mode="landing"] .seo-content {
   box-sizing: border-box;
 }
 } /* end @media (min-width: 769px) — desktop horizontal snap track */
+
+/* Inner wrapper: auto vertical margins center the column when it fits and
+   collapse to 0 when it overflows, so the panel's own y-scroll reaches both
+   ends. Applies in both layouts (desktop panel scroller + mobile in-flow). */
+.seo-content-inner {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Mobile landing (<= 768px): one normal vertical document. The hero panel
    and the SEO/rates panel stack top-to-bottom; the header stays fixed at
