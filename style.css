@@ -3644,15 +3644,29 @@ body {
 .pool-score-chip {
   display: inline-flex;
   align-items: center;
+  font-family: var(--font-mono, monospace);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
-  padding: 3px 6px;
-  border-radius: var(--ui-radius-sm, 6px);
-  background: var(--ui-accent-soft, rgba(59, 130, 246, 0.1));
-  color: var(--ui-accent, #3b82f6);
-  border: 1px solid var(--ui-accent-border, rgba(59, 130, 246, 0.2));
-  margin-left: var(--space-6, 6px);
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: var(--cert-paper-deep, rgba(255, 255, 255, 0.04));
+  color: var(--cert-ink-2, var(--ui-text-secondary));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  margin-top: 3px;
+  letter-spacing: 0.02em;
+}
+
+[data-theme="dark"] .pool-score-chip {
+  background: rgba(124, 201, 160, 0.06);
+  border-color: rgba(124, 201, 160, 0.18);
+  color: #A9B7A9;
+}
+
+.pool-score-chip strong {
+  color: var(--cert-green, #7CC9A0);
+  font-weight: 700;
+  margin-left: 3px;
 }
 
 /* 225 round 3 (a): border/radius/padding no longer come from the shared

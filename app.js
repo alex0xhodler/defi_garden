@@ -152,6 +152,8 @@ const NAV_ICONS = {
   // shield / gauge — Risk adjusted (Sharpe)
   sharpe: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
   risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
+  // shield with checkmark — DeFi Score (institutional rating)
+  score: 'M12 2L4 6v6l8 10 8-10V6L12 2z M9 12l2 2 4-4',
   // chevrons for drawer stage indicator
   chevronUp: 'M18 15l-6-6-6 6',
   chevronDown: 'M6 9l6 6 6-6',
@@ -1021,6 +1023,30 @@ function formatSmartApy(num) {
 
 function sortPoolsList(list, sortBy, sortDirection = 'desc', userSortedApy = false, isTokenView = false) {
   return list.slice().sort((a, b) => {
+    if (sortBy === 'score') {
+      const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+      const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+      const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+      if (anomA !== anomB) return anomA - anomB;
+
+      if (!isTokenView) {
+        const noA = hasNoSupplyYield(a) ? 1 : 0;
+        const noB = hasNoSupplyYield(b) ? 1 : 0;
+        if (noA !== noB) return noA - noB;
+      }
+
+      const scA = (a.defiScore && typeof a.defiScore.score === 'number') ? a.defiScore.score : null;
+      const scB = (b.defiScore && typeof b.defiScore.score === 'number') ? b.defiScore.score : null;
+      const nullA = scA === null ? 1 : 0;
+      const nullB = scB === null ? 1 : 0;
+      if (nullA !== nullB) return nullA - nullB;
+      if (scA !== null && scB !== null && scA !== scB) {
+        return sortDirection === 'asc' ? (scA - scB) : (scB - scA);
+      }
+      return sortDirection === 'asc' ? (a.tvlUsd - b.tvlUsd) : (b.tvlUsd - a.tvlUsd);
+    }
+
     if (sortBy === 'sharpe') {
       // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
       // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
@@ -3424,7 +3450,10 @@ function App() {
             className: 'pool-score-chip',
             title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating)
                      : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
-          }, `Score: ${Math.round(pool.defiScore.score)}`)
+          },
+            React.createElement('span', null, 'Score'),
+            React.createElement('strong', null, Math.round(pool.defiScore.score))
+          )
       ),
 
       // Quiet action link (row is already fully clickable via the onClick above)
@@ -3744,6 +3773,13 @@ function App() {
               },
                 navIcon('tvl'),
                 React.createElement('span', null, 'TVL')
+              ),
+              React.createElement('button', {
+                className: `sort-segment-btn ${sortBy === 'score' ? 'active' : ''}`,
+                onClick: () => { setSortBy('score'); setUserSortedApy(false); }
+              },
+                navIcon('score'),
+                React.createElement('span', null, t('sortByScore') || 'Score')
               ),
               React.createElement('button', {
                 className: `sort-segment-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
@@ -4189,6 +4225,16 @@ function App() {
                     },
                       navIcon('tvl'),
                       React.createElement('span', null, 'TVL')
+                    ),
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'score' ? 'active' : ''}`,
+                      'data-direction': sortBy === 'score' ? sortDirection : undefined,
+                      onClick: () => handleSortToggle('score'),
+                      title: `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+                      'aria-label': `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
+                    },
+                      navIcon('score'),
+                      React.createElement('span', null, t('sortByScore') || 'DeFi Score')
                     ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,

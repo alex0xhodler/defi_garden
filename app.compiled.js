@@ -175,6 +175,8 @@ var NAV_ICONS = {
   // shield / gauge — Risk adjusted (Sharpe)
   sharpe: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
   risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
+  // shield with checkmark — DeFi Score (institutional rating)
+  score: 'M12 2L4 6v6l8 10 8-10V6L12 2z M9 12l2 2 4-4',
   // chevrons for drawer stage indicator
   chevronUp: 'M18 15l-6-6-6 6',
   chevronDown: 'M6 9l6 6 6-6',
@@ -1047,47 +1049,68 @@ function formatSmartApy(num) {
 }
 function sortPoolsList(list, sortBy, sortDirection = 'desc', userSortedApy = false, isTokenView = false) {
   return list.slice().sort((a, b) => {
-    if (sortBy === 'sharpe') {
-      // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
-      // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
-      // (trust rail — no anomalous pool jumps the queue via Sharpe).
+    if (sortBy === 'score') {
       var apyA = (a.apyBase || 0) + (a.apyReward || 0);
       var apyB = (b.apyBase || 0) + (b.apyReward || 0);
       var anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
       var anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
       if (anomA !== anomB) return anomA - anomB;
-
-      // 239: default-view-only demotion of no-supply-yield rows below yield-bearing rows
       if (!isTokenView) {
         var noA = hasNoSupplyYield(a) ? 1 : 0;
         var noB = hasNoSupplyYield(b) ? 1 : 0;
         if (noA !== noB) return noA - noB;
       }
+      var scA = a.defiScore && typeof a.defiScore.score === 'number' ? a.defiScore.score : null;
+      var scB = b.defiScore && typeof b.defiScore.score === 'number' ? b.defiScore.score : null;
+      var nullA = scA === null ? 1 : 0;
+      var nullB = scB === null ? 1 : 0;
+      if (nullA !== nullB) return nullA - nullB;
+      if (scA !== null && scB !== null && scA !== scB) {
+        return sortDirection === 'asc' ? scA - scB : scB - scA;
+      }
+      return sortDirection === 'asc' ? a.tvlUsd - b.tvlUsd : b.tvlUsd - a.tvlUsd;
+    }
+    if (sortBy === 'sharpe') {
+      // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
+      // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
+      // (trust rail — no anomalous pool jumps the queue via Sharpe).
+      var _apyA = (a.apyBase || 0) + (a.apyReward || 0);
+      var _apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      var _anomA = _apyA > APY_SANITY_LIMIT ? 1 : 0;
+      var _anomB = _apyB > APY_SANITY_LIMIT ? 1 : 0;
+      if (_anomA !== _anomB) return _anomA - _anomB;
+
+      // 239: default-view-only demotion of no-supply-yield rows below yield-bearing rows
+      if (!isTokenView) {
+        var _noA = hasNoSupplyYield(a) ? 1 : 0;
+        var _noB = hasNoSupplyYield(b) ? 1 : 0;
+        if (_noA !== _noB) return _noA - _noB;
+      }
       var shA = a.kpis && typeof a.kpis.apySharpe === 'number' ? a.kpis.apySharpe : null;
       var shB = b.kpis && typeof b.kpis.apySharpe === 'number' ? b.kpis.apySharpe : null;
-      var nullA = shA === null ? 1 : 0;
-      var nullB = shB === null ? 1 : 0;
-      if (nullA !== nullB) return nullA - nullB;
+      var _nullA = shA === null ? 1 : 0;
+      var _nullB = shB === null ? 1 : 0;
+      if (_nullA !== _nullB) return _nullA - _nullB;
       if (shA !== null && shB !== null && shA !== shB) {
         return sortDirection === 'asc' ? shA - shB : shB - shA;
       }
       return sortDirection === 'asc' ? a.tvlUsd - b.tvlUsd : b.tvlUsd - a.tvlUsd;
     }
     if (sortBy === 'tvl') {
-      var _noA = hasNoSupplyYield(a) ? 1 : 0;
-      var _noB = hasNoSupplyYield(b) ? 1 : 0;
-      if (_noA !== _noB) return _noA - _noB;
+      var _noA2 = hasNoSupplyYield(a) ? 1 : 0;
+      var _noB2 = hasNoSupplyYield(b) ? 1 : 0;
+      if (_noA2 !== _noB2) return _noA2 - _noB2;
       return sortDirection === 'asc' ? a.tvlUsd - b.tvlUsd : b.tvlUsd - a.tvlUsd;
     } else {
       // APY sort
-      var _apyA = (a.apyBase || 0) + (a.apyReward || 0);
-      var _apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      var _apyA2 = (a.apyBase || 0) + (a.apyReward || 0);
+      var _apyB2 = (b.apyBase || 0) + (b.apyReward || 0);
       if (!userSortedApy) {
-        var _anomA = _apyA > APY_SANITY_LIMIT ? 1 : 0;
-        var _anomB = _apyB > APY_SANITY_LIMIT ? 1 : 0;
-        if (_anomA !== _anomB) return _anomA - _anomB;
+        var _anomA2 = _apyA2 > APY_SANITY_LIMIT ? 1 : 0;
+        var _anomB2 = _apyB2 > APY_SANITY_LIMIT ? 1 : 0;
+        if (_anomA2 !== _anomB2) return _anomA2 - _anomB2;
       }
-      return sortDirection === 'asc' ? _apyA - _apyB : _apyB - _apyA;
+      return sortDirection === 'asc' ? _apyA2 - _apyB2 : _apyB2 - _apyA2;
     }
   });
 }
@@ -3398,7 +3421,7 @@ function App() {
     })), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
       className: 'pool-score-chip',
       title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
-    }, `Score: ${Math.round(pool.defiScore.score)}`)),
+    }, React.createElement('span', null, 'Score'), React.createElement('strong', null, Math.round(pool.defiScore.score)))),
     // Quiet action link (row is already fully clickable via the onClick above)
     React.createElement('div', {
       className: 'pool-cta-section'
@@ -3737,6 +3760,12 @@ function App() {
         setUserSortedApy(false);
       }
     }, navIcon('tvl'), React.createElement('span', null, 'TVL')), React.createElement('button', {
+      className: `sort-segment-btn ${sortBy === 'score' ? 'active' : ''}`,
+      onClick: () => {
+        setSortBy('score');
+        setUserSortedApy(false);
+      }
+    }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'Score')), React.createElement('button', {
       className: `sort-segment-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
       onClick: () => {
         setSortBy('sharpe');
@@ -4178,6 +4207,12 @@ function App() {
     title: `Sort by TVL (${sortBy === 'tvl' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
     'aria-label': `Sort by TVL (${sortBy === 'tvl' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
   }, navIcon('tvl'), React.createElement('span', null, 'TVL')), React.createElement('button', {
+    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'score' ? 'active' : ''}`,
+    'data-direction': sortBy === 'score' ? sortDirection : undefined,
+    onClick: () => handleSortToggle('score'),
+    title: `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+    'aria-label': `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
+  }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'DeFi Score')), React.createElement('button', {
     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
     'data-direction': sortBy === 'sharpe' ? sortDirection : undefined,
     onClick: () => handleSortToggle('sharpe'),
