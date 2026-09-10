@@ -3641,6 +3641,20 @@ body {
   gap: var(--space-6);
 }
 
+.pool-score-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 3px 6px;
+  border-radius: var(--ui-radius-sm, 6px);
+  background: var(--ui-accent-soft, rgba(59, 130, 246, 0.1));
+  color: var(--ui-accent, #3b82f6);
+  border: 1px solid var(--ui-accent-border, rgba(59, 130, 246, 0.2));
+  margin-left: var(--space-6, 6px);
+}
+
 /* 225 round 3 (a): border/radius/padding no longer come from the shared
    geometry block (removed there — see the note at style.css's end) — grid
    view restores a card look via .pools-grid .pool-card above; list view

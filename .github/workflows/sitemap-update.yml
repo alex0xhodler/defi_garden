@@ -89,6 +89,15 @@ jobs:
         node compute-kpis.js
         echo "✅ KPI computation completed"
 
+    - name: Compute TimesFM forecasts + DeFi Score (top 100 pools)
+      env:
+        ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+      run: |
+        echo "🧠 Running TimesFM 3.0 forecast + on-chain scoring..."
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 100
+        echo "✅ TimesFM forecasts & DeFi scores completed"
+
     - name: Generate token landing pages
       run: |
         echo "🌿 Generating static /tokens/ landing pages + sitemap..."

@@ -978,6 +978,9 @@ var hasNoSupplyYield = pool => (pool.apyBase || 0) + (pool.apyReward || 0) < NO_
 // Risk-adjusted stability score: uses historical Sharpe ratio if computed,
 // otherwise evaluates organic base APY vs 30d deviation + institutional TVL depth.
 var getPoolRiskScore = pool => {
+  if (pool && pool.defiScore && typeof pool.defiScore.score === 'number') {
+    return pool.defiScore.score;
+  }
   if (pool && pool.kpis && typeof pool.kpis.apySharpe === 'number' && Number.isFinite(pool.kpis.apySharpe)) {
     return Math.max(0, pool.kpis.apySharpe);
   }
@@ -3348,7 +3351,10 @@ function App() {
       value: pool.tvlUsd,
       formatFn: v => formatCurrency(v),
       delay: 200 + delayBase
-    }))),
+    })), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
+      className: 'pool-score-chip',
+      title: `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})`
+    }, `Score: ${Math.round(pool.defiScore.score)}`)),
     // Quiet action link (row is already fully clickable via the onClick above)
     React.createElement('div', {
       className: 'pool-cta-section'

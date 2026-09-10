@@ -2654,6 +2654,26 @@ function PoolDetail({
   }, t ? t('apyMean30d') : '30d Mean APY'), React.createElement('div', {
     className: 'pool-fact-value'
   }, _formatApy(pool.apyMean30d))),
+  // TimesFM 14d Forecast (if available)
+  pool.forecast && typeof pool.forecast.p50 === 'number' && React.createElement('div', {
+    className: 'pool-fact-row'
+  }, React.createElement('div', {
+    className: 'pool-fact-label'
+  }, t ? t('forecast14d') : '14d AI Forecast'), React.createElement('div', {
+    className: 'pool-fact-value'
+  }, _formatApy(pool.forecast.p50) + ' (' + (t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)) + ')')),
+  // DeFi Score (if available)
+  pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
+    className: 'pool-fact-row'
+  }, React.createElement('div', {
+    className: 'pool-fact-label'
+  }, t ? t('defiScore') : 'DeFi Health Score'), React.createElement('div', {
+    className: 'pool-fact-value',
+    style: {
+      fontWeight: 600,
+      color: pool.defiScore.score >= 75 ? 'var(--color-success, #10b981)' : pool.defiScore.score >= 50 ? 'var(--color-primary, #3b82f6)' : 'var(--color-warning, #f59e0b)'
+    }
+  }, `${pool.defiScore.score}/100 (${pool.defiScore.rating})`)),
   // Exposure (if available)
   pool.exposure && React.createElement('div', {
     className: 'pool-fact-row'
