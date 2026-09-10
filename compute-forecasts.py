@@ -289,16 +289,21 @@ def main():
             except Exception:
                 pass
 
-    # Select top pools by TVL
+    # Select target pools
     eligible = [p for p in pools if float(p.get("tvlUsd") or 0) > 0]
     eligible.sort(key=lambda p: float(p.get("tvlUsd") or 0), reverse=True)
-    target_pools = eligible[: args.limit]
+    target_pools = eligible if (args.limit <= 0 or args.limit >= len(eligible)) else eligible[: args.limit]
     target_ids = [p["pool"] for p in target_pools]
-    print(f"🎯 Selected {len(target_pools)} top railed pools for forecasting.")
+    print(f"🎯 Selected {len(target_pools)} target pools for forecasting (limit={args.limit}).")
 
-    # 3. Concurrent DefiLlama Chart Fetch (Lever 1 & 5: separates base APY vs reward APY)
-    print("📡 Pulling granular historical charts (base/reward decomposition) concurrently...")
-    charts_by_pool = fetch_pool_charts_concurrent(target_ids, max_workers=12)
+    # 3. Concurrent DefiLlama Chart Fetch (prioritize reward-incentivized pools to avoid rate-limiting)
+    chart_candidates = [p["pool"] for p in target_pools if float(p.get("apyReward") or 0) > 0][:100]
+    if len(chart_candidates) < 50:
+        top_fill = [p["pool"] for p in target_pools if p["pool"] not in chart_candidates]
+        chart_candidates += top_fill[: (100 - len(chart_candidates))]
+
+    print(f"📡 Pulling granular historical charts for {len(chart_candidates)} priority pools...")
+    charts_by_pool = fetch_pool_charts_concurrent(chart_candidates, max_workers=12)
     print(f"   Received {len(charts_by_pool)} detailed historical charts.")
 
     # 4. Fetch On-Chain Lending Telemetry via Alchemy
@@ -314,11 +319,11 @@ def main():
 
         config = ModelConfig(
             checkpoint_path="google/timesfm-3.0-pytorch",
-            per_core_batch_size=16,
+            per_core_batch_size=64,
             device="cpu",
         )
         forecaster = TimesFM3Evaluator(config)
-        print("   TimesFM 3.0 initialized successfully.")
+        print("   TimesFM 3.0 initialized successfully (per_core_batch_size=64).")
     except Exception as e:
         print(f"❌ Could not load TimesFM 3.0: {e}")
         sys.exit(1)
@@ -365,19 +370,26 @@ def main():
             "current_apy": base_arr[-1] + reward_arr[-1],
         })
 
-    # 7. Execute 3-Channel Multivariate Forecasts
+    # 7. Execute 3-Channel Multivariate Forecasts in chunks
     print(f"⚡ Running TimesFM 3.0 3-Channel Multivariate Forecasts across {len(batch_records)} pools...")
     t0 = time.time()
-    contexts = [r["target"] for r in batch_records]
-
-    outputs = list(
-        forecaster.predict_batch(
-            contexts=contexts,
-            horizon=args.horizon,
-            return_quantiles=True,
-            use_symmetric_averaging=False,
+    chunk_size = 500
+    outputs = []
+    for i in range(0, len(batch_records), chunk_size):
+        chunk = batch_records[i : i + chunk_size]
+        contexts = [r["target"] for r in chunk]
+        chunk_outs = list(
+            forecaster.predict_batch(
+                contexts=contexts,
+                horizon=args.horizon,
+                return_quantiles=True,
+                use_symmetric_averaging=False,
+            )
         )
-    )
+        outputs.extend(chunk_outs)
+        elapsed = time.time() - t0
+        pct = len(outputs) / len(batch_records) * 100
+        print(f"   Processed {len(outputs)}/{len(batch_records)} pools ({pct:.1f}%) in {elapsed:.1f}s...")
 
     results_by_pool_id = {}
     for rec, out in zip(batch_records, outputs):
