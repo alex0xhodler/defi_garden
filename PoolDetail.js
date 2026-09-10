@@ -1843,6 +1843,47 @@ function PoolDetail({
          : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`)
     : '';
 
+  // Forward Underwriting calculations (shared across Hero & Decision Terminal)
+  const poolTvl = Number(pool.tvlUsd) || 100000;
+  const isLending = poolType === 'Lending';
+  const isClmm = poolType === 'LP/DEX';
+  const currentUtil = isLending ? 0.78 : 0.65;
+  const kinkUtil = 0.90;
+
+  const wMaxAtomic = isLending ? (poolTvl * (1 - currentUtil)) : (poolTvl * 0.40);
+  const wKinkFrozen = isLending ? Math.max(0, poolTvl * (1 - (currentUtil / kinkUtil))) : (poolTvl * 0.25);
+
+  let trafficLight = 'GREEN';
+  let trafficLightText = t ? t('trafficLightGreen') : '✓ Safe Headroom';
+  let trafficLightColor = 'var(--color-success, #10b981)';
+
+  if (simTicketSize > wKinkFrozen) {
+    trafficLight = 'RED';
+    trafficLightText = t ? t('trafficLightRed') : '⛔ Risk: Kink Breach / High Slippage';
+    trafficLightColor = 'var(--color-error, #ef4444)';
+  } else if (simTicketSize > (wKinkFrozen / 2)) {
+    trafficLight = 'AMBER';
+    trafficLightText = t ? t('trafficLightAmber') : '⚠ Caution: Near Kink / Depth';
+    trafficLightColor = 'var(--color-warning, #f59e0b)';
+  }
+
+  let postDepositApy = totalApy;
+  let dilutionBps = 0;
+  if (isLending) {
+    const postTvl = poolTvl + simTicketSize;
+    const postUtil = (poolTvl * currentUtil) / postTvl;
+    postDepositApy = totalApy * (postUtil / currentUtil);
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+  } else if (isClmm) {
+    const kappa = 0.85;
+    postDepositApy = totalApy * Math.pow(poolTvl / (poolTvl + simTicketSize), kappa);
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+  } else {
+    postDepositApy = totalApy * (poolTvl / (poolTvl + simTicketSize));
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+  }
+  if (isNaN(dilutionBps) || dilutionBps < 0) dilutionBps = 0;
+
   return React.createElement('div', {
     className: 'pool-detail-container'
   },
@@ -1970,6 +2011,49 @@ function PoolDetail({
                 className: 'forecast-risk-pill risk-low',
                 style: { marginLeft: '6px', color: 'var(--color-success, #10b981)', fontWeight: 600, fontSize: '11px' }
               }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside'))
+            ),
+            // Forward Underwriting Quick Stats Bar in Hero
+            React.createElement('div', {
+              className: 'pool-hero-underwriting-line',
+              style: {
+                marginTop: '10px',
+                fontSize: '12px',
+                color: 'var(--ui-text-secondary, #64748b)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                flexWrap: 'wrap'
+              }
+            },
+              React.createElement('span', null, `Cash Headroom: ${formatCurrency(wMaxAtomic)}`),
+              React.createElement('span', { style: { opacity: 0.3 } }, '·'),
+              React.createElement('span', null, `Kink Buffer: ${formatCurrency(wKinkFrozen)}`),
+              React.createElement('span', {
+                style: {
+                  fontWeight: 600,
+                  fontSize: '11px',
+                  color: trafficLightColor,
+                  padding: '2px 8px',
+                  borderRadius: '999px',
+                  border: `1px solid ${trafficLightColor}`,
+                  background: 'rgba(0,0,0,0.02)'
+                }
+              }, trafficLightText),
+              React.createElement('a', {
+                href: '#decision-terminal',
+                style: {
+                  color: 'var(--ui-accent, #3b82f6)',
+                  textDecoration: 'none',
+                  fontSize: '11px',
+                  fontWeight: 600,
+                  marginLeft: '4px'
+                },
+                onClick: (e) => {
+                  e.preventDefault();
+                  document.getElementById('decision-terminal')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }, 'Simulate Ticket →')
             )
           ),
 
@@ -2083,170 +2167,132 @@ function PoolDetail({
         React.createElement('div', { className: 'pool-hero-action-secondary' },
           ...renderProtocolCtaBlock('hero')
         )
-      )
-    ),
+        )
+        ),
 
-    // Engraved rule between hero and Yield Card Terminal
-    React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-      React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-      React.createElement('span', { className: 'cert-divider-node' }),
-      React.createElement('span', { className: 'orn-band cert-divider-strand' })
-    ),
+        // Engraved rule between hero and Institutional Decision Terminal
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
 
-    // Yield-Funded Virtual Card Terminal (PRD Design 3)
-    React.createElement(YieldCardWidget, {
-      pool: pool,
-      totalApy: totalApy,
-      sub: sub,
-      t: t,
-      formatCurrency: formatCurrency,
-      formatUsd: _formatUsd,
-      formatNum: _formatNum,
-      formatApy: _formatApy,
-      riskAssessment: riskAssessment
-    }),
-
-    // Engraved rule between the document's clauses (247 world). Decorative
-    // only: aria-hidden, no text, and the ornament primitives are
-    // pointer-events: none, so this can never sit between a user and a
-    // control.
-    React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-      React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-      React.createElement('span', { className: 'cert-divider-node' }),
-      React.createElement('span', { className: 'orn-band cert-divider-strand' })
-    ),
-
-    // ═══ DECISION TERMINAL (Institutional Forward Underwriting) ══════════════
-    (function () {
-      var poolTvl = Number(pool.tvlUsd) || 100000;
-      var isLending = poolType === 'Lending';
-      var isClmm = poolType === 'LP/DEX';
-      var currentUtil = isLending ? 0.78 : 0.65;
-      var kinkUtil = 0.90;
-
-      // Closed-form Headroom
-      var wMaxAtomic = isLending ? (poolTvl * (1 - currentUtil)) : (poolTvl * 0.40);
-      var wKinkFrozen = isLending ? Math.max(0, poolTvl * (1 - (currentUtil / kinkUtil))) : (poolTvl * 0.25);
-
-      // Traffic light state
-      var trafficLight = 'GREEN';
-      var trafficLightText = t ? t('trafficLightGreen') : '✓ Safe Headroom';
-      var trafficLightColor = 'var(--color-success, #10b981)';
-
-      if (simTicketSize > wKinkFrozen) {
-        trafficLight = 'RED';
-        trafficLightText = t ? t('trafficLightRed') : '⛔ Risk: Kink Breach / High Slippage';
-        trafficLightColor = 'var(--color-error, #ef4444)';
-      } else if (simTicketSize > (wKinkFrozen / 2)) {
-        trafficLight = 'AMBER';
-        trafficLightText = t ? t('trafficLightAmber') : '⚠ Caution: Near Kink / Depth';
-        trafficLightColor = 'var(--color-warning, #f59e0b)';
-      }
-
-      // Diluted post-deposit APY calculation
-      var postDepositApy = totalApy;
-      var dilutionBps = 0;
-      if (isLending) {
-        var postTvl = poolTvl + simTicketSize;
-        var postUtil = (poolTvl * currentUtil) / postTvl;
-        postDepositApy = totalApy * (postUtil / currentUtil);
-        dilutionBps = Math.round((totalApy - postDepositApy) * 100);
-      } else if (isClmm) {
-        var kappa = 0.85;
-        postDepositApy = totalApy * Math.pow(poolTvl / (poolTvl + simTicketSize), kappa);
-        dilutionBps = Math.round((totalApy - postDepositApy) * 100);
-      } else {
-        postDepositApy = totalApy * (poolTvl / (poolTvl + simTicketSize));
-        dilutionBps = Math.round((totalApy - postDepositApy) * 100);
-      }
-      if (isNaN(dilutionBps) || dilutionBps < 0) dilutionBps = 0;
-
-      return React.createElement('div', {
+        // ═══ DECISION TERMINAL (Institutional Forward Underwriting) ══════════════
+        React.createElement('div', {
         className: 'decision-terminal-card animate-on-mount',
         id: 'decision-terminal'
-      },
+        },
         React.createElement('div', { className: 'dt-header' },
-          React.createElement('div', { className: 'dt-header-left' },
-            React.createElement('span', { className: 'dt-badge-tag' }, 'INSTITUTIONAL UNDERWRITING'),
-            React.createElement('h2', { className: 'dt-title' }, t ? t('decisionTerminalTitle') : 'Liquidity & Forward Dilution Terminal'),
-            React.createElement('p', { className: 'dt-subtitle' }, t ? t('decisionTerminalSubtitle') : 'Real-time capacity underwriting & ticket impact simulator')
-          ),
-          React.createElement('div', { className: 'dt-header-right' },
-            React.createElement('span', { className: 'dt-engine-pill' }, 'TimesFM 3.0 + Closed-Form IRM')
-          )
+        React.createElement('div', { className: 'dt-header-left' },
+          React.createElement('span', { className: 'dt-badge-tag' }, 'INSTITUTIONAL UNDERWRITING'),
+          React.createElement('h2', { className: 'dt-title' }, t ? t('decisionTerminalTitle') : 'Liquidity & Forward Dilution Terminal'),
+          React.createElement('p', { className: 'dt-subtitle' }, t ? t('decisionTerminalSubtitle') : 'Real-time capacity underwriting & ticket impact simulator')
+        ),
+        React.createElement('div', { className: 'dt-header-right' },
+          React.createElement('span', { className: 'dt-engine-pill' }, 'TimesFM 3.0 + Closed-Form IRM')
+        )
         ),
 
         React.createElement('div', { className: 'dt-grid' },
-          // Card 1: Dual Unbundled Yield
-          React.createElement('div', { className: 'dt-panel' },
-            React.createElement('div', { className: 'dt-panel-label' }, '1. Dual Yield Decomposition'),
-            React.createElement('div', { className: 'dt-yield-pair' },
-              React.createElement('div', { className: 'dt-yield-box dt-yield-organic' },
-                React.createElement('div', { className: 'dt-yield-type' }, t ? t('organicBaseYield') : 'Organic Base Yield'),
-                React.createElement('div', { className: 'dt-yield-num' }, _formatApy(pool.apyBase || 0)),
-                React.createElement('div', { className: 'dt-yield-hint' }, t ? t('organicSteady') : 'Realized borrower & swap fees')
-              ),
-              React.createElement('div', { className: 'dt-yield-box dt-yield-reward' },
-                React.createElement('div', { className: 'dt-yield-type' }, t ? t('perishableRewards') : 'Perishable Rewards'),
-                React.createElement('div', { className: 'dt-yield-num' }, (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%'),
-                React.createElement('div', { className: 'dt-yield-hint' }, (pool.apyReward > 0) ? (t ? t('perishableWarning') : 'Subject to emissions decay') : 'Zero token emission dependency')
-              )
+        // Card 1: Dual Unbundled Yield
+        React.createElement('div', { className: 'dt-panel' },
+          React.createElement('div', { className: 'dt-panel-label' }, '1. Dual Yield Decomposition'),
+          React.createElement('div', { className: 'dt-yield-pair' },
+            React.createElement('div', { className: 'dt-yield-box dt-yield-organic' },
+              React.createElement('div', { className: 'dt-yield-type' }, t ? t('organicBaseYield') : 'Organic Base Yield'),
+              React.createElement('div', { className: 'dt-yield-num' }, _formatApy(pool.apyBase || 0)),
+              React.createElement('div', { className: 'dt-yield-hint' }, t ? t('organicSteady') : 'Realized borrower & swap fees')
+            ),
+            React.createElement('div', { className: 'dt-yield-box dt-yield-reward' },
+              React.createElement('div', { className: 'dt-yield-type' }, t ? t('perishableRewards') : 'Perishable Rewards'),
+              React.createElement('div', { className: 'dt-yield-num' }, (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%'),
+              React.createElement('div', { className: 'dt-yield-hint' }, (pool.apyReward > 0) ? (t ? t('perishableWarning') : 'Subject to emissions decay') : 'Zero token emission dependency')
+            )
+          )
+        ),
+
+        // Card 2: Physical Liquidity & Kink Headroom
+        React.createElement('div', { className: 'dt-panel' },
+          React.createElement('div', { className: 'dt-panel-label' }, '2. Physical Exit Liquidity Gauge'),
+          React.createElement('div', { className: 'dt-metric-row' },
+            React.createElement('div', { className: 'dt-metric' },
+              React.createElement('div', { className: 'dt-metric-name' }, t ? t('cashHeadroom') : 'Atomic Cash Headroom'),
+              React.createElement('div', { className: 'dt-metric-val' }, formatCurrency(wMaxAtomic))
+            ),
+            React.createElement('div', { className: 'dt-metric' },
+              React.createElement('div', { className: 'dt-metric-name' }, t ? t('kinkDistance') : 'Kink Distance Headroom'),
+              React.createElement('div', { className: 'dt-metric-val' }, formatCurrency(wKinkFrozen))
             )
           ),
+          React.createElement('div', {
+            className: 'dt-traffic-light dt-tl-' + trafficLight.toLowerCase(),
+            style: { borderLeftColor: trafficLightColor }
+          },
+            React.createElement('span', { className: 'dt-tl-dot', style: { backgroundColor: trafficLightColor } }),
+            React.createElement('span', { className: 'dt-tl-text', style: { color: trafficLightColor } }, trafficLightText)
+          )
+        ),
 
-          // Card 2: Physical Liquidity & Kink Headroom
-          React.createElement('div', { className: 'dt-panel' },
-            React.createElement('div', { className: 'dt-panel-label' }, '2. Physical Exit Liquidity Gauge'),
-            React.createElement('div', { className: 'dt-metric-row' },
-              React.createElement('div', { className: 'dt-metric' },
-                React.createElement('div', { className: 'dt-metric-name' }, t ? t('cashHeadroom') : 'Atomic Cash Headroom'),
-                React.createElement('div', { className: 'dt-metric-val' }, formatCurrency(wMaxAtomic))
-              ),
-              React.createElement('div', { className: 'dt-metric' },
-                React.createElement('div', { className: 'dt-metric-name' }, t ? t('kinkDistance') : 'Kink Distance Headroom'),
-                React.createElement('div', { className: 'dt-metric-val' }, formatCurrency(wKinkFrozen))
-              )
-            ),
-            React.createElement('div', {
-              className: 'dt-traffic-light dt-tl-' + trafficLight.toLowerCase(),
-              style: { borderLeftColor: trafficLightColor }
-            },
-              React.createElement('span', { className: 'dt-tl-dot', style: { backgroundColor: trafficLightColor } }),
-              React.createElement('span', { className: 'dt-tl-text', style: { color: trafficLightColor } }, trafficLightText)
-            )
+        // Card 3: Interactive Ticket Dilution Simulator
+        React.createElement('div', { className: 'dt-panel dt-panel-full' },
+          React.createElement('div', { className: 'dt-panel-label' }, '3. Interactive Ticket Impact Simulator'),
+          React.createElement('div', { className: 'dt-ticket-presets' },
+            [100000, 500000, 1000000, 5000000, 10000000].map(function (amt) {
+              return React.createElement('button', {
+                key: amt,
+                type: 'button',
+                className: 'dt-preset-btn ' + (simTicketSize === amt ? 'is-active' : ''),
+                onClick: function () { setSimTicketSize(amt); }
+              }, formatCurrency(amt));
+            })
           ),
-
-          // Card 3: Interactive Ticket Dilution Simulator
-          React.createElement('div', { className: 'dt-panel dt-panel-full' },
-            React.createElement('div', { className: 'dt-panel-label' }, '3. Interactive Ticket Impact Simulator'),
-            React.createElement('div', { className: 'dt-ticket-presets' },
-              [100000, 500000, 1000000, 5000000, 10000000].map(function (amt) {
-                return React.createElement('button', {
-                  key: amt,
-                  type: 'button',
-                  className: 'dt-preset-btn ' + (simTicketSize === amt ? 'is-active' : ''),
-                  onClick: function () { setSimTicketSize(amt); }
-                }, formatCurrency(amt));
-              })
+          React.createElement('div', { className: 'dt-sim-result-row' },
+            React.createElement('div', { className: 'dt-sim-item' },
+              React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('simulatedTicket') : 'Simulated Ticket:'),
+              React.createElement('strong', null, ' ' + formatCurrency(simTicketSize))
             ),
-            React.createElement('div', { className: 'dt-sim-result-row' },
-              React.createElement('div', { className: 'dt-sim-item' },
-                React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('simulatedTicket') : 'Simulated Ticket:'),
-                React.createElement('strong', null, ' ' + formatCurrency(simTicketSize))
-              ),
-              React.createElement('div', { className: 'dt-sim-item' },
-                React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('postDepositApy') : 'Post-Deposit APY:'),
-                React.createElement('strong', { style: { color: 'var(--ui-accent, #3b82f6)' } }, ' ' + _formatApy(postDepositApy))
-              ),
-              React.createElement('div', { className: 'dt-sim-item' },
-                React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('dilutionBps') : 'Dilution Drag:'),
-                React.createElement('strong', { style: { color: dilutionBps > 50 ? 'var(--color-error, #ef4444)' : 'var(--ui-text-muted)' } }, ' -' + dilutionBps + ' bps')
-              )
+            React.createElement('div', { className: 'dt-sim-item' },
+              React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('postDepositApy') : 'Post-Deposit APY:'),
+              React.createElement('strong', { style: { color: 'var(--ui-accent, #3b82f6)' } }, ' ' + _formatApy(postDepositApy))
+            ),
+            React.createElement('div', { className: 'dt-sim-item' },
+              React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('dilutionBps') : 'Dilution Drag:'),
+              React.createElement('strong', { style: { color: dilutionBps > 50 ? 'var(--color-error, #ef4444)' : 'var(--ui-text-muted)' } }, ' -' + dilutionBps + ' bps')
             )
           )
         )
-      );
-    })(),
+        )
+        ),
+
+        // Engraved rule between Decision Terminal and Yield Card Terminal
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
+
+        // Yield-Funded Virtual Card Terminal (PRD Design 3)
+        React.createElement(YieldCardWidget, {
+        pool: pool,
+        totalApy: totalApy,
+        sub: sub,
+        t: t,
+        formatCurrency: formatCurrency,
+        formatUsd: _formatUsd,
+        formatNum: _formatNum,
+        formatApy: _formatApy,
+        riskAssessment: riskAssessment
+        }),
+
+        // Engraved rule between the document's clauses (247 world). Decorative
+        // only: aria-hidden, no text, and the ornament primitives are
+        // pointer-events: none, so this can never sit between a user and a
+        // control.
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
 
     // Collapsible Yield Calculator — now the single "your garden" earnings
     // block (210 B). The standalone pool-projection-card ("THE LONG GAME")
