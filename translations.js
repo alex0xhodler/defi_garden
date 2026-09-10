@@ -174,6 +174,23 @@ const translations = {
     yes: "Yes",
     no: "No",
 
+    // Institutional Decision Terminal
+    decisionTerminalTitle: "Liquidity & Forward Dilution Terminal",
+    decisionTerminalSubtitle: "Real-time capacity underwriting & ticket impact simulator",
+    organicBaseYield: "Organic Base Yield",
+    perishableRewards: "Perishable Rewards",
+    perishableWarning: "Reward emissions subject to contract gauge decay & cliff risk.",
+    organicSteady: "Realized borrower & swap fee cash flows.",
+    cashHeadroom: "Atomic Cash Headroom",
+    kinkDistance: "Kink Distance Headroom",
+    simulatedTicket: "Simulated Ticket Size",
+    postDepositApy: "Post-Deposit APY",
+    dilutionBps: "Dilution Impact",
+    trafficLightGreen: "✓ Safe Headroom",
+    trafficLightAmber: "⚠ Caution: Near Kink / Depth",
+    trafficLightRed: "⛔ Risk: Kink Breach / High Slippage",
+    trafficLightUnknown: "? Unverified / Stale Headroom",
+
     // Honest mini-projection (pool-detail)
 projectionHeading: "The long game",
     // 241: see dailyEarningsSubLabel's comment above — formatCount() reused,
@@ -1155,6 +1172,23 @@ projectionHeading: "The long game",
     ilRisk: "비영구적 손실 위험",
     yes: "있음",
     no: "없음",
+
+    // Institutional Decision Terminal
+    decisionTerminalTitle: "유동성 및 선도 희석 터미널",
+    decisionTerminalSubtitle: "실시간 인출 여력 평가 및 유입 금액 충격 시뮬레이터",
+    organicBaseYield: "유기적 기본 수익률",
+    perishableRewards: "소멸성 보상 수익률",
+    perishableWarning: "보상 토큰은 거버넌스 반감기 및 조기 소진 위험이 있습니다.",
+    organicSteady: "실제 차입자 및 거래 수수료 현금 흐름 기반.",
+    cashHeadroom: "원자적 현금 여유고",
+    kinkDistance: "킨크(급등점) 도달 한도",
+    simulatedTicket: "시뮬레이션 예치액",
+    postDepositApy: "예치 후 희석 수익률",
+    dilutionBps: "수익률 희석 폭",
+    trafficLightGreen: "✓ 안전한 유동성",
+    trafficLightAmber: "⚠ 주의: 킨크 및 호가 깊이 근접",
+    trafficLightRed: "⛔ 위험: 킨크 초과 / 높은 슬리피지",
+    trafficLightUnknown: "? 미검증 / 지연된 유동성",
 
     // Honest mini-projection (pool-detail)
     projectionHeading: "장기적으로 보면",
