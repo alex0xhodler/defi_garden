@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/explain_path.response.schema.json",
+  "title": "ExplainPathResponse",
+  "description": "Full mathematical attribution and breakdown for a path at an immutable snapshot.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ok",
+    "path_id",
+    "snapshot_ref",
+    "attribution",
+    "regulatory_disclosure"
+  ],
+  "properties": {
+    "ok": { "type": "boolean" },
+    "path_id": { "type": "string" },
+    "snapshot_ref": { "type": "string" },
+    "model_version": { "type": "string" },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cashflows", "dilution", "pendle", "gas", "hurdle", "irr_bridge"],
+      "properties": {
+        "cashflows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["leg_index", "source", "rate_component", "included_in_net"],
+            "properties": {
+              "leg_index": { "type": "integer" },
+              "source": { "type": "string" },
+              "rate_component": { "type": "number" },
+              "included_in_net": { "type": "boolean" },
+              "basis": { "type": "string" }
+            }
+          }
+        },
+        "dilution": {
+          "type": ["object", "null"],
+          "properties": {
+            "liquidity_usd": { "type": "number" },
+            "delta_liquidity_usd": { "type": "number" },
+            "dilution_drag_bps": { "type": "number" }
+          }
+        },
+        "pendle": {
+          "type": ["object", "null"],
+          "properties": {
+            "pt_price": { "type": "number" },
+            "yt_price": { "type": "number" },
+            "sy_price": { "type": "number" },
+            "delta_total": { "type": "number" },
+            "delta_organic": { "type": "number" },
+            "flag_unmodeled_points": { "type": "boolean" },
+            "points_category": { "type": "string" }
+          }
+        },
+        "gas": {
+          "type": "object",
+          "required": ["enter_usd", "exit_usd", "drag_rate"],
+          "properties": {
+            "enter_usd": { "type": "number" },
+            "exit_usd": { "type": "number" },
+            "drag_rate": { "type": "number" }
+          }
+        },
+        "hurdle": {
+          "type": "object",
+          "required": ["hurdle_rate", "net_rate", "clear_bps"],
+          "properties": {
+            "hurdle_rate": { "type": "number" },
+            "net_rate": { "type": "number" },
+            "clear_bps": { "type": "number" }
+          }
+        },
+        "irr_bridge": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step_name", "rate_after"],
+            "properties": {
+              "step_name": { "type": "string" },
+              "rate_after": { "type": "number" }
+            }
+          }
+        }
+      }
+    },
+    "regulatory_disclosure": {
+      "type": "object",
+      "required": ["fiduciary_status"],
+      "properties": {
+        "fiduciary_status": { "type": "string", "const": "NON_ADVISORY_COMPARATOR" },
+        "notice": { "type": "string" }
+      }
+    }
+  }
+}

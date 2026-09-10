@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "description": "Pinned edge cases: U = 0, U = U_star (exact kink), U = 0.9999, U = 1.0 (cash exhaustion), looper collateral redemptions, and stale data",
+  "cases": [
+    {
+      "id": "edge_zero_utilization",
+      "description": "U = 0 with zero borrows and positive supply",
+      "inputs": {
+        "supply": "1000000",
+        "borrows": "0",
+        "kink": "0.80",
+        "r0": "0.02",
+        "r1": "0.10",
+        "r2": "1.00",
+        "reserve_factor": "0.10",
+        "beta_repay": "0.0",
+        "lambda_looper": "0.0",
+        "gamma_flow": "0.0",
+        "is_stale": false,
+        "ticket_size": "100000"
+      },
+      "expected": {
+        "current_utilization": "0",
+        "current_borrow_rate": "0.02",
+        "current_supply_apy": "0.0000",
+        "W_max_atomic": "1000000",
+        "W_kink_frozen": "1000000",
+        "W_kink_scenario": "1000000",
+        "post_deposit_utilization": "0",
+        "post_deposit_borrow_rate": "0.02",
+        "post_deposit_supply_apy": "0.0000",
+        "traffic_light": "GREEN"
+      }
+    },
+    {
+      "id": "edge_exact_kink",
+      "description": "U = U_star (exact kink)",
+      "inputs": {
+        "supply": "1000000",
+        "borrows": "800000",
+        "kink": "0.80",
+        "r0": "0.02",
+        "r1": "0.10",
+        "r2": "1.00",
+        "reserve_factor": "0.10",
+        "beta_repay": "0.0",
+        "lambda_looper": "0.0",
+        "gamma_flow": "0.0",
+        "is_stale": false,
+        "ticket_size": "50000"
+      },
+      "expected": {
+        "current_utilization": "0.8",
+        "current_borrow_rate": "0.12",
+        "current_supply_apy": "0.08640",
+        "W_max_atomic": "200000.0",
+        "W_kink_frozen": "0",
+        "W_kink_scenario": "0",
+        "post_deposit_utilization": "0.76190476190476190476190476190476190476190476190476",
+        "post_deposit_borrow_rate": "0.11523809523809523809523809523809523809523809523810",
+        "post_deposit_supply_apy": "0.079020408163265306122448979591836734693877551020411",
+        "traffic_light": "RED"
+      }
+    },
+    {
+      "id": "edge_near_exhaustion_9999",
+      "description": "U = 0.9999 extreme utilization near 100%",
+      "inputs": {
+        "supply": "1000000",
+        "borrows": "999900",
+        "kink": "0.80",
+        "r0": "0.02",
+        "r1": "0.10",
+        "r2": "1.00",
+        "reserve_factor": "0.10",
+        "beta_repay": "0.10",
+        "lambda_looper": "0.50",
+        "gamma_flow": "0.0",
+        "is_stale": false,
+        "ticket_size": "1000"
+      },
+      "expected": {
+        "current_utilization": "0.9999",
+        "current_borrow_rate": "1.119500",
+        "current_supply_apy": "1.007449245000",
+        "W_max_atomic": "100.0000",
+        "W_kink_frozen": "0",
+        "W_kink_scenario": "0",
+        "post_deposit_utilization": "0.99890109890109890109890109890109890109890109890110",
+        "post_deposit_borrow_rate": "1.1145054945054945054945054945054945054945054945055",
+        "post_deposit_supply_apy": "1.0019526868735659944451153242362033570824779615989",
+        "traffic_light": "RED"
+      }
+    },
+    {
+      "id": "edge_full_exhaustion_100",
+      "description": "U = 1.0 (cash exhaustion)",
+      "inputs": {
+        "supply": "1000000",
+        "borrows": "1000000",
+        "kink": "0.80",
+        "r0": "0.02",
+        "r1": "0.10",
+        "r2": "1.00",
+        "reserve_factor": "0.10",
+        "beta_repay": "0.0",
+        "lambda_looper": "0.0",
+        "gamma_flow": "0.0",
+        "is_stale": false,
+        "ticket_size": "10000"
+      },
+      "expected": {
+        "current_utilization": "1",
+        "current_borrow_rate": "1.12",
+        "current_supply_apy": "1.0080",
+        "W_max_atomic": "0",
+        "W_kink_frozen": "0",
+        "W_kink_scenario": "0",
+        "post_deposit_utilization": "0.99009900990099009900990099009900990099009900990099",
+        "post_deposit_borrow_rate": "1.0704950495049504950495049504950495049504950495050",
+        "post_deposit_supply_apy": "0.95390647975688657974708361925301441035192628173711",
+        "traffic_light": "RED"
+      }
+    },
+    {
+      "id": "edge_looper_collateral_redemption",
+      "description": "Looper collateral redemption with lambda=1.0 and beta=0.25",
+      "inputs": {
+        "supply": "10000000",
+        "borrows": "7000000",
+        "kink": "0.80",
+        "r0": "0.01",
+        "r1": "0.05",
+        "r2": "0.80",
+        "reserve_factor": "0.15",
+        "beta_repay": "0.25",
+        "lambda_looper": "1.00",
+        "gamma_flow": "0.00",
+        "is_stale": false,
+        "ticket_size": "500000"
+      },
+      "expected": {
+        "current_utilization": "0.7",
+        "current_borrow_rate": "0.05375",
+        "current_supply_apy": "0.03198125",
+        "W_max_atomic": "3000000.0",
+        "W_kink_frozen": "1250000.000",
+        "W_kink_scenario": "1333333.3333333333333333333333333333333333333333333",
+        "post_deposit_utilization": "0.66666666666666666666666666666666666666666666666667",
+        "post_deposit_borrow_rate": "0.051666666666666666666666666666666666666666666666667",
+        "post_deposit_supply_apy": "0.029277777777777777777777777777777777777777777777778",
+        "traffic_light": "GREEN"
+      }
+    },
+    {
+      "id": "edge_stale_data_unknown",
+      "description": "Stale data triggers UNKNOWN traffic light",
+      "inputs": {
+        "supply": "5000000",
+        "borrows": "3000000",
+        "kink": "0.80",
+        "r0": "0.02",
+        "r1": "0.08",
+        "r2": "0.50",
+        "reserve_factor": "0.10",
+        "beta_repay": "0.0",
+        "lambda_looper": "0.0",
+        "gamma_flow": "0.0",
+        "is_stale": true,
+        "ticket_size": "10000"
+      },
+      "expected": {
+        "current_utilization": "0.6",
+        "current_borrow_rate": "0.0800",
+        "current_supply_apy": "0.0432000",
+        "W_max_atomic": "2000000.0",
+        "W_kink_frozen": "1250000.00",
+        "W_kink_scenario": "1250000",
+        "post_deposit_utilization": "0.59880239520958083832335329341317365269461077844311",
+        "post_deposit_borrow_rate": "0.079880239520958083832335329341317365269461077844311",
+        "post_deposit_supply_apy": "0.043049230879558248771917243357596184875757467101724",
+        "traffic_light": "UNKNOWN"
+      }
+    }
+  ]
+}

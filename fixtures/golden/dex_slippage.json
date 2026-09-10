@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "fixture_id": "dex_slippage_golden_v1",
+  "description": "Pinned golden fixtures for AMM Concentrated Liquidity (CLMM) tick dropout, dilution elasticity, and capacity ceilings.",
+  "conventions": {
+    "precision": 50,
+    "rounding": "ROUND_HALF_EVEN",
+    "default_kappa": "0.85",
+    "annual_days": 365,
+    "rate_serialization_places": 12
+  },
+  "cases": [
+    {
+      "id": "uniswap_v3_usdc_usdt_005",
+      "name": "Uniswap v3 0.05% USDC/USDT",
+      "protocol": "Uniswap v3",
+      "pair": "USDC/USDT",
+      "inputs": {
+        "pool_id": "uniswap_v3_usdc_usdt_005",
+        "pool_name": "Uniswap v3 0.05% USDC/USDT",
+        "protocol": "Uniswap v3",
+        "pair": "USDC/USDT",
+        "range_type": "narrow",
+        "pool_liquidity": "50000000.00",
+        "base_volume": "20000000.00",
+        "fee_tier": "0.0005",
+        "p_current": "1.0000",
+        "p_lower": "0.9990",
+        "p_upper": "1.0010",
+        "sigma_vol": "0.0050",
+        "tau_days": 30,
+        "kappa": "0.85",
+        "ticket_size_usd": "500000.00"
+      },
+      "expected": {
+        "spot_fee_apy": "0.073000000000",
+        "range_occupancy_probability": "0.100919180646",
+        "range_dropout_risk_pct": "89.908081935400",
+        "diluted_fee_apy": "0.072385185618",
+        "active_fee_apy_in_range": "0.073000000000",
+        "active_fee_apy_out_of_range": "0.000000000000",
+        "expected_fee_apy": "0.007305053624",
+        "capacity_ceiling_usd": "15010242.246389",
+        "is_full_range_equivalent": false
+      }
+    },
+    {
+      "id": "uniswap_v3_eth_usdc_030",
+      "name": "Uniswap v3 0.3% ETH/USDC",
+      "protocol": "Uniswap v3",
+      "pair": "ETH/USDC",
+      "inputs": {
+        "pool_id": "uniswap_v3_eth_usdc_030",
+        "pool_name": "Uniswap v3 0.3% ETH/USDC",
+        "protocol": "Uniswap v3",
+        "pair": "ETH/USDC",
+        "range_type": "wide",
+        "pool_liquidity": "25000000.00",
+        "base_volume": "15000000.00",
+        "fee_tier": "0.0030",
+        "p_current": "3000.00",
+        "p_lower": "2400.00",
+        "p_upper": "3600.00",
+        "sigma_vol": "0.60",
+        "tau_days": 30,
+        "kappa": "0.85",
+        "ticket_size_usd": "1000000.00"
+      },
+      "expected": {
+        "spot_fee_apy": "0.657000000000",
+        "range_occupancy_probability": "0.517159104761",
+        "range_dropout_risk_pct": "48.284089523900",
+        "diluted_fee_apy": "0.635458262795",
+        "active_fee_apy_in_range": "0.657000000000",
+        "active_fee_apy_out_of_range": "0.000000000000",
+        "expected_fee_apy": "0.328633026300",
+        "capacity_ceiling_usd": "7505121.123195",
+        "is_full_range_equivalent": false
+      }
+    },
+    {
+      "id": "aerodrome_slipstream_aero_usdc",
+      "name": "Aerodrome Slipstream AERO/USDC (Volatile)",
+      "protocol": "Aerodrome Slipstream",
+      "pair": "AERO/USDC",
+      "inputs": {
+        "pool_id": "aerodrome_slipstream_aero_usdc",
+        "pool_name": "Aerodrome Slipstream AERO/USDC (Volatile)",
+        "protocol": "Aerodrome Slipstream",
+        "pair": "AERO/USDC",
+        "range_type": "volatile",
+        "pool_liquidity": "5000000.00",
+        "base_volume": "3000000.00",
+        "fee_tier": "0.0100",
+        "p_current": "1.2500",
+        "p_lower": "1.0000",
+        "p_upper": "1.5000",
+        "sigma_vol": "1.20",
+        "tau_days": 30,
+        "kappa": "0.85",
+        "ticket_size_usd": "250000.00"
+      },
+      "expected": {
+        "spot_fee_apy": "2.190000000000",
+        "range_occupancy_probability": "0.036020995239",
+        "range_dropout_risk_pct": "96.397900476100",
+        "diluted_fee_apy": "2.101034629853",
+        "active_fee_apy_in_range": "2.190000000000",
+        "active_fee_apy_out_of_range": "0.000000000000",
+        "expected_fee_apy": "0.075681358399",
+        "capacity_ceiling_usd": "1501024.224639",
+        "is_full_range_equivalent": false
+      }
+    }
+  ]
+}

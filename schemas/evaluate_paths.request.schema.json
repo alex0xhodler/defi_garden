@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/evaluate_paths.request.schema.json",
+  "title": "EvaluatePathsRequest",
+  "description": "Institutional comparator request schema for dg_evaluate_paths. Compliant with MiCA Article 81 and US Investment Advisers Act 1940: implements a stateless mathematical comparator. The caller explicitly supplies candidate paths, policies, scenarios, and optional caller-directed sort/weight vectors. No default fiduciary ranking, risk tolerance, or recommendation preferences are embedded.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paths", "snapshot_ref"],
+  "properties": {
+    "paths": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 128,
+      "description": "Candidate paths supplied by the caller for stateless mathematical evaluation.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path_id", "venue", "chain", "asset"],
+        "properties": {
+          "path_id": {
+            "type": "string",
+            "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$",
+            "description": "Unique identifier for the candidate path."
+          },
+          "venue": {
+            "type": "string",
+            "description": "Protocol or venue identifier (e.g. aave_v3, morpho_blue, pendle, uniswap_v3)."
+          },
+          "chain": {
+            "type": "string",
+            "enum": [
+              "ethereum",
+              "base",
+              "arbitrum",
+              "optimism",
+              "polygon",
+              "avalanche",
+              "linea",
+              "scroll",
+              "unichain"
+            ],
+            "description": "Network hosting the instrument."
+          },
+          "asset": {
+            "type": "string",
+            "description": "Denomination asset or underlying symbol (e.g. USDC, USDT, WETH)."
+          },
+          "protocol_type": {
+            "type": "string",
+            "enum": ["LENDING", "AMM_CL", "PENDLE_PT", "PENDLE_YT", "VAULT"],
+            "description": "Mechanical archetype of the instrument."
+          },
+          "pool_id": {
+            "type": "string",
+            "description": "On-chain pool contract or market identifier."
+          },
+          "maturity_days": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Contract maturity in days (required for fixed-tenor instruments such as Pendle PT/YT)."
+          },
+          "has_points_campaign": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether the instrument is subject to an off-chain or protocol points campaign."
+          }
+        }
+      }
+    },
+    "snapshot_ref": {
+      "description": "Reference to an immutable, content-addressed snapshot bundle.",
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^(snap_[0-9a-zA-Z_.-]{8,64}|(sha256:)?[0-9a-fA-F]{64})$"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["git_sha", "as_of_block"],
+          "properties": {
+            "snapshot_id": { "type": "string" },
+            "git_sha": { "type": "string", "pattern": "^[0-9a-fA-F]{7,40}$" },
+            "as_of_block": { "type": "integer", "minimum": 1 },
+            "bundle_hash": { "type": "string", "pattern": "^(sha256:)?[0-9a-fA-F]{64}$" }
+          }
+        }
+      ]
+    },
+    "notional_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 100000000,
+      "default": 100000,
+      "description": "Gross capital allocation in USD used to calculate dilution drag and gas drag."
+    },
+    "horizon_days": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3650,
+      "default": 30,
+      "description": "Evaluation horizon in days."
+    },
+    "scenario_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Caller-specified sensitivity or stress parameters.",
+      "properties": {
+        "rate_shock_bps": { "type": "number" },
+        "utilization_shock": { "type": "number" },
+        "haircut_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "stress_gas_gwei": { "type": "number", "minimum": 0 }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Caller-defined policy admission gates. Evaluated deterministically with reason codes.",
+      "properties": {
+        "min_tvl_usd": { "type": "number", "minimum": 0 },
+        "max_lock_days": { "type": "integer", "minimum": 0 },
+        "allowed_chains": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "disallowed_protocols": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "require_verified_contracts": { "type": "boolean", "default": true },
+        "min_liquidity_usd": { "type": "number", "minimum": 0 }
+      }
+    },
+    "caller_sort": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Caller-selected sort criteria. The server does NOT supply default ranking or advice.",
+      "properties": {
+        "key": {
+          "type": "string",
+          "enum": [
+            "INPUT_ORDER",
+            "GROSS_YIELD",
+            "NET_YIELD",
+            "DILUTION_DRAG",
+            "GAS_DRAG",
+            "FORECAST_RATE",
+            "CALLER_WEIGHTED"
+          ],
+          "default": "INPUT_ORDER"
+        },
+        "direction": {
+          "type": "string",
+          "enum": ["ASCENDING", "DESCENDING"],
+          "default": "DESCENDING"
+        }
+      }
+    },
+    "caller_weight_vector": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "Caller-defined weighting vector for multi-attribute comparator. Zero server-default weights."
+    },
+    "reporting_convention": {
+      "type": "string",
+      "enum": ["Act/365_periodic", "Act/365_continuous", "Act/360"],
+      "default": "Act/365_periodic"
+    },
+    "engine_version": {
+      "type": "string",
+      "default": "1.0.0"
+    }
+  },
+  "$defs": {
+    "explain_path_request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path_id"],
+      "properties": {
+        "path_id": {
+          "type": "string",
+          "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$"
+        },
+        "snapshot_ref": {
+          "type": "string"
+        },
+        "notional_usd": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 100000000
+        }
+      }
+    },
+    "simulate_ticket_request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ticket_id",
+        "path_id",
+        "notional_usd",
+        "horizon_days",
+        "side",
+        "execution"
+      ],
+      "properties": {
+        "ticket_id": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F-]{36}$"
+        },
+        "path_id": {
+          "type": "string",
+          "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$"
+        },
+        "notional_usd": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 100000000
+        },
+        "horizon_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3650
+        },
+        "side": {
+          "type": "string",
+          "enum": ["enter", "enter_and_exit", "exit"]
+        },
+        "execution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["chain_id", "slippage_bps_limit"],
+          "properties": {
+            "chain_id": { "type": "integer", "minimum": 1 },
+            "slippage_bps_limit": { "type": "number", "minimum": 0, "maximum": 1000 },
+            "priority_fee_gwei": { "type": "number", "minimum": 0 },
+            "simulate_mev": { "type": "boolean", "default": false }
+          }
+        },
+        "constraints": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "max_gas_usd": { "type": "number", "minimum": 0 },
+            "min_net_yield": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

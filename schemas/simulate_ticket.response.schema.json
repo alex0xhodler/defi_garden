@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/simulate_ticket.response.schema.json",
+  "title": "SimulateTicketResponse",
+  "description": "Simulation response for dg_simulate_ticket. Pure simulation output with execution economics and constraint evaluations. Zero evaluative advice.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ok",
+    "ticket_id",
+    "path_id",
+    "status",
+    "economics",
+    "execution_plan",
+    "constraints_eval",
+    "provenance",
+    "regulatory_disclosure"
+  ],
+  "properties": {
+    "ok": { "type": "boolean" },
+    "ticket_id": { "type": "string" },
+    "path_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["SIMULATED", "REJECTED", "STALE"]
+    },
+    "reject_reason": {
+      "type": "string",
+      "enum": [
+        "SLIPPAGE_LIMIT",
+        "MAX_GAS_USD",
+        "MIN_NET_YIELD",
+        "INSUFFICIENT_LIQUIDITY",
+        "CONVERGENCE_FAILURE"
+      ]
+    },
+    "economics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entry_slippage_bps",
+        "total_gas_usd",
+        "simulated_net_rate"
+      ],
+      "properties": {
+        "entry_slippage_bps": { "type": "number" },
+        "exit_slippage_bps": { "type": "number" },
+        "total_gas_usd": { "type": "number" },
+        "post_deposit_utilization": { "type": "number" },
+        "dilution_drag_bps": { "type": "number" },
+        "simulated_net_rate": { "type": "number" }
+      }
+    },
+    "execution_plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["calldata_simulation_only"],
+      "properties": {
+        "calldata_simulation_only": { "type": "boolean", "const": true },
+        "steps": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "constraints_eval": {
+      "type": "object",
+      "additionalProperties": { "type": "boolean" }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["simulation_block", "simulation_hash"],
+      "properties": {
+        "simulation_block": { "type": "integer" },
+        "simulation_hash": { "type": "string" }
+      }
+    },
+    "regulatory_disclosure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fiduciary_status"],
+      "properties": {
+        "fiduciary_status": { "type": "string", "const": "NON_ADVISORY_COMPARATOR" },
+        "notice": { "type": "string" }
+      }
+    }
+  }
+}

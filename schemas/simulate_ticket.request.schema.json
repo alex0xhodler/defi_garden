@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/simulate_ticket.request.schema.json",
+  "title": "SimulateTicketRequest",
+  "description": "Request schema for dg_simulate_ticket. State-dependent mathematical simulation of transaction execution, AMM price impact, and gas overhead. Does not broadcast or construct unsigned mainnet transactions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ticket_id",
+    "path_id",
+    "notional_usd",
+    "horizon_days",
+    "side",
+    "execution"
+  ],
+  "properties": {
+    "ticket_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Client-generated UUIDv4 idempotency key."
+    },
+    "path_id": {
+      "type": "string",
+      "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$",
+      "description": "Path identifier previously evaluated."
+    },
+    "notional_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000000,
+      "description": "Gross USD notional at entry."
+    },
+    "horizon_days": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3650,
+      "description": "Holding horizon in days."
+    },
+    "side": {
+      "type": "string",
+      "enum": ["enter", "enter_and_exit", "exit"],
+      "description": "Direction of simulation."
+    },
+    "position_ref": {
+      "type": "string",
+      "description": "Opaque reference from prior entry simulation if side = exit."
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chain_id", "slippage_bps_limit"],
+      "properties": {
+        "chain_id": { "type": "integer", "minimum": 1 },
+        "slippage_bps_limit": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "priority_fee_gwei": { "type": "number", "minimum": 0 },
+        "simulate_mev": { "type": "boolean", "default": false },
+        "dex_route_pref": {
+          "type": "string",
+          "enum": ["best_price", "fewest_hops", "deepest_liquidity"],
+          "default": "best_price"
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "max_gas_usd": { "type": "number", "minimum": 0 },
+        "min_net_yield": { "type": "number" },
+        "max_cvar_95": { "type": "number" }
+      }
+    }
+  }
+}

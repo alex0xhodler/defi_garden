@@ -1,0 +1,413 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/evaluate_paths.response.schema.json",
+  "title": "EvaluatePathsResponse",
+  "description": "Institutional evaluation bundle for dg_evaluate_paths. Compliant with MiCA Article 81 and US Investment Advisers Act 1940: the server produces an unordered or caller-sorted table of mathematical metrics with explicit basis taxonomy. Contains zero evaluative adjectives, zero fiduciary rankings, zero embedded risk-aversion constants, and zero investment advice.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ok",
+    "engine_version",
+    "ordering_basis",
+    "evaluated_paths",
+    "provenance",
+    "regulatory_disclosure"
+  ],
+  "properties": {
+    "ok": {
+      "type": "boolean",
+      "description": "Status boolean indicating successful completion of the evaluation pipeline."
+    },
+    "engine_version": {
+      "type": "string",
+      "description": "Version of the deterministic quantitative engine."
+    },
+    "ordering_basis": {
+      "type": "string",
+      "enum": ["UNORDERED", "INPUT_ORDER", "CALLER_SPECIFIED_KEY"],
+      "description": "Ordering mode of evaluated_paths. Default is INPUT_ORDER or UNORDERED. The server never applies a fiduciary ranking."
+    },
+    "caller_sort_applied": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string" },
+        "direction": { "type": "string", "enum": ["ASCENDING", "DESCENDING"] }
+      },
+      "description": "Echoes caller-directed sort instructions when caller_sort was passed in request."
+    },
+    "evaluated_paths": {
+      "type": "array",
+      "description": "Unordered or caller-ordered evaluation set of candidate capital paths.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path_id",
+          "venue",
+          "chain",
+          "asset",
+          "status",
+          "metrics",
+          "metric_taxonomy",
+          "policy_gates",
+          "warning_codes"
+        ],
+        "properties": {
+          "path_id": {
+            "type": "string",
+            "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$"
+          },
+          "venue": { "type": "string" },
+          "chain": { "type": "string" },
+          "asset": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["OK", "UNKNOWN", "STALE", "UNSUPPORTED", "INVALID"],
+            "description": "Freshness and availability state of underlying market data."
+          },
+          "metrics": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "gross_observed_yield",
+              "modeled_dilution_drag",
+              "estimated_gas_drag",
+              "net_projected_rate"
+            ],
+            "properties": {
+              "gross_observed_yield": {
+                "type": "number",
+                "description": "Observed spot gross yield annualized. Taxonomy: OBSERVED."
+              },
+              "modeled_dilution_drag": {
+                "type": "number",
+                "description": "Calculated rate dilution drag based on notional size. Taxonomy: MECHANICAL_CONDITIONAL."
+              },
+              "estimated_gas_drag": {
+                "type": "number",
+                "description": "Amortized gas overhead across horizon. Taxonomy: MECHANICAL_CONDITIONAL."
+              },
+              "net_projected_rate": {
+                "type": "number",
+                "description": "Net conditional rate: gross_observed_yield - modeled_dilution_drag - estimated_gas_drag. Taxonomy: MECHANICAL_CONDITIONAL."
+              },
+              "forecast_forward_rate": {
+                "type": "number",
+                "description": "Statistical forecast of forward rate. Taxonomy: STATISTICAL_FORECAST."
+              },
+              "caller_weighted_score": {
+                "type": "number",
+                "description": "Computed multi-attribute metric applying strictly caller-supplied weights. Present only if caller provided weight vector."
+              },
+              "pendle_spread": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "implied_apy",
+                  "fair_forward_apy",
+                  "delta_total",
+                  "delta_organic",
+                  "maturity_days",
+                  "forecast_horizon_days",
+                  "flag_unmodeled_points",
+                  "points_category",
+                  "taxonomy"
+                ],
+                "properties": {
+                  "implied_apy": { "type": "number" },
+                  "fair_forward_apy": { "type": "number" },
+                  "delta_total": { "type": "number" },
+                  "delta_organic": { "type": "number" },
+                  "maturity_days": { "type": "number" },
+                  "forecast_horizon_days": { "type": "number" },
+                  "maturity_delta_days": { "type": "number" },
+                  "has_points_campaign": { "type": "boolean" },
+                  "estimated_points_apy": { "type": "number" },
+                  "flag_unmodeled_points": { "type": "boolean" },
+                  "points_category": {
+                    "type": "string",
+                    "enum": ["EXOGENOUS_POINTS_UNMODELED", "NONE"]
+                  },
+                  "taxonomy": {
+                    "type": "object",
+                    "additionalProperties": { "type": "string" }
+                  },
+                  "availability": { "type": "string" },
+                  "warning_codes": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            }
+          },
+          "metric_taxonomy": {
+            "type": "object",
+            "description": "Taxonomy classification for each metric according to Blueprint Section 2.2.",
+            "additionalProperties": {
+              "type": "string",
+              "enum": [
+                "OBSERVED",
+                "CONTRACTUAL_AS_OBSERVED",
+                "MECHANICAL_CONDITIONAL",
+                "STATISTICAL_FORECAST",
+                "CALLER_SCENARIO",
+                "UNMODELED",
+                "EXOGENOUS_POINTS_UNMODELED"
+              ]
+            }
+          },
+          "policy_gates": {
+            "type": "array",
+            "description": "Evaluation of caller-supplied policy criteria.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["gate_name", "passed", "observed_value", "threshold", "reason_code"],
+              "properties": {
+                "gate_name": { "type": "string" },
+                "passed": { "type": "boolean" },
+                "observed_value": {},
+                "threshold": {},
+                "reason_code": { "type": "string" }
+              }
+            }
+          },
+          "warning_codes": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evaluation_input_hash",
+        "engine_version",
+        "policy_hash",
+        "scenario_set_hash",
+        "snapshot_hashes",
+        "block_numbers_and_hashes",
+        "source_timestamps",
+        "reporting_convention",
+        "economic_result_hash",
+        "warning_codes"
+      ],
+      "properties": {
+        "evaluation_input_hash": { "type": "string" },
+        "engine_version": { "type": "string" },
+        "adapter_versions": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "policy_hash": { "type": "string" },
+        "scenario_set_hash": { "type": "string" },
+        "snapshot_hashes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "block_numbers_and_hashes": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "source_timestamps": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "reporting_convention": { "type": "string" },
+        "economic_result_hash": { "type": "string" },
+        "warning_codes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "regulatory_disclosure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fiduciary_status",
+        "mica_compliance",
+        "us_advisers_act_compliance",
+        "disclaimer"
+      ],
+      "properties": {
+        "fiduciary_status": {
+          "type": "string",
+          "const": "NON_ADVISORY_COMPARATOR"
+        },
+        "mica_compliance": {
+          "type": "string",
+          "description": "MiCA Article 81 notice confirming service is a non-personalized mathematical comparator, not crypto-asset advice."
+        },
+        "us_advisers_act_compliance": {
+          "type": "string",
+          "description": "US Investment Advisers Act 1940 notice confirming calculation utility status without client profiling, recommendations, or discretionary advice."
+        },
+        "disclaimer": {
+          "type": "string",
+          "description": "Legal disclaimer confirming purely deterministic mathematical calculations based on caller-specified criteria."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "explain_path_response": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ok",
+        "path_id",
+        "snapshot_ref",
+        "attribution",
+        "regulatory_disclosure"
+      ],
+      "properties": {
+        "ok": { "type": "boolean" },
+        "path_id": { "type": "string" },
+        "snapshot_ref": { "type": "string" },
+        "attribution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["cashflows", "dilution", "pendle", "gas", "hurdle", "irr_bridge"],
+          "properties": {
+            "cashflows": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["leg_index", "source", "rate_component", "included_in_net"],
+                "properties": {
+                  "leg_index": { "type": "integer" },
+                  "source": { "type": "string" },
+                  "rate_component": { "type": "number" },
+                  "included_in_net": { "type": "boolean" },
+                  "basis": { "type": "string" }
+                }
+              }
+            },
+            "dilution": {
+              "type": ["object", "null"],
+              "properties": {
+                "liquidity_usd": { "type": "number" },
+                "delta_liquidity_usd": { "type": "number" },
+                "dilution_drag_bps": { "type": "number" }
+              }
+            },
+            "pendle": {
+              "type": ["object", "null"],
+              "properties": {
+                "pt_price": { "type": "number" },
+                "yt_price": { "type": "number" },
+                "sy_price": { "type": "number" },
+                "delta_total": { "type": "number" },
+                "delta_organic": { "type": "number" },
+                "flag_unmodeled_points": { "type": "boolean" },
+                "points_category": { "type": "string" }
+              }
+            },
+            "gas": {
+              "type": "object",
+              "required": ["enter_usd", "exit_usd", "drag_rate"],
+              "properties": {
+                "enter_usd": { "type": "number" },
+                "exit_usd": { "type": "number" },
+                "drag_rate": { "type": "number" }
+              }
+            },
+            "hurdle": {
+              "type": "object",
+              "required": ["hurdle_rate", "net_rate", "clear_bps"],
+              "properties": {
+                "hurdle_rate": { "type": "number" },
+                "net_rate": { "type": "number" },
+                "clear_bps": { "type": "number" }
+              }
+            },
+            "irr_bridge": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["step_name", "rate_after"],
+                "properties": {
+                  "step_name": { "type": "string" },
+                  "rate_after": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "regulatory_disclosure": {
+          "type": "object",
+          "required": ["fiduciary_status"],
+          "properties": {
+            "fiduciary_status": { "type": "string", "const": "NON_ADVISORY_COMPARATOR" }
+          }
+        }
+      }
+    },
+    "simulate_ticket_response": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ok",
+        "ticket_id",
+        "path_id",
+        "status",
+        "economics",
+        "execution_plan",
+        "constraints_eval",
+        "provenance",
+        "regulatory_disclosure"
+      ],
+      "properties": {
+        "ok": { "type": "boolean" },
+        "ticket_id": { "type": "string" },
+        "path_id": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["SIMULATED", "REJECTED", "STALE"]
+        },
+        "economics": {
+          "type": "object",
+          "required": ["entry_slippage_bps", "total_gas_usd", "simulated_net_rate"],
+          "properties": {
+            "entry_slippage_bps": { "type": "number" },
+            "exit_slippage_bps": { "type": "number" },
+            "total_gas_usd": { "type": "number" },
+            "simulated_net_rate": { "type": "number" }
+          }
+        },
+        "execution_plan": {
+          "type": "object",
+          "required": ["calldata_simulation_only"],
+          "properties": {
+            "calldata_simulation_only": { "type": "boolean", "const": true },
+            "steps": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "constraints_eval": {
+          "type": "object",
+          "additionalProperties": { "type": "boolean" }
+        },
+        "provenance": {
+          "type": "object",
+          "required": ["simulation_block", "simulation_hash"],
+          "properties": {
+            "simulation_block": { "type": "integer" },
+            "simulation_hash": { "type": "string" }
+          }
+        },
+        "regulatory_disclosure": {
+          "type": "object",
+          "required": ["fiduciary_status"],
+          "properties": {
+            "fiduciary_status": { "type": "string", "const": "NON_ADVISORY_COMPARATOR" }
+          }
+        }
+      }
+    }
+  }
+}
