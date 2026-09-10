@@ -1,5 +1,7 @@
 # ETH 디파이 수익률
 
+*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+
 현재 ETH의 가장 높은 정직한 수익률은 Arbitrum의 gmx-v2-perps에서 6.09%이며, $100K TVL 기준을 넘는 419개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -12,6 +14,14 @@
 | [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token) | Ethereum | 1.55% | $59.84M |
 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.18% | $54.74M |
 | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token) | Arbitrum | 6.09% | $53.9M |
+
+## ETH 디파이 수익률 생성 원리
+
+ETH의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.
+
+총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.
+
+모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성

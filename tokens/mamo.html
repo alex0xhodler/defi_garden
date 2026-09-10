@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"MAMO","item":"https://www.defi.garden/tokens/mamo"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750"},{"@type":"ListItem","position":2,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc"},{"@type":"ListItem","position":3,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579"},{"@type":"ListItem","position":4,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"MAMO DeFi Yields Dataset","description":"Live DefiLlama yield data for MAMO pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/mamo","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest MAMO yield today?","acceptedAnswer":{"@type":"Answer","text":"704.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data."}},{"@type":"Question","name":"How many MAMO pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $1.33M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which MAMO pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 262.89% APY, $363.3K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token; aerodrome-slipstream (Base), 241.00% APY, $299.7K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token; aerodrome-slipstream (Base), 704.51% APY, $261.2K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token; aerodrome-slipstream (Base), 331.70% APY, $403.2K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="MAMO DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live MAMO pools above the $100K TVL floor, up to 704.51% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>MAMO DeFi Yields</h1>
     <p class="tp-answer">The highest honest MAMO yield right now is 704.51% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">MAMO's largest live pool is aerodrome-slipstream on Base at 331.70% ($403.2K TVL). 4 MAMO pools across 1 chain clear this page's $100K TVL floor, $1.33M in total.</p>
     <p class="tp-yield-headline">Your idle MAMO could earn ~297.29% — park $81 and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=MAMO&minTvl=100000&src=seo_token">See live MAMO pools →</a>
@@ -365,6 +367,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, MAMO&#39;s lower-variability candidates are aerodrome-slipstream (Base), 262.89% APY, $363.3K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&amp;src=seo_token; aerodrome-slipstream (Base), 241.00% APY, $299.7K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&amp;src=seo_token; aerodrome-slipstream (Base), 704.51% APY, $261.2K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&amp;src=seo_token; aerodrome-slipstream (Base), 331.70% APY, $403.2K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

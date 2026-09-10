@@ -37,7 +37,7 @@ const { getPoolType, selectHeadTokens } = require('./generate-sitemap.js');
 // ships (translations.js is Node-requireable — module.exports at the bottom).
 // Static pages are copy-only translated: pool data/numbers are identical
 // between language variants (CLAUDE.md — en-US formatting, never per-locale).
-const { createTranslationFunction, translations } = require('./translations.js');
+const { createTranslationFunction, translations, formatCount } = require('./translations.js');
 // REUSE (spec 066): planner.js IS Node-requireable (module.exports guarded at
 // its own bottom, same convention as translations.js) — its blendedApy/
 // foreverNumber/SUBSCRIPTION_LADDER are the SAME rate-blend + forever-number
@@ -66,6 +66,8 @@ const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
+// Tier-1 head tokens receiving dedicated title patterns, educational sections, and sitemap tiering
+const HEAD_TOKENS = new Set(['USDC', 'USDT', 'ETH', 'WETH', 'DAI', 'SOL', 'WBTC', 'BTC', 'STETH', 'WSTETH']);
 // Shared social/SERP image every page falls back to when it has no per-slug
 // OG card of its own (hub/A-Z pages, or a generation failure — 051).
 const OG_FALLBACK_REL_PATH = 'og-image.png';
@@ -1485,6 +1487,95 @@ ${t('tcpDepthNote', formatUsd(MIN_POOL_TVL))}
 
 `;
 }
+// --- Tier-1 head token helpers (Step 4 upgrade) -----------------------------
+function resolveTranslation(t, language, key, fallbackEn, fallbackKo, ...params) {
+  const res = t(key, ...params);
+  if (res && res !== key) return res;
+  return language === 'ko' ? fallbackKo : fallbackEn;
+}
+
+function tokenPageTitle(rec, language, t) {
+  if (HEAD_TOKENS.has(rec.symbol.toUpperCase())) {
+    const countStr = formatCount(rec.qualifyingCount);
+    const translated = t('tokenHeadTitle', rec.symbol, countStr);
+    if (translated && translated !== 'tokenHeadTitle') {
+      return translated;
+    }
+    return language === 'ko'
+      ? `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden 🌱`
+      : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden 🌱`;
+  }
+  return t('tcpTokenTitle', rec.symbol);
+}
+
+function renderTokenHowHtml(symbol, language, t) {
+  const title = resolveTranslation(t, language, 'tokenHowTitle',
+    `How ${symbol} Yield is Generated`,
+    `${symbol} 디파이 수익률 생성 원리`,
+    symbol
+  );
+  const sources = resolveTranslation(t, language, 'tokenHowSources',
+    `Yield on ${symbol} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
+    `${symbol}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
+    symbol
+  );
+  const baseReward = resolveTranslation(t, language, 'tokenHowBaseReward',
+    'Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.',
+    '총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.'
+  );
+  const risk = resolveTranslation(t, language, 'tokenHowRisk',
+    'All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.',
+    '모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.'
+  );
+
+  return `    <section class="tp-how">
+      <h2>${escapeHtml(title)}</h2>
+      <p>${escapeHtml(sources)}</p>
+      <p>${escapeHtml(baseReward)}</p>
+      <p class="tp-how-risk">${escapeHtml(risk)}</p>
+    </section>\n`;
+}
+
+function renderTokenHowMarkdown(symbol, language, t) {
+  const title = resolveTranslation(t, language, 'tokenHowTitle',
+    `How ${symbol} Yield is Generated`,
+    `${symbol} 디파이 수익률 생성 원리`,
+    symbol
+  );
+  const sources = resolveTranslation(t, language, 'tokenHowSources',
+    `Yield on ${symbol} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
+    `${symbol}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
+    symbol
+  );
+  const baseReward = resolveTranslation(t, language, 'tokenHowBaseReward',
+    'Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.',
+    '총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.'
+  );
+  const risk = resolveTranslation(t, language, 'tokenHowRisk',
+    'All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.',
+    '모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.'
+  );
+
+  return `## ${title}
+
+${sources}
+
+${baseReward}
+
+${risk}
+
+`;
+}
+
+function renderTokenHowStyle(isHeadToken) {
+  if (!isHeadToken) return '';
+  return `      .tp-how { margin: 30px 0 8px; }
+      .tp-how h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-how p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-how .tp-how-risk { color: var(--ui-text-secondary); font-size: .9rem; border-left: 2px solid var(--ui-border-strong); padding-left: 12px; margin-top: 14px; }
+`;
+}
+
 
 /** Render a single token's static landing page as an HTML string.
  * `ogImagePaths` (051): Map<slug, relPath> from generateOgImages — falls
@@ -1510,7 +1601,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const headlinePool = headlinePoolFor(rec.pools);
   const bestApy = poolTotalApy(headlinePool);
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
-  const title = t('tcpTokenTitle', rec.symbol);
+  const isHeadToken = HEAD_TOKENS.has(rec.symbol.toUpperCase());
+  const title = tokenPageTitle(rec, language, t);
+  const updatedText = resolveTranslation(t, language, 'tokenUpdated',
+    `Pool data verified from DefiLlama at generation time: ${genDate}. Rates change continuously.`,
+    `DefiLlama 데이터 생성 시점 검증: ${genDate}. 수익률은 지속적으로 변동합니다.`,
+    genDate
+  );
+  const howBlock = isHeadToken ? renderTokenHowHtml(rec.symbol, language, t) : '';
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
   // re-typed literal. One formatted value, reused by every t(...) call below.
   const floorStr = formatUsd(MIN_POOL_TVL);
@@ -1626,7 +1724,6 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
-    <script type="application/ld+json">${faqJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
@@ -1684,6 +1781,8 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+${renderTokenHowStyle(isHeadToken)}
 ${renderRateBehaviourStyle(isHead)}      .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
 ${renderWaitlistCtaStyle('tp')}    </style>
@@ -1693,6 +1792,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
   <main class="tp-wrap">
     <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
+    <p class="tp-updated">${escapeHtml(updatedText)}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="tp-cta" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
@@ -1707,6 +1807,7 @@ ${rows}
     </table>
     </div>
     </div>
+${howBlock}
 ${stabilityBlock}${depthBlock}${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
@@ -1771,13 +1872,15 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, 
 
   return `# ${t('tcpTokenHeading', rec.symbol)}
 
+*${resolveTranslation(t, language, 'tokenUpdated', `Pool data verified from DefiLlama at generation time: ${genDate}. Rates change continuously.`, `DefiLlama 데이터 생성 시점 검증: ${genDate}. 수익률은 지속적으로 변동합니다.`, genDate)}*
+
 ${answer}
 
 | ${t('tcpColProtocol')} | ${t('tcpColChain')} | ${t('tcpColApy')} | ${t('tcpColTvl')} |
 |---|---|---|---|
 ${rows}
 
-${stabilityMd}${t('tcpTrustNote', floorStr)}
+${(HEAD_TOKENS.has(rec.symbol.toUpperCase())) ? renderTokenHowMarkdown(rec.symbol, language, t) : ''}${stabilityMd}${t('tcpTrustNote', floorStr)}
 
 ${depthMd}## ${t('tcpFaqHeading')}
 
@@ -1800,8 +1903,12 @@ function renderTokenSitemap(ranked, lastmod, extraLocs, lang) {
   const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
   const extra = (extraLocs || []).map(loc =>
     `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
-  const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
+  const urls = (ranked || []).map(rec => {
+    const isHead = HEAD_TOKENS.has(rec.symbol.toUpperCase());
+    const priority = isHead ? '0.8' : '0.3';
+    const changefreq = isHead ? 'daily' : 'weekly';
+    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+  });
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
@@ -1999,6 +2106,7 @@ module.exports = {
   assertNonEmptyPages,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
+  HEAD_TOKENS, renderTokenHowHtml, renderTokenHowMarkdown, renderTokenHowStyle, tokenPageTitle,
   poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,

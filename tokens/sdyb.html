@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"SDYB","item":"https://www.defi.garden/tokens/sdyb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8"},{"@type":"ListItem","position":2,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29"},{"@type":"ListItem","position":3,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d"},{"@type":"ListItem","position":4,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"SDYB DeFi Yields Dataset","description":"Live DefiLlama yield data for SDYB pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/sdyb","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SDYB yield today?","acceptedAnswer":{"@type":"Answer","text":"14.15% APY on convex-finance (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SDYB pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $1.2M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which SDYB pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, SDYB's lower-variability candidates are stake-dao-yield (Ethereum), 12.96% APY, $191.4K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token; curve-dex (Ethereum), 8.25% APY, $247K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token; convex-finance (Ethereum), 14.15% APY, $161.1K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c&src=seo_token; stake-dao-yield (Ethereum), 6.27% APY, $599.8K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="SDYB DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live SDYB pools above the $100K TVL floor, up to 14.15% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>SDYB DeFi Yields</h1>
     <p class="tp-answer">The highest honest SDYB yield right now is 14.15% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">SDYB's largest live pool is stake-dao-yield on Ethereum at 6.27% ($599.8K TVL). 4 SDYB pools across 1 chain clear this page's $100K TVL floor, $1.2M in total.</p>
     <p class="tp-yield-headline">Your idle SDYB could earn ~10.60% — park $2.3K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=SDYB&minTvl=100000&src=seo_token">See live SDYB pools →</a>
@@ -365,6 +367,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, SDYB&#39;s lower-variability candidates are stake-dao-yield (Ethereum), 12.96% APY, $191.4K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&amp;src=seo_token; curve-dex (Ethereum), 8.25% APY, $247K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&amp;src=seo_token; convex-finance (Ethereum), 14.15% APY, $161.1K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c&amp;src=seo_token; stake-dao-yield (Ethereum), 6.27% APY, $599.8K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

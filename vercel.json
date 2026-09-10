@@ -90,6 +90,18 @@
   "redirects": [
     {
       "source": "/",
+      "has": [{ "type": "host", "value": "^defi\\.garden$" }],
+      "destination": "https://www.defi.garden/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "^defi\\.garden$" }],
+      "destination": "https://www.defi.garden/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
       "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
       "destination": "https://www.defi.garden/",
       "permanent": true
@@ -110,6 +122,18 @@
         }
       ],
       "destination": "/ai-info.md",
+      "permanent": false
+    },
+    {
+      "source": "/guide/defi-yield-rates-explained",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/guide/defi-yield-rates-explained.md",
       "permanent": false
     },
     {

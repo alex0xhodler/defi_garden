@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"STONK","item":"https://www.defi.garden/tokens/stonk"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614"},{"@type":"ListItem","position":2,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628"},{"@type":"ListItem","position":3,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177"},{"@type":"ListItem","position":4,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357"},{"@type":"ListItem","position":5,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa"},{"@type":"ListItem","position":6,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=e93abfe8-884e-559e-86d3-40e2bbc9336c"},{"@type":"ListItem","position":7,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=4fd9244d-9f7a-5813-8f03-a16975480583"},{"@type":"ListItem","position":8,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=f89b382c-25d1-537b-8039-1e159a3691c2"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"STONK DeFi Yields Dataset","description":"Live DefiLlama yield data for STONK pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/stonk","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest STONK yield today?","acceptedAnswer":{"@type":"Answer","text":"536.06% APY on raydium-amm (Solana), based on live DefiLlama data."}},{"@type":"Question","name":"How many STONK pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"9 live pools clear this page's $100K TVL floor, $4.89M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which STONK pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, STONK's lower-variability candidates are raydium-amm (Solana), 536.06% APY, $1.77M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token; raydium-amm (Solana), 296.24% APY, $629K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="STONK DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="9 live STONK pools above the $100K TVL floor, up to 536.06% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>STONK DeFi Yields</h1>
     <p class="tp-answer">The highest honest STONK yield right now is 536.06% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">9 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">STONK's largest live pool is raydium-amm on Solana at 536.06% ($1.77M TVL). 9 STONK pools across 1 chain clear this page's $100K TVL floor, $4.89M in total.</p>
     <p class="tp-yield-headline">Your idle STONK could earn ~226.99% — park $106 and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=STONK&minTvl=100000&src=seo_token">See live STONK pools →</a>
@@ -389,6 +391,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, STONK&#39;s lower-variability candidates are raydium-amm (Solana), 536.06% APY, $1.77M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&amp;src=seo_token; raydium-amm (Solana), 296.24% APY, $629K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

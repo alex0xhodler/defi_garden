@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"OUSD","item":"https://www.defi.garden/tokens/ousd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"origin-dollar on Ethereum","url":"https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68"},{"@type":"ListItem","position":2,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b"},{"@type":"ListItem","position":3,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c"},{"@type":"ListItem","position":4,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe"},{"@type":"ListItem","position":5,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9"},{"@type":"ListItem","position":6,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"OUSD DeFi Yields Dataset","description":"Live DefiLlama yield data for OUSD pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/ousd","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest OUSD yield today?","acceptedAnswer":{"@type":"Answer","text":"32.08% APY on stake-dao-yield (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many OUSD pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"6 live pools clear this page's $100K TVL floor, $7.45M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which OUSD pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 5.48% APY, $190.4K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao-yield (Ethereum), 6.83% APY, $107.4K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 2.72% APY, $1.1M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.63M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="OUSD DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="6 live OUSD pools above the $100K TVL floor, up to 32.08% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>OUSD DeFi Yields</h1>
     <p class="tp-answer">The highest honest OUSD yield right now is 32.08% on stake-dao-yield (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">6 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">OUSD's largest live pool is origin-dollar on Ethereum at 6.50% ($5.63M TVL). 6 OUSD pools across 1 chain clear this page's $100K TVL floor, $7.45M in total.</p>
     <p class="tp-yield-headline">Your idle OUSD could earn ~6.66% — park $3.6K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=OUSD&minTvl=100000&src=seo_token">See live OUSD pools →</a>
@@ -377,6 +379,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, OUSD&#39;s lower-variability candidates are curve-dex (Ethereum), 5.48% APY, $190.4K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&amp;src=seo_token; stake-dao-yield (Ethereum), 6.83% APY, $107.4K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&amp;src=seo_token; curve-dex (Ethereum), 2.72% APY, $1.1M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&amp;src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.63M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

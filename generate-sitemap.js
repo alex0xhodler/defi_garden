@@ -654,7 +654,8 @@ async function generateSitemapSuite(poolsOverride) {
     // 1. Main & Metadata Sitemaps (clean, static canonical URLs only — no parameterized query filters)
     console.log('📝 Building sitemap-main.xml...');
     sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}agents`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
 

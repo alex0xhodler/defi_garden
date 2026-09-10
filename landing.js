@@ -10,6 +10,7 @@
   var e = R.createElement;
   var useEffect = R.useEffect;
   var useState = R.useState;
+  var useRef = R.useRef;
 
   var TOKEN_HINTS = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'SOL', 'LINK', 'UNI', 'AAVE', 'CRV'];
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
@@ -424,11 +425,120 @@
       writeTheme(dark);
     }, [language, dark, copy]);
 
+    // Post-mount KO localization for static SEO content section (fintech-seo v2)
+    useEffect(function () {
+      if (detectLanguage() !== 'ko') return;
+      try {
+        var landingCopy = getCopy('ko');
+        if (!landingCopy) return;
+        var seoMap = {
+          'seo-eyebrow': 'seoEyebrow',
+          'seo-h1': 'seoH1',
+          'seo-lede': 'seoLede',
+          'seo-calc-p': 'seoCalcP',
+          'seo-calc-cta': 'seoCalcCta',
+          'seo-rails-p': 'seoRailsP',
+          'seo-risk': 'seoRisk',
+          'seo-guide-link': 'seoGuideLink',
+          'seo-link-usdc': 'seoLinkUsdc',
+          'seo-link-usdt': 'seoLinkUsdt',
+          'seo-link-eth': 'seoLinkEth',
+          'seo-link-dai': 'seoLinkDai',
+          'seo-link-base': 'seoLinkBase',
+          'seo-link-arbitrum': 'seoLinkArbitrum',
+          'seo-link-solana': 'seoLinkSolana',
+          'seo-link-ethereum': 'seoLinkEthereum'
+        };
+        for (var id in seoMap) {
+          var el = document.getElementById(id);
+          var key = seoMap[id];
+          if (el && landingCopy[key]) {
+            el.textContent = landingCopy[key];
+          }
+        }
+      } catch (err) {}
+    }, [language]);
+
     useEffect(function () {
       if (showReturnCard && typeof Analytics !== 'undefined') {
-        Analytics.track('garden_reentry_shown', { goal: savedPlan.goal, archetype: savedPlan.archetype || null });
+        Analytics.track('garden_reentry_clicked', { goal: savedPlan.goal, archetype: savedPlan.archetype || null });
       }
     }, [showReturnCard]);
+
+    // Horizontal panel-swap navigation (fintech-seo v2). The landing's two
+    // panels (hero = #landing-root's .landing-app, rates = #seo-content) sit
+    // side-by-side in a body-level x-snap track. Wheel / trackpad scroll,
+    // arrow keys, and the 2-dot page indicator all swap between them so the
+    // first scroll is effortless. activePanel state drives the dot fill and
+    // is synced from body scroll. Respects reduced-motion. No-op unless the
+    // track is active.
+    var activePanelState = useState(0);
+    var activePanel = activePanelState[0];
+    var setActivePanel = activePanelState[1];
+
+    function panelMax() { return Math.max(0, document.body.scrollWidth - document.body.clientWidth); }
+    // Ref holding the effect-scoped goToPanel so the dots' onClick (JSX, outside
+    // the effect) can drive a swap. Assigned on mount; noop until then.
+    var goToPanelRef = useRef(function () {});
+    function goToPanel(panel) { goToPanelRef.current(panel); }
+
+    useEffect(function () {
+      var body = document.body;
+      var settling = false;       // true while a programmatic swap animates
+      var settleTimer = null;
+      // Target panel for an in-flight swap. Reading this (not the mid-animation
+      // scrollLeft) for the current panel keeps rapid wheel gestures from
+      // re-firing and fighting the scroll-snap, which caused the wiggle.
+      var navPanel = 0;
+
+      function currentPanel() {
+        var max = panelMax();
+        return max === 0 ? 0 : Math.round(body.scrollLeft / max);
+      }
+      function syncFromScroll() { setActivePanel(currentPanel()); }
+      function goToPanelEffect(panel) {
+        navPanel = panel;
+        setActivePanel(panel);
+        settling = true;
+        clearTimeout(settleTimer);
+        // Release the lock shortly after the smooth scroll should have landed;
+        // syncFromScroll also clears it when the target scrollLeft is reached.
+        settleTimer = setTimeout(function () { settling = false; }, 600);
+        var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        body.scrollTo({ left: panelMax() * panel, behavior: reduced ? 'auto' : 'smooth' });
+      }
+      goToPanelRef.current = goToPanelEffect;
+      function onWheel(e) {
+        if (window.__APP_MODE !== 'landing') return;
+        if (settling) { e.preventDefault(); return; }
+        var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+        if (Math.abs(delta) < 8) return;
+        var dir = delta > 0 ? 1 : -1;
+        // Wrap at the edges: scrolling past the last panel loops back to the
+        // first (and vice versa), so the user scrolls continuously through both.
+        var next = navPanel + dir;
+        if (next > 1) next = 0;
+        else if (next < 0) next = 1;
+        e.preventDefault();
+        goToPanelEffect(next);
+      }
+      function onKey(e) {
+        if (window.__APP_MODE !== 'landing') return;
+        var tag = (e.target && e.target.tagName) || '';
+        if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(navPanel === 1 ? 0 : 1); }
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(navPanel === 0 ? 1 : 0); }
+      }
+      body.addEventListener('wheel', onWheel, { passive: false });
+      document.addEventListener('keydown', onKey);
+      body.addEventListener('scroll', syncFromScroll, { passive: true });
+      return function () {
+        clearTimeout(settleTimer);
+        body.removeEventListener('wheel', onWheel);
+        document.removeEventListener('keydown', onKey);
+        body.removeEventListener('scroll', syncFromScroll);
+      };
+    }, []);
 
     function toggleLanguage() {
       var next = language === 'en' ? 'ko' : 'en';
@@ -695,6 +805,25 @@
           )
         )
         */
+      ),
+      // Page indicator (fintech-seo v2) — 2 square dots, iPhone-style, fixed
+      // above the footer so they persist across the panel swap. Filled =
+      // active panel; clicking either swaps to it; state syncs from body scroll.
+      e('nav', { className: 'landing-page-dots', 'aria-label': copy.pageIndicator || 'Landing pages' },
+        e('button', {
+          type: 'button',
+          className: 'landing-page-dot' + (activePanel === 0 ? ' is-active' : ''),
+          onClick: function () { goToPanel(0); },
+          'aria-label': copy.pageIndicatorHero || 'Overview',
+          'aria-current': activePanel === 0 ? 'true' : undefined
+        }),
+        e('button', {
+          type: 'button',
+          className: 'landing-page-dot' + (activePanel === 1 ? ' is-active' : ''),
+          onClick: function () { goToPanel(1); },
+          'aria-label': copy.pageIndicatorRates || 'Live yield rates',
+          'aria-current': activePanel === 1 ? 'true' : undefined
+        })
       ),
       e('footer', { className: 'app-footer' },
         e('p', null,

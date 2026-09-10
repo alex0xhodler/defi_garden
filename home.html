@@ -6,8 +6,8 @@
 
     <!-- Default title/meta for the search-first landing — planner and analytics
          modes rewrite these values in the router or their mounted app. -->
-    <title>DeFi Garden 🌱 | Find your next yield</title>
-    <meta name="description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
+    <title>DeFi Yield Finder &amp; Savings Planner — Live On-Chain Rates | DeFi Garden 🌱</title>
+    <meta name="description" content="Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
@@ -26,8 +26,8 @@
     <link rel="alternate" type="text/markdown" href="https://www.defi.garden/ai-info.md" title="AI Info Guide">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="DeFi Garden 🌱 | Find your next yield">
-    <meta property="og:description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
+    <meta property="og:title" content="DeFi Yield Finder &amp; Savings Planner — Live On-Chain Rates | DeFi Garden 🌱">
+    <meta property="og:description" content="Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/">
     <meta property="og:site_name" content="DeFi Garden">
@@ -139,9 +139,9 @@
                 var ogTitle = document.querySelector('meta[property="og:title"]');
                 if (ogTitle) ogTitle.content = document.title;
             } else if (needsPlanner) {
-                document.title = 'Garden Planner 🌱 | Plan Your DeFi Savings by Goal — DeFi Garden';
+                document.title = 'DeFi Savings Calculator — Compound Yield & Goal Planner | DeFi Garden 🌱';
                 var plannerDesc = document.querySelector('meta[name="description"]');
-                if (plannerDesc) plannerDesc.content = 'A goal-first DeFi savings planner. Tell us what you\'re saving for and how much you can set aside each month — we\'ll show what live, real pool rates could grow it into. Education, not advice.';
+                if (plannerDesc) plannerDesc.content = 'Calculate compound savings growth from live DeFi pool rates. Model monthly deposits, goal timelines, and forever numbers. Free, no wallet needed.';
                 var plannerOgTitle = document.querySelector('meta[property="og:title"]');
                 if (plannerOgTitle) plannerOgTitle.content = document.title;
             }
@@ -170,7 +170,7 @@
          runs on) sets no matching data-app-mode, so its static links stay
          visible + clickable — no rule needed for that case.
          Keep this selector identical to the style.css rule. -->
-    <style>html[data-app-mode="analytics"] .seo-hub-links,html[data-app-mode="landing"] .seo-hub-links{display:none}</style>
+    <style>html[data-app-mode="analytics"] .seo-hub-links,html[data-app-mode="landing"] .seo-hub-links{display:none}html[data-app-mode="analytics"] .seo-content,html[data-app-mode="planner"] .seo-content{display:none}html[data-app-mode="landing"] #landing-root:empty{min-height:70vh}</style>
 
     <!-- Mode-conditional CSS: injected synchronously so it fetches in parallel -->
     <script>
@@ -384,6 +384,36 @@
       <a href="/chains">Browse chains</a>
       <a href="/agents">AI Agents & MCP</a>
     </footer>
+
+    <!-- Permanent SEO content (fintech-seo v2) — "screen 2" of the landing.
+         The landing app (hero, panel 1) and this panel sit side-by-side in a
+         horizontal snap track; the header and footer stay fixed and only the
+         panel content switches. Visible to crawlers AND users (never hidden
+         on the landing route — hidden content would be soft-cloaking).
+         Hidden entirely in analytics/planner modes via the critical inline
+         style above. landing.js localizes the ids for ?lang=ko post-mount. -->
+    <section class="seo-content" id="seo-content" aria-label="About DeFi Garden yields">
+      <span class="seo-eyebrow" id="seo-eyebrow">Live On-Chain Rates</span>
+      <h1 class="seo-title" id="seo-h1">DeFi Savings &amp; Yield Discovery</h1>
+      <p class="seo-lede" id="seo-lede">Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.</p>
+      <p class="seo-calc-line" id="seo-calc-p">The Garden Planner compounds monthly deposits at live stablecoin pool rates — illustrative example: at a fixed hypothetical 5% APY, $500/month for 3 years totals $18,000 deposited and about $19,457 in value. Not a live rate; open the planner for today's numbers.</p>
+      <p class="seo-cta-row"><a class="btn btn--primary seo-cta" href="/plan.html" id="seo-calc-cta">Open the DeFi Savings Calculator →</a></p>
+      <nav class="seo-markets" aria-label="Top yield markets">
+        <ul class="seo-market-links">
+          <li><a class="seo-chip" href="/tokens/usdc"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/6319/small/usdc.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-usdc">USDC yield rates</span></a></li>
+          <li><a class="seo-chip" href="/tokens/usdt"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/325/small/Tether.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-usdt">USDT yield rates</span></a></li>
+          <li><a class="seo-chip" href="/tokens/eth"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/279/small/ethereum.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-eth">ETH staking &amp; lending yields</span></a></li>
+          <li><a class="seo-chip" href="/tokens/dai"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-dai">DAI yield rates</span></a></li>
+          <li><a class="seo-chip" href="/chains/base"><img class="seo-chip-icon" src="https://icons.llamao.fi/icons/chains/rsz_base.jpg" alt="" width="15" height="15" loading="lazy"><span id="seo-link-base">Base chain yields</span></a></li>
+          <li><a class="seo-chip" href="/chains/arbitrum"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/16547/small/arb.jpg" alt="" width="15" height="15" loading="lazy"><span id="seo-link-arbitrum">Arbitrum yields</span></a></li>
+          <li><a class="seo-chip" href="/chains/solana"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/4128/small/solana.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-solana">Solana yields</span></a></li>
+          <li><a class="seo-chip" href="/chains/ethereum"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/279/small/ethereum.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-ethereum">Ethereum yields</span></a></li>
+        </ul>
+      </nav>
+      <p class="seo-rails" id="seo-rails-p">Listings exclude pools under $100K TVL and any pool with an anomalous APY above 1,000%. Rates come from DefiLlama and change continuously.</p>
+      <p class="seo-risk" id="seo-risk">Notice: Cryptocurrency and DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government agency. Yields fluctuate continuously. Smart contract, protocol, depeg, and liquidation risks apply.</p>
+      <p class="seo-guide-row"><a href="/guide/defi-yield-rates-explained" id="seo-guide-link">How DeFi yield works →</a></p>
+    </section>
 
     <!-- Analytics-app scripts — injected only when needed, as the CI-compiled
          AND minified output (compile-app.js + minify-assets.js / npm run

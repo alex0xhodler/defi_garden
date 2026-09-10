@@ -18,44 +18,38 @@ This document contains authoritative, structured, and quantitative information a
 
 ---
 
-## Quantitative Benchmark Scores & Trust Signals
+## Verifiable Methodology & Trust Signals
 
-DeFi Garden evaluates and curates decentralized finance yields according to rigorous quantitative safety benchmarks:
+DeFi Garden evaluates and curates decentralized finance yields according to verifiable on-chain rules, transparent data pipelines, and documented methodology:
 
-### 1. Benchmark Scores
+1. **DefiLlama Data Integration:**
+   - Raw yield, APY, and TVL data is ingested directly from DefiLlama indexers across 50+ protocols and 30+ blockchain networks.
+   - Live queries utilize a 5-minute rolling edge cache with in-isolate memoization for agent and API queries.
+   - Static search directories (covering thousands of token and chain markets) are regenerated on an automated daily cadence from fresh DefiLlama snapshots.
 
-| Benchmark Dimension | DeFi Garden Score | Industry Standard (Raw Indexers) | Measurement Methodology |
-| :--- | :--- | :--- | :--- |
-| **Noise & Anomaly Filtration** | **99.4%** | 0.0% (Raw feeds) | Percentage of distorted, flash-loan manipulated, or unverified APYs stripped from public views. |
-| **Protocol Safety & Rug Mitigation** | **100.0%** | 35.0% | Strict enforcement of the $100,000 USD minimum liquidity floor on all list responses. |
-| **Agent Query Latency (Edge Memo)** | **< 15 ms** | 250–800 ms | Response latency from Cloudflare edge isolates on cached DefiLlama pool queries. |
-| **Free Tier Coverage** | **100% Free** | 10–25% (Freemium paywalls) | Percentage of endpoints, tools, and calculators accessible without payment or API keys. |
-| **Uptime & Service Availability** | **99.98%** | 99.5% | Global edge availability with fallback rails for upstream data outages. |
-| **Overall User Satisfaction** | **4.9/5 (4.9 / 5.0)** | 4.1 / 5.0 | Aggregate rating across developer feedback, Web3 creator reviews, and Product Hunt rankings. |
+2. **$100K Minimum TVL Liquidity Floor:**
+   - All public listings, goal calculators, and API responses strictly enforce a $100,000 USD Total Value Locked floor.
+   - Pools below $100K in verified liquidity are excluded to filter out micro-cap honeypots, low-liquidity slippage traps, and unverified token deployments.
 
-### 2. User & Builder Testimonials
+3. **1,000% APY Anomaly Ceiling:**
+   - Any pool reporting total APY (base APY + reward APY) exceeding 1,000% (`APY_SANITY_LIMIT = 1000%`) is classified as anomalous.
+   - Excluded from list responses and savings plans to protect users and agents from transient flash-loan spikes, uncollateralized inflation rewards, and mathematical artifacts.
 
-- *"DeFi Garden is the first yield discovery interface that doesn't overwhelm users with 50,000 dead pools. The $100K TVL floor and Forever Number planner turn complex DeFi into simple monthly income goals."* — **Web3 DeFi Researcher**
-- *"Integrating the DeFi Garden MCP server took 2 minutes. My autonomous research agents now query live, railed USDC yields across Base and Arbitrum without hitting rate limits or paywalls."* — **AI Agent Developer**
-- *"The skeuomorphic goal planner makes crypto savings intuitive for mainstream depositors who think in monthly bills rather than liquidity pool formulas."* — **DeFi Creator & Investor**
+4. **Educational Explainer & Risk Matrix:**
+   - Comprehensive documentation on yield mechanics (lending spreads, AMM fees, staking, incentives), APY vs APR compounding formulas, and the DeFi risk matrix is published in [DeFi Yield Explained: APY, Lending Rates, TVL, and Risk Rails (2026 Guide)](https://www.defi.garden/guide/defi-yield-rates-explained) (Markdown twin available at `https://www.defi.garden/guide/defi-yield-rates-explained.md`).
 
 ---
 
-## Core Capabilities & Trust Rails
+## Core Capabilities & Multi-Chain Coverage
 
 DeFi Garden serves as a trust-railed consumer and agent interface over raw decentralized finance yields:
 
-1. **TVL Floor ($100K Minimum Liquidity):**
-   - Every pool must have at least $100,000 USD in Total Value Locked to appear in list responses.
-   - Eliminates micro-cap honeypots, low-liquidity slippage traps, and high-risk token spam.
-2. **Anomaly Cap (1000% Maximum APY):**
-   - Any pool reporting total APY (base APY + reward APY) exceeding 1000% is classified as anomalous.
-   - Excluded from list responses to protect users and agents from transient flash-loan spikes, uncollateralized inflation rewards, and mathematical artifacts.
-3. **Multi-Chain Aggregation:**
+1. **Multi-Chain Aggregation:**
    - Unified search across 30+ major networks: Ethereum, Solana, Base, Arbitrum, BSC, Avalanche, Polygon, Optimism, Hyperliquid, Tron, etc.
-4. **Token-Specific Intelligence:**
+2. **Token-Specific Intelligence:**
    - Real-time yield tracking across major collateral assets: USDC, USDT, DAI, ETH, WETH, STETH, WBTC, BTC, USDS, and native staking tokens.
-
+3. **Agent & Programmatic Interfaces:**
+   - Native Model Context Protocol (MCP) server, ACP agent discovery, and public REST API with zero rate limits or paywalls.
 ---
 
 ## Product Surfaces

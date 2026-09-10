@@ -1,5 +1,7 @@
 # WHYPE 디파이 수익률
 
+*DefiLlama 데이터 생성 시점 검증: September 9, 2026. 수익률은 지속적으로 변동합니다.*
+
 현재 WHYPE의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 51.12%이며, $100K TVL 기준을 넘는 70개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |

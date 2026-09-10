@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"RNT","item":"https://www.defi.garden/tokens/rnt"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"sushiswap on Polygon","url":"https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee"},{"@type":"ListItem","position":2,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e"},{"@type":"ListItem","position":3,"name":"gt3 on Polygon","url":"https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac"},{"@type":"ListItem","position":4,"name":"gt3 on Polygon","url":"https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"RNT DeFi Yields Dataset","description":"Live DefiLlama yield data for RNT pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/rnt","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest RNT yield today?","acceptedAnswer":{"@type":"Answer","text":"15.13% APY on gt3 (Polygon), based on live DefiLlama data."}},{"@type":"Question","name":"How many RNT pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $4.63M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which RNT pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, RNT's lower-variability candidates are sushiswap (Polygon), 0.14% APY, $3.81M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; gt3 (Polygon), 5.11% APY, $262.7K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; raydium-amm (Solana), 3.71% APY, $443K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; gt3 (Polygon), 15.13% APY, $121K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="RNT DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live RNT pools above the $100K TVL floor, up to 15.13% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>RNT DeFi Yields</h1>
     <p class="tp-answer">The highest honest RNT yield right now is 15.13% on gt3 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">RNT's largest live pool is sushiswap on Polygon at 0.14% ($3.81M TVL). 4 RNT pools across 2 chains clear this page's $100K TVL floor, $4.63M in total.</p>
     <p class="tp-yield-headline">Your idle RNT could earn ~4.41% — park $5.4K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=RNT&minTvl=100000&src=seo_token">See live RNT pools →</a>
@@ -365,6 +367,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, RNT&#39;s lower-variability candidates are sushiswap (Polygon), 0.14% APY, $3.81M TVL, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&amp;src=seo_token; gt3 (Polygon), 5.11% APY, $262.7K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&amp;src=seo_token; raydium-amm (Solana), 3.71% APY, $443K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&amp;src=seo_token; gt3 (Polygon), 15.13% APY, $121K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>

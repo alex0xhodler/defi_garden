@@ -1,5 +1,7 @@
 # WBTC.B DeFi Yields
 
+*Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.*
+
 The highest honest WBTC.B yield right now is 20.09% on gmx-v2-perps (Arbitrum), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |

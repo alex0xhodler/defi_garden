@@ -12,7 +12,6 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"SUPERUSDC","item":"https://www.defi.garden/tokens/superusdc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"superform on Ethereum","url":"https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f"},{"@type":"ListItem","position":2,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82"},{"@type":"ListItem","position":3,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1"},{"@type":"ListItem","position":4,"name":"superform on Base","url":"https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"SUPERUSDC DeFi Yields Dataset","description":"Live DefiLlama yield data for SUPERUSDC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/superusdc","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"September 9, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SUPERUSDC yield today?","acceptedAnswer":{"@type":"Answer","text":"10.54% APY on pendle-v2 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SUPERUSDC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $8.95M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which SUPERUSDC pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, SUPERUSDC's lower-variability candidates are pendle-v2 (Ethereum), 7.93% APY, $761.1K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token; superform (Base), 5.65% APY, $658.4K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token; pendle-v2 (Ethereum), 10.54% APY, $761.1K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token; superform (Ethereum), 6.24% APY, $6.77M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="SUPERUSDC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live SUPERUSDC pools above the $100K TVL floor, up to 10.54% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -72,6 +71,8 @@
       .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
       .tp-rate-stability .tp-card { margin: 14px 0 0; }
       .tp-rate-stability table { min-width: 620px; }
+      .tp-updated { color: var(--ui-text-muted); font-size: .85rem; margin: -8px 0 16px; line-height: 1.4; }
+
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -327,6 +328,7 @@
     <h1>SUPERUSDC DeFi Yields</h1>
     <p class="tp-answer">The highest honest SUPERUSDC yield right now is 10.54% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="tp-updated">Pool data verified from DefiLlama at generation time: September 9, 2026. Rates change continuously.</p>
     <p class="intro">SUPERUSDC's largest live pool is superform on Ethereum at 6.24% ($6.77M TVL). 4 SUPERUSDC pools across 2 chains clear this page's $100K TVL floor, $8.95M in total.</p>
     <p class="tp-yield-headline">Your idle SUPERUSDC could earn ~7.09% — park $3.4K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=SUPERUSDC&minTvl=100000&src=seo_token">See live SUPERUSDC pools →</a>
@@ -365,6 +367,7 @@
     </table>
     </div>
     </div>
+
     <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
       <h2>Rate stability from APY history</h2>
       <p>Based on APY history only, SUPERUSDC&#39;s lower-variability candidates are pendle-v2 (Ethereum), 7.93% APY, $761.1K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&amp;src=seo_token; superform (Base), 5.65% APY, $658.4K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&amp;src=seo_token; pendle-v2 (Ethereum), 10.54% APY, $761.1K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&amp;src=seo_token; superform (Ethereum), 6.24% APY, $6.77M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
