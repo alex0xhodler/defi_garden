@@ -4229,6 +4229,11 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
    = hero panel, #seo-content = rates panel) sit side-by-side, each 100vw,
    snapping on the x-axis. React mounts inside #landing-root and never
    touches body's child list, so the track survives hydration. */
+/* The horizontal snap track is DESKTOP-ONLY (min-width: 769px). On mobile
+   (<= 768px) the two panels stack as a normal vertical document the user
+   scrolls through — no horizontal swap, no x-snap, and the footer sits in
+   normal flow at the end instead of floating fixed over the content. */
+@media (min-width: 769px) {
 html[data-app-mode="landing"],
 html[data-app-mode="landing"] body {
   overflow-x: hidden;
@@ -4302,6 +4307,68 @@ html[data-app-mode="landing"] .seo-content {
     var(--ui-bg);
   padding: 72px 24px;   /* clears the fixed header (top) + footer (bottom) */
   box-sizing: border-box;
+}
+} /* end @media (min-width: 769px) — desktop horizontal snap track */
+
+/* Mobile landing (<= 768px): one normal vertical document. The hero panel
+   and the SEO/rates panel stack top-to-bottom; the header stays fixed at
+   the top, but the footer returns to normal flow at the very end so it
+   never floats over the content. Standard vertical scroll moves between the
+   hero and the rates panel. */
+@media (max-width: 768px) {
+  html[data-app-mode="landing"],
+  html[data-app-mode="landing"] body {
+    overflow-x: hidden;   /* kill the horizontal track entirely */
+    height: auto;
+  }
+  html[data-app-mode="landing"] body {
+    display: block;       /* not a flex track — normal vertical document flow */
+    overflow-y: auto;
+  }
+  html[data-app-mode="landing"] body > #root,
+  html[data-app-mode="landing"] body > #planner-root,
+  html[data-app-mode="landing"] body > .seo-hub-links {
+    position: absolute;   /* keep the non-panel mounts out of flow */
+    width: 0; height: 0;
+    overflow: hidden;
+  }
+  /* Header stays pinned; footer goes back to normal in-flow. */
+  html[data-app-mode="landing"] .landing-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 60;
+  }
+  html[data-app-mode="landing"] .app-footer {
+    position: static !important;
+    margin-top: 0;
+    z-index: 1;
+  }
+  /* Hero panel clears the fixed header; footer is in-flow so no bottom pad. */
+  html[data-app-mode="landing"] body > #landing-root > .landing-app {
+    padding-top: 72px;
+    box-sizing: border-box;
+  }
+  /* Rates panel: stacked section. On mobile JS moves it inside .landing-app
+     between .landing-main and the footer, so it sits after the hero. */
+  html[data-app-mode="landing"] .seo-content {
+    max-width: none;
+    margin: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:
+      radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
+      radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
+      var(--ui-bg);
+    padding: 56px 20px;
+    box-sizing: border-box;
+  }
+  /* The page-indicator dots are a horizontal-swap affordance; meaningless on
+     a vertical scroll, so hide them. */
+  html[data-app-mode="landing"] .landing-page-dots { display: none; }
 }
 
 /* Eyebrow chip — mirrors .landing-spotlight-eyebrow. */

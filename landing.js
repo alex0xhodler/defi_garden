@@ -508,8 +508,33 @@
         body.scrollTo({ left: panelMax() * panel, behavior: reduced ? 'auto' : 'smooth' });
       }
       goToPanelRef.current = goToPanelEffect;
+      // The horizontal swap is desktop-only; on mobile (<=768px) the panels
+      // stack vertically and the body scrolls normally — never intercept.
+      function isDesktopTrack() { return window.innerWidth > 768; }
+
+      // Mobile: pull the static .seo-content rates panel INTO .landing-app,
+      // between .landing-main (hero) and the fixed-position .app-footer, so
+      // the document reads hero -> rates -> footer top-to-bottom and a normal
+      // vertical scroll flows through all three. (On desktop the body is a
+      // horizontal snap track and .seo-content stays a direct body child.)
+      var seoEl = document.querySelector('body > .seo-content');
+      var landingApp = document.querySelector('#landing-root > .landing-app');
+      var footerEl = landingApp ? landingApp.querySelector('.app-footer') : null;
+      var movedSeo = false;
+      function placeSeoForViewport() {
+        if (!seoEl || !landingApp || !footerEl) return;
+        if (window.innerWidth <= 768 && !movedSeo) {
+          landingApp.insertBefore(seoEl, footerEl);
+          movedSeo = true;
+        } else if (window.innerWidth > 768 && movedSeo) {
+          body.appendChild(seoEl);
+          movedSeo = false;
+        }
+      }
+      placeSeoForViewport();
       function onWheel(e) {
         if (window.__APP_MODE !== 'landing') return;
+        if (!isDesktopTrack()) return;
         if (settling) { e.preventDefault(); return; }
         var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
         if (Math.abs(delta) < 8) return;
@@ -524,6 +549,7 @@
       }
       function onKey(e) {
         if (window.__APP_MODE !== 'landing') return;
+        if (!isDesktopTrack()) return;
         var tag = (e.target && e.target.tagName) || '';
         if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
         if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(navPanel === 1 ? 0 : 1); }
@@ -532,11 +558,16 @@
       body.addEventListener('wheel', onWheel, { passive: false });
       document.addEventListener('keydown', onKey);
       body.addEventListener('scroll', syncFromScroll, { passive: true });
+      window.addEventListener('resize', placeSeoForViewport);
       return function () {
         clearTimeout(settleTimer);
+        // Restore .seo-content to its original body position before unmount so
+        // React never tries to remove/reconcile a node we reparented.
+        if (movedSeo && seoEl) { body.appendChild(seoEl); }
         body.removeEventListener('wheel', onWheel);
         document.removeEventListener('keydown', onKey);
         body.removeEventListener('scroll', syncFromScroll);
+        window.removeEventListener('resize', placeSeoForViewport);
       };
     }, []);
 
