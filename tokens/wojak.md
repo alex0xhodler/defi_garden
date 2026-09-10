@@ -7,17 +7,17 @@ The highest honest WOJAK yield right now is 0.21% on uniswap-v2 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 1.51% | $909K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $862.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $859.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 5.18% | $127.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.21% APY, $862.8K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 1.51% APY, $909K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 5.18% APY, $127.5K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.21% APY, $859.8K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 1.51% APY, $909K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 5.18% APY, $127.5K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $862.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $859.8K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 1.51% | $909K |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 5.18% | $127.5K |
 
@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.51% | 20.06% | Base rate |
+| uniswap-v2 | 1.51% | 20.09% | Base rate |
 | uniswap-v2 | 0.21% | 0.24% | Base rate |
 | raydium-amm | 5.18% | 3.11% | Base rate |
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WOJAK pools have the most stable APY history?
 
-Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.21% APY, $862.8K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 1.51% APY, $909K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 5.18% APY, $127.5K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.21% APY, $859.8K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 1.51% APY, $909K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 5.18% APY, $127.5K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

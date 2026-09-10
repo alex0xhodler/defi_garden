@@ -12,7 +12,7 @@ The highest honest LAPTOP yield right now is 0.09% on uniswap-v4 (Base), among 1
 | [uniswap-v4 →](https://www.defi.garden/?pool=49142563-43b5-5f8a-b418-b00ebbfa6a4b&src=seo_token) | Base | 0.09% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b3a534c0-39cb-50da-9f76-9f359f3fe5ce&src=seo_token) | Base | 0.08% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=152fb8c6-4f15-55c0-a4ce-1dec6515f114&src=seo_token) | Base | 0.05% | $200K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d6dd10d6-e35e-52c6-9577-abf1c315903d&src=seo_token) | Base | 36.01% | $164.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d6dd10d6-e35e-52c6-9577-abf1c315903d&src=seo_token) | Base | 30.98% | $163.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LAPTOP shows up in 7 pools here, with rates from 0.01% to 36.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LAPTOP shows up in 7 pools here, with rates from 0.01% to 30.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 0.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -39,7 +39,7 @@ All 7 pools pay a plain base rate right now — no incentive or reward APY mixed
 | uniswap-v4 | 0.09% | 0.02% | Base rate |
 | uniswap-v4 | 0.08% | 0.05% | Base rate |
 | uniswap-v4 | 0.05% | 0.02% | Base rate |
-| uniswap-v2 | 36.01% | 99.91% | Base rate |
+| uniswap-v2 | 30.98% | 94.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -6,7 +6,7 @@ The highest honest QYTB yield right now is 0.09% on uniswap-v4 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=37680618-5dc0-44b6-93f7-2739531b8cf6&src=seo_token) | BSC | 0.09% | $210.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=37680618-5dc0-44b6-93f7-2739531b8cf6&src=seo_token) | BSC | 0.09% | $210.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QYTB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.8K in total.
+1 live pool clear this page's $100K TVL floor, $210.6K in total.
 
 ### Are these rates safe?
 

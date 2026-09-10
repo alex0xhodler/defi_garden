@@ -6,7 +6,7 @@ The highest honest PAPPLE yield right now is 0.42% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f5bae628-b269-4d47-90e5-36bf2d89600f&src=seo_token) | Ethereum | 0.42% | $118.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f5bae628-b269-4d47-90e5-36bf2d89600f&src=seo_token) | Ethereum | 0.42% | $118.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PAPPLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.7K in total.
+1 live pool clear this page's $100K TVL floor, $118.3K in total.
 
 ### Are these rates safe?
 

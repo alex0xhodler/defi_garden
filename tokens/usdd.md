@@ -6,20 +6,20 @@ The highest honest USDD yield right now is 3.98% on justlend-v1 (Tron), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $388.79M |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $388.26M |
 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.11% | $500.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token) | Arbitrum | 0.30% | $194.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDD's lower-variability candidates are uniswap-v3 (Arbitrum), 0.30% APY, $194.7K TVL, https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token; raydium-amm (Solana), 0.11% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $388.79M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDD's lower-variability candidates are uniswap-v3 (Arbitrum), 0.30% APY, $194.7K TVL, https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token; raydium-amm (Solana), 0.11% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $388.26M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token) | Arbitrum | 0.30% | $194.7K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.11% | $500.1K |
-| 3 | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $388.79M |
+| 3 | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.98% | $388.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $389.48M in total.
+3 live pools clear this page's $100K TVL floor, $388.95M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDD pools have the most stable APY history?
 
-Based on APY history only, USDD's lower-variability candidates are uniswap-v3 (Arbitrum), 0.30% APY, $194.7K TVL, https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token; raydium-amm (Solana), 0.11% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $388.79M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDD's lower-variability candidates are uniswap-v3 (Arbitrum), 0.30% APY, $194.7K TVL, https://www.defi.garden/?pool=90a8b221-8f2f-4aa9-a0d4-236eb55ebff9&src=seo_token; raydium-amm (Solana), 0.11% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; justlend-v1 (Tron), 3.98% APY, $388.26M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

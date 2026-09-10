@@ -36,11 +36,11 @@ DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 0.09%예요
 ## 관련 토큰
 
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
-- [HEMIBTC](https://www.defi.garden/ko/tokens/hemibtc)
 - [HEMI](https://www.defi.garden/ko/tokens/hemi)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 

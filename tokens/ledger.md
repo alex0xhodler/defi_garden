@@ -6,7 +6,7 @@ The highest honest LEDGER yield right now is 0.92% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 0.92% | $256.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 0.92% | $255.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LEDGER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $256.1K in total.
+1 live pool clear this page's $100K TVL floor, $255.2K in total.
 
 ### Are these rates safe?
 

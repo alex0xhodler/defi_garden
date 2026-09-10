@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SYMM yield right now is 21.88% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYMM yield right now is 21.52% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=438f1b4c-fc3e-4446-a740-9afc53aab308&src=seo_token) | Base | 21.88% | $145.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=438f1b4c-fc3e-4446-a740-9afc53aab308&src=seo_token) | Base | 21.52% | $145.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYMM yield today?
 
-21.88% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+21.52% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many SYMM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.6K in total.
+1 live pool clear this page's $100K TVL floor, $145.1K in total.
 
 ### Are these rates safe?
 

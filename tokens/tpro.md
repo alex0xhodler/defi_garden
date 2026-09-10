@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest TPRO yield right now is 12.23% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TPRO yield right now is 12.28% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=99bc6312-761b-4f57-b4cb-ad7d2849b92f&src=seo_token) | Ethereum | 12.23% | $124.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=99bc6312-761b-4f57-b4cb-ad7d2849b92f&src=seo_token) | Ethereum | 12.28% | $124.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TPRO yield today?
 
-12.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.28% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many TPRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.5K in total.
+1 live pool clear this page's $100K TVL floor, $124.1K in total.
 
 ### Are these rates safe?
 

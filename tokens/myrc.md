@@ -6,7 +6,7 @@ The highest honest MYRC yield right now is 17.82% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1010d1a5-e842-4761-9d39-45e156bb1c72&src=seo_token) | Arbitrum | 17.82% | $124K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1010d1a5-e842-4761-9d39-45e156bb1c72&src=seo_token) | Arbitrum | 17.82% | $123.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MYRC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124K in total.
+1 live pool clear this page's $100K TVL floor, $123.9K in total.
 
 ### Are these rates safe?
 

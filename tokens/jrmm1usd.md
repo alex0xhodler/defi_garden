@@ -6,7 +6,7 @@ The highest honest JRMM1USD yield right now is 13.07% on strata-markets (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=2172d4b0-9a76-4452-af46-2ce833d2c612&src=seo_token) | Ethereum | 13.07% | $1.04M |
+| [strata-markets →](https://www.defi.garden/?pool=2172d4b0-9a76-4452-af46-2ce833d2c612&src=seo_token) | Ethereum | 13.07% | $1.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JRMM1USD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.04M in total.
+1 live pool clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 

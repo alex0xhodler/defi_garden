@@ -9,8 +9,8 @@ The highest honest USDX yield right now is 15.99% on curve-dex (Ethereum), among
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $18.95M |
 | [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 0.56% | $2.17M |
 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 15.99% | $2M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 11.07% | $1.36M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436&src=seo_token) | Ethereum | 15.52% | $1.36M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 11.13% | $1.36M |
 | [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 0.80% | $143.2K |
 
 <!-- rate-stability:insufficient -->
@@ -31,10 +31,10 @@ USDX shows up in 6 pools here, with rates from 0.56% to 15.99% APY across 3 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | Base rate |
-| curve-dex | 0.56% | 1.26% | Base rate |
-| curve-dex | 15.99% | 11.21% | Base rate |
+| curve-dex | 0.56% | 1.25% | Base rate |
+| curve-dex | 15.99% | 11.27% | Base rate |
+| pendle-v2 | 11.07% | 11.05% | 29.31% incentives |
 | pendle-v2 | 15.52% | 15.09% | Base rate |
-| pendle-v2 | 11.13% | 11.05% | 29.69% incentives |
 | raydium-amm | 0.80% | 1.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

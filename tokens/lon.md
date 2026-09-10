@@ -6,18 +6,18 @@ The highest honest LON yield right now is 0.09% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.09% | $1.7M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.09% | $1.69M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.03% | $1.13M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LON's lower-variability candidates are uniswap-v3 (Arbitrum), 0.03% APY, $1.13M TVL, https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token; uniswap-v2 (Ethereum), 0.09% APY, $1.7M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LON's lower-variability candidates are uniswap-v3 (Arbitrum), 0.03% APY, $1.13M TVL, https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token; uniswap-v2 (Ethereum), 0.09% APY, $1.69M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.03% | $1.13M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.09% | $1.7M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.09% | $1.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LON pools have the most stable APY history?
 
-Based on APY history only, LON's lower-variability candidates are uniswap-v3 (Arbitrum), 0.03% APY, $1.13M TVL, https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token; uniswap-v2 (Ethereum), 0.09% APY, $1.7M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LON's lower-variability candidates are uniswap-v3 (Arbitrum), 0.03% APY, $1.13M TVL, https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token; uniswap-v2 (Ethereum), 0.09% APY, $1.69M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

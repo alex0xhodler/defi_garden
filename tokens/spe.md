@@ -6,7 +6,7 @@ The highest honest SPE yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5618b0bd-c55f-4042-8ac4-e361a5cfc920&src=seo_token) | Ethereum | 0.01% | $414.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5618b0bd-c55f-4042-8ac4-e361a5cfc920&src=seo_token) | Ethereum | 0.01% | $413K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $414.5K in total.
+1 live pool clear this page's $100K TVL floor, $413K in total.
 
 ### Are these rates safe?
 

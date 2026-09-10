@@ -9,8 +9,8 @@
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $18.95M |
 | [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 0.56% | $2.17M |
 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 15.99% | $2M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 11.07% | $1.36M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436&src=seo_token) | Ethereum | 15.52% | $1.36M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 11.13% | $1.36M |
 | [raydium-amm →](https://www.defi.garden/?pool=de30f032-69ed-4d22-9625-e0d1b4be7b87&src=seo_token) | Solana | 0.80% | $143.2K |
 
 <!-- rate-stability:insufficient -->
@@ -31,10 +31,10 @@ USDX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.56%부터 15.99%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | 기본 금리 |
-| curve-dex | 0.56% | 1.26% | 기본 금리 |
-| curve-dex | 15.99% | 11.21% | 기본 금리 |
+| curve-dex | 0.56% | 1.25% | 기본 금리 |
+| curve-dex | 15.99% | 11.27% | 기본 금리 |
+| pendle-v2 | 11.07% | 11.05% | 인센티브 29.31% |
 | pendle-v2 | 15.52% | 15.09% | 기본 금리 |
-| pendle-v2 | 11.13% | 11.05% | 인센티브 29.69% |
 | raydium-amm | 0.80% | 1.21% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

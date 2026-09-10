@@ -6,7 +6,7 @@ The highest honest USDB yield right now is 0.11% on cetus-clmm (Sui), among 3 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $850.4K |
+| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.11% | $849.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -25,7 +25,7 @@ USDB shows up in 1 pools here, with rates from 0.11% to 0.11% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| cetus-clmm | 0.11% | 0.11% | 86.91% incentives |
+| cetus-clmm | 0.11% | 0.11% | 86.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

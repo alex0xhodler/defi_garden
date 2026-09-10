@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LOCK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $275.3K in total.
+2 live pools clear this page's $100K TVL floor, $275K in total.
 
 ### Are these rates safe?
 

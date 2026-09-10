@@ -6,7 +6,7 @@ The highest honest WXMR yield right now is 0.88% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5a9771a7-3599-4f2f-a222-f01aee825ebd&src=seo_token) | Ethereum | 0.88% | $316.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5a9771a7-3599-4f2f-a222-f01aee825ebd&src=seo_token) | Ethereum | 0.88% | $316.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WXMR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $316.7K in total.
+1 live pool clear this page's $100K TVL floor, $316.2K in total.
 
 ### Are these rates safe?
 

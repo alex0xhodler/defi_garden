@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.01% | $180.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.01% | $180.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.01%예요.
 
 ### CNGN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $180.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $180.4K예요.
 
 ### 이 수익률은 안전한가요?
 

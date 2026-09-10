@@ -6,7 +6,7 @@ The highest honest NOJEET yield right now is 0.01% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=390c4f6f-1c83-413e-861d-3df3de2f38cb&src=seo_token) | Base | 0.01% | $493.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=390c4f6f-1c83-413e-861d-3df3de2f38cb&src=seo_token) | Base | 0.01% | $491.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOJEET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $493.3K in total.
+1 live pool clear this page's $100K TVL floor, $491.8K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BREW yield right now is 941.15% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BREW yield right now is 989.46% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=13d418bf-94d3-51fc-a7d7-1a6386e7b80c&src=seo_token) | BSC | 941.15% | $158.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=13d418bf-94d3-51fc-a7d7-1a6386e7b80c&src=seo_token) | BSC | 989.46% | $155.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BREW shows up in 1 pools here, with rates from 941.15% to 941.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BREW shows up in 1 pools here, with rates from 989.46% to 989.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 941.15% | — | Base rate |
+| uniswap-v4 | 989.46% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BREW yield today?
 
-941.15% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+989.46% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BREW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $454.2K in total.
+2 live pools clear this page's $100K TVL floor, $428.5K in total.
 
 ### Are these rates safe?
 

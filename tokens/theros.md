@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest THEROS yield right now is 0.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THEROS yield right now is 1.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 0.93% | $2.29M |
+| [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 1.03% | $2.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THEROS yield today?
 
-0.93% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many THEROS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.29M in total.
+1 live pool clear this page's $100K TVL floor, $2.27M in total.
 
 ### Are these rates safe?
 

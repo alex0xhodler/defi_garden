@@ -6,20 +6,20 @@ The highest honest VBWBTC yield right now is 2.19% on yearn-finance (Katana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.54% | $24.31M |
+| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.53% | $24.2M |
 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.23% | $1.58M |
 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.19% | $1.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $738.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $735.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.54% APY, $24.31M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.85% APY, $738.5K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.19% APY, $1.15M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.23% APY, $1.58M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.53% APY, $24.2M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.85% APY, $735.2K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.19% APY, $1.15M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.23% APY, $1.58M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.54% | $24.31M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $738.5K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.53% | $24.2M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $735.2K |
 | 3 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.19% | $1.15M |
 | 4 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.23% | $1.58M |
 
@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VBWBTC shows up in 4 pools here, with rates from 0.54% to 2.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBWBTC shows up in 4 pools here, with rates from 0.53% to 2.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,7 +35,7 @@ VBWBTC shows up in 4 pools here, with rates from 0.54% to 2.19% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 0.54% | 0.17% | 100.00% incentives |
+| morpho-blue | 0.53% | 0.18% | 100.00% incentives |
 | yearn-finance | 1.23% | 0.84% | 100.00% incentives |
 | yearn-finance | 2.19% | 1.53% | 100.00% incentives |
 | morpho-blue | 0.85% | 0.24% | 100.00% incentives |
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $27.78M in total.
+4 live pools clear this page's $100K TVL floor, $27.67M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBWBTC pools have the most stable APY history?
 
-Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.54% APY, $24.31M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.85% APY, $738.5K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.19% APY, $1.15M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.23% APY, $1.58M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.53% APY, $24.2M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.85% APY, $735.2K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.19% APY, $1.15M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.23% APY, $1.58M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

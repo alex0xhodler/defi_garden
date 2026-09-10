@@ -2,23 +2,23 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest TORN yield right now is 3.10% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TORN yield right now is 5.38% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 8.08% | $315.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 0.20% | $266.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 3.10% | $163.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 5.38% | $162.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.20% APY, $266.3K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 3.10% APY, $163.5K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 8.08% APY, $315.4K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.20% APY, $266.3K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 5.38% APY, $162.6K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 8.08% APY, $315.4K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 0.20% | $266.3K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 3.10% | $163.5K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 5.38% | $162.6K |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 8.08% | $315.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 TORN shows up in 3 pools here, with rates from 0.20% to 8.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 8.08% | 40.65% | Base rate |
-| uniswap-v4 | 0.20% | 11.25% | Base rate |
-| uniswap-v2 | 3.10% | 5.56% | Base rate |
+| uniswap-v3 | 8.08% | 40.67% | Base rate |
+| uniswap-v4 | 0.20% | 11.23% | Base rate |
+| uniswap-v2 | 5.38% | 5.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TORN yield today?
 
-3.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TORN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $745.2K in total.
+3 live pools clear this page's $100K TVL floor, $744.3K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TORN pools have the most stable APY history?
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.20% APY, $266.3K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 3.10% APY, $163.5K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 8.08% APY, $315.4K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.20% APY, $266.3K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 5.38% APY, $162.6K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 8.08% APY, $315.4K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest PROJECT89 yield right now is 45.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PROJECT89 yield right now is 43.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=49a7a1c5-1441-46ff-8593-e5e851dc0c7a&src=seo_token) | Solana | 45.86% | $265.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=49a7a1c5-1441-46ff-8593-e5e851dc0c7a&src=seo_token) | Solana | 43.10% | $264.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PROJECT89 yield today?
 
-45.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+43.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PROJECT89 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $265.5K in total.
+1 live pool clear this page's $100K TVL floor, $264.8K in total.
 
 ### Are these rates safe?
 

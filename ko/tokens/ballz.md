@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.01% | $541.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.01% | $536.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.01%예�
 
 ### BALLZ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $541.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $536.6K예요.
 
 ### 이 수익률은 안전한가요?
 

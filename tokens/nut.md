@@ -6,7 +6,7 @@ The highest honest NUT yield right now is 0.33% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6db449ae-1fd1-4fc2-9b4e-a9129234fd37&src=seo_token) | Ethereum | 0.33% | $138.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6db449ae-1fd1-4fc2-9b4e-a9129234fd37&src=seo_token) | Ethereum | 0.33% | $138.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.5K in total.
+1 live pool clear this page's $100K TVL floor, $138.2K in total.
 
 ### Are these rates safe?
 

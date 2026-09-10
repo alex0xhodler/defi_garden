@@ -6,7 +6,7 @@ The highest honest RAD yield right now is 0.41% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=171852e8-a9b2-403d-a4da-ddbdf261daa6&src=seo_token) | Ethereum | 0.41% | $1.95M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=171852e8-a9b2-403d-a4da-ddbdf261daa6&src=seo_token) | Ethereum | 0.41% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.95M in total.
+1 live pool clear this page's $100K TVL floor, $1.94M in total.
 
 ### Are these rates safe?
 

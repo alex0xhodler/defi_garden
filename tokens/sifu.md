@@ -6,17 +6,17 @@ The highest honest SIFU yield right now is 0.05% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $378.5K |
+| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $382.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token) | Ethereum | 0.05% | $186.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SIFU's lower-variability candidates are uwu-lend (Ethereum), 0.02% APY, $378.5K TVL, https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $186.4K TVL, https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIFU's lower-variability candidates are uwu-lend (Ethereum), 0.02% APY, $382.2K TVL, https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $186.4K TVL, https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $378.5K |
+| 1 | [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $382.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token) | Ethereum | 0.05% | $186.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uwu-lend | 0.02% | 0.02% | Base rate |
-| uniswap-v3 | 0.05% | 0.03% | Base rate |
+| uniswap-v3 | 0.05% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SIFU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $564.9K in total.
+2 live pools clear this page's $100K TVL floor, $568.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SIFU pools have the most stable APY history?
 
-Based on APY history only, SIFU's lower-variability candidates are uwu-lend (Ethereum), 0.02% APY, $378.5K TVL, https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $186.4K TVL, https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIFU's lower-variability candidates are uwu-lend (Ethereum), 0.02% APY, $382.2K TVL, https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $186.4K TVL, https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

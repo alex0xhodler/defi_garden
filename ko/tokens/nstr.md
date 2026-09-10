@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NSTR의 가장 높은 정직한 수익률은 Starknet의 nostra-pools에서 0.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NSTR의 가장 높은 정직한 수익률은 Starknet의 nostra-pools에서 0.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 0.09% | $111.8K |
+| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 0.10% | $111.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 NSTR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 nostra-pools에서 APY 0.09%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 nostra-pools에서 APY 0.10%예요.
 
 ### NSTR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,9 +38,9 @@ DefiLlama 실시간 데이터 기준, Starknet의 nostra-pools에서 APY 0.09%�
 - [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
-- [SUSN](https://www.defi.garden/ko/tokens/susn)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
+- [XWBTC](https://www.defi.garden/ko/tokens/xwbtc)
 
 ## 이용 가능한 체인
 

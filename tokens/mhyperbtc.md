@@ -6,18 +6,18 @@ The highest honest MHYPERBTC yield right now is 2.85% on pendle-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.85% | $2.57M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 1.56% | $2.57M |
+| [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.85% | $2.56M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 1.56% | $2.56M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.85% APY, $2.57M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 1.56% APY, $2.57M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.85% APY, $2.56M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 1.56% APY, $2.56M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.85% | $2.57M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 1.56% | $2.57M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.85% | $2.56M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 1.56% | $2.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $15.38M in total.
+4 live pools clear this page's $100K TVL floor, $15.3M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MHYPERBTC pools have the most stable APY history?
 
-Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.85% APY, $2.57M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 1.56% APY, $2.57M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.85% APY, $2.56M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 1.56% APY, $2.56M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

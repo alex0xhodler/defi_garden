@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ARMUSDTP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ARMUSDTP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 2.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 3.03% | $2M |
+| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 2.92% | $2M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 ARMUSDTP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 2.92%예요.
 
 ### ARMUSDTP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

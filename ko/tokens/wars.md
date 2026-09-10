@@ -6,9 +6,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.93M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.39% | $237.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.05% | $110.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.05% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -29,7 +29,7 @@ WARS 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.05%부터 24.00%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 24.00% | 19.97% | 인센티브 98.86% |
+| morpho-blue | 24.00% | 20.04% | 인센티브 98.86% |
 | uniswap-v4 | 0.39% | 0.19% | 기본 금리 |
 | uniswap-v3 | 0.05% | 0.06% | 기본 금리 |
 
@@ -43,7 +43,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 24.00%�
 
 ### WARS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.8M예요.
 
 ### 이 수익률은 안전한가요?
 

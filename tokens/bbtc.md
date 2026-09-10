@@ -6,8 +6,8 @@ The highest honest BBTC yield right now is 0.76% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 4.19% | $478.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token) | Ethereum | 0.76% | $119K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 4.19% | $476.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d&src=seo_token) | Ethereum | 0.76% | $118.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 4.19% | 1.49% | Base rate |
+| uniswap-v3 | 4.19% | 1.50% | Base rate |
 | uniswap-v4 | 0.76% | 0.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $597.4K in total.
+2 live pools clear this page's $100K TVL floor, $594.7K in total.
 
 ### Are these rates safe?
 

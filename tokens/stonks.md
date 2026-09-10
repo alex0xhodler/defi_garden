@@ -6,26 +6,26 @@ The highest honest STONKS yield right now is 1.79% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token) | Solana | 236.50% | $609.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token) | Solana | 233.36% | $613.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token) | Solana | 1.79% | $110.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STONKS's lower-variability candidates are raydium-amm (Solana), 1.79% APY, $110.3K TVL, https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token; raydium-amm (Solana), 236.50% APY, $609.9K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONKS's lower-variability candidates are raydium-amm (Solana), 1.79% APY, $110.3K TVL, https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token; raydium-amm (Solana), 233.36% APY, $613.1K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token) | Solana | 1.79% | $110.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token) | Solana | 236.50% | $609.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token) | Solana | 233.36% | $613.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STONKS shows up in 2 pools here, with rates from 1.79% to 236.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONKS shows up in 2 pools here, with rates from 1.79% to 233.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 320.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 318.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 236.50% | 638.26% | Base rate |
+| raydium-amm | 233.36% | 634.03% | Base rate |
 | raydium-amm | 1.79% | 2.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STONKS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $831.6K in total.
+3 live pools clear this page's $100K TVL floor, $834.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STONKS pools have the most stable APY history?
 
-Based on APY history only, STONKS's lower-variability candidates are raydium-amm (Solana), 1.79% APY, $110.3K TVL, https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token; raydium-amm (Solana), 236.50% APY, $609.9K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONKS's lower-variability candidates are raydium-amm (Solana), 1.79% APY, $110.3K TVL, https://www.defi.garden/?pool=c914beeb-cd1e-4260-8509-23847bc3e6fa&src=seo_token; raydium-amm (Solana), 233.36% APY, $613.1K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BST yield right now is 0.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BST yield right now is 0.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=35ab5ebe-99eb-482d-8ab2-1ad19b297e01&src=seo_token) | Ethereum | 0.13% | $126.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=35ab5ebe-99eb-482d-8ab2-1ad19b297e01&src=seo_token) | Ethereum | 0.08% | $126K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BST yield today?
 
-0.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.3K in total.
+1 live pool clear this page's $100K TVL floor, $126K in total.
 
 ### Are these rates safe?
 

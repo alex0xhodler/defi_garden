@@ -6,7 +6,7 @@ The highest honest SMARTCREDIT yield right now is 0.02% on uniswap-v2 (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6535da13-5729-45f9-bd8d-6b492b9fba05&src=seo_token) | Ethereum | 0.02% | $149.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6535da13-5729-45f9-bd8d-6b492b9fba05&src=seo_token) | Ethereum | 0.02% | $148.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMARTCREDIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.4K in total.
+1 live pool clear this page's $100K TVL floor, $148.9K in total.
 
 ### Are these rates safe?
 

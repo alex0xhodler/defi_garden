@@ -6,24 +6,24 @@ The highest honest SBTCCRV yield right now is 0.01% on curve-dex (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $4.05M |
-| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $733.7K |
-| [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $682.3K |
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $210.4K |
-| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $116.8K |
+| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $4.03M |
+| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $730.2K |
+| [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $679.1K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $209.4K |
+| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $116.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SBTCCRV's lower-variability candidates are convex-finance (Ethereum), 0.01% APY, $210.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.01% APY, $4.05M TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; convex-finance (Ethereum), 0.01% APY, $682.3K TVL, https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token; curve-dex (Ethereum), 0.01% APY, $116.8K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token; curve-dex (Ethereum), 0.01% APY, $733.7K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBTCCRV's lower-variability candidates are convex-finance (Ethereum), 0.01% APY, $209.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.01% APY, $4.03M TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; convex-finance (Ethereum), 0.01% APY, $679.1K TVL, https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token; curve-dex (Ethereum), 0.01% APY, $116.3K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token; curve-dex (Ethereum), 0.01% APY, $730.2K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $210.4K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $4.05M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $682.3K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $116.8K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $733.7K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $209.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $4.03M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $679.1K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $116.3K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $730.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SBTCCRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $5.79M in total.
+5 live pools clear this page's $100K TVL floor, $5.76M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SBTCCRV pools have the most stable APY history?
 
-Based on APY history only, SBTCCRV's lower-variability candidates are convex-finance (Ethereum), 0.01% APY, $210.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.01% APY, $4.05M TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; convex-finance (Ethereum), 0.01% APY, $682.3K TVL, https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token; curve-dex (Ethereum), 0.01% APY, $116.8K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token; curve-dex (Ethereum), 0.01% APY, $733.7K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBTCCRV's lower-variability candidates are convex-finance (Ethereum), 0.01% APY, $209.4K TVL, https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token; curve-dex (Ethereum), 0.01% APY, $4.03M TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; convex-finance (Ethereum), 0.01% APY, $679.1K TVL, https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token; curve-dex (Ethereum), 0.01% APY, $116.3K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token; curve-dex (Ethereum), 0.01% APY, $730.2K TVL, https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

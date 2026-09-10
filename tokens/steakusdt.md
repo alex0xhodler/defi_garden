@@ -2,37 +2,37 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest STEAKUSDT yield right now is 3.02% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKUSDT yield right now is 2.91% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 2.87% | $88.84M |
-| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 3.02% | $61.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 2.76% | $88.85M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 2.91% | $61.28M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.87% APY, $88.84M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token; morpho-blue (Ethereum), 3.02% APY, $61.27M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.76% APY, $88.85M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token; morpho-blue (Ethereum), 2.91% APY, $61.28M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 2.87% | $88.84M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 3.02% | $61.27M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 2.76% | $88.85M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 2.91% | $61.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STEAKUSDT shows up in 2 pools here, with rates from 2.87% to 3.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STEAKUSDT shows up in 2 pools here, with rates from 2.76% to 2.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.87% | 3.01% | Base rate |
-| morpho-blue | 3.02% | 3.18% | Base rate |
+| morpho-blue | 2.76% | 3.01% | Base rate |
+| morpho-blue | 2.91% | 3.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STEAKUSDT yield today?
 
-3.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.91% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many STEAKUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $150.12M in total.
+2 live pools clear this page's $100K TVL floor, $150.13M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKUSDT pools have the most stable APY history?
 
-Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.87% APY, $88.84M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token; morpho-blue (Ethereum), 3.02% APY, $61.27M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.76% APY, $88.85M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token; morpho-blue (Ethereum), 2.91% APY, $61.28M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

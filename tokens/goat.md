@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest GOAT yield right now is 8.51% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOAT yield right now is 7.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9&src=seo_token) | Solana | 8.51% | $1.46M |
+| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9&src=seo_token) | Solana | 7.91% | $1.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOAT yield today?
 
-8.51% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.46M in total.
+1 live pool clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 

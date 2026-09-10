@@ -7,23 +7,23 @@ The highest honest YMVOG yield right now is 7.11% on morpho-blue (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 7.11% | $9.57M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 3.43% | $3.38M |
-| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 4.74% | $1.99M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 5.01% | $1.22M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 3.42% | $3.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 4.75% | $2M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 5.02% | $1.22M |
 | [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 1.58% | $272.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YMVOG's lower-variability candidates are morpho-blue (Base), 4.74% APY, $1.99M TVL, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token; morpho-blue (Ethereum), 1.58% APY, $272.5K TVL, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token; morpho-blue (Ethereum), 7.11% APY, $9.57M TVL, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token; morpho-blue (Katana), 3.43% APY, $3.38M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token; morpho-blue (Katana), 5.01% APY, $1.22M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YMVOG's lower-variability candidates are morpho-blue (Base), 4.75% APY, $2M TVL, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token; morpho-blue (Ethereum), 1.58% APY, $272.5K TVL, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token; morpho-blue (Ethereum), 7.11% APY, $9.57M TVL, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token; morpho-blue (Katana), 3.42% APY, $3.38M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token; morpho-blue (Katana), 5.02% APY, $1.22M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 4.74% | $1.99M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 4.75% | $2M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 1.58% | $272.5K |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 7.11% | $9.57M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 3.43% | $3.38M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 5.01% | $1.22M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 3.42% | $3.38M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 5.02% | $1.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -40,9 +40,9 @@ YMVOG shows up in 5 pools here, with rates from 1.58% to 7.11% APY across 3 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 7.11% | 6.76% | 10.15% incentives |
-| morpho-blue | 3.43% | 3.87% | 27.09% incentives |
-| morpho-blue | 4.74% | 4.94% | Base rate |
-| morpho-blue | 5.01% | 3.86% | 17.85% incentives |
+| morpho-blue | 3.42% | 3.87% | 27.26% incentives |
+| morpho-blue | 4.75% | 4.94% | Base rate |
+| morpho-blue | 5.02% | 3.86% | 17.91% incentives |
 | morpho-blue | 1.58% | 1.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,7 +55,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YMVOG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $16.43M in total.
+5 live pools clear this page's $100K TVL floor, $16.44M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YMVOG pools have the most stable APY history?
 
-Based on APY history only, YMVOG's lower-variability candidates are morpho-blue (Base), 4.74% APY, $1.99M TVL, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token; morpho-blue (Ethereum), 1.58% APY, $272.5K TVL, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token; morpho-blue (Ethereum), 7.11% APY, $9.57M TVL, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token; morpho-blue (Katana), 3.43% APY, $3.38M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token; morpho-blue (Katana), 5.01% APY, $1.22M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YMVOG's lower-variability candidates are morpho-blue (Base), 4.75% APY, $2M TVL, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token; morpho-blue (Ethereum), 1.58% APY, $272.5K TVL, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token; morpho-blue (Ethereum), 7.11% APY, $9.57M TVL, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token; morpho-blue (Katana), 3.42% APY, $3.38M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token; morpho-blue (Katana), 5.02% APY, $1.22M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

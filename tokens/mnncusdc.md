@@ -6,7 +6,7 @@ The highest honest MNNCUSDC yield right now is 7.25% on wildcat-protocol (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=a9bf4c45-bf23-4956-bc6d-7f12b916c7b3&src=seo_token) | Ethereum | 7.25% | $2.79M |
+| [wildcat-protocol →](https://www.defi.garden/?pool=a9bf4c45-bf23-4956-bc6d-7f12b916c7b3&src=seo_token) | Ethereum | 7.25% | $2.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MNNCUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.79M in total.
+1 live pool clear this page's $100K TVL floor, $2.8M in total.
 
 ### Are these rates safe?
 

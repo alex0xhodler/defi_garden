@@ -2,36 +2,36 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest ARM yield right now is 4.20% on origin-arm (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARM yield right now is 4.19% on origin-arm (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 2.12% | $8.13M |
-| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 1.47% | $4.85M |
-| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 11.24% | $548.8K |
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $300.3K |
-| [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.20% | $200.9K |
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.94% | $126.3K |
+| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 2.01% | $8.11M |
+| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 1.48% | $4.83M |
+| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 11.25% | $548.8K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $299.3K |
+| [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.19% | $200.9K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.92% | $126.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ARM's lower-variability candidates are origin-arm (Ethereum), 1.30% APY, $300.3K TVL, https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token; origin-arm (Ethereum), 2.12% APY, $8.13M TVL, https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token; origin-arm (Ethereum), 11.24% APY, $548.8K TVL, https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token; origin-arm (Ethereum), 4.20% APY, $200.9K TVL, https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token; origin-arm (Ethereum), 1.47% APY, $4.85M TVL, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; curve-dex (Ethereum), 1.94% APY, $126.3K TVL, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARM's lower-variability candidates are origin-arm (Ethereum), 1.30% APY, $299.3K TVL, https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token; origin-arm (Ethereum), 2.01% APY, $8.11M TVL, https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token; origin-arm (Ethereum), 11.25% APY, $548.8K TVL, https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token; origin-arm (Ethereum), 4.19% APY, $200.9K TVL, https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token; origin-arm (Ethereum), 1.48% APY, $4.83M TVL, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; curve-dex (Ethereum), 1.92% APY, $126.2K TVL, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $300.3K |
-| 2 | [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 2.12% | $8.13M |
-| 3 | [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 11.24% | $548.8K |
-| 4 | [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.20% | $200.9K |
-| 5 | [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 1.47% | $4.85M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.94% | $126.3K |
+| 1 | [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.30% | $299.3K |
+| 2 | [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 2.01% | $8.11M |
+| 3 | [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 11.25% | $548.8K |
+| 4 | [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.19% | $200.9K |
+| 5 | [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 1.48% | $4.83M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.92% | $126.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ARM shows up in 6 pools here, with rates from 1.30% to 11.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ARM shows up in 6 pools here, with rates from 1.30% to 11.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -41,12 +41,12 @@ ARM shows up in 6 pools here, with rates from 1.30% to 11.24% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| origin-arm | 2.12% | 4.02% | Base rate |
-| origin-arm | 1.47% | 2.55% | Base rate |
-| origin-arm | 11.24% | 7.03% | Base rate |
+| origin-arm | 2.01% | 4.02% | Base rate |
+| origin-arm | 1.48% | 2.55% | Base rate |
+| origin-arm | 11.25% | 7.04% | Base rate |
 | origin-arm | 1.30% | 1.36% | Base rate |
-| origin-arm | 4.20% | 5.53% | Base rate |
-| curve-dex | 1.94% | 2.65% | 50.94% incentives |
+| origin-arm | 4.19% | 5.51% | Base rate |
+| curve-dex | 1.92% | 2.64% | 50.51% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ARM yield today?
 
-4.20% APY on origin-arm (Ethereum), based on live DefiLlama data.
+4.19% APY on origin-arm (Ethereum), based on live DefiLlama data.
 
 ### How many ARM pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $14.16M in total.
+6 live pools clear this page's $100K TVL floor, $14.11M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ARM pools have the most stable APY history?
 
-Based on APY history only, ARM's lower-variability candidates are origin-arm (Ethereum), 1.30% APY, $300.3K TVL, https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token; origin-arm (Ethereum), 2.12% APY, $8.13M TVL, https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token; origin-arm (Ethereum), 11.24% APY, $548.8K TVL, https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token; origin-arm (Ethereum), 4.20% APY, $200.9K TVL, https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token; origin-arm (Ethereum), 1.47% APY, $4.85M TVL, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; curve-dex (Ethereum), 1.94% APY, $126.3K TVL, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARM's lower-variability candidates are origin-arm (Ethereum), 1.30% APY, $299.3K TVL, https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token; origin-arm (Ethereum), 2.01% APY, $8.11M TVL, https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token; origin-arm (Ethereum), 11.25% APY, $548.8K TVL, https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token; origin-arm (Ethereum), 4.19% APY, $200.9K TVL, https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token; origin-arm (Ethereum), 1.48% APY, $4.83M TVL, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; curve-dex (Ethereum), 1.92% APY, $126.2K TVL, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

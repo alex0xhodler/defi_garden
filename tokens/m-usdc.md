@@ -6,7 +6,7 @@ The highest honest M.USDC yield right now is 0.10% on hercules-v3 (Metis), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_token) | Metis | 0.10% | $109.9K |
+| [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_token) | Metis | 0.10% | $109.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many M.USDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.9K in total.
+1 live pool clear this page's $100K TVL floor, $109.4K in total.
 
 ### Are these rates safe?
 

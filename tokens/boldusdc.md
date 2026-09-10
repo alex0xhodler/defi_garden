@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BOLDUSDC yield right now is 3.69% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOLDUSDC yield right now is 3.65% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=58259c5c-232c-42d7-aadc-f750db7a9458&src=seo_token) | Ethereum | 3.69% | $113.2K |
+| [yearn-finance →](https://www.defi.garden/?pool=58259c5c-232c-42d7-aadc-f750db7a9458&src=seo_token) | Ethereum | 3.65% | $113.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOLDUSDC yield today?
 
-3.69% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+3.65% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many BOLDUSDC pools clear the TVL floor?
 

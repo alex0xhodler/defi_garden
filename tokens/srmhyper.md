@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SRMHYPER yield right now is 6.94% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRMHYPER yield right now is 7.01% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 6.94% | $585.3K |
+| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 7.01% | $585.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRMHYPER yield today?
 
-6.94% APY on strata-markets (Ethereum), based on live DefiLlama data.
+7.01% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRMHYPER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $585.3K in total.
+1 live pool clear this page's $100K TVL floor, $585.4K in total.
 
 ### Are these rates safe?
 

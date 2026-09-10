@@ -6,7 +6,7 @@ The highest honest CNGN yield right now is 0.01% on uniswap-v3 (Celo), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.01% | $180.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.01% | $180.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CNGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.7K in total.
+1 live pool clear this page's $100K TVL floor, $180.4K in total.
 
 ### Are these rates safe?
 

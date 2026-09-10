@@ -7,17 +7,17 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 1.51% | $909K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $862.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $859.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 5.18% | $127.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WOJAK의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.21%, TVL $862.8K, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; Ethereum의 uniswap-v2, APY 1.51%, TVL $909K, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; Solana의 raydium-amm, APY 5.18%, TVL $127.5K, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WOJAK의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.21%, TVL $859.8K, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; Ethereum의 uniswap-v2, APY 1.51%, TVL $909K, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; Solana의 raydium-amm, APY 5.18%, TVL $127.5K, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $862.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.21% | $859.8K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 1.51% | $909K |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 5.18% | $127.5K |
 
@@ -35,7 +35,7 @@ WOJAK 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.21%부터 5.18%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 1.51% | 20.06% | 기본 금리 |
+| uniswap-v2 | 1.51% | 20.09% | 기본 금리 |
 | uniswap-v2 | 0.21% | 0.24% | 기본 금리 |
 | raydium-amm | 5.18% | 3.11% | 기본 금리 |
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.21%예�
 
 ### WOJAK 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WOJAK의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.21%, TVL $862.8K, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; Ethereum의 uniswap-v2, APY 1.51%, TVL $909K, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; Solana의 raydium-amm, APY 5.18%, TVL $127.5K, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WOJAK의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.21%, TVL $859.8K, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; Ethereum의 uniswap-v2, APY 1.51%, TVL $909K, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; Solana의 raydium-amm, APY 5.18%, TVL $127.5K, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

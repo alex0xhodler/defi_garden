@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest XAGM yield right now is 39.34% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAGM yield right now is 38.22% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 39.34% | $157.1K |
+| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 38.22% | $158K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAGM yield today?
 
-39.34% APY on bluefin-spot (Sui), based on live DefiLlama data.
+38.22% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many XAGM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $157.1K in total.
+1 live pool clear this page's $100K TVL floor, $158K in total.
 
 ### Are these rates safe?
 

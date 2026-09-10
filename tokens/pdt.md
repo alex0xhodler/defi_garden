@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest PDT yield right now is 3.45% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PDT yield right now is 3.39% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1624abca-7020-4514-9b5e-06110230b9a0&src=seo_token) | Base | 3.45% | $282.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1624abca-7020-4514-9b5e-06110230b9a0&src=seo_token) | Base | 3.39% | $281.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PDT yield today?
 
-3.45% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+3.39% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many PDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $282.9K in total.
+1 live pool clear this page's $100K TVL floor, $281.9K in total.
 
 ### Are these rates safe?
 

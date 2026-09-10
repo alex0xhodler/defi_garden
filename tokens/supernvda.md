@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SUPERNVDA yield right now is 31.47% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERNVDA yield right now is 31.52% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=bc128d75-8019-5d5c-9e6c-2ab94b03b642&src=seo_token) | Base | 31.47% | $111.5K |
+| [superform →](https://www.defi.garden/?pool=bc128d75-8019-5d5c-9e6c-2ab94b03b642&src=seo_token) | Base | 31.52% | $111.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERNVDA yield today?
 
-31.47% APY on superform (Base), based on live DefiLlama data.
+31.52% APY on superform (Base), based on live DefiLlama data.
 
 ### How many SUPERNVDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.5K in total.
+1 live pool clear this page's $100K TVL floor, $111.6K in total.
 
 ### Are these rates safe?
 

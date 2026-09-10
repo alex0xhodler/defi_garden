@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest ARCHGV1USDC yield right now is 3.91% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARCHGV1USDC yield right now is 3.92% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7&src=seo_token) | Base | 3.91% | $1.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7&src=seo_token) | Base | 3.92% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARCHGV1USDC yield today?
 
-3.91% APY on morpho-blue (Base), based on live DefiLlama data.
+3.92% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many ARCHGV1USDC pools clear the TVL floor?
 

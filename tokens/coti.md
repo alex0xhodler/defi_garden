@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest COTI yield right now is 81.41% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COTI yield right now is 86.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=17b013f7-39fa-417d-91d0-b31e176cc7f6&src=seo_token) | Ethereum | 81.41% | $208.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=17b013f7-39fa-417d-91d0-b31e176cc7f6&src=seo_token) | Ethereum | 86.19% | $206.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COTI yield today?
 
-81.41% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+86.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many COTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $208.3K in total.
+1 live pool clear this page's $100K TVL floor, $206.7K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest FEY yield right now is 0.10% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.10% | $110K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ced2064-cced-438b-a6e2-15425f3971b4&src=seo_token) | Ethereum | 0.10% | $109.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FEY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $310.1K in total.
+2 live pools clear this page's $100K TVL floor, $309.9K in total.
 
 ### Are these rates safe?
 

@@ -6,9 +6,9 @@ The highest honest WARS yield right now is 24.00% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.93M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.39% | $237.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.05% | $110.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.05% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -29,7 +29,7 @@ WARS shows up in 3 pools here, with rates from 0.05% to 24.00% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 24.00% | 19.97% | 98.86% incentives |
+| morpho-blue | 24.00% | 20.04% | 98.86% incentives |
 | uniswap-v4 | 0.39% | 0.19% | Base rate |
 | uniswap-v3 | 0.05% | 0.06% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WARS pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.82M in total.
+5 live pools clear this page's $100K TVL floor, $6.8M in total.
 
 ### Are these rates safe?
 

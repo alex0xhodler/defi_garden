@@ -6,7 +6,7 @@ The highest honest SDYFI yield right now is 2.13% on stake-dao-yield (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao-yield →](https://www.defi.garden/?pool=4b8b66c0-4171-44b1-b5bf-9bf17b1ff3ae&src=seo_token) | Ethereum | 2.13% | $515.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=4b8b66c0-4171-44b1-b5bf-9bf17b1ff3ae&src=seo_token) | Ethereum | 2.13% | $515.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDYFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $515.8K in total.
+1 live pool clear this page's $100K TVL floor, $515.5K in total.
 
 ### Are these rates safe?
 

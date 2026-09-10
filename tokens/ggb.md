@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GGB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $568.4K in total.
+3 live pools clear this page's $100K TVL floor, $568.1K in total.
 
 ### Are these rates safe?
 

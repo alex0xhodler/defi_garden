@@ -6,7 +6,7 @@ The highest honest MCC yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=489d450a-753a-4e8a-9a84-41cc28b48d33&src=seo_token) | Ethereum | 0.01% | $279.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=489d450a-753a-4e8a-9a84-41cc28b48d33&src=seo_token) | Ethereum | 0.01% | $279.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MCC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $441.8K in total.
+2 live pools clear this page's $100K TVL floor, $440.8K in total.
 
 ### Are these rates safe?
 

@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WEGLD yield right now is 20.68% on xexchange (MultiversX), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEGLD yield right now is 20.76% on xexchange (MultiversX), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 12.50% | $1.14M |
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.13% | $341.4K |
-| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 20.68% | $153K |
-| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 12.19% | $131K |
-| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $123.2K |
-| [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 24.61% | $116.8K |
-| [xexchange →](https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token) | MultiversX | 17.81% | $108.4K |
+| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 13.61% | $1.16M |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.15% | $354K |
+| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 20.76% | $157.6K |
+| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 13.35% | $133.5K |
+| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $129.6K |
+| [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 25.81% | $119.2K |
+| [xexchange →](https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token) | MultiversX | 18.28% | $110K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WEGLD's lower-variability candidates are ashswap (MultiversX), 0.10% APY, $123.2K TVL, https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token; xexchange (MultiversX), 4.13% APY, $341.4K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 12.19% APY, $131K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 20.68% APY, $153K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 12.50% APY, $1.14M TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; xexchange (MultiversX), 17.81% APY, $108.4K TVL, https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token; xexchange (MultiversX), 24.61% APY, $116.8K TVL, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEGLD's lower-variability candidates are ashswap (MultiversX), 0.10% APY, $129.6K TVL, https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token; xexchange (MultiversX), 4.15% APY, $354K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 13.35% APY, $133.5K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 20.76% APY, $157.6K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 13.61% APY, $1.16M TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; xexchange (MultiversX), 18.28% APY, $110K TVL, https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token; xexchange (MultiversX), 25.81% APY, $119.2K TVL, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $123.2K |
-| 2 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.13% | $341.4K |
-| 3 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 12.19% | $131K |
-| 4 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 20.68% | $153K |
-| 5 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 12.50% | $1.14M |
-| 6 | [xexchange →](https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token) | MultiversX | 17.81% | $108.4K |
-| 7 | [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 24.61% | $116.8K |
+| 1 | [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $129.6K |
+| 2 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.15% | $354K |
+| 3 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 13.35% | $133.5K |
+| 4 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 20.76% | $157.6K |
+| 5 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 13.61% | $1.16M |
+| 6 | [xexchange →](https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token) | MultiversX | 18.28% | $110K |
+| 7 | [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 25.81% | $119.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WEGLD shows up in 7 pools here, with rates from 0.10% to 24.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WEGLD shows up in 7 pools here, with rates from 0.10% to 25.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 11.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 11.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,13 +43,13 @@ WEGLD shows up in 7 pools here, with rates from 0.10% to 24.61% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 12.50% | 8.67% | 10.45% incentives |
-| xexchange | 4.13% | 4.68% | 74.16% incentives |
-| xexchange | 20.68% | 20.03% | 94.49% incentives |
-| xexchange | 12.19% | 11.03% | 46.81% incentives |
+| xexchange | 13.61% | 8.70% | 9.66% incentives |
+| xexchange | 4.15% | 4.68% | 73.00% incentives |
+| xexchange | 20.76% | 20.04% | 93.60% incentives |
+| xexchange | 13.35% | 11.05% | 42.94% incentives |
 | ashswap | 0.10% | 0.10% | 100.00% incentives |
-| xexchange | 24.61% | 16.28% | 36.42% incentives |
-| xexchange | 17.81% | 18.10% | 77.46% incentives |
+| xexchange | 25.81% | 16.33% | 34.84% incentives |
+| xexchange | 18.28% | 18.11% | 76.12% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WEGLD yield today?
 
-20.68% APY on xexchange (MultiversX), based on live DefiLlama data.
+20.76% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many WEGLD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.12M in total.
+7 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WEGLD pools have the most stable APY history?
 
-Based on APY history only, WEGLD's lower-variability candidates are ashswap (MultiversX), 0.10% APY, $123.2K TVL, https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token; xexchange (MultiversX), 4.13% APY, $341.4K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 12.19% APY, $131K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 20.68% APY, $153K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 12.50% APY, $1.14M TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; xexchange (MultiversX), 17.81% APY, $108.4K TVL, https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token; xexchange (MultiversX), 24.61% APY, $116.8K TVL, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEGLD's lower-variability candidates are ashswap (MultiversX), 0.10% APY, $129.6K TVL, https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token; xexchange (MultiversX), 4.15% APY, $354K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 13.35% APY, $133.5K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 20.76% APY, $157.6K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 13.61% APY, $1.16M TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; xexchange (MultiversX), 18.28% APY, $110K TVL, https://www.defi.garden/?pool=d6cf8ba7-1c0d-4160-923a-bee4142a041e&src=seo_token; xexchange (MultiversX), 25.81% APY, $119.2K TVL, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

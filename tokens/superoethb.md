@@ -6,24 +6,24 @@ The highest honest SUPEROETHB yield right now is 2.85% on origin-ether (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $21.74M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.80% | $5.18M |
+| [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $21.66M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.78% | $5.16M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUPEROETHB's lower-variability candidates are origin-ether (Base), 2.85% APY, $21.74M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.80% APY, $5.18M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPEROETHB's lower-variability candidates are origin-ether (Base), 2.85% APY, $21.66M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.78% APY, $5.16M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $21.74M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.80% | $5.18M |
+| 1 | [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $21.66M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.78% | $5.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUPEROETHB shows up in 2 pools here, with rates from 0.80% to 2.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUPEROETHB shows up in 2 pools here, with rates from 0.78% to 2.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,7 +32,7 @@ SUPEROETHB shows up in 2 pools here, with rates from 0.80% to 2.85% APY across 1
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | origin-ether | 2.85% | 2.83% | Base rate |
-| aerodrome-slipstream | 0.80% | 0.57% | 99.88% incentives |
+| aerodrome-slipstream | 0.78% | 0.57% | 99.88% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUPEROETHB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $29.4M in total.
+4 live pools clear this page's $100K TVL floor, $29.29M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUPEROETHB pools have the most stable APY history?
 
-Based on APY history only, SUPEROETHB's lower-variability candidates are origin-ether (Base), 2.85% APY, $21.74M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.80% APY, $5.18M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPEROETHB's lower-variability candidates are origin-ether (Base), 2.85% APY, $21.66M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.78% APY, $5.16M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest SETH2 yield right now is 0.48% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=987fac28-0ff4-41d8-a3db-0c39810b0a38&src=seo_token) | Ethereum | 0.48% | $183K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=987fac28-0ff4-41d8-a3db-0c39810b0a38&src=seo_token) | Ethereum | 0.48% | $182.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SETH2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $183K in total.
+1 live pool clear this page's $100K TVL floor, $182.8K in total.
 
 ### Are these rates safe?
 

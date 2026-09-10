@@ -7,19 +7,19 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.54% | $9.69M |
-| [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 10.26% | $1.49M |
 | [pendle-v2 →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.19% | $1.49M |
+| [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 10.20% | $1.49M |
 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.54% | $325.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LIMUSD의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 11.19%, TVL $1.49M, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; Hyperliquid L1의 pendle-v2, APY 10.26%, TVL $1.49M, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; Arbitrum의 liminal-basis, APY 7.54%, TVL $325.6K, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; Hyperliquid L1의 liminal-basis, APY 7.54%, TVL $9.69M, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIMUSD의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 11.19%, TVL $1.49M, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; Hyperliquid L1의 pendle-v2, APY 10.20%, TVL $1.49M, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; Arbitrum의 liminal-basis, APY 7.54%, TVL $325.6K, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; Hyperliquid L1의 liminal-basis, APY 7.54%, TVL $9.69M, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.19% | $1.49M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 10.26% | $1.49M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 10.20% | $1.49M |
 | 3 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.54% | $325.6K |
 | 4 | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.54% | $9.69M |
 
@@ -36,8 +36,8 @@ LIMUSD 풀은 여기 4개가 있고, 2개 체인에서 APY가 7.54%부터 11.19%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | liminal-basis | 7.54% | 4.67% | 기본 금리 |
-| pendle-v2 | 10.26% | 10.13% | 기본 금리 |
 | pendle-v2 | 11.19% | 10.46% | 기본 금리 |
+| pendle-v2 | 10.20% | 10.13% | 기본 금리 |
 | liminal-basis | 7.54% | 4.67% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle-v2에서 APY 11.1
 
 ### LIMUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LIMUSD의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 11.19%, TVL $1.49M, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; Hyperliquid L1의 pendle-v2, APY 10.26%, TVL $1.49M, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; Arbitrum의 liminal-basis, APY 7.54%, TVL $325.6K, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; Hyperliquid L1의 liminal-basis, APY 7.54%, TVL $9.69M, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIMUSD의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 11.19%, TVL $1.49M, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; Hyperliquid L1의 pendle-v2, APY 10.20%, TVL $1.49M, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; Arbitrum의 liminal-basis, APY 7.54%, TVL $325.6K, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; Hyperliquid L1의 liminal-basis, APY 7.54%, TVL $9.69M, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

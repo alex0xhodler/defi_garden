@@ -6,7 +6,7 @@ The highest honest WDOGE yield right now is 0.89% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.89% | $2.73M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.89% | $2.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WDOGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.08M in total.
+2 live pools clear this page's $100K TVL floor, $8.07M in total.
 
 ### Are these rates safe?
 

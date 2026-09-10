@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BRLA의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 22.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BRLA의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 22.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 22.43% | $110.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 22.44% | $110.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 BRLA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 22.43%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 22.44%예요.
 
 ### BRLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -39,8 +39,8 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 22.43%예�
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
 - [WPOL](https://www.defi.garden/ko/tokens/wpol)
+- [MATICX](https://www.defi.garden/ko/tokens/maticx)
 
 ## 이용 가능한 체인
 

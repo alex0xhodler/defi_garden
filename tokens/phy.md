@@ -6,18 +6,18 @@ The highest honest PHY yield right now is 0.46% on orca-dex (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.01% | $177.9K |
-| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.46% | $138.9K |
+| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.01% | $176.5K |
+| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.46% | $137.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PHY's lower-variability candidates are orca-dex (Solana), 0.46% APY, $138.9K TVL, https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token; orca-dex (Solana), 0.01% APY, $177.9K TVL, https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PHY's lower-variability candidates are orca-dex (Solana), 0.46% APY, $137.9K TVL, https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token; orca-dex (Solana), 0.01% APY, $176.5K TVL, https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.46% | $138.9K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.01% | $177.9K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.46% | $137.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.01% | $176.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PHY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $316.8K in total.
+2 live pools clear this page's $100K TVL floor, $314.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PHY pools have the most stable APY history?
 
-Based on APY history only, PHY's lower-variability candidates are orca-dex (Solana), 0.46% APY, $138.9K TVL, https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token; orca-dex (Solana), 0.01% APY, $177.9K TVL, https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PHY's lower-variability candidates are orca-dex (Solana), 0.46% APY, $137.9K TVL, https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token; orca-dex (Solana), 0.01% APY, $176.5K TVL, https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

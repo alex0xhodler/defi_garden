@@ -6,7 +6,7 @@ The highest honest MT yield right now is 0.08% on uniswap-v3 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.08% | $174.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.08% | $174.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $174.7K in total.
+1 live pool clear this page's $100K TVL floor, $174.6K in total.
 
 ### Are these rates safe?
 

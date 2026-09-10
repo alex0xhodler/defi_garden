@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest USDP yield right now is 11.42% on balancer-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDP yield right now is 11.25% on balancer-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 11.42% | $976.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 11.25% | $976.3K |
 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 11.21% | $293K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDP's lower-variability candidates are balancer-v3 (Hyperliquid L1), 11.42% APY, $976.3K TVL, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; balancer-v3 (Avalanche), 11.21% APY, $293K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDP's lower-variability candidates are balancer-v3 (Hyperliquid L1), 11.25% APY, $976.3K TVL, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; balancer-v3 (Avalanche), 11.21% APY, $293K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 11.42% | $976.3K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 11.25% | $976.3K |
 | 2 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 11.21% | $293K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDP shows up in 2 pools here, with rates from 11.21% to 11.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDP shows up in 2 pools here, with rates from 11.21% to 11.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ USDP shows up in 2 pools here, with rates from 11.21% to 11.42% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 11.42% | 11.69% | 85.45% incentives |
+| balancer-v3 | 11.25% | 11.69% | 85.34% incentives |
 | balancer-v3 | 11.21% | 8.23% | 86.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDP yield today?
 
-11.42% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+11.25% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many USDP pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDP pools have the most stable APY history?
 
-Based on APY history only, USDP's lower-variability candidates are balancer-v3 (Hyperliquid L1), 11.42% APY, $976.3K TVL, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; balancer-v3 (Avalanche), 11.21% APY, $293K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDP's lower-variability candidates are balancer-v3 (Hyperliquid L1), 11.25% APY, $976.3K TVL, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; balancer-v3 (Avalanche), 11.21% APY, $293K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

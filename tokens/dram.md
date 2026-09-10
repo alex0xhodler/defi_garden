@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest DRAM yield right now is 26.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRAM yield right now is 25.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=232b6e23-2cc1-4c43-a10b-43ab312fff94&src=seo_token) | Solana | 26.42% | $378.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=232b6e23-2cc1-4c43-a10b-43ab312fff94&src=seo_token) | Solana | 25.13% | $377.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DRAM yield today?
 
-26.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+25.13% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DRAM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $378.7K in total.
+1 live pool clear this page's $100K TVL floor, $377.2K in total.
 
 ### Are these rates safe?
 
