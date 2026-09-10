@@ -28,7 +28,13 @@ enriched.forEach(p => {
   assert.strictEqual(typeof f.p10, 'number', `${p.pool}: p10 must be number`);
   assert.strictEqual(typeof f.p50, 'number', `${p.pool}: p50 must be number`);
   assert.strictEqual(typeof f.p90, 'number', `${p.pool}: p90 must be number`);
+  assert.strictEqual(typeof f.organicApy, 'number', `${p.pool}: organicApy must be number`);
+  assert.strictEqual(typeof f.rewardApy, 'number', `${p.pool}: rewardApy must be number`);
+  assert.strictEqual(typeof f.predictedTvlUsd, 'number', `${p.pool}: predictedTvlUsd must be number`);
+  assert.strictEqual(typeof f.predictedTvlDelta, 'number', `${p.pool}: predictedTvlDelta must be number`);
   assert.strictEqual(typeof f.forwardDelta, 'number', `${p.pool}: forwardDelta must be number`);
+  assert.ok(['LOW', 'MEDIUM', 'HIGH'].includes(f.crashRisk), `${p.pool}: crashRisk must be valid`);
+  assert.strictEqual(typeof f.skew, 'number', `${p.pool}: skew must be number`);
   assert.ok(Array.isArray(f.trajectory), `${p.pool}: trajectory must be array`);
   assert.ok(f.p10 <= f.p90, `${p.pool}: p10 (${f.p10}) should be <= p90 (${f.p90})`);
 

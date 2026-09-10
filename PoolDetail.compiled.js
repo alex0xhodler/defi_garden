@@ -2661,7 +2661,31 @@ function PoolDetail({
     className: 'pool-fact-label'
   }, t ? t('forecast14d') : '14d AI Forecast'), React.createElement('div', {
     className: 'pool-fact-value'
-  }, _formatApy(pool.forecast.p50) + ' (' + (t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)) + ')')),
+  }, _formatApy(pool.forecast.p50) + ' (' + (t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)) + ')', pool.forecast.crashRisk === 'HIGH' && React.createElement('span', {
+    className: 'pool-risk-pill-danger',
+    style: {
+      marginLeft: '6px',
+      fontSize: '11px',
+      color: 'var(--color-error, #ef4444)',
+      fontWeight: 600
+    }
+  }, ' ⚠ ' + (t ? t('crashRiskHigh') : 'High Crash Risk')), pool.forecast.crashRisk === 'LOW' && React.createElement('span', {
+    className: 'pool-risk-pill-safe',
+    style: {
+      marginLeft: '6px',
+      fontSize: '11px',
+      color: 'var(--color-success, #10b981)',
+      fontWeight: 600
+    }
+  }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside')))),
+  // Yield Decomposition (if reward yield is present)
+  pool.forecast && typeof pool.forecast.rewardApy === 'number' && pool.forecast.rewardApy > 0 && React.createElement('div', {
+    className: 'pool-fact-row'
+  }, React.createElement('div', {
+    className: 'pool-fact-label'
+  }, t ? t('yieldDecomp') : 'Yield Mix'), React.createElement('div', {
+    className: 'pool-fact-value'
+  }, `${_formatApy(pool.forecast.organicApy)} ${t ? t('organicLabel') : 'Organic'} / ${_formatApy(pool.forecast.rewardApy)} ${t ? t('rewardLabel') : 'Reward'}`)),
   // DeFi Score (if available)
   pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
     className: 'pool-fact-row'

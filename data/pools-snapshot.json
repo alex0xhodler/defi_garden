@@ -32,16 +32,16 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 2.18,
-        "p50": 2.24,
-        "p90": 2.35,
-        "forwardDelta": -0.09,
+        "p50": 2.23,
+        "p90": 2.34,
+        "organicApy": 2.23,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 23599863052,
+        "predictedTvlDelta": 0.0072,
+        "forwardDelta": -0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          2.26,
-          2.25,
-          2.25,
-          2.25,
-          2.25,
-          2.25,
           2.24,
           2.24,
           2.24,
@@ -49,16 +49,22 @@
           2.24,
           2.24,
           2.23,
+          2.24,
+          2.24,
+          2.23,
+          2.23,
+          2.23,
+          2.23,
           2.23
         ]
       },
       "defiScore": {
-        "score": 87.3,
+        "score": 91.4,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.0,
-          "sustainability": 19.7,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -89,34 +95,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.16,
+        "p10": 2.15,
         "p50": 2.25,
         "p90": 2.37,
+        "organicApy": 2.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 8632471085,
+        "predictedTvlDelta": 0.0094,
         "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.24,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
           2.24,
           2.25,
-          2.26,
           2.25,
-          2.25,
-          2.26,
-          2.26,
-          2.25,
-          2.25,
-          2.25,
-          2.26,
           2.24,
-          2.24
+          2.25
         ]
       },
       "defiScore": {
-        "score": 87.2,
+        "score": 90.9,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.7,
-          "sustainability": 19.9,
-          "stickiness": 19.5,
+          "stability": 33.6,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -147,34 +159,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.29,
-        "p50": 2.36,
-        "p90": 2.45,
-        "forwardDelta": -0.01,
+        "p10": 2.28,
+        "p50": 2.33,
+        "p90": 2.4,
+        "organicApy": 2.33,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 5745280266,
+        "predictedTvlDelta": 0.1052,
+        "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          2.37,
-          2.36,
-          2.36,
-          2.36,
-          2.36,
-          2.36,
-          2.36,
-          2.37,
-          2.37,
-          2.37,
-          2.38,
-          2.37,
-          2.36,
-          2.35
+          2.31,
+          2.33,
+          2.32,
+          2.32,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33,
+          2.33
         ]
       },
       "defiScore": {
-        "score": 87.6,
+        "score": 91.7,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.1,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 34.3,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -205,10 +223,16 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.53,
+        "p10": 3.54,
         "p50": 3.6,
         "p90": 3.6,
+        "organicApy": 3.6,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 4674061298,
+        "predictedTvlDelta": 0.0034,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.6,
           3.6,
@@ -219,20 +243,20 @@
           3.6,
           3.6,
           3.6,
-          3.59,
-          3.59,
-          3.59,
-          3.59,
-          3.59
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6
         ]
       },
       "defiScore": {
-        "score": 88.3,
+        "score": 92.1,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.7,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -266,7 +290,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 3935826063,
+        "predictedTvlDelta": 0.1208,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -285,13 +315,13 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 71.5,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "sustainability": 12.0,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -324,7 +354,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 3008399248,
+        "predictedTvlDelta": -0.0074,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -343,12 +379,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.2,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.1,
           "liquidity": 14.1
         }
       }
@@ -382,7 +418,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 2897579908,
+        "predictedTvlDelta": 0.0062,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -401,12 +443,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.3,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -440,7 +482,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
-        "forwardDelta": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 2753312826,
+        "predictedTvlDelta": 0.0063,
+        "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -459,13 +507,13 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 71.5,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "sustainability": 12.0,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -495,34 +543,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.85,
-        "p50": 4.92,
-        "p90": 5.03,
-        "forwardDelta": -0.04,
+        "p10": 4.88,
+        "p50": 4.95,
+        "p90": 5.07,
+        "organicApy": 4.95,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 2655354977,
+        "predictedTvlDelta": 0.0045,
+        "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
+          4.96,
+          4.96,
+          4.96,
           4.96,
           4.95,
           4.95,
+          4.95,
           4.94,
-          4.93,
-          4.93,
-          4.92,
-          4.92,
-          4.91,
-          4.91,
-          4.91,
-          4.9,
-          4.9,
-          4.9
+          4.94,
+          4.94,
+          4.94,
+          4.94,
+          4.94,
+          4.93
         ]
       },
       "defiScore": {
-        "score": 88.0,
+        "score": 91.7,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.5,
-          "sustainability": 19.9,
-          "stickiness": 19.5,
+          "stability": 34.4,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -556,7 +610,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 2548527002,
+        "predictedTvlDelta": -0.0021,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -575,13 +635,13 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 74.1,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "sustainability": 14.7,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -611,34 +671,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.98,
-        "p50": 3.18,
-        "p90": 3.38,
-        "forwardDelta": -0.02,
+        "p10": 3.04,
+        "p50": 3.17,
+        "p90": 3.29,
+        "organicApy": 3.17,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 2452511549,
+        "predictedTvlDelta": -0.0424,
+        "forwardDelta": -0.03,
+        "crashRisk": "LOW",
+        "skew": -0.05,
         "trajectory": [
-          3.17,
-          3.17,
+          3.19,
           3.1,
-          3.09,
-          3.24,
-          3.3,
+          3.02,
           3.17,
-          3.17,
-          3.16,
-          3.08,
-          3.11,
-          3.27,
-          3.29,
-          3.16
+          3.31,
+          3.19,
+          3.19,
+          3.18,
+          3.1,
+          3.01,
+          3.18,
+          3.31,
+          3.2,
+          3.19
         ]
       },
       "defiScore": {
-        "score": 86.8,
+        "score": 90.3,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.2,
-          "sustainability": 19.9,
-          "stickiness": 19.5,
+          "stability": 33.9,
+          "sustainability": 21.9,
+          "stickiness": 20.4,
           "liquidity": 14.1
         }
       }
@@ -672,7 +738,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1414072871,
+        "predictedTvlDelta": 0.0149,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -691,13 +763,13 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 72.4,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "sustainability": 12.9,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -727,34 +799,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.37,
-        "p50": 4.73,
-        "p90": 5.04,
-        "forwardDelta": -0.09,
+        "p10": 4.33,
+        "p50": 4.72,
+        "p90": 4.99,
+        "organicApy": 4.72,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1333109617,
+        "predictedTvlDelta": 0.0051,
+        "forwardDelta": -0.08,
+        "crashRisk": "MEDIUM",
+        "skew": -0.19,
         "trajectory": [
-          4.78,
-          4.77,
-          4.77,
+          4.79,
+          4.76,
+          4.76,
           4.75,
-          4.72,
+          4.73,
           4.71,
-          4.69,
           4.69,
           4.7,
+          4.7,
+          4.7,
           4.71,
-          4.72,
-          4.74,
-          4.74,
-          4.74
+          4.71,
+          4.7,
+          4.7
         ]
       },
       "defiScore": {
-        "score": 86.4,
+        "score": 87.2,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.0,
-          "sustainability": 19.7,
-          "stickiness": 19.5,
+          "stability": 30.1,
+          "sustainability": 21.8,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -788,7 +866,13 @@
         "p10": 2.15,
         "p50": 2.17,
         "p90": 2.2,
+        "organicApy": 2.17,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1279670954,
+        "predictedTvlDelta": 0.0056,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.17,
           2.17,
@@ -807,12 +891,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.3,
+        "score": 92.0,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.7,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -846,7 +930,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1196870685,
+        "predictedTvlDelta": 0.0028,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -865,12 +955,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.6,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.3,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -903,8 +993,14 @@
         "horizonDays": 14,
         "p10": 3.57,
         "p50": 3.57,
-        "p90": 3.58,
+        "p90": 3.59,
+        "organicApy": 3.57,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1199924707,
+        "predictedTvlDelta": 0.0163,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.57,
           3.57,
@@ -916,19 +1012,19 @@
           3.57,
           3.57,
           3.57,
-          3.57,
-          3.57,
-          3.57,
-          3.57
+          3.58,
+          3.58,
+          3.58,
+          3.58
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 92.3,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -962,33 +1058,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 2.17,
-        "p50": 2.33,
-        "p90": 2.57,
-        "forwardDelta": 0.02,
+        "p50": 2.31,
+        "p90": 2.59,
+        "organicApy": 2.31,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1086412668,
+        "predictedTvlDelta": 0.0133,
+        "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.33,
         "trajectory": [
+          2.3,
+          2.3,
+          2.31,
+          2.3,
+          2.31,
+          2.31,
+          2.31,
           2.31,
           2.32,
           2.32,
-          2.32,
-          2.33,
-          2.33,
-          2.33,
-          2.33,
-          2.34,
-          2.34,
-          2.34,
-          2.33,
-          2.32,
-          2.32
+          2.31,
+          2.31,
+          2.3,
+          2.3
         ]
       },
       "defiScore": {
-        "score": 86.2,
+        "score": 89.8,
         "rating": "AAA",
         "breakdown": {
-          "stability": 32.6,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 32.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1020,33 +1122,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 1.92,
-        "p50": 1.94,
-        "p90": 2.11,
-        "forwardDelta": 0.01,
+        "p50": 1.95,
+        "p90": 2.13,
+        "organicApy": 1.95,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1061960936,
+        "predictedTvlDelta": 0.0111,
+        "forwardDelta": -0.04,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          1.94,
-          1.94,
-          1.94,
-          1.94,
-          1.94,
-          1.94,
-          1.94,
-          1.94,
-          1.94,
+          1.95,
+          1.95,
           1.95,
           1.95,
           1.94,
-          1.94,
-          1.94
+          1.95,
+          1.95,
+          1.95,
+          1.95,
+          1.95,
+          1.95,
+          1.95,
+          1.95,
+          1.95
         ]
       },
       "defiScore": {
-        "score": 87.3,
+        "score": 90.8,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.7,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 33.5,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1077,34 +1185,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.41,
-        "p50": 4.56,
-        "p90": 4.66,
-        "forwardDelta": 0.03,
+        "p10": 4.42,
+        "p50": 4.54,
+        "p90": 4.64,
+        "organicApy": 4.54,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1127420187,
+        "predictedTvlDelta": 0.0929,
+        "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
+          4.53,
+          4.53,
           4.54,
           4.54,
-          4.55,
           4.54,
-          4.55,
-          4.56,
-          4.56,
-          4.56,
-          4.56,
-          4.57,
-          4.57,
-          4.57,
-          4.57,
-          4.57
+          4.54,
+          4.54,
+          4.54,
+          4.54,
+          4.54,
+          4.54,
+          4.54,
+          4.54,
+          4.54
         ]
       },
       "defiScore": {
-        "score": 88.0,
+        "score": 91.7,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.2,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 34.3,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1135,34 +1249,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.52,
-        "p50": 4.85,
-        "p90": 5.02,
-        "forwardDelta": 0.2,
+        "p10": 3.95,
+        "p50": 4.64,
+        "p90": 4.93,
+        "organicApy": 4.64,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1114567518,
+        "predictedTvlDelta": 0.0907,
+        "forwardDelta": -0.01,
+        "crashRisk": "MEDIUM",
+        "skew": -0.41,
         "trajectory": [
-          4.74,
-          4.79,
-          4.81,
-          4.82,
-          4.84,
-          4.85,
-          4.86,
-          4.86,
-          4.86,
-          4.87,
-          4.88,
-          4.89,
-          4.89,
-          4.89
+          4.71,
+          4.69,
+          4.7,
+          4.69,
+          4.68,
+          4.67,
+          4.65,
+          4.61,
+          4.61,
+          4.62,
+          4.61,
+          4.58,
+          4.56,
+          4.54
         ]
       },
       "defiScore": {
-        "score": 87.9,
+        "score": 86.4,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.5,
-          "sustainability": 20.8,
-          "stickiness": 19.5,
+          "stability": 29.1,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1196,7 +1316,13 @@
         "p10": 3.54,
         "p50": 3.56,
         "p90": 3.58,
+        "organicApy": 3.56,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 1072840452,
+        "predictedTvlDelta": 0.0813,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.56,
           3.56,
@@ -1215,12 +1341,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 92.2,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1253,8 +1379,14 @@
         "horizonDays": 14,
         "p10": 3.23,
         "p50": 3.25,
-        "p90": 3.27,
+        "p90": 3.26,
+        "organicApy": 3.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 964718401,
+        "predictedTvlDelta": -0.0025,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.25,
           3.25,
@@ -1273,12 +1405,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.4,
+        "score": 92.2,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.8,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 34.9,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1309,34 +1441,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.75,
-        "p50": 4.95,
-        "p90": 5.17,
-        "forwardDelta": 0.3,
+        "p10": 4.8,
+        "p50": 4.98,
+        "p90": 5.19,
+        "organicApy": 4.98,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 945672035,
+        "predictedTvlDelta": 0.0187,
+        "forwardDelta": 0.33,
+        "crashRisk": "LOW",
+        "skew": 0.04,
         "trajectory": [
-          4.72,
-          4.76,
           4.8,
-          4.83,
-          4.86,
+          4.78,
+          4.8,
+          4.89,
+          4.89,
           4.9,
-          4.94,
-          4.98,
+          5.0,
           5.01,
-          5.05,
-          5.08,
-          5.11,
-          5.14,
-          5.17
+          5.02,
+          5.1,
+          5.1,
+          5.1,
+          5.2,
+          5.2
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 92.2,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.7,
-          "sustainability": 21.2,
-          "stickiness": 19.5,
+          "stability": 33.8,
+          "sustainability": 23.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1370,7 +1508,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 801386654,
+        "predictedTvlDelta": -0.0039,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -1389,12 +1533,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 83.7,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 13.4,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1428,7 +1572,13 @@
         "p10": 2.32,
         "p50": 2.33,
         "p90": 2.34,
+        "organicApy": 2.33,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 785817087,
+        "predictedTvlDelta": 0.0076,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.33,
           2.33,
@@ -1447,12 +1597,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.4,
+        "score": 92.3,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.8,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 34.9,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1486,7 +1636,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 751415849,
+        "predictedTvlDelta": 0.0086,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -1505,12 +1661,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.3,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1544,7 +1700,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 759437263,
+        "predictedTvlDelta": 0.0152,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -1563,12 +1725,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.3,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1599,34 +1761,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 0.81,
-        "p50": 1.0,
-        "p90": 1.33,
-        "forwardDelta": 0.0,
+        "p10": 0.78,
+        "p50": 1.01,
+        "p90": 1.34,
+        "organicApy": 1.01,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 785571098,
+        "predictedTvlDelta": 0.0557,
+        "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0.18,
         "trajectory": [
           1.0,
+          1.01,
+          1.01,
+          1.01,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.01,
+          1.01,
+          1.01,
           1.0,
           1.0,
-          1.0,
-          1.0,
-          1.0,
-          1.0,
-          1.0,
-          1.0,
-          0.99,
-          0.99,
-          0.99,
-          0.99,
-          0.99
+          1.0
         ]
       },
       "defiScore": {
-        "score": 85.0,
+        "score": 88.4,
         "rating": "AAA",
         "breakdown": {
-          "stability": 31.4,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 31.1,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1657,34 +1825,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.63,
-        "p50": 3.4,
-        "p90": 3.93,
-        "forwardDelta": -0.21,
+        "p10": 3.02,
+        "p50": 3.72,
+        "p90": 4.21,
+        "organicApy": 3.72,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 756027877,
+        "predictedTvlDelta": 0.0081,
+        "forwardDelta": -0.28,
+        "crashRisk": "MEDIUM",
+        "skew": -0.18,
         "trajectory": [
-          3.45,
-          3.42,
-          3.41,
-          3.39,
-          3.38,
-          3.38,
-          3.39,
-          3.39,
-          3.4,
-          3.39,
-          3.39,
-          3.39,
-          3.39,
-          3.39
+          3.84,
+          3.8,
+          3.74,
+          3.78,
+          3.72,
+          3.72,
+          3.71,
+          3.68,
+          3.58,
+          3.72,
+          3.69,
+          3.7,
+          3.7,
+          3.68
         ]
       },
       "defiScore": {
-        "score": 82.9,
+        "score": 84.5,
         "rating": "AA",
         "breakdown": {
-          "stability": 29.9,
-          "sustainability": 19.4,
-          "stickiness": 19.5,
+          "stability": 27.8,
+          "sustainability": 21.3,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1718,7 +1892,13 @@
         "p10": 1.4,
         "p50": 1.45,
         "p90": 1.52,
-        "forwardDelta": -0.0,
+        "organicApy": 1.45,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 752041817,
+        "predictedTvlDelta": 0.0366,
+        "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           1.45,
           1.45,
@@ -1728,7 +1908,7 @@
           1.45,
           1.45,
           1.45,
-          1.45,
+          1.46,
           1.45,
           1.45,
           1.45,
@@ -1737,13 +1917,13 @@
         ]
       },
       "defiScore": {
-        "score": 87.8,
-        "rating": "AAA",
+        "score": 80.7,
+        "rating": "AA",
         "breakdown": {
           "stability": 34.2,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "sustainability": 22.0,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -1773,10 +1953,16 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 0.3,
+        "p10": 0.29,
         "p50": 0.32,
         "p90": 0.36,
+        "organicApy": 0.32,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 695753157,
+        "predictedTvlDelta": -0.0013,
         "forwardDelta": -0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.33,
           0.33,
@@ -1791,16 +1977,16 @@
           0.32,
           0.32,
           0.32,
-          0.31
+          0.32
         ]
       },
       "defiScore": {
-        "score": 88.1,
+        "score": 91.8,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.6,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 34.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1832,33 +2018,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 0.02,
-        "p50": 0.2,
-        "p90": 0.3,
-        "forwardDelta": 0.02,
+        "p50": 0.18,
+        "p90": 0.29,
+        "organicApy": 0.18,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 679339945,
+        "predictedTvlDelta": 0.0028,
+        "forwardDelta": 0.0,
+        "crashRisk": "MEDIUM",
+        "skew": -0.16,
         "trajectory": [
+          0.17,
+          0.17,
+          0.17,
+          0.17,
+          0.17,
+          0.17,
           0.18,
           0.18,
           0.18,
-          0.19,
-          0.19,
-          0.19,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.21,
-          0.21,
-          0.21,
-          0.21
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.18
         ]
       },
       "defiScore": {
-        "score": 86.7,
+        "score": 87.4,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.1,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 30.1,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1892,7 +2084,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 683622777,
+        "predictedTvlDelta": 0.0009,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -1911,12 +2109,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.3,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -1947,10 +2145,16 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.58,
+        "p10": 3.57,
         "p50": 3.59,
         "p90": 3.61,
+        "organicApy": 3.59,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 588135362,
+        "predictedTvlDelta": -0.1274,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.59,
           3.59,
@@ -1969,12 +2173,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 89.7,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 18.7,
           "liquidity": 14.1
         }
       }
@@ -2008,7 +2212,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 660116494,
+        "predictedTvlDelta": 0.0095,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -2027,12 +2237,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.6,
-        "rating": "AAA",
+        "score": 82.3,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2063,34 +2273,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.3,
-        "p50": 3.5,
-        "p90": 3.69,
-        "forwardDelta": -0.27,
+        "p10": 3.33,
+        "p50": 3.49,
+        "p90": 3.7,
+        "organicApy": 3.49,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 537626266,
+        "predictedTvlDelta": -0.1066,
+        "forwardDelta": -0.06,
+        "crashRisk": "LOW",
+        "skew": 0.13,
         "trajectory": [
-          3.65,
-          3.51,
+          3.49,
           3.41,
-          3.37,
-          3.41,
-          3.55,
-          3.67,
-          3.64,
-          3.56,
+          3.36,
+          3.38,
+          3.57,
+          3.69,
+          3.53,
+          3.49,
           3.42,
           3.36,
-          3.36,
-          3.44,
-          3.59
+          3.39,
+          3.56,
+          3.69,
+          3.51
         ]
       },
       "defiScore": {
-        "score": 86.3,
+        "score": 88.6,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.6,
-          "sustainability": 19.2,
-          "stickiness": 19.5,
+          "stability": 33.5,
+          "sustainability": 21.9,
+          "stickiness": 19.1,
           "liquidity": 14.1
         }
       }
@@ -2121,34 +2337,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 1.41,
-        "p50": 2.21,
-        "p90": 3.04,
-        "forwardDelta": -0.19,
+        "p10": 1.33,
+        "p50": 2.09,
+        "p90": 2.8,
+        "organicApy": 2.09,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 583773255,
+        "predictedTvlDelta": 0.0022,
+        "forwardDelta": -0.05,
+        "crashRisk": "LOW",
+        "skew": -0.04,
         "trajectory": [
-          2.25,
-          2.19,
-          2.21,
-          2.19,
-          2.31,
-          2.17,
-          2.16,
-          2.21,
-          2.22,
-          2.17,
-          2.29,
-          2.22,
-          2.18,
-          2.15
+          2.13,
+          2.09,
+          2.11,
+          2.13,
+          2.12,
+          2.09,
+          2.09,
+          2.09,
+          2.08,
+          2.08,
+          2.09,
+          2.08,
+          2.06,
+          2.07
         ]
       },
       "defiScore": {
-        "score": 78.5,
+        "score": 82.6,
         "rating": "AA",
         "breakdown": {
-          "stability": 25.5,
-          "sustainability": 19.4,
-          "stickiness": 19.5,
+          "stability": 25.4,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2179,34 +2401,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.37,
-        "p50": 3.88,
-        "p90": 4.64,
-        "forwardDelta": 0.02,
+        "p10": 3.46,
+        "p50": 3.89,
+        "p90": 4.6,
+        "organicApy": 0.0,
+        "rewardApy": 3.89,
+        "predictedTvlUsd": 579942644,
+        "predictedTvlDelta": -0.0037,
+        "forwardDelta": 0.1,
+        "crashRisk": "LOW",
+        "skew": 0.24,
         "trajectory": [
-          3.88,
-          3.87,
-          3.87,
-          3.9,
-          3.88,
-          3.88,
-          3.89,
-          3.89,
-          3.88,
-          3.89,
-          3.87,
-          3.87,
+          3.81,
+          3.83,
           3.86,
-          3.85
+          3.89,
+          3.88,
+          3.91,
+          3.91,
+          3.91,
+          3.92,
+          3.94,
+          3.92,
+          3.91,
+          3.93,
+          3.92
         ]
       },
       "defiScore": {
-        "score": 84.1,
+        "score": 78.4,
         "rating": "AA",
         "breakdown": {
-          "stability": 30.4,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 30.8,
+          "sustainability": 12.3,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2237,10 +2465,16 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.55,
+        "p10": 3.54,
         "p50": 3.56,
-        "p90": 3.58,
+        "p90": 3.57,
+        "organicApy": 3.56,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 565308511,
+        "predictedTvlDelta": 0.0014,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.56,
           3.56,
@@ -2259,12 +2493,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 92.2,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2295,34 +2529,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.07,
-        "p50": 4.24,
-        "p90": 7.59,
-        "forwardDelta": 0.04,
+        "p10": 4.06,
+        "p50": 4.18,
+        "p90": 7.34,
+        "organicApy": 0.0,
+        "rewardApy": 4.18,
+        "predictedTvlUsd": 580239952,
+        "predictedTvlDelta": 0.0502,
+        "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.93,
         "trajectory": [
-          4.22,
-          4.21,
-          4.25,
-          4.25,
-          4.26,
-          4.25,
-          4.27,
-          4.28,
-          4.24,
-          4.22,
+          4.19,
           4.23,
-          4.24,
-          4.24,
-          4.23
+          4.26,
+          4.19,
+          4.18,
+          4.2,
+          4.19,
+          4.18,
+          4.11,
+          4.15,
+          4.16,
+          4.11,
+          4.16,
+          4.21
         ]
       },
       "defiScore": {
-        "score": 77.0,
+        "score": 71.4,
         "rating": "AA",
         "breakdown": {
-          "stability": 23.3,
-          "sustainability": 20.2,
-          "stickiness": 19.5,
+          "stability": 24.1,
+          "sustainability": 11.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2356,7 +2596,13 @@
         "p10": 3.56,
         "p50": 3.57,
         "p90": 3.59,
+        "organicApy": 3.57,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 536024988,
+        "predictedTvlDelta": 0.0007,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.57,
           3.57,
@@ -2375,12 +2621,12 @@
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 92.3,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2411,34 +2657,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.93,
-        "p50": 5.37,
-        "p90": 5.72,
-        "forwardDelta": -0.14,
+        "p10": 5.01,
+        "p50": 5.4,
+        "p90": 5.75,
+        "organicApy": 5.4,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 513790667,
+        "predictedTvlDelta": -0.0014,
+        "forwardDelta": -0.11,
+        "crashRisk": "LOW",
+        "skew": -0.06,
         "trajectory": [
-          5.48,
           5.47,
+          5.46,
           5.44,
-          5.42,
-          5.39,
+          5.43,
+          5.41,
+          5.4,
+          5.4,
           5.38,
           5.37,
-          5.35,
-          5.33,
-          5.33,
-          5.32,
-          5.32,
-          5.32,
-          5.32
+          5.38,
+          5.37,
+          5.37,
+          5.37,
+          5.36
         ]
       },
       "defiScore": {
-        "score": 86.2,
+        "score": 90.2,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.0,
-          "sustainability": 19.6,
-          "stickiness": 19.5,
+          "stability": 33.1,
+          "sustainability": 21.7,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2469,34 +2721,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.16,
+        "p10": 2.15,
         "p50": 2.25,
         "p90": 2.37,
+        "organicApy": 2.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 518619001,
+        "predictedTvlDelta": 0.0094,
         "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.24,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
+          2.25,
           2.24,
           2.25,
-          2.26,
           2.25,
-          2.25,
-          2.26,
-          2.26,
-          2.25,
-          2.25,
-          2.25,
-          2.26,
           2.24,
-          2.24
+          2.25
         ]
       },
       "defiScore": {
-        "score": 87.2,
+        "score": 90.9,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.7,
-          "sustainability": 19.9,
-          "stickiness": 19.5,
+          "stability": 33.6,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2528,9 +2786,15 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 0.0,
-        "p50": 0.01,
-        "p90": 0.02,
+        "p50": 0.0,
+        "p90": 0.01,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 508124590,
+        "predictedTvlDelta": -0.0017,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -2540,21 +2804,21 @@
           0.0,
           0.0,
           0.0,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
         ]
       },
       "defiScore": {
-        "score": 88.5,
+        "score": 87.1,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 16.8,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2585,35 +2849,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.61,
-        "p50": 4.58,
-        "p90": 5.61,
-        "forwardDelta": -0.14,
+        "p10": 0.12,
+        "p50": 2.47,
+        "p90": 5.43,
+        "organicApy": 1.08,
+        "rewardApy": 1.38,
+        "predictedTvlUsd": 575927615,
+        "predictedTvlDelta": 0.1093,
+        "forwardDelta": 1.43,
+        "crashRisk": "MEDIUM",
+        "skew": 0.12,
         "trajectory": [
-          4.67,
-          4.68,
-          4.71,
-          4.71,
-          4.68,
-          4.64,
-          4.66,
-          4.64,
-          4.57,
-          4.5,
-          4.51,
-          4.37,
-          4.42,
-          4.34
+          2.08,
+          1.85,
+          1.98,
+          2.07,
+          2.2,
+          2.32,
+          2.46,
+          2.54,
+          2.7,
+          2.75,
+          2.86,
+          2.85,
+          2.95,
+          2.93
         ]
       },
       "defiScore": {
-        "score": 79.3,
-        "rating": "AA",
+        "score": 53.9,
+        "rating": "BBB",
         "breakdown": {
-          "stability": 26.1,
-          "sustainability": 19.6,
-          "stickiness": 19.5,
-          "liquidity": 14.1
+          "stability": 10.0,
+          "sustainability": 19.4,
+          "stickiness": 13.1,
+          "liquidity": 11.4
         }
       }
     },
@@ -2643,34 +2913,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.76,
-        "p50": 4.14,
-        "p90": 4.56,
-        "forwardDelta": 0.54,
+        "p10": 3.23,
+        "p50": 3.75,
+        "p90": 4.33,
+        "organicApy": 0.0,
+        "rewardApy": 3.75,
+        "predictedTvlUsd": 508236289,
+        "predictedTvlDelta": 0.0018,
+        "forwardDelta": 0.13,
+        "crashRisk": "LOW",
+        "skew": 0.05,
         "trajectory": [
+          3.65,
+          3.67,
+          3.68,
+          3.72,
           3.74,
+          3.75,
+          3.74,
+          3.76,
+          3.79,
+          3.8,
+          3.81,
+          3.81,
           3.82,
-          3.89,
-          3.94,
-          4.02,
-          4.09,
-          4.15,
-          4.18,
-          4.23,
-          4.3,
-          4.35,
-          4.37,
-          4.44,
-          4.47
+          3.81
         ]
       },
       "defiScore": {
-        "score": 87.7,
-        "rating": "AAA",
+        "score": 78.5,
+        "rating": "AA",
         "breakdown": {
-          "stability": 31.9,
-          "sustainability": 22.2,
-          "stickiness": 19.5,
+          "stability": 30.7,
+          "sustainability": 12.4,
+          "stickiness": 21.2,
           "liquidity": 14.1
         }
       }
@@ -2701,35 +2977,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.2,
-        "p50": 2.34,
-        "p90": 2.44,
-        "forwardDelta": -0.0,
+        "p10": 2.28,
+        "p50": 2.35,
+        "p90": 2.42,
+        "organicApy": 2.35,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 466975361,
+        "predictedTvlDelta": 0.0085,
+        "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.34,
-          2.34,
-          2.34,
-          2.34,
-          2.34,
-          2.34,
-          2.34,
-          2.34,
           2.35,
           2.35,
           2.35,
           2.35,
           2.35,
-          2.35
+          2.35,
+          2.35,
+          2.35,
+          2.35,
+          2.35,
+          2.35,
+          2.35,
+          2.36
         ]
       },
       "defiScore": {
-        "score": 86.6,
+        "score": 90.7,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.6,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 13.5
+          "stability": 34.2,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
+          "liquidity": 13.3
         }
       }
     },
@@ -2759,34 +3041,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.9,
-        "p50": 4.62,
-        "p90": 5.36,
-        "forwardDelta": 0.33,
+        "p10": 4.06,
+        "p50": 4.75,
+        "p90": 5.67,
+        "organicApy": 4.35,
+        "rewardApy": 0.39,
+        "predictedTvlUsd": 465531886,
+        "predictedTvlDelta": -0.0007,
+        "forwardDelta": 0.4,
+        "crashRisk": "LOW",
+        "skew": 0.14,
         "trajectory": [
-          4.46,
+          4.71,
+          5.24,
+          4.33,
+          4.51,
+          4.74,
+          5.03,
           4.54,
-          4.57,
-          4.58,
-          4.61,
-          4.62,
-          4.63,
-          4.64,
-          4.66,
-          4.66,
-          4.67,
-          4.68,
-          4.67,
-          4.69
+          4.55,
+          4.73,
+          5.24,
+          4.49,
+          4.49,
+          4.77,
+          5.11
         ]
       },
       "defiScore": {
-        "score": 84.5,
-        "rating": "AA",
+        "score": 86.8,
+        "rating": "AAA",
         "breakdown": {
-          "stability": 30.2,
-          "sustainability": 21.3,
-          "stickiness": 19.5,
+          "stability": 29.8,
+          "sustainability": 22.4,
+          "stickiness": 21.2,
           "liquidity": 13.4
         }
       }
@@ -2818,34 +3106,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 6.59,
-        "p50": 6.87,
-        "p90": 7.09,
-        "forwardDelta": -0.15,
+        "p10": 6.45,
+        "p50": 6.84,
+        "p90": 7.05,
+        "organicApy": 6.84,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 489019454,
+        "predictedTvlDelta": 0.0566,
+        "forwardDelta": -0.18,
+        "crashRisk": "MEDIUM",
+        "skew": -0.31,
         "trajectory": [
+          7.02,
+          7.02,
           7.01,
-          7.0,
-          6.99,
-          6.97,
-          6.97,
-          6.96,
+          6.98,
+          6.95,
           6.92,
-          6.9,
-          6.87,
-          6.84,
-          6.78,
+          6.86,
+          6.82,
+          6.79,
+          6.76,
           6.72,
-          6.63,
-          6.62
+          6.67,
+          6.65,
+          6.61
         ]
       },
       "defiScore": {
-        "score": 86.4,
+        "score": 86.9,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.0,
-          "sustainability": 19.6,
-          "stickiness": 19.5,
+          "stability": 30.8,
+          "sustainability": 21.6,
+          "stickiness": 21.2,
           "liquidity": 13.3
         }
       }
@@ -2876,34 +3170,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 5.12,
-        "p50": 5.49,
-        "p90": 5.92,
-        "forwardDelta": -0.27,
+        "p10": 5.14,
+        "p50": 5.53,
+        "p90": 5.95,
+        "organicApy": 5.53,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 471846640,
+        "predictedTvlDelta": 0.0375,
+        "forwardDelta": -0.23,
+        "crashRisk": "LOW",
+        "skew": 0.03,
         "trajectory": [
-          5.75,
+          5.77,
+          5.76,
           5.74,
-          5.72,
-          5.68,
-          5.64,
-          5.58,
+          5.71,
+          5.67,
+          5.62,
+          5.57,
           5.53,
           5.48,
           5.43,
           5.37,
-          5.31,
-          5.26,
-          5.21,
-          5.16
+          5.32,
+          5.28,
+          5.23
         ]
       },
       "defiScore": {
-        "score": 84.9,
-        "rating": "AA",
+        "score": 88.9,
+        "rating": "AAA",
         "breakdown": {
           "stability": 33.0,
-          "sustainability": 19.2,
-          "stickiness": 19.5,
+          "sustainability": 21.4,
+          "stickiness": 21.2,
           "liquidity": 13.2
         }
       }
@@ -2934,35 +3234,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 6.78,
-        "p50": 7.11,
-        "p90": 7.42,
-        "forwardDelta": 0.11,
+        "p10": 7.0,
+        "p50": 7.38,
+        "p90": 8.15,
+        "organicApy": 4.18,
+        "rewardApy": 3.2,
+        "predictedTvlUsd": 519223094,
+        "predictedTvlDelta": 0.157,
+        "forwardDelta": 0.4,
+        "crashRisk": "LOW",
+        "skew": 0.33,
         "trajectory": [
-          7.02,
-          7.05,
-          7.08,
-          7.08,
-          7.1,
-          7.12,
+          7.07,
           7.13,
-          7.13,
-          7.13,
-          7.14,
-          7.15,
-          7.14,
-          7.14,
-          7.14
+          7.19,
+          7.23,
+          7.27,
+          7.33,
+          7.38,
+          7.42,
+          7.46,
+          7.5,
+          7.55,
+          7.58,
+          7.63,
+          7.66
         ]
       },
       "defiScore": {
-        "score": 86.7,
+        "score": 85.8,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.7,
-          "sustainability": 20.4,
-          "stickiness": 19.5,
-          "liquidity": 13.1
+          "stability": 32.7,
+          "sustainability": 18.9,
+          "stickiness": 21.2,
+          "liquidity": 13.0
         }
       }
     },
@@ -2992,34 +3298,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.07,
+        "p10": 4.09,
         "p50": 4.23,
-        "p90": 4.49,
-        "forwardDelta": 0.1,
+        "p90": 4.58,
+        "organicApy": 4.23,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 352165788,
+        "predictedTvlDelta": -0.1777,
+        "forwardDelta": 0.09,
+        "crashRisk": "LOW",
+        "skew": 0.43,
         "trajectory": [
-          4.14,
-          4.14,
-          4.14,
-          4.14,
-          4.13,
           4.15,
           4.16,
-          4.18,
+          4.15,
+          4.16,
+          4.17,
+          4.19,
+          4.22,
+          4.25,
+          4.28,
           4.3,
-          4.35,
-          4.4,
-          4.33,
-          4.33,
-          4.31
+          4.31,
+          4.3,
+          4.3,
+          4.29
         ]
       },
       "defiScore": {
-        "score": 86.1,
+        "score": 85.9,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.6,
-          "sustainability": 20.4,
-          "stickiness": 19.5,
+          "stability": 33.3,
+          "sustainability": 22.3,
+          "stickiness": 17.7,
           "liquidity": 12.6
         }
       }
@@ -3051,33 +3363,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 4.11,
-        "p50": 4.21,
-        "p90": 4.62,
-        "forwardDelta": 0.07,
+        "p50": 4.22,
+        "p90": 4.5,
+        "organicApy": 4.22,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 423674554,
+        "predictedTvlDelta": 0.0061,
+        "forwardDelta": 0.08,
+        "crashRisk": "LOW",
+        "skew": 0.42,
         "trajectory": [
-          4.14,
-          4.15,
-          4.15,
           4.16,
-          4.17,
+          4.16,
+          4.16,
           4.18,
+          4.19,
           4.2,
-          4.21,
+          4.22,
           4.24,
           4.25,
           4.26,
-          4.25,
-          4.26,
-          4.26
+          4.28,
+          4.28,
+          4.28,
+          4.27
         ]
       },
       "defiScore": {
-        "score": 85.5,
+        "score": 89.6,
         "rating": "AAA",
         "breakdown": {
-          "stability": 33.2,
-          "sustainability": 20.3,
-          "stickiness": 19.5,
+          "stability": 33.7,
+          "sustainability": 22.2,
+          "stickiness": 21.2,
           "liquidity": 12.4
         }
       }
@@ -3108,34 +3426,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 0.31,
-        "p50": 4.9,
-        "p90": 12.36,
-        "forwardDelta": -0.84,
+        "p10": 0.25,
+        "p50": 5.13,
+        "p90": 10.29,
+        "organicApy": 5.13,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 402071685,
+        "predictedTvlDelta": 0.0071,
+        "forwardDelta": -0.61,
+        "crashRisk": "MEDIUM",
+        "skew": 0.03,
         "trajectory": [
-          5.11,
-          5.14,
-          5.42,
-          4.95,
+          4.85,
+          5.28,
+          5.1,
+          5.32,
+          5.32,
+          5.09,
+          5.2,
+          5.23,
           5.0,
-          5.05,
-          4.91,
-          5.04,
+          5.11,
+          5.26,
           5.07,
-          4.58,
-          4.79,
-          4.62,
-          4.42,
-          4.55
+          4.91,
+          5.15
         ]
       },
       "defiScore": {
-        "score": 54.6,
-        "rating": "BBB",
+        "score": 63.7,
+        "rating": "A",
         "breakdown": {
-          "stability": 5.6,
-          "sustainability": 17.5,
-          "stickiness": 19.5,
+          "stability": 10.0,
+          "sustainability": 20.5,
+          "stickiness": 21.2,
           "liquidity": 12.0
         }
       }
@@ -3166,34 +3490,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.94,
-        "p50": 4.0,
-        "p90": 4.08,
-        "forwardDelta": 0.01,
+        "p10": 3.95,
+        "p50": 4.03,
+        "p90": 4.09,
+        "organicApy": 0.0,
+        "rewardApy": 4.03,
+        "predictedTvlUsd": 388835907,
+        "predictedTvlDelta": 0.0119,
+        "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          4.0,
-          4.0,
-          4.01,
-          4.01,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.0,
-          4.01,
-          4.0,
-          4.0,
-          4.0
+          4.02,
+          4.04,
+          4.03,
+          4.04,
+          4.03,
+          4.04,
+          4.03,
+          4.04,
+          4.03,
+          4.04,
+          4.03,
+          4.03,
+          4.02,
+          4.04
         ]
       },
       "defiScore": {
-        "score": 85.8,
-        "rating": "AAA",
+        "score": 79.4,
+        "rating": "AA",
         "breakdown": {
           "stability": 34.5,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 11.7
         }
       }
@@ -3225,33 +3555,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 5.48,
-        "p50": 5.63,
-        "p90": 5.82,
-        "forwardDelta": 0.02,
+        "p50": 5.65,
+        "p90": 5.89,
+        "organicApy": 2.85,
+        "rewardApy": 2.8,
+        "predictedTvlUsd": 409975767,
+        "predictedTvlDelta": 0.0673,
+        "forwardDelta": 0.04,
+        "crashRisk": "LOW",
+        "skew": 0.16,
         "trajectory": [
-          5.63,
           5.62,
           5.62,
-          5.64,
-          5.63,
           5.63,
           5.64,
-          5.63,
-          5.63,
           5.64,
-          5.63,
-          5.63,
-          5.63,
-          5.62
+          5.65,
+          5.65,
+          5.66,
+          5.67,
+          5.67,
+          5.66,
+          5.66,
+          5.65,
+          5.65
         ]
       },
       "defiScore": {
-        "score": 85.4,
-        "rating": "AAA",
+        "score": 84.1,
+        "rating": "AA",
         "breakdown": {
-          "stability": 34.2,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 34.0,
+          "sustainability": 17.2,
+          "stickiness": 21.2,
           "liquidity": 11.7
         }
       }
@@ -3285,7 +3621,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 378794283,
+        "predictedTvlDelta": 0.0008,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -3304,13 +3646,13 @@
         ]
       },
       "defiScore": {
-        "score": 86.1,
-        "rating": "AAA",
+        "score": 79.8,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 11.6
+          "sustainability": 12.0,
+          "stickiness": 21.2,
+          "liquidity": 11.5
         }
       }
     },
@@ -3340,34 +3682,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 5.32,
-        "p50": 5.9,
-        "p90": 6.6,
-        "forwardDelta": -0.23,
+        "p10": 5.19,
+        "p50": 5.91,
+        "p90": 6.98,
+        "organicApy": 2.94,
+        "rewardApy": 2.97,
+        "predictedTvlUsd": 406711549,
+        "predictedTvlDelta": 0.0711,
+        "forwardDelta": -0.14,
+        "crashRisk": "LOW",
+        "skew": 0.19,
         "trajectory": [
+          5.99,
           5.95,
+          5.9,
           5.94,
-          5.88,
-          5.87,
+          5.9,
+          5.92,
           5.92,
           5.91,
-          5.92,
-          5.95,
-          5.88,
-          5.85,
+          5.86,
+          5.9,
           5.89,
-          5.87,
-          5.87,
-          5.87
+          5.89,
+          5.89,
+          5.89
         ]
       },
       "defiScore": {
-        "score": 82.5,
+        "score": 80.3,
         "rating": "AA",
         "breakdown": {
-          "stability": 32.1,
-          "sustainability": 19.3,
-          "stickiness": 19.5,
+          "stability": 30.9,
+          "sustainability": 16.6,
+          "stickiness": 21.2,
           "liquidity": 11.6
         }
       }
@@ -3399,34 +3747,40 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 2.17,
-        "p50": 2.26,
-        "p90": 2.35,
+        "p50": 2.25,
+        "p90": 2.37,
+        "organicApy": 2.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 374798745,
+        "predictedTvlDelta": -0.0287,
         "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           2.25,
+          2.24,
+          2.25,
+          2.25,
+          2.25,
+          2.26,
+          2.25,
           2.25,
           2.26,
           2.26,
+          2.25,
           2.26,
           2.26,
-          2.26,
-          2.26,
-          2.26,
-          2.26,
-          2.26,
-          2.26,
-          2.26,
-          2.26
+          2.25
         ]
       },
       "defiScore": {
-        "score": 84.8,
-        "rating": "AA",
+        "score": 88.2,
+        "rating": "AAA",
         "breakdown": {
-          "stability": 33.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 11.4
+          "stability": 33.7,
+          "sustainability": 22.0,
+          "stickiness": 20.7,
+          "liquidity": 11.7
         }
       }
     },
@@ -3456,34 +3810,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.91,
-        "p50": 5.0,
+        "p10": 4.9,
+        "p50": 4.99,
         "p90": 5.09,
-        "forwardDelta": 0.04,
+        "organicApy": 4.99,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 384839803,
+        "predictedTvlDelta": 0.0671,
+        "forwardDelta": 0.03,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          5.0,
+          4.92,
+          5.08,
+          4.96,
+          4.92,
+          5.05,
+          4.97,
+          4.95,
+          5.05,
           4.99,
-          5.0,
-          5.0,
-          4.99,
-          5.0,
-          5.0,
-          4.99,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          5.0,
-          4.99
+          4.97,
+          5.03,
+          4.97,
+          4.95,
+          5.04
         ]
       },
       "defiScore": {
-        "score": 85.4,
+        "score": 89.0,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.5,
-          "sustainability": 20.2,
-          "stickiness": 19.5,
+          "sustainability": 22.1,
+          "stickiness": 21.2,
           "liquidity": 11.2
         }
       }
@@ -3517,7 +3877,13 @@
         "p10": 3.54,
         "p50": 3.6,
         "p90": 3.6,
+        "organicApy": 3.6,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 362864673,
+        "predictedTvlDelta": 0.0007,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.6,
           3.6,
@@ -3532,16 +3898,16 @@
           3.6,
           3.6,
           3.6,
-          3.59
+          3.6
         ]
       },
       "defiScore": {
-        "score": 85.5,
+        "score": 89.2,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.8,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 11.2
         }
       }
@@ -3575,7 +3941,13 @@
         "p10": 3.54,
         "p50": 3.6,
         "p90": 3.6,
+        "organicApy": 3.6,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 362864673,
+        "predictedTvlDelta": 0.0007,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.6,
           3.6,
@@ -3590,16 +3962,16 @@
           3.6,
           3.6,
           3.6,
-          3.59
+          3.6
         ]
       },
       "defiScore": {
-        "score": 85.5,
+        "score": 89.2,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.8,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 11.2
         }
       }
@@ -3630,10 +4002,16 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.12,
+        "p10": 3.01,
         "p50": 3.25,
         "p90": 3.25,
+        "organicApy": 3.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 360811442,
+        "predictedTvlDelta": 0.0,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.25,
           3.25,
@@ -3652,12 +4030,12 @@
         ]
       },
       "defiScore": {
-        "score": 85.1,
+        "score": 88.4,
         "rating": "AAA",
         "breakdown": {
-          "stability": 34.4,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "stability": 34.0,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 11.2
         }
       }
@@ -3688,34 +4066,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 0.06,
-        "p50": 0.13,
-        "p90": 0.24,
-        "forwardDelta": -0.06,
+        "p10": 0.07,
+        "p50": 0.17,
+        "p90": 0.23,
+        "organicApy": 0.17,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 377194554,
+        "predictedTvlDelta": 0.0755,
+        "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
+          0.19,
+          0.19,
+          0.19,
           0.18,
+          0.18,
+          0.17,
+          0.17,
+          0.16,
+          0.16,
           0.16,
           0.15,
-          0.14,
-          0.13,
-          0.13,
-          0.12,
-          0.12,
-          0.11,
-          0.11,
-          0.11,
-          0.11,
-          0.1,
-          0.1
+          0.15,
+          0.15,
+          0.14
         ]
       },
       "defiScore": {
-        "score": 84.1,
-        "rating": "AA",
+        "score": 88.0,
+        "rating": "AAA",
         "breakdown": {
-          "stability": 33.8,
-          "sustainability": 19.8,
-          "stickiness": 19.5,
+          "stability": 33.9,
+          "sustainability": 21.9,
+          "stickiness": 21.2,
           "liquidity": 11.0
         }
       }
@@ -3749,7 +4133,13 @@
         "p10": 0.17,
         "p50": 0.19,
         "p90": 0.2,
+        "organicApy": 0.19,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 348186821,
+        "predictedTvlDelta": 0.0025,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.19,
           0.19,
@@ -3763,18 +4153,18 @@
           0.19,
           0.19,
           0.19,
-          0.18,
-          0.18
+          0.19,
+          0.19
         ]
       },
       "defiScore": {
-        "score": 85.3,
+        "score": 89.0,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.8,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 11.0
+          "sustainability": 22.0,
+          "stickiness": 21.2,
+          "liquidity": 10.9
         }
       }
     },
@@ -3804,35 +4194,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 6.07,
-        "p50": 6.24,
-        "p90": 6.56,
-        "forwardDelta": -0.01,
+        "p10": 5.88,
+        "p50": 6.18,
+        "p90": 6.75,
+        "organicApy": 2.68,
+        "rewardApy": 3.5,
+        "predictedTvlUsd": 363366276,
+        "predictedTvlDelta": 0.0378,
+        "forwardDelta": -0.02,
+        "crashRisk": "LOW",
+        "skew": 0.3,
         "trajectory": [
-          6.23,
-          6.25,
-          6.27,
-          6.28,
-          6.28,
-          6.27,
-          6.25,
-          6.24,
-          6.23,
+          6.19,
+          6.18,
+          6.17,
+          6.17,
+          6.17,
+          6.17,
+          6.15,
+          6.15,
+          6.16,
+          6.2,
+          6.22,
           6.22,
           6.21,
-          6.2,
-          6.19,
           6.19
         ]
       },
       "defiScore": {
-        "score": 84.3,
+        "score": 81.5,
         "rating": "AA",
         "breakdown": {
-          "stability": 33.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 10.9
+          "stability": 33.0,
+          "sustainability": 16.3,
+          "stickiness": 21.2,
+          "liquidity": 11.0
         }
       }
     },
@@ -3862,34 +4258,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.76,
-        "p50": 4.87,
-        "p90": 5.12,
-        "forwardDelta": 0.12,
+        "p10": 4.55,
+        "p50": 4.75,
+        "p90": 4.78,
+        "organicApy": 0.0,
+        "rewardApy": 4.75,
+        "predictedTvlUsd": 346534312,
+        "predictedTvlDelta": 0.0003,
+        "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
-          4.76,
-          4.77,
-          4.79,
-          4.82,
-          4.83,
-          4.85,
-          4.87,
-          4.89,
-          4.91,
-          4.92,
-          4.94,
-          4.96,
-          4.97,
-          4.99
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75,
+          4.75
         ]
       },
       "defiScore": {
-        "score": 84.8,
+        "score": 78.5,
         "rating": "AA",
         "breakdown": {
-          "stability": 33.9,
-          "sustainability": 20.5,
-          "stickiness": 19.5,
+          "stability": 34.3,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 10.9
         }
       }
@@ -3920,35 +4322,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.31,
-        "p50": 3.2,
-        "p90": 5.05,
-        "forwardDelta": 0.06,
+        "p10": 2.52,
+        "p50": 3.03,
+        "p90": 3.88,
+        "organicApy": 3.03,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 377914727,
+        "predictedTvlDelta": 0.1238,
+        "forwardDelta": -0.11,
+        "crashRisk": "LOW",
+        "skew": 0.25,
         "trajectory": [
-          3.11,
-          3.14,
-          3.15,
-          3.32,
-          3.28,
-          3.27,
-          3.19,
-          3.24,
-          3.2,
-          3.2,
-          3.2,
-          3.2,
-          3.17,
-          3.2
+          2.96,
+          3.03,
+          3.04,
+          3.05,
+          3.05,
+          3.04,
+          3.05,
+          3.04,
+          3.05,
+          3.04,
+          3.05,
+          3.04,
+          3.03,
+          3.02
         ]
       },
       "defiScore": {
-        "score": 73.3,
+        "score": 82.6,
         "rating": "AA",
         "breakdown": {
-          "stability": 22.8,
-          "sustainability": 20.2,
-          "stickiness": 19.5,
-          "liquidity": 10.8
+          "stability": 28.9,
+          "sustainability": 21.7,
+          "stickiness": 21.2,
+          "liquidity": 10.7
         }
       }
     },
@@ -3981,7 +4389,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 325440496,
+        "predictedTvlDelta": -0.0015,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4000,13 +4414,13 @@
         ]
       },
       "defiScore": {
-        "score": 85.1,
-        "rating": "AAA",
+        "score": 78.7,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 10.6
+          "sustainability": 12.0,
+          "stickiness": 21.2,
+          "liquidity": 10.4
         }
       }
     },
@@ -4039,7 +4453,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 322097570,
+        "predictedTvlDelta": -0.014,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4058,12 +4478,12 @@
         ]
       },
       "defiScore": {
-        "score": 85.0,
-        "rating": "AAA",
+        "score": 78.5,
+        "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.1,
+          "stickiness": 21.0,
           "liquidity": 10.5
         }
       }
@@ -4096,33 +4516,39 @@
         "horizonDays": 14,
         "p10": 0.01,
         "p50": 0.11,
-        "p90": 0.18,
-        "forwardDelta": 0.02,
+        "p90": 0.19,
+        "organicApy": 0.11,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 355377495,
+        "predictedTvlDelta": 0.0943,
+        "forwardDelta": 0.03,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.09,
-          0.09,
-          0.1,
-          0.1,
           0.1,
           0.1,
           0.11,
           0.11,
           0.11,
-          0.11,
-          0.11,
-          0.11,
-          0.11,
-          0.12
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.13,
+          0.13,
+          0.13
         ]
       },
       "defiScore": {
-        "score": 83.9,
-        "rating": "AA",
+        "score": 87.5,
+        "rating": "AAA",
         "breakdown": {
-          "stability": 33.8,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
-          "liquidity": 10.5
+          "stability": 33.7,
+          "sustainability": 22.1,
+          "stickiness": 21.2,
+          "liquidity": 10.4
         }
       }
     },
@@ -4152,34 +4578,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.64,
-        "p50": 4.57,
-        "p90": 5.31,
-        "forwardDelta": -0.17,
+        "p10": 4.53,
+        "p50": 5.48,
+        "p90": 6.52,
+        "organicApy": 1.04,
+        "rewardApy": 4.44,
+        "predictedTvlUsd": 373363197,
+        "predictedTvlDelta": 0.1635,
+        "forwardDelta": 0.73,
+        "crashRisk": "LOW",
+        "skew": 0.04,
         "trajectory": [
-          4.76,
-          4.74,
-          4.72,
-          4.67,
-          4.65,
-          4.61,
-          4.59,
-          4.55,
-          4.54,
-          4.51,
-          4.48,
-          4.4,
-          4.42,
-          4.36
+          4.82,
+          4.9,
+          5.01,
+          5.09,
+          5.22,
+          5.33,
+          5.46,
+          5.55,
+          5.66,
+          5.75,
+          5.86,
+          5.93,
+          6.03,
+          6.11
         ]
       },
       "defiScore": {
-        "score": 76.4,
+        "score": 76.8,
         "rating": "AA",
         "breakdown": {
-          "stability": 27.1,
-          "sustainability": 19.5,
-          "stickiness": 19.5,
+          "stability": 29.1,
+          "sustainability": 16.1,
+          "stickiness": 21.2,
           "liquidity": 10.3
         }
       }
@@ -4210,34 +4642,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.73,
-        "p50": 4.78,
-        "p90": 4.94,
-        "forwardDelta": 0.03,
+        "p10": 4.72,
+        "p50": 4.79,
+        "p90": 5.02,
+        "organicApy": 0.0,
+        "rewardApy": 4.79,
+        "predictedTvlUsd": 331488609,
+        "predictedTvlDelta": 0.0389,
+        "forwardDelta": 0.04,
+        "crashRisk": "LOW",
+        "skew": 0.54,
         "trajectory": [
+          4.75,
+          4.75,
           4.75,
           4.76,
           4.76,
-          4.76,
-          4.76,
           4.77,
           4.77,
-          4.78,
           4.78,
           4.79,
-          4.8,
           4.81,
           4.82,
-          4.83
+          4.83,
+          4.84,
+          4.85
         ]
       },
       "defiScore": {
-        "score": 84.3,
+        "score": 77.8,
         "rating": "AA",
         "breakdown": {
-          "stability": 34.4,
-          "sustainability": 20.1,
-          "stickiness": 19.5,
+          "stability": 34.1,
+          "sustainability": 12.1,
+          "stickiness": 21.2,
           "liquidity": 10.3
         }
       }
@@ -4271,7 +4709,13 @@
         "p10": 3.53,
         "p50": 3.6,
         "p90": 3.6,
+        "organicApy": 3.6,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 312846661,
+        "predictedTvlDelta": -0.0082,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.6,
           3.6,
@@ -4290,12 +4734,12 @@
         ]
       },
       "defiScore": {
-        "score": 84.5,
-        "rating": "AA",
+        "score": 88.0,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.7,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.1,
           "liquidity": 10.2
         }
       }
@@ -4326,13 +4770,19 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.1,
+        "p10": 2.06,
         "p50": 2.3,
-        "p90": 2.33,
+        "p90": 2.34,
+        "organicApy": 2.3,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 311770439,
+        "predictedTvlDelta": -0.0308,
         "forwardDelta": -0.01,
+        "crashRisk": "MEDIUM",
+        "skew": -0.74,
         "trajectory": [
           2.32,
-          2.31,
+          2.32,
           2.32,
           2.32,
           2.32,
@@ -4351,10 +4801,10 @@
         "score": 83.3,
         "rating": "AA",
         "breakdown": {
-          "stability": 33.6,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 10.2
+          "stability": 30.3,
+          "sustainability": 22.0,
+          "stickiness": 20.6,
+          "liquidity": 10.4
         }
       }
     },
@@ -4387,7 +4837,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 297891080,
+        "predictedTvlDelta": 0.0044,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4406,13 +4862,13 @@
         ]
       },
       "defiScore": {
-        "score": 84.5,
+        "score": 78.1,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 10.0
+          "sustainability": 12.0,
+          "stickiness": 21.2,
+          "liquidity": 9.8
         }
       }
     },
@@ -4445,7 +4901,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 298750132,
+        "predictedTvlDelta": -0.0328,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4464,13 +4926,13 @@
         ]
       },
       "defiScore": {
-        "score": 84.2,
-        "rating": "AA",
+        "score": 67.0,
+        "rating": "A",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 9.7
+          "sustainability": 12.0,
+          "stickiness": 12.6,
+          "liquidity": 7.4
         }
       }
     },
@@ -4503,7 +4965,13 @@
         "p10": 11.52,
         "p50": 11.54,
         "p90": 11.54,
+        "organicApy": 11.54,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 303514779,
+        "predictedTvlDelta": 0.0334,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           11.54,
           11.54,
@@ -4518,17 +4986,17 @@
           11.53,
           11.53,
           11.53,
-          11.53
+          11.52
         ]
       },
       "defiScore": {
-        "score": 84.2,
-        "rating": "AA",
+        "score": 88.0,
+        "rating": "AAA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 9.7
+          "sustainability": 22.0,
+          "stickiness": 21.2,
+          "liquidity": 9.8
         }
       }
     },
@@ -4558,35 +5026,41 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 1.27,
-        "p50": 1.51,
-        "p90": 1.69,
-        "forwardDelta": 0.09,
+        "p10": 1.35,
+        "p50": 1.52,
+        "p90": 1.67,
+        "organicApy": 1.52,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 249157593,
+        "predictedTvlDelta": -0.0691,
+        "forwardDelta": 0.05,
+        "crashRisk": "LOW",
+        "skew": -0.06,
         "trajectory": [
-          1.43,
-          1.45,
           1.48,
-          1.48,
+          1.49,
+          1.49,
           1.5,
           1.51,
-          1.51,
           1.52,
-          1.54,
-          1.54,
+          1.52,
           1.53,
           1.53,
+          1.54,
+          1.54,
+          1.54,
           1.54,
           1.54
         ]
       },
       "defiScore": {
-        "score": 81.7,
+        "score": 84.0,
         "rating": "AA",
         "breakdown": {
-          "stability": 32.1,
-          "sustainability": 20.4,
-          "stickiness": 19.5,
-          "liquidity": 9.7
+          "stability": 32.7,
+          "sustainability": 22.1,
+          "stickiness": 19.9,
+          "liquidity": 9.2
         }
       }
     },
@@ -4616,34 +5090,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 3.7,
-        "p50": 3.89,
-        "p90": 5.26,
-        "forwardDelta": 0.18,
+        "p10": 3.69,
+        "p50": 3.81,
+        "p90": 4.15,
+        "organicApy": 3.81,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 417381316,
+        "predictedTvlDelta": 0.4401,
+        "forwardDelta": 0.1,
+        "crashRisk": "LOW",
+        "skew": 0.46,
         "trajectory": [
           3.71,
-          3.87,
-          3.79,
-          3.96,
-          3.95,
-          4.0,
-          4.12,
+          3.72,
+          3.72,
+          3.73,
+          3.74,
+          3.77,
+          3.8,
+          3.83,
           3.91,
-          3.95,
+          3.93,
+          3.92,
           3.87,
-          3.85,
-          3.84,
-          3.84,
-          3.83
+          3.89,
+          3.87
         ]
       },
       "defiScore": {
-        "score": 79.0,
-        "rating": "AA",
+        "score": 86.5,
+        "rating": "AAA",
         "breakdown": {
-          "stability": 29.1,
-          "sustainability": 20.7,
-          "stickiness": 19.5,
+          "stability": 33.3,
+          "sustainability": 22.3,
+          "stickiness": 21.2,
           "liquidity": 9.7
         }
       }
@@ -4677,7 +5157,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 288932741,
+        "predictedTvlDelta": 0.0041,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4696,12 +5182,12 @@
         ]
       },
       "defiScore": {
-        "score": 84.1,
+        "score": 77.9,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 9.6
         }
       }
@@ -4732,34 +5218,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.68,
-        "p50": 5.08,
-        "p90": 5.41,
-        "forwardDelta": -0.12,
+        "p10": 4.7,
+        "p50": 5.13,
+        "p90": 5.46,
+        "organicApy": 5.13,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 314382106,
+        "predictedTvlDelta": 0.1044,
+        "forwardDelta": -0.07,
+        "crashRisk": "LOW",
+        "skew": -0.12,
         "trajectory": [
+          5.19,
+          5.19,
           5.18,
-          5.18,
-          5.16,
+          5.17,
+          5.15,
           5.14,
+          5.13,
           5.11,
           5.09,
+          5.09,
           5.08,
-          5.05,
-          5.03,
-          5.03,
-          5.01,
-          5.0,
-          5.0,
-          4.99
+          5.08,
+          5.08,
+          5.08
         ]
       },
       "defiScore": {
-        "score": 81.7,
-        "rating": "AA",
+        "score": 85.6,
+        "rating": "AAA",
         "breakdown": {
           "stability": 33.0,
-          "sustainability": 19.6,
-          "stickiness": 19.5,
+          "sustainability": 21.8,
+          "stickiness": 21.2,
           "liquidity": 9.6
         }
       }
@@ -4793,7 +5285,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 267882288,
+        "predictedTvlDelta": 0.0003,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -4812,12 +5310,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.7,
+        "score": 77.5,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 9.2
         }
       }
@@ -4848,34 +5346,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 4.24,
+        "p10": 4.15,
         "p50": 5.31,
-        "p90": 6.13,
+        "p90": 6.16,
+        "organicApy": 5.31,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 262456179,
+        "predictedTvlDelta": 0.0011,
         "forwardDelta": -0.43,
+        "crashRisk": "MEDIUM",
+        "skew": -0.16,
         "trajectory": [
           5.44,
-          5.37,
+          5.38,
           5.35,
           5.33,
           5.31,
-          5.29,
-          5.29,
-          5.28,
-          5.29,
+          5.3,
+          5.3,
+          5.3,
           5.29,
           5.28,
           5.28,
           5.27,
+          5.26,
           5.27
         ]
       },
       "defiScore": {
-        "score": 77.7,
+        "score": 78.4,
         "rating": "AA",
         "breakdown": {
-          "stability": 30.4,
-          "sustainability": 18.7,
-          "stickiness": 19.5,
+          "stability": 27.1,
+          "sustainability": 20.9,
+          "stickiness": 21.2,
           "liquidity": 9.1
         }
       }
@@ -4909,7 +5413,13 @@
         "p10": 3.57,
         "p50": 3.58,
         "p90": 3.6,
+        "organicApy": 3.58,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 258974701,
+        "predictedTvlDelta": 0.0007,
         "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.57,
           3.57,
@@ -4917,7 +5427,7 @@
           3.57,
           3.57,
           3.57,
-          3.58,
+          3.57,
           3.58,
           3.58,
           3.58,
@@ -4928,12 +5438,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.5,
-        "rating": "AA",
+        "score": 87.2,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 9.0
         }
       }
@@ -4965,34 +5475,40 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 0.0,
-        "p50": 1.78,
-        "p90": 3.63,
-        "forwardDelta": 1.78,
+        "p50": 1.76,
+        "p90": 3.61,
+        "organicApy": 0.0,
+        "rewardApy": 1.76,
+        "predictedTvlUsd": 218625590,
+        "predictedTvlDelta": -0.1399,
+        "forwardDelta": 1.76,
+        "crashRisk": "LOW",
+        "skew": 0.02,
         "trajectory": [
-          1.26,
-          1.67,
-          1.77,
+          1.13,
+          1.56,
+          1.7,
+          1.75,
           1.79,
-          1.79,
-          1.91,
-          1.85,
-          1.74,
+          1.86,
+          1.84,
+          1.76,
+          1.94,
+          1.92,
           1.9,
-          1.9,
-          1.87,
-          1.81,
-          1.81,
-          1.78
+          1.86,
+          1.86,
+          1.83
         ]
       },
       "defiScore": {
-        "score": 63.0,
-        "rating": "A",
+        "score": 42.0,
+        "rating": "BBB",
         "breakdown": {
-          "stability": 9.6,
-          "sustainability": 25.0,
-          "stickiness": 19.5,
-          "liquidity": 8.9
+          "stability": 9.7,
+          "sustainability": 15.0,
+          "stickiness": 11.0,
+          "liquidity": 6.2
         }
       }
     },
@@ -5025,7 +5541,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 251770109,
+        "predictedTvlDelta": -0.0041,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5044,12 +5566,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.4,
+        "score": 77.1,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 8.9
         }
       }
@@ -5083,34 +5605,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 6.63,
+        "p10": 6.61,
         "p50": 6.72,
-        "p90": 6.8,
-        "forwardDelta": 0.07,
+        "p90": 6.82,
+        "organicApy": 6.72,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 260625124,
+        "predictedTvlDelta": 0.07,
+        "forwardDelta": 0.06,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           6.64,
           6.64,
           6.64,
           6.65,
-          6.67,
+          6.66,
           6.69,
-          6.71,
+          6.7,
           6.73,
           6.75,
-          6.77,
+          6.76,
+          6.78,
           6.79,
-          6.8,
           6.81,
           6.82
         ]
       },
       "defiScore": {
-        "score": 83.1,
-        "rating": "AA",
+        "score": 86.7,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.6,
-          "sustainability": 20.3,
-          "stickiness": 19.5,
+          "sustainability": 22.2,
+          "stickiness": 21.2,
           "liquidity": 8.7
         }
       }
@@ -5144,7 +5672,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 236199379,
+        "predictedTvlDelta": 0.0017,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5163,12 +5697,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.1,
+        "score": 76.8,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 8.6
         }
       }
@@ -5202,7 +5736,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 230109766,
+        "predictedTvlDelta": -0.0193,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5221,12 +5761,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.0,
+        "score": 76.4,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 20.9,
           "liquidity": 8.5
         }
       }
@@ -5258,33 +5798,39 @@
       "forecast": {
         "horizonDays": 14,
         "p10": 4.63,
-        "p50": 5.33,
-        "p90": 6.28,
-        "forwardDelta": -0.67,
+        "p50": 5.2,
+        "p90": 6.29,
+        "organicApy": 5.2,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 254506588,
+        "predictedTvlDelta": 0.0929,
+        "forwardDelta": -0.8,
+        "crashRisk": "LOW",
+        "skew": 0.31,
         "trajectory": [
-          5.23,
-          5.32,
-          5.28,
-          5.34,
-          5.34,
-          5.35,
-          5.33,
-          5.34,
-          5.33,
-          5.33,
-          5.33,
-          5.35,
-          5.34,
-          5.35
+          5.12,
+          5.18,
+          5.19,
+          5.21,
+          5.22,
+          5.22,
+          5.22,
+          5.22,
+          5.21,
+          5.2,
+          5.21,
+          5.21,
+          5.2,
+          5.21
         ]
       },
       "defiScore": {
-        "score": 77.1,
+        "score": 80.9,
         "rating": "AA",
         "breakdown": {
-          "stability": 31.2,
-          "sustainability": 18.0,
-          "stickiness": 19.5,
+          "stability": 31.1,
+          "sustainability": 20.0,
+          "stickiness": 21.2,
           "liquidity": 8.5
         }
       }
@@ -5318,7 +5864,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 231894270,
+        "predictedTvlDelta": 0.0021,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5337,12 +5889,12 @@
         ]
       },
       "defiScore": {
-        "score": 83.0,
+        "score": 76.7,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.2,
           "liquidity": 8.5
         }
       }
@@ -5376,7 +5928,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 225926951,
+        "predictedTvlDelta": -0.0125,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5395,12 +5953,12 @@
         ]
       },
       "defiScore": {
-        "score": 82.9,
+        "score": 76.4,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 21.0,
           "liquidity": 8.4
         }
       }
@@ -5434,7 +5992,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 219666094,
+        "predictedTvlDelta": -0.0312,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5453,12 +6017,12 @@
         ]
       },
       "defiScore": {
-        "score": 82.9,
+        "score": 76.0,
         "rating": "AA",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 12.0,
+          "stickiness": 20.6,
           "liquidity": 8.4
         }
       }
@@ -5492,7 +6056,13 @@
         "p10": 0.02,
         "p50": 0.03,
         "p90": 0.03,
+        "organicApy": 0.03,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 216922656,
+        "predictedTvlDelta": -0.0048,
         "forwardDelta": -0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.03,
           0.03,
@@ -5504,19 +6074,19 @@
           0.02,
           0.02,
           0.02,
-          0.03,
+          0.02,
           0.03,
           0.03,
           0.03
         ]
       },
       "defiScore": {
-        "score": 82.6,
-        "rating": "AA",
+        "score": 86.3,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 8.2
         }
       }
@@ -5547,34 +6117,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 5.17,
-        "p50": 5.35,
-        "p90": 5.69,
-        "forwardDelta": 0.05,
+        "p10": 5.18,
+        "p50": 5.33,
+        "p90": 5.68,
+        "organicApy": 5.33,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 208531410,
+        "predictedTvlDelta": -0.0189,
+        "forwardDelta": 0.03,
+        "crashRisk": "LOW",
+        "skew": 0.4,
         "trajectory": [
+          5.3,
+          5.31,
           5.31,
           5.31,
           5.32,
-          5.32,
+          5.33,
           5.34,
           5.34,
-          5.35,
-          5.36,
-          5.36,
-          5.37,
-          5.37,
-          5.37,
-          5.37,
-          5.37
+          5.34,
+          5.34,
+          5.34,
+          5.34,
+          5.34,
+          5.35
         ]
       },
       "defiScore": {
-        "score": 81.4,
+        "score": 84.7,
         "rating": "AA",
         "breakdown": {
-          "stability": 33.6,
-          "sustainability": 20.2,
-          "stickiness": 19.5,
+          "stability": 33.7,
+          "sustainability": 22.1,
+          "stickiness": 20.9,
           "liquidity": 8.1
         }
       }
@@ -5607,19 +6183,25 @@
         "horizonDays": 14,
         "p10": 0.01,
         "p50": 0.02,
-        "p90": 0.02,
+        "p90": 0.03,
+        "organicApy": 0.02,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 241529301,
+        "predictedTvlDelta": 0.1379,
         "forwardDelta": -0.01,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.03,
           0.03,
           0.03,
+          0.03,
           0.02,
           0.02,
           0.02,
           0.02,
           0.02,
-          0.01,
-          0.01,
+          0.02,
           0.01,
           0.01,
           0.01,
@@ -5627,12 +6209,12 @@
         ]
       },
       "defiScore": {
-        "score": 82.5,
-        "rating": "AA",
+        "score": 86.2,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 8.1
         }
       }
@@ -5666,7 +6248,13 @@
         "p10": 3.23,
         "p50": 3.25,
         "p90": 3.27,
+        "organicApy": 3.25,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 212150499,
+        "predictedTvlDelta": 0.0006,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           3.25,
           3.25,
@@ -5685,12 +6273,12 @@
         ]
       },
       "defiScore": {
-        "score": 82.4,
-        "rating": "AA",
+        "score": 86.2,
+        "rating": "AAA",
         "breakdown": {
           "stability": 34.9,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
+          "sustainability": 22.0,
+          "stickiness": 21.2,
           "liquidity": 8.1
         }
       }
@@ -5724,7 +6312,13 @@
         "p10": 0.0,
         "p50": 0.0,
         "p90": 0.0,
+        "organicApy": 0.0,
+        "rewardApy": 0.0,
+        "predictedTvlUsd": 214887545,
+        "predictedTvlDelta": 0.0193,
         "forwardDelta": 0.0,
+        "crashRisk": "LOW",
+        "skew": 0.0,
         "trajectory": [
           0.0,
           0.0,
@@ -5743,13 +6337,13 @@
         ]
       },
       "defiScore": {
-        "score": 82.5,
-        "rating": "AA",
+        "score": 65.4,
+        "rating": "A",
         "breakdown": {
           "stability": 35.0,
-          "sustainability": 20.0,
-          "stickiness": 19.5,
-          "liquidity": 8.0
+          "sustainability": 12.0,
+          "stickiness": 13.1,
+          "liquidity": 5.3
         }
       }
     },
@@ -5779,34 +6373,40 @@
       },
       "forecast": {
         "horizonDays": 14,
-        "p10": 2.11,
-        "p50": 3.7,
-        "p90": 4.62,
-        "forwardDelta": -0.05,
+        "p10": 2.24,
+        "p50": 3.95,
+        "p90": 4.85,
+        "organicApy": 0.0,
+        "rewardApy": 3.95,
+        "predictedTvlUsd": 204646662,
+        "predictedTvlDelta": -0.0131,
+        "forwardDelta": 0.2,
+        "crashRisk": "MEDIUM",
+        "skew": -0.31,
         "trajectory": [
-          2.63,
-          3.92,
-          3.91,
-          3.92,
-          3.89,
-          3.82,
-          3.86,
-          2.37,
-          3.99,
-          3.94,
-          3.95,
+          2.38,
+          4.1,
           3.96,
-          3.86,
-          3.85
+          4.07,
+          4.19,
+          4.12,
+          4.07,
+          2.25,
+          4.42,
+          4.28,
+          4.32,
+          4.52,
+          4.33,
+          4.29
         ]
       },
       "defiScore": {
-        "score": 73.0,
-        "rating": "AA",
+        "score": 63.8,
+        "rating": "A",
         "breakdown": {
-          "stability": 25.6,
-          "sustainability": 19.9,
-          "stickiness": 19.5,
+          "stability": 22.3,
+          "sustainability": 12.6,
+          "stickiness": 21.0,
           "liquidity": 8.0
         }
       }
@@ -224150,8 +224750,9 @@
     }
   ],
   "forecastMeta": {
-    "generatedAt": "2026-09-10T14:54:46Z",
+    "generatedAt": "2026-09-10T15:04:54Z",
     "model": "google/timesfm-3.0-pytorch",
+    "mode": "multivariate-3ch-decomposed",
     "horizonDays": 14,
     "enrichedPoolsCount": 100
   }
