@@ -1910,7 +1910,17 @@ function PoolDetail({
               className: 'trust-badge hero-chip',
               title: riskAssessment.description,
               style: { color: riskAssessment.color }
-            }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`)
+            }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`),
+
+            // DeFi Score Hero Chip (1)
+            (pool.defiScore && typeof pool.defiScore.score === 'number') && React.createElement('div', {
+              className: 'trust-badge hero-chip defi-score-hero-chip',
+              title: `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})`,
+              style: {
+                color: pool.defiScore.score >= 75 ? 'var(--color-success)' :
+                       pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
+              }
+            }, `${t ? t('defiScore') : 'DeFi Score'}: ${pool.defiScore.score} (${pool.defiScore.rating})`)
           )
         ),
 
@@ -1935,6 +1945,25 @@ function PoolDetail({
               React.createElement('span', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
               React.createElement('span', { className: 'pool-action-apy-sep' }, ' · '),
               React.createElement('span', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+${_formatApy(pool.apyReward)} Rewards`)
+            ),
+            // Forward Forecast Line under headline APY (2)
+            (pool.forecast && typeof pool.forecast.p50 === 'number') && React.createElement('div', {
+              className: 'pool-hero-forecast-line'
+            },
+              React.createElement('span', { className: 'forecast-lead' },
+                `${t ? t('forecast14d') : '14d AI Forecast'}: ${_formatApy(pool.forecast.p50)}`
+              ),
+              React.createElement('span', { className: 'forecast-floor', style: { opacity: 0.7, marginLeft: '4px' } },
+                `(${t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)})`
+              ),
+              pool.forecast.crashRisk === 'HIGH' && React.createElement('span', {
+                className: 'forecast-risk-pill risk-high',
+                style: { marginLeft: '6px', color: 'var(--color-error, #ef4444)', fontWeight: 600, fontSize: '11px' }
+              }, ' ⚠ ' + (t ? t('crashRiskHigh') : 'High Crash Risk')),
+              pool.forecast.crashRisk === 'LOW' && React.createElement('span', {
+                className: 'forecast-risk-pill risk-low',
+                style: { marginLeft: '6px', color: 'var(--color-success, #10b981)', fontWeight: 600, fontSize: '11px' }
+              }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside'))
             )
           ),
 
