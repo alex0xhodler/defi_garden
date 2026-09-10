@@ -4184,28 +4184,115 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
   cursor: pointer;
 }
 
+/* ═══ HERO UNDERWRITING STRIP (Certificate Endorsement) ══════════════════ */
+.pool-hero-underwriting-strip {
+  margin-top: 18px;
+  width: 100%;
+  max-width: 660px;
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.hero-uw-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  background: var(--cert-green-wash);
+  border-bottom: 1px solid var(--cert-rule);
+}
+
+.hero-uw-tag {
+  font-family: var(--font-mono, monospace);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--cert-green);
+  text-transform: uppercase;
+}
+
+.hero-uw-jump {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--cert-green);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.hero-uw-jump:hover {
+  text-decoration: underline;
+}
+
+.hero-uw-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hero-uw-cell {
+  padding: 8px 12px;
+  text-align: center;
+  border-right: 1px solid var(--cert-rule);
+}
+
+.hero-uw-cell:last-child {
+  border-right: none;
+}
+
+.hero-uw-cell-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cert-ink-3);
+  margin-bottom: 2px;
+}
+
+.hero-uw-cell-val {
+  font-family: var(--font-mono, monospace);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--cert-ink);
+}
+
+.hero-uw-cell-status {
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 /* ═══ DECISION TERMINAL (Institutional Forward Underwriting) ══════════════ */
 .decision-terminal-card {
   position: relative;
-  background: var(--ui-surface, #ffffff);
-  border: 1px solid var(--ui-border-strong, #cbd5e1);
-  border-radius: var(--ui-radius-md, 12px);
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: 2px;
   padding: 24px;
   margin-bottom: 28px;
   overflow: hidden;
 }
 
-[data-theme="dark"] .decision-terminal-card {
-  background: var(--ui-surface-sunken, #0f172a);
-  border-color: var(--ui-border, #334155);
+.decision-terminal-card::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--cert-rule);
+  border-radius: 1px;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .dt-header {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
-  border-bottom: 1px solid var(--ui-border, #e2e8f0);
+  border-bottom: 1px solid var(--cert-rule);
   padding-bottom: 16px;
   gap: 16px;
   flex-wrap: wrap;
@@ -4213,43 +4300,49 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 
 .dt-badge-tag {
   display: inline-block;
+  font-family: var(--font-mono, monospace);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ui-accent, #3b82f6);
-  background: var(--ui-accent-soft, rgba(59, 130, 246, 0.1));
+  color: var(--cert-green);
+  background: var(--cert-green-wash);
+  border: 1px solid var(--cert-rule);
   padding: 2px 8px;
-  border-radius: var(--ui-radius-pill, 999px);
+  border-radius: 2px;
   margin-bottom: 6px;
 }
 
 .dt-title {
-  font-size: 18px;
+  font-family: var(--cert-serif, "Cinzel", Georgia, serif);
+  font-size: 20px;
   font-weight: 700;
-  color: var(--ui-text, #0f172a);
+  letter-spacing: 0.02em;
+  color: var(--cert-ink);
   margin: 0 0 4px 0;
   line-height: 1.3;
 }
 
 .dt-subtitle {
-  font-size: 13px;
-  color: var(--ui-text-secondary, #64748b);
+  font-size: 12px;
+  color: var(--cert-ink-3);
   margin: 0;
 }
 
 .dt-engine-pill {
   font-size: 11px;
   font-family: var(--font-mono, monospace);
-  color: var(--ui-text-muted, #64748b);
-  background: var(--ui-surface-muted, #f8fafc);
-  border: 1px solid var(--ui-border, #e2e8f0);
+  color: var(--cert-ink-2);
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
   padding: 4px 10px;
-  border-radius: var(--ui-radius-pill, 999px);
+  border-radius: 2px;
   white-space: nowrap;
 }
 
 .dt-grid {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
@@ -4262,18 +4355,13 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .dt-panel {
-  background: var(--ui-surface-muted, #f8fafc);
-  border: 1px solid var(--ui-border, #e2e8f0);
-  border-radius: var(--ui-radius-sm, 8px);
+  background: var(--cert-paper);
+  border: 1px solid var(--cert-rule);
+  border-radius: 2px;
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-}
-
-[data-theme="dark"] .dt-panel {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.08);
 }
 
 .dt-panel-full {
@@ -4281,11 +4369,12 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .dt-panel-label {
+  font-family: var(--font-mono, monospace);
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--ui-text-secondary, #64748b);
+  letter-spacing: 0.06em;
+  color: var(--cert-ink-2);
 }
 
 .dt-yield-pair {
@@ -4295,42 +4384,38 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .dt-yield-box {
-  background: var(--ui-surface, #ffffff);
-  border: 1px solid var(--ui-border, #e2e8f0);
-  border-radius: var(--ui-radius-sm, 6px);
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
+  border-radius: 2px;
   padding: 12px;
-}
-
-[data-theme="dark"] .dt-yield-box {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .dt-yield-type {
   font-size: 11px;
-  color: var(--ui-text-secondary, #64748b);
+  color: var(--cert-ink-3);
   margin-bottom: 4px;
 }
 
 .dt-yield-num {
+  font-family: var(--font-mono, monospace);
   font-size: 20px;
   font-weight: 700;
-  color: var(--ui-text, #0f172a);
+  color: var(--cert-ink);
 }
 
 .dt-yield-organic .dt-yield-num {
-  color: var(--color-success, #10b981);
+  color: var(--cert-green);
 }
 
 .dt-yield-reward .dt-yield-num {
-  color: var(--color-warning, #f59e0b);
+  color: var(--cert-amber);
 }
 
 .dt-yield-hint {
   font-size: 11px;
-  color: var(--ui-text-muted, #94a3b8);
+  color: var(--cert-ink-3);
   margin-top: 4px;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .dt-metric-row {
@@ -4340,27 +4425,22 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .dt-metric {
-  background: var(--ui-surface, #ffffff);
-  border: 1px solid var(--ui-border, #e2e8f0);
-  border-radius: var(--ui-radius-sm, 6px);
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
+  border-radius: 2px;
   padding: 12px;
-}
-
-[data-theme="dark"] .dt-metric {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .dt-metric-name {
   font-size: 11px;
-  color: var(--ui-text-secondary, #64748b);
+  color: var(--cert-ink-3);
   margin-bottom: 4px;
 }
 
 .dt-metric-val {
   font-size: 18px;
   font-weight: 700;
-  color: var(--ui-text, #0f172a);
+  color: var(--cert-ink);
   font-family: var(--font-mono, monospace);
 }
 
@@ -4369,15 +4449,10 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
   align-items: center;
   gap: 8px;
   padding: 10px 12px;
-  background: var(--ui-surface, #ffffff);
-  border: 1px solid var(--ui-border, #e2e8f0);
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
   border-left-width: 4px;
-  border-radius: var(--ui-radius-sm, 6px);
-}
-
-[data-theme="dark"] .dt-traffic-light {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
 }
 
 .dt-tl-dot {
@@ -4390,6 +4465,7 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 .dt-tl-text {
   font-size: 12px;
   font-weight: 600;
+  font-family: var(--font-family-base, sans-serif);
 }
 
 .dt-ticket-presets {
@@ -4399,48 +4475,59 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .dt-preset-btn {
+  font-family: var(--font-mono, monospace);
   font-size: 12px;
   font-weight: 600;
   padding: 6px 14px;
-  border-radius: var(--ui-radius-pill, 999px);
-  border: 1px solid var(--ui-border, #e2e8f0);
-  background: var(--ui-surface, #ffffff);
-  color: var(--ui-text, #0f172a);
+  border-radius: 2px;
+  border: 1px solid var(--cert-rule);
+  background: var(--cert-paper-deep);
+  color: var(--cert-ink);
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
-[data-theme="dark"] .dt-preset-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.1);
-  color: var(--ui-text, #f8fafc);
+.dt-preset-btn:hover {
+  border-color: var(--cert-green);
+  color: var(--cert-green);
 }
 
-.dt-preset-btn.is-active,
-.dt-preset-btn:hover {
-  background: var(--ui-accent, #3b82f6);
-  border-color: var(--ui-accent, #3b82f6);
-  color: #ffffff;
+.dt-preset-btn.is-active {
+  background: var(--cert-green);
+  border-color: var(--cert-green);
+  color: var(--cert-on-green);
+  font-weight: 700;
 }
 
 .dt-sim-result-row {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
   align-items: center;
-  padding: 12px 14px;
-  background: var(--ui-surface, #ffffff);
-  border: 1px solid var(--ui-border, #e2e8f0);
-  border-radius: var(--ui-radius-sm, 6px);
+  padding: 12px 16px;
+  background: var(--cert-paper-deep);
+  border: 1px solid var(--cert-rule);
+  border-radius: 2px;
   font-size: 13px;
+  text-align: center;
 }
 
-[data-theme="dark"] .dt-sim-result-row {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.06);
+.dt-sim-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .dt-sim-lbl {
-  color: var(--ui-text-secondary, #64748b);
-  margin-right: 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cert-ink-3);
+}
+
+.dt-sim-val {
+  font-family: var(--font-mono, monospace);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--cert-ink);
 }
