@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest HNT yield right now is 61.94% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HNT yield right now is 60.97% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 61.94% | $383.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token) | Solana | 34.80% | $118.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 60.97% | $385.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token) | Solana | 33.13% | $118.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HNT's lower-variability candidates are raydium-amm (Solana), 61.94% APY, $383.7K TVL, https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token; raydium-amm (Solana), 34.80% APY, $118.7K TVL, https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HNT's lower-variability candidates are raydium-amm (Solana), 60.97% APY, $385.9K TVL, https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token; raydium-amm (Solana), 33.13% APY, $118.6K TVL, https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 61.94% | $383.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token) | Solana | 34.80% | $118.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 60.97% | $385.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token) | Solana | 33.13% | $118.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HNT shows up in 2 pools here, with rates from 34.80% to 61.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HNT shows up in 2 pools here, with rates from 33.13% to 60.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 106.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 106.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 61.94% | 87.72% | Base rate |
-| raydium-amm | 34.80% | 125.63% | Base rate |
+| raydium-amm | 60.97% | 87.79% | Base rate |
+| raydium-amm | 33.13% | 125.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HNT yield today?
 
-61.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+60.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $746.3K in total.
+3 live pools clear this page's $100K TVL floor, $751.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HNT pools have the most stable APY history?
 
-Based on APY history only, HNT's lower-variability candidates are raydium-amm (Solana), 61.94% APY, $383.7K TVL, https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token; raydium-amm (Solana), 34.80% APY, $118.7K TVL, https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HNT's lower-variability candidates are raydium-amm (Solana), 60.97% APY, $385.9K TVL, https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token; raydium-amm (Solana), 33.13% APY, $118.6K TVL, https://www.defi.garden/?pool=202bcdc4-855f-4eb1-9955-c904ed6b13ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

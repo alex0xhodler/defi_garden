@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest KITTY yield right now is 39.00% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KITTY yield right now is 37.38% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 39.00% | $288.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 37.38% | $292.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token) | Solana | 3.86% | $111.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KITTY's lower-variability candidates are raydium-amm (Solana), 3.86% APY, $111.3K TVL, https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token; raydium-amm (Solana), 39.00% APY, $288.4K TVL, https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KITTY's lower-variability candidates are raydium-amm (Solana), 3.86% APY, $111.3K TVL, https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token; raydium-amm (Solana), 37.38% APY, $292.7K TVL, https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token) | Solana | 3.86% | $111.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 39.00% | $288.4K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 37.38% | $292.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KITTY shows up in 2 pools here, with rates from 3.86% to 39.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KITTY shows up in 2 pools here, with rates from 3.86% to 37.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 36.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 36.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 39.00% | 69.87% | Base rate |
+| raydium-amm | 37.38% | 69.75% | Base rate |
 | raydium-amm | 3.86% | 2.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KITTY yield today?
 
-39.00% APY on raydium-amm (Solana), based on live DefiLlama data.
+37.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KITTY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $399.7K in total.
+2 live pools clear this page's $100K TVL floor, $404K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KITTY pools have the most stable APY history?
 
-Based on APY history only, KITTY's lower-variability candidates are raydium-amm (Solana), 3.86% APY, $111.3K TVL, https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token; raydium-amm (Solana), 39.00% APY, $288.4K TVL, https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KITTY's lower-variability candidates are raydium-amm (Solana), 3.86% APY, $111.3K TVL, https://www.defi.garden/?pool=9ef6b68b-fbe7-4a64-9012-9f7b2c67812f&src=seo_token; raydium-amm (Solana), 37.38% APY, $292.7K TVL, https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

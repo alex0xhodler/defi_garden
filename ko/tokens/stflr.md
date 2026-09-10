@@ -7,17 +7,17 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.52% | $1.3M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.2K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 5.52%, TVL $1.3M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 sparkdex-v4, APY 15.41%, TVL $138.2K, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 5.52%, TVL $1.3M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 sparkdex-v4, APY 15.41%, TVL $138.1K, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.52% | $1.3M |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.2K |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 15.41%예�
 
 ### STFLR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 5.52%, TVL $1.3M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 sparkdex-v4, APY 15.41%, TVL $138.2K, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 5.52%, TVL $1.3M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 sparkdex-v4, APY 15.41%, TVL $138.1K, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

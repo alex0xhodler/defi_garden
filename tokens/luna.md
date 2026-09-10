@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LUNA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $305K in total.
+2 live pools clear this page's $100K TVL floor, $305.3K in total.
 
 ### Are these rates safe?
 

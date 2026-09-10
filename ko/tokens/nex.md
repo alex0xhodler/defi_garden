@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=406a6d43-ece9-42db-a628-5299cada09b0&src=seo_token) | Ethereum | 0.01% | $235.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=406a6d43-ece9-42db-a628-5299cada09b0&src=seo_token) | Ethereum | 0.01% | $235.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 ### NEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $235.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $235.2K예요.
 
 ### 이 수익률은 안전한가요?
 

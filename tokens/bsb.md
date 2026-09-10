@@ -6,7 +6,7 @@ The highest honest BSB yield right now is 0.44% on fluxion-network (Mantle), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 0.44% | $509.2K |
+| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 0.44% | $509.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $509.2K in total.
+1 live pool clear this page's $100K TVL floor, $509.3K in total.
 
 ### Are these rates safe?
 

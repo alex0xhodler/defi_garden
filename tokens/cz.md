@@ -6,7 +6,7 @@ The highest honest CZ yield right now is 1.95% on uniswap-v4 (BSC), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f&src=seo_token) | BSC | 1.95% | $138.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f&src=seo_token) | BSC | 1.95% | $138K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.2K in total.
+1 live pool clear this page's $100K TVL floor, $138K in total.
 
 ### Are these rates safe?
 

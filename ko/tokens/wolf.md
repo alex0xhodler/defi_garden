@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WOLF의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 5.86%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WOLF의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 5.85%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 5.86% | $731.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 5.85% | $732.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.97% | $671.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 1.07% | $316K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 12.50% | $135.5K |
@@ -14,13 +14,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WOLF의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.97%, TVL $671.1K, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token; Solana의 raydium-amm, APY 1.07%, TVL $316K, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token; Ethereum의 uniswap-v2, APY 5.86%, TVL $731.8K, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token; Base의 uniswap-v4, APY 12.50%, TVL $135.5K, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WOLF의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.97%, TVL $671.1K, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token; Solana의 raydium-amm, APY 1.07%, TVL $316K, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token; Ethereum의 uniswap-v2, APY 5.85%, TVL $732.3K, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token; Base의 uniswap-v4, APY 12.50%, TVL $135.5K, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.97% | $671.1K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 1.07% | $316K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 5.86% | $731.8K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 5.85% | $732.3K |
 | 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 12.50% | $135.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -37,7 +37,7 @@ WOLF 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.97%부터 12.50%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 5.86% | 6.01% | 기본 금리 |
+| uniswap-v2 | 5.85% | 6.02% | 기본 금리 |
 | raydium-amm | 0.97% | 0.97% | 기본 금리 |
 | raydium-amm | 1.07% | 1.46% | 기본 금리 |
 | uniswap-v4 | 12.50% | 27.65% | 기본 금리 |
@@ -48,7 +48,7 @@ WOLF 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.97%부터 12.50%�
 
 ### 오늘 WOLF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 5.86%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 5.85%예요.
 
 ### WOLF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 5.86%예�
 
 ### WOLF 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WOLF의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.97%, TVL $671.1K, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token; Solana의 raydium-amm, APY 1.07%, TVL $316K, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token; Ethereum의 uniswap-v2, APY 5.86%, TVL $731.8K, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token; Base의 uniswap-v4, APY 12.50%, TVL $135.5K, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WOLF의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.97%, TVL $671.1K, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token; Solana의 raydium-amm, APY 1.07%, TVL $316K, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token; Ethereum의 uniswap-v2, APY 5.85%, TVL $732.3K, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token; Base의 uniswap-v4, APY 12.50%, TVL $135.5K, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

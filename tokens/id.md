@@ -6,17 +6,17 @@ The highest honest ID yield right now is 10.69% on sushiswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 10.69% | $600.4K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 10.69% | $600.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 0.03% | $135.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 10.69% APY, $600.4K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 0.03% APY, $135.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 10.69% APY, $600.3K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 0.03% APY, $135.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 10.69% | $600.4K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 10.69% | $600.3K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 0.03% | $135.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 10.69% | 8.55% | Base rate |
+| sushiswap-v3 | 10.69% | 8.56% | Base rate |
 | uniswap-v4 | 0.03% | 1.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ID pools have the most stable APY history?
 
-Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 10.69% APY, $600.4K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 0.03% APY, $135.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 10.69% APY, $600.3K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 0.03% APY, $135.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

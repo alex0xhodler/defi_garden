@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BPT yield right now is 31.68% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BPT yield right now is 32.11% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 18.72% | $574.8K |
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 31.68% | $329.4K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 18.66% | $574.5K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 32.11% | $328.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BPT's lower-variability candidates are beets-dex-v3 (Sonic), 18.72% APY, $574.8K TVL, https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token; beets-dex (Sonic), 31.68% APY, $329.4K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BPT's lower-variability candidates are beets-dex-v3 (Sonic), 18.66% APY, $574.5K TVL, https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token; beets-dex (Sonic), 32.11% APY, $328.8K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 18.72% | $574.8K |
-| 2 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 31.68% | $329.4K |
+| 1 | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 18.66% | $574.5K |
+| 2 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 32.11% | $328.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BPT shows up in 2 pools here, with rates from 18.72% to 31.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BPT shows up in 2 pools here, with rates from 18.66% to 32.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 28.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ BPT shows up in 2 pools here, with rates from 18.72% to 31.68% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| beets-dex-v3 | 18.72% | 16.36% | 96.61% incentives |
-| beets-dex | 31.68% | 39.97% | 94.07% incentives |
+| beets-dex-v3 | 18.66% | 16.38% | 96.60% incentives |
+| beets-dex | 32.11% | 39.94% | 92.81% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BPT yield today?
 
-31.68% APY on beets-dex (Sonic), based on live DefiLlama data.
+32.11% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many BPT pools clear the TVL floor?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BPT pools have the most stable APY history?
 
-Based on APY history only, BPT's lower-variability candidates are beets-dex-v3 (Sonic), 18.72% APY, $574.8K TVL, https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token; beets-dex (Sonic), 31.68% APY, $329.4K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BPT's lower-variability candidates are beets-dex-v3 (Sonic), 18.66% APY, $574.5K TVL, https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token; beets-dex (Sonic), 32.11% APY, $328.8K TVL, https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

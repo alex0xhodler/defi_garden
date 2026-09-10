@@ -6,7 +6,7 @@ The highest honest AUSDT yield right now is 0.35% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $310.3K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $310.3K in total.
+1 live pool clear this page's $100K TVL floor, $309.6K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.50% | $11.1M |
+| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.50% | $11.09M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

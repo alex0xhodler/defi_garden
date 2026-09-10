@@ -6,7 +6,7 @@ The highest honest KOGE yield right now is 0.01% on uniswap-v3 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.01% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.01% | $1.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.14M in total.
+1 live pool clear this page's $100K TVL floor, $1.13M in total.
 
 ### Are these rates safe?
 

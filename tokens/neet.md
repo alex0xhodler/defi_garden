@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest NEET yield right now is 24.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEET yield right now is 24.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 24.65% | $381.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 24.05% | $382.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEET yield today?
 
-24.65% APY on raydium-amm (Solana), based on live DefiLlama data.
+24.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $381.1K in total.
+1 live pool clear this page's $100K TVL floor, $382.1K in total.
 
 ### Are these rates safe?
 

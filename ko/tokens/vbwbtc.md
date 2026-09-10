@@ -2,32 +2,32 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VBWBTC의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 2.19%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VBWBTC의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 2.14%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.53% | $24.2M |
-| [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.23% | $1.58M |
-| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.19% | $1.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $735.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.52% | $24.22M |
+| [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.20% | $1.58M |
+| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.14% | $1.15M |
+| [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.83% | $735.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.53%, TVL $24.2M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; Katana의 morpho-blue, APY 0.85%, TVL $735.2K, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; Katana의 yearn-finance, APY 2.19%, TVL $1.15M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; Katana의 yearn-finance, APY 1.23%, TVL $1.58M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.52%, TVL $24.22M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; Katana의 morpho-blue, APY 0.83%, TVL $735.9K, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; Katana의 yearn-finance, APY 2.14%, TVL $1.15M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; Katana의 yearn-finance, APY 1.20%, TVL $1.58M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.53% | $24.2M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.85% | $735.2K |
-| 3 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.19% | $1.15M |
-| 4 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.23% | $1.58M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.52% | $24.22M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.83% | $735.9K |
+| 3 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.14% | $1.15M |
+| 4 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.20% | $1.58M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VBWBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.53%부터 2.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VBWBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.52%부터 2.14%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.54%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -35,10 +35,10 @@ VBWBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.53%부터 2.19%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 0.53% | 0.18% | 인센티브 100.00% |
-| yearn-finance | 1.23% | 0.84% | 인센티브 100.00% |
-| yearn-finance | 2.19% | 1.53% | 인센티브 100.00% |
-| morpho-blue | 0.85% | 0.24% | 인센티브 100.00% |
+| morpho-blue | 0.52% | 0.18% | 인센티브 100.00% |
+| yearn-finance | 1.20% | 0.84% | 인센티브 100.00% |
+| yearn-finance | 2.14% | 1.53% | 인센티브 100.00% |
+| morpho-blue | 0.83% | 0.24% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ VBWBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.53%부터 2.19%�
 
 ### 오늘 VBWBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.19%예요.
+DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.14%예요.
 
 ### VBWBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $27.67M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $27.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.19%예
 
 ### VBWBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.53%, TVL $24.2M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; Katana의 morpho-blue, APY 0.85%, TVL $735.2K, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; Katana의 yearn-finance, APY 2.19%, TVL $1.15M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; Katana의 yearn-finance, APY 1.23%, TVL $1.58M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.52%, TVL $24.22M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; Katana의 morpho-blue, APY 0.83%, TVL $735.9K, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; Katana의 yearn-finance, APY 2.14%, TVL $1.15M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; Katana의 yearn-finance, APY 1.20%, TVL $1.58M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

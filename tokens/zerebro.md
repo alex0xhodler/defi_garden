@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest ZEREBRO yield right now is 4.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEREBRO yield right now is 4.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b7c5a111-447f-4af6-9f18-581591249a76&src=seo_token) | Solana | 4.83% | $3.18M |
+| [raydium-amm →](https://www.defi.garden/?pool=b7c5a111-447f-4af6-9f18-581591249a76&src=seo_token) | Solana | 4.70% | $3.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEREBRO yield today?
 
-4.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZEREBRO pools clear the TVL floor?
 

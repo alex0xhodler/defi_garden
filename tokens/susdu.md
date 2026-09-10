@@ -6,17 +6,17 @@ The highest honest SUSDU yield right now is 11.61% on unitas-usdu (BSC), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 11.61% | $32.86M |
+| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 11.61% | $32.87M |
 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 10.50% | $4.49M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 11.61% APY, $32.86M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 10.50% APY, $4.49M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 11.61% APY, $32.87M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 10.50% APY, $4.49M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 11.61% | $32.86M |
+| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 11.61% | $32.87M |
 | 2 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 10.50% | $4.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDU pools have the most stable APY history?
 
-Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 11.61% APY, $32.86M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 10.50% APY, $4.49M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 11.61% APY, $32.87M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 10.50% APY, $4.49M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

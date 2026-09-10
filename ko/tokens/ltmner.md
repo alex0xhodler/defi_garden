@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LTMNER의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 5.00%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LTMNER의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 4.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=45e1f7f3-2675-41e1-b2c4-b30f06e93e5a&src=seo_token) | BSC | 5.00% | $292.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=45e1f7f3-2675-41e1-b2c4-b30f06e93e5a&src=seo_token) | BSC | 4.85% | $292.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 LTMNER의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 5.00%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 4.85%예요.
 
 ### LTMNER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

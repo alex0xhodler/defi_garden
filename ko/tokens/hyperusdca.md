@@ -6,22 +6,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.13M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.79% | $9.39M |
-| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.78% | $9.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.97M |
 | [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.11% | $408.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HYPERUSDCA의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 6.79%, TVL $9.39M, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; Monad의 morpho-blue, APY 8.03%, TVL $42.13M, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; Arbitrum의 morpho-blue, APY 3.11%, TVL $408.8K, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; Ethereum의 morpho-blue, APY 7.34%, TVL $1.96M, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYPERUSDCA의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 6.78%, TVL $9.39M, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; Monad의 morpho-blue, APY 8.03%, TVL $42.14M, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; Arbitrum의 morpho-blue, APY 3.11%, TVL $408.8K, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; Ethereum의 morpho-blue, APY 7.34%, TVL $1.97M, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.79% | $9.39M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.13M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.78% | $9.39M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.14M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.11% | $408.8K |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.96M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.97M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,10 +35,10 @@ HYPERUSDCA 풀은 여기 4개가 있고, 3개 체인에서 APY가 3.11%부터 8.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 8.03% | 7.54% | 인센티브 14.90% |
-| morpho-blue | 6.79% | 6.36% | 기본 금리 |
+| morpho-blue | 8.03% | 7.54% | 인센티브 14.94% |
+| morpho-blue | 6.78% | 6.36% | 기본 금리 |
 | morpho-blue | 7.34% | 7.41% | 기본 금리 |
-| morpho-blue | 3.11% | 3.56% | 기본 금리 |
+| morpho-blue | 3.11% | 3.55% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 8.03%예요
 
 ### HYPERUSDCA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HYPERUSDCA의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 6.79%, TVL $9.39M, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; Monad의 morpho-blue, APY 8.03%, TVL $42.13M, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; Arbitrum의 morpho-blue, APY 3.11%, TVL $408.8K, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; Ethereum의 morpho-blue, APY 7.34%, TVL $1.96M, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYPERUSDCA의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 6.78%, TVL $9.39M, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; Monad의 morpho-blue, APY 8.03%, TVL $42.14M, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; Arbitrum의 morpho-blue, APY 3.11%, TVL $408.8K, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; Ethereum의 morpho-blue, APY 7.34%, TVL $1.97M, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

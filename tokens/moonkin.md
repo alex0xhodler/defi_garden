@@ -6,7 +6,7 @@ The highest honest MOONKIN yield right now is 1.14% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b91628c1-dccf-41a5-b5cf-a4764b17bef0&src=seo_token) | Ethereum | 1.14% | $113.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b91628c1-dccf-41a5-b5cf-a4764b17bef0&src=seo_token) | Ethereum | 1.14% | $112.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOONKIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.6K in total.
+1 live pool clear this page's $100K TVL floor, $112.3K in total.
 
 ### Are these rates safe?
 

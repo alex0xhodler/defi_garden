@@ -27,7 +27,7 @@ STHYPE shows up in 2 pools here, with rates from 2.30% to 2.50% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle-v2 | 2.30% | 2.58% | 5.14% incentives |
-| pendle-v2 | 2.50% | 2.27% | Base rate |
+| pendle-v2 | 2.50% | 2.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.84M in total.
+3 live pools clear this page's $100K TVL floor, $2.83M in total.
 
 ### Are these rates safe?
 

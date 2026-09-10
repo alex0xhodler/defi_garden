@@ -6,20 +6,20 @@ The highest honest SLISBNB yield right now is 1.95% on pendle-v2 (BSC), among 6 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.00% | $752.44M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.00% | $752.04M |
 | [pendle-v2 →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.95% | $1.82M |
 | [pendle-v2 →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.36% | $1.82M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle-v2 (BSC), 1.36% APY, $1.82M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle-v2 (BSC), 1.95% APY, $1.82M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 1.00% APY, $752.44M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLISBNB's lower-variability candidates are pendle-v2 (BSC), 1.36% APY, $1.82M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle-v2 (BSC), 1.95% APY, $1.82M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 1.00% APY, $752.04M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.36% | $1.82M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.95% | $1.82M |
-| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.00% | $752.44M |
+| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.00% | $752.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLISBNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $846.82M in total.
+6 live pools clear this page's $100K TVL floor, $846.39M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SLISBNB pools have the most stable APY history?
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle-v2 (BSC), 1.36% APY, $1.82M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle-v2 (BSC), 1.95% APY, $1.82M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 1.00% APY, $752.44M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLISBNB's lower-variability candidates are pendle-v2 (BSC), 1.36% APY, $1.82M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle-v2 (BSC), 1.95% APY, $1.82M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 1.00% APY, $752.04M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

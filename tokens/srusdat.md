@@ -37,8 +37,8 @@ SRUSDAT shows up in 5 pools here, with rates from 8.11% to 13.20% APY across 2 c
 |---|---|---|---|
 | strata-markets | 8.11% | 8.11% | Base rate |
 | pendle-v2 | 10.40% | 12.08% | Base rate |
-| pendle-v2 | 11.38% | 15.16% | 11.68% incentives |
-| pendle-v2 | 13.20% | 14.19% | 30.30% incentives |
+| pendle-v2 | 11.38% | 15.16% | 11.65% incentives |
+| pendle-v2 | 13.20% | 14.19% | 30.23% incentives |
 | pendle-v2 | 9.64% | 9.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

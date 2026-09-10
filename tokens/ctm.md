@@ -6,7 +6,7 @@ The highest honest CTM yield right now is 0.17% on uniswap-v4 (BSC), among 2 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.17% | $2.55M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.17% | $2.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CTM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.19M in total.
+2 live pools clear this page's $100K TVL floor, $5.17M in total.
 
 ### Are these rates safe?
 

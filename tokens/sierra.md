@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest SIERRA yield right now is 8.16% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIERRA yield right now is 8.22% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.66% | $14.75M |
-| [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.16% | $14.75M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.01% | $4.4M |
+| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.70% | $14.75M |
+| [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.22% | $14.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.01% | $4.41M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.01% | $829.5K |
 | [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 11.63% | $110.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SIERRA's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $4.4M TVL, https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token; pendle-v2 (Ethereum), 8.16% APY, $14.75M TVL, https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $829.5K TVL, https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token; joe-v2.2 (Avalanche), 11.63% APY, $110.5K TVL, https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token; pendle-v2 (Ethereum), 6.66% APY, $14.75M TVL, https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIERRA's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $4.41M TVL, https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token; pendle-v2 (Ethereum), 8.22% APY, $14.75M TVL, https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $829.5K TVL, https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token; joe-v2.2 (Avalanche), 11.63% APY, $110.5K TVL, https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token; pendle-v2 (Ethereum), 6.70% APY, $14.75M TVL, https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.01% | $4.4M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.16% | $14.75M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.01% | $4.41M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.22% | $14.75M |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.01% | $829.5K |
 | 4 | [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 11.63% | $110.5K |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.66% | $14.75M |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 6.70% | $14.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -39,8 +39,8 @@ SIERRA shows up in 5 pools here, with rates from 0.01% to 11.63% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.66% | 5.86% | 2.43% incentives |
-| pendle-v2 | 8.16% | 8.06% | Base rate |
+| pendle-v2 | 6.70% | 5.83% | 2.41% incentives |
+| pendle-v2 | 8.22% | 8.06% | Base rate |
 | uniswap-v4 | 0.01% | 0.09% | Base rate |
 | uniswap-v4 | 0.01% | 0.74% | Base rate |
 | joe-v2.2 | 11.63% | 0.72% | Base rate |
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SIERRA yield today?
 
-8.16% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+8.22% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SIERRA pools clear the TVL floor?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SIERRA pools have the most stable APY history?
 
-Based on APY history only, SIERRA's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $4.4M TVL, https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token; pendle-v2 (Ethereum), 8.16% APY, $14.75M TVL, https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $829.5K TVL, https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token; joe-v2.2 (Avalanche), 11.63% APY, $110.5K TVL, https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token; pendle-v2 (Ethereum), 6.66% APY, $14.75M TVL, https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIERRA's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $4.41M TVL, https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token; pendle-v2 (Ethereum), 8.22% APY, $14.75M TVL, https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $829.5K TVL, https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token; joe-v2.2 (Avalanche), 11.63% APY, $110.5K TVL, https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token; pendle-v2 (Ethereum), 6.70% APY, $14.75M TVL, https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

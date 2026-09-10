@@ -6,7 +6,7 @@ The highest honest OETHB yield right now is 0.66% on aerodrome-v1 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b&src=seo_token) | Base | 0.66% | $322.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b&src=seo_token) | Base | 0.66% | $322.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OETHB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $322.7K in total.
+1 live pool clear this page's $100K TVL floor, $322.9K in total.
 
 ### Are these rates safe?
 

@@ -2,22 +2,22 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest AAVEGHO yield right now is 4.35% on balancer-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEGHO yield right now is 3.30% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.30% | $279.2K |
 | [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 2.62% | $162.7K |
-| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 4.35% | $102.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 3.28% | $102.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 4.35% APY, $102.6K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.62% APY, $162.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.30% APY, $279.2K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 3.28% APY, $102.6K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.62% APY, $162.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.30% APY, $279.2K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 4.35% | $102.6K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 3.28% | $102.6K |
 | 2 | [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 2.62% | $162.7K |
 | 3 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.30% | $279.2K |
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AAVEGHO shows up in 3 pools here, with rates from 2.62% to 4.35% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVEGHO shows up in 3 pools here, with rates from 2.62% to 3.30% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | balancer-v3 | 3.30% | 3.57% | Base rate |
 | balancer-v3 | 2.62% | 3.16% | Base rate |
-| balancer-v3 | 4.35% | 3.14% | Base rate |
+| balancer-v3 | 3.28% | 3.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAVEGHO yield today?
 
-4.35% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+3.30% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many AAVEGHO pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AAVEGHO pools have the most stable APY history?
 
-Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 4.35% APY, $102.6K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.62% APY, $162.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.30% APY, $279.2K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 3.28% APY, $102.6K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.62% APY, $162.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.30% APY, $279.2K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WMETAX yield right now is 0.39% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMETAX yield right now is 0.50% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b&src=seo_token) | Mantle | 0.39% | $108.3K |
+| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b&src=seo_token) | Mantle | 0.50% | $108.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMETAX yield today?
 
-0.39% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.50% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WMETAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.3K in total.
+1 live pool clear this page's $100K TVL floor, $108.5K in total.
 
 ### Are these rates safe?
 

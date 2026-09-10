@@ -6,7 +6,7 @@ The highest honest RE7HONEY yield right now is 9.45% on berapaw (Berachain), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 9.45% | $4.45M |
+| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 9.45% | $4.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RE7HONEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.45M in total.
+1 live pool clear this page's $100K TVL floor, $4.44M in total.
 
 ### Are these rates safe?
 

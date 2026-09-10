@@ -6,20 +6,20 @@ The highest honest SMON yield right now is 11.73% on kintsu (Monad), among 4 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.73% | $2.11M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.42% | $550.9K |
-| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.03% | $477.9K |
+| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.73% | $2.1M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.43% | $550.9K |
+| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.03% | $476.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.73% APY, $2.11M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.03% APY, $477.9K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 5.42% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.73% APY, $2.1M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.03% APY, $476.1K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 5.43% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.73% | $2.11M |
-| 2 | [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.03% | $477.9K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.42% | $550.9K |
+| 1 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.73% | $2.1M |
+| 2 | [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.03% | $476.1K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 5.43% | $550.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,7 +36,7 @@ SMON shows up in 3 pools here, with rates from 2.03% to 11.73% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kintsu | 11.73% | 11.27% | Base rate |
-| curve-dex | 5.42% | 13.84% | 100.00% incentives |
+| curve-dex | 5.43% | 13.83% | 100.00% incentives |
 | neverland | 2.03% | 1.87% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SMON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.37M in total.
+4 live pools clear this page's $100K TVL floor, $3.36M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SMON pools have the most stable APY history?
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.73% APY, $2.11M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.03% APY, $477.9K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 5.42% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.73% APY, $2.1M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.03% APY, $476.1K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 5.43% APY, $550.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,18 +6,18 @@ The highest honest YOETH yield right now is 3.79% on pendle-v2 (Base), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token) | Base | 3.23% | $723.7K |
-| [pendle-v2 →](https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token) | Base | 3.79% | $723.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token) | Base | 3.23% | $723.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token) | Base | 3.79% | $723.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YOETH's lower-variability candidates are pendle-v2 (Base), 3.23% APY, $723.7K TVL, https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token; pendle-v2 (Base), 3.79% APY, $723.7K TVL, https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YOETH's lower-variability candidates are pendle-v2 (Base), 3.23% APY, $723.3K TVL, https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token; pendle-v2 (Base), 3.79% APY, $723.3K TVL, https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token) | Base | 3.23% | $723.7K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token) | Base | 3.79% | $723.7K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token) | Base | 3.23% | $723.3K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token) | Base | 3.79% | $723.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,8 +31,8 @@ YOETH shows up in 2 pools here, with rates from 3.23% to 3.79% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 3.23% | 4.14% | Base rate |
-| pendle-v2 | 3.79% | 3.84% | 33.80% incentives |
+| pendle-v2 | 3.23% | 4.13% | Base rate |
+| pendle-v2 | 3.79% | 3.84% | 33.53% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YOETH pools have the most stable APY history?
 
-Based on APY history only, YOETH's lower-variability candidates are pendle-v2 (Base), 3.23% APY, $723.7K TVL, https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token; pendle-v2 (Base), 3.79% APY, $723.7K TVL, https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YOETH's lower-variability candidates are pendle-v2 (Base), 3.23% APY, $723.3K TVL, https://www.defi.garden/?pool=d929766c-90e2-440d-9056-c70eca6db66d&src=seo_token; pendle-v2 (Base), 3.79% APY, $723.3K TVL, https://www.defi.garden/?pool=b02bfd1a-6b1f-4cfc-8f9c-4e80ec84037b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

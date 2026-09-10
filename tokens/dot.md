@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DOT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.77M in total.
+3 live pools clear this page's $100K TVL floor, $1.76M in total.
 
 ### Are these rates safe?
 

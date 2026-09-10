@@ -7,21 +7,21 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.14% | $3.81M |
-| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.94% | $407.2K |
-| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.13% | $259.4K |
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.15% | $119.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.68% | $408K |
+| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.12% | $259.7K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.15% | $119.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 RNT의 변동성 낮은 후보는 Polygon의 sushiswap, APY 0.14%, TVL $3.81M, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; Polygon의 gt3, APY 5.13%, TVL $259.4K, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; Solana의 raydium-amm, APY 3.94%, TVL $407.2K, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; Polygon의 gt3, APY 15.15%, TVL $119.6K, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RNT의 변동성 낮은 후보는 Polygon의 sushiswap, APY 0.14%, TVL $3.81M, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; Polygon의 gt3, APY 5.12%, TVL $259.7K, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; Solana의 raydium-amm, APY 3.68%, TVL $408K, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; Polygon의 gt3, APY 15.15%, TVL $119.7K, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap →](https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token) | Polygon | 0.14% | $3.81M |
-| 2 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.13% | $259.4K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.94% | $407.2K |
-| 4 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.15% | $119.6K |
+| 2 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 5.12% | $259.7K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.68% | $408K |
+| 4 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.15% | $119.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,8 +38,8 @@ RNT 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.14%부터 15.15%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | sushiswap | 0.14% | 0.22% | 기본 금리 |
-| raydium-amm | 3.94% | 3.27% | 기본 금리 |
-| gt3 | 5.13% | 5.71% | 기본 금리 |
+| raydium-amm | 3.68% | 3.27% | 기본 금리 |
+| gt3 | 5.12% | 5.71% | 기본 금리 |
 | gt3 | 15.15% | 15.73% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 gt3에서 APY 15.15%예요.
 
 ### RNT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 RNT의 변동성 낮은 후보는 Polygon의 sushiswap, APY 0.14%, TVL $3.81M, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; Polygon의 gt3, APY 5.13%, TVL $259.4K, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; Solana의 raydium-amm, APY 3.94%, TVL $407.2K, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; Polygon의 gt3, APY 15.15%, TVL $119.6K, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RNT의 변동성 낮은 후보는 Polygon의 sushiswap, APY 0.14%, TVL $3.81M, https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee&src=seo_token; Polygon의 gt3, APY 5.12%, TVL $259.7K, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token; Solana의 raydium-amm, APY 3.68%, TVL $408K, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token; Polygon의 gt3, APY 15.15%, TVL $119.7K, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -4,8 +4,8 @@ The highest honest MegaETH yield right now is 3.55% on aave-v3 (MegaETH), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 3.55% | $674.6K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.67% | $222.5K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 3.55% | $674.9K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.67% | $222.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -8,21 +8,21 @@ The highest honest RBTC yield right now is 0.41% on sovryn-dex (Rootstock), amon
 |---|---|---|---|
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.41% | $1.07M |
 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.03% | $970.3K |
-| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.16% | $895.7K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.21% | $895.7K |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.94% | $697K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Base), 0.04% APY, $144.6K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.94% APY, $697K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; sovryn-dex (Rootstock), 0.03% APY, $970.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.16% APY, $895.7K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.41% APY, $1.07M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Base), 0.04% APY, $144.7K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.94% APY, $697K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; sovryn-dex (Rootstock), 0.03% APY, $970.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.21% APY, $895.7K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.41% APY, $1.07M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.6K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.7K |
 | 2 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.94% | $697K |
 | 3 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.03% | $970.3K |
-| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.16% | $895.7K |
+| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.21% | $895.7K |
 | 5 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.41% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -41,7 +41,7 @@ RBTC shows up in 5 pools here, with rates from 0.03% to 0.94% APY across 2 chain
 |---|---|---|---|
 | sovryn-dex | 0.41% | 0.79% | 100.00% incentives |
 | sovryn-dex | 0.03% | 0.23% | 100.00% incentives |
-| sovryn-dex | 0.16% | 0.28% | 100.00% incentives |
+| sovryn-dex | 0.21% | 0.28% | 100.00% incentives |
 | sovryn-dex | 0.94% | 0.21% | 100.00% incentives |
 | uniswap-v3 | 0.04% | 0.24% | Base rate |
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RBTC pools have the most stable APY history?
 
-Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Base), 0.04% APY, $144.6K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.94% APY, $697K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; sovryn-dex (Rootstock), 0.03% APY, $970.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.16% APY, $895.7K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.41% APY, $1.07M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Base), 0.04% APY, $144.7K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.94% APY, $697K TVL, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; sovryn-dex (Rootstock), 0.03% APY, $970.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.21% APY, $895.7K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.41% APY, $1.07M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

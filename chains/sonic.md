@@ -1,17 +1,17 @@
 # Sonic DeFi Yields
 
-The highest honest Sonic yield right now is 31.68% on beets-dex (Sonic), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sonic yield right now is 32.11% on beets-dex (Sonic), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=8a0ed79f-2471-4092-b756-1e2e6daaf28d&src=seo_chain) | 0.07% | $1.29M |
 | USDC | [aave-v3 →](https://www.defi.garden/?pool=9bf5faf4-32e3-437e-8080-c38eae10cfa6&src=seo_chain) | 1.85% | $1.15M |
-| WS | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_chain) | 1.11% | $963.8K |
+| WS | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_chain) | 1.11% | $962K |
 | EVAUSDT-EVAUSDC | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_chain) | 8.54% | $819.9K |
-| BPT-ANS-SILOWS | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_chain) | 18.72% | $574.8K |
+| BPT-ANS-SILOWS | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_chain) | 18.66% | $574.5K |
 | USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_chain) | 1.41% | $535.7K |
-| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_chain) | 11.05% | $333K |
-| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_chain) | 31.68% | $329.4K |
+| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_chain) | 11.06% | $333K |
+| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_chain) | 32.11% | $328.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Sonic yield today?
 
-31.68% APY on beets-dex (Sonic), based on live DefiLlama data.
+32.11% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many Sonic pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $27.81M in total.
+32 live pools clear this page's $100K TVL floor, $27.8M in total.
 
 ### Are these rates safe?
 

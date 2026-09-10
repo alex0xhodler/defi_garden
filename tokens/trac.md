@@ -6,24 +6,24 @@ The highest honest TRAC yield right now is 19.37% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 9.27% | $387.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 9.33% | $387.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 19.37% | $124K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRAC's lower-variability candidates are uniswap-v3 (Ethereum), 9.27% APY, $387.4K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 19.37% APY, $124K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRAC's lower-variability candidates are uniswap-v3 (Ethereum), 9.33% APY, $387.6K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 19.37% APY, $124K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 9.27% | $387.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 9.33% | $387.6K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 19.37% | $124K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRAC shows up in 2 pools here, with rates from 9.27% to 19.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRAC shows up in 2 pools here, with rates from 9.33% to 19.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 53.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 9.27% | 42.09% | Base rate |
+| uniswap-v3 | 9.33% | 42.08% | Base rate |
 | uniswap-v4 | 19.37% | 64.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRAC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $511.3K in total.
+2 live pools clear this page's $100K TVL floor, $511.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRAC pools have the most stable APY history?
 
-Based on APY history only, TRAC's lower-variability candidates are uniswap-v3 (Ethereum), 9.27% APY, $387.4K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 19.37% APY, $124K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRAC's lower-variability candidates are uniswap-v3 (Ethereum), 9.33% APY, $387.6K TVL, https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token; uniswap-v4 (Ethereum), 19.37% APY, $124K TVL, https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

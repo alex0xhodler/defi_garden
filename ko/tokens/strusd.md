@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.52% | $49.76M |
+| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.48% | $49.97M |
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.08% | $10.11M |
 | [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.96% | $7.18M |
 | [pendle-v2 →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.79% | $7.18M |
@@ -14,13 +14,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STRUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 11.79%, TVL $7.18M, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; Ethereum의 curve-dex, APY 5.08%, TVL $10.11M, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; Ethereum의 tori-finance, APY 10.52%, TVL $49.76M, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; Ethereum의 pendle-v2, APY 10.96%, TVL $7.18M, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STRUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 11.79%, TVL $7.18M, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; Ethereum의 curve-dex, APY 5.08%, TVL $10.11M, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; Ethereum의 tori-finance, APY 10.48%, TVL $49.97M, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; Ethereum의 pendle-v2, APY 10.96%, TVL $7.18M, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.79% | $7.18M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.08% | $10.11M |
-| 3 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.52% | $49.76M |
+| 3 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.48% | $49.97M |
 | 4 | [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.96% | $7.18M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -35,7 +35,7 @@ STRUSD 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.08%부터 11.79%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| tori-finance | 10.52% | 10.75% | 기본 금리 |
+| tori-finance | 10.48% | 10.75% | 기본 금리 |
 | curve-dex | 5.08% | 5.49% | 기본 금리 |
 | pendle-v2 | 10.96% | 11.27% | 인센티브 1.98% |
 | pendle-v2 | 11.79% | 11.67% | 기본 금리 |
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.79%예�
 
 ### STRUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $89.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $90.2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.79%예�
 
 ### STRUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STRUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 11.79%, TVL $7.18M, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; Ethereum의 curve-dex, APY 5.08%, TVL $10.11M, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; Ethereum의 tori-finance, APY 10.52%, TVL $49.76M, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; Ethereum의 pendle-v2, APY 10.96%, TVL $7.18M, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STRUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 11.79%, TVL $7.18M, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; Ethereum의 curve-dex, APY 5.08%, TVL $10.11M, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; Ethereum의 tori-finance, APY 10.48%, TVL $49.97M, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; Ethereum의 pendle-v2, APY 10.96%, TVL $7.18M, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

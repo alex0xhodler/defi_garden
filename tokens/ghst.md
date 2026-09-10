@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest GHST yield right now is 64.80% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHST yield right now is 64.77% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 64.80% | $224.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 64.77% | $224.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GHST yield today?
 
-64.80% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+64.77% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many GHST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $224.6K in total.
+1 live pool clear this page's $100K TVL floor, $224.2K in total.
 
 ### Are these rates safe?
 

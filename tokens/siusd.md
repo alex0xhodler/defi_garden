@@ -6,8 +6,8 @@ The highest honest SIUSD yield right now is 10.04% on pendle-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.54% | $28.04M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 9.43% | $2.84M |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.47% | $28.04M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 9.42% | $2.84M |
 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 10.04% | $2.84M |
 
 <!-- rate-stability:insufficient -->
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIUSD shows up in 3 pools here, with rates from 6.54% to 10.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIUSD shows up in 3 pools here, with rates from 6.47% to 10.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,8 +27,8 @@ SIUSD shows up in 3 pools here, with rates from 6.54% to 10.04% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 6.54% | 6.22% | Base rate |
-| pendle-v2 | 9.43% | 10.26% | 3.24% incentives |
+| infinifi | 6.47% | 6.22% | Base rate |
+| pendle-v2 | 9.42% | 10.25% | 3.23% incentives |
 | pendle-v2 | 10.04% | 8.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

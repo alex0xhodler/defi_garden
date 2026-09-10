@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WNUSDT0 yield right now is 7.97% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNUSDT0 yield right now is 7.87% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 7.97% | $2.6M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 7.87% | $2.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WNUSDT0 shows up in 1 pools here, with rates from 7.97% to 7.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WNUSDT0 shows up in 1 pools here, with rates from 7.87% to 7.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 9.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ WNUSDT0 shows up in 1 pools here, with rates from 7.97% to 7.97% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 7.97% | 9.01% | 70.03% incentives |
+| balancer-v3 | 7.87% | 9.01% | 69.80% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WNUSDT0 yield today?
 
-7.97% APY on balancer-v3 (Monad), based on live DefiLlama data.
+7.87% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WNUSDT0 pools clear the TVL floor?
 

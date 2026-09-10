@@ -7,17 +7,17 @@ The highest honest STFLR yield right now is 15.41% on sparkdex-v4 (Flare), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.52% | $1.3M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.2K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STFLR's lower-variability candidates are sparkdex-v4 (Flare), 5.52% APY, $1.3M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; sparkdex-v4 (Flare), 15.41% APY, $138.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STFLR's lower-variability candidates are sparkdex-v4 (Flare), 5.52% APY, $1.3M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; sparkdex-v4 (Flare), 15.41% APY, $138.1K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.52% | $1.3M |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.2K |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token) | Flare | 15.41% | $138.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STFLR pools have the most stable APY history?
 
-Based on APY history only, STFLR's lower-variability candidates are sparkdex-v4 (Flare), 5.52% APY, $1.3M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; sparkdex-v4 (Flare), 15.41% APY, $138.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STFLR's lower-variability candidates are sparkdex-v4 (Flare), 5.52% APY, $1.3M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; sparkdex-v4 (Flare), 15.41% APY, $138.1K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

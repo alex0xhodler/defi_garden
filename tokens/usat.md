@@ -6,7 +6,7 @@ The highest honest USAT yield right now is 5.74% on centrifuge-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 5.74% | $399.04M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 5.74% | $399.03M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_token) | Celo | 0.02% | $105.3K |
 
 <!-- rate-stability:insufficient -->

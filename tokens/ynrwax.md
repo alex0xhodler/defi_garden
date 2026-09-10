@@ -33,7 +33,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YNRWAX shows up in 6 pools here, with rates from 0.04% to 9.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 9.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 9.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,9 +42,9 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle-v2 | 9.81% | 10.20% | Base rate |
-| pendle-v2 | 3.95% | 9.69% | Base rate |
-| curve-dex | 0.04% | 7.82% | Base rate |
-| stake-dao-yield | 2.14% | 8.22% | Base rate |
+| pendle-v2 | 3.95% | 9.68% | Base rate |
+| curve-dex | 0.04% | 7.81% | Base rate |
+| stake-dao-yield | 2.14% | 8.21% | Base rate |
 | spectra-v2 | 8.55% | 9.17% | Base rate |
 | spectra-v2 | 6.40% | 9.52% | Base rate |
 
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNRWAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $11.21M in total.
+7 live pools clear this page's $100K TVL floor, $11.22M in total.
 
 ### Are these rates safe?
 

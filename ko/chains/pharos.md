@@ -5,7 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 3.61% | $4.4M |
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=bb569576-9211-570b-b60d-fab36a132589&src=seo_chain) | 1.34% | $100K |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=bb569576-9211-570b-b60d-fab36a132589&src=seo_chain) | 1.34% | $100.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

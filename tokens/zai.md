@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest ZAI yield right now is 8.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZAI yield right now is 8.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=98ebd5c3-f6f7-4727-a092-b410a83e2315&src=seo_token) | Solana | 8.96% | $112.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=98ebd5c3-f6f7-4727-a092-b410a83e2315&src=seo_token) | Solana | 8.62% | $113K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZAI yield today?
 
-8.96% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.62% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.6K in total.
+1 live pool clear this page's $100K TVL floor, $113K in total.
 
 ### Are these rates safe?
 

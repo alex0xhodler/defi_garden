@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WSM yield right now is 0.07% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSM yield right now is 0.05% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=30c4a489-ce5f-4289-b4ba-dc2da323a087&src=seo_token) | BSC | 0.07% | $100.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=30c4a489-ce5f-4289-b4ba-dc2da323a087&src=seo_token) | BSC | 0.05% | $100.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WSM yield today?
 
-0.07% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+0.05% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many WSM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.6K in total.
 
 ### Are these rates safe?
 

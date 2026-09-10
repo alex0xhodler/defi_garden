@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 4.58% | $583.8K |
+| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 4.58% | $583.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 usual-usd0에서 APY 4.58%예�
 
 ### USD0A 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $583.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $583.7K예요.
 
 ### 이 수익률은 안전한가요?
 

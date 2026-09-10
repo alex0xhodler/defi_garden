@@ -6,7 +6,7 @@ The highest honest WEETHS yield right now is 1.16% on fluid-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 1.16% | $793.4K |
+| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 1.16% | $792.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

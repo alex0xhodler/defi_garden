@@ -6,7 +6,7 @@ The highest honest LMTS yield right now is 20.86% on aerodrome-slipstream (Base)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 20.86% | $546.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 20.86% | $546K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 LMTS shows up in 1 pools here, with rates from 20.86% to 20.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 70.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 69.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ LMTS shows up in 1 pools here, with rates from 20.86% to 20.86% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 20.86% | 70.18% | 99.73% incentives |
+| aerodrome-slipstream | 20.86% | 69.85% | 99.73% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LMTS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $789.4K in total.
+2 live pools clear this page's $100K TVL floor, $789K in total.
 
 ### Are these rates safe?
 

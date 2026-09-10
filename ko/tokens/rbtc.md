@@ -8,21 +8,21 @@
 |---|---|---|---|
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.41% | $1.07M |
 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.03% | $970.3K |
-| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.16% | $895.7K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.21% | $895.7K |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.94% | $697K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 RBTC의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.04%, TVL $144.6K, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; Rootstock의 sovryn-dex, APY 0.94%, TVL $697K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Rootstock의 sovryn-dex, APY 0.03%, TVL $970.3K, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $895.7K, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; Rootstock의 sovryn-dex, APY 0.41%, TVL $1.07M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RBTC의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.04%, TVL $144.7K, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; Rootstock의 sovryn-dex, APY 0.94%, TVL $697K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Rootstock의 sovryn-dex, APY 0.03%, TVL $970.3K, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; Rootstock의 sovryn-dex, APY 0.21%, TVL $895.7K, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; Rootstock의 sovryn-dex, APY 0.41%, TVL $1.07M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.6K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.04% | $144.7K |
 | 2 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.94% | $697K |
 | 3 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.03% | $970.3K |
-| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.16% | $895.7K |
+| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.21% | $895.7K |
 | 5 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.41% | $1.07M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -41,7 +41,7 @@ RBTC 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.03%부터 0.94%까
 |---|---|---|---|
 | sovryn-dex | 0.41% | 0.79% | 인센티브 100.00% |
 | sovryn-dex | 0.03% | 0.23% | 인센티브 100.00% |
-| sovryn-dex | 0.16% | 0.28% | 인센티브 100.00% |
+| sovryn-dex | 0.21% | 0.28% | 인센티브 100.00% |
 | sovryn-dex | 0.94% | 0.21% | 인센티브 100.00% |
 | uniswap-v3 | 0.04% | 0.24% | 기본 금리 |
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.41%예
 
 ### RBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 RBTC의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.04%, TVL $144.6K, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; Rootstock의 sovryn-dex, APY 0.94%, TVL $697K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Rootstock의 sovryn-dex, APY 0.03%, TVL $970.3K, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $895.7K, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; Rootstock의 sovryn-dex, APY 0.41%, TVL $1.07M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RBTC의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.04%, TVL $144.7K, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; Rootstock의 sovryn-dex, APY 0.94%, TVL $697K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Rootstock의 sovryn-dex, APY 0.03%, TVL $970.3K, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; Rootstock의 sovryn-dex, APY 0.21%, TVL $895.7K, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; Rootstock의 sovryn-dex, APY 0.41%, TVL $1.07M, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

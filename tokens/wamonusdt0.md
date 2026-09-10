@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest WAMONUSDT0 yield right now is 9.29% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAMONUSDT0 yield right now is 8.51% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=afde2a3f-5b44-5dd7-a936-5bc991064e6a&src=seo_token) | Monad | 9.29% | $134.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=afde2a3f-5b44-5dd7-a936-5bc991064e6a&src=seo_token) | Monad | 8.51% | $134.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAMONUSDT0 yield today?
 
-9.29% APY on balancer-v3 (Monad), based on live DefiLlama data.
+8.51% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WAMONUSDT0 pools clear the TVL floor?
 

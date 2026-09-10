@@ -6,7 +6,7 @@ The highest honest SIMMI yield right now is 0.08% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 0.08% | $276.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 0.08% | $276.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIMMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $276.1K in total.
+1 live pool clear this page's $100K TVL floor, $276.2K in total.
 
 ### Are these rates safe?
 

@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EZETH pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $114.62M in total.
+11 live pools clear this page's $100K TVL floor, $114.61M in total.
 
 ### Are these rates safe?
 

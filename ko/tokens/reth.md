@@ -2,32 +2,32 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.51%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.53%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.17% | $1.29B |
-| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.10% | $13.98M |
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 4.65% | $6.68M |
-| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.51% | $2.22M |
+| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.10% | $13.91M |
+| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 4.79% | $6.68M |
+| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.53% | $2.21M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 0.40% | $923.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 4.16% | $634.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 4.14% | $635.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token) | Ethereum | 11.12% | $367.3K |
 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $296.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 RETH의 변동성 낮은 후보는 Ethereum의 rocket-pool, APY 2.17%, TVL $1.29B, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; Ethereum의 curve-dex, APY 2.10%, TVL $13.98M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; Ethereum의 curve-dex, APY 2.39%, TVL $296.1K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 6.51%, TVL $2.22M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; Ethereum의 balancer-v3, APY 4.65%, TVL $6.68M, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; Ethereum의 uniswap-v3, APY 4.16%, TVL $634.9K, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; Ethereum의 uniswap-v3, APY 11.12%, TVL $367.3K, https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token; Ethereum의 uniswap-v4, APY 0.40%, TVL $923.9K, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RETH의 변동성 낮은 후보는 Ethereum의 rocket-pool, APY 2.17%, TVL $1.29B, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; Ethereum의 curve-dex, APY 2.10%, TVL $13.91M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; Ethereum의 curve-dex, APY 2.39%, TVL $296.1K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 6.53%, TVL $2.21M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; Ethereum의 balancer-v3, APY 4.79%, TVL $6.68M, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; Ethereum의 uniswap-v3, APY 4.14%, TVL $635.1K, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; Ethereum의 uniswap-v3, APY 11.12%, TVL $367.3K, https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token; Ethereum의 uniswap-v4, APY 0.40%, TVL $923.9K, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.17% | $1.29B |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.10% | $13.98M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.10% | $13.91M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $296.1K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.51% | $2.22M |
-| 5 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 4.65% | $6.68M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 4.16% | $634.9K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.53% | $2.21M |
+| 5 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 4.79% | $6.68M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 4.14% | $635.1K |
 | 7 | [uniswap-v3 →](https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token) | Ethereum | 11.12% | $367.3K |
 | 8 | [uniswap-v4 →](https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token) | Ethereum | 0.40% | $923.9K |
 
@@ -45,11 +45,11 @@ RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.40%부터 11.12%�
 |---|---|---|---|
 | rocket-pool | 2.17% | 2.17% | 기본 금리 |
 | curve-dex | 2.10% | 2.25% | 기본 금리 |
-| balancer-v3 | 4.65% | 5.98% | 인센티브 61.95% |
-| convex-finance | 6.51% | 6.87% | 인센티브 67.73% |
+| balancer-v3 | 4.79% | 5.98% | 인센티브 63.04% |
+| convex-finance | 6.53% | 6.87% | 인센티브 67.85% |
 | uniswap-v4 | 0.40% | 2.77% | 기본 금리 |
-| uniswap-v3 | 4.16% | 3.63% | 기본 금리 |
-| uniswap-v3 | 11.12% | 5.15% | 기본 금리 |
+| uniswap-v3 | 4.14% | 3.64% | 기본 금리 |
+| uniswap-v3 | 11.12% | 5.17% | 기본 금리 |
 | curve-dex | 2.39% | 2.71% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,7 +58,7 @@ RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.40%부터 11.12%�
 
 ### 오늘 RETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.51%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.53%예요.
 
 ### RETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.51%
 
 ### RETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 RETH의 변동성 낮은 후보는 Ethereum의 rocket-pool, APY 2.17%, TVL $1.29B, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; Ethereum의 curve-dex, APY 2.10%, TVL $13.98M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; Ethereum의 curve-dex, APY 2.39%, TVL $296.1K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 6.51%, TVL $2.22M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; Ethereum의 balancer-v3, APY 4.65%, TVL $6.68M, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; Ethereum의 uniswap-v3, APY 4.16%, TVL $634.9K, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; Ethereum의 uniswap-v3, APY 11.12%, TVL $367.3K, https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token; Ethereum의 uniswap-v4, APY 0.40%, TVL $923.9K, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 RETH의 변동성 낮은 후보는 Ethereum의 rocket-pool, APY 2.17%, TVL $1.29B, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; Ethereum의 curve-dex, APY 2.10%, TVL $13.91M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; Ethereum의 curve-dex, APY 2.39%, TVL $296.1K, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; Ethereum의 convex-finance, APY 6.53%, TVL $2.21M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; Ethereum의 balancer-v3, APY 4.79%, TVL $6.68M, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; Ethereum의 uniswap-v3, APY 4.14%, TVL $635.1K, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token; Ethereum의 uniswap-v3, APY 11.12%, TVL $367.3K, https://www.defi.garden/?pool=5685fa0d-a7cf-4b60-9b77-ff23b4583f81&src=seo_token; Ethereum의 uniswap-v4, APY 0.40%, TVL $923.9K, https://www.defi.garden/?pool=2e85ff4a-54a1-4402-b6dd-80777c6a0513&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

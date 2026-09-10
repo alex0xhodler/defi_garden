@@ -6,21 +6,21 @@ The highest honest SENA yield right now is 14.07% on pendle-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.66% | $4.38M |
-| [pendle-v2 →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.07% | $4.38M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.04M |
+| [pendle-v2 →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.66% | $4.37M |
+| [pendle-v2 →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.07% | $4.37M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.03M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 11.45% | $183.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.04M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle-v2 (Ethereum), 14.07% APY, $4.38M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle-v2 (Ethereum), 5.66% APY, $4.38M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.03M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle-v2 (Ethereum), 14.07% APY, $4.37M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle-v2 (Ethereum), 5.66% APY, $4.37M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.04M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.07% | $4.38M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.66% | $4.38M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.03M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.07% | $4.37M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.66% | $4.37M |
 | 4 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 11.45% | $183.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -37,7 +37,7 @@ SENA shows up in 4 pools here, with rates from 0.05% to 14.07% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 5.66% | 5.34% | 7.21% incentives |
+| pendle-v2 | 5.66% | 5.34% | 7.20% incentives |
 | pendle-v2 | 14.07% | 13.74% | Base rate |
 | uniswap-v3 | 0.05% | 0.46% | Base rate |
 | uniswap-v3 | 11.45% | 14.15% | Base rate |
@@ -52,7 +52,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SENA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $12.27M in total.
+5 live pools clear this page's $100K TVL floor, $12.26M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SENA pools have the most stable APY history?
 
-Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.04M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle-v2 (Ethereum), 14.07% APY, $4.38M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle-v2 (Ethereum), 5.66% APY, $4.38M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.03M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle-v2 (Ethereum), 14.07% APY, $4.37M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle-v2 (Ethereum), 5.66% APY, $4.37M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

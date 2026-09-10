@@ -6,20 +6,20 @@ The highest honest WXDAI yield right now is 1.50% on aave-v3 (Gnosis), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.09% | $447.4K |
-| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.50% | $349.2K |
-| [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.64% | $282.8K |
+| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.09% | $444K |
+| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.50% | $349.1K |
+| [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.64% | $282.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WXDAI's lower-variability candidates are balancer-v2 (Gnosis), 0.64% APY, $282.8K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; aave-v3 (Gnosis), 1.50% APY, $349.2K TVL, https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token; curve-dex (Gnosis), 0.09% APY, $447.4K TVL, https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXDAI's lower-variability candidates are balancer-v2 (Gnosis), 0.64% APY, $282.9K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; aave-v3 (Gnosis), 1.50% APY, $349.1K TVL, https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token; curve-dex (Gnosis), 0.09% APY, $444K TVL, https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.64% | $282.8K |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.50% | $349.2K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.09% | $447.4K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.64% | $282.9K |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.50% | $349.1K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.09% | $444K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WXDAI pools have the most stable APY history?
 
-Based on APY history only, WXDAI's lower-variability candidates are balancer-v2 (Gnosis), 0.64% APY, $282.8K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; aave-v3 (Gnosis), 1.50% APY, $349.2K TVL, https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token; curve-dex (Gnosis), 0.09% APY, $447.4K TVL, https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXDAI's lower-variability candidates are balancer-v2 (Gnosis), 0.64% APY, $282.9K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; aave-v3 (Gnosis), 1.50% APY, $349.1K TVL, https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token; curve-dex (Gnosis), 0.09% APY, $444K TVL, https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

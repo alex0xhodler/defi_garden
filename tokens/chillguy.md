@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest CHILLGUY yield right now is 16.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHILLGUY yield right now is 15.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1e958818-9a22-46b0-8567-12cb34fb4eb1&src=seo_token) | Solana | 16.23% | $1.38M |
+| [raydium-amm →](https://www.defi.garden/?pool=1e958818-9a22-46b0-8567-12cb34fb4eb1&src=seo_token) | Solana | 15.78% | $1.39M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHILLGUY yield today?
 
-16.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+15.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHILLGUY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.38M in total.
+1 live pool clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 

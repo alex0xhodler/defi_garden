@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest MSOL yield right now is 18.27% on orca-dex (Solana), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSOL yield right now is 18.13% on orca-dex (Solana), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 6.00% | $232.95M |
+| [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 6.00% | $232.86M |
 | [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.21% | $4.44M |
-| [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.67% | $836.3K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.71% | $750.1K |
-| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.12% | $381.5K |
-| [orca-dex →](https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token) | Solana | 18.27% | $192.7K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 13.71% | $174.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 66.35% | $149.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.65% | $836K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.71% | $748.8K |
+| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.12% | $380.3K |
+| [orca-dex →](https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token) | Solana | 18.13% | $192.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 11.67% | $174.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 64.69% | $149.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSOL's lower-variability candidates are project-0 (Solana), 0.21% APY, $4.44M TVL, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; marinade-liquid-staking (Solana), 6.00% APY, $232.95M TVL, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $750.1K TVL, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; raydium-amm (Solana), 0.67% APY, $836.3K TVL, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; raydium-amm (Solana), 66.35% APY, $149.1K TVL, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; orca-dex (Solana), 1.12% APY, $381.5K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; kamino-liquidity (Solana), 13.71% APY, $174.2K TVL, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token; orca-dex (Solana), 18.27% APY, $192.7K TVL, https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSOL's lower-variability candidates are project-0 (Solana), 0.21% APY, $4.44M TVL, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; marinade-liquid-staking (Solana), 6.00% APY, $232.86M TVL, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $748.8K TVL, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; raydium-amm (Solana), 0.65% APY, $836K TVL, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; raydium-amm (Solana), 64.69% APY, $149.8K TVL, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; orca-dex (Solana), 1.12% APY, $380.3K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; kamino-liquidity (Solana), 11.67% APY, $174.1K TVL, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token; orca-dex (Solana), 18.13% APY, $192.7K TVL, https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.21% | $4.44M |
-| 2 | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 6.00% | $232.95M |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.71% | $750.1K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.67% | $836.3K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 66.35% | $149.1K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.12% | $381.5K |
-| 7 | [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 13.71% | $174.2K |
-| 8 | [orca-dex →](https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token) | Solana | 18.27% | $192.7K |
+| 2 | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 6.00% | $232.86M |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.71% | $748.8K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.65% | $836K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 64.69% | $149.8K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.12% | $380.3K |
+| 7 | [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 11.67% | $174.1K |
+| 8 | [orca-dex →](https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token) | Solana | 18.13% | $192.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSOL shows up in 8 pools here, with rates from 0.21% to 66.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSOL shows up in 8 pools here, with rates from 0.21% to 64.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -47,12 +47,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | marinade-liquid-staking | 6.00% | 5.50% | Base rate |
 | project-0 | 0.21% | 0.19% | Base rate |
-| raydium-amm | 0.67% | 1.26% | Base rate |
-| kamino-liquidity | 0.71% | 1.04% | Base rate |
+| raydium-amm | 0.65% | 1.26% | Base rate |
+| kamino-liquidity | 0.71% | 1.03% | Base rate |
 | orca-dex | 1.12% | 3.59% | Base rate |
-| orca-dex | 18.27% | 18.61% | Base rate |
-| kamino-liquidity | 13.71% | 15.28% | Base rate |
-| raydium-amm | 66.35% | 14.49% | Base rate |
+| orca-dex | 18.13% | 18.63% | Base rate |
+| kamino-liquidity | 11.67% | 15.29% | Base rate |
+| raydium-amm | 64.69% | 14.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSOL yield today?
 
-18.27% APY on orca-dex (Solana), based on live DefiLlama data.
+18.13% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MSOL pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $289.65M in total.
+17 live pools clear this page's $100K TVL floor, $289.52M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSOL pools have the most stable APY history?
 
-Based on APY history only, MSOL's lower-variability candidates are project-0 (Solana), 0.21% APY, $4.44M TVL, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; marinade-liquid-staking (Solana), 6.00% APY, $232.95M TVL, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $750.1K TVL, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; raydium-amm (Solana), 0.67% APY, $836.3K TVL, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; raydium-amm (Solana), 66.35% APY, $149.1K TVL, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; orca-dex (Solana), 1.12% APY, $381.5K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; kamino-liquidity (Solana), 13.71% APY, $174.2K TVL, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token; orca-dex (Solana), 18.27% APY, $192.7K TVL, https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSOL's lower-variability candidates are project-0 (Solana), 0.21% APY, $4.44M TVL, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; marinade-liquid-staking (Solana), 6.00% APY, $232.86M TVL, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $748.8K TVL, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; raydium-amm (Solana), 0.65% APY, $836K TVL, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; raydium-amm (Solana), 64.69% APY, $149.8K TVL, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; orca-dex (Solana), 1.12% APY, $380.3K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; kamino-liquidity (Solana), 11.67% APY, $174.1K TVL, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token; orca-dex (Solana), 18.13% APY, $192.7K TVL, https://www.defi.garden/?pool=f8651e9d-de06-4311-8c83-e46bdad8f5c9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

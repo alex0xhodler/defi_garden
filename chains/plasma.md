@@ -4,14 +4,14 @@ The highest honest Plasma yield right now is 7.75% on yuzu-money (Plasma), among
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_chain) | 4.75% | $319.01M |
-| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_chain) | 3.75% | $207.67M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_chain) | 4.74% | $42.27M |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_chain) | 4.75% | $319.28M |
+| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_chain) | 3.75% | $207.36M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_chain) | 4.74% | $42.12M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_chain) | 7.75% | $36.61M |
 | PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_chain) | 4.16% | $32.31M |
-| USDT0 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_chain) | 5.88% | $28.4M |
-| GHO | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_chain) | 5.61% | $7.28M |
-| GHO | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_chain) | 6.39% | $7.26M |
+| USDT0 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_chain) | 5.87% | $28.42M |
+| GHO | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_chain) | 6.19% | $7.5M |
+| GHO | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_chain) | 5.72% | $6.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plasma pools clear the TVL floor?
 
-28 live pools clear this page's $100K TVL floor, $941.85M in total.
+28 live pools clear this page's $100K TVL floor, $941.52M in total.
 
 ### Are these rates safe?
 

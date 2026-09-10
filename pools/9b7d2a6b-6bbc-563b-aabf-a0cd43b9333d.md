@@ -1,6 +1,6 @@
 # FRXUSD-SGHO — convex-finance on Ethereum
 
-**Total APY:** 10.14% (3.83% Base · + 6.31% Rewards)
+**Total APY:** 10.15% (3.83% Base · + 6.32% Rewards)
 
 **TVL:** $303.5K
 

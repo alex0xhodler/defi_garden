@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest MT yield right now is 0.08% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MT yield right now is 0.07% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.08% | $174.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.07% | $174.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MT yield today?
 
-0.08% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.07% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MT pools clear the TVL floor?
 

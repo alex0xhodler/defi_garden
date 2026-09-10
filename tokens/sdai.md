@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SDAI pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $265.61M in total.
+5 live pools clear this page's $100K TVL floor, $265.6M in total.
 
 ### Are these rates safe?
 

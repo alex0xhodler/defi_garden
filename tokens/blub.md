@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest BLUB yield right now is 4.50% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLUB yield right now is 4.49% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=52128a2c-44d2-4616-8e36-f44539b80497&src=seo_token) | Sui | 4.50% | $101K |
+| [cetus-clmm →](https://www.defi.garden/?pool=52128a2c-44d2-4616-8e36-f44539b80497&src=seo_token) | Sui | 4.49% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLUB yield today?
 
-4.50% APY on cetus-clmm (Sui), based on live DefiLlama data.
+4.49% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many BLUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101K in total.
+1 live pool clear this page's $100K TVL floor, $101.1K in total.
 
 ### Are these rates safe?
 
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank BLUB pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
-- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest CRMB yield right now is 137.89% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRMB yield right now is 131.39% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a12717b1-51b2-500b-ac86-f00eb86d7894&src=seo_token) | Base | 137.89% | $147.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a12717b1-51b2-500b-ac86-f00eb86d7894&src=seo_token) | Base | 131.39% | $155.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRMB yield today?
 
-137.89% APY on uniswap-v2 (Base), based on live DefiLlama data.
+131.39% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CRMB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.4K in total.
+1 live pool clear this page's $100K TVL floor, $155.7K in total.
 
 ### Are these rates safe?
 

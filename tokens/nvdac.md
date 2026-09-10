@@ -6,7 +6,7 @@ The highest honest NVDAC yield right now is 64.72% on uniswap-v4 (Base), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 214.83% | $2.29M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 165.49% | $2.36M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2&src=seo_token) | Base | 64.72% | $301.8K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f6f4ab63-9a82-5ea6-a79c-28484454865d&src=seo_token) | Base | 1.51% | $141.9K |
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NVDAC shows up in 3 pools here, with rates from 1.51% to 214.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAC shows up in 3 pools here, with rates from 1.51% to 165.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 421.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ NVDAC shows up in 3 pools here, with rates from 1.51% to 214.83% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 214.83% | 473.72% | 70.65% incentives |
+| aerodrome-slipstream | 165.49% | 473.01% | 60.91% incentives |
 | uniswap-v4 | 64.72% | 98.90% | Base rate |
 | aerodrome-slipstream | 1.51% | 421.53% | 100.00% incentives |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NVDAC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.42M in total.
+5 live pools clear this page's $100K TVL floor, $3.49M in total.
 
 ### Are these rates safe?
 

@@ -6,18 +6,18 @@ The highest honest BADGER yield right now is 0.27% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.27% | $4.5M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.10% | $232.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.27% | $4.49M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.10% | $231.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BADGER's lower-variability candidates are uniswap-v3 (Ethereum), 0.27% APY, $4.5M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $232.3K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BADGER's lower-variability candidates are uniswap-v3 (Ethereum), 0.27% APY, $4.49M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $231.9K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.27% | $4.5M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.10% | $232.3K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.27% | $4.49M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.10% | $231.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BADGER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.73M in total.
+2 live pools clear this page's $100K TVL floor, $4.72M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BADGER pools have the most stable APY history?
 
-Based on APY history only, BADGER's lower-variability candidates are uniswap-v3 (Ethereum), 0.27% APY, $4.5M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $232.3K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BADGER's lower-variability candidates are uniswap-v3 (Ethereum), 0.27% APY, $4.49M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.10% APY, $231.9K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

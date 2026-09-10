@@ -6,7 +6,7 @@ The highest honest GAMIETH yield right now is 4.07% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 4.07% | $259.3K |
+| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 4.07% | $259.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GAMIETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $520.2K in total.
+2 live pools clear this page's $100K TVL floor, $520.8K in total.
 
 ### Are these rates safe?
 

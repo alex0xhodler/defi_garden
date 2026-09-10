@@ -6,7 +6,7 @@ The highest honest XETH yield right now is 0.50% on aave-v3 (Xlayer), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.50% | $11.1M |
+| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.50% | $11.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

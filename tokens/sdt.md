@@ -6,18 +6,18 @@ The highest honest SDT yield right now is 8.43% on curve-dex (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.43% | $520.3K |
+| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.43% | $520.8K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 0.14% | $518.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDT's lower-variability candidates are stake-dao-yield (Ethereum), 0.14% APY, $518.2K TVL, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; curve-dex (Ethereum), 8.43% APY, $520.3K TVL, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDT's lower-variability candidates are stake-dao-yield (Ethereum), 0.14% APY, $518.2K TVL, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; curve-dex (Ethereum), 8.43% APY, $520.8K TVL, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao-yield →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 0.14% | $518.2K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.43% | $520.3K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 8.43% | $520.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,8 +33,8 @@ SDT shows up in 2 pools here, with rates from 0.14% to 8.43% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 8.43% | 8.99% | 99.17% incentives |
-| stake-dao-yield | 0.14% | 10.18% | Base rate |
+| curve-dex | 8.43% | 8.98% | 99.17% incentives |
+| stake-dao-yield | 0.14% | 10.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDT pools have the most stable APY history?
 
-Based on APY history only, SDT's lower-variability candidates are stake-dao-yield (Ethereum), 0.14% APY, $518.2K TVL, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; curve-dex (Ethereum), 8.43% APY, $520.3K TVL, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDT's lower-variability candidates are stake-dao-yield (Ethereum), 0.14% APY, $518.2K TVL, https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token; curve-dex (Ethereum), 8.43% APY, $520.8K TVL, https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

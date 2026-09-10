@@ -6,7 +6,7 @@ The highest honest ZEAL yield right now is 25.96% on zealousswap (Igra), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 25.96% | $115.7K |
+| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 25.96% | $114.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZEAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.7K in total.
+1 live pool clear this page's $100K TVL floor, $114.8K in total.
 
 ### Are these rates safe?
 

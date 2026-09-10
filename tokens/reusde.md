@@ -38,7 +38,7 @@ REUSDE shows up in 5 pools here, with rates from 0.23% to 18.16% APY across 1 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | re | 12.29% | 12.27% | Base rate |
-| pendle-v2 | 17.47% | 17.54% | 2.94% incentives |
+| pendle-v2 | 17.47% | 17.54% | 2.93% incentives |
 | pendle-v2 | 18.16% | 18.12% | Base rate |
 | curve-dex | 0.23% | 0.20% | Base rate |
 | uniswap-v4 | 12.89% | 24.94% | Base rate |

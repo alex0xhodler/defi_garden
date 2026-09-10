@@ -7,8 +7,8 @@
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 0.20% | $1.76M |
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.04% | $1.51M |
 | USD₮-CNGN | [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_chain) | 0.01% | $180.4K |
-| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.14% | $118.1K |
-| WARS-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_chain) | 0.05% | $110.1K |
+| USDM-EURM | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_chain) | 0.39% | $117.9K |
+| WARS-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_chain) | 0.05% | $110.4K |
 | USD₮-USAT | [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_chain) | 0.02% | $105.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.05%예요.
 
 ### Celo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $5.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $5.31M예요.
 
 ### 이 수익률은 안전한가요?
 

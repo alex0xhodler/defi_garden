@@ -2,48 +2,48 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VUSD의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 28.63%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VUSD의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 28.48%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.74% | $31.37M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 4.22% | $361.2K |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.74% | $31.36M |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 4.23% | $361.2K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 0.05% | $262.8K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token) | Ethereum | 28.63% | $103.4K |
-| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 10.41% | $103.3K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token) | Ethereum | 28.48% | $103.4K |
+| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 10.44% | $103.3K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 0.05% | $103.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.74%, TVL $31.37M, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; Ethereum의 curve-dex, APY 4.22%, TVL $361.2K, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $262.8K, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; Ethereum의 curve-dex, APY 10.41%, TVL $103.3K, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $103.1K, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token; Ethereum의 sushiswap-v3, APY 28.63%, TVL $103.4K, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.74%, TVL $31.36M, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; Ethereum의 curve-dex, APY 4.23%, TVL $361.2K, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $262.8K, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; Ethereum의 curve-dex, APY 10.44%, TVL $103.3K, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $103.1K, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token; Ethereum의 sushiswap-v3, APY 28.48%, TVL $103.4K, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.74% | $31.37M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 4.22% | $361.2K |
+| 1 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.74% | $31.36M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 4.23% | $361.2K |
 | 3 | [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 0.05% | $262.8K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 10.41% | $103.3K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 10.44% | $103.3K |
 | 5 | [stake-dao-yield →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 0.05% | $103.1K |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token) | Ethereum | 28.63% | $103.4K |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token) | Ethereum | 28.48% | $103.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.05%부터 28.63%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.05%부터 28.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 18.61%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 18.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 6개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | curvance | 0.74% | 0.78% | 인센티브 100.00% |
-| curve-dex | 4.22% | 18.12% | 인센티브 98.58% |
-| stake-dao-yield | 0.05% | 22.25% | 기본 금리 |
-| sushiswap-v3 | 28.63% | 35.01% | 인센티브 95.70% |
-| curve-dex | 10.41% | 16.64% | 인센티브 99.62% |
+| curve-dex | 4.23% | 18.09% | 인센티브 98.58% |
+| stake-dao-yield | 0.05% | 22.23% | 기본 금리 |
+| sushiswap-v3 | 28.48% | 34.97% | 인센티브 96.23% |
+| curve-dex | 10.44% | 16.63% | 인센티브 99.62% |
 | stake-dao-yield | 0.05% | 19.09% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -52,7 +52,7 @@ VUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.05%부터 28.63%�
 
 ### 오늘 VUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 28.63%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 28.48%예요.
 
 ### VUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 28.63%�
 
 ### VUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.74%, TVL $31.37M, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; Ethereum의 curve-dex, APY 4.22%, TVL $361.2K, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $262.8K, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; Ethereum의 curve-dex, APY 10.41%, TVL $103.3K, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $103.1K, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token; Ethereum의 sushiswap-v3, APY 28.63%, TVL $103.4K, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.74%, TVL $31.36M, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; Ethereum의 curve-dex, APY 4.23%, TVL $361.2K, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $262.8K, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; Ethereum의 curve-dex, APY 10.44%, TVL $103.3K, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; Ethereum의 stake-dao-yield, APY 0.05%, TVL $103.1K, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token; Ethereum의 sushiswap-v3, APY 28.48%, TVL $103.4K, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

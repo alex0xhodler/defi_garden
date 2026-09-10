@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank BRZ pools. This view covers A
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [WPOL](https://www.defi.garden/tokens/wpol)
-- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 

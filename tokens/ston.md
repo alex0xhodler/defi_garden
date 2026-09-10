@@ -6,26 +6,26 @@ The highest honest STON yield right now is 14.43% on ston.fi (TON), among 3 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.43% | $747.2K |
-| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.16% | $190.5K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.97% | $115.2K |
+| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.43% | $746.1K |
+| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.53% | $190K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.92% | $115K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STON's lower-variability candidates are ston.fi (TON), 0.97% APY, $115.2K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token; ston.fi (TON), 1.16% APY, $190.5K TVL, https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token; ston.fi (TON), 14.43% APY, $747.2K TVL, https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STON's lower-variability candidates are ston.fi (TON), 0.92% APY, $115K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token; ston.fi (TON), 1.53% APY, $190K TVL, https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token; ston.fi (TON), 14.43% APY, $746.1K TVL, https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.97% | $115.2K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.16% | $190.5K |
-| 3 | [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.43% | $747.2K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.92% | $115K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.53% | $190K |
+| 3 | [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.43% | $746.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STON shows up in 3 pools here, with rates from 0.97% to 14.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STON shows up in 3 pools here, with rates from 0.92% to 14.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ STON shows up in 3 pools here, with rates from 0.97% to 14.43% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 14.43% | 14.61% | 94.69% incentives |
-| ston.fi | 1.16% | 1.71% | Base rate |
-| ston.fi | 0.97% | 0.43% | Base rate |
+| ston.fi | 14.43% | 14.61% | 94.59% incentives |
+| ston.fi | 1.53% | 1.71% | Base rate |
+| ston.fi | 0.92% | 0.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STON pools have the most stable APY history?
 
-Based on APY history only, STON's lower-variability candidates are ston.fi (TON), 0.97% APY, $115.2K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token; ston.fi (TON), 1.16% APY, $190.5K TVL, https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token; ston.fi (TON), 14.43% APY, $747.2K TVL, https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STON's lower-variability candidates are ston.fi (TON), 0.92% APY, $115K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token; ston.fi (TON), 1.53% APY, $190K TVL, https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token; ston.fi (TON), 14.43% APY, $746.1K TVL, https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

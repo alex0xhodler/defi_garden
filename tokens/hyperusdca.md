@@ -6,22 +6,22 @@ The highest honest HYPERUSDCA yield right now is 8.03% on morpho-blue (Monad), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.13M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.79% | $9.39M |
-| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.78% | $9.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.97M |
 | [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.11% | $408.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.79% APY, $9.39M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.03% APY, $42.13M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.11% APY, $408.8K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.34% APY, $1.96M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.78% APY, $9.39M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.03% APY, $42.14M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.11% APY, $408.8K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.34% APY, $1.97M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.79% | $9.39M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.13M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.78% | $9.39M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.03% | $42.14M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.11% | $408.8K |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.96M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.34% | $1.97M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,10 +35,10 @@ HYPERUSDCA shows up in 4 pools here, with rates from 3.11% to 8.03% APY across 3
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 8.03% | 7.54% | 14.90% incentives |
-| morpho-blue | 6.79% | 6.36% | Base rate |
+| morpho-blue | 8.03% | 7.54% | 14.94% incentives |
+| morpho-blue | 6.78% | 6.36% | Base rate |
 | morpho-blue | 7.34% | 7.41% | Base rate |
-| morpho-blue | 3.11% | 3.56% | Base rate |
+| morpho-blue | 3.11% | 3.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HYPERUSDCA pools have the most stable APY history?
 
-Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.79% APY, $9.39M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.03% APY, $42.13M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.11% APY, $408.8K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.34% APY, $1.96M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.78% APY, $9.39M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.03% APY, $42.14M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.11% APY, $408.8K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.34% APY, $1.97M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

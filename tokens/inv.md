@@ -6,18 +6,18 @@ The highest honest INV yield right now is 2.33% on curve-dex (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.33% | $820.9K |
-| [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 1.22% | $458.4K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.33% | $820.8K |
+| [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 1.22% | $458.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INV's lower-variability candidates are curve-dex (Ethereum), 2.33% APY, $820.9K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; curve-dex (Ethereum), 1.22% APY, $458.4K TVL, https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INV's lower-variability candidates are curve-dex (Ethereum), 2.33% APY, $820.8K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; curve-dex (Ethereum), 1.22% APY, $458.8K TVL, https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.33% | $820.9K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 1.22% | $458.4K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.33% | $820.8K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 1.22% | $458.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many INV pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $9.95M in total.
+3 live pools clear this page's $100K TVL floor, $9.89M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INV pools have the most stable APY history?
 
-Based on APY history only, INV's lower-variability candidates are curve-dex (Ethereum), 2.33% APY, $820.9K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; curve-dex (Ethereum), 1.22% APY, $458.4K TVL, https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INV's lower-variability candidates are curve-dex (Ethereum), 2.33% APY, $820.8K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; curve-dex (Ethereum), 1.22% APY, $458.8K TVL, https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

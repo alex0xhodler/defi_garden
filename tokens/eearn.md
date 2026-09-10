@@ -39,8 +39,8 @@ EEARN shows up in 4 pools here, with rates from 9.95% to 18.57% APY across 2 cha
 |---|---|---|---|
 | pendle-v2 | 9.95% | 10.02% | Base rate |
 | pendle-v2 | 10.21% | 10.24% | Base rate |
-| current | 11.36% | 11.00% | 10.36% incentives |
-| bluefin-spot | 18.57% | 25.67% | 100.00% incentives |
+| current | 11.36% | 11.00% | 10.35% incentives |
+| bluefin-spot | 18.57% | 25.68% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

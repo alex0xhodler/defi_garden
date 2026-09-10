@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest CRONUS yield right now is 10.98% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRONUS yield right now is 12.85% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 10.98% | $136.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 12.85% | $131K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRONUS yield today?
 
-10.98% APY on vvs-standard (Cronos), based on live DefiLlama data.
+12.85% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many CRONUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.1K in total.
+1 live pool clear this page's $100K TVL floor, $131K in total.
 
 ### Are these rates safe?
 

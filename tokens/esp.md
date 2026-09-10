@@ -6,19 +6,19 @@ The highest honest ESP yield right now is 33.62% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.34% | $556.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.37% | $556.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token) | Ethereum | 33.62% | $418K |
 | [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 3.32% | $268.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 3.32% APY, $268.1K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 3.34% APY, $556.6K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 33.62% APY, $418K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 3.32% APY, $268.1K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 3.37% APY, $556.5K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 33.62% APY, $418K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 3.32% | $268.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.34% | $556.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.37% | $556.5K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token) | Ethereum | 33.62% | $418K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.34% | 4.31% | Base rate |
+| uniswap-v3 | 3.37% | 4.31% | Base rate |
 | uniswap-v4 | 33.62% | 25.58% | Base rate |
 | curve-dex | 3.32% | 1.57% | Base rate |
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ESP pools have the most stable APY history?
 
-Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 3.32% APY, $268.1K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 3.34% APY, $556.6K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 33.62% APY, $418K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 3.32% APY, $268.1K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 3.37% APY, $556.5K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 33.62% APY, $418K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

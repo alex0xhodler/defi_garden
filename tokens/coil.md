@@ -2,7 +2,7 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest COIL yield right now is 0.53% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COIL yield right now is 0.53% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest COIL yield today?
 
-0.53% APY on convex-finance (Ethereum), based on live DefiLlama data.
+0.53% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many COIL pools clear the TVL floor?
 

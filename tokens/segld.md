@@ -6,7 +6,7 @@ The highest honest SEGLD yield right now is 0.10% on ashswap (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $129.6K |
+| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $132.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SEGLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.16M in total.
+2 live pools clear this page's $100K TVL floor, $4.29M in total.
 
 ### Are these rates safe?
 

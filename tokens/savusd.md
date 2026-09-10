@@ -6,17 +6,17 @@ The highest honest SAVUSD yield right now is 7.69% on avant-avusd (Avalanche), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 7.69% | $106.25M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 7.69% | $106.24M |
 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 4.00% | $758.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SAVUSD's lower-variability candidates are avant-avusd (Avalanche), 7.69% APY, $106.25M TVL, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; curve-dex (Monad), 4.00% APY, $758.6K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAVUSD's lower-variability candidates are avant-avusd (Avalanche), 7.69% APY, $106.24M TVL, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; curve-dex (Monad), 4.00% APY, $758.6K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 7.69% | $106.25M |
+| 1 | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 7.69% | $106.24M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 4.00% | $758.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAVUSD pools have the most stable APY history?
 
-Based on APY history only, SAVUSD's lower-variability candidates are avant-avusd (Avalanche), 7.69% APY, $106.25M TVL, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; curve-dex (Monad), 4.00% APY, $758.6K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAVUSD's lower-variability candidates are avant-avusd (Avalanche), 7.69% APY, $106.24M TVL, https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token; curve-dex (Monad), 4.00% APY, $758.6K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

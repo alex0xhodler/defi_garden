@@ -6,30 +6,30 @@ The highest honest EARNAUSD yield right now is 9.52% on pendle-v2 (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.46% | $23.74M |
-| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.47% | $2.38M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.45% | $23.54M |
+| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.46% | $2.37M |
 | [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.52% | $2.2M |
 | [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.76% | $2.2M |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.21% | $825.2K |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.20% | $825K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EARNAUSD's lower-variability candidates are curvance (Monad), 0.47% APY, $2.38M TVL, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; pendle-v2 (Monad), 8.76% APY, $2.2M TVL, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; upshift (Monad), 5.46% APY, $23.74M TVL, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; pendle-v2 (Monad), 9.52% APY, $2.2M TVL, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; neverland (Monad), 1.21% APY, $825.2K TVL, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EARNAUSD's lower-variability candidates are curvance (Monad), 0.46% APY, $2.37M TVL, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; pendle-v2 (Monad), 8.76% APY, $2.2M TVL, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; upshift (Monad), 5.45% APY, $23.54M TVL, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; pendle-v2 (Monad), 9.52% APY, $2.2M TVL, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; neverland (Monad), 1.20% APY, $825K TVL, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.47% | $2.38M |
+| 1 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.46% | $2.37M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 8.76% | $2.2M |
-| 3 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.46% | $23.74M |
+| 3 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.45% | $23.54M |
 | 4 | [pendle-v2 →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.52% | $2.2M |
-| 5 | [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.21% | $825.2K |
+| 5 | [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.20% | $825K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EARNAUSD shows up in 5 pools here, with rates from 0.47% to 9.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EARNAUSD shows up in 5 pools here, with rates from 0.46% to 9.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,11 +37,11 @@ EARNAUSD shows up in 5 pools here, with rates from 0.47% to 9.52% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 5.46% | 5.51% | 8.95% incentives |
-| curvance | 0.47% | 0.78% | 100.00% incentives |
-| pendle-v2 | 9.52% | 9.16% | 14.53% incentives |
+| upshift | 5.45% | 5.51% | 8.82% incentives |
+| curvance | 0.46% | 0.78% | 100.00% incentives |
+| pendle-v2 | 9.52% | 9.16% | 14.50% incentives |
 | pendle-v2 | 8.76% | 9.62% | Base rate |
-| neverland | 1.21% | 1.41% | 100.00% incentives |
+| neverland | 1.20% | 1.41% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EARNAUSD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $40.64M in total.
+8 live pools clear this page's $100K TVL floor, $40.43M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EARNAUSD pools have the most stable APY history?
 
-Based on APY history only, EARNAUSD's lower-variability candidates are curvance (Monad), 0.47% APY, $2.38M TVL, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; pendle-v2 (Monad), 8.76% APY, $2.2M TVL, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; upshift (Monad), 5.46% APY, $23.74M TVL, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; pendle-v2 (Monad), 9.52% APY, $2.2M TVL, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; neverland (Monad), 1.21% APY, $825.2K TVL, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EARNAUSD's lower-variability candidates are curvance (Monad), 0.46% APY, $2.37M TVL, https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token; pendle-v2 (Monad), 8.76% APY, $2.2M TVL, https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token; upshift (Monad), 5.45% APY, $23.54M TVL, https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token; pendle-v2 (Monad), 9.52% APY, $2.2M TVL, https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token; neverland (Monad), 1.20% APY, $825K TVL, https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

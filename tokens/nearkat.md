@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest NEARKAT yield right now is 765.66% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEARKAT yield right now is 774.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0&src=seo_token) | Solana | 765.66% | $223.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0&src=seo_token) | Solana | 774.77% | $214.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEARKAT yield today?
 
-765.66% APY on raydium-amm (Solana), based on live DefiLlama data.
+774.77% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEARKAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $223.2K in total.
+1 live pool clear this page's $100K TVL floor, $214.3K in total.
 
 ### Are these rates safe?
 

@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest CBETH yield right now is 158.14% on aerodrome-slipstream (Base), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBETH yield right now is 135.59% on aerodrome-slipstream (Base), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $470.17M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 7.30% | $5.79M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 10.00% | $3.66M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.22% | $2.61M |
-| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.13% | $1.72M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 158.14% | $1.56M |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $469.74M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 7.32% | $5.8M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 10.00% | $3.67M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.24% | $2.62M |
+| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.14% | $1.72M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 135.59% | $1.57M |
 | [stake-dao-yield →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.15% | $1.15M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.75% | $310.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBETH's lower-variability candidates are coinbase-wrapped-staked-eth (Ethereum), 2.35% APY, $470.17M TVL, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; stake-dao-yield (Base), 1.15% APY, $1.15M TVL, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; fusion-by-ipor (Base), 10.00% APY, $3.66M TVL, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; aerodrome-slipstream (Base), 3.22% APY, $2.61M TVL, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; fusion-by-ipor (Base), 7.30% APY, $5.79M TVL, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; uniswap-v3 (Ethereum), 1.75% APY, $310.4K TVL, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; curve-dex (Base), 1.13% APY, $1.72M TVL, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; aerodrome-slipstream (Base), 158.14% APY, $1.56M TVL, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBETH's lower-variability candidates are coinbase-wrapped-staked-eth (Ethereum), 2.35% APY, $469.74M TVL, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; stake-dao-yield (Base), 1.15% APY, $1.15M TVL, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; fusion-by-ipor (Base), 10.00% APY, $3.67M TVL, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; aerodrome-slipstream (Base), 3.24% APY, $2.62M TVL, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; fusion-by-ipor (Base), 7.32% APY, $5.8M TVL, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; uniswap-v3 (Ethereum), 1.75% APY, $310.4K TVL, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; curve-dex (Base), 1.14% APY, $1.72M TVL, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; aerodrome-slipstream (Base), 135.59% APY, $1.57M TVL, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $470.17M |
+| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $469.74M |
 | 2 | [stake-dao-yield →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.15% | $1.15M |
-| 3 | [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 10.00% | $3.66M |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.22% | $2.61M |
-| 5 | [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 7.30% | $5.79M |
+| 3 | [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 10.00% | $3.67M |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.24% | $2.62M |
+| 5 | [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 7.32% | $5.8M |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.75% | $310.4K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.13% | $1.72M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 158.14% | $1.56M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.14% | $1.72M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 135.59% | $1.57M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBETH shows up in 8 pools here, with rates from 1.13% to 158.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBETH shows up in 8 pools here, with rates from 1.14% to 135.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -46,12 +46,12 @@ CBETH shows up in 8 pools here, with rates from 1.13% to 158.14% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | coinbase-wrapped-staked-eth | 2.35% | 2.37% | Base rate |
-| fusion-by-ipor | 7.30% | 7.27% | 68.31% incentives |
-| fusion-by-ipor | 10.00% | 10.03% | 89.76% incentives |
-| aerodrome-slipstream | 3.22% | 2.55% | 29.55% incentives |
-| curve-dex | 1.13% | 1.20% | 0.74% incentives |
-| aerodrome-slipstream | 158.14% | 257.90% | 89.17% incentives |
-| stake-dao-yield | 1.15% | 1.21% | 0.78% incentives |
+| fusion-by-ipor | 7.32% | 7.27% | 68.09% incentives |
+| fusion-by-ipor | 10.00% | 10.05% | 89.56% incentives |
+| aerodrome-slipstream | 3.24% | 2.55% | 29.34% incentives |
+| curve-dex | 1.14% | 1.20% | 0.73% incentives |
+| aerodrome-slipstream | 135.59% | 257.89% | 88.33% incentives |
+| stake-dao-yield | 1.15% | 1.21% | 0.77% incentives |
 | uniswap-v3 | 1.75% | 2.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBETH yield today?
 
-158.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+135.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBETH pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $685.74M in total.
+26 live pools clear this page's $100K TVL floor, $685.35M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBETH pools have the most stable APY history?
 
-Based on APY history only, CBETH's lower-variability candidates are coinbase-wrapped-staked-eth (Ethereum), 2.35% APY, $470.17M TVL, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; stake-dao-yield (Base), 1.15% APY, $1.15M TVL, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; fusion-by-ipor (Base), 10.00% APY, $3.66M TVL, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; aerodrome-slipstream (Base), 3.22% APY, $2.61M TVL, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; fusion-by-ipor (Base), 7.30% APY, $5.79M TVL, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; uniswap-v3 (Ethereum), 1.75% APY, $310.4K TVL, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; curve-dex (Base), 1.13% APY, $1.72M TVL, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; aerodrome-slipstream (Base), 158.14% APY, $1.56M TVL, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBETH's lower-variability candidates are coinbase-wrapped-staked-eth (Ethereum), 2.35% APY, $469.74M TVL, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; stake-dao-yield (Base), 1.15% APY, $1.15M TVL, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; fusion-by-ipor (Base), 10.00% APY, $3.67M TVL, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; aerodrome-slipstream (Base), 3.24% APY, $2.62M TVL, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; fusion-by-ipor (Base), 7.32% APY, $5.8M TVL, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; uniswap-v3 (Ethereum), 1.75% APY, $310.4K TVL, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; curve-dex (Base), 1.14% APY, $1.72M TVL, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; aerodrome-slipstream (Base), 135.59% APY, $1.57M TVL, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

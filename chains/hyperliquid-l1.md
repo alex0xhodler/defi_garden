@@ -4,14 +4,14 @@ The highest honest Hyperliquid L1 yield right now is 36.44% on project-x (Hyperl
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.94% | $1.08B |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.63% | $49.72M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 7.28% | $22.46M |
-| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $19.74M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.16% | $19.5M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 1.21% | $18.14M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.93% | $1.08B |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.62% | $50.12M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 7.28% | $21.8M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.13% | $19.89M |
+| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $19.71M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 1.21% | $18.13M |
 | WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 36.44% | $17.1M |
-| K3USDC | [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_chain) | 5.84% | $13.83M |
+| K3USDC | [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_chain) | 5.85% | $13.83M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

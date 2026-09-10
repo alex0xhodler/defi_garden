@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
 
-The highest honest EDEL yield right now is 49.74% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDEL yield right now is 49.65% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 49.74% | $669.6K |
-| [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8&src=seo_token) | Solana | 161.35% | $211.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288&src=seo_token) | Base | 49.65% | $669.3K |
+| [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8&src=seo_token) | Solana | 162.63% | $210.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-EDEL shows up in 2 pools here, with rates from 49.74% to 161.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EDEL shows up in 2 pools here, with rates from 49.65% to 162.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 46.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ EDEL shows up in 2 pools here, with rates from 49.74% to 161.35% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 49.74% | 36.99% | 100.00% incentives |
-| orca-dex | 161.35% | 55.91% | Base rate |
+| aerodrome-v1 | 49.65% | 37.01% | 100.00% incentives |
+| orca-dex | 162.63% | 58.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EDEL yield today?
 
-49.74% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+49.65% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EDEL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $880.8K in total.
+2 live pools clear this page's $100K TVL floor, $880.1K in total.
 
 ### Are these rates safe?
 

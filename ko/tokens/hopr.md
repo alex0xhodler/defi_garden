@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67468102-f284-426d-b46a-dd8ce267d674&src=seo_token) | Ethereum | 0.36% | $117K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67468102-f284-426d-b46a-dd8ce267d674&src=seo_token) | Ethereum | 0.36% | $116.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.36%예�
 
 ### HOPR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $489.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $489.7K예요.
 
 ### 이 수익률은 안전한가요?
 
