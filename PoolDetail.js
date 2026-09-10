@@ -1837,6 +1837,11 @@ function PoolDetail({
 
   // 247 world: layout is owned by pool-detail-styles.css (the certificate
   // document column) — no inline layout styles on the container.
+  const scoreTooltip = (pool && pool.defiScore && typeof pool.defiScore.score === 'number')
+    ? (t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating)
+         : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`)
+    : '';
+
   return React.createElement('div', {
     className: 'pool-detail-container'
   },
@@ -1915,7 +1920,7 @@ function PoolDetail({
             // DeFi Score Hero Chip (1)
             (pool.defiScore && typeof pool.defiScore.score === 'number') && React.createElement('div', {
               className: 'trust-badge hero-chip defi-score-hero-chip',
-              title: `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})`,
+              title: scoreTooltip,
               style: {
                 color: pool.defiScore.score >= 75 ? 'var(--color-success)' :
                        pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
@@ -2538,6 +2543,7 @@ function PoolDetail({
             React.createElement('div', { className: 'pool-fact-label' }, t ? t('defiScore') : 'DeFi Health Score'),
             React.createElement('div', {
               className: 'pool-fact-value',
+              title: scoreTooltip,
               style: {
                 fontWeight: 600,
                 color: pool.defiScore.score >= 75 ? 'var(--color-success, #10b981)' :

@@ -3397,7 +3397,7 @@ function App() {
       delay: 200 + delayBase
     })), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
       className: 'pool-score-chip',
-      title: `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})`
+      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
     }, `Score: ${Math.round(pool.defiScore.score)}`)),
     // Quiet action link (row is already fully clickable via the onClick above)
     React.createElement('div', {
