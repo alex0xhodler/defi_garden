@@ -1,6 +1,6 @@
 # CATGPT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest CATGPT yield right now is 0.32% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CATGPT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $752.2K in total.
+2 live pools clear this page's $100K TVL floor, $751.9K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank CATGPT pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

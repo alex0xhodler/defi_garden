@@ -1,12 +1,12 @@
 # MSUSD-MSETH — aerodrome-slipstream on Base
 
-**Total APY:** 89.39% (5.15% Base · + 84.24% Rewards)
+**Total APY:** 64.60% (9.20% Base · + 55.40% Rewards)
 
-**TVL:** $2.32M
+**TVL:** $2.53M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 53.48%
+**30d Mean APY:** 54.95%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,684 in 5y at current rates.
+$1,000 in this pool grows to ~$2,651 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (89.39% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (64.60% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 89.39% right now vs a 53.48% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$3,684 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,651 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated September 10, 2026
+Last updated September 11, 2026

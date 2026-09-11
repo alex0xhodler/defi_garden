@@ -1,12 +1,12 @@
 # HUMAUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest HUMAUSDC yield right now is 6.69% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUMAUSDC yield right now is 7.34% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 6.69% | $12.63M |
+| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 7.34% | $12.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HUMAUSDC yield today?
 
-6.69% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.34% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many HUMAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.63M in total.
+1 live pool clear this page's $100K TVL floor, $12.64M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HUMAUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

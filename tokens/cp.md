@@ -1,12 +1,12 @@
 # CP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest CP yield right now is 78.69% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CP yield right now is 6.62% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=74dd7e42-a652-5d9a-8a04-03c8f017ea40&src=seo_token) | Base | 78.69% | $105.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74dd7e42-a652-5d9a-8a04-03c8f017ea40&src=seo_token) | Base | 6.62% | $105.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CP yield today?
 
-78.69% APY on uniswap-v2 (Base), based on live DefiLlama data.
+6.62% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.5K in total.
+1 live pool clear this page's $100K TVL floor, $105.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CP pools. This view covers AP
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

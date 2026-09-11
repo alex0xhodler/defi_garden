@@ -1,12 +1,12 @@
 # KODIWBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest KODIWBERA yield right now is 35.78% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWBERA yield right now is 35.39% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 35.78% | $268.7K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 35.39% | $263.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIWBERA yield today?
 
-35.78% APY on berapaw (Berachain), based on live DefiLlama data.
+35.39% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $268.7K in total.
+1 live pool clear this page's $100K TVL floor, $263.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KODIWBERA pools. This view co
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

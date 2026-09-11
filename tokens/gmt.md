@@ -1,6 +1,6 @@
 # GMT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest GMT yield right now is 660.15% on uniswap-v4 (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank GMT pools. This view covers A
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

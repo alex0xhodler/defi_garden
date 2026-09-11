@@ -1,13 +1,13 @@
 # Etherlink DeFi Yields
 
-The highest honest Etherlink yield right now is 5.43% on midas-rwa (Etherlink), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Etherlink yield right now is 3.29% on midas-rwa (Etherlink), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 3.65% | $4.84M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.05% | $1.22M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 5.43% | $1.12M |
-| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $589.7K |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.29% | $1.22M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 2.63% | $1.12M |
+| USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 0.88% | $589.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Etherlink yield today?
 
-5.43% APY on midas-rwa (Etherlink), based on live DefiLlama data.
+3.29% APY on midas-rwa (Etherlink), based on live DefiLlama data.
 
 ### How many Etherlink pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,31 +1,31 @@
 # PYTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest PYTH yield right now is 110.87% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYTH yield right now is 102.82% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 79.43% | $385.6K |
-| [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 110.87% | $215.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 48.63% | $381.7K |
+| [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 102.82% | $214.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 110.87% APY, $215.7K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 79.43% APY, $385.6K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 102.82% APY, $214.4K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 48.63% APY, $381.7K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 110.87% | $215.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 79.43% | $385.6K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 102.82% | $214.4K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 48.63% | $381.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PYTH shows up in 2 pools here, with rates from 79.43% to 110.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PYTH shows up in 2 pools here, with rates from 48.63% to 102.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 94.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 96.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 79.43% | 89.33% | Base rate |
-| orca-dex | 110.87% | 100.47% | Base rate |
+| raydium-amm | 48.63% | 89.49% | Base rate |
+| orca-dex | 102.82% | 102.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PYTH yield today?
 
-110.87% APY on orca-dex (Solana), based on live DefiLlama data.
+102.82% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PYTH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $736.6K in total.
+3 live pools clear this page's $100K TVL floor, $730.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PYTH pools have the most stable APY history?
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 110.87% APY, $215.7K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 79.43% APY, $385.6K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 102.82% APY, $214.4K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 48.63% APY, $381.7K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, PYTH's lower-variability candidates are orca-dex (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

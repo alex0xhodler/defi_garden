@@ -1,6 +1,6 @@
 # ZORA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest ZORA yield right now is 6.07% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -31,7 +31,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ZORA shows up in 5 pools here, with rates from 0.73% to 28.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 5 pools have a trustworthy 30-day average on file, with a median of 8.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 5 pools have a trustworthy 30-day average on file, with a median of 8.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,9 +39,9 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 6.07% | 8.79% | Base rate |
-| uniswap-v4 | 0.73% | 3.13% | Base rate |
-| uniswap-v4 | 28.59% | 14.42% | Base rate |
+| uniswap-v4 | 6.07% | 8.91% | Base rate |
+| uniswap-v4 | 0.73% | 3.19% | Base rate |
+| uniswap-v4 | 28.59% | 14.59% | Base rate |
 | uniswap-v4 | 15.83% | — | Base rate |
 | uniswap-v4 | 2.52% | — | Base rate |
 
@@ -78,4 +78,4 @@ Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (B
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

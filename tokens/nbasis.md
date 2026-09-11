@@ -1,6 +1,6 @@
 # NBASIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest NBASIS yield right now is 5.15% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank NBASIS pools. This view cover
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NAXI](https://www.defi.garden/tokens/naxi)
+- [NTBILL](https://www.defi.garden/tokens/ntbill)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

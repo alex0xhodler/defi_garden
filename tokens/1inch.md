@@ -1,43 +1,43 @@
 # 1INCH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest 1INCH yield right now is 28.24% on uniswap-v4 (Ethereum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1INCH yield right now is 5.75% on uniswap-v4 (Ethereum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 13.03% | $5.87M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 12.89% | $2.14M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 28.21% | $1.63M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 1.32% | $1.3M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 14.85% | $722.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 28.24% | $708.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 4.51% | $586K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.22% | $433.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 5.75% | $5.85M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.30% | $2.12M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 12.73% | $1.63M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 3.85% | $1.29M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 2.92% | $715.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 22.01% | $715.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 3.45% | $585.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.02% | $433.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, 1INCH's lower-variability candidates are uniswap-v4 (Ethereum), 12.89% APY, $2.14M TVL, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; uniswap-v4 (Ethereum), 13.03% APY, $5.87M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; uniswap-v4 (Ethereum), 14.85% APY, $722.9K TVL, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; uniswap-v4 (Ethereum), 1.32% APY, $1.3M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 4.51% APY, $586K TVL, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; uniswap-v4 (Ethereum), 28.21% APY, $1.63M TVL, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; uniswap-v4 (Ethereum), 28.24% APY, $708.5K TVL, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $433.9K TVL, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 1INCH's lower-variability candidates are uniswap-v4 (Ethereum), 0.30% APY, $2.12M TVL, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; uniswap-v4 (Ethereum), 5.75% APY, $5.85M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; uniswap-v4 (Ethereum), 2.92% APY, $715.6K TVL, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; uniswap-v4 (Ethereum), 3.85% APY, $1.29M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 3.45% APY, $585.7K TVL, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; uniswap-v4 (Ethereum), 12.73% APY, $1.63M TVL, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; uniswap-v4 (Ethereum), 22.01% APY, $715.1K TVL, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; uniswap-v4 (Ethereum), 0.02% APY, $433.1K TVL, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 12.89% | $2.14M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 13.03% | $5.87M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 14.85% | $722.9K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 1.32% | $1.3M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 4.51% | $586K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 28.21% | $1.63M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 28.24% | $708.5K |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.22% | $433.9K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.30% | $2.12M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 5.75% | $5.85M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 2.92% | $715.6K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 3.85% | $1.29M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 3.45% | $585.7K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 12.73% | $1.63M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 22.01% | $715.1K |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.02% | $433.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-1INCH shows up in 8 pools here, with rates from 0.22% to 28.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+1INCH shows up in 8 pools here, with rates from 0.02% to 22.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 13.03% | 7.56% | Base rate |
-| uniswap-v4 | 12.89% | 6.08% | Base rate |
-| uniswap-v4 | 28.21% | 29.75% | Base rate |
-| uniswap-v4 | 1.32% | 19.65% | Base rate |
-| uniswap-v4 | 14.85% | 13.48% | Base rate |
-| uniswap-v4 | 28.24% | 45.69% | Base rate |
-| uniswap-v4 | 4.51% | 7.28% | Base rate |
-| uniswap-v4 | 0.22% | 0.19% | Base rate |
+| uniswap-v4 | 5.75% | 7.68% | Base rate |
+| uniswap-v4 | 0.30% | 6.25% | Base rate |
+| uniswap-v4 | 12.73% | 29.64% | Base rate |
+| uniswap-v4 | 3.85% | 19.35% | Base rate |
+| uniswap-v4 | 2.92% | 12.97% | Base rate |
+| uniswap-v4 | 22.01% | 44.77% | Base rate |
+| uniswap-v4 | 3.45% | 7.26% | Base rate |
+| uniswap-v4 | 0.02% | 0.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest 1INCH yield today?
 
-28.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+5.75% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many 1INCH pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $20.71M in total.
+18 live pools clear this page's $100K TVL floor, $18.87M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which 1INCH pools have the most stable APY history?
 
-Based on APY history only, 1INCH's lower-variability candidates are uniswap-v4 (Ethereum), 12.89% APY, $2.14M TVL, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; uniswap-v4 (Ethereum), 13.03% APY, $5.87M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; uniswap-v4 (Ethereum), 14.85% APY, $722.9K TVL, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; uniswap-v4 (Ethereum), 1.32% APY, $1.3M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 4.51% APY, $586K TVL, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; uniswap-v4 (Ethereum), 28.21% APY, $1.63M TVL, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; uniswap-v4 (Ethereum), 28.24% APY, $708.5K TVL, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $433.9K TVL, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 1INCH's lower-variability candidates are uniswap-v4 (Ethereum), 0.30% APY, $2.12M TVL, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; uniswap-v4 (Ethereum), 5.75% APY, $5.85M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; uniswap-v4 (Ethereum), 2.92% APY, $715.6K TVL, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; uniswap-v4 (Ethereum), 3.85% APY, $1.29M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 3.45% APY, $585.7K TVL, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; uniswap-v4 (Ethereum), 12.73% APY, $1.63M TVL, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; uniswap-v4 (Ethereum), 22.01% APY, $715.1K TVL, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; uniswap-v4 (Ethereum), 0.02% APY, $433.1K TVL, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, 1INCH's lower-variability candidates are uniswap-v4 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,56 +1,56 @@
 # SDOLA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest SDOLA yield right now is 10.48% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDOLA yield right now is 15.02% on stake-dao-yield (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 6.49% | $15.64M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 6.54% | $5.22M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 6.83% | $5.13M |
-| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.48% | $4.86M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token) | Ethereum | 2.02% | $2.67M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.07% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 5.84% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.92% | $893.5K |
+| [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 6.39% | $15.87M |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 6.83% | $5.59M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 6.78% | $5.49M |
+| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.37% | $4.85M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token) | Ethereum | 15.02% | $2.67M |
+| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 5.90% | $1.07M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.06% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 3.10% | $888.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDOLA's lower-variability candidates are inverse-finance-firm (Ethereum), 6.49% APY, $15.64M TVL, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; curve-dex (Ethereum), 10.48% APY, $4.86M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; curve-dex (Ethereum), 5.84% APY, $1.07M TVL, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; stake-dao-yield (Ethereum), 6.07% APY, $1.07M TVL, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; stake-dao-yield (Ethereum), 6.83% APY, $5.13M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; curve-dex (Ethereum), 6.54% APY, $5.22M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; curve-dex (Ethereum), 2.92% APY, $893.5K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; stake-dao-yield (Ethereum), 2.02% APY, $2.67M TVL, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDOLA's lower-variability candidates are inverse-finance-firm (Ethereum), 6.39% APY, $15.87M TVL, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; curve-dex (Ethereum), 10.37% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; curve-dex (Ethereum), 5.90% APY, $1.07M TVL, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; stake-dao-yield (Ethereum), 6.06% APY, $1.07M TVL, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; stake-dao-yield (Ethereum), 6.78% APY, $5.49M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; curve-dex (Ethereum), 6.83% APY, $5.59M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; curve-dex (Ethereum), 3.10% APY, $888.5K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; stake-dao-yield (Ethereum), 15.02% APY, $2.67M TVL, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 6.49% | $15.64M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.48% | $4.86M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 5.84% | $1.07M |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.07% | $1.07M |
-| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 6.83% | $5.13M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 6.54% | $5.22M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.92% | $893.5K |
-| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token) | Ethereum | 2.02% | $2.67M |
+| 1 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 6.39% | $15.87M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.37% | $4.85M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 5.90% | $1.07M |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.06% | $1.07M |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 6.78% | $5.49M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 6.83% | $5.59M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 3.10% | $888.5K |
+| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token) | Ethereum | 15.02% | $2.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDOLA shows up in 8 pools here, with rates from 2.02% to 10.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDOLA shows up in 8 pools here, with rates from 3.10% to 15.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+7 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| inverse-finance-firm | 6.49% | 6.31% | Base rate |
-| curve-dex | 6.54% | 6.28% | 19.29% incentives |
-| stake-dao-yield | 6.83% | 6.47% | 20.90% incentives |
-| curve-dex | 10.48% | 10.14% | 80.06% incentives |
-| stake-dao-yield | 2.02% | 13.10% | Base rate |
-| stake-dao-yield | 6.07% | 6.30% | 14.86% incentives |
-| curve-dex | 5.84% | 6.10% | 13.73% incentives |
-| curve-dex | 2.92% | 3.22% | 74.29% incentives |
+| inverse-finance-firm | 6.39% | 6.31% | Base rate |
+| curve-dex | 6.83% | 6.31% | 17.75% incentives |
+| stake-dao-yield | 6.78% | 6.50% | 20.41% incentives |
+| curve-dex | 10.37% | 9.99% | 82.45% incentives |
+| stake-dao-yield | 15.02% | 12.94% | 86.62% incentives |
+| curve-dex | 5.90% | 6.07% | 13.95% incentives |
+| stake-dao-yield | 6.06% | 6.27% | 15.46% incentives |
+| curve-dex | 3.10% | 3.22% | 72.26% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDOLA yield today?
 
-10.48% APY on curve-dex (Ethereum), based on live DefiLlama data.
+15.02% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many SDOLA pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $44.62M in total.
+17 live pools clear this page's $100K TVL floor, $45.6M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDOLA pools have the most stable APY history?
 
-Based on APY history only, SDOLA's lower-variability candidates are inverse-finance-firm (Ethereum), 6.49% APY, $15.64M TVL, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; curve-dex (Ethereum), 10.48% APY, $4.86M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; curve-dex (Ethereum), 5.84% APY, $1.07M TVL, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; stake-dao-yield (Ethereum), 6.07% APY, $1.07M TVL, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; stake-dao-yield (Ethereum), 6.83% APY, $5.13M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; curve-dex (Ethereum), 6.54% APY, $5.22M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; curve-dex (Ethereum), 2.92% APY, $893.5K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; stake-dao-yield (Ethereum), 2.02% APY, $2.67M TVL, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDOLA's lower-variability candidates are inverse-finance-firm (Ethereum), 6.39% APY, $15.87M TVL, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; curve-dex (Ethereum), 10.37% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; curve-dex (Ethereum), 5.90% APY, $1.07M TVL, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; stake-dao-yield (Ethereum), 6.06% APY, $1.07M TVL, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; stake-dao-yield (Ethereum), 6.78% APY, $5.49M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; curve-dex (Ethereum), 6.83% APY, $5.59M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; curve-dex (Ethereum), 3.10% APY, $888.5K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; stake-dao-yield (Ethereum), 15.02% APY, $2.67M TVL, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +85,4 @@ Based on APY history only, SDOLA's lower-variability candidates are inverse-fina
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

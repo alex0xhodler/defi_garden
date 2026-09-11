@@ -1,12 +1,12 @@
 # FORTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest FORTH yield right now is 7.28% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FORTH yield right now is 7.58% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8c1200b-f298-46f2-89c2-8fed5c40f377&src=seo_token) | Ethereum | 7.28% | $326.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e8c1200b-f298-46f2-89c2-8fed5c40f377&src=seo_token) | Ethereum | 7.58% | $332.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FORTH yield today?
 
-7.28% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.58% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FORTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $326.3K in total.
+1 live pool clear this page's $100K TVL floor, $332.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FORTH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

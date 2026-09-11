@@ -1,12 +1,12 @@
 # SRROYSAVUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SRROYSAVUSD의 가장 높은 정직한 수익률은 Avalanche의 royco-v2에서 8.33%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRROYSAVUSD의 가장 높은 정직한 수익률은 Avalanche의 royco-v2에서 7.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 8.33% | $4.98M |
+| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 7.81% | $4.98M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 SRROYSAVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 royco-v2에서 APY 8.33%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 royco-v2에서 APY 7.81%예요.
 
 ### SRROYSAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 royco-v2에서 APY 8.33%예�
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 10, 2026
+## 마지막 업데이트: September 11, 2026

@@ -1,12 +1,12 @@
 # CTDEFIUSDT — concrete on Ethereum
 
-**Total APY:** 7.60% (7.60% Base · + 0.00% Rewards)
+**Total APY:** 6.92% (6.92% Base · + 0.00% Rewards)
 
-**TVL:** $29.82M
+**TVL:** $29.83M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 7.78%
+**30d Mean APY:** 7.86%
 
 **Exposure:** single
 
@@ -20,14 +20,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,442 in 5y at current rates.
+$1,000 in this pool grows to ~$1,397 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 59 days. Watching how a rate holds up over time is one honest way to judge it.
+We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,442 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,397 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on concrete](https://app.concrete.xyz/?ref=defi.garden)
 
-Last updated September 10, 2026
+Last updated September 11, 2026

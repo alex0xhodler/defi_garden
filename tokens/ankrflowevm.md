@@ -1,12 +1,12 @@
 # ANKRFLOWEVM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest ANKRFLOWEVM yield right now is 7.90% on ankr (Flow), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $5.91M |
+| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $5.75M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRFLOWEVM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.45M in total.
+2 live pools clear this page's $100K TVL floor, $8.22M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank ANKRFLOWEVM pools. This view 
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

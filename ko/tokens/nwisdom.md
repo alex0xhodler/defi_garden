@@ -1,12 +1,12 @@
 # NWISDOM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 10, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NWISDOM의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 10.48%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NWISDOM의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 1.64%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 10.48% | $2.87M |
+| [plume-vaults →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 1.64% | $2.87M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 NWISDOM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 10.48%예요.
+DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 1.64%예요.
 
 ### NWISDOM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 10
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [NFALCON](https://www.defi.garden/ko/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
-- [NAXI](https://www.defi.garden/ko/tokens/naxi)
+- [NTBILL](https://www.defi.garden/ko/tokens/ntbill)
 
 ## 이용 가능한 체인
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: September 10, 2026
+## 마지막 업데이트: September 11, 2026

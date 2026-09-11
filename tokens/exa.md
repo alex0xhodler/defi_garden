@@ -1,12 +1,12 @@
 # EXA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest EXA yield right now is 2.43% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EXA yield right now is 2.39% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=2e4ac811-e143-43ca-bfd0-9fc06c81e83f&src=seo_token) | OP Mainnet | 2.43% | $114.2K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=2e4ac811-e143-43ca-bfd0-9fc06c81e83f&src=seo_token) | OP Mainnet | 2.39% | $114.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EXA yield today?
 
-2.43% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+2.39% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many EXA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.2K in total.
+1 live pool clear this page's $100K TVL floor, $114.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EXA pools. This view covers A
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

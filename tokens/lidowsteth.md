@@ -1,12 +1,12 @@
 # LIDOWSTETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest LIDOWSTETH yield right now is 2.22% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIDOWSTETH yield right now is 2.21% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.22% | $1.58M |
+| [balancer-v3 →](https://www.defi.garden/?pool=7f0c68f7-5a74-44aa-bb5a-b9f9283459be&src=seo_token) | Ethereum | 2.21% | $1.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIDOWSTETH yield today?
 
-2.22% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+2.21% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LIDOWSTETH pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LIDOWSTETH pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

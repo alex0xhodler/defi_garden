@@ -1,12 +1,12 @@
 # FEHYPEV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest FEHYPEV2 yield right now is 1.23% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEHYPEV2 yield right now is 1.30% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f1de36d3-d70e-535a-ae74-0ef8ec30f53d&src=seo_token) | Hyperliquid L1 | 1.23% | $1M |
+| [morpho-blue →](https://www.defi.garden/?pool=f1de36d3-d70e-535a-ae74-0ef8ec30f53d&src=seo_token) | Hyperliquid L1 | 1.30% | $1.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEHYPEV2 yield today?
 
-1.23% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+1.30% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEHYPEV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1M in total.
+1 live pool clear this page's $100K TVL floor, $1.19M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FEHYPEV2 pools. This view cov
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -2,11 +2,11 @@
 
 **Total APY:** 7.98% (7.98% Base · + 0.00% Rewards)
 
-**TVL:** $14.4M
+**TVL:** $14.13M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 8.14%
+**30d Mean APY:** 8.12%
 
 **Exposure:** single
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,468 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 59 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
 [Garden this pool → ~$1,468 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [View this pool on DefiLlama](https://defillama.com/yields/pool/fa132efa-f62b-40f0-addc-8afe0b4a810a) — No protocol link available · Opens DefiLlama, our data source
 
-Last updated September 10, 2026
+Last updated September 11, 2026

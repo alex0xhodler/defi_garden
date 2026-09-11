@@ -1,6 +1,6 @@
 # DAI.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest DAI.E yield right now is 1.60% on aave-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DAI.E pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026
