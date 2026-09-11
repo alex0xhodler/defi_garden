@@ -1,6 +1,6 @@
 # MONERO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest MONERO yield right now is 0.17% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -68,4 +68,4 @@ There is not enough qualifying APY history to rank MONERO pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

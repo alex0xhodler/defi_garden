@@ -1,31 +1,31 @@
 # XCN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest XCN yield right now is 17.44% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XCN yield right now is 52.04% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 17.44% | $754.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 7.79% | $170K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 52.04% | $780.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 23.30% | $175.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 7.79% APY, $170K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 17.44% APY, $754.8K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 23.30% APY, $175.4K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 52.04% APY, $780.9K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 7.79% | $170K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 17.44% | $754.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 23.30% | $175.4K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 52.04% | $780.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XCN shows up in 2 pools here, with rates from 7.79% to 17.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XCN shows up in 2 pools here, with rates from 23.30% to 52.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 17.44% | 19.77% | Base rate |
-| uniswap-v3 | 7.79% | 5.94% | Base rate |
+| uniswap-v2 | 52.04% | 20.32% | Base rate |
+| uniswap-v3 | 23.30% | 6.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XCN yield today?
 
-17.44% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+52.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many XCN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $924.8K in total.
+2 live pools clear this page's $100K TVL floor, $956.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XCN pools have the most stable APY history?
 
-Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 7.79% APY, $170K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 17.44% APY, $754.8K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 23.30% APY, $175.4K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 52.04% APY, $780.9K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Ba
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,12 +1,12 @@
 # QF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest QF yield right now is 0.33% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QF yield right now is 1.91% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a1c49c09-da6d-48be-b946-1b0ba8cb042c&src=seo_token) | Ethereum | 0.33% | $146.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a1c49c09-da6d-48be-b946-1b0ba8cb042c&src=seo_token) | Ethereum | 1.91% | $149.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QF yield today?
 
-0.33% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.91% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many QF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.1K in total.
+1 live pool clear this page's $100K TVL floor, $149.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank QF pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

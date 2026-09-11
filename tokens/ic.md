@@ -1,12 +1,12 @@
 # IC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest IC yield right now is 0.95% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IC yield right now is 1.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c15ea321-8d5f-45d7-b4f2-e1c773139448&src=seo_token) | Ethereum | 0.95% | $604.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c15ea321-8d5f-45d7-b4f2-e1c773139448&src=seo_token) | Ethereum | 1.21% | $600K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IC yield today?
 
-0.95% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many IC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $604.3K in total.
+1 live pool clear this page's $100K TVL floor, $600K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IC pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,12 +1,12 @@
 # VOLLAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest VOLLAR yield right now is 0.11% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VOLLAR yield right now is 0.27% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34&src=seo_token) | Polygon | 0.11% | $942.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34&src=seo_token) | Polygon | 0.27% | $950.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VOLLAR yield today?
 
-0.11% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.27% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many VOLLAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $942.9K in total.
+1 live pool clear this page's $100K TVL floor, $950.6K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank VOLLAR pools. This view cover
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 - [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

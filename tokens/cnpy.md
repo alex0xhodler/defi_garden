@@ -1,12 +1,12 @@
 # CNPY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest CNPY yield right now is 195.77% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CNPY yield right now is 177.38% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=14cb8307-797d-55a7-8c78-f42d531eb337&src=seo_token) | Base | 195.77% | $289.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=14cb8307-797d-55a7-8c78-f42d531eb337&src=seo_token) | Base | 177.38% | $323.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=23ce15f8-b44e-5e7c-a88e-624a585143ca&src=seo_token) | BSC | 11.26% | $156.3K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CNPY shows up in 2 pools here, with rates from 11.26% to 195.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CNPY shows up in 2 pools here, with rates from 11.26% to 177.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 132.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 121.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 195.77% | 254.69% | Base rate |
+| uniswap-v2 | 177.38% | 232.01% | Base rate |
 | uniswap-v4 | 11.26% | 11.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CNPY yield today?
 
-195.77% APY on uniswap-v2 (Base), based on live DefiLlama data.
+177.38% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CNPY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $446.2K in total.
+2 live pools clear this page's $100K TVL floor, $480.2K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank CNPY pools. This view covers 
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

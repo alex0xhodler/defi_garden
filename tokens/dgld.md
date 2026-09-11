@@ -1,6 +1,6 @@
 # DGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest DGLD yield right now is 0.07% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank DGLD pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

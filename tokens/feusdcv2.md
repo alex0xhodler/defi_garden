@@ -1,12 +1,12 @@
 # FEUSDCV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest FEUSDCV2 yield right now is 5.58% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32123361-6ab0-5d1c-b057-5f34c558fb3d&src=seo_token) | Hyperliquid L1 | 5.58% | $9.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=32123361-6ab0-5d1c-b057-5f34c558fb3d&src=seo_token) | Hyperliquid L1 | 5.58% | $9.77M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEUSDCV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.74M in total.
+1 live pool clear this page's $100K TVL floor, $9.77M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FEUSDCV2 pools. This view cov
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

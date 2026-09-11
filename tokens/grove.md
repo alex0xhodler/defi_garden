@@ -1,42 +1,40 @@
 # GROVE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest GROVE yield right now is 17.35% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GROVE yield right now is 4.46% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.53% | $4.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 2.37% | $256.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463&src=seo_token) | Ethereum | 17.35% | $100.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.46% | $4.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 2.34% | $196.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.53% APY, $4.01M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; morpho-blue (Monad), 2.37% APY, $256.2K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.46% APY, $4.02M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; morpho-blue (Monad), 2.34% APY, $196.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.53% | $4.01M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 2.37% | $256.2K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.46% | $4.02M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 2.34% | $196.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GROVE shows up in 3 pools here, with rates from 2.37% to 17.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GROVE shows up in 2 pools here, with rates from 2.34% to 4.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.53% | 4.20% | Base rate |
-| morpho-blue | 2.37% | 5.10% | 70.64% incentives |
-| uniswap-v4 | 17.35% | 14.57% | Base rate |
+| morpho-blue | 4.46% | 4.22% | Base rate |
+| morpho-blue | 2.34% | 5.01% | 70.37% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GROVE yield today?
 
-17.35% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+4.46% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GROVE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.37M in total.
+2 live pools clear this page's $100K TVL floor, $4.21M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GROVE pools have the most stable APY history?
 
-Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.53% APY, $4.01M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; morpho-blue (Monad), 2.37% APY, $256.2K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.46% APY, $4.02M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; morpho-blue (Monad), 2.34% APY, $196.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +70,4 @@ Based on APY history only, GROVE's lower-variability candidates are morpho-blue 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

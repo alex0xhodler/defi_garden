@@ -1,44 +1,47 @@
 # NEAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest NEAR yield right now is 774.77% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEAR yield right now is 975.03% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 94.94% | $414.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 61.63% | $401.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0&src=seo_token) | Solana | 774.77% | $214.3K |
-| [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d&src=seo_token) | Solana | 490.03% | $209.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 101.80% | $418.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 54.25% | $406.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0&src=seo_token) | Solana | 975.03% | $228.3K |
+| [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d&src=seo_token) | Solana | 856.25% | $211.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6&src=seo_token) | Ethereum | 67.33% | $197.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 94.94% APY, $414.4K TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token; uniswap-v3 (Ethereum), 61.63% APY, $401.7K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 101.80% APY, $418.7K TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token; uniswap-v3 (Ethereum), 54.25% APY, $406.9K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token; uniswap-v3 (Ethereum), 67.33% APY, $197.7K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 94.94% | $414.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 61.63% | $401.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 101.80% | $418.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 54.25% | $406.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6&src=seo_token) | Ethereum | 67.33% | $197.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEAR shows up in 4 pools here, with rates from 61.63% to 774.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEAR shows up in 5 pools here, with rates from 54.25% to 975.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 4 pools have a trustworthy 30-day average on file, with a median of 19.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 47.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 94.94% | 19.83% | Base rate |
-| uniswap-v3 | 61.63% | 19.85% | Base rate |
-| raydium-amm | 774.77% | — | Base rate |
-| orca-dex | 490.03% | 416.92% | Base rate |
+| raydium-amm | 101.80% | 22.56% | Base rate |
+| uniswap-v3 | 54.25% | 21.56% | Base rate |
+| raydium-amm | 975.03% | 989.04% | Base rate |
+| orca-dex | 856.25% | 509.12% | Base rate |
+| uniswap-v3 | 67.33% | 47.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEAR yield today?
 
-774.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+975.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEAR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.24M in total.
+5 live pools clear this page's $100K TVL floor, $1.46M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEAR pools have the most stable APY history?
 
-Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 94.94% APY, $414.4K TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token; uniswap-v3 (Ethereum), 61.63% APY, $401.7K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 101.80% APY, $418.7K TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token; uniswap-v3 (Ethereum), 54.25% APY, $406.9K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token; uniswap-v3 (Ethereum), 67.33% APY, $197.7K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +77,4 @@ Based on APY history only, NEAR's lower-variability candidates are raydium-amm (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

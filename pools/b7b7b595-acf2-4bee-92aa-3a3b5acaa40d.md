@@ -1,34 +1,37 @@
 # WETH-RYU — uniswap-v2 on Ethereum
 
-**Total APY:** 1.78% (1.78% Base · + 0.00% Rewards)
+**Total APY:** 15.04% (15.04% Base · + 0.00% Rewards)
 
-**TVL:** $282K
+**TVL:** $272.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 2.23%
+**30d Mean APY:** 2.46%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,092 in 5y at current rates.
+$1,000 in this pool grows to ~$1,277 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+Projected at ⅓ haircut (15.04% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,092 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+This pool's rate moves a lot: 15.04% right now vs a 2.46% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+
+[Garden this pool → ~$1,277 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 10, 2026
+Last updated September 11, 2026

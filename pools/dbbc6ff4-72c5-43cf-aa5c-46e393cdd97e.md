@@ -1,12 +1,12 @@
 # WETH-VEIL — aerodrome-v1 on Base
 
-**Total APY:** 101.67% (0.00% Base · + 101.67% Rewards)
+**Total APY:** 100.24% (0.00% Base · + 100.24% Rewards)
 
-**TVL:** $504.2K
+**TVL:** $512.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 77.90%
+**30d Mean APY:** 78.50%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$4,303 in 5y at current rates.
+$1,000 in this pool grows to ~$4,227 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (101.67% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (100.24% headline) — farm rates decay. Active management required.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$4,303 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$4,227 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-v1](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated September 10, 2026
+Last updated September 11, 2026

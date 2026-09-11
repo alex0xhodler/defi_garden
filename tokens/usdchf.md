@@ -1,12 +1,12 @@
 # USDCHF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest USDCHF yield right now is 121.65% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDCHF yield right now is 104.02% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693&src=seo_token) | Solana | 121.65% | $1.75M |
+| [gmtrade →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693&src=seo_token) | Solana | 104.02% | $1.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDCHF yield today?
 
-121.65% APY on gmtrade (Solana), based on live DefiLlama data.
+104.02% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many USDCHF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.75M in total.
+1 live pool clear this page's $100K TVL floor, $1.8M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USDCHF pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

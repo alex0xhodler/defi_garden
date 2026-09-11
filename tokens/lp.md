@@ -1,6 +1,6 @@
 # LP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
 The highest honest LP yield right now is 0.10% on wombat-exchange (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -8,20 +8,20 @@ The highest honest LP yield right now is 0.10% on wombat-exchange (Arbitrum), am
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.06% | $363.5K |
+| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.06% | $363.6K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 | [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.10% | $102.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LP's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; wombat-exchange (BSC), 0.06% APY, $363.5K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (Arbitrum), 0.10% APY, $102.9K TVL, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LP's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; wombat-exchange (BSC), 0.06% APY, $363.6K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (Arbitrum), 0.10% APY, $102.9K TVL, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | 2 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
-| 3 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.06% | $363.5K |
+| 3 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.06% | $363.6K |
 | 4 | [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.10% | $102.9K |
 | 5 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
 
@@ -41,7 +41,7 @@ LP shows up in 5 pools here, with rates from 0.01% to 0.10% APY across 2 chains 
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
-| wombat-exchange | 0.06% | 0.06% | 77.04% incentives |
+| wombat-exchange | 0.06% | 0.06% | 82.05% incentives |
 | wombat-exchange | 0.09% | 0.09% | 100.00% incentives |
 | wombat-exchange | 0.10% | 0.27% | 100.00% incentives |
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LP pools have the most stable APY history?
 
-Based on APY history only, LP's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; wombat-exchange (BSC), 0.06% APY, $363.5K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (Arbitrum), 0.10% APY, $102.9K TVL, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LP's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; wombat-exchange (BSC), 0.06% APY, $363.6K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (Arbitrum), 0.10% APY, $102.9K TVL, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -79,4 +79,4 @@ Based on APY history only, LP's lower-variability candidates are wombat-exchange
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,12 +1,12 @@
 # GTUSDTB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest GTUSDTB yield right now is 7.30% on morpho-blue (Stable), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDTB yield right now is 5.83% on morpho-blue (Stable), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_token) | Stable | 7.30% | $25.47M |
+| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_token) | Stable | 5.83% | $25.48M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDTB yield today?
 
-7.30% APY on morpho-blue (Stable), based on live DefiLlama data.
+5.83% APY on morpho-blue (Stable), based on live DefiLlama data.
 
 ### How many GTUSDTB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $25.47M in total.
+1 live pool clear this page's $100K TVL floor, $25.48M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTUSDTB pools. This view cove
 
 - [Stable](https://www.defi.garden/chains/stable)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

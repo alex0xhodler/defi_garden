@@ -1,45 +1,42 @@
 # ENA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest ENA yield right now is 73.64% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENA yield right now is 11.45% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 73.64% | $719.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 12.85% | $453.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 21.11% | $711.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 4.87% | $448.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 11.45% | $183.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.03M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 73.64% APY, $719.4K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 12.85% APY, $453.9K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 21.11% APY, $711.4K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 4.87% APY, $448.4K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $3.03M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 11.45% | $183.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 73.64% | $719.4K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 12.85% | $453.9K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 11.45% | $183.8K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 21.11% | $711.4K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 4.87% | $448.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ENA shows up in 4 pools here, with rates from 0.05% to 73.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ENA shows up in 3 pools here, with rates from 4.87% to 21.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 22.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 30.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.05% | 0.46% | Base rate |
-| uniswap-v3 | 73.64% | 89.45% | Base rate |
-| uniswap-v4 | 12.85% | 31.56% | Base rate |
+| uniswap-v3 | 21.11% | 89.93% | Base rate |
+| uniswap-v4 | 4.87% | 30.99% | Base rate |
 | uniswap-v3 | 11.45% | 14.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -48,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ENA yield today?
 
-73.64% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+11.45% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ENA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.69M in total.
+5 live pools clear this page's $100K TVL floor, $4.48M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ENA pools have the most stable APY history?
 
-Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $3.03M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 73.64% APY, $719.4K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 12.85% APY, $453.9K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 11.45% APY, $183.8K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 21.11% APY, $711.4K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 4.87% APY, $448.4K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +72,4 @@ Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

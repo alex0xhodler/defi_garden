@@ -1,12 +1,12 @@
 # SUIUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest SUIUSDE yield right now is 1.16% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUIUSDE yield right now is 0.73% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 1.16% | $497.1K |
+| [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 0.73% | $497.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUIUSDE yield today?
 
-1.16% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.73% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many SUIUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $497.1K in total.
+1 live pool clear this page's $100K TVL floor, $497.2K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank SUIUSDE pools. This view cove
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [SUI](https://www.defi.garden/tokens/sui)
-- [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

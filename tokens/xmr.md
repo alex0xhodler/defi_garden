@@ -1,14 +1,14 @@
 # XMR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest XMR yield right now is 24.68% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 852.78% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=33bf7f51-018e-5598-accb-4321347ee0a7&src=seo_token) | Solana | 852.78% | $134.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=f525f21b-3296-5989-83d0-d8a34760c4a2&src=seo_token) | Solana | 12.60% | $100.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=e4fef556-6fce-5d3a-80e2-d1606b6b55e2&src=seo_token) | Solana | 24.68% | $100.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=ba867f5d-8707-53e4-aa8a-4cc6809375c8&src=seo_token) | Solana | 18.08% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XMR shows up in 3 pools here, with rates from 12.60% to 24.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XMR shows up in 3 pools here, with rates from 12.60% to 852.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| raydium-amm | 852.78% | — | Base rate |
 | raydium-amm | 12.60% | 8.67% | Base rate |
 | raydium-amm | 24.68% | 20.24% | Base rate |
-| raydium-amm | 18.08% | 12.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XMR yield today?
 
-24.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+852.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XMR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $300.7K in total.
+3 live pools clear this page's $100K TVL floor, $335.2K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank XMR pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026

@@ -1,12 +1,12 @@
 # NWISDOM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest NWISDOM yield right now is 10.48% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NWISDOM yield right now is 1.64% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 10.48% | $2.87M |
+| [plume-vaults →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 1.64% | $2.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NWISDOM yield today?
 
-10.48% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+1.64% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NWISDOM pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank NWISDOM pools. This view cove
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NAXI](https://www.defi.garden/tokens/naxi)
+- [NTBILL](https://www.defi.garden/tokens/ntbill)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 10, 2026
+## Last updated September 11, 2026
