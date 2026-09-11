@@ -4186,12 +4186,13 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 
 /* ═══ HERO UNDERWRITING STRIP (Certificate Endorsement) ══════════════════ */
 .pool-hero-underwriting-strip {
-  margin-top: 18px;
+  order: 6;
+  margin-top: 24px;
   width: 100%;
   max-width: 660px;
-  background: var(--cert-paper-deep);
+  background: var(--cert-vellum, rgba(255, 255, 255, 0.02));
   border: 1px solid var(--cert-rule);
-  border-radius: 2px;
+  border-radius: var(--ui-radius-sm, 6px);
   overflow: hidden;
   text-align: left;
 }
@@ -4200,18 +4201,18 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 12px;
-  background: var(--cert-green-wash);
+  padding: 8px 14px;
+  background: transparent;
   border-bottom: 1px solid var(--cert-rule);
 }
 
 .hero-uw-tag {
-  font-family: var(--font-mono, monospace);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--cert-green);
-  text-transform: uppercase;
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--cert-ink-2);
+  text-transform: none;
 }
 
 .hero-uw-jump {
@@ -4233,7 +4234,7 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .hero-uw-cell {
-  padding: 8px 12px;
+  padding: 10px 14px;
   text-align: center;
   border-right: 1px solid var(--cert-rule);
 }
@@ -4243,25 +4244,59 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
 }
 
 .hero-uw-cell-label {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
   color: var(--cert-ink-3);
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .hero-uw-cell-val {
   font-family: var(--font-mono, monospace);
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--cert-ink);
 }
 
 .hero-uw-cell-status {
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 600;
   white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .pool-hero-underwriting-strip {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .hero-uw-header {
+    padding: 7px 12px;
+  }
+
+  .hero-uw-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-uw-cell {
+    padding: 8px 10px;
+  }
+
+  .hero-uw-cell:nth-child(3) {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--cert-rule);
+    border-right: none;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .hero-uw-cell:nth-child(3) .hero-uw-cell-label {
+    margin-bottom: 0;
+  }
 }
 
 /* ═══ DECISION TERMINAL (Institutional Forward Underwriting) ══════════════ */

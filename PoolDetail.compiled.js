@@ -2104,14 +2104,14 @@ function PoolDetail({
   var isPendle = projectLower.includes('pendle') || poolTypeLower.includes('derivative');
   var isLending = !isPendle && (poolTypeLower.includes('lending') || ['aave', 'compound', 'morpho', 'spark', 'fluid', 'sky-lending', 'maker', 'euler'].some(p => projectLower.includes(p)));
   var isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
-  var archetypeTag = 'LENDING JUMP-IRM';
+  var archetypeTag = 'Lending';
   var engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
   var enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
 
   // Hero strip items
-  var heroMetric1Label = 'Atomic Cash Headroom';
+  var heroMetric1Label = 'Cash Headroom';
   var heroMetric1Value = formatCurrency(poolTvl * (1 - 0.78));
-  var heroMetric2Label = 'Kink Buffer Distance';
+  var heroMetric2Label = 'Kink Buffer';
   var heroMetric2Value = formatCurrency(Math.max(0, poolTvl * (1 - 0.78 / 0.90)));
   var heroStatusLabel = '✓ Safe Headroom';
   var heroStatusColor = 'var(--cert-green, #7CC9A0)';
@@ -2137,16 +2137,16 @@ function PoolDetail({
   var postDepositApy = totalApy;
   var dilutionBps = 0;
   if (isPendle) {
-    archetypeTag = 'PENDLE YIELD-SPACE';
+    archetypeTag = 'Pendle';
     engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
     enginePill = 'TimesFM 3.0 + Pendle AMM Curve';
     var impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
     var forwardApy = pool.forecast && typeof pool.forecast.p50 === 'number' ? pool.forecast.p50 : impliedApy * 1.14;
     var spreadBps = Math.round((forwardApy - impliedApy) * 100);
     var ptDepth = poolTvl * 0.45;
-    heroMetric1Label = 'PT/YT Pool Depth';
+    heroMetric1Label = 'Pool Depth';
     heroMetric1Value = formatCurrency(ptDepth);
-    heroMetric2Label = 'Forward Spread (Δ)';
+    heroMetric2Label = 'Forward Spread';
     heroMetric2Value = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
     heroStatusLabel = pool.apyReward > 0 ? '⚠ Points Campaign' : '✓ Maturity Matched';
     heroStatusColor = pool.apyReward > 0 ? 'var(--cert-amber, #F0B35C)' : 'var(--cert-green, #7CC9A0)';
@@ -2186,9 +2186,9 @@ function PoolDetail({
     var kinkUtil = 0.90;
     var wMaxAtomic = poolTvl * (1 - currentUtil);
     var wKinkFrozen = Math.max(0, poolTvl * (1 - currentUtil / kinkUtil));
-    heroMetric1Label = 'Atomic Cash Headroom';
+    heroMetric1Label = 'Cash Headroom';
     heroMetric1Value = formatCurrency(wMaxAtomic);
-    heroMetric2Label = 'Kink Buffer Distance';
+    heroMetric2Label = 'Kink Buffer';
     heroMetric2Value = formatCurrency(wKinkFrozen);
     if (simTicketSize > wKinkFrozen) {
       trafficLight = 'RED';
@@ -2212,15 +2212,15 @@ function PoolDetail({
     postDepositApy = totalApy * (postUtil / currentUtil);
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
   } else if (isClmm) {
-    archetypeTag = 'CLMM CONCENTRATED LP';
+    archetypeTag = 'CLMM';
     engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
     enginePill = 'TimesFM 3.0 + CLMM Tick Elasticity';
     var pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     var compressionCap = poolTvl * 0.30;
-    heroMetric1Label = 'Active Tick Depth';
+    heroMetric1Label = 'Active Depth';
     heroMetric1Value = formatCurrency(poolTvl);
-    heroMetric2Label = '30d Range Probability';
-    heroMetric2Value = pIn + '% In-Range';
+    heroMetric2Label = '30d In-Range';
+    heroMetric2Value = pIn + '%';
     heroStatusLabel = '✓ Active Range Depth';
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
     yieldOrganicLabel = 'DEX Swap Fee Yield';
@@ -2253,13 +2253,13 @@ function PoolDetail({
     }
   } else {
     // Staking / RWA
-    archetypeTag = 'STAKING / RWA';
+    archetypeTag = 'Staking / RWA';
     engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
     enginePill = 'TimesFM 3.0 + Staking Epoch Model';
     var secDepth = poolTvl * 0.35;
-    heroMetric1Label = 'Secondary DEX Liquidity';
+    heroMetric1Label = 'Secondary Liquidity';
     heroMetric1Value = formatCurrency(secDepth);
-    heroMetric2Label = 'Exit Redemption Epoch';
+    heroMetric2Label = 'Redemption Time';
     heroMetric2Value = '~1-3 Days';
     heroStatusLabel = '✓ Deep Secondary Peg';
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
@@ -2361,21 +2361,22 @@ function PoolDetail({
   }) : formatCurrency(pool.tvlUsd) + ' TVL'),
   // Risk chip — riskAssessment.description stays reachable via the
   // title attribute; text colored by riskAssessment.color.
-  React.createElement('div', {
+  // Risk Assessment badge (fallback when no institutional DeFi Score)
+  (!pool.defiScore || typeof pool.defiScore.score !== 'number') && React.createElement('div', {
     className: 'trust-badge hero-chip',
     title: riskAssessment.description,
     style: {
       color: riskAssessment.color
     }
-  }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`),
-  // DeFi Score Hero Chip (1)
+  }, `${t ? t('riskAssessment') : 'Risk'}: ${riskAssessment.level}`),
+  // DeFi Score Hero Chip
   pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
     className: 'trust-badge hero-chip defi-score-hero-chip',
     title: scoreTooltip,
     style: {
       color: pool.defiScore.score >= 75 ? 'var(--color-success)' : pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
     }
-  }, `${t ? t('defiScore') : 'DeFi Score'}: ${pool.defiScore.score} (${pool.defiScore.rating})`))),
+  }, `Score: ${Math.round(pool.defiScore.score)} (${pool.defiScore.rating})`))),
   // Headline metric — the number and its honest qualifier are one unit.
   React.createElement('div', {
     className: 'pool-hero-metric'
@@ -2399,7 +2400,7 @@ function PoolDetail({
     className: 'pool-hero-forecast-line'
   }, React.createElement('span', {
     className: 'forecast-lead'
-  }, `${t ? t('forecast14d') : '14d AI Forecast'}: ${_formatApy(pool.forecast.p50)}`), React.createElement('span', {
+  }, `${t ? t('forecast14d') : '14d Forecast'}: ${_formatApy(pool.forecast.p50)}`), typeof pool.forecast.p10 === 'number' && Math.abs(pool.forecast.p50 - pool.forecast.p10) >= 0.05 && React.createElement('span', {
     className: 'forecast-floor',
     style: {
       opacity: 0.7,
@@ -2461,7 +2462,7 @@ function PoolDetail({
     className: 'hero-uw-header'
   }, React.createElement('span', {
     className: 'hero-uw-tag'
-  }, 'UNDERWRITING · ' + archetypeTag), React.createElement('a', {
+  }, 'Underwriting · ' + archetypeTag), React.createElement('a', {
     className: 'hero-uw-jump',
     href: '#decision-terminal',
     onClick: e => {
@@ -2470,7 +2471,7 @@ function PoolDetail({
         behavior: 'smooth'
       });
     }
-  }, 'Open Decision Terminal ↓')), React.createElement('div', {
+  }, 'Decision Terminal ↓')), React.createElement('div', {
     className: 'hero-uw-grid'
   }, React.createElement('div', {
     className: 'hero-uw-cell'
@@ -2488,7 +2489,7 @@ function PoolDetail({
     className: 'hero-uw-cell'
   }, React.createElement('div', {
     className: 'hero-uw-cell-label'
-  }, 'UNDERWRITING STATUS'), React.createElement('div', {
+  }, 'Capacity Status'), React.createElement('div', {
     className: 'hero-uw-cell-status',
     style: {
       color: heroStatusColor

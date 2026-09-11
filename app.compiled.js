@@ -3380,8 +3380,13 @@ function App() {
     }), React.createElement('div', {
       className: 'pool-left-section'
     }, React.createElement('div', {
+      className: 'pool-symbol-line'
+    }, React.createElement('div', {
       className: 'pool-symbol'
-    }, pool.symbol), React.createElement('div', {
+    }, pool.symbol), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
+      className: 'pool-score-chip',
+      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
+    }, React.createElement('span', null, 'Score'), React.createElement('strong', null, Math.round(pool.defiScore.score)))), React.createElement('div', {
       className: 'pool-context-inline'
     }, t('onProtocolChain', pool.project, pool.chain, protocolUrl)))), React.createElement('div', {
       className: 'pool-apy-section'
@@ -3418,10 +3423,7 @@ function App() {
       value: pool.tvlUsd,
       formatFn: v => formatCurrency(v),
       delay: 200 + delayBase
-    })), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
-      className: 'pool-score-chip',
-      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
-    }, React.createElement('span', null, 'Score'), React.createElement('strong', null, Math.round(pool.defiScore.score)))),
+    }))),
     // Quiet action link (row is already fully clickable via the onClick above)
     React.createElement('div', {
       className: 'pool-cta-section'
@@ -3765,13 +3767,7 @@ function App() {
         setSortBy('score');
         setUserSortedApy(false);
       }
-    }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'Score')), React.createElement('button', {
-      className: `sort-segment-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-      onClick: () => {
-        setSortBy('sharpe');
-        setUserSortedApy(false);
-      }
-    }, navIcon('sharpe'), React.createElement('span', null, language === 'ko' ? '위험' : 'Risk')))), React.createElement('div', {
+    }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'Score')))), React.createElement('div', {
       className: 'deep-filter-section'
     }, sortBy === 'sharpe' ? [React.createElement('div', {
       className: 'section-label',
@@ -4210,15 +4206,9 @@ function App() {
     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'score' ? 'active' : ''}`,
     'data-direction': sortBy === 'score' ? sortDirection : undefined,
     onClick: () => handleSortToggle('score'),
-    title: `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
-    'aria-label': `Sort by DeFi Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
-  }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'DeFi Score')), React.createElement('button', {
-    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-    'data-direction': sortBy === 'sharpe' ? sortDirection : undefined,
-    onClick: () => handleSortToggle('sharpe'),
-    title: `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
-    'aria-label': `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
-  }, navIcon('sharpe'), React.createElement('span', null, t('sortByRiskAdjusted'))))))),
+    title: `Sort by Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+    'aria-label': `Sort by Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
+  }, navIcon('score'), React.createElement('span', null, t('sortByScore') || 'Score')))))),
   // Slim column-label row — hidden below 768px (the two-line mobile
   // row layout is self-explanatory without it). Aligned to the exact
   // same 5-column grid the rows below use.

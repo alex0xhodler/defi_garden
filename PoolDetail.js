@@ -1852,14 +1852,14 @@ function PoolDetail({
   const isLending = !isPendle && (poolTypeLower.includes('lending') || ['aave', 'compound', 'morpho', 'spark', 'fluid', 'sky-lending', 'maker', 'euler'].some(p => projectLower.includes(p)));
   const isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
 
-  let archetypeTag = 'LENDING JUMP-IRM';
+  let archetypeTag = 'Lending';
   let engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
   let enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
 
   // Hero strip items
-  let heroMetric1Label = 'Atomic Cash Headroom';
+  let heroMetric1Label = 'Cash Headroom';
   let heroMetric1Value = formatCurrency(poolTvl * (1 - 0.78));
-  let heroMetric2Label = 'Kink Buffer Distance';
+  let heroMetric2Label = 'Kink Buffer';
   let heroMetric2Value = formatCurrency(Math.max(0, poolTvl * (1 - (0.78 / 0.90))));
   let heroStatusLabel = '✓ Safe Headroom';
   let heroStatusColor = 'var(--cert-green, #7CC9A0)';
@@ -1890,7 +1890,7 @@ function PoolDetail({
   let dilutionBps = 0;
 
   if (isPendle) {
-    archetypeTag = 'PENDLE YIELD-SPACE';
+    archetypeTag = 'Pendle';
     engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
     enginePill = 'TimesFM 3.0 + Pendle AMM Curve';
 
@@ -1899,9 +1899,9 @@ function PoolDetail({
     const spreadBps = Math.round((forwardApy - impliedApy) * 100);
     const ptDepth = poolTvl * 0.45;
 
-    heroMetric1Label = 'PT/YT Pool Depth';
+    heroMetric1Label = 'Pool Depth';
     heroMetric1Value = formatCurrency(ptDepth);
-    heroMetric2Label = 'Forward Spread (Δ)';
+    heroMetric2Label = 'Forward Spread';
     heroMetric2Value = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
     heroStatusLabel = pool.apyReward > 0 ? '⚠ Points Campaign' : '✓ Maturity Matched';
     heroStatusColor = pool.apyReward > 0 ? 'var(--cert-amber, #F0B35C)' : 'var(--cert-green, #7CC9A0)';
@@ -1950,9 +1950,9 @@ function PoolDetail({
     const wMaxAtomic = poolTvl * (1 - currentUtil);
     const wKinkFrozen = Math.max(0, poolTvl * (1 - (currentUtil / kinkUtil)));
 
-    heroMetric1Label = 'Atomic Cash Headroom';
+    heroMetric1Label = 'Cash Headroom';
     heroMetric1Value = formatCurrency(wMaxAtomic);
-    heroMetric2Label = 'Kink Buffer Distance';
+    heroMetric2Label = 'Kink Buffer';
     heroMetric2Value = formatCurrency(wKinkFrozen);
 
     if (simTicketSize > wKinkFrozen) {
@@ -1981,17 +1981,17 @@ function PoolDetail({
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
 
   } else if (isClmm) {
-    archetypeTag = 'CLMM CONCENTRATED LP';
+    archetypeTag = 'CLMM';
     engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
     enginePill = 'TimesFM 3.0 + CLMM Tick Elasticity';
 
     const pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     const compressionCap = poolTvl * 0.30;
 
-    heroMetric1Label = 'Active Tick Depth';
+    heroMetric1Label = 'Active Depth';
     heroMetric1Value = formatCurrency(poolTvl);
-    heroMetric2Label = '30d Range Probability';
-    heroMetric2Value = pIn + '% In-Range';
+    heroMetric2Label = '30d In-Range';
+    heroMetric2Value = pIn + '%';
     heroStatusLabel = '✓ Active Range Depth';
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
 
@@ -2031,14 +2031,14 @@ function PoolDetail({
 
   } else {
     // Staking / RWA
-    archetypeTag = 'STAKING / RWA';
+    archetypeTag = 'Staking / RWA';
     engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
     enginePill = 'TimesFM 3.0 + Staking Epoch Model';
 
     const secDepth = poolTvl * 0.35;
-    heroMetric1Label = 'Secondary DEX Liquidity';
+    heroMetric1Label = 'Secondary Liquidity';
     heroMetric1Value = formatCurrency(secDepth);
-    heroMetric2Label = 'Exit Redemption Epoch';
+    heroMetric2Label = 'Redemption Time';
     heroMetric2Value = '~1-3 Days';
     heroStatusLabel = '✓ Deep Secondary Peg';
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
@@ -2137,13 +2137,14 @@ function PoolDetail({
             ),
             // Risk chip — riskAssessment.description stays reachable via the
             // title attribute; text colored by riskAssessment.color.
-            React.createElement('div', {
+            // Risk Assessment badge (fallback when no institutional DeFi Score)
+            (!pool.defiScore || typeof pool.defiScore.score !== 'number') && React.createElement('div', {
               className: 'trust-badge hero-chip',
               title: riskAssessment.description,
               style: { color: riskAssessment.color }
-            }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`),
+            }, `${t ? t('riskAssessment') : 'Risk'}: ${riskAssessment.level}`),
 
-            // DeFi Score Hero Chip (1)
+            // DeFi Score Hero Chip
             (pool.defiScore && typeof pool.defiScore.score === 'number') && React.createElement('div', {
               className: 'trust-badge hero-chip defi-score-hero-chip',
               title: scoreTooltip,
@@ -2151,7 +2152,7 @@ function PoolDetail({
                 color: pool.defiScore.score >= 75 ? 'var(--color-success)' :
                        pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
               }
-            }, `${t ? t('defiScore') : 'DeFi Score'}: ${pool.defiScore.score} (${pool.defiScore.rating})`)
+            }, `Score: ${Math.round(pool.defiScore.score)} (${pool.defiScore.rating})`)
           )
         ),
 
@@ -2182,8 +2183,9 @@ function PoolDetail({
               className: 'pool-hero-forecast-line'
             },
               React.createElement('span', { className: 'forecast-lead' },
-                `${t ? t('forecast14d') : '14d AI Forecast'}: ${_formatApy(pool.forecast.p50)}`
+                `${t ? t('forecast14d') : '14d Forecast'}: ${_formatApy(pool.forecast.p50)}`
               ),
+              (typeof pool.forecast.p10 === 'number' && Math.abs(pool.forecast.p50 - pool.forecast.p10) >= 0.05) &&
               React.createElement('span', { className: 'forecast-floor', style: { opacity: 0.7, marginLeft: '4px' } },
                 `(${t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)})`
               ),
@@ -2195,8 +2197,8 @@ function PoolDetail({
                 className: 'forecast-risk-pill risk-low',
                 style: { marginLeft: '6px', color: 'var(--color-success, #10b981)', fontWeight: 600, fontSize: '11px' }
               }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside'))
-              )
-              ),
+            )
+          ),
 
               // Rate-quality note tier (210 A3) — the number's honest qualifier,
           // rendered as plain quiet text directly under the APY it qualifies
@@ -2273,7 +2275,7 @@ function PoolDetail({
           id: 'hero-underwriting-strip'
         },
           React.createElement('div', { className: 'hero-uw-header' },
-            React.createElement('span', { className: 'hero-uw-tag' }, 'UNDERWRITING · ' + archetypeTag),
+            React.createElement('span', { className: 'hero-uw-tag' }, 'Underwriting · ' + archetypeTag),
             React.createElement('a', {
               className: 'hero-uw-jump',
               href: '#decision-terminal',
@@ -2281,7 +2283,7 @@ function PoolDetail({
                 e.preventDefault();
                 document.getElementById('decision-terminal')?.scrollIntoView({ behavior: 'smooth' });
               }
-            }, 'Open Decision Terminal ↓')
+            }, 'Decision Terminal ↓')
           ),
           React.createElement('div', { className: 'hero-uw-grid' },
             React.createElement('div', { className: 'hero-uw-cell' },
@@ -2293,7 +2295,7 @@ function PoolDetail({
               React.createElement('div', { className: 'hero-uw-cell-val' }, heroMetric2Value)
             ),
             React.createElement('div', { className: 'hero-uw-cell' },
-              React.createElement('div', { className: 'hero-uw-cell-label' }, 'UNDERWRITING STATUS'),
+              React.createElement('div', { className: 'hero-uw-cell-label' }, 'Capacity Status'),
               React.createElement('div', {
                 className: 'hero-uw-cell-status',
                 style: { color: heroStatusColor }
