@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/explain_path.request.schema.json",
+  "title": "ExplainPathRequest",
+  "description": "Request schema for dg_explain_path. Read-only mathematical attribution tool for an evaluated path at an immutable snapshot.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["path_id"],
+  "properties": {
+    "path_id": {
+      "type": "string",
+      "pattern": "^pth_[0-9a-zA-Z_-]{8,64}$",
+      "description": "Unique identifier of the path to explain."
+    },
+    "snapshot_ref": {
+      "type": "string",
+      "description": "Optional snapshot identifier. If omitted, uses the latest sealed snapshot."
+    },
+    "notional_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 100000000,
+      "description": "Optional notional override to recompute dilution and depth."
+    }
+  }
+}

@@ -152,6 +152,8 @@ const NAV_ICONS = {
   // shield / gauge — Risk adjusted (Sharpe)
   sharpe: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
   risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
+  // shield with checkmark — DeFi Score (institutional rating)
+  score: 'M12 2L4 6v6l8 10 8-10V6L12 2z M9 12l2 2 4-4',
   // chevrons for drawer stage indicator
   chevronUp: 'M18 15l-6-6-6 6',
   chevronDown: 'M6 9l6 6 6-6',
@@ -951,6 +953,9 @@ const hasNoSupplyYield = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0))
 // Risk-adjusted stability score: uses historical Sharpe ratio if computed,
 // otherwise evaluates organic base APY vs 30d deviation + institutional TVL depth.
 const getPoolRiskScore = (pool) => {
+  if (pool && pool.defiScore && typeof pool.defiScore.score === 'number') {
+    return pool.defiScore.score;
+  }
   if (pool && pool.kpis && typeof pool.kpis.apySharpe === 'number' && Number.isFinite(pool.kpis.apySharpe)) {
     return Math.max(0, pool.kpis.apySharpe);
   }
@@ -1018,6 +1023,30 @@ function formatSmartApy(num) {
 
 function sortPoolsList(list, sortBy, sortDirection = 'desc', userSortedApy = false, isTokenView = false) {
   return list.slice().sort((a, b) => {
+    if (sortBy === 'score') {
+      const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+      const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+      const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+      const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+      if (anomA !== anomB) return anomA - anomB;
+
+      if (!isTokenView) {
+        const noA = hasNoSupplyYield(a) ? 1 : 0;
+        const noB = hasNoSupplyYield(b) ? 1 : 0;
+        if (noA !== noB) return noA - noB;
+      }
+
+      const scA = (a.defiScore && typeof a.defiScore.score === 'number') ? a.defiScore.score : null;
+      const scB = (b.defiScore && typeof b.defiScore.score === 'number') ? b.defiScore.score : null;
+      const nullA = scA === null ? 1 : 0;
+      const nullB = scB === null ? 1 : 0;
+      if (nullA !== nullB) return nullA - nullB;
+      if (scA !== null && scB !== null && scA !== scB) {
+        return sortDirection === 'asc' ? (scA - scB) : (scB - scA);
+      }
+      return sortDirection === 'asc' ? (a.tvlUsd - b.tvlUsd) : (b.tvlUsd - a.tvlUsd);
+    }
+
     if (sortBy === 'sharpe') {
       // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
       // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
@@ -1496,15 +1525,9 @@ function App() {
   // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
   // are byte-untouched and run identically on whichever payload loads.
   useEffect(() => {
-    // 6h ≈ 2× the slowest observed CI-bake gap (~1.5–3h). The committed
-    // snapshot is baked by the sitemap-update.yml CI (git-observable ~8
-    // bakes/24h), NOT the 109 poller — that writes Cloudflare D1, not this
-    // repo file, so the never-realized ~5-min cadence never applied here.
-    // The old 15-min gate rejected an otherwise-valid snapshot ~85–90% of the
-    // day, dropping every visitor (incl. ?pool=/?token= SEO landers) onto the
-    // slow live fetch 059 exists to avoid. Same "cover a missed run" intent as
-    // the original multiplier, sized to the real cadence.
-    const SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+    // 48h covers the 24h daily CI cadence + generous buffer so valid snapshots
+    // are never falsely rejected as stale throughout the day.
+    const SNAPSHOT_MAX_AGE_MS = 48 * 60 * 60 * 1000;
 
     const loadLive = async (startTime) => {
       const response = await fetch('https://yields.llama.fi/pools');
@@ -1513,6 +1536,27 @@ function App() {
       }
       const data = await response.json();
       poolsSourceRef.current = 'live';
+
+      // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+      try {
+        const snapRes = await fetch('/data/pools-snapshot.json');
+        if (snapRes.ok) {
+          const snap = await snapRes.json();
+          if (snap && Array.isArray(snap.pools)) {
+            const snapMap = new Map();
+            snap.pools.forEach(p => { if (p && p.pool) snapMap.set(p.pool, p); });
+            (data.data || []).forEach(lp => {
+              const sp = snapMap.get(lp.pool);
+              if (sp) {
+                if (sp.kpis && !lp.kpis) lp.kpis = sp.kpis;
+                if (sp.forecast && !lp.forecast) lp.forecast = sp.forecast;
+                if (sp.defiScore && !lp.defiScore) lp.defiScore = sp.defiScore;
+              }
+            });
+          }
+        }
+      } catch (_) {}
+
       setPools(data.data || []);
       Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
         pools_count: data.data?.length || 0,
@@ -1660,6 +1704,27 @@ function App() {
         const data = await response.json();
         if (!alive) return;
         poolsSourceRef.current = 'live';
+
+        // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+        try {
+          const snapRes = await fetch('/data/pools-snapshot.json');
+          if (snapRes.ok) {
+            const snap = await snapRes.json();
+            if (snap && Array.isArray(snap.pools)) {
+              const snapMap = new Map();
+              snap.pools.forEach(p => { if (p && p.pool) snapMap.set(p.pool, p); });
+              (data.data || []).forEach(lp => {
+                const sp = snapMap.get(lp.pool);
+                if (sp) {
+                  if (sp.kpis && !lp.kpis) lp.kpis = sp.kpis;
+                  if (sp.forecast && !lp.forecast) lp.forecast = sp.forecast;
+                  if (sp.defiScore && !lp.defiScore) lp.defiScore = sp.defiScore;
+                }
+              });
+            }
+          }
+        } catch (_) {}
+
         setPools(data.data || []);
       } catch (err) {
         // Keep the snapshot pools; they're all >= $10M so nothing regresses.
@@ -1738,7 +1803,8 @@ function App() {
   // from the snapshot, leaves detailPool untouched and the notes hide as today.
   // Never mutates the `pools` array or any trust-rail logic.
   useEffect(() => {
-    if (currentView !== 'pool-detail' || !detailPool || detailPool.kpis) return;
+    if (currentView !== 'pool-detail' || !detailPool) return;
+    if (detailPool.kpis && detailPool.forecast && detailPool.defiScore) return;
     const poolId = detailPool.pool;
     if (!poolId || kpiEnrichedPoolRef.current === poolId) return;
     kpiEnrichedPoolRef.current = poolId;
@@ -1750,10 +1816,15 @@ function App() {
         const snap = await res.json();
         if (!alive || !snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools)) return;
         const match = snap.pools.find(p => p && p.pool === poolId);
-        if (!match || !match.kpis || typeof match.kpis !== 'object') return;
-        setDetailPool(prev => (prev && prev.pool === poolId && !prev.kpis)
-          ? Object.assign({}, prev, { kpis: match.kpis })
-          : prev);
+        if (!match) return;
+        setDetailPool(prev => {
+          if (!prev || prev.pool !== poolId) return prev;
+          const patch = {};
+          if (!prev.kpis && match.kpis) patch.kpis = match.kpis;
+          if (!prev.forecast && match.forecast) patch.forecast = match.forecast;
+          if (!prev.defiScore && match.defiScore) patch.defiScore = match.defiScore;
+          return Object.keys(patch).length > 0 ? Object.assign({}, prev, patch) : prev;
+        });
       } catch (e) {
         // Live landing keeps no kpis — the notes hide, exactly today's behavior.
       }
@@ -3326,8 +3397,19 @@ function App() {
         React.createElement('div', { className: 'pool-name-group' },
           React.createElement(PoolLogo, { project: pool.project, chain: pool.chain, t }),
           React.createElement('div', { className: 'pool-left-section' },
-            React.createElement('div', { className: 'pool-symbol' },
-              pool.symbol
+            React.createElement('div', { className: 'pool-symbol-line' },
+              React.createElement('div', { className: 'pool-symbol' },
+                pool.symbol
+              ),
+              (pool.defiScore && typeof pool.defiScore.score === 'number') &&
+                React.createElement('div', {
+                  className: 'pool-score-chip',
+                  title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating)
+                           : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
+                },
+                  React.createElement('span', null, 'Score'),
+                  React.createElement('strong', null, Math.round(pool.defiScore.score))
+                )
             ),
             React.createElement('div', { className: 'pool-context-inline' },
               t('onProtocolChain', pool.project, pool.chain, protocolUrl)
@@ -3695,11 +3777,11 @@ function App() {
                 React.createElement('span', null, 'TVL')
               ),
               React.createElement('button', {
-                className: `sort-segment-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-                onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+                className: `sort-segment-btn ${sortBy === 'score' ? 'active' : ''}`,
+                onClick: () => { setSortBy('score'); setUserSortedApy(false); }
               },
-                navIcon('sharpe'),
-                React.createElement('span', null, language === 'ko' ? '위험' : 'Risk')
+                navIcon('score'),
+                React.createElement('span', null, t('sortByScore') || 'Score')
               )
             )
           ),
@@ -4140,14 +4222,14 @@ function App() {
                       React.createElement('span', null, 'TVL')
                     ),
                     React.createElement('button', {
-                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-                      'data-direction': sortBy === 'sharpe' ? sortDirection : undefined,
-                      onClick: () => handleSortToggle('sharpe'),
-                      title: `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
-                      'aria-label': `Sort by Risk-Adjusted (${sortBy === 'sharpe' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'score' ? 'active' : ''}`,
+                      'data-direction': sortBy === 'score' ? sortDirection : undefined,
+                      onClick: () => handleSortToggle('score'),
+                      title: `Sort by Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`,
+                      'aria-label': `Sort by Score (${sortBy === 'score' && sortDirection === 'asc' ? 'Ascending' : 'Descending'})`
                     },
-                      navIcon('sharpe'),
-                      React.createElement('span', null, t('sortByRiskAdjusted'))
+                      navIcon('score'),
+                      React.createElement('span', null, t('sortByScore') || 'Score')
                     )
                   )
                 )

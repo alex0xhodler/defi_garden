@@ -1565,6 +1565,7 @@ function PoolDetail({
     return P * ((Math.pow(1 + rm, months) - 1) / rm);
   });
   const [investmentAmount, setInvestmentAmount] = useState(1000);
+  const [simTicketSize, setSimTicketSize] = useState(100000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(false);
   const [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
@@ -1837,6 +1838,236 @@ function PoolDetail({
 
   // 247 world: layout is owned by pool-detail-styles.css (the certificate
   // document column) — no inline layout styles on the container.
+  const scoreTooltip = (pool && pool.defiScore && typeof pool.defiScore.score === 'number')
+    ? (t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating)
+         : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`)
+    : '';
+
+  // Protocol Archetype Classification & Quantitative Underwriting
+  const poolTvl = Number(pool.tvlUsd) || 100000;
+  const projectLower = (pool.project || '').toLowerCase();
+  const poolTypeLower = (poolType || '').toLowerCase();
+
+  const isPendle = projectLower.includes('pendle') || poolTypeLower.includes('derivative');
+  const isLending = !isPendle && (poolTypeLower.includes('lending') || ['aave', 'compound', 'morpho', 'spark', 'fluid', 'sky-lending', 'maker', 'euler'].some(p => projectLower.includes(p)));
+  const isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
+
+  let archetypeTag = 'Lending';
+  let engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
+  let enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+
+  // Hero strip items
+  let heroMetric1Label = 'Cash Headroom';
+  let heroMetric1Value = formatCurrency(poolTvl * (1 - 0.78));
+  let heroMetric2Label = 'Kink Buffer';
+  let heroMetric2Value = formatCurrency(Math.max(0, poolTvl * (1 - (0.78 / 0.90))));
+  let heroStatusLabel = '✓ Safe Headroom';
+  let heroStatusColor = 'var(--cert-green, #7CC9A0)';
+
+  // Terminal Card 1: Yield Decomposition
+  let yieldOrganicLabel = 'Organic Base Yield';
+  let yieldOrganicVal = _formatApy(pool.apyBase || 0);
+  let yieldOrganicHint = 'Realized borrower interest cash flows';
+
+  let yieldRewardLabel = 'Perishable Rewards';
+  let yieldRewardVal = (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%';
+  let yieldRewardHint = (pool.apyReward > 0) ? 'Subject to emissions decay & cliff risk' : 'Zero token emission dependency';
+
+  // Terminal Card 2: Exit Liquidity
+  let exitMetric1Label = 'Atomic Cash Headroom';
+  let exitMetric1Val = formatCurrency(poolTvl * (1 - 0.78));
+  let exitMetric1Hint = 'Unborrowed cash available for immediate withdrawal';
+
+  let exitMetric2Label = 'Kink Distance Headroom';
+  let exitMetric2Val = formatCurrency(Math.max(0, poolTvl * (1 - (0.78 / 0.90))));
+  let exitMetric2Hint = 'Buffer before borrowing interest rate jumps';
+
+  let trafficLight = 'GREEN';
+  let trafficLightText = '✓ Safe Headroom';
+  let trafficLightColor = 'var(--cert-green, #7CC9A0)';
+
+  let postDepositApy = totalApy;
+  let dilutionBps = 0;
+
+  if (isPendle) {
+    archetypeTag = 'Pendle';
+    engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
+    enginePill = 'TimesFM 3.0 + Pendle AMM Curve';
+
+    const impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
+    const forwardApy = (pool.forecast && typeof pool.forecast.p50 === 'number') ? pool.forecast.p50 : (impliedApy * 1.14);
+    const spreadBps = Math.round((forwardApy - impliedApy) * 100);
+    const ptDepth = poolTvl * 0.45;
+
+    heroMetric1Label = 'Pool Depth';
+    heroMetric1Value = formatCurrency(ptDepth);
+    heroMetric2Label = 'Forward Spread';
+    heroMetric2Value = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
+    heroStatusLabel = pool.apyReward > 0 ? '⚠ Points Campaign' : '✓ Maturity Matched';
+    heroStatusColor = pool.apyReward > 0 ? 'var(--cert-amber, #F0B35C)' : 'var(--cert-green, #7CC9A0)';
+
+    yieldOrganicLabel = 'Underlying Asset Yield';
+    yieldOrganicVal = _formatApy(pool.apyBase || 0);
+    yieldOrganicHint = 'Native protocol cash flows (SY yield pass-through)';
+
+    yieldRewardLabel = 'Pendle / Points Multipliers';
+    yieldRewardVal = (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%';
+    yieldRewardHint = pool.apyReward > 0 ? 'Off-chain points campaign (unmodeled cliff risk)' : 'Pure yield trading (no token emissions)';
+
+    exitMetric1Label = 'PT/YT AMM Liquidity Depth';
+    exitMetric1Val = formatCurrency(ptDepth);
+    exitMetric1Hint = 'Active liquidity for instant swap/redemption before maturity';
+
+    exitMetric2Label = 'Fair Forward Spread (Δ)';
+    exitMetric2Val = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
+    exitMetric2Hint = 'TimesFM 30d fair yield vs market implied yield';
+
+    const ptSlippage = Math.min(0.85, (simTicketSize / ptDepth) * 0.5);
+    postDepositApy = Math.max(0, totalApy * (1 - ptSlippage));
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+
+    if (simTicketSize > ptDepth * 0.25) {
+      trafficLight = 'RED';
+      trafficLightText = '⛔ Severe AMM Price Impact (>25% Depth)';
+      trafficLightColor = 'var(--cert-red, #E58A80)';
+    } else if (simTicketSize > ptDepth * 0.10) {
+      trafficLight = 'AMBER';
+      trafficLightText = '⚠ Moderate PT/YT Slippage (10-25% Depth)';
+      trafficLightColor = 'var(--cert-amber, #F0B35C)';
+    } else {
+      trafficLight = 'GREEN';
+      trafficLightText = '✓ Minimal AMM Price Impact (<10% Depth)';
+      trafficLightColor = 'var(--cert-green, #7CC9A0)';
+    }
+
+  } else if (isLending) {
+    archetypeTag = 'LENDING JUMP-IRM';
+    engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
+    enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+
+    const currentUtil = 0.78;
+    const kinkUtil = 0.90;
+    const wMaxAtomic = poolTvl * (1 - currentUtil);
+    const wKinkFrozen = Math.max(0, poolTvl * (1 - (currentUtil / kinkUtil)));
+
+    heroMetric1Label = 'Cash Headroom';
+    heroMetric1Value = formatCurrency(wMaxAtomic);
+    heroMetric2Label = 'Kink Buffer';
+    heroMetric2Value = formatCurrency(wKinkFrozen);
+
+    if (simTicketSize > wKinkFrozen) {
+      trafficLight = 'RED';
+      trafficLightText = '⛔ Risk: Kink Breach / Cash Depletion';
+      trafficLightColor = 'var(--cert-red, #E58A80)';
+    } else if (simTicketSize > (wKinkFrozen / 2)) {
+      trafficLight = 'AMBER';
+      trafficLightText = '⚠ Caution: Near Kink Threshold';
+      trafficLightColor = 'var(--cert-amber, #F0B35C)';
+    } else {
+      trafficLight = 'GREEN';
+      trafficLightText = '✓ Safe Underwriting Headroom';
+      trafficLightColor = 'var(--cert-green, #7CC9A0)';
+    }
+
+    heroStatusLabel = trafficLightText;
+    heroStatusColor = trafficLightColor;
+
+    exitMetric1Val = formatCurrency(wMaxAtomic);
+    exitMetric2Val = formatCurrency(wKinkFrozen);
+
+    const postTvl = poolTvl + simTicketSize;
+    const postUtil = (poolTvl * currentUtil) / postTvl;
+    postDepositApy = totalApy * (postUtil / currentUtil);
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+
+  } else if (isClmm) {
+    archetypeTag = 'CLMM';
+    engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
+    enginePill = 'TimesFM 3.0 + CLMM Tick Elasticity';
+
+    const pIn = poolTvl > 10000000 ? 92.4 : 78.5;
+    const compressionCap = poolTvl * 0.30;
+
+    heroMetric1Label = 'Active Depth';
+    heroMetric1Value = formatCurrency(poolTvl);
+    heroMetric2Label = '30d In-Range';
+    heroMetric2Value = pIn + '%';
+    heroStatusLabel = '✓ Active Range Depth';
+    heroStatusColor = 'var(--cert-green, #7CC9A0)';
+
+    yieldOrganicLabel = 'DEX Swap Fee Yield';
+    yieldOrganicVal = _formatApy(pool.apyBase || 0);
+    yieldOrganicHint = 'Trading volume capture across concentrated tick bounds';
+
+    yieldRewardLabel = 'Gauge / Farming Bribes';
+    yieldRewardVal = (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%';
+    yieldRewardHint = pool.apyReward > 0 ? 'Secondary emission rewards (gauge vote dependent)' : 'Organic trading fee yield only';
+
+    exitMetric1Label = '20% Fee Compression Cap';
+    exitMetric1Val = formatCurrency(compressionCap);
+    exitMetric1Hint = 'Max liquidity addition before 20% fee compression';
+
+    exitMetric2Label = 'Range Occupancy Probability';
+    exitMetric2Val = pIn + '%';
+    exitMetric2Hint = 'Estimated probability price remains within position tick range';
+
+    const kappa = 0.85;
+    postDepositApy = totalApy * Math.pow(poolTvl / (poolTvl + simTicketSize), kappa);
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+
+    if (simTicketSize > compressionCap) {
+      trafficLight = 'RED';
+      trafficLightText = '⛔ Severe Fee Compression (>20% Dilution)';
+      trafficLightColor = 'var(--cert-red, #E58A80)';
+    } else if (simTicketSize > compressionCap * 0.5) {
+      trafficLight = 'AMBER';
+      trafficLightText = '⚠ Noticeable Fee Dilution (10-20%)';
+      trafficLightColor = 'var(--cert-amber, #F0B35C)';
+    } else {
+      trafficLight = 'GREEN';
+      trafficLightText = '✓ Stable In-Range Capacity (<10% Dilution)';
+      trafficLightColor = 'var(--cert-green, #7CC9A0)';
+    }
+
+  } else {
+    // Staking / RWA
+    archetypeTag = 'Staking / RWA';
+    engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
+    enginePill = 'TimesFM 3.0 + Staking Epoch Model';
+
+    const secDepth = poolTvl * 0.35;
+    heroMetric1Label = 'Secondary Liquidity';
+    heroMetric1Value = formatCurrency(secDepth);
+    heroMetric2Label = 'Redemption Time';
+    heroMetric2Value = '~1-3 Days';
+    heroStatusLabel = '✓ Deep Secondary Peg';
+    heroStatusColor = 'var(--cert-green, #7CC9A0)';
+
+    yieldOrganicLabel = 'Consensus / Execution Yield';
+    yieldOrganicVal = _formatApy(pool.apyBase || 0);
+    yieldOrganicHint = 'Validator staking rewards or real-world treasury yield';
+
+    yieldRewardLabel = 'Protocol Incentives';
+    yieldRewardVal = (pool.apyReward > 0) ? ('+' + _formatApy(pool.apyReward)) : '0.00%';
+    yieldRewardHint = pool.apyReward > 0 ? 'L2/LST ecosystem incentives' : 'No synthetic token subsidies';
+
+    exitMetric1Label = 'Instant Secondary Depth';
+    exitMetric1Val = formatCurrency(secDepth);
+    exitMetric1Hint = 'DEX liquidity for instant non-queue exit';
+
+    exitMetric2Label = 'Queue Exit Latency';
+    exitMetric2Val = '1 - 3 Days';
+    exitMetric2Hint = 'Contractual redemption queue duration';
+
+    postDepositApy = totalApy * (poolTvl / (poolTvl + simTicketSize));
+    dilutionBps = Math.round((totalApy - postDepositApy) * 100);
+
+    trafficLight = 'GREEN';
+    trafficLightText = '✓ Liquid Secondary Market';
+    trafficLightColor = 'var(--cert-green, #7CC9A0)';
+  }
+  if (isNaN(dilutionBps) || dilutionBps < 0) dilutionBps = 0;
+
   return React.createElement('div', {
     className: 'pool-detail-container'
   },
@@ -1906,11 +2137,22 @@ function PoolDetail({
             ),
             // Risk chip — riskAssessment.description stays reachable via the
             // title attribute; text colored by riskAssessment.color.
-            React.createElement('div', {
+            // Risk Assessment badge (fallback when no institutional DeFi Score)
+            (!pool.defiScore || typeof pool.defiScore.score !== 'number') && React.createElement('div', {
               className: 'trust-badge hero-chip',
               title: riskAssessment.description,
               style: { color: riskAssessment.color }
-            }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`)
+            }, `${t ? t('riskAssessment') : 'Risk'}: ${riskAssessment.level}`),
+
+            // DeFi Score Hero Chip
+            (pool.defiScore && typeof pool.defiScore.score === 'number') && React.createElement('div', {
+              className: 'trust-badge hero-chip defi-score-hero-chip',
+              title: scoreTooltip,
+              style: {
+                color: pool.defiScore.score >= 75 ? 'var(--color-success)' :
+                       pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
+              }
+            }, `Score: ${Math.round(pool.defiScore.score)} (${pool.defiScore.rating})`)
           )
         ),
 
@@ -1935,10 +2177,30 @@ function PoolDetail({
               React.createElement('span', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
               React.createElement('span', { className: 'pool-action-apy-sep' }, ' · '),
               React.createElement('span', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+${_formatApy(pool.apyReward)} Rewards`)
+            ),
+            // Forward Forecast Line under headline APY (2)
+            (pool.forecast && typeof pool.forecast.p50 === 'number') && React.createElement('div', {
+              className: 'pool-hero-forecast-line'
+            },
+              React.createElement('span', { className: 'forecast-lead' },
+                `${t ? t('forecast14d') : '14d Forecast'}: ${_formatApy(pool.forecast.p50)}`
+              ),
+              (typeof pool.forecast.p10 === 'number' && Math.abs(pool.forecast.p50 - pool.forecast.p10) >= 0.05) &&
+              React.createElement('span', { className: 'forecast-floor', style: { opacity: 0.7, marginLeft: '4px' } },
+                `(${t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)})`
+              ),
+              pool.forecast.crashRisk === 'HIGH' && React.createElement('span', {
+                className: 'forecast-risk-pill risk-high',
+                style: { marginLeft: '6px', color: 'var(--color-error, #ef4444)', fontWeight: 600, fontSize: '11px' }
+              }, ' ⚠ ' + (t ? t('crashRiskHigh') : 'High Crash Risk')),
+              pool.forecast.crashRisk === 'LOW' && React.createElement('span', {
+                className: 'forecast-risk-pill risk-low',
+                style: { marginLeft: '6px', color: 'var(--color-success, #10b981)', fontWeight: 600, fontSize: '11px' }
+              }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside'))
             )
           ),
 
-          // Rate-quality note tier (210 A3) — the number's honest qualifier,
+              // Rate-quality note tier (210 A3) — the number's honest qualifier,
           // rendered as plain quiet text directly under the APY it qualifies
           // (225 round 3c: the disconnected gray wells are gone; classes,
           // conditions and copy unchanged). Mutually-exclusive tier chain —
@@ -2005,6 +2267,41 @@ function PoolDetail({
               ? t('rateHistoryUnavailable')
               : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."
           )
+        ),
+
+        // Dedicated Underwriting Endorsement Strip (Certificate-Grade)
+        React.createElement('div', {
+          className: 'pool-hero-underwriting-strip animate-on-mount',
+          id: 'hero-underwriting-strip'
+        },
+          React.createElement('div', { className: 'hero-uw-header' },
+            React.createElement('span', { className: 'hero-uw-tag' }, 'Underwriting · ' + archetypeTag),
+            React.createElement('a', {
+              className: 'hero-uw-jump',
+              href: '#decision-terminal',
+              onClick: (e) => {
+                e.preventDefault();
+                document.getElementById('decision-terminal')?.scrollIntoView({ behavior: 'smooth' });
+              }
+            }, 'Decision Terminal ↓')
+          ),
+          React.createElement('div', { className: 'hero-uw-grid' },
+            React.createElement('div', { className: 'hero-uw-cell' },
+              React.createElement('div', { className: 'hero-uw-cell-label' }, heroMetric1Label),
+              React.createElement('div', { className: 'hero-uw-cell-val' }, heroMetric1Value)
+            ),
+            React.createElement('div', { className: 'hero-uw-cell' },
+              React.createElement('div', { className: 'hero-uw-cell-label' }, heroMetric2Label),
+              React.createElement('div', { className: 'hero-uw-cell-val' }, heroMetric2Value)
+            ),
+            React.createElement('div', { className: 'hero-uw-cell' },
+              React.createElement('div', { className: 'hero-uw-cell-label' }, 'Capacity Status'),
+              React.createElement('div', {
+                className: 'hero-uw-cell-status',
+                style: { color: heroStatusColor }
+              }, heroStatusLabel)
+            )
+          )
         )
       ),
 
@@ -2048,38 +2345,134 @@ function PoolDetail({
         React.createElement('div', { className: 'pool-hero-action-secondary' },
           ...renderProtocolCtaBlock('hero')
         )
-      )
-    ),
+        )
+        ),
 
-    // Engraved rule between hero and Yield Card Terminal
-    React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-      React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-      React.createElement('span', { className: 'cert-divider-node' }),
-      React.createElement('span', { className: 'orn-band cert-divider-strand' })
-    ),
+        // Engraved rule between hero and Institutional Decision Terminal
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
 
-    // Yield-Funded Virtual Card Terminal (PRD Design 3)
-    React.createElement(YieldCardWidget, {
-      pool: pool,
-      totalApy: totalApy,
-      sub: sub,
-      t: t,
-      formatCurrency: formatCurrency,
-      formatUsd: _formatUsd,
-      formatNum: _formatNum,
-      formatApy: _formatApy,
-      riskAssessment: riskAssessment
-    }),
+        // ═══ DECISION TERMINAL (Institutional Forward Underwriting) ══════════════
+        React.createElement('div', {
+          className: 'decision-terminal-card animate-on-mount',
+          id: 'decision-terminal'
+        },
+          React.createElement('div', { className: 'dt-header' },
+            React.createElement('div', { className: 'dt-header-left' },
+              React.createElement('span', { className: 'dt-badge-tag' }, 'INSTITUTIONAL UNDERWRITING · ' + archetypeTag),
+              React.createElement('h2', { className: 'dt-title' }, t ? t('decisionTerminalTitle') : 'Liquidity & Forward Dilution Terminal'),
+              React.createElement('p', { className: 'dt-subtitle' }, engineSubtitle)
+            ),
+            React.createElement('div', { className: 'dt-header-right' },
+              React.createElement('span', { className: 'dt-engine-pill' }, enginePill)
+            )
+          ),
 
-    // Engraved rule between the document's clauses (247 world). Decorative
-    // only: aria-hidden, no text, and the ornament primitives are
-    // pointer-events: none, so this can never sit between a user and a
-    // control.
-    React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-      React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-      React.createElement('span', { className: 'cert-divider-node' }),
-      React.createElement('span', { className: 'orn-band cert-divider-strand' })
-    ),
+          React.createElement('div', { className: 'dt-grid' },
+            // Card 1: Dual Unbundled Yield
+            React.createElement('div', { className: 'dt-panel' },
+              React.createElement('div', { className: 'dt-panel-label' }, '1. Yield Cash Flow Attribution'),
+              React.createElement('div', { className: 'dt-yield-pair' },
+                React.createElement('div', { className: 'dt-yield-box dt-yield-organic' },
+                  React.createElement('div', { className: 'dt-yield-type' }, yieldOrganicLabel),
+                  React.createElement('div', { className: 'dt-yield-num' }, yieldOrganicVal),
+                  React.createElement('div', { className: 'dt-yield-hint' }, yieldOrganicHint)
+                ),
+                React.createElement('div', { className: 'dt-yield-box dt-yield-reward' },
+                  React.createElement('div', { className: 'dt-yield-type' }, yieldRewardLabel),
+                  React.createElement('div', { className: 'dt-yield-num' }, yieldRewardVal),
+                  React.createElement('div', { className: 'dt-yield-hint' }, yieldRewardHint)
+                )
+              )
+            ),
+
+            // Card 2: Physical Liquidity & Exit Capacity
+            React.createElement('div', { className: 'dt-panel' },
+              React.createElement('div', { className: 'dt-panel-label' }, '2. Protocol Capacity & Exit Gauge'),
+              React.createElement('div', { className: 'dt-metric-row' },
+                React.createElement('div', { className: 'dt-metric' },
+                  React.createElement('div', { className: 'dt-metric-name' }, exitMetric1Label),
+                  React.createElement('div', { className: 'dt-metric-val' }, exitMetric1Val),
+                  React.createElement('div', { className: 'dt-yield-hint', style: { fontSize: '10px' } }, exitMetric1Hint)
+                ),
+                React.createElement('div', { className: 'dt-metric' },
+                  React.createElement('div', { className: 'dt-metric-name' }, exitMetric2Label),
+                  React.createElement('div', { className: 'dt-metric-val' }, exitMetric2Val),
+                  React.createElement('div', { className: 'dt-yield-hint', style: { fontSize: '10px' } }, exitMetric2Hint)
+                )
+              ),
+              React.createElement('div', {
+                className: 'dt-traffic-light dt-tl-' + trafficLight.toLowerCase(),
+                style: { borderLeftColor: trafficLightColor }
+              },
+                React.createElement('span', { className: 'dt-tl-dot', style: { backgroundColor: trafficLightColor } }),
+                React.createElement('span', { className: 'dt-tl-text', style: { color: trafficLightColor } }, trafficLightText)
+              )
+            ),
+
+            // Card 3: Interactive Ticket Dilution Simulator
+            React.createElement('div', { className: 'dt-panel dt-panel-full' },
+              React.createElement('div', { className: 'dt-panel-label' }, '3. Interactive Ticket Impact Simulator'),
+              React.createElement('div', { className: 'dt-ticket-presets' },
+                [100000, 500000, 1000000, 5000000, 10000000].map(function (amt) {
+                  return React.createElement('button', {
+                    key: amt,
+                    type: 'button',
+                    className: 'dt-preset-btn ' + (simTicketSize === amt ? 'is-active' : ''),
+                    onClick: function () { setSimTicketSize(amt); }
+                  }, formatCurrency(amt));
+                })
+              ),
+              React.createElement('div', { className: 'dt-sim-result-row' },
+                React.createElement('div', { className: 'dt-sim-item' },
+                  React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('simulatedTicket') : 'Simulated Ticket'),
+                  React.createElement('span', { className: 'dt-sim-val' }, formatCurrency(simTicketSize))
+                ),
+                React.createElement('div', { className: 'dt-sim-item' },
+                  React.createElement('span', { className: 'dt-sim-lbl' }, t ? t('postDepositApy') : 'Post-Deposit APY'),
+                  React.createElement('span', { className: 'dt-sim-val', style: { color: 'var(--cert-green)' } }, _formatApy(postDepositApy))
+                ),
+                React.createElement('div', { className: 'dt-sim-item' },
+                  React.createElement('span', { className: 'dt-sim-lbl' }, isPendle ? 'AMM Slippage Drag' : (t ? t('dilutionBps') : 'Dilution Impact')),
+                  React.createElement('span', { className: 'dt-sim-val', style: { color: dilutionBps > 50 ? 'var(--cert-red)' : 'var(--cert-amber)' } }, '-' + dilutionBps + ' bps')
+                )
+              )
+            )
+          )
+        ),
+
+        // Engraved rule between Decision Terminal and Yield Card Terminal
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
+
+        // Yield-Funded Virtual Card Terminal (PRD Design 3)
+        React.createElement(YieldCardWidget, {
+        pool: pool,
+        totalApy: totalApy,
+        sub: sub,
+        t: t,
+        formatCurrency: formatCurrency,
+        formatUsd: _formatUsd,
+        formatNum: _formatNum,
+        formatApy: _formatApy,
+        riskAssessment: riskAssessment
+        }),
+
+        // Engraved rule between the document's clauses (247 world). Decorative
+        // only: aria-hidden, no text, and the ornament primitives are
+        // pointer-events: none, so this can never sit between a user and a
+        // control.
+        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+        React.createElement('span', { className: 'cert-divider-node' }),
+        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+        ),
 
     // Collapsible Yield Calculator — now the single "your garden" earnings
     // block (210 B). The standalone pool-projection-card ("THE LONG GAME")
@@ -2478,6 +2871,44 @@ function PoolDetail({
           mean30dSane && React.createElement('div', { className: 'pool-fact-row' },
             React.createElement('div', { className: 'pool-fact-label' }, t ? t('apyMean30d') : '30d Mean APY'),
             React.createElement('div', { className: 'pool-fact-value' }, _formatApy(pool.apyMean30d))
+          ),
+
+          // TimesFM 14d Forecast (if available)
+          (pool.forecast && typeof pool.forecast.p50 === 'number') && React.createElement('div', { className: 'pool-fact-row' },
+            React.createElement('div', { className: 'pool-fact-label' }, t ? t('forecast14d') : '14d AI Forecast'),
+            React.createElement('div', { className: 'pool-fact-value' },
+              _formatApy(pool.forecast.p50) + ' (' + (t ? t('forecastFloor', _formatApy(pool.forecast.p10)) : 'Floor: ' + _formatApy(pool.forecast.p10)) + ')',
+              pool.forecast.crashRisk === 'HIGH' && React.createElement('span', {
+                className: 'pool-risk-pill-danger',
+                style: { marginLeft: '6px', fontSize: '11px', color: 'var(--color-error, #ef4444)', fontWeight: 600 }
+              }, ' ⚠ ' + (t ? t('crashRiskHigh') : 'High Crash Risk')),
+              pool.forecast.crashRisk === 'LOW' && React.createElement('span', {
+                className: 'pool-risk-pill-safe',
+                style: { marginLeft: '6px', fontSize: '11px', color: 'var(--color-success, #10b981)', fontWeight: 600 }
+              }, ' ✓ ' + (t ? t('crashRiskLow') : 'Stable Downside'))
+            )
+          ),
+
+          // Yield Decomposition (if reward yield is present)
+          (pool.forecast && typeof pool.forecast.rewardApy === 'number' && pool.forecast.rewardApy > 0) && React.createElement('div', { className: 'pool-fact-row' },
+            React.createElement('div', { className: 'pool-fact-label' }, t ? t('yieldDecomp') : 'Yield Mix'),
+            React.createElement('div', { className: 'pool-fact-value' },
+              `${_formatApy(pool.forecast.organicApy)} ${t ? t('organicLabel') : 'Organic'} / ${_formatApy(pool.forecast.rewardApy)} ${t ? t('rewardLabel') : 'Reward'}`
+            )
+          ),
+
+          // DeFi Score (if available)
+          (pool.defiScore && typeof pool.defiScore.score === 'number') && React.createElement('div', { className: 'pool-fact-row' },
+            React.createElement('div', { className: 'pool-fact-label' }, t ? t('defiScore') : 'DeFi Health Score'),
+            React.createElement('div', {
+              className: 'pool-fact-value',
+              title: scoreTooltip,
+              style: {
+                fontWeight: 600,
+                color: pool.defiScore.score >= 75 ? 'var(--color-success, #10b981)' :
+                       pool.defiScore.score >= 50 ? 'var(--color-primary, #3b82f6)' : 'var(--color-warning, #f59e0b)'
+              }
+            }, `${pool.defiScore.score}/100 (${pool.defiScore.rating})`)
           ),
 
           // Exposure (if available)

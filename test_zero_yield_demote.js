@@ -342,7 +342,7 @@ async function main() {
     await page.waitForSelector('.pool-card', { timeout: 15000 });
 
     const SORT_TOGGLES = [
-      { name: 'Risk-Adjusted', label: translations.en.sortByRiskAdjusted },
+      { name: 'Score', label: translations.en.sortByScore || 'Score' },
       { name: 'TVL', label: 'TVL' },
       { name: 'APY', label: 'APY' }
     ];
@@ -382,11 +382,11 @@ async function main() {
     activeFixture = 'B';
     await page.goto(`http://localhost:${PORT}/?chain=Popular`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
-    await page.locator('.sort-toggle-btn', { hasText: translations.en.sortByRiskAdjusted }).click();
+    await page.locator('.sort-toggle-btn', { hasText: translations.en.sortByScore || 'Score' }).click();
     await waitForPartition(page, popBYieldingSymbols, popBZeroSymbols.concat(popBAnomSymbols));
     await waitForPartition(page, popBZeroSymbols, popBAnomSymbols);
 
-    await test('Population B Risk-Adjusted sort: sane-yielding < zero-yield < anomalous (trust rail still wins) (239)', async () => {
+    await test('Population B Score sort: sane-yielding < zero-yield < anomalous (trust rail still wins) (239)', async () => {
       const order = await symbolOrder(page);
       assertBefore(order, popBYieldingSymbols, popBZeroSymbols, 'yielding-before-zero');
       assertBefore(order, popBZeroSymbols, popBAnomSymbols, 'zero-before-anomalous');
@@ -404,7 +404,7 @@ async function main() {
     activeFixture = 'A';
     await page.goto(`http://localhost:${PORT}/?token=USDC`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
-    await page.locator('.sort-toggle-btn', { hasText: translations.en.sortByRiskAdjusted }).click();
+    await page.locator('.sort-toggle-btn', { hasText: translations.en.sortByScore || 'Score' }).click();
 
     const highestTvlZeroSymbol = POP_A
       .filter(isZeroYield)
@@ -414,7 +414,7 @@ async function main() {
       return syms.length > 0 && syms[0] === sym;
     }, highestTvlZeroSymbol, { timeout: 5000 }).catch(() => {});
 
-    await test('/?token=USDC Risk-Adjusted sort: unchanged by 239 — highest-TVL zero-yield pool still ranks FIRST', async () => {
+    await test('/?token=USDC Score sort: unchanged by 239 — highest-TVL zero-yield pool still ranks FIRST', async () => {
       const order = await symbolOrder(page);
       if (order[0] !== highestTvlZeroSymbol) {
         throw new Error(`scope pin broken: expected ${JSON.stringify(highestTvlZeroSymbol)} first on the token view, got order=${JSON.stringify(order)}`);

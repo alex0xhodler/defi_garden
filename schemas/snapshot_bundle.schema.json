@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defi.garden/schemas/2026/snapshot_bundle.schema.json",
+  "title": "SnapshotBundle",
+  "description": "Strict content-addressed shard manifest schema for DeFi Garden. Cryptographically pins git commit, execution block number, run identifier, and content hashes across all shards to guarantee deterministic reproducibility and eliminate mixed-version CDN cache races.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "git_sha",
+    "as_of_block",
+    "run_id",
+    "hash",
+    "timestamp_utc",
+    "chain_id",
+    "shards"
+  ],
+  "properties": {
+    "git_sha": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{7,40}$",
+      "description": "Git commit SHA of the engine code producing the snapshot."
+    },
+    "as_of_block": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Pinned consensus block number for all multicall reads in this snapshot."
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[0-9a-zA-Z_.-]{8,64}$",
+      "description": "Unique deterministic execution run identifier."
+    },
+    "hash": {
+      "type": "string",
+      "pattern": "^(sha256:)?[0-9a-fA-F]{64}$",
+      "description": "Content-addressed SHA-256 digest of this snapshot manifest bundle."
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp of snapshot finalization."
+    },
+    "chain_id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "EVM chain ID for the pinned block."
+    },
+    "block_hash": {
+      "type": "string",
+      "pattern": "^0x[0-9a-fA-F]{64}$",
+      "description": "EVM block hash corresponding to as_of_block."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["SEALED", "STALE", "FAILED_CLOSED"],
+      "default": "SEALED",
+      "description": "Publishing lifecycle status of the shard manifest."
+    },
+    "shards": {
+      "type": "object",
+      "description": "Dictionary mapping shard identifier (e.g. pool address or market ID) to its content-addressed shard entry.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "content_hash", "size_bytes"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^/shards/[0-9a-zA-Z_.-]+\\.[0-9a-fA-F]{6,64}\\.json$",
+            "description": "Content-addressed immutable path to the shard file."
+          },
+          "content_hash": {
+            "type": "string",
+            "pattern": "^(sha256:)?[0-9a-fA-F]{64}$",
+            "description": "SHA-256 hash of the individual shard JSON content."
+          },
+          "size_bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "File payload size in bytes."
+          },
+          "protocol": {
+            "type": "string",
+            "description": "Protocol identifier (e.g. aave_v3, morpho, pendle)."
+          },
+          "market_id": {
+            "type": "string",
+            "description": "Unique on-chain market or pool identifier."
+          }
+        }
+      }
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["signer", "signature", "scheme"],
+      "properties": {
+        "signer": { "type": "string" },
+        "signature": { "type": "string" },
+        "scheme": { "type": "string", "enum": ["secp256k1", "ed25519"] }
+      }
+    }
+  }
+}

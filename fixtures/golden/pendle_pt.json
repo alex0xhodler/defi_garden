@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "description": "Pinned reference golden fixtures for Pendle PT normalization and spread decomposition per Master Blueprint Section 3.6",
+  "fixtures": [
+    {
+      "id": "blueprint_3_6_3_pt_fixture",
+      "description": "Master Blueprint Section 3.6.3 synthetic PT fixture",
+      "inputs": {
+        "pt_acquisition_cost_u": 0.95,
+        "redemption_u": 1.0,
+        "cost_u": 0.0,
+        "tau_years": 0.5,
+        "benchmark_yield": 0.05
+      },
+      "expected": {
+        "pt_yield": 0.10803324099722977,
+        "s_simple_bps": 580.3324099722977,
+        "s_log_bps": 537.9642460566891,
+        "taxonomy": {
+          "pt_yield": "MECHANICAL_CONDITIONAL",
+          "benchmark_yield": "OBSERVED",
+          "s_simple_bps": "MECHANICAL_CONDITIONAL",
+          "s_log_bps": "MECHANICAL_CONDITIONAL"
+        }
+      }
+    },
+    {
+      "id": "pendle_spread_organic_weeth_30d",
+      "description": "Pendle 30-day decomposition without points campaign",
+      "inputs": {
+        "implied_apy": 0.08,
+        "fair_forward_apy": 0.10,
+        "maturity_days": 30.0,
+        "forecast_horizon_days": 30.0,
+        "has_points_campaign": false,
+        "estimated_points_apy": 0.0
+      },
+      "expected": {
+        "delta_total": 0.02,
+        "delta_organic": 0.02,
+        "flag_unmodeled_points": false,
+        "points_category": "NONE",
+        "warning_codes": []
+      }
+    },
+    {
+      "id": "pendle_spread_points_campaign_60d",
+      "description": "Pendle 60-day decomposition with active points campaign",
+      "inputs": {
+        "implied_apy": 0.12,
+        "fair_forward_apy": 0.09,
+        "maturity_days": 60.0,
+        "forecast_horizon_days": 60.0,
+        "has_points_campaign": true,
+        "estimated_points_apy": 0.04
+      },
+      "expected": {
+        "delta_total": -0.03,
+        "delta_organic": 0.01,
+        "flag_unmodeled_points": true,
+        "points_category": "EXOGENOUS_POINTS_UNMODELED",
+        "warning_codes": []
+      }
+    }
+  ]
+}

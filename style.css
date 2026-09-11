@@ -3460,8 +3460,12 @@ body {
     align-self: center;
   }
 
-  .pools-list .pool-symbol {
+  .pools-list .pool-symbol-line {
     grid-area: name;
+    align-self: center;
+  }
+
+  .pools-list .pool-symbol {
     align-self: center;
   }
 
@@ -3486,6 +3490,7 @@ body {
     grid-area: tvl;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     align-self: center;
   }
 
@@ -3639,6 +3644,41 @@ body {
   display: flex;
   align-items: baseline;
   gap: var(--space-6);
+}
+
+.pool-symbol-line {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6, 6px);
+  min-width: 0;
+}
+
+.pool-score-chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: var(--cert-paper-deep, rgba(255, 255, 255, 0.04));
+  color: var(--cert-ink-2, var(--ui-text-secondary));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+}
+
+[data-theme="dark"] .pool-score-chip {
+  background: rgba(124, 201, 160, 0.06);
+  border-color: rgba(124, 201, 160, 0.18);
+  color: #A9B7A9;
+}
+
+.pool-score-chip strong {
+  color: var(--cert-green, #7CC9A0);
+  font-weight: 700;
+  margin-left: 3px;
 }
 
 /* 225 round 3 (a): border/radius/padding no longer come from the shared
