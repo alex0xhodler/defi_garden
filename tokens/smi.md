@@ -6,7 +6,7 @@ The highest honest SMI yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8b815e7b-2493-4f17-bae5-9a69e679c270&src=seo_token) | Ethereum | 0.01% | $265.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8b815e7b-2493-4f17-bae5-9a69e679c270&src=seo_token) | Ethereum | 0.01% | $270.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $265.7K in total.
+1 live pool clear this page's $100K TVL floor, $270.2K in total.
 
 ### Are these rates safe?
 

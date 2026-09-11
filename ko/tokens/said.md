@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SAID의 가장 높은 정직한 수익률은 Ethereum의 gaib에서 10.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SAID의 가장 높은 정직한 수익률은 Ethereum의 gaib에서 10.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.84% | $16.72M |
+| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.85% | $16.72M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 SAID의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 gaib에서 APY 10.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 gaib에서 APY 10.85%예요.
 
 ### SAID 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

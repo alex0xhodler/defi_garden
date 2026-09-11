@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest AEVO yield right now is 10.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEVO yield right now is 14.08% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c5cb8b8-aac6-4deb-a67b-64b4e226236c&src=seo_token) | Ethereum | 10.16% | $525.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c5cb8b8-aac6-4deb-a67b-64b4e226236c&src=seo_token) | Ethereum | 14.08% | $532K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEVO yield today?
 
-10.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+14.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AEVO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $525.1K in total.
+1 live pool clear this page's $100K TVL floor, $532K in total.
 
 ### Are these rates safe?
 

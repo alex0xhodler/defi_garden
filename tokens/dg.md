@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest DG yield right now is 0.14% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DG yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=548d60d6-ad48-40c4-a93a-a056f25df10c&src=seo_token) | Ethereum | 0.14% | $3.73M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=548d60d6-ad48-40c4-a93a-a056f25df10c&src=seo_token) | Ethereum | 0.03% | $3.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DG yield today?
 
-0.14% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DG pools clear the TVL floor?
 

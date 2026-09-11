@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest GASS yield right now is 1.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GASS yield right now is 2.22% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=95f488cd-2fa6-42c9-8288-1cc5e19e6674&src=seo_token) | Ethereum | 1.43% | $135.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=95f488cd-2fa6-42c9-8288-1cc5e19e6674&src=seo_token) | Ethereum | 2.22% | $138.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GASS yield today?
 
-1.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.22% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GASS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.2K in total.
+1 live pool clear this page's $100K TVL floor, $138.8K in total.
 
 ### Are these rates safe?
 

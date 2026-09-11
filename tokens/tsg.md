@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest TSG yield right now is 0.86% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSG yield right now is 3.66% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=955d4576-3cf7-43d5-bb62-8e0ae06f766e&src=seo_token) | Base | 0.86% | $231.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=955d4576-3cf7-43d5-bb62-8e0ae06f766e&src=seo_token) | Base | 3.66% | $242.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSG yield today?
 
-0.86% APY on uniswap-v4 (Base), based on live DefiLlama data.
+3.66% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many TSG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $231.3K in total.
+1 live pool clear this page's $100K TVL floor, $242.5K in total.
 
 ### Are these rates safe?
 

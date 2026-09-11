@@ -6,7 +6,7 @@ The highest honest BP yield right now is 1.16% on raydium-amm (Solana), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4a381a15-91d6-5ebf-aa04-3c6fba3c8898&src=seo_token) | Solana | 493.96% | $189.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=4a381a15-91d6-5ebf-aa04-3c6fba3c8898&src=seo_token) | Solana | 575.63% | $163.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=a60c788b-e3f5-5efb-aac7-dc05a8f0144a&src=seo_token) | Solana | 1.16% | $156K |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BP shows up in 2 pools here, with rates from 1.16% to 493.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BP shows up in 2 pools here, with rates from 1.16% to 575.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 2 pools has a trustworthy 30-day average on file, with a median of 1.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 493.96% | — | Base rate |
+| raydium-amm | 575.63% | — | Base rate |
 | raydium-amm | 1.16% | 1.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $345.7K in total.
+2 live pools clear this page's $100K TVL floor, $319.6K in total.
 
 ### Are these rates safe?
 

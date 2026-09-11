@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DOC의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.82%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DOC의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 0.82% | $221.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f4696767-bb9b-47ff-bd5e-2a6c7fa49e3b&src=seo_token) | Arbitrum | 0.04% | $221.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 DOC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.82%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.04%예요.
 
 ### DOC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.82%예�
 
 ## 관련 토큰
 
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)

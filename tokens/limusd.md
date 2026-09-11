@@ -29,15 +29,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 LIMUSD shows up in 4 pools here, with rates from 7.54% to 11.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liminal-basis | 7.54% | 4.68% | Base rate |
-| pendle-v2 | 9.11% | 10.17% | Base rate |
-| pendle-v2 | 11.23% | 10.53% | Base rate |
+| pendle-v2 | 9.11% | 10.19% | Base rate |
+| pendle-v2 | 11.23% | 10.56% | Base rate |
 | liminal-basis | 7.54% | 4.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIMUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.95M in total.
+4 live pools clear this page's $100K TVL floor, $12.94M in total.
 
 ### Are these rates safe?
 
@@ -62,8 +62,8 @@ Based on APY history only, LIMUSD's lower-variability candidates are pendle-v2 (
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)

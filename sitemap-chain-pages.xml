@@ -51,12 +51,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/aptos</loc>
+    <loc>https://www.defi.garden/chains/robinhood-chain</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/robinhood-chain</loc>
+    <loc>https://www.defi.garden/chains/aptos</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -96,12 +96,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
+    <loc>https://www.defi.garden/chains/linea</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/linea</loc>
+    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -231,12 +231,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/thorchain</loc>
+    <loc>https://www.defi.garden/chains/megaeth</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/megaeth</loc>
+    <loc>https://www.defi.garden/chains/thorchain</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/neutron</loc>
+    <loc>https://www.defi.garden/chains/etherlink</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/etherlink</loc>
+    <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -276,12 +276,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/citrea</loc>
+    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
+    <loc>https://www.defi.garden/chains/citrea</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -301,12 +301,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/strato</loc>
+    <loc>https://www.defi.garden/chains/unichain</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/unichain</loc>
+    <loc>https://www.defi.garden/chains/strato</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest SWEAT yield right now is 4.05% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWEAT yield right now is 2.63% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74&src=seo_token) | Ethereum | 4.05% | $106.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74&src=seo_token) | Ethereum | 2.63% | $107.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWEAT yield today?
 
-4.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SWEAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.9K in total.
+1 live pool clear this page's $100K TVL floor, $107.6K in total.
 
 ### Are these rates safe?
 

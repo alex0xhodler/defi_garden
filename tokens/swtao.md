@@ -6,7 +6,7 @@ The highest honest SWTAO yield right now is 0.01% on hatom-lending (MultiversX),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hatom-lending →](https://www.defi.garden/?pool=1f263ce1-d20e-484f-b7ad-01bc8e4218d5&src=seo_token) | MultiversX | 0.01% | $908.7K |
+| [hatom-lending →](https://www.defi.garden/?pool=1f263ce1-d20e-484f-b7ad-01bc8e4218d5&src=seo_token) | MultiversX | 0.01% | $926.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SWTAO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $908.7K in total.
+1 live pool clear this page's $100K TVL floor, $926.5K in total.
 
 ### Are these rates safe?
 

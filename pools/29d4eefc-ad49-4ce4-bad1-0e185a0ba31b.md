@@ -1,8 +1,8 @@
 # BBTC-SBTCCRV — curve-dex on Ethereum
 
-**Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
+**Total APY:** 0.05% (0.05% Base · + 0.00% Rewards)
 
-**TVL:** $132.5K
+**TVL:** $133.8K
 
 **Pool Type:** LP/DEX
 

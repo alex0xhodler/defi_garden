@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest SBC yield right now is 0.66% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBC yield right now is 0.74% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.66% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.74% | $102K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SBC shows up in 1 pools here, with rates from 0.66% to 0.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SBC shows up in 1 pools here, with rates from 0.74% to 0.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.66% | 0.26% | Base rate |
+| uniswap-v3 | 0.74% | 0.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SBC yield today?
 
-0.66% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.74% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many SBC pools clear the TVL floor?
 

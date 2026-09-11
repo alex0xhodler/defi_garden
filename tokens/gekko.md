@@ -6,7 +6,7 @@ The highest honest GEKKO yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c11b8b80-c301-41de-b7ab-8c0740cf6fe8&src=seo_token) | Ethereum | 0.01% | $3.01M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c11b8b80-c301-41de-b7ab-8c0740cf6fe8&src=seo_token) | Ethereum | 0.01% | $3.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GEKKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.01M in total.
+1 live pool clear this page's $100K TVL floor, $3.08M in total.
 
 ### Are these rates safe?
 

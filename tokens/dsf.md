@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest DSF yield right now is 3.22% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DSF yield right now is 4.71% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=40f594c5-4b85-4201-bf3a-f0c8f8285180&src=seo_token) | Solana | 3.22% | $166.7K |
+| [orca-dex →](https://www.defi.garden/?pool=40f594c5-4b85-4201-bf3a-f0c8f8285180&src=seo_token) | Solana | 4.71% | $165.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DSF yield today?
 
-3.22% APY on orca-dex (Solana), based on live DefiLlama data.
+4.71% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DSF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.7K in total.
+1 live pool clear this page's $100K TVL floor, $165.3K in total.
 
 ### Are these rates safe?
 

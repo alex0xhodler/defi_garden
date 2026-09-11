@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest BALAJIS yield right now is 0.73% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BALAJIS yield right now is 10.04% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 0.73% | $220.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 10.04% | $231.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BALAJIS yield today?
 
-0.73% APY on uniswap-v4 (Base), based on live DefiLlama data.
+10.04% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BALAJIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.1K in total.
+1 live pool clear this page's $100K TVL floor, $231.4K in total.
 
 ### Are these rates safe?
 

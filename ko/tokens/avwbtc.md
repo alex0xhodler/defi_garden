@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $515.6K |
+| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $523.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.53%예�
 
 ### AVWBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $515.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $523.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.53%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
-- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

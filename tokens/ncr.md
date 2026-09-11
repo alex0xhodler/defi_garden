@@ -6,7 +6,7 @@ The highest honest NCR yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=247150e5-6e30-4c32-9c58-bf45ef62dd8f&src=seo_token) | Ethereum | 0.01% | $309.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=247150e5-6e30-4c32-9c58-bf45ef62dd8f&src=seo_token) | Ethereum | 0.01% | $311.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NCR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $309.6K in total.
+1 live pool clear this page's $100K TVL floor, $311.4K in total.
 
 ### Are these rates safe?
 

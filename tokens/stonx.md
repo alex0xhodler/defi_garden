@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest STONX yield right now is 13.41% on ekubo (Robinhood Chain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONX yield right now is 6.43% on ekubo (Robinhood Chain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_token) | Robinhood Chain | 13.41% | $686.5K |
+| [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_token) | Robinhood Chain | 6.43% | $684.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STONX shows up in 1 pools here, with rates from 13.41% to 13.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONX shows up in 1 pools here, with rates from 6.43% to 6.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 14.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 14.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ STONX shows up in 1 pools here, with rates from 13.41% to 13.41% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 13.41% | 14.23% | 100.00% incentives |
+| ekubo | 6.43% | 14.11% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONX yield today?
 
-13.41% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
+6.43% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
 
 ### How many STONX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.07M in total.
+2 live pools clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 
@@ -54,9 +54,9 @@ There is not enough qualifying APY history to rank STONX pools. This view covers
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
+- [AAPL](https://www.defi.garden/tokens/aapl)
 - [GREEN](https://www.defi.garden/tokens/green)
 - [RIPE](https://www.defi.garden/tokens/ripe)
-- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 

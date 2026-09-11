@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest PONKE yield right now is 2.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PONKE yield right now is 2.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac66514d-8133-45a3-b317-2a2ae2ecd82e&src=seo_token) | Solana | 2.23% | $1.38M |
+| [raydium-amm →](https://www.defi.garden/?pool=ac66514d-8133-45a3-b317-2a2ae2ecd82e&src=seo_token) | Solana | 2.05% | $1.43M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PONKE yield today?
 
-2.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PONKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.38M in total.
+1 live pool clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 

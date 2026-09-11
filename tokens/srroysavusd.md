@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest SRROYSAVUSD yield right now is 7.81% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSAVUSD yield right now is 7.63% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 7.81% | $4.98M |
+| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 7.63% | $4.98M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSAVUSD yield today?
 
-7.81% APY on royco-v2 (Avalanche), based on live DefiLlama data.
+7.63% APY on royco-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many SRROYSAVUSD pools clear the TVL floor?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank SRROYSAVUSD pools. This view 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 

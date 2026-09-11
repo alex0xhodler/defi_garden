@@ -2,14 +2,14 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WARS의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 24.01%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WARS의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 24.09%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.01% | $5.83M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ca8df672-e518-577c-84f8-450aaffd3931&src=seo_token) | Ethereum | 0.04% | $278.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.39% | $237.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.08% | $110.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.09% | $5.83M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ca8df672-e518-577c-84f8-450aaffd3931&src=seo_token) | Ethereum | 0.07% | $278.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.02% | $237.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.07% | $110.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,9 +20,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WARS 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.04%부터 24.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WARS 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.02%부터 24.09%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.31%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -30,10 +30,10 @@ WARS 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.04%부터 24.01%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 24.01% | 20.82% | 인센티브 99.33% |
-| uniswap-v4 | 0.04% | 0.45% | 기본 금리 |
-| uniswap-v4 | 0.39% | 0.19% | 기본 금리 |
-| uniswap-v3 | 0.08% | 0.06% | 기본 금리 |
+| morpho-blue | 24.09% | 21.16% | 인센티브 99.16% |
+| uniswap-v4 | 0.07% | 0.43% | 기본 금리 |
+| uniswap-v4 | 0.02% | 0.19% | 기본 금리 |
+| uniswap-v3 | 0.07% | 0.06% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -41,7 +41,7 @@ WARS 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.04%부터 24.01%�
 
 ### 오늘 WARS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 24.01%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 24.09%예요.
 
 ### WARS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

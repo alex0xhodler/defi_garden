@@ -6,7 +6,7 @@ The highest honest GYEN yield right now is 0.01% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bf3f17fb-d3c6-55b7-8466-e8332606efdd&src=seo_token) | Ethereum | 0.01% | $1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bf3f17fb-d3c6-55b7-8466-e8332606efdd&src=seo_token) | Ethereum | 0.01% | $1,000K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GYEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1M in total.
+1 live pool clear this page's $100K TVL floor, $1,000K in total.
 
 ### Are these rates safe?
 

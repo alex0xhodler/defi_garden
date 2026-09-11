@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest TRUE yield right now is 0.22% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUE yield right now is 0.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5785bc0d-a33d-42f8-a376-2cbed8e08c1b&src=seo_token) | Base | 0.22% | $200.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5785bc0d-a33d-42f8-a376-2cbed8e08c1b&src=seo_token) | Base | 0.03% | $209.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRUE yield today?
 
-0.22% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many TRUE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.2K in total.
+1 live pool clear this page's $100K TVL floor, $209.8K in total.
 
 ### Are these rates safe?
 

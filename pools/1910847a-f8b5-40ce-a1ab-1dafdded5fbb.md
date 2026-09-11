@@ -1,8 +1,8 @@
 # USTB — invesco-ustb on Ethereum
 
-**Total APY:** 3.54% (3.54% Base · + 0.00% Rewards)
+**Total APY:** 3.55% (3.55% Base · + 0.00% Rewards)
 
-**TVL:** $595.52M
+**TVL:** $591.61M
 
 **Pool Type:** Yield Farming
 

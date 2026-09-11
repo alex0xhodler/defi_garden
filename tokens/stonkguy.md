@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest STONKGUY yield right now is 299.52% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKGUY yield right now is 267.57% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e93abfe8-884e-559e-86d3-40e2bbc9336c&src=seo_token) | Solana | 107.77% | $170.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=96c5d310-fda0-52fd-8d09-2c5933206e9d&src=seo_token) | Solana | 299.52% | $101.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=e93abfe8-884e-559e-86d3-40e2bbc9336c&src=seo_token) | Solana | 104.70% | $187.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=96c5d310-fda0-52fd-8d09-2c5933206e9d&src=seo_token) | Solana | 267.57% | $114.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STONKGUY shows up in 2 pools here, with rates from 107.77% to 299.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONKGUY shows up in 2 pools here, with rates from 104.70% to 267.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 512.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 486.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 107.77% | 291.24% | Base rate |
-| raydium-amm | 299.52% | 734.15% | Base rate |
+| raydium-amm | 104.70% | 283.32% | Base rate |
+| raydium-amm | 267.57% | 689.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONKGUY yield today?
 
-299.52% APY on raydium-amm (Solana), based on live DefiLlama data.
+267.57% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STONKGUY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $271.7K in total.
+2 live pools clear this page's $100K TVL floor, $302.1K in total.
 
 ### Are these rates safe?
 

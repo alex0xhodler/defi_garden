@@ -1,8 +1,8 @@
 # HBAR-XSAUCE — saucerswap-v1 on Hedera
 
-**Total APY:** 1.09% (0.19% Base · + 0.90% Rewards)
+**Total APY:** 1.10% (0.20% Base · + 0.90% Rewards)
 
-**TVL:** $266.1K
+**TVL:** $265.4K
 
 **Pool Type:** Yield Farming
 

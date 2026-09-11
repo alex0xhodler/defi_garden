@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest CHAMP yield right now is 377.34% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHAMP yield right now is 384.96% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=c76a6513-9d98-446f-a042-bea02abd3162&src=seo_token) | Base | 377.34% | $123.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=c76a6513-9d98-446f-a042-bea02abd3162&src=seo_token) | Base | 384.96% | $133.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHAMP yield today?
 
-377.34% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+384.96% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many CHAMP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.4K in total.
+1 live pool clear this page's $100K TVL floor, $133.8K in total.
 
 ### Are these rates safe?
 

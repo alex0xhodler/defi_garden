@@ -1,12 +1,12 @@
 # ETH-ZIK — uniswap-v4 on Ethereum
 
-**Total APY:** 1.29% (1.29% Base · + 0.00% Rewards)
+**Total APY:** 4.09% (4.09% Base · + 0.00% Rewards)
 
-**TVL:** $193.4K
+**TVL:** $199.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.96%
+**30d Mean APY:** 0.99%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,066 in 5y at current rates.
+$1,000 in this pool grows to ~$1,222 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
+This pool's rate moves a lot: 4.09% right now vs a 0.99% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,066 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,222 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 

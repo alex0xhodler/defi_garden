@@ -6,7 +6,7 @@ The highest honest YFIM yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38475eae-ccc9-4972-a32a-45147c1b4374&src=seo_token) | Ethereum | 0.01% | $294.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38475eae-ccc9-4972-a32a-45147c1b4374&src=seo_token) | Ethereum | 0.01% | $299.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YFIM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $294.2K in total.
+1 live pool clear this page's $100K TVL floor, $299.8K in total.
 
 ### Are these rates safe?
 

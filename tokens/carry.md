@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest CARRY yield right now is 10.55% on vault-street (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARRY yield right now is 10.62% on vault-street (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 10.55% | $246.3K |
+| [vault-street →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 10.62% | $246.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CARRY yield today?
 
-10.55% APY on vault-street (Ethereum), based on live DefiLlama data.
+10.62% APY on vault-street (Ethereum), based on live DefiLlama data.
 
 ### How many CARRY pools clear the TVL floor?
 

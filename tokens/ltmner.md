@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest LTMNER yield right now is 4.73% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LTMNER yield right now is 3.98% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=45e1f7f3-2675-41e1-b2c4-b30f06e93e5a&src=seo_token) | BSC | 4.73% | $284.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=45e1f7f3-2675-41e1-b2c4-b30f06e93e5a&src=seo_token) | BSC | 3.98% | $289.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LTMNER yield today?
 
-4.73% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+3.98% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many LTMNER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.7K in total.
+1 live pool clear this page's $100K TVL floor, $289.9K in total.
 
 ### Are these rates safe?
 

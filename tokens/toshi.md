@@ -2,32 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest TOSHI yield right now is 6.33% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOSHI yield right now is 12.64% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token) | Base | 6.33% | $1.11M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token) | Base | 5.81% | $1.12M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bf440b20-a144-4a8b-8874-ea2ae51889e2&src=seo_token) | Base | 12.64% | $100.8K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank TOSHI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TOSHI's lower-variability candidates are uniswap-v4 (Base), 12.64% APY, $100.8K TVL, https://www.defi.garden/?pool=bf440b20-a144-4a8b-8874-ea2ae51889e2&src=seo_token; uniswap-v3 (Base), 5.81% APY, $1.12M TVL, https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bf440b20-a144-4a8b-8874-ea2ae51889e2&src=seo_token) | Base | 12.64% | $100.8K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token) | Base | 5.81% | $1.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TOSHI shows up in 1 pools here, with rates from 6.33% to 6.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TOSHI shows up in 2 pools here, with rates from 5.81% to 12.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 15.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 6.33% | 15.26% | Base rate |
+| uniswap-v3 | 5.81% | 15.06% | Base rate |
+| uniswap-v4 | 12.64% | 20.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TOSHI yield today?
 
-6.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
+12.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many TOSHI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.44M in total.
+4 live pools clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -47,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TOSHI pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank TOSHI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TOSHI's lower-variability candidates are uniswap-v4 (Base), 12.64% APY, $100.8K TVL, https://www.defi.garden/?pool=bf440b20-a144-4a8b-8874-ea2ae51889e2&src=seo_token; uniswap-v3 (Base), 5.81% APY, $1.12M TVL, https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

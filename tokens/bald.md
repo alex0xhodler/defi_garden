@@ -6,7 +6,7 @@ The highest honest BALD yield right now is 0.13% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4fddd9-aa03-46dc-9141-9d68ad3b7a55&src=seo_token) | Base | 0.13% | $3.92M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e4fddd9-aa03-46dc-9141-9d68ad3b7a55&src=seo_token) | Base | 0.13% | $4.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BALD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.92M in total.
+1 live pool clear this page's $100K TVL floor, $4.14M in total.
 
 ### Are these rates safe?
 

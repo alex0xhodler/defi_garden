@@ -2,41 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest ICP yield right now is 261.58% on aerodrome-slipstream (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICP yield right now is 207.64% on aerodrome-slipstream (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 261.58% | $696.6K |
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 52.92% | $642.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 12.23% | $520.3K |
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 18.90% | $514.6K |
-| [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc&src=seo_token) | ICP | 0.17% | $384.7K |
-| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 33.54% | $134.2K |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.05% | $124.7K |
-| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 1.64% | $122K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 207.64% | $710.3K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 57.67% | $650.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 11.14% | $535.5K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 16.80% | $525.2K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 30.91% | $142.2K |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.01% | $128K |
+| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 0.98% | $125.8K |
+| [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token) | ICP | 1.41% | $109.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ICP's lower-variability candidates are icpswap (ICP), 1.64% APY, $122K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; icpswap (ICP), 0.05% APY, $124.7K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token; uniswap-v3 (Ethereum), 12.23% APY, $520.3K TVL, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token; icpswap (ICP), 18.90% APY, $514.6K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; icpswap (ICP), 33.54% APY, $134.2K TVL, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token; icpswap (ICP), 52.92% APY, $642.7K TVL, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token; aerodrome-slipstream (Base), 261.58% APY, $696.6K TVL, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ICP's lower-variability candidates are icpswap (ICP), 0.98% APY, $125.8K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; icpswap (ICP), 0.01% APY, $128K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token; icpswap (ICP), 1.41% APY, $109.7K TVL, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token; uniswap-v3 (Ethereum), 11.14% APY, $535.5K TVL, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token; icpswap (ICP), 16.80% APY, $525.2K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; icpswap (ICP), 30.91% APY, $142.2K TVL, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token; icpswap (ICP), 57.67% APY, $650.8K TVL, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token; aerodrome-slipstream (Base), 207.64% APY, $710.3K TVL, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 1.64% | $122K |
-| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.05% | $124.7K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 12.23% | $520.3K |
-| 4 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 18.90% | $514.6K |
-| 5 | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 33.54% | $134.2K |
-| 6 | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 52.92% | $642.7K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 261.58% | $696.6K |
+| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 0.98% | $125.8K |
+| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.01% | $128K |
+| 3 | [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token) | ICP | 1.41% | $109.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 11.14% | $535.5K |
+| 5 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 16.80% | $525.2K |
+| 6 | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 30.91% | $142.2K |
+| 7 | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 57.67% | $650.8K |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 207.64% | $710.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ICP shows up in 8 pools here, with rates from 0.05% to 261.58% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ICP shows up in 8 pools here, with rates from 0.01% to 207.64% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 13.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 13.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -44,14 +45,14 @@ ICP shows up in 8 pools here, with rates from 0.05% to 261.58% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 261.58% | 247.22% | 88.00% incentives |
-| icpswap | 52.92% | 27.78% | Base rate |
-| uniswap-v3 | 12.23% | 10.96% | Base rate |
-| icpswap | 18.90% | 15.06% | Base rate |
-| icpswap | 0.17% | 0.60% | Base rate |
-| icpswap | 33.54% | 24.50% | Base rate |
-| icpswap | 0.05% | 1.10% | Base rate |
-| icpswap | 1.64% | 4.34% | Base rate |
+| aerodrome-slipstream | 207.64% | 249.03% | 86.57% incentives |
+| icpswap | 57.67% | 28.28% | Base rate |
+| uniswap-v3 | 11.14% | 11.10% | Base rate |
+| icpswap | 16.80% | 15.13% | Base rate |
+| icpswap | 30.91% | 24.75% | Base rate |
+| icpswap | 0.01% | 1.07% | Base rate |
+| icpswap | 0.98% | 4.36% | Base rate |
+| icpswap | 1.41% | 2.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ICP yield today?
 
-261.58% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+207.64% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ICP pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $4.86M in total.
+10 live pools clear this page's $100K TVL floor, $4.93M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ICP pools have the most stable APY history?
 
-Based on APY history only, ICP's lower-variability candidates are icpswap (ICP), 1.64% APY, $122K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; icpswap (ICP), 0.05% APY, $124.7K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token; uniswap-v3 (Ethereum), 12.23% APY, $520.3K TVL, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token; icpswap (ICP), 18.90% APY, $514.6K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; icpswap (ICP), 33.54% APY, $134.2K TVL, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token; icpswap (ICP), 52.92% APY, $642.7K TVL, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token; aerodrome-slipstream (Base), 261.58% APY, $696.6K TVL, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ICP's lower-variability candidates are icpswap (ICP), 0.98% APY, $125.8K TVL, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token; icpswap (ICP), 0.01% APY, $128K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token; icpswap (ICP), 1.41% APY, $109.7K TVL, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55&src=seo_token; uniswap-v3 (Ethereum), 11.14% APY, $535.5K TVL, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token; icpswap (ICP), 16.80% APY, $525.2K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; icpswap (ICP), 30.91% APY, $142.2K TVL, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token; icpswap (ICP), 57.67% APY, $650.8K TVL, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token; aerodrome-slipstream (Base), 207.64% APY, $710.3K TVL, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

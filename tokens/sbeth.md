@@ -6,7 +6,7 @@ The highest honest SBETH yield right now is 0.04% on scallop-lend (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=2c2098f4-8581-4614-baaf-d56831f2a6ee&src=seo_token) | Sui | 0.04% | $564.3K |
+| [scallop-lend →](https://www.defi.garden/?pool=2c2098f4-8581-4614-baaf-d56831f2a6ee&src=seo_token) | Sui | 0.04% | $584.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $564.3K in total.
+1 live pool clear this page's $100K TVL floor, $584.8K in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank SBETH pools. This view covers
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
-- [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest FDUSD yield right now is 2.07% on venus-core-pool (BSC), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token) | BSC | 2.07% | $3.58M |
+| [venus-core-pool →](https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token) | BSC | 2.07% | $3.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FDUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.58M in total.
+1 live pool clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 

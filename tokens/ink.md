@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest INK yield right now is 119.59% on pancakeswap-amm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INK yield right now is 101.41% on pancakeswap-amm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=af039c71-4276-5e02-b3c9-37bc536c69dd&src=seo_token) | Ethereum | 119.59% | $104.4K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=af039c71-4276-5e02-b3c9-37bc536c69dd&src=seo_token) | Ethereum | 101.41% | $137.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INK yield today?
 
-119.59% APY on pancakeswap-amm (Ethereum), based on live DefiLlama data.
+101.41% APY on pancakeswap-amm (Ethereum), based on live DefiLlama data.
 
 ### How many INK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.4K in total.
+1 live pool clear this page's $100K TVL floor, $137.4K in total.
 
 ### Are these rates safe?
 

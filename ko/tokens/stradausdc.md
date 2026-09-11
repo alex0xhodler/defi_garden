@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 t3tris-finance에서 APY 10.72
 
 ## 관련 토큰
 
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)

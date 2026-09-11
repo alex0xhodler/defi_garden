@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest HOSICO yield right now is 25.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOSICO yield right now is 24.95% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6c8947f5-a218-4b80-9372-e711737e6fe1&src=seo_token) | Solana | 25.22% | $147.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c8947f5-a218-4b80-9372-e711737e6fe1&src=seo_token) | Solana | 24.95% | $148.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOSICO yield today?
 
-25.22% APY on raydium-amm (Solana), based on live DefiLlama data.
+24.95% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HOSICO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.5K in total.
+1 live pool clear this page's $100K TVL floor, $148.9K in total.
 
 ### Are these rates safe?
 

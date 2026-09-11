@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest BNKR yield right now is 11.76% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNKR yield right now is 15.55% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 11.76% | $1.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 15.55% | $1.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BNKR yield today?
 
-11.76% APY on uniswap-v3 (Base), based on live DefiLlama data.
+15.55% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BNKR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.81M in total.
+1 live pool clear this page's $100K TVL floor, $1.87M in total.
 
 ### Are these rates safe?
 

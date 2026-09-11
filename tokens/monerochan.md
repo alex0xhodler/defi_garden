@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest MONEROCHAN yield right now is 852.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MONEROCHAN yield right now is 796.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=33bf7f51-018e-5598-accb-4321347ee0a7&src=seo_token) | Solana | 852.78% | $134.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=33bf7f51-018e-5598-accb-4321347ee0a7&src=seo_token) | Solana | 796.24% | $130.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MONEROCHAN yield today?
 
-852.78% APY on raydium-amm (Solana), based on live DefiLlama data.
+796.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MONEROCHAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.7K in total.
+1 live pool clear this page's $100K TVL floor, $130.9K in total.
 
 ### Are these rates safe?
 

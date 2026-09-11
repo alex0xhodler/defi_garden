@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Avalanche의 aave-v3에서 APY 1.60%예요
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
-- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

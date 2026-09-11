@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest BOME yield right now is 7.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOME yield right now is 5.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 7.18% | $14.96M |
+| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 5.75% | $15.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOME yield today?
 
-7.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.96M in total.
+1 live pool clear this page's $100K TVL floor, $15.42M in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest THL yield right now is 0.58% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THL yield right now is 0.57% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.58% | $172.2K |
+| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.57% | $171.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THL yield today?
 
-0.58% APY on thalaswap (Aptos), based on live DefiLlama data.
+0.57% APY on thalaswap (Aptos), based on live DefiLlama data.
 
 ### How many THL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172.2K in total.
+1 live pool clear this page's $100K TVL floor, $171.8K in total.
 
 ### Are these rates safe?
 

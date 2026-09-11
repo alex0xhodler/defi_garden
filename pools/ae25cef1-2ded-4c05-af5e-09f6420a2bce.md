@@ -1,8 +1,8 @@
 # USD₮0 — tydro on Ink
 
-**Total APY:** 2.77% (2.77% Base · + 0.00% Rewards)
+**Total APY:** 2.78% (2.78% Base · + 0.00% Rewards)
 
-**TVL:** $2.59M
+**TVL:** $2.55M
 
 **Pool Type:** Yield Farming
 
@@ -20,13 +20,13 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,146 in 5y at current rates.
+$1,000 in this pool grows to ~$1,147 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,146 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,147 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on tydro](https://tydro.com/?ref=defi.garden)
 

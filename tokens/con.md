@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank CON pools. This view covers A
 
 ## Related tokens
 
-- [MDX](https://www.defi.garden/tokens/mdx)
 - [DOGE](https://www.defi.garden/tokens/doge)
+- [MDX](https://www.defi.garden/tokens/mdx)
 - [WHT](https://www.defi.garden/tokens/wht)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)

@@ -6,7 +6,7 @@ The highest honest SHOGGOTH yield right now is 4.38% on raydium-amm (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=77c94b35-97d2-44ff-9c51-4d5492907d8d&src=seo_token) | Solana | 4.38% | $276.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=77c94b35-97d2-44ff-9c51-4d5492907d8d&src=seo_token) | Solana | 4.38% | $276.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHOGGOTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $276.4K in total.
+1 live pool clear this page's $100K TVL floor, $276.9K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest NTBILL yield right now is 2.93% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 2.93% | $6.11M |
+| [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 2.93% | $5.91M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NTBILL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.11M in total.
+1 live pool clear this page's $100K TVL floor, $5.91M in total.
 
 ### Are these rates safe?
 

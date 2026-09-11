@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest WBTC.B yield right now is 18.13% on gmx-v2-perps (Arbitrum), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBTC.B yield right now is 18.26% on gmx-v2-perps (Arbitrum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.72% | $59.96M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.80% | $10.04M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.80% | $10.04M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 9.64% | $2.03M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 15.27% | $1.95M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 18.13% | $354.8K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 18.96% | $352K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 23.08% | $328.6K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.85% | $60.26M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.19% | $10.16M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.19% | $10.16M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 11.54% | $2.19M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 14.53% | $1.96M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 18.26% | $358.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 22.13% | $355.3K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 21.78% | $330.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBTC.B's lower-variability candidates are gmx-v2-perps (Arbitrum), 2.80% APY, $10.04M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.80% APY, $10.04M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.72% APY, $59.96M TVL, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; gmx-v2-perps (Arbitrum), 18.13% APY, $354.8K TVL, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; gmx-v2-perps (Arbitrum), 15.27% APY, $1.95M TVL, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; gmx-v2-perps (Arbitrum), 18.96% APY, $352K TVL, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; gmx-v2-perps (Arbitrum), 23.08% APY, $328.6K TVL, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; gmx-v2-perps (Arbitrum), 9.64% APY, $2.03M TVL, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC.B's lower-variability candidates are gmx-v2-perps (Arbitrum), 2.19% APY, $10.16M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.19% APY, $10.16M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.85% APY, $60.26M TVL, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; gmx-v2-perps (Arbitrum), 18.26% APY, $358.7K TVL, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; gmx-v2-perps (Arbitrum), 14.53% APY, $1.96M TVL, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; gmx-v2-perps (Arbitrum), 22.13% APY, $355.3K TVL, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; gmx-v2-perps (Arbitrum), 21.78% APY, $330.6K TVL, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; gmx-v2-perps (Arbitrum), 11.54% APY, $2.19M TVL, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.80% | $10.04M |
-| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.80% | $10.04M |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.72% | $59.96M |
-| 4 | [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 18.13% | $354.8K |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 15.27% | $1.95M |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 18.96% | $352K |
-| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 23.08% | $328.6K |
-| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 9.64% | $2.03M |
+| 1 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.19% | $10.16M |
+| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.19% | $10.16M |
+| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.85% | $60.26M |
+| 4 | [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 18.26% | $358.7K |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 14.53% | $1.96M |
+| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 22.13% | $355.3K |
+| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 21.78% | $330.6K |
+| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 11.54% | $2.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBTC.B shows up in 8 pools here, with rates from 2.72% to 23.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBTC.B shows up in 8 pools here, with rates from 2.19% to 22.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmx-v2-perps | 2.72% | 6.09% | Base rate |
-| gmx-v2-perps | 2.80% | 8.15% | Base rate |
-| gmx-v2-perps | 2.80% | 8.15% | Base rate |
-| gmx-v2-perps | 9.64% | 12.42% | Base rate |
-| gmx-v2-perps | 15.27% | 16.42% | Base rate |
-| gmx-v2-perps | 18.13% | 15.94% | Base rate |
-| gmx-v2-perps | 18.96% | 9.23% | Base rate |
-| gmx-v2-perps | 23.08% | 12.84% | Base rate |
+| gmx-v2-perps | 2.85% | 6.09% | Base rate |
+| gmx-v2-perps | 2.19% | 8.15% | Base rate |
+| gmx-v2-perps | 2.19% | 8.15% | Base rate |
+| gmx-v2-perps | 11.54% | 12.42% | Base rate |
+| gmx-v2-perps | 14.53% | 16.46% | Base rate |
+| gmx-v2-perps | 18.26% | 16.04% | Base rate |
+| gmx-v2-perps | 22.13% | 9.52% | Base rate |
+| gmx-v2-perps | 21.78% | 13.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBTC.B yield today?
 
-18.13% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
+18.26% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
 
 ### How many WBTC.B pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $87.96M in total.
+25 live pools clear this page's $100K TVL floor, $88.52M in total.
 
 ### Are these rates safe?
 
@@ -72,12 +72,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBTC.B pools have the most stable APY history?
 
-Based on APY history only, WBTC.B's lower-variability candidates are gmx-v2-perps (Arbitrum), 2.80% APY, $10.04M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.80% APY, $10.04M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.72% APY, $59.96M TVL, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; gmx-v2-perps (Arbitrum), 18.13% APY, $354.8K TVL, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; gmx-v2-perps (Arbitrum), 15.27% APY, $1.95M TVL, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; gmx-v2-perps (Arbitrum), 18.96% APY, $352K TVL, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; gmx-v2-perps (Arbitrum), 23.08% APY, $328.6K TVL, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; gmx-v2-perps (Arbitrum), 9.64% APY, $2.03M TVL, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC.B's lower-variability candidates are gmx-v2-perps (Arbitrum), 2.19% APY, $10.16M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.19% APY, $10.16M TVL, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; gmx-v2-perps (Arbitrum), 2.85% APY, $60.26M TVL, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; gmx-v2-perps (Arbitrum), 18.26% APY, $358.7K TVL, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; gmx-v2-perps (Arbitrum), 14.53% APY, $1.96M TVL, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; gmx-v2-perps (Arbitrum), 22.13% APY, $355.3K TVL, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; gmx-v2-perps (Arbitrum), 21.78% APY, $330.6K TVL, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; gmx-v2-perps (Arbitrum), 11.54% APY, $2.19M TVL, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)

@@ -2,39 +2,41 @@
 
 *Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
 
-The highest honest WXRP yield right now is 91.30% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 338.11% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 91.30% | $514.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 38.57% | $234.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 92.28% | $524K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 52.30% | $240.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=582c20d3-c8a8-59a5-b84e-9627dd724ea0&src=seo_token) | Solana | 338.11% | $102.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 91.30% APY, $514.8K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 38.57% APY, $234.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 92.28% APY, $524K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 52.30% APY, $240.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 91.30% | $514.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 38.57% | $234.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 92.28% | $524K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token) | Ethereum | 52.30% | $240.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WXRP shows up in 2 pools here, with rates from 38.57% to 91.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WXRP shows up in 3 pools here, with rates from 52.30% to 338.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 100.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 100.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 91.30% | 47.63% | Base rate |
-| uniswap-v3 | 38.57% | 154.28% | Base rate |
+| raydium-amm | 92.28% | 48.84% | Base rate |
+| uniswap-v3 | 52.30% | 151.80% | Base rate |
+| raydium-amm | 338.11% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WXRP yield today?
 
-91.30% APY on raydium-amm (Solana), based on live DefiLlama data.
+338.11% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $749.7K in total.
+3 live pools clear this page's $100K TVL floor, $867.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WXRP pools have the most stable APY history?
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 91.30% APY, $514.8K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 38.57% APY, $234.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 92.28% APY, $524K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token; uniswap-v3 (Ethereum), 52.30% APY, $240.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
