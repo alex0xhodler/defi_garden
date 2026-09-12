@@ -1,12 +1,12 @@
 # SHRUB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest SHRUB yield right now is 172.05% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 9.68% | $408.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 10.05% | $404.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=e2268bd7-d77f-5f9b-b4fa-9aaf90b8d451&src=seo_token) | Base | 172.05% | $326.4K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SHRUB shows up in 2 pools here, with rates from 9.68% to 172.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHRUB shows up in 2 pools here, with rates from 10.05% to 172.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 141.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 141.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 9.68% | 63.88% | Base rate |
+| uniswap-v2 | 10.05% | 63.40% | Base rate |
 | uniswap-v2 | 172.05% | 219.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SHRUB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $735.1K in total.
+2 live pools clear this page's $100K TVL floor, $730.5K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank SHRUB pools. This view covers
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

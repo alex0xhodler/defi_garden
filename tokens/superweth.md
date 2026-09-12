@@ -1,44 +1,44 @@
 # SUPERWETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest SUPERWETH yield right now is 4.16% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.40% | $2.51M |
-| [pendle-v2 →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.16% | $539.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 3.32% | $539.3K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.80% | $331.8K |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.36% | $2.46M |
+| [pendle-v2 →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.16% | $528.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 3.32% | $528.4K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.77% | $325.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUPERWETH's lower-variability candidates are pendle-v2 (Ethereum), 3.32% APY, $539.3K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.80% APY, $331.8K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; superform (Ethereum), 1.40% APY, $2.51M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token; pendle-v2 (Ethereum), 4.16% APY, $539.3K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERWETH's lower-variability candidates are pendle-v2 (Ethereum), 3.32% APY, $528.4K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.77% APY, $325.5K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; superform (Ethereum), 1.36% APY, $2.46M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token; pendle-v2 (Ethereum), 4.16% APY, $528.4K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 3.32% | $539.3K |
-| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.80% | $331.8K |
-| 3 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.40% | $2.51M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.16% | $539.3K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 3.32% | $528.4K |
+| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.77% | $325.5K |
+| 3 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.36% | $2.46M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.16% | $528.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUPERWETH shows up in 4 pools here, with rates from 1.40% to 4.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUPERWETH shows up in 4 pools here, with rates from 1.36% to 4.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 1.40% | 1.22% | 100.00% incentives |
-| pendle-v2 | 4.16% | 4.41% | 26.85% incentives |
-| pendle-v2 | 3.32% | 4.17% | Base rate |
-| superform | 2.80% | 2.49% | 49.98% incentives |
+| superform | 1.36% | 1.22% | 100.00% incentives |
+| pendle-v2 | 4.16% | 4.39% | 26.75% incentives |
+| pendle-v2 | 3.32% | 4.15% | Base rate |
+| superform | 2.77% | 2.49% | 49.06% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUPERWETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.92M in total.
+4 live pools clear this page's $100K TVL floor, $3.84M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUPERWETH pools have the most stable APY history?
 
-Based on APY history only, SUPERWETH's lower-variability candidates are pendle-v2 (Ethereum), 3.32% APY, $539.3K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.80% APY, $331.8K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; superform (Ethereum), 1.40% APY, $2.51M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token; pendle-v2 (Ethereum), 4.16% APY, $539.3K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERWETH's lower-variability candidates are pendle-v2 (Ethereum), 3.32% APY, $528.4K TVL, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; superform (Base), 2.77% APY, $325.5K TVL, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; superform (Ethereum), 1.36% APY, $2.46M TVL, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token; pendle-v2 (Ethereum), 4.16% APY, $528.4K TVL, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, SUPERWETH's lower-variability candidates are pendle-v
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

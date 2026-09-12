@@ -1,12 +1,12 @@
 # HYPERCBBTCA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest HYPERCBBTCA yield right now is 2.43% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPERCBBTCA yield right now is 2.47% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 2.43% | $6.47M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 2.47% | $6.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPERCBBTCA yield today?
 
-2.43% APY on morpho-blue (Monad), based on live DefiLlama data.
+2.47% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many HYPERCBBTCA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.47M in total.
+1 live pool clear this page's $100K TVL floor, $6.42M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HYPERCBBTCA pools. This view 
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

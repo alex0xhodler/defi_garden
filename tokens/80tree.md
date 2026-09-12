@@ -1,12 +1,12 @@
 # 80TREE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest 80TREE yield right now is 2.45% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 80TREE yield right now is 10.62% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 2.45% | $257.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 10.62% | $266K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 80TREE yield today?
 
-2.45% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+10.62% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 80TREE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $257.9K in total.
+1 live pool clear this page's $100K TVL floor, $266K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 80TREE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

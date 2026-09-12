@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, TAC의 midas-rwa에서 APY 2.97%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

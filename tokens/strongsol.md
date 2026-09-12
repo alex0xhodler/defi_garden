@@ -1,12 +1,12 @@
 # STRONGSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest STRONGSOL yield right now is 5.02% on stronghold-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.02% | $4.36M |
+| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.02% | $4.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRONGSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.25M in total.
+2 live pools clear this page's $100K TVL floor, $8.13M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank STRONGSOL pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

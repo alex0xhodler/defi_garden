@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Gravity pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.63M in total.
+2 live pools clear this page's $100K TVL floor, $1.62M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [ATUSD](https://www.defi.garden/tokens/atusd)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

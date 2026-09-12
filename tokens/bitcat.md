@@ -1,12 +1,12 @@
 # BITCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest BITCAT yield right now is 294.12% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITCAT yield right now is 224.64% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b1e1bf73-45bf-50fc-a8d3-9472943398a6&src=seo_token) | Base | 294.12% | $184.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b1e1bf73-45bf-50fc-a8d3-9472943398a6&src=seo_token) | Base | 224.64% | $237.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BITCAT yield today?
 
-294.12% APY on uniswap-v2 (Base), based on live DefiLlama data.
+224.64% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BITCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.9K in total.
+1 live pool clear this page's $100K TVL floor, $237.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BITCAT pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

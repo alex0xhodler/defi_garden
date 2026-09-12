@@ -1,12 +1,12 @@
 # MVTT10F DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MVTT10F yield right now is 0.78% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MVTT10F yield right now is 0.88% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bf07f001-01e8-4487-b810-47a8689bee42&src=seo_token) | Base | 0.78% | $104.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bf07f001-01e8-4487-b810-47a8689bee42&src=seo_token) | Base | 0.88% | $101.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MVTT10F yield today?
 
-0.78% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.88% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MVTT10F pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MVTT10F pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

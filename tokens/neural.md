@@ -1,12 +1,12 @@
 # NEURAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest NEURAL yield right now is 3.35% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEURAL yield right now is 3.36% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5690eef7-353b-4f8e-bd6a-a68b0c5fafa8&src=seo_token) | Ethereum | 3.35% | $547.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5690eef7-353b-4f8e-bd6a-a68b0c5fafa8&src=seo_token) | Ethereum | 3.36% | $519.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEURAL yield today?
 
-3.35% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.36% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NEURAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $547.5K in total.
+1 live pool clear this page's $100K TVL floor, $519.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NEURAL pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

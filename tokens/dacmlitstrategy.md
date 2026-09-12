@@ -1,6 +1,6 @@
 # DACMLITSTRATEGY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest DACMLITSTRATEGY yield right now is 3.45% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

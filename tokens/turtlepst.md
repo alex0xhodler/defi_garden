@@ -1,12 +1,12 @@
 # TURTLEPST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest TURTLEPST yield right now is 8.71% on gami-labs (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=9cef3a33-0b35-5370-9bbc-01e84d8d5a45&src=seo_token) | Ethereum | 8.71% | $2.67M |
+| [gami-labs →](https://www.defi.garden/?pool=9cef3a33-0b35-5370-9bbc-01e84d8d5a45&src=seo_token) | Ethereum | 8.71% | $2.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TURTLEPST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.67M in total.
+1 live pool clear this page's $100K TVL floor, $2.72M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TURTLEPST pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,41 +1,41 @@
 # WSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest WSOL yield right now is 4.11% on jupiter-lend (Solana), among 290 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSOL yield right now is 4.10% on jupiter-lend (Solana), among 284 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-lend →](https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token) | Solana | 4.11% | $111.38M |
-| [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token) | Solana | 211.56% | $28.16M |
-| [jupiter-lend →](https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token) | Solana | 4.11% | $23.79M |
-| [jupiter-lend →](https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token) | Solana | 4.11% | $19.6M |
+| [jupiter-lend →](https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token) | Solana | 4.10% | $111.33M |
+| [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token) | Solana | 243.75% | $29.38M |
+| [jupiter-lend →](https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token) | Solana | 4.10% | $23.74M |
+| [jupiter-lend →](https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token) | Solana | 4.10% | $19.74M |
 | [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token) | Solana | 0.04% | $16.82M |
 | [raydium-amm →](https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token) | Solana | 0.04% | $16.59M |
-| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 5.75% | $15.42M |
-| [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 1.37% | $9.18M |
+| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 3.89% | $15.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 1.17% | $9.01M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WSOL's lower-variability candidates are raydium-amm (Solana), 0.04% APY, $16.59M TVL, https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token; jupiter-lend (Solana), 4.11% APY, $19.6M TVL, https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token; jupiter-lend (Solana), 4.11% APY, $23.79M TVL, https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token; jupiter-lend (Solana), 4.11% APY, $111.38M TVL, https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token; raydium-amm (Solana), 1.37% APY, $9.18M TVL, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token; raydium-amm (Solana), 5.75% APY, $15.42M TVL, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token; raydium-amm (Solana), 211.56% APY, $28.16M TVL, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token; raydium-amm (Solana), 0.04% APY, $16.82M TVL, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSOL's lower-variability candidates are raydium-amm (Solana), 0.04% APY, $16.59M TVL, https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token; jupiter-lend (Solana), 4.10% APY, $19.74M TVL, https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token; jupiter-lend (Solana), 4.10% APY, $23.74M TVL, https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token; jupiter-lend (Solana), 4.10% APY, $111.33M TVL, https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token; raydium-amm (Solana), 1.17% APY, $9.01M TVL, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token; raydium-amm (Solana), 3.89% APY, $15.45M TVL, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token; raydium-amm (Solana), 243.75% APY, $29.38M TVL, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token; raydium-amm (Solana), 0.04% APY, $16.82M TVL, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token) | Solana | 0.04% | $16.59M |
-| 2 | [jupiter-lend →](https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token) | Solana | 4.11% | $19.6M |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token) | Solana | 4.11% | $23.79M |
-| 4 | [jupiter-lend →](https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token) | Solana | 4.11% | $111.38M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 1.37% | $9.18M |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 5.75% | $15.42M |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token) | Solana | 211.56% | $28.16M |
+| 2 | [jupiter-lend →](https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token) | Solana | 4.10% | $19.74M |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token) | Solana | 4.10% | $23.74M |
+| 4 | [jupiter-lend →](https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token) | Solana | 4.10% | $111.33M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 1.17% | $9.01M |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token) | Solana | 3.89% | $15.45M |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token) | Solana | 243.75% | $29.38M |
 | 8 | [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token) | Solana | 0.04% | $16.82M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WSOL shows up in 8 pools here, with rates from 0.04% to 211.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WSOL shows up in 8 pools here, with rates from 0.04% to 243.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,14 +45,14 @@ WSOL shows up in 8 pools here, with rates from 0.04% to 211.56% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jupiter-lend | 4.11% | 3.98% | Base rate |
-| raydium-amm | 211.56% | 92.91% | 0.09% incentives |
-| jupiter-lend | 4.11% | 3.98% | Base rate |
-| jupiter-lend | 4.11% | 3.98% | Base rate |
+| jupiter-lend | 4.10% | 3.98% | Base rate |
+| raydium-amm | 243.75% | 97.25% | 0.05% incentives |
+| jupiter-lend | 4.10% | 3.98% | Base rate |
+| jupiter-lend | 4.10% | 3.98% | Base rate |
 | raydium-amm | 0.04% | 0.04% | Base rate |
 | raydium-amm | 0.04% | 0.13% | Base rate |
-| raydium-amm | 5.75% | 21.11% | Base rate |
-| raydium-amm | 1.37% | 1.49% | Base rate |
+| raydium-amm | 3.89% | 20.83% | Base rate |
+| raydium-amm | 1.17% | 1.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WSOL yield today?
 
-4.11% APY on jupiter-lend (Solana), based on live DefiLlama data.
+4.10% APY on jupiter-lend (Solana), based on live DefiLlama data.
 
 ### How many WSOL pools clear the TVL floor?
 
-290 live pools clear this page's $100K TVL floor, $428.5M in total.
+284 live pools clear this page's $100K TVL floor, $427.9M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WSOL pools have the most stable APY history?
 
-Based on APY history only, WSOL's lower-variability candidates are raydium-amm (Solana), 0.04% APY, $16.59M TVL, https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token; jupiter-lend (Solana), 4.11% APY, $19.6M TVL, https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token; jupiter-lend (Solana), 4.11% APY, $23.79M TVL, https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token; jupiter-lend (Solana), 4.11% APY, $111.38M TVL, https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token; raydium-amm (Solana), 1.37% APY, $9.18M TVL, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token; raydium-amm (Solana), 5.75% APY, $15.42M TVL, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token; raydium-amm (Solana), 211.56% APY, $28.16M TVL, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token; raydium-amm (Solana), 0.04% APY, $16.82M TVL, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSOL's lower-variability candidates are raydium-amm (Solana), 0.04% APY, $16.59M TVL, https://www.defi.garden/?pool=5c03c40b-dc1e-4a50-ad92-62d543dd63a6&src=seo_token; jupiter-lend (Solana), 4.10% APY, $19.74M TVL, https://www.defi.garden/?pool=19721758-74e1-4a0c-acf8-6903257b80e5&src=seo_token; jupiter-lend (Solana), 4.10% APY, $23.74M TVL, https://www.defi.garden/?pool=18b7d006-6f51-4a82-af2d-21da23df1d12&src=seo_token; jupiter-lend (Solana), 4.10% APY, $111.33M TVL, https://www.defi.garden/?pool=86d5dc3c-682f-4227-b1c9-7e51c6e60cda&src=seo_token; raydium-amm (Solana), 1.17% APY, $9.01M TVL, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token; raydium-amm (Solana), 3.89% APY, $15.45M TVL, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1&src=seo_token; raydium-amm (Solana), 243.75% APY, $29.38M TVL, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574&src=seo_token; raydium-amm (Solana), 0.04% APY, $16.82M TVL, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, WSOL's lower-variability candidates are raydium-amm (
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

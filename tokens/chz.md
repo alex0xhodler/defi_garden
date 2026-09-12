@@ -1,12 +1,12 @@
 # CHZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CHZ yield right now is 540.94% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHZ yield right now is 453.37% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=643ae250-be53-4a04-aa46-48cd3545a749&src=seo_token) | Base | 540.94% | $230.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=643ae250-be53-4a04-aa46-48cd3545a749&src=seo_token) | Base | 453.37% | $238.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHZ yield today?
 
-540.94% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+453.37% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CHZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $230.7K in total.
+1 live pool clear this page's $100K TVL floor, $238.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CHZ pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

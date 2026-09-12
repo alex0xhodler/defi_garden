@@ -1,31 +1,31 @@
 # SAUCE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SAUCE yield right now is 5.30% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAUCE yield right now is 5.16% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 5.30% | $1.07M |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.89% | $112K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 5.16% | $1.05M |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.89% | $110.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.89% APY, $112K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 5.30% APY, $1.07M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.89% APY, $110.7K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 5.16% APY, $1.05M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.89% | $112K |
-| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 5.30% | $1.07M |
+| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.89% | $110.7K |
+| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 5.16% | $1.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SAUCE shows up in 2 pools here, with rates from 0.89% to 5.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAUCE shows up in 2 pools here, with rates from 0.89% to 5.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ SAUCE shows up in 2 pools here, with rates from 0.89% to 5.30% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 5.30% | 6.50% | 86.61% incentives |
-| saucerswap-v1 | 0.89% | 1.08% | 97.57% incentives |
+| saucerswap-v1 | 5.16% | 6.48% | 89.15% incentives |
+| saucerswap-v1 | 0.89% | 1.07% | 98.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SAUCE yield today?
 
-5.30% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+5.16% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many SAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.18M in total.
+2 live pools clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAUCE pools have the most stable APY history?
 
-Based on APY history only, SAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.89% APY, $112K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 5.30% APY, $1.07M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.89% APY, $110.7K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 5.16% APY, $1.05M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SAUCE's lower-variability candidates are saucerswap-v
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

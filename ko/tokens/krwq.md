@@ -1,12 +1,12 @@
 # KRWQ 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 KRWQ의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 62.28%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KRWQ의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 63.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=086429b6-6473-4dcd-bf0b-b575f3dd2172&src=seo_token) | Base | 62.28% | $150.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=086429b6-6473-4dcd-bf0b-b575f3dd2172&src=seo_token) | Base | 63.08% | $150.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 KRWQ의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 62.28%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 63.08%예요.
 
 ### KRWQ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 62.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

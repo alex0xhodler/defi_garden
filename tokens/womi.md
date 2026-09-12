@@ -1,12 +1,12 @@
 # WOMI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest WOMI yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOMI yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4035b45d-3bc1-46a8-a3c6-cbf69b7dab5b&src=seo_token) | Ethereum | 0.02% | $147.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4035b45d-3bc1-46a8-a3c6-cbf69b7dab5b&src=seo_token) | Ethereum | 0.03% | $143.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOMI yield today?
 
-0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WOMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.8K in total.
+1 live pool clear this page's $100K TVL floor, $143.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WOMI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

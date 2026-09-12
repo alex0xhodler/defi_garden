@@ -1,35 +1,35 @@
 # JTO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest JTO yield right now is 769.33% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JTO yield right now is 589.23% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 29.60% | $1.2M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 23.43% | $1.07M |
-| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $839K |
-| [raydium-amm →](https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token) | Solana | 769.33% | $128.3K |
+| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 21.62% | $1.21M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 18.88% | $1.07M |
+| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $832.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token) | Solana | 589.23% | $129.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $839K TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 29.60% APY, $1.2M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 23.43% APY, $1.07M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token; raydium-amm (Solana), 769.33% APY, $128.3K TVL, https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $832.9K TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 21.62% APY, $1.21M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 18.88% APY, $1.07M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token; raydium-amm (Solana), 589.23% APY, $129.6K TVL, https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $839K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 29.60% | $1.2M |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 23.43% | $1.07M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token) | Solana | 769.33% | $128.3K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $832.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 21.62% | $1.21M |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 18.88% | $1.07M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token) | Solana | 589.23% | $129.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JTO shows up in 4 pools here, with rates from 0.02% to 769.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JTO shows up in 4 pools here, with rates from 0.02% to 589.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 24.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 24.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 29.60% | 27.93% | Base rate |
-| kamino-liquidity | 23.43% | 20.37% | Base rate |
+| orca-dex | 21.62% | 27.94% | Base rate |
+| kamino-liquidity | 18.88% | 20.50% | Base rate |
 | project-0 | 0.02% | 0.03% | Base rate |
-| raydium-amm | 769.33% | 586.26% | Base rate |
+| raydium-amm | 589.23% | 598.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JTO yield today?
 
-769.33% APY on raydium-amm (Solana), based on live DefiLlama data.
+589.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JTO pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JTO pools have the most stable APY history?
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $839K TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 29.60% APY, $1.2M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 23.43% APY, $1.07M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token; raydium-amm (Solana), 769.33% APY, $128.3K TVL, https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $832.9K TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token; orca-dex (Solana), 21.62% APY, $1.21M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token; kamino-liquidity (Solana), 18.88% APY, $1.07M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token; raydium-amm (Solana), 589.23% APY, $129.6K TVL, https://www.defi.garden/?pool=b941d4f0-a6dd-4cb1-8916-b922c740c101&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, JTO's lower-variability candidates are project-0 (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

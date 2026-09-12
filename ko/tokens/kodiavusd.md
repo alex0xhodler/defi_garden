@@ -1,12 +1,12 @@
 # KODIAVUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 KODIAVUSD의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 9.58%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KODIAVUSD의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 10.06%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 9.58% | $527.7K |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 10.06% | $527.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 KODIAVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 9.58%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 10.06%예요.
 
 ### KODIAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $527.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $527.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 9.58%예요
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

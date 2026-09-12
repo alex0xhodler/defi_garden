@@ -5,8 +5,8 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.80% | $10.09M |
-| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.10% | $2.25M |
-| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 2.47% | $1.88M |
+| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.09% | $2.26M |
+| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 2.46% | $1.86M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 0.80%예요.
 
 ### Stacks 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $69.13M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $67.92M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 0.80%예요.
 - [STSTX](https://www.defi.garden/ko/tokens/ststx)
 - [STX](https://www.defi.garden/ko/tokens/stx)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

@@ -1,12 +1,12 @@
 # USSI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest USSI yield right now is 0.01% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $998.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $998.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank USSI pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

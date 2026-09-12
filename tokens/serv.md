@@ -1,31 +1,31 @@
 # SERV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SERV yield right now is 315.35% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SERV yield right now is 228.62% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 17.19% | $1.39M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 315.35% | $797.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 26.19% | $1.38M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 228.62% | $826K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 17.19% APY, $1.39M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 315.35% APY, $797.8K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 26.19% APY, $1.38M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 228.62% APY, $826K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 17.19% | $1.39M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 315.35% | $797.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 26.19% | $1.38M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 228.62% | $826K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SERV shows up in 2 pools here, with rates from 17.19% to 315.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SERV shows up in 2 pools here, with rates from 26.19% to 228.62% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 122.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 123.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ SERV shows up in 2 pools here, with rates from 17.19% to 315.35% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 17.19% | 34.15% | Base rate |
-| aerodrome-slipstream | 315.35% | 210.73% | 89.54% incentives |
+| uniswap-v3 | 26.19% | 34.38% | Base rate |
+| aerodrome-slipstream | 228.62% | 212.74% | 81.36% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SERV yield today?
 
-315.35% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+228.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SERV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.19M in total.
+2 live pools clear this page's $100K TVL floor, $2.2M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SERV pools have the most stable APY history?
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 17.19% APY, $1.39M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 315.35% APY, $797.8K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 26.19% APY, $1.38M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 228.62% APY, $826K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -31,4 +31,4 @@ Steady so far: across the 27 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 11, 2026
+Last updated September 12, 2026

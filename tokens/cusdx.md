@@ -1,12 +1,12 @@
 # CUSDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CUSDX yield right now is 2.01% on sparkdex-v3.1 (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CUSDX yield right now is 2.00% on sparkdex-v3.1 (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=da4359c3-cb79-4046-8e68-3abff444b56a&src=seo_token) | Flare | 2.01% | $340.6K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=da4359c3-cb79-4046-8e68-3abff444b56a&src=seo_token) | Flare | 2.00% | $340.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CUSDX yield today?
 
-2.01% APY on sparkdex-v3.1 (Flare), based on live DefiLlama data.
+2.00% APY on sparkdex-v3.1 (Flare), based on live DefiLlama data.
 
 ### How many CUSDX pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CUSDX pools. This view covers
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

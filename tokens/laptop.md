@@ -1,15 +1,15 @@
 # LAPTOP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest LAPTOP yield right now is 0.09% on uniswap-v4 (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAPTOP yield right now is 0.09% on uniswap-v4 (Base), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=2f9ffdc3-966d-5eb2-ba96-2fa397ed7493&src=seo_token) | Solana | 0.01% | $50.15M |
 | [raydium-amm →](https://www.defi.garden/?pool=7d7119ee-c0d0-5f6f-b59e-1c7ca8940e0e&src=seo_token) | Solana | 0.05% | $5.21M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cc549aa2-00c0-5c99-b2a3-805c20f292ca&src=seo_token) | Base | 0.01% | $1.03M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 150.11% | $375.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 95.10% | $372.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b3a534c0-39cb-50da-9f76-9f359f3fe5ce&src=seo_token) | Base | 0.08% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=49142563-43b5-5f8a-b418-b00ebbfa6a4b&src=seo_token) | Base | 0.09% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=152fb8c6-4f15-55c0-a4ce-1dec6515f114&src=seo_token) | Base | 0.05% | $200K |
@@ -24,7 +24,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LAPTOP shows up in 8 pools here, with rates from 0.01% to 150.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LAPTOP shows up in 8 pools here, with rates from 0.01% to 95.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,7 +37,7 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.05% | 0.04% | Base rate |
 | uniswap-v4 | 0.01% | 0.00% | Base rate |
-| uniswap-v4 | 150.11% | — | Base rate |
+| uniswap-v4 | 95.10% | — | Base rate |
 | uniswap-v4 | 0.08% | 0.05% | Base rate |
 | uniswap-v4 | 0.09% | 0.02% | Base rate |
 | uniswap-v4 | 0.05% | 0.02% | Base rate |
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LAPTOP pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $61.64M in total.
+15 live pools clear this page's $100K TVL floor, $62.02M in total.
 
 ### Are these rates safe?
 
@@ -77,4 +77,4 @@ There is not enough qualifying APY history to rank LAPTOP pools. This view cover
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

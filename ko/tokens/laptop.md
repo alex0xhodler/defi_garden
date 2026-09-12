@@ -1,15 +1,15 @@
 # LAPTOP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LAPTOP의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.09%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LAPTOP의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.09%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=2f9ffdc3-966d-5eb2-ba96-2fa397ed7493&src=seo_token) | Solana | 0.01% | $50.15M |
 | [raydium-amm →](https://www.defi.garden/?pool=7d7119ee-c0d0-5f6f-b59e-1c7ca8940e0e&src=seo_token) | Solana | 0.05% | $5.21M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cc549aa2-00c0-5c99-b2a3-805c20f292ca&src=seo_token) | Base | 0.01% | $1.03M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 150.11% | $375.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 95.10% | $372.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b3a534c0-39cb-50da-9f76-9f359f3fe5ce&src=seo_token) | Base | 0.08% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=49142563-43b5-5f8a-b418-b00ebbfa6a4b&src=seo_token) | Base | 0.09% | $200K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=152fb8c6-4f15-55c0-a4ce-1dec6515f114&src=seo_token) | Base | 0.05% | $200K |
@@ -24,7 +24,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LAPTOP 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 150.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LAPTOP 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 95.10%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.02%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -37,7 +37,7 @@ LAPTOP 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 150.11
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.05% | 0.04% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.00% | 기본 금리 |
-| uniswap-v4 | 150.11% | — | 기본 금리 |
+| uniswap-v4 | 95.10% | — | 기본 금리 |
 | uniswap-v4 | 0.08% | 0.05% | 기본 금리 |
 | uniswap-v4 | 0.09% | 0.02% | 기본 금리 |
 | uniswap-v4 | 0.05% | 0.02% | 기본 금리 |
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.09%예요.
 
 ### LAPTOP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $61.64M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $62.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -77,4 +77,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.09%예요.
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

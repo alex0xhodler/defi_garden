@@ -1,31 +1,31 @@
 # JETTON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest JETTON yield right now is 66.00% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JETTON yield right now is 65.79% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.54% | $143.8K |
-| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 66.00% | $115.4K |
+| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.32% | $144.6K |
+| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 65.79% | $115.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 66.00% APY, $115.4K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.54% APY, $143.8K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 65.79% APY, $115.1K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.32% APY, $144.6K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 66.00% | $115.4K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.54% | $143.8K |
+| 1 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 65.79% | $115.1K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.32% | $144.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JETTON shows up in 2 pools here, with rates from 54.54% to 66.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JETTON shows up in 2 pools here, with rates from 54.32% to 65.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ JETTON shows up in 2 pools here, with rates from 54.54% to 66.00% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 54.54% | 39.27% | 99.71% incentives |
-| dedust | 66.00% | 65.04% | 99.93% incentives |
+| ston.fi | 54.32% | 39.77% | 100.00% incentives |
+| dedust | 65.79% | 64.94% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JETTON yield today?
 
-66.00% APY on dedust (TON), based on live DefiLlama data.
+65.79% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many JETTON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $259.1K in total.
+2 live pools clear this page's $100K TVL floor, $259.7K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JETTON pools have the most stable APY history?
 
-Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 66.00% APY, $115.4K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.54% APY, $143.8K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 65.79% APY, $115.1K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.32% APY, $144.6K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, JETTON's lower-variability candidates are dedust (TON
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

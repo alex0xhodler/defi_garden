@@ -1,31 +1,31 @@
 # SUIUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SUIUSDT yield right now is 11.26% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUIUSDT yield right now is 11.79% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 5.09% | $871.7K |
-| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 9.07% | $394.3K |
-| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.26% | $199.5K |
+| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 5.15% | $845.1K |
+| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 10.04% | $374.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.79% | $193.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 9.07% APY, $394.3K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 5.09% APY, $871.7K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 11.26% APY, $199.5K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 10.04% APY, $374.1K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 5.15% APY, $845.1K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 11.79% APY, $193.9K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 9.07% | $394.3K |
-| 2 | [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 5.09% | $871.7K |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.26% | $199.5K |
+| 1 | [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 10.04% | $374.1K |
+| 2 | [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 5.15% | $845.1K |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.79% | $193.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUIUSDT shows up in 3 pools here, with rates from 5.09% to 11.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUIUSDT shows up in 3 pools here, with rates from 5.15% to 11.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ SUIUSDT shows up in 3 pools here, with rates from 5.09% to 11.26% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 5.09% | 5.41% | 5.82% incentives |
-| bluefin-spot | 9.07% | 11.32% | 96.79% incentives |
-| cetus-clmm | 11.26% | 11.72% | 96.23% incentives |
+| navi-lending | 5.15% | 5.38% | 5.69% incentives |
+| bluefin-spot | 10.04% | 11.32% | 90.44% incentives |
+| cetus-clmm | 11.79% | 11.68% | 92.30% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUIUSDT yield today?
 
-11.26% APY on cetus-clmm (Sui), based on live DefiLlama data.
+11.79% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many SUIUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.47M in total.
+3 live pools clear this page's $100K TVL floor, $1.41M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUIUSDT pools have the most stable APY history?
 
-Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 9.07% APY, $394.3K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 5.09% APY, $871.7K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 11.26% APY, $199.5K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 10.04% APY, $374.1K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 5.15% APY, $845.1K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 11.79% APY, $193.9K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,11 +63,11 @@ Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-sp
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

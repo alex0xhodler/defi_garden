@@ -1,12 +1,12 @@
 # NFD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest NFD yield right now is 0.53% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NFD yield right now is 0.68% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=975d955c-7b35-4abd-83a3-3bc990b750f4&src=seo_token) | Ethereum | 0.53% | $1.01M |
+| [sushiswap →](https://www.defi.garden/?pool=975d955c-7b35-4abd-83a3-3bc990b750f4&src=seo_token) | Ethereum | 0.68% | $985.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NFD yield today?
 
-0.53% APY on sushiswap (Ethereum), based on live DefiLlama data.
+0.68% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many NFD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.01M in total.
+1 live pool clear this page's $100K TVL floor, $985.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NFD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

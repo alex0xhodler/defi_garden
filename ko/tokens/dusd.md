@@ -1,39 +1,39 @@
 # DUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao-yield에서 23.63%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao-yield에서 22.34%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 11.37% | $2.98M |
-| [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 4.57% | $2.6M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 18.18% | $2.02M |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 10.77% | $3M |
+| [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 5.41% | $2.6M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 17.29% | $2.02M |
 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.46% | $854K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 23.63% | $704.8K |
-| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.74% | $664K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.43% | $200.6K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 22.34% | $720.7K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.49% | $659.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.29% | $200.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.46%, TVL $854K, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token; Solana의 raydium-amm, APY 0.43%, TVL $200.6K, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token; Ethereum의 makina, APY 4.57%, TVL $2.6M, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token; Ethereum의 curve-dex, APY 11.37%, TVL $2.98M, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; Ethereum의 stake-dao-yield, APY 23.63%, TVL $704.8K, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token; Ethereum의 convex-finance, APY 18.18%, TVL $2.02M, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token; Defichain의 defichain-dex, APY 0.74%, TVL $664K, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.46%, TVL $854K, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token; Solana의 raydium-amm, APY 0.29%, TVL $200.6K, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token; Ethereum의 makina, APY 5.41%, TVL $2.6M, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token; Ethereum의 curve-dex, APY 10.77%, TVL $3M, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; Ethereum의 stake-dao-yield, APY 22.34%, TVL $720.7K, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token; Ethereum의 convex-finance, APY 17.29%, TVL $2.02M, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token; Defichain의 defichain-dex, APY 0.49%, TVL $659.3K, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.46% | $854K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.43% | $200.6K |
-| 3 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 4.57% | $2.6M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 11.37% | $2.98M |
-| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 23.63% | $704.8K |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 18.18% | $2.02M |
-| 7 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.74% | $664K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.29% | $200.6K |
+| 3 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 5.41% | $2.6M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 10.77% | $3M |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 22.34% | $720.7K |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 17.29% | $2.02M |
+| 7 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.49% | $659.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DUSD 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.43%부터 23.63%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DUSD 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.29%부터 22.34%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,13 +43,13 @@ DUSD 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.43%부터 23.63%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 11.37% | 10.56% | 인센티브 100.00% |
-| makina | 4.57% | 8.17% | 기본 금리 |
-| convex-finance | 18.18% | 17.79% | 인센티브 99.89% |
+| curve-dex | 10.77% | 10.60% | 인센티브 99.81% |
+| makina | 5.41% | 8.17% | 기본 금리 |
+| convex-finance | 17.29% | 17.88% | 인센티브 99.88% |
 | curve-dex | 6.46% | 6.46% | 인센티브 80.95% |
-| stake-dao-yield | 23.63% | 21.69% | 인센티브 99.92% |
-| defichain-dex | 0.74% | 0.67% | 기본 금리 |
-| raydium-amm | 0.43% | 0.30% | 기본 금리 |
+| stake-dao-yield | 22.34% | 21.78% | 인센티브 99.91% |
+| defichain-dex | 0.49% | 0.63% | 기본 금리 |
+| raydium-amm | 0.29% | 0.31% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ DUSD 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.43%부터 23.63%�
 
 ### 오늘 DUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 23.63%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 22.34%예요.
 
 ### DUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $10.98M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $11.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 23.6
 
 ### DUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.46%, TVL $854K, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token; Solana의 raydium-amm, APY 0.43%, TVL $200.6K, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token; Ethereum의 makina, APY 4.57%, TVL $2.6M, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token; Ethereum의 curve-dex, APY 11.37%, TVL $2.98M, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; Ethereum의 stake-dao-yield, APY 23.63%, TVL $704.8K, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token; Ethereum의 convex-finance, APY 18.18%, TVL $2.02M, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token; Defichain의 defichain-dex, APY 0.74%, TVL $664K, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.46%, TVL $854K, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token; Solana의 raydium-amm, APY 0.29%, TVL $200.6K, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token; Ethereum의 makina, APY 5.41%, TVL $2.6M, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token; Ethereum의 curve-dex, APY 10.77%, TVL $3M, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; Ethereum의 stake-dao-yield, APY 22.34%, TVL $720.7K, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token; Ethereum의 convex-finance, APY 17.29%, TVL $2.02M, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token; Defichain의 defichain-dex, APY 0.49%, TVL $659.3K, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -86,4 +86,4 @@ APY 이력만 기준으로 비교한 DUSD의 변동성 낮은 후보는 Ethereum
 - [Defichain](https://www.defi.garden/ko/chains/defichain)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

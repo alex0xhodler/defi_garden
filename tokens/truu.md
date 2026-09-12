@@ -1,6 +1,6 @@
 # TRUU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest TRUU yield right now is 215.89% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 200.87% | 6.79% | Base rate |
+| uniswap-v4 | 200.87% | 6.67% | Base rate |
 | uniswap-v4 | 215.89% | 114.76% | Base rate |
 | uniswap-v4 | 8.30% | 18.14% | Base rate |
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank TRUU pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

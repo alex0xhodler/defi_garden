@@ -1,43 +1,43 @@
 # UNI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest UNI yield right now is 26.98% on uniswap-v4 (Ethereum), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNI yield right now is 26.78% on uniswap-v4 (Ethereum), among 34 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 41.10% | $15.98M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 24.06% | $4.38M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token) | Ethereum | 0.01% | $3.81M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 8.87% | $3.61M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 26.98% | $3.04M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 22.16% | $3.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 39.73% | $2.77M |
-| [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.34M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 39.79% | $15.97M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 22.81% | $4.36M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token) | Ethereum | 0.02% | $3.84M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 9.26% | $3.6M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 26.78% | $3.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 20.38% | $3.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 2.47% | $2.79M |
+| [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.35M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UNI's lower-variability candidates are dolomite (Arbitrum), 0.02% APY, $2.34M TVL, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; uniswap-v2 (Ethereum), 8.87% APY, $3.61M TVL, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; uniswap-v3 (Ethereum), 41.10% APY, $15.98M TVL, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; uniswap-v4 (Ethereum), 24.06% APY, $4.38M TVL, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $3.81M TVL, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; uniswap-v4 (Ethereum), 26.98% APY, $3.04M TVL, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; uniswap-v4 (Ethereum), 22.16% APY, $3.02M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; uniswap-v3 (Ethereum), 39.73% APY, $2.77M TVL, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UNI's lower-variability candidates are dolomite (Arbitrum), 0.02% APY, $2.35M TVL, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; uniswap-v2 (Ethereum), 9.26% APY, $3.6M TVL, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; uniswap-v3 (Ethereum), 39.79% APY, $15.97M TVL, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; uniswap-v4 (Ethereum), 22.81% APY, $4.36M TVL, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.84M TVL, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; uniswap-v4 (Ethereum), 26.78% APY, $3.04M TVL, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; uniswap-v4 (Ethereum), 20.38% APY, $3.04M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; uniswap-v3 (Ethereum), 2.47% APY, $2.79M TVL, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.34M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 8.87% | $3.61M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 41.10% | $15.98M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 24.06% | $4.38M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token) | Ethereum | 0.01% | $3.81M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 26.98% | $3.04M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 22.16% | $3.02M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 39.73% | $2.77M |
+| 1 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.35M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 9.26% | $3.6M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 39.79% | $15.97M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 22.81% | $4.36M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token) | Ethereum | 0.02% | $3.84M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 26.78% | $3.04M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 20.38% | $3.04M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 2.47% | $2.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UNI shows up in 8 pools here, with rates from 0.01% to 41.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+UNI shows up in 8 pools here, with rates from 0.02% to 39.79% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 22.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 22.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,13 +45,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 41.10% | 25.08% | Base rate |
-| uniswap-v4 | 24.06% | 46.41% | Base rate |
-| uniswap-v3 | 0.01% | 0.02% | Base rate |
-| uniswap-v2 | 8.87% | 10.04% | Base rate |
-| uniswap-v4 | 26.98% | 41.16% | Base rate |
-| uniswap-v4 | 22.16% | 36.45% | Base rate |
-| uniswap-v3 | 39.73% | 18.94% | Base rate |
+| uniswap-v3 | 39.79% | 25.71% | Base rate |
+| uniswap-v4 | 22.81% | 46.50% | Base rate |
+| uniswap-v3 | 0.02% | 0.02% | Base rate |
+| uniswap-v2 | 9.26% | 10.10% | Base rate |
+| uniswap-v4 | 26.78% | 41.42% | Base rate |
+| uniswap-v4 | 20.38% | 36.47% | Base rate |
+| uniswap-v3 | 2.47% | 19.18% | Base rate |
 | dolomite | 0.02% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UNI yield today?
 
-26.98% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+26.78% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UNI pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $66.35M in total.
+34 live pools clear this page's $100K TVL floor, $66.36M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UNI pools have the most stable APY history?
 
-Based on APY history only, UNI's lower-variability candidates are dolomite (Arbitrum), 0.02% APY, $2.34M TVL, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; uniswap-v2 (Ethereum), 8.87% APY, $3.61M TVL, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; uniswap-v3 (Ethereum), 41.10% APY, $15.98M TVL, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; uniswap-v4 (Ethereum), 24.06% APY, $4.38M TVL, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $3.81M TVL, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; uniswap-v4 (Ethereum), 26.98% APY, $3.04M TVL, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; uniswap-v4 (Ethereum), 22.16% APY, $3.02M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; uniswap-v3 (Ethereum), 39.73% APY, $2.77M TVL, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UNI's lower-variability candidates are dolomite (Arbitrum), 0.02% APY, $2.35M TVL, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; uniswap-v2 (Ethereum), 9.26% APY, $3.6M TVL, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; uniswap-v3 (Ethereum), 39.79% APY, $15.97M TVL, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; uniswap-v4 (Ethereum), 22.81% APY, $4.36M TVL, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.84M TVL, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; uniswap-v4 (Ethereum), 26.78% APY, $3.04M TVL, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; uniswap-v4 (Ethereum), 20.38% APY, $3.04M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; uniswap-v3 (Ethereum), 2.47% APY, $2.79M TVL, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, UNI's lower-variability candidates are dolomite (Arbi
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

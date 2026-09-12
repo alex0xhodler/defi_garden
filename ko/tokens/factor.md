@@ -1,12 +1,12 @@
 # FACTOR 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FACTOR의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 13.19%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FACTOR의 가장 높은 정직한 수익률은 Plume Mainnet의 plume-vaults에서 18.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_token) | Plume Mainnet | 13.19% | $2.04M |
+| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_token) | Plume Mainnet | 18.14% | $3.76M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 FACTOR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 13.19%예요.
+DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 18.14%예요.
 
 ### FACTOR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.04M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $3.76M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 13
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

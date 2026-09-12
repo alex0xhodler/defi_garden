@@ -1,13 +1,12 @@
 # GMT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest GMT yield right now is 660.15% on uniswap-v4 (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMT yield right now is 0.55% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=46976cac-a475-5d3e-bc9c-e0cc91288700&src=seo_token) | BSC | 0.55% | $217.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f295fea-7ee3-5b8e-97c6-ca22e2b75cac&src=seo_token) | BSC | 660.15% | $147.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=18f0090b-bf7e-57d2-aeb4-80c0b4a043a9&src=seo_token) | Ethereum | 0.52% | $134K |
 
 <!-- rate-stability:insufficient -->
@@ -19,18 +18,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GMT shows up in 3 pools here, with rates from 0.52% to 660.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GMT shows up in 2 pools here, with rates from 0.52% to 0.55% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 236.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 238.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 0.55% | 292.72% | Base rate |
-| uniswap-v4 | 660.15% | 236.75% | Base rate |
 | uniswap-v4 | 0.52% | 183.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GMT yield today?
 
-660.15% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.55% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many GMT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $498.5K in total.
+2 live pools clear this page's $100K TVL floor, $351.4K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +65,4 @@ There is not enough qualifying APY history to rank GMT pools. This view covers A
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # GETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest GETH yield right now is 2.27% on geth (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.27% | $19.63M |
+| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.27% | $19.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $19.75M in total.
+2 live pools clear this page's $100K TVL floor, $19.37M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank GETH pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

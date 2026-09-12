@@ -1,12 +1,12 @@
 # ZRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ZRO yield right now is 548.08% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRO yield right now is 156.81% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 548.08% | $125K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 156.81% | $136.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZRO yield today?
 
-548.08% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+156.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $125K in total.
+1 live pool clear this page's $100K TVL floor, $136.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ZRO pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

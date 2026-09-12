@@ -1,13 +1,13 @@
 # MEW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MEW yield right now is 322.89% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEW yield right now is 394.60% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 4.68% | $8.76M |
-| [raydium-amm →](https://www.defi.garden/?pool=d1311398-b4cc-5d03-b380-1a8259045bb8&src=seo_token) | Solana | 322.89% | $260.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 3.88% | $8.63M |
+| [raydium-amm →](https://www.defi.garden/?pool=d1311398-b4cc-5d03-b380-1a8259045bb8&src=seo_token) | Solana | 394.60% | $260.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MEW shows up in 2 pools here, with rates from 4.68% to 322.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MEW shows up in 2 pools here, with rates from 3.88% to 394.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 111.48% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 225.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 4.68% | 3.86% | Base rate |
-| raydium-amm | 322.89% | 219.09% | Base rate |
+| raydium-amm | 3.88% | 3.93% | Base rate |
+| raydium-amm | 394.60% | 446.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MEW yield today?
 
-322.89% APY on raydium-amm (Solana), based on live DefiLlama data.
+394.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MEW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.02M in total.
+2 live pools clear this page's $100K TVL floor, $8.89M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank MEW pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

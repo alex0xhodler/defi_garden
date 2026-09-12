@@ -1,12 +1,12 @@
 # ANKRETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest ANKRETH yield right now is 2.45% on ankr (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.45% | $22.1M |
+| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.45% | $21.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $22.36M in total.
+3 live pools clear this page's $100K TVL floor, $21.59M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank ANKRETH pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026
