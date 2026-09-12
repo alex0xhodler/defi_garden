@@ -2444,34 +2444,11 @@ function PoolDetail({
           )
         ),
 
-        // Engraved rule between Decision Terminal and Yield Card Terminal
+        // Engraved rule between Decision Terminal and Calculator
         React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-        React.createElement('span', { className: 'cert-divider-node' }),
-        React.createElement('span', { className: 'orn-band cert-divider-strand' })
-        ),
-
-        // Yield-Funded Virtual Card Terminal (PRD Design 3)
-        React.createElement(YieldCardWidget, {
-        pool: pool,
-        totalApy: totalApy,
-        sub: sub,
-        t: t,
-        formatCurrency: formatCurrency,
-        formatUsd: _formatUsd,
-        formatNum: _formatNum,
-        formatApy: _formatApy,
-        riskAssessment: riskAssessment
-        }),
-
-        // Engraved rule between the document's clauses (247 world). Decorative
-        // only: aria-hidden, no text, and the ornament primitives are
-        // pointer-events: none, so this can never sit between a user and a
-        // control.
-        React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
-        React.createElement('span', { className: 'orn-band cert-divider-strand' }),
-        React.createElement('span', { className: 'cert-divider-node' }),
-        React.createElement('span', { className: 'orn-band cert-divider-strand' })
+          React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+          React.createElement('span', { className: 'cert-divider-node' }),
+          React.createElement('span', { className: 'orn-band cert-divider-strand' })
         ),
 
     // Collapsible Yield Calculator — now the single "your garden" earnings
@@ -2990,6 +2967,25 @@ function PoolDetail({
       )
     ),
 
+    // Engraved rule between Pool Information and Yield Card Terminal
+    React.createElement('div', { className: 'cert-divider', 'aria-hidden': 'true' },
+      React.createElement('span', { className: 'orn-band cert-divider-strand' }),
+      React.createElement('span', { className: 'cert-divider-node' }),
+      React.createElement('span', { className: 'orn-band cert-divider-strand' })
+    ),
+
+    // Yield-Funded Virtual Card Terminal (PRD Design 3)
+    React.createElement(YieldCardWidget, {
+      pool: pool,
+      totalApy: totalApy,
+      sub: sub,
+      t: t,
+      formatCurrency: formatCurrency,
+      formatUsd: _formatUsd,
+      formatNum: _formatNum,
+      formatApy: _formatApy,
+      riskAssessment: riskAssessment
+    })
   );
 }
 
