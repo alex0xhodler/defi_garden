@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 0.05% | 0.09% | Base rate |
+| aave-v3 | 0.05% | 0.08% | Base rate |
 | sushiswap | 8.92% | 9.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WPOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.86M in total.
+2 live pools clear this page's $100K TVL floor, $8.87M in total.
 
 ### Are these rates safe?
 
@@ -59,11 +59,11 @@ Based on APY history only, WPOL's lower-variability candidates are aave-v3 (Poly
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
-- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 

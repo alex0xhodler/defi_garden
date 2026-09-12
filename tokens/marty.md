@@ -6,7 +6,7 @@ The highest honest MARTY yield right now is 0.13% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d807d4a9-b632-4436-a417-8ccffe833715&src=seo_token) | Base | 0.13% | $124.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d807d4a9-b632-4436-a417-8ccffe833715&src=seo_token) | Base | 0.13% | $125K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MARTY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.3K in total.
+1 live pool clear this page's $100K TVL floor, $125K in total.
 
 ### Are these rates safe?
 

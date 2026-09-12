@@ -6,18 +6,18 @@ The highest honest GOLD yield right now is 0.17% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $519.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token) | Base | 0.04% | $320.1K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $520.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token) | Base | 0.04% | $321.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GOLD's lower-variability candidates are folks-finance-lending (Algorand), 0.17% APY, $519.4K TVL, https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token; uniswap-v3 (Base), 0.04% APY, $320.1K TVL, https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GOLD's lower-variability candidates are folks-finance-lending (Algorand), 0.17% APY, $520.2K TVL, https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token; uniswap-v3 (Base), 0.04% APY, $321.9K TVL, https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $519.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token) | Base | 0.04% | $320.1K |
+| 1 | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $520.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token) | Base | 0.04% | $321.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GOLD shows up in 2 pools here, with rates from 0.04% to 0.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.05M in total.
+3 live pools clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GOLD pools have the most stable APY history?
 
-Based on APY history only, GOLD's lower-variability candidates are folks-finance-lending (Algorand), 0.17% APY, $519.4K TVL, https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token; uniswap-v3 (Base), 0.04% APY, $320.1K TVL, https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GOLD's lower-variability candidates are folks-finance-lending (Algorand), 0.17% APY, $520.2K TVL, https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token; uniswap-v3 (Base), 0.04% APY, $321.9K TVL, https://www.defi.garden/?pool=1bc3e824-810f-4a05-bb65-bb43f515f16f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ATH yield right now is 329.34% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATH yield right now is 330.63% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 329.34% | $556.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 41.79% | $311.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 330.63% | $554.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 40.74% | $312K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 41.79% APY, $311.4K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 329.34% APY, $556.1K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 40.74% APY, $312K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 330.63% APY, $554.5K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 41.79% | $311.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 329.34% | $556.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 40.74% | $312K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 330.63% | $554.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ATH shows up in 2 pools here, with rates from 41.79% to 329.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATH shows up in 2 pools here, with rates from 40.74% to 330.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 180.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 180.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 329.34% | 340.10% | Base rate |
-| uniswap-v3 | 41.79% | 21.79% | Base rate |
+| uniswap-v4 | 330.63% | 339.91% | Base rate |
+| uniswap-v3 | 40.74% | 21.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ATH yield today?
 
-329.34% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+330.63% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many ATH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $867.4K in total.
+2 live pools clear this page's $100K TVL floor, $866.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ATH pools have the most stable APY history?
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 41.79% APY, $311.4K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 329.34% APY, $556.1K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 40.74% APY, $312K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 330.63% APY, $554.5K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

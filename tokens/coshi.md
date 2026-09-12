@@ -6,7 +6,7 @@ The highest honest COSHI yield right now is 0.15% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a36e3f50-11c9-4249-a74f-186151b46e7b&src=seo_token) | Ethereum | 0.15% | $130.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a36e3f50-11c9-4249-a74f-186151b46e7b&src=seo_token) | Ethereum | 0.15% | $130.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.3K in total.
+1 live pool clear this page's $100K TVL floor, $130.4K in total.
 
 ### Are these rates safe?
 

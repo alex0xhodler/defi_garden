@@ -6,7 +6,7 @@ The highest honest OPENAGENTMARKET yield right now is 2.90% on uniswap-v4 (Base)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a194016c-e11e-4662-853c-b6964e1a9fe4&src=seo_token) | Base | 2.90% | $100.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a194016c-e11e-4662-853c-b6964e1a9fe4&src=seo_token) | Base | 2.90% | $100.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPENAGENTMARKET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.7K in total.
+1 live pool clear this page's $100K TVL floor, $100.9K in total.
 
 ### Are these rates safe?
 

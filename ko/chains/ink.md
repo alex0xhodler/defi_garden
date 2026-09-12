@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.03% | $42.52M |
-| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 0.58% | $19.24M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 3.69% | $12.88M |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.03% | $42.56M |
+| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 0.58% | $19.39M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 3.70% | $12.85M |
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 4.50% | $11.11M |
 | USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.81% | $2.48M |
-| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8&src=seo_chain) | 1.52% | $1.01M |
-| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05&src=seo_chain) | 1.95% | $987.9K |
-| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 1.77% | $963.2K |
+| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8&src=seo_chain) | 1.22% | $1.01M |
+| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05&src=seo_chain) | 1.97% | $988K |
+| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 1.79% | $964.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ink의 apollo-diversified-credit-securitiz
 
 ### Ink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $106.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $107.01M예요.
 
 ### 이 수익률은 안전한가요?
 

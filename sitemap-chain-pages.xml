@@ -116,12 +116,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/berachain</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/berachain</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -241,6 +241,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/thorchain</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
@@ -256,12 +261,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/neutron</loc>
+    <loc>https://www.defi.garden/chains/etherlink</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/etherlink</loc>
+    <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
   </url>

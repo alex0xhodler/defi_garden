@@ -6,7 +6,7 @@ The highest honest OTM yield right now is 0.74% on uniswap-v4 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=75036ee6-7282-49d4-877d-183cfd89b6c0&src=seo_token) | Arbitrum | 0.74% | $281.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=75036ee6-7282-49d4-877d-183cfd89b6c0&src=seo_token) | Arbitrum | 0.74% | $281.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OTM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $281.1K in total.
+1 live pool clear this page's $100K TVL floor, $281.2K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest POINTFARMC yield right now is 730.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POINTFARMC yield right now is 766.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b21a0079-dd2a-5f22-8c6a-00171f227704&src=seo_token) | Solana | 730.58% | $184.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=b21a0079-dd2a-5f22-8c6a-00171f227704&src=seo_token) | Solana | 766.21% | $157K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POINTFARMC yield today?
 
-730.58% APY on raydium-amm (Solana), based on live DefiLlama data.
+766.21% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POINTFARMC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.4K in total.
+1 live pool clear this page's $100K TVL floor, $157K in total.
 
 ### Are these rates safe?
 

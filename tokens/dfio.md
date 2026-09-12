@@ -6,7 +6,7 @@ The highest honest DFIO yield right now is 0.58% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=869c7b22-18d6-47a3-aa69-8831532c3eec&src=seo_token) | Ethereum | 0.58% | $102K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=869c7b22-18d6-47a3-aa69-8831532c3eec&src=seo_token) | Ethereum | 0.58% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DFIO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $102.7K in total.
 
 ### Are these rates safe?
 

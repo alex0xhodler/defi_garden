@@ -2,13 +2,13 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest TAO yield right now is 894.70% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAO yield right now is 724.03% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 316.36% | $597.8K |
-| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303&src=seo_token) | Solana | 894.70% | $176.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=6badecf3-7073-5d2a-9cb1-9c33df67be53&src=seo_token) | Solana | 338.58% | $115.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245&src=seo_token) | Base | 127.22% | $646.5K |
+| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303&src=seo_token) | Solana | 724.03% | $177.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=6badecf3-7073-5d2a-9cb1-9c33df67be53&src=seo_token) | Solana | 308.56% | $109.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TAO shows up in 3 pools here, with rates from 316.36% to 894.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TAO shows up in 3 pools here, with rates from 127.22% to 724.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 581.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 553.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ TAO shows up in 3 pools here, with rates from 316.36% to 894.70% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 316.36% | 303.44% | 61.69% incentives |
-| orca-dex | 894.70% | 839.30% | Base rate |
-| raydium-amm | 338.58% | 581.51% | Base rate |
+| aerodrome-slipstream | 127.22% | 301.61% | 49.96% incentives |
+| orca-dex | 724.03% | 835.21% | Base rate |
+| raydium-amm | 308.56% | 553.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TAO yield today?
 
-894.70% APY on orca-dex (Solana), based on live DefiLlama data.
+724.03% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many TAO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $889.9K in total.
+3 live pools clear this page's $100K TVL floor, $932.9K in total.
 
 ### Are these rates safe?
 

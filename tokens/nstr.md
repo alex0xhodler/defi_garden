@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [SUSN](https://www.defi.garden/tokens/susn)
 - [STRK](https://www.defi.garden/tokens/strk)
-- [ZEC](https://www.defi.garden/tokens/zec)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
+- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 

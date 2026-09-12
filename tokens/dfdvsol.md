@@ -6,7 +6,7 @@ The highest honest DFDVSOL yield right now is 5.02% on dfdv-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.02% | $134.15M |
+| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.02% | $134.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DFDVSOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $176.32M in total.
+4 live pools clear this page's $100K TVL floor, $176.97M in total.
 
 ### Are these rates safe?
 

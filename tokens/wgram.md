@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest WGRAM yield right now is 298.13% on tonco-v1 (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGRAM yield right now is 285.74% on tonco-v1 (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tonco-v1 →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 298.13% | $142.1K |
+| [tonco-v1 →](https://www.defi.garden/?pool=16ad8658-3e91-54dd-ab1a-518cd0c82321&src=seo_token) | TON | 285.74% | $146.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGRAM yield today?
 
-298.13% APY on tonco-v1 (TON), based on live DefiLlama data.
+285.74% APY on tonco-v1 (TON), based on live DefiLlama data.
 
 ### How many WGRAM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.1K in total.
+1 live pool clear this page's $100K TVL floor, $146.5K in total.
 
 ### Are these rates safe?
 

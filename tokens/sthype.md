@@ -6,8 +6,8 @@ The highest honest STHYPE yield right now is 2.28% on pendle-v2 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.27% | $1.29M |
-| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.28% | $1.29M |
+| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.27% | $1.3M |
+| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.28% | $1.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -27,7 +27,7 @@ STHYPE shows up in 2 pools here, with rates from 2.27% to 2.28% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle-v2 | 2.27% | 2.28% | Base rate |
-| pendle-v2 | 2.28% | 2.55% | 4.32% incentives |
+| pendle-v2 | 2.28% | 2.55% | 4.41% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.7M in total.
+3 live pools clear this page's $100K TVL floor, $2.73M in total.
 
 ### Are these rates safe?
 

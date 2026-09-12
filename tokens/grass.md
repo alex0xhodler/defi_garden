@@ -7,17 +7,17 @@ The highest honest GRASS yield right now is 2.47% on raydium-amm (Solana), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 2.47% | $266.4K |
-| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.1K |
+| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.1K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.7K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 2.47% | $266.4K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.1K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.47% | 2.41% | Base rate |
+| raydium-amm | 2.47% | 2.42% | Base rate |
 | orca-dex | 0.02% | 0.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GRASS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $553.7K in total.
+3 live pools clear this page's $100K TVL floor, $554.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GRASS pools have the most stable APY history?
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.1K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.7K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

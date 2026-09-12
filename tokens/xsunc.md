@@ -6,7 +6,7 @@ The highest honest XSUNC yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=09a48586-95d5-4a3a-899a-1a43ed5126f5&src=seo_token) | Ethereum | 0.01% | $203.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=09a48586-95d5-4a3a-899a-1a43ed5126f5&src=seo_token) | Ethereum | 0.01% | $205.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSUNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.9K in total.
+1 live pool clear this page's $100K TVL floor, $205.1K in total.
 
 ### Are these rates safe?
 

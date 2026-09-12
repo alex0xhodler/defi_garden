@@ -6,7 +6,7 @@ The highest honest WCFX yield right now is 0.13% on nucleon (Conflux), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_token) | Conflux | 0.13% | $225.8K |
+| [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_token) | Conflux | 0.13% | $223.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $225.8K in total.
+1 live pool clear this page's $100K TVL floor, $223.4K in total.
 
 ### Are these rates safe?
 

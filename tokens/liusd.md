@@ -29,7 +29,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 LIUSD shows up in 4 pools here, with rates from 6.27% to 9.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,9 +37,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 8.55% | 8.91% | Base rate |
-| infinifi | 7.57% | 7.88% | Base rate |
-| infinifi | 9.22% | 9.60% | Base rate |
+| infinifi | 8.55% | 8.92% | Base rate |
+| infinifi | 7.57% | 7.89% | Base rate |
+| infinifi | 9.22% | 9.62% | Base rate |
 | infinifi | 6.27% | 6.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

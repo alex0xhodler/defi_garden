@@ -6,8 +6,8 @@ The highest honest USAT yield right now is 4.99% on centrifuge-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 4.99% | $399.12M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_token) | Celo | 0.02% | $105.4K |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=246659c9-877b-5dcc-92c1-cbd7bfcf0d85&src=seo_token) | Ethereum | 4.99% | $399.51M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f&src=seo_token) | Celo | 0.02% | $105.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $409.24M in total.
+3 live pools clear this page's $100K TVL floor, $409.62M in total.
 
 ### Are these rates safe?
 

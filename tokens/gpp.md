@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest GPP yield right now is 5.91% on pancakeswap-amm (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GPP yield right now is 8.61% on pancakeswap-amm (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=81fcdf2d-ae25-5e4f-b161-c11999089b47&src=seo_token) | Base | 5.91% | $140.9K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=81fcdf2d-ae25-5e4f-b161-c11999089b47&src=seo_token) | Base | 8.61% | $140.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GPP yield today?
 
-5.91% APY on pancakeswap-amm (Base), based on live DefiLlama data.
+8.61% APY on pancakeswap-amm (Base), based on live DefiLlama data.
 
 ### How many GPP pools clear the TVL floor?
 

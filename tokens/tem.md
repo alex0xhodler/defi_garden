@@ -6,7 +6,7 @@ The highest honest TEM yield right now is 0.40% on uniswap-v4 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.40% | $887K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.40% | $887.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TEM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $887K in total.
+1 live pool clear this page's $100K TVL floor, $887.2K in total.
 
 ### Are these rates safe?
 

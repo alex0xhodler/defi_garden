@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest DJT yield right now is 373.66% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DJT yield right now is 415.16% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=169faaa7-d993-571e-849a-1f1efc7c2422&src=seo_token) | Solana | 373.66% | $151.6K |
+| [orca-dex →](https://www.defi.garden/?pool=169faaa7-d993-571e-849a-1f1efc7c2422&src=seo_token) | Solana | 415.16% | $158.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DJT yield today?
 
-373.66% APY on orca-dex (Solana), based on live DefiLlama data.
+415.16% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DJT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.6K in total.
+1 live pool clear this page's $100K TVL floor, $158.2K in total.
 
 ### Are these rates safe?
 

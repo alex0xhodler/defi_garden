@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest AAVEWSTETH yield right now is 1.76% on balancer-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEWSTETH yield right now is 1.67% on balancer-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=55ade9dc-98e1-43f1-b6ad-80ff8798a7b9&src=seo_token) | Arbitrum | 1.76% | $113.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=55ade9dc-98e1-43f1-b6ad-80ff8798a7b9&src=seo_token) | Arbitrum | 1.67% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAVEWSTETH yield today?
 
-1.76% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+1.67% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many AAVEWSTETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.1K in total.
+1 live pool clear this page's $100K TVL floor, $114K in total.
 
 ### Are these rates safe?
 

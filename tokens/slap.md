@@ -6,7 +6,7 @@ The highest honest SLAP yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=720f5a92-487f-4e96-b517-7a40c59ba4c6&src=seo_token) | Ethereum | 0.01% | $557.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=720f5a92-487f-4e96-b517-7a40c59ba4c6&src=seo_token) | Ethereum | 0.01% | $558.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $557.2K in total.
+1 live pool clear this page's $100K TVL floor, $558.8K in total.
 
 ### Are these rates safe?
 

@@ -7,9 +7,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=71fe3d5e-3b19-56fd-80cc-d68a0ada6817&src=seo_token) | BSC | 5.21% | $1.63M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cdd23fde-d996-5a24-8edb-255d672d8721&src=seo_token) | Ethereum | 7.48% | $256.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cdd23fde-d996-5a24-8edb-255d672d8721&src=seo_token) | Ethereum | 3.10% | $256.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0971f6ed-9a96-5f22-aff3-752e98850346&src=seo_token) | Ethereum | 12.86% | $200.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d3726d0b-76cd-5cf1-92a0-9da4ddd498fb&src=seo_token) | Ethereum | 1.11% | $197.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d3726d0b-76cd-5cf1-92a0-9da4ddd498fb&src=seo_token) | Ethereum | 1.11% | $198K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=26cc22c0-0c55-5a51-a3be-850681fc9a8d&src=seo_token) | Ethereum | 9.37% | $194.9K |
 
 <!-- rate-stability:insufficient -->
@@ -32,9 +32,9 @@ NES 풀은 여기 5개가 있고, 2개 체인에서 APY가 1.11%부터 12.86%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 5.21% | 3.00% | 기본 금리 |
-| uniswap-v4 | 7.48% | 4.52% | 기본 금리 |
+| uniswap-v4 | 3.10% | 4.62% | 기본 금리 |
 | uniswap-v4 | 12.86% | 9.45% | 기본 금리 |
-| uniswap-v4 | 1.11% | 348.38% | 기본 금리 |
+| uniswap-v4 | 1.11% | 334.49% | 기본 금리 |
 | uniswap-v4 | 9.37% | 9.58% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 12.86%예
 
 ### NES 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $10.97M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $10.98M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SRMHYPER의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 6.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRMHYPER의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 6.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 6.55% | $585.6K |
+| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 6.53% | $585.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 SRMHYPER의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 6.55%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 6.53%예요.
 
 ### SRMHYPER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

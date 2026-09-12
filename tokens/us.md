@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest US yield right now is 1.05% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest US yield right now is 1.00% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 1.05% | $546.9K |
+| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 1.00% | $546.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest US yield today?
 
-1.05% APY on cetus-clmm (Sui), based on live DefiLlama data.
+1.00% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many US pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $546.9K in total.
+1 live pool clear this page's $100K TVL floor, $546.7K in total.
 
 ### Are these rates safe?
 

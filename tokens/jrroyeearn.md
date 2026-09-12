@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest JRROYEEARN yield right now is 21.95% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYEEARN yield right now is 21.43% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=cc8066c2-543a-569a-a207-486a38c9fc48&src=seo_token) | Ethereum | 21.95% | $131.6K |
+| [royco-v2 →](https://www.defi.garden/?pool=cc8066c2-543a-569a-a207-486a38c9fc48&src=seo_token) | Ethereum | 21.43% | $131.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYEEARN yield today?
 
-21.95% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+21.43% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JRROYEEARN pools clear the TVL floor?
 

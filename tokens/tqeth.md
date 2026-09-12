@@ -6,7 +6,7 @@ The highest honest TQETH yield right now is 5.03% on theoriq-alphavault-eth (Eth
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [theoriq-alphavault-eth →](https://www.defi.garden/?pool=afc3e16d-821b-437f-8903-f72d87e74e3b&src=seo_token) | Ethereum | 5.03% | $214.1K |
+| [theoriq-alphavault-eth →](https://www.defi.garden/?pool=afc3e16d-821b-437f-8903-f72d87e74e3b&src=seo_token) | Ethereum | 5.03% | $215.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TQETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.1K in total.
+1 live pool clear this page's $100K TVL floor, $215.4K in total.
 
 ### Are these rates safe?
 

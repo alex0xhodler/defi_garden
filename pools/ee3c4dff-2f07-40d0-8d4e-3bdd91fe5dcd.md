@@ -1,12 +1,12 @@
 # ETH-WLFI — uniswap-v4 on Ethereum
 
-**Total APY:** 26.65% (26.65% Base · + 0.00% Rewards)
+**Total APY:** 26.22% (26.22% Base · + 0.00% Rewards)
 
-**TVL:** $4.68M
+**TVL:** $4.77M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 6.23%
+**30d Mean APY:** 6.38%
 
 **Exposure:** multi
 
@@ -22,13 +22,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,259 in 5y at current rates.
+$1,000 in this pool grows to ~$3,204 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 26.65% right now vs a 6.23% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 26.22% right now vs a 6.38% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$3,259 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$3,204 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 

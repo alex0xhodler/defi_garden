@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MOONBTC yield right now is 0.13% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOONBTC yield right now is 6.25% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=6d1c38f0-c09f-4623-bb83-ce6cc30e4f51&src=seo_token) | Ethereum | 0.13% | $677.2K |
+| [lagoon →](https://www.defi.garden/?pool=6d1c38f0-c09f-4623-bb83-ce6cc30e4f51&src=seo_token) | Ethereum | 6.25% | $664.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOONBTC yield today?
 
-0.13% APY on lagoon (Ethereum), based on live DefiLlama data.
+6.25% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many MOONBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $677.2K in total.
+1 live pool clear this page's $100K TVL floor, $664.5K in total.
 
 ### Are these rates safe?
 

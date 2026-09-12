@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest PANDA yield right now is 12.69% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PANDA yield right now is 15.44% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8bece593-c32f-5c6c-9a87-dd969ed10d16&src=seo_token) | Base | 12.69% | $117.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8bece593-c32f-5c6c-9a87-dd969ed10d16&src=seo_token) | Base | 15.44% | $118.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PANDA yield today?
 
-12.69% APY on uniswap-v2 (Base), based on live DefiLlama data.
+15.44% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many PANDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.5K in total.
+1 live pool clear this page's $100K TVL floor, $118.5K in total.
 
 ### Are these rates safe?
 

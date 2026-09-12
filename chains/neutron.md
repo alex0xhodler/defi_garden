@@ -4,11 +4,11 @@ The highest honest Neutron yield right now is 18.72% on hydro-inflow (Neutron), 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.01% | $4.45M |
-| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 18.72% | $1.66M |
-| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.11% | $719.9K |
-| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 2.42% | $204.9K |
-| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.52% | $140.6K |
+| USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.01% | $4.44M |
+| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 18.72% | $1.65M |
+| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.19% | $719.9K |
+| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 2.37% | $204.2K |
+| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.56% | $140.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Neutron pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $7.78M in total.
+7 live pools clear this page's $100K TVL floor, $7.76M in total.
 
 ### Are these rates safe?
 

@@ -6,36 +6,36 @@ The highest honest VBETH yield right now is 1.80% on yearn-finance (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.80% | $7.63M |
-| [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.42% | $2.38M |
-| [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.53% | $255.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.80% | $7.69M |
+| [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.45% | $2.4M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.55% | $257.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.53% APY, $255.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.42% APY, $2.38M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.63M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.55% APY, $257.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.45% APY, $2.4M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.69M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.53% | $255.3K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.42% | $2.38M |
-| 3 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.80% | $7.63M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.55% | $257.3K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.45% | $2.4M |
+| 3 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.80% | $7.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBETH shows up in 3 pools here, with rates from 1.80% to 3.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBETH shows up in 3 pools here, with rates from 1.80% to 3.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 1.80% | 2.21% | 57.50% incentives |
-| morpho-blue | 3.42% | 1.22% | 100.00% incentives |
-| morpho-blue | 2.53% | 0.92% | 100.00% incentives |
+| yearn-finance | 1.80% | 2.21% | 57.49% incentives |
+| morpho-blue | 3.45% | 1.24% | 100.00% incentives |
+| morpho-blue | 2.55% | 0.94% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.27M in total.
+3 live pools clear this page's $100K TVL floor, $10.35M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBETH pools have the most stable APY history?
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.53% APY, $255.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.42% APY, $2.38M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.63M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.55% APY, $257.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.45% APY, $2.4M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.69M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

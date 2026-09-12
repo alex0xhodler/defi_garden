@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest STORJ yield right now is 0.09% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STORJ yield right now is 0.08% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961&src=seo_token) | Solana | 0.09% | $4.12M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=c04bf977-fff9-45e4-8a41-1a285f6b9fc7&src=seo_token) | Ethereum | 527.83% | $110.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961&src=seo_token) | Solana | 0.08% | $4.12M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c04bf977-fff9-45e4-8a41-1a285f6b9fc7&src=seo_token) | Ethereum | 500.45% | $119.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STORJ shows up in 2 pools here, with rates from 0.09% to 527.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STORJ shows up in 2 pools here, with rates from 0.08% to 500.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.09% | 0.06% | Base rate |
-| uniswap-v2 | 527.83% | 40.15% | Base rate |
+| raydium-amm | 0.08% | 0.07% | Base rate |
+| uniswap-v2 | 500.45% | 42.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STORJ yield today?
 
-0.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STORJ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.23M in total.
+2 live pools clear this page's $100K TVL floor, $4.24M in total.
 
 ### Are these rates safe?
 

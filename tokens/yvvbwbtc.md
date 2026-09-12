@@ -6,7 +6,7 @@ The highest honest YVVBWBTC yield right now is 3.77% on morpho-blue (Katana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.77% | $287.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.77% | $288.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YVVBWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $287.9K in total.
+1 live pool clear this page's $100K TVL floor, $288.3K in total.
 
 ### Are these rates safe?
 

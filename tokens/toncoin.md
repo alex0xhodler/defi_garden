@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest TONCOIN yield right now is 9.99% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TONCOIN yield right now is 8.59% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 6.33% | $755.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 9.99% | $165.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 4.81% | $761.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 8.59% | $167K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TONCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 6.33% APY, $755.1K TVL, https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token; uniswap-v4 (Ethereum), 9.99% APY, $165.5K TVL, https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TONCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 4.81% APY, $761.2K TVL, https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token; uniswap-v4 (Ethereum), 8.59% APY, $167K TVL, https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 6.33% | $755.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 9.99% | $165.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 4.81% | $761.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 8.59% | $167K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TONCOIN shows up in 2 pools here, with rates from 6.33% to 9.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TONCOIN shows up in 2 pools here, with rates from 4.81% to 8.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 6.33% | 16.79% | Base rate |
-| uniswap-v4 | 9.99% | 23.14% | Base rate |
+| uniswap-v3 | 4.81% | 16.82% | Base rate |
+| uniswap-v4 | 8.59% | 23.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TONCOIN yield today?
 
-9.99% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+8.59% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many TONCOIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $920.6K in total.
+2 live pools clear this page's $100K TVL floor, $928.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TONCOIN pools have the most stable APY history?
 
-Based on APY history only, TONCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 6.33% APY, $755.1K TVL, https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token; uniswap-v4 (Ethereum), 9.99% APY, $165.5K TVL, https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TONCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 4.81% APY, $761.2K TVL, https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token; uniswap-v4 (Ethereum), 8.59% APY, $167K TVL, https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

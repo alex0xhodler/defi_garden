@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MACHINES yield right now is 2.90% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MACHINES yield right now is 2.88% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c15d2117-0234-4d67-89ed-3c197511c382&src=seo_token) | Base | 2.90% | $153.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c15d2117-0234-4d67-89ed-3c197511c382&src=seo_token) | Base | 2.88% | $154.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MACHINES yield today?
 
-2.90% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.88% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MACHINES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.6K in total.
+1 live pool clear this page's $100K TVL floor, $154.5K in total.
 
 ### Are these rates safe?
 

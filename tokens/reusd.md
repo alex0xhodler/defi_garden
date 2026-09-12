@@ -6,51 +6,51 @@ The highest honest REUSD yield right now is 14.99% on stake-dao-yield (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.63% | $245.21M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.52% | $24.96M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.46% | $13.19M |
-| [pendle-v2 →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.20% | $10.45M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.86% | $10.45M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.30% | $7.55M |
+| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.63% | $248.04M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.66% | $24.96M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.46% | $13.25M |
+| [pendle-v2 →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.22% | $10.48M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.86% | $10.48M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.24% | $7.61M |
 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.99% | $6.23M |
-| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.05% | $4.85M |
+| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.07% | $4.85M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, REUSD's lower-variability candidates are pendle-v2 (Ethereum), 10.86% APY, $10.45M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.63% APY, $245.21M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 0.52% APY, $24.96M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle-v2 (Ethereum), 9.20% APY, $10.45M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao-yield (Ethereum), 14.99% APY, $6.23M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 8.46% APY, $13.19M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; curve-dex (Ethereum), 10.05% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; convex-finance (Ethereum), 14.30% APY, $7.55M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REUSD's lower-variability candidates are pendle-v2 (Ethereum), 10.86% APY, $10.48M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.63% APY, $248.04M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 0.66% APY, $24.96M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle-v2 (Ethereum), 9.22% APY, $10.48M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao-yield (Ethereum), 14.99% APY, $6.23M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 8.46% APY, $13.25M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; curve-dex (Ethereum), 10.07% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; convex-finance (Ethereum), 14.24% APY, $7.61M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.86% | $10.45M |
-| 2 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.63% | $245.21M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.52% | $24.96M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.20% | $10.45M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.86% | $10.48M |
+| 2 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.63% | $248.04M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.66% | $24.96M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.22% | $10.48M |
 | 5 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 14.99% | $6.23M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.46% | $13.19M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.05% | $4.85M |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.30% | $7.55M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 8.46% | $13.25M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.07% | $4.85M |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.24% | $7.61M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REUSD shows up in 8 pools here, with rates from 0.52% to 14.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REUSD shows up in 8 pools here, with rates from 0.66% to 14.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | re | 6.63% | 6.44% | Base rate |
-| fluid-dex | 0.52% | 1.30% | Base rate |
-| curve-dex | 8.46% | 8.32% | 91.25% incentives |
-| pendle-v2 | 9.20% | 11.77% | 8.41% incentives |
+| fluid-dex | 0.66% | 1.30% | Base rate |
+| curve-dex | 8.46% | 8.32% | 91.13% incentives |
+| pendle-v2 | 9.22% | 11.77% | 8.63% incentives |
 | pendle-v2 | 10.86% | 10.90% | Base rate |
-| convex-finance | 14.30% | 14.88% | 94.82% incentives |
-| stake-dao-yield | 14.99% | 14.71% | 96.26% incentives |
-| curve-dex | 10.05% | 9.85% | 82.19% incentives |
+| convex-finance | 14.24% | 14.88% | 94.73% incentives |
+| stake-dao-yield | 14.99% | 14.72% | 96.20% incentives |
+| curve-dex | 10.07% | 9.84% | 82.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many REUSD pools clear the TVL floor?
 
-31 live pools clear this page's $100K TVL floor, $508.96M in total.
+31 live pools clear this page's $100K TVL floor, $514.7M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which REUSD pools have the most stable APY history?
 
-Based on APY history only, REUSD's lower-variability candidates are pendle-v2 (Ethereum), 10.86% APY, $10.45M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.63% APY, $245.21M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 0.52% APY, $24.96M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle-v2 (Ethereum), 9.20% APY, $10.45M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao-yield (Ethereum), 14.99% APY, $6.23M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 8.46% APY, $13.19M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; curve-dex (Ethereum), 10.05% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; convex-finance (Ethereum), 14.30% APY, $7.55M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REUSD's lower-variability candidates are pendle-v2 (Ethereum), 10.86% APY, $10.48M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.63% APY, $248.04M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 0.66% APY, $24.96M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle-v2 (Ethereum), 9.22% APY, $10.48M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao-yield (Ethereum), 14.99% APY, $6.23M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 8.46% APY, $13.25M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; curve-dex (Ethereum), 10.07% APY, $4.85M TVL, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; convex-finance (Ethereum), 14.24% APY, $7.61M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

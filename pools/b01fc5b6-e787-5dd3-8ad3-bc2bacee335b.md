@@ -1,6 +1,6 @@
 # SIERRA — pendle-v2 on Ethereum
 
-**Total APY:** 8.76% (8.76% Base · + 0.00% Rewards)
+**Total APY:** 8.77% (8.77% Base · + 0.00% Rewards)
 
 **TVL:** $14.75M
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$1,522 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 19 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
 [Garden this pool → ~$1,522 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 

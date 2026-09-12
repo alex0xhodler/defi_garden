@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MUSHU yield right now is 13.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MUSHU yield right now is 11.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9964e7fa-5c24-48f6-a8b0-2922246ced06&src=seo_token) | Solana | 13.56% | $249.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=9964e7fa-5c24-48f6-a8b0-2922246ced06&src=seo_token) | Solana | 11.50% | $247.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MUSHU yield today?
 
-13.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.50% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MUSHU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $249.7K in total.
+1 live pool clear this page's $100K TVL floor, $247.8K in total.
 
 ### Are these rates safe?
 

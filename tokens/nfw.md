@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest NFW yield right now is 135.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NFW yield right now is 135.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b6879c17-dd9c-5179-802f-75ae5c7b28b4&src=seo_token) | Solana | 135.63% | $165.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=b6879c17-dd9c-5179-802f-75ae5c7b28b4&src=seo_token) | Solana | 135.64% | $165.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NFW yield today?
 
-135.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+135.64% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NFW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.9K in total.
+1 live pool clear this page's $100K TVL floor, $165.5K in total.
 
 ### Are these rates safe?
 

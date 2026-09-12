@@ -7,16 +7,16 @@ The highest honest WYLDS yield right now is 3.27% on hastra (Solana), among 2 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.27% | $1.87M |
-| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.27% | $1.31M |
+| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.27% | $1.87M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WYLDS's lower-variability candidates are hastra (Ethereum), 3.27% APY, $1.31M TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token; hastra (Solana), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WYLDS's lower-variability candidates are hastra (Ethereum), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token; hastra (Solana), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.27% | $1.31M |
+| 1 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.27% | $1.87M |
 | 2 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.27% | $1.87M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WYLDS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.18M in total.
+2 live pools clear this page's $100K TVL floor, $3.74M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WYLDS pools have the most stable APY history?
 
-Based on APY history only, WYLDS's lower-variability candidates are hastra (Ethereum), 3.27% APY, $1.31M TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token; hastra (Solana), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WYLDS's lower-variability candidates are hastra (Ethereum), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token; hastra (Solana), 3.27% APY, $1.87M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

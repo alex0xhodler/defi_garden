@@ -6,7 +6,7 @@ The highest honest QR yield right now is 0.07% on uniswap-v3 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f3a6b8b3-c3ea-450b-b9d9-e07fae22bdc7&src=seo_token) | Base | 0.07% | $103.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f3a6b8b3-c3ea-450b-b9d9-e07fae22bdc7&src=seo_token) | Base | 0.07% | $104.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.9K in total.
+1 live pool clear this page's $100K TVL floor, $104.6K in total.
 
 ### Are these rates safe?
 

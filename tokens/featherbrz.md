@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 

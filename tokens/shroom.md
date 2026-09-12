@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SHROOM yield right now is 7.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHROOM yield right now is 5.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b81970ef-5bcc-474c-bc3c-7de9de543aa6&src=seo_token) | Solana | 7.35% | $402.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=b81970ef-5bcc-474c-bc3c-7de9de543aa6&src=seo_token) | Solana | 5.69% | $404K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHROOM yield today?
 
-7.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SHROOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $402.9K in total.
+1 live pool clear this page's $100K TVL floor, $404K in total.
 
 ### Are these rates safe?
 

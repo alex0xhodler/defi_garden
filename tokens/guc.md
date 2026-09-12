@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest GUC yield right now is 22.55% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUC yield right now is 26.33% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5fa2ec11-0eb3-46ae-b4a9-00881189d147&src=seo_token) | BSC | 22.55% | $1.22M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5fa2ec11-0eb3-46ae-b4a9-00881189d147&src=seo_token) | BSC | 26.33% | $1.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUC yield today?
 
-22.55% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+26.33% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many GUC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.22M in total.
+1 live pool clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 

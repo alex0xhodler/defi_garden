@@ -6,7 +6,7 @@ The highest honest YSEC yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=eaeab6de-139b-40d1-946c-c4cf92da87c5&src=seo_token) | Ethereum | 0.02% | $345.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eaeab6de-139b-40d1-946c-c4cf92da87c5&src=seo_token) | Ethereum | 0.02% | $347K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YSEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $345.9K in total.
+1 live pool clear this page's $100K TVL floor, $347K in total.
 
 ### Are these rates safe?
 

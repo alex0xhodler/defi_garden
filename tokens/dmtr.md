@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest DMTR yield right now is 27.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DMTR yield right now is 27.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2d4cf306-eb38-4c5c-ac59-f2503b97e2c7&src=seo_token) | Ethereum | 27.08% | $127.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2d4cf306-eb38-4c5c-ac59-f2503b97e2c7&src=seo_token) | Ethereum | 27.03% | $127.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DMTR yield today?
 
-27.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+27.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DMTR pools clear the TVL floor?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MAG7 yield right now is 76.14% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAG7 yield right now is 76.69% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=56c21e7c-a8f7-5f16-8579-3aae84435a13&src=seo_token) | Base | 76.14% | $422.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=56c21e7c-a8f7-5f16-8579-3aae84435a13&src=seo_token) | Base | 76.69% | $422.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAG7 yield today?
 
-76.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+76.69% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAG7 pools clear the TVL floor?
 

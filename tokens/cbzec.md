@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CBZEC yield right now is 89.06% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBZEC yield right now is 69.62% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686&src=seo_token) | Base | 89.06% | $984.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686&src=seo_token) | Base | 69.62% | $1.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBZEC yield today?
 
-89.06% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+69.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBZEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $984.8K in total.
+1 live pool clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 

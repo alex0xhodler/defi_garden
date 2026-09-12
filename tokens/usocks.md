@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest USOCKS yield right now is 2.21% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USOCKS yield right now is 2.20% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cf072c95-555a-5858-8d6a-8ce10a4079b8&src=seo_token) | Ethereum | 2.21% | $146.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cf072c95-555a-5858-8d6a-8ce10a4079b8&src=seo_token) | Ethereum | 2.20% | $147.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USOCKS yield today?
 
-2.21% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+2.20% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many USOCKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.3K in total.
+1 live pool clear this page's $100K TVL floor, $147.4K in total.
 
 ### Are these rates safe?
 

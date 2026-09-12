@@ -6,7 +6,7 @@ The highest honest ATVPTMAX yield right now is 6.14% on aarna-protocol (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aarna-protocol →](https://www.defi.garden/?pool=66e5e149-feaa-52b4-9a38-578f01b216aa&src=seo_token) | Ethereum | 6.14% | $225.3K |
+| [aarna-protocol →](https://www.defi.garden/?pool=66e5e149-feaa-52b4-9a38-578f01b216aa&src=seo_token) | Ethereum | 6.14% | $153.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATVPTMAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $225.3K in total.
+1 live pool clear this page's $100K TVL floor, $153.5K in total.
 
 ### Are these rates safe?
 

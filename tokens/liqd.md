@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest LIQD yield right now is 1.16% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIQD yield right now is 2.82% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4dc354fc-5482-4454-93a9-f28183c89be0&src=seo_token) | Hyperliquid L1 | 1.16% | $134.3K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4dc354fc-5482-4454-93a9-f28183c89be0&src=seo_token) | Hyperliquid L1 | 2.82% | $137K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIQD yield today?
 
-1.16% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+2.82% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many LIQD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.3K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 

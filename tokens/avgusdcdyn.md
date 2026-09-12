@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest AVGUSDCDYN yield right now is 4.69% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVGUSDCDYN yield right now is 4.64% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1cfe1261-cbc9-4607-88e0-6b5d831de67a&src=seo_token) | Ethereum | 4.69% | $105.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=1cfe1261-cbc9-4607-88e0-6b5d831de67a&src=seo_token) | Ethereum | 4.64% | $105.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVGUSDCDYN yield today?
 
-4.69% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.64% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many AVGUSDCDYN pools clear the TVL floor?
 

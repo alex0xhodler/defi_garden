@@ -6,7 +6,7 @@ The highest honest USDU yield right now is 0.02% on orca-dex (Solana), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c&src=seo_token) | Solana | 0.02% | $4.02M |
+| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c&src=seo_token) | Solana | 0.02% | $4.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

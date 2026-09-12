@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest YVUSD yield right now is 8.43% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVUSD yield right now is 8.33% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=13995c55-4d83-4784-b6a8-3dac45e05675&src=seo_token) | Ethereum | 8.43% | $3.75M |
+| [yearn-finance →](https://www.defi.garden/?pool=13995c55-4d83-4784-b6a8-3dac45e05675&src=seo_token) | Ethereum | 8.33% | $3.75M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YVUSD yield today?
 
-8.43% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+8.33% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YVUSD pools clear the TVL floor?
 

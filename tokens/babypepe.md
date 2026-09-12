@@ -6,7 +6,7 @@ The highest honest BABYPEPE yield right now is 0.01% on uniswap-v2 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9020e69e-cbf4-40e5-9469-1d36c107c2b8&src=seo_token) | Base | 0.01% | $114.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9020e69e-cbf4-40e5-9469-1d36c107c2b8&src=seo_token) | Base | 0.01% | $114.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BABYPEPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $224.1K in total.
+2 live pools clear this page's $100K TVL floor, $225.2K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.94% | $3.68M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.94% | $3.64M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 ### ALGO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.54M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,8 +49,8 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 ## 관련 토큰
 
-- [GOBTC](https://www.defi.garden/ko/tokens/gobtc)
 - [GOLD](https://www.defi.garden/ko/tokens/gold)
+- [GOBTC](https://www.defi.garden/ko/tokens/gobtc)
 - [SILVER](https://www.defi.garden/ko/tokens/silver)
 - [GOETH](https://www.defi.garden/ko/tokens/goeth)
 - [STETH](https://www.defi.garden/ko/tokens/steth)

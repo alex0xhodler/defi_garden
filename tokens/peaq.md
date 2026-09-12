@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest PEAQ yield right now is 116.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEAQ yield right now is 92.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ab11cf49-f08b-500a-a419-9dc89590eafc&src=seo_token) | Solana | 116.09% | $194K |
+| [raydium-amm →](https://www.defi.garden/?pool=ab11cf49-f08b-500a-a419-9dc89590eafc&src=seo_token) | Solana | 92.90% | $194K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEAQ yield today?
 
-116.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+92.90% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PEAQ pools clear the TVL floor?
 

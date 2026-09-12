@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest K3USDC yield right now is 5.79% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest K3USDC yield right now is 5.74% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_token) | Hyperliquid L1 | 5.79% | $13.88M |
+| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_token) | Hyperliquid L1 | 5.74% | $13.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest K3USDC yield today?
 
-5.79% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+5.74% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many K3USDC pools clear the TVL floor?
 

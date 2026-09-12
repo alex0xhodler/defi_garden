@@ -6,21 +6,21 @@ The highest honest VKHYPE yield right now is 3.41% on pendle-v2 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 2.37% | $741.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.41% | $741.1K |
+| [pendle-v2 →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 2.37% | $748K |
+| [pendle-v2 →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.41% | $748K |
 | [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.05% | $638K |
-| [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 1.75% | $113.5K |
+| [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 1.45% | $113.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VKHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.41% APY, $741.1K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle-v2 (Hyperliquid L1), 2.37% APY, $741.1K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token; hybra-v4 (Hyperliquid L1), 1.75% APY, $113.5K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $638K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VKHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.41% APY, $748K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle-v2 (Hyperliquid L1), 2.37% APY, $748K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token; hybra-v4 (Hyperliquid L1), 1.45% APY, $113.5K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $638K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.41% | $741.1K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 2.37% | $741.1K |
-| 3 | [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 1.75% | $113.5K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.41% | $748K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 2.37% | $748K |
+| 3 | [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 1.45% | $113.5K |
 | 4 | [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.05% | $638K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -37,10 +37,10 @@ VKHYPE shows up in 4 pools here, with rates from 0.05% to 3.41% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.37% | 2.62% | Base rate |
+| pendle-v2 | 2.37% | 2.61% | Base rate |
 | pendle-v2 | 3.41% | 3.63% | Base rate |
 | project-x | 0.05% | 0.20% | Base rate |
-| hybra-v4 | 1.75% | 3.01% | 100.00% incentives |
+| hybra-v4 | 1.45% | 3.01% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VKHYPE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.23M in total.
+4 live pools clear this page's $100K TVL floor, $2.25M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VKHYPE pools have the most stable APY history?
 
-Based on APY history only, VKHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.41% APY, $741.1K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle-v2 (Hyperliquid L1), 2.37% APY, $741.1K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token; hybra-v4 (Hyperliquid L1), 1.75% APY, $113.5K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $638K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VKHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.41% APY, $748K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle-v2 (Hyperliquid L1), 2.37% APY, $748K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token; hybra-v4 (Hyperliquid L1), 1.45% APY, $113.5K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $638K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

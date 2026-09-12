@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest HASHAI yield right now is 0.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HASHAI yield right now is 0.65% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b7278078-ee0e-491a-99ec-086fe7209d0e&src=seo_token) | Ethereum | 0.43% | $328.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b7278078-ee0e-491a-99ec-086fe7209d0e&src=seo_token) | Ethereum | 0.65% | $329.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HASHAI yield today?
 
-0.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.65% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HASHAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $328.9K in total.
+1 live pool clear this page's $100K TVL floor, $329.8K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest VSOL yield right now is 4.93% on the-vault-liquid-staking (So
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 4.93% | $135.37M |
+| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 4.93% | $135.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $152.39M in total.
+2 live pools clear this page's $100K TVL floor, $153.02M in total.
 
 ### Are these rates safe?
 

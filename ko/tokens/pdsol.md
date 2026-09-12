@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.24% | $111.5M |
+| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.24% | $111.8M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 phase-delegation에서 APY 3.24%
 
 ### PDSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111.8M예요.
 
 ### 이 수익률은 안전한가요?
 

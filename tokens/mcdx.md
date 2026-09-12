@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MCDX yield right now is 755.40% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDX yield right now is 786.74% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=b1b06c62-164c-53bc-9bbb-467afdc1b761&src=seo_token) | Solana | 755.40% | $132K |
+| [orca-dex →](https://www.defi.garden/?pool=b1b06c62-164c-53bc-9bbb-467afdc1b761&src=seo_token) | Solana | 786.74% | $137.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCDX yield today?
 
-755.40% APY on orca-dex (Solana), based on live DefiLlama data.
+786.74% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MCDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132K in total.
+1 live pool clear this page's $100K TVL floor, $137.8K in total.
 
 ### Are these rates safe?
 

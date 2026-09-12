@@ -6,7 +6,7 @@ The highest honest ERC20 yield right now is 0.55% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c8268161-6b6e-5487-92c0-698a6f1817e9&src=seo_token) | Base | 0.55% | $188.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c8268161-6b6e-5487-92c0-698a6f1817e9&src=seo_token) | Base | 0.55% | $189.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ERC20 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.6K in total.
+1 live pool clear this page's $100K TVL floor, $189.7K in total.
 
 ### Are these rates safe?
 

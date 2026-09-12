@@ -6,11 +6,11 @@ The highest honest 3CRV yield right now is 2.95% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.05% | $11.92M |
+| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.07% | $11.92M |
 | [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 5.37% | $1.07M |
 | [curve-dex →](https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token) | Ethereum | 0.02% | $659.4K |
 | [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token) | Ethereum | 0.02% | $573.1K |
-| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.78% | $571.1K |
+| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.78% | $571.2K |
 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.95% | $408K |
 | [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.78% | $379.4K |
 | [curve-dex →](https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token) | Ethereum | 0.06% | $245.8K |
@@ -18,12 +18,12 @@ The highest honest 3CRV yield right now is 2.95% on curve-dex (Ethereum), among 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.78% APY, $571.1K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 0.05% APY, $11.92M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.06% APY, $245.8K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $379.4K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; curve-dex (Ethereum), 5.37% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.78% APY, $571.2K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 0.07% APY, $11.92M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.06% APY, $245.8K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $379.4K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; curve-dex (Ethereum), 5.37% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.78% | $571.1K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.05% | $11.92M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.78% | $571.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.07% | $11.92M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.95% | $408K |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token) | Ethereum | 0.06% | $245.8K |
 | 5 | [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.78% | $379.4K |
@@ -45,14 +45,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.05% | 0.06% | 0.60% incentives |
-| curve-dex | 5.37% | 1.22% | 10.72% incentives |
+| curve-dex | 0.07% | 0.06% | 0.43% incentives |
+| curve-dex | 5.37% | 1.23% | 10.75% incentives |
 | curve-dex | 0.02% | 3.14% | Base rate |
 | convex-finance | 0.02% | 4.89% | Base rate |
-| curve-dex | 0.78% | 0.08% | 0.00% incentives |
+| curve-dex | 0.78% | 0.09% | 0.00% incentives |
 | curve-dex | 2.95% | 3.02% | Base rate |
-| convex-finance | 0.78% | 0.08% | Base rate |
-| curve-dex | 0.06% | 0.18% | 53.39% incentives |
+| convex-finance | 0.78% | 0.09% | Base rate |
+| curve-dex | 0.06% | 0.18% | 53.46% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which 3CRV pools have the most stable APY history?
 
-Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.78% APY, $571.1K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 0.05% APY, $11.92M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.06% APY, $245.8K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $379.4K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; curve-dex (Ethereum), 5.37% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.78% APY, $571.2K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 0.07% APY, $11.92M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.06% APY, $245.8K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $379.4K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; curve-dex (Ethereum), 5.37% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

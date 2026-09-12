@@ -6,7 +6,7 @@ The highest honest IBTC yield right now is 4.19% on minswap-dex (Cardano), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 4.19% | $106.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=a8aea5e1-d9a1-420a-8695-9b0565a09737&src=seo_token) | Cardano | 4.19% | $107.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 IBTC shows up in 1 pools here, with rates from 4.19% to 4.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 6.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ IBTC shows up in 1 pools here, with rates from 4.19% to 4.19% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 4.19% | 6.00% | 18.38% incentives |
+| minswap-dex | 4.19% | 5.99% | 18.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many IBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $953K in total.
+2 live pools clear this page's $100K TVL floor, $957.1K in total.
 
 ### Are these rates safe?
 

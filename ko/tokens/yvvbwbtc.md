@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.77% | $287.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.77% | $288.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 3.77%예�
 
 ### YVVBWBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $287.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $288.3K예요.
 
 ### 이 수익률은 안전한가요?
 

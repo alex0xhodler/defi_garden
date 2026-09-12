@@ -6,7 +6,7 @@ The highest honest DD yield right now is 0.33% on uniswap-v2 (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=eecbecff-8116-41f9-9fd0-7bc693a997f0&src=seo_token) | Ethereum | 0.33% | $136.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eecbecff-8116-41f9-9fd0-7bc693a997f0&src=seo_token) | Ethereum | 0.33% | $137K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.7K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 

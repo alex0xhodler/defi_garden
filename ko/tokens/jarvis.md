@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 4.93% | $144.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 4.93% | $145.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 4.93%예요
 
 ### JARVIS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $144.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $145.7K예요.
 
 ### 이 수익률은 안전한가요?
 

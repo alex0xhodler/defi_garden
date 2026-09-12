@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CZ yield right now is 0.19% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CZ yield right now is 0.21% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f&src=seo_token) | BSC | 0.19% | $140.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f&src=seo_token) | BSC | 0.21% | $140.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CZ yield today?
 
-0.19% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.21% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many CZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.5K in total.
+1 live pool clear this page's $100K TVL floor, $140.2K in total.
 
 ### Are these rates safe?
 

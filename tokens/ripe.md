@@ -6,7 +6,7 @@ The highest honest RIPE yield right now is 16.89% on ripe-protocol (Robinhood Ch
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ripe-protocol →](https://www.defi.garden/?pool=1e0e790b-9d11-5fde-9670-70a79a236014&src=seo_token) | Robinhood Chain | 16.89% | $173.7K |
+| [ripe-protocol →](https://www.defi.garden/?pool=1e0e790b-9d11-5fde-9670-70a79a236014&src=seo_token) | Robinhood Chain | 16.89% | $170K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RIPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $173.7K in total.
+1 live pool clear this page's $100K TVL floor, $170K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest MIDAS yield right now is 1.05% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=723fb660-9fd4-43b2-8ad0-0058ad0435d0&src=seo_token) | Base | 1.05% | $137K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=723fb660-9fd4-43b2-8ad0-0058ad0435d0&src=seo_token) | Base | 1.05% | $137.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MIDAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137K in total.
+1 live pool clear this page's $100K TVL floor, $137.7K in total.
 
 ### Are these rates safe?
 

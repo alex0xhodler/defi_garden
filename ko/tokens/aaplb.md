@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 AAPLB의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 240.46%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AAPLB의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 234.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 240.46% | $106.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 234.87% | $109.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 AAPLB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 240.46%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 234.87%예요.
 
 ### AAPLB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $106.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $109.4K예요.
 
 ### 이 수익률은 안전한가요?
 

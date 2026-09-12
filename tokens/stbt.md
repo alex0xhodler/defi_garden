@@ -6,17 +6,17 @@ The highest honest STBT yield right now is 3.49% on matrixdock-stbt (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.49% | $24.09M |
+| [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.49% | $24.29M |
 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.95% | $408K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.49% APY, $24.09M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.49% APY, $24.29M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.49% | $24.09M |
+| 1 | [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.49% | $24.29M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.95% | $408K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STBT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $24.5M in total.
+2 live pools clear this page's $100K TVL floor, $24.7M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STBT pools have the most stable APY history?
 
-Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.49% APY, $24.09M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.49% APY, $24.29M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.95% APY, $408K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

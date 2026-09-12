@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest RE7USDC yield right now is 4.14% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7USDC yield right now is 4.13% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=47548a32-63c2-4485-b348-eac2cc3a587f&src=seo_token) | Base | 4.14% | $1.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=47548a32-63c2-4485-b348-eac2cc3a587f&src=seo_token) | Base | 4.13% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7USDC yield today?
 
-4.14% APY on morpho-blue (Base), based on live DefiLlama data.
+4.13% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many RE7USDC pools clear the TVL floor?
 

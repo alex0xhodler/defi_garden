@@ -7,27 +7,27 @@ The highest honest STRUSD yield right now is 11.67% on pendle-v2 (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.33% | $50.63M |
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.11% | $10.11M |
-| [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.92% | $7.19M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.10% | $10.11M |
+| [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.93% | $7.19M |
 | [pendle-v2 →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.67% | $7.19M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STRUSD's lower-variability candidates are pendle-v2 (Ethereum), 11.67% APY, $7.19M TVL, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; curve-dex (Ethereum), 5.11% APY, $10.11M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; tori-finance (Ethereum), 10.33% APY, $50.63M TVL, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; pendle-v2 (Ethereum), 10.92% APY, $7.19M TVL, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRUSD's lower-variability candidates are pendle-v2 (Ethereum), 11.67% APY, $7.19M TVL, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; curve-dex (Ethereum), 5.10% APY, $10.11M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; tori-finance (Ethereum), 10.33% APY, $50.63M TVL, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; pendle-v2 (Ethereum), 10.93% APY, $7.19M TVL, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.67% | $7.19M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.11% | $10.11M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.10% | $10.11M |
 | 3 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.33% | $50.63M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.92% | $7.19M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 10.93% | $7.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRUSD shows up in 4 pools here, with rates from 5.11% to 11.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRUSD shows up in 4 pools here, with rates from 5.10% to 11.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ STRUSD shows up in 4 pools here, with rates from 5.11% to 11.67% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 10.33% | 10.75% | Base rate |
-| curve-dex | 5.11% | 5.49% | Base rate |
-| pendle-v2 | 10.92% | 11.23% | 1.99% incentives |
+| tori-finance | 10.33% | 10.74% | Base rate |
+| curve-dex | 5.10% | 5.49% | Base rate |
+| pendle-v2 | 10.93% | 11.23% | 2.05% incentives |
 | pendle-v2 | 11.67% | 11.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STRUSD pools have the most stable APY history?
 
-Based on APY history only, STRUSD's lower-variability candidates are pendle-v2 (Ethereum), 11.67% APY, $7.19M TVL, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; curve-dex (Ethereum), 5.11% APY, $10.11M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; tori-finance (Ethereum), 10.33% APY, $50.63M TVL, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; pendle-v2 (Ethereum), 10.92% APY, $7.19M TVL, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRUSD's lower-variability candidates are pendle-v2 (Ethereum), 11.67% APY, $7.19M TVL, https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token; curve-dex (Ethereum), 5.10% APY, $10.11M TVL, https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token; tori-finance (Ethereum), 10.33% APY, $50.63M TVL, https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token; pendle-v2 (Ethereum), 10.93% APY, $7.19M TVL, https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

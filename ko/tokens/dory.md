@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DORY의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v4에서 66.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DORY의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v4에서 47.67%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 66.86% | $4.89M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 47.67% | $4.86M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 DORY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 66.86%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v4에서 APY 47.67%예요.
 
 ### DORY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $4.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $4.86M예요.
 
 ### 이 수익률은 안전한가요?
 

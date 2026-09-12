@@ -6,7 +6,7 @@ The highest honest STARKBOT yield right now is 0.12% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5e505705-aa64-4c89-975b-07fe4bda4242&src=seo_token) | Base | 0.12% | $224.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5e505705-aa64-4c89-975b-07fe4bda4242&src=seo_token) | Base | 0.12% | $225.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STARKBOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $224.5K in total.
+1 live pool clear this page's $100K TVL floor, $225.9K in total.
 
 ### Are these rates safe?
 

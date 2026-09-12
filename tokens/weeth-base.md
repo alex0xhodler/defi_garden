@@ -6,7 +6,7 @@ The highest honest WEETH.BASE yield right now is 3.96% on aerodrome-v1 (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 3.96% | $1.44M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 3.96% | $1.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WEETH.BASE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.44M in total.
+1 live pool clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 

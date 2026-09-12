@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest LDO yield right now is 6.78% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LDO yield right now is 6.37% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 18.23% | $697.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 5.85% | $456.9K |
-| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $242.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token) | Ethereum | 6.78% | $128.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 18.73% | $698K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.33% | $457.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $242K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token) | Ethereum | 6.37% | $128.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $242.1K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token; uniswap-v3 (Ethereum), 18.23% APY, $697.7K TVL, https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token; uniswap-v4 (Ethereum), 6.78% APY, $128.7K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token; uniswap-v3 (Ethereum), 5.85% APY, $456.9K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $242K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token; uniswap-v3 (Ethereum), 18.73% APY, $698K TVL, https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token; uniswap-v4 (Ethereum), 6.37% APY, $128.8K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token; uniswap-v3 (Ethereum), 6.33% APY, $457.2K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $242.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 18.23% | $697.7K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token) | Ethereum | 6.78% | $128.7K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 5.85% | $456.9K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $242K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 18.73% | $698K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token) | Ethereum | 6.37% | $128.8K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.33% | $457.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LDO shows up in 4 pools here, with rates from 0.05% to 18.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LDO shows up in 4 pools here, with rates from 0.05% to 18.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 18.23% | 37.62% | Base rate |
-| uniswap-v3 | 5.85% | 15.38% | Base rate |
+| uniswap-v3 | 18.73% | 37.59% | Base rate |
+| uniswap-v3 | 6.33% | 15.39% | Base rate |
 | aave-v3 | 0.05% | 0.05% | Base rate |
-| uniswap-v4 | 6.78% | 10.99% | Base rate |
+| uniswap-v4 | 6.37% | 10.98% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LDO yield today?
 
-6.78% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+6.37% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many LDO pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LDO pools have the most stable APY history?
 
-Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $242.1K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token; uniswap-v3 (Ethereum), 18.23% APY, $697.7K TVL, https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token; uniswap-v4 (Ethereum), 6.78% APY, $128.7K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token; uniswap-v3 (Ethereum), 5.85% APY, $456.9K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $242K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token; uniswap-v3 (Ethereum), 18.73% APY, $698K TVL, https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token; uniswap-v4 (Ethereum), 6.37% APY, $128.8K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94&src=seo_token; uniswap-v3 (Ethereum), 6.33% APY, $457.2K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

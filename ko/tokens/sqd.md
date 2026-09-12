@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 0.57% | $239.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 0.57% | $240.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 0.57%예요
 
 ### SQD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $239.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $240.2K예요.
 
 ### 이 수익률은 안전한가요?
 

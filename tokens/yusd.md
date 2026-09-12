@@ -6,18 +6,18 @@ The highest honest YUSD yield right now is 0.16% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.04% | $554.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.04% | $553.9K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YUSD's lower-variability candidates are curve-dex (Avalanche), 0.16% APY, $164.1K TVL, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $554.8K TVL, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YUSD's lower-variability candidates are curve-dex (Avalanche), 0.16% APY, $164.1K TVL, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $553.9K TVL, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.04% | $554.8K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token) | BSC | 0.04% | $553.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YUSD pools have the most stable APY history?
 
-Based on APY history only, YUSD's lower-variability candidates are curve-dex (Avalanche), 0.16% APY, $164.1K TVL, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $554.8K TVL, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YUSD's lower-variability candidates are curve-dex (Avalanche), 0.16% APY, $164.1K TVL, https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $553.9K TVL, https://www.defi.garden/?pool=bc17a4e9-f139-4c7e-8f57-7b001086263f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

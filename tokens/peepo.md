@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest PEEPO yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEEPO yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=35c619dc-e0e2-4e7f-9a97-dc87fabebaee&src=seo_token) | Ethereum | 0.02% | $162.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=35c619dc-e0e2-4e7f-9a97-dc87fabebaee&src=seo_token) | Ethereum | 0.01% | $163.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEEPO yield today?
 
-0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEEPO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.1K in total.
+1 live pool clear this page's $100K TVL floor, $163.2K in total.
 
 ### Are these rates safe?
 

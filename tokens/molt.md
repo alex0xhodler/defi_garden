@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MOLT yield right now is 21.19% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOLT yield right now is 20.80% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 21.19% | $1.31M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 20.80% | $1.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOLT yield today?
 
-21.19% APY on uniswap-v4 (Base), based on live DefiLlama data.
+20.80% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MOLT pools clear the TVL floor?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest USDZ yield right now is 1.37% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDZ yield right now is 1.38% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 1.37% | $103.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 1.38% | $103K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDZ shows up in 1 pools here, with rates from 1.37% to 1.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDZ shows up in 1 pools here, with rates from 1.38% to 1.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ USDZ shows up in 1 pools here, with rates from 1.37% to 1.37% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 1.37% | 3.70% | 100.00% incentives |
+| aerodrome-v1 | 1.38% | 3.70% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDZ yield today?
 
-1.37% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+1.38% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many USDZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $446.4K in total.
+2 live pools clear this page's $100K TVL floor, $444.8K in total.
 
 ### Are these rates safe?
 

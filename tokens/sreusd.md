@@ -6,7 +6,7 @@ The highest honest SREUSD yield right now is 1.41% on resupply (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [resupply →](https://www.defi.garden/?pool=a1b05c10-6d01-4b64-9247-4e86ca82a291&src=seo_token) | Ethereum | 1.41% | $27.06M |
+| [resupply →](https://www.defi.garden/?pool=a1b05c10-6d01-4b64-9247-4e86ca82a291&src=seo_token) | Ethereum | 1.41% | $27.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

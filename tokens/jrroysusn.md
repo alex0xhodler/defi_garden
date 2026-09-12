@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest JRROYSUSN yield right now is 8.53% on royco-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYSUSN yield right now is 8.32% on royco-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=f0d627e3-5218-5531-ab86-9f73400e6450&src=seo_token) | Base | 8.53% | $202.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=f0d627e3-5218-5531-ab86-9f73400e6450&src=seo_token) | Base | 8.32% | $202.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYSUSN yield today?
 
-8.53% APY on royco-v2 (Base), based on live DefiLlama data.
+8.32% APY on royco-v2 (Base), based on live DefiLlama data.
 
 ### How many JRROYSUSN pools clear the TVL floor?
 

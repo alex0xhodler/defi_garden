@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest TCAT yield right now is 338.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TCAT yield right now is 308.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6badecf3-7073-5d2a-9cb1-9c33df67be53&src=seo_token) | Solana | 338.58% | $115.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6badecf3-7073-5d2a-9cb1-9c33df67be53&src=seo_token) | Solana | 308.56% | $109.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TCAT yield today?
 
-338.58% APY on raydium-amm (Solana), based on live DefiLlama data.
+308.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.5K in total.
+1 live pool clear this page's $100K TVL floor, $109.3K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 KOGE의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 0.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KOGE의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 0.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.03% | $1.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.04% | $1.13M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 KOGE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 0.03%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 0.04%예요.
 
 ### KOGE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

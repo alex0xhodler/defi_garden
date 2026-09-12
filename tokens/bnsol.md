@@ -6,7 +6,7 @@ The highest honest BNSOL yield right now is 4.63% on binance-staked-sol (Solana)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.63% | $1.05B |
+| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.63% | $1.06B |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -54,7 +54,7 @@ There is not enough qualifying APY history to rank BNSOL pools. This view covers
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [TRX](https://www.defi.garden/tokens/trx)
+- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

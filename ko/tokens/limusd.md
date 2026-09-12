@@ -7,8 +7,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.54% | $9.65M |
-| [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 9.15% | $1.47M |
 | [pendle-v2 →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.23% | $1.47M |
+| [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 9.15% | $1.47M |
 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.54% | $325.6K |
 
 <!-- rate-stability:ranked -->
@@ -36,8 +36,8 @@ LIMUSD 풀은 여기 4개가 있고, 2개 체인에서 APY가 7.54%부터 11.23%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | liminal-basis | 7.54% | 4.69% | 기본 금리 |
-| pendle-v2 | 9.15% | 10.23% | 기본 금리 |
-| pendle-v2 | 11.23% | 10.60% | 기본 금리 |
+| pendle-v2 | 11.23% | 10.61% | 기본 금리 |
+| pendle-v2 | 9.15% | 10.24% | 기본 금리 |
 | liminal-basis | 7.54% | 4.69% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

@@ -6,7 +6,7 @@ The highest honest USSI yield right now is 0.01% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $998.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.01% | $998.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest PITCH yield right now is 0.23% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PITCH yield right now is 0.17% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=781a03a7-9af7-4438-bc9d-0da25e02a84a&src=seo_token) | Base | 0.23% | $525.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=781a03a7-9af7-4438-bc9d-0da25e02a84a&src=seo_token) | Base | 0.17% | $527.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PITCH yield today?
 
-0.23% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.17% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PITCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $525.4K in total.
+1 live pool clear this page's $100K TVL floor, $527.6K in total.
 
 ### Are these rates safe?
 

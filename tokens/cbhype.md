@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CBHYPE yield right now is 82.66% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBHYPE yield right now is 39.02% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 82.66% | $388.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 39.02% | $747.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBHYPE yield today?
 
-82.66% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+39.02% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $388.5K in total.
+1 live pool clear this page's $100K TVL floor, $747.7K in total.
 
 ### Are these rates safe?
 

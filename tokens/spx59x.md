@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SPX59X yield right now is 14.88% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX59X yield right now is 17.16% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=60b89ff7-cb6f-569e-898e-486c0125e819&src=seo_token) | Base | 14.88% | $112K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=60b89ff7-cb6f-569e-898e-486c0125e819&src=seo_token) | Base | 17.16% | $112.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX59X yield today?
 
-14.88% APY on uniswap-v2 (Base), based on live DefiLlama data.
+17.16% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX59X pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112K in total.
+1 live pool clear this page's $100K TVL floor, $112.1K in total.
 
 ### Are these rates safe?
 

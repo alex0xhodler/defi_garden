@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CBET yield right now is 0.89% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBET yield right now is 0.77% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 0.89% | $294.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 0.77% | $294.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBET yield today?
 
-0.89% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CBET pools clear the TVL floor?
 

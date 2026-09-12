@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest FLIP yield right now is 7.37% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLIP yield right now is 7.57% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 7.37% | $237.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 7.57% | $237.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLIP yield today?
 
-7.37% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FLIP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.9K in total.
+1 live pool clear this page's $100K TVL floor, $237.3K in total.
 
 ### Are these rates safe?
 

@@ -39,8 +39,8 @@ DefiLlama 실시간 데이터 기준, Starknet의 nostra-pools에서 APY 1.37%�
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [SUSN](https://www.defi.garden/ko/tokens/susn)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
-- [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [XWBTC](https://www.defi.garden/ko/tokens/xwbtc)
+- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 
 ## 이용 가능한 체인
 

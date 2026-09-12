@@ -4,11 +4,11 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 3.10% | $63.2M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 1.94% | $5.4M |
+| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 3.09% | $63.25M |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 1.92% | $5.41M |
 | SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.60% | $2.02M |
-| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 37.04% | $1.55M |
-| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 14.44% | $170.7K |
+| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 37.04% | $1.53M |
+| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 14.44% | $170.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Mezo의 mezo-earn에서 APY 37.04%예요.
 
 ### Mezo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $72.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $72.38M예요.
 
 ### 이 수익률은 안전한가요?
 

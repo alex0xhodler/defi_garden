@@ -6,7 +6,7 @@ The highest honest TCORE yield right now is 0.19% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f9bdad33-c065-4913-b0e1-63d6e2965560&src=seo_token) | Ethereum | 0.19% | $358.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f9bdad33-c065-4913-b0e1-63d6e2965560&src=seo_token) | Ethereum | 0.19% | $360.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $358.7K in total.
+1 live pool clear this page's $100K TVL floor, $360.8K in total.
 
 ### Are these rates safe?
 
