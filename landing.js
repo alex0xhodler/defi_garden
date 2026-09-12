@@ -52,12 +52,12 @@
       score: 92,
       rating: 'AAA',
       tvl: '$1.2B',
-      metric1Label: 'Secondary Liquidity',
+      metric1Label: 'Secondary Depth',
       metric1Val: '$411.2M',
       metric2Label: 'Redemption Time',
       metric2Val: '~1-3 Days',
-      status: '✓ Deep Secondary Peg',
-      downside: 'Stable Downside ✓',
+      status: 'Deep Secondary Peg',
+      downside: 'Stable Downside',
       poolId: 'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859'
     },
     {
@@ -74,8 +74,8 @@
       metric1Val: '$1.03B',
       metric2Label: 'Kink Buffer',
       metric2Val: '$628M',
-      status: '✓ Safe Headroom',
-      downside: 'Stable Downside ✓',
+      status: 'Safe Headroom',
+      downside: 'Stable Downside',
       poolId: '0beeab24-577a-40e1-8e39-2adbe0c33fc9'
     },
     {
@@ -92,8 +92,8 @@
       metric1Val: '$594M',
       metric2Label: 'Kink Buffer',
       metric2Val: '$360M',
-      status: '✓ Safe Headroom',
-      downside: 'Stable Downside ✓',
+      status: 'Safe Headroom',
+      downside: 'Stable Downside',
       poolId: '3e669ce8-74c5-4fc9-bf85-f40a924c6407'
     },
     {
@@ -106,12 +106,12 @@
       score: 91,
       rating: 'AAA',
       tvl: '$23.9B',
-      metric1Label: 'Secondary Liquidity',
+      metric1Label: 'Secondary Depth',
       metric1Val: '$8.3B',
       metric2Label: 'Queue Exit',
       metric2Val: '~1-4 Days',
-      status: '✓ Deep Secondary Peg',
-      downside: 'Stable Downside ✓',
+      status: 'Deep Secondary Peg',
+      downside: 'Stable Downside',
       poolId: '747c1d2a-c668-4682-b9f9-296708a3dd90'
     }
   ];
@@ -591,21 +591,17 @@
       }
       goToPanelRef.current = goToPanelEffect;
 
-      var lastWheelTime = 0;
-      var wheelAccum = 0;
+      var lastSwipeTime = 0;
       function onWheel(e) {
         if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
         if (e.ctrlKey) return;
-        var now = performance.now();
-        var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-        if (e.deltaMode === 1) delta *= 16;
-        if (now - lastWheelTime > 250) wheelAccum = 0;
-        lastWheelTime = now;
-        wheelAccum += delta;
-        if (Math.abs(wheelAccum) >= 40) {
+        // ONLY respond to intentional horizontal swipes — NEVER hijack vertical scroll!
+        if (Math.abs(e.deltaX) > Math.abs(e.deltaY) * 1.5 && Math.abs(e.deltaX) >= 30) {
+          var now = performance.now();
+          if (now - lastSwipeTime < 500) return; // debounce momentum
+          lastSwipeTime = now;
           e.preventDefault();
-          var dir = wheelAccum > 0 ? 1 : -1;
-          wheelAccum = 0;
+          var dir = e.deltaX > 0 ? 1 : -1;
           goToPanelEffect(activePanel + dir);
         }
       }
@@ -731,10 +727,10 @@
                 copy.uwSubhead || 'TimesFM 3.0 forward volatility forecasting, closed-form liquidity underwriting, and institutional health ratings (AAA–C). Discover vetted pools with organic cash flows, deep exit liquidity, and zero surprise cliff decay.'
               ),
               e('div', { className: 'landing-uw-badges' },
-                e('span', { className: 'landing-uw-badge highlight' }, '🛡 TVL ≥ $10M'),
-                e('span', { className: 'landing-uw-badge highlight' }, '📈 APY ≥ 5.0%'),
-                e('span', { className: 'landing-uw-badge' }, '✓ AAA–A Rated'),
-                e('span', { className: 'landing-uw-badge' }, '🤖 14d Forecast')
+                e('span', { className: 'landing-uw-badge highlight' }, 'TVL ≥ $10M'),
+                e('span', { className: 'landing-uw-badge highlight' }, 'APY ≥ 5.0%'),
+                e('span', { className: 'landing-uw-badge' }, 'AAA–A Rated'),
+                e('span', { className: 'landing-uw-badge' }, '14d Forecast')
               ),
               e('div', { className: 'landing-uw-cta-row' },
                 e('a', {
