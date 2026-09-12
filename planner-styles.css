@@ -178,11 +178,19 @@
 
 /* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
 .gp-theme-toggle {
+  width: var(--ui-control-h, 40px);
+  height: var(--ui-control-h, 40px);
+  min-width: var(--ui-control-h, 40px);
+  min-height: var(--ui-control-h, 40px);
+  border-radius: var(--ui-radius-sm, 8px);
   border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
   cursor: pointer;
   font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: color var(--duration-fast) var(--ease-standard),
     border-color var(--duration-fast) var(--ease-standard);
 }

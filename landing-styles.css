@@ -268,9 +268,11 @@
 
 .landing-icon-button,
 .landing-menu-button {
-  min-width: 40px;
-  min-height: 40px;
-  padding: 0 10px;
+  width: var(--ui-control-h, 40px);
+  height: var(--ui-control-h, 40px);
+  min-width: var(--ui-control-h, 40px);
+  min-height: var(--ui-control-h, 40px);
+  padding: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -282,10 +284,11 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   letter-spacing: .02em;
-  border-radius: var(--ui-radius-sm, 4px);
+  border-radius: var(--ui-radius-sm, 8px);
   transition: color var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
     background var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
@@ -1123,23 +1126,19 @@
     font-size: 0.72rem;
   }
 
-  /* Mobile Sticky Bottom CTA Dock - Sits in viewport at all times */
+  /* Mobile Bottom CTA Dock - in flow with the card section */
   .landing-mobile-cta-dock {
     display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
-    background: rgba(14, 23, 17, 0.96);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.18));
-    box-shadow: 0 -10px 36px rgba(0, 0, 0, 0.75);
+    position: static;
+    z-index: 10;
+    padding: 14px 0 0 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    width: 100%;
   }
   .landing-garden-link {
     min-height: 46px;
@@ -1231,14 +1230,301 @@
     min-height: 46px;
     font-size: 0.90rem;
   }
-  .landing-footer {
-    min-height: 72px;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
+}
+
+/* ═══ SLIDE 1: PREDICTIVE UNDERWRITING HERO ════════════════════════════════ */
+.landing-hero-underwriting {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  align-items: center;
+  gap: clamp(24px, 3.5vw, 48px);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-uw-copy {
+  min-width: 0;
+}
+
+.landing-uw-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background: rgba(124, 201, 160, 0.08);
+  border: 1px solid rgba(124, 201, 160, 0.25);
+  color: var(--cert-green, #7cc9a0);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.landing-uw-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 24px 0;
+}
+
+.landing-uw-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--ui-surface-muted, rgba(255, 255, 255, 0.04));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-pill, 999px);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.landing-uw-badge.highlight {
+  color: var(--cert-green, #7cc9a0);
+  border-color: rgba(124, 201, 160, 0.35);
+  background: rgba(124, 201, 160, 0.08);
+}
+
+.landing-uw-cta-row {
+  margin-top: 24px;
+}
+
+/* ── Terminal Showcase Card ────────────────────────────────────────────── */
+.landing-uw-terminal-card {
+  background: var(--cert-vellum, var(--ui-surface));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-md, 12px);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+[data-theme="dark"] .landing-uw-terminal-card {
+  background: #0f1c15;
+  border-color: rgba(124, 201, 160, 0.25);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.landing-uw-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--cert-rule, var(--ui-border));
+  padding-bottom: 12px;
+}
+
+.landing-uw-header-tag {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cert-green, #7cc9a0);
+}
+
+.landing-uw-score-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(124, 201, 160, 0.12);
+  border: 1px solid rgba(124, 201, 160, 0.35);
+  color: var(--cert-green, #7cc9a0);
+}
+
+.landing-uw-pool-tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.landing-uw-pool-tabs::-webkit-scrollbar { display: none; }
+
+.landing-uw-pool-tab {
+  flex: 1;
+  padding: 6px 10px;
+  background: var(--ui-surface-muted, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-sm, 6px);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.landing-uw-pool-tab:hover {
+  border-color: var(--cert-green, #7cc9a0);
+  color: var(--color-text);
+}
+
+.landing-uw-pool-tab.is-active {
+  background: var(--cert-green, #7cc9a0);
+  color: #08140f;
+  border-color: var(--cert-green, #7cc9a0);
+  font-weight: 700;
+}
+
+.landing-uw-yield-box {
+  background: var(--cert-paper-deep, rgba(0, 0, 0, 0.08));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-sm, 6px);
+  padding: 16px;
+  text-align: center;
+}
+
+.landing-uw-pool-title {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+.landing-uw-yield-val {
+  font-family: var(--cert-serif, var(--font-family-display));
+  font-size: clamp(32px, 3.5vw, 44px);
+  font-weight: 700;
+  color: var(--cert-green, #7cc9a0);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.landing-uw-forecast-text {
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.80rem;
+  color: var(--color-text-secondary);
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.landing-uw-downside-badge {
+  color: var(--cert-green, #7cc9a0);
+  font-weight: 600;
+  font-size: 0.74rem;
+}
+
+.landing-uw-pillars-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.landing-uw-pillar {
+  padding: 8px 10px;
+  background: var(--ui-surface-muted, rgba(255, 255, 255, 0.04));
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-sm, 6px);
+}
+
+.landing-uw-pillar-name {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-secondary);
+  margin-bottom: 2px;
+}
+
+.landing-uw-pillar-val {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.landing-uw-capacity-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--cert-rule, var(--ui-border));
+  border-radius: var(--ui-radius-sm, 6px);
+}
+
+.landing-uw-capacity-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.landing-uw-cap-lbl {
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-secondary);
+}
+
+.landing-uw-cap-val {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.landing-uw-terminal-footer {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.landing-uw-terminal-jump {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--cert-green, #7cc9a0);
+  text-decoration: none;
+}
+.landing-uw-terminal-jump:hover { text-decoration: underline; }
+
+/* ── Panel 3: Virtual Card Root container ──────────────────────────────── */
+#landing-card-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .landing-hero-underwriting {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 16px;
+  }
+  .landing-uw-terminal-card {
+    padding: 18px;
+  }
+  #landing-card-root {
+    min-height: auto;
+    padding: 24px 0;
   }
 }
+
+
 
 @media (prefers-reduced-motion: reduce) {
   .landing-app *,

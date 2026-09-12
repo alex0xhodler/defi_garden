@@ -106,6 +106,8 @@ async function main() {
     console.log('  ✓ bare / renders the hero intent landing with visible footer');
 
     // Test interactive preset chips on landing
+    const cardDot = page.locator('.landing-page-dot').nth(1);
+    if (await cardDot.count()) await cardDot.click();
     const cursorBtn = page.locator('.landing-subs-grid button', { hasText: 'Cursor Pro' });
     if (await cursorBtn.count()) {
       await cursorBtn.click();

@@ -41,6 +41,81 @@
   ];
   var INTENT_SUBS = ALL_MAPPED_SUBS;
 
+  var UNDERWRITTEN_POOLS = [
+    {
+      id: 'usdy',
+      symbol: 'USDY',
+      project: 'ondo-yield-assets',
+      chain: 'Ethereum',
+      apy: 3.57,
+      forecast: 3.57,
+      score: 92,
+      rating: 'AAA',
+      tvl: '$1.2B',
+      metric1Label: 'Secondary Liquidity',
+      metric1Val: '$411.2M',
+      metric2Label: 'Redemption Time',
+      metric2Val: '~1-3 Days',
+      status: '✓ Deep Secondary Peg',
+      downside: 'Stable Downside ✓',
+      poolId: 'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859'
+    },
+    {
+      id: 'susds',
+      symbol: 'SUSDS',
+      project: 'sky-lending',
+      chain: 'Ethereum',
+      apy: 3.60,
+      forecast: 3.60,
+      score: 92,
+      rating: 'AAA',
+      tvl: '$4.7B',
+      metric1Label: 'Cash Headroom',
+      metric1Val: '$1.03B',
+      metric2Label: 'Kink Buffer',
+      metric2Val: '$628M',
+      status: '✓ Safe Headroom',
+      downside: 'Stable Downside ✓',
+      poolId: '0beeab24-577a-40e1-8e39-2adbe0c33fc9'
+    },
+    {
+      id: 'usdc',
+      symbol: 'USDC',
+      project: 'maple',
+      chain: 'Ethereum',
+      apy: 4.96,
+      forecast: 4.96,
+      score: 92,
+      rating: 'AAA',
+      tvl: '$2.7B',
+      metric1Label: 'Cash Headroom',
+      metric1Val: '$594M',
+      metric2Label: 'Kink Buffer',
+      metric2Val: '$360M',
+      status: '✓ Safe Headroom',
+      downside: 'Stable Downside ✓',
+      poolId: '3e669ce8-74c5-4fc9-bf85-f40a924c6407'
+    },
+    {
+      id: 'steth',
+      symbol: 'STETH',
+      project: 'lido',
+      chain: 'Ethereum',
+      apy: 2.33,
+      forecast: 2.33,
+      score: 91,
+      rating: 'AAA',
+      tvl: '$23.9B',
+      metric1Label: 'Secondary Liquidity',
+      metric1Val: '$8.3B',
+      metric2Label: 'Queue Exit',
+      metric2Val: '~1-4 Days',
+      status: '✓ Deep Secondary Peg',
+      downside: 'Stable Downside ✓',
+      poolId: '747c1d2a-c668-4682-b9f9-296708a3dd90'
+    }
+  ];
+
   // goal id -> translations.planner label key (canonical list owned by planner.js
   // GOALS; duplicated read-only here because planner.js is not loaded on the
   // landing route — a static label lookup, not rate math). Unknown ids fail safe
@@ -367,6 +442,10 @@
     var selectedSubState = useState(INTENT_SUBS[0]);
     var activeSub = selectedSubState[0];
     var setActiveSub = selectedSubState[1];
+
+    var activeUwPoolState = useState(UNDERWRITTEN_POOLS[0]);
+    var activeUwPool = activeUwPoolState[0];
+    var setActiveUwPool = activeUwPoolState[1];
     var showAllSubsState = useState(false);
     var showAllSubs = showAllSubsState[0];
     var setShowAllSubs = showAllSubsState[1];
@@ -504,156 +583,58 @@
       //            scroll has physically landed AND the wheel has been quiet
       //            for QUIET_MS — i.e. after the gesture's momentum tail has
       //            fully died. Hard-capped so a stuck state is impossible.
-      var navPanel = 0;              // source of truth while swapping
-      var swapping = false;
-      var acc = 0;
-      var lastWheelAt = 0;
-      var settleTimer = null;
-      var hardCapTimer = null;
-      var THRESHOLD = 50;            // px of accumulated delta to trigger
-      var QUIET_MS = 150;            // silence that separates two gestures
-      var HARD_CAP_MS = 1600;        // max time a swap may hold the lock
+      function isDesktop() { return window.innerWidth > 768; }
 
-      function currentPanel() {
-        var max = panelMax();
-        return max === 0 ? 0 : Math.round(body.scrollLeft / max);
-      }
-      function targetLeft(p) { return panelMax() * p; }
-      // While swapping, navPanel is authoritative (scrollLeft is mid-flight).
-      function syncFromScroll() { if (!swapping) setActivePanel(currentPanel()); }
-
-      function endSwap() {
-        clearTimeout(settleTimer);
-        clearTimeout(hardCapTimer);
-        // Snap exactly onto the panel (kills any sub-pixel residue) with an
-        // instant jump, then re-enable mandatory snap.
-        body.scrollTo({ left: targetLeft(navPanel), behavior: 'auto' });
-        body.classList.remove('is-swapping');
-        swapping = false;
-        acc = 0;
-      }
-      function checkSettled() {
-        if (!swapping) return;
-        var landed = Math.abs(body.scrollLeft - targetLeft(navPanel)) <= 2;
-        var quiet = performance.now() - lastWheelAt > QUIET_MS;
-        if (landed && quiet) { endSwap(); return; }
-        settleTimer = setTimeout(checkSettled, 60);
-      }
       function goToPanelEffect(panel) {
-        if (!isDesktopTrack()) return;
-        var next = ((panel % 2) + 2) % 2;   // wrap: 2-panel ring
-        navPanel = next;
+        var next = ((panel % 3) + 3) % 3;
         setActivePanel(next);
-        swapping = true;
-        acc = 0;
-        clearTimeout(settleTimer);
-        clearTimeout(hardCapTimer);
-        hardCapTimer = setTimeout(endSwap, HARD_CAP_MS);
-        // A freshly-entered panel starts at its vertical top.
-        var el = next === 0 ? document.getElementById('landing-root') : seoEl;
-        if (el) el.scrollTop = 0;
-        // Mandatory x-snap fights programmatic smooth scrolling (stutter);
-        // disable it for the duration of the swap, restore on land.
-        body.classList.add('is-swapping');
-        var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        body.scrollTo({ left: targetLeft(next), behavior: reduced ? 'auto' : 'smooth' });
-        settleTimer = setTimeout(checkSettled, 60);
       }
       goToPanelRef.current = goToPanelEffect;
 
-      // The scrollable panel for the active page (vertical overflow lives
-      // inside the panel, body never scrolls vertically on desktop).
-      var seoEl = document.querySelector('body > .seo-content') || document.querySelector('.seo-content');
-      function activeScroller() {
-        return navPanel === 0 ? document.getElementById('landing-root') : seoEl;
-      }
-
+      var lastWheelTime = 0;
+      var wheelAccum = 0;
       function onWheel(e) {
-        if (window.__APP_MODE !== 'landing') return;
-        if (!isDesktopTrack()) return;
-        if (e.ctrlKey) return;                  // pinch-zoom: never intercept
+        if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
+        if (e.ctrlKey) return;
         var now = performance.now();
         var delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-        if (e.deltaMode === 1) delta *= 16;     // line-mode wheels (Firefox)
-        if (swapping) {                         // swallow momentum tail
+        if (e.deltaMode === 1) delta *= 16;
+        if (now - lastWheelTime > 250) wheelAccum = 0;
+        lastWheelTime = now;
+        wheelAccum += delta;
+        if (Math.abs(wheelAccum) >= 40) {
           e.preventDefault();
-          lastWheelAt = now;
-          return;
-        }
-        // Vertical room inside the active panel? Let the native vertical
-        // scroll happen — a panel swap only triggers at the vertical edge.
-        var isVertical = Math.abs(e.deltaY) >= Math.abs(e.deltaX);
-        if (isVertical) {
-          var el = activeScroller();
-          if (el) {
-            var maxTop = el.scrollHeight - el.clientHeight;
-            if (maxTop > 1) {
-              if (delta > 0 && el.scrollTop < maxTop - 1) { acc = 0; return; }
-              if (delta < 0 && el.scrollTop > 1) { acc = 0; return; }
-            }
-          }
-        }
-        e.preventDefault();
-        if (now - lastWheelAt > QUIET_MS) acc = 0;   // new gesture
-        lastWheelAt = now;
-        acc += delta;
-        if (Math.abs(acc) >= THRESHOLD) {
-          var dir = acc > 0 ? 1 : -1;
-          goToPanelEffect(navPanel + dir);
+          var dir = wheelAccum > 0 ? 1 : -1;
+          wheelAccum = 0;
+          goToPanelEffect(activePanel + dir);
         }
       }
       function onKey(e) {
-        if (window.__APP_MODE !== 'landing') return;
-        if (!isDesktopTrack()) return;
-        if (e.repeat) return;                   // held key = one swap
+        if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
+        if (e.repeat) return;
         var tag = (e.target && e.target.tagName) || '';
         if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
-        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(navPanel + 1); }
-        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(navPanel - 1); }
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(activePanel + 1); }
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(activePanel - 1); }
       }
 
-      // Mobile: pull the static .seo-content rates panel INTO .landing-app,
-      // between .landing-main (hero) and the fixed-position .app-footer, so
-      // the document reads hero -> rates -> footer top-to-bottom and a normal
-      // vertical scroll flows through all three. (On desktop the body is a
-      // horizontal snap track and .seo-content stays a direct body child.)
-      var landingApp = document.querySelector('#landing-root > .landing-app');
-      var footerEl = landingApp ? landingApp.querySelector('.app-footer') : null;
+      // Reparent .seo-content into .landing-main as the 3rd panel
+      var seoEl = document.getElementById('seo-content');
+      var landingMain = document.querySelector('.landing-main');
       var movedSeo = false;
-      function placeSeoForViewport() {
-        if (!seoEl || !landingApp || !footerEl) return;
-        if (window.innerWidth <= 768 && !movedSeo) {
-          landingApp.insertBefore(seoEl, footerEl);
-          movedSeo = true;
-        } else if (window.innerWidth > 768 && movedSeo) {
-          body.appendChild(seoEl);
-          movedSeo = false;
-        }
-        // Keep the body pinned to the active panel across resizes (panelMax
-        // changes with viewport width).
-        if (window.innerWidth > 768 && !swapping) {
-          body.scrollTo({ left: targetLeft(navPanel), behavior: 'auto' });
-        }
+      if (seoEl && landingMain) {
+        landingMain.appendChild(seoEl);
+        movedSeo = true;
       }
-      placeSeoForViewport();
 
-      body.addEventListener('wheel', onWheel, { passive: false });
+      window.addEventListener('wheel', onWheel, { passive: false });
       document.addEventListener('keydown', onKey);
-      body.addEventListener('scroll', syncFromScroll, { passive: true });
-      window.addEventListener('resize', placeSeoForViewport);
       return function () {
-        clearTimeout(settleTimer);
-        clearTimeout(hardCapTimer);
-        body.classList.remove('is-swapping');
-        // Restore .seo-content to its original body position before unmount so
-        // React never tries to remove/reconcile a node we reparented.
-        if (movedSeo && seoEl) { body.appendChild(seoEl); }
-        body.removeEventListener('wheel', onWheel);
+        window.removeEventListener('wheel', onWheel);
+        if (movedSeo && seoEl) { document.body.appendChild(seoEl); }
         document.removeEventListener('keydown', onKey);
-        body.removeEventListener('scroll', syncFromScroll);
-        window.removeEventListener('resize', placeSeoForViewport);
       };
-    }, []);
+    }, [activePanel]);
 
     function toggleLanguage() {
       var next = language === 'en' ? 'ko' : 'en';
@@ -727,8 +708,109 @@
         e('a', { href: 'plan.html', onClick: closeMenu }, copy.navPlanner || 'Savings Planner'),
         e('a', { href: '/agents', onClick: closeMenu }, copy.navAgents || 'AI Agents & MCP')
       ),
-      e('main', { className: 'landing-main' },
-        // SLIDE 1: HERO SPOTLIGHT (Never Pay for Software Again - Full Viewport)
+      e('main', {
+        className: 'landing-main',
+        style: (typeof window !== 'undefined' && window.innerWidth > 768) ? {
+          transform: 'translateX(-' + (activePanel * 100) + 'vw)',
+          transition: 'transform 0.42s cubic-bezier(0.16, 1, 0.3, 1)'
+        } : undefined
+      },
+        // SLIDE 1: PREDICTIVE UNDERWRITING HERO (Default First Page)
+        e('div', { id: 'underwriting-section', className: 'landing-section-wrapper landing-underwriting-wrapper' },
+          e('section', { className: 'landing-hero-underwriting', 'data-testid': 'landing-underwriting-card', 'aria-labelledby': 'landing-uw-title' },
+            e('div', { className: 'landing-uw-copy' },
+              e('div', { className: 'landing-uw-eyebrow' },
+                e('span', null, copy.uwEyebrow || 'Predictive Intelligence · TimesFM 3.0')
+              ),
+              e('h1', { id: 'landing-uw-title', className: 'landing-spotlight-title' },
+                copy.uwTitleBefore || 'DeFi yields,',
+                e('br'),
+                e('span', { className: 'landing-title-accent' }, copy.uwTitleAccent || 'predictively underwritten.')
+              ),
+              e('p', { className: 'landing-spotlight-subhead' },
+                copy.uwSubhead || 'TimesFM 3.0 forward volatility forecasting, closed-form liquidity underwriting, and institutional health ratings (AAA–C). Discover vetted pools with organic cash flows, deep exit liquidity, and zero surprise cliff decay.'
+              ),
+              e('div', { className: 'landing-uw-badges' },
+                e('span', { className: 'landing-uw-badge highlight' }, '🛡 TVL ≥ $10M'),
+                e('span', { className: 'landing-uw-badge highlight' }, '📈 APY ≥ 5.0%'),
+                e('span', { className: 'landing-uw-badge' }, '✓ AAA–A Rated'),
+                e('span', { className: 'landing-uw-badge' }, '🤖 14d Forecast')
+              ),
+              e('div', { className: 'landing-uw-cta-row' },
+                e('a', {
+                  className: 'landing-garden-link',
+                  href: '/?chain=Popular&minTvl=10000000&minApy=5',
+                  'data-testid': 'landing-underwriting-cta'
+                }, (copy.uwCta || 'Explore Underwritten Yields') + ' →')
+              ),
+              e('p', { className: 'landing-card-hint' }, copy.uwCtaHint || 'Curated filter: Popular Chains • TVL ≥ $10M • APY ≥ 5%')
+            ),
+            e('aside', { className: 'landing-uw-terminal-card' },
+              e('div', { className: 'landing-uw-card-header' },
+                e('span', { className: 'landing-uw-header-tag' }, 'INSTITUTIONAL UNDERWRITING'),
+                e('span', { className: 'landing-uw-score-pill' },
+                  e('span', null, 'Score:'),
+                  e('strong', null, ' ' + activeUwPool.score + ' (' + activeUwPool.rating + ')')
+                )
+              ),
+              e('div', { className: 'landing-uw-pool-tabs', 'aria-label': 'Select underwritten pool preset' },
+                UNDERWRITTEN_POOLS.map(function(p) {
+                  var isSel = activeUwPool.id === p.id;
+                  return e('button', {
+                    key: p.id,
+                    type: 'button',
+                    className: 'landing-uw-pool-tab' + (isSel ? ' is-active' : ''),
+                    onClick: function() { setActiveUwPool(p); }
+                  }, p.symbol);
+                })
+              ),
+              e('div', { className: 'landing-uw-yield-box' },
+                e('div', { className: 'landing-uw-pool-title' }, activeUwPool.project + ' · ' + activeUwPool.chain),
+                e('div', { className: 'landing-uw-yield-val' }, activeUwPool.apy.toFixed(2) + '% APY'),
+                e('div', { className: 'landing-uw-forecast-text' },
+                  e('span', null, '14d Forecast: ' + activeUwPool.forecast.toFixed(2) + '%'),
+                  e('span', { className: 'landing-uw-downside-badge' }, '· ' + activeUwPool.downside)
+                )
+              ),
+              e('div', { className: 'landing-uw-pillars-grid' },
+                e('div', { className: 'landing-uw-pillar' },
+                  e('div', { className: 'landing-uw-pillar-name' }, 'Yield Stability'),
+                  e('div', { className: 'landing-uw-pillar-val' }, 'TimesFM 14d Model')
+                ),
+                e('div', { className: 'landing-uw-pillar' },
+                  e('div', { className: 'landing-uw-pillar-name' }, 'Sustainability'),
+                  e('div', { className: 'landing-uw-pillar-val' }, 'Organic Cash Flow')
+                ),
+                e('div', { className: 'landing-uw-pillar' },
+                  e('div', { className: 'landing-uw-pillar-name' }, 'Capital Retention'),
+                  e('div', { className: 'landing-uw-pillar-val' }, 'High Whale Depth')
+                ),
+                e('div', { className: 'landing-uw-pillar' },
+                  e('div', { className: 'landing-uw-pillar-name' }, 'Exit Capacity'),
+                  e('div', { className: 'landing-uw-pillar-val' }, 'Depth: ' + activeUwPool.tvl)
+                )
+              ),
+              e('div', { className: 'landing-uw-capacity-row' },
+                e('div', { className: 'landing-uw-capacity-item' },
+                  e('span', { className: 'landing-uw-cap-lbl' }, activeUwPool.metric1Label),
+                  e('span', { className: 'landing-uw-cap-val' }, activeUwPool.metric1Val)
+                ),
+                e('div', { className: 'landing-uw-capacity-item' },
+                  e('span', { className: 'landing-uw-cap-lbl' }, activeUwPool.metric2Label),
+                  e('span', { className: 'landing-uw-cap-val' }, activeUwPool.metric2Val)
+                )
+              ),
+              e('div', { className: 'landing-uw-terminal-footer' },
+                e('a', {
+                  href: '/?pool=' + activeUwPool.poolId,
+                  className: 'landing-uw-terminal-jump'
+                }, 'Open in Decision Terminal →')
+              )
+            )
+          )
+        ),
+
+        // SLIDE 2: HERO SPOTLIGHT (Never Pay for Software Again - Virtual Card)
         e('div', { id: 'spotlight-section', className: 'landing-section-wrapper landing-spotlight-wrapper' },
           e('section', { className: 'landing-hero-spotlight', 'data-testid': 'landing-intent-card', 'aria-labelledby': 'landing-spotlight-title' },
             e('div', { className: 'landing-spotlight-copy' },
@@ -921,7 +1003,7 @@
         )
         */
       ),
-      // Page indicator (fintech-seo v2) — 2 square dots, iPhone-style, fixed
+      // Page indicator (fintech-seo v2) — 3 square dots, iPhone-style, fixed
       // above the footer so they persist across the panel swap. Filled =
       // active panel; clicking either swaps to it; state syncs from body scroll.
       e('nav', { className: 'landing-page-dots', 'aria-label': copy.pageIndicator || 'Landing pages' },
@@ -929,15 +1011,22 @@
           type: 'button',
           className: 'landing-page-dot' + (activePanel === 0 ? ' is-active' : ''),
           onClick: function () { goToPanel(0); },
-          'aria-label': copy.pageIndicatorHero || 'Overview',
+          'aria-label': copy.pageIndicatorUnderwriting || 'Underwritten Yields',
           'aria-current': activePanel === 0 ? 'true' : undefined
         }),
         e('button', {
           type: 'button',
           className: 'landing-page-dot' + (activePanel === 1 ? ' is-active' : ''),
           onClick: function () { goToPanel(1); },
-          'aria-label': copy.pageIndicatorRates || 'Live yield rates',
+          'aria-label': copy.pageIndicatorCard || 'Virtual Card',
           'aria-current': activePanel === 1 ? 'true' : undefined
+        }),
+        e('button', {
+          type: 'button',
+          className: 'landing-page-dot' + (activePanel === 2 ? ' is-active' : ''),
+          onClick: function () { goToPanel(2); },
+          'aria-label': copy.pageIndicatorRates || 'Live yield rates',
+          'aria-current': activePanel === 2 ? 'true' : undefined
         })
       ),
       e('footer', { className: 'app-footer' },
