@@ -4273,96 +4273,132 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
    (<= 768px) the two panels stack as a normal vertical document the user
    scrolls through — no horizontal swap, no x-snap, and the footer sits in
    normal flow at the end instead of floating fixed over the content. */
+/* ═══ 247 WORLD — LANDING MULTI-SLIDE SNAP TRACK ═════════════════════════
+   3 full-viewport panels: Slide 0 (Underwritten Yields), Slide 1 (Virtual Card),
+   Slide 2 (Live Rates & Discovery). Hardware-accelerated sliding on .landing-main. */
 @media (min-width: 769px) {
-html[data-app-mode="landing"],
-html[data-app-mode="landing"] body {
-  overflow-x: hidden;
-  height: 100%;
-}
-html[data-app-mode="landing"] body {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;            /* Firefox */
-}
-html[data-app-mode="landing"] body::-webkit-scrollbar { display: none; }
+  html[data-app-mode="landing"],
+  html[data-app-mode="landing"] body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Each body child that participates is a full-width snap panel. Each panel
-   is also its own VERTICAL scroller (content taller than the viewport — e.g.
-   short windows — scrolls inside the panel; the body never scrolls on y).
-   Scrollbars hidden to avoid the x-layout jitter a gutter would cause. */
-html[data-app-mode="landing"] body > #landing-root,
-html[data-app-mode="landing"] body > .seo-content {
-  flex: 0 0 100vw;
-  width: 100vw;
-  min-width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
-  overscroll-behavior: contain;   /* panel edge doesn't leak into body x-scroll */
-  scrollbar-width: none;
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
-}
-html[data-app-mode="landing"] body > #landing-root::-webkit-scrollbar,
-html[data-app-mode="landing"] body > .seo-content::-webkit-scrollbar { display: none; }
+  html[data-app-mode="landing"] #landing-root {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
 
-/* While JS drives a panel swap, mandatory snap fights the smooth scroll
-   (stutter / bounce-back). .is-swapping disables it; restored on land. */
-html[data-app-mode="landing"] body.is-swapping { scroll-snap-type: none; }
-/* Non-panel body children (#root, #planner-root, the static .seo-hub-links
-   footer, scripts) must not become flex panels. */
-html[data-app-mode="landing"] body > #root,
-html[data-app-mode="landing"] body > #planner-root,
-html[data-app-mode="landing"] body > .seo-hub-links {
-  position: absolute;
-  width: 0; height: 0;
-  overflow: hidden;
-  flex: 0 0 auto;
-}
+  html[data-app-mode="landing"] .landing-app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
 
-/* Fixed chrome: header pinned to top, footer pinned to bottom, spanning the
-   swap. z-index above the panels; the backdrop already sits at z-index -1. */
-html[data-app-mode="landing"] .landing-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 60;
-}
-html[data-app-mode="landing"] .app-footer {
-  position: fixed !important;   /* override item 218's in-flow reset */
-  bottom: 0; left: 0; right: 0;
-  margin-top: 0;
-  z-index: 60;
-}
-/* Panels clear the fixed chrome so content never slides under it. */
-html[data-app-mode="landing"] body > #landing-root > .landing-app {
-  padding-top: 72px;
-  padding-bottom: 72px;
-  box-sizing: border-box;
-  min-height: 100vh;
-}
+  html[data-app-mode="landing"] .landing-main {
+    flex: 1;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+    padding: 0 !important;
+    width: 300vw;
+    min-width: 300vw;
+    height: 100vh;
+    will-change: transform;
+    overflow-x: hidden;
+  }
 
-/* The SEO panel — full-height, centered single-column, radial backdrop.
-   justify-content: center would clip overflowing content at the top in a
-   scroll container, so centering lives on .seo-content-inner's auto margins
-   instead (overflow-safe). */
-html[data-app-mode="landing"] .seo-content {
-  max-width: none;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background:
-    radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
-    radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
-    var(--ui-bg);
-  padding: 72px 24px;   /* clears the fixed header (top) + footer (bottom) */
-  box-sizing: border-box;
-}
-} /* end @media (min-width: 769px) — desktop horizontal snap track */
+  html[data-app-mode="landing"] .landing-section-wrapper {
+    flex: 0 0 100vw;
+    width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 72px 48px 96px 48px;
+  }
+  html[data-app-mode="landing"] .landing-section-wrapper::-webkit-scrollbar { display: none; }
+
+  /* Non-panel body children stay out of flow */
+  html[data-app-mode="landing"] body > #root,
+  html[data-app-mode="landing"] body > #planner-root,
+  html[data-app-mode="landing"] body > .seo-hub-links {
+    position: absolute;
+    width: 0; height: 0;
+    overflow: hidden;
+    flex: 0 0 auto;
+  }
+
+  /* Fixed chrome */
+  html[data-app-mode="landing"] .landing-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 60;
+  }
+  html[data-app-mode="landing"] .landing-page-dots {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 60;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  html[data-app-mode="landing"] .app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    border-top: 1px solid var(--ui-border);
+    background: var(--ui-bg);
+    padding: 8px 24px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 38px;
+  }
+  html[data-app-mode="landing"] .app-footer p { margin: 0; line-height: 1.4; }
+
+  html[data-app-mode="landing"] .seo-content {
+    flex: 0 0 100vw;
+    width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 64px 32px 64px 32px;
+    max-width: none;
+    margin: 0;
+    background:
+      radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
+      radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
+      var(--ui-bg);
+  }
+  html[data-app-mode="landing"] .seo-content::-webkit-scrollbar { display: none; }
+} /* end @media (min-width: 769px) */
 
 /* Inner wrapper: auto vertical margins center the column when it fits and
    collapse to 0 when it overflows, so the panel's own y-scroll reaches both
@@ -4405,13 +4441,42 @@ html[data-app-mode="landing"] .seo-content {
   }
   html[data-app-mode="landing"] .app-footer {
     position: static !important;
-    margin-top: 0;
+    margin-top: 24px;
     z-index: 1;
+    display: block !important;
+    padding: 24px 16px;
+    border-top: 1px solid var(--ui-border);
+    background: var(--ui-bg);
+    text-align: center;
   }
   /* Hero panel clears the fixed header; footer is in-flow so no bottom pad. */
+  html[data-app-mode="landing"] body > #landing-root {
+    width: 100%;
+    min-width: 0;
+    flex: none;
+    height: auto;
+  }
   html[data-app-mode="landing"] body > #landing-root > .landing-app {
+    width: 100%;
+    min-width: 0;
+    height: auto;
     padding-top: 72px;
     box-sizing: border-box;
+  }
+  html[data-app-mode="landing"] body > #landing-root .landing-main {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+  html[data-app-mode="landing"] .landing-section-wrapper {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    padding: 24px 0;
   }
   /* Rates panel: stacked section. On mobile JS moves it inside .landing-app
      between .landing-main and the footer, so it sits after the hero. */
@@ -4450,6 +4515,7 @@ html[data-app-mode="landing"] .seo-content {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  border-radius: 2px !important;
   margin-bottom: 18px;
 }
 
@@ -4481,7 +4547,7 @@ html[data-app-mode="landing"] .seo-calc-line {
 /* CTA reuses the shared .btn .btn--primary classes (rounded --ui-radius-lg,
    --color-primary green) — no custom button styling, per Quiet design. The
    .seo-cta hook only centers it within the panel's flow. */
-a.seo-cta { text-decoration: none !important; }
+a.seo-cta { text-decoration: none !important; border-radius: 2px !important; }
 
 /* Market chips — Quiet card spec: --ui-radius-md, muted surface, hairline
    border, accent hover. Text-only (hero's runtime Google-favicon icons
@@ -4511,7 +4577,7 @@ a.seo-cta { text-decoration: none !important; }
   background: var(--ui-surface-muted, #142018);
   border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
   color: var(--ui-text);
-  border-radius: 0;
+  border-radius: 2px !important;
   text-decoration: none !important;
   white-space: nowrap;
   transition: border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
@@ -7346,7 +7412,7 @@ body,
   min-width: var(--ui-control-h);
   min-height: var(--ui-control-h);
   padding: 0;
-  border-radius: var(--ui-radius-pill);
+  border-radius: var(--ui-radius-sm, 8px);
   box-sizing: border-box;
 }
 

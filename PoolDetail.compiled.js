@@ -2095,7 +2095,7 @@ function PoolDetail({
 
   // 247 world: layout is owned by pool-detail-styles.css (the certificate
   // document column) — no inline layout styles on the container.
-  var scoreTooltip = pool && pool.defiScore && typeof pool.defiScore.score === 'number' ? t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity` : '';
+  var scoreTooltip = pool && pool.defiScore && typeof pool.defiScore.score === 'number' ? t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via Quant AI\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity` : '';
 
   // Protocol Archetype Classification & Quantitative Underwriting
   var poolTvl = Number(pool.tvlUsd) || 100000;
@@ -2106,7 +2106,7 @@ function PoolDetail({
   var isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
   var archetypeTag = 'Lending';
   var engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
-  var enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+  var enginePill = 'Quant AI + Closed-Form Jump IRM';
 
   // Hero strip items
   var heroMetric1Label = 'Cash Headroom';
@@ -2139,7 +2139,7 @@ function PoolDetail({
   if (isPendle) {
     archetypeTag = 'Pendle';
     engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
-    enginePill = 'TimesFM 3.0 + Pendle AMM Curve';
+    enginePill = 'Quant AI + Pendle AMM Curve';
     var impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
     var forwardApy = pool.forecast && typeof pool.forecast.p50 === 'number' ? pool.forecast.p50 : impliedApy * 1.14;
     var spreadBps = Math.round((forwardApy - impliedApy) * 100);
@@ -2161,7 +2161,7 @@ function PoolDetail({
     exitMetric1Hint = 'Active liquidity for instant swap/redemption before maturity';
     exitMetric2Label = 'Fair Forward Spread (Δ)';
     exitMetric2Val = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
-    exitMetric2Hint = 'TimesFM 30d fair yield vs market implied yield';
+    exitMetric2Hint = 'Quant AI 30d fair yield vs market implied yield';
     var ptSlippage = Math.min(0.85, simTicketSize / ptDepth * 0.5);
     postDepositApy = Math.max(0, totalApy * (1 - ptSlippage));
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
@@ -2181,7 +2181,7 @@ function PoolDetail({
   } else if (isLending) {
     archetypeTag = 'LENDING JUMP-IRM';
     engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
-    enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+    enginePill = 'Quant AI + Closed-Form Jump IRM';
     var currentUtil = 0.78;
     var kinkUtil = 0.90;
     var wMaxAtomic = poolTvl * (1 - currentUtil);
@@ -2214,7 +2214,7 @@ function PoolDetail({
   } else if (isClmm) {
     archetypeTag = 'CLMM';
     engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
-    enginePill = 'TimesFM 3.0 + CLMM Tick Elasticity';
+    enginePill = 'Quant AI + CLMM Tick Elasticity';
     var pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     var compressionCap = poolTvl * 0.30;
     heroMetric1Label = 'Active Depth';
@@ -2255,7 +2255,7 @@ function PoolDetail({
     // Staking / RWA
     archetypeTag = 'Staking / RWA';
     engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
-    enginePill = 'TimesFM 3.0 + Staking Epoch Model';
+    enginePill = 'Quant AI + Staking Epoch Model';
     var secDepth = poolTvl * 0.35;
     heroMetric1Label = 'Secondary Liquidity';
     heroMetric1Value = formatCurrency(secDepth);
@@ -2682,33 +2682,7 @@ function PoolDetail({
       color: dilutionBps > 50 ? 'var(--cert-red)' : 'var(--cert-amber)'
     }
   }, '-' + dilutionBps + ' bps')))))),
-  // Engraved rule between Decision Terminal and Yield Card Terminal
-  React.createElement('div', {
-    className: 'cert-divider',
-    'aria-hidden': 'true'
-  }, React.createElement('span', {
-    className: 'orn-band cert-divider-strand'
-  }), React.createElement('span', {
-    className: 'cert-divider-node'
-  }), React.createElement('span', {
-    className: 'orn-band cert-divider-strand'
-  })),
-  // Yield-Funded Virtual Card Terminal (PRD Design 3)
-  React.createElement(YieldCardWidget, {
-    pool: pool,
-    totalApy: totalApy,
-    sub: sub,
-    t: t,
-    formatCurrency: formatCurrency,
-    formatUsd: _formatUsd,
-    formatNum: _formatNum,
-    formatApy: _formatApy,
-    riskAssessment: riskAssessment
-  }),
-  // Engraved rule between the document's clauses (247 world). Decorative
-  // only: aria-hidden, no text, and the ornament primitives are
-  // pointer-events: none, so this can never sit between a user and a
-  // control.
+  // Engraved rule between Decision Terminal and Calculator
   React.createElement('div', {
     className: 'cert-divider',
     'aria-hidden': 'true'
@@ -3182,7 +3156,30 @@ function PoolDetail({
       key: idx,
       className: 'pool-token-chip'
     }, token);
-  }))))));
+  }))))),
+  // Engraved rule between Pool Information and Yield Card Terminal
+  React.createElement('div', {
+    className: 'cert-divider',
+    'aria-hidden': 'true'
+  }, React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  }), React.createElement('span', {
+    className: 'cert-divider-node'
+  }), React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  })),
+  // Yield-Funded Virtual Card Terminal (PRD Design 3)
+  React.createElement(YieldCardWidget, {
+    pool: pool,
+    totalApy: totalApy,
+    sub: sub,
+    t: t,
+    formatCurrency: formatCurrency,
+    formatUsd: _formatUsd,
+    formatNum: _formatNum,
+    formatApy: _formatApy,
+    riskAssessment: riskAssessment
+  }));
 }
 
 // Simple fade-in animation for calculator
