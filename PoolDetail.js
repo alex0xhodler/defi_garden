@@ -1840,7 +1840,7 @@ function PoolDetail({
   // document column) — no inline layout styles on the container.
   const scoreTooltip = (pool && pool.defiScore && typeof pool.defiScore.score === 'number')
     ? (t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating)
-         : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`)
+         : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via Quant AI\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`)
     : '';
 
   // Protocol Archetype Classification & Quantitative Underwriting
@@ -1854,7 +1854,7 @@ function PoolDetail({
 
   let archetypeTag = 'Lending';
   let engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
-  let enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+  let enginePill = 'Quant AI + Closed-Form Jump IRM';
 
   // Hero strip items
   let heroMetric1Label = 'Cash Headroom';
@@ -1892,7 +1892,7 @@ function PoolDetail({
   if (isPendle) {
     archetypeTag = 'Pendle';
     engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
-    enginePill = 'TimesFM 3.0 + Pendle AMM Curve';
+    enginePill = 'Quant AI + Pendle AMM Curve';
 
     const impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
     const forwardApy = (pool.forecast && typeof pool.forecast.p50 === 'number') ? pool.forecast.p50 : (impliedApy * 1.14);
@@ -1920,7 +1920,7 @@ function PoolDetail({
 
     exitMetric2Label = 'Fair Forward Spread (Δ)';
     exitMetric2Val = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
-    exitMetric2Hint = 'TimesFM 30d fair yield vs market implied yield';
+    exitMetric2Hint = 'Quant AI 30d fair yield vs market implied yield';
 
     const ptSlippage = Math.min(0.85, (simTicketSize / ptDepth) * 0.5);
     postDepositApy = Math.max(0, totalApy * (1 - ptSlippage));
@@ -1943,7 +1943,7 @@ function PoolDetail({
   } else if (isLending) {
     archetypeTag = 'LENDING JUMP-IRM';
     engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
-    enginePill = 'TimesFM 3.0 + Closed-Form Jump IRM';
+    enginePill = 'Quant AI + Closed-Form Jump IRM';
 
     const currentUtil = 0.78;
     const kinkUtil = 0.90;
@@ -1983,7 +1983,7 @@ function PoolDetail({
   } else if (isClmm) {
     archetypeTag = 'CLMM';
     engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
-    enginePill = 'TimesFM 3.0 + CLMM Tick Elasticity';
+    enginePill = 'Quant AI + CLMM Tick Elasticity';
 
     const pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     const compressionCap = poolTvl * 0.30;
@@ -2033,7 +2033,7 @@ function PoolDetail({
     // Staking / RWA
     archetypeTag = 'Staking / RWA';
     engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
-    enginePill = 'TimesFM 3.0 + Staking Epoch Model';
+    enginePill = 'Quant AI + Staking Epoch Model';
 
     const secDepth = poolTvl * 0.35;
     heroMetric1Label = 'Secondary Liquidity';

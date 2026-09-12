@@ -3385,7 +3385,7 @@ function App() {
       className: 'pool-symbol'
     }, pool.symbol), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
       className: 'pool-score-chip',
-      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via TimesFM\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
+      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via Quant AI\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
     }, React.createElement('span', null, 'Score'), React.createElement('strong', null, Math.round(pool.defiScore.score)))), React.createElement('div', {
       className: 'pool-context-inline'
     }, t('onProtocolChain', pool.project, pool.chain, protocolUrl)))), React.createElement('div', {

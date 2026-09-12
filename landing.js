@@ -561,65 +561,74 @@
     var goToPanelRef = useRef(function () {});
     function goToPanel(panel) { goToPanelRef.current(panel); }
 
+    var activePanelRef = useRef(activePanel);
+    activePanelRef.current = activePanel;
+
     useEffect(function () {
-      var body = document.body;
-
-      // The horizontal swap is desktop-only; on mobile (<=768px) the panels
-      // stack vertically and the body scrolls normally — never intercept.
-      function isDesktopTrack() { return window.innerWidth > 768; }
-
-      // ---- Gesture state machine ----------------------------------------
-      // One deliberate scroll gesture = exactly one panel swap. The failure
-      // mode this replaces: a fixed-time lock released mid-gesture, so the
-      // momentum tail of a single trackpad flick re-triggered a (wrapping)
-      // swap — the page bounced straight back ("wobble").
-      //
-      // IDLE:      wheel deltas accumulate; |acc| >= THRESHOLD fires a swap.
-      //            A > QUIET_MS gap between wheel events resets acc (new
-      //            gesture), so momentum from a previous gesture never
-      //            carries over.
-      // SWAPPING:  every wheel event is swallowed (preventDefault) and only
-      //            extends the quiet window. The state exits ONLY when the
-      //            scroll has physically landed AND the wheel has been quiet
-      //            for QUIET_MS — i.e. after the gesture's momentum tail has
-      //            fully died. Hard-capped so a stuck state is impossible.
       function isDesktop() { return window.innerWidth > 768; }
 
       function goToPanelEffect(panel) {
-        var next = ((panel % 3) + 3) % 3;
+        var next = Math.max(0, Math.min(2, panel));
         setActivePanel(next);
       }
       goToPanelRef.current = goToPanelEffect;
 
-      var lastSwipeTime = 0;
+      var lastWheelTime = -1000;
+
       function onWheel(e) {
         if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
         if (e.ctrlKey) return;
-        // ONLY respond to intentional horizontal swipes — NEVER hijack vertical scroll!
-        if (Math.abs(e.deltaX) > Math.abs(e.deltaY) * 1.5 && Math.abs(e.deltaX) >= 30) {
-          var now = performance.now();
-          if (now - lastSwipeTime < 500) return; // debounce momentum
-          lastSwipeTime = now;
+
+        var now = performance.now();
+        if (now - lastWheelTime < 450) {
           e.preventDefault();
-          var dir = e.deltaX > 0 ? 1 : -1;
-          goToPanelEffect(activePanel + dir);
+          return;
+        }
+
+        var dy = e.deltaY;
+        var dx = e.deltaX;
+        if (e.deltaMode === 1) { dy *= 20; dx *= 20; }
+        else if (e.deltaMode === 2) { dy *= 100; dx *= 100; }
+
+        var dominant = Math.abs(dy) >= Math.abs(dx) ? dy : dx;
+        if (Math.abs(dominant) < 15) return;
+
+        var dir = dominant > 0 ? 1 : -1;
+        var current = activePanelRef.current;
+        var next = Math.max(0, Math.min(2, current + dir));
+
+        if (next !== current) {
+          e.preventDefault();
+          lastWheelTime = now;
+          goToPanelEffect(next);
         }
       }
+
       function onKey(e) {
         if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
         if (e.repeat) return;
         var tag = (e.target && e.target.tagName) || '';
         if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
-        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); goToPanelEffect(activePanel + 1); }
-        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); goToPanelEffect(activePanel - 1); }
+        var current = activePanelRef.current;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') {
+          e.preventDefault();
+          goToPanelEffect(Math.min(2, current + 1));
+        } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
+          e.preventDefault();
+          goToPanelEffect(Math.max(0, current - 1));
+        }
       }
-
-      // Reparent .seo-content into .landing-main as the 3rd panel
+      // Reparent .seo-content into .landing-main as the 2nd panel (before spotlight)
       var seoEl = document.getElementById('seo-content');
       var landingMain = document.querySelector('.landing-main');
+      var spotlightEl = document.getElementById('spotlight-section');
       var movedSeo = false;
       if (seoEl && landingMain) {
-        landingMain.appendChild(seoEl);
+        if (spotlightEl) {
+          landingMain.insertBefore(seoEl, spotlightEl);
+        } else {
+          landingMain.appendChild(seoEl);
+        }
         movedSeo = true;
       }
 
@@ -630,7 +639,7 @@
         if (movedSeo && seoEl) { document.body.appendChild(seoEl); }
         document.removeEventListener('keydown', onKey);
       };
-    }, [activePanel]);
+    }, []);
 
     function toggleLanguage() {
       var next = language === 'en' ? 'ko' : 'en';
@@ -716,7 +725,7 @@
           e('section', { className: 'landing-hero-underwriting', 'data-testid': 'landing-underwriting-card', 'aria-labelledby': 'landing-uw-title' },
             e('div', { className: 'landing-uw-copy' },
               e('div', { className: 'landing-uw-eyebrow' },
-                e('span', null, copy.uwEyebrow || 'Predictive Intelligence · TimesFM 3.0')
+                e('span', null, copy.uwEyebrow || 'Quant-Powered Predictive Analytics')
               ),
               e('h1', { id: 'landing-uw-title', className: 'landing-spotlight-title' },
                 copy.uwTitleBefore || 'DeFi yields,',
@@ -724,7 +733,7 @@
                 e('span', { className: 'landing-title-accent' }, copy.uwTitleAccent || 'predictively underwritten.')
               ),
               e('p', { className: 'landing-spotlight-subhead' },
-                copy.uwSubhead || 'TimesFM 3.0 forward volatility forecasting, closed-form liquidity underwriting, and institutional health ratings (AAA–C). Discover vetted pools with organic cash flows, deep exit liquidity, and zero surprise cliff decay.'
+                copy.uwSubhead || 'Quant AI forward volatility forecasting, closed-form liquidity underwriting, and institutional health ratings (AAA–C). Discover vetted pools with organic cash flows, deep exit liquidity, and zero surprise cliff decay.'
               ),
               e('div', { className: 'landing-uw-badges' },
                 e('span', { className: 'landing-uw-badge highlight' }, 'TVL ≥ $10M'),
@@ -771,7 +780,7 @@
               e('div', { className: 'landing-uw-pillars-grid' },
                 e('div', { className: 'landing-uw-pillar' },
                   e('div', { className: 'landing-uw-pillar-name' }, 'Yield Stability'),
-                  e('div', { className: 'landing-uw-pillar-val' }, 'TimesFM 14d Model')
+                  e('div', { className: 'landing-uw-pillar-val' }, 'Quant AI 14d Model')
                 ),
                 e('div', { className: 'landing-uw-pillar' },
                   e('div', { className: 'landing-uw-pillar-name' }, 'Sustainability'),
@@ -926,10 +935,10 @@
                     e(CardHologram),
                     e('div', { className: 'visa-card-cap-badge card-active-pill' },
                       e(CardLockIcon),
-                      e('span', null, '🟢 ACTIVE ($' + activeSub.monthly.toFixed(2) + '/MO)')
+                      e('span', null, 'ACTIVE ($' + activeSub.monthly.toFixed(2) + '/MO)')
                     )
                   )
-                )
+                ),
               ),
               e('button', {
                 type: 'button',
@@ -1014,14 +1023,14 @@
           type: 'button',
           className: 'landing-page-dot' + (activePanel === 1 ? ' is-active' : ''),
           onClick: function () { goToPanel(1); },
-          'aria-label': copy.pageIndicatorCard || 'Virtual Card',
+          'aria-label': copy.pageIndicatorRates || 'Live yield rates & savings',
           'aria-current': activePanel === 1 ? 'true' : undefined
         }),
         e('button', {
           type: 'button',
           className: 'landing-page-dot' + (activePanel === 2 ? ' is-active' : ''),
           onClick: function () { goToPanel(2); },
-          'aria-label': copy.pageIndicatorRates || 'Live yield rates',
+          'aria-label': copy.pageIndicatorCard || 'Virtual Card',
           'aria-current': activePanel === 2 ? 'true' : undefined
         })
       ),

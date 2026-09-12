@@ -4312,6 +4312,7 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
     min-width: 300vw;
     height: 100vh;
     will-change: transform;
+    overflow-x: hidden;
   }
 
   html[data-app-mode="landing"] .landing-section-wrapper {
@@ -4376,6 +4377,19 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
   html[data-app-mode="landing"] .app-footer p { margin: 0; line-height: 1.4; }
 
   html[data-app-mode="landing"] .seo-content {
+    flex: 0 0 100vw;
+    width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 64px 32px 64px 32px;
     max-width: none;
     margin: 0;
     background:
@@ -4383,6 +4397,7 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
       radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
       var(--ui-bg);
   }
+  html[data-app-mode="landing"] .seo-content::-webkit-scrollbar { display: none; }
 } /* end @media (min-width: 769px) */
 
 /* Inner wrapper: auto vertical margins center the column when it fits and
@@ -4500,6 +4515,7 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  border-radius: 2px !important;
   margin-bottom: 18px;
 }
 
@@ -4531,7 +4547,7 @@ html[data-app-mode="landing"] .seo-calc-line {
 /* CTA reuses the shared .btn .btn--primary classes (rounded --ui-radius-lg,
    --color-primary green) — no custom button styling, per Quiet design. The
    .seo-cta hook only centers it within the panel's flow. */
-a.seo-cta { text-decoration: none !important; }
+a.seo-cta { text-decoration: none !important; border-radius: 2px !important; }
 
 /* Market chips — Quiet card spec: --ui-radius-md, muted surface, hairline
    border, accent hover. Text-only (hero's runtime Google-favicon icons
@@ -4561,7 +4577,7 @@ a.seo-cta { text-decoration: none !important; }
   background: var(--ui-surface-muted, #142018);
   border: 1px solid var(--ui-border, rgba(255, 255, 255, 0.14));
   color: var(--ui-text);
-  border-radius: 0;
+  border-radius: 2px !important;
   text-decoration: none !important;
   white-space: nowrap;
   transition: border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);

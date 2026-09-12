@@ -1,101 +1,111 @@
-# Restartable Agent Handoff: TimesFM DeFi Score & Underwriting Infrastructure
+# Restartable Agent Handoff: Quant AI DeFi Underwriting & Institutional Intelligence
 
 **Date**: September 12, 2026  
 **Branch**: `feat/timesfm-defi-score`  
 **Base**: `origin/main`  
-**Last Commit**: `6efadd72457` (`feat(ui): update underwriting slide to straight-edge quiet styling and remove emojis`)  
+**Working State**: All 6 regression test suites green, headless browser visual verification confirmed.
 
 ---
 
 ### 1. Current Goal
-Ship the institutional quantitative underwriting layer to DeFi Garden:
-1. Integrate TimesFM 3.0 predictive yield forecasting and 4-pillar DeFi Health Score (0–100 AAA).
-2. Clean up UI noise across the pool detail hero and landing page in adherence to the Quiet design system (straight-edge certificate cuts, zero emojis, unified switcher buttons, in-flow footer).
-3. Present the new underwriting intelligence as the default first slide on the landing page, linking to `/?chain=Popular&minTvl=10000000&minApy=5`.
-4. Document the next architectural phase utilizing the Herd.eco MCP server for deep on-chain vault analytics (Andrew Hong playbook).
+Ship the institutional quantitative underwriting and predictive analytics layer to DeFi Garden:
+1. Deliver Quant AI predictive forward volatility forecasting and 4-pillar DeFi Health Score (0–100 AAA).
+2. Clean up UI noise across the pool detail hero and landing page in strict adherence to the Quiet design system (straight-edge certificate cuts, zero emojis, unified switcher buttons, in-flow footer).
+3. Present the new underwriting intelligence as the default first slide on the landing page, followed by DeFi Savings & Discovery, then the Yield-Funded Virtual Visa Card.
+4. Establish discrete single-step wheel and click navigation across all slides with zero panel bleed and full 100vw viewport containment.
+5. Prepare the architectural roadmap for B2B/B2C micropayments for individual quantitative signals, forecasts, and action points.
 
 ---
 
 ### 2. Changes Made in This Work Session
-- **Sorting & Metrics Cleanup**:
-  - Removed `'Risk'` (`sortBy === 'sharpe'`) sorting toggle from desktop (`sort-toggles` header) and mobile drawer (`sort-segment-row`).
-  - Renamed the sort toggle label from `'DeFi Score'` to **`'Score'`** (`t('sortByScore')`, EN `Score`, KO `점수`).
-  - Repositioned the row `pool-score-chip` in both table and grid views: moved out of `.pool-tvl-section` into `.pool-symbol-line` directly alongside the pool symbol (`STETH [Score 91]`). Removed the `3px` vertical misalignment offset, preventing truncation of protocol strings and eliminating card clipping on mobile.
-- **Pool Detail Hero Refinements**:
-  - Moved the institutional underwriting strip from order 0 (floating awkwardly above the title) down to `order: 6`, placing it below the honesty note and trust badges, right before the action counterfoil.
-  - Removed `"AI"` from `'14d AI Forecast'` -> now **`'14d Forecast'`**.
-  - Suppressed duplicate floor reporting when forecast and floor are identical (e.g. `14d Forecast: 3.57% · Stable Downside`).
-  - Removed duplicate `Risk Assessment: Low` badge when `Score: 92 (AAA)` is present, and formatted score as an integer (`Math.round(score)`).
-  - Repositioned the **Yield-Funded Virtual Card Terminal** as the final card on the `?pool=` page view (below Pool Information).
-- **Landing Page 3-Slide Architecture & Quiet Styling**:
-  - Built Slide 0 as the new **Default First View**: **Predictive Underwritten Yields**, linking directly to `/?chain=Popular&minTvl=10000000&minApy=5`.
-  - Replaced all curved/pill elements on Slide 0 with straight-edge certificate styling (`border-radius: 2px`).
-  - Removed all emojis (`🛡`, `📈`, `🤖`, `✓`) across badges, metrics, and labels.
-  - Structured the right-hand Underwriting Terminal into an institutional certificate ledger (live tabs for `USDY`, `SUSDS`, `USDC`, `STETH`, 4-pillar breakdown, capacity depth, and jump link).
-  - Slide 1: Virtual Visa Card Spotlight (*Never pay for subscriptions again*).
-  - Slide 2: Live Yield Rates & Savings Discovery (`#seo-content`).
-  - Fixed scrolling: native vertical scroll is completely uninhibited; panel swapping only triggers on intentional horizontal trackpad gestures (`deltaX > deltaY * 1.5`), keyboard arrows, or dot clicks.
-  - Fixed footer and dots: footer is static at the bottom of the content on mobile, and neatly separated at the bottom of desktop with the 3 dots floating 12px above it (zero overlap).
-- **Design System Harmonization**:
-  - Unified theme and language switchers across **all** surfaces (Home, Planner, ?pool=, Search) to an identical $40 \times 40\text{px}$ footprint with **`8px` border radius** (`var(--ui-radius-sm)`).
-- **Herd.eco MCP On-Chain Underwriting Blueprint**:
-  - Authored `docs/herd-mcp-onchain-underwriting.md` establishing the Andrew Hong playbook (Whale Concentration / HHI, Capital Dwell Time, Atomic Cash Headroom, and Governance Key Topology).
+- **Quant AI Rebranding & Nomenclature**:
+  - Replaced all user-facing `TimesFM 3.0` strings with **`Quant-Powered Predictive Analytics`** and **`Quant AI`**.
+  - Updated `landing.js`: Eyebrow set to `Quant-Powered Predictive Analytics`, subhead to `Quant AI forward volatility forecasting...`, and underwriting pillar to `Quant AI 14d Model`.
+  - Updated `translations.js` (EN & KO): Tooltips, rate decay alerts, and eyebrows updated in both languages.
+  - Updated `PoolDetail.js` & `app.js`: Engine archetypes (`Quant AI + Closed-Form Jump IRM`, `Pendle AMM Curve`, `CLMM Tick Elasticity`, `Staking Epoch Model`) and 4-pillar tooltips updated.
+- **Landing Page Slide Order & Reparenting (2 -> 3 Swap)**:
+  - **Slide 0 (Dot 0)**: Institutional Underwritten Yields (`#underwriting-section` - "DeFi yields, predictively underwritten").
+  - **Slide 1 (Dot 1)**: DeFi Savings & Yield Discovery (`#seo-content` reparented to index 1, full $100\text{vw}$ viewport width, zero bleed).
+  - **Slide 2 (Dot 2)**: Yield-Funded Virtual Visa Card Spotlight (`#spotlight-section` positioned at index 2).
+  - Updated `test_landing.js` locator index for the Virtual Card dot from `nth(1)` to `nth(2)`.
+- **Discrete One-Click Wheel Navigation**:
+  - Rebuilt `onWheel` event handling in `landing.js`:
+    - Initialized `lastWheelTime = -1000` to prevent initial scroll blocking on fresh page load.
+    - Normalized Firefox line-mode wheel events (`e.deltaMode === 1`) with a $\times 20$ multiplier.
+    - Implemented single-notch discrete slide stepping with 450ms debounce to absorb trackpad inertial momentum.
+    - Clamped boundaries strictly between $[0, 2]$ to prevent wrapping/bouncing.
+- **Quiet Straight-Edge (`border-radius: 2px`) Harmonization**:
+  - Standardized `border-radius: 2px !important` across all 3 slides:
+    - Primary CTAs: `.landing-garden-link`, `.seo-cta`, `[data-testid="landing-intent-cta"]`, `[data-testid="landing-underwriting-cta"]`.
+    - Chips and Badges: `.landing-sub-chip`, `.landing-press-badge`, `.landing-spotlight-eyebrow`, `.seo-eyebrow`, `.seo-chip`.
+    - Virtual Visa Card & Components: `.virtual-visa-card`, `.visa-gold-chip`, `.visa-card-metal-badge`, `.visa-card-cap-badge`, `.card-tap-affordance`, `.landing-card-metrics-table`.
+    - Header & Navigation: `.landing-brand`, `.landing-mobile-nav`.
+  - Removed stray emoji (`🟢 `) from card active badge.
+- **Compiled & Minified Asset Bundling**:
+  - Re-compiled `app.js` and `PoolDetail.js` via Babel standalone.
+  - Minified `translations.min.js`, `style.min.css`, `planner-styles.min.css`, and `pool-detail-styles.min.css`.
 
 ---
 
 ### 3. Verification Evidence
-- **Automated Test Suites (All Green)**:
+- **Automated Test Suites (All 6 Suites Passing)**:
   - `node test_compiled_assets.js` — 4/4 assertions passed.
   - `node test_minified_assets.js` — 9/9 assertions passed.
   - `node test_default_sort.js` — 4/4 assertions passed.
   - `node test_zero_yield_demote.js` — 17/17 assertions passed.
-  - `node test_smoke.js` — 13/13 assertions passed (360px, 768px, 1280px).
   - `node test_landing.js` — 9/9 assertions passed.
-- **Visual Evidence Verified via Playwright Headless Screenshots**:
-  - `/tmp/slide-0-straight-dark.png` — straight edge, zero emojis, clean 3-dot pagination clear of footer.
-  - `/tmp/slide-0-straight-light.png` — light mode certificate vellum styling verified.
-  - `/tmp/slide-0-straight-mobile.png` — mobile stacked layout with straight badges and single CTA.
-  - `/tmp/pooldetail-header.png` & `/tmp/planner-header.png` — unified 8px switchers verified across routes.
+  - `node test_smoke.js` — 13/13 assertions passed (360px, 768px, 1280px).
+- **Headless Chromium Visual Confirmation (`http://localhost:8000/home.html`)**:
+  - **Slide 0**: Renders "Quant-Powered Predictive Analytics" eyebrow, straight 2px CTA, active dot 0.
+  - **Slide 1**: Clean transition to "DeFi Savings & Yield Discovery", full 100vw width, zero bleed, straight 2px CTA.
+  - **Slide 2**: Clean transition to "Never pay for subscriptions again", text `ACTIVE ($24.00/MO)` (no emoji), straight 2px CTA.
+  - **Wheel Interaction**: Full sequential cycle tested (0 -> 1 -> 2 -> clamp -> 1 -> 0 -> clamp), Firefox line-mode verified.
 
 ---
 
 ### 4. Untouched Scope
-- The quantitative formulas inside `compute-kpis.js` and `compute-forecasts.py` were not altered.
-- The underlying DefiLlama data fetchers and cache policies were not modified.
-- Existing URL query parameter schemas (`?token=`, `?chain=`, `?pool=`) were preserved byte-untouched.
-- The Vercel edge proxy and MCP endpoints (`/mcp`, `/api/health`) were not modified.
+- Quantitative calculation engine in `compute-kpis.js` and Python model pipeline in `compute-forecasts.py`.
+- DefiLlama data fetchers and existing query parameter routes (`?token=`, `?chain=`, `?pool=`).
+- WebMCP endpoints (`/mcp`, `/api/health`).
 
 ---
 
-### 5. Uncertainties
-- Whether to auto-rotate the 4 featured pools on Slide 0 or keep them strictly user-switched via the tabs. (Currently user-switched via `USDY`, `SUSDS`, `USDC`, `STETH` tabs for stability).
-- Exact production cadence for refreshing TimesFM 3.0 forecasts (currently runs as an automated cron task in `.github/workflows/sitemap-update.yml`).
-
----
+### 5. Decided Architecture: Phase 2 Micropayments & Live Underwriting Engine
+Following user interview (September 12, 2026), the Phase 2 monetization and underwriting architecture is locked:
+1. **Value Unit & Paywall Boundary**:
+   - Free tier: Headline APY, TVL, and 0–100 DeFi Health Score remain 100% public for retail trust and SEO indexing.
+   - Gated tier (~$0.10–$0.50 per unlock): **Institutional Execution Playbook** (exact atomic cash headroom to avoid IRM kink slippage, gauge emission cliff countdowns, and whale liquidation triggers).
+2. **Payment Rail (Web3 Native HTTP 402)**:
+   - Built on the **HTTP 402 Payment Required** standard via **x402 / EIP-3009** permit signatures.
+   - Micro-settlement in USDC on low-gas L2s (Base / Arbitrum). Zero transaction fees for gasless signing.
+3. **Dual Surface (Retail + Agent Plane)**:
+   - **B2C Web Surface**: Quiet soft lock on `?pool=` via a blurred certificate counterfoil card with single CTA: `"Unlock Institutional Execution Playbook — $0.25"`.
+   - **B2B Agent Surface**: HTTP 402 gated tool responses on `/mcp` (WebMCP server) allowing autonomous trading bots, allocators, and treasuries to purchase real-time underwriting payloads programmatically.
+4. **Dynamic Live Compute**:
+   - Paid unlocks trigger **live on-demand RPC multicalls** (e.g. simulating custom ticket sizes like $500k against real-time contract block state and utilization curves), rather than static daily snapshots.
 
 ### 6. Open Risks
-- **High Traffic on Live Endpoint**: `/?chain=Popular&minTvl=10000000&minApy=5` filters ~6,300 pools down to ~80 pools client-side. The client-side filter is instant (<5ms), but browser performance on low-end mobile devices should continue to be monitored.
-- **Herd.eco MCP Integration (Phase 2)**: Adding live RPC calls to the edge Worker must maintain strict timeout budgets (<200ms) or run exclusively in the offline cron ingestion step.
+- Browser memory footprint during high-frequency slide toggling on low-tier mobile devices (currently mitigated by desktop-only horizontal track).
+- Keeping static HTML token pages (`tokens/*.html`) synchronized if underwriting badges are added directly to static crawler pages.
 
 ---
 
 ### 7. Off-Limits Areas
-- **Trust Rails**: Never tamper with `APY_SANITY_LIMIT = 1000%` or `DEFAULT_MIN_TVL = $100K`.
-- **Card Handoff Policy**: Do not attempt to reintroduce in-browser card issuance or fake payment terminals. All card onboarding must redirect to `laso.finance` via official partner referral links.
-- **Build System**: Do not introduce webpack, vite, or JSX compile dependencies to the root app. The no-build React UMD + Babel standalone runtime architecture is strictly load-bearing.
+- Do not lower trust rail thresholds (`APY_SANITY_LIMIT = 1000%`, `DEFAULT_MIN_TVL = $100K`).
+- Do not build in-browser card issuance or simulated white-label payment terminals (must hand off to `laso.finance`).
+- Do not introduce JSX build pipelines or Webpack/Vite (maintain React UMD runtime).
 
 ---
 
 ### 8. Last Decision or Gate
-- **Decision**: Merged `origin/main` into `feat/timesfm-defi-score`, resolved all 4 conflicting snapshot and llms files, verified all 6 regression test suites green, committed, and pushed cleanly to remote.
-- **Terminal State**: Working tree clean, branch up-to-date with `origin/feat/timesfm-defi-score`.
+- Completed full UI and scroll polish, rebranded to Quant AI, verified all 6 test suites green, and confirmed visual layout across all three slides in headless browser.
 
 ---
 
 ### 9. Exactly One Safe Next Action (What the Next Agent Should Do)
-**Open the Pull Request from `feat/timesfm-defi-score` into `main` on GitHub** using `gh pr create` or the GitHub web interface, referencing this handoff document and `docs/herd-mcp-onchain-underwriting.md`.
+**Commit the changes and open the Pull Request from `feat/timesfm-defi-score` into `main` on GitHub.**
 
 **What the next agent MUST NOT assume**:
-- Do **not** assume `landing-styles.css` or `style.css` can be edited without immediately running `node compile-app.js && node minify-assets.js` to refresh the minified bundles.
-- Do **not** assume the user wants emojis or rounded pill buttons re-introduced on Slide 0.
-- Do **not** start Phase 2 of the Herd.eco MCP integration before PR review and merge of this UI/score foundation.
+- Do **not** edit `app.js`, `PoolDetail.js`, `style.css`, or `translations.js` without immediately running `node compile-app.js && node minify-assets.js`.
+- Do **not** re-introduce wheel hijacking that breaks discrete step navigation.
+- Do **not** re-introduce curved pill borders or emojis to the landing slides.
