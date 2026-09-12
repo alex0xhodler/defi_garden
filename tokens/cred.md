@@ -1,12 +1,12 @@
 # CRED DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CRED yield right now is 1.19% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRED yield right now is 11.64% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2097381a-b24c-4198-b331-e90bfdfcd591&src=seo_token) | Base | 1.19% | $120.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2097381a-b24c-4198-b331-e90bfdfcd591&src=seo_token) | Base | 11.64% | $120.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRED yield today?
 
-1.19% APY on uniswap-v4 (Base), based on live DefiLlama data.
+11.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CRED pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CRED pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

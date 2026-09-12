@@ -1,22 +1,22 @@
 # USDO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USDO의 가장 높은 정직한 수익률은 Ethereum의 openeden-usdo에서 3.10%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $16.32M |
-| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149K |
+| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 openeden-usdo, APY 3.10%, TVL $149K, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; Ethereum의 openeden-usdo, APY 3.10%, TVL $16.32M, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 openeden-usdo, APY 3.10%, TVL $149.1K, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; Ethereum의 openeden-usdo, APY 3.10%, TVL $16.32M, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149K |
+| 1 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149.1K |
 | 2 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $16.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 openeden-usdo에서 APY 3.10%�
 
 ### USDO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 openeden-usdo, APY 3.10%, TVL $149K, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; Ethereum의 openeden-usdo, APY 3.10%, TVL $16.32M, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 openeden-usdo, APY 3.10%, TVL $149.1K, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; Ethereum의 openeden-usdo, APY 3.10%, TVL $16.32M, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 o
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

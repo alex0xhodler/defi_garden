@@ -1,12 +1,12 @@
 # ANS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ANS yield right now is 13.94% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANS yield right now is 18.90% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 13.94% | $568.3K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 18.90% | $570.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANS yield today?
 
-13.94% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
+18.90% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
 
 ### How many ANS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $568.3K in total.
+1 live pool clear this page's $100K TVL floor, $570.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank ANS pools. This view covers A
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
-- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 - [STS](https://www.defi.garden/tokens/sts)
+- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 
 ## Available on
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # GTMSUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest GTMSUSDC yield right now is 0.23% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTMSUSDC yield right now is 0.22% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5&src=seo_token) | Ethereum | 0.23% | $14.44M |
+| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5&src=seo_token) | Ethereum | 0.22% | $14.78M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTMSUSDC yield today?
 
-0.23% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+0.22% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTMSUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.44M in total.
+1 live pool clear this page's $100K TVL floor, $14.78M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTMSUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

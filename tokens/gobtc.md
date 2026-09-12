@@ -1,6 +1,6 @@
 # GOBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest GOBTC yield right now is 0.08% on folks-finance-lending (Algorand), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GOBTC pools. This view covers
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

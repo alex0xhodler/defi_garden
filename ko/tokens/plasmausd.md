@@ -1,12 +1,12 @@
 # PLASMAUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 PLASMAUSD의 가장 높은 정직한 수익률은 Plasma의 veda에서 3.91%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PLASMAUSD의 가장 높은 정직한 수익률은 Plasma의 veda에서 3.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 3.91% | $32.32M |
+| [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a&src=seo_token) | Plasma | 3.81% | $32.32M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 PLASMAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.91%예요.
+DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.81%예요.
 
 ### PLASMAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.91%예요.
 
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

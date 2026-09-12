@@ -1,12 +1,12 @@
 # META DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest META yield right now is 28.57% on omnipair (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest META yield right now is 26.44% on omnipair (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 28.57% | $138.1K |
+| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 26.44% | $138.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-META shows up in 1 pools here, with rates from 28.57% to 28.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+META shows up in 1 pools here, with rates from 26.44% to 26.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 21.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 21.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| omnipair | 28.57% | 21.08% | Base rate |
+| omnipair | 26.44% | 21.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest META yield today?
 
-28.57% APY on omnipair (Solana), based on live DefiLlama data.
+26.44% APY on omnipair (Solana), based on live DefiLlama data.
 
 ### How many META pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $351.3K in total.
+2 live pools clear this page's $100K TVL floor, $353.2K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank META pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

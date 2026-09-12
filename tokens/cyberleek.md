@@ -1,12 +1,12 @@
 # CYBERLEEK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest CYBERLEEK yield right now is 23.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYBERLEEK yield right now is 30.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 23.04% | $254K |
+| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 30.13% | $254.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYBERLEEK yield today?
 
-23.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+30.13% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYBERLEEK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $254K in total.
+1 live pool clear this page's $100K TVL floor, $254.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CYBERLEEK pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

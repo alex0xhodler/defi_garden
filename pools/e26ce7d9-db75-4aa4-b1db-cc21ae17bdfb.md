@@ -6,7 +6,7 @@
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 2.26%
+**30d Mean APY:** 2.27%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on sparklend](https://spark.finance/?ref=defi.garden)
 
-Last updated September 11, 2026
+Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # XSUSHI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 XSUSHI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap에서 0.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XSUSHI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap에서 2.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 0.68% | $192.4K |
+| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 2.62% | $196.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 XSUSHI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap에서 APY 0.68%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap에서 APY 2.62%예요.
 
 ### XSUSHI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $192.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $196.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap에서 APY 0.68%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

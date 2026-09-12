@@ -1,12 +1,12 @@
 # ANYONE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ANYONE yield right now is 63.42% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANYONE yield right now is 26.18% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=65f92e91-63be-4595-b9ec-52206a540a0d&src=seo_token) | Ethereum | 63.42% | $803.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=65f92e91-63be-4595-b9ec-52206a540a0d&src=seo_token) | Ethereum | 26.18% | $825.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANYONE yield today?
 
-63.42% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+26.18% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ANYONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $803.3K in total.
+1 live pool clear this page's $100K TVL floor, $825.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ANYONE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

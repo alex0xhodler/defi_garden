@@ -1,17 +1,17 @@
 # Fraxtal DeFi Yields
 
-The highest honest Fraxtal yield right now is 42.67% on curve-dex (Fraxtal), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Fraxtal yield right now is 6.18% on curve-dex (Fraxtal), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| FRXUSD-FXB20291231 | [curve-dex →](https://www.defi.garden/?pool=6b20c797-ea1e-4dd7-aa7d-4636e3ac2be7&src=seo_chain) | 7.36% | $3.57M |
-| FRAX-WFRXETH | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_chain) | 1.36% | $2.96M |
-| FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 2.87% | $2.58M |
-| FRXUSD-FXB-20261231 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_chain) | 6.16% | $1.53M |
-| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 4.56% | $661.5K |
-| FRXUSD-FXB20271231 | [stake-dao-yield →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 4.55% | $574.2K |
-| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 42.67% | $475.8K |
-| WFRXETH-SFRXETH | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_chain) | 3.78% | $374.4K |
+| FRXUSD-FXB20291231 | [curve-dex →](https://www.defi.garden/?pool=6b20c797-ea1e-4dd7-aa7d-4636e3ac2be7&src=seo_chain) | 6.18% | $3.57M |
+| FRAX-WFRXETH | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_chain) | 1.72% | $3M |
+| FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 2.57% | $2.65M |
+| FRXUSD-FXB-20261231 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_chain) | 5.10% | $1.53M |
+| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 3.68% | $661.5K |
+| FRXUSD-FXB20271231 | [stake-dao-yield →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 3.68% | $574.3K |
+| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 0.01% | $478.5K |
+| WFRXETH-SFRXETH | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_chain) | 3.41% | $386K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Fraxtal yield today?
 
-42.67% APY on curve-dex (Fraxtal), based on live DefiLlama data.
+6.18% APY on curve-dex (Fraxtal), based on live DefiLlama data.
 
 ### How many Fraxtal pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $21.4M in total.
+24 live pools clear this page's $100K TVL floor, $21.57M in total.
 
 ### Are these rates safe?
 
@@ -43,10 +43,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [FRXUSD](https://www.defi.garden/tokens/frxusd)
 - [FXB20291231](https://www.defi.garden/tokens/fxb20291231)
 - [WFRXETH](https://www.defi.garden/tokens/wfrxeth)
-- [FRAX](https://www.defi.garden/tokens/frax)
 - [SFRXETH](https://www.defi.garden/tokens/sfrxeth)
+- [FRAX](https://www.defi.garden/tokens/frax)
 - [FRXETH](https://www.defi.garden/tokens/frxeth)
 - [FXB](https://www.defi.garden/tokens/fxb)
 - [FXB20271231](https://www.defi.garden/tokens/fxb20271231)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

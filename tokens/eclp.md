@@ -1,12 +1,12 @@
 # ECLP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ECLP yield right now is 21.60% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECLP yield right now is 23.74% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=134ec73a-6a6e-41d5-9f93-2ca1cb58dfbd&src=seo_token) | Sonic | 21.60% | $107.2K |
+| [beets-dex →](https://www.defi.garden/?pool=134ec73a-6a6e-41d5-9f93-2ca1cb58dfbd&src=seo_token) | Sonic | 23.74% | $107.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECLP yield today?
 
-21.60% APY on beets-dex (Sonic), based on live DefiLlama data.
+23.74% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many ECLP pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank ECLP pools. This view covers 
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
-- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 - [STS](https://www.defi.garden/tokens/sts)
+- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 
 ## Available on
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

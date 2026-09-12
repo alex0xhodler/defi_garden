@@ -1,12 +1,12 @@
 # USDC — blend-pools-v2 on Stellar
 
-**Total APY:** 7.22% (7.22% Base · + 0.00% Rewards)
+**Total APY:** 7.23% (7.23% Base · + 0.00% Rewards)
 
 **TVL:** $10.51M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 6.80%
+**30d Mean APY:** 6.83%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on blend-pools-v2](https://www.blend.capital/?ref=defi.garden)
 
-Last updated September 11, 2026
+Last updated September 12, 2026

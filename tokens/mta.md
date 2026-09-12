@@ -1,12 +1,12 @@
 # MTA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest MTA yield right now is 1.31% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MTA yield right now is 1.37% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 1.31% | $237.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 1.37% | $236.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MTA yield today?
 
-1.31% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+1.37% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many MTA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.1K in total.
+1 live pool clear this page's $100K TVL floor, $236.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MTA pools. This view covers A
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

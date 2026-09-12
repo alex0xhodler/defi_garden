@@ -1,35 +1,35 @@
 # BUIDL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest BUIDL yield right now is 3.57% on blackrock-buidl (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $992.51M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $967.18M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $649.1M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $564.56M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $212.05M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $136.34M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.42M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $992.6M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $967.2M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $624.16M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $564.61M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $212.07M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $136.35M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.43M |
 | [blackrock-buidl →](https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token) | Arbitrum | 3.23% | $8.56M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUIDL's lower-variability candidates are blackrock-buidl (Aptos), 3.23% APY, $967.18M TVL, https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token; blackrock-buidl (Arbitrum), 3.23% APY, $8.56M TVL, https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token; blackrock-buidl (Avalanche), 3.54% APY, $564.56M TVL, https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token; blackrock-buidl (BSC), 3.23% APY, $136.34M TVL, https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token; blackrock-buidl (Ethereum), 3.57% APY, $649.1M TVL, https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token; blackrock-buidl (OP Mainnet), 3.23% APY, $26.42M TVL, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token; blackrock-buidl (Solana), 3.54% APY, $992.51M TVL, https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token; blackrock-buidl (Ethereum), 3.23% APY, $212.05M TVL, https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUIDL's lower-variability candidates are blackrock-buidl (Aptos), 3.23% APY, $967.2M TVL, https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token; blackrock-buidl (Arbitrum), 3.23% APY, $8.56M TVL, https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token; blackrock-buidl (Avalanche), 3.54% APY, $564.61M TVL, https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token; blackrock-buidl (BSC), 3.23% APY, $136.35M TVL, https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token; blackrock-buidl (Ethereum), 3.57% APY, $624.16M TVL, https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token; blackrock-buidl (OP Mainnet), 3.23% APY, $26.43M TVL, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token; blackrock-buidl (Solana), 3.54% APY, $992.6M TVL, https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token; blackrock-buidl (Ethereum), 3.23% APY, $212.07M TVL, https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $967.18M |
+| 1 | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $967.2M |
 | 2 | [blackrock-buidl →](https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token) | Arbitrum | 3.23% | $8.56M |
-| 3 | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $564.56M |
-| 4 | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $136.34M |
-| 5 | [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $649.1M |
-| 6 | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.42M |
-| 7 | [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $992.51M |
-| 8 | [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $212.05M |
+| 3 | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $564.61M |
+| 4 | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $136.35M |
+| 5 | [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $624.16M |
+| 6 | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.43M |
+| 7 | [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $992.6M |
+| 8 | [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $212.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUIDL pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $3.56B in total.
+9 live pools clear this page's $100K TVL floor, $3.54B in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUIDL pools have the most stable APY history?
 
-Based on APY history only, BUIDL's lower-variability candidates are blackrock-buidl (Aptos), 3.23% APY, $967.18M TVL, https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token; blackrock-buidl (Arbitrum), 3.23% APY, $8.56M TVL, https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token; blackrock-buidl (Avalanche), 3.54% APY, $564.56M TVL, https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token; blackrock-buidl (BSC), 3.23% APY, $136.34M TVL, https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token; blackrock-buidl (Ethereum), 3.57% APY, $649.1M TVL, https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token; blackrock-buidl (OP Mainnet), 3.23% APY, $26.42M TVL, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token; blackrock-buidl (Solana), 3.54% APY, $992.51M TVL, https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token; blackrock-buidl (Ethereum), 3.23% APY, $212.05M TVL, https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUIDL's lower-variability candidates are blackrock-buidl (Aptos), 3.23% APY, $967.2M TVL, https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token; blackrock-buidl (Arbitrum), 3.23% APY, $8.56M TVL, https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token; blackrock-buidl (Avalanche), 3.54% APY, $564.61M TVL, https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token; blackrock-buidl (BSC), 3.23% APY, $136.35M TVL, https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token; blackrock-buidl (Ethereum), 3.57% APY, $624.16M TVL, https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token; blackrock-buidl (OP Mainnet), 3.23% APY, $26.43M TVL, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token; blackrock-buidl (Solana), 3.54% APY, $992.6M TVL, https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token; blackrock-buidl (Ethereum), 3.23% APY, $212.07M TVL, https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -91,4 +91,4 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

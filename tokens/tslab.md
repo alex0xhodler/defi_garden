@@ -1,12 +1,12 @@
 # TSLAB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest TSLAB yield right now is 14.83% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=44b167ce-b22c-4294-8877-4f71042bdd13&src=seo_token) | BSC | 14.83% | $102.7K |
+| [native-credit-pool →](https://www.defi.garden/?pool=44b167ce-b22c-4294-8877-4f71042bdd13&src=seo_token) | BSC | 14.83% | $103K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TSLAB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.7K in total.
+1 live pool clear this page's $100K TVL floor, $103K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TSLAB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

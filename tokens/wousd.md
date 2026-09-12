@@ -1,6 +1,6 @@
 # WOUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
 The highest honest WOUSD yield right now is 6.53% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -25,14 +25,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WOUSD shows up in 2 pools here, with rates from 6.51% to 6.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.51% | 5.95% | Base rate |
-| pendle-v2 | 6.53% | 6.39% | Base rate |
+| pendle-v2 | 6.51% | 5.98% | Base rate |
+| pendle-v2 | 6.53% | 6.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WOUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $381.1K in total.
+3 live pools clear this page's $100K TVL floor, $380.9K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # VVVEITY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest VVVEITY yield right now is 198.80% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VVVEITY yield right now is 22.11% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5ba6eee-d6c9-47e2-b82c-dc867bcbccfa&src=seo_token) | Base | 198.80% | $153.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5ba6eee-d6c9-47e2-b82c-dc867bcbccfa&src=seo_token) | Base | 22.11% | $150.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VVVEITY yield today?
 
-198.80% APY on uniswap-v4 (Base), based on live DefiLlama data.
+22.11% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many VVVEITY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.1K in total.
+1 live pool clear this page's $100K TVL floor, $150.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank VVVEITY pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

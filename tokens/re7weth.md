@@ -1,12 +1,12 @@
 # RE7WETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest RE7WETH yield right now is 5.91% on morpho-blue (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7WETH yield right now is 4.87% on morpho-blue (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 5.91% | $2.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 4.87% | $2.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7WETH yield today?
 
-5.91% APY on morpho-blue (OP Mainnet), based on live DefiLlama data.
+4.87% APY on morpho-blue (OP Mainnet), based on live DefiLlama data.
 
 ### How many RE7WETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.2M in total.
+1 live pool clear this page's $100K TVL floor, $2.29M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RE7WETH pools. This view cove
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

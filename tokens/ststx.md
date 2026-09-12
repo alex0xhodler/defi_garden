@@ -1,12 +1,12 @@
 # STSTX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest STSTX yield right now is 0.10% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STSTX yield right now is 0.09% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.10% | $2.18M |
+| [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.09% | $2.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STSTX yield today?
 
-0.10% APY on zest-v2 (Stacks), based on live DefiLlama data.
+0.09% APY on zest-v2 (Stacks), based on live DefiLlama data.
 
 ### How many STSTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.18M in total.
+1 live pool clear this page's $100K TVL floor, $2.26M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STSTX pools. This view covers
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

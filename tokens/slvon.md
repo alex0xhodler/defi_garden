@@ -1,35 +1,35 @@
 # SLVON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SLVON yield right now is 133.71% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLVON yield right now is 14.68% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 33.95% | $554.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token) | Ethereum | 133.71% | $237.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 40.85% | $146.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 27.11% | $142.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 4.51% | $554.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token) | Ethereum | 22.05% | $242.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 14.68% | $147.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 0.01% | $143.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 27.11% APY, $142.4K TVL, https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token; uniswap-v3 (Ethereum), 40.85% APY, $146.4K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 33.95% APY, $554.5K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token; uniswap-v4 (Ethereum), 133.71% APY, $237.6K TVL, https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $143.4K TVL, https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token; uniswap-v3 (Ethereum), 14.68% APY, $147.3K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 4.51% APY, $554.4K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token; uniswap-v4 (Ethereum), 22.05% APY, $242.1K TVL, https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 27.11% | $142.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 40.85% | $146.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 33.95% | $554.5K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token) | Ethereum | 133.71% | $237.6K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 0.01% | $143.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 14.68% | $147.3K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 4.51% | $554.4K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token) | Ethereum | 22.05% | $242.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SLVON shows up in 4 pools here, with rates from 27.11% to 133.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SLVON shows up in 4 pools here, with rates from 0.01% to 22.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 19.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 19.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 33.95% | 14.90% | Base rate |
-| uniswap-v4 | 133.71% | 496.80% | Base rate |
-| uniswap-v3 | 40.85% | 24.35% | Base rate |
-| uniswap-v3 | 27.11% | 6.18% | Base rate |
+| uniswap-v3 | 4.51% | 14.71% | Base rate |
+| uniswap-v4 | 22.05% | 369.68% | Base rate |
+| uniswap-v3 | 14.68% | 23.59% | Base rate |
+| uniswap-v3 | 0.01% | 6.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SLVON yield today?
 
-133.71% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+14.68% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SLVON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.08M in total.
+4 live pools clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SLVON pools have the most stable APY history?
 
-Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 27.11% APY, $142.4K TVL, https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token; uniswap-v3 (Ethereum), 40.85% APY, $146.4K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 33.95% APY, $554.5K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token; uniswap-v4 (Ethereum), 133.71% APY, $237.6K TVL, https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $143.4K TVL, https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token; uniswap-v3 (Ethereum), 14.68% APY, $147.3K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 4.51% APY, $554.4K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token; uniswap-v4 (Ethereum), 22.05% APY, $242.1K TVL, https://www.defi.garden/?pool=f6eec39d-e687-4e5d-a7f8-bf329291c9da&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # NSTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest NSTR yield right now is 0.37% on nostra-pools (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NSTR yield right now is 1.37% on nostra-pools (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 0.37% | $111.4K |
+| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 1.37% | $112.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NSTR yield today?
 
-0.37% APY on nostra-pools (Starknet), based on live DefiLlama data.
+1.37% APY on nostra-pools (Starknet), based on live DefiLlama data.
 
 ### How many NSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.4K in total.
+1 live pool clear this page's $100K TVL floor, $112.2K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
+- [SUSN](https://www.defi.garden/tokens/susn)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
-- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

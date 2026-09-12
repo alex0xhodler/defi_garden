@@ -1,12 +1,12 @@
 # SEND DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SEND yield right now is 0.09% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SEND yield right now is 0.10% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.09% | $1.32M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.10% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SEND yield today?
 
-0.09% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+0.10% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many SEND pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SEND pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

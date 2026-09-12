@@ -1,13 +1,13 @@
 # SUSDD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SUSDD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 5.17%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 6.25%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 6.26% | $5.13M |
-| [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.17% | $5.13M |
+| [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.17% | $5.12M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 6.25% | $5.12M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -18,16 +18,16 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.17%부터 6.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.17%부터 6.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 2개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle-v2 | 6.26% | 12.65% | 인센티브 6.28% |
 | pendle-v2 | 5.17% | 5.23% | 기본 금리 |
+| pendle-v2 | 6.25% | 12.23% | 인센티브 6.14% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -35,7 +35,7 @@ SUSDD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.17%부터 6.26%�
 
 ### 오늘 SUSDD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 5.17%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 6.25%예요.
 
 ### SUSDD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -62,4 +62,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 5.17%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026

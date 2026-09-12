@@ -1,12 +1,12 @@
 # OFC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest OFC yield right now is 2.20% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OFC yield right now is 4.27% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9&src=seo_token) | Base | 2.20% | $175.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9&src=seo_token) | Base | 4.27% | $179K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OFC yield today?
 
-2.20% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+4.27% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many OFC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.3K in total.
+1 live pool clear this page's $100K TVL floor, $179K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OFC pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

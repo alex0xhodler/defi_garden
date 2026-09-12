@@ -1,13 +1,13 @@
 # VIBE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest VIBE yield right now is 91.00% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIBE yield right now is 51.91% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9&src=seo_token) | Ethereum | 91.00% | $1.45M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0&src=seo_token) | Ethereum | 81.06% | $253K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9&src=seo_token) | Ethereum | 51.91% | $1.39M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0&src=seo_token) | Ethereum | 50.15% | $242.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VIBE shows up in 2 pools here, with rates from 81.06% to 91.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VIBE shows up in 2 pools here, with rates from 50.15% to 51.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 183.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 176.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 91.00% | 195.19% | Base rate |
-| uniswap-v4 | 81.06% | 172.53% | Base rate |
+| uniswap-v4 | 51.91% | 190.55% | Base rate |
+| uniswap-v4 | 50.15% | 162.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VIBE yield today?
 
-91.00% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+51.91% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many VIBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.7M in total.
+2 live pools clear this page's $100K TVL floor, $1.64M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank VIBE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

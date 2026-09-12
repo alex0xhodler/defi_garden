@@ -1,34 +1,34 @@
 # SPCXB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest SPCXB yield right now is 663.41% on native-credit-pool (BSC), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXB yield right now is 663.41% on native-credit-pool (BSC), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ef2d1094-1362-5e69-9e22-087f4ca0717c&src=seo_token) | BSC | 65.45% | $341.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 34.09% | $279.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 64.86% | $129.4K |
-| [native-credit-pool →](https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token) | BSC | 663.41% | $107.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ef2d1094-1362-5e69-9e22-087f4ca0717c&src=seo_token) | BSC | 25.34% | $343.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 23.87% | $282.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 38.88% | $130.8K |
+| [native-credit-pool →](https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token) | BSC | 663.41% | $108.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPCXB's lower-variability candidates are uniswap-v3 (BSC), 64.86% APY, $129.4K TVL, https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token; uniswap-v3 (BSC), 34.09% APY, $279.9K TVL, https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token; native-credit-pool (BSC), 663.41% APY, $107.9K TVL, https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXB's lower-variability candidates are uniswap-v3 (BSC), 38.88% APY, $130.8K TVL, https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token; uniswap-v3 (BSC), 23.87% APY, $282.9K TVL, https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token; native-credit-pool (BSC), 663.41% APY, $108.8K TVL, https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 64.86% | $129.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 34.09% | $279.9K |
-| 3 | [native-credit-pool →](https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token) | BSC | 663.41% | $107.9K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 38.88% | $130.8K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 23.87% | $282.9K |
+| 3 | [native-credit-pool →](https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token) | BSC | 663.41% | $108.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPCXB shows up in 4 pools here, with rates from 34.09% to 663.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPCXB shows up in 4 pools here, with rates from 23.87% to 663.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 66.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 62.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,10 +36,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 65.45% | 47.04% | Base rate |
-| uniswap-v3 | 34.09% | 86.63% | Base rate |
-| uniswap-v3 | 64.86% | 41.82% | Base rate |
-| native-credit-pool | 663.41% | 658.68% | Base rate |
+| uniswap-v4 | 25.34% | 46.70% | Base rate |
+| uniswap-v3 | 23.87% | 79.26% | Base rate |
+| uniswap-v3 | 38.88% | 39.56% | Base rate |
+| native-credit-pool | 663.41% | 663.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPCXB pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $1.39M in total.
+6 live pools clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPCXB pools have the most stable APY history?
 
-Based on APY history only, SPCXB's lower-variability candidates are uniswap-v3 (BSC), 64.86% APY, $129.4K TVL, https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token; uniswap-v3 (BSC), 34.09% APY, $279.9K TVL, https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token; native-credit-pool (BSC), 663.41% APY, $107.9K TVL, https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXB's lower-variability candidates are uniswap-v3 (BSC), 38.88% APY, $130.8K TVL, https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token; uniswap-v3 (BSC), 23.87% APY, $282.9K TVL, https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token; native-credit-pool (BSC), 663.41% APY, $108.8K TVL, https://www.defi.garden/?pool=1a09e9ec-809a-4cb0-8071-b9e5f42ca906&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, SPCXB's lower-variability candidates are uniswap-v3 (
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

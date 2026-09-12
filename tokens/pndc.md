@@ -1,12 +1,12 @@
 # PNDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest PNDC yield right now is 58.13% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNDC yield right now is 10.87% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 58.13% | $120.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 10.87% | $124.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNDC yield today?
 
-58.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.87% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PNDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.1K in total.
+1 live pool clear this page's $100K TVL floor, $124.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PNDC pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

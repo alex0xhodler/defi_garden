@@ -1,12 +1,12 @@
 # ATUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest ATUSD yield right now is 0.31% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATUSD yield right now is 0.32% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_token) | Gravity | 0.31% | $1.39M |
+| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_token) | Gravity | 0.32% | $1.39M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATUSD yield today?
 
-0.31% APY on latch (Gravity), based on live DefiLlama data.
+0.32% APY on latch (Gravity), based on live DefiLlama data.
 
 ### How many ATUSD pools clear the TVL floor?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank ATUSD pools. This view covers
 
 ## Related tokens
 
-- [ATETH](https://www.defi.garden/tokens/ateth)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Gravity](https://www.defi.garden/chains/gravity)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

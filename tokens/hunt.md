@@ -1,33 +1,33 @@
 # HUNT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
 
-The highest honest HUNT yield right now is 0.06% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUNT yield right now is 0.62% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 4.25% | $1.18M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 2.61% | $506.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 0.06% | $415.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 2.98% | $1.22M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 1.73% | $524.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 0.62% | $426.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Base), 0.06% APY, $415.1K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 4.25% APY, $1.18M TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 2.61% APY, $506.5K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Base), 0.62% APY, $426.5K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 2.98% APY, $1.22M TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 1.73% APY, $524.2K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 0.06% | $415.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 4.25% | $1.18M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 2.61% | $506.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 0.62% | $426.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 2.98% | $1.22M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 1.73% | $524.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HUNT shows up in 3 pools here, with rates from 0.06% to 4.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HUNT shows up in 3 pools here, with rates from 0.62% to 2.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 4.25% | 1.17% | Base rate |
-| uniswap-v3 | 2.61% | 0.80% | Base rate |
-| uniswap-v4 | 0.06% | 0.25% | Base rate |
+| uniswap-v3 | 2.98% | 1.30% | Base rate |
+| uniswap-v3 | 1.73% | 0.88% | Base rate |
+| uniswap-v4 | 0.62% | 0.30% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HUNT yield today?
 
-0.06% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.62% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many HUNT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.38M in total.
+5 live pools clear this page's $100K TVL floor, $2.46M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HUNT pools have the most stable APY history?
 
-Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Base), 0.06% APY, $415.1K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 4.25% APY, $1.18M TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 2.61% APY, $506.5K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Base), 0.62% APY, $426.5K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 2.98% APY, $1.22M TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 1.73% APY, $524.2K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (B
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 11, 2026
+## Last updated September 12, 2026

@@ -1,12 +1,12 @@
 # WBERA-BUSD — bex on Berachain
 
-**Total APY:** 3.57% (3.57% Base · + 0.00% Rewards)
+**Total APY:** 7.21% (7.21% Base · + 0.00% Rewards)
 
-**TVL:** $137.5K
+**TVL:** $144.2K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 5.53%
+**30d Mean APY:** 5.61%
 
 **Exposure:** multi
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,192 in 5y at current rates.
+$1,000 in this pool grows to ~$1,416 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.57% right now vs a 5.53% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,192 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,416 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on bex](https://hub.berachain.com/swap/?ref=defi.garden)
 
-Last updated September 11, 2026
+Last updated September 12, 2026

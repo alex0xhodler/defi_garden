@@ -1,41 +1,41 @@
 # AUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 AUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 9.41%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AUSD의 가장 높은 정직한 수익률은 Monad의 accountable에서 8.00%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.78% | $100.62M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.93% | $34.16M |
-| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.00% | $30.79M |
-| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.38% | $24.93M |
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 9.41% | $5.61M |
-| [pendle-v2 →](https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token) | Monad | 7.21% | $2.48M |
-| [pendle-v2 →](https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token) | Monad | 5.86% | $2.48M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 5.69% | $2.29M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.78% | $100.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.91% | $39.11M |
+| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.00% | $30.8M |
+| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.36% | $24.95M |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 7.78% | $4.4M |
+| [curvance →](https://www.defi.garden/?pool=49698509-c2ac-4901-a44a-0beccfc13880&src=seo_token) | Monad | 6.68% | $2.93M |
+| [pendle-v2 →](https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token) | Monad | 6.79% | $2.48M |
+| [pendle-v2 →](https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token) | Monad | 6.26% | $2.48M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AUSD의 변동성 낮은 후보는 Monad의 pendle-v2, APY 5.86%, TVL $2.48M, https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token; Ethereum의 uniswap-v3, APY 0.93%, TVL $34.16M, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; Monad의 accountable, APY 6.78%, TVL $100.62M, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; Monad의 pendle-v2, APY 7.21%, TVL $2.48M, https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token; Monad의 balancer-v3, APY 9.41%, TVL $5.61M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Monad의 accountable, APY 8.00%, TVL $30.79M, https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token; Monad의 euler-v2, APY 6.38%, TVL $24.93M, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token; Monad의 curve-dex, APY 5.69%, TVL $2.29M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUSD의 변동성 낮은 후보는 Monad의 pendle-v2, APY 6.26%, TVL $2.48M, https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token; Ethereum의 uniswap-v3, APY 0.91%, TVL $39.11M, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; Monad의 accountable, APY 6.78%, TVL $100.66M, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; Monad의 pendle-v2, APY 6.79%, TVL $2.48M, https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token; Monad의 curvance, APY 6.68%, TVL $2.93M, https://www.defi.garden/?pool=49698509-c2ac-4901-a44a-0beccfc13880&src=seo_token; Monad의 balancer-v3, APY 7.78%, TVL $4.4M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Monad의 accountable, APY 8.00%, TVL $30.8M, https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token; Monad의 euler-v2, APY 6.36%, TVL $24.95M, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token) | Monad | 5.86% | $2.48M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.93% | $34.16M |
-| 3 | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.78% | $100.62M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token) | Monad | 7.21% | $2.48M |
-| 5 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 9.41% | $5.61M |
-| 6 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.00% | $30.79M |
-| 7 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.38% | $24.93M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 5.69% | $2.29M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token) | Monad | 6.26% | $2.48M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.91% | $39.11M |
+| 3 | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.78% | $100.66M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token) | Monad | 6.79% | $2.48M |
+| 5 | [curvance →](https://www.defi.garden/?pool=49698509-c2ac-4901-a44a-0beccfc13880&src=seo_token) | Monad | 6.68% | $2.93M |
+| 6 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 7.78% | $4.4M |
+| 7 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.00% | $30.8M |
+| 8 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.36% | $24.95M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.93%부터 9.41%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.91%부터 8.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.00%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.93%부터 9.41%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| accountable | 6.78% | 6.83% | 인센티브 3.47% |
-| uniswap-v3 | 0.93% | 0.82% | 기본 금리 |
+| accountable | 6.78% | 6.83% | 인센티브 3.49% |
+| uniswap-v3 | 0.91% | 0.84% | 기본 금리 |
 | accountable | 8.00% | 8.10% | 인센티브 15.74% |
-| euler-v2 | 6.38% | 6.12% | 인센티브 19.61% |
-| balancer-v3 | 9.41% | 10.70% | 인센티브 85.80% |
-| pendle-v2 | 7.21% | 7.16% | 인센티브 30.91% |
-| pendle-v2 | 5.86% | 6.35% | 기본 금리 |
-| curve-dex | 5.69% | 11.43% | 인센티브 100.00% |
+| euler-v2 | 6.36% | 6.11% | 인센티브 19.65% |
+| balancer-v3 | 7.78% | 10.59% | 인센티브 13.51% |
+| curvance | 6.68% | 9.47% | 인센티브 29.95% |
+| pendle-v2 | 6.79% | 7.17% | 인센티브 20.00% |
+| pendle-v2 | 6.26% | 6.33% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.93%부터 9.41%까
 
 ### 오늘 AUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 9.41%예요.
+DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 8.00%예요.
 
 ### AUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $310M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $315.59M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 9.41%예요
 
 ### AUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AUSD의 변동성 낮은 후보는 Monad의 pendle-v2, APY 5.86%, TVL $2.48M, https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token; Ethereum의 uniswap-v3, APY 0.93%, TVL $34.16M, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; Monad의 accountable, APY 6.78%, TVL $100.62M, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; Monad의 pendle-v2, APY 7.21%, TVL $2.48M, https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token; Monad의 balancer-v3, APY 9.41%, TVL $5.61M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Monad의 accountable, APY 8.00%, TVL $30.79M, https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token; Monad의 euler-v2, APY 6.38%, TVL $24.93M, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token; Monad의 curve-dex, APY 5.69%, TVL $2.29M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUSD의 변동성 낮은 후보는 Monad의 pendle-v2, APY 6.26%, TVL $2.48M, https://www.defi.garden/?pool=52c80597-62bd-4f2e-84eb-8260ed652f7e&src=seo_token; Ethereum의 uniswap-v3, APY 0.91%, TVL $39.11M, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; Monad의 accountable, APY 6.78%, TVL $100.66M, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; Monad의 pendle-v2, APY 6.79%, TVL $2.48M, https://www.defi.garden/?pool=bf02afaf-072f-4c29-840e-caeea6248235&src=seo_token; Monad의 curvance, APY 6.68%, TVL $2.93M, https://www.defi.garden/?pool=49698509-c2ac-4901-a44a-0beccfc13880&src=seo_token; Monad의 balancer-v3, APY 7.78%, TVL $4.4M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Monad의 accountable, APY 8.00%, TVL $30.8M, https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token; Monad의 euler-v2, APY 6.36%, TVL $24.95M, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -86,4 +86,4 @@ APY 이력만 기준으로 비교한 AUSD의 변동성 낮은 후보는 Monad의
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 11, 2026
+## 마지막 업데이트: September 12, 2026
