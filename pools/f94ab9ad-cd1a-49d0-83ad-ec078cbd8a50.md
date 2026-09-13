@@ -1,37 +1,34 @@
 # SLERF-COINOMI — orca-dex on Solana
 
-**Total APY:** 15.57% (15.57% Base · + 0.00% Rewards)
+**Total APY:** 2.25% (2.25% Base · + 0.00% Rewards)
 
-**TVL:** $136.9K
+**TVL:** $138.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.55%
+**30d Mean APY:** 3.73%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: High
+## Risk Assessment: Medium
 
-Advanced DeFi strategy
+Moderate risk profile
 
 - Low liquidity
-- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,288 in 5y at current rates.
+$1,000 in this pool grows to ~$1,118 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (15.57% headline) — farm rates decay. Active management required.
+This pool's rate moves a lot: 2.25% right now vs a 3.73% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-This pool's rate moves a lot: 15.57% right now vs a 3.55% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
-
-[Garden this pool → ~$1,288 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,118 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on orca-dex](https://www.orca.so/?ref=defi.garden)
 
-Last updated September 12, 2026
+Last updated September 13, 2026

@@ -1,12 +1,12 @@
 # DOVU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest DOVU yield right now is 9.90% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOVU yield right now is 10.51% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 9.90% | $123.3K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 10.51% | $126.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOVU yield today?
 
-9.90% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+10.51% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many DOVU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.3K in total.
+1 live pool clear this page's $100K TVL floor, $126.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DOVU pools. This view covers 
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

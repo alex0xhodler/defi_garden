@@ -1,12 +1,12 @@
 # AVNT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest AVNT yield right now is 746.87% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVNT yield right now is 657.63% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token) | Base | 746.87% | $635.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=eb27d0be-9de4-4ed9-8d36-a754e18d3358&src=seo_token) | Base | 657.63% | $640.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVNT yield today?
 
-746.87% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+657.63% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AVNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $635.1K in total.
+1 live pool clear this page's $100K TVL floor, $640.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AVNT pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

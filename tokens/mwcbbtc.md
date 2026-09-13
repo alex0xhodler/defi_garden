@@ -1,38 +1,38 @@
 # MWCBBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest MWCBBTC yield right now is 0.64% on morpho-blue (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MWCBBTC yield right now is 0.63% on morpho-blue (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.64% | $638.9K |
-| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.34% | $344K |
+| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.63% | $638.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.33% | $343.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.34% APY, $344K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.64% APY, $638.9K TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.33% APY, $343.9K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.63% APY, $638.8K TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.34% | $344K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.64% | $638.9K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.33% | $343.9K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.63% | $638.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MWCBBTC shows up in 2 pools here, with rates from 0.34% to 0.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MWCBBTC shows up in 2 pools here, with rates from 0.33% to 0.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.39% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 0.64% | 0.52% | 47.76% incentives |
-| morpho-blue | 0.34% | 0.27% | 90.48% incentives |
+| morpho-blue | 0.63% | 0.53% | 47.50% incentives |
+| morpho-blue | 0.33% | 0.27% | 90.52% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MWCBBTC yield today?
 
-0.64% APY on morpho-blue (Base), based on live DefiLlama data.
+0.63% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many MWCBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $982.9K in total.
+2 live pools clear this page's $100K TVL floor, $982.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MWCBBTC pools have the most stable APY history?
 
-Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.34% APY, $344K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.64% APY, $638.9K TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.33% APY, $343.9K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.63% APY, $638.8K TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blu
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

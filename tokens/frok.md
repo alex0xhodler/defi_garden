@@ -1,12 +1,12 @@
 # FROK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest FROK yield right now is 1.87% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FROK yield right now is 4.48% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5f5b8a4f-723e-4952-ae1b-ed0c96f6b01d&src=seo_token) | Base | 1.87% | $343.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5f5b8a4f-723e-4952-ae1b-ed0c96f6b01d&src=seo_token) | Base | 4.48% | $368.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FROK yield today?
 
-1.87% APY on uniswap-v2 (Base), based on live DefiLlama data.
+4.48% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many FROK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $343.3K in total.
+1 live pool clear this page's $100K TVL floor, $368.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FROK pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

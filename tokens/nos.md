@@ -1,31 +1,31 @@
 # NOS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest NOS yield right now is 29.06% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOS yield right now is 11.17% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 22.89% | $471.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 29.06% | $181.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 10.53% | $473.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 11.17% | $182.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 22.89% APY, $471.2K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 29.06% APY, $181.3K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 10.53% APY, $473.5K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 11.17% APY, $182.4K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 22.89% | $471.2K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 29.06% | $181.3K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 10.53% | $473.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 11.17% | $182.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOS shows up in 2 pools here, with rates from 22.89% to 29.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOS shows up in 2 pools here, with rates from 10.53% to 11.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 22.89% | 22.51% | Base rate |
-| raydium-amm | 29.06% | 28.84% | Base rate |
+| raydium-amm | 10.53% | 22.73% | Base rate |
+| raydium-amm | 11.17% | 29.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOS yield today?
 
-29.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.17% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NOS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $652.6K in total.
+2 live pools clear this page's $100K TVL floor, $655.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOS pools have the most stable APY history?
 
-Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 22.89% APY, $471.2K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 29.06% APY, $181.3K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 10.53% APY, $473.5K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 11.17% APY, $182.4K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, NOS's lower-variability candidates are raydium-amm (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

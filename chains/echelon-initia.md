@@ -4,9 +4,9 @@ The highest honest Echelon Initia yield right now is 12.68% on echelon-market (E
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 1.90% | $1.06M |
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.90% | $276.4K |
-| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 12.68% | $186.1K |
+| IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 1.91% | $1.06M |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.90% | $277.9K |
+| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 12.68% | $187.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Echelon Initia pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.02M in total.
+4 live pools clear this page's $100K TVL floor, $2.03M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SXINIT](https://www.defi.garden/tokens/sxinit)
 - [INIT](https://www.defi.garden/tokens/init)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

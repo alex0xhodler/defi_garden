@@ -1,12 +1,12 @@
 # HIMSB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest HIMSB yield right now is 568.46% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIMSB yield right now is 75.16% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f04169bb-7274-5ffb-a997-376b0abb14d3&src=seo_token) | BSC | 568.46% | $124.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f04169bb-7274-5ffb-a997-376b0abb14d3&src=seo_token) | BSC | 75.16% | $110.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIMSB yield today?
 
-568.46% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+75.16% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many HIMSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.3K in total.
+1 live pool clear this page's $100K TVL floor, $110.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HIMSB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

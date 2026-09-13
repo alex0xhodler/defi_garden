@@ -1,12 +1,12 @@
 # XAGM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest XAGM yield right now is 16.13% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAGM yield right now is 18.38% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 16.13% | $153.4K |
+| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 18.38% | $153.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAGM yield today?
 
-16.13% APY on bluefin-spot (Sui), based on live DefiLlama data.
+18.38% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many XAGM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.4K in total.
+1 live pool clear this page's $100K TVL floor, $153.7K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank XAGM pools. This view covers 
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

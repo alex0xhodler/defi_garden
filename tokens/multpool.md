@@ -1,12 +1,12 @@
 # MULTPOOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest MULTPOOL yield right now is 0.06% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MULTPOOL yield right now is 0.03% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.06% | $273.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.03% | $280.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MULTPOOL yield today?
 
-0.06% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.03% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many MULTPOOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $273.6K in total.
+1 live pool clear this page's $100K TVL floor, $280.8K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank MULTPOOL pools. This view cov
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

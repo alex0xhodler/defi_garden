@@ -1,12 +1,12 @@
 # AAPLB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest AAPLB yield right now is 234.87% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPLB yield right now is 125.65% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 234.87% | $109.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 125.65% | $119.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAPLB yield today?
 
-234.87% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+125.65% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many AAPLB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.4K in total.
+1 live pool clear this page's $100K TVL floor, $119.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AAPLB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026

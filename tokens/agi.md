@@ -1,12 +1,13 @@
 # AGI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
 
-The highest honest AGI yield right now is 42.84% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGI yield right now is 42.84% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=d4396e2d-4702-5e98-90b4-18dd14724fc3&src=seo_token) | Base | 42.84% | $194.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=93c1f0bc-7b2d-521d-b58c-333850173825&src=seo_token) | Solana | 763.06% | $186.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -14,6 +15,23 @@ The highest honest AGI yield right now is 42.84% on uniswap-v4 (Base), among 1 p
 There is not enough qualifying APY history to rank AGI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+AGI shows up in 2 pools here, with rates from 42.84% to 763.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 37.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| uniswap-v4 | 42.84% | 37.81% | Base rate |
+| raydium-amm | 763.06% | — | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
@@ -23,7 +41,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AGI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $194.4K in total.
+2 live pools clear this page's $100K TVL floor, $380.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +57,12 @@ There is not enough qualifying APY history to rank AGI pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 13, 2026
