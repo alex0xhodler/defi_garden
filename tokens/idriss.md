@@ -1,12 +1,12 @@
 # IDRISS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest IDRISS yield right now is 0.01% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b9713f11-4065-4110-8bd5-13ca2ad4be45&src=seo_token) | Base | 0.01% | $303.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b9713f11-4065-4110-8bd5-13ca2ad4be45&src=seo_token) | Base | 0.01% | $302.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IDRISS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $303.6K in total.
+1 live pool clear this page's $100K TVL floor, $302.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IDRISS pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

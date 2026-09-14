@@ -1,6 +1,6 @@
 # LISUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest LISUSD yield right now is 2.53% on venus-core-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -25,14 +25,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 LISUSD shows up in 2 pools here, with rates from 1.29% to 2.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-lending | 1.29% | 1.21% | Base rate |
-| venus-core-pool | 2.53% | 3.97% | Base rate |
+| lista-lending | 1.29% | 1.23% | Base rate |
+| venus-core-pool | 2.53% | 4.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -67,4 +67,4 @@ Based on APY history only, LISUSD's lower-variability candidates are lista-lendi
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

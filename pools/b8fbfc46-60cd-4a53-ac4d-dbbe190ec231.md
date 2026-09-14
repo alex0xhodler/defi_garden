@@ -1,12 +1,12 @@
 # HYPERUSDTC — morpho-blue on Ethereum
 
-**Total APY:** 2.25% (2.25% Base · + 0.00% Rewards)
+**Total APY:** 2.26% (2.26% Base · + 0.00% Rewards)
 
 **TVL:** $112.9K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 2.80%
+**30d Mean APY:** 2.78%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 13, 2026
+Last updated September 14, 2026

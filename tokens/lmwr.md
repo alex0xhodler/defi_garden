@@ -1,12 +1,12 @@
 # LMWR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest LMWR yield right now is 7.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMWR yield right now is 7.80% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72da4636-aa83-4a4e-a1ae-59594eb1e274&src=seo_token) | Ethereum | 7.08% | $117.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72da4636-aa83-4a4e-a1ae-59594eb1e274&src=seo_token) | Ethereum | 7.80% | $109.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMWR yield today?
 
-7.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.80% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LMWR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.2K in total.
+1 live pool clear this page's $100K TVL floor, $109.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LMWR pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

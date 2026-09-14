@@ -1,12 +1,12 @@
 # EULERPYUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest EULERPYUSD yield right now is 4.84% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EULERPYUSD yield right now is 4.96% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 4.84% | $531.4K |
+| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 4.96% | $531.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EULERPYUSD yield today?
 
-4.84% APY on affluent (TON), based on live DefiLlama data.
+4.96% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many EULERPYUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $531.4K in total.
+1 live pool clear this page's $100K TVL floor, $531.3K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank EULERPYUSD pools. This view c
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [BABYDOGE](https://www.defi.garden/tokens/babydoge)
-- [STON](https://www.defi.garden/tokens/ston)
+- [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

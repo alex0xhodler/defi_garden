@@ -1,6 +1,6 @@
 # WIN 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WIN의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.01%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
-- [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [JST](https://www.defi.garden/ko/tokens/jst)
 - [SUN](https://www.defi.garden/ko/tokens/sun)
+- [TUSD](https://www.defi.garden/ko/tokens/tusd)
 
 ## 이용 가능한 체인
 
 - [Tron](https://www.defi.garden/ko/chains/tron)
 
-## 마지막 업데이트: September 13, 2026
+## 마지막 업데이트: September 14, 2026

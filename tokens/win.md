@@ -1,6 +1,6 @@
 # WIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest WIN yield right now is 0.01% on justlend-v1 (Tron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank WIN pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [USDD](https://www.defi.garden/tokens/usdd)
-- [USD1](https://www.defi.garden/tokens/usd1)
 - [JST](https://www.defi.garden/tokens/jst)
 - [SUN](https://www.defi.garden/tokens/sun)
+- [TUSD](https://www.defi.garden/tokens/tusd)
 
 ## Available on
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

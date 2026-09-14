@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 3.09%
+**30d Mean APY:** 3.10%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on tydro](https://tydro.com/?ref=defi.garden)
 
-Last updated September 13, 2026
+Last updated September 14, 2026

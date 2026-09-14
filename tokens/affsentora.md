@@ -1,12 +1,12 @@
 # AFFSENTORA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest AFFSENTORA yield right now is 2.32% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AFFSENTORA yield right now is 2.20% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_token) | TON | 2.32% | $994.3K |
+| [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_token) | TON | 2.20% | $1.07M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AFFSENTORA yield today?
 
-2.32% APY on affluent (TON), based on live DefiLlama data.
+2.20% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many AFFSENTORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $994.3K in total.
+1 live pool clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AFFSENTORA pools. This view c
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

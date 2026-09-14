@@ -1,12 +1,12 @@
 # SILVER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SILVER yield right now is 0.03% on folks-finance-lending (Algorand), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_token) | Algorand | 0.03% | $731.6K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_token) | Algorand | 0.03% | $720.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SILVER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $731.6K in total.
+1 live pool clear this page's $100K TVL floor, $720.2K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank SILVER pools. This view cover
 ## Related tokens
 
 - [ALGO](https://www.defi.garden/tokens/algo)
-- [GOLD](https://www.defi.garden/tokens/gold)
 - [GOBTC](https://www.defi.garden/tokens/gobtc)
+- [GOLD](https://www.defi.garden/tokens/gold)
 - [GOETH](https://www.defi.garden/tokens/goeth)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SILVER pools. This view cover
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

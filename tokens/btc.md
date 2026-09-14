@@ -1,19 +1,19 @@
 # BTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest BTC yield right now is 3.09% on mezo-earn (Mezo), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC yield right now is 3.09% on mezo-earn (Mezo), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $181.97M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 3.09% | $62.95M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.28% | $22.65M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 2.60% | $5.42M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.28% | $4.52M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.40% | $1.94M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $182.94M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 3.09% | $63.27M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.28% | $22.69M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 1.72% | $5.44M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.28% | $4.53M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.40% | $1.95M |
 | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token) | ICP | 0.01% | $1.17M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token) | Avalanche | 2.72% | $1.12M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token) | Avalanche | 2.24% | $1.14M |
 
 ## How BTC Yield is Generated
 
@@ -26,18 +26,18 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BTC's lower-variability candidates are liquidium (ICP), 0.01% APY, $1.17M TVL, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token; b14g (Bitcoin), 0.12% APY, $181.97M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 1.28% APY, $22.65M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 1.28% APY, $4.52M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 3.09% APY, $62.95M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.40% APY, $1.94M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 2.60% APY, $5.42M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmx-v2-perps (Avalanche), 2.72% APY, $1.12M TVL, https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC's lower-variability candidates are liquidium (ICP), 0.01% APY, $1.17M TVL, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token; b14g (Bitcoin), 0.12% APY, $182.94M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 1.28% APY, $22.69M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 1.28% APY, $4.53M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 3.09% APY, $63.27M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.40% APY, $1.95M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 1.72% APY, $5.44M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmx-v2-perps (Avalanche), 2.24% APY, $1.14M TVL, https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token) | ICP | 0.01% | $1.17M |
-| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $181.97M |
-| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.28% | $22.65M |
-| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.28% | $4.52M |
-| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 3.09% | $62.95M |
-| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.40% | $1.94M |
-| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 2.60% | $5.42M |
-| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token) | Avalanche | 2.72% | $1.12M |
+| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $182.94M |
+| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.28% | $22.69M |
+| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.28% | $4.53M |
+| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 3.09% | $63.27M |
+| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.40% | $1.95M |
+| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 1.72% | $5.44M |
+| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token) | Avalanche | 2.24% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -45,7 +45,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 BTC shows up in 8 pools here, with rates from 0.01% to 3.09% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -54,13 +54,13 @@ BTC shows up in 8 pools here, with rates from 0.01% to 3.09% APY across 6 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | b14g | 0.12% | 0.12% | Base rate |
-| mezo-earn | 3.09% | 3.15% | 99.30% incentives |
-| midas-rwa | 1.28% | 1.75% | Base rate |
-| chainflip-amm | 2.60% | 5.14% | Base rate |
-| midas-rwa | 1.28% | 1.75% | Base rate |
+| mezo-earn | 3.09% | 3.11% | 99.30% incentives |
+| midas-rwa | 1.28% | 1.71% | Base rate |
+| chainflip-amm | 1.72% | 5.05% | Base rate |
+| midas-rwa | 1.28% | 1.71% | Base rate |
 | chainflip-lending | 0.40% | 0.34% | Base rate |
 | liquidium | 0.01% | 0.01% | Base rate |
-| gmx-v2-perps | 2.72% | 8.89% | Base rate |
+| gmx-v2-perps | 2.24% | 8.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -72,7 +72,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BTC pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $802M in total.
+25 live pools clear this page's $100K TVL floor, $802.89M in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BTC pools have the most stable APY history?
 
-Based on APY history only, BTC's lower-variability candidates are liquidium (ICP), 0.01% APY, $1.17M TVL, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token; b14g (Bitcoin), 0.12% APY, $181.97M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 1.28% APY, $22.65M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 1.28% APY, $4.52M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 3.09% APY, $62.95M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.40% APY, $1.94M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 2.60% APY, $5.42M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmx-v2-perps (Avalanche), 2.72% APY, $1.12M TVL, https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC's lower-variability candidates are liquidium (ICP), 0.01% APY, $1.17M TVL, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f&src=seo_token; b14g (Bitcoin), 0.12% APY, $182.94M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 1.28% APY, $22.69M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 1.28% APY, $4.53M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 3.09% APY, $63.27M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.40% APY, $1.95M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 1.72% APY, $5.44M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmx-v2-perps (Avalanche), 2.24% APY, $1.14M TVL, https://www.defi.garden/?pool=3efafc73-6278-4d79-a4c9-7e7d3a163444&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -100,4 +100,4 @@ Based on APY history only, BTC's lower-variability candidates are liquidium (ICP
 - [ICP](https://www.defi.garden/chains/icp)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

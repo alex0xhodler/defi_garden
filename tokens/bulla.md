@@ -1,13 +1,13 @@
 # BULLA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest BULLA yield right now is 1.30% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BULLA yield right now is 0.90% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=793225e5-e474-5576-8573-09dcc805047b&src=seo_token) | Solana | 0.02% | $71.15M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 1.30% | $288K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 0.90% | $298.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BULLA shows up in 2 pools here, with rates from 0.02% to 1.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BULLA shows up in 2 pools here, with rates from 0.02% to 0.90% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 107.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 106.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.02% | 198.67% | Base rate |
-| uniswap-v4 | 1.30% | 16.24% | Base rate |
+| uniswap-v4 | 0.90% | 15.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BULLA yield today?
 
-1.30% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.90% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BULLA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $71.44M in total.
+2 live pools clear this page's $100K TVL floor, $71.45M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank BULLA pools. This view covers
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026

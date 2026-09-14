@@ -1,12 +1,12 @@
 # EGLD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EGLD의 가장 높은 정직한 수익률은 MultiversX의 hatom-lending에서 1.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EGLD의 가장 높은 정직한 수익률은 MultiversX의 hatom-lending에서 18.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 1.25% | $415.5K |
+| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 18.96% | $120.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 EGLD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 1.25%예요.
+DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 18.96%예요.
 
 ### EGLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $415.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,13 +37,13 @@ DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 1.25
 
 - [SEGLD](https://www.defi.garden/ko/tokens/segld)
 - [WEGLD](https://www.defi.garden/ko/tokens/wegld)
+- [MEX](https://www.defi.garden/ko/tokens/mex)
 - [HTM](https://www.defi.garden/ko/tokens/htm)
 - [SWTAO](https://www.defi.garden/ko/tokens/swtao)
-- [MEX](https://www.defi.garden/ko/tokens/mex)
 - [USH](https://www.defi.garden/ko/tokens/ush)
 
 ## 이용 가능한 체인
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: September 13, 2026
+## 마지막 업데이트: September 14, 2026

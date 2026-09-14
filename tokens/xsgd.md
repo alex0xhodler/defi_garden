@@ -1,33 +1,33 @@
 # XSGD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
-The highest honest XSGD yield right now is 9.98% on uniswap-v3 (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSGD yield right now is 27.07% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 27.99% | $490K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 7.83% | $212.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 9.98% | $170.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 27.07% | $493K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 12.59% | $212.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 4.12% | $170.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 9.98% APY, $170.9K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 7.83% APY, $212.5K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 27.99% APY, $490K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 4.12% APY, $170.9K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 12.59% APY, $212.2K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 27.07% APY, $493K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 9.98% | $170.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 7.83% | $212.5K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 27.99% | $490K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 4.12% | $170.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 12.59% | $212.2K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 27.07% | $493K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSGD shows up in 3 pools here, with rates from 7.83% to 27.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSGD shows up in 3 pools here, with rates from 4.12% to 27.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 27.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ XSGD shows up in 3 pools here, with rates from 7.83% to 27.99% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 27.99% | 143.02% | 99.20% incentives |
-| aerodrome-slipstream | 7.83% | 28.35% | 86.66% incentives |
-| uniswap-v3 | 9.98% | 11.35% | Base rate |
+| aerodrome-slipstream | 27.07% | 141.15% | 95.32% incentives |
+| aerodrome-slipstream | 12.59% | 27.95% | 54.45% incentives |
+| uniswap-v3 | 4.12% | 11.30% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSGD yield today?
 
-9.98% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+27.07% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many XSGD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $873.5K in total.
+3 live pools clear this page's $100K TVL floor, $876K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSGD pools have the most stable APY history?
 
-Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 9.98% APY, $170.9K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 7.83% APY, $212.5K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 27.99% APY, $490K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 4.12% APY, $170.9K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 12.59% APY, $212.2K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 27.07% APY, $493K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (P
 - [Base](https://www.defi.garden/chains/base)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 13, 2026
+## Last updated September 14, 2026
