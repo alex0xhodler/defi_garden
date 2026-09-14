@@ -1,6 +1,6 @@
 # WBTC.B 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WBTC.B의 가장 높은 정직한 수익률은 Arbitrum의 gmx-v2-perps에서 17.81%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 22.05% | $354.4K |
 | [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 21.82% | $327.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WBTC.B의 변동성 낮은 후보는 Arbitrum의 gmx-v2-perps, APY 2.01%, TVL $10.07M, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; Arbitrum의 gmx-v2-perps, APY 2.01%, TVL $10.07M, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; Arbitrum의 gmx-v2-perps, APY 2.86%, TVL $59.99M, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; Arbitrum의 gmx-v2-perps, APY 17.81%, TVL $356.6K, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; Arbitrum의 gmx-v2-perps, APY 13.06%, TVL $1.95M, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; Arbitrum의 gmx-v2-perps, APY 22.05%, TVL $354.4K, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; Arbitrum의 gmx-v2-perps, APY 21.82%, TVL $327.1K, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; Arbitrum의 gmx-v2-perps, APY 11.95%, TVL $2.18M, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.01% | $10.07M |
-| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 2.01% | $10.07M |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.86% | $59.99M |
-| 4 | [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 17.81% | $356.6K |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 13.06% | $1.95M |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token) | Arbitrum | 22.05% | $354.4K |
-| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 21.82% | $327.1K |
-| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 11.95% | $2.18M |
+비교할 수 있는 WBTC.B 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 17.81%�
 
 ### WBTC.B 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WBTC.B의 변동성 낮은 후보는 Arbitrum의 gmx-v2-perps, APY 2.01%, TVL $10.07M, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; Arbitrum의 gmx-v2-perps, APY 2.01%, TVL $10.07M, https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token; Arbitrum의 gmx-v2-perps, APY 2.86%, TVL $59.99M, https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token; Arbitrum의 gmx-v2-perps, APY 17.81%, TVL $356.6K, https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token; Arbitrum의 gmx-v2-perps, APY 13.06%, TVL $1.95M, https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token; Arbitrum의 gmx-v2-perps, APY 22.05%, TVL $354.4K, https://www.defi.garden/?pool=f26c1104-f827-424e-98c7-a977fa0f7a9a&src=seo_token; Arbitrum의 gmx-v2-perps, APY 21.82%, TVL $327.1K, https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token; Arbitrum의 gmx-v2-perps, APY 11.95%, TVL $2.18M, https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 WBTC.B 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +76,4 @@ APY 이력만 기준으로 비교한 WBTC.B의 변동성 낮은 후보는 Arbitr
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

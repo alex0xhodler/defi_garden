@@ -1,6 +1,6 @@
 # STRCX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest STRCX yield right now is 562.80% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -12,15 +12,10 @@ The highest honest STRCX yield right now is 562.80% on raydium-amm (Solana), amo
 | [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde&src=seo_token) | Solana | 562.80% | $180.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 46.82% | $133.5K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, STRCX's lower-variability candidates are raydium-amm (Solana), 165.90% APY, $383.9K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token; raydium-amm (Solana), 46.82% APY, $133.5K TVL, https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 165.90% | $383.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 46.82% | $133.5K |
+There is not enough qualifying APY history to rank STRCX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -60,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STRCX pools have the most stable APY history?
 
-Based on APY history only, STRCX's lower-variability candidates are raydium-amm (Solana), 165.90% APY, $383.9K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token; raydium-amm (Solana), 46.82% APY, $133.5K TVL, https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank STRCX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +71,4 @@ Based on APY history only, STRCX's lower-variability candidates are raydium-amm 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

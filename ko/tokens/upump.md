@@ -1,6 +1,6 @@
 # UPUMP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 UPUMP의 가장 높은 정직한 수익률은 Hyperliquid L1의 ramses-cl-v2에서 912.21%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -11,16 +11,10 @@
 | [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0&src=seo_token) | Hyperliquid L1 | 108.69% | $113.1K |
 | [ramses-cl-v2 →](https://www.defi.garden/?pool=a97ea3b4-4399-44c1-b8df-81ea7bca01b6&src=seo_token) | Hyperliquid L1 | 912.21% | $107.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 UPUMP의 변동성 낮은 후보는 Hyperliquid L1의 nest-cl, APY 108.69%, TVL $113.1K, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0&src=seo_token; Hyperliquid L1의 project-x, APY 103.43%, TVL $734.6K, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d&src=seo_token; Hyperliquid L1의 project-x, APY 129.26%, TVL $145K, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0&src=seo_token) | Hyperliquid L1 | 108.69% | $113.1K |
-| 2 | [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d&src=seo_token) | Hyperliquid L1 | 103.43% | $734.6K |
-| 3 | [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b&src=seo_token) | Hyperliquid L1 | 129.26% | $145K |
+비교할 수 있는 UPUMP 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -59,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 ramses-cl-v2에서 APY 9
 
 ### UPUMP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 UPUMP의 변동성 낮은 후보는 Hyperliquid L1의 nest-cl, APY 108.69%, TVL $113.1K, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0&src=seo_token; Hyperliquid L1의 project-x, APY 103.43%, TVL $734.6K, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d&src=seo_token; Hyperliquid L1의 project-x, APY 129.26%, TVL $145K, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 UPUMP 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -74,4 +68,4 @@ APY 이력만 기준으로 비교한 UPUMP의 변동성 낮은 후보는 Hyperli
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

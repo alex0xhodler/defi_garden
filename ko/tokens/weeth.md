@@ -1,6 +1,6 @@
 # WEETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WEETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 2.47%이며, $100K TVL 기준을 넘는 67개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.47% | $10.11M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.17% | $4.64M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Base의 ether.fi-stake, APY 2.39%, TVL $52.87M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; Linea의 ether.fi-stake, APY 2.39%, TVL $188.48M, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; Ethereum의 ether.fi-stake, APY 2.39%, TVL $5.39B, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; Ethereum의 fluid-dex, APY 0.36%, TVL $14.12M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token; Ethereum의 convex-finance, APY 2.47%, TVL $10.11M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; Ethereum의 uniswap-v3, APY 0.17%, TVL $4.64M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; Ethereum의 curve-dex, APY 2.11%, TVL $12.01M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; Ethereum의 uniswap-v3, APY 0.35%, TVL $12.65M, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.39% | $52.87M |
-| 2 | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.39% | $188.48M |
-| 3 | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.39% | $5.39B |
-| 4 | [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.36% | $14.12M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.47% | $10.11M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.17% | $4.64M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.11% | $12.01M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token) | Ethereum | 0.35% | $12.65M |
+비교할 수 있는 WEETH 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -70,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 2.47%
 
 ### WEETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Base의 ether.fi-stake, APY 2.39%, TVL $52.87M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; Linea의 ether.fi-stake, APY 2.39%, TVL $188.48M, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; Ethereum의 ether.fi-stake, APY 2.39%, TVL $5.39B, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; Ethereum의 fluid-dex, APY 0.36%, TVL $14.12M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token; Ethereum의 convex-finance, APY 2.47%, TVL $10.11M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; Ethereum의 uniswap-v3, APY 0.17%, TVL $4.64M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token; Ethereum의 curve-dex, APY 2.11%, TVL $12.01M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; Ethereum의 uniswap-v3, APY 0.35%, TVL $12.65M, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 WEETH 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +76,4 @@ APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Base의
 - [Linea](https://www.defi.garden/ko/chains/linea)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

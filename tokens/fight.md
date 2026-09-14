@@ -1,6 +1,6 @@
 # FIGHT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FIGHT yield right now is 3.03% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest FIGHT yield right now is 3.03% on raydium-amm (Solana), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.46% | $194.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 3.03% | $183.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 3.03% APY, $183.1K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.46% APY, $194.8K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 3.03% | $183.1K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.46% | $194.8K |
+There is not enough qualifying APY history to rank FIGHT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIGHT pools have the most stable APY history?
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 3.03% APY, $183.1K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.46% APY, $194.8K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FIGHT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, FIGHT's lower-variability candidates are raydium-amm 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

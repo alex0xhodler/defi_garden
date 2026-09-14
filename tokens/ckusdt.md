@@ -1,6 +1,6 @@
 # CKUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest CKUSDT yield right now is 0.02% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CKUSDT pools. This view cover
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

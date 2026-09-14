@@ -1,6 +1,6 @@
 # MUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest MUSD yield right now is 6.04% on aave-v3 (Monad), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest MUSD yield right now is 6.04% on aave-v3 (Monad), among 8 poo
 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 3.22% | $117.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8b0dcb2f-9dda-4451-8f5d-1c3dfe1e2a4e&src=seo_token) | Ethereum | 0.08% | $100.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, MUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.06% APY, $2.49M TVL, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1&src=seo_token; uniswap-v4 (Ethereum), 0.08% APY, $100.1K TVL, https://www.defi.garden/?pool=8b0dcb2f-9dda-4451-8f5d-1c3dfe1e2a4e&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; aave-v3 (Monad), 6.04% APY, $3.27M TVL, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token; curve-dex (Ethereum), 2.00% APY, $648.8K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token; convex-finance (Ethereum), 3.22% APY, $117.5K TVL, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; aerodrome-slipstream (Base), 6.90% APY, $1.18M TVL, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1&src=seo_token) | Ethereum | 0.06% | $2.49M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8b0dcb2f-9dda-4451-8f5d-1c3dfe1e2a4e&src=seo_token) | Ethereum | 0.08% | $100.1K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token) | Ethereum | 0.02% | $659.4K |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 6.04% | $3.27M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token) | Ethereum | 0.02% | $573.1K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 2.00% | $648.8K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 3.22% | $117.5K |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 6.90% | $1.18M |
+There is not enough qualifying APY history to rank MUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -72,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MUSD pools have the most stable APY history?
 
-Based on APY history only, MUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.06% APY, $2.49M TVL, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1&src=seo_token; uniswap-v4 (Ethereum), 0.08% APY, $100.1K TVL, https://www.defi.garden/?pool=8b0dcb2f-9dda-4451-8f5d-1c3dfe1e2a4e&src=seo_token; curve-dex (Ethereum), 0.02% APY, $659.4K TVL, https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token; aave-v3 (Monad), 6.04% APY, $3.27M TVL, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token; convex-finance (Ethereum), 0.02% APY, $573.1K TVL, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token; curve-dex (Ethereum), 2.00% APY, $648.8K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token; convex-finance (Ethereum), 3.22% APY, $117.5K TVL, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; aerodrome-slipstream (Base), 6.90% APY, $1.18M TVL, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +78,4 @@ Based on APY history only, MUSD's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

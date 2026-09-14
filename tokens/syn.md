@@ -1,6 +1,6 @@
 # SYN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SYN yield right now is 0.01% on frax (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SYN yield right now is 0.01% on frax (Ethereum), among 2 pool
 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.01% | $230.6K |
 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 25.94% | $108.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.01% APY, $230.6K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 25.94% APY, $108.2K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.01% | $230.6K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 25.94% | $108.2K |
+There is not enough qualifying APY history to rank SYN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYN pools have the most stable APY history?
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.01% APY, $230.6K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 25.94% APY, $108.2K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SYN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, SYN's lower-variability candidates are frax (Ethereum
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

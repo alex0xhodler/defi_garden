@@ -1,6 +1,6 @@
 # BABYDOGE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BABYDOGE yield right now is 3.50% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest BABYDOGE yield right now is 3.50% on raydium-amm (Solana), am
 | [raydium-amm →](https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token) | Solana | 3.50% | $200.7K |
 | [ston.fi →](https://www.defi.garden/?pool=c0cfd0f6-1e86-4f9d-9600-5af45f1628a2&src=seo_token) | TON | 0.16% | $100K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BABYDOGE's lower-variability candidates are raydium-amm (Solana), 3.50% APY, $200.7K TVL, https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token; uniswap-v3 (Ethereum), 0.16% APY, $929.7K TVL, https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token; ston.fi (TON), 0.16% APY, $100K TVL, https://www.defi.garden/?pool=c0cfd0f6-1e86-4f9d-9600-5af45f1628a2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token) | Solana | 3.50% | $200.7K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token) | Ethereum | 0.16% | $929.7K |
-| 3 | [ston.fi →](https://www.defi.garden/?pool=c0cfd0f6-1e86-4f9d-9600-5af45f1628a2&src=seo_token) | TON | 0.16% | $100K |
+There is not enough qualifying APY history to rank BABYDOGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BABYDOGE pools have the most stable APY history?
 
-Based on APY history only, BABYDOGE's lower-variability candidates are raydium-amm (Solana), 3.50% APY, $200.7K TVL, https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token; uniswap-v3 (Ethereum), 0.16% APY, $929.7K TVL, https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token; ston.fi (TON), 0.16% APY, $100K TVL, https://www.defi.garden/?pool=c0cfd0f6-1e86-4f9d-9600-5af45f1628a2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BABYDOGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +68,4 @@ Based on APY history only, BABYDOGE's lower-variability candidates are raydium-a
 - [Solana](https://www.defi.garden/chains/solana)
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

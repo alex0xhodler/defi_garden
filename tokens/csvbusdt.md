@@ -1,6 +1,6 @@
 # CSVBUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest CSVBUSDT yield right now is 8.16% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CSVBUSDT pools. This view cov
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

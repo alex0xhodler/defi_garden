@@ -1,6 +1,6 @@
 # LBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest LBTC yield right now is 9.19% on bluefin-spot (Sui), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest LBTC yield right now is 9.19% on bluefin-spot (Sui), among 23
 | [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 0.32% | $589.1K |
 | [bluefin-spot →](https://www.defi.garden/?pool=485a8e0f-8df5-46cc-b3ce-3459f5af4af8&src=seo_token) | Sui | 9.19% | $186.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.22% APY, $679.9M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token; symbiotic (Ethereum), 1.34% APY, $45.11M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48&src=seo_token; moonwell-lending (Base), 0.04% APY, $3.35M TVL, https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token; navi-lending (Sui), 1.17% APY, $2.98M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token; curve-dex (Monad), 1.48% APY, $2.84M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token; uniswap-v3 (Ethereum), 0.32% APY, $589.1K TVL, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token; bluefin-spot (Sui), 9.19% APY, $186.8K TVL, https://www.defi.garden/?pool=485a8e0f-8df5-46cc-b3ce-3459f5af4af8&src=seo_token; aerodrome-slipstream (Base), 2.74% APY, $4.17M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.22% | $679.9M |
-| 2 | [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48&src=seo_token) | Ethereum | 1.34% | $45.11M |
-| 3 | [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.04% | $3.35M |
-| 4 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.17% | $2.98M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 1.48% | $2.84M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 0.32% | $589.1K |
-| 7 | [bluefin-spot →](https://www.defi.garden/?pool=485a8e0f-8df5-46cc-b3ce-3459f5af4af8&src=seo_token) | Sui | 9.19% | $186.8K |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 2.74% | $4.17M |
+There is not enough qualifying APY history to rank LBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -70,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LBTC pools have the most stable APY history?
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.22% APY, $679.9M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token; symbiotic (Ethereum), 1.34% APY, $45.11M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48&src=seo_token; moonwell-lending (Base), 0.04% APY, $3.35M TVL, https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token; navi-lending (Sui), 1.17% APY, $2.98M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token; curve-dex (Monad), 1.48% APY, $2.84M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token; uniswap-v3 (Ethereum), 0.32% APY, $589.1K TVL, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token; bluefin-spot (Sui), 9.19% APY, $186.8K TVL, https://www.defi.garden/?pool=485a8e0f-8df5-46cc-b3ce-3459f5af4af8&src=seo_token; aerodrome-slipstream (Base), 2.74% APY, $4.17M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +77,4 @@ Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc 
 - [Sui](https://www.defi.garden/chains/sui)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

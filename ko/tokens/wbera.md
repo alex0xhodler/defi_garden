@@ -1,6 +1,6 @@
 # WBERA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WBERA의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 37.51%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -11,17 +11,10 @@
 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 35.84% | $255.5K |
 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 7.21% | $144.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WBERA의 변동성 낮은 후보는 Berachain의 bex, APY 7.21%, TVL $144.2K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 37.51%, TVL $273.1K, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; Berachain의 berapaw, APY 35.84%, TVL $255.5K, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; Berachain의 dolomite, APY 1.07%, TVL $387.2K, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 7.21% | $144.2K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 37.51% | $273.1K |
-| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 35.84% | $255.5K |
-| 4 | [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token) | Berachain | 1.07% | $387.2K |
+비교할 수 있는 WBERA 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -60,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 37.51%예�
 
 ### WBERA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WBERA의 변동성 낮은 후보는 Berachain의 bex, APY 7.21%, TVL $144.2K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 37.51%, TVL $273.1K, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; Berachain의 berapaw, APY 35.84%, TVL $255.5K, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; Berachain의 dolomite, APY 1.07%, TVL $387.2K, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 WBERA 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -75,4 +68,4 @@ APY 이력만 기준으로 비교한 WBERA의 변동성 낮은 후보는 Beracha
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

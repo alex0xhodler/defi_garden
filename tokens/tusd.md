@@ -1,6 +1,6 @@
 # TUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest TUSD yield right now is 1.80% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest TUSD yield right now is 1.80% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.80% | $351.1K |
 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.02% | $221.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 1.80% APY, $351.1K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; justlend-v1 (Tron), 1.44% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.2K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.80% | $351.1K |
-| 2 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.44% | $1.07M |
-| 3 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.02% | $221.2K |
+There is not enough qualifying APY history to rank TUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TUSD pools have the most stable APY history?
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 1.80% APY, $351.1K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; justlend-v1 (Tron), 1.44% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.02% APY, $221.2K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank TUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, TUSD's lower-variability candidates are raydium-amm (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

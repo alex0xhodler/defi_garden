@@ -1,6 +1,6 @@
 # CRVUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 CRVUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-llamalend에서 4.95%이며, $100K TVL 기준을 넘는 117개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057&src=seo_token) | Ethereum | 4.95% | $15.28M |
 | [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.46% | $15.03M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CRVUSD의 변동성 낮은 후보는 Ethereum의 curve-llamalend, APY 4.95%, TVL $15.28M, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057&src=seo_token; Ethereum의 curve-dex, APY 4.77%, TVL $19.95M, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token; Ethereum의 curve-dex, APY 3.46%, TVL $15.03M, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; Ethereum의 curve-llamalend, APY 2.85%, TVL $35.18M, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token; Ethereum의 curve-dex, APY 1.14%, TVL $36.95M, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token; Ethereum의 curve-dex, APY 2.30%, TVL $66.64M, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token; Ethereum의 curve-dex, APY 16.54%, TVL $55.58M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 10.53%, TVL $20.45M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057&src=seo_token) | Ethereum | 4.95% | $15.28M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 4.77% | $19.95M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.46% | $15.03M |
-| 4 | [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 2.85% | $35.18M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token) | Ethereum | 1.14% | $36.95M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 2.30% | $66.64M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 16.54% | $55.58M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 10.53% | $20.45M |
+비교할 수 있는 CRVUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-llamalend에서 APY 4.95
 
 ### CRVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CRVUSD의 변동성 낮은 후보는 Ethereum의 curve-llamalend, APY 4.95%, TVL $15.28M, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057&src=seo_token; Ethereum의 curve-dex, APY 4.77%, TVL $19.95M, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token; Ethereum의 curve-dex, APY 3.46%, TVL $15.03M, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; Ethereum의 curve-llamalend, APY 2.85%, TVL $35.18M, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token; Ethereum의 curve-dex, APY 1.14%, TVL $36.95M, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token; Ethereum의 curve-dex, APY 2.30%, TVL $66.64M, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token; Ethereum의 curve-dex, APY 16.54%, TVL $55.58M, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; Ethereum의 curve-dex, APY 10.53%, TVL $20.45M, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 CRVUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +76,4 @@ APY 이력만 기준으로 비교한 CRVUSD의 변동성 낮은 후보는 Ethere
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

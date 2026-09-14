@@ -1,6 +1,6 @@
 # WMATIC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WMATIC의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 123.38%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 13.60% | $154.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 41.82% | $150.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 8.02%, TVL $507K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 4.60%, TVL $179.4K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 16.78%, TVL $181.1K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 9.24%, TVL $598.3K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 41.82%, TVL $150.9K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 45.41%, TVL $234.5K, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token; Polygon의 uniswap-v3, APY 13.60%, TVL $154.9K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 123.38%, TVL $1.17M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 8.02% | $507K |
-| 2 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 4.60% | $179.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 16.78% | $181.1K |
-| 4 | [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 9.24% | $598.3K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token) | Polygon | 41.82% | $150.9K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token) | Polygon | 45.41% | $234.5K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 13.60% | $154.9K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 123.38% | $1.17M |
+비교할 수 있는 WMATIC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 123.38%예
 
 ### WMATIC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 8.02%, TVL $507K, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token; Polygon의 quickswap-dex, APY 4.60%, TVL $179.4K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Polygon의 uniswap-v3, APY 16.78%, TVL $181.1K, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token; Polygon의 quickswap-dex, APY 9.24%, TVL $598.3K, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token; Polygon의 uniswap-v3, APY 41.82%, TVL $150.9K, https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905&src=seo_token; Polygon의 uniswap-v3, APY 45.41%, TVL $234.5K, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token; Polygon의 uniswap-v3, APY 13.60%, TVL $154.9K, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token; Polygon의 uniswap-v3, APY 123.38%, TVL $1.17M, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 WMATIC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +76,4 @@ APY 이력만 기준으로 비교한 WMATIC의 변동성 낮은 후보는 Polygo
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

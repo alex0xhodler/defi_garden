@@ -1,6 +1,6 @@
 # XBTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 XBTC의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 12.74%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
 | [bluefin-spot →](https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token) | Sui | 12.74% | $412.5K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Xlayer의 aave-v3, APY 0.02%, TVL $7.89M, https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_token; Sui의 cetus-clmm, APY 0.01%, TVL $1.46M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.02%, TVL $2.29M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Solana의 kamino-liquidity, APY 4.78%, TVL $1.18M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 6.06%, TVL $1.18M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Hyperliquid L1의 liminal-basis, APY 8.24%, TVL $1.25M, https://www.defi.garden/?pool=20014711-5ee5-58ea-ade1-9d47310bc356&src=seo_token; Sui의 bluefin-spot, APY 12.74%, TVL $412.5K, https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_token) | Xlayer | 0.02% | $7.89M |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token) | Sui | 0.01% | $1.46M |
-| 3 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.02% | $2.29M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 4.78% | $1.18M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 6.06% | $1.18M |
-| 6 | [liminal-basis →](https://www.defi.garden/?pool=20014711-5ee5-58ea-ade1-9d47310bc356&src=seo_token) | Hyperliquid L1 | 8.24% | $1.25M |
-| 7 | [bluefin-spot →](https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token) | Sui | 12.74% | $412.5K |
-| 8 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
+비교할 수 있는 XBTC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 12.74%예요
 
 ### XBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Xlayer의 aave-v3, APY 0.02%, TVL $7.89M, https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_token; Sui의 cetus-clmm, APY 0.01%, TVL $1.46M, https://www.defi.garden/?pool=4ff1be9f-bbd8-4a09-a4c5-588d7f4b3a08&src=seo_token; Sui의 navi-lending, APY 1.02%, TVL $2.29M, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; Solana의 kamino-liquidity, APY 4.78%, TVL $1.18M, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; Solana의 orca-dex, APY 6.06%, TVL $1.18M, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; Hyperliquid L1의 liminal-basis, APY 8.24%, TVL $1.25M, https://www.defi.garden/?pool=20014711-5ee5-58ea-ade1-9d47310bc356&src=seo_token; Sui의 bluefin-spot, APY 12.74%, TVL $412.5K, https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token; Aptos의 hyperion, APY 0.37%, TVL $642.4K, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 XBTC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -91,4 +80,4 @@ APY 이력만 기준으로 비교한 XBTC의 변동성 낮은 후보는 Xlayer�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

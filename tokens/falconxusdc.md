@@ -1,6 +1,6 @@
 # FALCONXUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FALCONXUSDC yield right now is 14.43% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest FALCONXUSDC yield right now is 14.43% on royco-v2 (Ethereum),
 | [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 6.57% | $2.64M |
 | [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 14.43% | $160.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FALCONXUSDC's lower-variability candidates are royco-v2 (Ethereum), 6.57% APY, $2.64M TVL, https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token; royco-v2 (Ethereum), 14.43% APY, $160.2K TVL, https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 6.57% | $2.64M |
-| 2 | [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 14.43% | $160.2K |
+There is not enough qualifying APY history to rank FALCONXUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FALCONXUSDC pools have the most stable APY history?
 
-Based on APY history only, FALCONXUSDC's lower-variability candidates are royco-v2 (Ethereum), 6.57% APY, $2.64M TVL, https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token; royco-v2 (Ethereum), 14.43% APY, $160.2K TVL, https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FALCONXUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, FALCONXUSDC's lower-variability candidates are royco-
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

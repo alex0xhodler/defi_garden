@@ -1,6 +1,6 @@
 # GRAM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 GRAM의 가장 높은 정직한 수익률은 TON의 ston.fi에서 38.64%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [dedust →](https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token) | TON | 10.14% | $560.4K |
 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.64% | $531.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GRAM의 변동성 낮은 후보는 TON의 ston.fi, APY 0.01%, TVL $604.4K, https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token; TON의 evaa-protocol, APY 5.66%, TVL $846.6K, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; TON의 affluent, APY 14.44%, TVL $776.6K, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; TON의 dedust, APY 10.14%, TVL $560.4K, https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token; TON의 ston.fi, APY 5.47%, TVL $4.98M, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; TON의 storm-trade, APY 6.28%, TVL $1.53M, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; TON의 ston.fi, APY 3.35%, TVL $5.12M, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; TON의 ston.fi, APY 38.64%, TVL $531.7K, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token) | TON | 0.01% | $604.4K |
-| 2 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 5.66% | $846.6K |
-| 3 | [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.44% | $776.6K |
-| 4 | [dedust →](https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token) | TON | 10.14% | $560.4K |
-| 5 | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 5.47% | $4.98M |
-| 6 | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.28% | $1.53M |
-| 7 | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 3.35% | $5.12M |
-| 8 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.64% | $531.7K |
+비교할 수 있는 GRAM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 38.64%예요.
 
 ### GRAM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GRAM의 변동성 낮은 후보는 TON의 ston.fi, APY 0.01%, TVL $604.4K, https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token; TON의 evaa-protocol, APY 5.66%, TVL $846.6K, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; TON의 affluent, APY 14.44%, TVL $776.6K, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; TON의 dedust, APY 10.14%, TVL $560.4K, https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token; TON의 ston.fi, APY 5.47%, TVL $4.98M, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; TON의 storm-trade, APY 6.28%, TVL $1.53M, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; TON의 ston.fi, APY 3.35%, TVL $5.12M, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; TON의 ston.fi, APY 38.64%, TVL $531.7K, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 GRAM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +76,4 @@ APY 이력만 기준으로 비교한 GRAM의 변동성 낮은 후보는 TON의 s
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

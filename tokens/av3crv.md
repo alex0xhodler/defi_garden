@@ -1,6 +1,6 @@
 # AV3CRV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest AV3CRV yield right now is 0.53% on curve-dex (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest AV3CRV yield right now is 0.53% on curve-dex (Avalanche), amo
 | [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $518.5K |
 | [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $248.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $248.7K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $518.5K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $248.7K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $518.5K |
+There is not enough qualifying APY history to rank AV3CRV pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AV3CRV pools have the most stable APY history?
 
-Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $248.7K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $518.5K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank AV3CRV pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

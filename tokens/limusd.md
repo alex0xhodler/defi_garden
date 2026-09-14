@@ -1,6 +1,6 @@
 # LIMUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest LIMUSD yield right now is 11.23% on pendle-v2 (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest LIMUSD yield right now is 11.23% on pendle-v2 (Hyperliquid L1
 | [pendle-v2 →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.23% | $1.47M |
 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.54% | $325.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LIMUSD's lower-variability candidates are pendle-v2 (Hyperliquid L1), 11.23% APY, $1.47M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle-v2 (Hyperliquid L1), 9.15% APY, $1.47M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; liminal-basis (Arbitrum), 7.54% APY, $325.6K TVL, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; liminal-basis (Hyperliquid L1), 7.54% APY, $9.65M TVL, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 11.23% | $1.47M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 9.15% | $1.47M |
-| 3 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.54% | $325.6K |
-| 4 | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.54% | $9.65M |
+There is not enough qualifying APY history to rank LIMUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -58,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LIMUSD pools have the most stable APY history?
 
-Based on APY history only, LIMUSD's lower-variability candidates are pendle-v2 (Hyperliquid L1), 11.23% APY, $1.47M TVL, https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token; pendle-v2 (Hyperliquid L1), 9.15% APY, $1.47M TVL, https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token; liminal-basis (Arbitrum), 7.54% APY, $325.6K TVL, https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token; liminal-basis (Hyperliquid L1), 7.54% APY, $9.65M TVL, https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LIMUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +67,4 @@ Based on APY history only, LIMUSD's lower-variability candidates are pendle-v2 (
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

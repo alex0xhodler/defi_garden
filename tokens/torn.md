@@ -1,6 +1,6 @@
 # TORN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest TORN yield right now is 35.13% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest TORN yield right now is 35.13% on uniswap-v3 (Ethereum), amon
 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 0.90% | $271.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 4.72% | $166.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.90% APY, $271.1K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 4.72% APY, $166.1K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 35.13% APY, $319.7K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 0.90% | $271.1K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 4.72% | $166.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 35.13% | $319.7K |
+There is not enough qualifying APY history to rank TORN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TORN pools have the most stable APY history?
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 0.90% APY, $271.1K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 4.72% APY, $166.1K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 35.13% APY, $319.7K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank TORN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

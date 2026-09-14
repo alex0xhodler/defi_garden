@@ -1,6 +1,6 @@
 # USDC.E 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USDC.E의 가장 높은 정직한 수익률은 Flare의 sparkdex-v4에서 5.92%이며, $100K TVL 기준을 넘는 30개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [sushiswap-v3 →](https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token) | Hemi | 0.09% | $500K |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 20.94% | $482.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Gnosis의 aave-v3, APY 2.65%, TVL $648K, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; Flare의 sparkdex-v4, APY 5.92%, TVL $1.97M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.40%, TVL $535.8K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Arbitrum의 curve-dex, APY 0.24%, TVL $635.1K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.19%, TVL $5.07M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Hemi의 sushiswap-v3, APY 0.09%, TVL $500K, https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token; Arbitrum의 sushiswap-v3, APY 20.94%, TVL $482.2K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Arbitrum의 uniswap-v3, APY 12.51%, TVL $1.12M, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.65% | $648K |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 5.92% | $1.97M |
-| 3 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.40% | $535.8K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.24% | $635.1K |
-| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.19% | $5.07M |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token) | Hemi | 0.09% | $500K |
-| 7 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 20.94% | $482.2K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 12.51% | $1.12M |
+비교할 수 있는 USDC.E 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 5.92%예요
 
 ### USDC.E 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Gnosis의 aave-v3, APY 2.65%, TVL $648K, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; Flare의 sparkdex-v4, APY 5.92%, TVL $1.97M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.40%, TVL $535.8K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Arbitrum의 curve-dex, APY 0.24%, TVL $635.1K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.19%, TVL $5.07M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Hemi의 sushiswap-v3, APY 0.09%, TVL $500K, https://www.defi.garden/?pool=8c4100ba-0599-4173-83cc-d9df1b1709ef&src=seo_token; Arbitrum의 sushiswap-v3, APY 20.94%, TVL $482.2K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Arbitrum의 uniswap-v3, APY 12.51%, TVL $1.12M, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 USDC.E 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -91,4 +80,4 @@ APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Gnosis
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 - [Hemi](https://www.defi.garden/ko/chains/hemi)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

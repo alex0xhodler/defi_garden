@@ -1,6 +1,6 @@
 # NEUY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest NEUY yield right now is 44.54% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest NEUY yield right now is 44.54% on uniswap-v3 (Base), among 2 
 | [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 6.72% | $205.5K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=8089e831-1982-5ad7-8a4b-78c8e07c0c94&src=seo_token) | Base | 44.54% | $102.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, NEUY's lower-variability candidates are uniswap-v3 (Polygon), 6.72% APY, $205.5K TVL, https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token; uniswap-v3 (Base), 44.54% APY, $102.3K TVL, https://www.defi.garden/?pool=8089e831-1982-5ad7-8a4b-78c8e07c0c94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 6.72% | $205.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=8089e831-1982-5ad7-8a4b-78c8e07c0c94&src=seo_token) | Base | 44.54% | $102.3K |
+There is not enough qualifying APY history to rank NEUY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEUY pools have the most stable APY history?
 
-Based on APY history only, NEUY's lower-variability candidates are uniswap-v3 (Polygon), 6.72% APY, $205.5K TVL, https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token; uniswap-v3 (Base), 44.54% APY, $102.3K TVL, https://www.defi.garden/?pool=8089e831-1982-5ad7-8a4b-78c8e07c0c94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank NEUY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, NEUY's lower-variability candidates are uniswap-v3 (P
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

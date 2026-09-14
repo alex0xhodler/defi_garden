@@ -1,6 +1,6 @@
 # TBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest TBTC yield right now is 6.18% on curve-dex (Ethereum), among 55 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest TBTC yield right now is 6.18% on curve-dex (Ethereum), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=4df86e5d-161e-4221-b74b-bae9cc194991&src=seo_token) | Ethereum | 8.32% | $3.39M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.37% | $1.73M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, TBTC's lower-variability candidates are uniswap-v4 (Ethereum), 8.32% APY, $3.39M TVL, https://www.defi.garden/?pool=4df86e5d-161e-4221-b74b-bae9cc194991&src=seo_token; curve-dex (Ethereum), 1.14% APY, $10.36M TVL, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; curve-dex (Ethereum), 4.57% APY, $4.91M TVL, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; uniswap-v3 (Ethereum), 4.16% APY, $3.86M TVL, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; convex-finance (Ethereum), 5.59% APY, $4.64M TVL, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; uniswap-v3 (Ethereum), 0.37% APY, $1.73M TVL, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; curve-dex (Ethereum), 1.14% APY, $36.95M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token; curve-dex (Ethereum), 6.18% APY, $7.73M TVL, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=4df86e5d-161e-4221-b74b-bae9cc194991&src=seo_token) | Ethereum | 8.32% | $3.39M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 1.14% | $10.36M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 4.57% | $4.91M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 4.16% | $3.86M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 5.59% | $4.64M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.37% | $1.73M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token) | Ethereum | 1.14% | $36.95M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 6.18% | $7.73M |
+There is not enough qualifying APY history to rank TBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -72,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TBTC pools have the most stable APY history?
 
-Based on APY history only, TBTC's lower-variability candidates are uniswap-v4 (Ethereum), 8.32% APY, $3.39M TVL, https://www.defi.garden/?pool=4df86e5d-161e-4221-b74b-bae9cc194991&src=seo_token; curve-dex (Ethereum), 1.14% APY, $10.36M TVL, https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token; curve-dex (Ethereum), 4.57% APY, $4.91M TVL, https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token; uniswap-v3 (Ethereum), 4.16% APY, $3.86M TVL, https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token; convex-finance (Ethereum), 5.59% APY, $4.64M TVL, https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token; uniswap-v3 (Ethereum), 0.37% APY, $1.73M TVL, https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token; curve-dex (Ethereum), 1.14% APY, $36.95M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token; curve-dex (Ethereum), 6.18% APY, $7.73M TVL, https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank TBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +76,4 @@ Based on APY history only, TBTC's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

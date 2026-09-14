@@ -1365,11 +1365,14 @@ function App() {
   };
   var updateUrl = (token, chain, poolTypes, protocols, minTvl, minApy) => {
     var params = new URLSearchParams();
+    var currentParams = typeof window !== 'undefined' && window.location ? new URLSearchParams(window.location.search) : new URLSearchParams();
+    if (currentParams.has('app')) params.set('app', currentParams.get('app'));
+    if (currentParams.has('src')) params.set('src', currentParams.get('src'));
     if (token) params.set('token', token);
     if (chain) params.set('chain', chain);
     if (poolTypes && poolTypes.length > 0) params.set('poolTypes', poolTypes.join(','));
     if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
-    if (minTvl > 0 && minTvl !== DEFAULT_MIN_TVL) params.set('minTvl', minTvl.toString());
+    if (minTvl > 0 && (minTvl !== DEFAULT_MIN_TVL || currentParams.has('minTvl'))) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
     if (subParam) params.set('sub', subParam);
 
@@ -1378,7 +1381,10 @@ function App() {
       params.set('lang', language);
     }
     var newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
-    window.history.pushState({}, '', newUrl);
+    var currentUrl = typeof window !== 'undefined' && window.location ? window.location.pathname + window.location.search : '';
+    if (newUrl !== currentUrl) {
+      window.history.pushState({}, '', newUrl);
+    }
 
     // Update page title with localized text
     if (chain && chainMode && !token) {

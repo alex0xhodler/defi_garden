@@ -1,6 +1,6 @@
 # JETTON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest JETTON yield right now is 65.79% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest JETTON yield right now is 65.79% on dedust (TON), among 2 poo
 | [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.32% | $144.6K |
 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 65.79% | $115.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 65.79% APY, $115.1K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.32% APY, $144.6K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 65.79% | $115.1K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 54.32% | $144.6K |
+There is not enough qualifying APY history to rank JETTON pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JETTON pools have the most stable APY history?
 
-Based on APY history only, JETTON's lower-variability candidates are dedust (TON), 65.79% APY, $115.1K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token; ston.fi (TON), 54.32% APY, $144.6K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank JETTON pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, JETTON's lower-variability candidates are dedust (TON
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

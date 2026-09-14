@@ -1,6 +1,6 @@
 # SAMMV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SAMMV2 yield right now is 14.91% on yearn-finance (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SAMMV2 yield right now is 14.91% on yearn-finance (OP Mainnet
 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.26% | $1.06M |
 | [yearn-finance →](https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token) | OP Mainnet | 14.91% | $173.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SAMMV2's lower-variability candidates are yearn-finance (OP Mainnet), 6.26% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; yearn-finance (OP Mainnet), 14.91% APY, $173.3K TVL, https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.26% | $1.06M |
-| 2 | [yearn-finance →](https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token) | OP Mainnet | 14.91% | $173.3K |
+There is not enough qualifying APY history to rank SAMMV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAMMV2 pools have the most stable APY history?
 
-Based on APY history only, SAMMV2's lower-variability candidates are yearn-finance (OP Mainnet), 6.26% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; yearn-finance (OP Mainnet), 14.91% APY, $173.3K TVL, https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SAMMV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, SAMMV2's lower-variability candidates are yearn-finan
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

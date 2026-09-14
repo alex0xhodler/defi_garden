@@ -1,6 +1,6 @@
 # UNISHOP.AI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest UNISHOP.AI yield right now is 0.09% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest UNISHOP.AI yield right now is 0.09% on uniswap-v3 (Arbitrum),
 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.09% | $586.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.05% | $479.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, UNISHOP.AI's lower-variability candidates are uniswap-v3 (Arbitrum), 0.05% APY, $479.6K TVL, https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token; uniswap-v3 (Arbitrum), 0.09% APY, $586.3K TVL, https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.05% | $479.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.09% | $586.3K |
+There is not enough qualifying APY history to rank UNISHOP.AI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UNISHOP.AI pools have the most stable APY history?
 
-Based on APY history only, UNISHOP.AI's lower-variability candidates are uniswap-v3 (Arbitrum), 0.05% APY, $479.6K TVL, https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token; uniswap-v3 (Arbitrum), 0.09% APY, $586.3K TVL, https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank UNISHOP.AI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, UNISHOP.AI's lower-variability candidates are uniswap
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

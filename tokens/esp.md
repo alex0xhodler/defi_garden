@@ -1,6 +1,6 @@
 # ESP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest ESP yield right now is 4.13% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest ESP yield right now is 4.13% on uniswap-v3 (Arbitrum), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token) | Ethereum | 3.62% | $407.5K |
 | [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.92% | $279.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 2.92% APY, $279.7K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 4.13% APY, $568.6K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 3.62% APY, $407.5K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.92% | $279.7K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 4.13% | $568.6K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token) | Ethereum | 3.62% | $407.5K |
+There is not enough qualifying APY history to rank ESP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ESP pools have the most stable APY history?
 
-Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 2.92% APY, $279.7K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token; uniswap-v3 (Arbitrum), 4.13% APY, $568.6K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token; uniswap-v4 (Ethereum), 3.62% APY, $407.5K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank ESP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +67,4 @@ Based on APY history only, ESP's lower-variability candidates are curve-dex (Eth
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

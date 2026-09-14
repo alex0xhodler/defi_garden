@@ -1,6 +1,6 @@
 # OHM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 OHM의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 3.09%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -14,20 +14,10 @@
 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.09% | $166.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 1.41% | $126.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OHM의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 1.79%, TVL $11.73M, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token; Base의 uniswap-v3, APY 0.04%, TVL $969.6K, https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token; Arbitrum의 camelot-v2, APY 0.84%, TVL $279K, https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token; Ethereum의 convex-finance, APY 0.09%, TVL $166.3K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; Ethereum의 curve-dex, APY 0.13%, TVL $176.8K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; Ethereum의 uniswap-v3, APY 1.41%, TVL $126.7K, https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token; Ethereum의 uniswap-v3, APY 3.09%, TVL $4.95M, https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 1.79% | $11.73M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.04% | $969.6K |
-| 3 | [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.84% | $279K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.09% | $166.3K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.13% | $176.8K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 1.41% | $126.7K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 3.09% | $4.95M |
+비교할 수 있는 OHM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -69,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 3.09%예�
 
 ### OHM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OHM의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 1.79%, TVL $11.73M, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token; Base의 uniswap-v3, APY 0.04%, TVL $969.6K, https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token; Arbitrum의 camelot-v2, APY 0.84%, TVL $279K, https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token; Ethereum의 convex-finance, APY 0.09%, TVL $166.3K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; Ethereum의 curve-dex, APY 0.13%, TVL $176.8K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; Ethereum의 uniswap-v3, APY 1.41%, TVL $126.7K, https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token; Ethereum의 uniswap-v3, APY 3.09%, TVL $4.95M, https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 OHM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -86,4 +76,4 @@ APY 이력만 기준으로 비교한 OHM의 변동성 낮은 후보는 Ethereum�
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

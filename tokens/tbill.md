@@ -1,6 +1,6 @@
 # TBILL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest TBILL yield right now is 3.38% on openeden-tbill (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest TBILL yield right now is 3.38% on openeden-tbill (Ethereum), 
 | [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.38% | $21.39M |
 | [openeden-tbill →](https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token) | Solana | 3.38% | $196.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, TBILL's lower-variability candidates are openeden-tbill (Ethereum), 3.38% APY, $21.39M TVL, https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token; openeden-tbill (Solana), 3.38% APY, $196.8K TVL, https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.38% | $21.39M |
-| 2 | [openeden-tbill →](https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token) | Solana | 3.38% | $196.8K |
+There is not enough qualifying APY history to rank TBILL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TBILL pools have the most stable APY history?
 
-Based on APY history only, TBILL's lower-variability candidates are openeden-tbill (Ethereum), 3.38% APY, $21.39M TVL, https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token; openeden-tbill (Solana), 3.38% APY, $196.8K TVL, https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank TBILL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +63,4 @@ Based on APY history only, TBILL's lower-variability candidates are openeden-tbi
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

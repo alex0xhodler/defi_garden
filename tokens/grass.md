@@ -1,6 +1,6 @@
 # GRASS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GRASS yield right now is 2.47% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest GRASS yield right now is 2.47% on raydium-amm (Solana), among
 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 2.47% | $266.4K |
 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.1K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 2.47% | $266.4K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $153.1K |
+There is not enough qualifying APY history to rank GRASS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GRASS pools have the most stable APY history?
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 2.47% APY, $266.4K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $153.1K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GRASS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, GRASS's lower-variability candidates are raydium-amm 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

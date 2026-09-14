@@ -1,6 +1,6 @@
 # XWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest XWBTC yield right now is 4.60% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank XWBTC pools. This view covers
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

@@ -1,6 +1,6 @@
 # USDAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest USDAI yield right now is 8.71% on pendle-v2 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest USDAI yield right now is 8.71% on pendle-v2 (Arbitrum), among
 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 8.71% | $50.3M |
 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.01% | $3.07M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 8.71% APY, $50.3M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.01% APY, $3.07M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 1.70% APY, $50.3M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 8.71% | $50.3M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.01% | $3.07M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 1.70% | $50.3M |
+There is not enough qualifying APY history to rank USDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDAI pools have the most stable APY history?
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 8.71% APY, $50.3M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.01% APY, $3.07M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 1.70% APY, $50.3M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank USDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +64,4 @@ Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

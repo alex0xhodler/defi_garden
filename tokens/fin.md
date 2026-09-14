@@ -1,6 +1,6 @@
 # FIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FIN yield right now is 4.81% on uniswap-v4 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest FIN yield right now is 4.81% on uniswap-v4 (Polygon), among 4
 | [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 6.35% | $190.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 4.81% | $116.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 4.81% APY, $116.3K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 6.35% APY, $190.2K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 4.81% | $116.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 6.35% | $190.2K |
+There is not enough qualifying APY history to rank FIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIN pools have the most stable APY history?
 
-Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 4.81% APY, $116.3K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 6.35% APY, $190.2K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Po
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

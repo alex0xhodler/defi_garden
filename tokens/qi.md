@@ -1,6 +1,6 @@
 # QI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest QI yield right now is 6.55% on pangolin-v2 (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest QI yield right now is 6.55% on pangolin-v2 (Avalanche), among
 | [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.01% | $587.7K |
 | [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 6.55% | $113.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.01% APY, $587.7K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 6.55% APY, $113.2K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.01% | $587.7K |
-| 2 | [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 6.55% | $113.2K |
+There is not enough qualifying APY history to rank QI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QI pools have the most stable APY history?
 
-Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.01% APY, $587.7K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 6.55% APY, $113.2K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank QI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, QI's lower-variability candidates are balancer-v2 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

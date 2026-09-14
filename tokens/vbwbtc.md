@@ -1,6 +1,6 @@
 # VBWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest VBWBTC yield right now is 2.09% on yearn-finance (Katana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest VBWBTC yield right now is 2.09% on yearn-finance (Katana), am
 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.09% | $1.14M |
 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.82% | $725.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.51% APY, $23.96M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.82% APY, $725.8K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.09% APY, $1.14M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.17% APY, $1.56M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token) | Katana | 0.51% | $23.96M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token) | Katana | 0.82% | $725.8K |
-| 3 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 2.09% | $1.14M |
-| 4 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 1.17% | $1.56M |
+There is not enough qualifying APY history to rank VBWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -58,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBWBTC pools have the most stable APY history?
 
-Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue (Katana), 0.51% APY, $23.96M TVL, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_token; morpho-blue (Katana), 0.82% APY, $725.8K TVL, https://www.defi.garden/?pool=cb439407-f96e-4115-b5cd-09bab181162f&src=seo_token; yearn-finance (Katana), 2.09% APY, $1.14M TVL, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token; yearn-finance (Katana), 1.17% APY, $1.56M TVL, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank VBWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +66,4 @@ Based on APY history only, VBWBTC's lower-variability candidates are morpho-blue
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

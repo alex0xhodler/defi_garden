@@ -1,6 +1,6 @@
 # ONYC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 ONYC의 가장 높은 정직한 수익률은 Solana의 onre에서 11.54%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -11,17 +11,10 @@
 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.32% | $3.18M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=233415e5-e0cf-49b8-8a70-975aaa8689a1&src=seo_token) | Solana | 1.26% | $2.04M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.54%, TVL $294.88M, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; Solana의 raydium-amm, APY 0.32%, TVL $3.18M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token; Solana의 orca-dex, APY 0.74%, TVL $6.95M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; Solana의 kamino-liquidity, APY 1.26%, TVL $2.04M, https://www.defi.garden/?pool=233415e5-e0cf-49b8-8a70-975aaa8689a1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token) | Solana | 11.54% | $294.88M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.32% | $3.18M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 0.74% | $6.95M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=233415e5-e0cf-49b8-8a70-975aaa8689a1&src=seo_token) | Solana | 1.26% | $2.04M |
+비교할 수 있는 ONYC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -60,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.54%예요.
 
 ### ONYC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.54%, TVL $294.88M, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; Solana의 raydium-amm, APY 0.32%, TVL $3.18M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token; Solana의 orca-dex, APY 0.74%, TVL $6.95M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; Solana의 kamino-liquidity, APY 1.26%, TVL $2.04M, https://www.defi.garden/?pool=233415e5-e0cf-49b8-8a70-975aaa8689a1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 ONYC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -75,4 +68,4 @@ APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

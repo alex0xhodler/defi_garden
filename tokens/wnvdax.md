@@ -1,6 +1,6 @@
 # WNVDAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest WNVDAX yield right now is 249.43% on project-x (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,15 +10,10 @@ The highest honest WNVDAX yield right now is 249.43% on project-x (Hyperliquid L
 | [project-x →](https://www.defi.garden/?pool=2f476585-3585-5127-8f64-76f15146d9e8&src=seo_token) | Hyperliquid L1 | 249.43% | $147.8K |
 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.12% | $112K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, WNVDAX's lower-variability candidates are fluxion-network (Mantle), 0.12% APY, $112K TVL, https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token; nest-cl (Hyperliquid L1), 56.41% APY, $222.1K TVL, https://www.defi.garden/?pool=036a5d36-9d52-5616-9acb-cb54d34939a3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.12% | $112K |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=036a5d36-9d52-5616-9acb-cb54d34939a3&src=seo_token) | Hyperliquid L1 | 56.41% | $222.1K |
+There is not enough qualifying APY history to rank WNVDAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -56,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WNVDAX pools have the most stable APY history?
 
-Based on APY history only, WNVDAX's lower-variability candidates are fluxion-network (Mantle), 0.12% APY, $112K TVL, https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token; nest-cl (Hyperliquid L1), 56.41% APY, $222.1K TVL, https://www.defi.garden/?pool=036a5d36-9d52-5616-9acb-cb54d34939a3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank WNVDAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +67,4 @@ Based on APY history only, WNVDAX's lower-variability candidates are fluxion-net
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

@@ -1,6 +1,6 @@
 # SOLVBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SOLVBTC yield right now is 15.66% on ekubo (Starknet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest SOLVBTC yield right now is 15.66% on ekubo (Starknet), among 
 | [endur →](https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token) | Starknet | 2.28% | $153.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_token) | Bob | 0.28% | $108.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SOLVBTC's lower-variability candidates are vesu (Starknet), 2.00% APY, $1.54M TVL, https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token; vesu (Starknet), 2.16% APY, $254.6K TVL, https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token; uniswap-v3 (Bob), 0.28% APY, $108.3K TVL, https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_token; endur (Starknet), 2.28% APY, $153.4K TVL, https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token; joe-v2.2 (Avalanche), 0.01% APY, $209.4K TVL, https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $4.41M TVL, https://www.defi.garden/?pool=40769df5-74ce-4d6c-886f-ac4d5f771227&src=seo_token; ekubo (Starknet), 15.66% APY, $1.47M TVL, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $348.1K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token) | Starknet | 2.00% | $1.54M |
-| 2 | [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.16% | $254.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_token) | Bob | 0.28% | $108.3K |
-| 4 | [endur →](https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token) | Starknet | 2.28% | $153.4K |
-| 5 | [joe-v2.2 →](https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token) | Avalanche | 0.01% | $209.4K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=40769df5-74ce-4d6c-886f-ac4d5f771227&src=seo_token) | Ethereum | 0.13% | $4.41M |
-| 7 | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 15.66% | $1.47M |
-| 8 | [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.10% | $348.1K |
+There is not enough qualifying APY history to rank SOLVBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -70,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SOLVBTC pools have the most stable APY history?
 
-Based on APY history only, SOLVBTC's lower-variability candidates are vesu (Starknet), 2.00% APY, $1.54M TVL, https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token; vesu (Starknet), 2.16% APY, $254.6K TVL, https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token; uniswap-v3 (Bob), 0.28% APY, $108.3K TVL, https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_token; endur (Starknet), 2.28% APY, $153.4K TVL, https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token; joe-v2.2 (Avalanche), 0.01% APY, $209.4K TVL, https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $4.41M TVL, https://www.defi.garden/?pool=40769df5-74ce-4d6c-886f-ac4d5f771227&src=seo_token; ekubo (Starknet), 15.66% APY, $1.47M TVL, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; blackhole-clmm (Avalanche), 0.10% APY, $348.1K TVL, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SOLVBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +77,4 @@ Based on APY history only, SOLVBTC's lower-variability candidates are vesu (Star
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Bob](https://www.defi.garden/chains/bob)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

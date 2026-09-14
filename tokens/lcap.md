@@ -1,6 +1,6 @@
 # LCAP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest LCAP yield right now is 46.76% on aerodrome-v1 (Base), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -14,20 +14,10 @@ The highest honest LCAP yield right now is 46.76% on aerodrome-v1 (Base), among 
 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 16.97% | $164.1K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 46.76% | $157.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 16.97% APY, $164.1K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; aerodrome-v1 (Base), 6.84% APY, $191.5K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; aerodrome-slipstream (Base), 28.90% APY, $545.9K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; stake-dao-yield (Base), 42.14% APY, $241.2K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; aerodrome-v1 (Base), 46.76% APY, $157.9K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; curve-dex (Base), 40.57% APY, $332.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; aerodrome-slipstream (Base), 49.59% APY, $172.2K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 16.97% | $164.1K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 6.84% | $191.5K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 28.90% | $545.9K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 42.14% | $241.2K |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 46.76% | $157.9K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 40.57% | $332.8K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 49.59% | $172.2K |
+There is not enough qualifying APY history to rank LCAP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -69,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LCAP pools have the most stable APY history?
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 16.97% APY, $164.1K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; aerodrome-v1 (Base), 6.84% APY, $191.5K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; aerodrome-slipstream (Base), 28.90% APY, $545.9K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; stake-dao-yield (Base), 42.14% APY, $241.2K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; aerodrome-v1 (Base), 46.76% APY, $157.9K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; curve-dex (Base), 40.57% APY, $332.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; aerodrome-slipstream (Base), 49.59% APY, $172.2K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LCAP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +74,4 @@ Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

@@ -1,6 +1,6 @@
 # WUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest WUSDC yield right now is 7.83% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest WUSDC yield right now is 7.83% on cetus-clmm (Sui), among 3 p
 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.50% | $147.2K |
 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.18% | $122.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, WUSDC's lower-variability candidates are navi-lending (Sui), 1.50% APY, $147.2K TVL, https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token; scallop-lend (Sui), 1.18% APY, $122.4K TVL, https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token; cetus-clmm (Sui), 7.83% APY, $155.5K TVL, https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.50% | $147.2K |
-| 2 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.18% | $122.4K |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 7.83% | $155.5K |
+There is not enough qualifying APY history to rank WUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WUSDC pools have the most stable APY history?
 
-Based on APY history only, WUSDC's lower-variability candidates are navi-lending (Sui), 1.50% APY, $147.2K TVL, https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token; scallop-lend (Sui), 1.18% APY, $122.4K TVL, https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token; cetus-clmm (Sui), 7.83% APY, $155.5K TVL, https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank WUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, WUSDC's lower-variability candidates are navi-lending
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

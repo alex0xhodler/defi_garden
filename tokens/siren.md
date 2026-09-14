@@ -1,6 +1,6 @@
 # SIREN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SIREN yield right now is 5.15% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SIREN yield right now is 5.15% on uniswap-v2 (Base), among 2 
 | [uniswap-v4 →](https://www.defi.garden/?pool=90e603bf-94f3-43c8-9d90-37bbd227fcb2&src=seo_token) | BSC | 9.37% | $546.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 5.15% | $191K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SIREN's lower-variability candidates are uniswap-v2 (Base), 5.15% APY, $191K TVL, https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token; uniswap-v4 (BSC), 9.37% APY, $546.1K TVL, https://www.defi.garden/?pool=90e603bf-94f3-43c8-9d90-37bbd227fcb2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 5.15% | $191K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=90e603bf-94f3-43c8-9d90-37bbd227fcb2&src=seo_token) | BSC | 9.37% | $546.1K |
+There is not enough qualifying APY history to rank SIREN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SIREN pools have the most stable APY history?
 
-Based on APY history only, SIREN's lower-variability candidates are uniswap-v2 (Base), 5.15% APY, $191K TVL, https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token; uniswap-v4 (BSC), 9.37% APY, $546.1K TVL, https://www.defi.garden/?pool=90e603bf-94f3-43c8-9d90-37bbd227fcb2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SIREN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, SIREN's lower-variability candidates are uniswap-v2 (
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

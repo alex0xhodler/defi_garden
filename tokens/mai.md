@@ -1,6 +1,6 @@
 # MAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest MAI yield right now is 11.05% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest MAI yield right now is 11.05% on extra-finance-leverage-farmi
 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 11.05% | $242.1K |
 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.73% | $128.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 10.49% APY, $2.3M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 2.73% APY, $128.7K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $343.3K TVL, https://www.defi.garden/?pool=7a53fdd4-d8aa-4a3f-a7cb-db5d62ab6a82&src=seo_token; extra-finance-leverage-farming (Base), 11.05% APY, $242.1K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 10.49% | $2.3M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.73% | $128.7K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=7a53fdd4-d8aa-4a3f-a7cb-db5d62ab6a82&src=seo_token) | Ethereum | 0.01% | $343.3K |
-| 4 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 11.05% | $242.1K |
+There is not enough qualifying APY history to rank MAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -60,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MAI pools have the most stable APY history?
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 10.49% APY, $2.3M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 2.73% APY, $128.7K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $343.3K TVL, https://www.defi.garden/?pool=7a53fdd4-d8aa-4a3f-a7cb-db5d62ab6a82&src=seo_token; extra-finance-leverage-farming (Base), 11.05% APY, $242.1K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +70,4 @@ Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

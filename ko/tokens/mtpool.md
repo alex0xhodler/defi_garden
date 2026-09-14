@@ -1,6 +1,6 @@
 # MTPOOL 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 MTPOOL의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 9.43%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -10,16 +10,10 @@
 | [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 9.09% | $676.9K |
 | [lagoon →](https://www.defi.garden/?pool=04130781-3c0c-4eff-9844-bee7b39c9692&src=seo_token) | Ethereum | 6.47% | $259.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 9.09%, TVL $676.9K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 6.47%, TVL $259.4K, https://www.defi.garden/?pool=04130781-3c0c-4eff-9844-bee7b39c9692&src=seo_token; Ethereum의 lagoon, APY 9.43%, TVL $735.4K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [lagoon →](https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token) | Ethereum | 9.09% | $676.9K |
-| 2 | [lagoon →](https://www.defi.garden/?pool=04130781-3c0c-4eff-9844-bee7b39c9692&src=seo_token) | Ethereum | 6.47% | $259.4K |
-| 3 | [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 9.43% | $735.4K |
+비교할 수 있는 MTPOOL 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -57,7 +51,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 9.43%예요.
 
 ### MTPOOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethereum의 lagoon, APY 9.09%, TVL $676.9K, https://www.defi.garden/?pool=d9fe5f81-6a0c-4d9d-8c50-6f035076a899&src=seo_token; Ethereum의 lagoon, APY 6.47%, TVL $259.4K, https://www.defi.garden/?pool=04130781-3c0c-4eff-9844-bee7b39c9692&src=seo_token; Ethereum의 lagoon, APY 9.43%, TVL $735.4K, https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 MTPOOL 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +66,4 @@ APY 이력만 기준으로 비교한 MTPOOL의 변동성 낮은 후보는 Ethere
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

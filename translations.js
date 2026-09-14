@@ -876,7 +876,7 @@ projectionHeading: "The long game",
     tcpRateStabilityHeading: "Rate stability from APY history",
     tcpRateStabilityFaqQ: (symbol) => `Which ${symbol} pools have the most stable APY history?`,
     tcpRateStabilityCandidate: (project, chain, apyStr, tvlStr, href) =>
-      `${project} (${chain}), ${apyStr} APY, ${tvlStr} TVL, ${href}`,
+      `${project} (${chain}), ${apyStr} APY, ${tvlStr} TVL (${href})`,
     tcpRateStabilityRankedAnswer: (symbol, candidates) =>
       `Based on APY history only, ${symbol}'s lower-variability candidates are ${candidates}. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.`,
     tcpRateStabilityInsufficientAnswer: (symbol) =>
@@ -1840,7 +1840,7 @@ projectionHeading: "The long game",
     tcpRateStabilityHeading: "APY 이력 기반 수익률 안정성",
     tcpRateStabilityFaqQ: (symbol) => `${symbol} 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?`,
     tcpRateStabilityCandidate: (project, chain, apyStr, tvlStr, href) =>
-      `${chain}의 ${project}, APY ${apyStr}, TVL ${tvlStr}, ${href}`,
+      `${chain}의 ${project}, APY ${apyStr}, TVL ${tvlStr} (${href})`,
     tcpRateStabilityRankedAnswer: (symbol, candidates) =>
       `APY 이력만 기준으로 비교한 ${symbol}의 변동성 낮은 후보는 ${candidates}예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.`,
     tcpRateStabilityInsufficientAnswer: (symbol) =>

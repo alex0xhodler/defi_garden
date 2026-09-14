@@ -1,6 +1,6 @@
 # UNI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 UNI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 26.78%이며, $100K TVL 기준을 넘는 34개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 2.47% | $2.79M |
 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.35M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 UNI의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.02%, TVL $2.35M, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; Ethereum의 uniswap-v2, APY 9.26%, TVL $3.6M, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; Ethereum의 uniswap-v3, APY 39.79%, TVL $15.97M, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; Ethereum의 uniswap-v4, APY 22.81%, TVL $4.36M, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; Ethereum의 uniswap-v3, APY 0.02%, TVL $3.84M, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; Ethereum의 uniswap-v4, APY 26.78%, TVL $3.04M, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; Ethereum의 uniswap-v4, APY 20.38%, TVL $3.04M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 uniswap-v3, APY 2.47%, TVL $2.79M, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $2.35M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 9.26% | $3.6M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 39.79% | $15.97M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 22.81% | $4.36M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token) | Ethereum | 0.02% | $3.84M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 26.78% | $3.04M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 20.38% | $3.04M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token) | Ethereum | 2.47% | $2.79M |
+비교할 수 있는 UNI 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -72,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 26.78%예
 
 ### UNI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 UNI의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.02%, TVL $2.35M, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; Ethereum의 uniswap-v2, APY 9.26%, TVL $3.6M, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; Ethereum의 uniswap-v3, APY 39.79%, TVL $15.97M, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; Ethereum의 uniswap-v4, APY 22.81%, TVL $4.36M, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; Ethereum의 uniswap-v3, APY 0.02%, TVL $3.84M, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; Ethereum의 uniswap-v4, APY 26.78%, TVL $3.04M, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; Ethereum의 uniswap-v4, APY 20.38%, TVL $3.04M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; Ethereum의 uniswap-v3, APY 2.47%, TVL $2.79M, https://www.defi.garden/?pool=a90be228-3062-4b69-90bb-a3764351ed77&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 UNI 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -88,4 +77,4 @@ APY 이력만 기준으로 비교한 UNI의 변동성 낮은 후보는 Arbitrum�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

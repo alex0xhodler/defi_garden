@@ -1,6 +1,6 @@
 # ORBS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest ORBS yield right now is 4.80% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest ORBS yield right now is 4.80% on uniswap-v2 (Ethereum), among
 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 0.68% | $317.2K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 4.80% | $277.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.68% APY, $317.2K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 4.80% APY, $277.3K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 0.68% | $317.2K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 4.80% | $277.3K |
+There is not enough qualifying APY history to rank ORBS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ORBS pools have the most stable APY history?
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.68% APY, $317.2K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 4.80% APY, $277.3K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank ORBS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, ORBS's lower-variability candidates are quickswap-dex
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

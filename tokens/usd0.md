@@ -1,6 +1,6 @@
 # USD0 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest USD0 yield right now is 0.56% on euler-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest USD0 yield right now is 0.56% on euler-v2 (Ethereum), among 5
 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 1.76% | $1.86M |
 | [curve-dex →](https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token) | Ethereum | 0.04% | $575K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $3.4M TVL, https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token; euler-v2 (Ethereum), 0.56% APY, $10.67M TVL, https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token; curve-dex (Ethereum), 0.04% APY, $575K TVL, https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token; uniswap-v3 (Ethereum), 1.76% APY, $1.86M TVL, https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.08% | $3.4M |
-| 2 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 0.56% | $10.67M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token) | Ethereum | 0.04% | $575K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 1.76% | $1.86M |
+There is not enough qualifying APY history to rank USD0 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -58,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USD0 pools have the most stable APY history?
 
-Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $3.4M TVL, https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token; euler-v2 (Ethereum), 0.56% APY, $10.67M TVL, https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token; curve-dex (Ethereum), 0.04% APY, $575K TVL, https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token; uniswap-v3 (Ethereum), 1.76% APY, $1.86M TVL, https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank USD0 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +66,4 @@ Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

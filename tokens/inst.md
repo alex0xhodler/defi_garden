@@ -1,6 +1,6 @@
 # INST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest INST yield right now is 1.39% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest INST yield right now is 1.39% on uniswap-v3 (Ethereum), among
 | [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token) | Polygon | 0.01% | $496.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 1.39% | $379.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $496.2K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token; uniswap-v3 (Ethereum), 1.39% APY, $379.1K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token) | Polygon | 0.01% | $496.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 1.39% | $379.1K |
+There is not enough qualifying APY history to rank INST pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INST pools have the most stable APY history?
 
-Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $496.2K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token; uniswap-v3 (Ethereum), 1.39% APY, $379.1K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank INST pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, INST's lower-variability candidates are uniswap-v3 (P
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

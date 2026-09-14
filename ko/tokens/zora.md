@@ -1,6 +1,6 @@
 # ZORA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 ZORA의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 11.35%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -12,18 +12,10 @@
 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.80% | $107.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.81% | $105.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ZORA의 변동성 낮은 후보는 Base의 uniswap-v4, APY 11.35%, TVL $179.9K, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; Base의 uniswap-v4, APY 10.32%, TVL $227.8K, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; Base의 uniswap-v4, APY 7.15%, TVL $667.4K, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; Base의 uniswap-v4, APY 0.81%, TVL $105.1K, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; Base의 uniswap-v4, APY 0.80%, TVL $107.9K, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 11.35% | $179.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 10.32% | $227.8K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 7.15% | $667.4K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.81% | $105.1K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.80% | $107.9K |
+비교할 수 있는 ZORA 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -63,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 11.35%예요.
 
 ### ZORA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ZORA의 변동성 낮은 후보는 Base의 uniswap-v4, APY 11.35%, TVL $179.9K, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; Base의 uniswap-v4, APY 10.32%, TVL $227.8K, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; Base의 uniswap-v4, APY 7.15%, TVL $667.4K, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; Base의 uniswap-v4, APY 0.81%, TVL $105.1K, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; Base의 uniswap-v4, APY 0.80%, TVL $107.9K, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 ZORA 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -78,4 +70,4 @@ APY 이력만 기준으로 비교한 ZORA의 변동성 낮은 후보는 Base의 
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

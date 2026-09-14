@@ -1,6 +1,6 @@
 # BLZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BLZ yield right now is 6.82% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest BLZ yield right now is 6.82% on uniswap-v2 (Ethereum), among 
 | [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 6.82% | $189K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 4.45% | $188.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 4.45% APY, $188.3K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 6.82% APY, $189K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 4.45% | $188.3K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 6.82% | $189K |
+There is not enough qualifying APY history to rank BLZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BLZ pools have the most stable APY history?
 
-Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Ethereum), 4.45% APY, $188.3K TVL, https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token; uniswap-v2 (Ethereum), 6.82% APY, $189K TVL, https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BLZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, BLZ's lower-variability candidates are uniswap-v2 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

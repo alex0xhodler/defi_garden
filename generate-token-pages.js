@@ -1724,6 +1724,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
+    <script type="application/ld+json">${faqJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
@@ -1936,7 +1937,7 @@ function loadFixturePools(fixturePath) {
   if (!fixturePath) return null;
   try {
     const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
-    const arr = raw && raw.data ? raw.data : raw;
+    const arr = raw && raw.data ? raw.data : (raw && raw.pools ? raw.pools : raw);
     if (Array.isArray(arr) && arr.length > 0) return arr;
     console.warn('⚠️  Fixture empty — live fallback:', fixturePath);
     return null;

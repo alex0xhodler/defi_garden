@@ -1,6 +1,6 @@
 # GTUSDA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GTUSDA yield right now is 4.72% on gauntlet (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest GTUSDA yield right now is 4.72% on gauntlet (Base), among 3 p
 | [gauntlet →](https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token) | Arbitrum | 4.71% | $5.03M |
 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.58M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.03M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.72% APY, $51.14M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [gauntlet →](https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token) | Arbitrum | 4.71% | $5.03M |
-| 2 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.58M |
-| 3 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.72% | $51.14M |
+There is not enough qualifying APY history to rank GTUSDA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDA pools have the most stable APY history?
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Arbitrum), 4.71% APY, $5.03M TVL, https://www.defi.garden/?pool=693ec0f2-1901-4645-a132-16b34696c84b&src=seo_token; gauntlet (Ethereum), 4.71% APY, $1.58M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.72% APY, $51.14M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GTUSDA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (A
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

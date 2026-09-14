@@ -1,6 +1,6 @@
 # MATIC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest MATIC yield right now is 17.99% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest MATIC yield right now is 17.99% on uniswap-v2 (Ethereum), amo
 | [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 17.99% | $245K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 1.24% | $104.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 17.99% APY, $245K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 1.24% APY, $104.2K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 17.99% | $245K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token) | Ethereum | 1.24% | $104.2K |
+There is not enough qualifying APY history to rank MATIC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MATIC pools have the most stable APY history?
 
-Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (Ethereum), 17.99% APY, $245K TVL, https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token; uniswap-v3 (Ethereum), 1.24% APY, $104.2K TVL, https://www.defi.garden/?pool=24b1e211-9e93-48d6-9be1-ad995c62656b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MATIC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, MATIC's lower-variability candidates are uniswap-v2 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

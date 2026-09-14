@@ -1,6 +1,6 @@
 # XIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,16 +11,10 @@ The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 5.33% | $120.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=f19d1bb8-79d6-57b3-b843-4721b4ee72f7&src=seo_token) | Solana | 14.52% | $117K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 5.33% APY, $120.7K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token) | Solana | 15.31% | $137.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 16.87% | $131.2K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 5.33% | $120.7K |
+There is not enough qualifying APY history to rank XIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -59,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XIN pools have the most stable APY history?
 
-Based on APY history only, XIN's lower-variability candidates are raydium-amm (Solana), 15.31% APY, $137.5K TVL, https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token; raydium-amm (Solana), 16.87% APY, $131.2K TVL, https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token; raydium-amm (Solana), 5.33% APY, $120.7K TVL, https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank XIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +68,4 @@ Based on APY history only, XIN's lower-variability candidates are raydium-amm (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

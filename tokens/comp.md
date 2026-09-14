@@ -1,6 +1,6 @@
 # COMP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest COMP yield right now is 19.24% on uniswap-v4 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest COMP yield right now is 19.24% on uniswap-v4 (Ethereum), amon
 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 19.24% | $318.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 14.23% | $143.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, COMP's lower-variability candidates are uniswap-v4 (Ethereum), 19.24% APY, $318.3K TVL, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; uniswap-v3 (Ethereum), 1.63% APY, $1.23M TVL, https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $1.26M TVL, https://www.defi.garden/?pool=3f500684-b3f6-478f-ae1b-51924e6db1ee&src=seo_token; uniswap-v2 (Ethereum), 14.23% APY, $143.3K TVL, https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 19.24% | $318.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 1.63% | $1.23M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=3f500684-b3f6-478f-ae1b-51924e6db1ee&src=seo_token) | Ethereum | 0.05% | $1.26M |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 14.23% | $143.3K |
+There is not enough qualifying APY history to rank COMP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -60,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COMP pools have the most stable APY history?
 
-Based on APY history only, COMP's lower-variability candidates are uniswap-v4 (Ethereum), 19.24% APY, $318.3K TVL, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; uniswap-v3 (Ethereum), 1.63% APY, $1.23M TVL, https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $1.26M TVL, https://www.defi.garden/?pool=3f500684-b3f6-478f-ae1b-51924e6db1ee&src=seo_token; uniswap-v2 (Ethereum), 14.23% APY, $143.3K TVL, https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank COMP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +68,4 @@ Based on APY history only, COMP's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

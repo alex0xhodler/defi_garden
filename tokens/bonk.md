@@ -1,6 +1,6 @@
 # BONK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BONK yield right now is 38.03% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest BONK yield right now is 38.03% on raydium-amm (Solana), among
 | [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94&src=seo_token) | Solana | 38.03% | $144.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f9dd67f9-fdb4-4c76-902e-0481bde6ef88&src=seo_token) | Ethereum | 0.50% | $136K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BONK's lower-variability candidates are uniswap-v2 (Ethereum), 0.50% APY, $136K TVL, https://www.defi.garden/?pool=f9dd67f9-fdb4-4c76-902e-0481bde6ef88&src=seo_token; orca-dex (Solana), 80.82% APY, $277.3K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94&src=seo_token; raydium-amm (Solana), 38.03% APY, $144.3K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f9dd67f9-fdb4-4c76-902e-0481bde6ef88&src=seo_token) | Ethereum | 0.50% | $136K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94&src=seo_token) | Solana | 80.82% | $277.3K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94&src=seo_token) | Solana | 38.03% | $144.3K |
+There is not enough qualifying APY history to rank BONK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BONK pools have the most stable APY history?
 
-Based on APY history only, BONK's lower-variability candidates are uniswap-v2 (Ethereum), 0.50% APY, $136K TVL, https://www.defi.garden/?pool=f9dd67f9-fdb4-4c76-902e-0481bde6ef88&src=seo_token; orca-dex (Solana), 80.82% APY, $277.3K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94&src=seo_token; raydium-amm (Solana), 38.03% APY, $144.3K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BONK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +67,4 @@ Based on APY history only, BONK's lower-variability candidates are uniswap-v2 (E
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

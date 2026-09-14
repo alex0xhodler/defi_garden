@@ -1,6 +1,6 @@
 # SURGE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SURGE yield right now is 58.77% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SURGE yield right now is 58.77% on raydium-amm (Solana), amon
 | [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 58.77% | $126.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 44.50% | $117K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 44.50% APY, $117K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 58.77% APY, $126.3K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 44.50% | $117K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 58.77% | $126.3K |
+There is not enough qualifying APY history to rank SURGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SURGE pools have the most stable APY history?
 
-Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 44.50% APY, $117K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 58.77% APY, $126.3K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SURGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

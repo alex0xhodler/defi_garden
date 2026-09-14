@@ -1,6 +1,6 @@
 # BUNKER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BUNKER yield right now is 1.69% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest BUNKER yield right now is 1.69% on raydium-amm (Solana), amon
 | [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0&src=seo_token) | Solana | 1.69% | $120.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token) | Base | 0.01% | $119K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $119K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token; raydium-amm (Solana), 1.69% APY, $120.1K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token) | Base | 0.01% | $119K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0&src=seo_token) | Solana | 1.69% | $120.1K |
+There is not enough qualifying APY history to rank BUNKER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUNKER pools have the most stable APY history?
 
-Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $119K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501&src=seo_token; raydium-amm (Solana), 1.69% APY, $120.1K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BUNKER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

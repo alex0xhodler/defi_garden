@@ -1,6 +1,6 @@
 # CORE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 CORE의 가장 높은 정직한 수익률은 CORE의 b14g에서 14.27%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -10,16 +10,10 @@
 | [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.01% | $1.57M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.27% | $1.56M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.27%, TVL $1.56M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 uniswap-v2, APY 0.01%, TVL $1.57M, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; CORE의 b14g, APY 14.27%, TVL $1.78M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.27% | $1.56M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.01% | $1.57M |
-| 3 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 14.27% | $1.78M |
+비교할 수 있는 CORE 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -57,7 +51,7 @@ DefiLlama 실시간 데이터 기준, CORE의 b14g에서 APY 14.27%예요.
 
 ### CORE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.27%, TVL $1.56M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 uniswap-v2, APY 0.01%, TVL $1.57M, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; CORE의 b14g, APY 14.27%, TVL $1.78M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 CORE 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -73,4 +67,4 @@ APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum
 - [CORE](https://www.defi.garden/ko/chains/core)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

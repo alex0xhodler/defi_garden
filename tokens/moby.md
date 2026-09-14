@@ -1,6 +1,6 @@
 # MOBY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest MOBY yield right now is 8.08% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest MOBY yield right now is 8.08% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 8.08% | $288.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.01% | $124.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $124.7K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 8.08% APY, $288.1K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.01% | $124.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 8.08% | $288.1K |
+There is not enough qualifying APY history to rank MOBY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOBY pools have the most stable APY history?
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $124.7K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 8.08% APY, $288.1K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MOBY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (E
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

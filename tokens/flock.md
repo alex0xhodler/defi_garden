@@ -1,6 +1,6 @@
 # FLOCK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FLOCK yield right now is 678.70% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest FLOCK yield right now is 678.70% on aerodrome-slipstream (Bas
 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 36.93% | $167.6K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=06f77e8f-c80a-4668-b2de-ef867a07a03b&src=seo_token) | Base | 56.65% | $155.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FLOCK's lower-variability candidates are aerodrome-v1 (Base), 56.65% APY, $155.6K TVL, https://www.defi.garden/?pool=06f77e8f-c80a-4668-b2de-ef867a07a03b&src=seo_token; uniswap-v3 (Base), 36.93% APY, $167.6K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 678.70% APY, $194.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=06f77e8f-c80a-4668-b2de-ef867a07a03b&src=seo_token) | Base | 56.65% | $155.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 36.93% | $167.6K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 678.70% | $194.8K |
+There is not enough qualifying APY history to rank FLOCK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FLOCK pools have the most stable APY history?
 
-Based on APY history only, FLOCK's lower-variability candidates are aerodrome-v1 (Base), 56.65% APY, $155.6K TVL, https://www.defi.garden/?pool=06f77e8f-c80a-4668-b2de-ef867a07a03b&src=seo_token; uniswap-v3 (Base), 36.93% APY, $167.6K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 678.70% APY, $194.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FLOCK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, FLOCK's lower-variability candidates are aerodrome-v1
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

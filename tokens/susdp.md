@@ -1,6 +1,6 @@
 # SUSDP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SUSDP yield right now is 12.00% on parallel-protocol-v3 (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,15 +10,10 @@ The highest honest SUSDP yield right now is 12.00% on parallel-protocol-v3 (Aval
 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=ca014c85-aeac-58df-8652-ec90e8bccf00&src=seo_token) | Ethereum | 12.00% | $167.6K |
 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $159.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDP's lower-variability candidates are parallel-protocol-v3 (Avalanche), 12.00% APY, $356.8K TVL, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; parallel-protocol-v3 (Hyperliquid L1), 12.00% APY, $159.3K TVL, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token) | Avalanche | 12.00% | $356.8K |
-| 2 | [parallel-protocol-v3 →](https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token) | Hyperliquid L1 | 12.00% | $159.3K |
+There is not enough qualifying APY history to rank SUSDP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDP pools have the most stable APY history?
 
-Based on APY history only, SUSDP's lower-variability candidates are parallel-protocol-v3 (Avalanche), 12.00% APY, $356.8K TVL, https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token; parallel-protocol-v3 (Hyperliquid L1), 12.00% APY, $159.3K TVL, https://www.defi.garden/?pool=086da6ff-2302-4a9e-8cd8-1599e67c655d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SUSDP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +66,4 @@ Based on APY history only, SUSDP's lower-variability candidates are parallel-pro
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

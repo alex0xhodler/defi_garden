@@ -1,6 +1,6 @@
 # SPELL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SPELL yield right now is 15.60% on abracadabra-spell (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SPELL yield right now is 15.60% on abracadabra-spell (Ethereu
 | [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 3.65% | $169.6K |
 | [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.60% | $130.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 15.60% APY, $130.9K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 3.65% APY, $169.6K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.60% | $130.9K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 3.65% | $169.6K |
+There is not enough qualifying APY history to rank SPELL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPELL pools have the most stable APY history?
 
-Based on APY history only, SPELL's lower-variability candidates are abracadabra-spell (Ethereum), 15.60% APY, $130.9K TVL, https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token; sushiswap (Ethereum), 3.65% APY, $169.6K TVL, https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SPELL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, SPELL's lower-variability candidates are abracadabra-
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

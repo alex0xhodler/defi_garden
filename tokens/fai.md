@@ -1,6 +1,6 @@
 # FAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FAI yield right now is 6.47% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest FAI yield right now is 6.47% on aerodrome-v1 (Base), among 2 
 | [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token) | Base | 6.47% | $2.47M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token) | Base | 6.26% | $251.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 6.47% APY, $2.47M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token; uniswap-v3 (Base), 6.26% APY, $251.7K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token) | Base | 6.47% | $2.47M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token) | Base | 6.26% | $251.7K |
+There is not enough qualifying APY history to rank FAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FAI pools have the most stable APY history?
 
-Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 6.47% APY, $2.47M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token; uniswap-v3 (Base), 6.26% APY, $251.7K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

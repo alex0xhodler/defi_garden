@@ -1,6 +1,6 @@
 # MDX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 MDX의 가장 높은 정직한 수익률은 Heco의 mdex에서 1.49%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -13,19 +13,10 @@
 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
 | [mdex →](https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token) | BSC | 0.31% | $117.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MDX의 변동성 낮은 후보는 BSC의 mdex, APY 0.31%, TVL $117.4K, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $7.51M, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; Heco의 mdex, APY 0.51%, TVL $143.5K, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; Heco의 mdex, APY 0.05%, TVL $5.54M, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; Heco의 mdex, APY 1.49%, TVL $135.5K, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $540.9K, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [mdex →](https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token) | BSC | 0.31% | $117.4K |
-| 2 | [mdex →](https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token) | BSC | 0.03% | $7.51M |
-| 3 | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token) | Heco | 0.51% | $143.5K |
-| 4 | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token) | Heco | 0.05% | $5.54M |
-| 5 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
-| 6 | [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $540.9K |
+비교할 수 있는 MDX 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -66,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 
 ### MDX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MDX의 변동성 낮은 후보는 BSC의 mdex, APY 0.31%, TVL $117.4K, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $7.51M, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; Heco의 mdex, APY 0.51%, TVL $143.5K, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; Heco의 mdex, APY 0.05%, TVL $5.54M, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; Heco의 mdex, APY 1.49%, TVL $135.5K, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $540.9K, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 MDX 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -82,4 +73,4 @@ APY 이력만 기준으로 비교한 MDX의 변동성 낮은 후보는 BSC의 md
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

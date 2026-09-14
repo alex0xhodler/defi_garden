@@ -1,6 +1,6 @@
 # VBETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest VBETH yield right now is 1.80% on yearn-finance (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest VBETH yield right now is 1.80% on yearn-finance (Katana), amo
 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.42% | $2.38M |
 | [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.53% | $255.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.53% APY, $255.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.42% APY, $2.38M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.63M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token) | Katana | 2.53% | $255.3K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token) | Katana | 3.42% | $2.38M |
-| 3 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.80% | $7.63M |
+There is not enough qualifying APY history to rank VBETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBETH pools have the most stable APY history?
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 2.53% APY, $255.3K TVL, https://www.defi.garden/?pool=c4479f7f-7b80-4e4c-94d5-44230b08f42a&src=seo_token; morpho-blue (Katana), 3.42% APY, $2.38M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499&src=seo_token; yearn-finance (Katana), 1.80% APY, $7.63M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank VBETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +64,4 @@ Based on APY history only, VBETH's lower-variability candidates are morpho-blue 
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

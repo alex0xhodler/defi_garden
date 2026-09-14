@@ -1,6 +1,6 @@
 # GRAM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GRAM yield right now is 38.64% on ston.fi (TON), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest GRAM yield right now is 38.64% on ston.fi (TON), among 31 poo
 | [dedust →](https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token) | TON | 10.14% | $560.4K |
 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.64% | $531.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GRAM's lower-variability candidates are ston.fi (TON), 0.01% APY, $604.4K TVL, https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token; evaa-protocol (TON), 5.66% APY, $846.6K TVL, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; affluent (TON), 14.44% APY, $776.6K TVL, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; dedust (TON), 10.14% APY, $560.4K TVL, https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token; ston.fi (TON), 5.47% APY, $4.98M TVL, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; storm-trade (TON), 6.28% APY, $1.53M TVL, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; ston.fi (TON), 3.35% APY, $5.12M TVL, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; ston.fi (TON), 38.64% APY, $531.7K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token) | TON | 0.01% | $604.4K |
-| 2 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 5.66% | $846.6K |
-| 3 | [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.44% | $776.6K |
-| 4 | [dedust →](https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token) | TON | 10.14% | $560.4K |
-| 5 | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 5.47% | $4.98M |
-| 6 | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.28% | $1.53M |
-| 7 | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 3.35% | $5.12M |
-| 8 | [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.64% | $531.7K |
+There is not enough qualifying APY history to rank GRAM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -72,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GRAM pools have the most stable APY history?
 
-Based on APY history only, GRAM's lower-variability candidates are ston.fi (TON), 0.01% APY, $604.4K TVL, https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af&src=seo_token; evaa-protocol (TON), 5.66% APY, $846.6K TVL, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; affluent (TON), 14.44% APY, $776.6K TVL, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; dedust (TON), 10.14% APY, $560.4K TVL, https://www.defi.garden/?pool=19679f38-2523-4e5e-a128-6460ace2bce6&src=seo_token; ston.fi (TON), 5.47% APY, $4.98M TVL, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; storm-trade (TON), 6.28% APY, $1.53M TVL, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; ston.fi (TON), 3.35% APY, $5.12M TVL, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; ston.fi (TON), 38.64% APY, $531.7K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GRAM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +76,4 @@ Based on APY history only, GRAM's lower-variability candidates are ston.fi (TON)
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

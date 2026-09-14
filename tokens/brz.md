@@ -1,6 +1,6 @@
 # BRZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BRZ yield right now is 14.30% on uniswap-v3 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest BRZ yield right now is 14.30% on uniswap-v3 (Polygon), among 
 | [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 0.72% | $374.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=16e70662-3112-4801-8824-93f31e24303f&src=seo_token) | Polygon | 14.30% | $101.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BRZ's lower-variability candidates are uniswap-v3 (Polygon), 14.30% APY, $101.4K TVL, https://www.defi.garden/?pool=16e70662-3112-4801-8824-93f31e24303f&src=seo_token; curve-dex (Polygon), 0.72% APY, $374.3K TVL, https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=16e70662-3112-4801-8824-93f31e24303f&src=seo_token) | Polygon | 14.30% | $101.4K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 0.72% | $374.3K |
+There is not enough qualifying APY history to rank BRZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BRZ pools have the most stable APY history?
 
-Based on APY history only, BRZ's lower-variability candidates are uniswap-v3 (Polygon), 14.30% APY, $101.4K TVL, https://www.defi.garden/?pool=16e70662-3112-4801-8824-93f31e24303f&src=seo_token; curve-dex (Polygon), 0.72% APY, $374.3K TVL, https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BRZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, BRZ's lower-variability candidates are uniswap-v3 (Po
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

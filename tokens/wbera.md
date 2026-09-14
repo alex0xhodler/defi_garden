@@ -1,6 +1,6 @@
 # WBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest WBERA yield right now is 37.51% on berapaw (Berachain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest WBERA yield right now is 37.51% on berapaw (Berachain), among
 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 35.84% | $255.5K |
 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 7.21% | $144.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 7.21% APY, $144.2K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 37.51% APY, $273.1K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; berapaw (Berachain), 35.84% APY, $255.5K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; dolomite (Berachain), 1.07% APY, $387.2K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 7.21% | $144.2K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 37.51% | $273.1K |
-| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 35.84% | $255.5K |
-| 4 | [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token) | Berachain | 1.07% | $387.2K |
+There is not enough qualifying APY history to rank WBERA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -60,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBERA pools have the most stable APY history?
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 7.21% APY, $144.2K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 37.51% APY, $273.1K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; berapaw (Berachain), 35.84% APY, $255.5K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; dolomite (Berachain), 1.07% APY, $387.2K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank WBERA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +68,4 @@ Based on APY history only, WBERA's lower-variability candidates are bex (Beracha
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

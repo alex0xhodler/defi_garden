@@ -1,6 +1,6 @@
 # SBOLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SBOLD yield right now is 6.47% on pendle-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest SBOLD yield right now is 6.47% on pendle-v2 (Ethereum), among
 | [pendle-v2 →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 6.47% | $259.3K |
 | [pendle-v2 →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 4.15% | $259.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SBOLD's lower-variability candidates are pendle-v2 (Ethereum), 6.47% APY, $259.3K TVL, https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token; pendle-v2 (Ethereum), 4.15% APY, $259.3K TVL, https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 6.47% | $259.3K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 4.15% | $259.3K |
+There is not enough qualifying APY history to rank SBOLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SBOLD pools have the most stable APY history?
 
-Based on APY history only, SBOLD's lower-variability candidates are pendle-v2 (Ethereum), 6.47% APY, $259.3K TVL, https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token; pendle-v2 (Ethereum), 4.15% APY, $259.3K TVL, https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SBOLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +62,4 @@ Based on APY history only, SBOLD's lower-variability candidates are pendle-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

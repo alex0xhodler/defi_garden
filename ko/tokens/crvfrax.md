@@ -1,6 +1,6 @@
 # CRVFRAX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 CRVFRAX의 가장 높은 정직한 수익률은 Ethereum의 stake-dao-yield에서 28.74%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -9,15 +9,10 @@
 | [yearn-finance →](https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token) | Ethereum | 0.13% | $139.7K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 28.74% | $138.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CRVFRAX의 변동성 낮은 후보는 Ethereum의 yearn-finance, APY 0.13%, TVL $139.7K, https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token; Ethereum의 stake-dao-yield, APY 28.74%, TVL $138.8K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token) | Ethereum | 0.13% | $139.7K |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 28.74% | $138.8K |
+비교할 수 있는 CRVFRAX 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -54,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 28.7
 
 ### CRVFRAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CRVFRAX의 변동성 낮은 후보는 Ethereum의 yearn-finance, APY 0.13%, TVL $139.7K, https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token; Ethereum의 stake-dao-yield, APY 28.74%, TVL $138.8K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 CRVFRAX 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -69,4 +64,4 @@ APY 이력만 기준으로 비교한 CRVFRAX의 변동성 낮은 후보는 Ether
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

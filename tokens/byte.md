@@ -1,6 +1,6 @@
 # BYTE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest BYTE yield right now is 3.80% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest BYTE yield right now is 3.80% on uniswap-v3 (Base), among 2 p
 | [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token) | Ethereum | 3.31% | $404.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=c037350d-166b-49d6-841d-1affffb04f93&src=seo_token) | Base | 3.80% | $102.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, BYTE's lower-variability candidates are uniswap-v2 (Ethereum), 3.31% APY, $404.7K TVL, https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token; uniswap-v3 (Base), 3.80% APY, $102.7K TVL, https://www.defi.garden/?pool=c037350d-166b-49d6-841d-1affffb04f93&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token) | Ethereum | 3.31% | $404.7K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c037350d-166b-49d6-841d-1affffb04f93&src=seo_token) | Base | 3.80% | $102.7K |
+There is not enough qualifying APY history to rank BYTE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BYTE pools have the most stable APY history?
 
-Based on APY history only, BYTE's lower-variability candidates are uniswap-v2 (Ethereum), 3.31% APY, $404.7K TVL, https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token; uniswap-v3 (Base), 3.80% APY, $102.7K TVL, https://www.defi.garden/?pool=c037350d-166b-49d6-841d-1affffb04f93&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank BYTE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, BYTE's lower-variability candidates are uniswap-v2 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

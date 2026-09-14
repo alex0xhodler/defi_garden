@@ -1,6 +1,6 @@
 # WFRXETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest WFRXETH yield right now is 32.23% on stake-dao-yield (Fraxtal), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest WFRXETH yield right now is 32.23% on stake-dao-yield (Fraxtal
 | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.41% | $386K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 32.23% | $103.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, WFRXETH's lower-variability candidates are stake-dao-yield (Fraxtal), 3.41% APY, $386K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; frax (Fraxtal), 1.72% APY, $3M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; stake-dao-yield (Fraxtal), 32.23% APY, $103.3K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.41% | $386K |
-| 2 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.72% | $3M |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token) | Fraxtal | 32.23% | $103.3K |
+There is not enough qualifying APY history to rank WFRXETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WFRXETH pools have the most stable APY history?
 
-Based on APY history only, WFRXETH's lower-variability candidates are stake-dao-yield (Fraxtal), 3.41% APY, $386K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; frax (Fraxtal), 1.72% APY, $3M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; stake-dao-yield (Fraxtal), 32.23% APY, $103.3K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank WFRXETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, WFRXETH's lower-variability candidates are stake-dao-
 
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

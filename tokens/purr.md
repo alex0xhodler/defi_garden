@@ -1,6 +1,6 @@
 # PURR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest PURR yield right now is 74.31% on ramses-cl-v2 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest PURR yield right now is 74.31% on ramses-cl-v2 (Hyperliquid L
 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 0.55% | $205.8K |
 | [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f&src=seo_token) | Hyperliquid L1 | 74.31% | $122.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.55% APY, $205.8K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 16.80% APY, $252.4K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 74.31% APY, $122.3K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token) | Hyperliquid L1 | 0.55% | $205.8K |
-| 2 | [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 16.80% | $252.4K |
-| 3 | [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f&src=seo_token) | Hyperliquid L1 | 74.31% | $122.3K |
+There is not enough qualifying APY history to rank PURR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PURR pools have the most stable APY history?
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.55% APY, $205.8K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a&src=seo_token; project-x (Hyperliquid L1), 16.80% APY, $252.4K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 74.31% APY, $122.3K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank PURR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

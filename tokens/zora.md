@@ -1,6 +1,6 @@
 # ZORA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest ZORA yield right now is 11.35% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -12,18 +12,10 @@ The highest honest ZORA yield right now is 11.35% on uniswap-v4 (Base), among 5 
 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.80% | $107.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.81% | $105.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 11.35% APY, $179.9K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 10.32% APY, $227.8K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 7.15% APY, $667.4K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 0.81% APY, $105.1K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 0.80% APY, $107.9K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 11.35% | $179.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 10.32% | $227.8K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 7.15% | $667.4K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.81% | $105.1K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.80% | $107.9K |
+There is not enough qualifying APY history to rank ZORA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -63,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZORA pools have the most stable APY history?
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 11.35% APY, $179.9K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 10.32% APY, $227.8K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 7.15% APY, $667.4K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 0.81% APY, $105.1K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 0.80% APY, $107.9K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank ZORA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +70,4 @@ Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (B
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

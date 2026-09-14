@@ -1,6 +1,6 @@
 # OVER 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 OVER의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 17.41%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -11,17 +11,10 @@
 | [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.70% | $161.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=089dcb55-5001-4cba-8f5c-b4567470da10&src=seo_token) | OP Mainnet | 6.92% | $100.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OVER의 변동성 낮은 후보는 OP Mainnet의 velodrome-v2, APY 1.70%, TVL $161.1K, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; OP Mainnet의 velodrome-v2, APY 11.68%, TVL $291.6K, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; Base의 aerodrome-v1, APY 17.41%, TVL $353.8K, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token; OP Mainnet의 uniswap-v3, APY 6.92%, TVL $100.9K, https://www.defi.garden/?pool=089dcb55-5001-4cba-8f5c-b4567470da10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.70% | $161.1K |
-| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 11.68% | $291.6K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 17.41% | $353.8K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=089dcb55-5001-4cba-8f5c-b4567470da10&src=seo_token) | OP Mainnet | 6.92% | $100.9K |
+비교할 수 있는 OVER 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -60,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 17.41%예�
 
 ### OVER 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OVER의 변동성 낮은 후보는 OP Mainnet의 velodrome-v2, APY 1.70%, TVL $161.1K, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; OP Mainnet의 velodrome-v2, APY 11.68%, TVL $291.6K, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; Base의 aerodrome-v1, APY 17.41%, TVL $353.8K, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token; OP Mainnet의 uniswap-v3, APY 6.92%, TVL $100.9K, https://www.defi.garden/?pool=089dcb55-5001-4cba-8f5c-b4567470da10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 OVER 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -76,4 +69,4 @@ APY 이력만 기준으로 비교한 OVER의 변동성 낮은 후보는 OP Mainn
 - [Base](https://www.defi.garden/ko/chains/base)
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

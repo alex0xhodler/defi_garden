@@ -1,6 +1,6 @@
 # ARC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest ARC yield right now is 8.94% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest ARC yield right now is 8.94% on raydium-amm (Solana), among 2
 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 8.94% | $4.65M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token) | Arbitrum | 0.01% | $452.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.01% APY, $452.9K TVL, https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token; raydium-amm (Solana), 8.94% APY, $4.65M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token) | Arbitrum | 0.01% | $452.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 8.94% | $4.65M |
+There is not enough qualifying APY history to rank ARC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ARC pools have the most stable APY history?
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.01% APY, $452.9K TVL, https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token; raydium-amm (Solana), 8.94% APY, $4.65M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank ARC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, ARC's lower-variability candidates are uniswap-v3 (Ar
 - [Solana](https://www.defi.garden/chains/solana)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

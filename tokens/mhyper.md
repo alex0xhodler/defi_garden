@@ -1,6 +1,6 @@
 # MHYPER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest MHYPER yield right now is 8.50% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest MHYPER yield right now is 8.50% on pendle-v2 (Ethereum), amon
 | [pendle-v2 →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 7.69% | $1.32M |
 | [pendle-v2 →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.50% | $1.32M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, MHYPER's lower-variability candidates are pendle-v2 (Ethereum), 8.50% APY, $1.32M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle-v2 (Ethereum), 7.69% APY, $1.32M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.50% | $1.32M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 7.69% | $1.32M |
+There is not enough qualifying APY history to rank MHYPER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MHYPER pools have the most stable APY history?
 
-Based on APY history only, MHYPER's lower-variability candidates are pendle-v2 (Ethereum), 8.50% APY, $1.32M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle-v2 (Ethereum), 7.69% APY, $1.32M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MHYPER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +62,4 @@ Based on APY history only, MHYPER's lower-variability candidates are pendle-v2 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

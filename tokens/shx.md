@@ -1,6 +1,6 @@
 # SHX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SHX yield right now is 2.13% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest SHX yield right now is 2.13% on uniswap-v4 (Ethereum), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 7.64% | $146.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 4.66% | $100.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 4.66% APY, $100.2K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 2.13% APY, $1.2M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 7.64% APY, $146.6K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 4.66% | $100.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 2.13% | $1.2M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 7.64% | $146.6K |
+There is not enough qualifying APY history to rank SHX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHX pools have the most stable APY history?
 
-Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 4.66% APY, $100.2K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 2.13% APY, $1.2M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 7.64% APY, $146.6K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SHX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +68,4 @@ Based on APY history only, SHX's lower-variability candidates are raydium-amm (S
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

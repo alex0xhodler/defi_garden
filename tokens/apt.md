@@ -1,6 +1,6 @@
 # APT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest APT yield right now is 195.25% on hyperion (Aptos), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest APT yield right now is 195.25% on hyperion (Aptos), among 9 p
 | [hyperion →](https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token) | Aptos | 12.83% | $219.6K |
 | [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, APT's lower-variability candidates are hyperion (Aptos), 0.09% APY, $103.9K TVL, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; hyperion (Aptos), 4.80% APY, $1.58M TVL, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; echelon-market (Aptos), 0.17% APY, $2M TVL, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; amnis-finance (Aptos), 2.45% APY, $3.02M TVL, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; thalaswap (Aptos), 0.06% APY, $345.6K TVL, https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token; hyperion (Aptos), 12.83% APY, $219.6K TVL, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; hyperion (Aptos), 1.12% APY, $1.44M TVL, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; hyperion (Aptos), 195.25% APY, $353.4K TVL, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
-| 2 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
-| 3 | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.17% | $2M |
-| 4 | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.45% | $3.02M |
-| 5 | [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.06% | $345.6K |
-| 6 | [hyperion →](https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token) | Aptos | 12.83% | $219.6K |
-| 7 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
-| 8 | [hyperion →](https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token) | Aptos | 195.25% | $353.4K |
+There is not enough qualifying APY history to rank APT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -72,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which APT pools have the most stable APY history?
 
-Based on APY history only, APT's lower-variability candidates are hyperion (Aptos), 0.09% APY, $103.9K TVL, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; hyperion (Aptos), 4.80% APY, $1.58M TVL, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; echelon-market (Aptos), 0.17% APY, $2M TVL, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; amnis-finance (Aptos), 2.45% APY, $3.02M TVL, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; thalaswap (Aptos), 0.06% APY, $345.6K TVL, https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token; hyperion (Aptos), 12.83% APY, $219.6K TVL, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; hyperion (Aptos), 1.12% APY, $1.44M TVL, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; hyperion (Aptos), 195.25% APY, $353.4K TVL, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank APT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +76,4 @@ Based on APY history only, APT's lower-variability candidates are hyperion (Apto
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

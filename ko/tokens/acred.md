@@ -1,6 +1,6 @@
 # ACRED 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 ACRED의 가장 높은 정직한 수익률은 Ethereum의 apollo-diversified-credit-securitize-fund에서 4.50%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -13,19 +13,10 @@
 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 4.50% | $4.9M |
 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 4.50% | $909.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ACRED의 변동성 낮은 후보는 Avalanche의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $4.9M, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; Ethereum의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $28.84M, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; Ink의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $11.11M, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; Polygon의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $909.2K, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; Sei의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $15.66M, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; Solana의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $18.35M, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 4.50% | $4.9M |
-| 2 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 4.50% | $28.84M |
-| 3 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 4.50% | $11.11M |
-| 4 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 4.50% | $909.2K |
-| 5 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 4.50% | $15.66M |
-| 6 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 4.50% | $18.35M |
+비교할 수 있는 ACRED 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -64,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 apollo-diversified-credit-secu
 
 ### ACRED 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ACRED의 변동성 낮은 후보는 Avalanche의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $4.9M, https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token; Ethereum의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $28.84M, https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token; Ink의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $11.11M, https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token; Polygon의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $909.2K, https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token; Sei의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $15.66M, https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token; Solana의 apollo-diversified-credit-securitize-fund, APY 4.50%, TVL $18.35M, https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 ACRED 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -84,4 +75,4 @@ APY 이력만 기준으로 비교한 ACRED의 변동성 낮은 후보는 Avalanc
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

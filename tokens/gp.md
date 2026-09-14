@@ -1,6 +1,6 @@
 # GP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GP yield right now is 50.70% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest GP yield right now is 50.70% on orca-dex (Solana), among 2 po
 | [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 20.19% | $480.4K |
 | [orca-dex →](https://www.defi.garden/?pool=2ccb496f-a7e6-41e3-b208-67ede79dca95&src=seo_token) | Solana | 50.70% | $142.5K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GP's lower-variability candidates are orca-dex (Solana), 20.19% APY, $480.4K TVL, https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token; orca-dex (Solana), 50.70% APY, $142.5K TVL, https://www.defi.garden/?pool=2ccb496f-a7e6-41e3-b208-67ede79dca95&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 20.19% | $480.4K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=2ccb496f-a7e6-41e3-b208-67ede79dca95&src=seo_token) | Solana | 50.70% | $142.5K |
+There is not enough qualifying APY history to rank GP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GP pools have the most stable APY history?
 
-Based on APY history only, GP's lower-variability candidates are orca-dex (Solana), 20.19% APY, $480.4K TVL, https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token; orca-dex (Solana), 50.70% APY, $142.5K TVL, https://www.defi.garden/?pool=2ccb496f-a7e6-41e3-b208-67ede79dca95&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, GP's lower-variability candidates are orca-dex (Solan
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

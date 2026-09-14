@@ -1,6 +1,6 @@
 # POL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest POL yield right now is 17.98% on uniswap-v4 (Polygon), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest POL yield right now is 17.98% on uniswap-v4 (Polygon), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token) | Polygon | 17.43% | $142.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=15950dc5-2157-41f2-be09-d5300482bd98&src=seo_token) | Polygon | 17.98% | $130.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, POL's lower-variability candidates are uniswap-v4 (Polygon), 17.98% APY, $130.2K TVL, https://www.defi.garden/?pool=15950dc5-2157-41f2-be09-d5300482bd98&src=seo_token; uniswap-v4 (Polygon), 17.43% APY, $142.5K TVL, https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=15950dc5-2157-41f2-be09-d5300482bd98&src=seo_token) | Polygon | 17.98% | $130.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token) | Polygon | 17.43% | $142.5K |
+There is not enough qualifying APY history to rank POL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which POL pools have the most stable APY history?
 
-Based on APY history only, POL's lower-variability candidates are uniswap-v4 (Polygon), 17.98% APY, $130.2K TVL, https://www.defi.garden/?pool=15950dc5-2157-41f2-be09-d5300482bd98&src=seo_token; uniswap-v4 (Polygon), 17.43% APY, $142.5K TVL, https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank POL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, POL's lower-variability candidates are uniswap-v4 (Po
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

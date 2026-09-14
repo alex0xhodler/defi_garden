@@ -1,6 +1,6 @@
 # EVA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest EVA yield right now is 10.81% on uniswap-v4 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest EVA yield right now is 10.81% on uniswap-v4 (Arbitrum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 10.81% | $215K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 30.59% | $137.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 2.59% APY, $3.97M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 10.81% APY, $215K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 30.59% APY, $137.6K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 2.59% | $3.97M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 10.81% | $215K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 30.59% | $137.6K |
+There is not enough qualifying APY history to rank EVA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EVA pools have the most stable APY history?
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 2.59% APY, $3.97M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 10.81% APY, $215K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 30.59% APY, $137.6K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank EVA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Ar
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

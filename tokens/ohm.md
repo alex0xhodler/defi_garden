@@ -1,6 +1,6 @@
 # OHM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest OHM yield right now is 3.09% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -14,20 +14,10 @@ The highest honest OHM yield right now is 3.09% on uniswap-v3 (Ethereum), among 
 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.09% | $166.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 1.41% | $126.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, OHM's lower-variability candidates are uniswap-v3 (Ethereum), 1.79% APY, $11.73M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token; uniswap-v3 (Base), 0.04% APY, $969.6K TVL, https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token; camelot-v2 (Arbitrum), 0.84% APY, $279K TVL, https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token; convex-finance (Ethereum), 0.09% APY, $166.3K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.13% APY, $176.8K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; uniswap-v3 (Ethereum), 1.41% APY, $126.7K TVL, https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token; uniswap-v3 (Ethereum), 3.09% APY, $4.95M TVL, https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 1.79% | $11.73M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.04% | $969.6K |
-| 3 | [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.84% | $279K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.09% | $166.3K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.13% | $176.8K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 1.41% | $126.7K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 3.09% | $4.95M |
+There is not enough qualifying APY history to rank OHM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -69,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OHM pools have the most stable APY history?
 
-Based on APY history only, OHM's lower-variability candidates are uniswap-v3 (Ethereum), 1.79% APY, $11.73M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token; uniswap-v3 (Base), 0.04% APY, $969.6K TVL, https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token; camelot-v2 (Arbitrum), 0.84% APY, $279K TVL, https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token; convex-finance (Ethereum), 0.09% APY, $166.3K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.13% APY, $176.8K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; uniswap-v3 (Ethereum), 1.41% APY, $126.7K TVL, https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token; uniswap-v3 (Ethereum), 3.09% APY, $4.95M TVL, https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank OHM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,4 +76,4 @@ Based on APY history only, OHM's lower-variability candidates are uniswap-v3 (Et
 - [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

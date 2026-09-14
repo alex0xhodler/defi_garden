@@ -1,6 +1,6 @@
 # XYO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest XYO yield right now is 2.09% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest XYO yield right now is 2.09% on uniswap-v4 (Ethereum), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token) | Ethereum | 2.09% | $401K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=991b904a-0e25-48c4-8412-5b3d43f151e1&src=seo_token) | Ethereum | 0.04% | $107.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, XYO's lower-variability candidates are uniswap-v4 (Ethereum), 2.09% APY, $401K TVL, https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $107.6K TVL, https://www.defi.garden/?pool=991b904a-0e25-48c4-8412-5b3d43f151e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token) | Ethereum | 2.09% | $401K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=991b904a-0e25-48c4-8412-5b3d43f151e1&src=seo_token) | Ethereum | 0.04% | $107.6K |
+There is not enough qualifying APY history to rank XYO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XYO pools have the most stable APY history?
 
-Based on APY history only, XYO's lower-variability candidates are uniswap-v4 (Ethereum), 2.09% APY, $401K TVL, https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $107.6K TVL, https://www.defi.garden/?pool=991b904a-0e25-48c4-8412-5b3d43f151e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank XYO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, XYO's lower-variability candidates are uniswap-v4 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

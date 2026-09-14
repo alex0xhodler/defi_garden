@@ -1,6 +1,6 @@
 # SIUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SIUSD yield right now is 12.33% on pendle-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -12,16 +12,10 @@ The highest honest SIUSD yield right now is 12.33% on pendle-v2 (Ethereum), amon
 | [pendle-v2 →](https://www.defi.garden/?pool=562f454d-ec4f-5a54-b469-fb3e18315f31&src=seo_token) | Ethereum | 12.33% | $151.1K |
 | [pendle-v2 →](https://www.defi.garden/?pool=0757d64d-b003-5292-8983-e0e2bb64c696&src=seo_token) | Ethereum | 11.23% | $151.1K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.40% APY, $2.84M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token; pendle-v2 (Ethereum), 8.86% APY, $2.84M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token; infinifi (Ethereum), 6.20% APY, $28.47M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 9.40% | $2.84M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 8.86% | $2.84M |
-| 3 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 6.20% | $28.47M |
+There is not enough qualifying APY history to rank SIUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -59,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SIUSD pools have the most stable APY history?
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.40% APY, $2.84M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token; pendle-v2 (Ethereum), 8.86% APY, $2.84M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token; infinifi (Ethereum), 6.20% APY, $28.47M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SIUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +68,4 @@ Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

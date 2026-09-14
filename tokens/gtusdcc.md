@@ -1,6 +1,6 @@
 # GTUSDCC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GTUSDCC yield right now is 5.86% on morpho-blue (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -11,17 +11,10 @@ The highest honest GTUSDCC yield right now is 5.86% on morpho-blue (Hyperliquid 
 | [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 4.08% | $945.3K |
 | [morpho-blue →](https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token) | Hyperliquid L1 | 5.86% | $144.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDCC's lower-variability candidates are morpho-blue (Base), 3.92% APY, $1.81M TVL, https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token; morpho-blue (Hyperliquid L1), 5.86% APY, $144.3K TVL, https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token; morpho-blue (Hyperliquid L1), 5.27% APY, $2.2M TVL, https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token; morpho-blue (Arbitrum), 4.08% APY, $945.3K TVL, https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token) | Base | 3.92% | $1.81M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token) | Hyperliquid L1 | 5.86% | $144.3K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token) | Hyperliquid L1 | 5.27% | $2.2M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 4.08% | $945.3K |
+There is not enough qualifying APY history to rank GTUSDCC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -58,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDCC pools have the most stable APY history?
 
-Based on APY history only, GTUSDCC's lower-variability candidates are morpho-blue (Base), 3.92% APY, $1.81M TVL, https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token; morpho-blue (Hyperliquid L1), 5.86% APY, $144.3K TVL, https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token; morpho-blue (Hyperliquid L1), 5.27% APY, $2.2M TVL, https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token; morpho-blue (Arbitrum), 4.08% APY, $945.3K TVL, https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GTUSDCC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +68,4 @@ Based on APY history only, GTUSDCC's lower-variability candidates are morpho-blu
 - [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

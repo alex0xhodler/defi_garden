@@ -1,6 +1,6 @@
 # SYRUPUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest SYRUPUSDC yield right now is 3.77% on fluid-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest SYRUPUSDC yield right now is 3.77% on fluid-dex (Ethereum), a
 | [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 1.21% | $271.3K |
 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 13.09% | $225.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.22% APY, $535.6K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; aave-v3 (Monad), 1.19% APY, $129.76M TVL, https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_token; orca-dex (Solana), 0.89% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.73% APY, $10.05M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Ethereum), 0.78% APY, $4.42M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; uniswap-v4 (Base), 1.21% APY, $271.3K TVL, https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token; fluid-dex (Ethereum), 3.77% APY, $605.3K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 13.09% APY, $225.2K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.22% | $535.6K |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_token) | Monad | 1.19% | $129.76M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.89% | $10.04M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.73% | $10.05M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 0.78% | $4.42M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 1.21% | $271.3K |
-| 7 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 3.77% | $605.3K |
-| 8 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 13.09% | $225.2K |
+There is not enough qualifying APY history to rank SYRUPUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -72,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYRUPUSDC pools have the most stable APY history?
 
-Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex (Solana), 0.22% APY, $535.6K TVL, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token; aave-v3 (Monad), 1.19% APY, $129.76M TVL, https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_token; orca-dex (Solana), 0.89% APY, $10.04M TVL, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token; kamino-liquidity (Solana), 0.73% APY, $10.05M TVL, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token; uniswap-v4 (Ethereum), 0.78% APY, $4.42M TVL, https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token; uniswap-v4 (Base), 1.21% APY, $271.3K TVL, https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token; fluid-dex (Ethereum), 3.77% APY, $605.3K TVL, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token; orca-dex (Solana), 13.09% APY, $225.2K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank SYRUPUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +79,4 @@ Based on APY history only, SYRUPUSDC's lower-variability candidates are orca-dex
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

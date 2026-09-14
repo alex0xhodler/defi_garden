@@ -1,6 +1,6 @@
 # IMO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest IMO yield right now is 4.49% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest IMO yield right now is 4.49% on uniswap-v3 (Base), among 2 po
 | [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 4.49% | $365.9K |
 | [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b&src=seo_token) | Base | 0.12% | $148.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.49% APY, $365.9K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token; balancer-v2 (Base), 0.12% APY, $148.9K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 4.49% | $365.9K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b&src=seo_token) | Base | 0.12% | $148.9K |
+There is not enough qualifying APY history to rank IMO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IMO pools have the most stable APY history?
 
-Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.49% APY, $365.9K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token; balancer-v2 (Base), 0.12% APY, $148.9K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank IMO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Ba
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

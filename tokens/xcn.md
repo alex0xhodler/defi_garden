@@ -1,6 +1,6 @@
 # XCN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest XCN yield right now is 89.20% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest XCN yield right now is 89.20% on uniswap-v3 (Base), among 2 p
 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 80.06% | $806.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 89.20% | $179K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 89.20% APY, $179K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 80.06% APY, $806.2K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 89.20% | $179K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 80.06% | $806.2K |
+There is not enough qualifying APY history to rank XCN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XCN pools have the most stable APY history?
 
-Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Base), 89.20% APY, $179K TVL, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; uniswap-v2 (Ethereum), 80.06% APY, $806.2K TVL, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank XCN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, XCN's lower-variability candidates are uniswap-v3 (Ba
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

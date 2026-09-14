@@ -1,6 +1,6 @@
 # HAHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest HAHYPE yield right now is 3.19% on pendle-v2 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest HAHYPE yield right now is 3.19% on pendle-v2 (Hyperliquid L1)
 | [pendle-v2 →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.39% | $105.6K |
 | [pendle-v2 →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.19% | $105.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, HAHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.19% APY, $105.6K TVL, https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token; pendle-v2 (Hyperliquid L1), 2.39% APY, $105.6K TVL, https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token) | Hyperliquid L1 | 3.19% | $105.6K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token) | Hyperliquid L1 | 2.39% | $105.6K |
+There is not enough qualifying APY history to rank HAHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HAHYPE pools have the most stable APY history?
 
-Based on APY history only, HAHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 3.19% APY, $105.6K TVL, https://www.defi.garden/?pool=e0d656c6-9133-59db-a0c2-aa56afd44dd3&src=seo_token; pendle-v2 (Hyperliquid L1), 2.39% APY, $105.6K TVL, https://www.defi.garden/?pool=45310dd0-8c03-595f-b37a-d08cecd8b605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank HAHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +62,4 @@ Based on APY history only, HAHYPE's lower-variability candidates are pendle-v2 (
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

@@ -1,6 +1,6 @@
 # FXUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 FXUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.82%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -15,21 +15,10 @@
 | [convex-finance →](https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token) | Ethereum | 0.06% | $140.1K |
 | [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.70% | $124.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FXUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $152.4K, https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token; Ethereum의 convex-finance, APY 0.38%, TVL $8.98M, https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token; Ethereum의 curve-dex, APY 0.38%, TVL $8.98M, https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token; Ethereum의 convex-finance, APY 0.06%, TVL $140.1K, https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token; Ethereum의 convex-finance, APY 6.82%, TVL $1.28M, https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token; Ethereum의 curve-dex, APY 0.70%, TVL $124.7K, https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token; Ethereum의 curve-dex, APY 5.28%, TVL $1.28M, https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token; Ethereum의 curve-dex, APY 1.91%, TVL $343.6K, https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token) | Ethereum | 0.06% | $152.4K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.38% | $8.98M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 0.38% | $8.98M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token) | Ethereum | 0.06% | $140.1K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 6.82% | $1.28M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.70% | $124.7K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 5.28% | $1.28M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 1.91% | $343.6K |
+비교할 수 있는 FXUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -70,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.82%
 
 ### FXUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FXUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $152.4K, https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token; Ethereum의 convex-finance, APY 0.38%, TVL $8.98M, https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token; Ethereum의 curve-dex, APY 0.38%, TVL $8.98M, https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token; Ethereum의 convex-finance, APY 0.06%, TVL $140.1K, https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token; Ethereum의 convex-finance, APY 6.82%, TVL $1.28M, https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token; Ethereum의 curve-dex, APY 0.70%, TVL $124.7K, https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token; Ethereum의 curve-dex, APY 5.28%, TVL $1.28M, https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token; Ethereum의 curve-dex, APY 1.91%, TVL $343.6K, https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 FXUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +74,4 @@ APY 이력만 기준으로 비교한 FXUSD의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

@@ -1,6 +1,6 @@
 # RLB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest RLB yield right now is 8.60% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,16 +10,10 @@ The highest honest RLB yield right now is 8.60% on uniswap-v3 (Ethereum), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=aa2e7ba7-b158-4f95-900c-3a60fce9b795&src=seo_token) | Ethereum | 6.61% | $2.35M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token) | Ethereum | 8.60% | $651.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, RLB's lower-variability candidates are uniswap-v3 (Ethereum), 2.72% APY, $2.6M TVL, https://www.defi.garden/?pool=5aa65d8c-d0d9-45a7-84e8-d4ed40416a10&src=seo_token; uniswap-v3 (Ethereum), 6.61% APY, $2.35M TVL, https://www.defi.garden/?pool=aa2e7ba7-b158-4f95-900c-3a60fce9b795&src=seo_token; uniswap-v3 (Ethereum), 8.60% APY, $651.4K TVL, https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=5aa65d8c-d0d9-45a7-84e8-d4ed40416a10&src=seo_token) | Ethereum | 2.72% | $2.6M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=aa2e7ba7-b158-4f95-900c-3a60fce9b795&src=seo_token) | Ethereum | 6.61% | $2.35M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token) | Ethereum | 8.60% | $651.4K |
+There is not enough qualifying APY history to rank RLB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -57,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RLB pools have the most stable APY history?
 
-Based on APY history only, RLB's lower-variability candidates are uniswap-v3 (Ethereum), 2.72% APY, $2.6M TVL, https://www.defi.garden/?pool=5aa65d8c-d0d9-45a7-84e8-d4ed40416a10&src=seo_token; uniswap-v3 (Ethereum), 6.61% APY, $2.35M TVL, https://www.defi.garden/?pool=aa2e7ba7-b158-4f95-900c-3a60fce9b795&src=seo_token; uniswap-v3 (Ethereum), 8.60% APY, $651.4K TVL, https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank RLB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +66,4 @@ Based on APY history only, RLB's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

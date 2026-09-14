@@ -1,6 +1,6 @@
 # COIL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest COIL yield right now is 0.01% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest COIL yield right now is 0.01% on curve-dex (Ethereum), among 
 | [curve-dex →](https://www.defi.garden/?pool=be04b294-d73a-4a71-b533-f667f7471500&src=seo_token) | Ethereum | 0.01% | $351K |
 | [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.01% | $157.9K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, COIL's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $351K TVL, https://www.defi.garden/?pool=be04b294-d73a-4a71-b533-f667f7471500&src=seo_token; convex-finance (Ethereum), 0.01% APY, $157.9K TVL, https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=be04b294-d73a-4a71-b533-f667f7471500&src=seo_token) | Ethereum | 0.01% | $351K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.01% | $157.9K |
+There is not enough qualifying APY history to rank COIL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COIL pools have the most stable APY history?
 
-Based on APY history only, COIL's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $351K TVL, https://www.defi.garden/?pool=be04b294-d73a-4a71-b533-f667f7471500&src=seo_token; convex-finance (Ethereum), 0.01% APY, $157.9K TVL, https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank COIL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, COIL's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

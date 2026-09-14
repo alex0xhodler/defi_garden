@@ -1,6 +1,6 @@
 # GME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest GME yield right now is 3.21% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest GME yield right now is 3.21% on uniswap-v2 (Ethereum), among 
 | [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 59.94% | $1.17M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 3.21% | $684.2K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 59.94% APY, $1.17M TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 3.21% APY, $684.2K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 59.94% | $1.17M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 3.21% | $684.2K |
+There is not enough qualifying APY history to rank GME pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GME pools have the most stable APY history?
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 59.94% APY, $1.17M TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 3.21% APY, $684.2K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GME pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +65,4 @@ Based on APY history only, GME's lower-variability candidates are raydium-amm (S
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

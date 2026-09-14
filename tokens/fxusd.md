@@ -1,6 +1,6 @@
 # FXUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest FXUSD yield right now is 6.82% on convex-finance (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -15,21 +15,10 @@ The highest honest FXUSD yield right now is 6.82% on convex-finance (Ethereum), 
 | [convex-finance →](https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token) | Ethereum | 0.06% | $140.1K |
 | [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.70% | $124.7K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, FXUSD's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $152.4K TVL, https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token; convex-finance (Ethereum), 0.38% APY, $8.98M TVL, https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token; curve-dex (Ethereum), 0.38% APY, $8.98M TVL, https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token; convex-finance (Ethereum), 0.06% APY, $140.1K TVL, https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token; convex-finance (Ethereum), 6.82% APY, $1.28M TVL, https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token; curve-dex (Ethereum), 0.70% APY, $124.7K TVL, https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token; curve-dex (Ethereum), 5.28% APY, $1.28M TVL, https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token; curve-dex (Ethereum), 1.91% APY, $343.6K TVL, https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token) | Ethereum | 0.06% | $152.4K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.38% | $8.98M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 0.38% | $8.98M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token) | Ethereum | 0.06% | $140.1K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 6.82% | $1.28M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.70% | $124.7K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 5.28% | $1.28M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 1.91% | $343.6K |
+There is not enough qualifying APY history to rank FXUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -70,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FXUSD pools have the most stable APY history?
 
-Based on APY history only, FXUSD's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $152.4K TVL, https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token; convex-finance (Ethereum), 0.38% APY, $8.98M TVL, https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token; curve-dex (Ethereum), 0.38% APY, $8.98M TVL, https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token; convex-finance (Ethereum), 0.06% APY, $140.1K TVL, https://www.defi.garden/?pool=7de82f16-5afc-4631-b80b-84470ddfd172&src=seo_token; convex-finance (Ethereum), 6.82% APY, $1.28M TVL, https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token; curve-dex (Ethereum), 0.70% APY, $124.7K TVL, https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token; curve-dex (Ethereum), 5.28% APY, $1.28M TVL, https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token; curve-dex (Ethereum), 1.91% APY, $343.6K TVL, https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank FXUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +74,4 @@ Based on APY history only, FXUSD's lower-variability candidates are curve-dex (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026

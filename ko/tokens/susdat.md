@@ -1,6 +1,6 @@
 # SUSDAT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 SUSDAT의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 56.44%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -13,19 +13,10 @@
 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 10.15% | $1.27M |
 | [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.93% | $136.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 16.91%, TVL $2.69M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 10.15%, TVL $1.27M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.93%, TVL $136.8K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 15.27%, TVL $72.13M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 56.44%, TVL $1.27M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 28.08%, TVL $2.69M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 16.91% | $2.69M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 10.15% | $1.27M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.93% | $136.8K |
-| 4 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 15.27% | $72.13M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token) | Ethereum | 56.44% | $1.27M |
-| 6 | [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 28.08% | $2.69M |
+비교할 수 있는 SUSDAT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -64,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 56.44%예�
 
 ### SUSDAT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 16.91%, TVL $2.69M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 10.15%, TVL $1.27M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.93%, TVL $136.8K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 15.27%, TVL $72.13M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 56.44%, TVL $1.27M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 28.08%, TVL $2.69M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 SUSDAT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,4 +71,4 @@ APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

@@ -1,6 +1,6 @@
 # NEIRO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 NEIRO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.19%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -12,18 +12,10 @@
 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.15% | $151K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 0.20% | $128.6K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NEIRO의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.05%, TVL $322.3K, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; Solana의 raydium-amm, APY 2.19%, TVL $193.5K, https://www.defi.garden/?pool=607f17f6-b231-425c-8f54-565291ffb1d3&src=seo_token; Ethereum의 uniswap-v3, APY 0.20%, TVL $128.6K, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; Ethereum의 uniswap-v2, APY 0.15%, TVL $151K, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; Ethereum의 uniswap-v2, APY 4.46%, TVL $3.48M, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
-
-| 순위 | 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 2.05% | $322.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=607f17f6-b231-425c-8f54-565291ffb1d3&src=seo_token) | Solana | 2.19% | $193.5K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 0.20% | $128.6K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.15% | $151K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 4.46% | $3.48M |
+비교할 수 있는 NEIRO 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -63,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.19%예�
 
 ### NEIRO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NEIRO의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.05%, TVL $322.3K, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; Solana의 raydium-amm, APY 2.19%, TVL $193.5K, https://www.defi.garden/?pool=607f17f6-b231-425c-8f54-565291ffb1d3&src=seo_token; Ethereum의 uniswap-v3, APY 0.20%, TVL $128.6K, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; Ethereum의 uniswap-v2, APY 0.15%, TVL $151K, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; Ethereum의 uniswap-v2, APY 4.46%, TVL $3.48M, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+비교할 수 있는 NEIRO 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -79,4 +71,4 @@ APY 이력만 기준으로 비교한 NEIRO의 변동성 낮은 후보는 Solana�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 12, 2026
+## 마지막 업데이트: September 14, 2026

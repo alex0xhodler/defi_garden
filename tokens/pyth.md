@@ -1,6 +1,6 @@
 # PYTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
 
 The highest honest PYTH yield right now is 113.80% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,15 +9,10 @@ The highest honest PYTH yield right now is 113.80% on orca-dex (Solana), among 3
 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 53.48% | $386.7K |
 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 113.80% | $123.5K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 113.80% APY, $123.5K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 53.48% APY, $386.7K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 113.80% | $123.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 53.48% | $386.7K |
+There is not enough qualifying APY history to rank PYTH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PYTH pools have the most stable APY history?
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 113.80% APY, $123.5K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 53.48% APY, $386.7K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank PYTH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +64,4 @@ Based on APY history only, PYTH's lower-variability candidates are orca-dex (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 12, 2026
+## Last updated September 14, 2026
