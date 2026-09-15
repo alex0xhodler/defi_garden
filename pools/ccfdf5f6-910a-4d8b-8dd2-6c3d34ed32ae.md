@@ -1,12 +1,12 @@
 # WSOL-HEHE — raydium-amm on Solana
 
-**Total APY:** 3.37% (3.37% Base · + 0.00% Rewards)
+**Total APY:** 3.36% (3.36% Base · + 0.00% Rewards)
 
-**TVL:** $172.9K
+**TVL:** $171.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 2.37%
+**30d Mean APY:** 2.41%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated September 14, 2026
+Last updated September 15, 2026

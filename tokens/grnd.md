@@ -1,12 +1,12 @@
 # GRND DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest GRND yield right now is 257.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRND yield right now is 587.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=78a05364-3dd6-5310-aeae-15100321e3c6&src=seo_token) | Solana | 257.70% | $117.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=78a05364-3dd6-5310-aeae-15100321e3c6&src=seo_token) | Solana | 587.47% | $118.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRND yield today?
 
-257.70% APY on raydium-amm (Solana), based on live DefiLlama data.
+587.47% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GRND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.9K in total.
+1 live pool clear this page's $100K TVL floor, $118.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GRND pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

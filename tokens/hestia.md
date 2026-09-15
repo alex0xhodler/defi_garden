@@ -1,12 +1,12 @@
 # HESTIA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest HESTIA yield right now is 0.44% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HESTIA yield right now is 3.13% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 0.44% | $189.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 3.13% | $189.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HESTIA yield today?
 
-0.44% APY on uniswap-v3 (Base), based on live DefiLlama data.
+3.13% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many HESTIA pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HESTIA pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

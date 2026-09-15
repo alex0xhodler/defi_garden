@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [ATUSD](https://www.defi.garden/tokens/atusd)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

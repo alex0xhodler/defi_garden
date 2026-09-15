@@ -1,43 +1,40 @@
 # SPC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest SPC yield right now is 110.70% on sushiswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPC yield right now is 110.49% on sushiswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 7.62% | $225.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 110.70% | $149.2K |
-| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 97.25% | $134.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 110.49% | $147.4K |
+| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 96.62% | $132K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPC's lower-variability candidates are raydium-amm (Solana), 7.62% APY, $225.6K TVL, https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token; sushiswap-v3 (Ethereum), 110.70% APY, $149.2K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 97.25% APY, $134.1K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 110.49% APY, $147.4K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 96.62% APY, $132K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 7.62% | $225.6K |
-| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 110.70% | $149.2K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 97.25% | $134.1K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 110.49% | $147.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 96.62% | $132K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPC shows up in 3 pools here, with rates from 7.62% to 110.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPC shows up in 2 pools here, with rates from 96.62% to 110.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 82.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 96.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 7.62% | 4.74% | Base rate |
-| sushiswap-v3 | 110.70% | 109.91% | 98.33% incentives |
-| curve-dex | 97.25% | 82.37% | 99.70% incentives |
+| sushiswap-v3 | 110.49% | 110.69% | 98.25% incentives |
+| curve-dex | 96.62% | 83.21% | 99.45% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPC yield today?
 
-110.70% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+110.49% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SPC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $508.9K in total.
+2 live pools clear this page's $100K TVL floor, $279.4K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPC pools have the most stable APY history?
 
-Based on APY history only, SPC's lower-variability candidates are raydium-amm (Solana), 7.62% APY, $225.6K TVL, https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token; sushiswap-v3 (Ethereum), 110.70% APY, $149.2K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 97.25% APY, $134.1K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 110.49% APY, $147.4K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 96.62% APY, $132K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,7 +67,6 @@ Based on APY history only, SPC's lower-variability candidates are raydium-amm (S
 
 ## Available on
 
-- [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

@@ -1,12 +1,12 @@
 # KII DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest KII yield right now is 6.19% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KII yield right now is 0.53% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c&src=seo_token) | Mantle | 6.19% | $393.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c&src=seo_token) | Mantle | 0.53% | $467K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KII yield today?
 
-6.19% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.53% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many KII pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $393.4K in total.
+1 live pool clear this page's $100K TVL floor, $467K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank KII pools. This view covers A
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

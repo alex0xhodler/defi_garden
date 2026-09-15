@@ -1,12 +1,12 @@
 # SWETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
 The highest honest SWETH yield right now is 2.44% on swell-liquid-staking (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.44% | $35.36M |
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.44% | $34.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $35.48M in total.
+2 live pools clear this page's $100K TVL floor, $35.05M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SWETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

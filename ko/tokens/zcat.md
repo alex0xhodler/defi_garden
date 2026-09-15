@@ -1,15 +1,15 @@
 # ZCAT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 15, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 ZCAT의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 444.32%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 384.96% | $1.52M |
+| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 338.88% | $1.52M |
 | [raydium-amm →](https://www.defi.garden/?pool=c846eaa2-d5c7-5e66-b05f-3806b5e480d6&src=seo_token) | Solana | 78.89% | $155.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 192.61% | $154.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=4222292a-6be4-5fb5-944e-2bcc7470e9ca&src=seo_token) | Solana | 444.32% | $147.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 120.09% | $140.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -30,10 +30,10 @@ ZCAT 풀은 여기 4개가 있고, 1개 체인에서 APY가 78.89%부터 444.32%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 384.96% | — | 기본 금리 |
+| raydium-amm | 338.88% | — | 기본 금리 |
 | raydium-amm | 78.89% | 78.89% | 기본 금리 |
-| raydium-amm | 192.61% | 428.23% | 기본 금리 |
 | raydium-amm | 444.32% | 304.53% | 기본 금리 |
+| raydium-amm | 120.09% | 324.24% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 444.32%예
 
 ### ZCAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.98M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 444.32%예
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 14, 2026
+## 마지막 업데이트: September 15, 2026

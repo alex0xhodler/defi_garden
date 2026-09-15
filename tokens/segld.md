@@ -1,12 +1,12 @@
 # SEGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
 The highest honest SEGLD yield right now is 0.10% on ashswap (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $106.1K |
+| [ashswap →](https://www.defi.garden/?pool=9214f885-b13e-47d4-bc56-2043fb2a18cd&src=seo_token) | MultiversX | 0.10% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SEGLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.26M in total.
+2 live pools clear this page's $100K TVL floor, $3.28M in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank SEGLD pools. This view covers
 ## Related tokens
 
 - [WEGLD](https://www.defi.garden/tokens/wegld)
-- [MEX](https://www.defi.garden/tokens/mex)
 - [HTM](https://www.defi.garden/tokens/htm)
 - [SWTAO](https://www.defi.garden/tokens/swtao)
 - [USH](https://www.defi.garden/tokens/ush)
 - [EGLD](https://www.defi.garden/tokens/egld)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

@@ -1,15 +1,14 @@
 # XIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XIN yield right now is 16.87% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=a2a6174a-a48f-4143-9ac2-ded52f166ddb&src=seo_token) | Solana | 15.31% | $137.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 16.87% | $131.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79&src=seo_token) | Solana | 5.33% | $120.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=f19d1bb8-79d6-57b3-b843-4721b4ee72f7&src=seo_token) | Solana | 14.52% | $117K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -26,20 +25,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XIN shows up in 4 pools here, with rates from 5.33% to 16.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XIN shows up in 3 pools here, with rates from 5.33% to 16.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 15.31% | 14.36% | Base rate |
 | raydium-amm | 16.87% | 11.98% | Base rate |
 | raydium-amm | 5.33% | 5.41% | Base rate |
-| raydium-amm | 14.52% | 16.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $506.3K in total.
+3 live pools clear this page's $100K TVL floor, $389.4K in total.
 
 ### Are these rates safe?
 
@@ -74,4 +72,4 @@ Based on APY history only, XIN's lower-variability candidates are raydium-amm (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

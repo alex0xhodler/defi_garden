@@ -1,8 +1,8 @@
 # MHYETH — morpho-blue on Ethereum
 
-**Total APY:** 1.49% (1.49% Base · + 0.00% Rewards)
+**Total APY:** 1.50% (1.50% Base · + 0.00% Rewards)
 
-**TVL:** $2.09M
+**TVL:** $2.07M
 
 **Pool Type:** Lending
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 14, 2026
+Last updated September 15, 2026

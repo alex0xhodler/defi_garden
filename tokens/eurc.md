@@ -1,58 +1,58 @@
 # EURC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest EURC yield right now is 67.58% on aerodrome-slipstream (Base), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURC yield right now is 3.15% on yo-protocol (Base), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.32% | $16.5M |
-| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 2.75% | $5.17M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 1.97% | $3.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 18.49% | $2.29M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 27.58% | $1.59M |
-| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.69% | $1.32M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 67.58% | $995.4K |
-| [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.24% | $767.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.31% | $16.56M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 2.88% | $5.13M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 1.88% | $4.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 26.51% | $2.35M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 33.48% | $1.49M |
+| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.70% | $1.32M |
+| [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.26% | $758.1K |
+| [yo-protocol →](https://www.defi.garden/?pool=68ebb322-e83a-45b3-8cea-edd62cd1467b&src=seo_token) | Base | 3.15% | $648.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EURC's lower-variability candidates are aave-v3 (Base), 1.97% APY, $3.93M TVL, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; aave-v3 (Ethereum), 2.32% APY, $16.5M TVL, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; jupiter-lend (Solana), 2.75% APY, $5.17M TVL, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; fluid-lending (Base), 2.69% APY, $1.32M TVL, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; aave-v3 (Avalanche), 1.24% APY, $767.9K TVL, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; uniswap-v4 (Ethereum), 18.49% APY, $2.29M TVL, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; aerodrome-slipstream (Base), 27.58% APY, $1.59M TVL, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; aerodrome-slipstream (Base), 67.58% APY, $995.4K TVL, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURC's lower-variability candidates are aave-v3 (Base), 1.88% APY, $4.02M TVL, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; aave-v3 (Ethereum), 2.31% APY, $16.56M TVL, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; jupiter-lend (Solana), 2.88% APY, $5.13M TVL, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; fluid-lending (Base), 2.70% APY, $1.32M TVL, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; aave-v3 (Avalanche), 1.26% APY, $758.1K TVL, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; yo-protocol (Base), 3.15% APY, $648.9K TVL, https://www.defi.garden/?pool=68ebb322-e83a-45b3-8cea-edd62cd1467b&src=seo_token; uniswap-v4 (Ethereum), 26.51% APY, $2.35M TVL, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; aerodrome-slipstream (Base), 33.48% APY, $1.49M TVL, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 1.97% | $3.93M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.32% | $16.5M |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 2.75% | $5.17M |
-| 4 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.69% | $1.32M |
-| 5 | [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.24% | $767.9K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 18.49% | $2.29M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 27.58% | $1.59M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 67.58% | $995.4K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 1.88% | $4.02M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.31% | $16.56M |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 2.88% | $5.13M |
+| 4 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.70% | $1.32M |
+| 5 | [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.26% | $758.1K |
+| 6 | [yo-protocol →](https://www.defi.garden/?pool=68ebb322-e83a-45b3-8cea-edd62cd1467b&src=seo_token) | Base | 3.15% | $648.9K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 26.51% | $2.35M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 33.48% | $1.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURC shows up in 8 pools here, with rates from 1.24% to 67.58% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURC shows up in 8 pools here, with rates from 1.26% to 33.48% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 2.32% | 2.41% | Base rate |
-| jupiter-lend | 2.75% | 3.75% | Base rate |
-| aave-v3 | 1.97% | 2.13% | Base rate |
-| uniswap-v4 | 18.49% | 13.35% | Base rate |
-| aerodrome-slipstream | 27.58% | 21.46% | 30.96% incentives |
-| fluid-lending | 2.69% | 2.93% | Base rate |
-| aerodrome-slipstream | 67.58% | 109.39% | 14.21% incentives |
-| aave-v3 | 1.24% | 1.50% | Base rate |
+| aave-v3 | 2.31% | 2.38% | Base rate |
+| jupiter-lend | 2.88% | 3.74% | Base rate |
+| aave-v3 | 1.88% | 2.10% | Base rate |
+| uniswap-v4 | 26.51% | 13.62% | Base rate |
+| aerodrome-slipstream | 33.48% | 22.18% | 14.53% incentives |
+| fluid-lending | 2.70% | 2.92% | Base rate |
+| aave-v3 | 1.26% | 1.48% | Base rate |
+| yo-protocol | 3.15% | 3.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EURC yield today?
 
-67.58% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+3.15% APY on yo-protocol (Base), based on live DefiLlama data.
 
 ### How many EURC pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $42.86M in total.
+30 live pools clear this page's $100K TVL floor, $42.58M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURC pools have the most stable APY history?
 
-Based on APY history only, EURC's lower-variability candidates are aave-v3 (Base), 1.97% APY, $3.93M TVL, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; aave-v3 (Ethereum), 2.32% APY, $16.5M TVL, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; jupiter-lend (Solana), 2.75% APY, $5.17M TVL, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; fluid-lending (Base), 2.69% APY, $1.32M TVL, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; aave-v3 (Avalanche), 1.24% APY, $767.9K TVL, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; uniswap-v4 (Ethereum), 18.49% APY, $2.29M TVL, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; aerodrome-slipstream (Base), 27.58% APY, $1.59M TVL, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; aerodrome-slipstream (Base), 67.58% APY, $995.4K TVL, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURC's lower-variability candidates are aave-v3 (Base), 1.88% APY, $4.02M TVL, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; aave-v3 (Ethereum), 2.31% APY, $16.56M TVL, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; jupiter-lend (Solana), 2.88% APY, $5.13M TVL, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; fluid-lending (Base), 2.70% APY, $1.32M TVL, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; aave-v3 (Avalanche), 1.26% APY, $758.1K TVL, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; yo-protocol (Base), 3.15% APY, $648.9K TVL, https://www.defi.garden/?pool=68ebb322-e83a-45b3-8cea-edd62cd1467b&src=seo_token; uniswap-v4 (Ethereum), 26.51% APY, $2.35M TVL, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; aerodrome-slipstream (Base), 33.48% APY, $1.49M TVL, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +90,4 @@ Based on APY history only, EURC's lower-variability candidates are aave-v3 (Base
 - [Base](https://www.defi.garden/chains/base)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

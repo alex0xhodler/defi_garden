@@ -1,8 +1,8 @@
 # CDAI-CUSDC — curve-dex on Ethereum
 
-**Total APY:** 0.03% (0.02% Base · + 0.01% Rewards)
+**Total APY:** 0.01% (0.00% Base · + 0.01% Rewards)
 
-**TVL:** $562K
+**TVL:** $562.1K
 
 **Pool Type:** LP/DEX
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,001 in 5y at current rates.
+$1,000 in this pool grows to ~$1,000 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.03% right now vs a 0.01% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,001 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,000 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated September 14, 2026
+Last updated September 15, 2026

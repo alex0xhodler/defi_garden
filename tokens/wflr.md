@@ -1,43 +1,43 @@
 # WFLR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest WFLR yield right now is 26.47% on sparkdex-v4 (Flare), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WFLR yield right now is 30.60% on sparkdex-v4 (Flare), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 26.47% | $1.41M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.98% | $1.32M |
-| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 2.50% | $1.09M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.59% | $977.5K |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.75% | $921K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.53% | $351.3K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.02% | $320.5K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 7.78% | $241.1K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 30.60% | $1.46M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.10% | $1.33M |
+| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 2.43% | $1.12M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.65% | $999.8K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 17.63% | $951.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 5.73% | $361.6K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.16% | $325.4K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 7.56% | $242.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WFLR's lower-variability candidates are sparkdex-v4 (Flare), 6.59% APY, $977.5K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; sparkdex-v4 (Flare), 4.98% APY, $1.32M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; kinetic (Flare), 2.50% APY, $1.09M TVL, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; sparkdex-v4 (Flare), 18.75% APY, $921K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v3.1 (Flare), 2.53% APY, $351.3K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; sparkdex-v4 (Flare), 26.47% APY, $1.41M TVL, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; sparkdex-v3.1 (Flare), 1.02% APY, $320.5K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sparkdex-v3.1 (Flare), 7.78% APY, $241.1K TVL, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WFLR's lower-variability candidates are sparkdex-v4 (Flare), 6.65% APY, $999.8K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; sparkdex-v4 (Flare), 5.10% APY, $1.33M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; kinetic (Flare), 2.43% APY, $1.12M TVL, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; sparkdex-v4 (Flare), 17.63% APY, $951.2K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v3.1 (Flare), 5.73% APY, $361.6K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; sparkdex-v4 (Flare), 30.60% APY, $1.46M TVL, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; sparkdex-v3.1 (Flare), 1.16% APY, $325.4K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sparkdex-v3.1 (Flare), 7.56% APY, $242.7K TVL, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.59% | $977.5K |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.98% | $1.32M |
-| 3 | [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 2.50% | $1.09M |
-| 4 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.75% | $921K |
-| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.53% | $351.3K |
-| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 26.47% | $1.41M |
-| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.02% | $320.5K |
-| 8 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 7.78% | $241.1K |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.65% | $999.8K |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 5.10% | $1.33M |
+| 3 | [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 2.43% | $1.12M |
+| 4 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 17.63% | $951.2K |
+| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 5.73% | $361.6K |
+| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 30.60% | $1.46M |
+| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.16% | $325.4K |
+| 8 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 7.56% | $242.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WFLR shows up in 8 pools here, with rates from 1.02% to 26.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WFLR shows up in 8 pools here, with rates from 1.16% to 30.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ WFLR shows up in 8 pools here, with rates from 1.02% to 26.47% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v4 | 26.47% | 40.34% | 80.67% incentives |
-| sparkdex-v4 | 4.98% | 4.57% | 99.64% incentives |
-| kinetic | 2.50% | 3.98% | 67.54% incentives |
-| sparkdex-v4 | 6.59% | 6.50% | 99.77% incentives |
-| sparkdex-v4 | 18.75% | 20.24% | 59.32% incentives |
-| sparkdex-v3.1 | 2.53% | 4.14% | 49.86% incentives |
-| sparkdex-v3.1 | 1.02% | 1.09% | 82.06% incentives |
-| sparkdex-v3.1 | 7.78% | 11.86% | 11.10% incentives |
+| sparkdex-v4 | 30.60% | 40.70% | 68.48% incentives |
+| sparkdex-v4 | 5.10% | 4.59% | 99.67% incentives |
+| kinetic | 2.43% | 3.89% | 69.40% incentives |
+| sparkdex-v4 | 6.65% | 6.51% | 99.70% incentives |
+| sparkdex-v4 | 17.63% | 20.53% | 61.74% incentives |
+| sparkdex-v3.1 | 5.73% | 4.23% | 23.06% incentives |
+| sparkdex-v3.1 | 1.16% | 1.10% | 77.03% incentives |
+| sparkdex-v3.1 | 7.56% | 12.00% | 12.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WFLR yield today?
 
-26.47% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
+30.60% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
 
 ### How many WFLR pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $7M in total.
+11 live pools clear this page's $100K TVL floor, $7.17M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WFLR pools have the most stable APY history?
 
-Based on APY history only, WFLR's lower-variability candidates are sparkdex-v4 (Flare), 6.59% APY, $977.5K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; sparkdex-v4 (Flare), 4.98% APY, $1.32M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; kinetic (Flare), 2.50% APY, $1.09M TVL, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; sparkdex-v4 (Flare), 18.75% APY, $921K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v3.1 (Flare), 2.53% APY, $351.3K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; sparkdex-v4 (Flare), 26.47% APY, $1.41M TVL, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; sparkdex-v3.1 (Flare), 1.02% APY, $320.5K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sparkdex-v3.1 (Flare), 7.78% APY, $241.1K TVL, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WFLR's lower-variability candidates are sparkdex-v4 (Flare), 6.65% APY, $999.8K TVL, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; sparkdex-v4 (Flare), 5.10% APY, $1.33M TVL, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; kinetic (Flare), 2.43% APY, $1.12M TVL, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; sparkdex-v4 (Flare), 17.63% APY, $951.2K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v3.1 (Flare), 5.73% APY, $361.6K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; sparkdex-v4 (Flare), 30.60% APY, $1.46M TVL, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; sparkdex-v3.1 (Flare), 1.16% APY, $325.4K TVL, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; sparkdex-v3.1 (Flare), 7.56% APY, $242.7K TVL, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, WFLR's lower-variability candidates are sparkdex-v4 (
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

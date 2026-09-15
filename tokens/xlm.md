@@ -1,31 +1,31 @@
 # XLM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
 The highest honest XLM yield right now is 0.01% on blend-pools-v2 (Stellar), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.01% | $126.6K |
-| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 1.15% | $118.2K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.01% | $132.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 7.04% | $120.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.01% APY, $126.6K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; vvs-standard (Cronos), 1.15% APY, $118.2K TVL, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.01% APY, $132.9K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; vvs-standard (Cronos), 7.04% APY, $120.3K TVL, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.01% | $126.6K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 1.15% | $118.2K |
+| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.01% | $132.9K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 7.04% | $120.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XLM shows up in 2 pools here, with rates from 0.01% to 1.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XLM shows up in 2 pools here, with rates from 0.01% to 7.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blend-pools-v2 | 0.01% | 0.34% | Base rate |
-| vvs-standard | 1.15% | 4.40% | Base rate |
+| blend-pools-v2 | 0.01% | 0.33% | Base rate |
+| vvs-standard | 7.04% | 4.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XLM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $141.57M in total.
+3 live pools clear this page's $100K TVL floor, $148.56M in total.
 
 ### Are these rates safe?
 
@@ -54,20 +54,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XLM pools have the most stable APY history?
 
-Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.01% APY, $126.6K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; vvs-standard (Cronos), 1.15% APY, $118.2K TVL, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.01% APY, $132.9K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; vvs-standard (Cronos), 7.04% APY, $120.3K TVL, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [WCRO](https://www.defi.garden/tokens/wcro)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [EARNUSDC](https://www.defi.garden/tokens/earnusdc)
-- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

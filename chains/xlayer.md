@@ -1,13 +1,13 @@
 # Xlayer DeFi Yields
 
-The highest honest Xlayer yield right now is 2.59% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Xlayer yield right now is 1.80% on aave-v3 (Xlayer), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.46% | $11.99M |
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 3.54% | $8.11M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.56% | $10.03M |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 3.48% | $8.72M |
 | XBTC | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545&src=seo_chain) | 0.02% | $6.77M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 2.59% | $347.2K |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.80% | $592.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Xlayer yield today?
 
-2.59% APY on aave-v3 (Xlayer), based on live DefiLlama data.
+1.80% APY on aave-v3 (Xlayer), based on live DefiLlama data.
 
 ### How many Xlayer pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $122.44M in total.
+7 live pools clear this page's $100K TVL floor, $120.83M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [USDG](https://www.defi.garden/tokens/usdg)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

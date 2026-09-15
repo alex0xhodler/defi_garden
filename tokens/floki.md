@@ -1,12 +1,12 @@
 # FLOKI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest FLOKI yield right now is 0.47% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLOKI yield right now is 0.93% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.47% | $7.45M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.93% | $7.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FLOKI shows up in 1 pools here, with rates from 0.47% to 0.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLOKI shows up in 1 pools here, with rates from 0.93% to 0.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.47% | 1.98% | Base rate |
+| uniswap-v2 | 0.93% | 1.98% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FLOKI yield today?
 
-0.47% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.93% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FLOKI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $8.12M in total.
+4 live pools clear this page's $100K TVL floor, $8.03M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank FLOKI pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

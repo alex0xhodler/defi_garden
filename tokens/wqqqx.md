@@ -1,12 +1,12 @@
 # WQQQX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest WQQQX yield right now is 0.14% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WQQQX yield right now is 0.04% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=2364dd66-69d3-44ef-9e85-4d5217a57b57&src=seo_token) | Mantle | 0.14% | $109.6K |
+| [fluxion-network →](https://www.defi.garden/?pool=2364dd66-69d3-44ef-9e85-4d5217a57b57&src=seo_token) | Mantle | 0.04% | $109.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WQQQX yield today?
 
-0.14% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.04% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WQQQX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.6K in total.
+1 live pool clear this page's $100K TVL floor, $109.7K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

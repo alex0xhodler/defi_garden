@@ -1,12 +1,12 @@
 # US 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 14, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 15, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 US의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 US의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.65%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 0.49% | $539.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=d3efd49a-8183-48da-8ca7-7f10a97774fd&src=seo_token) | Sui | 0.65% | $545.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 US의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.49%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.65%예요.
 
 ### US 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $539.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $545.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.49%예요.
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: September 14, 2026
+## 마지막 업데이트: September 15, 2026

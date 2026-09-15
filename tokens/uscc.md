@@ -1,24 +1,24 @@
 # USCC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
 The highest honest USCC yield right now is 7.63% on bitwise-uscc (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 7.63% | $77.02M |
+| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 7.63% | $77.07M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token) | Plume Mainnet | 7.63% | $16.92M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token) | Solana | 7.63% | $8.9M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USCC's lower-variability candidates are bitwise-uscc (Solana), 7.63% APY, $8.9M TVL, https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token; bitwise-uscc (Ethereum), 7.63% APY, $77.02M TVL, https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token; bitwise-uscc (Plume Mainnet), 7.63% APY, $16.92M TVL, https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USCC's lower-variability candidates are bitwise-uscc (Solana), 7.63% APY, $8.9M TVL, https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token; bitwise-uscc (Ethereum), 7.63% APY, $77.07M TVL, https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token; bitwise-uscc (Plume Mainnet), 7.63% APY, $16.92M TVL, https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bitwise-uscc →](https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token) | Solana | 7.63% | $8.9M |
-| 2 | [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 7.63% | $77.02M |
+| 2 | [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 7.63% | $77.07M |
 | 3 | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token) | Plume Mainnet | 7.63% | $16.92M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -27,15 +27,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 USCC shows up in 3 pools here, with rates from 7.63% to 7.63% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bitwise-uscc | 7.63% | 5.55% | Base rate |
-| bitwise-uscc | 7.63% | 5.55% | Base rate |
-| bitwise-uscc | 7.63% | 5.55% | Base rate |
+| bitwise-uscc | 7.63% | 5.74% | Base rate |
+| bitwise-uscc | 7.63% | 5.74% | Base rate |
+| bitwise-uscc | 7.63% | 5.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USCC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $163.3M in total.
+5 live pools clear this page's $100K TVL floor, $164.41M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USCC pools have the most stable APY history?
 
-Based on APY history only, USCC's lower-variability candidates are bitwise-uscc (Solana), 7.63% APY, $8.9M TVL, https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token; bitwise-uscc (Ethereum), 7.63% APY, $77.02M TVL, https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token; bitwise-uscc (Plume Mainnet), 7.63% APY, $16.92M TVL, https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USCC's lower-variability candidates are bitwise-uscc (Solana), 7.63% APY, $8.9M TVL, https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token; bitwise-uscc (Ethereum), 7.63% APY, $77.07M TVL, https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token; bitwise-uscc (Plume Mainnet), 7.63% APY, $16.92M TVL, https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, USCC's lower-variability candidates are bitwise-uscc 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

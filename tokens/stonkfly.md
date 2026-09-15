@@ -1,12 +1,12 @@
 # STONKFLY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest STONKFLY yield right now is 32.04% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKFLY yield right now is 31.72% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f74a736f-9dbf-5c53-8221-b90197ba5948&src=seo_token) | Base | 32.04% | $114.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f74a736f-9dbf-5c53-8221-b90197ba5948&src=seo_token) | Base | 31.72% | $125.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONKFLY yield today?
 
-32.04% APY on uniswap-v4 (Base), based on live DefiLlama data.
+31.72% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many STONKFLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $125.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STONKFLY pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026

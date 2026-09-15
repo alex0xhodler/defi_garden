@@ -1,31 +1,31 @@
 # FIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
 
-The highest honest FIN yield right now is 4.04% on uniswap-v4 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FIN yield right now is 3.47% on uniswap-v4 (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 4.04% | $205.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 2.35% | $125.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 6.76% | $209.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 3.47% | $129.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 2.35% APY, $125.6K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 4.04% APY, $205.3K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 3.47% APY, $129.5K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 6.76% APY, $209.4K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 2.35% | $125.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 4.04% | $205.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token) | Polygon | 3.47% | $129.5K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token) | Polygon | 6.76% | $209.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FIN shows up in 2 pools here, with rates from 2.35% to 4.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FIN shows up in 2 pools here, with rates from 3.47% to 6.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 16.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 16.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 4.04% | 27.36% | Base rate |
-| uniswap-v4 | 2.35% | 6.06% | Base rate |
+| uniswap-v4 | 6.76% | 27.13% | Base rate |
+| uniswap-v4 | 3.47% | 6.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FIN yield today?
 
-4.04% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+3.47% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many FIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $906.7K in total.
+4 live pools clear this page's $100K TVL floor, $925.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIN pools have the most stable APY history?
 
-Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 2.35% APY, $125.6K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 4.04% APY, $205.3K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Polygon), 3.47% APY, $129.5K TVL, https://www.defi.garden/?pool=e1b8d982-a466-4eec-8fa8-d623b882c41d&src=seo_token; uniswap-v4 (Polygon), 6.76% APY, $209.4K TVL, https://www.defi.garden/?pool=b538e6df-798c-4aa7-b42d-47b138f64eee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,11 +62,11 @@ Based on APY history only, FIN's lower-variability candidates are uniswap-v4 (Po
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 - [WPOL](https://www.defi.garden/tokens/wpol)
-- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 14, 2026
+## Last updated September 15, 2026
