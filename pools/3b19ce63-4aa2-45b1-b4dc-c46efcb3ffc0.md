@@ -2,11 +2,11 @@
 
 **Total APY:** 9.04% (9.04% Base · + 0.00% Rewards)
 
-**TVL:** $149.4K
+**TVL:** $145.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.50%
+**30d Mean APY:** 11.34%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated September 15, 2026
+Last updated September 16, 2026

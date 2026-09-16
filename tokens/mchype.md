@@ -1,12 +1,12 @@
 # MCHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest MCHYPE yield right now is 4.01% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCHYPE yield right now is 3.01% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=5dc964a0-d91a-4145-b698-6487a3b381ce&src=seo_token) | Hyperliquid L1 | 4.01% | $964K |
+| [morpho-blue →](https://www.defi.garden/?pool=5dc964a0-d91a-4145-b698-6487a3b381ce&src=seo_token) | Hyperliquid L1 | 3.01% | $943.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCHYPE yield today?
 
-4.01% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+3.01% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many MCHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $964K in total.
+1 live pool clear this page's $100K TVL floor, $943.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank MCHYPE pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MCHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

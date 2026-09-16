@@ -1,12 +1,12 @@
 # SMXHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest SMXHYPE yield right now is 0.53% on monetrix-mxhype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMXHYPE yield right now is 0.10% on monetrix-mxhype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5&src=seo_token) | Hyperliquid L1 | 0.53% | $1.41M |
+| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5&src=seo_token) | Hyperliquid L1 | 0.10% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMXHYPE yield today?
 
-0.53% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
+0.10% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SMXHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.41M in total.
+1 live pool clear this page's $100K TVL floor, $1.38M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SMXHYPE pools. This view cove
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SMXHYPE pools. This view cove
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

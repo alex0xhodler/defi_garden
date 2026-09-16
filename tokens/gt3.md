@@ -1,12 +1,12 @@
 # GT3 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest GT3 yield right now is 15.10% on gt3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GT3 yield right now is 15.00% on gt3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.10% | $117.2K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 15.00% | $117.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GT3 yield today?
 
-15.10% APY on gt3 (Polygon), based on live DefiLlama data.
+15.00% APY on gt3 (Polygon), based on live DefiLlama data.
 
 ### How many GT3 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.2K in total.
+1 live pool clear this page's $100K TVL floor, $117.1K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GT3 pools. This view covers A
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
+- [EUSD](https://www.defi.garden/tokens/eusd)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

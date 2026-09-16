@@ -1,12 +1,12 @@
 # TELEBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest TELEBTC yield right now is 12.01% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TELEBTC yield right now is 11.06% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd&src=seo_token) | Polygon | 12.01% | $199.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd&src=seo_token) | Polygon | 11.06% | $203.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TELEBTC yield today?
 
-12.01% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+11.06% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many TELEBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.5K in total.
+1 live pool clear this page's $100K TVL floor, $203.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank TELEBTC pools. This view cove
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
+- [EUSD](https://www.defi.garden/tokens/eusd)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

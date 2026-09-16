@@ -1,6 +1,6 @@
 # STKAAVE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
 The highest honest STKAAVE yield right now is 24.56% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STKAAVE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $336.9K in total.
+2 live pools clear this page's $100K TVL floor, $335.2K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank STKAAVE pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

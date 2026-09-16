@@ -1,12 +1,12 @@
 # UADA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest UADA yield right now is 3.83% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UADA yield right now is 6.00% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a578343-99c5-42a1-a95d-778ddd86d826&src=seo_token) | Base | 3.83% | $210.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a578343-99c5-42a1-a95d-778ddd86d826&src=seo_token) | Base | 6.00% | $201.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UADA yield today?
 
-3.83% APY on uniswap-v3 (Base), based on live DefiLlama data.
+6.00% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UADA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.2K in total.
+1 live pool clear this page's $100K TVL floor, $201.1K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank UADA pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

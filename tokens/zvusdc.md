@@ -1,12 +1,12 @@
 # ZVUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest ZVUSDC yield right now is 7.73% on zircuit-finance (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZVUSDC yield right now is 7.55% on zircuit-finance (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 7.73% | $1.36M |
+| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 7.55% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZVUSDC yield today?
 
-7.73% APY on zircuit-finance (Base), based on live DefiLlama data.
+7.55% APY on zircuit-finance (Base), based on live DefiLlama data.
 
 ### How many ZVUSDC pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank ZVUSDC pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

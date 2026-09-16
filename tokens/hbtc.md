@@ -1,12 +1,12 @@
 # HBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest HBTC yield right now is 0.02% on balancer-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HBTC yield right now is 0.03% on balancer-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=0ee8dc22-4425-5064-8840-364225d4ba97&src=seo_token) | Base | 0.02% | $124.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0ee8dc22-4425-5064-8840-364225d4ba97&src=seo_token) | Base | 0.03% | $122.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HBTC yield today?
 
-0.02% APY on balancer-v3 (Base), based on live DefiLlama data.
+0.03% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many HBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.9K in total.
+1 live pool clear this page's $100K TVL floor, $122.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank HBTC pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

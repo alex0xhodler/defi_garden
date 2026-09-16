@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.00%예요.
 
 ### Kava 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.37M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.00%예요.
 - [LION](https://www.defi.garden/ko/tokens/lion)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: September 15, 2026
+## 마지막 업데이트: September 16, 2026

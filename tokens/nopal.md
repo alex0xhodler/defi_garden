@@ -1,41 +1,41 @@
 # NOPAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest NOPAL yield right now is 16.03% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOPAL yield right now is 15.19% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 12.12% | $102.5M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 16.03% | $2.52M |
-| [pendle-v2 →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 15.79% | $2.52M |
+| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.77% | $103.28M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 15.19% | $2.52M |
+| [pendle-v2 →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.66% | $2.52M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOPAL's lower-variability candidates are pendle-v2 (Ethereum), 16.03% APY, $2.52M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; plume-vaults (Plume Mainnet), 12.12% APY, $102.5M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle-v2 (Ethereum), 15.79% APY, $2.52M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOPAL's lower-variability candidates are pendle-v2 (Ethereum), 15.19% APY, $2.52M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; plume-vaults (Plume Mainnet), 10.77% APY, $103.28M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle-v2 (Ethereum), 14.66% APY, $2.52M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 16.03% | $2.52M |
-| 2 | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 12.12% | $102.5M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 15.79% | $2.52M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 15.19% | $2.52M |
+| 2 | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.77% | $103.28M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.66% | $2.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOPAL shows up in 3 pools here, with rates from 12.12% to 16.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOPAL shows up in 3 pools here, with rates from 10.77% to 15.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| plume-vaults | 12.12% | 10.22% | Base rate |
-| pendle-v2 | 16.03% | 14.30% | Base rate |
-| pendle-v2 | 15.79% | 14.72% | 2.09% incentives |
+| plume-vaults | 10.77% | 10.29% | Base rate |
+| pendle-v2 | 15.19% | 14.34% | Base rate |
+| pendle-v2 | 14.66% | 14.72% | 2.13% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOPAL yield today?
 
-16.03% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+15.19% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NOPAL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $111.05M in total.
+4 live pools clear this page's $100K TVL floor, $112.25M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOPAL pools have the most stable APY history?
 
-Based on APY history only, NOPAL's lower-variability candidates are pendle-v2 (Ethereum), 16.03% APY, $2.52M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; plume-vaults (Plume Mainnet), 12.12% APY, $102.5M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle-v2 (Ethereum), 15.79% APY, $2.52M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOPAL's lower-variability candidates are pendle-v2 (Ethereum), 15.19% APY, $2.52M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; plume-vaults (Plume Mainnet), 10.77% APY, $103.28M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle-v2 (Ethereum), 14.66% APY, $2.52M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, NOPAL's lower-variability candidates are pendle-v2 (E
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

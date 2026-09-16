@@ -1,12 +1,12 @@
 # SKNTQ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest SKNTQ yield right now is 10.95% on kinetiq-khype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKNTQ yield right now is 3.65% on kinetiq-khype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 10.95% | $19.03M |
+| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 3.65% | $18.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKNTQ yield today?
 
-10.95% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.
+3.65% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SKNTQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $19.03M in total.
+1 live pool clear this page's $100K TVL floor, $18.32M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SKNTQ pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SKNTQ pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

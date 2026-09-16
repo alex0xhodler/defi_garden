@@ -1,33 +1,33 @@
 # MPLX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest MPLX yield right now is 3.80% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPLX yield right now is 4.56% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 3.80% | $2.02M |
-| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 2.05% | $581K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 1.12% | $574.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 4.56% | $1.97M |
+| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 3.08% | $576.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 2.28% | $569.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 2.05% APY, $581K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 1.12% APY, $574.8K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 3.80% APY, $2.02M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 3.08% APY, $576.5K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 2.28% APY, $569.7K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 4.56% APY, $1.97M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 2.05% | $581K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 1.12% | $574.8K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 3.80% | $2.02M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 3.08% | $576.5K |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 2.28% | $569.7K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 4.56% | $1.97M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MPLX shows up in 3 pools here, with rates from 1.12% to 3.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MPLX shows up in 3 pools here, with rates from 2.28% to 4.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 3.80% | 4.42% | Base rate |
-| orca-dex | 2.05% | 2.99% | Base rate |
-| kamino-liquidity | 1.12% | 2.43% | Base rate |
+| raydium-amm | 4.56% | 4.52% | Base rate |
+| orca-dex | 3.08% | 3.04% | Base rate |
+| kamino-liquidity | 2.28% | 2.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MPLX yield today?
 
-3.80% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MPLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.15M in total.
+4 live pools clear this page's $100K TVL floor, $5.04M in total.
 
 ### Are these rates safe?
 
@@ -57,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MPLX pools have the most stable APY history?
 
-Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 2.05% APY, $581K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 1.12% APY, $574.8K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 3.80% APY, $2.02M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 3.08% APY, $576.5K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 2.28% APY, $569.7K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 4.56% APY, $1.97M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

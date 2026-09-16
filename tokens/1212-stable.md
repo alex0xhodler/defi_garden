@@ -1,12 +1,12 @@
 # 1212.STABLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest 1212.STABLE yield right now is 9.30% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1212.STABLE yield right now is 6.49% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=f803c54b-4151-4fcb-9f29-3244fa39324a&src=seo_token) | Ethereum | 9.30% | $1.74M |
+| [lagoon →](https://www.defi.garden/?pool=f803c54b-4151-4fcb-9f29-3244fa39324a&src=seo_token) | Ethereum | 6.49% | $1.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1212.STABLE yield today?
 
-9.30% APY on lagoon (Ethereum), based on live DefiLlama data.
+6.49% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 1212.STABLE pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 1212.STABLE pools. This view 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

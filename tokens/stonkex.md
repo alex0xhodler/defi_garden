@@ -1,12 +1,12 @@
 # STONKEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest STONKEX yield right now is 689.35% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKEX yield right now is 526.87% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df&src=seo_token) | Base | 689.35% | $368.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df&src=seo_token) | Base | 526.87% | $450.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONKEX yield today?
 
-689.35% APY on uniswap-v3 (Base), based on live DefiLlama data.
+526.87% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many STONKEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $368.1K in total.
+1 live pool clear this page's $100K TVL floor, $450.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank STONKEX pools. This view cove
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

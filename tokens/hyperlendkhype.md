@@ -1,12 +1,12 @@
 # HYPERLENDKHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest HYPERLENDKHYPE yield right now is 3.91% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPERLENDKHYPE yield right now is 3.62% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.91% | $162.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.62% | $159.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPERLENDKHYPE yield today?
 
-3.91% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+3.62% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HYPERLENDKHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.2K in total.
+1 live pool clear this page's $100K TVL floor, $159.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank HYPERLENDKHYPE pools. This vi
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HYPERLENDKHYPE pools. This vi
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

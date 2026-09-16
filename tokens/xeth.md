@@ -1,12 +1,12 @@
 # XETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest XETH yield right now is 0.56% on aave-v3 (Xlayer), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XETH yield right now is 0.55% on aave-v3 (Xlayer), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.56% | $10.03M |
+| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.55% | $9.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +17,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XETH shows up in 1 pools here, with rates from 0.56% to 0.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XETH shows up in 1 pools here, with rates from 0.55% to 0.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 0.56% | 0.42% | Base rate |
+| aave-v3 | 0.55% | 0.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XETH yield today?
 
-0.56% APY on aave-v3 (Xlayer), based on live DefiLlama data.
+0.55% APY on aave-v3 (Xlayer), based on live DefiLlama data.
 
 ### How many XETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $10.2M in total.
+2 live pools clear this page's $100K TVL floor, $9.89M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank XETH pools. This view covers 
 
 - [Xlayer](https://www.defi.garden/chains/xlayer)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

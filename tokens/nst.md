@@ -1,12 +1,12 @@
 # NST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest NST yield right now is 9.26% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NST yield right now is 7.89% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=16c09aa8-dc98-4c34-8d14-ebebccae7cf4&src=seo_token) | Arbitrum | 9.26% | $176.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16c09aa8-dc98-4c34-8d14-ebebccae7cf4&src=seo_token) | Arbitrum | 7.89% | $171.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NST yield today?
 
-9.26% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+7.89% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many NST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $176.1K in total.
+1 live pool clear this page's $100K TVL floor, $171.5K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank NST pools. This view covers A
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [LSETH](https://www.defi.garden/tokens/lseth)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

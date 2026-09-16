@@ -1,43 +1,43 @@
 # PAXG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest PAXG yield right now is 3.28% on uniswap-v2 (Ethereum), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PAXG yield right now is 6.99% on uniswap-v3 (Ethereum), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 3.28% | $15.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.88% | $6.1M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.07% | $2.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 5.69% | $2.14M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 13.41% | $802.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 10.48% | $792.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token) | Ethereum | 5.21% | $641.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=f51e7987-909e-5b6e-a8e4-92aa82e1a5b8&src=seo_token) | Cronos | 2.90% | $560.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 4.61% | $15.52M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.22% | $6.15M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.17% | $3.42M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.37% | $2.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 6.67% | $2.16M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 12.56% | $803.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 6.99% | $797.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token) | Ethereum | 3.07% | $638.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PAXG's lower-variability candidates are uniswap-v3 (Ethereum), 0.88% APY, $6.1M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.07% APY, $2.26M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; vvs-standard (Cronos), 2.90% APY, $560.3K TVL, https://www.defi.garden/?pool=f51e7987-909e-5b6e-a8e4-92aa82e1a5b8&src=seo_token; uniswap-v2 (Ethereum), 3.28% APY, $15.74M TVL, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; uniswap-v3 (Ethereum), 5.69% APY, $2.14M TVL, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; uniswap-v4 (Ethereum), 13.41% APY, $802.3K TVL, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; uniswap-v4 (Ethereum), 5.21% APY, $641.8K TVL, https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token; uniswap-v3 (Ethereum), 10.48% APY, $792.8K TVL, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PAXG's lower-variability candidates are uniswap-v3 (Ethereum), 0.17% APY, $3.42M TVL, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; uniswap-v3 (Ethereum), 1.22% APY, $6.15M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.37% APY, $2.28M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; uniswap-v2 (Ethereum), 4.61% APY, $15.52M TVL, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; uniswap-v3 (Ethereum), 6.67% APY, $2.16M TVL, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; uniswap-v4 (Ethereum), 12.56% APY, $803.1K TVL, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; uniswap-v4 (Ethereum), 3.07% APY, $638.5K TVL, https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token; uniswap-v3 (Ethereum), 6.99% APY, $797.4K TVL, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.88% | $6.1M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.07% | $2.26M |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=f51e7987-909e-5b6e-a8e4-92aa82e1a5b8&src=seo_token) | Cronos | 2.90% | $560.3K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 3.28% | $15.74M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 5.69% | $2.14M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 13.41% | $802.3K |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token) | Ethereum | 5.21% | $641.8K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 10.48% | $792.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.17% | $3.42M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.22% | $6.15M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.37% | $2.28M |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 4.61% | $15.52M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 6.67% | $2.16M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 12.56% | $803.1K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token) | Ethereum | 3.07% | $638.5K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 6.99% | $797.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PAXG shows up in 8 pools here, with rates from 0.07% to 13.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PAXG shows up in 8 pools here, with rates from 0.17% to 12.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 3.28% | 3.05% | Base rate |
-| uniswap-v3 | 0.88% | 1.59% | Base rate |
-| fluid-dex | 0.07% | 0.44% | Base rate |
-| uniswap-v3 | 5.69% | 11.42% | Base rate |
-| uniswap-v4 | 13.41% | 6.25% | Base rate |
-| uniswap-v3 | 10.48% | 6.59% | Base rate |
-| uniswap-v4 | 5.21% | 2.88% | Base rate |
-| vvs-standard | 2.90% | 2.95% | Base rate |
+| uniswap-v2 | 4.61% | 3.12% | Base rate |
+| uniswap-v3 | 1.22% | 1.59% | Base rate |
+| uniswap-v3 | 0.17% | 0.71% | Base rate |
+| fluid-dex | 0.37% | 0.44% | Base rate |
+| uniswap-v3 | 6.67% | 11.57% | Base rate |
+| uniswap-v4 | 12.56% | 6.70% | Base rate |
+| uniswap-v3 | 6.99% | 6.78% | Base rate |
+| uniswap-v4 | 3.07% | 2.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PAXG yield today?
 
-3.28% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PAXG pools clear the TVL floor?
 
-22 live pools clear this page's $100K TVL floor, $43.1M in total.
+22 live pools clear this page's $100K TVL floor, $43.06M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PAXG pools have the most stable APY history?
 
-Based on APY history only, PAXG's lower-variability candidates are uniswap-v3 (Ethereum), 0.88% APY, $6.1M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.07% APY, $2.26M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; vvs-standard (Cronos), 2.90% APY, $560.3K TVL, https://www.defi.garden/?pool=f51e7987-909e-5b6e-a8e4-92aa82e1a5b8&src=seo_token; uniswap-v2 (Ethereum), 3.28% APY, $15.74M TVL, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; uniswap-v3 (Ethereum), 5.69% APY, $2.14M TVL, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; uniswap-v4 (Ethereum), 13.41% APY, $802.3K TVL, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; uniswap-v4 (Ethereum), 5.21% APY, $641.8K TVL, https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token; uniswap-v3 (Ethereum), 10.48% APY, $792.8K TVL, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PAXG's lower-variability candidates are uniswap-v3 (Ethereum), 0.17% APY, $3.42M TVL, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; uniswap-v3 (Ethereum), 1.22% APY, $6.15M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.37% APY, $2.28M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; uniswap-v2 (Ethereum), 4.61% APY, $15.52M TVL, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; uniswap-v3 (Ethereum), 6.67% APY, $2.16M TVL, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; uniswap-v4 (Ethereum), 12.56% APY, $803.1K TVL, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; uniswap-v4 (Ethereum), 3.07% APY, $638.5K TVL, https://www.defi.garden/?pool=bfd87890-a901-4b9d-94c1-bf4e7e7ff654&src=seo_token; uniswap-v3 (Ethereum), 6.99% APY, $797.4K TVL, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,6 +86,5 @@ Based on APY history only, PAXG's lower-variability candidates are uniswap-v3 (E
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

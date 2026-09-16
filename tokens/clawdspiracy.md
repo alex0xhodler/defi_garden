@@ -1,12 +1,12 @@
 # CLAWDSPIRACY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest CLAWDSPIRACY yield right now is 0.24% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWDSPIRACY yield right now is 0.20% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 0.24% | $137.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 0.20% | $132.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWDSPIRACY yield today?
 
-0.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.20% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWDSPIRACY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.5K in total.
+1 live pool clear this page's $100K TVL floor, $132.3K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank CLAWDSPIRACY pools. This view
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

@@ -1,12 +1,12 @@
 # IFIL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest IFIL yield right now is 4.28% on glif (Filecoin), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IFIL yield right now is 4.26% on glif (Filecoin), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 4.28% | $23.13M |
+| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 4.26% | $21.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IFIL yield today?
 
-4.28% APY on glif (Filecoin), based on live DefiLlama data.
+4.26% APY on glif (Filecoin), based on live DefiLlama data.
 
 ### How many IFIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $23.13M in total.
+1 live pool clear this page's $100K TVL floor, $21.17M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IFIL pools. This view covers 
 
 - [Filecoin](https://www.defi.garden/chains/filecoin)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

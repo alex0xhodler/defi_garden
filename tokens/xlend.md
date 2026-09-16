@@ -1,12 +1,12 @@
 # XLEND DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest XLEND yield right now is 5.86% on liminal-basis (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XLEND yield right now is 5.84% on liminal-basis (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 5.86% | $4.28M |
+| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 5.84% | $4.1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XLEND yield today?
 
-5.86% APY on liminal-basis (Hyperliquid L1), based on live DefiLlama data.
+5.84% APY on liminal-basis (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many XLEND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.28M in total.
+1 live pool clear this page's $100K TVL floor, $4.1M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank XLEND pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank XLEND pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

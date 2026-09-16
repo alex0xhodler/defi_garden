@@ -1,12 +1,12 @@
 # CHZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest CHZ yield right now is 413.22% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHZ yield right now is 115.09% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=643ae250-be53-4a04-aa46-48cd3545a749&src=seo_token) | Base | 413.22% | $236.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=643ae250-be53-4a04-aa46-48cd3545a749&src=seo_token) | Base | 115.09% | $231.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHZ yield today?
 
-413.22% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+115.09% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CHZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $236.1K in total.
+1 live pool clear this page's $100K TVL floor, $231.9K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank CHZ pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

@@ -1,12 +1,12 @@
 # A0T DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest A0T yield right now is 2.65% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest A0T yield right now is 14.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 2.65% | $416.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 14.18% | $391.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest A0T yield today?
 
-2.65% APY on uniswap-v4 (Base), based on live DefiLlama data.
+14.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many A0T pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $416.8K in total.
+1 live pool clear this page's $100K TVL floor, $391.1K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank A0T pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

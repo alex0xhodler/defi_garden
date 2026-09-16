@@ -1,16 +1,16 @@
 # USDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest USDX yield right now is 15.38% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDX yield right now is 15.19% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $16.6M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 9.74% | $2.32M |
-| [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436&src=seo_token) | Ethereum | 15.38% | $2.32M |
-| [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 1.33% | $2.05M |
-| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 12.01% | $2M |
+| [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667&src=seo_token) | Ethereum | 1.66% | $3.05M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2&src=seo_token) | Ethereum | 9.25% | $2.43M |
+| [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436&src=seo_token) | Ethereum | 15.19% | $2.43M |
+| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 11.11% | $2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,19 +21,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDX shows up in 5 pools here, with rates from 1.33% to 15.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDX shows up in 5 pools here, with rates from 1.66% to 15.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | Base rate |
-| pendle-v2 | 9.74% | 10.57% | 27.46% incentives |
-| pendle-v2 | 15.38% | 15.19% | Base rate |
-| curve-dex | 1.33% | 1.52% | Base rate |
-| curve-dex | 12.01% | 11.37% | Base rate |
+| curve-dex | 1.66% | 1.55% | Base rate |
+| pendle-v2 | 9.25% | 10.48% | 26.07% incentives |
+| pendle-v2 | 15.19% | 15.20% | Base rate |
+| curve-dex | 11.11% | 11.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDX yield today?
 
-15.38% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+15.19% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many USDX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $25.3M in total.
+5 live pools clear this page's $100K TVL floor, $26.51M in total.
 
 ### Are these rates safe?
 
@@ -69,4 +69,4 @@ There is not enough qualifying APY history to rank USDX pools. This view covers 
 - [Flare](https://www.defi.garden/chains/flare)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

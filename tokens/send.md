@@ -1,14 +1,14 @@
 # SEND DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest SEND yield right now is 240.71% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SEND yield right now is 215.95% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.10% | $1.3M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=33357fad-77e5-58d4-b92c-03a7159b87f8&src=seo_token) | Ethereum | 544.17% | $301K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c77b35d-8e45-5a2e-9b60-9df929624e78&src=seo_token) | Base | 240.71% | $231.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.09% | $1.3M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c77b35d-8e45-5a2e-9b60-9df929624e78&src=seo_token) | Base | 215.95% | $254K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=33357fad-77e5-58d4-b92c-03a7159b87f8&src=seo_token) | Ethereum | 535.41% | $221.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SEND shows up in 3 pools here, with rates from 0.10% to 544.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SEND shows up in 3 pools here, with rates from 0.09% to 535.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 128.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 126.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ SEND shows up in 3 pools here, with rates from 0.10% to 544.17% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 0.10% | 0.36% | 100.00% incentives |
-| uniswap-v4 | 544.17% | — | Base rate |
-| uniswap-v2 | 240.71% | 255.87% | Base rate |
+| aerodrome-v1 | 0.09% | 0.34% | 100.00% incentives |
+| uniswap-v2 | 215.95% | 252.11% | Base rate |
+| uniswap-v4 | 535.41% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SEND yield today?
 
-240.71% APY on uniswap-v2 (Base), based on live DefiLlama data.
+215.95% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SEND pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.83M in total.
+3 live pools clear this page's $100K TVL floor, $1.77M in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank SEND pools. This view covers 
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

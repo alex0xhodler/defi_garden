@@ -1,12 +1,12 @@
 # MCDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest MCDX yield right now is 718.86% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDX yield right now is 830.52% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=b1b06c62-164c-53bc-9bbb-467afdc1b761&src=seo_token) | Solana | 718.86% | $116.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363&src=seo_token) | Solana | 830.52% | $183K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCDX yield today?
 
-718.86% APY on orca-dex (Solana), based on live DefiLlama data.
+830.52% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MCDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.4K in total.
+1 live pool clear this page's $100K TVL floor, $183K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank MCDX pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

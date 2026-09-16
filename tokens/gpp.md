@@ -1,12 +1,12 @@
 # GPP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest GPP yield right now is 4.46% on pancakeswap-amm (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GPP yield right now is 3.39% on pancakeswap-amm (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=81fcdf2d-ae25-5e4f-b161-c11999089b47&src=seo_token) | Base | 4.46% | $146.9K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=81fcdf2d-ae25-5e4f-b161-c11999089b47&src=seo_token) | Base | 3.39% | $140.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GPP yield today?
 
-4.46% APY on pancakeswap-amm (Base), based on live DefiLlama data.
+3.39% APY on pancakeswap-amm (Base), based on live DefiLlama data.
 
 ### How many GPP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.9K in total.
+1 live pool clear this page's $100K TVL floor, $140.3K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GPP pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

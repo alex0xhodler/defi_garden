@@ -1,12 +1,12 @@
 # CTZIGUSD1 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 15, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 16, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CTZIGUSD1의 가장 높은 정직한 수익률은 Ethereum의 concrete에서 220.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CTZIGUSD1의 가장 높은 정직한 수익률은 Ethereum의 concrete에서 9.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=83e4e0e2-1830-510d-8040-2ab064e5d97d&src=seo_token) | Ethereum | 220.49% | $10.06M |
+| [concrete →](https://www.defi.garden/?pool=83e4e0e2-1830-510d-8040-2ab064e5d97d&src=seo_token) | Ethereum | 9.36% | $10.06M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 CTZIGUSD1의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 220.49%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 9.36%예요.
 
 ### CTZIGUSD1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 220.49%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 15, 2026
+## 마지막 업데이트: September 16, 2026

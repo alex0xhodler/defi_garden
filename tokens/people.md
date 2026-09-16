@@ -1,12 +1,12 @@
 # PEOPLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest PEOPLE yield right now is 10.81% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEOPLE yield right now is 6.92% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44f19b04-894a-48f1-bef6-6a803990dca1&src=seo_token) | Ethereum | 10.81% | $140.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44f19b04-894a-48f1-bef6-6a803990dca1&src=seo_token) | Ethereum | 6.92% | $134.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEOPLE yield today?
 
-10.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.92% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PEOPLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.5K in total.
+1 live pool clear this page's $100K TVL floor, $134.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PEOPLE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

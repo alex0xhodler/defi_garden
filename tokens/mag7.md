@@ -1,12 +1,12 @@
 # MAG7 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest MAG7 yield right now is 73.62% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAG7 yield right now is 70.03% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=56c21e7c-a8f7-5f16-8579-3aae84435a13&src=seo_token) | Base | 73.62% | $420.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=56c21e7c-a8f7-5f16-8579-3aae84435a13&src=seo_token) | Base | 70.03% | $418.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAG7 yield today?
 
-73.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+70.03% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAG7 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $420.3K in total.
+1 live pool clear this page's $100K TVL floor, $418.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank MAG7 pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

@@ -1,13 +1,13 @@
 # ZARP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest ZARP yield right now is 98.45% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZARP yield right now is 48.18% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=56445549-12a0-5fa6-9254-1bb16316b82a&src=seo_token) | Ethereum | 98.45% | $129.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=772187a6-af76-4afd-ad48-279f91e5de4a&src=seo_token) | Base | 55.04% | $107.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=56445549-12a0-5fa6-9254-1bb16316b82a&src=seo_token) | Ethereum | 48.18% | $126.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=772187a6-af76-4afd-ad48-279f91e5de4a&src=seo_token) | Base | 15.63% | $107.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZARP shows up in 2 pools here, with rates from 55.04% to 98.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZARP shows up in 2 pools here, with rates from 15.63% to 48.18% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 101.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 121.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ ZARP shows up in 2 pools here, with rates from 55.04% to 98.45% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 98.45% | 45.20% | Base rate |
-| aerodrome-slipstream | 55.04% | 157.88% | 1.26% incentives |
+| uniswap-v4 | 48.18% | 82.99% | Base rate |
+| aerodrome-slipstream | 15.63% | 159.62% | 4.31% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZARP yield today?
 
-98.45% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+48.18% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ZARP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $405K in total.
+3 live pools clear this page's $100K TVL floor, $403.4K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank ZARP pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

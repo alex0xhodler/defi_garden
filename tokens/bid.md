@@ -1,12 +1,12 @@
 # BID DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest BID yield right now is 2.42% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BID yield right now is 4.22% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 2.42% | $355.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 4.22% | $343.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BID yield today?
 
-2.42% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+4.22% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $355.8K in total.
+1 live pool clear this page's $100K TVL floor, $343.3K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank BID pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

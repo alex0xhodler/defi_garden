@@ -1,12 +1,12 @@
 # MSFTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest MSFTC yield right now is 171.49% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSFTC yield right now is 163.34% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=95ee4f0c-a9de-5cf7-a4b6-81adab1a20d5&src=seo_token) | Base | 171.49% | $911K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=95ee4f0c-a9de-5cf7-a4b6-81adab1a20d5&src=seo_token) | Base | 163.34% | $904.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSFTC yield today?
 
-171.49% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+163.34% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSFTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $911K in total.
+1 live pool clear this page's $100K TVL floor, $904.9K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank MSFTC pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

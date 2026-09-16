@@ -1,17 +1,17 @@
 # Ink DeFi Yields
 
-The highest honest Ink yield right now is 3.59% on tydro (Ink), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Ink yield right now is 3.68% on tydro (Ink), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.03% | $42.58M |
-| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 0.23% | $23.51M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 3.59% | $13.84M |
-| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 1.26% | $11.11M |
-| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.83% | $2.41M |
-| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 2.81% | $1.42M |
-| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8&src=seo_chain) | 2.29% | $1.01M |
-| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05&src=seo_chain) | 1.79% | $992.7K |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.03% | $41.71M |
+| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 0.21% | $22.98M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 3.68% | $12.94M |
+| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 0.41% | $11.1M |
+| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.78% | $2.55M |
+| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 2.31% | $1.02M |
+| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8&src=seo_chain) | 2.00% | $1M |
+| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05&src=seo_chain) | 2.08% | $894.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Ink yield today?
 
-3.59% APY on tydro (Ink), based on live DefiLlama data.
+3.68% APY on tydro (Ink), based on live DefiLlama data.
 
 ### How many Ink pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $112.59M in total.
+17 live pools clear this page's $100K TVL floor, $108.98M in total.
 
 ### Are these rates safe?
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [GHO](https://www.defi.garden/tokens/gho)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

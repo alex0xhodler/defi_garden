@@ -1,17 +1,17 @@
 # Celo DeFi Yields
 
-The highest honest Celo yield right now is 0.27% on moola-market (Celo), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Celo yield right now is 36.37% on uniswap-v3 (Celo), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.02% | $1.56M |
-| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 0.49% | $934.7K |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 11.65% | $778K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b&src=seo_chain) | 0.27% | $514.6K |
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.01% | $480.8K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_chain) | 0.02% | $383.7K |
-| USD₮-CNGN | [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_chain) | 3.19% | $181K |
-| WARS-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_chain) | 0.70% | $110.1K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.03% | $1.49M |
+| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 0.48% | $956.5K |
+| USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.66% | $643.2K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b&src=seo_chain) | 0.27% | $514.8K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.01% | $479.7K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_chain) | 0.02% | $368.4K |
+| USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea&src=seo_chain) | 36.37% | $210.9K |
+| USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=ad87c260-8a41-4553-a0ba-47c58d798364&src=seo_chain) | 7.81% | $201.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Celo yield today?
 
-0.27% APY on moola-market (Celo), based on live DefiLlama data.
+36.37% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many Celo pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $5.3M in total.
+18 live pools clear this page's $100K TVL floor, $6.94M in total.
 
 ### Are these rates safe?
 
@@ -41,11 +41,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Top tokens on Celo
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [CELO](https://www.defi.garden/tokens/celo)
-- [STCELO](https://www.defi.garden/tokens/stcelo)
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [USDM](https://www.defi.garden/tokens/usdm)
-- [CNGN](https://www.defi.garden/tokens/cngn)
-- [WARS](https://www.defi.garden/tokens/wars)
+- [CELO](https://www.defi.garden/tokens/celo)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

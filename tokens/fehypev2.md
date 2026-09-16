@@ -1,12 +1,12 @@
 # FEHYPEV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest FEHYPEV2 yield right now is 1.11% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEHYPEV2 yield right now is 1.08% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f1de36d3-d70e-535a-ae74-0ef8ec30f53d&src=seo_token) | Hyperliquid L1 | 1.11% | $1.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=f1de36d3-d70e-535a-ae74-0ef8ec30f53d&src=seo_token) | Hyperliquid L1 | 1.08% | $1.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEHYPEV2 yield today?
 
-1.11% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+1.08% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEHYPEV2 pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank FEHYPEV2 pools. This view cov
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FEHYPEV2 pools. This view cov
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

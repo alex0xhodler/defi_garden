@@ -1,12 +1,12 @@
 # CBHYPE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 15, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 16, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CBHYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 35.16%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBHYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 53.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 35.16% | $594.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 53.86% | $518.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 CBHYPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 35.16%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 53.86%예요.
 
 ### CBHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $594.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $518.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 35.
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 15, 2026
+## 마지막 업데이트: September 16, 2026

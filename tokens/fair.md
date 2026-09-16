@@ -1,12 +1,12 @@
 # FAIR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest FAIR yield right now is 11.23% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAIR yield right now is 21.25% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=08c09775-b4fa-4ab1-bfcf-9aa3bd94bcb5&src=seo_token) | Base | 11.23% | $190.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=08c09775-b4fa-4ab1-bfcf-9aa3bd94bcb5&src=seo_token) | Base | 21.25% | $180.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAIR yield today?
 
-11.23% APY on uniswap-v3 (Base), based on live DefiLlama data.
+21.25% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FAIR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.4K in total.
+1 live pool clear this page's $100K TVL floor, $180.1K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank FAIR pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

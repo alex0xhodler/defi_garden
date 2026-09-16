@@ -1,12 +1,12 @@
 # JAILSTOOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest JAILSTOOL yield right now is 1.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JAILSTOOL yield right now is 0.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 1.08% | $492.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 0.98% | $470.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JAILSTOOL yield today?
 
-1.08% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JAILSTOOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $492.7K in total.
+1 live pool clear this page's $100K TVL floor, $470.9K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank JAILSTOOL pools. This view co
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

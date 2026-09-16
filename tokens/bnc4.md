@@ -1,8 +1,8 @@
 # BNC4 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest BNC4 yield right now is 144.78% on uniswap-v4 (BSC), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNC4 yield right now is 144.78% on uniswap-v4 (BSC), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNC4 pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $2.25M in total.
+9 live pools clear this page's $100K TVL floor, $1.7M in total.
 
 ### Are these rates safe?
 
@@ -76,4 +76,4 @@ There is not enough qualifying APY history to rank BNC4 pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

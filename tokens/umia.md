@@ -1,13 +1,13 @@
 # UMIA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest UMIA yield right now is 63.24% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UMIA yield right now is 33.39% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850&src=seo_token) | Base | 16.46% | $3.33M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96&src=seo_token) | Base | 63.24% | $143K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850&src=seo_token) | Base | 13.89% | $3.34M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96&src=seo_token) | Base | 33.39% | $145.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-UMIA shows up in 2 pools here, with rates from 16.46% to 63.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UMIA shows up in 2 pools here, with rates from 13.89% to 33.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 131.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 121.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 16.46% | 131.21% | Base rate |
-| uniswap-v4 | 63.24% | — | Base rate |
+| uniswap-v4 | 13.89% | 121.55% | Base rate |
+| uniswap-v4 | 33.39% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UMIA yield today?
 
-63.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+33.39% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many UMIA pools clear the TVL floor?
 
@@ -57,11 +57,11 @@ There is not enough qualifying APY history to rank UMIA pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

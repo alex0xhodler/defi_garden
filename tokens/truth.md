@@ -1,12 +1,12 @@
 # TRUTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest TRUTH yield right now is 0.27% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUTH yield right now is 0.04% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=84bd0bc1-5c8a-4304-aae6-ab4c2337f376&src=seo_token) | Sui | 0.27% | $1.16M |
+| [bluefin-spot →](https://www.defi.garden/?pool=84bd0bc1-5c8a-4304-aae6-ab4c2337f376&src=seo_token) | Sui | 0.04% | $1.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRUTH yield today?
 
-0.27% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.04% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many TRUTH pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank TRUTH pools. This view covers
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [BUCK](https://www.defi.garden/tokens/buck)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [SUI](https://www.defi.garden/tokens/sui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026

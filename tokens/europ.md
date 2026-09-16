@@ -1,12 +1,13 @@
 # EUROP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
 
-The highest honest EUROP yield right now is 0.48% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUROP yield right now is 0.11% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f&src=seo_token) | Solana | 0.48% | $422.8K |
+| [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f&src=seo_token) | Solana | 0.11% | $423.8K |
+| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 0.37% | $114.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,17 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-EUROP shows up in 1 pools here, with rates from 0.48% to 0.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROP shows up in 2 pools here, with rates from 0.11% to 0.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.48% | 0.11% | Base rate |
+| orca-dex | 0.11% | 0.12% | Base rate |
+| curve-dex | 0.37% | 1.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUROP yield today?
 
-0.48% APY on orca-dex (Solana), based on live DefiLlama data.
+0.11% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many EUROP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $537.6K in total.
+2 live pools clear this page's $100K TVL floor, $538.6K in total.
 
 ### Are these rates safe?
 
@@ -51,15 +53,16 @@ There is not enough qualifying APY history to rank EUROP pools. This view covers
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 15, 2026
+## Last updated September 16, 2026
