@@ -1,13 +1,12 @@
 # TRUU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest TRUU yield right now is 215.89% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUU yield right now is 215.89% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=f45012b8-8136-5f1d-b134-92286477ba36&src=seo_token) | Ethereum | 215.89% | $214.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2835f4e0-5e06-58c7-959e-4dc68a962357&src=seo_token) | Ethereum | 8.30% | $124.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,23 +14,6 @@ The highest honest TRUU yield right now is 215.89% on uniswap-v4 (Ethereum), amo
 There is not enough qualifying APY history to rank TRUU pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
-
-## How this rate has behaved
-
-TRUU shows up in 2 pools here, with rates from 8.30% to 215.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 66.45% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| uniswap-v4 | 215.89% | 114.76% | Base rate |
-| uniswap-v4 | 8.30% | 18.14% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
@@ -41,7 +23,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRUU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $338.6K in total.
+1 live pool clear this page's $100K TVL floor, $214.1K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +46,4 @@ There is not enough qualifying APY history to rank TRUU pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

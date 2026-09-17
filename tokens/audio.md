@@ -1,31 +1,31 @@
 # AUDIO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest AUDIO yield right now is 4.43% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUDIO yield right now is 6.38% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 6.10% | $420.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 4.43% | $199.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 6.43% | $424.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 6.38% | $199.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 6.10% APY, $420.2K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 4.43% APY, $199.4K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 6.43% APY, $424.5K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 6.38% APY, $199.8K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 6.10% | $420.2K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 4.43% | $199.4K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 6.43% | $424.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 6.38% | $199.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUDIO shows up in 2 pools here, with rates from 4.43% to 6.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUDIO shows up in 2 pools here, with rates from 6.38% to 6.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 6.10% | 3.53% | Base rate |
-| raydium-amm | 4.43% | 7.36% | Base rate |
+| uniswap-v2 | 6.43% | 3.71% | Base rate |
+| raydium-amm | 6.38% | 7.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUDIO yield today?
 
-4.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AUDIO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $619.6K in total.
+2 live pools clear this page's $100K TVL floor, $624.2K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUDIO pools have the most stable APY history?
 
-Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 6.10% APY, $420.2K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 4.43% APY, $199.4K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (Ethereum), 6.43% APY, $424.5K TVL, https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token; raydium-amm (Solana), 6.38% APY, $199.8K TVL, https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, AUDIO's lower-variability candidates are uniswap-v2 (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

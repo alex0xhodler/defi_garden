@@ -1,12 +1,12 @@
 # BLACK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest BLACK yield right now is 9.30% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLACK yield right now is 7.31% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 9.30% | $195.3K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 7.31% | $193.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLACK yield today?
 
-9.30% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+7.31% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many BLACK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $195.3K in total.
+1 live pool clear this page's $100K TVL floor, $193.7K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BLACK pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

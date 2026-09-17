@@ -1,12 +1,12 @@
 # MNSRY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest MNSRY yield right now is 2.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MNSRY yield right now is 1.66% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b167895a-90bb-47ec-82af-8a5322bfbc24&src=seo_token) | Solana | 2.27% | $259.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=b167895a-90bb-47ec-82af-8a5322bfbc24&src=seo_token) | Solana | 1.66% | $263K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MNSRY yield today?
 
-2.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.66% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MNSRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $259.4K in total.
+1 live pool clear this page's $100K TVL floor, $263K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MNSRY pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

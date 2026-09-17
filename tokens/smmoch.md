@@ -1,12 +1,12 @@
 # SMMOCH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest SMMOCH yield right now is 0.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMMOCH yield right now is 0.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=64502c0e-2eaa-5536-8d54-6548355c09e4&src=seo_token) | Solana | 0.53% | $154K |
+| [raydium-amm →](https://www.defi.garden/?pool=64502c0e-2eaa-5536-8d54-6548355c09e4&src=seo_token) | Solana | 0.12% | $154K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMMOCH yield today?
 
-0.53% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SMMOCH pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SMMOCH pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

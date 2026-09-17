@@ -1,12 +1,12 @@
 # ETH0 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest ETH0 yield right now is 3.52% on usual-eth0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETH0 yield right now is 3.58% on usual-eth0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.52% | $1.75M |
+| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 3.58% | $1.77M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETH0 yield today?
 
-3.52% APY on usual-eth0 (Ethereum), based on live DefiLlama data.
+3.58% APY on usual-eth0 (Ethereum), based on live DefiLlama data.
 
 ### How many ETH0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.75M in total.
+1 live pool clear this page's $100K TVL floor, $1.77M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ETH0 pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

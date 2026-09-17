@@ -1,6 +1,6 @@
 # WVENOM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
 The highest honest WVENOM yield right now is 1.46% on web3.world (Venom), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WVENOM pools. This view cover
 
 - [Venom](https://www.defi.garden/chains/venom)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

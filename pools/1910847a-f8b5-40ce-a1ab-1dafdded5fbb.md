@@ -2,11 +2,11 @@
 
 **Total APY:** 3.78% (3.78% Base · + 0.00% Rewards)
 
-**TVL:** $536.61M
+**TVL:** $519.07M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 3.50%
+**30d Mean APY:** 3.52%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on invesco-ustb](https://superstate.com/?ref=defi.garden)
 
-Last updated September 16, 2026
+Last updated September 17, 2026

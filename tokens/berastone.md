@@ -1,12 +1,12 @@
 # BERASTONE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest BERASTONE yield right now is 0.89% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BERASTONE yield right now is 0.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=646eeea2-bac8-4c31-b96c-b8bce376ebae&src=seo_token) | Ethereum | 0.89% | $202.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=646eeea2-bac8-4c31-b96c-b8bce376ebae&src=seo_token) | Ethereum | 0.09% | $204.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BERASTONE yield today?
 
-0.89% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BERASTONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.2K in total.
+1 live pool clear this page's $100K TVL floor, $204.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BERASTONE pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

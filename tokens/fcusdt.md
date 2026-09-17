@@ -1,12 +1,12 @@
 # FCUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest FCUSDT yield right now is 8.78% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FCUSDT yield right now is 11.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a2fb6364-078e-5f45-8549-7b0c61c2741d&src=seo_token) | Ethereum | 8.78% | $539.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=a2fb6364-078e-5f45-8549-7b0c61c2741d&src=seo_token) | Ethereum | 11.00% | $1.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FCUSDT yield today?
 
-8.78% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+11.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many FCUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $539.9K in total.
+1 live pool clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FCUSDT pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

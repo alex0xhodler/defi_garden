@@ -1,37 +1,37 @@
 # GEOD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 GEOD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 46.34%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GEOD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 78.67%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 46.34% | $297K |
-| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 9.70% | $288.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 18.46% | $272.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token) | Polygon | 12.42% | $179K |
-| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 18.20% | $169.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 78.67% | $297.4K |
+| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 62.02% | $294.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 20.15% | $269K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token) | Polygon | 14.83% | $176.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 32.92% | $171.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GEOD의 변동성 낮은 후보는 Solana의 raydium-amm, APY 18.20%, TVL $169.8K, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token; Polygon의 uniswap-v3, APY 12.42%, TVL $179K, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token; Polygon의 uniswap-v3, APY 18.46%, TVL $272.3K, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token; Solana의 raydium-amm, APY 46.34%, TVL $297K, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token; Solana의 orca-dex, APY 9.70%, TVL $288.2K, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GEOD의 변동성 낮은 후보는 Solana의 raydium-amm, APY 32.92%, TVL $171.4K, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token; Polygon의 uniswap-v3, APY 14.83%, TVL $176.2K, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token; Polygon의 uniswap-v3, APY 20.15%, TVL $269K, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token; Solana의 raydium-amm, APY 78.67%, TVL $297.4K, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token; Solana의 orca-dex, APY 62.02%, TVL $294.6K, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 18.20% | $169.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token) | Polygon | 12.42% | $179K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 18.46% | $272.3K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 46.34% | $297K |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 9.70% | $288.2K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 32.92% | $171.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token) | Polygon | 14.83% | $176.2K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 20.15% | $269K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 78.67% | $297.4K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 62.02% | $294.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GEOD 풀은 여기 5개가 있고, 2개 체인에서 APY가 9.70%부터 46.34%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GEOD 풀은 여기 5개가 있고, 2개 체인에서 APY가 14.83%부터 78.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 21.39%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 21.12%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -39,11 +39,11 @@ GEOD 풀은 여기 5개가 있고, 2개 체인에서 APY가 9.70%부터 46.34%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 46.34% | 86.40% | 기본 금리 |
-| orca-dex | 9.70% | 93.58% | 기본 금리 |
-| uniswap-v3 | 18.46% | 21.27% | 기본 금리 |
-| uniswap-v3 | 12.42% | 13.25% | 기본 금리 |
-| raydium-amm | 18.20% | 21.39% | 기본 금리 |
+| raydium-amm | 78.67% | 82.18% | 기본 금리 |
+| orca-dex | 62.02% | 89.49% | 기본 금리 |
+| uniswap-v3 | 20.15% | 21.12% | 기본 금리 |
+| uniswap-v3 | 14.83% | 13.44% | 기본 금리 |
+| raydium-amm | 32.92% | 20.70% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,7 +51,7 @@ GEOD 풀은 여기 5개가 있고, 2개 체인에서 APY가 9.70%부터 46.34%�
 
 ### 오늘 GEOD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 46.34%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 78.67%예요.
 
 ### GEOD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 46.34%예�
 
 ### GEOD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GEOD의 변동성 낮은 후보는 Solana의 raydium-amm, APY 18.20%, TVL $169.8K, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token; Polygon의 uniswap-v3, APY 12.42%, TVL $179K, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token; Polygon의 uniswap-v3, APY 18.46%, TVL $272.3K, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token; Solana의 raydium-amm, APY 46.34%, TVL $297K, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token; Solana의 orca-dex, APY 9.70%, TVL $288.2K, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GEOD의 변동성 낮은 후보는 Solana의 raydium-amm, APY 32.92%, TVL $171.4K, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token; Polygon의 uniswap-v3, APY 14.83%, TVL $176.2K, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be&src=seo_token; Polygon의 uniswap-v3, APY 20.15%, TVL $269K, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token; Solana의 raydium-amm, APY 78.67%, TVL $297.4K, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token; Solana의 orca-dex, APY 62.02%, TVL $294.6K, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -79,4 +79,4 @@ APY 이력만 기준으로 비교한 GEOD의 변동성 낮은 후보는 Solana�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 16, 2026
+## 마지막 업데이트: September 17, 2026

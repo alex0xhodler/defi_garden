@@ -1,13 +1,13 @@
 # BNCB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BNCB의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 370.57%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BNCB의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 370.57%이며, $100K TVL 기준을 넘는 21개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=85c50a16-a12a-55f0-8871-066cd20ceec1&src=seo_token) | BSC | 0.03% | $246.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e2ae3858-2bb8-56fa-95cd-b89e9fac3a1b&src=seo_token) | BSC | 5.71% | $175.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e2ae3858-2bb8-56fa-95cd-b89e9fac3a1b&src=seo_token) | BSC | 5.81% | $177K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5e385393-1585-5468-bab4-1c2a65ef2c1a&src=seo_token) | BSC | 0.22% | $140.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8426c311-60b2-5b45-8a1a-6a30585c62ee&src=seo_token) | BSC | 11.27% | $137.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=25f209ef-2a2a-5caf-a6e6-a8d359005611&src=seo_token) | BSC | 0.87% | $117K |
@@ -33,7 +33,7 @@ BNCB 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.03%부터 370.57%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 0.03% | 0.03% | 기본 금리 |
-| uniswap-v4 | 5.71% | — | 기본 금리 |
+| uniswap-v4 | 5.81% | — | 기본 금리 |
 | uniswap-v4 | 0.22% | 0.13% | 기본 금리 |
 | uniswap-v4 | 11.27% | 8.93% | 기본 금리 |
 | uniswap-v4 | 0.87% | 0.45% | 기본 금리 |
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 370.57%예요.
 
 ### BNCB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $3.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $3.58M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,4 +72,4 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 370.57%예요.
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 16, 2026
+## 마지막 업데이트: September 17, 2026

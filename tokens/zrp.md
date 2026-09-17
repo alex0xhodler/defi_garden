@@ -1,12 +1,12 @@
 # ZRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest ZRP yield right now is 1.40% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRP yield right now is 2.37% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=b5107522-0c4d-4adf-84f2-ebdd40ce35f8&src=seo_token) | Polygon | 1.40% | $586.2K |
+| [quickswap-dex →](https://www.defi.garden/?pool=b5107522-0c4d-4adf-84f2-ebdd40ce35f8&src=seo_token) | Polygon | 2.37% | $589.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZRP yield today?
 
-1.40% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+2.37% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many ZRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $586.2K in total.
+1 live pool clear this page's $100K TVL floor, $589.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank ZRP pools. This view covers A
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [EUSD](https://www.defi.garden/tokens/eusd)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

@@ -1,6 +1,6 @@
 # DAYC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
 The highest honest DAYC yield right now is 33.52% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DAYC pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

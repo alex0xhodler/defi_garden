@@ -1,12 +1,12 @@
 # WGOOGLX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WGOOGLX의 가장 높은 정직한 수익률은 Mantle의 fluxion-network에서 0.39%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WGOOGLX의 가장 높은 정직한 수익률은 Mantle의 fluxion-network에서 0.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.39% | $109.8K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.02% | $109.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 WGOOGLX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.39%예요.
+DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.02%예요.
 
 ### WGOOGLX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.39%�
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/ko/tokens/wspyx)
 - [BSB](https://www.defi.garden/ko/tokens/bsb)
+- [BILL](https://www.defi.garden/ko/tokens/bill)
 - [KII](https://www.defi.garden/ko/tokens/kii)
-- [WNVDAX](https://www.defi.garden/ko/tokens/wnvdax)
 
 ## 이용 가능한 체인
 
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 
-## 마지막 업데이트: September 16, 2026
+## 마지막 업데이트: September 17, 2026

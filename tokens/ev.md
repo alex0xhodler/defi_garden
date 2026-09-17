@@ -1,12 +1,12 @@
 # EV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest EV yield right now is 40.54% on everything (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EV yield right now is 40.90% on everything (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 40.54% | $1.65M |
+| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701&src=seo_token) | Arbitrum | 40.90% | $1.65M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EV yield today?
 
-40.54% APY on everything (Arbitrum), based on live DefiLlama data.
+40.90% APY on everything (Arbitrum), based on live DefiLlama data.
 
 ### How many EV pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EV pools. This view covers AP
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

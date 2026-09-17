@@ -1,13 +1,13 @@
 # BUTTHOLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest BUTTHOLE yield right now is 3.18% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUTTHOLE yield right now is 427.22% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f2ed3891-c84f-555a-9cfa-f2f8e8cfc9a1&src=seo_token) | Solana | 595.78% | $253.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=3e92654c-fb8b-4056-9d23-3e2219db622a&src=seo_token) | Solana | 3.18% | $238.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=f2ed3891-c84f-555a-9cfa-f2f8e8cfc9a1&src=seo_token) | Solana | 427.22% | $290K |
+| [raydium-amm →](https://www.defi.garden/?pool=3e92654c-fb8b-4056-9d23-3e2219db622a&src=seo_token) | Solana | 1.77% | $219K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BUTTHOLE shows up in 2 pools here, with rates from 3.18% to 595.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUTTHOLE shows up in 2 pools here, with rates from 1.77% to 427.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 6.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 6.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 595.78% | — | Base rate |
-| raydium-amm | 3.18% | 6.16% | Base rate |
+| raydium-amm | 427.22% | — | Base rate |
+| raydium-amm | 1.77% | 6.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUTTHOLE yield today?
 
-3.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+427.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BUTTHOLE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $492.6K in total.
+2 live pools clear this page's $100K TVL floor, $509K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank BUTTHOLE pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

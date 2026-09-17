@@ -1,12 +1,12 @@
 # WHOODX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest WHOODX yield right now is 0.01% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHOODX yield right now is 0.42% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 0.01% | $124.3K |
+| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 0.42% | $122.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHOODX yield today?
 
-0.01% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.42% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WHOODX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.3K in total.
+1 live pool clear this page's $100K TVL floor, $122.3K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank WHOODX pools. This view cover
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
+- [BILL](https://www.defi.garden/tokens/bill)
 - [KII](https://www.defi.garden/tokens/kii)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

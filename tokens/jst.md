@@ -1,12 +1,12 @@
 # JST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
 The highest honest JST yield right now is 0.30% on justlend-v1 (Tron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_token) | Tron | 0.30% | $9.73M |
+| [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_token) | Tron | 0.30% | $9.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.73M in total.
+1 live pool clear this page's $100K TVL floor, $9.86M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank JST pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

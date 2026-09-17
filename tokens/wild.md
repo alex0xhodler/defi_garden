@@ -1,12 +1,12 @@
 # WILD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest WILD yield right now is 9.66% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WILD yield right now is 17.18% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6ac7d09a-555f-4b07-b6b5-1e883de3a6c5&src=seo_token) | Ethereum | 9.66% | $149.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6ac7d09a-555f-4b07-b6b5-1e883de3a6c5&src=seo_token) | Ethereum | 17.18% | $154K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WILD yield today?
 
-9.66% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+17.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WILD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.7K in total.
+1 live pool clear this page's $100K TVL floor, $154K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WILD pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

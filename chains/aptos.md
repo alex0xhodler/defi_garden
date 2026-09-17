@@ -4,14 +4,14 @@ The highest honest Aptos yield right now is 15.13% on hyperion (Aptos), among 25
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_chain) | 3.26% | $967.26M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_chain) | 3.24% | $967.27M |
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a&src=seo_chain) | 15.13% | $6.29M |
-| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $2.64M |
-| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.17% | $1.78M |
+| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.45% | $2.76M |
+| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.17% | $1.86M |
+| USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 3.14% | $1.59M |
 | APT-AMAPT | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_chain) | 4.80% | $1.58M |
-| USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 4.04% | $1.57M |
 | APT-TRUAPT | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_chain) | 1.12% | $1.44M |
-| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 7.79% | $1.25M |
+| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 7.91% | $1.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Aptos pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $991.55M in total.
+25 live pools clear this page's $100K TVL floor, $991.78M in total.
 
 ### Are these rates safe?
 
@@ -41,11 +41,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Top tokens on Aptos
 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [APT](https://www.defi.garden/tokens/apt)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [APT](https://www.defi.garden/tokens/apt)
-- [AMAPT](https://www.defi.garden/tokens/amapt)
 - [USD1](https://www.defi.garden/tokens/usd1)
+- [AMAPT](https://www.defi.garden/tokens/amapt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

@@ -1,12 +1,12 @@
 # GBP-USDC — gmtrade on Solana
 
-**Total APY:** 40.10% (40.10% Base · + 0.00% Rewards)
+**Total APY:** 55.36% (55.36% Base · + 0.00% Rewards)
 
-**TVL:** $1.38M
+**TVL:** $1.39M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 43.42%
+**30d Mean APY:** 43.41%
 
 **Exposure:** multi
 
@@ -17,18 +17,18 @@
 Moderate risk profile
 
 - Medium liquidity
-- High yield
+- Very high yield
 
 ## The long game
 
-$1,000 in this pool grows to ~$5,397 in 5y at current rates.
+$1,000 in this pool grows to ~$9,051 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$5,397 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$9,051 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on gmtrade](https://gmtrade.xyz/?ref=defi.garden)
 
-Last updated September 16, 2026
+Last updated September 17, 2026

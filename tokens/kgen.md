@@ -1,12 +1,12 @@
 # KGEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest KGEN yield right now is 7.80% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KGEN yield right now is 10.80% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d3a0decb-9093-5408-b2c7-63476fb77806&src=seo_token) | Base | 7.80% | $174.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d3a0decb-9093-5408-b2c7-63476fb77806&src=seo_token) | Base | 10.80% | $169.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KGEN yield today?
 
-7.80% APY on uniswap-v3 (Base), based on live DefiLlama data.
+10.80% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many KGEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $174.9K in total.
+1 live pool clear this page's $100K TVL floor, $169.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KGEN pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

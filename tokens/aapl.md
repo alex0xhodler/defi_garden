@@ -1,13 +1,13 @@
 # AAPL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest AAPL yield right now is 56.16% on gmtrade (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPL yield right now is 165.21% on alandale-v3 (Robinhood Chain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 56.16% | $220.2K |
-| [alandale-v3 →](https://www.defi.garden/?pool=e906a950-f574-5c21-b45b-3da22dc0bf89&src=seo_token) | Robinhood Chain | 84.21% | $117.5K |
+| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 48.19% | $220.4K |
+| [alandale-v3 →](https://www.defi.garden/?pool=e906a950-f574-5c21-b45b-3da22dc0bf89&src=seo_token) | Robinhood Chain | 165.21% | $117.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AAPL shows up in 2 pools here, with rates from 56.16% to 84.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAPL shows up in 2 pools here, with rates from 48.19% to 165.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 117.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 116.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ AAPL shows up in 2 pools here, with rates from 56.16% to 84.21% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 56.16% | 38.71% | Base rate |
-| alandale-v3 | 84.21% | 197.02% | 100.00% incentives |
+| gmtrade | 48.19% | 39.33% | Base rate |
+| alandale-v3 | 165.21% | 192.95% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAPL yield today?
 
-56.16% APY on gmtrade (Solana), based on live DefiLlama data.
+165.21% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many AAPL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $858.7K in total.
+4 live pools clear this page's $100K TVL floor, $915.1K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank AAPL pools. This view covers 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

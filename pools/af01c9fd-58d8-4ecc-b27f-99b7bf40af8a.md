@@ -1,12 +1,12 @@
 # PUFETH — pendle-v2 on Ethereum
 
-**Total APY:** 4.95% (4.95% Base · + 0.00% Rewards)
+**Total APY:** 4.93% (4.93% Base · + 0.00% Rewards)
 
-**TVL:** $282.1K
+**TVL:** $285.5K
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 1.83%
+**30d Mean APY:** 1.98%
 
 **Exposure:** single
 
@@ -25,12 +25,12 @@ $1,000 in this pool grows to ~$1,085 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (4.95% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (4.93% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 4.95% right now vs a 1.83% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 4.93% right now vs a 1.98% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,085 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on pendle-v2](https://pendle.finance/?ref=defi.garden)
 
-Last updated September 16, 2026
+Last updated September 17, 2026

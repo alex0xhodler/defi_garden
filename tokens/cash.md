@@ -1,41 +1,41 @@
 # CASH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
 The highest honest CASH yield right now is 3.26% on kamino-lend (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.23% | $7.03M |
-| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.26% | $6.56M |
-| [kamino-lend →](https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token) | Solana | 3.12% | $115.7K |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.50% | $7.03M |
+| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.26% | $6.55M |
+| [kamino-lend →](https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token) | Solana | 3.14% | $114.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 3.26% APY, $6.56M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; orca-dex (Solana), 0.23% APY, $7.03M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token; kamino-lend (Solana), 3.12% APY, $115.7K TVL, https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 3.26% APY, $6.55M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; orca-dex (Solana), 0.50% APY, $7.03M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token; kamino-lend (Solana), 3.14% APY, $114.6K TVL, https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.26% | $6.56M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.23% | $7.03M |
-| 3 | [kamino-lend →](https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token) | Solana | 3.12% | $115.7K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.26% | $6.55M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.50% | $7.03M |
+| 3 | [kamino-lend →](https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token) | Solana | 3.14% | $114.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CASH shows up in 3 pools here, with rates from 0.23% to 3.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CASH shows up in 3 pools here, with rates from 0.50% to 3.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.23% | 1.06% | Base rate |
-| kamino-lend | 3.26% | 4.03% | Base rate |
-| kamino-lend | 3.12% | 4.12% | Base rate |
+| orca-dex | 0.50% | 1.04% | Base rate |
+| kamino-lend | 3.26% | 4.00% | Base rate |
+| kamino-lend | 3.14% | 4.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CASH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.12M in total.
+4 live pools clear this page's $100K TVL floor, $14.1M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CASH pools have the most stable APY history?
 
-Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 3.26% APY, $6.56M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; orca-dex (Solana), 0.23% APY, $7.03M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token; kamino-lend (Solana), 3.12% APY, $115.7K TVL, https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 3.26% APY, $6.55M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; orca-dex (Solana), 0.50% APY, $7.03M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token; kamino-lend (Solana), 3.14% APY, $114.6K TVL, https://www.defi.garden/?pool=91d6ed2f-b69e-4d7b-8d56-ab3256fbe1f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, CASH's lower-variability candidates are kamino-lend (
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026

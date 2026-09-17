@@ -1,8 +1,8 @@
 # VVS-WCRO — vvs-standard on Cronos
 
-**Total APY:** 0.12% (0.12% Base · + 0.00% Rewards)
+**Total APY:** 0.13% (0.13% Base · + 0.00% Rewards)
 
-**TVL:** $29.42M
+**TVL:** $30.72M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on vvs-standard](https://vvs.finance/?ref=defi.garden)
 
-Last updated September 16, 2026
+Last updated September 17, 2026

@@ -1,31 +1,31 @@
 # SYN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
 
-The highest honest SYN yield right now is 0.03% on frax (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYN yield right now is 0.19% on frax (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.03% | $231.3K |
-| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 132.07% | $123.9K |
+| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.19% | $233.1K |
+| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 499.58% | $158.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.03% APY, $231.3K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 132.07% APY, $123.9K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.19% APY, $233.1K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 499.58% APY, $158.9K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.03% | $231.3K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 132.07% | $123.9K |
+| 1 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.19% | $233.1K |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 499.58% | $158.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYN shows up in 2 pools here, with rates from 0.03% to 132.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYN shows up in 2 pools here, with rates from 0.19% to 499.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 0.03% | 0.02% | Base rate |
-| sushiswap | 132.07% | 17.78% | Base rate |
+| frax | 0.19% | 0.02% | Base rate |
+| sushiswap | 499.58% | 34.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYN yield today?
 
-0.03% APY on frax (Ethereum), based on live DefiLlama data.
+0.19% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many SYN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $355.2K in total.
+2 live pools clear this page's $100K TVL floor, $392K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYN pools have the most stable APY history?
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.03% APY, $231.3K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 132.07% APY, $123.9K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.19% APY, $233.1K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 499.58% APY, $158.9K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SYN's lower-variability candidates are frax (Ethereum
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 16, 2026
+## Last updated September 17, 2026
