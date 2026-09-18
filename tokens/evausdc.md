@@ -1,48 +1,50 @@
 # EVAUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest EVAUSDC yield right now is 13.34% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVAUSDC yield right now is 14.13% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.10% | $3.74M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 11.08% | $3.42M |
-| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 13.34% | $2.11M |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.57% | $741.3K |
-| [curve-dex →](https://www.defi.garden/?pool=1ce42e32-a56d-55ed-9bc4-6e7d2e658a7d&src=seo_token) | Ethereum | 5.21% | $197.5K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=5f23684b-7c6b-5f6a-8321-38c571c69b17&src=seo_token) | Ethereum | 5.91% | $197.5K |
+| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.51% | $3.7M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 11.94% | $3.37M |
+| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 14.13% | $2.1M |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.57% | $741.4K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=5f23684b-7c6b-5f6a-8321-38c571c69b17&src=seo_token) | Ethereum | 9.48% | $131.3K |
+| [curve-dex →](https://www.defi.garden/?pool=1ce42e32-a56d-55ed-9bc4-6e7d2e658a7d&src=seo_token) | Ethereum | 8.31% | $131.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EVAUSDC's lower-variability candidates are curve-dex (Ethereum), 6.10% APY, $3.74M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; shadow-exchange-legacy (Sonic), 8.57% APY, $741.3K TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; stake-dao-yield (Ethereum), 11.08% APY, $3.42M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; convex-finance (Ethereum), 13.34% APY, $2.11M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVAUSDC's lower-variability candidates are curve-dex (Ethereum), 6.51% APY, $3.7M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; shadow-exchange-legacy (Sonic), 8.57% APY, $741.4K TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; stake-dao-yield (Ethereum), 11.94% APY, $3.37M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; curve-dex (Ethereum), 8.31% APY, $131.3K TVL, https://www.defi.garden/?pool=1ce42e32-a56d-55ed-9bc4-6e7d2e658a7d&src=seo_token; stake-dao-yield (Ethereum), 9.48% APY, $131.3K TVL, https://www.defi.garden/?pool=5f23684b-7c6b-5f6a-8321-38c571c69b17&src=seo_token; convex-finance (Ethereum), 14.13% APY, $2.1M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.10% | $3.74M |
-| 2 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.57% | $741.3K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 11.08% | $3.42M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 13.34% | $2.11M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.51% | $3.7M |
+| 2 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.57% | $741.4K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 11.94% | $3.37M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=1ce42e32-a56d-55ed-9bc4-6e7d2e658a7d&src=seo_token) | Ethereum | 8.31% | $131.3K |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=5f23684b-7c6b-5f6a-8321-38c571c69b17&src=seo_token) | Ethereum | 9.48% | $131.3K |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 14.13% | $2.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EVAUSDC shows up in 6 pools here, with rates from 5.21% to 13.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EVAUSDC shows up in 6 pools here, with rates from 6.51% to 14.13% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 6.10% | 8.50% | 99.84% incentives |
-| stake-dao-yield | 11.08% | 12.98% | 100.00% incentives |
-| convex-finance | 13.34% | 16.86% | 99.93% incentives |
+| curve-dex | 6.51% | 8.51% | 99.69% incentives |
+| stake-dao-yield | 11.94% | 13.06% | 100.00% incentives |
+| convex-finance | 14.13% | 17.00% | 99.86% incentives |
 | shadow-exchange-legacy | 8.57% | 9.07% | 100.00% incentives |
-| curve-dex | 5.21% | 13.48% | 99.81% incentives |
-| stake-dao-yield | 5.91% | 15.37% | 100.00% incentives |
+| stake-dao-yield | 9.48% | 15.06% | 99.89% incentives |
+| curve-dex | 8.31% | 13.21% | 99.64% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EVAUSDC yield today?
 
-13.34% APY on convex-finance (Ethereum), based on live DefiLlama data.
+14.13% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many EVAUSDC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $10.4M in total.
+6 live pools clear this page's $100K TVL floor, $10.18M in total.
 
 ### Are these rates safe?
 
@@ -62,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EVAUSDC pools have the most stable APY history?
 
-Based on APY history only, EVAUSDC's lower-variability candidates are curve-dex (Ethereum), 6.10% APY, $3.74M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; shadow-exchange-legacy (Sonic), 8.57% APY, $741.3K TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; stake-dao-yield (Ethereum), 11.08% APY, $3.42M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; convex-finance (Ethereum), 13.34% APY, $2.11M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVAUSDC's lower-variability candidates are curve-dex (Ethereum), 6.51% APY, $3.7M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; shadow-exchange-legacy (Sonic), 8.57% APY, $741.4K TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; stake-dao-yield (Ethereum), 11.94% APY, $3.37M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; curve-dex (Ethereum), 8.31% APY, $131.3K TVL, https://www.defi.garden/?pool=1ce42e32-a56d-55ed-9bc4-6e7d2e658a7d&src=seo_token; stake-dao-yield (Ethereum), 9.48% APY, $131.3K TVL, https://www.defi.garden/?pool=5f23684b-7c6b-5f6a-8321-38c571c69b17&src=seo_token; convex-finance (Ethereum), 14.13% APY, $2.1M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +80,4 @@ Based on APY history only, EVAUSDC's lower-variability candidates are curve-dex 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

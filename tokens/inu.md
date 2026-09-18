@@ -1,33 +1,32 @@
 # INU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest INU yield right now is 0.01% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INU yield right now is 766.36% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.01% | $320K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token) | Ethereum | 0.01% | $121.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.93% | $109.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.16% | $326.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=8a4ea8af-8488-54ca-8395-f9e9374eec60&src=seo_token) | Solana | 766.36% | $154.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token) | Ethereum | 0.14% | $123.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INU's lower-variability candidates are uniswap-v2 (Ethereum), 0.93% APY, $109.8K TVL, https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $121.3K TVL, https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $320K TVL, https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INU's lower-variability candidates are uniswap-v2 (Ethereum), 0.14% APY, $123.2K TVL, https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token; uniswap-v2 (Ethereum), 0.16% APY, $326.8K TVL, https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token) | Ethereum | 0.93% | $109.8K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token) | Ethereum | 0.01% | $121.3K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.01% | $320K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token) | Ethereum | 0.14% | $123.2K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.16% | $326.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INU shows up in 3 pools here, with rates from 0.01% to 0.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+INU shows up in 3 pools here, with rates from 0.14% to 766.36% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.01% | 0.01% | Base rate |
-| uniswap-v2 | 0.01% | 0.25% | Base rate |
-| uniswap-v2 | 0.93% | 0.11% | Base rate |
+| uniswap-v2 | 0.16% | 0.01% | Base rate |
+| raydium-amm | 766.36% | 541.91% | Base rate |
+| uniswap-v2 | 0.14% | 0.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INU yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+766.36% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many INU pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $551.1K in total.
+4 live pools clear this page's $100K TVL floor, $715.8K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INU pools have the most stable APY history?
 
-Based on APY history only, INU's lower-variability candidates are uniswap-v2 (Ethereum), 0.93% APY, $109.8K TVL, https://www.defi.garden/?pool=92187ca2-fabc-4dc1-85e1-0ca514f7caf1&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $121.3K TVL, https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $320K TVL, https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INU's lower-variability candidates are uniswap-v2 (Ethereum), 0.14% APY, $123.2K TVL, https://www.defi.garden/?pool=5c209b64-2222-4a8c-aefd-c4e6ff434d03&src=seo_token; uniswap-v2 (Ethereum), 0.16% APY, $326.8K TVL, https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,5 +70,6 @@ Based on APY history only, INU's lower-variability candidates are uniswap-v2 (Et
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

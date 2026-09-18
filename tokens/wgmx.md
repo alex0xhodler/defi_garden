@@ -1,35 +1,35 @@
 # WGMX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest WGMX yield right now is 122.18% on gmtrade (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGMX yield right now is 102.88% on gmtrade (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 88.02% | $209.7K |
-| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 122.18% | $198.7K |
-| [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.75% | $183.4K |
-| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 59.34% | $121.2K |
+| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 102.88% | $209.1K |
+| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 84.18% | $207.3K |
+| [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.28% | $186.4K |
+| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 61.61% | $130.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WGMX's lower-variability candidates are gmtrade (Solana), 2.75% APY, $183.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token; gmtrade (Solana), 122.18% APY, $198.7K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token; gmtrade (Solana), 59.34% APY, $121.2K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token; gmtrade (Solana), 88.02% APY, $209.7K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WGMX's lower-variability candidates are gmtrade (Solana), 2.28% APY, $186.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token; gmtrade (Solana), 102.88% APY, $209.1K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token; gmtrade (Solana), 61.61% APY, $130.3K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token; gmtrade (Solana), 84.18% APY, $207.3K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.75% | $183.4K |
-| 2 | [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 122.18% | $198.7K |
-| 3 | [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 59.34% | $121.2K |
-| 4 | [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 88.02% | $209.7K |
+| 1 | [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.28% | $186.4K |
+| 2 | [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 102.88% | $209.1K |
+| 3 | [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 61.61% | $130.3K |
+| 4 | [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 84.18% | $207.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WGMX shows up in 4 pools here, with rates from 2.75% to 122.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WGMX shows up in 4 pools here, with rates from 2.28% to 102.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 106.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 105.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 88.02% | 157.08% | Base rate |
-| gmtrade | 122.18% | 107.58% | Base rate |
-| gmtrade | 2.75% | 1.50% | Base rate |
-| gmtrade | 59.34% | 104.75% | Base rate |
+| gmtrade | 102.88% | 107.98% | Base rate |
+| gmtrade | 84.18% | 155.30% | Base rate |
+| gmtrade | 2.28% | 1.54% | Base rate |
+| gmtrade | 61.61% | 103.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WGMX yield today?
 
-122.18% APY on gmtrade (Solana), based on live DefiLlama data.
+102.88% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many WGMX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $713.1K in total.
+4 live pools clear this page's $100K TVL floor, $733.1K in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WGMX pools have the most stable APY history?
 
-Based on APY history only, WGMX's lower-variability candidates are gmtrade (Solana), 2.75% APY, $183.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token; gmtrade (Solana), 122.18% APY, $198.7K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token; gmtrade (Solana), 59.34% APY, $121.2K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token; gmtrade (Solana), 88.02% APY, $209.7K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WGMX's lower-variability candidates are gmtrade (Solana), 2.28% APY, $186.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token; gmtrade (Solana), 102.88% APY, $209.1K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token; gmtrade (Solana), 61.61% APY, $130.3K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token; gmtrade (Solana), 84.18% APY, $207.3K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,10 +69,10 @@ Based on APY history only, WGMX's lower-variability candidates are gmtrade (Sola
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

@@ -1,32 +1,32 @@
 # MEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest MEX yield right now is 27.77% on xexchange (MultiversX), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEX yield right now is 33.50% on xexchange (MultiversX), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 9.59% | $185.7K |
-| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 27.77% | $146.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=99355344-de97-5264-9c0a-d99b054acf7a&src=seo_token) | Arbitrum | 18.46% | $141.6K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 18.53% | $173.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=99355344-de97-5264-9c0a-d99b054acf7a&src=seo_token) | Arbitrum | 11.48% | $158.5K |
+| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 33.50% | $147.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MEX's lower-variability candidates are xexchange (MultiversX), 9.59% APY, $185.7K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 27.77% APY, $146.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MEX's lower-variability candidates are xexchange (MultiversX), 18.53% APY, $173.1K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 33.50% APY, $147.3K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 9.59% | $185.7K |
-| 2 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 27.77% | $146.9K |
+| 1 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 18.53% | $173.1K |
+| 2 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 33.50% | $147.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MEX shows up in 3 pools here, with rates from 9.59% to 27.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MEX shows up in 3 pools here, with rates from 11.48% to 33.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -34,9 +34,9 @@ MEX shows up in 3 pools here, with rates from 9.59% to 27.77% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 9.59% | 9.62% | 57.30% incentives |
-| xexchange | 27.77% | 24.38% | 100.00% incentives |
-| uniswap-v4 | 18.46% | 6.70% | Base rate |
+| xexchange | 18.53% | 10.06% | 31.35% incentives |
+| uniswap-v4 | 11.48% | 7.14% | Base rate |
+| xexchange | 33.50% | 24.82% | 81.50% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MEX yield today?
 
-27.77% APY on xexchange (MultiversX), based on live DefiLlama data.
+33.50% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many MEX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $474.3K in total.
+3 live pools clear this page's $100K TVL floor, $478.9K in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MEX pools have the most stable APY history?
 
-Based on APY history only, MEX's lower-variability candidates are xexchange (MultiversX), 9.59% APY, $185.7K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 27.77% APY, $146.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MEX's lower-variability candidates are xexchange (MultiversX), 18.53% APY, $173.1K TVL, https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token; xexchange (MultiversX), 33.50% APY, $147.3K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, MEX's lower-variability candidates are xexchange (Mul
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

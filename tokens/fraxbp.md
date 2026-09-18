@@ -1,43 +1,43 @@
 # FRAXBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest FRAXBP yield right now is 26.43% on convex-finance (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRAXBP yield right now is 27.23% on convex-finance (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 2.76% | $1.32M |
-| [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token) | Ethereum | 7.37% | $1.14M |
-| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 15.53% | $525.8K |
-| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.43% | $343.1K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.55% | $226.5K |
-| [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.55% | $226K |
-| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.03% | $175.5K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.20% | $165K |
+| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 1.58% | $1.23M |
+| [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token) | Ethereum | 6.83% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 15.71% | $525.7K |
+| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 27.23% | $343.1K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.37% | $226.5K |
+| [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.37% | $226K |
+| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.05% | $175K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $164.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FRAXBP's lower-variability candidates are curve-dex (Ethereum), 0.55% APY, $226.5K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 0.20% APY, $165K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.03% APY, $175.5K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; convex-finance (Ethereum), 0.55% APY, $226K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; curve-dex (Ethereum), 2.76% APY, $1.32M TVL, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token; convex-finance (Ethereum), 7.37% APY, $1.14M TVL, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token; curve-dex (Ethereum), 15.53% APY, $525.8K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 26.43% APY, $343.1K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRAXBP's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $226.5K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 0.17% APY, $164.6K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.05% APY, $175K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; convex-finance (Ethereum), 0.37% APY, $226K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; curve-dex (Ethereum), 1.58% APY, $1.23M TVL, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token; convex-finance (Ethereum), 6.83% APY, $1.06M TVL, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token; curve-dex (Ethereum), 15.71% APY, $525.7K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 27.23% APY, $343.1K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.55% | $226.5K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.20% | $165K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.03% | $175.5K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.55% | $226K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 2.76% | $1.32M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token) | Ethereum | 7.37% | $1.14M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 15.53% | $525.8K |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.43% | $343.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.37% | $226.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $164.6K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.05% | $175K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.37% | $226K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 1.58% | $1.23M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token) | Ethereum | 6.83% | $1.06M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 15.71% | $525.7K |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 27.23% | $343.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRAXBP shows up in 8 pools here, with rates from 0.03% to 26.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRAXBP shows up in 8 pools here, with rates from 0.05% to 27.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ FRAXBP shows up in 8 pools here, with rates from 0.03% to 26.43% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.76% | 5.40% | 10.89% incentives |
-| convex-finance | 7.37% | 10.92% | 66.61% incentives |
-| curve-dex | 15.53% | 15.83% | 94.59% incentives |
-| convex-finance | 26.43% | 28.55% | 96.82% incentives |
-| curve-dex | 0.55% | 0.29% | Base rate |
-| convex-finance | 0.55% | 0.29% | Base rate |
-| curve-dex | 0.03% | 0.23% | 100.00% incentives |
-| convex-finance | 0.20% | 0.25% | 75.00% incentives |
+| curve-dex | 1.58% | 5.32% | 21.64% incentives |
+| convex-finance | 6.83% | 10.82% | 81.85% incentives |
+| curve-dex | 15.71% | 15.89% | 98.92% incentives |
+| convex-finance | 27.23% | 28.55% | 99.38% incentives |
+| curve-dex | 0.37% | 0.31% | Base rate |
+| convex-finance | 0.37% | 0.31% | Base rate |
+| curve-dex | 0.05% | 0.21% | 78.05% incentives |
+| convex-finance | 0.17% | 0.23% | 94.09% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRAXBP yield today?
 
-26.43% APY on convex-finance (Ethereum), based on live DefiLlama data.
+27.23% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FRAXBP pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $4.9M in total.
+12 live pools clear this page's $100K TVL floor, $4.72M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FRAXBP pools have the most stable APY history?
 
-Based on APY history only, FRAXBP's lower-variability candidates are curve-dex (Ethereum), 0.55% APY, $226.5K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 0.20% APY, $165K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.03% APY, $175.5K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; convex-finance (Ethereum), 0.55% APY, $226K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; curve-dex (Ethereum), 2.76% APY, $1.32M TVL, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token; convex-finance (Ethereum), 7.37% APY, $1.14M TVL, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token; curve-dex (Ethereum), 15.53% APY, $525.8K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 26.43% APY, $343.1K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRAXBP's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $226.5K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 0.17% APY, $164.6K TVL, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token; curve-dex (Ethereum), 0.05% APY, $175K TVL, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token; convex-finance (Ethereum), 0.37% APY, $226K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; curve-dex (Ethereum), 1.58% APY, $1.23M TVL, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token; convex-finance (Ethereum), 6.83% APY, $1.06M TVL, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7&src=seo_token; curve-dex (Ethereum), 15.71% APY, $525.7K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 27.23% APY, $343.1K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, FRAXBP's lower-variability candidates are curve-dex (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

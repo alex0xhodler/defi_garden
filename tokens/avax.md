@@ -1,43 +1,43 @@
 # AVAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest AVAX yield right now is 14.96% on gmx-v2-perps (Avalanche), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVAX yield right now is 18.06% on gmx-v2-perps (Avalanche), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.86% | $4.03M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 14.96% | $3.39M |
-| [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.14% | $1.21M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 1.14% | $244.5K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 6.64% | $224K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.72% | $142K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.72% | $142K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token) | Avalanche | 0.26% | $106.5K |
+| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 1.05% | $3.6M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 18.06% | $3.38M |
+| [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.14% | $1.27M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 1.17% | $251K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 6.76% | $227.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 3.73% | $149.3K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 3.73% | $149.3K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token) | Avalanche | 0.27% | $108.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AVAX's lower-variability candidates are benqi-lending (Avalanche), 0.86% APY, $4.03M TVL, https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token; folks-finance-xchain (Avalanche), 0.14% APY, $1.21M TVL, https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token; gmx-v2-perps (Avalanche), 0.72% APY, $142K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 0.72% APY, $142K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 1.14% APY, $244.5K TVL, https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token; gmx-v2-perps (Avalanche), 14.96% APY, $3.39M TVL, https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token; gmx-v2-perps (Arbitrum), 6.64% APY, $224K TVL, https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token; gmx-v2-perps (Avalanche), 0.26% APY, $106.5K TVL, https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVAX's lower-variability candidates are benqi-lending (Avalanche), 1.05% APY, $3.6M TVL, https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token; folks-finance-xchain (Avalanche), 0.14% APY, $1.27M TVL, https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token; gmx-v2-perps (Avalanche), 3.73% APY, $149.3K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 3.73% APY, $149.3K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 1.17% APY, $251K TVL, https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token; gmx-v2-perps (Avalanche), 18.06% APY, $3.38M TVL, https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token; gmx-v2-perps (Arbitrum), 6.76% APY, $227.2K TVL, https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token; gmx-v2-perps (Avalanche), 0.27% APY, $108.9K TVL, https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.86% | $4.03M |
-| 2 | [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.14% | $1.21M |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.72% | $142K |
-| 4 | [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.72% | $142K |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 1.14% | $244.5K |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 14.96% | $3.39M |
-| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 6.64% | $224K |
-| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token) | Avalanche | 0.26% | $106.5K |
+| 1 | [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 1.05% | $3.6M |
+| 2 | [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.14% | $1.27M |
+| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 3.73% | $149.3K |
+| 4 | [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 3.73% | $149.3K |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 1.17% | $251K |
+| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 18.06% | $3.38M |
+| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 6.76% | $227.2K |
+| 8 | [gmx-v2-perps →](https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token) | Avalanche | 0.27% | $108.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVAX shows up in 8 pools here, with rates from 0.14% to 14.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVAX shows up in 8 pools here, with rates from 0.14% to 18.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.77% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| benqi-lending | 0.86% | 0.82% | Base rate |
-| gmx-v2-perps | 14.96% | 14.20% | Base rate |
+| benqi-lending | 1.05% | 0.82% | Base rate |
+| gmx-v2-perps | 18.06% | 14.38% | Base rate |
 | folks-finance-xchain | 0.14% | 0.14% | Base rate |
-| gmx-v2-perps | 1.14% | 7.03% | Base rate |
-| gmx-v2-perps | 6.64% | 21.21% | Base rate |
-| gmx-v2-perps | 0.72% | 0.55% | Base rate |
-| gmx-v2-perps | 0.72% | 0.55% | Base rate |
-| gmx-v2-perps | 0.26% | 4.73% | Base rate |
+| gmx-v2-perps | 1.17% | 7.02% | Base rate |
+| gmx-v2-perps | 6.76% | 20.84% | Base rate |
+| gmx-v2-perps | 3.73% | 0.62% | Base rate |
+| gmx-v2-perps | 3.73% | 0.62% | Base rate |
+| gmx-v2-perps | 0.27% | 4.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AVAX yield today?
 
-14.96% APY on gmx-v2-perps (Avalanche), based on live DefiLlama data.
+18.06% APY on gmx-v2-perps (Avalanche), based on live DefiLlama data.
 
 ### How many AVAX pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $9.49M in total.
+8 live pools clear this page's $100K TVL floor, $9.12M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AVAX pools have the most stable APY history?
 
-Based on APY history only, AVAX's lower-variability candidates are benqi-lending (Avalanche), 0.86% APY, $4.03M TVL, https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token; folks-finance-xchain (Avalanche), 0.14% APY, $1.21M TVL, https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token; gmx-v2-perps (Avalanche), 0.72% APY, $142K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 0.72% APY, $142K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 1.14% APY, $244.5K TVL, https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token; gmx-v2-perps (Avalanche), 14.96% APY, $3.39M TVL, https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token; gmx-v2-perps (Arbitrum), 6.64% APY, $224K TVL, https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token; gmx-v2-perps (Avalanche), 0.26% APY, $106.5K TVL, https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVAX's lower-variability candidates are benqi-lending (Avalanche), 1.05% APY, $3.6M TVL, https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token; folks-finance-xchain (Avalanche), 0.14% APY, $1.27M TVL, https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token; gmx-v2-perps (Avalanche), 3.73% APY, $149.3K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 3.73% APY, $149.3K TVL, https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token; gmx-v2-perps (Avalanche), 1.17% APY, $251K TVL, https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token; gmx-v2-perps (Avalanche), 18.06% APY, $3.38M TVL, https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token; gmx-v2-perps (Arbitrum), 6.76% APY, $227.2K TVL, https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token; gmx-v2-perps (Avalanche), 0.27% APY, $108.9K TVL, https://www.defi.garden/?pool=c62c46d2-d7cc-4d5c-87b3-d39e12efde38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, AVAX's lower-variability candidates are benqi-lending
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

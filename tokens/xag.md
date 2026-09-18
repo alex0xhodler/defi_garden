@@ -1,12 +1,12 @@
 # XAG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest XAG yield right now is 273.32% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAG yield right now is 289.83% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 273.32% | $1.22M |
+| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 289.83% | $1.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAG yield today?
 
-273.32% APY on gmtrade (Solana), based on live DefiLlama data.
+289.83% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many XAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.22M in total.
+1 live pool clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank XAG pools. This view covers A
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

@@ -1,15 +1,11 @@
 # BNC4 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest BNC4 yield right now is 144.78% on uniswap-v4 (BSC), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNC4 yield right now is 1.50% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9d1c41c3-2a8f-5984-b204-0dbc19411c08&src=seo_token) | BSC | 577.97% | $234.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e61670ec-2e29-5516-8584-0bd3b28066ee&src=seo_token) | BSC | 144.78% | $166.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ed0f1175-4b68-51ac-874a-02970dd93c21&src=seo_token) | BSC | 0.15% | $159.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a003ea3c-bb86-5753-9c81-d1c0338f4c3b&src=seo_token) | BSC | 39.98% | $150.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=75eb0e96-9e69-5e66-a2ba-f0640ae95cf9&src=seo_token) | BSC | 1.50% | $142.8K |
 
 <!-- rate-stability:insufficient -->
@@ -19,35 +15,15 @@ There is not enough qualifying APY history to rank BNC4 pools. This view covers 
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
-## How this rate has behaved
-
-BNC4 shows up in 5 pools here, with rates from 0.15% to 577.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 39.98% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| uniswap-v4 | 577.97% | 298.70% | Base rate |
-| uniswap-v4 | 144.78% | 238.33% | Base rate |
-| uniswap-v4 | 0.15% | 0.15% | Base rate |
-| uniswap-v4 | 39.98% | 39.98% | Base rate |
-| uniswap-v4 | 1.50% | 10.48% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
-
 ## Frequently asked questions
 
 ### What's the highest BNC4 yield today?
 
-144.78% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+1.50% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BNC4 pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $853.7K in total.
+1 live pool clear this page's $100K TVL floor, $142.8K in total.
 
 ### Are these rates safe?
 
@@ -60,8 +36,8 @@ There is not enough qualifying APY history to rank BNC4 pools. This view covers 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
@@ -70,4 +46,4 @@ There is not enough qualifying APY history to rank BNC4 pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

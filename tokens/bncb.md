@@ -1,13 +1,13 @@
 # BNCB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
 The highest honest BNCB yield right now is 370.57% on uniswap-v4 (BSC), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=85c50a16-a12a-55f0-8871-066cd20ceec1&src=seo_token) | BSC | 0.03% | $246.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e2ae3858-2bb8-56fa-95cd-b89e9fac3a1b&src=seo_token) | BSC | 5.81% | $177K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e2ae3858-2bb8-56fa-95cd-b89e9fac3a1b&src=seo_token) | BSC | 5.89% | $174.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5e385393-1585-5468-bab4-1c2a65ef2c1a&src=seo_token) | BSC | 0.22% | $140.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8426c311-60b2-5b45-8a1a-6a30585c62ee&src=seo_token) | BSC | 11.27% | $137.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=25f209ef-2a2a-5caf-a6e6-a8d359005611&src=seo_token) | BSC | 0.87% | $117K |
@@ -33,7 +33,7 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 0.03% | 0.03% | Base rate |
-| uniswap-v4 | 5.81% | — | Base rate |
+| uniswap-v4 | 5.89% | — | Base rate |
 | uniswap-v4 | 0.22% | 0.13% | Base rate |
 | uniswap-v4 | 11.27% | 8.93% | Base rate |
 | uniswap-v4 | 0.87% | 0.45% | Base rate |
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNCB pools clear the TVL floor?
 
-21 live pools clear this page's $100K TVL floor, $3.58M in total.
+21 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 
@@ -62,8 +62,8 @@ There is not enough qualifying APY history to rank BNCB pools. This view covers 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
@@ -72,4 +72,4 @@ There is not enough qualifying APY history to rank BNCB pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

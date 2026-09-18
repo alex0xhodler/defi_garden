@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on wombat-exchange](https://www.wombat.exchange/?ref=defi.garden)
 
-Last updated September 17, 2026
+Last updated September 18, 2026

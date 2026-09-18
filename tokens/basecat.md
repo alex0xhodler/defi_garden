@@ -1,45 +1,48 @@
 # BASECAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest BASECAT yield right now is 955.79% on uniswap-v3 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASECAT yield right now is 819.17% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.02% | $865.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 485.21% | $668.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 0.06% | $322.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6b23bb48-126a-5673-9c1c-f10f03ad3499&src=seo_token) | Base | 955.79% | $138.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.01% | $854.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 196.06% | $679.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 0.02% | $319.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3d9c490d-2fba-545d-8b04-164bf5d37e06&src=seo_token) | Base | 819.17% | $221.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6b23bb48-126a-5673-9c1c-f10f03ad3499&src=seo_token) | Base | 631.04% | $135.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BASECAT's lower-variability candidates are uniswap-v4 (Base), 485.21% APY, $668.1K TVL, https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token; uniswap-v4 (Base), 0.02% APY, $865.5K TVL, https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token; uniswap-v4 (Base), 0.06% APY, $322.5K TVL, https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BASECAT's lower-variability candidates are uniswap-v3 (Base), 819.17% APY, $221.1K TVL, https://www.defi.garden/?pool=3d9c490d-2fba-545d-8b04-164bf5d37e06&src=seo_token; uniswap-v4 (Base), 196.06% APY, $679.5K TVL, https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token; uniswap-v4 (Base), 0.01% APY, $854.6K TVL, https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token; uniswap-v4 (Base), 0.02% APY, $319.8K TVL, https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 485.21% | $668.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.02% | $865.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 0.06% | $322.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3d9c490d-2fba-545d-8b04-164bf5d37e06&src=seo_token) | Base | 819.17% | $221.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token) | Base | 196.06% | $679.5K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 0.01% | $854.6K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 0.02% | $319.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BASECAT shows up in 4 pools here, with rates from 0.02% to 955.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BASECAT shows up in 5 pools here, with rates from 0.01% to 819.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 4 pools have a trustworthy 30-day average on file, with a median of 275.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 5 pools have a trustworthy 30-day average on file, with a median of 244.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.02% | 83.03% | Base rate |
-| uniswap-v4 | 485.21% | 870.56% | Base rate |
-| uniswap-v4 | 0.06% | 275.99% | Base rate |
-| uniswap-v3 | 955.79% | — | Base rate |
+| uniswap-v4 | 0.01% | 76.56% | Base rate |
+| uniswap-v4 | 196.06% | 810.75% | Base rate |
+| uniswap-v4 | 0.02% | 244.19% | Base rate |
+| uniswap-v3 | 819.17% | — | Base rate |
+| uniswap-v3 | 631.04% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BASECAT yield today?
 
-955.79% APY on uniswap-v3 (Base), based on live DefiLlama data.
+819.17% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BASECAT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.6M in total.
+6 live pools clear this page's $100K TVL floor, $2.82M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +62,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BASECAT pools have the most stable APY history?
 
-Based on APY history only, BASECAT's lower-variability candidates are uniswap-v4 (Base), 485.21% APY, $668.1K TVL, https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token; uniswap-v4 (Base), 0.02% APY, $865.5K TVL, https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token; uniswap-v4 (Base), 0.06% APY, $322.5K TVL, https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BASECAT's lower-variability candidates are uniswap-v3 (Base), 819.17% APY, $221.1K TVL, https://www.defi.garden/?pool=3d9c490d-2fba-545d-8b04-164bf5d37e06&src=seo_token; uniswap-v4 (Base), 196.06% APY, $679.5K TVL, https://www.defi.garden/?pool=bd89ae9f-3c2f-5fe4-adcd-64c4a436cdc0&src=seo_token; uniswap-v4 (Base), 0.01% APY, $854.6K TVL, https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token; uniswap-v4 (Base), 0.02% APY, $319.8K TVL, https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +77,4 @@ Based on APY history only, BASECAT's lower-variability candidates are uniswap-v4
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

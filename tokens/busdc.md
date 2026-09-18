@@ -1,12 +1,12 @@
 # BUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
 The highest honest BUSDC yield right now is 1.54% on curve-dex (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $803.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $803.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $803.7K in total.
+1 live pool clear this page's $100K TVL floor, $803.9K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BUSDC pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

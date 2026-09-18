@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Fuel Ignition의 fuel-staking에서 APY 22
 
 - [FUEL](https://www.defi.garden/ko/tokens/fuel)
 
-## 마지막 업데이트: September 17, 2026
+## 마지막 업데이트: September 18, 2026

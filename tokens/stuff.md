@@ -1,12 +1,12 @@
 # STUFF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest STUFF yield right now is 25.36% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STUFF yield right now is 24.86% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 25.36% | $185.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 24.86% | $197.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STUFF yield today?
 
-25.36% APY on minswap-dex (Cardano), based on live DefiLlama data.
+24.86% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many STUFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.4K in total.
+1 live pool clear this page's $100K TVL floor, $197.5K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank STUFF pools. This view covers
 
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
-- [USDA](https://www.defi.garden/tokens/usda)
 - [IUSD](https://www.defi.garden/tokens/iusd)
+- [USDA](https://www.defi.garden/tokens/usda)
 - [NIGHT](https://www.defi.garden/tokens/night)
 - [FET](https://www.defi.garden/tokens/fet)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STUFF pools. This view covers
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

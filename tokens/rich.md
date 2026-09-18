@@ -1,12 +1,12 @@
 # RICH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest RICH yield right now is 122.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RICH yield right now is 136.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9466f640-28b0-5cda-8318-d61a7e28559f&src=seo_token) | Solana | 122.23% | $127.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=9466f640-28b0-5cda-8318-d61a7e28559f&src=seo_token) | Solana | 136.96% | $138.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RICH yield today?
 
-122.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+136.96% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RICH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.9K in total.
+1 live pool clear this page's $100K TVL floor, $138.8K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank RICH pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

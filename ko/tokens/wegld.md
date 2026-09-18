@@ -1,37 +1,37 @@
 # WEGLD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 17, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WEGLD의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 27.77%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WEGLD의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 33.50%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 7.69% | $993.8K |
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 6.45% | $279.1K |
-| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 27.77% | $146.9K |
-| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 12.72% | $116.5K |
-| [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 19.44% | $102.1K |
+| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 8.37% | $1.02M |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 6.11% | $297.9K |
+| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 33.50% | $147.3K |
+| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 16.58% | $119.4K |
+| [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 23.86% | $104.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WEGLD의 변동성 낮은 후보는 MultiversX의 xexchange, APY 6.45%, TVL $279.1K, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; MultiversX의 xexchange, APY 12.72%, TVL $116.5K, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; MultiversX의 xexchange, APY 27.77%, TVL $146.9K, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; MultiversX의 xexchange, APY 7.69%, TVL $993.8K, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; MultiversX의 xexchange, APY 19.44%, TVL $102.1K, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WEGLD의 변동성 낮은 후보는 MultiversX의 xexchange, APY 6.11%, TVL $297.9K, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; MultiversX의 xexchange, APY 16.58%, TVL $119.4K, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; MultiversX의 xexchange, APY 33.50%, TVL $147.3K, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; MultiversX의 xexchange, APY 8.37%, TVL $1.02M, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; MultiversX의 xexchange, APY 23.86%, TVL $104.7K, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 6.45% | $279.1K |
-| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 12.72% | $116.5K |
-| 3 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 27.77% | $146.9K |
-| 4 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 7.69% | $993.8K |
-| 5 | [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 19.44% | $102.1K |
+| 1 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 6.11% | $297.9K |
+| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 16.58% | $119.4K |
+| 3 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 33.50% | $147.3K |
+| 4 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 8.37% | $1.02M |
+| 5 | [xexchange →](https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token) | MultiversX | 23.86% | $104.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WEGLD 풀은 여기 5개가 있고, 1개 체인에서 APY가 6.45%부터 27.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WEGLD 풀은 여기 5개가 있고, 1개 체인에서 APY가 6.11%부터 33.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.29%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -39,11 +39,11 @@ WEGLD 풀은 여기 5개가 있고, 1개 체인에서 APY가 6.45%부터 27.77%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| xexchange | 7.69% | 11.78% | 인센티브 26.70% |
-| xexchange | 6.45% | 5.24% | 인센티브 79.27% |
-| xexchange | 27.77% | 24.38% | 인센티브 100.00% |
-| xexchange | 12.72% | 13.99% | 인센티브 68.85% |
-| xexchange | 19.44% | 20.72% | 인센티브 71.99% |
+| xexchange | 8.37% | 11.93% | 인센티브 23.62% |
+| xexchange | 6.11% | 5.33% | 인센티브 77.30% |
+| xexchange | 33.50% | 24.82% | 인센티브 81.50% |
+| xexchange | 16.58% | 14.29% | 인센티브 50.81% |
+| xexchange | 23.86% | 21.26% | 인센티브 56.36% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,11 +51,11 @@ WEGLD 풀은 여기 5개가 있고, 1개 체인에서 APY가 6.45%부터 27.77%�
 
 ### 오늘 WEGLD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 27.77%예요.
+DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 33.50%예요.
 
 ### WEGLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.64M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.69M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 27.77%�
 
 ### WEGLD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WEGLD의 변동성 낮은 후보는 MultiversX의 xexchange, APY 6.45%, TVL $279.1K, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; MultiversX의 xexchange, APY 12.72%, TVL $116.5K, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; MultiversX의 xexchange, APY 27.77%, TVL $146.9K, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; MultiversX의 xexchange, APY 7.69%, TVL $993.8K, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; MultiversX의 xexchange, APY 19.44%, TVL $102.1K, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WEGLD의 변동성 낮은 후보는 MultiversX의 xexchange, APY 6.11%, TVL $297.9K, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; MultiversX의 xexchange, APY 16.58%, TVL $119.4K, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; MultiversX의 xexchange, APY 33.50%, TVL $147.3K, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; MultiversX의 xexchange, APY 8.37%, TVL $1.02M, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token; MultiversX의 xexchange, APY 23.86%, TVL $104.7K, https://www.defi.garden/?pool=a5be1e02-441c-4232-b841-6d693901be2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -78,4 +78,4 @@ APY 이력만 기준으로 비교한 WEGLD의 변동성 낮은 후보는 Multive
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: September 17, 2026
+## 마지막 업데이트: September 18, 2026

@@ -1,43 +1,43 @@
 # USDM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 17, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDM의 가장 높은 정직한 수익률은 Monad의 mento-v3에서 25.44%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDM의 가장 높은 정직한 수익률은 Monad의 mento-v3에서 25.25%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.39% | $2.15M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 24.53% | $877.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 21.50% | $704.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 3.99% | $625.2K |
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.44% | $600.5K |
-| [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $477.4K |
-| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 17.27% | $382.5K |
-| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 11.57% | $354K |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.45% | $2.14M |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 24.35% | $908.5K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 21.20% | $716.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 4.11% | $613.3K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.25% | $600.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $484.3K |
+| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 17.12% | $391.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 11.24% | $354.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDM의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.01%, TVL $477.4K, https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token; MegaETH의 aave-v3, APY 3.99%, TVL $625.2K, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token; Monad의 mento-v3, APY 25.44%, TVL $600.5K, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token; Monad의 mento-v3, APY 21.50%, TVL $704.6K, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; Monad의 mento-v3, APY 14.39%, TVL $2.15M, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token; Cardano의 liqwid, APY 17.27%, TVL $382.5K, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token; Monad의 mento-v3, APY 11.57%, TVL $354K, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token; Cardano의 minswap-dex, APY 24.53%, TVL $877.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDM의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.01%, TVL $484.3K, https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token; MegaETH의 aave-v3, APY 4.11%, TVL $613.3K, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token; Monad의 mento-v3, APY 25.25%, TVL $600.7K, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token; Monad의 mento-v3, APY 21.20%, TVL $716.9K, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; Monad의 mento-v3, APY 14.45%, TVL $2.14M, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token; Cardano의 liqwid, APY 17.12%, TVL $391.1K, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token; Monad의 mento-v3, APY 11.24%, TVL $354.4K, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token; Cardano의 minswap-dex, APY 24.35%, TVL $908.5K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $477.4K |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 3.99% | $625.2K |
-| 3 | [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.44% | $600.5K |
-| 4 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 21.50% | $704.6K |
-| 5 | [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.39% | $2.15M |
-| 6 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 17.27% | $382.5K |
-| 7 | [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 11.57% | $354K |
-| 8 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 24.53% | $877.4K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $484.3K |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 4.11% | $613.3K |
+| 3 | [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.25% | $600.7K |
+| 4 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 21.20% | $716.9K |
+| 5 | [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.45% | $2.14M |
+| 6 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 17.12% | $391.1K |
+| 7 | [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 11.24% | $354.4K |
+| 8 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 24.35% | $908.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDM 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.01%부터 25.44%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDM 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.01%부터 25.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.61%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ USDM 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.01%부터 25.44%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| mento-v3 | 14.39% | 15.57% | 인센티브 97.67% |
-| minswap-dex | 24.53% | 22.75% | 인센티브 34.53% |
-| mento-v3 | 21.50% | 22.49% | 인센티브 99.98% |
-| aave-v3 | 3.99% | 5.14% | 기본 금리 |
-| mento-v3 | 25.44% | 25.77% | 인센티브 99.06% |
-| aave-v3 | 0.01% | 1.93% | 기본 금리 |
-| liqwid | 17.27% | 17.53% | 기본 금리 |
-| mento-v3 | 11.57% | 11.97% | 인센티브 92.33% |
+| mento-v3 | 14.45% | 15.40% | 인센티브 97.92% |
+| minswap-dex | 24.35% | 22.37% | 인센티브 35.36% |
+| mento-v3 | 21.20% | 22.50% | 인센티브 99.79% |
+| aave-v3 | 4.11% | 5.09% | 기본 금리 |
+| mento-v3 | 25.25% | 25.82% | 인센티브 100.00% |
+| aave-v3 | 0.01% | 1.85% | 기본 금리 |
+| liqwid | 17.12% | 17.81% | 기본 금리 |
+| mento-v3 | 11.24% | 12.03% | 인센티브 95.22% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ USDM 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.01%부터 25.44%�
 
 ### 오늘 USDM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 mento-v3에서 APY 25.44%예요.
+DefiLlama 실시간 데이터 기준, Monad의 mento-v3에서 APY 25.25%예요.
 
 ### USDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $25.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $25.83M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Monad의 mento-v3에서 APY 25.44%예요.
 
 ### USDM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDM의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.01%, TVL $477.4K, https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token; MegaETH의 aave-v3, APY 3.99%, TVL $625.2K, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token; Monad의 mento-v3, APY 25.44%, TVL $600.5K, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token; Monad의 mento-v3, APY 21.50%, TVL $704.6K, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; Monad의 mento-v3, APY 14.39%, TVL $2.15M, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token; Cardano의 liqwid, APY 17.27%, TVL $382.5K, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token; Monad의 mento-v3, APY 11.57%, TVL $354K, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token; Cardano의 minswap-dex, APY 24.53%, TVL $877.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDM의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.01%, TVL $484.3K, https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token; MegaETH의 aave-v3, APY 4.11%, TVL $613.3K, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token; Monad의 mento-v3, APY 25.25%, TVL $600.7K, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token; Monad의 mento-v3, APY 21.20%, TVL $716.9K, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; Monad의 mento-v3, APY 14.45%, TVL $2.14M, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token; Cardano의 liqwid, APY 17.12%, TVL $391.1K, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token; Monad의 mento-v3, APY 11.24%, TVL $354.4K, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token; Cardano의 minswap-dex, APY 24.35%, TVL $908.5K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -90,4 +90,4 @@ APY 이력만 기준으로 비교한 USDM의 변동성 낮은 후보는 Celo의 
 - [MegaETH](https://www.defi.garden/ko/chains/megaeth)
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: September 17, 2026
+## 마지막 업데이트: September 18, 2026

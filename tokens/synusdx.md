@@ -1,12 +1,12 @@
 # SYNUSDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest SYNUSDX yield right now is 19.01% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYNUSDX yield right now is 20.31% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=30aa6a6f-63ff-44e0-8a50-7fa00fd3d540&src=seo_token) | Ethereum | 19.01% | $308.2K |
+| [lagoon →](https://www.defi.garden/?pool=30aa6a6f-63ff-44e0-8a50-7fa00fd3d540&src=seo_token) | Ethereum | 20.31% | $309.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYNUSDX yield today?
 
-19.01% APY on lagoon (Ethereum), based on live DefiLlama data.
+20.31% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many SYNUSDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $308.2K in total.
+1 live pool clear this page's $100K TVL floor, $309.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SYNUSDX pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

@@ -1,13 +1,13 @@
 # K3USDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest K3USDC yield right now is 5.69% on morpho-blue (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest K3USDC yield right now is 5.88% on morpho-blue (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_token) | Hyperliquid L1 | 5.69% | $13.89M |
-| [morpho-blue →](https://www.defi.garden/?pool=cca340f1-03e7-5097-8d7c-f07def190cc2&src=seo_token) | Base | 3.08% | $2M |
+| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7&src=seo_token) | Hyperliquid L1 | 5.88% | $13.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=cca340f1-03e7-5097-8d7c-f07def190cc2&src=seo_token) | Base | 5.38% | $2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-K3USDC shows up in 2 pools here, with rates from 3.08% to 5.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+K3USDC shows up in 2 pools here, with rates from 5.38% to 5.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.69% | 5.55% | Base rate |
-| morpho-blue | 3.08% | 1.82% | Base rate |
+| morpho-blue | 5.88% | 5.57% | Base rate |
+| morpho-blue | 5.38% | 3.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest K3USDC yield today?
 
-5.69% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+5.88% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many K3USDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $15.89M in total.
+2 live pools clear this page's $100K TVL floor, $15.38M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank K3USDC pools. This view cover
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

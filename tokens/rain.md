@@ -1,31 +1,31 @@
 # RAIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest RAIN yield right now is 3.79% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAIN yield right now is 3.88% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 3.79% | $1.15M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 18.34% | $522.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 3.88% | $1.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 35.08% | $518.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 18.34% APY, $522.6K TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 3.79% APY, $1.15M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 35.08% APY, $518.5K TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 3.88% APY, $1.13M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 18.34% | $522.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 3.79% | $1.15M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 35.08% | $518.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 3.88% | $1.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAIN shows up in 2 pools here, with rates from 3.79% to 18.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAIN shows up in 2 pools here, with rates from 3.88% to 35.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.79% | 4.13% | Base rate |
-| uniswap-v3 | 18.34% | 10.24% | Base rate |
+| uniswap-v3 | 3.88% | 3.99% | Base rate |
+| uniswap-v3 | 35.08% | 11.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAIN yield today?
 
-3.79% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+3.88% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RAIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.67M in total.
+2 live pools clear this page's $100K TVL floor, $1.65M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAIN pools have the most stable APY history?
 
-Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 18.34% APY, $522.6K TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 3.79% APY, $1.15M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (Arbitrum), 35.08% APY, $518.5K TVL, https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token; uniswap-v3 (Arbitrum), 3.88% APY, $1.13M TVL, https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, RAIN's lower-variability candidates are uniswap-v3 (A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

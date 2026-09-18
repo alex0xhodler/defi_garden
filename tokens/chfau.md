@@ -1,12 +1,12 @@
 # CHFAU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest CHFAU yield right now is 1.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHFAU yield right now is 1.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a7c594d1-6c1a-548c-84e4-8a6cb69a9b85&src=seo_token) | Solana | 1.97% | $105.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7c594d1-6c1a-548c-84e4-8a6cb69a9b85&src=seo_token) | Solana | 1.47% | $105.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHFAU yield today?
 
-1.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.47% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHFAU pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank CHFAU pools. This view covers
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

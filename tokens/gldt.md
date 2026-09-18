@@ -1,12 +1,12 @@
 # GLDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest GLDT yield right now is 0.02% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GLDT yield right now is 0.03% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.02% | $217.5K |
+| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.03% | $213.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GLDT yield today?
 
-0.02% APY on icpswap (ICP), based on live DefiLlama data.
+0.03% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many GLDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.5K in total.
+1 live pool clear this page's $100K TVL floor, $213.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank GLDT pools. This view covers 
 - [ICP](https://www.defi.garden/tokens/icp)
 - [VCHF](https://www.defi.garden/tokens/vchf)
 - [CKUSDC](https://www.defi.garden/tokens/ckusdc)
-- [TOKO](https://www.defi.garden/tokens/toko)
+- [CKBTC](https://www.defi.garden/tokens/ckbtc)
 
 ## Available on
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

@@ -1,12 +1,12 @@
 # ODYS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest ODYS yield right now is 322.15% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ODYS yield right now is 385.73% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=663bc68e-d51d-5867-9695-8340e92de889&src=seo_token) | Arbitrum | 322.15% | $140.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=663bc68e-d51d-5867-9695-8340e92de889&src=seo_token) | Arbitrum | 385.73% | $162.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ODYS yield today?
 
-322.15% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+385.73% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ODYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.7K in total.
+1 live pool clear this page's $100K TVL floor, $162.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ODYS pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

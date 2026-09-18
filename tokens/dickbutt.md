@@ -1,12 +1,12 @@
 # DICKBUTT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest DICKBUTT yield right now is 1.26% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DICKBUTT yield right now is 8.06% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bbafaee9-b1c1-4cdf-afd3-79f97353823c&src=seo_token) | Base | 1.26% | $201.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbafaee9-b1c1-4cdf-afd3-79f97353823c&src=seo_token) | Base | 8.06% | $204.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DICKBUTT yield today?
 
-1.26% APY on uniswap-v3 (Base), based on live DefiLlama data.
+8.06% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DICKBUTT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.1K in total.
+1 live pool clear this page's $100K TVL floor, $204.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DICKBUTT pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

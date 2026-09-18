@@ -1,12 +1,12 @@
 # NZD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest NZD yield right now is 152.95% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NZD yield right now is 150.75% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6&src=seo_token) | Solana | 152.95% | $1.16M |
+| [gmtrade →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6&src=seo_token) | Solana | 150.75% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NZD yield today?
 
-152.95% APY on gmtrade (Solana), based on live DefiLlama data.
+150.75% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many NZD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.16M in total.
+1 live pool clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank NZD pools. This view covers A
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

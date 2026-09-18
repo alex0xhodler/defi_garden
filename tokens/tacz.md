@@ -1,12 +1,12 @@
 # TACZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest TACZ yield right now is 124.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TACZ yield right now is 82.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 124.27% | $133.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 82.48% | $162.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TACZ yield today?
 
-124.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+82.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TACZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.6K in total.
+1 live pool clear this page's $100K TVL floor, $162.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank TACZ pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

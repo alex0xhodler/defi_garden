@@ -1,12 +1,12 @@
 # GBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest GBP yield right now is 55.36% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GBP yield right now is 63.09% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d&src=seo_token) | Solana | 55.36% | $1.39M |
+| [gmtrade →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d&src=seo_token) | Solana | 63.09% | $1.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GBP yield today?
 
-55.36% APY on gmtrade (Solana), based on live DefiLlama data.
+63.09% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many GBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.39M in total.
+1 live pool clear this page's $100K TVL floor, $1.35M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank GBP pools. This view covers A
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

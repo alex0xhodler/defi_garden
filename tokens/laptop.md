@@ -1,13 +1,14 @@
 # LAPTOP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest LAPTOP yield right now is 32.66% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAPTOP yield right now is 510.38% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7&src=seo_token) | Base | 510.38% | $1.55M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e43cc565-a89f-53ed-8568-365b3639b440&src=seo_token) | Base | 0.84% | $599.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 32.66% | $321.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 0.33% | $321.2K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=d6dd10d6-e35e-52c6-9577-abf1c315903d&src=seo_token) | Base | 0.01% | $166.1K |
 
 <!-- rate-stability:insufficient -->
@@ -19,18 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LAPTOP shows up in 3 pools here, with rates from 0.01% to 32.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LAPTOP shows up in 4 pools here, with rates from 0.01% to 510.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 26.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 4 pools have a trustworthy 30-day average on file, with a median of 26.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| aerodrome-slipstream | 510.38% | — | 90.85% incentives |
 | uniswap-v4 | 0.84% | 0.13% | Base rate |
-| uniswap-v4 | 32.66% | — | Base rate |
+| uniswap-v4 | 0.33% | — | Base rate |
 | uniswap-v2 | 0.01% | 53.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LAPTOP yield today?
 
-32.66% APY on uniswap-v4 (Base), based on live DefiLlama data.
+510.38% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LAPTOP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.25M in total.
+5 live pools clear this page's $100K TVL floor, $3.24M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +68,4 @@ There is not enough qualifying APY history to rank LAPTOP pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

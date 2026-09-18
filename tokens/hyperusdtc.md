@@ -1,6 +1,6 @@
 # HYPERUSDTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
 The highest honest HYPERUSDTC yield right now is 2.26% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank HYPERUSDTC pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

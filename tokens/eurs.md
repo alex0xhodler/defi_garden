@@ -1,43 +1,43 @@
 # EURS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
 The highest honest EURS yield right now is 0.27% on convex-finance (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.27% | $4.46M |
-| [curve-dex →](https://www.defi.garden/?pool=257941f5-0b07-47f0-853c-b4cc656a4f8b&src=seo_token) | Ethereum | 0.01% | $597.8K |
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.01% | $219K |
+| [curve-dex →](https://www.defi.garden/?pool=4dbfda50-4474-4ef1-9f59-b5cf5ad7413c&src=seo_token) | Ethereum | 0.01% | $4.4M |
+| [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.27% | $4.38M |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 1.29% | $219.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EURS's lower-variability candidates are convex-finance (Ethereum), 0.27% APY, $4.46M TVL, https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token; curve-dex (Ethereum), 0.01% APY, $597.8K TVL, https://www.defi.garden/?pool=257941f5-0b07-47f0-853c-b4cc656a4f8b&src=seo_token; convex-finance (Ethereum), 0.01% APY, $219K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURS's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $4.4M TVL, https://www.defi.garden/?pool=4dbfda50-4474-4ef1-9f59-b5cf5ad7413c&src=seo_token; convex-finance (Ethereum), 0.27% APY, $4.38M TVL, https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token; convex-finance (Ethereum), 1.29% APY, $219.3K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.27% | $4.46M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=257941f5-0b07-47f0-853c-b4cc656a4f8b&src=seo_token) | Ethereum | 0.01% | $597.8K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.01% | $219K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=4dbfda50-4474-4ef1-9f59-b5cf5ad7413c&src=seo_token) | Ethereum | 0.01% | $4.4M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.27% | $4.38M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 1.29% | $219.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURS shows up in 3 pools here, with rates from 0.01% to 0.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURS shows up in 3 pools here, with rates from 0.01% to 1.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| convex-finance | 0.27% | 0.28% | 88.94% incentives |
-| curve-dex | 0.01% | 0.31% | Base rate |
-| convex-finance | 0.01% | 0.48% | Base rate |
+| curve-dex | 0.01% | 0.01% | Base rate |
+| convex-finance | 0.27% | 0.28% | 96.30% incentives |
+| convex-finance | 1.29% | 0.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURS pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $12.91M in total.
+7 live pools clear this page's $100K TVL floor, $12.74M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURS pools have the most stable APY history?
 
-Based on APY history only, EURS's lower-variability candidates are convex-finance (Ethereum), 0.27% APY, $4.46M TVL, https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token; curve-dex (Ethereum), 0.01% APY, $597.8K TVL, https://www.defi.garden/?pool=257941f5-0b07-47f0-853c-b4cc656a4f8b&src=seo_token; convex-finance (Ethereum), 0.01% APY, $219K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURS's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $4.4M TVL, https://www.defi.garden/?pool=4dbfda50-4474-4ef1-9f59-b5cf5ad7413c&src=seo_token; convex-finance (Ethereum), 0.27% APY, $4.38M TVL, https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token; convex-finance (Ethereum), 1.29% APY, $219.3K TVL, https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, EURS's lower-variability candidates are convex-financ
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

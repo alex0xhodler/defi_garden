@@ -1,33 +1,33 @@
 # FET DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest FET yield right now is 8.49% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FET yield right now is 29.98% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 7.78% | $1.18M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 8.08% | $325.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 8.49% | $151.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 29.98% | $1.33M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 38.40% | $367.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 8.15% | $168.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 8.49% APY, $151.2K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token; uniswap-v4 (Ethereum), 8.08% APY, $325.1K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token; uniswap-v3 (Ethereum), 7.78% APY, $1.18M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 8.15% APY, $168.4K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token; uniswap-v4 (Ethereum), 38.40% APY, $367.9K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token; uniswap-v3 (Ethereum), 29.98% APY, $1.33M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 8.49% | $151.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 8.08% | $325.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 7.78% | $1.18M |
+| 1 | [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 8.15% | $168.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 38.40% | $367.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 29.98% | $1.33M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FET shows up in 3 pools here, with rates from 7.78% to 8.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FET shows up in 3 pools here, with rates from 8.15% to 38.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ FET shows up in 3 pools here, with rates from 7.78% to 8.49% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 7.78% | 24.93% | Base rate |
-| uniswap-v4 | 8.08% | 20.12% | Base rate |
-| minswap-dex | 8.49% | 7.69% | 40.64% incentives |
+| uniswap-v3 | 29.98% | 25.28% | Base rate |
+| uniswap-v4 | 38.40% | 20.61% | Base rate |
+| minswap-dex | 8.15% | 7.72% | 40.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FET yield today?
 
-8.49% APY on minswap-dex (Cardano), based on live DefiLlama data.
+29.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.65M in total.
+3 live pools clear this page's $100K TVL floor, $1.87M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FET pools have the most stable APY history?
 
-Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 8.49% APY, $151.2K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token; uniswap-v4 (Ethereum), 8.08% APY, $325.1K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token; uniswap-v3 (Ethereum), 7.78% APY, $1.18M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 8.15% APY, $168.4K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token; uniswap-v4 (Ethereum), 38.40% APY, $367.9K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token; uniswap-v3 (Ethereum), 29.98% APY, $1.33M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, FET's lower-variability candidates are minswap-dex (C
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

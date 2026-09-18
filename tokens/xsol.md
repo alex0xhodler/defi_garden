@@ -1,13 +1,13 @@
 # XSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest XSOL yield right now is 3.15% on loopscale (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSOL yield right now is 299.36% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 3.15% | $544.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=e4b37ed9-84a0-5aaf-a676-b0c26530708b&src=seo_token) | Solana | 503.70% | $216.9K |
+| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 3.44% | $600.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4b37ed9-84a0-5aaf-a676-b0c26530708b&src=seo_token) | Solana | 299.36% | $233.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XSOL shows up in 2 pools here, with rates from 3.15% to 503.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSOL shows up in 2 pools here, with rates from 3.44% to 299.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 115.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 128.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| loopscale | 3.15% | 2.23% | Base rate |
-| raydium-amm | 503.70% | 228.90% | Base rate |
+| loopscale | 3.44% | 2.32% | Base rate |
+| raydium-amm | 299.36% | 255.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSOL yield today?
 
-3.15% APY on loopscale (Solana), based on live DefiLlama data.
+299.36% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $761.1K in total.
+2 live pools clear this page's $100K TVL floor, $833.4K in total.
 
 ### Are these rates safe?
 
@@ -58,10 +58,10 @@ There is not enough qualifying APY history to rank XSOL pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

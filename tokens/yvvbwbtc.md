@@ -1,12 +1,12 @@
 # YVVBWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest YVVBWBTC yield right now is 3.71% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVVBWBTC yield right now is 3.73% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.71% | $284.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=ca35021f-aeab-4b4d-92c5-c8fe0df9ff45&src=seo_token) | Katana | 3.73% | $288.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YVVBWBTC yield today?
 
-3.71% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.73% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YVVBWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.6K in total.
+1 live pool clear this page's $100K TVL floor, $288.8K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank YVVBWBTC pools. This view cov
 
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
-- [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
+- [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
 - [YOG](https://www.defi.garden/tokens/yog)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank YVVBWBTC pools. This view cov
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

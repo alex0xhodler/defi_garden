@@ -1,36 +1,36 @@
 # WTAO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest WTAO yield right now is 95.44% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTAO yield right now is 113.03% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 95.44% | $1.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 84.39% | $884.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 29.98% | $354.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 11.71% | $307K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a&src=seo_token) | Ethereum | 57.19% | $102.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 113.03% | $2.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 71.49% | $952.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 32.63% | $377.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 19.62% | $324.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a&src=seo_token) | Ethereum | 84.84% | $109.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WTAO's lower-variability candidates are uniswap-v4 (Ethereum), 11.71% APY, $307K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token; uniswap-v3 (Ethereum), 29.98% APY, $354.5K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token; uniswap-v3 (Ethereum), 84.39% APY, $884.2K TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token; uniswap-v3 (Ethereum), 95.44% APY, $1.94M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WTAO's lower-variability candidates are uniswap-v4 (Ethereum), 19.62% APY, $324.9K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token; uniswap-v3 (Ethereum), 32.63% APY, $377.1K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token; uniswap-v3 (Ethereum), 71.49% APY, $952.7K TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token; uniswap-v3 (Ethereum), 113.03% APY, $2.04M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 11.71% | $307K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 29.98% | $354.5K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 84.39% | $884.2K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 95.44% | $1.94M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 19.62% | $324.9K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 32.63% | $377.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 71.49% | $952.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 113.03% | $2.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WTAO shows up in 5 pools here, with rates from 11.71% to 95.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WTAO shows up in 5 pools here, with rates from 19.62% to 113.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 70.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 70.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -38,11 +38,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 95.44% | 139.61% | Base rate |
-| uniswap-v3 | 84.39% | 107.19% | Base rate |
-| uniswap-v3 | 29.98% | 50.40% | Base rate |
-| uniswap-v4 | 11.71% | 19.07% | Base rate |
-| uniswap-v3 | 57.19% | 70.12% | Base rate |
+| uniswap-v3 | 113.03% | 140.65% | Base rate |
+| uniswap-v3 | 71.49% | 108.07% | Base rate |
+| uniswap-v3 | 32.63% | 50.87% | Base rate |
+| uniswap-v4 | 19.62% | 19.64% | Base rate |
+| uniswap-v3 | 84.84% | 70.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WTAO yield today?
 
-95.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+113.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WTAO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.59M in total.
+5 live pools clear this page's $100K TVL floor, $3.81M in total.
 
 ### Are these rates safe?
 
@@ -62,7 +62,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WTAO pools have the most stable APY history?
 
-Based on APY history only, WTAO's lower-variability candidates are uniswap-v4 (Ethereum), 11.71% APY, $307K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token; uniswap-v3 (Ethereum), 29.98% APY, $354.5K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token; uniswap-v3 (Ethereum), 84.39% APY, $884.2K TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token; uniswap-v3 (Ethereum), 95.44% APY, $1.94M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WTAO's lower-variability candidates are uniswap-v4 (Ethereum), 19.62% APY, $324.9K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token; uniswap-v3 (Ethereum), 32.63% APY, $377.1K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token; uniswap-v3 (Ethereum), 71.49% APY, $952.7K TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token; uniswap-v3 (Ethereum), 113.03% APY, $2.04M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, WTAO's lower-variability candidates are uniswap-v4 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

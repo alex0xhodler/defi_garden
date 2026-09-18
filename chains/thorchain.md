@@ -1,11 +1,12 @@
 # Thorchain DeFi Yields
 
-The highest honest Thorchain yield right now is 11.57% on rujira-staking (Thorchain), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Thorchain yield right now is 11.57% on rujira-staking (Thorchain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 2.69% | $7.39M |
-| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 11.57% | $1.38M |
+| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 3.08% | $8.1M |
+| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 11.57% | $1.42M |
+| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48&src=seo_chain) | 1.12% | $328.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Thorchain pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.23M in total.
+4 live pools clear this page's $100K TVL floor, $12.31M in total.
 
 ### Are these rates safe?
 
@@ -29,12 +30,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
-- [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Thorchain
 
 - [RUJI](https://www.defi.garden/tokens/ruji)
 - [TCY](https://www.defi.garden/tokens/tcy)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

@@ -1,12 +1,12 @@
 # DZSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest DZSOL yield right now is 4.61% on doublezero-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DZSOL yield right now is 4.60% on doublezero-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.61% | $71.52M |
+| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.60% | $75.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DZSOL yield today?
 
-4.61% APY on doublezero-staked-sol (Solana), based on live DefiLlama data.
+4.60% APY on doublezero-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many DZSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $71.52M in total.
+1 live pool clear this page's $100K TVL floor, $75.66M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank DZSOL pools. This view covers
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

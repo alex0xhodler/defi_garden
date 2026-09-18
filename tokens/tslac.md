@@ -1,12 +1,12 @@
 # TSLAC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest TSLAC yield right now is 209.60% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLAC yield right now is 99.67% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c83d36b0-bfaf-55f9-9c63-a265d53facf7&src=seo_token) | Base | 209.60% | $803.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c83d36b0-bfaf-55f9-9c63-a265d53facf7&src=seo_token) | Base | 99.67% | $911.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSLAC yield today?
 
-209.60% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+99.67% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TSLAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $803.9K in total.
+1 live pool clear this page's $100K TVL floor, $911.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TSLAC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

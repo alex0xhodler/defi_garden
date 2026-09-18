@@ -1,12 +1,12 @@
 # DEAD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
-The highest honest DEAD yield right now is 0.03% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEAD yield right now is 0.08% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cb014c94-3f35-48ab-bb02-a9a64277ffd4&src=seo_token) | Solana | 0.03% | $121.9K |
+| [orca-dex →](https://www.defi.garden/?pool=cb014c94-3f35-48ab-bb02-a9a64277ffd4&src=seo_token) | Solana | 0.08% | $128.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEAD yield today?
 
-0.03% APY on orca-dex (Solana), based on live DefiLlama data.
+0.08% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DEAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.9K in total.
+1 live pool clear this page's $100K TVL floor, $128.9K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank DEAD pools. This view covers 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

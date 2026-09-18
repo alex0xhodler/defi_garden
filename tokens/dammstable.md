@@ -1,12 +1,12 @@
 # DAMMSTABLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
 
 The highest honest DAMMSTABLE yield right now is 3.96% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 3.96% | $1.47M |
+| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 3.96% | $1.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMSTABLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.47M in total.
+1 live pool clear this page's $100K TVL floor, $1.58M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DAMMSTABLE pools. This view c
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026

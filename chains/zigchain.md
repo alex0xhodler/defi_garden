@@ -1,10 +1,10 @@
 # ZIGChain DeFi Yields
 
-The highest honest ZIGChain yield right now is 5.05% on valdora-finance (ZIGChain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZIGChain yield right now is 5.11% on valdora-finance (ZIGChain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.05% | $7.53M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.11% | $7.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZIGChain yield today?
 
-5.05% APY on valdora-finance (ZIGChain), based on live DefiLlama data.
+5.11% APY on valdora-finance (ZIGChain), based on live DefiLlama data.
 
 ### How many ZIGChain pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $10.95M in total.
+2 live pools clear this page's $100K TVL floor, $10.93M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [STZIG](https://www.defi.garden/tokens/stzig)
 
-## Last updated September 17, 2026
+## Last updated September 18, 2026
