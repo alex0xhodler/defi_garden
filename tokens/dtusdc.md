@@ -1,12 +1,12 @@
 # DTUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest DTUSDC yield right now is 8.05% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 8.05% | $664.2K |
+| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 8.05% | $664.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DTUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $664.2K in total.
+1 live pool clear this page's $100K TVL floor, $664.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank DTUSDC pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,23 +1,23 @@
 # USDO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest USDO yield right now is 3.10% on openeden-usdo (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $16.33M |
+| [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $14.87M |
 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $149.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $16.33M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $149.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $14.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $149.1K |
-| 2 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $16.33M |
+| 2 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $14.87M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.48M in total.
+2 live pools clear this page's $100K TVL floor, $15.02M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDO pools have the most stable APY history?
 
-Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $149.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $16.33M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $149.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $14.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, USDO's lower-variability candidates are openeden-usdo
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

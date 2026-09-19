@@ -1,35 +1,35 @@
 # NEIRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest NEIRO yield right now is 6.01% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEIRO yield right now is 16.05% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 6.01% | $3.51M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 7.23% | $3.69M |
 | [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 1.33% | $296.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 1.81% | $143K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 11.44% | $132.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.08% | $152K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 16.05% | $137.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 1.33% APY, $296.5K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v3 (Ethereum), 11.44% APY, $132.5K TVL, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; uniswap-v2 (Ethereum), 1.81% APY, $143K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 6.01% APY, $3.51M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 1.33% APY, $296.5K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v3 (Ethereum), 16.05% APY, $137.9K TVL, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; uniswap-v2 (Ethereum), 0.08% APY, $152K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 7.23% APY, $3.69M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 1.33% | $296.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 11.44% | $132.5K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 1.81% | $143K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 6.01% | $3.51M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 16.05% | $137.9K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.08% | $152K |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 7.23% | $3.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEIRO shows up in 4 pools here, with rates from 1.33% to 11.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEIRO shows up in 4 pools here, with rates from 0.08% to 16.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 6.01% | 11.76% | Base rate |
-| raydium-amm | 1.33% | 4.41% | Base rate |
-| uniswap-v2 | 1.81% | 0.31% | Base rate |
-| uniswap-v3 | 11.44% | 25.17% | Base rate |
+| uniswap-v2 | 7.23% | 11.86% | Base rate |
+| raydium-amm | 1.33% | 4.66% | Base rate |
+| uniswap-v2 | 0.08% | 0.32% | Base rate |
+| uniswap-v3 | 16.05% | 25.62% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEIRO yield today?
 
-6.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+16.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many NEIRO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.09M in total.
+4 live pools clear this page's $100K TVL floor, $4.28M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEIRO pools have the most stable APY history?
 
-Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 1.33% APY, $296.5K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v3 (Ethereum), 11.44% APY, $132.5K TVL, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; uniswap-v2 (Ethereum), 1.81% APY, $143K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 6.01% APY, $3.51M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 1.33% APY, $296.5K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v3 (Ethereum), 16.05% APY, $137.9K TVL, https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token; uniswap-v2 (Ethereum), 0.08% APY, $152K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 7.23% APY, $3.69M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, NEIRO's lower-variability candidates are raydium-amm 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,12 +1,12 @@
 # SHADOW 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SHADOW의 가장 높은 정직한 수익률은 Sonic의 shadow-exchange-legacy에서 16.51%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SHADOW의 가장 높은 정직한 수익률은 Sonic의 shadow-exchange-legacy에서 18.78%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 16.51% | $110K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=37d8e0e7-6058-4e46-9652-a2e4a4c3eca5&src=seo_token) | Sonic | 18.78% | $120.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SHADOW의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-legacy에서 APY 16.51%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-legacy에서 APY 18.78%예요.
 
 ### SHADOW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-legacy에서 APY 
 - [EVAUSDC](https://www.defi.garden/ko/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/ko/tokens/fbomb)
 - [STS](https://www.defi.garden/ko/tokens/sts)
-- [BPT](https://www.defi.garden/ko/tokens/bpt)
+- [WS](https://www.defi.garden/ko/tokens/ws)
 
 ## 이용 가능한 체인
 
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: September 18, 2026
+## 마지막 업데이트: September 19, 2026

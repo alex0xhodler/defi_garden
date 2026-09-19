@@ -1,12 +1,12 @@
 # ASOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest ASOL yield right now is 0.20% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18&src=seo_token) | Polkadot | 0.20% | $1.05M |
+| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18&src=seo_token) | Polkadot | 0.20% | $1.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.05M in total.
+1 live pool clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ASOL pools. This view covers 
 - [SKY](https://www.defi.garden/tokens/sky)
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
-- [HOLLAR](https://www.defi.garden/tokens/hollar)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

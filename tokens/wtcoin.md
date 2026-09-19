@@ -1,12 +1,12 @@
 # WTCOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest WTCOIN yield right now is 572.05% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTCOIN yield right now is 254.90% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385&src=seo_token) | Base | 572.05% | $146.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385&src=seo_token) | Base | 254.90% | $177.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTCOIN yield today?
 
-572.05% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+254.90% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many WTCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.9K in total.
+1 live pool clear this page's $100K TVL floor, $177.2K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank WTCOIN pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

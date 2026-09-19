@@ -1,40 +1,33 @@
 # PUFFER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest PUFFER yield right now is 44.18% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFFER yield right now is 17.98% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 44.18% | $223.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f6b15f67-cb03-4ed6-be34-74b6f148d452&src=seo_token) | Ethereum | 21.70% | $132.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f6b15f67-cb03-4ed6-be34-74b6f148d452&src=seo_token) | Ethereum | 17.98% | $131.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, PUFFER's lower-variability candidates are uniswap-v3 (Ethereum), 21.70% APY, $132.4K TVL, https://www.defi.garden/?pool=f6b15f67-cb03-4ed6-be34-74b6f148d452&src=seo_token; uniswap-v4 (Ethereum), 44.18% APY, $223.5K TVL, https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f6b15f67-cb03-4ed6-be34-74b6f148d452&src=seo_token) | Ethereum | 21.70% | $132.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 44.18% | $223.5K |
+There is not enough qualifying APY history to rank PUFFER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PUFFER shows up in 2 pools here, with rates from 21.70% to 44.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PUFFER shows up in 1 pools here, with rates from 17.98% to 17.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 73.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 61.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 44.18% | 85.34% | Base rate |
-| uniswap-v3 | 21.70% | 61.22% | Base rate |
+| uniswap-v3 | 17.98% | 61.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PUFFER yield today?
 
-44.18% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+17.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PUFFER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $355.9K in total.
+2 live pools clear this page's $100K TVL floor, $357.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PUFFER pools have the most stable APY history?
 
-Based on APY history only, PUFFER's lower-variability candidates are uniswap-v3 (Ethereum), 21.70% APY, $132.4K TVL, https://www.defi.garden/?pool=f6b15f67-cb03-4ed6-be34-74b6f148d452&src=seo_token; uniswap-v4 (Ethereum), 44.18% APY, $223.5K TVL, https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank PUFFER pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +62,4 @@ Based on APY history only, PUFFER's lower-variability candidates are uniswap-v3 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

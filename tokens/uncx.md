@@ -1,12 +1,12 @@
 # UNCX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest UNCX yield right now is 0.42% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNCX yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=96d547e7-441d-426d-8261-fe41f45b98ba&src=seo_token) | Ethereum | 0.42% | $463K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=96d547e7-441d-426d-8261-fe41f45b98ba&src=seo_token) | Ethereum | 0.02% | $481.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNCX yield today?
 
-0.42% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many UNCX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $463K in total.
+1 live pool clear this page's $100K TVL floor, $481.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank UNCX pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,13 +1,13 @@
 # STHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest STHYPE yield right now is 2.40% on pendle-v2 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.40% | $1.44M |
-| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.31% | $1.44M |
+| [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69&src=seo_token) | Hyperliquid L1 | 2.40% | $1.53M |
+| [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e&src=seo_token) | Hyperliquid L1 | 2.30% | $1.53M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STHYPE shows up in 2 pools here, with rates from 2.31% to 2.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STHYPE shows up in 2 pools here, with rates from 2.30% to 2.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ STHYPE shows up in 2 pools here, with rates from 2.31% to 2.40% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.40% | 2.47% | 9.01% incentives |
-| pendle-v2 | 2.31% | 2.27% | Base rate |
+| pendle-v2 | 2.40% | 2.47% | 9.09% incentives |
+| pendle-v2 | 2.30% | 2.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3M in total.
+3 live pools clear this page's $100K TVL floor, $3.19M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank STHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

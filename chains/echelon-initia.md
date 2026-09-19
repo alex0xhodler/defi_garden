@@ -1,12 +1,12 @@
 # Echelon Initia DeFi Yields
 
-The highest honest Echelon Initia yield right now is 12.68% on echelon-market (Echelon Initia), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Echelon Initia yield right now is 12.69% on echelon-market (Echelon Initia), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.90% | $298.3K |
-| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 12.68% | $200.3K |
-| IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 7.64% | $144.9K |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.90% | $296K |
+| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 12.69% | $198.8K |
+| IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 7.78% | $137.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Echelon Initia yield today?
 
-12.68% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+12.69% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
 
 ### How many Echelon Initia pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.15M in total.
+4 live pools clear this page's $100K TVL floor, $1.13M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [INIT](https://www.defi.garden/tokens/init)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

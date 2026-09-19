@@ -1,12 +1,12 @@
 # BOTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest BOTS yield right now is 79.40% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOTS yield right now is 39.58% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a27d99c7-f2c9-550e-b6f6-c8fccbf6135f&src=seo_token) | Base | 79.40% | $196.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a27d99c7-f2c9-550e-b6f6-c8fccbf6135f&src=seo_token) | Base | 39.58% | $220K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOTS yield today?
 
-79.40% APY on uniswap-v4 (Base), based on live DefiLlama data.
+39.58% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BOTS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.4K in total.
+1 live pool clear this page's $100K TVL floor, $220K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank BOTS pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

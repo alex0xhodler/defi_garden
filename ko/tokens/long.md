@@ -1,15 +1,15 @@
 # LONG 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LONG의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 0.03%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LONG의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 0.08%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=4a580df8-f259-52bc-840b-949276c4c6f2&src=seo_token) | Base | 0.01% | $799.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=09d167cb-0138-53ce-a51e-0fdcfaf95cdf&src=seo_token) | Base | 0.02% | $400K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=6a760fbf-9a2d-5893-b081-4386e2e7571f&src=seo_token) | Base | 0.01% | $399.9K |
-| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.03% | $243.9K |
+| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.08% | $254.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,7 +20,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LONG 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LONG 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.01%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,7 +33,7 @@ LONG 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.03%까
 | uniswap-v4 | 0.01% | 0.01% | 기본 금리 |
 | uniswap-v4 | 0.02% | 0.01% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.00% | 기본 금리 |
-| zkswap-v2 | 0.03% | 0.46% | 기본 금리 |
+| zkswap-v2 | 0.08% | 0.13% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -41,11 +41,11 @@ LONG 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 0.03%까
 
 ### 오늘 LONG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.03%예요.
+DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.08%예요.
 
 ### LONG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.85M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -62,11 +62,11 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.03%예
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 - [ZKsync Era](https://www.defi.garden/ko/chains/zksync-era)
 
-## 마지막 업데이트: September 18, 2026
+## 마지막 업데이트: September 19, 2026

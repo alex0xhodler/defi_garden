@@ -1,12 +1,12 @@
 # CGBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest CGBP yield right now is 0.25% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CGBP yield right now is 0.32% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315&src=seo_token) | Celo | 0.25% | $106.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315&src=seo_token) | Celo | 0.32% | $106.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CGBP yield today?
 
-0.25% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+0.32% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CGBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.6K in total.
+1 live pool clear this page's $100K TVL floor, $106.8K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank CGBP pools. This view covers 
 ## Related tokens
 
 - [USAT](https://www.defi.garden/tokens/usat)
-- [USDM](https://www.defi.garden/tokens/usdm)
 - [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [CUSD](https://www.defi.garden/tokens/cusd)
+- [EURM](https://www.defi.garden/tokens/eurm)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

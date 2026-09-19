@@ -1,12 +1,12 @@
 # PERPME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest PERPME yield right now is 25.56% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PERPME yield right now is 26.72% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=741247a0-7fb8-5864-8d05-c943836f284a&src=seo_token) | Hyperliquid L1 | 25.56% | $122.1K |
+| [project-x →](https://www.defi.garden/?pool=741247a0-7fb8-5864-8d05-c943836f284a&src=seo_token) | Hyperliquid L1 | 26.72% | $114.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PERPME yield today?
 
-25.56% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+26.72% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PERPME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.1K in total.
+1 live pool clear this page's $100K TVL floor, $114.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PERPME pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

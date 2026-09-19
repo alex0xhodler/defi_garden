@@ -1,29 +1,29 @@
 # VDOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest VDOT yield right now is 2.99% on bifrost-liquid-staking (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VDOT yield right now is 2.98% on bifrost-liquid-staking (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.99% | $9.61M |
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $4.9M |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.98% | $9.71M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $4.87M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $4.9M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; bifrost-liquid-staking (Polkadot), 2.99% APY, $9.61M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $4.87M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; bifrost-liquid-staking (Polkadot), 2.98% APY, $9.71M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $4.9M |
-| 2 | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.99% | $9.61M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $4.87M |
+| 2 | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.98% | $9.71M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VDOT shows up in 2 pools here, with rates from 0.19% to 2.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VDOT shows up in 2 pools here, with rates from 0.19% to 2.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ VDOT shows up in 2 pools here, with rates from 0.19% to 2.99% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bifrost-liquid-staking | 2.99% | 3.00% | 1.67% incentives |
-| hydration-dex | 0.19% | 0.33% | Base rate |
+| bifrost-liquid-staking | 2.98% | 3.00% | 1.68% incentives |
+| hydration-dex | 0.19% | 0.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VDOT yield today?
 
-2.99% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
+2.98% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
 
 ### How many VDOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $14.51M in total.
+2 live pools clear this page's $100K TVL floor, $14.58M in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VDOT pools have the most stable APY history?
 
-Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $4.9M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; bifrost-liquid-staking (Polkadot), 2.99% APY, $9.61M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $4.87M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; bifrost-liquid-staking (Polkadot), 2.98% APY, $9.71M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [SKY](https://www.defi.garden/tokens/sky)
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
-- [ADOT](https://www.defi.garden/tokens/adot)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

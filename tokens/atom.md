@@ -1,35 +1,35 @@
 # ATOM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest ATOM yield right now is 21.61% on osmosis-dex (Osmosis), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATOM yield right now is 21.58% on osmosis-dex (Osmosis), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.55% | $729.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.11% | $451.5K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.03% | $344.6K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 21.61% | $218.3K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 5.15% | $174.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.62% | $764.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.10% | $464.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.05% | $360.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 21.58% | $217.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 5.03% | $180.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.03% APY, $344.6K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; osmosis-dex (Osmosis), 5.15% APY, $174.1K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 2.55% APY, $729.9K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.11% APY, $451.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 21.61% APY, $218.3K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.05% APY, $360.7K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; osmosis-dex (Osmosis), 5.03% APY, $180.2K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 2.62% APY, $764.1K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.10% APY, $464.4K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 21.58% APY, $217.3K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.03% | $344.6K |
-| 2 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 5.15% | $174.1K |
-| 3 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.55% | $729.9K |
-| 4 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.11% | $451.5K |
-| 5 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 21.61% | $218.3K |
+| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.05% | $360.7K |
+| 2 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 5.03% | $180.2K |
+| 3 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.62% | $764.1K |
+| 4 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.10% | $464.4K |
+| 5 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 21.58% | $217.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ATOM shows up in 5 pools here, with rates from 0.03% to 21.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATOM shows up in 5 pools here, with rates from 0.05% to 21.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 4.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| osmosis-dex | 2.55% | 4.61% | Base rate |
-| osmosis-dex | 0.11% | 0.44% | Base rate |
-| osmosis-dex | 0.03% | 0.16% | Base rate |
-| osmosis-dex | 21.61% | 17.91% | Base rate |
-| osmosis-dex | 5.15% | 5.90% | Base rate |
+| osmosis-dex | 2.62% | 4.61% | Base rate |
+| osmosis-dex | 0.10% | 0.44% | Base rate |
+| osmosis-dex | 0.05% | 0.16% | Base rate |
+| osmosis-dex | 21.58% | 17.55% | Base rate |
+| osmosis-dex | 5.03% | 5.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ATOM yield today?
 
-21.61% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+21.58% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many ATOM pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $3.19M in total.
+7 live pools clear this page's $100K TVL floor, $3.31M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ATOM pools have the most stable APY history?
 
-Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.03% APY, $344.6K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; osmosis-dex (Osmosis), 5.15% APY, $174.1K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 2.55% APY, $729.9K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.11% APY, $451.5K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 21.61% APY, $218.3K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (Osmosis), 0.05% APY, $360.7K TVL, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; osmosis-dex (Osmosis), 5.03% APY, $180.2K TVL, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; osmosis-dex (Osmosis), 2.62% APY, $764.1K TVL, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; osmosis-dex (Osmosis), 0.10% APY, $464.4K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; osmosis-dex (Osmosis), 21.58% APY, $217.3K TVL, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +78,4 @@ Based on APY history only, ATOM's lower-variability candidates are osmosis-dex (
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

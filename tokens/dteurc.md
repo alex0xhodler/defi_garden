@@ -1,12 +1,12 @@
 # DTEURC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest DTEURC yield right now is 4.39% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d&src=seo_token) | Base | 4.39% | $123.9K |
+| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d&src=seo_token) | Base | 4.39% | $124K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DTEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.9K in total.
+1 live pool clear this page's $100K TVL floor, $124K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank DTEURC pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

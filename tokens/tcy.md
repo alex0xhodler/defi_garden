@@ -1,12 +1,12 @@
 # TCY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest TCY yield right now is 11.57% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TCY yield right now is 2.29% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_token) | Thorchain | 11.57% | $1.42M |
+| [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_token) | Thorchain | 2.29% | $1.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TCY yield today?
 
-11.57% APY on rujira-staking (Thorchain), based on live DefiLlama data.
+2.29% APY on rujira-staking (Thorchain), based on live DefiLlama data.
 
 ### How many TCY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.42M in total.
+1 live pool clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TCY pools. This view covers A
 
 - [Thorchain](https://www.defi.garden/chains/thorchain)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

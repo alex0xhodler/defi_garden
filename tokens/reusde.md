@@ -1,44 +1,44 @@
 # REUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest REUSDE yield right now is 18.22% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.27% | $20.28M |
-| [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.17% | $4.63M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.22% | $4.63M |
-| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.13% | $562.8K |
+| [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.27% | $20.3M |
+| [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.16% | $4.64M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.22% | $4.64M |
+| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.27% | $562.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, REUSDE's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $562.8K TVL, https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token; pendle-v2 (Ethereum), 18.22% APY, $4.63M TVL, https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token; pendle-v2 (Ethereum), 17.17% APY, $4.63M TVL, https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token; re (Ethereum), 12.27% APY, $20.28M TVL, https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REUSDE's lower-variability candidates are curve-dex (Ethereum), 0.27% APY, $562.3K TVL, https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token; pendle-v2 (Ethereum), 18.22% APY, $4.64M TVL, https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token; pendle-v2 (Ethereum), 17.16% APY, $4.64M TVL, https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token; re (Ethereum), 12.27% APY, $20.3M TVL, https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.13% | $562.8K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.22% | $4.63M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.17% | $4.63M |
-| 4 | [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.27% | $20.28M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.27% | $562.3K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.22% | $4.64M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.16% | $4.64M |
+| 4 | [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.27% | $20.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REUSDE shows up in 4 pools here, with rates from 0.13% to 18.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REUSDE shows up in 4 pools here, with rates from 0.27% to 18.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | re | 12.27% | 12.27% | Base rate |
-| pendle-v2 | 17.17% | 17.48% | 1.13% incentives |
+| pendle-v2 | 17.16% | 17.47% | 1.10% incentives |
 | pendle-v2 | 18.22% | 18.10% | Base rate |
-| curve-dex | 0.13% | 0.18% | Base rate |
+| curve-dex | 0.27% | 0.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many REUSDE pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $30.58M in total.
+5 live pools clear this page's $100K TVL floor, $30.6M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which REUSDE pools have the most stable APY history?
 
-Based on APY history only, REUSDE's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $562.8K TVL, https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token; pendle-v2 (Ethereum), 18.22% APY, $4.63M TVL, https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token; pendle-v2 (Ethereum), 17.17% APY, $4.63M TVL, https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token; re (Ethereum), 12.27% APY, $20.28M TVL, https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REUSDE's lower-variability candidates are curve-dex (Ethereum), 0.27% APY, $562.3K TVL, https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token; pendle-v2 (Ethereum), 18.22% APY, $4.64M TVL, https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token; pendle-v2 (Ethereum), 17.16% APY, $4.64M TVL, https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token; re (Ethereum), 12.27% APY, $20.3M TVL, https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, REUSDE's lower-variability candidates are curve-dex (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

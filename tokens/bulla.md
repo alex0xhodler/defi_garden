@@ -1,6 +1,6 @@
 # BULLA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest BULLA yield right now is 2.65% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -55,14 +55,14 @@ There is not enough qualifying APY history to rank BULLA pools. This view covers
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [USDY](https://www.defi.garden/tokens/usdy)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

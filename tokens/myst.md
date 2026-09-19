@@ -1,12 +1,12 @@
 # MYST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest MYST yield right now is 7.06% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MYST yield right now is 1.85% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947&src=seo_token) | Polygon | 7.06% | $145.4K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947&src=seo_token) | Polygon | 1.85% | $147.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MYST yield today?
 
-7.06% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+1.85% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many MYST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.4K in total.
+1 live pool clear this page's $100K TVL floor, $147.2K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank MYST pools. This view covers 
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

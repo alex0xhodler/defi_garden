@@ -1,12 +1,12 @@
 # PDSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest PDSOL yield right now is 3.15% on phase-delegation (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.15% | $115.58M |
+| [phase-delegation →](https://www.defi.garden/?pool=a4bbdd3c-0515-54b9-bad6-babb62a41084&src=seo_token) | Solana | 3.15% | $123.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PDSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.58M in total.
+1 live pool clear this page's $100K TVL floor, $123.08M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank PDSOL pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,12 +1,12 @@
 # SNRUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest SNRUSD yield right now is 14.44% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNRUSD yield right now is 14.67% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 14.44% | $214.4K |
+| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 14.67% | $214.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNRUSD yield today?
 
-14.44% APY on berapaw (Berachain), based on live DefiLlama data.
+14.67% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many SNRUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.4K in total.
+1 live pool clear this page's $100K TVL floor, $214.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SNRUSD pools. This view cover
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

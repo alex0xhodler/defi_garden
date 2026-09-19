@@ -1,12 +1,12 @@
 # RE7USDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest RE7USDC yield right now is 4.24% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7USDC yield right now is 4.16% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=47548a32-63c2-4485-b348-eac2cc3a587f&src=seo_token) | Base | 4.24% | $1.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=47548a32-63c2-4485-b348-eac2cc3a587f&src=seo_token) | Base | 4.16% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7USDC yield today?
 
-4.24% APY on morpho-blue (Base), based on live DefiLlama data.
+4.16% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many RE7USDC pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank RE7USDC pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,12 +1,12 @@
 # NEET DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest NEET yield right now is 27.45% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEET yield right now is 25.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 27.45% | $382.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 25.20% | $383.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEET yield today?
 
-27.45% APY on raydium-amm (Solana), based on live DefiLlama data.
+25.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $382.3K in total.
+1 live pool clear this page's $100K TVL floor, $383.3K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank NEET pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

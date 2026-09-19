@@ -1,12 +1,12 @@
 # RASOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest RASOL yield right now is 0.11% on project-0 (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.11% | $306.3K |
+| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.11% | $325.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RASOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $471.4K in total.
+2 live pools clear this page's $100K TVL floor, $500.9K in total.
 
 ### Are these rates safe?
 
@@ -50,14 +50,14 @@ There is not enough qualifying APY history to rank RASOL pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,12 +1,12 @@
 # WSTUSDT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WSTUSDT의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 1.46%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WSTUSDT의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 1.47%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=00bce708-f7e2-4af6-9488-be0089a660a6&src=seo_token) | Tron | 1.46% | $168K |
+| [justlend-v1 →](https://www.defi.garden/?pool=00bce708-f7e2-4af6-9488-be0089a660a6&src=seo_token) | Tron | 1.47% | $167K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 WSTUSDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.46%예요.
+DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.47%예요.
 
 ### WSTUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $168K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $167K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,14 +36,14 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.46%예요.
 ## 관련 토큰
 
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
 - [JST](https://www.defi.garden/ko/tokens/jst)
 - [SUN](https://www.defi.garden/ko/tokens/sun)
-- [TUSD](https://www.defi.garden/ko/tokens/tusd)
 
 ## 이용 가능한 체인
 
 - [Tron](https://www.defi.garden/ko/chains/tron)
 
-## 마지막 업데이트: September 18, 2026
+## 마지막 업데이트: September 19, 2026

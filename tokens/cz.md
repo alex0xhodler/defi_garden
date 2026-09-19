@@ -1,6 +1,6 @@
 # CZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest CZ yield right now is 0.05% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank CZ pools. This view covers AP
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CZ pools. This view covers AP
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

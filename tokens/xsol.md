@@ -1,35 +1,44 @@
 # XSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest XSOL yield right now is 299.36% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSOL yield right now is 748.01% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 3.44% | $600.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=e4b37ed9-84a0-5aaf-a676-b0c26530708b&src=seo_token) | Solana | 299.36% | $233.1K |
+| [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 3.66% | $642.7K |
+| [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token) | Solana | 748.01% | $494.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4b37ed9-84a0-5aaf-a676-b0c26530708b&src=seo_token) | Solana | 141.66% | $228.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=26605134-d0a1-5f06-98e4-0c3b6435f063&src=seo_token) | Solana | 670.52% | $162.9K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank XSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSOL's lower-variability candidates are loopscale (Solana), 3.66% APY, $642.7K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token; orca-dex (Solana), 748.01% APY, $494.6K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 3.66% | $642.7K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token) | Solana | 748.01% | $494.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSOL shows up in 2 pools here, with rates from 3.44% to 299.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSOL shows up in 4 pools here, with rates from 3.66% to 748.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 128.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 4 pools have a trustworthy 30-day average on file, with a median of 247.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| loopscale | 3.44% | 2.32% | Base rate |
-| raydium-amm | 299.36% | 255.49% | Base rate |
+| loopscale | 3.66% | 2.43% | Base rate |
+| orca-dex | 748.01% | 839.24% | Base rate |
+| raydium-amm | 141.66% | 247.72% | Base rate |
+| raydium-amm | 670.52% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSOL yield today?
 
-299.36% APY on raydium-amm (Solana), based on live DefiLlama data.
+748.01% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many XSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $833.4K in total.
+4 live pools clear this page's $100K TVL floor, $1.53M in total.
 
 ### Are these rates safe?
 
@@ -49,19 +58,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSOL pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank XSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSOL's lower-variability candidates are loopscale (Solana), 3.66% APY, $642.7K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token; orca-dex (Solana), 748.01% APY, $494.6K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

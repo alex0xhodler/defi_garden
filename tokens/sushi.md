@@ -1,33 +1,33 @@
 # SUSHI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest SUSHI yield right now is 11.06% on sushiswap (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSHI yield right now is 13.90% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 10.40% | $1.07M |
-| [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 11.06% | $269K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 10.45% | $143.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 12.31% | $1.12M |
+| [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 13.88% | $282.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 13.90% | $150.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSHI's lower-variability candidates are sushiswap-v3 (Ethereum), 10.40% APY, $1.07M TVL, https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token; sushiswap (Ethereum), 11.06% APY, $269K TVL, https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token; uniswap-v2 (Ethereum), 10.45% APY, $143.1K TVL, https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSHI's lower-variability candidates are sushiswap-v3 (Ethereum), 12.31% APY, $1.12M TVL, https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token; sushiswap (Ethereum), 13.88% APY, $282.3K TVL, https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token; uniswap-v2 (Ethereum), 13.90% APY, $150.1K TVL, https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 10.40% | $1.07M |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 11.06% | $269K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 10.45% | $143.1K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 12.31% | $1.12M |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 13.88% | $282.3K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 13.90% | $150.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSHI shows up in 3 pools here, with rates from 10.40% to 11.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSHI shows up in 3 pools here, with rates from 12.31% to 13.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 10.40% | 9.68% | Base rate |
-| sushiswap | 11.06% | 10.69% | Base rate |
-| uniswap-v2 | 10.45% | 10.11% | Base rate |
+| sushiswap-v3 | 12.31% | 9.96% | Base rate |
+| sushiswap | 13.88% | 10.97% | Base rate |
+| uniswap-v2 | 13.90% | 10.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSHI yield today?
 
-11.06% APY on sushiswap (Ethereum), based on live DefiLlama data.
+13.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SUSHI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.48M in total.
+3 live pools clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSHI pools have the most stable APY history?
 
-Based on APY history only, SUSHI's lower-variability candidates are sushiswap-v3 (Ethereum), 10.40% APY, $1.07M TVL, https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token; sushiswap (Ethereum), 11.06% APY, $269K TVL, https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token; uniswap-v2 (Ethereum), 10.45% APY, $143.1K TVL, https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSHI's lower-variability candidates are sushiswap-v3 (Ethereum), 12.31% APY, $1.12M TVL, https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token; sushiswap (Ethereum), 13.88% APY, $282.3K TVL, https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token; uniswap-v2 (Ethereum), 13.90% APY, $150.1K TVL, https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, SUSHI's lower-variability candidates are sushiswap-v3
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

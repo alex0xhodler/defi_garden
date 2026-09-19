@@ -1,6 +1,6 @@
 # BULLA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 BULLA의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 2.65%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -55,14 +55,14 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 2.65%예요.
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 18, 2026
+## 마지막 업데이트: September 19, 2026

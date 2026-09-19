@@ -1,31 +1,31 @@
 # ANON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest ANON yield right now is 0.01% on dedust (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANON yield right now is 0.01% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 25.53% | $204.9K |
-| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.01% | $165.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 25.88% | $213.8K |
+| [ston.fi →](https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token) | TON | 0.01% | $160.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ANON's lower-variability candidates are dedust (TON), 0.01% APY, $165.5K TVL, https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token; raydium-amm (Solana), 25.53% APY, $204.9K TVL, https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANON's lower-variability candidates are ston.fi (TON), 0.01% APY, $160.5K TVL, https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token; raydium-amm (Solana), 25.88% APY, $213.8K TVL, https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.01% | $165.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 25.53% | $204.9K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token) | TON | 0.01% | $160.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 25.88% | $213.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ANON shows up in 2 pools here, with rates from 0.01% to 25.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANON shows up in 2 pools here, with rates from 0.01% to 25.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 25.53% | 55.21% | Base rate |
-| dedust | 0.01% | 0.07% | Base rate |
+| raydium-amm | 25.88% | 53.52% | Base rate |
+| ston.fi | 0.01% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANON yield today?
 
-0.01% APY on dedust (TON), based on live DefiLlama data.
+0.01% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many ANON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $529.7K in total.
+3 live pools clear this page's $100K TVL floor, $542.7K in total.
 
 ### Are these rates safe?
 
@@ -54,20 +54,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ANON pools have the most stable APY history?
 
-Based on APY history only, ANON's lower-variability candidates are dedust (TON), 0.01% APY, $165.5K TVL, https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token; raydium-amm (Solana), 25.53% APY, $204.9K TVL, https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANON's lower-variability candidates are ston.fi (TON), 0.01% APY, $160.5K TVL, https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token; raydium-amm (Solana), 25.88% APY, $213.8K TVL, https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

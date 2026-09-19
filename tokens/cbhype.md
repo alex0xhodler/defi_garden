@@ -1,12 +1,12 @@
 # CBHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest CBHYPE yield right now is 51.75% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBHYPE yield right now is 57.05% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 51.75% | $611.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 57.05% | $564.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBHYPE yield today?
 
-51.75% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+57.05% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $611.2K in total.
+1 live pool clear this page's $100K TVL floor, $564.6K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank CBHYPE pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

@@ -1,12 +1,12 @@
 # KODIWBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest KODIWBERA yield right now is 36.47% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWBERA yield right now is 36.99% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 36.47% | $284.2K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 36.99% | $287.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIWBERA yield today?
 
-36.47% APY on berapaw (Berachain), based on live DefiLlama data.
+36.99% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.2K in total.
+1 live pool clear this page's $100K TVL floor, $287.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KODIWBERA pools. This view co
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

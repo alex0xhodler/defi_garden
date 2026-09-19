@@ -1,12 +1,12 @@
 # MCHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest MCHYPE yield right now is 2.96% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCHYPE yield right now is 2.97% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=5dc964a0-d91a-4145-b698-6487a3b381ce&src=seo_token) | Hyperliquid L1 | 2.96% | $1.07M |
+| [morpho-blue →](https://www.defi.garden/?pool=5dc964a0-d91a-4145-b698-6487a3b381ce&src=seo_token) | Hyperliquid L1 | 2.97% | $1.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCHYPE yield today?
 
-2.96% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+2.97% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many MCHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.07M in total.
+1 live pool clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MCHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

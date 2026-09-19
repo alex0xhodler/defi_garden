@@ -1,12 +1,12 @@
 # PLUMBER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
-The highest honest PLUMBER yield right now is 662.02% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLUMBER yield right now is 79.99% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e9ea493e-7c07-554f-9e9c-02f7043b5abf&src=seo_token) | Base | 662.02% | $138.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e9ea493e-7c07-554f-9e9c-02f7043b5abf&src=seo_token) | Base | 79.99% | $126.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-PLUMBER shows up in 1 pools here, with rates from 662.02% to 662.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PLUMBER shows up in 1 pools here, with rates from 79.99% to 79.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 662.02% | — | Base rate |
+| uniswap-v4 | 79.99% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PLUMBER yield today?
 
-662.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
+79.99% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PLUMBER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $286.5K in total.
+2 live pools clear this page's $100K TVL floor, $299.7K in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ There is not enough qualifying APY history to rank PLUMBER pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026

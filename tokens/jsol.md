@@ -1,12 +1,12 @@
 # JSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
 
 The highest honest JSOL yield right now is 4.85% on jpool (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 4.85% | $132.98M |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 4.85% | $142.43M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 JSOL shows up in 1 pools here, with rates from 4.85% to 4.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jpool | 4.85% | 4.87% | Base rate |
+| jpool | 4.85% | 4.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JSOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $141.6M in total.
+4 live pools clear this page's $100K TVL floor, $151.36M in total.
 
 ### Are these rates safe?
 
@@ -50,14 +50,14 @@ There is not enough qualifying APY history to rank JSOL pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 18, 2026
+## Last updated September 19, 2026
