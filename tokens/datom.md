@@ -1,12 +1,12 @@
 # DATOM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest DATOM yield right now is 0.02% on astroport (Neutron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_token) | Neutron | 0.02% | $4.42M |
+| [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_token) | Neutron | 0.02% | $4.41M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DATOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.42M in total.
+1 live pool clear this page's $100K TVL floor, $4.41M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank DATOM pools. This view covers
 
 ## Related tokens
 
+- [USDC.NBL](https://www.defi.garden/tokens/usdc-nbl)
 - [DYDX](https://www.defi.garden/tokens/dydx)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Neutron](https://www.defi.garden/chains/neutron)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

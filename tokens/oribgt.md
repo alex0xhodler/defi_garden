@@ -1,12 +1,12 @@
 # ORIBGT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest ORIBGT yield right now is 40.79% on origami-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $156.7K |
+| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $175.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORIBGT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156.7K in total.
+1 live pool clear this page's $100K TVL floor, $175.3K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ORIBGT pools. This view cover
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

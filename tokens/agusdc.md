@@ -1,38 +1,38 @@
 # AGUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest AGUSDC yield right now is 7.54% on gami-labs (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGUSDC yield right now is 7.25% on gami-labs (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 5.79% | $1.05M |
-| [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 7.54% | $1.05M |
+| [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 7.25% | $1.05M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 7.54% APY, $1.05M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 5.79% APY, $1.05M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 7.25% APY, $1.05M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 5.79% APY, $1.05M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 7.54% | $1.05M |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 7.25% | $1.05M |
 | 2 | [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 5.79% | $1.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AGUSDC shows up in 2 pools here, with rates from 5.79% to 7.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AGUSDC shows up in 2 pools here, with rates from 5.79% to 7.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 5.79% | 7.44% | Base rate |
-| gami-labs | 7.54% | 8.35% | Base rate |
+| lagoon | 5.79% | 7.39% | Base rate |
+| gami-labs | 7.25% | 8.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AGUSDC yield today?
 
-7.54% APY on gami-labs (Avalanche), based on live DefiLlama data.
+7.25% APY on gami-labs (Avalanche), based on live DefiLlama data.
 
 ### How many AGUSDC pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AGUSDC pools have the most stable APY history?
 
-Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 7.54% APY, $1.05M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 5.79% APY, $1.05M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 7.25% APY, $1.05M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 5.79% APY, $1.05M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

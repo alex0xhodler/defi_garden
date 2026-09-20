@@ -1,23 +1,23 @@
 # ADAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest ADAI yield right now is 0.36% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.36% | $303.8K |
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.5K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.36% | $304.9K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $151.5K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.36% APY, $303.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $151.9K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.36% APY, $304.9K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.5K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.36% | $303.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.36% | $304.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ADAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $455.4K in total.
+2 live pools clear this page's $100K TVL floor, $456.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ADAI pools have the most stable APY history?
 
-Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $151.5K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.36% APY, $303.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADAI's lower-variability candidates are curve-dex (Ethereum), 0.20% APY, $151.9K TVL, https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token; curve-dex (Ethereum), 0.36% APY, $304.9K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, ADAI's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

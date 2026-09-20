@@ -1,14 +1,14 @@
 # NOCK 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NOCK의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 253.62%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NOCK의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 114.39%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7&src=seo_token) | Base | 253.62% | $365.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 127.41% | $214.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05&src=seo_token) | Base | 179.54% | $119.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7&src=seo_token) | Base | 209.72% | $370.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 114.39% | $217.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05&src=seo_token) | Base | 154.81% | $121.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,9 +19,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NOCK 풀은 여기 3개가 있고, 1개 체인에서 APY가 127.41%부터 253.62%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NOCK 풀은 여기 3개가 있고, 1개 체인에서 APY가 114.39%부터 209.72%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 428.00%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 425.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -29,9 +29,9 @@ NOCK 풀은 여기 3개가 있고, 1개 체인에서 APY가 127.41%부터 253.62
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 253.62% | 428.00% | 기본 금리 |
-| uniswap-v4 | 127.41% | 173.20% | 기본 금리 |
-| uniswap-v4 | 179.54% | 515.60% | 기본 금리 |
+| uniswap-v4 | 209.72% | 425.50% | 기본 금리 |
+| uniswap-v4 | 114.39% | 173.15% | 기본 금리 |
+| uniswap-v4 | 154.81% | 510.78% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,11 +39,11 @@ NOCK 풀은 여기 3개가 있고, 1개 체인에서 APY가 127.41%부터 253.62
 
 ### 오늘 NOCK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 253.62%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 114.39%예요.
 
 ### NOCK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.27M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,10 +60,10 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 253.62%예요
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 19, 2026
+## 마지막 업데이트: September 20, 2026

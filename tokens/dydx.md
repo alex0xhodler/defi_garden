@@ -1,12 +1,12 @@
 # DYDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest DYDX yield right now is 4.81% on astroport (Neutron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DYDX yield right now is 4.19% on astroport (Neutron), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_token) | Neutron | 4.81% | $216.2K |
+| [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_token) | Neutron | 4.19% | $215.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DYDX yield today?
 
-4.81% APY on astroport (Neutron), based on live DefiLlama data.
+4.19% APY on astroport (Neutron), based on live DefiLlama data.
 
 ### How many DYDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216.2K in total.
+1 live pool clear this page's $100K TVL floor, $215.2K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank DYDX pools. This view covers 
 
 ## Related tokens
 
+- [USDC.NBL](https://www.defi.garden/tokens/usdc-nbl)
 - [DATOM](https://www.defi.garden/tokens/datom)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Neutron](https://www.defi.garden/chains/neutron)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

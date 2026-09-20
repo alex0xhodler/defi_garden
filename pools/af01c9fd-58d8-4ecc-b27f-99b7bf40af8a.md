@@ -2,11 +2,11 @@
 
 **Total APY:** 2.94% (2.94% Base · + 0.00% Rewards)
 
-**TVL:** $308.3K
+**TVL:** $302.2K
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 2.25%
+**30d Mean APY:** 2.33%
 
 **Exposure:** single
 
@@ -33,4 +33,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on pendle-v2](https://pendle.finance/?ref=defi.garden)
 
-Last updated September 19, 2026
+Last updated September 20, 2026

@@ -6,7 +6,7 @@
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.28%
+**30d Mean APY:** 0.29%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on velodrome-v2](https://velodrome.finance/?ref=defi.garden)
 
-Last updated September 19, 2026
+Last updated September 20, 2026

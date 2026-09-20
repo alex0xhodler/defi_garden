@@ -1,12 +1,12 @@
 # ZAMA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest ZAMA yield right now is 59.89% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZAMA yield right now is 193.25% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 59.89% | $563.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 193.25% | $626.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZAMA yield today?
 
-59.89% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+193.25% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ZAMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $563.7K in total.
+1 live pool clear this page's $100K TVL floor, $626.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ZAMA pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

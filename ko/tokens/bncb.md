@@ -1,6 +1,6 @@
 # BNCB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 BNCB의 가장 높은 정직한 수익률은 BSC의 uniswap-v4에서 370.57%이며, $100K TVL 기준을 넘는 21개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -63,13 +63,13 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 370.57%예요.
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
+- [BTCB](https://www.defi.garden/ko/tokens/btcb)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: September 19, 2026
+## 마지막 업데이트: September 20, 2026

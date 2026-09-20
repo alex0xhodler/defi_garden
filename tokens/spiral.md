@@ -1,8 +1,8 @@
 # SPIRAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest SPIRAL yield right now is 158.90% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPIRAL yield right now is 158.90% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPIRAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $566.4K in total.
+2 live pools clear this page's $100K TVL floor, $447.4K in total.
 
 ### Are these rates safe?
 
@@ -56,10 +56,10 @@ There is not enough qualifying APY history to rank SPIRAL pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

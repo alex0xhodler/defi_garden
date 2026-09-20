@@ -1,12 +1,12 @@
 # ZVUSDC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ZVUSDC의 가장 높은 정직한 수익률은 Base의 zircuit-finance에서 8.05%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZVUSDC의 가장 높은 정직한 수익률은 Base의 zircuit-finance에서 8.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 8.05% | $1.36M |
+| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 8.09% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 ZVUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 zircuit-finance에서 APY 8.05%예요.
+DefiLlama 실시간 데이터 기준, Base의 zircuit-finance에서 APY 8.09%예요.
 
 ### ZVUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Base의 zircuit-finance에서 APY 8.05%예
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 19, 2026
+## 마지막 업데이트: September 20, 2026

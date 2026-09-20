@@ -1,15 +1,13 @@
 # ZCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest ZCAT yield right now is 444.32% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZCAT yield right now is 131.95% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 163.11% | $1.87M |
-| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 104.76% | $155.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=c846eaa2-d5c7-5e66-b05f-3806b5e480d6&src=seo_token) | Solana | 78.89% | $155.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=4222292a-6be4-5fb5-944e-2bcc7470e9ca&src=seo_token) | Solana | 444.32% | $147.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 131.95% | $1.68M |
+| [raydium-amm →](https://www.defi.garden/?pool=eed5a05d-eb87-5284-9766-7832e587257c&src=seo_token) | Solana | 49.84% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,20 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZCAT shows up in 4 pools here, with rates from 78.89% to 444.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZCAT shows up in 2 pools here, with rates from 49.84% to 131.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 4 pools have a trustworthy 30-day average on file, with a median of 188.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 172.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 163.11% | — | Base rate |
-| raydium-amm | 104.76% | 188.92% | Base rate |
-| raydium-amm | 78.89% | 78.89% | Base rate |
-| raydium-amm | 444.32% | 304.53% | Base rate |
+| raydium-amm | 131.95% | — | Base rate |
+| raydium-amm | 49.84% | 172.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZCAT yield today?
 
-444.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+131.95% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZCAT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.32M in total.
+2 live pools clear this page's $100K TVL floor, $1.8M in total.
 
 ### Are these rates safe?
 
@@ -68,4 +64,4 @@ There is not enough qualifying APY history to rank ZCAT pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

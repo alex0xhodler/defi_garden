@@ -1,31 +1,31 @@
 # USDC.N DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest USDC.N yield right now is 0.10% on osmosis-dex (Osmosis), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.N yield right now is 0.11% on osmosis-dex (Osmosis), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.10% | $464.4K |
-| [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.01% | $393.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.11% | $463K |
+| [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.01% | $387.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.01% APY, $393.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.10% APY, $464.4K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.01% APY, $387.2K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.11% APY, $463K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.01% | $393.9K |
-| 2 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.10% | $464.4K |
+| 1 | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token) | Osmosis | 0.01% | $387.2K |
+| 2 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.11% | $463K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDC.N shows up in 2 pools here, with rates from 0.01% to 0.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDC.N shows up in 2 pools here, with rates from 0.01% to 0.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| osmosis-dex | 0.10% | 0.44% | Base rate |
+| osmosis-dex | 0.11% | 0.27% | Base rate |
 | osmosis-dex | 0.01% | 0.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDC.N yield today?
 
-0.10% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+0.11% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many USDC.N pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.02M in total.
+7 live pools clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDC.N pools have the most stable APY history?
 
-Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.01% APY, $393.9K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.10% APY, $464.4K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex (Osmosis), 0.01% APY, $387.2K TVL, https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_token; osmosis-dex (Osmosis), 0.11% APY, $463K TVL, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, USDC.N's lower-variability candidates are osmosis-dex
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

@@ -1,12 +1,12 @@
 # TRG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest TRG yield right now is 0.07% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRG yield right now is 0.04% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token) | Ethereum | 0.07% | $137.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.04% | $399.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRG shows up in 1 pools here, with rates from 0.07% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRG shows up in 1 pools here, with rates from 0.04% to 0.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.07% | 0.00% | Base rate |
+| uniswap-v3 | 0.04% | 0.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRG yield today?
 
-0.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TRG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $544.7K in total.
+2 live pools clear this page's $100K TVL floor, $534.9K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank TRG pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

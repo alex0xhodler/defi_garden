@@ -1,12 +1,12 @@
 # HGRAM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest HGRAM yield right now is 16.51% on hipo (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HGRAM yield right now is 17.18% on hipo (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_token) | TON | 16.51% | $9.96M |
+| [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_token) | TON | 17.18% | $9.96M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HGRAM yield today?
 
-16.51% APY on hipo (TON), based on live DefiLlama data.
+17.18% APY on hipo (TON), based on live DefiLlama data.
 
 ### How many HGRAM pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HGRAM pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

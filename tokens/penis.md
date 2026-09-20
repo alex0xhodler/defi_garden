@@ -1,12 +1,12 @@
 # PENIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest PENIS yield right now is 316.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENIS yield right now is 165.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=74e225f4-680a-5069-9b35-16ddbbb43a0f&src=seo_token) | Solana | 316.97% | $133.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=74e225f4-680a-5069-9b35-16ddbbb43a0f&src=seo_token) | Solana | 165.22% | $117.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PENIS yield today?
 
-316.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+165.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PENIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.9K in total.
+1 live pool clear this page's $100K TVL floor, $117.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PENIS pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

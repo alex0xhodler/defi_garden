@@ -1,12 +1,12 @@
 # UB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest UB yield right now is 14.80% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UB yield right now is 59.57% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 14.80% | $100.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 59.57% | $105.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-UB shows up in 1 pools here, with rates from 14.80% to 14.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UB shows up in 1 pools here, with rates from 59.57% to 59.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 38.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 39.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 14.80% | 38.79% | Base rate |
+| uniswap-v3 | 59.57% | 39.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UB yield today?
 
-14.80% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+59.57% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many UB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $213.2K in total.
+2 live pools clear this page's $100K TVL floor, $215.2K in total.
 
 ### Are these rates safe?
 
@@ -53,13 +53,13 @@ There is not enough qualifying APY history to rank UB pools. This view covers AP
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

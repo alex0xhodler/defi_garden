@@ -1,31 +1,31 @@
 # LMTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest LMTS yield right now is 24.50% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMTS yield right now is 234.83% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 460.91% | $400.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 24.50% | $177.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 234.83% | $389K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 19.35% | $172.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 24.50% APY, $177.6K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 460.91% APY, $400.2K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 19.35% APY, $172.9K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 234.83% APY, $389K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 24.50% | $177.6K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 460.91% | $400.2K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 19.35% | $172.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 234.83% | $389K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LMTS shows up in 2 pools here, with rates from 24.50% to 460.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LMTS shows up in 2 pools here, with rates from 19.35% to 234.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 134.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 139.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ LMTS shows up in 2 pools here, with rates from 24.50% to 460.91% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 460.91% | 246.66% | 99.92% incentives |
-| aerodrome-slipstream | 24.50% | 23.00% | Base rate |
+| aerodrome-slipstream | 234.83% | 255.03% | 99.95% incentives |
+| aerodrome-slipstream | 19.35% | 23.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LMTS yield today?
 
-24.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+234.83% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LMTS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $577.8K in total.
+2 live pools clear this page's $100K TVL floor, $561.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LMTS pools have the most stable APY history?
 
-Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 24.50% APY, $177.6K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 460.91% APY, $400.2K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 19.35% APY, $172.9K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 234.83% APY, $389K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,10 +63,10 @@ Based on APY history only, LMTS's lower-variability candidates are aerodrome-sli
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

@@ -1,15 +1,15 @@
 # USDY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest USDY yield right now is 3.58% on ondo-yield-assets (Ethereum), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.58% | $1.18B |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.58% | $536.11M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.58% | $536.16M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.58% | $259.01M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.58% | $180.29M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.58% | $180.3M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.58% | $14.65M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token) | Mantle | 3.58% | $13.49M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.58% | $6.44M |
@@ -18,7 +18,7 @@ The highest honest USDY yield right now is 3.58% on ondo-yield-assets (Ethereum)
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Ethereum), 3.58% APY, $1.18B TVL, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; ondo-yield-assets (Mantle), 3.58% APY, $13.49M TVL, https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token; ondo-yield-assets (Noble), 3.58% APY, $6.44M TVL, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; ondo-yield-assets (Osmosis), 3.58% APY, $5.95M TVL, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; ondo-yield-assets (Sei), 3.58% APY, $259.01M TVL, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; ondo-yield-assets (Solana), 3.58% APY, $180.29M TVL, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; ondo-yield-assets (Stellar), 3.58% APY, $536.11M TVL, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; ondo-yield-assets (Sui), 3.58% APY, $14.65M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Ethereum), 3.58% APY, $1.18B TVL, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; ondo-yield-assets (Mantle), 3.58% APY, $13.49M TVL, https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token; ondo-yield-assets (Noble), 3.58% APY, $6.44M TVL, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; ondo-yield-assets (Osmosis), 3.58% APY, $5.95M TVL, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; ondo-yield-assets (Sei), 3.58% APY, $259.01M TVL, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; ondo-yield-assets (Solana), 3.58% APY, $180.3M TVL, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; ondo-yield-assets (Stellar), 3.58% APY, $536.16M TVL, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; ondo-yield-assets (Sui), 3.58% APY, $14.65M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
@@ -27,8 +27,8 @@ Based on APY history only, USDY's lower-variability candidates are ondo-yield-as
 | 3 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.58% | $6.44M |
 | 4 | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.58% | $5.95M |
 | 5 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.58% | $259.01M |
-| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.58% | $180.29M |
-| 7 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.58% | $536.11M |
+| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.58% | $180.3M |
+| 7 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.58% | $536.16M |
 | 8 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.58% | $14.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDY pools have the most stable APY history?
 
-Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Ethereum), 3.58% APY, $1.18B TVL, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; ondo-yield-assets (Mantle), 3.58% APY, $13.49M TVL, https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token; ondo-yield-assets (Noble), 3.58% APY, $6.44M TVL, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; ondo-yield-assets (Osmosis), 3.58% APY, $5.95M TVL, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; ondo-yield-assets (Sei), 3.58% APY, $259.01M TVL, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; ondo-yield-assets (Solana), 3.58% APY, $180.29M TVL, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; ondo-yield-assets (Stellar), 3.58% APY, $536.11M TVL, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; ondo-yield-assets (Sui), 3.58% APY, $14.65M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Ethereum), 3.58% APY, $1.18B TVL, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; ondo-yield-assets (Mantle), 3.58% APY, $13.49M TVL, https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token; ondo-yield-assets (Noble), 3.58% APY, $6.44M TVL, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; ondo-yield-assets (Osmosis), 3.58% APY, $5.95M TVL, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; ondo-yield-assets (Sei), 3.58% APY, $259.01M TVL, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; ondo-yield-assets (Solana), 3.58% APY, $180.3M TVL, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; ondo-yield-assets (Stellar), 3.58% APY, $536.16M TVL, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; ondo-yield-assets (Sui), 3.58% APY, $14.65M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -92,4 +92,4 @@ Based on APY history only, USDY's lower-variability candidates are ondo-yield-as
 - [Noble](https://www.defi.garden/chains/noble)
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

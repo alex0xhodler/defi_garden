@@ -1,12 +1,12 @@
 # EKUBO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest EKUBO yield right now is 638.98% on ekubo (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EKUBO yield right now is 652.45% on ekubo (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=21acb62d-c0de-4a90-bb69-43adf7885c5d&src=seo_token) | Ethereum | 638.98% | $139.5K |
+| [ekubo →](https://www.defi.garden/?pool=21acb62d-c0de-4a90-bb69-43adf7885c5d&src=seo_token) | Ethereum | 652.45% | $110.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EKUBO yield today?
 
-638.98% APY on ekubo (Ethereum), based on live DefiLlama data.
+652.45% APY on ekubo (Ethereum), based on live DefiLlama data.
 
 ### How many EKUBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.5K in total.
+1 live pool clear this page's $100K TVL floor, $110.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EKUBO pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

@@ -1,37 +1,37 @@
 # YCRV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest YCRV yield right now is 16.04% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YCRV yield right now is 16.09% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 12.46% | $7.61M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 9.23% | $1.5M |
-| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 15.66% | $1.24M |
-| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 16.04% | $1.07M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 8.28% | $275.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 12.60% | $7.89M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 9.18% | $1.46M |
+| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 15.32% | $1.28M |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 16.09% | $1.03M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 6.43% | $268.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YCRV's lower-variability candidates are curve-dex (Ethereum), 9.23% APY, $1.5M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token; convex-finance (Ethereum), 16.04% APY, $1.07M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token; stake-dao-yield (Ethereum), 8.28% APY, $275.5K TVL, https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token; yearn-finance (Ethereum), 12.46% APY, $7.61M TVL, https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token; yearn-finance (Ethereum), 15.66% APY, $1.24M TVL, https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YCRV's lower-variability candidates are curve-dex (Ethereum), 9.18% APY, $1.46M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token; convex-finance (Ethereum), 16.09% APY, $1.03M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token; stake-dao-yield (Ethereum), 6.43% APY, $268.9K TVL, https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token; yearn-finance (Ethereum), 12.60% APY, $7.89M TVL, https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token; yearn-finance (Ethereum), 15.32% APY, $1.28M TVL, https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 9.23% | $1.5M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 16.04% | $1.07M |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 8.28% | $275.5K |
-| 4 | [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 12.46% | $7.61M |
-| 5 | [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 15.66% | $1.24M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 9.18% | $1.46M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 16.09% | $1.03M |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 6.43% | $268.9K |
+| 4 | [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 12.60% | $7.89M |
+| 5 | [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 15.32% | $1.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YCRV shows up in 5 pools here, with rates from 8.28% to 16.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YCRV shows up in 5 pools here, with rates from 6.43% to 16.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 15.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 14.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -39,11 +39,11 @@ YCRV shows up in 5 pools here, with rates from 8.28% to 16.04% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 12.46% | 12.31% | Base rate |
-| curve-dex | 9.23% | 9.78% | 96.21% incentives |
-| yearn-finance | 15.66% | 15.92% | Base rate |
-| convex-finance | 16.04% | 16.58% | 97.82% incentives |
-| stake-dao-yield | 8.28% | 15.05% | Base rate |
+| yearn-finance | 12.60% | 12.24% | Base rate |
+| curve-dex | 9.18% | 9.77% | 98.47% incentives |
+| yearn-finance | 15.32% | 15.95% | Base rate |
+| convex-finance | 16.09% | 16.59% | 99.13% incentives |
+| stake-dao-yield | 6.43% | 14.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YCRV yield today?
 
-16.04% APY on convex-finance (Ethereum), based on live DefiLlama data.
+16.09% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YCRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $11.69M in total.
+5 live pools clear this page's $100K TVL floor, $11.92M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YCRV pools have the most stable APY history?
 
-Based on APY history only, YCRV's lower-variability candidates are curve-dex (Ethereum), 9.23% APY, $1.5M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token; convex-finance (Ethereum), 16.04% APY, $1.07M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token; stake-dao-yield (Ethereum), 8.28% APY, $275.5K TVL, https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token; yearn-finance (Ethereum), 12.46% APY, $7.61M TVL, https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token; yearn-finance (Ethereum), 15.66% APY, $1.24M TVL, https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YCRV's lower-variability candidates are curve-dex (Ethereum), 9.18% APY, $1.46M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token; convex-finance (Ethereum), 16.09% APY, $1.03M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token; stake-dao-yield (Ethereum), 6.43% APY, $268.9K TVL, https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token; yearn-finance (Ethereum), 12.60% APY, $7.89M TVL, https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token; yearn-finance (Ethereum), 15.32% APY, $1.28M TVL, https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +78,4 @@ Based on APY history only, YCRV's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

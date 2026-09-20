@@ -1,37 +1,37 @@
 # TRUMP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest TRUMP yield right now is 0.18% on uniswap-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUMP yield right now is 57.58% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 3.52% | $2.93M |
-| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 10.90% | $958.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token) | Ethereum | 0.18% | $654.6K |
-| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 48.99% | $251.2K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 44.54% | $250.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 4.42% | $2.93M |
+| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 15.10% | $959.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token) | Ethereum | 0.16% | $641.9K |
+| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 57.58% | $249.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 53.12% | $248.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRUMP's lower-variability candidates are raydium-amm (Solana), 3.52% APY, $2.93M TVL, https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token; orca-dex (Solana), 10.90% APY, $958.9K TVL, https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token; orca-dex (Solana), 48.99% APY, $251.2K TVL, https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token; uniswap-v2 (Ethereum), 0.18% APY, $654.6K TVL, https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token; kamino-liquidity (Solana), 44.54% APY, $250.6K TVL, https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRUMP's lower-variability candidates are raydium-amm (Solana), 4.42% APY, $2.93M TVL, https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token; orca-dex (Solana), 15.10% APY, $959.4K TVL, https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token; orca-dex (Solana), 57.58% APY, $249.3K TVL, https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token; uniswap-v2 (Ethereum), 0.16% APY, $641.9K TVL, https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token; kamino-liquidity (Solana), 53.12% APY, $248.1K TVL, https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 3.52% | $2.93M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 10.90% | $958.9K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 48.99% | $251.2K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token) | Ethereum | 0.18% | $654.6K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 44.54% | $250.6K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 4.42% | $2.93M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 15.10% | $959.4K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 57.58% | $249.3K |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token) | Ethereum | 0.16% | $641.9K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 53.12% | $248.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRUMP shows up in 5 pools here, with rates from 0.18% to 48.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUMP shows up in 5 pools here, with rates from 0.16% to 57.58% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 5 pools have a trustworthy 30-day average on file, with a median of 32.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 5 pools have a trustworthy 30-day average on file, with a median of 30.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 3.52% | 28.02% | Base rate |
-| orca-dex | 10.90% | 36.13% | Base rate |
-| uniswap-v2 | 0.18% | 0.59% | Base rate |
-| orca-dex | 48.99% | 109.10% | Base rate |
-| kamino-liquidity | 44.54% | — | Base rate |
+| raydium-amm | 4.42% | 26.87% | Base rate |
+| orca-dex | 15.10% | 34.93% | Base rate |
+| uniswap-v2 | 0.16% | 0.57% | Base rate |
+| orca-dex | 57.58% | 105.07% | Base rate |
+| kamino-liquidity | 53.12% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUMP yield today?
 
-0.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+57.58% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many TRUMP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $5.05M in total.
+5 live pools clear this page's $100K TVL floor, $5.03M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRUMP pools have the most stable APY history?
 
-Based on APY history only, TRUMP's lower-variability candidates are raydium-amm (Solana), 3.52% APY, $2.93M TVL, https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token; orca-dex (Solana), 10.90% APY, $958.9K TVL, https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token; orca-dex (Solana), 48.99% APY, $251.2K TVL, https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token; uniswap-v2 (Ethereum), 0.18% APY, $654.6K TVL, https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token; kamino-liquidity (Solana), 44.54% APY, $250.6K TVL, https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRUMP's lower-variability candidates are raydium-amm (Solana), 4.42% APY, $2.93M TVL, https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token; orca-dex (Solana), 15.10% APY, $959.4K TVL, https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token; orca-dex (Solana), 57.58% APY, $249.3K TVL, https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token; uniswap-v2 (Ethereum), 0.16% APY, $641.9K TVL, https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token; kamino-liquidity (Solana), 53.12% APY, $248.1K TVL, https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -79,4 +79,4 @@ Based on APY history only, TRUMP's lower-variability candidates are raydium-amm 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

@@ -1,13 +1,13 @@
 # DKNG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest DKNG yield right now is 375.57% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DKNG yield right now is 200.44% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ab02664e-c389-5b3e-a5ce-5e43ca6c42b3&src=seo_token) | Solana | 157.94% | $456.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=6aaba24b-afbc-5b4e-9521-c9fdeb714f55&src=seo_token) | Solana | 375.57% | $225.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=ab02664e-c389-5b3e-a5ce-5e43ca6c42b3&src=seo_token) | Solana | 139.72% | $380.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=6aaba24b-afbc-5b4e-9521-c9fdeb714f55&src=seo_token) | Solana | 200.44% | $206.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-DKNG shows up in 2 pools here, with rates from 157.94% to 375.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DKNG shows up in 2 pools here, with rates from 139.72% to 200.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 157.94% | — | Base rate |
-| raydium-amm | 375.57% | — | Base rate |
+| raydium-amm | 139.72% | — | Base rate |
+| raydium-amm | 200.44% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DKNG yield today?
 
-375.57% APY on raydium-amm (Solana), based on live DefiLlama data.
+200.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DKNG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $682.2K in total.
+2 live pools clear this page's $100K TVL floor, $587.4K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank DKNG pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

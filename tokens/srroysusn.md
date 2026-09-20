@@ -1,12 +1,12 @@
 # SRROYSUSN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest SRROYSUSN yield right now is 6.94% on royco-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSUSN yield right now is 7.01% on royco-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a03a9a79-443a-5fd1-af08-646c87bf1cbc&src=seo_token) | Base | 6.94% | $1.62M |
+| [royco-v2 →](https://www.defi.garden/?pool=a03a9a79-443a-5fd1-af08-646c87bf1cbc&src=seo_token) | Base | 7.01% | $1.62M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSUSN yield today?
 
-6.94% APY on royco-v2 (Base), based on live DefiLlama data.
+7.01% APY on royco-v2 (Base), based on live DefiLlama data.
 
 ### How many SRROYSUSN pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank SRROYSUSN pools. This view co
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

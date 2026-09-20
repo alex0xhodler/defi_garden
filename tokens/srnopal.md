@@ -1,13 +1,13 @@
 # SRNOPAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest SRNOPAL yield right now is 11.15% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNOPAL yield right now is 10.76% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d&src=seo_token) | Ethereum | 8.93% | $140.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=b816c8be-079e-560e-91c7-bee41117b747&src=seo_token) | Ethereum | 11.15% | $138.5K |
+| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d&src=seo_token) | Ethereum | 8.87% | $162.6K |
+| [pendle-v2 →](https://www.defi.garden/?pool=b816c8be-079e-560e-91c7-bee41117b747&src=seo_token) | Ethereum | 10.76% | $138.5K |
 | [pendle-v2 →](https://www.defi.garden/?pool=1cc97a28-ad73-530f-bb5e-7e77d1f9c969&src=seo_token) | Ethereum | 9.49% | $138.5K |
 
 <!-- rate-stability:insufficient -->
@@ -19,17 +19,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SRNOPAL shows up in 3 pools here, with rates from 8.93% to 11.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRNOPAL shows up in 3 pools here, with rates from 8.87% to 10.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 8.93% | 8.73% | Base rate |
-| pendle-v2 | 11.15% | 13.37% | 14.01% incentives |
-| pendle-v2 | 9.49% | 9.52% | Base rate |
+| strata-markets | 8.87% | 8.73% | Base rate |
+| pendle-v2 | 10.76% | 12.95% | 13.91% incentives |
+| pendle-v2 | 9.49% | 9.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRNOPAL yield today?
 
-11.15% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+10.76% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRNOPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $417.3K in total.
+3 live pools clear this page's $100K TVL floor, $439.7K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank SRNOPAL pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

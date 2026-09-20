@@ -1,12 +1,12 @@
 # KODIUSDC.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest KODIUSDC.E yield right now is 8.16% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIUSDC.E yield right now is 8.78% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 8.16% | $373.5K |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 8.78% | $377K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIUSDC.E yield today?
 
-8.16% APY on berapaw (Berachain), based on live DefiLlama data.
+8.78% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIUSDC.E pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $373.5K in total.
+1 live pool clear this page's $100K TVL floor, $377K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KODIUSDC.E pools. This view c
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

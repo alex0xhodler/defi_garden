@@ -1,13 +1,13 @@
 # EMBER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest EMBER yield right now is 505.83% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EMBER yield right now is 167.12% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=fb720947-0463-55b1-bda5-40e472a69c0b&src=seo_token) | Solana | 505.83% | $172K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=018f4c26-022e-4dd1-a8c2-57cc433f6485&src=seo_token) | Base | 0.84% | $151.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=018f4c26-022e-4dd1-a8c2-57cc433f6485&src=seo_token) | Base | 0.84% | $153.4K |
+| [orca-dex →](https://www.defi.garden/?pool=fb720947-0463-55b1-bda5-40e472a69c0b&src=seo_token) | Solana | 167.12% | $133.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-EMBER shows up in 2 pools here, with rates from 0.84% to 505.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EMBER shows up in 2 pools here, with rates from 0.84% to 167.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 1.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 2.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 505.83% | — | Base rate |
-| uniswap-v4 | 0.84% | 1.93% | Base rate |
+| uniswap-v4 | 0.84% | 2.00% | Base rate |
+| orca-dex | 167.12% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EMBER yield today?
 
-505.83% APY on orca-dex (Solana), based on live DefiLlama data.
+167.12% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many EMBER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $323.5K in total.
+2 live pools clear this page's $100K TVL floor, $286.6K in total.
 
 ### Are these rates safe?
 
@@ -62,7 +62,7 @@ There is not enough qualifying APY history to rank EMBER pools. This view covers
 
 ## Available on
 
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

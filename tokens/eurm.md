@@ -1,33 +1,33 @@
 # EURM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest EURM yield right now is 22.19% on mento-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURM yield right now is 22.35% on mento-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 22.19% | $684.9K |
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.91% | $130.6K |
-| [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.69% | $117.5K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 22.35% | $680K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.91% | $130.2K |
+| [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.70% | $117.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EURM's lower-variability candidates are mento-v3 (Monad), 22.19% APY, $684.9K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; mento-v3 (Celo), 0.69% APY, $117.5K TVL, https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token; mento-v3 (Celo), 0.91% APY, $130.6K TVL, https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURM's lower-variability candidates are mento-v3 (Monad), 22.35% APY, $680K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; mento-v3 (Celo), 0.70% APY, $117.3K TVL, https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token; mento-v3 (Celo), 0.91% APY, $130.2K TVL, https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 22.19% | $684.9K |
-| 2 | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.69% | $117.5K |
-| 3 | [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.91% | $130.6K |
+| 1 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 22.35% | $680K |
+| 2 | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.70% | $117.3K |
+| 3 | [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 0.91% | $130.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURM shows up in 3 pools here, with rates from 0.69% to 22.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURM shows up in 3 pools here, with rates from 0.70% to 22.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.39% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ EURM shows up in 3 pools here, with rates from 0.69% to 22.19% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| mento-v3 | 22.19% | 22.45% | 99.81% incentives |
-| mento-v3 | 0.91% | 1.39% | Base rate |
-| mento-v3 | 0.69% | 0.83% | Base rate |
+| mento-v3 | 22.35% | 22.45% | 99.81% incentives |
+| mento-v3 | 0.91% | 1.04% | Base rate |
+| mento-v3 | 0.70% | 0.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EURM yield today?
 
-22.19% APY on mento-v3 (Monad), based on live DefiLlama data.
+22.35% APY on mento-v3 (Monad), based on live DefiLlama data.
 
 ### How many EURM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $932.9K in total.
+3 live pools clear this page's $100K TVL floor, $927.6K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURM pools have the most stable APY history?
 
-Based on APY history only, EURM's lower-variability candidates are mento-v3 (Monad), 22.19% APY, $684.9K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; mento-v3 (Celo), 0.69% APY, $117.5K TVL, https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token; mento-v3 (Celo), 0.91% APY, $130.6K TVL, https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURM's lower-variability candidates are mento-v3 (Monad), 22.35% APY, $680K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token; mento-v3 (Celo), 0.70% APY, $117.3K TVL, https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token; mento-v3 (Celo), 0.91% APY, $130.2K TVL, https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, EURM's lower-variability candidates are mento-v3 (Mon
 - [Monad](https://www.defi.garden/chains/monad)
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

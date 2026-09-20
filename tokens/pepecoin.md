@@ -1,12 +1,12 @@
 # PEPECOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest PEPECOIN yield right now is 4.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPECOIN yield right now is 1.84% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 4.04% | $1.84M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 1.84% | $1.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPECOIN yield today?
 
-4.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.84% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPECOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.84M in total.
+1 live pool clear this page's $100K TVL floor, $1.8M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PEPECOIN pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

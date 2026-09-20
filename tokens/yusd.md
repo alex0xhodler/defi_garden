@@ -1,6 +1,6 @@
 # YUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest YUSD yield right now is 0.16% on curve-dex (Avalanche), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -59,13 +59,13 @@ Based on APY history only, YUSD's lower-variability candidates are curve-dex (Av
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

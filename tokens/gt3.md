@@ -1,6 +1,6 @@
 # GT3 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest GT3 yield right now is 15.00% on gt3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank GT3 pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
-- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

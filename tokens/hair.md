@@ -1,12 +1,12 @@
 # HAIR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest HAIR yield right now is 2.05% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAIR yield right now is 0.57% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 2.05% | $571.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 0.57% | $558.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HAIR shows up in 1 pools here, with rates from 2.05% to 2.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAIR shows up in 1 pools here, with rates from 0.57% to 0.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 2.05% | 2.63% | Base rate |
+| uniswap-v3 | 0.57% | 2.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HAIR yield today?
 
-2.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HAIR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $756.9K in total.
+2 live pools clear this page's $100K TVL floor, $744K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank HAIR pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

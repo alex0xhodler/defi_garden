@@ -1,12 +1,12 @@
 # YEE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 9.07% (9.07% Base · + 0.00% Rewards)
+**Total APY:** 9.06% (9.06% Base · + 0.00% Rewards)
 
-**TVL:** $443.2K
+**TVL:** $440.9K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 15.48%
+**30d Mean APY:** 14.93%
 
 **Exposure:** multi
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,543 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 9.07% right now vs a 15.48% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 9.06% right now vs a 14.93% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,543 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 19, 2026
+Last updated September 20, 2026

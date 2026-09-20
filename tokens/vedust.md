@@ -1,12 +1,12 @@
 # VEDUST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest VEDUST yield right now is 48.98% on neverland (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VEDUST yield right now is 49.73% on neverland (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [neverland →](https://www.defi.garden/?pool=f663c0ae-34cd-4209-a0dd-f65c5a84c0f8&src=seo_token) | Monad | 48.98% | $273.8K |
+| [neverland →](https://www.defi.garden/?pool=f663c0ae-34cd-4209-a0dd-f65c5a84c0f8&src=seo_token) | Monad | 49.73% | $269.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEDUST yield today?
 
-48.98% APY on neverland (Monad), based on live DefiLlama data.
+49.73% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many VEDUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $273.8K in total.
+1 live pool clear this page's $100K TVL floor, $269.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank VEDUST pools. This view cover
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

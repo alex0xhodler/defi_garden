@@ -1,12 +1,12 @@
 # ETHR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest ETHR yield right now is 0.01% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4e949edf-6483-45cf-b23f-558207c47423&src=seo_token) | Base | 0.01% | $121.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4e949edf-6483-45cf-b23f-558207c47423&src=seo_token) | Base | 0.01% | $121.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ETHR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $278.8K in total.
+2 live pools clear this page's $100K TVL floor, $280K in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ There is not enough qualifying APY history to rank ETHR pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

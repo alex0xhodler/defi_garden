@@ -1,12 +1,12 @@
 # TTWO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
 The highest honest TTWO yield right now is 130.95% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9466f640-28b0-5cda-8318-d61a7e28559f&src=seo_token) | Solana | 98.21% | $132.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=9466f640-28b0-5cda-8318-d61a7e28559f&src=seo_token) | Solana | 66.74% | $131K |
 | [raydium-amm →](https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6&src=seo_token) | Solana | 130.95% | $108.3K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TTWO shows up in 2 pools here, with rates from 98.21% to 130.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TTWO shows up in 2 pools here, with rates from 66.74% to 130.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 452.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 447.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 98.21% | 277.08% | Base rate |
-| raydium-amm | 130.95% | 627.48% | Base rate |
+| raydium-amm | 66.74% | 255.91% | Base rate |
+| raydium-amm | 130.95% | 638.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TTWO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $240.8K in total.
+2 live pools clear this page's $100K TVL floor, $239.3K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank TTWO pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026

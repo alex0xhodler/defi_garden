@@ -1,12 +1,12 @@
 # GSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
 
-The highest honest GSOL yield right now is 18.26% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GSOL yield right now is 18.06% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6&src=seo_token) | Polkadot | 18.26% | $585.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6&src=seo_token) | Polkadot | 18.06% | $573.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GSOL yield today?
 
-18.26% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+18.06% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many GSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $585.9K in total.
+1 live pool clear this page's $100K TVL floor, $573.5K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank GSOL pools. This view covers 
 
 ## Related tokens
 
-- [SKY](https://www.defi.garden/tokens/sky)
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
+- [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ADOT](https://www.defi.garden/tokens/adot)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 19, 2026
+## Last updated September 20, 2026
