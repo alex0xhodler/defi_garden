@@ -1,31 +1,31 @@
 # IUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest IUSD yield right now is 16.75% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSD yield right now is 14.46% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 16.75% | $166.4K |
-| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 7.72% | $137.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.46% | $172.8K |
+| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 8.03% | $137.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 7.72% APY, $137.2K TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; minswap-dex (Cardano), 16.75% APY, $166.4K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 8.03% APY, $137.1K TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; minswap-dex (Cardano), 14.46% APY, $172.8K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 7.72% | $137.2K |
-| 2 | [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 16.75% | $166.4K |
+| 1 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 8.03% | $137.1K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.46% | $172.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-IUSD shows up in 2 pools here, with rates from 7.72% to 16.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+IUSD shows up in 2 pools here, with rates from 8.03% to 14.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ IUSD shows up in 2 pools here, with rates from 7.72% to 16.75% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 16.75% | 14.82% | 20.42% incentives |
-| echelon-market | 7.72% | 3.14% | 33.90% incentives |
+| minswap-dex | 14.46% | 14.95% | 24.07% incentives |
+| echelon-market | 8.03% | 3.30% | 36.37% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest IUSD yield today?
 
-16.75% APY on minswap-dex (Cardano), based on live DefiLlama data.
+14.46% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.37M in total.
+3 live pools clear this page's $100K TVL floor, $3.56M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IUSD pools have the most stable APY history?
 
-Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 7.72% APY, $137.2K TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; minswap-dex (Cardano), 16.75% APY, $166.4K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IUSD's lower-variability candidates are echelon-market (Echelon Initia), 8.03% APY, $137.1K TVL, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token; minswap-dex (Cardano), 14.46% APY, $172.8K TVL, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, IUSD's lower-variability candidates are echelon-marke
 - [Cardano](https://www.defi.garden/chains/cardano)
 - [Echelon Initia](https://www.defi.garden/chains/echelon-initia)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

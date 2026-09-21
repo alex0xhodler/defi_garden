@@ -1,39 +1,39 @@
 # TEL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest TEL yield right now is 68.39% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEL yield right now is 24.01% on uniswap-v4 (Polygon), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 2.56% | $753.2K |
-| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 4.92% | $526.8K |
-| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 2.70% | $333.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 61.83% | $204.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 68.39% | $154.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 20.46% | $106.6K |
+| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 0.83% | $777.8K |
+| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 1.42% | $542.3K |
+| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 1.10% | $345.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 24.01% | $211.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 23.09% | $162.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 8.92% | $110.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TEL's lower-variability candidates are balancer-v2 (Polygon), 2.56% APY, $753.2K TVL, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; balancer-v2 (Polygon), 2.70% APY, $333.1K TVL, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; balancer-v2 (Polygon), 4.92% APY, $526.8K TVL, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; uniswap-v4 (Ethereum), 20.46% APY, $106.6K TVL, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; uniswap-v4 (Polygon), 61.83% APY, $204.1K TVL, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; uniswap-v3 (Ethereum), 68.39% APY, $154.9K TVL, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TEL's lower-variability candidates are balancer-v2 (Polygon), 0.83% APY, $777.8K TVL, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; balancer-v2 (Polygon), 1.10% APY, $345.2K TVL, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; balancer-v2 (Polygon), 1.42% APY, $542.3K TVL, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; uniswap-v4 (Ethereum), 8.92% APY, $110.4K TVL, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; uniswap-v4 (Polygon), 24.01% APY, $211.7K TVL, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; uniswap-v3 (Ethereum), 23.09% APY, $162.3K TVL, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 2.56% | $753.2K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 2.70% | $333.1K |
-| 3 | [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 4.92% | $526.8K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 20.46% | $106.6K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 61.83% | $204.1K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 68.39% | $154.9K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 0.83% | $777.8K |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 1.10% | $345.2K |
+| 3 | [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 1.42% | $542.3K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 8.92% | $110.4K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 24.01% | $211.7K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 23.09% | $162.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TEL shows up in 6 pools here, with rates from 2.56% to 68.39% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TEL shows up in 6 pools here, with rates from 0.83% to 24.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 7.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -41,12 +41,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v2 | 2.56% | 1.94% | Base rate |
-| balancer-v2 | 4.92% | 3.38% | Base rate |
-| balancer-v2 | 2.70% | 2.13% | Base rate |
-| uniswap-v4 | 61.83% | 44.93% | Base rate |
-| uniswap-v3 | 68.39% | 46.56% | Base rate |
-| uniswap-v4 | 20.46% | 10.89% | Base rate |
+| balancer-v2 | 0.83% | 1.87% | Base rate |
+| balancer-v2 | 1.42% | 3.30% | Base rate |
+| balancer-v2 | 1.10% | 2.06% | Base rate |
+| uniswap-v4 | 24.01% | 44.33% | Base rate |
+| uniswap-v3 | 23.09% | 43.90% | Base rate |
+| uniswap-v4 | 8.92% | 10.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TEL yield today?
 
-68.39% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+24.01% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many TEL pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.19M in total.
+7 live pools clear this page's $100K TVL floor, $2.26M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TEL pools have the most stable APY history?
 
-Based on APY history only, TEL's lower-variability candidates are balancer-v2 (Polygon), 2.56% APY, $753.2K TVL, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; balancer-v2 (Polygon), 2.70% APY, $333.1K TVL, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; balancer-v2 (Polygon), 4.92% APY, $526.8K TVL, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; uniswap-v4 (Ethereum), 20.46% APY, $106.6K TVL, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; uniswap-v4 (Polygon), 61.83% APY, $204.1K TVL, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; uniswap-v3 (Ethereum), 68.39% APY, $154.9K TVL, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TEL's lower-variability candidates are balancer-v2 (Polygon), 0.83% APY, $777.8K TVL, https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token; balancer-v2 (Polygon), 1.10% APY, $345.2K TVL, https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token; balancer-v2 (Polygon), 1.42% APY, $542.3K TVL, https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token; uniswap-v4 (Ethereum), 8.92% APY, $110.4K TVL, https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token; uniswap-v4 (Polygon), 24.01% APY, $211.7K TVL, https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token; uniswap-v3 (Ethereum), 23.09% APY, $162.3K TVL, https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +82,4 @@ Based on APY history only, TEL's lower-variability candidates are balancer-v2 (P
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

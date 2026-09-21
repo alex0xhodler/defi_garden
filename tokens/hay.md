@@ -1,22 +1,22 @@
 # HAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest HAY yield right now is 0.05% on wombat-exchange (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
-| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.6K |
+| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.6K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.5K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.6K |
+| 1 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.5K |
 | 2 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ HAY shows up in 2 pools here, with rates from 0.01% to 0.05% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
-| wombat-exchange | 0.05% | 0.06% | 99.96% incentives |
+| wombat-exchange | 0.05% | 0.06% | 99.10% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HAY pools have the most stable APY history?
 
-Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.6K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.5K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.01% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

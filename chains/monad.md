@@ -1,17 +1,17 @@
 # Monad DeFi Yields
 
-The highest honest Monad yield right now is 11.67% on accountable (Monad), among 163 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Monad yield right now is 11.68% on accountable (Monad), among 163 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_chain) | 1.17% | $135.31M |
-| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.79% | $100.62M |
-| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 11.67% | $74.98M |
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_chain) | 1.20% | $70.8M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.62% | $67.28M |
-| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_chain) | 1.00% | $50.04M |
-| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.76% | $46.29M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 6.98% | $39.92M |
+| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_chain) | 1.21% | $137.21M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.80% | $100.64M |
+| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 11.68% | $74.98M |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_chain) | 1.17% | $70.37M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.65% | $69.62M |
+| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_chain) | 1.00% | $50.06M |
+| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.74% | $47.9M |
+| CBBTC | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f&src=seo_chain) | 5.39% | $40.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Monad yield today?
 
-11.67% APY on accountable (Monad), based on live DefiLlama data.
+11.68% APY on accountable (Monad), based on live DefiLlama data.
 
 ### How many Monad pools clear the TVL floor?
 
-163 live pools clear this page's $100K TVL floor, $1.38B in total.
+163 live pools clear this page's $100K TVL floor, $1.39B in total.
 
 ### Are these rates safe?
 
@@ -47,6 +47,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WETH](https://www.defi.garden/tokens/weth)
 - [AHYPER](https://www.defi.garden/tokens/ahyper)
 - [STEAKETH](https://www.defi.garden/tokens/steaketh)
-- [HYPERUSDCA](https://www.defi.garden/tokens/hyperusdca)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

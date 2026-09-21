@@ -1,12 +1,12 @@
 # AUBRAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest AUBRAI yield right now is 8.34% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUBRAI yield right now is 10.95% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 8.34% | $146.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 10.95% | $150.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUBRAI yield today?
 
-8.34% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+10.95% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AUBRAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.8K in total.
+1 live pool clear this page's $100K TVL floor, $150.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AUBRAI pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

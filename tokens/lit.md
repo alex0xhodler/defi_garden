@@ -1,37 +1,37 @@
 # LIT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest LIT yield right now is 520.16% on orca-dex (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIT yield right now is 332.79% on orca-dex (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 97.53% | $2.01M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 38.08% | $783.4K |
-| [orca-dex →](https://www.defi.garden/?pool=851f0a24-f4e7-4f05-be4b-feb14b97bcb5&src=seo_token) | Solana | 520.16% | $729K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 52.82% | $385.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 71.49% | $257.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=851fee4d-e6a6-5bcd-9c36-e387f2331552&src=seo_token) | Solana | 652.88% | $209.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 114.81% | $2.09M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 36.24% | $816.3K |
+| [orca-dex →](https://www.defi.garden/?pool=851f0a24-f4e7-4f05-be4b-feb14b97bcb5&src=seo_token) | Solana | 332.79% | $771.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 39.17% | $415.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 42.62% | $268.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=851fee4d-e6a6-5bcd-9c36-e387f2331552&src=seo_token) | Solana | 382.72% | $199.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LIT's lower-variability candidates are uniswap-v4 (Ethereum), 97.53% APY, $2.01M TVL, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; uniswap-v3 (Ethereum), 71.49% APY, $257.8K TVL, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; uniswap-v4 (Ethereum), 38.08% APY, $783.4K TVL, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; uniswap-v4 (Ethereum), 52.82% APY, $385.6K TVL, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIT's lower-variability candidates are uniswap-v4 (Ethereum), 114.81% APY, $2.09M TVL, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; uniswap-v3 (Ethereum), 42.62% APY, $268.6K TVL, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; uniswap-v4 (Ethereum), 36.24% APY, $816.3K TVL, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; uniswap-v4 (Ethereum), 39.17% APY, $415.5K TVL, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 97.53% | $2.01M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 71.49% | $257.8K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 38.08% | $783.4K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 52.82% | $385.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 114.81% | $2.09M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 42.62% | $268.6K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 36.24% | $816.3K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 39.17% | $415.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LIT shows up in 6 pools here, with rates from 38.08% to 652.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LIT shows up in 6 pools here, with rates from 36.24% to 382.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 6 pools have a trustworthy 30-day average on file, with a median of 113.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 6 pools have a trustworthy 30-day average on file, with a median of 110.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,12 +39,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 97.53% | 113.53% | Base rate |
-| uniswap-v4 | 38.08% | 76.05% | Base rate |
-| orca-dex | 520.16% | 680.21% | Base rate |
-| uniswap-v4 | 52.82% | 69.79% | Base rate |
-| uniswap-v3 | 71.49% | 114.78% | Base rate |
-| raydium-amm | 652.88% | — | Base rate |
+| uniswap-v4 | 114.81% | 111.86% | Base rate |
+| uniswap-v4 | 36.24% | 72.59% | Base rate |
+| orca-dex | 332.79% | 658.47% | Base rate |
+| uniswap-v4 | 39.17% | 67.23% | Base rate |
+| uniswap-v3 | 42.62% | 110.77% | Base rate |
+| raydium-amm | 382.72% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LIT yield today?
 
-520.16% APY on orca-dex (Solana), based on live DefiLlama data.
+332.79% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many LIT pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $4.74M in total.
+7 live pools clear this page's $100K TVL floor, $4.94M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LIT pools have the most stable APY history?
 
-Based on APY history only, LIT's lower-variability candidates are uniswap-v4 (Ethereum), 97.53% APY, $2.01M TVL, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; uniswap-v3 (Ethereum), 71.49% APY, $257.8K TVL, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; uniswap-v4 (Ethereum), 38.08% APY, $783.4K TVL, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; uniswap-v4 (Ethereum), 52.82% APY, $385.6K TVL, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIT's lower-variability candidates are uniswap-v4 (Ethereum), 114.81% APY, $2.09M TVL, https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token; uniswap-v3 (Ethereum), 42.62% APY, $268.6K TVL, https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token; uniswap-v4 (Ethereum), 36.24% APY, $816.3K TVL, https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token; uniswap-v4 (Ethereum), 39.17% APY, $415.5K TVL, https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,4 +80,4 @@ Based on APY history only, LIT's lower-variability candidates are uniswap-v4 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

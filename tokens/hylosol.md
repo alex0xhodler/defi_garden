@@ -1,23 +1,23 @@
 # HYLOSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest HYLOSOL yield right now is 5.67% on hylo-lsts (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 5.67% | $20.53M |
-| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.05% | $530.8K |
+| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 5.67% | $21.26M |
+| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.05% | $549.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.05% APY, $530.8K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 5.67% APY, $20.53M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.05% APY, $549.4K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 5.67% APY, $21.26M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.05% | $530.8K |
-| 2 | [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 5.67% | $20.53M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.05% | $549.4K |
+| 2 | [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 5.67% | $21.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HYLOSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $21.06M in total.
+2 live pools clear this page's $100K TVL floor, $21.81M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HYLOSOL pools have the most stable APY history?
 
-Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.05% APY, $530.8K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 5.67% APY, $20.53M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.05% APY, $549.4K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 5.67% APY, $21.26M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

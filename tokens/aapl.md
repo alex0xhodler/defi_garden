@@ -1,13 +1,13 @@
 # AAPL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest AAPL yield right now is 178.63% on alandale-v3 (Robinhood Chain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPL yield right now is 183.88% on alandale-v3 (Robinhood Chain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 48.25% | $221.8K |
-| [alandale-v3 →](https://www.defi.garden/?pool=e906a950-f574-5c21-b45b-3da22dc0bf89&src=seo_token) | Robinhood Chain | 178.63% | $117.7K |
+| [alandale-v3 →](https://www.defi.garden/?pool=e906a950-f574-5c21-b45b-3da22dc0bf89&src=seo_token) | Robinhood Chain | 183.88% | $117.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AAPL shows up in 2 pools here, with rates from 48.25% to 178.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAPL shows up in 2 pools here, with rates from 48.25% to 183.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 111.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 102.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ AAPL shows up in 2 pools here, with rates from 48.25% to 178.63% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 48.25% | 40.68% | Base rate |
-| alandale-v3 | 178.63% | 182.67% | 100.00% incentives |
+| gmtrade | 48.25% | 41.08% | Base rate |
+| alandale-v3 | 183.88% | 163.64% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAPL yield today?
 
-178.63% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
+183.88% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many AAPL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $900.2K in total.
+4 live pools clear this page's $100K TVL floor, $891.3K in total.
 
 ### Are these rates safe?
 
@@ -56,8 +56,8 @@ There is not enough qualifying APY history to rank AAPL pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank AAPL pools. This view covers 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

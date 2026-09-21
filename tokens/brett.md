@@ -1,46 +1,49 @@
 # BRETT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest BRETT yield right now is 65.73% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRETT yield right now is 25.05% on uniswap-v3 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.28% | $1.22M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 65.73% | $834.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 6.59% | $122.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token) | Base | 34.91% | $106.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 5.84% | $1.27M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 191.19% | $834.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.92% | $127.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7a0e5c7d-f1b9-48af-954f-fadba716dab1&src=seo_token) | Ethereum | 0.01% | $118.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token) | Base | 25.05% | $110.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 6.59% APY, $122.5K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; aerodrome-slipstream (Base), 65.73% APY, $834.9K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 2.28% APY, $1.22M TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token; uniswap-v3 (Base), 34.91% APY, $106.8K TVL, https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 0.92% APY, $127.1K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $118.6K TVL, https://www.defi.garden/?pool=7a0e5c7d-f1b9-48af-954f-fadba716dab1&src=seo_token; aerodrome-slipstream (Base), 191.19% APY, $834.7K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 5.84% APY, $1.27M TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token; uniswap-v3 (Base), 25.05% APY, $110.3K TVL, https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 6.59% | $122.5K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 65.73% | $834.9K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.28% | $1.22M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token) | Base | 34.91% | $106.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.92% | $127.1K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=7a0e5c7d-f1b9-48af-954f-fadba716dab1&src=seo_token) | Ethereum | 0.01% | $118.6K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 191.19% | $834.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 5.84% | $1.27M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token) | Base | 25.05% | $110.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BRETT shows up in 4 pools here, with rates from 2.28% to 65.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BRETT shows up in 5 pools here, with rates from 0.01% to 191.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 2.28% | 3.46% | Base rate |
-| aerodrome-slipstream | 65.73% | 94.56% | 81.97% incentives |
-| uniswap-v2 | 6.59% | 2.97% | Base rate |
-| uniswap-v3 | 34.91% | 18.69% | Base rate |
+| uniswap-v3 | 5.84% | 3.34% | Base rate |
+| aerodrome-slipstream | 191.19% | 92.68% | 95.28% incentives |
+| uniswap-v2 | 0.92% | 2.83% | Base rate |
+| uniswap-v2 | 0.01% | 0.05% | Base rate |
+| uniswap-v3 | 25.05% | 18.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BRETT yield today?
 
-65.73% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+25.05% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BRETT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.4M in total.
+5 live pools clear this page's $100K TVL floor, $2.46M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BRETT pools have the most stable APY history?
 
-Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 6.59% APY, $122.5K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; aerodrome-slipstream (Base), 65.73% APY, $834.9K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 2.28% APY, $1.22M TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token; uniswap-v3 (Base), 34.91% APY, $106.8K TVL, https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 0.92% APY, $127.1K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $118.6K TVL, https://www.defi.garden/?pool=7a0e5c7d-f1b9-48af-954f-fadba716dab1&src=seo_token; aerodrome-slipstream (Base), 191.19% APY, $834.7K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 5.84% APY, $1.27M TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token; uniswap-v3 (Base), 25.05% APY, $110.3K TVL, https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +79,4 @@ Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

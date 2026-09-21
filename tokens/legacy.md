@@ -1,12 +1,12 @@
 # LEGACY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest LEGACY yield right now is 0.63% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LEGACY yield right now is 0.38% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 0.63% | $169.4K |
+| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 0.38% | $175K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LEGACY yield today?
 
-0.63% APY on ekubo (Starknet), based on live DefiLlama data.
+0.38% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many LEGACY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $169.4K in total.
+1 live pool clear this page's $100K TVL floor, $175K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank LEGACY pools. This view cover
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [STRK](https://www.defi.garden/tokens/strk)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
-- [SUSN](https://www.defi.garden/tokens/susn)
-- [STRK](https://www.defi.garden/tokens/strk)
+- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

@@ -1,12 +1,12 @@
 # REDO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest REDO yield right now is 12.20% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REDO yield right now is 25.50% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=fe239f71-6f46-4d65-9722-6f2262d5b132&src=seo_token) | TON | 12.20% | $313.3K |
+| [ston.fi →](https://www.defi.garden/?pool=fe239f71-6f46-4d65-9722-6f2262d5b132&src=seo_token) | TON | 25.50% | $317.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REDO yield today?
 
-12.20% APY on ston.fi (TON), based on live DefiLlama data.
+25.50% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many REDO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $313.3K in total.
+1 live pool clear this page's $100K TVL floor, $317.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank REDO pools. This view covers 
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [UTYA](https://www.defi.garden/tokens/utya)
 - [STON](https://www.defi.garden/tokens/ston)
+- [UTYA](https://www.defi.garden/tokens/utya)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

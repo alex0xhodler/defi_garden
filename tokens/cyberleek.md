@@ -1,12 +1,12 @@
 # CYBERLEEK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest CYBERLEEK yield right now is 4.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYBERLEEK yield right now is 15.95% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 4.18% | $266.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 15.95% | $326.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYBERLEEK yield today?
 
-4.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+15.95% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYBERLEEK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $266.2K in total.
+1 live pool clear this page's $100K TVL floor, $326.1K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank CYBERLEEK pools. This view co
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

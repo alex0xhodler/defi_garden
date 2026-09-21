@@ -1,6 +1,6 @@
 # LONG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest LONG yield right now is 0.02% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LONG pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.85M in total.
+4 live pools clear this page's $100K TVL floor, $1.86M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank LONG pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

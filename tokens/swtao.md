@@ -1,6 +1,6 @@
 # SWTAO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest SWTAO yield right now is 0.01% on hatom-lending (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank SWTAO pools. This view covers
 
 ## Related tokens
 
+- [SEGLD](https://www.defi.garden/tokens/segld)
 - [WEGLD](https://www.defi.garden/tokens/wegld)
 - [HTM](https://www.defi.garden/tokens/htm)
 - [EGLD](https://www.defi.garden/tokens/egld)
 - [MEX](https://www.defi.garden/tokens/mex)
 - [USH](https://www.defi.garden/tokens/ush)
-- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

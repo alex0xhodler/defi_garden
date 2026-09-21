@@ -1,31 +1,31 @@
 # MOEW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest MOEW yield right now is 3.56% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 0.44% | $438.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 0.29% | $450.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 3.56% | $130.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOEW's lower-variability candidates are raydium-amm (Solana), 3.56% APY, $130.8K TVL, https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token; uniswap-v3 (Base), 0.44% APY, $438.1K TVL, https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOEW's lower-variability candidates are raydium-amm (Solana), 3.56% APY, $130.8K TVL, https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token; uniswap-v3 (Base), 0.29% APY, $450.7K TVL, https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 3.56% | $130.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 0.44% | $438.1K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 0.29% | $450.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOEW shows up in 2 pools here, with rates from 0.44% to 3.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOEW shows up in 2 pools here, with rates from 0.29% to 3.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.44% | 2.75% | Base rate |
-| raydium-amm | 3.56% | 3.39% | Base rate |
+| uniswap-v3 | 0.29% | 2.67% | Base rate |
+| raydium-amm | 3.56% | 3.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MOEW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $568.8K in total.
+2 live pools clear this page's $100K TVL floor, $581.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOEW pools have the most stable APY history?
 
-Based on APY history only, MOEW's lower-variability candidates are raydium-amm (Solana), 3.56% APY, $130.8K TVL, https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token; uniswap-v3 (Base), 0.44% APY, $438.1K TVL, https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOEW's lower-variability candidates are raydium-amm (Solana), 3.56% APY, $130.8K TVL, https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token; uniswap-v3 (Base), 0.29% APY, $450.7K TVL, https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,11 +63,11 @@ Based on APY history only, MOEW's lower-variability candidates are raydium-amm (
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

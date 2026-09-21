@@ -1,31 +1,31 @@
 # FXS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest FXS yield right now is 2.05% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXS yield right now is 2.33% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.15% | $1.32M |
-| [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 2.05% | $196.5K |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.04% | $123.8K |
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.18% | $1.34M |
+| [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 2.33% | $199.1K |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.13% | $122.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FXS's lower-variability candidates are curve-dex (Ethereum), 0.04% APY, $123.8K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 2.05% APY, $196.5K TVL, https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token; frax (Fraxtal), 0.15% APY, $1.32M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXS's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $122.8K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 2.33% APY, $199.1K TVL, https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token; frax (Fraxtal), 0.18% APY, $1.34M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.04% | $123.8K |
-| 2 | [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 2.05% | $196.5K |
-| 3 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.15% | $1.32M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.13% | $122.8K |
+| 2 | [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 2.33% | $199.1K |
+| 3 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.18% | $1.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXS shows up in 3 pools here, with rates from 0.04% to 2.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXS shows up in 3 pools here, with rates from 0.13% to 2.33% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 0.15% | 0.08% | Base rate |
-| frax | 2.05% | 3.10% | Base rate |
-| curve-dex | 0.04% | 0.09% | Base rate |
+| frax | 0.18% | 0.08% | Base rate |
+| frax | 2.33% | 3.07% | Base rate |
+| curve-dex | 0.13% | 0.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXS yield today?
 
-2.05% APY on frax (Ethereum), based on live DefiLlama data.
+2.33% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many FXS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.8M in total.
+4 live pools clear this page's $100K TVL floor, $1.83M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FXS pools have the most stable APY history?
 
-Based on APY history only, FXS's lower-variability candidates are curve-dex (Ethereum), 0.04% APY, $123.8K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 2.05% APY, $196.5K TVL, https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token; frax (Fraxtal), 0.15% APY, $1.32M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXS's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $122.8K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 2.33% APY, $199.1K TVL, https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token; frax (Fraxtal), 0.18% APY, $1.34M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, FXS's lower-variability candidates are curve-dex (Eth
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

@@ -1,12 +1,12 @@
 # ALIGN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest ALIGN yield right now is 109.88% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALIGN yield right now is 498.18% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 109.88% | $257.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=41986278-1670-5e8f-9b77-e988fde195df&src=seo_token) | Base | 498.18% | $154.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALIGN yield today?
 
-109.88% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+498.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ALIGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $257.6K in total.
+1 live pool clear this page's $100K TVL floor, $154.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ALIGN pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

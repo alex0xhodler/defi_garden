@@ -4,8 +4,9 @@ The highest honest Neutron yield right now is 0.02% on astroport (Neutron), amon
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC.NBL-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.02% | $4.41M |
-| USDC.NBL-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 4.19% | $215.2K |
+| USDC.NBL-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.02% | $4.44M |
+| USDC.NBL-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 2.99% | $219.2K |
+| WSTETH-WETH.AXL | [astroport →](https://www.defi.garden/?pool=57138bd2-b3a0-4b67-8355-6cd600becff4&src=seo_chain) | 0.02% | $106.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Neutron pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.23M in total.
+4 live pools clear this page's $100K TVL floor, $5.27M in total.
 
 ### Are these rates safe?
 
@@ -37,5 +38,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC.NBL](https://www.defi.garden/tokens/usdc-nbl)
 - [DATOM](https://www.defi.garden/tokens/datom)
 - [DYDX](https://www.defi.garden/tokens/dydx)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [WETH.AXL](https://www.defi.garden/tokens/weth-axl)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

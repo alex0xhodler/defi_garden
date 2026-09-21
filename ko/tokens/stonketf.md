@@ -1,6 +1,6 @@
 # STONKETF 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 21, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 STONKETF의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 94.40%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 94.40%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 20, 2026
+## 마지막 업데이트: September 21, 2026

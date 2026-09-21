@@ -1,12 +1,13 @@
 # WMTX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest WMTX yield right now is 8.04% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMTX yield right now is 241.42% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 8.04% | $153.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 8.93% | $157.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0be59dbf-612a-5944-85c3-6ecccb3bb302&src=seo_token) | Ethereum | 241.42% | $134.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,15 +16,32 @@ There is not enough qualifying APY history to rank WMTX pools. This view covers 
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
+## How this rate has behaved
+
+WMTX shows up in 2 pools here, with rates from 8.93% to 241.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 227.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| minswap-dex | 8.93% | 9.10% | 6.16% incentives |
+| uniswap-v4 | 241.42% | 445.80% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
+
 ## Frequently asked questions
 
 ### What's the highest WMTX yield today?
 
-8.04% APY on minswap-dex (Cardano), based on live DefiLlama data.
+241.42% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WMTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.2K in total.
+3 live pools clear this page's $100K TVL floor, $436K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +53,16 @@ There is not enough qualifying APY history to rank WMTX pools. This view covers 
 
 ## Related tokens
 
-- [USDM](https://www.defi.garden/tokens/usdm)
-- [ADA](https://www.defi.garden/tokens/ada)
-- [USDA](https://www.defi.garden/tokens/usda)
-- [IUSD](https://www.defi.garden/tokens/iusd)
-- [NIGHT](https://www.defi.garden/tokens/night)
-- [FET](https://www.defi.garden/tokens/fet)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

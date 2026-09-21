@@ -1,6 +1,6 @@
 # NTBILL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest NTBILL yield right now is 4.14% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NTBILL pools. This view cover
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

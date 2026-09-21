@@ -1,43 +1,43 @@
 # BTCB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest BTCB yield right now is 51.61% on uniswap-v3 (BSC), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTCB yield right now is 63.24% on uniswap-v3 (BSC), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.17% | $368.82M |
-| [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.01% | $78.96M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 10.45% | $6.71M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 13.25% | $1.67M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.94% | $970.4K |
-| [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $835.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 51.61% | $525.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token) | BSC | 0.62% | $492.7K |
+| [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.17% | $372.41M |
+| [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.01% | $80.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 12.87% | $6.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 17.90% | $1.68M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.87% | $990.3K |
+| [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $855K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 63.24% | $550.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token) | BSC | 9.21% | $521.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BTCB's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $78.96M TVL, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token; kinza-finance (BSC), 0.01% APY, $835.2K TVL, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token; venus-core-pool (BSC), 0.17% APY, $368.82M TVL, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token; pancakeswap-amm (BSC), 1.94% APY, $970.4K TVL, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token; uniswap-v3 (BSC), 13.25% APY, $1.67M TVL, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token; uniswap-v3 (BSC), 51.61% APY, $525.2K TVL, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token; uniswap-v4 (BSC), 0.62% APY, $492.7K TVL, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token; uniswap-v3 (BSC), 10.45% APY, $6.71M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTCB's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $80.78M TVL, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token; kinza-finance (BSC), 0.01% APY, $855K TVL, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token; venus-core-pool (BSC), 0.17% APY, $372.41M TVL, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token; pancakeswap-amm (BSC), 1.87% APY, $990.3K TVL, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token; uniswap-v3 (BSC), 17.90% APY, $1.68M TVL, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token; uniswap-v3 (BSC), 63.24% APY, $550.4K TVL, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token; uniswap-v4 (BSC), 9.21% APY, $521.6K TVL, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token; uniswap-v3 (BSC), 12.87% APY, $6.85M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.01% | $78.96M |
-| 2 | [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $835.2K |
-| 3 | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.17% | $368.82M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.94% | $970.4K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 13.25% | $1.67M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 51.61% | $525.2K |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token) | BSC | 0.62% | $492.7K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 10.45% | $6.71M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.01% | $80.78M |
+| 2 | [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $855K |
+| 3 | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.17% | $372.41M |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.87% | $990.3K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 17.90% | $1.68M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 63.24% | $550.4K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token) | BSC | 9.21% | $521.6K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 12.87% | $6.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BTCB shows up in 8 pools here, with rates from 0.01% to 51.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BTCB shows up in 8 pools here, with rates from 0.01% to 63.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -47,12 +47,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | venus-core-pool | 0.17% | 0.18% | Base rate |
 | aave-v3 | 0.01% | 0.02% | Base rate |
-| uniswap-v3 | 10.45% | 11.24% | Base rate |
-| uniswap-v3 | 13.25% | 28.32% | Base rate |
-| pancakeswap-amm | 1.94% | 2.10% | Base rate |
+| uniswap-v3 | 12.87% | 10.58% | Base rate |
+| uniswap-v3 | 17.90% | 27.39% | Base rate |
+| pancakeswap-amm | 1.87% | 2.04% | Base rate |
 | kinza-finance | 0.01% | 0.01% | Base rate |
-| uniswap-v3 | 51.61% | 52.16% | Base rate |
-| uniswap-v4 | 0.62% | 35.16% | Base rate |
+| uniswap-v3 | 63.24% | 49.34% | Base rate |
+| uniswap-v4 | 9.21% | 35.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BTCB yield today?
 
-51.61% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+63.24% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BTCB pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $701.31M in total.
+24 live pools clear this page's $100K TVL floor, $712.59M in total.
 
 ### Are these rates safe?
 
@@ -72,19 +72,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BTCB pools have the most stable APY history?
 
-Based on APY history only, BTCB's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $78.96M TVL, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token; kinza-finance (BSC), 0.01% APY, $835.2K TVL, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token; venus-core-pool (BSC), 0.17% APY, $368.82M TVL, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token; pancakeswap-amm (BSC), 1.94% APY, $970.4K TVL, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token; uniswap-v3 (BSC), 13.25% APY, $1.67M TVL, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token; uniswap-v3 (BSC), 51.61% APY, $525.2K TVL, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token; uniswap-v4 (BSC), 0.62% APY, $492.7K TVL, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token; uniswap-v3 (BSC), 10.45% APY, $6.71M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTCB's lower-variability candidates are aave-v3 (BSC), 0.01% APY, $80.78M TVL, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token; kinza-finance (BSC), 0.01% APY, $855K TVL, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token; venus-core-pool (BSC), 0.17% APY, $372.41M TVL, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token; pancakeswap-amm (BSC), 1.87% APY, $990.3K TVL, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token; uniswap-v3 (BSC), 17.90% APY, $1.68M TVL, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token; uniswap-v3 (BSC), 63.24% APY, $550.4K TVL, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token; uniswap-v4 (BSC), 9.21% APY, $521.6K TVL, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c&src=seo_token; uniswap-v3 (BSC), 12.87% APY, $6.85M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

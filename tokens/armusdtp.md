@@ -1,12 +1,12 @@
 # ARMUSDTP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest ARMUSDTP yield right now is 2.52% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 2.52% | $2M |
+| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 2.52% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARMUSDTP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2M in total.
+1 live pool clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ARMUSDTP pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

@@ -4,12 +4,12 @@ The highest honest Hedera yield right now is 20.59% on isle-finance (Hedera), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 5.39% | $1.12M |
+| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 6.00% | $1.2M |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=69f3d1b3-aa9f-4ef9-9b4d-e8ce652c4430&src=seo_chain) | 20.59% | $517.9K |
-| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 8.97% | $493.2K |
-| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 2.29% | $279.4K |
-| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 9.85% | $129K |
-| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_chain) | 0.88% | $115.6K |
+| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 9.12% | $510.6K |
+| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 2.31% | $299.1K |
+| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 10.45% | $138.4K |
+| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_chain) | 0.96% | $123.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hedera pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.35M in total.
+8 live pools clear this page's $100K TVL floor, $3.5M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XSAUCE](https://www.defi.garden/tokens/xsauce)
 - [DOVU](https://www.defi.garden/tokens/dovu)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

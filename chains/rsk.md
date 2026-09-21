@@ -4,7 +4,7 @@ The highest honest RSK yield right now is 1.36% on midas-rwa (RSK), among 1 pool
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 1.36% | $328.4K |
+| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 1.36% | $332.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $328.4K in total.
+1 live pool clear this page's $100K TVL floor, $332.3K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Bitcoin](https://www.defi.garden/chains/bitcoin)
 - [Mezo](https://www.defi.garden/chains/mezo)
-- [ICP](https://www.defi.garden/chains/icp)
+- [Cardano](https://www.defi.garden/chains/cardano)
 
 ## Top tokens on RSK
 
 - [BTC](https://www.defi.garden/tokens/btc)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

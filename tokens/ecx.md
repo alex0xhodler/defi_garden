@@ -1,12 +1,12 @@
 # ECX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest ECX yield right now is 51.01% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECX yield right now is 49.73% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=967d1537-644c-569b-b950-e26ba95c4878&src=seo_token) | Base | 51.01% | $447.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=967d1537-644c-569b-b950-e26ba95c4878&src=seo_token) | Base | 49.73% | $464.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECX yield today?
 
-51.01% APY on uniswap-v2 (Base), based on live DefiLlama data.
+49.73% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ECX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $447.5K in total.
+1 live pool clear this page's $100K TVL floor, $464.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ECX pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

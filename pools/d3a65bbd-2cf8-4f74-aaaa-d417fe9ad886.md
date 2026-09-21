@@ -2,7 +2,7 @@
 
 **Total APY:** 0.05% (0.00% Base · + 0.05% Rewards)
 
-**TVL:** $363.6K
+**TVL:** $363.5K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on wombat-exchange](https://www.wombat.exchange/?ref=defi.garden)
 
-Last updated September 20, 2026
+Last updated September 21, 2026

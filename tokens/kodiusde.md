@@ -1,12 +1,12 @@
 # KODIUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest KODIUSDE yield right now is 11.49% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIUSDE yield right now is 12.10% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 11.49% | $1.66M |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 12.10% | $1.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIUSDE yield today?
 
-11.49% APY on berapaw (Berachain), based on live DefiLlama data.
+12.10% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.66M in total.
+1 live pool clear this page's $100K TVL floor, $1.64M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KODIUSDE pools. This view cov
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

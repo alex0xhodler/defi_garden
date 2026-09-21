@@ -1,6 +1,6 @@
 # SWTAO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 21, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 SWTAO의 가장 높은 정직한 수익률은 MultiversX의 hatom-lending에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -35,15 +35,15 @@ DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 0.01
 
 ## 관련 토큰
 
+- [SEGLD](https://www.defi.garden/ko/tokens/segld)
 - [WEGLD](https://www.defi.garden/ko/tokens/wegld)
 - [HTM](https://www.defi.garden/ko/tokens/htm)
 - [EGLD](https://www.defi.garden/ko/tokens/egld)
 - [MEX](https://www.defi.garden/ko/tokens/mex)
 - [USH](https://www.defi.garden/ko/tokens/ush)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 
 ## 이용 가능한 체인
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: September 20, 2026
+## 마지막 업데이트: September 21, 2026

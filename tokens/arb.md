@@ -1,43 +1,43 @@
 # ARB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest ARB yield right now is 153.62% on uniswap-v3 (Arbitrum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARB yield right now is 185.95% on uniswap-v3 (Arbitrum), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.09% | $3.86M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 153.62% | $1.59M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 22.55% | $944.5K |
-| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.81% | $354.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 31.94% | $326K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 75.37% | $183.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 77.11% | $117.4K |
-| [dolomite →](https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token) | Arbitrum | 6.07% | $114.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.09% | $3.91M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 185.95% | $1.83M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 23.19% | $957.8K |
+| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.54% | $366.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 33.45% | $328.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 86.27% | $189.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 101.74% | $119K |
+| [dolomite →](https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token) | Arbitrum | 6.00% | $118.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ARB's lower-variability candidates are aave-v3 (Arbitrum), 0.09% APY, $3.86M TVL, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; fluid-lending (Arbitrum), 1.81% APY, $354.7K TVL, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; dolomite (Arbitrum), 6.07% APY, $114.1K TVL, https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token; uniswap-v3 (Arbitrum), 77.11% APY, $117.4K TVL, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; gmx-v2-perps (Arbitrum), 22.55% APY, $944.5K TVL, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; uniswap-v3 (Arbitrum), 75.37% APY, $183.2K TVL, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; uniswap-v3 (Arbitrum), 153.62% APY, $1.59M TVL, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; uniswap-v3 (Arbitrum), 31.94% APY, $326K TVL, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARB's lower-variability candidates are aave-v3 (Arbitrum), 0.09% APY, $3.91M TVL, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; fluid-lending (Arbitrum), 1.54% APY, $366.1K TVL, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; dolomite (Arbitrum), 6.00% APY, $118.8K TVL, https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token; uniswap-v3 (Arbitrum), 101.74% APY, $119K TVL, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; gmx-v2-perps (Arbitrum), 23.19% APY, $957.8K TVL, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; uniswap-v3 (Arbitrum), 86.27% APY, $189.2K TVL, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; uniswap-v3 (Arbitrum), 185.95% APY, $1.83M TVL, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; uniswap-v3 (Arbitrum), 33.45% APY, $328.4K TVL, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.09% | $3.86M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.81% | $354.7K |
-| 3 | [dolomite →](https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token) | Arbitrum | 6.07% | $114.1K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 77.11% | $117.4K |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 22.55% | $944.5K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 75.37% | $183.2K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 153.62% | $1.59M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 31.94% | $326K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.09% | $3.91M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.54% | $366.1K |
+| 3 | [dolomite →](https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token) | Arbitrum | 6.00% | $118.8K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 101.74% | $119K |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 23.19% | $957.8K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token) | Arbitrum | 86.27% | $189.2K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 185.95% | $1.83M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 33.45% | $328.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ARB shows up in 8 pools here, with rates from 0.09% to 153.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ARB shows up in 8 pools here, with rates from 0.09% to 185.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 20.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 21.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -46,13 +46,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.09% | 0.07% | Base rate |
-| uniswap-v3 | 153.62% | 125.89% | Base rate |
-| gmx-v2-perps | 22.55% | 11.89% | Base rate |
-| fluid-lending | 1.81% | 0.91% | Base rate |
-| uniswap-v3 | 31.94% | 35.10% | Base rate |
-| uniswap-v3 | 75.37% | 42.09% | Base rate |
-| uniswap-v3 | 77.11% | 29.59% | Base rate |
-| dolomite | 6.07% | 7.42% | Base rate |
+| uniswap-v3 | 185.95% | 128.78% | Base rate |
+| gmx-v2-perps | 23.19% | 12.37% | Base rate |
+| fluid-lending | 1.54% | 0.93% | Base rate |
+| uniswap-v3 | 33.45% | 35.95% | Base rate |
+| uniswap-v3 | 86.27% | 44.63% | Base rate |
+| uniswap-v3 | 101.74% | 30.73% | Base rate |
+| dolomite | 6.00% | 7.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ARB yield today?
 
-153.62% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+185.95% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ARB pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $22.16M in total.
+19 live pools clear this page's $100K TVL floor, $22.71M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ARB pools have the most stable APY history?
 
-Based on APY history only, ARB's lower-variability candidates are aave-v3 (Arbitrum), 0.09% APY, $3.86M TVL, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; fluid-lending (Arbitrum), 1.81% APY, $354.7K TVL, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; dolomite (Arbitrum), 6.07% APY, $114.1K TVL, https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token; uniswap-v3 (Arbitrum), 77.11% APY, $117.4K TVL, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; gmx-v2-perps (Arbitrum), 22.55% APY, $944.5K TVL, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; uniswap-v3 (Arbitrum), 75.37% APY, $183.2K TVL, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; uniswap-v3 (Arbitrum), 153.62% APY, $1.59M TVL, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; uniswap-v3 (Arbitrum), 31.94% APY, $326K TVL, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARB's lower-variability candidates are aave-v3 (Arbitrum), 0.09% APY, $3.91M TVL, https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token; fluid-lending (Arbitrum), 1.54% APY, $366.1K TVL, https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token; dolomite (Arbitrum), 6.00% APY, $118.8K TVL, https://www.defi.garden/?pool=e85b8be0-4437-4983-af13-4b44386c588e&src=seo_token; uniswap-v3 (Arbitrum), 101.74% APY, $119K TVL, https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token; gmx-v2-perps (Arbitrum), 23.19% APY, $957.8K TVL, https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token; uniswap-v3 (Arbitrum), 86.27% APY, $189.2K TVL, https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92&src=seo_token; uniswap-v3 (Arbitrum), 185.95% APY, $1.83M TVL, https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token; uniswap-v3 (Arbitrum), 33.45% APY, $328.4K TVL, https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, ARB's lower-variability candidates are aave-v3 (Arbit
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

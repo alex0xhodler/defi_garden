@@ -1,12 +1,12 @@
 # ALQUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest ALQUSD yield right now is 1.75% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.75% | $1.99M |
+| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.75% | $1.98M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALQUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.99M in total.
+1 live pool clear this page's $100K TVL floor, $1.98M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ALQUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

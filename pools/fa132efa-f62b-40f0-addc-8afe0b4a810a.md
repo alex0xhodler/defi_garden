@@ -2,11 +2,11 @@
 
 **Total APY:** 7.86% (7.86% Base · + 0.00% Rewards)
 
-**TVL:** $14.12M
+**TVL:** $14.51M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 8.10%
+**30d Mean APY:** 8.08%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [View this pool on DefiLlama](https://defillama.com/yields/pool/fa132efa-f62b-40f0-addc-8afe0b4a810a) — No protocol link available · Opens DefiLlama, our data source
 
-Last updated September 20, 2026
+Last updated September 21, 2026

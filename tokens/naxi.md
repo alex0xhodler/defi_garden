@@ -1,12 +1,12 @@
 # NAXI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest NAXI yield right now is 11.50% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_token) | Plume Mainnet | 11.50% | $5.49M |
+| [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_token) | Plume Mainnet | 11.50% | $5.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NAXI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.49M in total.
+1 live pool clear this page's $100K TVL floor, $5.5M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

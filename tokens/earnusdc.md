@@ -1,6 +1,6 @@
 # EARNUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest EARNUSDC yield right now is 10.00% on gami-labs (Stellar), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EARNUSDC pools. This view cov
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

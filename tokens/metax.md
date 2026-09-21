@@ -1,12 +1,12 @@
 # METAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest METAX yield right now is 219.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METAX yield right now is 93.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128&src=seo_token) | Solana | 219.96% | $365.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128&src=seo_token) | Solana | 93.20% | $324.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest METAX yield today?
 
-219.96% APY on raydium-amm (Solana), based on live DefiLlama data.
+93.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many METAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $365.5K in total.
+1 live pool clear this page's $100K TVL floor, $324.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank METAX pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

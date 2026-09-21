@@ -1,12 +1,12 @@
 # SMXHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest SMXHYPE yield right now is 1.92% on monetrix-mxhype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMXHYPE yield right now is 2.47% on monetrix-mxhype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5&src=seo_token) | Hyperliquid L1 | 1.92% | $1.62M |
+| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5&src=seo_token) | Hyperliquid L1 | 2.47% | $1.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMXHYPE yield today?
 
-1.92% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
+2.47% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SMXHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.62M in total.
+1 live pool clear this page's $100K TVL floor, $1.5M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SMXHYPE pools. This view cove
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

@@ -1,12 +1,12 @@
 # HDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest HDX yield right now is 1.43% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HDX yield right now is 1.36% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=31638f93-8c0a-4b69-9c13-51dd81464c86&src=seo_token) | Polkadot | 1.43% | $1.25M |
+| [hydration-dex →](https://www.defi.garden/?pool=31638f93-8c0a-4b69-9c13-51dd81464c86&src=seo_token) | Polkadot | 1.36% | $1.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HDX yield today?
 
-1.43% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+1.36% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many HDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.25M in total.
+1 live pool clear this page's $100K TVL floor, $1.3M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank HDX pools. This view covers A
 
 ## Related tokens
 
-- [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ENA](https://www.defi.garden/tokens/ena)
 - [ADOT](https://www.defi.garden/tokens/adot)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

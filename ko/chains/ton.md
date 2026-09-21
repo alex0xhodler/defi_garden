@@ -1,17 +1,17 @@
 # TON 디파이 수익률
 
-현재 TON의 가장 높은 정직한 수익률은 TON의 hipo에서 17.18%이며, $100K TVL 기준을 넘는 50개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TON의 가장 높은 정직한 수익률은 TON의 hipo에서 17.05%이며, $100K TVL 기준을 넘는 50개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_chain) | 17.18% | $9.96M |
-| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_chain) | 28.40% | $6.96M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_chain) | 2.80% | $5.14M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_chain) | 5.18% | $4.99M |
-| USDT | [storm-trade →](https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13&src=seo_chain) | 5.10% | $2.8M |
-| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_chain) | 6.39% | $1.54M |
-| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_chain) | 1.98% | $1.07M |
-| GRAM | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_chain) | 5.90% | $801.7K |
+| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_chain) | 17.05% | $10.41M |
+| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_chain) | 11.47% | $6.94M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_chain) | 2.14% | $5.17M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_chain) | 5.70% | $5.03M |
+| USDT | [storm-trade →](https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13&src=seo_chain) | 5.09% | $2.8M |
+| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_chain) | 6.42% | $1.57M |
+| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c&src=seo_chain) | 2.04% | $1.09M |
+| GRAM | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_chain) | 6.13% | $781.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 TON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 17.18%예요.
+DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 17.05%예요.
 
 ### TON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 50개이며, 합산 TVL은 $51.85M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 50개이며, 합산 TVL은 $52.53M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 17.18%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [AFFSENTORA](https://www.defi.garden/ko/tokens/affsentora)
 
-## 마지막 업데이트: September 20, 2026
+## 마지막 업데이트: September 21, 2026

@@ -1,6 +1,6 @@
 # FEATHERBRZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest FEATHERBRZ yield right now is 0.03% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
+- [MATICX](https://www.defi.garden/tokens/maticx)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

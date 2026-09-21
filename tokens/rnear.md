@@ -1,12 +1,12 @@
 # RNEAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest RNEAR yield right now is 4.30% on rhea-lst (Near), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNEAR yield right now is 4.27% on rhea-lst (Near), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26&src=seo_token) | Near | 4.30% | $31.2M |
+| [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26&src=seo_token) | Near | 4.27% | $31.1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RNEAR yield today?
 
-4.30% APY on rhea-lst (Near), based on live DefiLlama data.
+4.27% APY on rhea-lst (Near), based on live DefiLlama data.
 
 ### How many RNEAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $31.2M in total.
+1 live pool clear this page's $100K TVL floor, $31.1M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RNEAR pools. This view covers
 
 - [Near](https://www.defi.garden/chains/near)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

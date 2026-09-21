@@ -1,6 +1,6 @@
 # FUEL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest FUEL yield right now is 22.00% on fuel-staking (Fuel Ignition), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FUEL pools. This view covers 
 
 - [Fuel Ignition](https://www.defi.garden/chains/fuel-ignition)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

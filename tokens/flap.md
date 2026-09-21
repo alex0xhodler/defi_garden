@@ -1,12 +1,12 @@
 # FLAP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest FLAP yield right now is 1.63% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b53b1a4a-41cb-57e2-955a-f36062123610&src=seo_token) | Solana | 0.35% | $1M |
+| [raydium-amm →](https://www.defi.garden/?pool=b53b1a4a-41cb-57e2-955a-f36062123610&src=seo_token) | Solana | 1.45% | $1M |
 | [raydium-amm →](https://www.defi.garden/?pool=b3eabe08-dcab-5352-a663-618be8391bc1&src=seo_token) | Solana | 1.40% | $967.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=381e5b09-b318-5e5d-867f-5ced065ea6cd&src=seo_token) | Solana | 1.63% | $821.6K |
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FLAP shows up in 3 pools here, with rates from 0.35% to 1.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLAP shows up in 3 pools here, with rates from 1.40% to 1.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.35% | 0.35% | Base rate |
+| raydium-amm | 1.45% | 0.86% | Base rate |
 | raydium-amm | 1.40% | 0.98% | Base rate |
 | raydium-amm | 1.63% | 1.42% | Base rate |
 
@@ -58,12 +58,12 @@ There is not enough qualifying APY history to rank FLAP pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

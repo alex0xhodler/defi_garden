@@ -1,31 +1,31 @@
 # DMT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest DMT yield right now is 32.58% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DMT yield right now is 93.24% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 32.58% | $430K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 3.13% | $262.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 93.24% | $442.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 1.34% | $270.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 3.13% APY, $262.6K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 32.58% APY, $430K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 1.34% APY, $270.7K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 93.24% APY, $442.9K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 3.13% | $262.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 32.58% | $430K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 1.34% | $270.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 93.24% | $442.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DMT shows up in 2 pools here, with rates from 3.13% to 32.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DMT shows up in 2 pools here, with rates from 1.34% to 93.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 32.58% | 34.26% | Base rate |
-| uniswap-v3 | 3.13% | 6.76% | Base rate |
+| uniswap-v4 | 93.24% | 35.78% | Base rate |
+| uniswap-v3 | 1.34% | 6.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DMT yield today?
 
-32.58% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+93.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many DMT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $692.6K in total.
+2 live pools clear this page's $100K TVL floor, $713.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DMT pools have the most stable APY history?
 
-Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 3.13% APY, $262.6K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 32.58% APY, $430K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 1.34% APY, $270.7K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 93.24% APY, $442.9K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

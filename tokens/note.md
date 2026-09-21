@@ -1,6 +1,6 @@
 # NOTE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest NOTE yield right now is 32.06% on canto-lending (Canto), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOTE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $296.1K in total.
+2 live pools clear this page's $100K TVL floor, $301.6K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank NOTE pools. This view covers 
 
 - [Canto](https://www.defi.garden/chains/canto)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

@@ -30,4 +30,4 @@ This pool's rate moves a lot: 2.50% right now vs a 4.25% 30-day average. Reward 
 
 [Start Earning on fluid-lending](https://www.fluid.io/?ref=defi.garden)
 
-Last updated September 20, 2026
+Last updated September 21, 2026

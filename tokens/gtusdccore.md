@@ -1,12 +1,12 @@
 # GTUSDCCORE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
 The highest honest GTUSDCCORE yield right now is 4.20% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=baf1a020-a2a4-401a-9425-eba22ffce13c&src=seo_token) | Ethereum | 4.20% | $3.78M |
+| [morpho-blue →](https://www.defi.garden/?pool=baf1a020-a2a4-401a-9425-eba22ffce13c&src=seo_token) | Ethereum | 4.20% | $3.79M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDCCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.78M in total.
+1 live pool clear this page's $100K TVL floor, $3.79M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTUSDCCORE pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026

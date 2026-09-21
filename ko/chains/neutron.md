@@ -4,8 +4,9 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC.NBL-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.02% | $4.41M |
-| USDC.NBL-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 4.19% | $215.2K |
+| USDC.NBL-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.02% | $4.44M |
+| USDC.NBL-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 2.99% | $219.2K |
+| WSTETH-WETH.AXL | [astroport →](https://www.defi.garden/?pool=57138bd2-b3a0-4b67-8355-6cd600becff4&src=seo_chain) | 0.02% | $106.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 astroport에서 APY 0.02%예요
 
 ### Neutron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $5.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $5.27M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,5 +38,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 astroport에서 APY 0.02%예요
 - [USDC.NBL](https://www.defi.garden/ko/tokens/usdc-nbl)
 - [DATOM](https://www.defi.garden/ko/tokens/datom)
 - [DYDX](https://www.defi.garden/ko/tokens/dydx)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [WETH.AXL](https://www.defi.garden/ko/tokens/weth-axl)
 
-## 마지막 업데이트: September 20, 2026
+## 마지막 업데이트: September 21, 2026

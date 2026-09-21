@@ -1,12 +1,12 @@
 # AEON 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 21, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 AEON의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 23.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AEON의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 37.45%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=94bc651b-84b2-4d6f-99f3-4ecaac2af47a&src=seo_token) | Base | 23.30% | $1.19M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=94bc651b-84b2-4d6f-99f3-4ecaac2af47a&src=seo_token) | Base | 37.45% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 AEON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 23.30%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 37.45%예요.
 
 ### AEON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.19M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.29M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 23.30%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 20, 2026
+## 마지막 업데이트: September 21, 2026

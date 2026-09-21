@@ -1,8 +1,8 @@
 # FRXUSD-SGHO — convex-finance on Ethereum
 
-**Total APY:** 8.83% (3.28% Base · + 5.55% Rewards)
+**Total APY:** 7.79% (3.25% Base · + 4.54% Rewards)
 
-**TVL:** $385.1K
+**TVL:** $487.7K
 
 **Pool Type:** Yield Farming
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,526 in 5y at current rates.
+$1,000 in this pool grows to ~$1,455 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 28 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+We've been tracking this pool's rate for 29 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,526 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,455 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated September 20, 2026
+Last updated September 21, 2026

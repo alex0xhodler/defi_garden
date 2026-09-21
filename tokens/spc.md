@@ -1,29 +1,29 @@
 # SPC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
 
-The highest honest SPC yield right now is 104.22% on sushiswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPC yield right now is 105.85% on sushiswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 104.22% | $151.5K |
-| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 90.75% | $135K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 105.85% | $150.8K |
+| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 92.38% | $137.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 104.22% APY, $151.5K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 90.75% APY, $135K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 105.85% APY, $150.8K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 92.38% APY, $137.8K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 104.22% | $151.5K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 90.75% | $135K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 105.85% | $150.8K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 92.38% | $137.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPC shows up in 2 pools here, with rates from 90.75% to 104.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPC shows up in 2 pools here, with rates from 92.38% to 105.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 99.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ SPC shows up in 2 pools here, with rates from 90.75% to 104.22% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 104.22% | 111.10% | 99.20% incentives |
-| curve-dex | 90.75% | 87.15% | 99.85% incentives |
+| sushiswap-v3 | 105.85% | 110.51% | 98.75% incentives |
+| curve-dex | 92.38% | 87.74% | 99.57% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPC yield today?
 
-104.22% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+105.85% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SPC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $286.6K in total.
+2 live pools clear this page's $100K TVL floor, $288.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPC pools have the most stable APY history?
 
-Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 104.22% APY, $151.5K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 90.75% APY, $135K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 105.85% APY, $150.8K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 92.38% APY, $137.8K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 20, 2026
+## Last updated September 21, 2026
