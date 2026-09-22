@@ -1,12 +1,12 @@
 # CRIME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest CRIME yield right now is 7.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRIME yield right now is 146.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8&src=seo_token) | Solana | 7.91% | $196.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8&src=seo_token) | Solana | 146.91% | $341.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRIME yield today?
 
-7.91% APY on raydium-amm (Solana), based on live DefiLlama data.
+146.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.1K in total.
+1 live pool clear this page's $100K TVL floor, $341.7K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank CRIME pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

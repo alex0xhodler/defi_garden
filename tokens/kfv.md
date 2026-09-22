@@ -1,6 +1,6 @@
 # KFV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
 The highest honest KFV yield right now is 20.48% on t3tris-finance (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank KFV pools. This view covers A
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [AAPL](https://www.defi.garden/tokens/aapl)
 - [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
+- [SPY](https://www.defi.garden/tokens/spy)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

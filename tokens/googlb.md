@@ -1,12 +1,12 @@
 # GOOGLB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest GOOGLB yield right now is 55.64% on uniswap-v4 (BSC), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLB yield right now is 104.04% on uniswap-v4 (BSC), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bfdc9734-36a7-5de7-9288-96daac0735c0&src=seo_token) | BSC | 55.64% | $149.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bfdc9734-36a7-5de7-9288-96daac0735c0&src=seo_token) | BSC | 104.04% | $102K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOOGLB shows up in 1 pools here, with rates from 55.64% to 55.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOOGLB shows up in 1 pools here, with rates from 104.04% to 104.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 55.64% | — | Base rate |
+| uniswap-v4 | 104.04% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOOGLB yield today?
 
-55.64% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+104.04% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many GOOGLB pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.08M in total.
+5 live pools clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank GOOGLB pools. This view cover
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

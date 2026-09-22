@@ -1,12 +1,12 @@
 # INDY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest INDY yield right now is 12.11% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INDY yield right now is 11.94% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.11% | $103.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 11.94% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INDY yield today?
 
-12.11% APY on minswap-dex (Cardano), based on live DefiLlama data.
+11.94% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many INDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.3K in total.
+1 live pool clear this page's $100K TVL floor, $111.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank INDY pools. This view covers 
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

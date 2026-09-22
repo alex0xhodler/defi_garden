@@ -1,38 +1,41 @@
 # STLINK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest STLINK yield right now is 4.79% on stake.link-liquid (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STLINK yield right now is 4.84% on stake.link-liquid (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.79% | $89.19M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.02% | $5.85M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $92.13M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 14.32% | $5.91M |
+| [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 18.52% | $386.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 4.79% APY, $89.19M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; curve-dex (Ethereum), 0.02% APY, $5.85M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 4.84% APY, $92.13M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; curve-dex (Ethereum), 14.32% APY, $5.91M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; curve-dex (Ethereum), 18.52% APY, $386.3K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.79% | $89.19M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.02% | $5.85M |
+| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $92.13M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 14.32% | $5.91M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 18.52% | $386.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STLINK shows up in 2 pools here, with rates from 0.02% to 4.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STLINK shows up in 3 pools here, with rates from 4.84% to 18.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake.link-liquid | 4.79% | 4.67% | Base rate |
-| curve-dex | 0.02% | 2.15% | Base rate |
+| stake.link-liquid | 4.84% | 4.68% | Base rate |
+| curve-dex | 14.32% | 2.34% | Base rate |
+| curve-dex | 18.52% | 2.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STLINK yield today?
 
-4.79% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
+4.84% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many STLINK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $98.67M in total.
+4 live pools clear this page's $100K TVL floor, $101.78M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STLINK pools have the most stable APY history?
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 4.79% APY, $89.19M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; curve-dex (Ethereum), 0.02% APY, $5.85M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 4.84% APY, $92.13M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; curve-dex (Ethereum), 14.32% APY, $5.91M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; curve-dex (Ethereum), 18.52% APY, $386.3K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +70,4 @@ Based on APY history only, STLINK's lower-variability candidates are stake.link-
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

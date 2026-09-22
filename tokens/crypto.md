@@ -1,31 +1,31 @@
 # CRYPTO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest CRYPTO yield right now is 0.62% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRYPTO yield right now is 6.44% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.62% | $335K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token) | Ethereum | 2.24% | $118.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.55% | $344.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token) | Ethereum | 6.44% | $126.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRYPTO's lower-variability candidates are uniswap-v3 (Arbitrum), 0.62% APY, $335K TVL, https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token; uniswap-v4 (Ethereum), 2.24% APY, $118.7K TVL, https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRYPTO's lower-variability candidates are uniswap-v3 (Arbitrum), 0.55% APY, $344.2K TVL, https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token; uniswap-v4 (Ethereum), 6.44% APY, $126.6K TVL, https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.62% | $335K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token) | Ethereum | 2.24% | $118.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.55% | $344.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token) | Ethereum | 6.44% | $126.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRYPTO shows up in 2 pools here, with rates from 0.62% to 2.24% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRYPTO shows up in 2 pools here, with rates from 0.55% to 6.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.62% | 0.16% | Base rate |
-| uniswap-v4 | 2.24% | 11.18% | Base rate |
+| uniswap-v3 | 0.55% | 0.18% | Base rate |
+| uniswap-v4 | 6.44% | 10.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRYPTO yield today?
 
-0.62% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+6.44% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CRYPTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.08M in total.
+4 live pools clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRYPTO pools have the most stable APY history?
 
-Based on APY history only, CRYPTO's lower-variability candidates are uniswap-v3 (Arbitrum), 0.62% APY, $335K TVL, https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token; uniswap-v4 (Ethereum), 2.24% APY, $118.7K TVL, https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRYPTO's lower-variability candidates are uniswap-v3 (Arbitrum), 0.55% APY, $344.2K TVL, https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token; uniswap-v4 (Ethereum), 6.44% APY, $126.6K TVL, https://www.defi.garden/?pool=1278fd76-46d3-45d4-8de2-db096b6b5985&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, CRYPTO's lower-variability candidates are uniswap-v3 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

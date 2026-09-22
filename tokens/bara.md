@@ -1,12 +1,12 @@
 # BARA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest BARA yield right now is 0.17% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BARA yield right now is 0.68% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=8848e2e2-a94c-4db5-a951-8e02e3668166&src=seo_token) | Cronos | 0.17% | $379.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=8848e2e2-a94c-4db5-a951-8e02e3668166&src=seo_token) | Cronos | 0.68% | $398.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BARA yield today?
 
-0.17% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.68% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many BARA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $379.6K in total.
+1 live pool clear this page's $100K TVL floor, $398.7K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BARA pools. This view covers 
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [PAXG](https://www.defi.garden/tokens/paxg)
-- [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [VVS](https://www.defi.garden/tokens/vvs)
+- [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

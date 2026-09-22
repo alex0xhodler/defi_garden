@@ -1,33 +1,33 @@
 # EVA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest EVA yield right now is 56.73% on uniswap-v3 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVA yield right now is 75.23% on uniswap-v3 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 3.22% | $4.25M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 6.63% | $223.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 56.73% | $156.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 3.28% | $4.4M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 10.98% | $212K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 75.23% | $175.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 3.22% APY, $4.25M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 6.63% APY, $223.8K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 56.73% APY, $156.7K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 3.28% APY, $4.4M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 10.98% APY, $212K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 75.23% APY, $175.7K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 3.22% | $4.25M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 6.63% | $223.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 56.73% | $156.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 3.28% | $4.4M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 10.98% | $212K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token) | Arbitrum | 75.23% | $175.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EVA shows up in 3 pools here, with rates from 3.22% to 56.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EVA shows up in 3 pools here, with rates from 3.28% to 75.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.22% | 6.05% | Base rate |
-| uniswap-v4 | 6.63% | 10.33% | Base rate |
-| uniswap-v3 | 56.73% | 81.54% | Base rate |
+| uniswap-v3 | 3.28% | 5.89% | Base rate |
+| uniswap-v4 | 10.98% | 10.43% | Base rate |
+| uniswap-v3 | 75.23% | 82.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EVA yield today?
 
-56.73% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+75.23% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many EVA pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.46M in total.
+6 live pools clear this page's $100K TVL floor, $6.68M in total.
 
 ### Are these rates safe?
 
@@ -57,14 +57,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EVA pools have the most stable APY history?
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 3.22% APY, $4.25M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 6.63% APY, $223.8K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 56.73% APY, $156.7K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 3.28% APY, $4.4M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 10.98% APY, $212K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token; uniswap-v3 (Arbitrum), 75.23% APY, $175.7K TVL, https://www.defi.garden/?pool=da601aa0-dee2-40c8-a16d-33bbe03f9048&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
 
@@ -72,4 +72,4 @@ Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Ar
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

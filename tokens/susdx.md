@@ -1,15 +1,15 @@
 # SUSDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest SUSDX yield right now is 20.33% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDX yield right now is 19.58% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169&src=seo_token) | Ethereum | 18.36% | $31.33M |
-| [pendle-v2 →](https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04&src=seo_token) | Ethereum | 18.23% | $5.79M |
-| [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4&src=seo_token) | Ethereum | 20.33% | $5.79M |
-| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 9.83% | $2.01M |
+| [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169&src=seo_token) | Ethereum | 17.97% | $31.92M |
+| [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4&src=seo_token) | Ethereum | 19.58% | $5.77M |
+| [pendle-v2 →](https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04&src=seo_token) | Ethereum | 17.92% | $5.77M |
+| [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a&src=seo_token) | Ethereum | 9.89% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,18 +20,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSDX shows up in 4 pools here, with rates from 9.83% to 20.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDX shows up in 4 pools here, with rates from 9.89% to 19.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| axis | 18.36% | 23.54% | Base rate |
-| pendle-v2 | 18.23% | 19.34% | Base rate |
-| pendle-v2 | 20.33% | 24.11% | 1.95% incentives |
-| curve-dex | 9.83% | 11.04% | Base rate |
+| axis | 17.97% | 23.21% | Base rate |
+| pendle-v2 | 19.58% | 23.89% | 1.86% incentives |
+| pendle-v2 | 17.92% | 19.27% | Base rate |
+| curve-dex | 9.89% | 10.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDX yield today?
 
-20.33% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+19.58% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $49.88M in total.
+5 live pools clear this page's $100K TVL floor, $50.42M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank SUSDX pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

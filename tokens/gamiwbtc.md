@@ -1,12 +1,12 @@
 # GAMIWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
 The highest honest GAMIWBTC yield right now is 0.93% on gami-labs (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_token) | Robinhood Chain | 0.93% | $588.1K |
+| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_token) | Robinhood Chain | 0.93% | $615.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GAMIWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $588.1K in total.
+1 live pool clear this page's $100K TVL floor, $615.2K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GAMIWBTC pools. This view cov
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [AAPL](https://www.defi.garden/tokens/aapl)
 - [SPY](https://www.defi.garden/tokens/spy)
+- [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

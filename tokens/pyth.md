@@ -1,31 +1,31 @@
 # PYTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest PYTH yield right now is 120.45% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYTH yield right now is 166.52% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 102.06% | $463.3K |
-| [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 120.45% | $143.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 163.08% | $381.6K |
+| [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 166.52% | $151.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 120.45% APY, $143.9K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 102.06% APY, $463.3K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 166.52% APY, $151.1K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 163.08% APY, $381.6K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 120.45% | $143.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 102.06% | $463.3K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token) | Solana | 166.52% | $151.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 163.08% | $381.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PYTH shows up in 2 pools here, with rates from 102.06% to 120.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PYTH shows up in 2 pools here, with rates from 163.08% to 166.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 117.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 113.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 102.06% | 110.17% | Base rate |
-| orca-dex | 120.45% | 124.42% | Base rate |
+| raydium-amm | 163.08% | 106.19% | Base rate |
+| orca-dex | 166.52% | 120.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PYTH yield today?
 
-120.45% APY on orca-dex (Solana), based on live DefiLlama data.
+166.52% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PYTH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $765.9K in total.
+3 live pools clear this page's $100K TVL floor, $703.8K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PYTH pools have the most stable APY history?
 
-Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 120.45% APY, $143.9K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 102.06% APY, $463.3K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYTH's lower-variability candidates are orca-dex (Solana), 166.52% APY, $151.1K TVL, https://www.defi.garden/?pool=40fddc50-f378-4622-a382-9a4ed33efbeb&src=seo_token; raydium-amm (Solana), 163.08% APY, $381.6K TVL, https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

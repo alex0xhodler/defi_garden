@@ -1,12 +1,12 @@
 # MUSEBOOK 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 21, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MUSEBOOK의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MUSEBOOK의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.95%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=27534b69-5a26-5849-9d8b-b51b36319e01&src=seo_token) | Solana | 2.55% | $141.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=27534b69-5a26-5849-9d8b-b51b36319e01&src=seo_token) | Solana | 2.95% | $141.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 MUSEBOOK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.55%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.95%예요.
 
 ### MUSEBOOK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,14 +36,14 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.55%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 21, 2026
+## 마지막 업데이트: September 22, 2026

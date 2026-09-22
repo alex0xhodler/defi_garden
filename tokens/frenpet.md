@@ -1,12 +1,12 @@
 # FRENPET DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest FRENPET yield right now is 11.76% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRENPET yield right now is 3.95% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=596ed051-0bab-4df5-a515-4167fd89b1f4&src=seo_token) | Base | 11.76% | $740.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=596ed051-0bab-4df5-a515-4167fd89b1f4&src=seo_token) | Base | 3.95% | $727.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRENPET yield today?
 
-11.76% APY on uniswap-v2 (Base), based on live DefiLlama data.
+3.95% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many FRENPET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $740.2K in total.
+1 live pool clear this page's $100K TVL floor, $727.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank FRENPET pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

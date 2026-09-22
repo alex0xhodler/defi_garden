@@ -1,12 +1,12 @@
 # SIGNAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest SIGNAL yield right now is 799.52% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIGNAL yield right now is 98.51% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=63671f11-4629-59c7-954b-9923ecf26d65&src=seo_token) | Hyperliquid L1 | 799.52% | $413.9K |
+| [project-x →](https://www.defi.garden/?pool=63671f11-4629-59c7-954b-9923ecf26d65&src=seo_token) | Hyperliquid L1 | 98.51% | $318.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIGNAL yield today?
 
-799.52% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+98.51% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SIGNAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $413.9K in total.
+1 live pool clear this page's $100K TVL floor, $318.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SIGNAL pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

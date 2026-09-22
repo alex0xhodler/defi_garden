@@ -1,14 +1,14 @@
 # CIRBTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 21, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CIRBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 1.01%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CIRBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 1.52%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2&src=seo_token) | Ethereum | 0.67% | $22.72M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70&src=seo_token) | Ethereum | 0.93% | $6.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542&src=seo_token) | Ethereum | 1.01% | $5.7M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2&src=seo_token) | Ethereum | 1.52% | $25.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70&src=seo_token) | Ethereum | 0.89% | $6.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542&src=seo_token) | Ethereum | 1.73% | $5.83M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=15ebb151-7867-5e9d-8f0f-1a5dd710e924&src=seo_token) | Ethereum | 0.60% | $321.6K |
 
 <!-- rate-stability:insufficient -->
@@ -20,9 +20,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CIRBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.60%부터 1.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CIRBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.60%부터 1.73%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.71%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.84%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -30,9 +30,9 @@ CIRBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.60%부터 1.01%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.67% | 1.49% | 기본 금리 |
-| uniswap-v3 | 0.93% | 0.59% | 기본 금리 |
-| uniswap-v3 | 1.01% | 0.83% | 기본 금리 |
+| uniswap-v3 | 1.52% | 1.48% | 기본 금리 |
+| uniswap-v3 | 0.89% | 0.69% | 기본 금리 |
+| uniswap-v3 | 1.73% | 0.98% | 기본 금리 |
 | uniswap-v4 | 0.60% | 0.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -41,11 +41,11 @@ CIRBTC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.60%부터 1.01%�
 
 ### 오늘 CIRBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.01%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.52%예요.
 
 ### CIRBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $34.78M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $37.54M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.01%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 21, 2026
+## 마지막 업데이트: September 22, 2026

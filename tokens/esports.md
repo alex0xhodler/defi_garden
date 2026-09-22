@@ -1,12 +1,12 @@
 # ESPORTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest ESPORTS yield right now is 0.74% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESPORTS yield right now is 0.64% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f965f85a-a764-46c6-ab4e-8f580ec7094e&src=seo_token) | BSC | 0.74% | $176.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f965f85a-a764-46c6-ab4e-8f580ec7094e&src=seo_token) | BSC | 0.64% | $176.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ESPORTS yield today?
 
-0.74% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.64% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many ESPORTS pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ESPORTS pools. This view cove
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

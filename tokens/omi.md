@@ -1,12 +1,12 @@
 # OMI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest OMI yield right now is 5.95% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OMI yield right now is 14.88% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 5.95% | $330.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 14.88% | $339.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMI yield today?
 
-5.95% APY on uniswap-v3 (Base), based on live DefiLlama data.
+14.88% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many OMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $330.7K in total.
+1 live pool clear this page's $100K TVL floor, $339.2K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank OMI pools. This view covers A
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

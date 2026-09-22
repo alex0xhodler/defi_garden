@@ -1,38 +1,38 @@
 # SKAITO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest SKAITO yield right now is 50.14% on pendle-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKAITO yield right now is 49.70% on pendle-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 47.17% | $130.9K |
-| [pendle-v2 →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 50.14% | $130.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 43.87% | $138.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 49.70% | $138.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SKAITO's lower-variability candidates are pendle-v2 (Base), 50.14% APY, $130.9K TVL, https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token; pendle-v2 (Base), 47.17% APY, $130.9K TVL, https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKAITO's lower-variability candidates are pendle-v2 (Base), 49.70% APY, $138.9K TVL, https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token; pendle-v2 (Base), 43.87% APY, $138.9K TVL, https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 50.14% | $130.9K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 47.17% | $130.9K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 49.70% | $138.9K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 43.87% | $138.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SKAITO shows up in 2 pools here, with rates from 47.17% to 50.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SKAITO shows up in 2 pools here, with rates from 43.87% to 49.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 79.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 77.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 47.17% | 81.48% | 3.26% incentives |
-| pendle-v2 | 50.14% | 76.92% | Base rate |
+| pendle-v2 | 43.87% | 79.80% | 3.01% incentives |
+| pendle-v2 | 49.70% | 75.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SKAITO yield today?
 
-50.14% APY on pendle-v2 (Base), based on live DefiLlama data.
+49.70% APY on pendle-v2 (Base), based on live DefiLlama data.
 
 ### How many SKAITO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $261.8K in total.
+2 live pools clear this page's $100K TVL floor, $277.7K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SKAITO pools have the most stable APY history?
 
-Based on APY history only, SKAITO's lower-variability candidates are pendle-v2 (Base), 50.14% APY, $130.9K TVL, https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token; pendle-v2 (Base), 47.17% APY, $130.9K TVL, https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKAITO's lower-variability candidates are pendle-v2 (Base), 49.70% APY, $138.9K TVL, https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token; pendle-v2 (Base), 43.87% APY, $138.9K TVL, https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,10 +61,10 @@ Based on APY history only, SKAITO's lower-variability candidates are pendle-v2 (
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

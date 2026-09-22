@@ -1,12 +1,12 @@
 # NOONECOUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest NOONECOUSDC yield right now is 10.08% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOONECOUSDC yield right now is 12.57% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=89c36167-17ae-571a-8adf-fca819b3a600&src=seo_token) | Base | 10.08% | $2.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=89c36167-17ae-571a-8adf-fca819b3a600&src=seo_token) | Base | 12.57% | $2.9M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOONECOUSDC yield today?
 
-10.08% APY on morpho-blue (Base), based on live DefiLlama data.
+12.57% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many NOONECOUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.71M in total.
+1 live pool clear this page's $100K TVL floor, $2.9M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank NOONECOUSDC pools. This view 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

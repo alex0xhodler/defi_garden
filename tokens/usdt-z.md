@@ -1,12 +1,12 @@
 # USDT.Z DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest USDT.Z yield right now is 149.23% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT.Z yield right now is 110.62% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e&src=seo_token) | BSC | 149.23% | $317.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e&src=seo_token) | BSC | 110.62% | $311.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDT.Z yield today?
 
-149.23% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+110.62% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many USDT.Z pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $317.5K in total.
+1 live pool clear this page's $100K TVL floor, $311.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USDT.Z pools. This view cover
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

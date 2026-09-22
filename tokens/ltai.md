@@ -1,12 +1,12 @@
 # LTAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest LTAI yield right now is 0.21% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LTAI yield right now is 0.23% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3402c509-d0b4-4011-9034-1ba9c48e84bb&src=seo_token) | Base | 0.21% | $164.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3402c509-d0b4-4011-9034-1ba9c48e84bb&src=seo_token) | Base | 0.23% | $137K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LTAI yield today?
 
-0.21% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.23% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many LTAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.3K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank LTAI pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

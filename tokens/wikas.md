@@ -1,40 +1,43 @@
 # WIKAS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest WIKAS yield right now is 477.93% on zealousswap (Igra), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIKAS yield right now is 14.95% on zealousswap (Igra), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 477.93% | $239K |
-| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 10.08% | $145K |
+| [zealousswap →](https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token) | Igra | 7.08% | $259.7K |
+| [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 14.95% | $221.4K |
+| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 6.17% | $131K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WIKAS's lower-variability candidates are zealousswap (Igra), 10.08% APY, $145K TVL, https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token; zealousswap (Igra), 477.93% APY, $239K TVL, https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WIKAS's lower-variability candidates are zealousswap (Igra), 6.17% APY, $131K TVL, https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token; zealousswap (Igra), 14.95% APY, $221.4K TVL, https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token; zealousswap (Igra), 7.08% APY, $259.7K TVL, https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 10.08% | $145K |
-| 2 | [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 477.93% | $239K |
+| 1 | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 6.17% | $131K |
+| 2 | [zealousswap →](https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token) | Igra | 14.95% | $221.4K |
+| 3 | [zealousswap →](https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token) | Igra | 7.08% | $259.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WIKAS shows up in 2 pools here, with rates from 10.08% to 477.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WIKAS shows up in 3 pools here, with rates from 6.17% to 14.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 38.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| zealousswap | 477.93% | 38.46% | 0.86% incentives |
-| zealousswap | 10.08% | 28.65% | 9.44% incentives |
+| zealousswap | 7.08% | 50.24% | 35.46% incentives |
+| zealousswap | 14.95% | 38.44% | 32.47% incentives |
+| zealousswap | 6.17% | 28.17% | 18.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WIKAS yield today?
 
-477.93% APY on zealousswap (Igra), based on live DefiLlama data.
+14.95% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many WIKAS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $384K in total.
+3 live pools clear this page's $100K TVL floor, $612.1K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WIKAS pools have the most stable APY history?
 
-Based on APY history only, WIKAS's lower-variability candidates are zealousswap (Igra), 10.08% APY, $145K TVL, https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token; zealousswap (Igra), 477.93% APY, $239K TVL, https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WIKAS's lower-variability candidates are zealousswap (Igra), 6.17% APY, $131K TVL, https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token; zealousswap (Igra), 14.95% APY, $221.4K TVL, https://www.defi.garden/?pool=918b2822-d030-41de-998d-31355ba236df&src=seo_token; zealousswap (Igra), 7.08% APY, $259.7K TVL, https://www.defi.garden/?pool=cdc56479-96da-4c3f-a1d7-5d6e2cba3f48&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [NACHO](https://www.defi.garden/tokens/nacho)
 - [ZEAL](https://www.defi.garden/tokens/zeal)
 - [IGRA](https://www.defi.garden/tokens/igra)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Igra](https://www.defi.garden/chains/igra)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026

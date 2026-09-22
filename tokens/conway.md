@@ -1,12 +1,12 @@
 # CONWAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 21, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
 
-The highest honest CONWAY yield right now is 0.69% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CONWAY yield right now is 21.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb966a46-20d1-4b93-b58b-b6fc03dcd5df&src=seo_token) | Base | 0.69% | $642.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb966a46-20d1-4b93-b58b-b6fc03dcd5df&src=seo_token) | Base | 21.01% | $663.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CONWAY yield today?
 
-0.69% APY on uniswap-v4 (Base), based on live DefiLlama data.
+21.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CONWAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $642.4K in total.
+1 live pool clear this page's $100K TVL floor, $663.6K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank CONWAY pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 21, 2026
+## Last updated September 22, 2026
