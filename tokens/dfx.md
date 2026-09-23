@@ -1,12 +1,12 @@
 # DFX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest DFX yield right now is 26.96% on steer-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DFX yield right now is 23.45% on steer-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 26.96% | $139.8K |
+| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c&src=seo_token) | Ethereum | 23.45% | $147.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DFX yield today?
 
-26.96% APY on steer-protocol (Ethereum), based on live DefiLlama data.
+23.45% APY on steer-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many DFX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.8K in total.
+1 live pool clear this page's $100K TVL floor, $147.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank DFX pools. This view covers A
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

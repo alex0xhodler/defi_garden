@@ -1,31 +1,31 @@
 # CBLTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest CBLTC yield right now is 99.42% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBLTC yield right now is 109.93% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 88.73% | $156.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 99.42% | $130.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 109.93% | $163.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 106.34% | $121.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 88.73% APY, $156.7K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 99.42% APY, $130.2K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 109.93% APY, $163.3K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 106.34% APY, $121.4K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 88.73% | $156.7K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 99.42% | $130.2K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 109.93% | $163.3K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 106.34% | $121.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBLTC shows up in 2 pools here, with rates from 88.73% to 99.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBLTC shows up in 2 pools here, with rates from 106.34% to 109.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 49.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ CBLTC shows up in 2 pools here, with rates from 88.73% to 99.42% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 88.73% | 34.43% | 80.62% incentives |
-| aerodrome-slipstream | 99.42% | 61.00% | 28.13% incentives |
+| aerodrome-slipstream | 109.93% | 37.45% | 89.78% incentives |
+| aerodrome-slipstream | 106.34% | 62.51% | 43.28% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBLTC yield today?
 
-99.42% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+109.93% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBLTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.02M in total.
+4 live pools clear this page's $100K TVL floor, $3.19M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBLTC pools have the most stable APY history?
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 88.73% APY, $156.7K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 99.42% APY, $130.2K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 109.93% APY, $163.3K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 106.34% APY, $121.4K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, CBLTC's lower-variability candidates are aerodrome-sl
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

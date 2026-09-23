@@ -1,35 +1,35 @@
 # TSLAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest TSLAX yield right now is 14.85% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLAX yield right now is 16.70% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-lend →](https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token) | Solana | 0.01% | $2.79M |
-| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 22.68% | $2.13M |
-| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 10.72% | $486.3K |
-| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 14.85% | $107.5K |
+| [kamino-lend →](https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token) | Solana | 0.01% | $2.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 16.70% | $2.25M |
+| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 7.15% | $489.3K |
+| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 12.31% | $108K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TSLAX's lower-variability candidates are kamino-lend (Solana), 0.01% APY, $2.79M TVL, https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token; raydium-amm (Solana), 22.68% APY, $2.13M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 10.72% APY, $486.3K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 14.85% APY, $107.5K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TSLAX's lower-variability candidates are kamino-lend (Solana), 0.01% APY, $2.85M TVL, https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token; raydium-amm (Solana), 16.70% APY, $2.25M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 7.15% APY, $489.3K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 12.31% APY, $108K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token) | Solana | 0.01% | $2.79M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 22.68% | $2.13M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 10.72% | $486.3K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 14.85% | $107.5K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token) | Solana | 0.01% | $2.85M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 16.70% | $2.25M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 7.15% | $489.3K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 12.31% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TSLAX shows up in 4 pools here, with rates from 0.01% to 22.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSLAX shows up in 4 pools here, with rates from 0.01% to 16.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -38,9 +38,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kamino-lend | 0.01% | 0.00% | Base rate |
-| raydium-amm | 22.68% | 14.20% | Base rate |
-| raydium-amm | 10.72% | 10.87% | Base rate |
-| orca-dex | 14.85% | 11.29% | Base rate |
+| raydium-amm | 16.70% | 14.83% | Base rate |
+| raydium-amm | 7.15% | 11.05% | Base rate |
+| orca-dex | 12.31% | 11.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TSLAX yield today?
 
-14.85% APY on orca-dex (Solana), based on live DefiLlama data.
+16.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSLAX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.57M in total.
+6 live pools clear this page's $100K TVL floor, $6.76M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TSLAX pools have the most stable APY history?
 
-Based on APY history only, TSLAX's lower-variability candidates are kamino-lend (Solana), 0.01% APY, $2.79M TVL, https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token; raydium-amm (Solana), 22.68% APY, $2.13M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 10.72% APY, $486.3K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 14.85% APY, $107.5K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TSLAX's lower-variability candidates are kamino-lend (Solana), 0.01% APY, $2.85M TVL, https://www.defi.garden/?pool=96566ded-c24c-4fb1-a126-06cf49e0ce86&src=seo_token; raydium-amm (Solana), 16.70% APY, $2.25M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 7.15% APY, $489.3K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 12.31% APY, $108K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, TSLAX's lower-variability candidates are kamino-lend 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

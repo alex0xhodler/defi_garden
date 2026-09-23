@@ -1,13 +1,14 @@
 # MEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest MEX yield right now is 27.51% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEX yield right now is 27.51% on xexchange (MultiversX), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.94% | $175.7K |
 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 27.51% | $151.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=99355344-de97-5264-9c0a-d99b054acf7a&src=seo_token) | Arbitrum | 5.82% | $112K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -23,18 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MEX shows up in 2 pools here, with rates from 5.94% to 27.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MEX shows up in 3 pools here, with rates from 5.82% to 27.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 5.94% | 10.24% | 100.00% incentives |
-| xexchange | 27.51% | 26.11% | 100.00% incentives |
+| xexchange | 5.94% | 10.19% | 100.00% incentives |
+| xexchange | 27.51% | 26.34% | 100.00% incentives |
+| uniswap-v4 | 5.82% | 6.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $327.4K in total.
+3 live pools clear this page's $100K TVL floor, $439.4K in total.
 
 ### Are these rates safe?
 
@@ -58,15 +60,16 @@ Based on APY history only, MEX's lower-variability candidates are xexchange (Mul
 
 ## Related tokens
 
-- [SEGLD](https://www.defi.garden/tokens/segld)
-- [WEGLD](https://www.defi.garden/tokens/wegld)
-- [HTM](https://www.defi.garden/tokens/htm)
-- [SWTAO](https://www.defi.garden/tokens/swtao)
-- [EGLD](https://www.defi.garden/tokens/egld)
-- [USH](https://www.defi.garden/tokens/ush)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+- [ETH](https://www.defi.garden/tokens/eth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

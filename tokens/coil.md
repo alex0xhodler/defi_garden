@@ -1,12 +1,12 @@
 # COIL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest COIL yield right now is 0.02% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.02% | $154.6K |
+| [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.02% | $154.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many COIL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $501K in total.
+2 live pools clear this page's $100K TVL floor, $501.1K in total.
 
 ### Are these rates safe?
 
@@ -54,12 +54,12 @@ There is not enough qualifying APY history to rank COIL pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

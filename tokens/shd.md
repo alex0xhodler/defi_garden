@@ -1,12 +1,12 @@
 # SHD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest SHD yield right now is 36.94% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHD yield right now is 0.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ece1e3f8-382f-4156-a0af-d3ef1ae83ef5&src=seo_token) | Ethereum | 36.94% | $118.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ece1e3f8-382f-4156-a0af-d3ef1ae83ef5&src=seo_token) | Ethereum | 0.07% | $118.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHD yield today?
 
-36.94% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHD pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SHD pools. This view covers A
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

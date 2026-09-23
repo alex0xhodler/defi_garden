@@ -1,34 +1,37 @@
 # WSOL-CHATOSHI — raydium-amm on Solana
 
-**Total APY:** 9.30% (9.30% Base · + 0.00% Rewards)
+**Total APY:** 12.79% (12.79% Base · + 0.00% Rewards)
 
-**TVL:** $171.4K
+**TVL:** $172K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 10.25%
+**30d Mean APY:** 10.20%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,560 in 5y at current rates.
+$1,000 in this pool grows to ~$1,232 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
+Projected at ⅓ haircut (12.79% headline) — farm rates decay. Active management required.
+
 Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,560 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,232 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated September 22, 2026
+Last updated September 23, 2026

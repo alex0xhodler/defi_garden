@@ -1,12 +1,12 @@
 # FACTOR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest FACTOR yield right now is 25.09% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FACTOR yield right now is 26.97% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_token) | Plume Mainnet | 25.09% | $4.2M |
+| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_token) | Plume Mainnet | 26.97% | $4.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FACTOR yield today?
 
-25.09% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+26.97% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many FACTOR pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FACTOR pools. This view cover
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

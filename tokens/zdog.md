@@ -1,12 +1,12 @@
 # ZDOG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest ZDOG yield right now is 229.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZDOG yield right now is 166.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1e582a2a-dc59-53b4-9b60-81a05b9cbebb&src=seo_token) | Solana | 229.05% | $106.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=1e582a2a-dc59-53b4-9b60-81a05b9cbebb&src=seo_token) | Solana | 166.42% | $102.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZDOG yield today?
 
-229.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+166.42% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZDOG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.3K in total.
+1 live pool clear this page's $100K TVL floor, $102.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ZDOG pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

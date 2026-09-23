@@ -1,42 +1,41 @@
 # PEPE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 PEPE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 493.91%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PEPE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.16%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 48.59% | $34.82M |
-| [raydium-amm →](https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token) | Solana | 0.19% | $3.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 27.82% | $2.97M |
-| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 176.65% | $363.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 109.93% | $323.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 20.80% | $304.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=0e1b937c-495e-5268-bd89-5f29f6bd86c2&src=seo_token) | Solana | 493.91% | $277.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f35b5f19-8ba9-47cd-a2f5-241fa90ccd6c&src=seo_token) | Base | 16.10% | $100.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 13.61% | $34.24M |
+| [raydium-amm →](https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token) | Solana | 0.16% | $3.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 7.90% | $2.86M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 67.85% | $361.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 49.64% | $352.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 20.52% | $314.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=0e1b937c-495e-5268-bd89-5f29f6bd86c2&src=seo_token) | Solana | 328.36% | $247.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=6d2cf095-8304-5774-a410-6d7f2ef48611&src=seo_token) | Solana | 944.19% | $110K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PEPE의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.19%, TVL $3.66M, https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token; Ethereum의 uniswap-v4, APY 109.93%, TVL $323.8K, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; Solana의 raydium-amm, APY 176.65%, TVL $363.9K, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; Base의 uniswap-v2, APY 16.10%, TVL $100.9K, https://www.defi.garden/?pool=f35b5f19-8ba9-47cd-a2f5-241fa90ccd6c&src=seo_token; Base의 uniswap-v3, APY 20.80%, TVL $304.9K, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; Ethereum의 uniswap-v2, APY 48.59%, TVL $34.82M, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; Ethereum의 uniswap-v3, APY 27.82%, TVL $2.97M, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PEPE의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.16%, TVL $3.66M, https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token; Ethereum의 uniswap-v4, APY 20.52%, TVL $314.1K, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; Solana의 raydium-amm, APY 49.64%, TVL $352.5K, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; Base의 uniswap-v3, APY 67.85%, TVL $361.7K, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; Ethereum의 uniswap-v2, APY 13.61%, TVL $34.24M, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; Ethereum의 uniswap-v3, APY 7.90%, TVL $2.86M, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token) | Solana | 0.19% | $3.66M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 109.93% | $323.8K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 176.65% | $363.9K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=f35b5f19-8ba9-47cd-a2f5-241fa90ccd6c&src=seo_token) | Base | 16.10% | $100.9K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 20.80% | $304.9K |
-| 6 | [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 48.59% | $34.82M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 27.82% | $2.97M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token) | Solana | 0.16% | $3.66M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 20.52% | $314.1K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 49.64% | $352.5K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 67.85% | $361.7K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 13.61% | $34.24M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 7.90% | $2.86M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PEPE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.19%부터 493.91%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PEPE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.16%부터 944.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.71%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -44,14 +43,14 @@ PEPE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.19%부터 493.91%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 48.59% | 6.42% | 기본 금리 |
-| raydium-amm | 0.19% | 0.14% | 기본 금리 |
-| uniswap-v3 | 27.82% | 1.86% | 기본 금리 |
-| raydium-amm | 176.65% | 98.43% | 기본 금리 |
-| uniswap-v4 | 109.93% | 11.49% | 기본 금리 |
-| uniswap-v3 | 20.80% | 7.96% | 기본 금리 |
-| raydium-amm | 493.91% | 928.18% | 기본 금리 |
-| uniswap-v2 | 16.10% | 0.99% | 기본 금리 |
+| uniswap-v2 | 13.61% | 6.98% | 기본 금리 |
+| raydium-amm | 0.16% | 0.14% | 기본 금리 |
+| uniswap-v3 | 7.90% | 2.40% | 기본 금리 |
+| uniswap-v3 | 67.85% | 8.71% | 기본 금리 |
+| raydium-amm | 49.64% | 102.16% | 기본 금리 |
+| uniswap-v4 | 20.52% | 13.19% | 기본 금리 |
+| raydium-amm | 328.36% | 813.06% | 기본 금리 |
+| raydium-amm | 944.19% | — | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +58,11 @@ PEPE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.19%부터 493.91%�
 
 ### 오늘 PEPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 493.91%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.16%예요.
 
 ### PEPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $43.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $42.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -71,15 +70,15 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 493.91%예
 
 ### PEPE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PEPE의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.19%, TVL $3.66M, https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token; Ethereum의 uniswap-v4, APY 109.93%, TVL $323.8K, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; Solana의 raydium-amm, APY 176.65%, TVL $363.9K, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; Base의 uniswap-v2, APY 16.10%, TVL $100.9K, https://www.defi.garden/?pool=f35b5f19-8ba9-47cd-a2f5-241fa90ccd6c&src=seo_token; Base의 uniswap-v3, APY 20.80%, TVL $304.9K, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; Ethereum의 uniswap-v2, APY 48.59%, TVL $34.82M, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; Ethereum의 uniswap-v3, APY 27.82%, TVL $2.97M, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PEPE의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.16%, TVL $3.66M, https://www.defi.garden/?pool=9a9cd141-5f3e-5f33-bcf1-33da83c8279b&src=seo_token; Ethereum의 uniswap-v4, APY 20.52%, TVL $314.1K, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; Solana의 raydium-amm, APY 49.64%, TVL $352.5K, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; Base의 uniswap-v3, APY 67.85%, TVL $361.7K, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; Ethereum의 uniswap-v2, APY 13.61%, TVL $34.24M, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; Ethereum의 uniswap-v3, APY 7.90%, TVL $2.86M, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
@@ -88,4 +87,4 @@ APY 이력만 기준으로 비교한 PEPE의 변동성 낮은 후보는 Solana�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

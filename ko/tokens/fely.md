@@ -1,12 +1,12 @@
 # FELY 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FELY의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 13.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FELY의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 1.31%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9dd6530-1f87-4252-b0ce-6535a0520feb&src=seo_token) | Polygon | 13.53% | $1.03M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9dd6530-1f87-4252-b0ce-6535a0520feb&src=seo_token) | Polygon | 1.31% | $1.03M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 FELY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 13.53%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 1.31%예요.
 
 ### FELY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 13.53%예�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

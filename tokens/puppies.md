@@ -1,12 +1,12 @@
 # PUPPIES DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest PUPPIES yield right now is 9.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUPPIES yield right now is 3.37% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8eccaabc-6883-4b6d-bbec-d48ae929ccd3&src=seo_token) | Ethereum | 9.09% | $966.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8eccaabc-6883-4b6d-bbec-d48ae929ccd3&src=seo_token) | Ethereum | 3.37% | $972K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUPPIES yield today?
 
-9.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.37% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PUPPIES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $966.2K in total.
+1 live pool clear this page's $100K TVL floor, $972K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank PUPPIES pools. This view cove
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

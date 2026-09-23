@@ -1,12 +1,12 @@
 # KUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest KUSDC yield right now is 5.85% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KUSDC yield right now is 5.70% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4828569b-ddba-42a7-9bf9-e7e6d809112d&src=seo_token) | Ethereum | 5.85% | $7.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=4828569b-ddba-42a7-9bf9-e7e6d809112d&src=seo_token) | Ethereum | 5.70% | $7.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KUSDC yield today?
 
-5.85% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.70% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many KUSDC pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KUSDC pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

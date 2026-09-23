@@ -1,12 +1,12 @@
 # RSWETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest RSWETH yield right now is 0.56% on swell-liquid-restaking (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-restaking →](https://www.defi.garden/?pool=eff9b43c-a80d-4bfc-9f9e-55e02a8ef619&src=seo_token) | Ethereum | 0.56% | $35.27M |
+| [swell-liquid-restaking →](https://www.defi.garden/?pool=eff9b43c-a80d-4bfc-9f9e-55e02a8ef619&src=seo_token) | Ethereum | 0.56% | $35.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RSWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $35.4M in total.
+2 live pools clear this page's $100K TVL floor, $35.69M in total.
 
 ### Are these rates safe?
 
@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank RSWETH pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

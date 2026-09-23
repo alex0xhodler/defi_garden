@@ -1,38 +1,38 @@
 # MHYPERBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest MHYPERBTC yield right now is 2.19% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MHYPERBTC yield right now is 2.54% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 1.96% | $2.76M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.19% | $2.76M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.32% | $2.79M |
+| [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.54% | $2.79M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 1.96% APY, $2.76M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 2.19% APY, $2.76M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.54% APY, $2.79M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 2.32% APY, $2.79M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 1.96% | $2.76M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.19% | $2.76M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.54% | $2.79M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.32% | $2.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MHYPERBTC shows up in 2 pools here, with rates from 1.96% to 2.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MHYPERBTC shows up in 2 pools here, with rates from 2.32% to 2.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 1.96% | 2.74% | Base rate |
-| pendle-v2 | 2.19% | 1.84% | 7.84% incentives |
+| pendle-v2 | 2.32% | 1.84% | 9.09% incentives |
+| pendle-v2 | 2.54% | 2.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MHYPERBTC yield today?
 
-2.19% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+2.54% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $16.66M in total.
+4 live pools clear this page's $100K TVL floor, $16.91M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MHYPERBTC pools have the most stable APY history?
 
-Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 1.96% APY, $2.76M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 2.19% APY, $2.76M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MHYPERBTC's lower-variability candidates are pendle-v2 (Ethereum), 2.54% APY, $2.79M TVL, https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token; pendle-v2 (Ethereum), 2.32% APY, $2.79M TVL, https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

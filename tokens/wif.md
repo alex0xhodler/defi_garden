@@ -1,12 +1,12 @@
 # WIF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest WIF yield right now is 132.77% on kamino-liquidity (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIF yield right now is 118.90% on kamino-liquidity (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34&src=seo_token) | Solana | 132.77% | $144.6K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34&src=seo_token) | Solana | 118.90% | $148.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WIF shows up in 1 pools here, with rates from 132.77% to 132.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WIF shows up in 1 pools here, with rates from 118.90% to 118.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 41.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 45.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kamino-liquidity | 132.77% | 41.80% | Base rate |
+| kamino-liquidity | 118.90% | 45.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WIF yield today?
 
-132.77% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+118.90% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many WIF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $255.6K in total.
+2 live pools clear this page's $100K TVL floor, $263.8K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank WIF pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

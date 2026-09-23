@@ -2,7 +2,7 @@
 
 **Total APY:** 9.50% (9.50% Base · + 0.00% Rewards)
 
-**TVL:** $332.4K
+**TVL:** $345.1K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on wildcat-protocol](https://wildcat.finance/?ref=defi.garden)
 
-Last updated September 22, 2026
+Last updated September 23, 2026

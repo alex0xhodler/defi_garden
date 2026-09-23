@@ -1,12 +1,12 @@
 # SPY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest SPY yield right now is 5.99% on alandale-v3 (Robinhood Chain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPY yield right now is 6.10% on alandale-v3 (Robinhood Chain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alandale-v3 →](https://www.defi.garden/?pool=51a012d7-5876-5949-ab84-33d6041e88b4&src=seo_token) | Robinhood Chain | 5.99% | $149.2K |
+| [alandale-v3 →](https://www.defi.garden/?pool=51a012d7-5876-5949-ab84-33d6041e88b4&src=seo_token) | Robinhood Chain | 6.10% | $149.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SPY shows up in 1 pools here, with rates from 5.99% to 5.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPY shows up in 1 pools here, with rates from 6.10% to 6.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 142.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 131.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ SPY shows up in 1 pools here, with rates from 5.99% to 5.99% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| alandale-v3 | 5.99% | 142.45% | 100.00% incentives |
+| alandale-v3 | 6.10% | 131.41% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPY yield today?
 
-5.99% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
+6.10% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many SPY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $342.5K in total.
+2 live pools clear this page's $100K TVL floor, $343.1K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SPY pools. This view covers A
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,12 +1,12 @@
 # YEE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest YEE yield right now is 24.97% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YEE yield right now is 18.80% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 24.97% | $502.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 18.80% | $510.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YEE yield today?
 
-24.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+18.80% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many YEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $502.2K in total.
+1 live pool clear this page's $100K TVL floor, $510.4K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank YEE pools. This view covers A
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,12 +1,12 @@
 # SWAVES DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest SWAVES yield right now is 7.87% on pepeteam-swaves (Waves), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 7.87% | $313.9K |
+| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 7.87% | $345K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SWAVES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $313.9K in total.
+1 live pool clear this page's $100K TVL floor, $345K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SWAVES pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Waves](https://www.defi.garden/chains/waves)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,12 +1,12 @@
 # SAID DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest SAID yield right now is 11.00% on gaib (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAID yield right now is 11.02% on gaib (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 11.00% | $16.77M |
+| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 11.02% | $16.78M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAID yield today?
 
-11.00% APY on gaib (Ethereum), based on live DefiLlama data.
+11.02% APY on gaib (Ethereum), based on live DefiLlama data.
 
 ### How many SAID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $16.77M in total.
+1 live pool clear this page's $100K TVL floor, $16.78M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SAID pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

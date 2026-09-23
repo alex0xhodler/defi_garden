@@ -1,8 +1,8 @@
 # BNCB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BNCB yield right now is 4.06% on uniswap-v4 (BSC), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNCB yield right now is 4.06% on uniswap-v4 (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNCB pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $1.29M in total.
+3 live pools clear this page's $100K TVL floor, $511.9K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank BNCB pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

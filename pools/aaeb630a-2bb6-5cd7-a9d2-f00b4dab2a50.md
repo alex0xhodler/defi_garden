@@ -34,4 +34,4 @@ This pool's rate moves a lot: 229.90% right now vs a 777.34% 30-day average. Rew
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 22, 2026
+Last updated September 23, 2026

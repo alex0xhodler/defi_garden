@@ -1,38 +1,38 @@
 # METH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest METH yield right now is 2.40% on meth-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METH yield right now is 2.17% on meth-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 2.40% | $630.01M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.03% | $1.86M |
+| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 2.17% | $640.72M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.93% | $1.88M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $1.86M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 2.40% APY, $630.01M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.93% APY, $1.88M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 2.17% APY, $640.72M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.03% | $1.86M |
-| 2 | [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 2.40% | $630.01M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.93% | $1.88M |
+| 2 | [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 2.17% | $640.72M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-METH shows up in 2 pools here, with rates from 0.03% to 2.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+METH shows up in 2 pools here, with rates from 0.93% to 2.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| meth-protocol | 2.40% | 2.01% | Base rate |
-| uniswap-v3 | 0.03% | 0.05% | Base rate |
+| meth-protocol | 2.17% | 2.03% | Base rate |
+| uniswap-v3 | 0.93% | 0.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest METH yield today?
 
-2.40% APY on meth-protocol (Ethereum), based on live DefiLlama data.
+2.17% APY on meth-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many METH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $636.01M in total.
+3 live pools clear this page's $100K TVL floor, $646.77M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which METH pools have the most stable APY history?
 
-Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $1.86M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 2.40% APY, $630.01M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METH's lower-variability candidates are uniswap-v3 (Ethereum), 0.93% APY, $1.88M TVL, https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token; meth-protocol (Ethereum), 2.17% APY, $640.72M TVL, https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

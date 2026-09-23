@@ -1,12 +1,12 @@
 # ICHI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest ICHI yield right now is 0.07% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICHI yield right now is 0.02% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15&src=seo_token) | Ethereum | 0.07% | $171.3K |
+| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15&src=seo_token) | Ethereum | 0.02% | $175K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ICHI yield today?
 
-0.07% APY on sushiswap (Ethereum), based on live DefiLlama data.
+0.02% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many ICHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $171.3K in total.
+1 live pool clear this page's $100K TVL floor, $175K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ICHI pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

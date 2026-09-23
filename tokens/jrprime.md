@@ -1,12 +1,12 @@
 # JRPRIME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest JRPRIME yield right now is 6.05% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRPRIME yield right now is 6.17% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 6.05% | $262.4K |
+| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 6.17% | $262.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRPRIME yield today?
 
-6.05% APY on strata-markets (Ethereum), based on live DefiLlama data.
+6.17% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many JRPRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $262.4K in total.
+1 live pool clear this page's $100K TVL floor, $262.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank JRPRIME pools. This view cove
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

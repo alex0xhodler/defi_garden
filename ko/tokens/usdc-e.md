@@ -1,58 +1,58 @@
 # USDC.E 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDC.E의 가장 높은 정직한 수익률은 Arbitrum의 sushiswap-v3에서 14.70%이며, $100K TVL 기준을 넘는 28개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDC.E의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 88.52%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.13% | $5.08M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 10.58% | $1.95M |
-| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.28% | $635.4K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.78% | $535.7K |
-| [vvs-standard →](https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token) | Cronos | 0.16% | $502K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 14.70% | $497.4K |
-| [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 103.40% | $450.7K |
-| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.84% | $427.5K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.09% | $5.05M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.76% | $1.95M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 5.57% | $1.16M |
+| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.23% | $635.2K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.87% | $535.9K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 8.38% | $498.8K |
+| [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 88.52% | $452K |
+| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.85% | $426.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.16%, TVL $502K, https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token; Flare의 sparkdex-v4, APY 10.58%, TVL $1.95M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.78%, TVL $535.7K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Berachain의 dolomite, APY 3.84%, TVL $427.5K, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; Arbitrum의 curve-dex, APY 0.28%, TVL $635.4K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.13%, TVL $5.08M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Arbitrum의 sushiswap-v3, APY 14.70%, TVL $497.4K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Starknet의 ekubo, APY 103.40%, TVL $450.7K, https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.76%, TVL $1.95M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.87%, TVL $535.9K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Berachain의 dolomite, APY 3.85%, TVL $426.5K, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; Arbitrum의 curve-dex, APY 0.23%, TVL $635.2K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.09%, TVL $5.05M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Arbitrum의 sushiswap-v3, APY 8.38%, TVL $498.8K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Arbitrum의 uniswap-v3, APY 5.57%, TVL $1.16M, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token; Starknet의 ekubo, APY 88.52%, TVL $452K, https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token) | Cronos | 0.16% | $502K |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 10.58% | $1.95M |
-| 3 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.78% | $535.7K |
-| 4 | [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.84% | $427.5K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.28% | $635.4K |
-| 6 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.13% | $5.08M |
-| 7 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 14.70% | $497.4K |
-| 8 | [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 103.40% | $450.7K |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.76% | $1.95M |
+| 2 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.87% | $535.9K |
+| 3 | [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.85% | $426.5K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.23% | $635.2K |
+| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.09% | $5.05M |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 8.38% | $498.8K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 5.57% | $1.16M |
+| 8 | [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 88.52% | $452K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDC.E 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.13%부터 103.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDC.E 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.09%부터 88.52%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.81%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 6개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparkdex-v3.1 | 0.13% | 0.17% | 기본 금리 |
-| sparkdex-v4 | 10.58% | 6.85% | 인센티브 99.75% |
-| curve-dex | 0.28% | 0.22% | 기본 금리 |
-| shadow-exchange-clmm | 1.78% | 1.28% | 인센티브 100.00% |
-| vvs-standard | 0.16% | 0.28% | 기본 금리 |
-| sushiswap-v3 | 14.70% | 10.03% | 기본 금리 |
-| ekubo | 103.40% | 58.87% | 기본 금리 |
-| dolomite | 3.84% | 3.53% | 기본 금리 |
+| sparkdex-v3.1 | 0.09% | 0.17% | 기본 금리 |
+| sparkdex-v4 | 6.76% | 6.96% | 인센티브 99.54% |
+| uniswap-v3 | 5.57% | 6.05% | 기본 금리 |
+| curve-dex | 0.23% | 0.22% | 기본 금리 |
+| shadow-exchange-clmm | 1.87% | 1.35% | 인센티브 100.00% |
+| sushiswap-v3 | 8.38% | 9.87% | 기본 금리 |
+| ekubo | 88.52% | 60.47% | 기본 금리 |
+| dolomite | 3.85% | 3.57% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ USDC.E 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.13%부터 103.40
 
 ### 오늘 USDC.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 sushiswap-v3에서 APY 14.70%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 88.52%예요.
 
 ### USDC.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 28개이며, 합산 TVL은 $15.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $15.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 sushiswap-v3에서 APY 14.70%�
 
 ### USDC.E 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.16%, TVL $502K, https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token; Flare의 sparkdex-v4, APY 10.58%, TVL $1.95M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.78%, TVL $535.7K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Berachain의 dolomite, APY 3.84%, TVL $427.5K, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; Arbitrum의 curve-dex, APY 0.28%, TVL $635.4K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.13%, TVL $5.08M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Arbitrum의 sushiswap-v3, APY 14.70%, TVL $497.4K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Starknet의 ekubo, APY 103.40%, TVL $450.7K, https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.76%, TVL $1.95M, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; Sonic의 shadow-exchange-clmm, APY 1.87%, TVL $535.9K, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; Berachain의 dolomite, APY 3.85%, TVL $426.5K, https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token; Arbitrum의 curve-dex, APY 0.23%, TVL $635.2K, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; Flare의 sparkdex-v3.1, APY 0.09%, TVL $5.05M, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; Arbitrum의 sushiswap-v3, APY 8.38%, TVL $498.8K, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; Arbitrum의 uniswap-v3, APY 5.57%, TVL $1.16M, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token; Starknet의 ekubo, APY 88.52%, TVL $452K, https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,16 +80,15 @@ APY 이력만 기준으로 비교한 USDC.E의 변동성 낮은 후보는 Cronos
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 
 ## 이용 가능한 체인
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
-- [Cronos](https://www.defi.garden/ko/chains/cronos)
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

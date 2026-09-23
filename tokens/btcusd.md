@@ -1,12 +1,12 @@
 # BTCUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BTCUSD yield right now is 5.88% on bifi (Bifrost Network), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTCUSD yield right now is 5.93% on bifi (Bifrost Network), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 5.88% | $387.8K |
+| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 5.93% | $375.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTCUSD yield today?
 
-5.88% APY on bifi (Bifrost Network), based on live DefiLlama data.
+5.93% APY on bifi (Bifrost Network), based on live DefiLlama data.
 
 ### How many BTCUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $387.8K in total.
+1 live pool clear this page's $100K TVL floor, $375.9K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank BTCUSD pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Bifrost Network](https://www.defi.garden/chains/bifrost-network)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

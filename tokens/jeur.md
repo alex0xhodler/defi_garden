@@ -1,31 +1,31 @@
 # JEUR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest JEUR yield right now is 16.23% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JEUR yield right now is 22.98% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.23% | $668K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 15.70% | $283.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 17.24% | $667.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 22.98% | $274.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JEUR's lower-variability candidates are aerodrome-v1 (Base), 16.23% APY, $668K TVL, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; aerodrome-slipstream (Base), 15.70% APY, $283.3K TVL, https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JEUR's lower-variability candidates are aerodrome-v1 (Base), 17.24% APY, $667.5K TVL, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; aerodrome-slipstream (Base), 22.98% APY, $274.7K TVL, https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.23% | $668K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 15.70% | $283.3K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 17.24% | $667.5K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token) | Base | 22.98% | $274.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JEUR shows up in 2 pools here, with rates from 15.70% to 16.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JEUR shows up in 2 pools here, with rates from 17.24% to 22.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ JEUR shows up in 2 pools here, with rates from 15.70% to 16.23% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 16.23% | 10.89% | 100.00% incentives |
-| aerodrome-slipstream | 15.70% | 15.50% | 53.98% incentives |
+| aerodrome-v1 | 17.24% | 10.92% | 100.00% incentives |
+| aerodrome-slipstream | 22.98% | 15.72% | 24.10% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JEUR yield today?
 
-16.23% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+22.98% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many JEUR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.09M in total.
+3 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JEUR pools have the most stable APY history?
 
-Based on APY history only, JEUR's lower-variability candidates are aerodrome-v1 (Base), 16.23% APY, $668K TVL, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; aerodrome-slipstream (Base), 15.70% APY, $283.3K TVL, https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JEUR's lower-variability candidates are aerodrome-v1 (Base), 17.24% APY, $667.5K TVL, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; aerodrome-slipstream (Base), 22.98% APY, $274.7K TVL, https://www.defi.garden/?pool=5bf1fcb1-e271-591b-aae4-2ac4038f8663&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, JEUR's lower-variability candidates are aerodrome-v1 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

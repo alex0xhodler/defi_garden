@@ -1,12 +1,12 @@
 # CSUSDCCORE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest CSUSDCCORE yield right now is 6.74% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSUSDCCORE yield right now is 6.31% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 6.74% | $1.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 6.31% | $1.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSUSDCCORE yield today?
 
-6.74% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.31% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many CSUSDCCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.23M in total.
+1 live pool clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank CSUSDCCORE pools. This view c
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

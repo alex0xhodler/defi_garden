@@ -1,12 +1,12 @@
 # XRHEA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 XRHEA의 가장 높은 정직한 수익률은 Near의 rhea-lst에서 3.33%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XRHEA의 가장 높은 정직한 수익률은 Near의 rhea-lst에서 3.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494&src=seo_token) | Near | 3.33% | $8.09M |
+| [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494&src=seo_token) | Near | 3.36% | $8.95M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 XRHEA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Near의 rhea-lst에서 APY 3.33%예요.
+DefiLlama 실시간 데이터 기준, Near의 rhea-lst에서 APY 3.36%예요.
 
 ### XRHEA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $8.09M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $8.95M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Near의 rhea-lst에서 APY 3.33%예요.
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Near](https://www.defi.garden/ko/chains/near)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

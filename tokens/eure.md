@@ -1,33 +1,33 @@
 # EURE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest EURE yield right now is 8.41% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURE yield right now is 5.10% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.27% | $5.74M |
-| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 8.41% | $285.3K |
-| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 6.72% | $229.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.27% | $5.7M |
+| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 5.10% | $284.3K |
+| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 3.93% | $228.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.27% APY, $5.74M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 8.41% APY, $285.3K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 6.72% APY, $229.1K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.27% APY, $5.7M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 5.10% APY, $284.3K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 3.93% APY, $228.8K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.27% | $5.74M |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 8.41% | $285.3K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 6.72% | $229.1K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.27% | $5.7M |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 5.10% | $284.3K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 3.93% | $228.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURE shows up in 3 pools here, with rates from 2.27% to 8.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURE shows up in 3 pools here, with rates from 2.27% to 5.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,8 +36,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 2.27% | 2.17% | Base rate |
-| balancer-v3 | 8.41% | 9.00% | Base rate |
-| curve-dex | 6.72% | 3.75% | Base rate |
+| balancer-v3 | 5.10% | 9.07% | Base rate |
+| curve-dex | 3.93% | 3.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EURE yield today?
 
-8.41% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+5.10% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many EURE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $6.25M in total.
+3 live pools clear this page's $100K TVL floor, $6.21M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EURE pools have the most stable APY history?
 
-Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.27% APY, $5.74M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 8.41% APY, $285.3K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 6.72% APY, $229.1K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.27% APY, $5.7M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 5.10% APY, $284.3K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 3.93% APY, $228.8K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,12 +65,12 @@ Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnos
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

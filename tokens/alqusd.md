@@ -1,12 +1,12 @@
 # ALQUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest ALQUSD yield right now is 1.80% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALQUSD yield right now is 1.87% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.80% | $1.97M |
+| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.87% | $1.96M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALQUSD yield today?
 
-1.80% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.87% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many ALQUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.97M in total.
+1 live pool clear this page's $100K TVL floor, $1.96M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ALQUSD pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

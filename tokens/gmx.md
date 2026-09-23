@@ -1,49 +1,52 @@
 # GMX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest GMX yield right now is 8.53% on uniswap-v3 (Arbitrum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMX yield right now is 38.17% on uniswap-v3 (Arbitrum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.04% | $2.69M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 11.56% | $273.8K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.98% | $263.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.98% | $263.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 8.53% | $237.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.11% | $2.83M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 7.08% | $282K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 2.05% | $279.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 2.05% | $279.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 10.16% | $249.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 38.17% | $151.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GMX's lower-variability candidates are uniswap-v3 (Arbitrum), 8.53% APY, $237.3K TVL, https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token; gmx-v2-perps (Arbitrum), 0.98% APY, $263.4K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; gmx-v2-perps (Arbitrum), 0.98% APY, $263.4K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; uniswap-v3 (Arbitrum), 0.04% APY, $2.69M TVL, https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token; gmx-v2-perps (Arbitrum), 11.56% APY, $273.8K TVL, https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMX's lower-variability candidates are uniswap-v3 (Arbitrum), 10.16% APY, $249.4K TVL, https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token; gmx-v2-perps (Arbitrum), 2.05% APY, $279.9K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; gmx-v2-perps (Arbitrum), 2.05% APY, $279.9K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; uniswap-v3 (Arbitrum), 0.11% APY, $2.83M TVL, https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token; gmx-v2-perps (Arbitrum), 7.08% APY, $282K TVL, https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token; uniswap-v3 (Arbitrum), 38.17% APY, $151.6K TVL, https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 8.53% | $237.3K |
-| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.98% | $263.4K |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.98% | $263.4K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.04% | $2.69M |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 11.56% | $273.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 10.16% | $249.4K |
+| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 2.05% | $279.9K |
+| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 2.05% | $279.9K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.11% | $2.83M |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 7.08% | $282K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 38.17% | $151.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GMX shows up in 5 pools here, with rates from 0.04% to 11.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GMX shows up in 6 pools here, with rates from 0.11% to 38.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 7.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.04% | 0.16% | Base rate |
-| gmx-v2-perps | 11.56% | 33.99% | Base rate |
-| gmx-v2-perps | 0.98% | 3.30% | Base rate |
-| gmx-v2-perps | 0.98% | 3.30% | Base rate |
-| uniswap-v3 | 8.53% | 13.09% | Base rate |
+| uniswap-v3 | 0.11% | 0.16% | Base rate |
+| gmx-v2-perps | 7.08% | 29.55% | Base rate |
+| gmx-v2-perps | 2.05% | 3.09% | Base rate |
+| gmx-v2-perps | 2.05% | 3.09% | Base rate |
+| uniswap-v3 | 10.16% | 12.59% | Base rate |
+| uniswap-v3 | 38.17% | 54.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GMX yield today?
 
-8.53% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+38.17% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many GMX pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $5.72M in total.
+8 live pools clear this page's $100K TVL floor, $5.99M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GMX pools have the most stable APY history?
 
-Based on APY history only, GMX's lower-variability candidates are uniswap-v3 (Arbitrum), 8.53% APY, $237.3K TVL, https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token; gmx-v2-perps (Arbitrum), 0.98% APY, $263.4K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; gmx-v2-perps (Arbitrum), 0.98% APY, $263.4K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; uniswap-v3 (Arbitrum), 0.04% APY, $2.69M TVL, https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token; gmx-v2-perps (Arbitrum), 11.56% APY, $273.8K TVL, https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMX's lower-variability candidates are uniswap-v3 (Arbitrum), 10.16% APY, $249.4K TVL, https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token; gmx-v2-perps (Arbitrum), 2.05% APY, $279.9K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; gmx-v2-perps (Arbitrum), 2.05% APY, $279.9K TVL, https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token; uniswap-v3 (Arbitrum), 0.11% APY, $2.83M TVL, https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token; gmx-v2-perps (Arbitrum), 7.08% APY, $282K TVL, https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token; uniswap-v3 (Arbitrum), 38.17% APY, $151.6K TVL, https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,11 +74,11 @@ Based on APY history only, GMX's lower-variability candidates are uniswap-v3 (Ar
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

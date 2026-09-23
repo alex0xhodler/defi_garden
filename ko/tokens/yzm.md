@@ -1,12 +1,12 @@
 # YZM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 YZM의 가장 높은 정직한 수익률은 Monad의 curvance에서 0.50%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $383.3K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $382.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

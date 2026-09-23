@@ -1,12 +1,12 @@
 # BOOE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BOOE yield right now is 6.91% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOE yield right now is 11.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 6.91% | $548K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 11.07% | $556.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOE yield today?
 
-6.91% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+11.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BOOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $548K in total.
+1 live pool clear this page's $100K TVL floor, $556.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank BOOE pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

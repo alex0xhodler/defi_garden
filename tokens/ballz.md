@@ -1,12 +1,12 @@
 # BALLZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BALLZ yield right now is 0.01% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BALLZ yield right now is 0.07% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.01% | $619.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.07% | $631.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BALLZ yield today?
 
-0.01% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.07% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many BALLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $619.1K in total.
+1 live pool clear this page's $100K TVL floor, $631.2K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank BALLZ pools. This view covers
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
+- [SHIB](https://www.defi.garden/tokens/shib)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

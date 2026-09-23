@@ -1,35 +1,35 @@
 # EEARN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest EEARN yield right now is 15.69% on bluefin-spot (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EEARN yield right now is 16.41% on bluefin-spot (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.41% | $1.02M |
 | [pendle-v2 →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.14% | $1.02M |
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 11.38% | $710.7K |
-| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 15.69% | $136.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.41% | $1.02M |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 11.41% | $718.8K |
+| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 16.41% | $135.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EEARN's lower-variability candidates are pendle-v2 (Ethereum), 10.14% APY, $1.02M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; pendle-v2 (Ethereum), 10.41% APY, $1.02M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; current (Sui), 11.38% APY, $710.7K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; bluefin-spot (Sui), 15.69% APY, $136.3K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EEARN's lower-variability candidates are pendle-v2 (Ethereum), 10.14% APY, $1.02M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; pendle-v2 (Ethereum), 10.41% APY, $1.02M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; current (Sui), 11.41% APY, $718.8K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; bluefin-spot (Sui), 16.41% APY, $135.2K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.14% | $1.02M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.41% | $1.02M |
-| 3 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 11.38% | $710.7K |
-| 4 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 15.69% | $136.3K |
+| 3 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 11.41% | $718.8K |
+| 4 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 16.41% | $135.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EEARN shows up in 4 pools here, with rates from 10.14% to 15.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EEARN shows up in 4 pools here, with rates from 10.14% to 16.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ EEARN shows up in 4 pools here, with rates from 10.14% to 15.69% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 10.41% | 10.07% | 2.64% incentives |
 | pendle-v2 | 10.14% | 10.24% | Base rate |
-| current | 11.38% | 11.27% | 11.51% incentives |
-| bluefin-spot | 15.69% | 26.21% | 99.90% incentives |
+| pendle-v2 | 10.41% | 10.09% | 2.42% incentives |
+| current | 11.41% | 11.28% | 11.41% incentives |
+| bluefin-spot | 16.41% | 25.54% | 98.18% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EEARN yield today?
 
-15.69% APY on bluefin-spot (Sui), based on live DefiLlama data.
+16.41% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many EEARN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.88M in total.
+4 live pools clear this page's $100K TVL floor, $2.89M in total.
 
 ### Are these rates safe?
 
@@ -60,15 +60,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EEARN pools have the most stable APY history?
 
-Based on APY history only, EEARN's lower-variability candidates are pendle-v2 (Ethereum), 10.14% APY, $1.02M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; pendle-v2 (Ethereum), 10.41% APY, $1.02M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; current (Sui), 11.38% APY, $710.7K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; bluefin-spot (Sui), 15.69% APY, $136.3K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EEARN's lower-variability candidates are pendle-v2 (Ethereum), 10.14% APY, $1.02M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; pendle-v2 (Ethereum), 10.41% APY, $1.02M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; current (Sui), 11.41% APY, $718.8K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; bluefin-spot (Sui), 16.41% APY, $135.2K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -76,4 +76,4 @@ Based on APY history only, EEARN's lower-variability candidates are pendle-v2 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

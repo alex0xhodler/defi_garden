@@ -1,33 +1,33 @@
 # NEST 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NEST의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 148.42%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NEST의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 135.87%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 52.52% | $1.14M |
-| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 22.43% | $430.1K |
-| [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 148.42% | $429.6K |
+| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 56.86% | $1.08M |
+| [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 135.87% | $475.3K |
+| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 21.80% | $430.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NEST의 변동성 낮은 후보는 Hyperliquid L1의 nest-amm, APY 22.43%, TVL $430.1K, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; Hyperliquid L1의 nest-cl, APY 148.42%, TVL $429.6K, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; Hyperliquid L1의 nest-cl, APY 52.52%, TVL $1.14M, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NEST의 변동성 낮은 후보는 Hyperliquid L1의 nest-amm, APY 21.80%, TVL $430.2K, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; Hyperliquid L1의 nest-cl, APY 135.87%, TVL $475.3K, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; Hyperliquid L1의 nest-cl, APY 56.86%, TVL $1.08M, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 22.43% | $430.1K |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 148.42% | $429.6K |
-| 3 | [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 52.52% | $1.14M |
+| 1 | [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 21.80% | $430.2K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token) | Hyperliquid L1 | 135.87% | $475.3K |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 56.86% | $1.08M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NEST 풀은 여기 3개가 있고, 1개 체인에서 APY가 22.43%부터 148.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NEST 풀은 여기 3개가 있고, 1개 체인에서 APY가 21.80%부터 135.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 88.47%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 86.08%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,9 +35,9 @@ NEST 풀은 여기 3개가 있고, 1개 체인에서 APY가 22.43%부터 148.42%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| nest-cl | 52.52% | 88.47% | 인센티브 100.00% |
-| nest-amm | 22.43% | 45.42% | 인센티브 100.00% |
-| nest-cl | 148.42% | 273.31% | 인센티브 100.00% |
+| nest-cl | 56.86% | 86.08% | 인센티브 100.00% |
+| nest-cl | 135.87% | 271.10% | 인센티브 100.00% |
+| nest-amm | 21.80% | 44.75% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -45,11 +45,11 @@ NEST 풀은 여기 3개가 있고, 1개 체인에서 APY가 22.43%부터 148.42%
 
 ### 오늘 NEST의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 148.42%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 135.87%예요.
 
 ### NEST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 148.42
 
 ### NEST 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NEST의 변동성 낮은 후보는 Hyperliquid L1의 nest-amm, APY 22.43%, TVL $430.1K, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; Hyperliquid L1의 nest-cl, APY 148.42%, TVL $429.6K, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; Hyperliquid L1의 nest-cl, APY 52.52%, TVL $1.14M, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NEST의 변동성 낮은 후보는 Hyperliquid L1의 nest-amm, APY 21.80%, TVL $430.2K, https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token; Hyperliquid L1의 nest-cl, APY 135.87%, TVL $475.3K, https://www.defi.garden/?pool=26400056-596b-4cb0-9a46-d257b7e1bd95&src=seo_token; Hyperliquid L1의 nest-cl, APY 56.86%, TVL $1.08M, https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 NEST의 변동성 낮은 후보는 Hyperliq
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

@@ -1,6 +1,6 @@
 # USDO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest USDO yield right now is 3.10% on openeden-usdo (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $14.52M in total.
+2 live pools clear this page's $100K TVL floor, $14.53M in total.
 
 ### Are these rates safe?
 
@@ -59,8 +59,8 @@ Based on APY history only, USDO's lower-variability candidates are openeden-usdo
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -68,4 +68,4 @@ Based on APY history only, USDO's lower-variability candidates are openeden-usdo
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

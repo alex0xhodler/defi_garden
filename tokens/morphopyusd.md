@@ -1,12 +1,12 @@
 # MORPHOPYUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest MORPHOPYUSD yield right now is 5.11% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHOPYUSD yield right now is 5.00% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 5.11% | $531.3K |
+| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 5.00% | $531.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MORPHOPYUSD yield today?
 
-5.11% APY on affluent (TON), based on live DefiLlama data.
+5.00% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many MORPHOPYUSD pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MORPHOPYUSD pools. This view 
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

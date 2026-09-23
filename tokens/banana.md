@@ -1,12 +1,12 @@
 # BANANA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BANANA yield right now is 4.38% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BANANA yield right now is 2.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 4.38% | $3.36M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 2.07% | $3.4M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BANANA yield today?
 
-4.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BANANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.36M in total.
+1 live pool clear this page's $100K TVL floor, $3.4M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank BANANA pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

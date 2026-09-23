@@ -1,43 +1,43 @@
 # BBQUSDC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 BBQUSDC의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 6.45%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 5.59% | $41.53M |
-| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.13% | $30.27M |
-| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 5.39% | $13.73M |
-| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.45% | $9.02M |
-| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 4.71% | $2.54M |
+| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 5.58% | $40.76M |
+| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.14% | $27.31M |
+| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 5.17% | $13.73M |
+| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.62% | $9.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 4.29% | $2.67M |
 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token) | Katana | 6.45% | $1.68M |
-| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.00% | $1.63M |
-| [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 5.91% | $298.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.22% | $811.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 5.75% | $369.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.45%, TVL $9.02M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.13%, TVL $30.27M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 5.00%, TVL $1.63M, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.59%, TVL $41.53M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Ethereum의 morpho-blue, APY 5.39%, TVL $13.73M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Arbitrum의 morpho-blue, APY 4.71%, TVL $2.54M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Monad의 morpho-blue, APY 5.91%, TVL $298.6K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 6.45%, TVL $1.68M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.62%, TVL $9.02M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.14%, TVL $27.31M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 5.22%, TVL $811.4K, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.58%, TVL $40.76M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Ethereum의 morpho-blue, APY 5.17%, TVL $13.73M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Arbitrum의 morpho-blue, APY 4.29%, TVL $2.67M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Monad의 morpho-blue, APY 5.75%, TVL $369.7K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 6.45%, TVL $1.68M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.45% | $9.02M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.13% | $30.27M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.00% | $1.63M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 5.59% | $41.53M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 5.39% | $13.73M |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 4.71% | $2.54M |
-| 7 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 5.91% | $298.6K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.62% | $9.02M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.14% | $27.31M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.22% | $811.4K |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 5.58% | $40.76M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 5.17% | $13.73M |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 4.29% | $2.67M |
+| 7 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 5.75% | $369.7K |
 | 8 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token) | Katana | 6.45% | $1.68M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.45%부터 6.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.29%부터 6.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.25%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.45%부터 6.45%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 5.59% | 5.39% | 기본 금리 |
-| morpho-blue | 5.13% | 5.06% | 기본 금리 |
-| morpho-blue | 5.39% | 5.10% | 기본 금리 |
-| morpho-blue | 4.45% | 4.27% | 기본 금리 |
-| morpho-blue | 4.71% | 5.37% | 기본 금리 |
-| morpho-blue | 6.45% | 6.74% | 인센티브 69.90% |
-| morpho-blue | 5.00% | 4.73% | 기본 금리 |
-| morpho-blue | 5.91% | 6.64% | 인센티브 41.11% |
+| morpho-blue | 5.58% | 5.39% | 기본 금리 |
+| morpho-blue | 5.14% | 5.05% | 기본 금리 |
+| morpho-blue | 5.17% | 5.10% | 기본 금리 |
+| morpho-blue | 4.62% | 4.29% | 기본 금리 |
+| morpho-blue | 4.29% | 5.40% | 기본 금리 |
+| morpho-blue | 6.45% | 6.69% | 인센티브 71.03% |
+| morpho-blue | 5.22% | 4.75% | 기본 금리 |
+| morpho-blue | 5.75% | 6.63% | 인센티브 42.36% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 6.45%예�
 
 ### BBQUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $100.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $96.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,15 +72,15 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 6.45%예�
 
 ### BBQUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.45%, TVL $9.02M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.13%, TVL $30.27M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 5.00%, TVL $1.63M, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.59%, TVL $41.53M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Ethereum의 morpho-blue, APY 5.39%, TVL $13.73M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Arbitrum의 morpho-blue, APY 4.71%, TVL $2.54M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Monad의 morpho-blue, APY 5.91%, TVL $298.6K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 6.45%, TVL $1.68M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.62%, TVL $9.02M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.14%, TVL $27.31M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 5.22%, TVL $811.4K, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.58%, TVL $40.76M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Ethereum의 morpho-blue, APY 5.17%, TVL $13.73M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Arbitrum의 morpho-blue, APY 4.29%, TVL $2.67M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Monad의 morpho-blue, APY 5.75%, TVL $369.7K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 6.45%, TVL $1.68M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
@@ -91,4 +91,4 @@ APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ether
 - [Katana](https://www.defi.garden/ko/chains/katana)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

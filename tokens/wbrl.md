@@ -1,13 +1,13 @@
 # WBRL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest WBRL yield right now is 0.13% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBRL yield right now is 0.03% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39c78cd9-ba69-5bbf-bbf5-ec63b02009a4&src=seo_token) | Base | 0.13% | $328.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a8a259e2-10e6-5321-aef3-e06689dcbc1b&src=seo_token) | Ethereum | 0.05% | $269.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39c78cd9-ba69-5bbf-bbf5-ec63b02009a4&src=seo_token) | Base | 0.03% | $329.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a8a259e2-10e6-5321-aef3-e06689dcbc1b&src=seo_token) | Ethereum | 0.68% | $269.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WBRL shows up in 2 pools here, with rates from 0.05% to 0.13% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBRL shows up in 2 pools here, with rates from 0.03% to 0.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.13% | 0.11% | Base rate |
-| uniswap-v4 | 0.05% | 0.05% | Base rate |
+| uniswap-v4 | 0.03% | 0.11% | Base rate |
+| uniswap-v4 | 0.68% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBRL yield today?
 
-0.13% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many WBRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $598.3K in total.
+2 live pools clear this page's $100K TVL floor, $598.8K in total.
 
 ### Are these rates safe?
 
@@ -56,8 +56,8 @@ There is not enough qualifying APY history to rank WBRL pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank WBRL pools. This view covers 
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

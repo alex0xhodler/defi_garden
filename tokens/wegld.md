@@ -1,6 +1,6 @@
 # WEGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest WEGLD yield right now is 27.51% on xexchange (MultiversX), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -33,7 +33,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WEGLD shows up in 6 pools here, with rates from 0.10% to 27.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 12.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 12.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ WEGLD shows up in 6 pools here, with rates from 0.10% to 27.51% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 2.04% | 11.43% | 100.00% incentives |
-| xexchange | 4.76% | 5.38% | 100.00% incentives |
-| xexchange | 27.51% | 26.11% | 100.00% incentives |
-| xexchange | 8.71% | 14.40% | 100.00% incentives |
+| xexchange | 2.04% | 11.08% | 100.00% incentives |
+| xexchange | 4.76% | 5.35% | 100.00% incentives |
+| xexchange | 27.51% | 26.34% | 100.00% incentives |
+| xexchange | 8.71% | 14.29% | 100.00% incentives |
 | ashswap | 0.10% | 0.10% | 100.00% incentives |
-| xexchange | 13.83% | 21.22% | 100.00% incentives |
+| xexchange | 13.83% | 21.14% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -81,4 +81,4 @@ Based on APY history only, WEGLD's lower-variability candidates are ashswap (Mul
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

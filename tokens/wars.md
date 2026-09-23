@@ -1,15 +1,15 @@
 # WARS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest WARS yield right now is 24.02% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WARS yield right now is 24.50% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.02% | $5.88M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ca8df672-e518-577c-84f8-450aaffd3931&src=seo_token) | Ethereum | 0.05% | $277.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.38% | $237.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.04% | $109.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.50% | $5.93M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ca8df672-e518-577c-84f8-450aaffd3931&src=seo_token) | Ethereum | 0.01% | $277.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858&src=seo_token) | Base | 0.68% | $237.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270&src=seo_token) | Celo | 0.14% | $109.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WARS shows up in 4 pools here, with rates from 0.04% to 24.02% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WARS shows up in 4 pools here, with rates from 0.01% to 24.50% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,10 +30,10 @@ WARS shows up in 4 pools here, with rates from 0.04% to 24.02% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 24.02% | 23.42% | 100.00% incentives |
-| uniswap-v4 | 0.05% | 0.26% | Base rate |
-| uniswap-v4 | 0.38% | 0.25% | Base rate |
-| uniswap-v3 | 0.04% | 0.08% | Base rate |
+| morpho-blue | 24.50% | 23.67% | 98.39% incentives |
+| uniswap-v4 | 0.01% | 0.25% | Base rate |
+| uniswap-v4 | 0.68% | 0.26% | Base rate |
+| uniswap-v3 | 0.14% | 0.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WARS yield today?
 
-24.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+24.50% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many WARS pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.75M in total.
+5 live pools clear this page's $100K TVL floor, $6.79M in total.
 
 ### Are these rates safe?
 
@@ -60,8 +60,8 @@ There is not enough qualifying APY history to rank WARS pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -70,4 +70,4 @@ There is not enough qualifying APY history to rank WARS pools. This view covers 
 - [Base](https://www.defi.garden/chains/base)
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

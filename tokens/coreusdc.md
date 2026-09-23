@@ -1,12 +1,12 @@
 # COREUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest COREUSDC yield right now is 10.00% on upshift (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f&src=seo_token) | Ethereum | 10.00% | $2.12M |
+| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f&src=seo_token) | Ethereum | 10.00% | $2.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COREUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.12M in total.
+1 live pool clear this page's $100K TVL floor, $2.09M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank COREUSDC pools. This view cov
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,6 +1,6 @@
 # USDC-USX — velodrome-v2 on OP Mainnet
 
-**Total APY:** 0.37% (0.00% Base · + 0.37% Rewards)
+**Total APY:** 0.38% (0.00% Base · + 0.38% Rewards)
 
 **TVL:** $100.9K
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on velodrome-v2](https://velodrome.finance/?ref=defi.garden)
 
-Last updated September 22, 2026
+Last updated September 23, 2026

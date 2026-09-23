@@ -1,12 +1,12 @@
 # AGRS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest AGRS yield right now is 34.61% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGRS yield right now is 89.45% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 34.61% | $150.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 89.45% | $182.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AGRS yield today?
 
-34.61% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+89.45% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AGRS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.5K in total.
+1 live pool clear this page's $100K TVL floor, $182.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank AGRS pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

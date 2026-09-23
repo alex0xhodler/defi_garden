@@ -1,12 +1,12 @@
 # GMEE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest GMEE yield right now is 0.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMEE yield right now is 3.86% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=117db328-23f1-432b-8a2a-0e6526c29e6f&src=seo_token) | Ethereum | 0.40% | $156.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=117db328-23f1-432b-8a2a-0e6526c29e6f&src=seo_token) | Ethereum | 3.86% | $148.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GMEE yield today?
 
-0.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GMEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156.4K in total.
+1 live pool clear this page's $100K TVL floor, $148.6K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank GMEE pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

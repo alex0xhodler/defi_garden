@@ -1,26 +1,31 @@
 # BSTONK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest BSTONK yield right now is 159.43% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSTONK yield right now is 252.60% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6ed6e6ad-2a21-5248-9df6-267fa3dd796e&src=seo_token) | Base | 159.43% | $283.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token) | Base | 66.32% | $244.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6ed6e6ad-2a21-5248-9df6-267fa3dd796e&src=seo_token) | Base | 252.60% | $292.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token) | Base | 101.11% | $242.1K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank BSTONK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSTONK's lower-variability candidates are uniswap-v4 (Base), 101.11% APY, $242.1K TVL, https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token; uniswap-v4 (Base), 252.60% APY, $292.1K TVL, https://www.defi.garden/?pool=6ed6e6ad-2a21-5248-9df6-267fa3dd796e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token) | Base | 101.11% | $242.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6ed6e6ad-2a21-5248-9df6-267fa3dd796e&src=seo_token) | Base | 252.60% | $292.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BSTONK shows up in 2 pools here, with rates from 66.32% to 159.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BSTONK shows up in 2 pools here, with rates from 101.11% to 252.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 221.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 209.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 159.43% | — | Base rate |
-| uniswap-v4 | 66.32% | 221.93% | Base rate |
+| uniswap-v4 | 252.60% | — | Base rate |
+| uniswap-v4 | 101.11% | 209.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BSTONK yield today?
 
-159.43% APY on uniswap-v4 (Base), based on live DefiLlama data.
+252.60% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BSTONK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $527.6K in total.
+2 live pools clear this page's $100K TVL floor, $534.3K in total.
 
 ### Are these rates safe?
 
@@ -49,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BSTONK pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank BSTONK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSTONK's lower-variability candidates are uniswap-v4 (Base), 101.11% APY, $242.1K TVL, https://www.defi.garden/?pool=79424935-749a-5708-9243-15355e1d26f1&src=seo_token; uniswap-v4 (Base), 252.60% APY, $292.1K TVL, https://www.defi.garden/?pool=6ed6e6ad-2a21-5248-9df6-267fa3dd796e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -64,4 +69,4 @@ There is not enough qualifying APY history to rank BSTONK pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,38 +1,38 @@
 # STUSDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest STUSDS yield right now is 5.11% on sky-lending (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.11% | $191.78M |
-| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 4.19% | $3.01M |
+| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.11% | $189.96M |
+| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 4.20% | $3M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STUSDS's lower-variability candidates are sky-lending (Ethereum), 5.11% APY, $191.78M TVL, https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token; curve-dex (Ethereum), 4.19% APY, $3.01M TVL, https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STUSDS's lower-variability candidates are sky-lending (Ethereum), 5.11% APY, $189.96M TVL, https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token; curve-dex (Ethereum), 4.20% APY, $3M TVL, https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.11% | $191.78M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 4.19% | $3.01M |
+| 1 | [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.11% | $189.96M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 4.20% | $3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STUSDS shows up in 2 pools here, with rates from 4.19% to 5.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STUSDS shows up in 2 pools here, with rates from 4.20% to 5.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sky-lending | 5.11% | 5.37% | Base rate |
-| curve-dex | 4.19% | 4.76% | 52.32% incentives |
+| sky-lending | 5.11% | 5.35% | Base rate |
+| curve-dex | 4.20% | 4.74% | 52.41% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STUSDS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $211.07M in total.
+6 live pools clear this page's $100K TVL floor, $209.77M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STUSDS pools have the most stable APY history?
 
-Based on APY history only, STUSDS's lower-variability candidates are sky-lending (Ethereum), 5.11% APY, $191.78M TVL, https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token; curve-dex (Ethereum), 4.19% APY, $3.01M TVL, https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STUSDS's lower-variability candidates are sky-lending (Ethereum), 5.11% APY, $189.96M TVL, https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token; curve-dex (Ethereum), 4.20% APY, $3M TVL, https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

@@ -1,12 +1,12 @@
 # GOLD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 GOLD의 가장 높은 정직한 수익률은 Algorand의 folks-finance-lending에서 0.17%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $492.3K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $488.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 - [Algorand](https://www.defi.garden/ko/chains/algorand)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026

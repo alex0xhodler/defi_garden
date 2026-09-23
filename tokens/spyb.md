@@ -1,13 +1,13 @@
 # SPYB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
 The highest honest SPYB yield right now is 126.17% on native-credit-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=aac54220-64b5-558b-9fc9-b62b9c68f32a&src=seo_token) | BSC | 35.01% | $978K |
-| [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 126.17% | $101.2K |
+| [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 126.17% | $101.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank SPYB pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

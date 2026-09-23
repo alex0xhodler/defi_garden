@@ -1,12 +1,12 @@
 # STAC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 22, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
 
-The highest honest STAC yield right now is 5.72% on securitize-tokenized-aaa-clo-fund (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAC yield right now is 5.88% on securitize-tokenized-aaa-clo-fund (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745&src=seo_token) | Ethereum | 5.72% | $103.62M |
+| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745&src=seo_token) | Ethereum | 5.88% | $103.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STAC yield today?
 
-5.72% APY on securitize-tokenized-aaa-clo-fund (Ethereum), based on live DefiLlama data.
+5.88% APY on securitize-tokenized-aaa-clo-fund (Ethereum), based on live DefiLlama data.
 
 ### How many STAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.62M in total.
+1 live pool clear this page's $100K TVL floor, $103.64M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank STAC pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 22, 2026
+## Last updated September 23, 2026

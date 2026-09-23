@@ -1,43 +1,43 @@
 # VELO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 22, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VELO의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v3에서 139.92%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VELO의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v3에서 135.18%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 54.29% | $1.07M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 106.34% | $817.1K |
-| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 139.92% | $323.9K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 42.65% | $308.1K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 71.79% | $249.6K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token) | OP Mainnet | 0.04% | $150.2K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 47.79% | $148.1K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token) | OP Mainnet | 49.55% | $139.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 54.76% | $1.09M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 107.49% | $825.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 42.81% | $313.5K |
+| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 135.18% | $289.4K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 72.59% | $252.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 46.35% | $155.9K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token) | OP Mainnet | 0.04% | $153.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token) | OP Mainnet | 50.08% | $140.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VELO의 변동성 낮은 후보는 OP Mainnet의 extra-finance-leverage-farming, APY 0.04%, TVL $150.2K, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token; OP Mainnet의 velodrome-v2, APY 42.65%, TVL $308.1K, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token; OP Mainnet의 velodrome-v2, APY 47.79%, TVL $148.1K, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; OP Mainnet의 velodrome-v2, APY 49.55%, TVL $139.4K, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token; OP Mainnet의 velodrome-v2, APY 54.29%, TVL $1.07M, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token; OP Mainnet의 extra-finance-leverage-farming, APY 71.79%, TVL $249.6K, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token; OP Mainnet의 velodrome-v3, APY 139.92%, TVL $323.9K, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token; OP Mainnet의 velodrome-v2, APY 106.34%, TVL $817.1K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VELO의 변동성 낮은 후보는 OP Mainnet의 extra-finance-leverage-farming, APY 0.04%, TVL $153.4K, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token; OP Mainnet의 velodrome-v2, APY 42.81%, TVL $313.5K, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token; OP Mainnet의 velodrome-v2, APY 46.35%, TVL $155.9K, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; OP Mainnet의 velodrome-v2, APY 50.08%, TVL $140.8K, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token; OP Mainnet의 velodrome-v2, APY 54.76%, TVL $1.09M, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token; OP Mainnet의 extra-finance-leverage-farming, APY 72.59%, TVL $252.6K, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token; OP Mainnet의 velodrome-v3, APY 135.18%, TVL $289.4K, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token; OP Mainnet의 velodrome-v2, APY 107.49%, TVL $825.4K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token) | OP Mainnet | 0.04% | $150.2K |
-| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 42.65% | $308.1K |
-| 3 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 47.79% | $148.1K |
-| 4 | [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token) | OP Mainnet | 49.55% | $139.4K |
-| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 54.29% | $1.07M |
-| 6 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 71.79% | $249.6K |
-| 7 | [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 139.92% | $323.9K |
-| 8 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 106.34% | $817.1K |
+| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token) | OP Mainnet | 0.04% | $153.4K |
+| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 42.81% | $313.5K |
+| 3 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 46.35% | $155.9K |
+| 4 | [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token) | OP Mainnet | 50.08% | $140.8K |
+| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 54.76% | $1.09M |
+| 6 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 72.59% | $252.6K |
+| 7 | [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 135.18% | $289.4K |
+| 8 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 107.49% | $825.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VELO 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 139.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VELO 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 135.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 32.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 32.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ VELO 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 139.92%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| velodrome-v2 | 54.29% | 31.92% | 인센티브 100.00% |
-| velodrome-v2 | 106.34% | 102.36% | 인센티브 100.00% |
-| velodrome-v3 | 139.92% | 109.00% | 인센티브 100.00% |
-| velodrome-v2 | 42.65% | 28.90% | 인센티브 100.00% |
-| extra-finance-leverage-farming | 71.79% | 34.73% | 기본 금리 |
+| velodrome-v2 | 54.76% | 31.93% | 인센티브 100.00% |
+| velodrome-v2 | 107.49% | 102.65% | 인센티브 100.00% |
+| velodrome-v2 | 42.81% | 28.46% | 인센티브 100.00% |
+| velodrome-v3 | 135.18% | 109.09% | 인센티브 100.00% |
+| extra-finance-leverage-farming | 72.59% | 34.93% | 기본 금리 |
+| velodrome-v2 | 46.35% | 29.21% | 인센티브 100.00% |
 | extra-finance-leverage-farming | 0.04% | 0.04% | 기본 금리 |
-| velodrome-v2 | 47.79% | 29.16% | 인센티브 100.00% |
-| velodrome-v2 | 49.55% | 33.18% | 인센티브 100.00% |
+| velodrome-v2 | 50.08% | 33.04% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ VELO 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 139.92%�
 
 ### 오늘 VELO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v3에서 APY 139.92%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v3에서 APY 135.18%예요.
 
 ### VELO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $3.74M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $3.76M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v3에서 APY 139.9
 
 ### VELO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VELO의 변동성 낮은 후보는 OP Mainnet의 extra-finance-leverage-farming, APY 0.04%, TVL $150.2K, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token; OP Mainnet의 velodrome-v2, APY 42.65%, TVL $308.1K, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token; OP Mainnet의 velodrome-v2, APY 47.79%, TVL $148.1K, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; OP Mainnet의 velodrome-v2, APY 49.55%, TVL $139.4K, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token; OP Mainnet의 velodrome-v2, APY 54.29%, TVL $1.07M, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token; OP Mainnet의 extra-finance-leverage-farming, APY 71.79%, TVL $249.6K, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token; OP Mainnet의 velodrome-v3, APY 139.92%, TVL $323.9K, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token; OP Mainnet의 velodrome-v2, APY 106.34%, TVL $817.1K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VELO의 변동성 낮은 후보는 OP Mainnet의 extra-finance-leverage-farming, APY 0.04%, TVL $153.4K, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40&src=seo_token; OP Mainnet의 velodrome-v2, APY 42.81%, TVL $313.5K, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token; OP Mainnet의 velodrome-v2, APY 46.35%, TVL $155.9K, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; OP Mainnet의 velodrome-v2, APY 50.08%, TVL $140.8K, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56&src=seo_token; OP Mainnet의 velodrome-v2, APY 54.76%, TVL $1.09M, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token; OP Mainnet의 extra-finance-leverage-farming, APY 72.59%, TVL $252.6K, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token; OP Mainnet의 velodrome-v3, APY 135.18%, TVL $289.4K, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token; OP Mainnet의 velodrome-v2, APY 107.49%, TVL $825.4K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 VELO의 변동성 낮은 후보는 OP Mainn
 
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: September 22, 2026
+## 마지막 업데이트: September 23, 2026
