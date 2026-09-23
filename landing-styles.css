@@ -408,7 +408,6 @@
 }
 .landing-page-dot:hover {
   border-color: var(--color-primary, var(--ui-accent));
-  transform: scale(1.15);
 }
 .landing-page-dot.is-active {
   background: var(--color-primary, var(--ui-accent));

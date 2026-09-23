@@ -269,5 +269,67 @@ test('non-vacuity: reintroducing a hardcoded mono stack (in memory only) fails t
   assert(restoredResult.ok, 'the real (unmutated) population should pass — style.css on disk was never touched');
 });
 
+// ---------------------------------------------------------------------
+// Criterion 3 (238's acceptance criteria, and BACKLOG.md's own item-238
+// row, both state this twice independently): "no `transform: scale` on
+// any `:hover` rule repo-wide (CLAUDE.md ban, now machine-enforced)".
+// Scans every stylesheet CLAUDE.md's own box-shadow-grep precedent
+// covers, not just style.css — a `:hover` scale-pop in planner/pool-
+// detail/landing/stories CSS is the same banned pattern.
+// ---------------------------------------------------------------------
+const HOVER_SCALE_FILES = [
+  'style.css',
+  'planner-styles.css',
+  'pool-detail-styles.css',
+  'landing-styles.css',
+  path.join('stories', 'stories.css'),
+];
+
+function findHoverScaleViolations(files) {
+  const violations = [];
+  for (const rel of files) {
+    const full = path.join(__dirname, rel);
+    if (!fs.existsSync(full)) continue;
+    const decls = parseDeclarations(fs.readFileSync(full, 'utf8'));
+    for (const d of decls) {
+      if (
+        d.prop === 'transform' &&
+        /\bscale(x|y|z|3d)?\s*\(/i.test(d.value) &&
+        /:hover\b/.test(d.selector)
+      ) {
+        violations.push({ file: rel, selector: d.selector, value: d.value, line: d.line });
+      }
+    }
+  }
+  return violations;
+}
+
+test('no `transform: scale(...)` on any `:hover` rule, repo-wide (CLAUDE.md ban)', () => {
+  const violations = findHoverScaleViolations(HOVER_SCALE_FILES);
+  assert(
+    violations.length === 0,
+    'banned scale-pop hover(s) found: ' +
+      violations.map((v) => `${v.file}:${v.line} ${v.selector} { ${v.value} }`).join('; ')
+  );
+});
+
+test('non-vacuity: a synthetic scale-pop hover (in a temp file) is detected; cleanup leaves no trace', () => {
+  const tmpFile = path.join(__dirname, `.__tmp_hover_scale_check_${process.pid}.css`);
+  fs.writeFileSync(tmpFile, '.tmp-probe:hover {\n  transform: scale(1.05);\n}\n');
+  try {
+    const violations = findHoverScaleViolations([path.relative(__dirname, tmpFile)]);
+    assert(
+      violations.length === 1 && violations[0].selector === '.tmp-probe:hover',
+      'a synthetic scale-pop hover in a fresh file should have been detected — the check is vacuous'
+    );
+  } finally {
+    fs.unlinkSync(tmpFile);
+  }
+  assert(!fs.existsSync(tmpFile), 'temp probe file was not cleaned up');
+
+  const realViolations = findHoverScaleViolations(HOVER_SCALE_FILES);
+  assert(realViolations.length === 0, 'the real repo-wide scan should pass — no files on disk were touched by this proof');
+});
+
 console.log(`\n${passed} passed, ${failed} failed (typography tokens, spec 238)`);
 if (failed > 0) process.exit(1);
