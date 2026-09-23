@@ -2330,7 +2330,6 @@ body {
 .sota-popover-title {
   font-size: 11px;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-text);
 }
@@ -2353,7 +2352,6 @@ body {
 
 .sota-section-subtitle {
   font-size: 10px;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 700;
   color: var(--color-text-secondary);
@@ -3026,7 +3024,6 @@ body {
   font-size: 11px;
   font-weight: var(--font-weight-bold);
   color: var(--color-text-secondary);
-  text-transform: uppercase;
   letter-spacing: 1.8px;
   padding: var(--space-6) var(--space-12);
   margin: 0;
@@ -3656,7 +3653,7 @@ body {
 .pool-score-chip {
   display: inline-flex;
   align-items: center;
-  font-family: var(--font-mono, monospace);
+  font-family: var(--font-family-mono);
   font-size: 11px;
   font-weight: 500;
   line-height: 1;
@@ -3818,7 +3815,6 @@ body {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   margin-bottom: var(--space-4);
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: var(--font-weight-semibold);
 }
@@ -4514,7 +4510,6 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
   font-size: 0.70rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   border-radius: 2px !important;
   margin-bottom: 18px;
 }
@@ -5648,7 +5643,7 @@ html {
   border-radius: var(--ui-radius-sm);
   box-shadow: none;
   border: 1px solid var(--ui-border);
-  font-family: monospace;
+  font-family: var(--font-family-mono);
   font-weight: var(--font-weight-bold);
 }
 
@@ -5753,7 +5748,6 @@ html {
   box-shadow: none;
   position: relative;
   overflow: hidden;
-  text-transform: uppercase;
   letter-spacing: 0.025em;
 }
 
@@ -6380,14 +6374,6 @@ html {
   animation: fadeInDown var(--entry-duration-normal) var(--entry-easing) var(--entry-delay-base) both;
 }
 
-.logo {
-  transition: transform 300ms var(--entry-easing);
-}
-
-.logo:hover {
-  transform: scale(1.02);
-}
-
 /* Search section animations */
 .search-section.animate-on-mount {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 2) both;
@@ -6826,7 +6812,6 @@ html {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   color: var(--color-text-secondary);
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin-right: var(--space-8);
   flex-shrink: 0;
@@ -8022,7 +8007,6 @@ a.hub-cta:active {
   .section-label {
     font-size: 11px;
     font-weight: 800;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-text-secondary);
     margin-bottom: 6px;
