@@ -86,29 +86,38 @@ inside `@keyframes` blocks (`fadeInScale`, `loading-progress`,
 (`.modal-close:active`/`:focus`-adjacent `amount-input:focus`) — **except
 one residual, documented below**.
 
-### Residual found, explicitly NOT fixed (out of hard scope)
+### Round 2: `.modal-close:hover` and `.landing-page-dot:hover` fixed; `hype-harvest.css` fixed too
 
-`grep` also surfaced `.modal-close:hover { transform: scale(1.05); }`
-(style.css, near line 5579) and a duplicate-property oddity right below it:
-`.modal-close:active` declares `transform: translateY(1px);` immediately
-followed by `transform: scale(0.95);` — the second wins (last declaration),
-so the documented Quiet press-physics (`translateY(1px)` only) is currently
-being silently overridden by a leftover scale-down on that one control.
+Round-1 verifier FAIL correctly rejected this section's original framing: the
+spec's own acceptance criterion reads "no `transform: scale` on any `:hover`
+rule **repo-wide**... **now machine-enforced**" — not scoped to `.logo:hover`
+alone, so `.modal-close:hover { transform: scale(1.05); }` (style.css) and
+`.landing-page-dot:hover { transform: scale(1.15); }` (landing-styles.css)
+were genuinely blocking, not optional follow-ups. Both fixed in round 2;
+`test_typography_tokens.js` extended with a repo-wide scan.
 
-This is the same class of defect as `.logo:hover` and would need the same
-two-line fix. It was **not** touched: the task brief's hard constraint list
-is explicit — "anything outside typography (font-family, text-transform)
-**and the one named `.logo:hover` scale-pop** — that's explicitly OUT of
-scope." `.modal-close` was never named. Flagging it here rather than
-silently leaving it is the honest thing to do; it's a one-line follow-up
-for whichever spec next touches `.modal-close` or does a repo-wide
-scale-pop sweep. It does **not** block this item — 238's own acceptance
-line for this criterion is anchored to `.logo:hover` specifically ("this is
-it").
+Round-2 verifier then ran its own extension attack — `find . -name "*.css"`
+against the *actual* file system rather than the hand-picked five the round-2
+scan listed — and found a sixth live stylesheet the list missed:
+`hype-harvest.css` (added 2026-08-26, PR #488, after this repo's CSS-file
+inventory had last been enumerated anywhere), containing
+`.quiet-slider::-webkit-slider-thumb:hover { transform: scale(1.15); }`,
+rendered live on `hype-harvest.html`. Fixed in round 3, and the weak form of
+the fix this time: the scanned-file list is no longer hand-maintained at all
+— `test_typography_tokens.js` now derives it from `fs.readdirSync(__dirname,
+{recursive: true})` filtered to `*.css` minus `*.min.css`, so a *seventh*
+new stylesheet added tomorrow is in scope automatically rather than needing
+a fourth round to discover it the same way.
 
-Also out of scope, found while checking sibling files (never touched, not
-`style.css`): `landing-styles.css:411` — `.landing-page-dot:hover {
-transform: scale(1.15); }`, and `.landing-spotlight-eyebrow`
+`.modal-close:active`'s duplicate-property oddity right below the fixed
+`:hover` rule — `transform: translateY(1px);` immediately followed by
+`transform: scale(0.95);`, the second silently winning — is a *different*
+defect class (`:active`, not `:hover`; a duplicate-declaration bug, not a
+scale-pop-on-hover) and remains genuinely out of this item's scope, per both
+verifier rounds' agreement. One-line follow-up for whichever spec next
+touches `.modal-close` or does a duplicate-CSS-property sweep.
+
+`.landing-spotlight-eyebrow`
 (`landing-styles.css:448–461`) still carries both `font-family:
 var(--font-family-mono)` and `text-transform: uppercase` — the exact twin
 `.seo-eyebrow` used to be before this pass. Since `.seo-eyebrow` dropped its
@@ -143,27 +152,15 @@ needed a case fix.
 - `node test_css_minified_render.js` — **2/2 passed** (Playwright: real
   router load, planner + analytics mode both request/apply the minified
   sheets).
-- Supplementary ad-hoc Playwright check (not committed — a throwaway script
-  run and deleted, per the "20-minute budget, quick pass if time allows"
-  guidance): loaded `home.html?token=USDC` against a fixtured pool, 1280px,
-  both `light` and `dark` color-scheme/`data-theme`. Computed style of
-  `.pool-symbol` (the grid data row named in the spec's evidence) in both
-  themes: `font-family` identical to `getComputedStyle(document.body)`
-  (`"Public Sans", ...`), `text-transform: none`. This is the render-path
-  confirmation that the "data rows read as a different product" gap from
-  the spec's Evidence section is closed for the grid row specifically. I
-  did **not** additionally confirm `.pool-detail-label`/`.filter-label`'s
-  computed style live (that surface needs either a click-through to open
-  the pool-detail panel or the filter dropdown, and a fixture pool shaped
-  enough for the detail panel to render fully — not reachable via a
-  direct-URL fixture in the time available); for those I relied on the CSS
-  diff itself (the `text-transform: uppercase` line is verifiably gone,
-  `font-family` was never overridden away from the inherited body stack on
-  those rules) plus the passing `test_typography_tokens.js` enumeration.
-  Did not run the full 360/768/1280 × light/dark visual-regression harness
-  (`specs/225-screenshots/capture-shots.js`) — time budget; the fast-test
-  suite + this targeted computed-style check + the CSS diff itself is the
-  fallback the task brief explicitly allows.
+- Supplementary ad-hoc Playwright check (throwaway, not committed): loaded
+  `home.html?token=USDC` fixtured, 1280px, light+dark. `.pool-symbol`
+  computed `font-family` matches `getComputedStyle(document.body)`,
+  `text-transform: none` — confirms the grid-row gap from the spec's
+  Evidence is closed. Did not click through to `.pool-detail-label`/
+  `.filter-label` live (no reachable fixture in time budget) — relied on
+  the CSS diff + `test_typography_tokens.js` enumeration for those instead.
+  Full 360/768/1280 × light/dark harness (`capture-shots.js`) not run —
+  time budget, per the task brief's explicit fallback allowance.
 
 ## Class-rule honesty check (per build.md)
 
@@ -189,8 +186,12 @@ is automatically in scope the next time the test runs:
   is edited but `npm run minify` wasn't re-run before commit (byte-diff
   against a fresh minify).
 
-It would **not** catch a *new* out-of-scope `transform: scale` on a
-`:hover` rule elsewhere in the codebase (no test asserts that repo-wide —
-see the `.modal-close`/`landing-styles.css` residuals above, which predate
-this pass and are flagged for a follow-up rather than silently fixed or
-silently ignored).
+As of round 3, it also catches a new `transform: scale` on any `:hover`
+rule in any `.css` file the repo ships (population derived from disk at
+test time, not a hand-maintained array — see the round-2/round-3 note
+above), which is what round 2's own verifier used to find the
+`hype-harvest.css` gap this repo's earlier round-2 fix had left. It would
+not catch the same defect shape on a property other than `transform`, or
+on a pseudo-class other than `:hover` (e.g. the `.modal-close:active`
+duplicate-declaration bug noted above) — that is a different, narrower
+class than 238 was scoped to close.

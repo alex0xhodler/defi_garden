@@ -277,13 +277,16 @@ test('non-vacuity: reintroducing a hardcoded mono stack (in memory only) fails t
 // covers, not just style.css — a `:hover` scale-pop in planner/pool-
 // detail/landing/stories CSS is the same banned pattern.
 // ---------------------------------------------------------------------
-const HOVER_SCALE_FILES = [
-  'style.css',
-  'planner-styles.css',
-  'pool-detail-styles.css',
-  'landing-styles.css',
-  path.join('stories', 'stories.css'),
-];
+// Round-2 verifier extension attack (238): the first pass of this list was
+// carried over from CLAUDE.md's stale 2026-08-05 box-shadow-grep precedent
+// and missed `hype-harvest.css` (added 2026-08-26, PR #488) — a live,
+// rendered stylesheet with its own scale-pop hover. Derived from disk at
+// require time instead of hand-maintained, so a NEW source .css file (a
+// generated .min.css is excluded) is in scope automatically, the same
+// failure this repo's RAZOR.md names as a "mirror" otherwise (item 212).
+const HOVER_SCALE_FILES = fs
+  .readdirSync(__dirname, { recursive: true })
+  .filter((f) => f.endsWith('.css') && !f.endsWith('.min.css') && !f.includes('node_modules'));
 
 function findHoverScaleViolations(files) {
   const violations = [];
