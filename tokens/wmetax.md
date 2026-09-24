@@ -1,12 +1,12 @@
 # WMETAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest WMETAX yield right now is 0.12% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMETAX yield right now is 0.33% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b&src=seo_token) | Mantle | 0.12% | $115.1K |
+| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b&src=seo_token) | Mantle | 0.33% | $114.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMETAX yield today?
 
-0.12% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.33% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WMETAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.1K in total.
+1 live pool clear this page's $100K TVL floor, $114.7K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank WMETAX pools. This view cover
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [KII](https://www.defi.garden/tokens/kii)
+- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

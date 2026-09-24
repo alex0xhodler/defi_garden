@@ -1,12 +1,12 @@
 # RUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 RUSD의 가장 높은 정직한 수익률은 Ethereum의 fusion-by-ipor에서 4.51%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RUSD의 가장 높은 정직한 수익률은 Ethereum의 fusion-by-ipor에서 5.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 4.51% | $632.4K |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 5.75% | $630.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 RUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 fusion-by-ipor에서 APY 4.51%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 fusion-by-ipor에서 APY 5.75%예요.
 
 ### RUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $632.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $630.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fusion-by-ipor에서 APY 4.51%
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

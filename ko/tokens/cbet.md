@@ -1,12 +1,12 @@
 # CBET 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CBET의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBET의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 0.86% | $298.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 1.13% | $299.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 CBET의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.86%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.13%예요.
 
 ### CBET 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $298.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $299.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.86%예�
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

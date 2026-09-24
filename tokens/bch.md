@@ -1,12 +1,12 @@
 # BCH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
 The highest honest BCH yield right now is 0.21% on venus-core-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=c5e32cb4-6484-45de-9f46-88004793c352&src=seo_token) | BSC | 0.21% | $548.7K |
+| [venus-core-pool →](https://www.defi.garden/?pool=c5e32cb4-6484-45de-9f46-88004793c352&src=seo_token) | BSC | 0.21% | $551K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $548.7K in total.
+1 live pool clear this page's $100K TVL floor, $551K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BCH pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

@@ -1,24 +1,24 @@
 # CELO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 CELO의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 6.77%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $472K |
+| [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $443K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 6.77% | $208.4K |
-| [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $107.8K |
+| [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $101.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.28%, TVL $107.8K, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; Celo의 moola-market, APY 0.01%, TVL $472K, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; Celo의 uniswap-v3, APY 6.77%, TVL $208.4K, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.28%, TVL $101.1K, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; Celo의 moola-market, APY 0.01%, TVL $443K, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; Celo의 uniswap-v3, APY 6.77%, TVL $208.4K, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $107.8K |
-| 2 | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $472K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $101.1K |
+| 2 | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $443K |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 6.77% | $208.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -27,7 +27,7 @@ APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 
 
 CELO 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 6.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.33%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -35,7 +35,7 @@ CELO 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 6.77%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| moola-market | 0.01% | 0.33% | 기본 금리 |
+| moola-market | 0.01% | 0.32% | 기본 금리 |
 | uniswap-v3 | 6.77% | 8.39% | 기본 금리 |
 | aave-v3 | 0.28% | 0.28% | 기본 금리 |
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 6.77%예요.
 
 ### CELO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.53M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 6.77%예요.
 
 ### CELO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.28%, TVL $107.8K, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; Celo의 moola-market, APY 0.01%, TVL $472K, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; Celo의 uniswap-v3, APY 6.77%, TVL $208.4K, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 aave-v3, APY 0.28%, TVL $101.1K, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; Celo의 moola-market, APY 0.01%, TVL $443K, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; Celo의 uniswap-v3, APY 6.77%, TVL $208.4K, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 CELO의 변동성 낮은 후보는 Celo의 
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

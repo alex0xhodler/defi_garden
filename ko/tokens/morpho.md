@@ -1,39 +1,39 @@
 # MORPHO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MORPHO의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 148.13%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MORPHO의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 107.12%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 113.87% | $2.17M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.37% | $851K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 148.13% | $598.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 52.57% | $448.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 76.91% | $368.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 36.28% | $132.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 85.79% | $2.14M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 4.33% | $865.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 199.97% | $597.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 53.12% | $451.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 107.12% | $356.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 35.93% | $130.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MORPHO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 3.37%, TVL $851K, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; Solana의 raydium-amm, APY 52.57%, TVL $448.1K, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; Ethereum의 uniswap-v3, APY 36.28%, TVL $132.3K, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; Base의 uniswap-v3, APY 148.13%, TVL $598.4K, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; Base의 aerodrome-slipstream, APY 113.87%, TVL $2.17M, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; Base의 uniswap-v3, APY 76.91%, TVL $368.5K, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MORPHO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 4.33%, TVL $865.3K, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; Solana의 raydium-amm, APY 53.12%, TVL $451.9K, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; Ethereum의 uniswap-v3, APY 35.93%, TVL $130.4K, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; Base의 uniswap-v3, APY 199.97%, TVL $597.6K, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; Base의 aerodrome-slipstream, APY 85.79%, TVL $2.14M, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; Base의 uniswap-v3, APY 107.12%, TVL $356.2K, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.37% | $851K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 52.57% | $448.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 36.28% | $132.3K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 148.13% | $598.4K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 113.87% | $2.17M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 76.91% | $368.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 4.33% | $865.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 53.12% | $451.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 35.93% | $130.4K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 199.97% | $597.6K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 85.79% | $2.14M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 107.12% | $356.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MORPHO 풀은 여기 6개가 있고, 3개 체인에서 APY가 3.37%부터 148.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MORPHO 풀은 여기 6개가 있고, 3개 체인에서 APY가 4.33%부터 199.97%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 63.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 61.04%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 6개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,12 +41,12 @@ MORPHO 풀은 여기 6개가 있고, 3개 체인에서 APY가 3.37%부터 148.13
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 113.87% | 125.68% | 인센티브 10.71% |
-| uniswap-v4 | 3.37% | 7.76% | 기본 금리 |
-| uniswap-v3 | 148.13% | 108.50% | 기본 금리 |
-| raydium-amm | 52.57% | 44.08% | 기본 금리 |
-| uniswap-v3 | 76.91% | 83.06% | 기본 금리 |
-| uniswap-v3 | 36.28% | 35.33% | 기본 금리 |
+| aerodrome-slipstream | 85.79% | 125.91% | 인센티브 10.13% |
+| uniswap-v4 | 4.33% | 7.38% | 기본 금리 |
+| uniswap-v3 | 199.97% | 104.98% | 기본 금리 |
+| raydium-amm | 53.12% | 41.65% | 기본 금리 |
+| uniswap-v3 | 107.12% | 80.42% | 기본 금리 |
+| uniswap-v3 | 35.93% | 33.65% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,11 +54,11 @@ MORPHO 풀은 여기 6개가 있고, 3개 체인에서 APY가 3.37%부터 148.13
 
 ### 오늘 MORPHO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 148.13%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 107.12%예요.
 
 ### MORPHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.3M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.31M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,15 +66,15 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 148.13%예요
 
 ### MORPHO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MORPHO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 3.37%, TVL $851K, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; Solana의 raydium-amm, APY 52.57%, TVL $448.1K, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; Ethereum의 uniswap-v3, APY 36.28%, TVL $132.3K, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; Base의 uniswap-v3, APY 148.13%, TVL $598.4K, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; Base의 aerodrome-slipstream, APY 113.87%, TVL $2.17M, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; Base의 uniswap-v3, APY 76.91%, TVL $368.5K, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MORPHO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 4.33%, TVL $865.3K, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; Solana의 raydium-amm, APY 53.12%, TVL $451.9K, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; Ethereum의 uniswap-v3, APY 35.93%, TVL $130.4K, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; Base의 uniswap-v3, APY 199.97%, TVL $597.6K, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; Base의 aerodrome-slipstream, APY 85.79%, TVL $2.14M, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; Base의 uniswap-v3, APY 107.12%, TVL $356.2K, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
@@ -83,4 +83,4 @@ APY 이력만 기준으로 비교한 MORPHO의 변동성 낮은 후보는 Ethere
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

@@ -1,12 +1,12 @@
 # BULLA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest BULLA yield right now is 0.18% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BULLA yield right now is 0.31% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 0.18% | $370.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 0.31% | $329.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BULLA yield today?
 
-0.18% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.31% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BULLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $370.6K in total.
+1 live pool clear this page's $100K TVL floor, $329.5K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BULLA pools. This view covers
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

@@ -1,52 +1,50 @@
 # PUMP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest PUMP yield right now is 206.49% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUMP yield right now is 145.30% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 139.18% | $2.7M |
-| [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 276.70% | $1.03M |
-| [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 13.22% | $754.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 206.49% | $551.3K |
-| [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.20% | $330.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=74e225f4-680a-5069-9b35-16ddbbb43a0f&src=seo_token) | Solana | 133.98% | $109.3K |
+| [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 63.22% | $2.44M |
+| [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 145.30% | $932.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 11.19% | $702.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 113.72% | $471.2K |
+| [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.26% | $255.2K |
 | [orca-dex →](https://www.defi.garden/?pool=cfc2f637-3567-5f89-9d57-3f8dfed18bf2&src=seo_token) | Solana | 81.78% | $102.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PUMP's lower-variability candidates are project-0 (Solana), 0.20% APY, $330.2K TVL, https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token; orca-dex (Solana), 139.18% APY, $2.7M TVL, https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token; orca-dex (Solana), 276.70% APY, $1.03M TVL, https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token; raydium-amm (Solana), 206.49% APY, $551.3K TVL, https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token; raydium-amm (Solana), 13.22% APY, $754.2K TVL, https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PUMP's lower-variability candidates are project-0 (Solana), 0.26% APY, $255.2K TVL, https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token; orca-dex (Solana), 63.22% APY, $2.44M TVL, https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token; orca-dex (Solana), 145.30% APY, $932.9K TVL, https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token; raydium-amm (Solana), 113.72% APY, $471.2K TVL, https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token; raydium-amm (Solana), 11.19% APY, $702.3K TVL, https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.20% | $330.2K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 139.18% | $2.7M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 276.70% | $1.03M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 206.49% | $551.3K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 13.22% | $754.2K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.26% | $255.2K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 63.22% | $2.44M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 145.30% | $932.9K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 113.72% | $471.2K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 11.19% | $702.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PUMP shows up in 7 pools here, with rates from 0.20% to 276.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PUMP shows up in 6 pools here, with rates from 0.26% to 145.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 152.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 150.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-6 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 139.18% | 157.05% | Base rate |
-| orca-dex | 276.70% | 146.53% | Base rate |
-| raydium-amm | 13.22% | 5.32% | Base rate |
-| raydium-amm | 206.49% | 217.60% | Base rate |
-| project-0 | 0.20% | 0.42% | Base rate |
-| raydium-amm | 133.98% | 760.27% | Base rate |
+| orca-dex | 63.22% | 149.67% | Base rate |
+| orca-dex | 145.30% | 150.40% | Base rate |
+| raydium-amm | 11.19% | 5.41% | Base rate |
+| raydium-amm | 113.72% | 206.94% | Base rate |
+| project-0 | 0.26% | 0.39% | Base rate |
 | orca-dex | 81.78% | 152.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,11 +53,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PUMP yield today?
 
-206.49% APY on raydium-amm (Solana), based on live DefiLlama data.
+145.30% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PUMP pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $5.57M in total.
+6 live pools clear this page's $100K TVL floor, $4.91M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +65,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PUMP pools have the most stable APY history?
 
-Based on APY history only, PUMP's lower-variability candidates are project-0 (Solana), 0.20% APY, $330.2K TVL, https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token; orca-dex (Solana), 139.18% APY, $2.7M TVL, https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token; orca-dex (Solana), 276.70% APY, $1.03M TVL, https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token; raydium-amm (Solana), 206.49% APY, $551.3K TVL, https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token; raydium-amm (Solana), 13.22% APY, $754.2K TVL, https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PUMP's lower-variability candidates are project-0 (Solana), 0.26% APY, $255.2K TVL, https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token; orca-dex (Solana), 63.22% APY, $2.44M TVL, https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token; orca-dex (Solana), 145.30% APY, $932.9K TVL, https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token; raydium-amm (Solana), 113.72% APY, $471.2K TVL, https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token; raydium-amm (Solana), 11.19% APY, $702.3K TVL, https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +80,4 @@ Based on APY history only, PUMP's lower-variability candidates are project-0 (So
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

@@ -1,26 +1,31 @@
 # VFY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest VFY yield right now is 10.41% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VFY yield right now is 32.39% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32&src=seo_token) | Base | 96.22% | $743K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token) | Base | 10.41% | $236.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32&src=seo_token) | Base | 32.39% | $684.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token) | Base | 18.14% | $229.4K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank VFY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VFY's lower-variability candidates are aerodrome-slipstream (Base), 32.39% APY, $684.3K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32&src=seo_token; uniswap-v4 (Base), 18.14% APY, $229.4K TVL, https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32&src=seo_token) | Base | 32.39% | $684.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token) | Base | 18.14% | $229.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VFY shows up in 2 pools here, with rates from 10.41% to 96.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VFY shows up in 2 pools here, with rates from 18.14% to 32.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 28.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +33,8 @@ VFY shows up in 2 pools here, with rates from 10.41% to 96.22% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 96.22% | 40.02% | 95.12% incentives |
-| uniswap-v4 | 10.41% | 15.27% | Base rate |
+| aerodrome-slipstream | 32.39% | 40.96% | 91.67% incentives |
+| uniswap-v4 | 18.14% | 15.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VFY yield today?
 
-10.41% APY on uniswap-v4 (Base), based on live DefiLlama data.
+32.39% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many VFY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $979.3K in total.
+2 live pools clear this page's $100K TVL floor, $913.7K in total.
 
 ### Are these rates safe?
 
@@ -49,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VFY pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank VFY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VFY's lower-variability candidates are aerodrome-slipstream (Base), 32.39% APY, $684.3K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32&src=seo_token; uniswap-v4 (Base), 18.14% APY, $229.4K TVL, https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -64,4 +69,4 @@ There is not enough qualifying APY history to rank VFY pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

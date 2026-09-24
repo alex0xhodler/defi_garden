@@ -1,31 +1,31 @@
 # SYN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest SYN yield right now is 73.23% on sushiswap (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYN yield right now is 79.97% on sushiswap (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.38% | $234.3K |
-| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 73.23% | $193.8K |
+| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.25% | $234K |
+| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 79.97% | $186.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.38% APY, $234.3K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 73.23% APY, $193.8K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.25% APY, $234K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 79.97% APY, $186.5K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.38% | $234.3K |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 73.23% | $193.8K |
+| 1 | [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.25% | $234K |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 79.97% | $186.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYN shows up in 2 pools here, with rates from 0.38% to 73.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYN shows up in 2 pools here, with rates from 0.25% to 79.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 32.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 34.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 0.38% | 0.09% | Base rate |
-| sushiswap | 73.23% | 65.66% | Base rate |
+| frax | 0.25% | 0.10% | Base rate |
+| sushiswap | 79.97% | 68.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYN yield today?
 
-73.23% APY on sushiswap (Ethereum), based on live DefiLlama data.
+79.97% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many SYN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $428.1K in total.
+2 live pools clear this page's $100K TVL floor, $420.4K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYN pools have the most stable APY history?
 
-Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.38% APY, $234.3K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 73.23% APY, $193.8K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYN's lower-variability candidates are frax (Ethereum), 0.25% APY, $234K TVL, https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token; sushiswap (Ethereum), 79.97% APY, $186.5K TVL, https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

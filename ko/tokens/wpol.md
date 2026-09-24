@@ -1,12 +1,12 @@
 # WPOL 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WPOL의 가장 높은 정직한 수익률은 Polygon의 aave-v3에서 0.37%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.37% | $6.01M |
+| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.37% | $5.62M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 aave-v3에서 APY 0.37%예요.
 
 ### WPOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $5.72M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -54,10 +54,10 @@ DefiLlama 실시간 데이터 기준, Polygon의 aave-v3에서 APY 0.37%예요.
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
 - [BET](https://www.defi.garden/ko/tokens/bet)
-- [MATICX](https://www.defi.garden/ko/tokens/maticx)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

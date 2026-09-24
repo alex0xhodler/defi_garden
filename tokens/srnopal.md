@@ -1,13 +1,13 @@
 # SRNOPAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest SRNOPAL yield right now is 10.36% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNOPAL yield right now is 11.12% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d&src=seo_token) | Ethereum | 7.91% | $162.7K |
-| [pendle-v2 →](https://www.defi.garden/?pool=b816c8be-079e-560e-91c7-bee41117b747&src=seo_token) | Ethereum | 10.36% | $138.7K |
+| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d&src=seo_token) | Ethereum | 8.15% | $165K |
+| [pendle-v2 →](https://www.defi.garden/?pool=b816c8be-079e-560e-91c7-bee41117b747&src=seo_token) | Ethereum | 11.12% | $138.7K |
 | [pendle-v2 →](https://www.defi.garden/?pool=1cc97a28-ad73-530f-bb5e-7e77d1f9c969&src=seo_token) | Ethereum | 9.24% | $138.7K |
 
 <!-- rate-stability:insufficient -->
@@ -19,17 +19,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SRNOPAL shows up in 3 pools here, with rates from 7.91% to 10.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRNOPAL shows up in 3 pools here, with rates from 8.15% to 11.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 7.91% | 8.69% | Base rate |
-| pendle-v2 | 10.36% | 12.09% | 14.71% incentives |
-| pendle-v2 | 9.24% | 9.43% | Base rate |
+| strata-markets | 8.15% | 8.67% | Base rate |
+| pendle-v2 | 11.12% | 11.97% | 9.56% incentives |
+| pendle-v2 | 9.24% | 9.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRNOPAL yield today?
 
-10.36% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+11.12% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRNOPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $440K in total.
+3 live pools clear this page's $100K TVL floor, $442.4K in total.
 
 ### Are these rates safe?
 
@@ -56,12 +56,12 @@ There is not enough qualifying APY history to rank SRNOPAL pools. This view cove
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

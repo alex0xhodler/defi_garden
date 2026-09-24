@@ -1,12 +1,12 @@
 # YZM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
 The highest honest YZM yield right now is 0.50% on curvance (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $382.3K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $382.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

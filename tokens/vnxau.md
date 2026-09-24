@@ -1,31 +1,31 @@
 # VNXAU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest VNXAU yield right now is 2.31% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNXAU yield right now is 3.67% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 2.31% | $264.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 1.43% | $103.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 3.67% | $263.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 7.15% | $103.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VNXAU's lower-variability candidates are raydium-amm (Solana), 2.31% APY, $264.2K TVL, https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token; aerodrome-slipstream (Base), 1.43% APY, $103.9K TVL, https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VNXAU's lower-variability candidates are raydium-amm (Solana), 3.67% APY, $263.9K TVL, https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token; aerodrome-slipstream (Base), 7.15% APY, $103.1K TVL, https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 2.31% | $264.2K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 1.43% | $103.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 3.67% | $263.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 7.15% | $103.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VNXAU shows up in 2 pools here, with rates from 1.43% to 2.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+VNXAU shows up in 2 pools here, with rates from 3.67% to 7.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.91% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.31% | 2.84% | Base rate |
-| aerodrome-slipstream | 1.43% | 2.97% | Base rate |
+| raydium-amm | 3.67% | 2.94% | Base rate |
+| aerodrome-slipstream | 7.15% | 3.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VNXAU yield today?
 
-2.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VNXAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $368.1K in total.
+2 live pools clear this page's $100K TVL floor, $367.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VNXAU pools have the most stable APY history?
 
-Based on APY history only, VNXAU's lower-variability candidates are raydium-amm (Solana), 2.31% APY, $264.2K TVL, https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token; aerodrome-slipstream (Base), 1.43% APY, $103.9K TVL, https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VNXAU's lower-variability candidates are raydium-amm (Solana), 3.67% APY, $263.9K TVL, https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token; aerodrome-slipstream (Base), 7.15% APY, $103.1K TVL, https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, VNXAU's lower-variability candidates are raydium-amm 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

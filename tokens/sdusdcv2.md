@@ -1,12 +1,12 @@
 # SDUSDCV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest SDUSDCV2 yield right now is 5.40% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDUSDCV2 yield right now is 5.36% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=90bb2816-3020-47c6-8f1d-3f46c538931b&src=seo_token) | Ethereum | 5.40% | $597.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=90bb2816-3020-47c6-8f1d-3f46c538931b&src=seo_token) | Ethereum | 5.36% | $597.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDUSDCV2 yield today?
 
-5.40% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.36% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SDUSDCV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $597.2K in total.
+1 live pool clear this page's $100K TVL floor, $597.3K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SDUSDCV2 pools. This view cov
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

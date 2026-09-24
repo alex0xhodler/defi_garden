@@ -1,12 +1,12 @@
 # DMTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest DMTR yield right now is 14.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DMTR yield right now is 11.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2d4cf306-eb38-4c5c-ac59-f2503b97e2c7&src=seo_token) | Ethereum | 14.40% | $135K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2d4cf306-eb38-4c5c-ac59-f2503b97e2c7&src=seo_token) | Ethereum | 11.05% | $132.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DMTR yield today?
 
-14.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+11.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DMTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135K in total.
+1 live pool clear this page's $100K TVL floor, $132.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank DMTR pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

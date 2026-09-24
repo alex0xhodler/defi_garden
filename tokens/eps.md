@@ -1,12 +1,12 @@
 # EPS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest EPS yield right now is 3.85% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EPS yield right now is 10.28% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 3.85% | $104.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 10.28% | $142.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EPS yield today?
 
-3.85% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+10.28% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many EPS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.6K in total.
+1 live pool clear this page's $100K TVL floor, $142.4K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank EPS pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

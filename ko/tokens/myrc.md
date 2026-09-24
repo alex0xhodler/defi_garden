@@ -1,12 +1,12 @@
 # MYRC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MYRC의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 18.35%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MYRC의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 19.47%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1010d1a5-e842-4761-9d39-45e156bb1c72&src=seo_token) | Arbitrum | 18.35% | $125.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1010d1a5-e842-4761-9d39-45e156bb1c72&src=seo_token) | Arbitrum | 19.47% | $125.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 MYRC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 18.35%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 19.47%예요.
 
 ### MYRC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,13 +37,13 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 18.35%예
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
-- [ETH](https://www.defi.garden/ko/tokens/eth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

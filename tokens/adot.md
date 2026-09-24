@@ -1,31 +1,31 @@
 # ADOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest ADOT yield right now is 4.34% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADOT yield right now is 4.31% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $5.16M |
-| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 4.34% | $1.83M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.22% | $4.37M |
+| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 4.31% | $1.73M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $5.16M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 4.34% APY, $1.83M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $4.37M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 4.31% APY, $1.73M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.19% | $5.16M |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 4.34% | $1.83M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.22% | $4.37M |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 4.31% | $1.73M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADOT shows up in 2 pools here, with rates from 0.19% to 4.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADOT shows up in 2 pools here, with rates from 0.22% to 4.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydration-dex | 0.19% | 0.25% | Base rate |
-| hydration-dex | 4.34% | 3.60% | Base rate |
+| hydration-dex | 0.22% | 0.23% | Base rate |
+| hydration-dex | 4.31% | 3.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ADOT yield today?
 
-4.34% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+4.31% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many ADOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.99M in total.
+2 live pools clear this page's $100K TVL floor, $6.1M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ADOT pools have the most stable APY history?
 
-Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.19% APY, $5.16M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 4.34% APY, $1.83M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.22% APY, $4.37M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 4.31% APY, $1.73M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,11 +62,11 @@ Based on APY history only, ADOT's lower-variability candidates are hydration-dex
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
-- [ENA](https://www.defi.garden/tokens/ena)
 - [AETH](https://www.defi.garden/tokens/aeth)
+- [AUSDT](https://www.defi.garden/tokens/ausdt)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

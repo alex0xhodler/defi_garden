@@ -1,12 +1,12 @@
 # ARMUSDTS 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ARMUSDTS의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ARMUSDTS의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.34%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=37ba6878-526b-51a9-9bea-8b18986d9eb3&src=seo_token) | Ethereum | 6.14% | $8.73M |
+| [morpho-blue →](https://www.defi.garden/?pool=37ba6878-526b-51a9-9bea-8b18986d9eb3&src=seo_token) | Ethereum | 7.34% | $8.73M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 ARMUSDTS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.14%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.34%예요.
 
 ### ARMUSDTS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.14%예
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

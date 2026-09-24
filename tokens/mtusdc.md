@@ -1,12 +1,12 @@
 # MTUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest MTUSDC yield right now is 12.90% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MTUSDC yield right now is 6.04% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 12.90% | $556.1K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 6.04% | $556.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MTUSDC yield today?
 
-12.90% APY on concrete (Ethereum), based on live DefiLlama data.
+6.04% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many MTUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $556.1K in total.
+1 live pool clear this page's $100K TVL floor, $556.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank MTUSDC pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

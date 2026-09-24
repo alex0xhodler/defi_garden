@@ -1,12 +1,12 @@
 # SILV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest SILV yield right now is 548.38% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SILV yield right now is 752.54% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=2b49a8f5-42d9-544e-a649-f2dd8ba5ddd2&src=seo_token) | Solana | 548.38% | $143.6K |
+| [orca-dex →](https://www.defi.garden/?pool=2b49a8f5-42d9-544e-a649-f2dd8ba5ddd2&src=seo_token) | Solana | 752.54% | $183K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SILV yield today?
 
-548.38% APY on orca-dex (Solana), based on live DefiLlama data.
+752.54% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SILV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.6K in total.
+1 live pool clear this page's $100K TVL floor, $183K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SILV pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

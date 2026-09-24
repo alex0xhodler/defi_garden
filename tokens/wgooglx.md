@@ -1,12 +1,12 @@
 # WGOOGLX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest WGOOGLX yield right now is 1.37% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGOOGLX yield right now is 0.23% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 1.37% | $111K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.23% | $109.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGOOGLX yield today?
 
-1.37% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.23% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WGOOGLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111K in total.
+1 live pool clear this page's $100K TVL floor, $109.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [KII](https://www.defi.garden/tokens/kii)
+- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

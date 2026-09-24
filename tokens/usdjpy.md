@@ -1,12 +1,12 @@
 # USDJPY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest USDJPY yield right now is 46.70% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDJPY yield right now is 55.76% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=852b494e-a92c-4e87-94c8-ea4f498d9463&src=seo_token) | Solana | 46.70% | $1.51M |
+| [gmx-solana →](https://www.defi.garden/?pool=852b494e-a92c-4e87-94c8-ea4f498d9463&src=seo_token) | Solana | 55.76% | $1.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDJPY yield today?
 
-46.70% APY on gmx-solana (Solana), based on live DefiLlama data.
+55.76% APY on gmx-solana (Solana), based on live DefiLlama data.
 
 ### How many USDJPY pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USDJPY pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

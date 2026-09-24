@@ -1,12 +1,12 @@
 # ARMUSDTP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest ARMUSDTP yield right now is 5.40% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARMUSDTP yield right now is 7.46% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 5.40% | $2.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=cf44a6c4-2c8e-586b-b90c-15fbc0b2445c&src=seo_token) | Ethereum | 7.46% | $2.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARMUSDTP yield today?
 
-5.40% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.46% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ARMUSDTP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.01M in total.
+1 live pool clear this page's $100K TVL floor, $2.03M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ARMUSDTP pools. This view cov
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

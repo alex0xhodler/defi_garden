@@ -1,12 +1,12 @@
 # SWAVES 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SWAVES의 가장 높은 정직한 수익률은 Waves의 pepeteam-swaves에서 7.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SWAVES의 가장 높은 정직한 수익률은 Waves의 pepeteam-swaves에서 12.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 7.87% | $345K |
+| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 12.18% | $345.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SWAVES의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Waves의 pepeteam-swaves에서 APY 7.87%예요.
+DefiLlama 실시간 데이터 기준, Waves의 pepeteam-swaves에서 APY 12.18%예요.
 
 ### SWAVES 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $345K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $345.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Waves의 pepeteam-swaves에서 APY 7.87%�
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Waves](https://www.defi.garden/ko/chains/waves)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

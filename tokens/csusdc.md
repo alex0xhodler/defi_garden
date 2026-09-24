@@ -1,41 +1,41 @@
 # CSUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest CSUSDC yield right now is 13.35% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSUSDC yield right now is 12.93% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 5.26% | $1.27M |
-| [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 4.31% | $1.05M |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 13.35% | $375.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 5.76% | $1.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 4.21% | $1.04M |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 12.93% | $375.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CSUSDC's lower-variability candidates are morpho-blue (Base), 4.31% APY, $1.05M TVL, https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token; morpho-blue (Ethereum), 5.26% APY, $1.27M TVL, https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token; balancer-v3 (Monad), 13.35% APY, $375.9K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CSUSDC's lower-variability candidates are morpho-blue (Base), 4.21% APY, $1.04M TVL, https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token; morpho-blue (Ethereum), 5.76% APY, $1.28M TVL, https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token; balancer-v3 (Monad), 12.93% APY, $375.5K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 4.31% | $1.05M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 5.26% | $1.27M |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 13.35% | $375.9K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 4.21% | $1.04M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 5.76% | $1.28M |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 12.93% | $375.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CSUSDC shows up in 3 pools here, with rates from 4.31% to 13.35% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+CSUSDC shows up in 3 pools here, with rates from 4.21% to 12.93% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.26% | 6.21% | Base rate |
-| morpho-blue | 4.31% | 3.65% | Base rate |
-| balancer-v3 | 13.35% | 12.52% | 49.89% incentives |
+| morpho-blue | 5.76% | 6.19% | Base rate |
+| morpho-blue | 4.21% | 3.70% | Base rate |
+| balancer-v3 | 12.93% | 12.48% | 48.58% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CSUSDC yield today?
 
-13.35% APY on balancer-v3 (Monad), based on live DefiLlama data.
+12.93% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many CSUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.7M in total.
+3 live pools clear this page's $100K TVL floor, $2.69M in total.
 
 ### Are these rates safe?
 
@@ -55,15 +55,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CSUSDC pools have the most stable APY history?
 
-Based on APY history only, CSUSDC's lower-variability candidates are morpho-blue (Base), 4.31% APY, $1.05M TVL, https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token; morpho-blue (Ethereum), 5.26% APY, $1.27M TVL, https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token; balancer-v3 (Monad), 13.35% APY, $375.9K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CSUSDC's lower-variability candidates are morpho-blue (Base), 4.21% APY, $1.04M TVL, https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token; morpho-blue (Ethereum), 5.76% APY, $1.28M TVL, https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token; balancer-v3 (Monad), 12.93% APY, $375.5K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -72,4 +72,4 @@ Based on APY history only, CSUSDC's lower-variability candidates are morpho-blue
 - [Base](https://www.defi.garden/chains/base)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

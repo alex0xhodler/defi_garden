@@ -1,39 +1,39 @@
 # ATOM 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ATOM의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 6.00%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ATOM의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 4.07%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 4.26% | $804.3K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.12% | $491.6K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.08% | $379K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.00% | $223.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 30.28% | $222.6K |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 7.11% | $766.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 1.15% | $472.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.18% | $361.8K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 12.82% | $212.8K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 42.93% | $212K |
 | [osmosis-dex →](https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token) | Osmosis | 500.00% | $181.6K |
-| [vvs-standard →](https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token) | Cronos | 4.84% | $112.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token) | Cronos | 4.07% | $104K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ATOM의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 0.08%, TVL $379K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; Cronos의 vvs-standard, APY 4.84%, TVL $112.2K, https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token; Osmosis의 osmosis-dex, APY 6.00%, TVL $223.8K, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; Osmosis의 osmosis-dex, APY 4.26%, TVL $804.3K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; Osmosis의 osmosis-dex, APY 500.00%, TVL $181.6K, https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token; Osmosis의 osmosis-dex, APY 0.12%, TVL $491.6K, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; Osmosis의 osmosis-dex, APY 30.28%, TVL $222.6K, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ATOM의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 0.18%, TVL $361.8K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; Cronos의 vvs-standard, APY 4.07%, TVL $104K, https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token; Osmosis의 osmosis-dex, APY 12.82%, TVL $212.8K, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; Osmosis의 osmosis-dex, APY 7.11%, TVL $766.2K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; Osmosis의 osmosis-dex, APY 500.00%, TVL $181.6K, https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token; Osmosis의 osmosis-dex, APY 1.15%, TVL $472.7K, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; Osmosis의 osmosis-dex, APY 42.93%, TVL $212K, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.08% | $379K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token) | Cronos | 4.84% | $112.2K |
-| 3 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.00% | $223.8K |
-| 4 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 4.26% | $804.3K |
+| 1 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.18% | $361.8K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token) | Cronos | 4.07% | $104K |
+| 3 | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 12.82% | $212.8K |
+| 4 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 7.11% | $766.2K |
 | 5 | [osmosis-dex →](https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token) | Osmosis | 500.00% | $181.6K |
-| 6 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.12% | $491.6K |
-| 7 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 30.28% | $222.6K |
+| 6 | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 1.15% | $472.7K |
+| 7 | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 42.93% | $212K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ATOM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.08%부터 500.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ATOM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.18%부터 500.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.26%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,13 +43,13 @@ ATOM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.08%부터 500.00%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| osmosis-dex | 4.26% | 4.20% | 기본 금리 |
-| osmosis-dex | 0.12% | 0.27% | 기본 금리 |
-| osmosis-dex | 0.08% | 0.17% | 기본 금리 |
-| osmosis-dex | 6.00% | 5.93% | 기본 금리 |
-| osmosis-dex | 30.28% | 17.68% | 기본 금리 |
-| osmosis-dex | 500.00% | 13.95% | 기본 금리 |
-| vvs-standard | 4.84% | 5.26% | 기본 금리 |
+| osmosis-dex | 7.11% | 4.12% | 기본 금리 |
+| osmosis-dex | 1.15% | 0.28% | 기본 금리 |
+| osmosis-dex | 0.18% | 0.17% | 기본 금리 |
+| osmosis-dex | 12.82% | 6.05% | 기본 금리 |
+| osmosis-dex | 42.93% | 18.21% | 기본 금리 |
+| osmosis-dex | 500.00% | 14.28% | 기본 금리 |
+| vvs-standard | 4.07% | 5.26% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ ATOM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.08%부터 500.00%�
 
 ### 오늘 ATOM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 6.00%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 4.07%예요.
 
 ### ATOM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $3.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $3.65M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,15 +69,15 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 6.00%예�
 
 ### ATOM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ATOM의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 0.08%, TVL $379K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; Cronos의 vvs-standard, APY 4.84%, TVL $112.2K, https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token; Osmosis의 osmosis-dex, APY 6.00%, TVL $223.8K, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; Osmosis의 osmosis-dex, APY 4.26%, TVL $804.3K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; Osmosis의 osmosis-dex, APY 500.00%, TVL $181.6K, https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token; Osmosis의 osmosis-dex, APY 0.12%, TVL $491.6K, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; Osmosis의 osmosis-dex, APY 30.28%, TVL $222.6K, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ATOM의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 0.18%, TVL $361.8K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token; Cronos의 vvs-standard, APY 4.07%, TVL $104K, https://www.defi.garden/?pool=73d196f9-7729-42e2-8b38-d46a9673e8d2&src=seo_token; Osmosis의 osmosis-dex, APY 12.82%, TVL $212.8K, https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token; Osmosis의 osmosis-dex, APY 7.11%, TVL $766.2K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token; Osmosis의 osmosis-dex, APY 500.00%, TVL $181.6K, https://www.defi.garden/?pool=1a646e97-a30f-44f7-97e2-3a1dc6588327&src=seo_token; Osmosis의 osmosis-dex, APY 1.15%, TVL $472.7K, https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token; Osmosis의 osmosis-dex, APY 42.93%, TVL $212K, https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
-- [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
+- [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
 
 ## 이용 가능한 체인
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 ATOM의 변동성 낮은 후보는 Osmosis�
 - [Osmosis](https://www.defi.garden/ko/chains/osmosis)
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

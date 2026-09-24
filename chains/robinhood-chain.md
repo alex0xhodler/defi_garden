@@ -1,17 +1,17 @@
 # Robinhood Chain DeFi Yields
 
-The highest honest Robinhood Chain yield right now is 13.84% on ekubo (Robinhood Chain), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Robinhood Chain yield right now is 89.70% on alandale-v3 (Robinhood Chain), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 7.02% | $497.15M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.75% | $342.27M |
-| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $14.21M |
-| GAMIWBTC | [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_chain) | 0.98% | $622.8K |
-| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 13.84% | $604.6K |
-| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 79.65% | $220K |
+| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 6.96% | $498.11M |
+| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.06% | $336.66M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=38cae0ab-6989-5f2e-a9b0-04e5d088d580&src=seo_chain) | 5.86% | $34.7M |
+| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $14.16M |
+| GAMIWBTC | [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_chain) | 0.98% | $605.8K |
+| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 16.84% | $599.9K |
 | KFV | [t3tris-finance →](https://www.defi.garden/?pool=349a532f-bb1c-5dd4-b8ee-8abd695faec9&src=seo_chain) | 20.48% | $210.8K |
-| ETH-USDG | [kyberswap-fairflow →](https://www.defi.garden/?pool=058c6b93-03fb-57a2-ab92-e39d6e47d076&src=seo_chain) | 11.08% | $182.9K |
+| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 89.70% | $210.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Robinhood Chain yield today?
 
-13.84% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
+89.70% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many Robinhood Chain pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $1.07B in total.
+19 live pools clear this page's $100K TVL floor, $1.06B in total.
 
 ### Are these rates safe?
 
@@ -42,11 +42,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [KFV](https://www.defi.garden/tokens/kfv)
-- [ETH](https://www.defi.garden/tokens/eth)
+- [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

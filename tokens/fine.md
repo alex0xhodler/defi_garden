@@ -1,12 +1,12 @@
 # FINE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest FINE yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FINE yield right now is 0.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=43d0840a-a66c-4ce7-9faf-822c0f47e855&src=seo_token) | Ethereum | 0.01% | $174.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43d0840a-a66c-4ce7-9faf-822c0f47e855&src=seo_token) | Ethereum | 0.40% | $170K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FINE yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FINE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $174.6K in total.
+1 live pool clear this page's $100K TVL floor, $170K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank FINE pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

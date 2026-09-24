@@ -6,7 +6,7 @@
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.05%
+**30d Mean APY:** 0.06%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 23, 2026
+Last updated September 24, 2026

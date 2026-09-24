@@ -1,12 +1,12 @@
 # KYSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest KYSOL yield right now is 5.15% on kyros (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KYSOL yield right now is 5.18% on kyros (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.15% | $13.46M |
+| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.18% | $12.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KYSOL yield today?
 
-5.15% APY on kyros (Solana), based on live DefiLlama data.
+5.18% APY on kyros (Solana), based on live DefiLlama data.
 
 ### How many KYSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $13.46M in total.
+1 live pool clear this page's $100K TVL floor, $12.97M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KYSOL pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

@@ -1,12 +1,12 @@
 # KEKIUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest KEKIUS yield right now is 8.31% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KEKIUS yield right now is 6.70% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 8.31% | $982.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 6.70% | $944.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KEKIUS yield today?
 
-8.31% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.70% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KEKIUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $982.3K in total.
+1 live pool clear this page's $100K TVL floor, $944.9K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KEKIUS pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

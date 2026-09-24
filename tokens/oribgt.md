@@ -1,6 +1,6 @@
 # ORIBGT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
 The highest honest ORIBGT yield right now is 40.79% on origami-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank ORIBGT pools. This view cover
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

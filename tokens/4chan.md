@@ -1,12 +1,12 @@
 # 4CHAN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest 4CHAN yield right now is 0.86% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 4CHAN yield right now is 0.25% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c94138f4-a5de-4fc4-9433-b1de82eeeeb6&src=seo_token) | Ethereum | 0.86% | $599.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c94138f4-a5de-4fc4-9433-b1de82eeeeb6&src=seo_token) | Ethereum | 0.25% | $584.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 4CHAN yield today?
 
-0.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.25% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many 4CHAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $599.6K in total.
+1 live pool clear this page's $100K TVL floor, $584.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank 4CHAN pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

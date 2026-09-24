@@ -1,17 +1,17 @@
 # Sui DeFi Yields
 
-The highest honest Sui yield right now is 12.00% on ember-protocol (Sui), among 116 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sui yield right now is 12.00% on ember-protocol (Sui), among 115 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.19% | $22.37M |
-| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.23% | $18.58M |
-| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23&src=seo_chain) | 9.22% | $18.17M |
-| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_chain) | 1.19% | $15.17M |
+| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_chain) | 1.19% | $21.22M |
+| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23&src=seo_chain) | 8.63% | $18.84M |
+| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_chain) | 0.23% | $18.64M |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_chain) | 3.59% | $14.65M |
+| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_chain) | 1.20% | $14.3M |
+| USDC | [navi-lending →](https://www.defi.garden/?pool=0fddbf5d-ec14-4570-80d3-a70c85573d3e&src=seo_chain) | 5.18% | $9.5M |
 | USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c&src=seo_chain) | 10.44% | $9.06M |
-| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0&src=seo_chain) | 12.00% | $8.61M |
-| USDC | [navi-lending →](https://www.defi.garden/?pool=0fddbf5d-ec14-4570-80d3-a70c85573d3e&src=seo_chain) | 5.47% | $8.27M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0&src=seo_chain) | 12.00% | $8.84M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sui pools clear the TVL floor?
 
-116 live pools clear this page's $100K TVL floor, $309.16M in total.
+115 live pools clear this page's $100K TVL floor, $306.8M in total.
 
 ### Are these rates safe?
 
@@ -43,7 +43,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
-- [VSUI](https://www.defi.garden/tokens/vsui)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [VSUI](https://www.defi.garden/tokens/vsui)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

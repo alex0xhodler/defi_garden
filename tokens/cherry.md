@@ -1,12 +1,12 @@
 # CHERRY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest CHERRY yield right now is 49.28% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHERRY yield right now is 10.79% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=86629737-a4ea-40bc-a6c6-53cb7d0054db&src=seo_token) | TON | 49.28% | $188.4K |
+| [ston.fi →](https://www.defi.garden/?pool=86629737-a4ea-40bc-a6c6-53cb7d0054db&src=seo_token) | TON | 10.79% | $174.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHERRY yield today?
 
-49.28% APY on ston.fi (TON), based on live DefiLlama data.
+10.79% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many CHERRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.4K in total.
+1 live pool clear this page's $100K TVL floor, $174.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CHERRY pools. This view cover
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

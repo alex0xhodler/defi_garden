@@ -1,12 +1,12 @@
 # ASUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest ASUSD yield right now is 0.20% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASUSD yield right now is 0.21% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.8K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.21% | $152.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASUSD yield today?
 
-0.20% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.21% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many ASUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.8K in total.
+1 live pool clear this page's $100K TVL floor, $152.1K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ASUSD pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

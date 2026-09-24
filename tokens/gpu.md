@@ -1,12 +1,12 @@
 # GPU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest GPU yield right now is 1.79% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GPU yield right now is 3.94% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903&src=seo_token) | Ethereum | 1.79% | $261.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903&src=seo_token) | Ethereum | 3.94% | $238.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GPU yield today?
 
-1.79% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.94% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GPU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $261.1K in total.
+1 live pool clear this page's $100K TVL floor, $238.7K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank GPU pools. This view covers A
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

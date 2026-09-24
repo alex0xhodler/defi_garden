@@ -1,12 +1,12 @@
 # WMTUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
 The highest honest WMTUSDT yield right now is 8.75% on wildcat-protocol (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $150K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=1aed5946-d31b-49fd-9e50-23f87e4ae311&src=seo_token) | Ethereum | 8.75% | $341.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WMTUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.06M in total.
+2 live pools clear this page's $100K TVL floor, $4.25M in total.
 
 ### Are these rates safe?
 
@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank WMTUSDT pools. This view cove
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

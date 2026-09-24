@@ -1,32 +1,32 @@
 # ZRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest ZRO yield right now is 395.18% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRO yield right now is 588.33% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9fc29f1-8d50-53fe-9fa4-5f7a2ac0a15c&src=seo_token) | Base | 791.16% | $213.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 395.18% | $144.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token) | Arbitrum | 141.21% | $101.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9fc29f1-8d50-53fe-9fa4-5f7a2ac0a15c&src=seo_token) | Base | 588.33% | $218.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 837.46% | $164.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token) | Arbitrum | 178.15% | $105.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZRO's lower-variability candidates are uniswap-v3 (Arbitrum), 141.21% APY, $101.5K TVL, https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token; aerodrome-slipstream (Base), 395.18% APY, $144.8K TVL, https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZRO's lower-variability candidates are uniswap-v3 (Arbitrum), 178.15% APY, $105.1K TVL, https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token; aerodrome-slipstream (Base), 837.46% APY, $164.5K TVL, https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token) | Arbitrum | 141.21% | $101.5K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 395.18% | $144.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token) | Arbitrum | 178.15% | $105.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 837.46% | $164.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZRO shows up in 3 pools here, with rates from 141.21% to 791.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZRO shows up in 3 pools here, with rates from 178.15% to 837.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 366.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 440.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -34,9 +34,9 @@ ZRO shows up in 3 pools here, with rates from 141.21% to 791.16% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 791.16% | 366.21% | Base rate |
-| aerodrome-slipstream | 395.18% | 422.50% | 17.57% incentives |
-| uniswap-v3 | 141.21% | 54.38% | Base rate |
+| uniswap-v4 | 588.33% | 469.81% | Base rate |
+| aerodrome-slipstream | 837.46% | 440.40% | 35.16% incentives |
+| uniswap-v3 | 178.15% | 57.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZRO yield today?
 
-395.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+588.33% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ZRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $459.8K in total.
+4 live pools clear this page's $100K TVL floor, $599.6K in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZRO pools have the most stable APY history?
 
-Based on APY history only, ZRO's lower-variability candidates are uniswap-v3 (Arbitrum), 141.21% APY, $101.5K TVL, https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token; aerodrome-slipstream (Base), 395.18% APY, $144.8K TVL, https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZRO's lower-variability candidates are uniswap-v3 (Arbitrum), 178.15% APY, $105.1K TVL, https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a&src=seo_token; aerodrome-slipstream (Base), 837.46% APY, $164.5K TVL, https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, ZRO's lower-variability candidates are uniswap-v3 (Ar
 - [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

@@ -1,12 +1,12 @@
 # IAERO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest IAERO yield right now is 23.77% on iaero-protocol (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IAERO yield right now is 19.79% on iaero-protocol (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918&src=seo_token) | Base | 23.77% | $1.89M |
+| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918&src=seo_token) | Base | 19.79% | $2.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IAERO yield today?
 
-23.77% APY on iaero-protocol (Base), based on live DefiLlama data.
+19.79% APY on iaero-protocol (Base), based on live DefiLlama data.
 
 ### How many IAERO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.89M in total.
+1 live pool clear this page's $100K TVL floor, $2.38M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IAERO pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

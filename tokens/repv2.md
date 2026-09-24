@@ -1,12 +1,12 @@
 # REPV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest REPV2 yield right now is 11.02% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REPV2 yield right now is 2.31% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac&src=seo_token) | Ethereum | 11.02% | $158.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac&src=seo_token) | Ethereum | 2.31% | $155.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-REPV2 shows up in 1 pools here, with rates from 11.02% to 11.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REPV2 shows up in 1 pools here, with rates from 2.31% to 2.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 12.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 10.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 11.02% | 12.71% | Base rate |
+| uniswap-v4 | 2.31% | 10.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest REPV2 yield today?
 
-11.02% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+2.31% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REPV2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $324.3K in total.
+2 live pools clear this page's $100K TVL floor, $321.4K in total.
 
 ### Are these rates safe?
 
@@ -54,12 +54,12 @@ There is not enough qualifying APY history to rank REPV2 pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

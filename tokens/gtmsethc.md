@@ -1,38 +1,38 @@
 # GTMSETHC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
 The highest honest GTMSETHC yield right now is 0.02% on morpho-blue (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.02% | $8.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token) | Ethereum | 9.51% | $4.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.02% | $8.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token) | Ethereum | 9.89% | $4.81M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTMSETHC's lower-variability candidates are morpho-blue (Base), 0.02% APY, $8.41M TVL, https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token; morpho-blue (Ethereum), 9.51% APY, $4.83M TVL, https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTMSETHC's lower-variability candidates are morpho-blue (Base), 0.02% APY, $8.38M TVL, https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token; morpho-blue (Ethereum), 9.89% APY, $4.81M TVL, https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.02% | $8.41M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token) | Ethereum | 9.51% | $4.83M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.02% | $8.38M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token) | Ethereum | 9.89% | $4.81M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTMSETHC shows up in 2 pools here, with rates from 0.02% to 9.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTMSETHC shows up in 2 pools here, with rates from 0.02% to 9.89% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 0.02% | 0.04% | Base rate |
-| morpho-blue | 9.51% | 5.13% | Base rate |
+| morpho-blue | 9.89% | 5.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTMSETHC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $13.24M in total.
+2 live pools clear this page's $100K TVL floor, $13.19M in total.
 
 ### Are these rates safe?
 
@@ -52,15 +52,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTMSETHC pools have the most stable APY history?
 
-Based on APY history only, GTMSETHC's lower-variability candidates are morpho-blue (Base), 0.02% APY, $8.41M TVL, https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token; morpho-blue (Ethereum), 9.51% APY, $4.83M TVL, https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTMSETHC's lower-variability candidates are morpho-blue (Base), 0.02% APY, $8.38M TVL, https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token; morpho-blue (Ethereum), 9.89% APY, $4.81M TVL, https://www.defi.garden/?pool=225604c7-9d4c-4954-aeb8-7b1aea292496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -68,4 +68,4 @@ Based on APY history only, GTMSETHC's lower-variability candidates are morpho-bl
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

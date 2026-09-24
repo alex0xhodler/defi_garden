@@ -1,12 +1,12 @@
 # ROXWETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 23, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ROXWETH의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 1.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ROXWETH의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 1.89%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.55% | $1.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.89% | $5.35M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 ROXWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 1.55%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 1.89%예요.
 
 ### ROXWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 1.55%예
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 23, 2026
+## 마지막 업데이트: September 24, 2026

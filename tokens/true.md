@@ -1,12 +1,12 @@
 # TRUE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest TRUE yield right now is 321.25% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUE yield right now is 245.79% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5785bc0d-a33d-42f8-a376-2cbed8e08c1b&src=seo_token) | Base | 321.25% | $677.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5785bc0d-a33d-42f8-a376-2cbed8e08c1b&src=seo_token) | Base | 110.12% | $596.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b3fa6e9c-ff11-54cc-ab08-a49470d45b02&src=seo_token) | Base | 245.79% | $117.6K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRUE shows up in 2 pools here, with rates from 245.79% to 321.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUE shows up in 2 pools here, with rates from 110.12% to 245.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 100.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 101.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 321.25% | 43.28% | Base rate |
+| uniswap-v2 | 110.12% | 46.70% | Base rate |
 | uniswap-v4 | 245.79% | 156.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUE yield today?
 
-321.25% APY on uniswap-v2 (Base), based on live DefiLlama data.
+245.79% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many TRUE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $795.4K in total.
+2 live pools clear this page's $100K TVL floor, $714.4K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank TRUE pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

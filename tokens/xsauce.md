@@ -1,29 +1,29 @@
 # XSAUCE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 23, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
 
-The highest honest XSAUCE yield right now is 0.96% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSAUCE yield right now is 1.54% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 2.39% | $336K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.96% | $136.8K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.54% | $305.5K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.95% | $122.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XSAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.96% APY, $136.8K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 2.39% APY, $336K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.95% APY, $122.3K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 1.54% APY, $305.5K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.96% | $136.8K |
-| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 2.39% | $336K |
+| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 0.95% | $122.3K |
+| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.54% | $305.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSAUCE shows up in 2 pools here, with rates from 0.96% to 2.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSAUCE shows up in 2 pools here, with rates from 0.95% to 1.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ XSAUCE shows up in 2 pools here, with rates from 0.96% to 2.39% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 2.39% | 1.53% | 36.26% incentives |
-| saucerswap-v1 | 0.96% | 1.00% | 90.93% incentives |
+| saucerswap-v1 | 1.54% | 1.55% | 55.34% incentives |
+| saucerswap-v1 | 0.95% | 1.00% | 91.39% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSAUCE yield today?
 
-0.96% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+1.54% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many XSAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $472.8K in total.
+2 live pools clear this page's $100K TVL floor, $427.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSAUCE pools have the most stable APY history?
 
-Based on APY history only, XSAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.96% APY, $136.8K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 2.39% APY, $336K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSAUCE's lower-variability candidates are saucerswap-v1 (Hedera), 0.95% APY, $122.3K TVL, https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token; saucerswap-v1 (Hedera), 1.54% APY, $305.5K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, XSAUCE's lower-variability candidates are saucerswap-
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026

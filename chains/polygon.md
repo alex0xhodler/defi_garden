@@ -4,14 +4,14 @@ The highest honest Polygon yield right now is 3.76% on blackrock-buidl (Polygon)
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.01% | $71.59M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.31% | $29.04M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.01% | $69.6M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.31% | $28.21M |
 | BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_chain) | 0.02% | $18.94M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 3.06% | $11.52M |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 3.21% | $10.37M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 3.06% | $11.55M |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 3.15% | $10.7M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.76% | $7.53M |
-| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.37% | $6.01M |
-| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.34% | $4.41M |
+| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.37% | $5.62M |
+| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.34% | $4.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Polygon pools clear the TVL floor?
 
-185 live pools clear this page's $100K TVL floor, $258.91M in total.
+185 live pools clear this page's $100K TVL floor, $254.42M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [WPOL](https://www.defi.garden/tokens/wpol)
 
-## Last updated September 23, 2026
+## Last updated September 24, 2026
