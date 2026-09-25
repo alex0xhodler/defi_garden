@@ -1,29 +1,52 @@
 # INDY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest INDY yield right now is 12.58% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INDY yield right now is 12.65% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.58% | $110K |
+| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.65% | $114.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=2e28c86e-6723-40fe-b00b-c59fd77d3628&src=seo_token) | Cardano | 1.13% | $101.2K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank INDY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INDY's lower-variability candidates are minswap-dex (Cardano), 12.65% APY, $114.9K TVL, https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token; minswap-dex (Cardano), 1.13% APY, $101.2K TVL, https://www.defi.garden/?pool=2e28c86e-6723-40fe-b00b-c59fd77d3628&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.65% | $114.9K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=2e28c86e-6723-40fe-b00b-c59fd77d3628&src=seo_token) | Cardano | 1.13% | $101.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+INDY shows up in 2 pools here, with rates from 1.13% to 12.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| minswap-dex | 12.65% | 12.23% | 74.47% incentives |
+| minswap-dex | 1.13% | 1.09% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest INDY yield today?
 
-12.58% APY on minswap-dex (Cardano), based on live DefiLlama data.
+12.65% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many INDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110K in total.
+2 live pools clear this page's $100K TVL floor, $216.1K in total.
 
 ### Are these rates safe?
 
@@ -31,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INDY pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank INDY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INDY's lower-variability candidates are minswap-dex (Cardano), 12.65% APY, $114.9K TVL, https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token; minswap-dex (Cardano), 1.13% APY, $101.2K TVL, https://www.defi.garden/?pool=2e28c86e-6723-40fe-b00b-c59fd77d3628&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -39,11 +62,11 @@ There is not enough qualifying APY history to rank INDY pools. This view covers 
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [FET](https://www.defi.garden/tokens/fet)
+- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

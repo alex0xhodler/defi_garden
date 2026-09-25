@@ -1,12 +1,12 @@
 # BIL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest BIL yield right now is 0.20% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.20% | $301.4K |
+| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.20% | $301.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $301.4K in total.
+1 live pool clear this page's $100K TVL floor, $301.9K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank BIL pools. This view covers A
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
+- [ENA](https://www.defi.garden/tokens/ena)
 - [ADOT](https://www.defi.garden/tokens/adot)
-- [AETH](https://www.defi.garden/tokens/aeth)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

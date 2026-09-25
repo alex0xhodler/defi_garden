@@ -1,6 +1,6 @@
 # HAWAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest HAWAL yield right now is 0.01% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank HAWAL pools. This view covers
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [SUI](https://www.defi.garden/tokens/sui)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HAWAL pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

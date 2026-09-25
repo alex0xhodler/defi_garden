@@ -1,6 +1,6 @@
 # NES DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest NES yield right now is 742.32% on uniswap-v4 (BSC), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NES pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $12.26M in total.
+25 live pools clear this page's $100K TVL floor, $11.86M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank NES pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

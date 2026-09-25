@@ -1,13 +1,12 @@
 # ZCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest ZCAT yield right now is 275.32% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZCAT yield right now is 214.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 269.37% | $1.58M |
-| [raydium-amm →](https://www.defi.garden/?pool=c2686418-b9d9-55b9-b449-48f6c8f146c0&src=seo_token) | Solana | 275.32% | $284.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76&src=seo_token) | Solana | 214.53% | $1.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,30 +15,15 @@ There is not enough qualifying APY history to rank ZCAT pools. This view covers 
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
-## How this rate has behaved
-
-ZCAT shows up in 2 pools here, with rates from 269.37% to 275.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| raydium-amm | 269.37% | — | Base rate |
-| raydium-amm | 275.32% | — | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
-
 ## Frequently asked questions
 
 ### What's the highest ZCAT yield today?
 
-275.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+214.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZCAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.87M in total.
+1 live pool clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +46,4 @@ There is not enough qualifying APY history to rank ZCAT pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

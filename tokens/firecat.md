@@ -1,12 +1,12 @@
 # FIRECAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest FIRECAT yield right now is 14.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FIRECAT yield right now is 12.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b0fe4ca2-1346-5c40-b2ba-00066edd4e95&src=seo_token) | Solana | 14.69% | $112.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=b0fe4ca2-1346-5c40-b2ba-00066edd4e95&src=seo_token) | Solana | 12.58% | $110.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FIRECAT yield today?
 
-14.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FIRECAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.8K in total.
+1 live pool clear this page's $100K TVL floor, $110.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FIRECAT pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

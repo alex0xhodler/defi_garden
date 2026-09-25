@@ -1,40 +1,37 @@
 # VKHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest VKHYPE yield right now is 10.21% on hybra-v4 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VKHYPE yield right now is 2.30% on pendle-v2 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.85% | $708.5K |
-| [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 10.21% | $121.6K |
+| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.89% | $695K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b&src=seo_token) | Hyperliquid L1 | 2.30% | $224.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14&src=seo_token) | Hyperliquid L1 | 2.64% | $224.5K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, VKHYPE's lower-variability candidates are hybra-v4 (Hyperliquid L1), 10.21% APY, $121.6K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.85% APY, $708.5K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [hybra-v4 →](https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token) | Hyperliquid L1 | 10.21% | $121.6K |
-| 2 | [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.85% | $708.5K |
+There is not enough qualifying APY history to rank VKHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VKHYPE shows up in 2 pools here, with rates from 0.85% to 10.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VKHYPE shows up in 3 pools here, with rates from 0.89% to 2.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.85% | 2.95% | Base rate |
-| hybra-v4 | 10.21% | 2.29% | 100.00% incentives |
+| project-x | 0.89% | 2.94% | Base rate |
+| pendle-v2 | 2.30% | 2.22% | Base rate |
+| pendle-v2 | 2.64% | 23.56% | 36.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VKHYPE yield today?
 
-10.21% APY on hybra-v4 (Hyperliquid L1), based on live DefiLlama data.
+2.30% APY on pendle-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many VKHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $830.1K in total.
+3 live pools clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VKHYPE pools have the most stable APY history?
 
-Based on APY history only, VKHYPE's lower-variability candidates are hybra-v4 (Hyperliquid L1), 10.21% APY, $121.6K TVL, https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205&src=seo_token; project-x (Hyperliquid L1), 0.85% APY, $708.5K TVL, https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank VKHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +66,4 @@ Based on APY history only, VKHYPE's lower-variability candidates are hybra-v4 (H
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

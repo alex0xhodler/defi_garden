@@ -1,17 +1,17 @@
 # Polygon 디파이 수익률
 
-현재 Polygon의 가장 높은 정직한 수익률은 Polygon의 blackrock-buidl에서 3.76%이며, $100K TVL 기준을 넘는 185개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Polygon의 가장 높은 정직한 수익률은 Polygon의 blackrock-buidl에서 3.77%이며, $100K TVL 기준을 넘는 183개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.01% | $69.6M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.31% | $28.21M |
-| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_chain) | 0.02% | $18.94M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 3.06% | $11.55M |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 3.15% | $10.7M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.76% | $7.53M |
-| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.37% | $5.62M |
-| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.34% | $4.13M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.01% | $69.68M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.31% | $28.12M |
+| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_chain) | 0.01% | $19.05M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 3.08% | $11.48M |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 3.13% | $10.78M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.77% | $7.54M |
+| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.36% | $5.94M |
+| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.34% | $4.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Polygon의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 blackrock-buidl에서 APY 3.76%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 blackrock-buidl에서 APY 3.77%예요.
 
 ### Polygon 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 185개이며, 합산 TVL은 $254.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 183개이며, 합산 TVL은 $254.14M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 blackrock-buidl에서 APY 3.76%
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [WPOL](https://www.defi.garden/ko/tokens/wpol)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

@@ -1,12 +1,12 @@
 # WPRL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest WPRL yield right now is 710.73% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPRL yield right now is 616.13% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8&src=seo_token) | Ethereum | 710.73% | $285.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8&src=seo_token) | Ethereum | 616.13% | $292.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WPRL yield today?
 
-710.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+616.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WPRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.4K in total.
+1 live pool clear this page's $100K TVL floor, $292.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WPRL pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

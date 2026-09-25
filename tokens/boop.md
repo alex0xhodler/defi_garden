@@ -1,12 +1,12 @@
 # BOOP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest BOOP yield right now is 26.86% on camelot-v2 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOP yield right now is 4.01% on camelot-v2 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 26.86% | $155.9K |
+| [camelot-v2 →](https://www.defi.garden/?pool=70f7ea77-bf4f-4b3b-82f7-a485d89e3639&src=seo_token) | Arbitrum | 4.01% | $156K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BOOP shows up in 1 pools here, with rates from 26.86% to 26.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOOP shows up in 1 pools here, with rates from 4.01% to 4.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 11.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 11.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| camelot-v2 | 26.86% | 11.19% | Base rate |
+| camelot-v2 | 4.01% | 11.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOOP yield today?
 
-26.86% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
+4.01% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many BOOP pools clear the TVL floor?
 
@@ -54,12 +54,12 @@ There is not enough qualifying APY history to rank BOOP pools. This view covers 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

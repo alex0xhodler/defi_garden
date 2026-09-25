@@ -1,12 +1,12 @@
 # AGRS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest AGRS yield right now is 78.36% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGRS yield right now is 57.58% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 78.36% | $190.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 57.58% | $193.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AGRS yield today?
 
-78.36% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+57.58% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AGRS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.7K in total.
+1 live pool clear this page's $100K TVL floor, $193.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AGRS pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

@@ -1,12 +1,13 @@
 # GOLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest GOLD yield right now is 0.17% on folks-finance-lending (Algorand), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOLD yield right now is 3.12% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $491.9K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $503.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae&src=seo_token) | Solana | 3.12% | $295.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOLD shows up in 1 pools here, with rates from 0.17% to 0.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOLD shows up in 2 pools here, with rates from 0.17% to 3.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | folks-finance-lending | 0.17% | 0.17% | Base rate |
+| raydium-amm | 3.12% | 3.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOLD yield today?
 
-0.17% APY on folks-finance-lending (Algorand), based on live DefiLlama data.
+3.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOLD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.06M in total.
+4 live pools clear this page's $100K TVL floor, $1.37M in total.
 
 ### Are these rates safe?
 
@@ -49,15 +53,16 @@ There is not enough qualifying APY history to rank GOLD pools. This view covers 
 
 ## Related tokens
 
-- [ALGO](https://www.defi.garden/tokens/algo)
-- [GOBTC](https://www.defi.garden/tokens/gobtc)
-- [SILVER](https://www.defi.garden/tokens/silver)
-- [GOETH](https://www.defi.garden/tokens/goeth)
-- [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Algorand](https://www.defi.garden/chains/algorand)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

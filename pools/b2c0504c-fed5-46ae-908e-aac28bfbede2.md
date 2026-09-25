@@ -1,12 +1,12 @@
 # SAVETH — avant-aveth on Ethereum
 
-**Total APY:** 3.85% (3.85% Base · + 0.00% Rewards)
+**Total APY:** 3.86% (3.86% Base · + 0.00% Rewards)
 
-**TVL:** $29.12M
+**TVL:** $29.08M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 4.31%
+**30d Mean APY:** 4.28%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on avant-aveth](https://app.avantprotocol.com/?ref=defi.garden)
 
-Last updated September 24, 2026
+Last updated September 25, 2026

@@ -1,12 +1,12 @@
 # LPT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest LPT yield right now is 74.15% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LPT yield right now is 18.85% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 74.15% | $260K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 18.85% | $258.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LPT yield today?
 
-74.15% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+18.85% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many LPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $260K in total.
+1 live pool clear this page's $100K TVL floor, $258.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank LPT pools. This view covers A
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

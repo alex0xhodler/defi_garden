@@ -1,12 +1,12 @@
 # WOW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest WOW yield right now is 331.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOW yield right now is 428.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=15bb7a76-1b3c-5b72-867a-1d77da736ef1&src=seo_token) | Solana | 331.35% | $150K |
+| [raydium-amm →](https://www.defi.garden/?pool=15bb7a76-1b3c-5b72-867a-1d77da736ef1&src=seo_token) | Solana | 428.44% | $165.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOW yield today?
 
-331.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+428.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150K in total.
+1 live pool clear this page's $100K TVL floor, $165.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WOW pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

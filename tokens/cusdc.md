@@ -1,12 +1,12 @@
 # CUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest CUSDC yield right now is 0.01% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $562.1K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $562K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CUSDC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

@@ -1,31 +1,31 @@
 # KDK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest KDK yield right now is 36.09% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KDK yield right now is 36.90% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 36.09% | $227.5K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 4.56% | $176.1K |
+| [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 36.90% | $227.3K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 4.40% | $175.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 36.09% APY, $227.5K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 4.56% APY, $176.1K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 36.90% APY, $227.3K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 4.40% APY, $175.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 36.09% | $227.5K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 4.56% | $176.1K |
+| 1 | [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 36.90% | $227.3K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 4.40% | $175.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KDK shows up in 2 pools here, with rates from 4.56% to 36.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KDK shows up in 2 pools here, with rates from 4.40% to 36.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ KDK shows up in 2 pools here, with rates from 4.56% to 36.09% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 36.09% | 31.32% | 100.00% incentives |
-| berapaw | 4.56% | 8.51% | 100.00% incentives |
+| berapaw | 36.90% | 31.53% | 100.00% incentives |
+| berapaw | 4.40% | 8.17% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KDK yield today?
 
-36.09% APY on berapaw (Berachain), based on live DefiLlama data.
+36.90% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KDK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $403.6K in total.
+2 live pools clear this page's $100K TVL floor, $403.1K in total.
 
 ### Are these rates safe?
 
@@ -54,13 +54,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KDK pools have the most stable APY history?
 
-Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 36.09% APY, $227.5K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 4.56% APY, $176.1K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 36.90% APY, $227.3K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 4.40% APY, $175.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
@@ -69,4 +69,4 @@ Based on APY history only, KDK's lower-variability candidates are berapaw (Berac
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

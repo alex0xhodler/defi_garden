@@ -1,12 +1,12 @@
 # GYEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest GYEN yield right now is 0.01% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=426ad4ff-4308-5c7c-94b5-da847e162d61&src=seo_token) | Ethereum | 0.01% | $1,000K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=426ad4ff-4308-5c7c-94b5-da847e162d61&src=seo_token) | Ethereum | 0.01% | $999.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank GYEN pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 0.33%예요.
 
 - [ATUSD](https://www.defi.garden/ko/tokens/atusd)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

@@ -1,44 +1,44 @@
 # SGHO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest SGHO yield right now is 7.80% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SGHO yield right now is 7.86% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.50% | $162.63M |
-| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 5.71% | $832K |
-| [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 7.80% | $537.6K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 7.37% | $293.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.50% | $163.83M |
+| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 5.76% | $832K |
+| [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 7.86% | $537.6K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 7.45% | $293.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SGHO's lower-variability candidates are aave-v3 (Ethereum), 4.50% APY, $162.63M TVL, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token; convex-finance (Ethereum), 7.80% APY, $537.6K TVL, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token; stake-dao-yield (Ethereum), 7.37% APY, $293.2K TVL, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token; curve-dex (Ethereum), 5.71% APY, $832K TVL, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SGHO's lower-variability candidates are aave-v3 (Ethereum), 4.50% APY, $163.83M TVL, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token; convex-finance (Ethereum), 7.86% APY, $537.6K TVL, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token; stake-dao-yield (Ethereum), 7.45% APY, $293.2K TVL, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token; curve-dex (Ethereum), 5.76% APY, $832K TVL, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.50% | $162.63M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 7.80% | $537.6K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 7.37% | $293.2K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 5.71% | $832K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.50% | $163.83M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token) | Ethereum | 7.86% | $537.6K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 7.45% | $293.2K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 5.76% | $832K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SGHO shows up in 4 pools here, with rates from 4.50% to 7.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SGHO shows up in 4 pools here, with rates from 4.50% to 7.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 4.50% | 4.44% | Base rate |
-| curve-dex | 5.71% | 6.94% | 41.66% incentives |
-| convex-finance | 7.80% | 9.24% | 57.28% incentives |
-| stake-dao-yield | 7.37% | 8.86% | 53.48% incentives |
+| aave-v3 | 4.50% | 4.45% | Base rate |
+| curve-dex | 5.76% | 6.86% | 41.86% incentives |
+| convex-finance | 7.86% | 9.10% | 57.39% incentives |
+| stake-dao-yield | 7.45% | 8.80% | 54.36% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SGHO yield today?
 
-7.80% APY on convex-finance (Ethereum), based on live DefiLlama data.
+7.86% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many SGHO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $195.49M in total.
+5 live pools clear this page's $100K TVL floor, $196.64M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SGHO pools have the most stable APY history?
 
-Based on APY history only, SGHO's lower-variability candidates are aave-v3 (Ethereum), 4.50% APY, $162.63M TVL, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token; convex-finance (Ethereum), 7.80% APY, $537.6K TVL, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token; stake-dao-yield (Ethereum), 7.37% APY, $293.2K TVL, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token; curve-dex (Ethereum), 5.71% APY, $832K TVL, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SGHO's lower-variability candidates are aave-v3 (Ethereum), 4.50% APY, $163.83M TVL, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token; convex-finance (Ethereum), 7.86% APY, $537.6K TVL, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d&src=seo_token; stake-dao-yield (Ethereum), 7.45% APY, $293.2K TVL, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token; curve-dex (Ethereum), 5.76% APY, $832K TVL, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, SGHO's lower-variability candidates are aave-v3 (Ethe
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

@@ -1,58 +1,58 @@
 # STRKBTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 30.98%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 18.22%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 16.28% | $4.16M |
-| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 37.49% | $1.91M |
-| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 18.77% | $1.49M |
-| [troves →](https://www.defi.garden/?pool=bc46295f-a0db-41a4-927a-c414d6091b25&src=seo_token) | Starknet | 3.49% | $1.29M |
-| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 30.98% | $1.13M |
-| [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token) | Starknet | 1.56% | $803.1K |
-| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 9.97% | $649.7K |
-| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 16.97% | $505.8K |
+| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 15.31% | $4.21M |
+| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 36.30% | $1.91M |
+| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 18.22% | $1.49M |
+| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 20.79% | $1.13M |
+| [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token) | Starknet | 1.38% | $798.2K |
+| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 9.65% | $650.5K |
+| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 15.93% | $505.3K |
+| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 41.89% | $461.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 troves, APY 3.49%, TVL $1.29M, https://www.defi.garden/?pool=bc46295f-a0db-41a4-927a-c414d6091b25&src=seo_token; Starknet의 troves, APY 16.97%, TVL $505.8K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 16.28%, TVL $4.16M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 18.77%, TVL $1.49M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 ekubo, APY 9.97%, TVL $649.7K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 ekubo, APY 1.56%, TVL $803.1K, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token; Starknet의 ekubo, APY 30.98%, TVL $1.13M, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 37.49%, TVL $1.91M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 troves, APY 15.93%, TVL $505.3K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 15.31%, TVL $4.21M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 18.22%, TVL $1.49M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 ekubo, APY 9.65%, TVL $650.5K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 troves, APY 41.89%, TVL $461.4K, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; Starknet의 ekubo, APY 1.38%, TVL $798.2K, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token; Starknet의 ekubo, APY 20.79%, TVL $1.13M, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 36.30%, TVL $1.91M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [troves →](https://www.defi.garden/?pool=bc46295f-a0db-41a4-927a-c414d6091b25&src=seo_token) | Starknet | 3.49% | $1.29M |
-| 2 | [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 16.97% | $505.8K |
-| 3 | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 16.28% | $4.16M |
-| 4 | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 18.77% | $1.49M |
-| 5 | [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 9.97% | $649.7K |
-| 6 | [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token) | Starknet | 1.56% | $803.1K |
-| 7 | [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 30.98% | $1.13M |
-| 8 | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 37.49% | $1.91M |
+| 1 | [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 15.93% | $505.3K |
+| 2 | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 15.31% | $4.21M |
+| 3 | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 18.22% | $1.49M |
+| 4 | [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 9.65% | $650.5K |
+| 5 | [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 41.89% | $461.4K |
+| 6 | [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token) | Starknet | 1.38% | $798.2K |
+| 7 | [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 20.79% | $1.13M |
+| 8 | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 36.30% | $1.91M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.56%부터 37.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.38%부터 41.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.78%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 4개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ekubo | 16.28% | 18.32% | 인센티브 96.80% |
-| ekubo | 37.49% | 78.78% | 기본 금리 |
-| ekubo | 18.77% | 15.67% | 인센티브 100.00% |
-| troves | 3.49% | 0.84% | 기본 금리 |
-| ekubo | 30.98% | 47.13% | 기본 금리 |
-| ekubo | 1.56% | 13.75% | 기본 금리 |
-| ekubo | 9.97% | 18.45% | 인센티브 99.99% |
-| troves | 16.97% | 8.93% | 기본 금리 |
+| ekubo | 15.31% | 17.68% | 인센티브 97.83% |
+| ekubo | 36.30% | 78.64% | 기본 금리 |
+| ekubo | 18.22% | 15.87% | 인센티브 99.99% |
+| ekubo | 20.79% | 47.16% | 기본 금리 |
+| ekubo | 1.38% | 13.63% | 기본 금리 |
+| ekubo | 9.65% | 18.08% | 인센티브 99.97% |
+| troves | 15.93% | 9.09% | 기본 금리 |
+| troves | 41.89% | 13.13% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.56%부터 37.49
 
 ### 오늘 STRKBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 30.98%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 18.22%예요.
 
 ### STRKBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $13.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $13.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,12 +72,12 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 30.98%예요.
 
 ### STRKBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 troves, APY 3.49%, TVL $1.29M, https://www.defi.garden/?pool=bc46295f-a0db-41a4-927a-c414d6091b25&src=seo_token; Starknet의 troves, APY 16.97%, TVL $505.8K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 16.28%, TVL $4.16M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 18.77%, TVL $1.49M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 ekubo, APY 9.97%, TVL $649.7K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 ekubo, APY 1.56%, TVL $803.1K, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token; Starknet의 ekubo, APY 30.98%, TVL $1.13M, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 37.49%, TVL $1.91M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 troves, APY 15.93%, TVL $505.3K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 15.31%, TVL $4.21M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 18.22%, TVL $1.49M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 ekubo, APY 9.65%, TVL $650.5K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 troves, APY 41.89%, TVL $461.4K, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; Starknet의 ekubo, APY 1.38%, TVL $798.2K, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa&src=seo_token; Starknet의 ekubo, APY 20.79%, TVL $1.13M, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 36.30%, TVL $1.91M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
+- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [XWBTC](https://www.defi.garden/ko/tokens/xwbtc)
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Stark
 
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

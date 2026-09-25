@@ -1,6 +1,6 @@
 # NSTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest NSTR yield right now is 0.43% on nostra-pools (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 ## Related tokens
 
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

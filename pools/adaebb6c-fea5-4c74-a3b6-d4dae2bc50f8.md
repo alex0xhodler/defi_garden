@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.78%
+**30d Mean APY:** 1.81%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on yearn-finance](https://yearn.fi/?ref=defi.garden)
 
-Last updated September 24, 2026
+Last updated September 25, 2026

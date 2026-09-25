@@ -1,12 +1,12 @@
 # DIP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 DIP의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 0.01%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $2.72M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $2.82M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.01%예�
 
 ### DIP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.85M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.95M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -53,13 +53,13 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.01%예�
 
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
-- [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
+- [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
-- [SHIB](https://www.defi.garden/ko/tokens/shib)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

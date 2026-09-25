@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 8.63%
+**30d Mean APY:** 8.64%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on pendle-v2](https://pendle.finance/?ref=defi.garden)
 
-Last updated September 24, 2026
+Last updated September 25, 2026

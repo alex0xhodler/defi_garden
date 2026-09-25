@@ -1,19 +1,19 @@
 # USDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest USDC yield right now is 77.51% on uniswap-v3 (Base), among 1,568 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC yield right now is 83.27% on uniswap-v3 (Base), among 1,579 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 5.16% | $2.9B |
+| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 5.17% | $2.92B |
 | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 4.91% | $469.77M |
-| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.60% | $304.39M |
-| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.32% | $262.65M |
-| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.64% | $167.4M |
-| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 7.82% | $154.87M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 77.51% | $152.43M |
-| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.38% | $134.76M |
+| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.60% | $304.34M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 6.14% | $262.72M |
+| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.65% | $167.52M |
+| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 7.82% | $154.93M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 83.27% | $153.32M |
+| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.62% | $130.67M |
 
 ## How USDC Yield is Generated
 
@@ -26,26 +26,26 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDC's lower-variability candidates are spark-savings (Ethereum), 3.60% APY, $304.39M TVL, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; pareto-credit (Ethereum), 7.82% APY, $154.87M TVL, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; jupiter-lend (Solana), 4.91% APY, $469.77M TVL, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; centrifuge-protocol (Avalanche), 5.32% APY, $262.65M TVL, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; maple (Ethereum), 5.16% APY, $2.9B TVL, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; aave-v3 (Ethereum), 3.64% APY, $167.4M TVL, https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token; fluid-lending (Ethereum), 4.38% APY, $134.76M TVL, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; uniswap-v3 (Base), 77.51% APY, $152.43M TVL, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC's lower-variability candidates are spark-savings (Ethereum), 3.60% APY, $304.34M TVL, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; pareto-credit (Ethereum), 7.82% APY, $154.93M TVL, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; jupiter-lend (Solana), 4.91% APY, $469.77M TVL, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; centrifuge-protocol (Avalanche), 6.14% APY, $262.72M TVL, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; maple (Ethereum), 5.17% APY, $2.92B TVL, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; aave-v3 (Ethereum), 3.65% APY, $167.52M TVL, https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token; fluid-lending (Ethereum), 4.62% APY, $130.67M TVL, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; uniswap-v3 (Base), 83.27% APY, $153.32M TVL, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.60% | $304.39M |
-| 2 | [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 7.82% | $154.87M |
+| 1 | [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.60% | $304.34M |
+| 2 | [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 7.82% | $154.93M |
 | 3 | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 4.91% | $469.77M |
-| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.32% | $262.65M |
-| 5 | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 5.16% | $2.9B |
-| 6 | [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.64% | $167.4M |
-| 7 | [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.38% | $134.76M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 77.51% | $152.43M |
+| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 6.14% | $262.72M |
+| 5 | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 5.17% | $2.92B |
+| 6 | [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.65% | $167.52M |
+| 7 | [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.62% | $130.67M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 83.27% | $153.32M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDC shows up in 8 pools here, with rates from 3.60% to 77.51% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDC shows up in 8 pools here, with rates from 3.60% to 83.27% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -53,14 +53,14 @@ USDC shows up in 8 pools here, with rates from 3.60% to 77.51% APY across 4 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| maple | 5.16% | 5.00% | Base rate |
-| jupiter-lend | 4.91% | 4.82% | 7.75% incentives |
+| maple | 5.17% | 5.01% | Base rate |
+| jupiter-lend | 4.91% | 4.78% | 7.75% incentives |
 | spark-savings | 3.60% | 3.58% | Base rate |
-| centrifuge-protocol | 5.32% | 4.91% | Base rate |
-| aave-v3 | 3.64% | 3.97% | Base rate |
-| pareto-credit | 7.82% | 7.87% | Base rate |
-| uniswap-v3 | 77.51% | 69.19% | Base rate |
-| fluid-lending | 4.38% | 4.65% | Base rate |
+| centrifuge-protocol | 6.14% | 4.95% | Base rate |
+| aave-v3 | 3.65% | 3.97% | Base rate |
+| pareto-credit | 7.82% | 7.86% | Base rate |
+| uniswap-v3 | 83.27% | 68.61% | Base rate |
+| fluid-lending | 4.62% | 4.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,11 +68,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDC yield today?
 
-77.51% APY on uniswap-v3 (Base), based on live DefiLlama data.
+83.27% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many USDC pools clear the TVL floor?
 
-1,568 live pools clear this page's $100K TVL floor, $8.73B in total.
+1,579 live pools clear this page's $100K TVL floor, $8.73B in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDC pools have the most stable APY history?
 
-Based on APY history only, USDC's lower-variability candidates are spark-savings (Ethereum), 3.60% APY, $304.39M TVL, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; pareto-credit (Ethereum), 7.82% APY, $154.87M TVL, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; jupiter-lend (Solana), 4.91% APY, $469.77M TVL, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; centrifuge-protocol (Avalanche), 5.32% APY, $262.65M TVL, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; maple (Ethereum), 5.16% APY, $2.9B TVL, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; aave-v3 (Ethereum), 3.64% APY, $167.4M TVL, https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token; fluid-lending (Ethereum), 4.38% APY, $134.76M TVL, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; uniswap-v3 (Base), 77.51% APY, $152.43M TVL, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDC's lower-variability candidates are spark-savings (Ethereum), 3.60% APY, $304.34M TVL, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; pareto-credit (Ethereum), 7.82% APY, $154.93M TVL, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; jupiter-lend (Solana), 4.91% APY, $469.77M TVL, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; centrifuge-protocol (Avalanche), 6.14% APY, $262.72M TVL, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; maple (Ethereum), 5.17% APY, $2.92B TVL, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; aave-v3 (Ethereum), 3.65% APY, $167.52M TVL, https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token; fluid-lending (Ethereum), 4.62% APY, $130.67M TVL, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; uniswap-v3 (Base), 83.27% APY, $153.32M TVL, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -98,4 +98,4 @@ Based on APY history only, USDC's lower-variability candidates are spark-savings
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

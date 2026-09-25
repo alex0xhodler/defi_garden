@@ -1,41 +1,41 @@
 # SRUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest SRUSDE yield right now is 6.69% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDE yield right now is 5.56% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.72% | $18.07M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 6.45% | $4.23M |
-| [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 6.69% | $4.23M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.93% | $18.83M |
+| [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 5.12% | $4.23M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 5.56% | $4.23M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.69% APY, $4.23M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.72% APY, $18.07M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle-v2 (Ethereum), 6.45% APY, $4.23M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 5.12% APY, $4.23M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.93% APY, $18.83M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle-v2 (Ethereum), 5.56% APY, $4.23M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 6.69% | $4.23M |
-| 2 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.72% | $18.07M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 6.45% | $4.23M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 5.12% | $4.23M |
+| 2 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.93% | $18.83M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 5.56% | $4.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRUSDE shows up in 3 pools here, with rates from 3.72% to 6.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRUSDE shows up in 3 pools here, with rates from 3.93% to 5.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 3.72% | 3.93% | Base rate |
-| pendle-v2 | 6.45% | 5.05% | 5.28% incentives |
-| pendle-v2 | 6.69% | 5.04% | Base rate |
+| strata-markets | 3.93% | 3.93% | Base rate |
+| pendle-v2 | 5.12% | 5.08% | Base rate |
+| pendle-v2 | 5.56% | 5.09% | 6.51% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRUSDE yield today?
 
-6.69% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+5.56% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRUSDE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $29.52M in total.
+4 live pools clear this page's $100K TVL floor, $31.61M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SRUSDE pools have the most stable APY history?
 
-Based on APY history only, SRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.69% APY, $4.23M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.72% APY, $18.07M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle-v2 (Ethereum), 6.45% APY, $4.23M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 5.12% APY, $4.23M TVL, https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token; strata-markets (Ethereum), 3.93% APY, $18.83M TVL, https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token; pendle-v2 (Ethereum), 5.56% APY, $4.23M TVL, https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, SRUSDE's lower-variability candidates are pendle-v2 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

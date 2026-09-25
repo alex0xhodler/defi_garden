@@ -1,33 +1,33 @@
 # COINOMI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest COINOMI yield right now is 10.27% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 25.07% | $143.7K |
+| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 2.49% | $145.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token) | Solana | 10.27% | $107.9K |
-| [orca-dex →](https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token) | Solana | 1.66% | $103.6K |
+| [orca-dex →](https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token) | Solana | 0.49% | $105.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, COINOMI's lower-variability candidates are orca-dex (Solana), 1.66% APY, $103.6K TVL, https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token; orca-dex (Solana), 25.07% APY, $143.7K TVL, https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token; raydium-amm (Solana), 10.27% APY, $107.9K TVL, https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINOMI's lower-variability candidates are orca-dex (Solana), 0.49% APY, $105.4K TVL, https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token; orca-dex (Solana), 2.49% APY, $145.7K TVL, https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token; raydium-amm (Solana), 10.27% APY, $107.9K TVL, https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token) | Solana | 1.66% | $103.6K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 25.07% | $143.7K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token) | Solana | 0.49% | $105.4K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 2.49% | $145.7K |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token) | Solana | 10.27% | $107.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-COINOMI shows up in 3 pools here, with rates from 1.66% to 25.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+COINOMI shows up in 3 pools here, with rates from 0.49% to 10.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 25.07% | 4.97% | Base rate |
-| raydium-amm | 10.27% | 15.17% | Base rate |
-| orca-dex | 1.66% | 2.50% | Base rate |
+| orca-dex | 2.49% | 5.24% | Base rate |
+| raydium-amm | 10.27% | 14.93% | Base rate |
+| orca-dex | 0.49% | 2.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many COINOMI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $355.2K in total.
+3 live pools clear this page's $100K TVL floor, $359K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COINOMI pools have the most stable APY history?
 
-Based on APY history only, COINOMI's lower-variability candidates are orca-dex (Solana), 1.66% APY, $103.6K TVL, https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token; orca-dex (Solana), 25.07% APY, $143.7K TVL, https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token; raydium-amm (Solana), 10.27% APY, $107.9K TVL, https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINOMI's lower-variability candidates are orca-dex (Solana), 0.49% APY, $105.4K TVL, https://www.defi.garden/?pool=22b7d52e-5967-47fb-82c6-ffa7f6a33e27&src=seo_token; orca-dex (Solana), 2.49% APY, $145.7K TVL, https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token; raydium-amm (Solana), 10.27% APY, $107.9K TVL, https://www.defi.garden/?pool=76dc88d2-5ae0-4d55-bbe4-9a9b4dfcb11e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, COINOMI's lower-variability candidates are orca-dex (
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

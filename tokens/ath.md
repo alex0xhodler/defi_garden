@@ -1,31 +1,31 @@
 # ATH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest ATH yield right now is 243.53% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATH yield right now is 254.12% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 243.53% | $681.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 81.53% | $366.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 254.12% | $707.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 29.95% | $367K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 81.53% APY, $366.7K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 243.53% APY, $681.6K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 29.95% APY, $367K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 254.12% APY, $707.9K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 81.53% | $366.7K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 243.53% | $681.6K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 29.95% | $367K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 254.12% | $707.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ATH shows up in 2 pools here, with rates from 81.53% to 243.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATH shows up in 2 pools here, with rates from 29.95% to 254.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 172.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 171.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 243.53% | 319.50% | Base rate |
-| uniswap-v3 | 81.53% | 25.53% | Base rate |
+| uniswap-v4 | 254.12% | 318.06% | Base rate |
+| uniswap-v3 | 29.95% | 25.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ATH yield today?
 
-243.53% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+254.12% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many ATH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.05M in total.
+2 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ATH pools have the most stable APY history?
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 81.53% APY, $366.7K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 243.53% APY, $681.6K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 29.95% APY, $367K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 254.12% APY, $707.9K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Et
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

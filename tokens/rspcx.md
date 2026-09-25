@@ -1,12 +1,12 @@
 # RSPCX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest RSPCX yield right now is 0.53% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSPCX yield right now is 0.73% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f&src=seo_token) | Arbitrum | 0.53% | $200.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f&src=seo_token) | Arbitrum | 0.73% | $200.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RSPCX yield today?
 
-0.53% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.73% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RSPCX pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank RSPCX pools. This view covers
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

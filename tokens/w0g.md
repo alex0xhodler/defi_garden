@@ -1,12 +1,12 @@
 # W0G DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest W0G yield right now is 7.64% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest W0G yield right now is 3.19% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f7583a03-2f3b-5b32-b87f-f9a9b343af29&src=seo_token) | Base | 7.64% | $213.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f7583a03-2f3b-5b32-b87f-f9a9b343af29&src=seo_token) | Base | 3.19% | $210.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest W0G yield today?
 
-7.64% APY on uniswap-v3 (Base), based on live DefiLlama data.
+3.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many W0G pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $213.1K in total.
+1 live pool clear this page's $100K TVL floor, $210.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank W0G pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

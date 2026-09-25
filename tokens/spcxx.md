@@ -1,32 +1,32 @@
 # SPCXX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest SPCXX yield right now is 17.03% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXX yield right now is 319.78% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 337.28% | $2.17M |
-| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 17.03% | $195.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=7b433e39-8594-4701-96c6-d04ac161cece&src=seo_token) | Solana | 552.96% | $113.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 319.78% | $2.37M |
+| [raydium-amm →](https://www.defi.garden/?pool=6776f075-0097-5c83-85ff-4e9f532761ad&src=seo_token) | Solana | 443.42% | $256.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 17.98% | $194.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 17.03% APY, $195.4K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token; raydium-amm (Solana), 337.28% APY, $2.17M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 17.98% APY, $194.7K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token; raydium-amm (Solana), 319.78% APY, $2.37M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 17.03% | $195.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 337.28% | $2.17M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 17.98% | $194.7K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 319.78% | $2.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPCXX shows up in 3 pools here, with rates from 17.03% to 552.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPCXX shows up in 3 pools here, with rates from 17.98% to 443.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 209.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 116.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 337.28% | 209.19% | Base rate |
-| raydium-amm | 17.03% | 13.21% | Base rate |
-| raydium-amm | 552.96% | 349.31% | Base rate |
+| raydium-amm | 319.78% | 219.73% | Base rate |
+| raydium-amm | 443.42% | — | Base rate |
+| raydium-amm | 17.98% | 13.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPCXX yield today?
 
-17.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+319.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPCXX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.48M in total.
+3 live pools clear this page's $100K TVL floor, $2.83M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPCXX pools have the most stable APY history?
 
-Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 17.03% APY, $195.4K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token; raydium-amm (Solana), 337.28% APY, $2.17M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 17.98% APY, $194.7K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token; raydium-amm (Solana), 319.78% APY, $2.37M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, SPCXX's lower-variability candidates are raydium-amm 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

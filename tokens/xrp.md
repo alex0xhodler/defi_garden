@@ -1,42 +1,42 @@
 # XRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest XRP yield right now is 5.54% on vvs-standard (Cronos), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XRP yield right now is 23.37% on uniswap-v3 (BSC), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.50% | $6.62M |
-| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $951.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 102.07% | $630.5K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 5.10% | $421.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 5.54% | $358.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 30.01% | $156.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29&src=seo_token) | Solana | 0.94% | $134.3K |
-| [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 34.70% | $132K |
+| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.50% | $6.75M |
+| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $965.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 79.53% | $636.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 4.73% | $425.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 4.47% | $367.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 23.37% | $159.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29&src=seo_token) | Solana | 0.81% | $134.3K |
+| [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 29.13% | $131.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XRP's lower-variability candidates are midas-rwa (XRPL EVM), 2.21% APY, $951.6K TVL, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token; venus-core-pool (BSC), 0.50% APY, $6.62M TVL, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token; pancakeswap-amm (BSC), 5.10% APY, $421.9K TVL, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token; vvs-standard (Cronos), 5.54% APY, $358.6K TVL, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token; gmx-solana (Solana), 34.70% APY, $132K TVL, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token; uniswap-v3 (BSC), 30.01% APY, $156.7K TVL, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token; uniswap-v3 (BSC), 102.07% APY, $630.5K TVL, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XRP's lower-variability candidates are midas-rwa (XRPL EVM), 2.21% APY, $965.1K TVL, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token; venus-core-pool (BSC), 0.50% APY, $6.75M TVL, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token; pancakeswap-amm (BSC), 4.73% APY, $425.6K TVL, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token; vvs-standard (Cronos), 4.47% APY, $367.4K TVL, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token; gmx-solana (Solana), 29.13% APY, $131.7K TVL, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token; uniswap-v3 (BSC), 23.37% APY, $159.1K TVL, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token; uniswap-v3 (BSC), 79.53% APY, $636.8K TVL, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $951.6K |
-| 2 | [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.50% | $6.62M |
-| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 5.10% | $421.9K |
-| 4 | [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 5.54% | $358.6K |
-| 5 | [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 34.70% | $132K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 30.01% | $156.7K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 102.07% | $630.5K |
+| 1 | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $965.1K |
+| 2 | [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.50% | $6.75M |
+| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 4.73% | $425.6K |
+| 4 | [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 4.47% | $367.4K |
+| 5 | [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 29.13% | $131.7K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 23.37% | $159.1K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 79.53% | $636.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XRP shows up in 8 pools here, with rates from 0.50% to 102.07% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+XRP shows up in 8 pools here, with rates from 0.50% to 79.53% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -46,12 +46,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | venus-core-pool | 0.50% | 0.51% | Base rate |
 | midas-rwa | 2.21% | 2.21% | Base rate |
-| uniswap-v3 | 102.07% | 45.79% | Base rate |
-| pancakeswap-amm | 5.10% | 4.19% | Base rate |
-| vvs-standard | 5.54% | 5.55% | Base rate |
-| uniswap-v3 | 30.01% | 18.91% | Base rate |
-| raydium-amm | 0.94% | 1.56% | Base rate |
-| gmx-solana | 34.70% | 72.23% | Base rate |
+| uniswap-v3 | 79.53% | 46.17% | Base rate |
+| pancakeswap-amm | 4.73% | 4.12% | Base rate |
+| vvs-standard | 4.47% | 5.39% | Base rate |
+| uniswap-v3 | 23.37% | 18.46% | Base rate |
+| raydium-amm | 0.81% | 1.41% | Base rate |
+| gmx-solana | 29.13% | 70.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XRP yield today?
 
-5.54% APY on vvs-standard (Cronos), based on live DefiLlama data.
+23.37% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many XRP pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $12.71M in total.
+14 live pools clear this page's $100K TVL floor, $12.92M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XRP pools have the most stable APY history?
 
-Based on APY history only, XRP's lower-variability candidates are midas-rwa (XRPL EVM), 2.21% APY, $951.6K TVL, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token; venus-core-pool (BSC), 0.50% APY, $6.62M TVL, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token; pancakeswap-amm (BSC), 5.10% APY, $421.9K TVL, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token; vvs-standard (Cronos), 5.54% APY, $358.6K TVL, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token; gmx-solana (Solana), 34.70% APY, $132K TVL, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token; uniswap-v3 (BSC), 30.01% APY, $156.7K TVL, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token; uniswap-v3 (BSC), 102.07% APY, $630.5K TVL, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XRP's lower-variability candidates are midas-rwa (XRPL EVM), 2.21% APY, $965.1K TVL, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token; venus-core-pool (BSC), 0.50% APY, $6.75M TVL, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token; pancakeswap-amm (BSC), 4.73% APY, $425.6K TVL, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token; vvs-standard (Cronos), 4.47% APY, $367.4K TVL, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token; gmx-solana (Solana), 29.13% APY, $131.7K TVL, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token; uniswap-v3 (BSC), 23.37% APY, $159.1K TVL, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token; uniswap-v3 (BSC), 79.53% APY, $636.8K TVL, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, XRP's lower-variability candidates are midas-rwa (XRP
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

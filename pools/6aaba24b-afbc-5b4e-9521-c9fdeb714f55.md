@@ -1,8 +1,8 @@
 # DKNG-USDC — raydium-amm on Solana
 
-**Total APY:** 148.89% (148.89% Base · + 0.00% Rewards)
+**Total APY:** 322.46% (322.46% Base · + 0.00% Rewards)
 
-**TVL:** $172.5K
+**TVL:** $117.3K
 
 **Pool Type:** LP/DEX
 
@@ -20,16 +20,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$7,501 in 5y at current rates.
+$1,000 in this pool grows to ~$38,455 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (148.89% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (322.46% headline) — farm rates decay. Active management required.
 
-We've been tracking this pool's rate for 13 days. Watching how a rate holds up over time is one honest way to judge it.
+We've been tracking this pool's rate for 14 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$7,501 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$38,455 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated September 24, 2026
+Last updated September 25, 2026

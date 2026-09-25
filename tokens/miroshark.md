@@ -1,12 +1,12 @@
 # MIROSHARK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest MIROSHARK yield right now is 27.78% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIROSHARK yield right now is 3.94% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5c88d56-eb57-463b-83f9-3f5d16cf85d5&src=seo_token) | Base | 27.78% | $313K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5c88d56-eb57-463b-83f9-3f5d16cf85d5&src=seo_token) | Base | 3.94% | $319.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MIROSHARK yield today?
 
-27.78% APY on uniswap-v4 (Base), based on live DefiLlama data.
+3.94% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MIROSHARK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $313K in total.
+1 live pool clear this page's $100K TVL floor, $319.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MIROSHARK pools. This view co
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

@@ -1,23 +1,23 @@
 # OUSG 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 OUSG의 가장 높은 정직한 수익률은 XRPL의 ondo-yield-assets에서 3.49%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token) | XRPL | 3.49% | $191.31M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.49% | $127.14M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token) | XRPL | 3.49% | $191.33M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.49% | $127.26M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OUSG의 변동성 낮은 후보는 XRPL의 ondo-yield-assets, APY 3.49%, TVL $191.31M, https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.49%, TVL $127.14M, https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OUSG의 변동성 낮은 후보는 XRPL의 ondo-yield-assets, APY 3.49%, TVL $191.33M, https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.49%, TVL $127.26M, https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token) | XRPL | 3.49% | $191.31M |
-| 2 | [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.49% | $127.14M |
+| 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token) | XRPL | 3.49% | $191.33M |
+| 2 | [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.49% | $127.26M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, XRPL의 ondo-yield-assets에서 APY 3.49%�
 
 ### OUSG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $357.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $357.83M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, XRPL의 ondo-yield-assets에서 APY 3.49%�
 
 ### OUSG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OUSG의 변동성 낮은 후보는 XRPL의 ondo-yield-assets, APY 3.49%, TVL $191.31M, https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.49%, TVL $127.14M, https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OUSG의 변동성 낮은 후보는 XRPL의 ondo-yield-assets, APY 3.49%, TVL $191.33M, https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.49%, TVL $127.26M, https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 OUSG의 변동성 낮은 후보는 XRPL의 
 - [XRPL](https://www.defi.garden/ko/chains/xrpl)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

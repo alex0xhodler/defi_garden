@@ -4,8 +4,8 @@ The highest honest ZIGChain yield right now is 5.09% on valdora-finance (ZIGChai
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.09% | $8.85M |
-| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 15.01% | $3.44M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.09% | $9.19M |
+| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 20.45% | $3.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZIGChain pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $12.28M in total.
+2 live pools clear this page's $100K TVL floor, $12.63M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [STZIG](https://www.defi.garden/tokens/stzig)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

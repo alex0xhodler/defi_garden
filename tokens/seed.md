@@ -1,6 +1,6 @@
 # SEED DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
 The highest honest SEED yield right now is 75.94% on uniswap-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SEED pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $971.7K in total.
+4 live pools clear this page's $100K TVL floor, $972.3K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SEED pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

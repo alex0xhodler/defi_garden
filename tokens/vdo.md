@@ -1,12 +1,12 @@
 # VDO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest VDO yield right now is 0.11% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VDO yield right now is 0.19% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=d68f644a-0ee0-45f2-bad7-0bcd28824e60&src=seo_token) | Hyperliquid L1 | 0.11% | $401.9K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=d68f644a-0ee0-45f2-bad7-0bcd28824e60&src=seo_token) | Hyperliquid L1 | 0.19% | $399.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VDO yield today?
 
-0.11% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+0.19% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many VDO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $401.9K in total.
+1 live pool clear this page's $100K TVL floor, $399.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank VDO pools. This view covers A
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

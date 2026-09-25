@@ -1,50 +1,55 @@
 # ENA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ENA의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 55.27%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ENA의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 55.27%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.01% | $4.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 160.44% | $1.33M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 4.48% | $595.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 8.46% | $579.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 51.74% | $109.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 1.85% | $4.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 150.42% | $1.4M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 9.34% | $610.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 5.55% | $594.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=dafd67b0-1dd9-5dd8-8385-fcf9cc38b602&src=seo_token) | Solana | 772.71% | $125.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 31.33% | $112.2K |
+| [hydration-dex →](https://www.defi.garden/?pool=e88050bf-528b-4aaf-99b2-e294da1a396e&src=seo_token) | Polkadot | 6.24% | $102K |
 | [orca-dex →](https://www.defi.garden/?pool=7645d9fa-cab9-55ad-87a2-2c9ce0f5981f&src=seo_token) | Solana | 55.27% | $100K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $4.26M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 4.48%, TVL $595.1K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 160.44%, TVL $1.33M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 8.46%, TVL $579.2K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 51.74%, TVL $109.8K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 1.85%, TVL $4.5M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Polkadot의 hydration-dex, APY 6.24%, TVL $102K, https://www.defi.garden/?pool=e88050bf-528b-4aaf-99b2-e294da1a396e&src=seo_token; Ethereum의 uniswap-v3, APY 5.55%, TVL $594.5K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 150.42%, TVL $1.4M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 9.34%, TVL $610.8K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 31.33%, TVL $112.2K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.01% | $4.26M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 4.48% | $595.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 160.44% | $1.33M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 8.46% | $579.2K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 51.74% | $109.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 1.85% | $4.5M |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=e88050bf-528b-4aaf-99b2-e294da1a396e&src=seo_token) | Polkadot | 6.24% | $102K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 5.55% | $594.5K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 150.42% | $1.4M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 9.34% | $610.8K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 31.33% | $112.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ENA 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 160.44%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ENA 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.85%부터 772.71%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 19.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.69%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
-6개 풀 중 6개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 7개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.01% | 0.50% | 기본 금리 |
-| uniswap-v3 | 160.44% | 95.09% | 기본 금리 |
-| uniswap-v3 | 4.48% | 8.76% | 기본 금리 |
-| uniswap-v4 | 8.46% | 14.17% | 기본 금리 |
-| uniswap-v4 | 51.74% | 25.00% | 기본 금리 |
+| uniswap-v3 | 1.85% | 0.49% | 기본 금리 |
+| uniswap-v3 | 150.42% | 95.17% | 기본 금리 |
+| uniswap-v4 | 9.34% | 13.69% | 기본 금리 |
+| uniswap-v3 | 5.55% | 8.74% | 기본 금리 |
+| raydium-amm | 772.71% | — | 기본 금리 |
+| uniswap-v4 | 31.33% | 24.73% | 기본 금리 |
+| hydration-dex | 6.24% | 5.92% | 기본 금리 |
 | orca-dex | 55.27% | 60.45% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -57,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 55.27%예요.
 
 ### ENA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $7.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $7.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -65,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 55.27%예요.
 
 ### ENA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $4.26M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 4.48%, TVL $595.1K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 160.44%, TVL $1.33M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 8.46%, TVL $579.2K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 51.74%, TVL $109.8K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 1.85%, TVL $4.5M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Polkadot의 hydration-dex, APY 6.24%, TVL $102K, https://www.defi.garden/?pool=e88050bf-528b-4aaf-99b2-e294da1a396e&src=seo_token; Ethereum의 uniswap-v3, APY 5.55%, TVL $594.5K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 150.42%, TVL $1.4M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 9.34%, TVL $610.8K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 31.33%, TVL $112.2K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,5 +85,6 @@ APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

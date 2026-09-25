@@ -1,35 +1,35 @@
 # USDY 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USDY의 가장 높은 정직한 수익률은 Ethereum의 ondo-yield-assets에서 3.59%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.59% | $1.19B |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.37M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.11M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.37M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.65M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.42M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.14M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.39M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.66M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.59% | $6.44M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.59% | $5.95M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.59% | $5.53M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token) | Arbitrum | 3.59% | $3.13M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Osmosis의 ondo-yield-assets, APY 3.59%, TVL $5.95M, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.11M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.37M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.37M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.65M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Osmosis의 ondo-yield-assets, APY 3.59%, TVL $5.53M, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.14M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.39M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.42M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token) | Arbitrum | 3.59% | $3.13M |
 | 2 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.59% | $1.19B |
 | 3 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.59% | $6.44M |
-| 4 | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.59% | $5.95M |
-| 5 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.11M |
-| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.37M |
-| 7 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.37M |
-| 8 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.65M |
+| 4 | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.59% | $5.53M |
+| 5 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.14M |
+| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.39M |
+| 7 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.42M |
+| 8 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.66M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ondo-yield-assets에서 APY 3.
 
 ### USDY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $2.2B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $2.21B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ondo-yield-assets에서 APY 3.
 
 ### USDY 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Osmosis의 ondo-yield-assets, APY 3.59%, TVL $5.95M, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.11M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.37M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.37M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.65M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Osmosis의 ondo-yield-assets, APY 3.59%, TVL $5.53M, https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.14M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.39M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.42M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -92,4 +92,4 @@ APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum
 - [Osmosis](https://www.defi.garden/ko/chains/osmosis)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

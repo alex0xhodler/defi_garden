@@ -1,12 +1,12 @@
 # PP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest PP yield right now is 10.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PP yield right now is 9.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a3b45bb1-eb94-4bb4-a02c-d44c570f6957&src=seo_token) | Solana | 10.56% | $161.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a3b45bb1-eb94-4bb4-a02c-d44c570f6957&src=seo_token) | Solana | 9.48% | $161.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PP yield today?
 
-10.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PP pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PP pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

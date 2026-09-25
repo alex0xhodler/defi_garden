@@ -1,12 +1,12 @@
 # RCRCL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest RCRCL yield right now is 1.76% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RCRCL yield right now is 2.07% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=001e5cc1-f1c7-56fe-aa6a-a06fb46f1365&src=seo_token) | Arbitrum | 1.76% | $209K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=001e5cc1-f1c7-56fe-aa6a-a06fb46f1365&src=seo_token) | Arbitrum | 2.07% | $209.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RCRCL yield today?
 
-1.76% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+2.07% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RCRCL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $209K in total.
+1 live pool clear this page's $100K TVL floor, $209.9K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank RCRCL pools. This view covers
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

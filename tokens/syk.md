@@ -1,12 +1,12 @@
 # SYK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 24, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
 
-The highest honest SYK yield right now is 23.07% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYK yield right now is 10.26% on camelot-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=08a736f7-a0ed-40ff-bd3b-8c602b8f606e&src=seo_token) | Arbitrum | 23.07% | $205.8K |
+| [camelot-v2 →](https://www.defi.garden/?pool=08a736f7-a0ed-40ff-bd3b-8c602b8f606e&src=seo_token) | Arbitrum | 10.26% | $200.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYK yield today?
 
-23.07% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
+10.26% APY on camelot-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many SYK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.8K in total.
+1 live pool clear this page's $100K TVL floor, $200.3K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SYK pools. This view covers A
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

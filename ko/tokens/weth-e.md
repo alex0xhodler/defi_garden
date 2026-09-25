@@ -1,58 +1,58 @@
 # WETH.E 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 71.94%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 78.01%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.52% | $5.56M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 71.94% | $4.4M |
-| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.20% | $1.75M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 31.44% | $896.4K |
-| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 2.02% | $249.6K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 7.85% | $242K |
+| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.52% | $5.53M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 78.01% | $4.92M |
+| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.52% | $1.48M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 27.12% | $853.1K |
+| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 2.02% | $248.7K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 9.36% | $229.1K |
 | [joe-v2.1 →](https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token) | Avalanche | 0.01% | $227.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a&src=seo_token) | Avalanche | 114.08% | $137.4K |
+| [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07&src=seo_token) | Avalanche | 0.67% | $150.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 benqi-lending, APY 2.20%, TVL $1.75M, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.52%, TVL $5.56M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 2.02%, TVL $249.6K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 114.08%, TVL $137.4K, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a&src=seo_token; Avalanche의 uniswap-v3, APY 31.44%, TVL $896.4K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 7.85%, TVL $242K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 71.94%, TVL $4.4M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 joe-v2.1, APY 0.01%, TVL $227.3K, https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 0.67%, TVL $150.1K, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07&src=seo_token; Avalanche의 benqi-lending, APY 2.52%, TVL $1.48M, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.52%, TVL $5.53M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 2.02%, TVL $248.7K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 27.12%, TVL $853.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 9.36%, TVL $229.1K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 78.01%, TVL $4.92M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 joe-v2.1, APY 0.01%, TVL $227.3K, https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.20% | $1.75M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.52% | $5.56M |
-| 3 | [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 2.02% | $249.6K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a&src=seo_token) | Avalanche | 114.08% | $137.4K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 31.44% | $896.4K |
-| 6 | [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 7.85% | $242K |
-| 7 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 71.94% | $4.4M |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07&src=seo_token) | Avalanche | 0.67% | $150.1K |
+| 2 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.52% | $1.48M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.52% | $5.53M |
+| 4 | [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 2.02% | $248.7K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 27.12% | $853.1K |
+| 6 | [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 9.36% | $229.1K |
+| 7 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 78.01% | $4.92M |
 | 8 | [joe-v2.1 →](https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token) | Avalanche | 0.01% | $227.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WETH.E 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 114.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WETH.E 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 78.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.62%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 4개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 1.52% | 1.49% | 기본 금리 |
-| pharaoh-v3 | 71.94% | 59.28% | 인센티브 100.00% |
-| benqi-lending | 2.20% | 3.77% | 기본 금리 |
-| uniswap-v3 | 31.44% | 13.76% | 기본 금리 |
-| deltaprime | 2.02% | 1.28% | 기본 금리 |
-| pangolin-v2 | 7.85% | 4.30% | 기본 금리 |
+| pharaoh-v3 | 78.01% | 59.46% | 인센티브 100.00% |
+| benqi-lending | 2.52% | 3.75% | 기본 금리 |
+| uniswap-v3 | 27.12% | 13.88% | 기본 금리 |
+| deltaprime | 2.02% | 1.32% | 기본 금리 |
+| pangolin-v2 | 9.36% | 4.42% | 기본 금리 |
 | joe-v2.1 | 0.01% | 0.78% | 기본 금리 |
-| uniswap-v3 | 114.08% | 34.95% | 기본 금리 |
+| aave-v4 | 0.67% | 0.17% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ WETH.E 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 114.08
 
 ### 오늘 WETH.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 71.94%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 78.01%예요.
 
 ### WETH.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $13.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $13.99M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 71.94%�
 
 ### WETH.E 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 benqi-lending, APY 2.20%, TVL $1.75M, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.52%, TVL $5.56M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 2.02%, TVL $249.6K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 114.08%, TVL $137.4K, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a&src=seo_token; Avalanche의 uniswap-v3, APY 31.44%, TVL $896.4K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 7.85%, TVL $242K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 71.94%, TVL $4.4M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 joe-v2.1, APY 0.01%, TVL $227.3K, https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 0.67%, TVL $150.1K, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07&src=seo_token; Avalanche의 benqi-lending, APY 2.52%, TVL $1.48M, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.52%, TVL $5.53M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 2.02%, TVL $248.7K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 27.12%, TVL $853.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 9.36%, TVL $229.1K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 78.01%, TVL $4.92M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 joe-v2.1, APY 0.01%, TVL $227.3K, https://www.defi.garden/?pool=40727cc8-cbae-4a16-ae4c-d461211d2666&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalan
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026

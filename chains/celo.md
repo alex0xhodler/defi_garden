@@ -5,11 +5,11 @@ The highest honest Celo yield right now is 6.77% on uniswap-v3 (Celo), among 20 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.03% | $1.55M |
-| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 0.54% | $813.7K |
+| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 0.54% | $816.5K |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.20% | $643.2K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b&src=seo_chain) | 0.27% | $512.1K |
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.01% | $482.6K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_chain) | 0.01% | $443K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b&src=seo_chain) | 0.27% | $514.2K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.01% | $480.8K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_chain) | 0.01% | $445.1K |
 | USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=ad87c260-8a41-4553-a0ba-47c58d798364&src=seo_chain) | 5.38% | $212.5K |
 | CELO-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_chain) | 6.77% | $208.4K |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Celo pools clear the TVL floor?
 
-20 live pools clear this page's $100K TVL floor, $8.06M in total.
+20 live pools clear this page's $100K TVL floor, $7.34M in total.
 
 ### Are these rates safe?
 
@@ -45,4 +45,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CELO](https://www.defi.garden/tokens/celo)
 - [USDM](https://www.defi.garden/tokens/usdm)
 
-## Last updated September 24, 2026
+## Last updated September 25, 2026

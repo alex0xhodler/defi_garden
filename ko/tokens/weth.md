@@ -1,19 +1,19 @@
 # WETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 24, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WETH의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 77.51%이며, $100K TVL 기준을 넘는 1,864개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WETH의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 83.27%이며, $100K TVL 기준을 넘는 1,866개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.43% | $829.53M |
-| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.43% | $328.28M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 77.51% | $152.43M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ac917c6-12fa-49df-aa0b-ced2ebe54e91&src=seo_token) | Ethereum | 0.01% | $152.23M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 44.85% | $108.37M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 9.97% | $99.27M |
-| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.61% | $70.31M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 1.55% | $58.29M |
+| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.44% | $812.12M |
+| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.46% | $321.18M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 83.27% | $153.32M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 57.33% | $108.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 10.40% | $99.25M |
+| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.66% | $70.09M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 19.06% | $58.21M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 1.59% | $57.93M |
 
 ## WETH 디파이 수익률 생성 원리
 
@@ -26,26 +26,26 @@ WETH의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생�
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WETH의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.01%, TVL $152.23M, https://www.defi.garden/?pool=8ac917c6-12fa-49df-aa0b-ced2ebe54e91&src=seo_token; Ethereum의 aave-v3, APY 1.43%, TVL $829.53M, https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token; Ethereum의 sparklend, APY 1.43%, TVL $328.28M, https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token; Monad의 euler-v2, APY 2.61%, TVL $70.31M, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token; Ethereum의 curve-dex, APY 1.55%, TVL $58.29M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token; Ethereum의 uniswap-v3, APY 9.97%, TVL $99.27M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Ethereum의 uniswap-v3, APY 44.85%, TVL $108.37M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token; Base의 uniswap-v3, APY 77.51%, TVL $152.43M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WETH의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.44%, TVL $812.12M, https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token; Ethereum의 sparklend, APY 1.46%, TVL $321.18M, https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token; Monad의 euler-v2, APY 2.66%, TVL $70.09M, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token; Ethereum의 uniswap-v3, APY 19.06%, TVL $58.21M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.93M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token; Ethereum의 uniswap-v3, APY 10.40%, TVL $99.25M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Ethereum의 uniswap-v3, APY 57.33%, TVL $108.41M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token; Base의 uniswap-v3, APY 83.27%, TVL $153.32M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=8ac917c6-12fa-49df-aa0b-ced2ebe54e91&src=seo_token) | Ethereum | 0.01% | $152.23M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.43% | $829.53M |
-| 3 | [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.43% | $328.28M |
-| 4 | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.61% | $70.31M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 1.55% | $58.29M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 9.97% | $99.27M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 44.85% | $108.37M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 77.51% | $152.43M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.44% | $812.12M |
+| 2 | [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.46% | $321.18M |
+| 3 | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.66% | $70.09M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 19.06% | $58.21M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 1.59% | $57.93M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 10.40% | $99.25M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 57.33% | $108.41M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 83.27% | $153.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 77.51%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.44%부터 83.27%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -53,14 +53,14 @@ WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 77.51%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 1.43% | 1.46% | 기본 금리 |
-| sparklend | 1.43% | 1.53% | 기본 금리 |
-| uniswap-v3 | 77.51% | 69.19% | 기본 금리 |
-| uniswap-v2 | 0.01% | 0.01% | 기본 금리 |
-| uniswap-v3 | 44.85% | 43.69% | 기본 금리 |
-| uniswap-v3 | 9.97% | 12.83% | 기본 금리 |
-| euler-v2 | 2.61% | 2.86% | 인센티브 54.43% |
-| curve-dex | 1.55% | 1.59% | 인센티브 100.00% |
+| aave-v3 | 1.44% | 1.45% | 기본 금리 |
+| sparklend | 1.46% | 1.52% | 기본 금리 |
+| uniswap-v3 | 83.27% | 68.61% | 기본 금리 |
+| uniswap-v3 | 57.33% | 43.70% | 기본 금리 |
+| uniswap-v3 | 10.40% | 12.62% | 기본 금리 |
+| euler-v2 | 2.66% | 2.84% | 인센티브 55.35% |
+| uniswap-v3 | 19.06% | 7.49% | 기본 금리 |
+| curve-dex | 1.59% | 1.58% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -68,11 +68,11 @@ WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 77.51%�
 
 ### 오늘 WETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 77.51%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 83.27%예요.
 
 ### WETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,864개이며, 합산 TVL은 $6.18B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,866개이며, 합산 TVL은 $6.16B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -80,7 +80,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 77.51%예요.
 
 ### WETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WETH의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.01%, TVL $152.23M, https://www.defi.garden/?pool=8ac917c6-12fa-49df-aa0b-ced2ebe54e91&src=seo_token; Ethereum의 aave-v3, APY 1.43%, TVL $829.53M, https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token; Ethereum의 sparklend, APY 1.43%, TVL $328.28M, https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token; Monad의 euler-v2, APY 2.61%, TVL $70.31M, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token; Ethereum의 curve-dex, APY 1.55%, TVL $58.29M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token; Ethereum의 uniswap-v3, APY 9.97%, TVL $99.27M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Ethereum의 uniswap-v3, APY 44.85%, TVL $108.37M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token; Base의 uniswap-v3, APY 77.51%, TVL $152.43M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WETH의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 1.44%, TVL $812.12M, https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token; Ethereum의 sparklend, APY 1.46%, TVL $321.18M, https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token; Monad의 euler-v2, APY 2.66%, TVL $70.09M, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token; Ethereum의 uniswap-v3, APY 19.06%, TVL $58.21M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.93M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token; Ethereum의 uniswap-v3, APY 10.40%, TVL $99.25M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Ethereum의 uniswap-v3, APY 57.33%, TVL $108.41M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token; Base의 uniswap-v3, APY 83.27%, TVL $153.32M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -97,4 +97,4 @@ APY 이력만 기준으로 비교한 WETH의 변동성 낮은 후보는 Ethereum
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 24, 2026
+## 마지막 업데이트: September 25, 2026
