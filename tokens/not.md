@@ -1,31 +1,31 @@
 # NOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest NOT yield right now is 11.71% on storm-trade (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOT yield right now is 11.70% on storm-trade (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 11.71% | $217K |
-| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 4.77% | $182.3K |
+| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 11.70% | $225.7K |
+| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 2.47% | $187.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOT's lower-variability candidates are ston.fi (TON), 4.77% APY, $182.3K TVL, https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token; storm-trade (TON), 11.71% APY, $217K TVL, https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOT's lower-variability candidates are ston.fi (TON), 2.47% APY, $187.4K TVL, https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token; storm-trade (TON), 11.70% APY, $225.7K TVL, https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 4.77% | $182.3K |
-| 2 | [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 11.71% | $217K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 2.47% | $187.4K |
+| 2 | [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 11.70% | $225.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOT shows up in 2 pools here, with rates from 4.77% to 11.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOT shows up in 2 pools here, with rates from 2.47% to 11.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| storm-trade | 11.71% | 12.39% | Base rate |
-| ston.fi | 4.77% | 10.46% | Base rate |
+| storm-trade | 11.70% | 12.35% | Base rate |
+| ston.fi | 2.47% | 10.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOT yield today?
 
-11.71% APY on storm-trade (TON), based on live DefiLlama data.
+11.70% APY on storm-trade (TON), based on live DefiLlama data.
 
 ### How many NOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $399.3K in total.
+2 live pools clear this page's $100K TVL floor, $413.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOT pools have the most stable APY history?
 
-Based on APY history only, NOT's lower-variability candidates are ston.fi (TON), 4.77% APY, $182.3K TVL, https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token; storm-trade (TON), 11.71% APY, $217K TVL, https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOT's lower-variability candidates are ston.fi (TON), 2.47% APY, $187.4K TVL, https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token; storm-trade (TON), 11.70% APY, $225.7K TVL, https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, NOT's lower-variability candidates are ston.fi (TON),
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

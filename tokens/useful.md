@@ -1,12 +1,12 @@
 # USEFUL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest USEFUL yield right now is 224.85% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USEFUL yield right now is 217.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=158f10c8-a954-50d9-8b0a-cd0e60d9d09c&src=seo_token) | Solana | 224.85% | $146.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=158f10c8-a954-50d9-8b0a-cd0e60d9d09c&src=seo_token) | Solana | 217.09% | $141K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USEFUL yield today?
 
-224.85% APY on raydium-amm (Solana), based on live DefiLlama data.
+217.09% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many USEFUL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.3K in total.
+1 live pool clear this page's $100K TVL floor, $141K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USEFUL pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

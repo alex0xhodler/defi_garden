@@ -1,12 +1,12 @@
 # EFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest EFI yield right now is 13.05% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EFI yield right now is 7.27% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 13.05% | $311.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 7.27% | $314.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EFI yield today?
 
-13.05% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+7.27% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many EFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $311.5K in total.
+1 live pool clear this page's $100K TVL floor, $314.5K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank EFI pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
-- [MATICX](https://www.defi.garden/tokens/maticx)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

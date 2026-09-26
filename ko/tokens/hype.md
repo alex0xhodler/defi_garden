@@ -1,42 +1,42 @@
 # HYPE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 26, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 HYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 253.22%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 344.82%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [d2-finance →](https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token) | Arbitrum | 23.20% | $8.16M |
-| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 80.47% | $2.96M |
+| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 51.94% | $3.02M |
 | [d2-finance →](https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token) | Base | 23.20% | $2.48M |
-| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.28M |
+| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.27M |
 | [d2-finance →](https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token) | Hyperliquid L1 | 23.20% | $2M |
-| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498&src=seo_token) | Solana | 545.67% | $419.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 253.22% | $400.6K |
-| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 79.63% | $281.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 344.82% | $416.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498&src=seo_token) | Solana | 427.56% | $351.2K |
+| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 56.09% | $281K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HYPE의 변동성 낮은 후보는 Hyperliquid L1의 harmonix-finance, APY 2.23%, TVL $2.28M, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; Hyperliquid L1의 d2-finance, APY 23.20%, TVL $2M, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; Base의 d2-finance, APY 23.20%, TVL $2.48M, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; Arbitrum의 d2-finance, APY 23.20%, TVL $8.16M, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; Solana의 orca-dex, APY 80.47%, TVL $2.96M, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; Base의 aerodrome-slipstream, APY 253.22%, TVL $400.6K, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; Solana의 orca-dex, APY 79.63%, TVL $281.8K, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYPE의 변동성 낮은 후보는 Hyperliquid L1의 harmonix-finance, APY 2.23%, TVL $2.27M, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; Hyperliquid L1의 d2-finance, APY 23.20%, TVL $2M, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; Base의 d2-finance, APY 23.20%, TVL $2.48M, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; Arbitrum의 d2-finance, APY 23.20%, TVL $8.16M, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; Solana의 orca-dex, APY 51.94%, TVL $3.02M, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; Base의 aerodrome-slipstream, APY 344.82%, TVL $416.3K, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; Solana의 orca-dex, APY 56.09%, TVL $281K, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.28M |
+| 1 | [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.27M |
 | 2 | [d2-finance →](https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token) | Hyperliquid L1 | 23.20% | $2M |
 | 3 | [d2-finance →](https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token) | Base | 23.20% | $2.48M |
 | 4 | [d2-finance →](https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token) | Arbitrum | 23.20% | $8.16M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 80.47% | $2.96M |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 253.22% | $400.6K |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 79.63% | $281.8K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 51.94% | $3.02M |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 344.82% | $416.3K |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 56.09% | $281K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HYPE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.23%부터 545.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HYPE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.23%부터 427.56%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.65%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -44,14 +44,14 @@ HYPE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.23%부터 545.67%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| d2-finance | 23.20% | 4.64% | 기본 금리 |
-| orca-dex | 80.47% | 81.37% | 기본 금리 |
-| d2-finance | 23.20% | 4.64% | 기본 금리 |
-| harmonix-finance | 2.23% | 2.31% | 기본 금리 |
-| d2-finance | 23.20% | 4.65% | 기본 금리 |
-| raydium-amm | 545.67% | — | 기본 금리 |
-| aerodrome-slipstream | 253.22% | 373.31% | 인센티브 64.91% |
-| orca-dex | 79.63% | 74.25% | 기본 금리 |
+| d2-finance | 23.20% | 5.42% | 기본 금리 |
+| orca-dex | 51.94% | 78.92% | 기본 금리 |
+| d2-finance | 23.20% | 5.42% | 기본 금리 |
+| harmonix-finance | 2.23% | 2.30% | 기본 금리 |
+| d2-finance | 23.20% | 5.43% | 기본 금리 |
+| aerodrome-slipstream | 344.82% | 373.54% | 인센티브 83.37% |
+| raydium-amm | 427.56% | — | 기본 금리 |
+| orca-dex | 56.09% | 73.20% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +59,11 @@ HYPE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.23%부터 545.67%�
 
 ### 오늘 HYPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 253.22%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 344.82%예요.
 
 ### HYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $21.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $21.52M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -71,7 +71,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 253
 
 ### HYPE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HYPE의 변동성 낮은 후보는 Hyperliquid L1의 harmonix-finance, APY 2.23%, TVL $2.28M, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; Hyperliquid L1의 d2-finance, APY 23.20%, TVL $2M, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; Base의 d2-finance, APY 23.20%, TVL $2.48M, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; Arbitrum의 d2-finance, APY 23.20%, TVL $8.16M, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; Solana의 orca-dex, APY 80.47%, TVL $2.96M, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; Base의 aerodrome-slipstream, APY 253.22%, TVL $400.6K, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; Solana의 orca-dex, APY 79.63%, TVL $281.8K, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYPE의 변동성 낮은 후보는 Hyperliquid L1의 harmonix-finance, APY 2.23%, TVL $2.27M, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; Hyperliquid L1의 d2-finance, APY 23.20%, TVL $2M, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; Base의 d2-finance, APY 23.20%, TVL $2.48M, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; Arbitrum의 d2-finance, APY 23.20%, TVL $8.16M, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; Solana의 orca-dex, APY 51.94%, TVL $3.02M, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; Base의 aerodrome-slipstream, APY 344.82%, TVL $416.3K, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; Solana의 orca-dex, APY 56.09%, TVL $281K, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 HYPE의 변동성 낮은 후보는 Hyperliq
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: September 25, 2026
+## 마지막 업데이트: September 26, 2026

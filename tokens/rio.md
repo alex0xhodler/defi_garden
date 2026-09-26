@@ -1,33 +1,40 @@
 # RIO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest RIO yield right now is 135.27% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RIO yield right now is 65.03% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946&src=seo_token) | Ethereum | 135.27% | $107.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946&src=seo_token) | Ethereum | 65.03% | $123.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338&src=seo_token) | Ethereum | 199.79% | $103.5K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank RIO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 65.03% APY, $123.8K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946&src=seo_token; uniswap-v4 (Ethereum), 199.79% APY, $103.5K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946&src=seo_token) | Ethereum | 65.03% | $123.8K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338&src=seo_token) | Ethereum | 199.79% | $103.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RIO shows up in 1 pools here, with rates from 135.27% to 135.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RIO shows up in 2 pools here, with rates from 65.03% to 199.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 55.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 376.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 135.27% | 55.43% | Base rate |
+| uniswap-v3 | 65.03% | 52.47% | Base rate |
+| uniswap-v4 | 199.79% | 700.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RIO yield today?
 
-135.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+65.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RIO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $230.3K in total.
+3 live pools clear this page's $100K TVL floor, $377.7K in total.
 
 ### Are these rates safe?
 
@@ -47,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RIO pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank RIO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 65.03% APY, $123.8K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946&src=seo_token; uniswap-v4 (Ethereum), 199.79% APY, $103.5K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,4 +69,4 @@ There is not enough qualifying APY history to rank RIO pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

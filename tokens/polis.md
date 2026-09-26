@@ -1,12 +1,12 @@
 # POLIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest POLIS yield right now is 11.84% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POLIS yield right now is 25.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c2a7faa7-b923-4565-ae56-a45354212291&src=seo_token) | Solana | 11.84% | $112.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=c2a7faa7-b923-4565-ae56-a45354212291&src=seo_token) | Solana | 25.00% | $118.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POLIS yield today?
 
-11.84% APY on raydium-amm (Solana), based on live DefiLlama data.
+25.00% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POLIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.3K in total.
+1 live pool clear this page's $100K TVL floor, $118.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank POLIS pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

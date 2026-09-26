@@ -1,12 +1,12 @@
 # KODIUSDC.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest KODIUSDC.E yield right now is 9.38% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIUSDC.E yield right now is 9.74% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 9.38% | $373.9K |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 9.74% | $373.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIUSDC.E yield today?
 
-9.38% APY on berapaw (Berachain), based on live DefiLlama data.
+9.74% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIUSDC.E pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $373.9K in total.
+1 live pool clear this page's $100K TVL floor, $373.1K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank KODIUSDC.E pools. This view c
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
+- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

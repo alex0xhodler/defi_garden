@@ -1,12 +1,12 @@
 # CYS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest CYS yield right now is 252.42% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYS yield right now is 277.97% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6b44be6c-c422-5405-9307-8adcb36d9cb0&src=seo_token) | Base | 252.42% | $217.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6b44be6c-c422-5405-9307-8adcb36d9cb0&src=seo_token) | Base | 277.97% | $210.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYS yield today?
 
-252.42% APY on uniswap-v2 (Base), based on live DefiLlama data.
+277.97% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.4K in total.
+1 live pool clear this page's $100K TVL floor, $210.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CYS pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -1,12 +1,12 @@
 # PNP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest PNP yield right now is 4.02% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNP yield right now is 0.10% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 4.02% | $137.1K |
+| [camelot-v3 →](https://www.defi.garden/?pool=e8712309-7bd3-4971-aefd-e22046e6e111&src=seo_token) | Arbitrum | 0.10% | $135.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNP yield today?
 
-4.02% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+0.10% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PNP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.1K in total.
+1 live pool clear this page's $100K TVL floor, $135.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PNP pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

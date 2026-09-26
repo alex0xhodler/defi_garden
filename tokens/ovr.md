@@ -1,12 +1,12 @@
 # OVR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest OVR yield right now is 4.07% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OVR yield right now is 3.90% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5215276-124a-4343-9b37-c99e4ead9f39&src=seo_token) | Ethereum | 4.07% | $403.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5215276-124a-4343-9b37-c99e4ead9f39&src=seo_token) | Ethereum | 3.90% | $408.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OVR yield today?
 
-4.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+3.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many OVR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $403.4K in total.
+1 live pool clear this page's $100K TVL floor, $408.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OVR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

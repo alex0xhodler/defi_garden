@@ -1,43 +1,43 @@
 # RAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest RAY yield right now is 77.28% on raydium-amm (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAY yield right now is 565.08% on raydium-amm (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token) | Solana | 29.73% | $6.8M |
-| [raydium-amm →](https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token) | Solana | 25.50% | $5.51M |
-| [raydium-amm →](https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token) | Solana | 77.28% | $4.26M |
-| [raydium-amm →](https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token) | Solana | 27.74% | $1.68M |
-| [raydium-amm →](https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token) | Solana | 26.31% | $559.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token) | Solana | 2.34% | $557.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token) | Solana | 401.14% | $486.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token) | Solana | 115.37% | $304.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token) | Solana | 18.17% | $6.77M |
+| [raydium-amm →](https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token) | Solana | 14.46% | $5.58M |
+| [raydium-amm →](https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token) | Solana | 47.73% | $4.31M |
+| [raydium-amm →](https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token) | Solana | 16.59% | $1.67M |
+| [raydium-amm →](https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token) | Solana | 13.55% | $563.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token) | Solana | 2.07% | $553.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token) | Solana | 565.08% | $401.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token) | Solana | 75.13% | $298.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAY's lower-variability candidates are raydium-amm (Solana), 2.34% APY, $557.4K TVL, https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token; raydium-amm (Solana), 25.50% APY, $5.51M TVL, https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token; raydium-amm (Solana), 27.74% APY, $1.68M TVL, https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token; raydium-amm (Solana), 26.31% APY, $559.7K TVL, https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token; raydium-amm (Solana), 29.73% APY, $6.8M TVL, https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token; raydium-amm (Solana), 77.28% APY, $4.26M TVL, https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token; raydium-amm (Solana), 115.37% APY, $304.3K TVL, https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token; raydium-amm (Solana), 401.14% APY, $486.8K TVL, https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAY's lower-variability candidates are raydium-amm (Solana), 2.07% APY, $553.5K TVL, https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token; raydium-amm (Solana), 14.46% APY, $5.58M TVL, https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token; raydium-amm (Solana), 16.59% APY, $1.67M TVL, https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token; raydium-amm (Solana), 13.55% APY, $563.6K TVL, https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token; raydium-amm (Solana), 18.17% APY, $6.77M TVL, https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token; raydium-amm (Solana), 47.73% APY, $4.31M TVL, https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token; raydium-amm (Solana), 75.13% APY, $298.7K TVL, https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token; raydium-amm (Solana), 565.08% APY, $401.1K TVL, https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token) | Solana | 2.34% | $557.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token) | Solana | 25.50% | $5.51M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token) | Solana | 27.74% | $1.68M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token) | Solana | 26.31% | $559.7K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token) | Solana | 29.73% | $6.8M |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token) | Solana | 77.28% | $4.26M |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token) | Solana | 115.37% | $304.3K |
-| 8 | [raydium-amm →](https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token) | Solana | 401.14% | $486.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token) | Solana | 2.07% | $553.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token) | Solana | 14.46% | $5.58M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token) | Solana | 16.59% | $1.67M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token) | Solana | 13.55% | $563.6K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token) | Solana | 18.17% | $6.77M |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token) | Solana | 47.73% | $4.31M |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token) | Solana | 75.13% | $298.7K |
+| 8 | [raydium-amm →](https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token) | Solana | 565.08% | $401.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAY shows up in 8 pools here, with rates from 2.34% to 401.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAY shows up in 8 pools here, with rates from 2.07% to 565.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 39.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 39.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 29.73% | 39.88% | Base rate |
-| raydium-amm | 25.50% | 34.40% | Base rate |
-| raydium-amm | 77.28% | 85.80% | Base rate |
-| raydium-amm | 27.74% | 33.17% | Base rate |
-| raydium-amm | 26.31% | 38.92% | Base rate |
-| raydium-amm | 2.34% | 4.13% | Base rate |
-| raydium-amm | 401.14% | 917.60% | Base rate |
-| raydium-amm | 115.37% | 76.15% | Base rate |
+| raydium-amm | 18.17% | 40.06% | Base rate |
+| raydium-amm | 14.46% | 34.82% | Base rate |
+| raydium-amm | 47.73% | 86.64% | Base rate |
+| raydium-amm | 16.59% | 33.44% | Base rate |
+| raydium-amm | 13.55% | 39.21% | Base rate |
+| raydium-amm | 2.07% | 4.22% | Base rate |
+| raydium-amm | 565.08% | 910.58% | Base rate |
+| raydium-amm | 75.13% | 78.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,7 +60,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAY yield today?
 
-77.28% APY on raydium-amm (Solana), based on live DefiLlama data.
+565.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RAY pools clear the TVL floor?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAY pools have the most stable APY history?
 
-Based on APY history only, RAY's lower-variability candidates are raydium-amm (Solana), 2.34% APY, $557.4K TVL, https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token; raydium-amm (Solana), 25.50% APY, $5.51M TVL, https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token; raydium-amm (Solana), 27.74% APY, $1.68M TVL, https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token; raydium-amm (Solana), 26.31% APY, $559.7K TVL, https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token; raydium-amm (Solana), 29.73% APY, $6.8M TVL, https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token; raydium-amm (Solana), 77.28% APY, $4.26M TVL, https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token; raydium-amm (Solana), 115.37% APY, $304.3K TVL, https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token; raydium-amm (Solana), 401.14% APY, $486.8K TVL, https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAY's lower-variability candidates are raydium-amm (Solana), 2.07% APY, $553.5K TVL, https://www.defi.garden/?pool=61d3125a-9bc7-4562-9d73-316da2dcd15a&src=seo_token; raydium-amm (Solana), 14.46% APY, $5.58M TVL, https://www.defi.garden/?pool=0fc97fda-dd12-4f83-afeb-88e6d60f0e4b&src=seo_token; raydium-amm (Solana), 16.59% APY, $1.67M TVL, https://www.defi.garden/?pool=3fe5a196-8a15-4f74-ba76-6625f7985773&src=seo_token; raydium-amm (Solana), 13.55% APY, $563.6K TVL, https://www.defi.garden/?pool=d22bddb4-be16-437e-a08a-0cb51893f1f0&src=seo_token; raydium-amm (Solana), 18.17% APY, $6.77M TVL, https://www.defi.garden/?pool=8d1c0b44-a5ce-421c-b899-bf489159aa0f&src=seo_token; raydium-amm (Solana), 47.73% APY, $4.31M TVL, https://www.defi.garden/?pool=8161ea57-0353-485d-9ebd-c43ba4fbc7ae&src=seo_token; raydium-amm (Solana), 75.13% APY, $298.7K TVL, https://www.defi.garden/?pool=0e4d44f3-c9c4-4b96-850f-5b1edc99332f&src=seo_token; raydium-amm (Solana), 565.08% APY, $401.1K TVL, https://www.defi.garden/?pool=259c8b36-d86b-584c-a3a4-e0a3e03e495b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, RAY's lower-variability candidates are raydium-amm (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

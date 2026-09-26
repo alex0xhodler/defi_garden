@@ -1,12 +1,12 @@
 # HFUN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest HFUN yield right now is 4.82% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HFUN yield right now is 2.23% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 4.82% | $518.8K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105&src=seo_token) | Hyperliquid L1 | 2.23% | $520.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HFUN yield today?
 
-4.82% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+2.23% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HFUN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $518.8K in total.
+1 live pool clear this page's $100K TVL floor, $520.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HFUN pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

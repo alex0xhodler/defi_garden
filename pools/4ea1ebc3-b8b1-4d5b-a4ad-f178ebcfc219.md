@@ -1,34 +1,37 @@
 # HEX-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 6.37% (6.37% Base · + 0.00% Rewards)
+**Total APY:** 15.34% (15.34% Base · + 0.00% Rewards)
 
-**TVL:** $147.5K
+**TVL:** $150.2K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 15.30%
+**30d Mean APY:** 14.86%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,362 in 5y at current rates.
+$1,000 in this pool grows to ~$1,283 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 6.37% right now vs a 15.30% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Projected at ⅓ haircut (15.34% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,362 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
+
+[Garden this pool → ~$1,283 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 25, 2026
+Last updated September 26, 2026

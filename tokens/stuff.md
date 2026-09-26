@@ -1,12 +1,12 @@
 # STUFF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest STUFF yield right now is 22.35% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STUFF yield right now is 22.36% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 22.35% | $210.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 22.36% | $218.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STUFF yield today?
 
-22.35% APY on minswap-dex (Cardano), based on live DefiLlama data.
+22.36% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many STUFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.7K in total.
+1 live pool clear this page's $100K TVL floor, $218.8K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank STUFF pools. This view covers
 
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [FET](https://www.defi.garden/tokens/fet)
-- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -1,43 +1,46 @@
 # HUNT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest HUNT yield right now is 0.07% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUNT yield right now is 1.29% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 0.46% | $846K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 0.58% | $587.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token) | Ethereum | 0.07% | $576.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 1.29% | $864.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 0.86% | $602.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token) | Ethereum | 1.71% | $587.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 1.19% | $507.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $576.2K TVL, https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token; uniswap-v3 (Ethereum), 0.46% APY, $846K TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 0.58% APY, $587.1K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Ethereum), 1.71% APY, $587.2K TVL, https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token; uniswap-v4 (Base), 1.19% APY, $507.7K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 1.29% APY, $864.7K TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 0.86% APY, $602.1K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token) | Ethereum | 0.07% | $576.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 0.46% | $846K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 0.58% | $587.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token) | Ethereum | 1.71% | $587.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token) | Base | 1.19% | $507.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 1.29% | $864.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 0.86% | $602.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HUNT shows up in 3 pools here, with rates from 0.07% to 0.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HUNT shows up in 4 pools here, with rates from 0.86% to 1.71% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.46% | 2.05% | Base rate |
-| uniswap-v3 | 0.58% | 1.23% | Base rate |
-| uniswap-v4 | 0.07% | 0.29% | Base rate |
+| uniswap-v3 | 1.29% | 2.05% | Base rate |
+| uniswap-v3 | 0.86% | 1.24% | Base rate |
+| uniswap-v4 | 1.71% | 0.31% | Base rate |
+| uniswap-v4 | 1.19% | 1.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HUNT yield today?
 
-0.07% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+1.29% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HUNT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.67M in total.
+5 live pools clear this page's $100K TVL floor, $2.72M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HUNT pools have the most stable APY history?
 
-Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $576.2K TVL, https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token; uniswap-v3 (Ethereum), 0.46% APY, $846K TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 0.58% APY, $587.1K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (Ethereum), 1.71% APY, $587.2K TVL, https://www.defi.garden/?pool=2694bfce-2549-4a1b-85fa-e46cbf2d9226&src=seo_token; uniswap-v4 (Base), 1.19% APY, $507.7K TVL, https://www.defi.garden/?pool=0fa4b16d-c867-4764-b20d-d764b48b1fb2&src=seo_token; uniswap-v3 (Ethereum), 1.29% APY, $864.7K TVL, https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token; uniswap-v3 (Ethereum), 0.86% APY, $602.1K TVL, https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,5 +74,6 @@ Based on APY history only, HUNT's lower-variability candidates are uniswap-v4 (E
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

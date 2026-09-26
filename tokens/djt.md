@@ -1,12 +1,12 @@
 # DJT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest DJT yield right now is 307.66% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DJT yield right now is 678.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=169faaa7-d993-571e-849a-1f1efc7c2422&src=seo_token) | Solana | 307.66% | $239.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=5d57f3ba-799c-563b-a704-1b4f7aa14903&src=seo_token) | Solana | 678.53% | $108.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DJT yield today?
 
-307.66% APY on orca-dex (Solana), based on live DefiLlama data.
+678.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DJT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.2K in total.
+1 live pool clear this page's $100K TVL floor, $108.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DJT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -4,8 +4,8 @@ The highest honest XRPL yield right now is 3.49% on ondo-yield-assets (XRPL), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| OUSG | [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_chain) | 3.49% | $191.33M |
-| TBL | [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_chain) | 3.44% | $62.69M |
+| OUSG | [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_chain) | 3.49% | $189.85M |
+| TBL | [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_chain) | 3.32% | $62.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRPL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $254.02M in total.
+2 live pools clear this page's $100K TVL floor, $252.54M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OUSG](https://www.defi.garden/tokens/ousg)
 - [TBL](https://www.defi.garden/tokens/tbl)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

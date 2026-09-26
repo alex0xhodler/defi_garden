@@ -1,13 +1,13 @@
 # CBZEC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 26, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CBZEC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 149.91%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBZEC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 68.97%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686&src=seo_token) | Base | 149.91% | $724.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6&src=seo_token) | Base | 122.39% | $103.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686&src=seo_token) | Base | 68.97% | $1.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6&src=seo_token) | Base | 103.76% | $104.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -18,9 +18,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CBZEC 풀은 여기 2개가 있고, 1개 체인에서 APY가 122.39%부터 149.91%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CBZEC 풀은 여기 2개가 있고, 1개 체인에서 APY가 68.97%부터 103.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 166.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 161.45%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 2개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -28,8 +28,8 @@ CBZEC 풀은 여기 2개가 있고, 1개 체인에서 APY가 122.39%부터 149.9
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 149.91% | 112.20% | 인센티브 10.60% |
-| uniswap-v3 | 122.39% | 219.90% | 기본 금리 |
+| aerodrome-slipstream | 68.97% | 111.64% | 인센티브 17.24% |
+| uniswap-v3 | 103.76% | 211.26% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -37,11 +37,11 @@ CBZEC 풀은 여기 2개가 있고, 1개 체인에서 APY가 122.39%부터 149.9
 
 ### 오늘 CBZEC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 149.91%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 68.97%예요.
 
 ### CBZEC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 149
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 25, 2026
+## 마지막 업데이트: September 26, 2026

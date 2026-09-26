@@ -1,12 +1,12 @@
 # DACT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest DACT yield right now is 88.57% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DACT yield right now is 76.55% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f7dd639a-e6f4-57a8-9d40-d4a1d72111ec&src=seo_token) | Base | 88.57% | $260.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f7dd639a-e6f4-57a8-9d40-d4a1d72111ec&src=seo_token) | Base | 76.55% | $313.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DACT yield today?
 
-88.57% APY on uniswap-v2 (Base), based on live DefiLlama data.
+76.55% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DACT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $260.6K in total.
+1 live pool clear this page's $100K TVL floor, $313.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DACT pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

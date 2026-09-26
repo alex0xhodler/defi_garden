@@ -1,12 +1,12 @@
 # GCFA — balancer-v3 on Ethereum
 
-**Total APY:** 4.31% (0.09% Base · + 4.22% Rewards)
+**Total APY:** 4.20% (0.08% Base · + 4.13% Rewards)
 
-**TVL:** $175.7K
+**TVL:** $179.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 2.95%
+**30d Mean APY:** 3.05%
 
 **Exposure:** single
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,235 in 5y at current rates.
+$1,000 in this pool grows to ~$1,229 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,235 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,229 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on balancer-v3](https://balancer.fi/?ref=defi.garden)
 
-Last updated September 25, 2026
+Last updated September 26, 2026

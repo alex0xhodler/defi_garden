@@ -1,12 +1,12 @@
 # DORY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest DORY yield right now is 135.89% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DORY yield right now is 74.94% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 135.89% | $4.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae3c1ac2-ad79-4a8d-8aa9-3f2a6c394ab4&src=seo_token) | Arbitrum | 74.94% | $4.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DORY yield today?
 
-135.89% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+74.94% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many DORY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.13M in total.
+1 live pool clear this page's $100K TVL floor, $4.17M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DORY pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

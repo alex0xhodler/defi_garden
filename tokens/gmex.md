@@ -1,12 +1,12 @@
 # GMEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest GMEX yield right now is 290.93% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMEX yield right now is 533.91% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=38f7be90-fce7-5461-b7fd-5b27d7b77f6f&src=seo_token) | Solana | 290.93% | $315.6K |
+| [orca-dex →](https://www.defi.garden/?pool=38f7be90-fce7-5461-b7fd-5b27d7b77f6f&src=seo_token) | Solana | 533.91% | $312.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GMEX yield today?
 
-290.93% APY on orca-dex (Solana), based on live DefiLlama data.
+533.91% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GMEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $315.6K in total.
+1 live pool clear this page's $100K TVL floor, $312.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GMEX pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

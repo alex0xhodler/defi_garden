@@ -1,12 +1,12 @@
 # AKE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest AKE yield right now is 4.95% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKE yield right now is 4.78% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 4.95% | $1.57M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 4.78% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AKE yield today?
 
-4.95% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+4.78% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many AKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.57M in total.
+1 live pool clear this page's $100K TVL floor, $1.36M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

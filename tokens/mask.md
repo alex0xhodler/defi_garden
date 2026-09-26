@@ -1,13 +1,13 @@
 # MASK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest MASK yield right now is 575.28% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MASK yield right now is 932.25% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 5.15% | $571K |
-| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489&src=seo_token) | Solana | 575.28% | $238.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 5.94% | $580.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489&src=seo_token) | Solana | 932.25% | $433.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MASK shows up in 2 pools here, with rates from 5.15% to 575.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MASK shows up in 2 pools here, with rates from 5.94% to 932.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 361.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 327.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 5.15% | 6.51% | Base rate |
-| raydium-amm | 575.28% | 715.86% | Base rate |
+| uniswap-v2 | 5.94% | 6.17% | Base rate |
+| raydium-amm | 932.25% | 647.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MASK yield today?
 
-575.28% APY on raydium-amm (Solana), based on live DefiLlama data.
+932.25% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MASK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $809.1K in total.
+2 live pools clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank MASK pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

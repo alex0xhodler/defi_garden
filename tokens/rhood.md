@@ -1,12 +1,12 @@
 # RHOOD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest RHOOD yield right now is 1.12% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RHOOD yield right now is 0.60% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d7743d92-22e7-5773-b8cc-c7dea24aad70&src=seo_token) | Arbitrum | 1.12% | $206.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d7743d92-22e7-5773-b8cc-c7dea24aad70&src=seo_token) | Arbitrum | 0.60% | $204K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RHOOD yield today?
 
-1.12% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.60% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RHOOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.4K in total.
+1 live pool clear this page's $100K TVL floor, $204K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RHOOD pools. This view covers
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -1,13 +1,13 @@
 # STONKEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest STONKEX yield right now is 204.59% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKEX yield right now is 344.38% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df&src=seo_token) | Base | 204.59% | $500.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0&src=seo_token) | Base | 4.40% | $278.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df&src=seo_token) | Base | 344.38% | $475.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0&src=seo_token) | Base | 5.49% | $279.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STONKEX shows up in 2 pools here, with rates from 4.40% to 204.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONKEX shows up in 2 pools here, with rates from 5.49% to 344.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 138.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 124.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ STONKEX shows up in 2 pools here, with rates from 4.40% to 204.59% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 204.59% | — | Base rate |
-| aerodrome-v1 | 4.40% | 138.58% | 100.00% incentives |
+| uniswap-v3 | 344.38% | — | Base rate |
+| aerodrome-v1 | 5.49% | 124.39% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONKEX yield today?
 
-204.59% APY on uniswap-v3 (Base), based on live DefiLlama data.
+344.38% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many STONKEX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $778.9K in total.
+2 live pools clear this page's $100K TVL floor, $754.9K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank STONKEX pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

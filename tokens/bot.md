@@ -1,13 +1,13 @@
 # BOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest BOT yield right now is 378.64% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOT yield right now is 650.37% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9a357bec-c174-503e-ba8f-653c9d745385&src=seo_token) | Solana | 378.64% | $167.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=fa5540e9-030a-5459-9c51-17a7f6617f7b&src=seo_token) | Solana | 147.10% | $113.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=fa5540e9-030a-5459-9c51-17a7f6617f7b&src=seo_token) | Solana | 115.00% | $136.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=9a357bec-c174-503e-ba8f-653c9d745385&src=seo_token) | Solana | 650.37% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BOT shows up in 2 pools here, with rates from 147.10% to 378.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOT shows up in 2 pools here, with rates from 115.00% to 650.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 301.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 287.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 378.64% | — | Base rate |
-| raydium-amm | 147.10% | 301.43% | Base rate |
+| raydium-amm | 115.00% | 287.67% | Base rate |
+| raydium-amm | 650.37% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOT yield today?
 
-378.64% APY on raydium-amm (Solana), based on live DefiLlama data.
+650.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $281K in total.
+2 live pools clear this page's $100K TVL floor, $245.7K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank BOT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

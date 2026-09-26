@@ -1,13 +1,12 @@
 # OPAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest OPAL yield right now is 7.09% on origami-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPAL yield right now is 0.07% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 0.42% | $2.81M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.09% | $497.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24&src=seo_token) | Base | 0.07% | $2.8M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +17,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-OPAL shows up in 2 pools here, with rates from 0.42% to 7.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPAL shows up in 1 pools here, with rates from 0.07% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.42% | 0.90% | Base rate |
-| origami-finance | 7.09% | 8.79% | Base rate |
+| uniswap-v2 | 0.07% | 0.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPAL yield today?
 
-7.09% APY on origami-finance (Ethereum), based on live DefiLlama data.
+0.07% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many OPAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.31M in total.
+2 live pools clear this page's $100K TVL floor, $3.3M in total.
 
 ### Are these rates safe?
 
@@ -53,16 +51,15 @@ There is not enough qualifying APY history to rank OPAL pools. This view covers 
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

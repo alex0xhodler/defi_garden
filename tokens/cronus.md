@@ -1,13 +1,13 @@
 # CRONUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest CRONUS yield right now is 37.57% on vvs-flawless (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRONUS yield right now is 22.06% on vvs-flawless (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 27.67% | $218.8K |
-| [vvs-flawless →](https://www.defi.garden/?pool=24838162-453b-5358-9174-50653eb43ce2&src=seo_token) | Cronos | 37.57% | $197.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=32d58206-d645-561a-8dfe-631550bf7d54&src=seo_token) | Cronos | 12.99% | $219K |
+| [vvs-flawless →](https://www.defi.garden/?pool=24838162-453b-5358-9174-50653eb43ce2&src=seo_token) | Cronos | 22.06% | $187.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CRONUS shows up in 2 pools here, with rates from 27.67% to 37.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRONUS shows up in 2 pools here, with rates from 12.99% to 22.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 27.67% | 11.46% | Base rate |
-| vvs-flawless | 37.57% | 31.06% | Base rate |
+| vvs-standard | 12.99% | 12.24% | Base rate |
+| vvs-flawless | 22.06% | 31.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRONUS yield today?
 
-37.57% APY on vvs-flawless (Cronos), based on live DefiLlama data.
+22.06% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many CRONUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $416.5K in total.
+2 live pools clear this page's $100K TVL floor, $406.2K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank CRONUS pools. This view cover
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

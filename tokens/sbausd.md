@@ -1,12 +1,12 @@
 # SBAUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest SBAUSD yield right now is 5.93% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBAUSD yield right now is 8.18% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad&src=seo_token) | Monad | 5.93% | $5.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad&src=seo_token) | Monad | 8.18% | $5.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SBAUSD yield today?
 
-5.93% APY on morpho-blue (Monad), based on live DefiLlama data.
+8.18% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many SBAUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.61M in total.
+1 live pool clear this page's $100K TVL floor, $5.5M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SBAUSD pools. This view cover
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -4,7 +4,7 @@ The highest honest Metis yield right now is 3.43% on hercules-v3 (Metis), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HERA-M.USDC | [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_chain) | 3.43% | $117.7K |
+| HERA-M.USDC | [hercules-v3 →](https://www.defi.garden/?pool=142a1f55-169c-462b-8573-7d312babdc04&src=seo_chain) | 3.43% | $117.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Metis pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.7K in total.
+1 live pool clear this page's $100K TVL floor, $117.8K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HERA](https://www.defi.garden/tokens/hera)
 - [M.USDC](https://www.defi.garden/tokens/m-usdc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

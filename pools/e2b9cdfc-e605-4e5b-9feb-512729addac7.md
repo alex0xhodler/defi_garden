@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $8.84M
+**TVL:** $8.87M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.03% 30-day average. Reward 
 
 [Start Earning on vesper](https://vesper.finance/?ref=defi.garden)
 
-Last updated September 25, 2026
+Last updated September 26, 2026

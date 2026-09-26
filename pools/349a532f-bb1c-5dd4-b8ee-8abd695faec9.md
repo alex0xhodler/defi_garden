@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 6.11%
+**30d Mean APY:** 6.79%
 
 **Exposure:** single
 
@@ -27,10 +27,10 @@ Your deposit stays yours — you keep your money, and it keeps working.
 
 Projected at ⅓ haircut (20.48% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 20.48% right now vs a 6.11% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 20.48% right now vs a 6.79% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,391 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on t3tris-finance](https://t3tris.finance/?ref=defi.garden)
 
-Last updated September 25, 2026
+Last updated September 26, 2026

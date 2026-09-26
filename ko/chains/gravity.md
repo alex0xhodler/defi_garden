@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ATUSD | [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_chain) | 0.33% | $1.37M |
+| ATUSD | [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_chain) | 0.33% | $1.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 0.33%예요.
 
 - [ATUSD](https://www.defi.garden/ko/tokens/atusd)
 
-## 마지막 업데이트: September 25, 2026
+## 마지막 업데이트: September 26, 2026

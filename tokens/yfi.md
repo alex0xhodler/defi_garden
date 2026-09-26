@@ -1,39 +1,39 @@
 # YFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest YFI yield right now is 8.62% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YFI yield right now is 15.57% on sushiswap-v3 (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 6.98% | $1.35M |
-| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.84% | $620.4K |
-| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 8.62% | $615.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 5.30% | $154.5K |
-| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 5.41% | $136.4K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token) | Ethereum | 23.60% | $125.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 8.68% | $1.36M |
+| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.73% | $627K |
+| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 8.56% | $621.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 3.45% | $155.7K |
+| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 3.31% | $137.4K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token) | Ethereum | 15.57% | $127K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YFI's lower-variability candidates are curve-dex (Ethereum), 5.84% APY, $620.4K TVL, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token; convex-finance (Ethereum), 8.62% APY, $615.1K TVL, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token; aerodrome-v1 (Base), 6.98% APY, $1.35M TVL, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token; sushiswap (Ethereum), 5.41% APY, $136.4K TVL, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token; uniswap-v2 (Ethereum), 5.30% APY, $154.5K TVL, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token; sushiswap-v3 (Ethereum), 23.60% APY, $125.8K TVL, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YFI's lower-variability candidates are curve-dex (Ethereum), 5.73% APY, $627K TVL, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token; convex-finance (Ethereum), 8.56% APY, $621.1K TVL, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token; aerodrome-v1 (Base), 8.68% APY, $1.36M TVL, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token; sushiswap (Ethereum), 3.31% APY, $137.4K TVL, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token; uniswap-v2 (Ethereum), 3.45% APY, $155.7K TVL, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token; sushiswap-v3 (Ethereum), 15.57% APY, $127K TVL, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.84% | $620.4K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 8.62% | $615.1K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 6.98% | $1.35M |
-| 4 | [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 5.41% | $136.4K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 5.30% | $154.5K |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token) | Ethereum | 23.60% | $125.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.73% | $627K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 8.56% | $621.1K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 8.68% | $1.36M |
+| 4 | [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 3.31% | $137.4K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 3.45% | $155.7K |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token) | Ethereum | 15.57% | $127K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YFI shows up in 6 pools here, with rates from 5.30% to 23.60% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+YFI shows up in 6 pools here, with rates from 3.31% to 15.57% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ YFI shows up in 6 pools here, with rates from 5.30% to 23.60% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 6.98% | 6.81% | 100.00% incentives |
-| curve-dex | 5.84% | 6.28% | 82.36% incentives |
-| convex-finance | 8.62% | 8.85% | 88.05% incentives |
-| uniswap-v2 | 5.30% | 4.18% | Base rate |
-| sushiswap | 5.41% | 2.87% | Base rate |
-| sushiswap-v3 | 23.60% | 10.82% | Base rate |
+| aerodrome-v1 | 8.68% | 6.88% | 100.00% incentives |
+| curve-dex | 5.73% | 6.31% | 84.99% incentives |
+| convex-finance | 8.56% | 8.89% | 89.95% incentives |
+| uniswap-v2 | 3.45% | 4.23% | Base rate |
+| sushiswap | 3.31% | 2.95% | Base rate |
+| sushiswap-v3 | 15.57% | 11.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YFI yield today?
 
-8.62% APY on convex-finance (Ethereum), based on live DefiLlama data.
+15.57% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many YFI pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $4.06M in total.
+9 live pools clear this page's $100K TVL floor, $4.1M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YFI pools have the most stable APY history?
 
-Based on APY history only, YFI's lower-variability candidates are curve-dex (Ethereum), 5.84% APY, $620.4K TVL, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token; convex-finance (Ethereum), 8.62% APY, $615.1K TVL, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token; aerodrome-v1 (Base), 6.98% APY, $1.35M TVL, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token; sushiswap (Ethereum), 5.41% APY, $136.4K TVL, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token; uniswap-v2 (Ethereum), 5.30% APY, $154.5K TVL, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token; sushiswap-v3 (Ethereum), 23.60% APY, $125.8K TVL, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YFI's lower-variability candidates are curve-dex (Ethereum), 5.73% APY, $627K TVL, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token; convex-finance (Ethereum), 8.56% APY, $621.1K TVL, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token; aerodrome-v1 (Base), 8.68% APY, $1.36M TVL, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token; sushiswap (Ethereum), 3.31% APY, $137.4K TVL, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token; uniswap-v2 (Ethereum), 3.45% APY, $155.7K TVL, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token; sushiswap-v3 (Ethereum), 15.57% APY, $127K TVL, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +82,4 @@ Based on APY history only, YFI's lower-variability candidates are curve-dex (Eth
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

@@ -1,12 +1,12 @@
 # RCRCL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest RCRCL yield right now is 2.07% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RCRCL yield right now is 0.53% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=001e5cc1-f1c7-56fe-aa6a-a06fb46f1365&src=seo_token) | Arbitrum | 2.07% | $209.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=001e5cc1-f1c7-56fe-aa6a-a06fb46f1365&src=seo_token) | Arbitrum | 0.53% | $203.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RCRCL yield today?
 
-2.07% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.53% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RCRCL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $209.9K in total.
+1 live pool clear this page's $100K TVL floor, $203.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RCRCL pools. This view covers
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

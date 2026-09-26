@@ -1,6 +1,6 @@
 # IRIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
 The highest honest IRIS yield right now is 500.00% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank IRIS pools. This view covers 
 
 ## Related tokens
 
-- [USDY](https://www.defi.garden/tokens/usdy)
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [USDC.N](https://www.defi.garden/tokens/usdc-n)
 - [AKT](https://www.defi.garden/tokens/akt)
 - [ATONE](https://www.defi.garden/tokens/atone)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

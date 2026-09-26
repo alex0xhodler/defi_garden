@@ -1,6 +1,6 @@
 # STGUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
 The highest honest STGUSDC yield right now is 1.37% on more-markets (Flow), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank STGUSDC pools. This view cove
 ## Related tokens
 
 - [ANKRFLOWEVM](https://www.defi.garden/tokens/ankrflowevm)
-- [PYUSD0](https://www.defi.garden/tokens/pyusd0)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

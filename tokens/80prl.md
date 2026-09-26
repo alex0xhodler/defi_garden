@@ -1,12 +1,12 @@
 # 80PRL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest 80PRL yield right now is 3.16% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 80PRL yield right now is 1.68% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a&src=seo_token) | Ethereum | 3.16% | $159.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a&src=seo_token) | Ethereum | 1.68% | $164.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 80PRL yield today?
 
-3.16% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+1.68% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 80PRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.7K in total.
+1 live pool clear this page's $100K TVL floor, $164.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 80PRL pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

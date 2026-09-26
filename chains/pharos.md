@@ -1,10 +1,10 @@
 # Pharos DeFi Yields
 
-The highest honest Pharos yield right now is 3.53% on centrifuge-protocol (Pharos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Pharos yield right now is 3.28% on centrifuge-protocol (Pharos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 3.53% | $4.4M |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 3.28% | $4.41M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Pharos yield today?
 
-3.53% APY on centrifuge-protocol (Pharos), based on live DefiLlama data.
+3.28% APY on centrifuge-protocol (Pharos), based on live DefiLlama data.
 
 ### How many Pharos pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.4M in total.
+1 live pool clear this page's $100K TVL floor, $4.41M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

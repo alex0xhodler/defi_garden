@@ -1,37 +1,34 @@
 # WETH-NST — uniswap-v3 on Arbitrum
 
-**Total APY:** 13.19% (13.19% Base · + 0.00% Rewards)
+**Total APY:** 7.23% (7.23% Base · + 0.00% Rewards)
 
-**TVL:** $199.4K
+**TVL:** $202.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 10.60%
+**30d Mean APY:** 10.75%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: High
+## Risk Assessment: Medium
 
-Advanced DeFi strategy
+Moderate risk profile
 
 - Low liquidity
-- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,240 in 5y at current rates.
+$1,000 in this pool grows to ~$1,418 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (13.19% headline) — farm rates decay. Active management required.
-
 We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,240 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,418 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 25, 2026
+Last updated September 26, 2026

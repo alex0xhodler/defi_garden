@@ -1,12 +1,12 @@
 # CHECK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest CHECK yield right now is 61.50% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHECK yield right now is 83.70% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a9b9063a-6b68-4922-b09e-f759e9ceec59&src=seo_token) | Base | 61.50% | $661.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a9b9063a-6b68-4922-b09e-f759e9ceec59&src=seo_token) | Base | 83.70% | $661.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHECK yield today?
 
-61.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+83.70% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CHECK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $661.3K in total.
+1 live pool clear this page's $100K TVL floor, $661.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CHECK pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

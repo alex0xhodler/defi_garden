@@ -1,13 +1,13 @@
 # VOSF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest VOSF yield right now is 54.68% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VOSF yield right now is 59.34% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=d69328bf-be06-5b91-b857-342f420d2aa4&src=seo_token) | Base | 54.68% | $151.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0cfc0d5a-c4d2-5207-8b9a-3233080ebaa0&src=seo_token) | Base | 23.58% | $124.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4326c64d-2d69-5aa5-ab95-d25c934527bd&src=seo_token) | Base | 59.34% | $117.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=58ac1455-ae34-5afb-ba3c-f6a1ca498404&src=seo_token) | Base | 29.02% | $102.8K |
 
 <!-- rate-stability:insufficient -->
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VOSF shows up in 3 pools here, with rates from 23.58% to 54.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VOSF shows up in 3 pools here, with rates from 29.02% to 59.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 24.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 44.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,7 +30,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 54.68% | 47.28% | Base rate |
-| uniswap-v4 | 23.58% | 24.25% | Base rate |
+| uniswap-v4 | 59.34% | 44.56% | Base rate |
 | uniswap-v4 | 29.02% | 24.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VOSF yield today?
 
-54.68% APY on uniswap-v4 (Base), based on live DefiLlama data.
+59.34% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many VOSF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $378.8K in total.
+3 live pools clear this page's $100K TVL floor, $372K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank VOSF pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

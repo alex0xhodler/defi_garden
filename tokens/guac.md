@@ -1,12 +1,12 @@
 # GUAC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest GUAC yield right now is 7.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUAC yield right now is 7.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d09abc32-2a96-4a3a-82fa-731e98fe563d&src=seo_token) | Solana | 7.26% | $167.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=d09abc32-2a96-4a3a-82fa-731e98fe563d&src=seo_token) | Solana | 7.41% | $165K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUAC yield today?
 
-7.26% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.41% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GUAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.6K in total.
+1 live pool clear this page's $100K TVL floor, $165K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GUAC pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

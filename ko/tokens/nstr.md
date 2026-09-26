@@ -1,6 +1,6 @@
 # NSTR 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 25, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 26, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 NSTR의 가장 높은 정직한 수익률은 Starknet의 nostra-pools에서 0.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -35,15 +35,15 @@ DefiLlama 실시간 데이터 기준, Starknet의 nostra-pools에서 APY 0.43%�
 
 ## 관련 토큰
 
-- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [XWBTC](https://www.defi.garden/ko/tokens/xwbtc)
+- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 
 ## 이용 가능한 체인
 
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: September 25, 2026
+## 마지막 업데이트: September 26, 2026

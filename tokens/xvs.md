@@ -1,12 +1,12 @@
 # XVS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
 The highest honest XVS yield right now is 0.89% on venus-core-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.89% | $3.03M |
+| [venus-core-pool →](https://www.defi.garden/?pool=bd3e33f0-fa0f-4c4c-97d7-90f267808355&src=seo_token) | BSC | 0.89% | $3.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XVS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.03M in total.
+1 live pool clear this page's $100K TVL floor, $3.09M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank XVS pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

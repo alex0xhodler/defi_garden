@@ -1,33 +1,33 @@
 # SUSG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest SUSG yield right now is 21.78% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSG yield right now is 21.25% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 16.24% | $992.1K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 20.58% | $882.6K |
-| [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 21.78% | $498.8K |
+| [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 17.89% | $993.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 21.25% | $883.4K |
+| [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 20.88% | $560.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSG's lower-variability candidates are convex-finance (Ethereum), 21.78% APY, $498.8K TVL, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; curve-dex (Ethereum), 16.24% APY, $992.1K TVL, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; stake-dao-yield (Ethereum), 20.58% APY, $882.6K TVL, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSG's lower-variability candidates are convex-finance (Ethereum), 20.88% APY, $560.3K TVL, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; curve-dex (Ethereum), 17.89% APY, $993.1K TVL, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; stake-dao-yield (Ethereum), 21.25% APY, $883.4K TVL, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 21.78% | $498.8K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 16.24% | $992.1K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 20.58% | $882.6K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 20.88% | $560.3K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 17.89% | $993.1K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 21.25% | $883.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSG shows up in 3 pools here, with rates from 16.24% to 21.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSG shows up in 3 pools here, with rates from 17.89% to 21.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 25.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 25.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ SUSG shows up in 3 pools here, with rates from 16.24% to 21.78% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 16.24% | 22.63% | 45.40% incentives |
-| stake-dao-yield | 20.58% | 25.89% | 56.27% incentives |
-| convex-finance | 21.78% | 25.23% | 59.28% incentives |
+| curve-dex | 17.89% | 22.31% | 49.12% incentives |
+| stake-dao-yield | 21.25% | 25.65% | 57.61% incentives |
+| convex-finance | 20.88% | 25.14% | 56.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSG yield today?
 
-21.78% APY on convex-finance (Ethereum), based on live DefiLlama data.
+21.25% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many SUSG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.37M in total.
+3 live pools clear this page's $100K TVL floor, $2.44M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSG pools have the most stable APY history?
 
-Based on APY history only, SUSG's lower-variability candidates are convex-finance (Ethereum), 21.78% APY, $498.8K TVL, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; curve-dex (Ethereum), 16.24% APY, $992.1K TVL, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; stake-dao-yield (Ethereum), 20.58% APY, $882.6K TVL, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSG's lower-variability candidates are convex-finance (Ethereum), 20.88% APY, $560.3K TVL, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; curve-dex (Ethereum), 17.89% APY, $993.1K TVL, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; stake-dao-yield (Ethereum), 21.25% APY, $883.4K TVL, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, SUSG's lower-variability candidates are convex-financ
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

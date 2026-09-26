@@ -1,12 +1,12 @@
 # STORJ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest STORJ yield right now is 0.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STORJ yield right now is 0.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961&src=seo_token) | Solana | 0.06% | $4.12M |
+| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961&src=seo_token) | Solana | 0.11% | $4.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STORJ yield today?
 
-0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.11% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STORJ pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STORJ pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

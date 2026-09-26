@@ -1,12 +1,12 @@
 # Thorchain DeFi Yields
 
-The highest honest Thorchain yield right now is 1.67% on rujira-staking (Thorchain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Thorchain yield right now is 4.32% on rujira-staking (Thorchain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 1.67% | $9.28M |
-| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 2.01% | $1.35M |
-| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48&src=seo_chain) | 1.35% | $283.7K |
+| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 1.91% | $9.03M |
+| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 4.32% | $1.48M |
+| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48&src=seo_chain) | 1.36% | $282.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Thorchain yield today?
 
-1.67% APY on rujira-staking (Thorchain), based on live DefiLlama data.
+4.32% APY on rujira-staking (Thorchain), based on live DefiLlama data.
 
 ### How many Thorchain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.08M in total.
+4 live pools clear this page's $100K TVL floor, $14.1M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TCY](https://www.defi.garden/tokens/tcy)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

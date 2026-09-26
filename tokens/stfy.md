@@ -1,12 +1,12 @@
 # STFY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest STFY yield right now is 38.39% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STFY yield right now is 36.86% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1e6c13d6-bb00-5e07-b267-efb9a34d2c44&src=seo_token) | Base | 38.39% | $244.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1e6c13d6-bb00-5e07-b267-efb9a34d2c44&src=seo_token) | Base | 36.86% | $224.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STFY yield today?
 
-38.39% APY on uniswap-v4 (Base), based on live DefiLlama data.
+36.86% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many STFY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.1K in total.
+1 live pool clear this page's $100K TVL floor, $224.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STFY pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

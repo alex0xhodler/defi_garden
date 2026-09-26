@@ -1,12 +1,12 @@
 # ATOS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest ATOS yield right now is 30.58% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATOS yield right now is 31.99% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=70ee90b8-4190-47fb-a89f-4386eb599da9&src=seo_token) | Ethereum | 30.58% | $158.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=70ee90b8-4190-47fb-a89f-4386eb599da9&src=seo_token) | Ethereum | 31.99% | $160.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATOS yield today?
 
-30.58% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+31.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ATOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.9K in total.
+1 live pool clear this page's $100K TVL floor, $160.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ATOS pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026

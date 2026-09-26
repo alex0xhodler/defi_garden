@@ -1,12 +1,12 @@
 # TWT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 25, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
 
-The highest honest TWT yield right now is 6.75% on pancakeswap-amm (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TWT yield right now is 8.09% on pancakeswap-amm (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=c9057c26-7382-46e3-85ae-2a5ad9da8f9c&src=seo_token) | BSC | 6.75% | $118.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=c9057c26-7382-46e3-85ae-2a5ad9da8f9c&src=seo_token) | BSC | 8.09% | $119.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TWT shows up in 1 pools here, with rates from 6.75% to 6.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TWT shows up in 1 pools here, with rates from 8.09% to 8.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 14.78% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 14.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pancakeswap-amm | 6.75% | 14.78% | Base rate |
+| pancakeswap-amm | 8.09% | 14.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TWT yield today?
 
-6.75% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
+8.09% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
 
 ### How many TWT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $779.3K in total.
+2 live pools clear this page's $100K TVL floor, $797.7K in total.
 
 ### Are these rates safe?
 
@@ -53,13 +53,13 @@ There is not enough qualifying APY history to rank TWT pools. This view covers A
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 25, 2026
+## Last updated September 26, 2026
