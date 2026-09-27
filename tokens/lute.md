@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest LUTE yield right now is 289.01% on alandale-v3 (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LUTE yield right now is 276.39% on alandale-v3 (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alandale-v3 →](https://www.defi.garden/?pool=80de08b9-2155-54a4-aa4f-b0c468903148&src=seo_token) | Robinhood Chain | 289.01% | $153K |
+| [alandale-v3 →](https://www.defi.garden/?pool=80de08b9-2155-54a4-aa4f-b0c468903148&src=seo_token) | Robinhood Chain | 276.39% | $155.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LUTE yield today?
 
-289.01% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
+276.39% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many LUTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153K in total.
+1 live pool clear this page's $100K TVL floor, $155.9K in total.
 
 ### Are these rates safe?
 

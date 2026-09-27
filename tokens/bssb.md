@@ -6,7 +6,7 @@ The highest honest BSSB yield right now is 0.01% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4754deb7-b94b-4874-82c3-a5e6c6b00dd0&src=seo_token) | Ethereum | 0.01% | $441.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4754deb7-b94b-4874-82c3-a5e6c6b00dd0&src=seo_token) | Ethereum | 0.01% | $438.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BSSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $441.7K in total.
+1 live pool clear this page's $100K TVL floor, $438.7K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank BSSB pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

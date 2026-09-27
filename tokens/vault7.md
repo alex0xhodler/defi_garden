@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank VAULT7 pools. This view cover
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 - [UTYA](https://www.defi.garden/tokens/utya)
+- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest BTC2.0 yield right now is 0.04% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4ac75fa7-a7ee-48a1-a5a1-cf8ff9dd0c02&src=seo_token) | Ethereum | 0.04% | $362.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4ac75fa7-a7ee-48a1-a5a1-cf8ff9dd0c02&src=seo_token) | Ethereum | 0.04% | $362.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BTC2.0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $362.2K in total.
+1 live pool clear this page's $100K TVL floor, $362.4K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank BTC2.0 pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

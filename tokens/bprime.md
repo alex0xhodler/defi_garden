@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest BPRIME yield right now is 4.33% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BPRIME yield right now is 4.36% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.33% | $179.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.36% | $179.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BPRIME yield today?
 
-4.33% APY on morpho-blue (Base), based on live DefiLlama data.
+4.36% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many BPRIME pools clear the TVL floor?
 

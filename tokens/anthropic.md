@@ -7,7 +7,7 @@ The highest honest ANTHROPIC yield right now is 11.96% on raydium-amm (Solana), 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=9d74c901-d49e-5319-8f2e-de6c2b5c184f&src=seo_token) | Solana | 11.96% | $319.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=f2ed3891-c84f-555a-9cfa-f2f8e8cfc9a1&src=seo_token) | Solana | 133.21% | $250.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=f2ed3891-c84f-555a-9cfa-f2f8e8cfc9a1&src=seo_token) | Solana | 178.34% | $277.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ANTHROPIC shows up in 2 pools here, with rates from 11.96% to 133.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANTHROPIC shows up in 2 pools here, with rates from 11.96% to 178.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 2 pools has a trustworthy 30-day average on file, with a median of 7.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 11.96% | 7.98% | Base rate |
-| raydium-amm | 133.21% | — | Base rate |
+| raydium-amm | 178.34% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANTHROPIC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $769.8K in total.
+3 live pools clear this page's $100K TVL floor, $796.6K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest 80PRL yield right now is 1.63% on balancer-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a&src=seo_token) | Ethereum | 1.63% | $170K |
+| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a&src=seo_token) | Ethereum | 1.63% | $169.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 80PRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170K in total.
+1 live pool clear this page's $100K TVL floor, $169.7K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank 80PRL pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

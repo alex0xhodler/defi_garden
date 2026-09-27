@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest AIOS yield right now is 5.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIOS yield right now is 4.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=91c52f29-9c30-4def-9f3e-bf059ceecc43&src=seo_token) | Solana | 5.76% | $101.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=91c52f29-9c30-4def-9f3e-bf059ceecc43&src=seo_token) | Solana | 4.96% | $103.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIOS yield today?
 
-5.76% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.96% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AIOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.7K in total.
+1 live pool clear this page's $100K TVL floor, $103.9K in total.
 
 ### Are these rates safe?
 

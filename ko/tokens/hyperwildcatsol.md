@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=fdff0534-9693-4b35-98f9-97e0d5c55264&src=seo_token) | Ethereum | 14.00% | $1.24M |
+| [wildcat-protocol →](https://www.defi.garden/?pool=fdff0534-9693-4b35-98f9-97e0d5c55264&src=seo_token) | Ethereum | 14.00% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 14.
 
 ### HYPERWILDCATSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,8 +38,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 14.
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인

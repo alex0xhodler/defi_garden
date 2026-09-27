@@ -9,16 +9,16 @@
 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.59% | $1.19B |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.52M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.19M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.43M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $179.81M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.66M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.59% | $6.44M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token) | Arbitrum | 3.59% | $3.13M |
-| [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token) | Sui | 0.08% | $2.05M |
+| [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token) | Sui | 0.10% | $2.05M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.19M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.43M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.52M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token; Sui의 cetus-clmm, APY 0.08%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.19M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $179.81M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.52M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
@@ -26,16 +26,16 @@ APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum
 | 2 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.59% | $1.19B |
 | 3 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.59% | $6.44M |
 | 4 | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.59% | $259.19M |
-| 5 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $180.43M |
+| 5 | [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.59% | $179.81M |
 | 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.59% | $536.52M |
 | 7 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.59% | $14.66M |
-| 8 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token) | Sui | 0.08% | $2.05M |
+| 8 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token) | Sui | 0.10% | $2.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDY 풀은 여기 8개가 있고, 7개 체인에서 APY가 0.08%부터 3.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDY 풀은 여기 8개가 있고, 7개 체인에서 APY가 0.10%부터 3.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -50,7 +50,7 @@ USDY 풀은 여기 8개가 있고, 7개 체인에서 APY가 0.08%부터 3.59%까
 | ondo-yield-assets | 3.59% | 3.57% | 기본 금리 |
 | ondo-yield-assets | 3.59% | 3.57% | 기본 금리 |
 | ondo-yield-assets | 3.59% | 3.57% | 기본 금리 |
-| cetus-clmm | 0.08% | 0.14% | 인센티브 62.52% |
+| cetus-clmm | 0.10% | 0.14% | 인센티브 52.57% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -70,15 +70,15 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ondo-yield-assets에서 APY 3.
 
 ### USDY 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.19M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $180.43M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.52M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token; Sui의 cetus-clmm, APY 0.08%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.59%, TVL $3.13M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92&src=seo_token; Ethereum의 ondo-yield-assets, APY 3.59%, TVL $1.19B, https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token; Noble의 ondo-yield-assets, APY 3.59%, TVL $6.44M, https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token; Sei의 ondo-yield-assets, APY 3.59%, TVL $259.19M, https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token; Solana의 ondo-yield-assets, APY 3.59%, TVL $179.81M, https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token; Stellar의 ondo-yield-assets, APY 3.59%, TVL $536.52M, https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token; Sui의 ondo-yield-assets, APY 3.59%, TVL $14.66M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인

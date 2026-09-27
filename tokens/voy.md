@@ -6,7 +6,7 @@ The highest honest VOY yield right now is 0.40% on uniswap-v2 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.40% | $266K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.40% | $265.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VOY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $266K in total.
+1 live pool clear this page's $100K TVL floor, $265.4K in total.
 
 ### Are these rates safe?
 

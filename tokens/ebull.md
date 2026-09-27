@@ -6,7 +6,7 @@ The highest honest EBULL yield right now is 0.83% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2998cb51-db66-4f74-8806-df4293f5ed8d&src=seo_token) | Ethereum | 0.83% | $109.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2998cb51-db66-4f74-8806-df4293f5ed8d&src=seo_token) | Ethereum | 0.83% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EBULL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.4K in total.
+1 live pool clear this page's $100K TVL floor, $109.5K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank EBULL pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

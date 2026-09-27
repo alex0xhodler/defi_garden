@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest WPRL yield right now is 828.55% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPRL yield right now is 795.66% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8&src=seo_token) | Ethereum | 828.55% | $395.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8&src=seo_token) | Ethereum | 795.66% | $408.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WPRL yield today?
 
-828.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+795.66% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WPRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $395.9K in total.
+1 live pool clear this page's $100K TVL floor, $408.3K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank WPRL pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

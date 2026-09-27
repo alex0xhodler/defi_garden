@@ -6,7 +6,7 @@ The highest honest KUMA yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59&src=seo_token) | Ethereum | 0.01% | $628.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59&src=seo_token) | Ethereum | 0.01% | $629.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KUMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $628.8K in total.
+1 live pool clear this page's $100K TVL floor, $629.1K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank KUMA pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

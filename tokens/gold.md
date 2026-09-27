@@ -6,7 +6,7 @@ The highest honest GOLD yield right now is 2.58% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $494.1K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $492K |
 | [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae&src=seo_token) | Solana | 2.58% | $295.5K |
 
 <!-- rate-stability:insufficient -->

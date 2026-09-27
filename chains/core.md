@@ -4,7 +4,7 @@ The highest honest CORE yield right now is 14.43% on b14g (CORE), among 1 pool a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 14.43% | $2.14M |
+| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 14.43% | $2.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.14M in total.
+1 live pool clear this page's $100K TVL floor, $2.11M in total.
 
 ### Are these rates safe?
 

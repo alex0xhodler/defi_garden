@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest YURU yield right now is 6.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YURU yield right now is 6.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9d619eac-edd6-4b53-a1d9-386ddc516c4c&src=seo_token) | Solana | 6.04% | $184.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=9d619eac-edd6-4b53-a1d9-386ddc516c4c&src=seo_token) | Solana | 6.69% | $184.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YURU yield today?
 
-6.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YURU pools clear the TVL floor?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest GTCBBTCC yield right now is 0.32% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTCBBTCC yield right now is 0.24% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.32% | $554.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.24% | $555.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTCBBTCC yield today?
 
-0.32% APY on morpho-blue (Base), based on live DefiLlama data.
+0.24% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many GTCBBTCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $554.7K in total.
+1 live pool clear this page's $100K TVL floor, $555.6K in total.
 
 ### Are these rates safe?
 

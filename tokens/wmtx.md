@@ -2,13 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest WMTX yield right now is 241.42% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMTX yield right now is 171.06% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=ccee6943-57f3-57dd-a537-72d5dc570cb2&src=seo_token) | Ethereum | 171.06% | $267K |
-| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 12.21% | $159.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0be59dbf-612a-5944-85c3-6ecccb3bb302&src=seo_token) | Ethereum | 241.42% | $134.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 12.42% | $158.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WMTX shows up in 3 pools here, with rates from 12.21% to 241.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WMTX shows up in 2 pools here, with rates from 12.42% to 171.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 307.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 157.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 171.06% | 307.52% | Base rate |
-| minswap-dex | 12.21% | 8.37% | 4.67% incentives |
-| uniswap-v4 | 241.42% | 445.80% | Base rate |
+| minswap-dex | 12.42% | 8.36% | 4.59% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WMTX yield today?
 
-241.42% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+171.06% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WMTX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $748.3K in total.
+3 live pools clear this page's $100K TVL floor, $612.5K in total.
 
 ### Are these rates safe?
 
@@ -58,8 +56,8 @@ There is not enough qualifying APY history to rank WMTX pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

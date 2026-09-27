@@ -7,7 +7,7 @@ The highest honest META yield right now is 106.69% on raydium-amm (Solana), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=5696ca76-3391-5ac4-b4d2-73c59307f2bb&src=seo_token) | Solana | 106.69% | $522.3K |
-| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 31.04% | $164.3K |
+| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 30.92% | $162.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-META shows up in 2 pools here, with rates from 31.04% to 106.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+META shows up in 2 pools here, with rates from 30.92% to 106.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 49.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 49.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 106.69% | 76.00% | Base rate |
-| omnipair | 31.04% | 23.96% | Base rate |
+| omnipair | 30.92% | 23.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many META pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $905.4K in total.
+3 live pools clear this page's $100K TVL floor, $903.5K in total.
 
 ### Are these rates safe?
 

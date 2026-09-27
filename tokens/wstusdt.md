@@ -6,7 +6,7 @@ The highest honest WSTUSDT yield right now is 0.53% on justlend-v1 (Tron), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=00bce708-f7e2-4af6-9488-be0089a660a6&src=seo_token) | Tron | 0.53% | $397.3K |
+| [justlend-v1 →](https://www.defi.garden/?pool=00bce708-f7e2-4af6-9488-be0089a660a6&src=seo_token) | Tron | 0.53% | $393.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSTUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $397.3K in total.
+1 live pool clear this page's $100K TVL floor, $393.2K in total.
 
 ### Are these rates safe?
 

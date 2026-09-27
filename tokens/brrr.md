@@ -1,0 +1,49 @@
+# BRRR DeFi Yields
+
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+
+The highest honest BRRR yield right now is 0.01% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [orca-dex →](https://www.defi.garden/?pool=2d0f7981-911f-5038-8f86-dccbb25d38f8&src=seo_token) | Solana | 0.01% | $687.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank BRRR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest BRRR yield today?
+
+0.01% APY on orca-dex (Solana), based on live DefiLlama data.
+
+### How many BRRR pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $687.5K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which BRRR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank BRRR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+## Related tokens
+
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
+
+## Available on
+
+- [Solana](https://www.defi.garden/chains/solana)
+
+## Last updated September 27, 2026

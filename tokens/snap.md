@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest SNAP yield right now is 65.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNAP yield right now is 63.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=044c1488-f7b5-5ef7-b314-d032c7cd2e94&src=seo_token) | Solana | 65.83% | $114.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=044c1488-f7b5-5ef7-b314-d032c7cd2e94&src=seo_token) | Solana | 63.05% | $117.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNAP yield today?
 
-65.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+63.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $117.1K in total.
 
 ### Are these rates safe?
 

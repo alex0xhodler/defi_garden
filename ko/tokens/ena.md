@@ -6,34 +6,34 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.07% | $5.47M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 46.57% | $1.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 20.76% | $792.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.80% | $727.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=dafd67b0-1dd9-5dd8-8385-fcf9cc38b602&src=seo_token) | Solana | 270.21% | $121.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 1.26% | $103.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.03% | $5.51M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 52.98% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 14.31% | $790.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.75% | $723.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=dafd67b0-1dd9-5dd8-8385-fcf9cc38b602&src=seo_token) | Solana | 287.88% | $123.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.12% | $103.2K |
 | [orca-dex →](https://www.defi.garden/?pool=7645d9fa-cab9-55ad-87a2-2c9ce0f5981f&src=seo_token) | Solana | 55.27% | $100K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.07%, TVL $5.47M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 20.76%, TVL $792.8K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 46.57%, TVL $1.8M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 0.80%, TVL $727.7K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 1.26%, TVL $103.8K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.03%, TVL $5.51M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 14.31%, TVL $790.6K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 52.98%, TVL $1.83M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 0.75%, TVL $723.8K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 2.12%, TVL $103.2K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.07% | $5.47M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 20.76% | $792.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 46.57% | $1.8M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.80% | $727.7K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 1.26% | $103.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.03% | $5.51M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 14.31% | $790.6K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 52.98% | $1.83M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.75% | $723.8K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.12% | $103.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ENA 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 270.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ENA 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.03%부터 287.88%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 19.07%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 18.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 7개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -41,12 +41,12 @@ ENA 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 270.21%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.07% | 0.48% | 기본 금리 |
-| uniswap-v3 | 46.57% | 96.58% | 기본 금리 |
-| uniswap-v3 | 20.76% | 8.83% | 기본 금리 |
-| uniswap-v4 | 0.80% | 12.72% | 기본 금리 |
-| raydium-amm | 270.21% | — | 기본 금리 |
-| uniswap-v4 | 1.26% | 25.43% | 기본 금리 |
+| uniswap-v3 | 0.03% | 0.48% | 기본 금리 |
+| uniswap-v3 | 52.98% | 94.36% | 기본 금리 |
+| uniswap-v3 | 14.31% | 8.96% | 기본 금리 |
+| uniswap-v4 | 0.75% | 12.29% | 기본 금리 |
+| raydium-amm | 287.88% | — | 기본 금리 |
+| uniswap-v4 | 2.12% | 25.32% | 기본 금리 |
 | orca-dex | 55.27% | 60.45% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 55.27%예요.
 
 ### ENA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $9.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $9.34M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,15 +67,15 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 55.27%예요.
 
 ### ENA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.07%, TVL $5.47M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 20.76%, TVL $792.8K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 46.57%, TVL $1.8M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 0.80%, TVL $727.7K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 1.26%, TVL $103.8K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ENA의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.03%, TVL $5.51M, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; Ethereum의 uniswap-v3, APY 14.31%, TVL $790.6K, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; Ethereum의 uniswap-v3, APY 52.98%, TVL $1.83M, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; Ethereum의 uniswap-v4, APY 0.75%, TVL $723.8K, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; Ethereum의 uniswap-v4, APY 2.12%, TVL $103.2K, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인

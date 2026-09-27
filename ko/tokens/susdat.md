@@ -6,32 +6,32 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.11% | $67.8M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.11% | $67.83M |
 | [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 17.71% | $1.61M |
 | [pendle-v2 →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 17.41% | $1.61M |
-| [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 12.95% | $1.33M |
-| [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token) | Ethereum | 15.97% | $1.33M |
-| [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.38% | $142.2K |
+| [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token) | Ethereum | 15.95% | $1.34M |
+| [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 12.93% | $1.34M |
+| [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.45% | $142.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 17.41%, TVL $1.61M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 12.95%, TVL $1.33M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.38%, TVL $142.2K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 14.11%, TVL $67.8M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 15.97%, TVL $1.33M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 17.71%, TVL $1.61M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 17.41%, TVL $1.61M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 12.93%, TVL $1.34M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.45%, TVL $142.3K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 14.11%, TVL $67.83M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 15.95%, TVL $1.34M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 17.71%, TVL $1.61M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 17.41% | $1.61M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 12.95% | $1.33M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.38% | $142.2K |
-| 4 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.11% | $67.8M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token) | Ethereum | 15.97% | $1.33M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token) | Ethereum | 12.93% | $1.34M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.45% | $142.3K |
+| 4 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 14.11% | $67.83M |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token) | Ethereum | 15.95% | $1.34M |
 | 6 | [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 17.71% | $1.61M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDAT 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.38%부터 17.71%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDAT 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.45%부터 17.71%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -40,11 +40,11 @@ SUSDAT 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.38%부터 17.71%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | saturn | 14.11% | 14.83% | 기본 금리 |
-| pendle-v2 | 17.71% | 28.33% | 인센티브 2.43% |
-| pendle-v2 | 17.41% | 16.81% | 기본 금리 |
-| pendle-v2 | 12.95% | 11.49% | 기본 금리 |
-| pendle-v2 | 15.97% | 47.14% | 인센티브 2.97% |
-| curve-dex | 0.38% | 6.19% | 기본 금리 |
+| pendle-v2 | 17.71% | 27.73% | 인센티브 2.41% |
+| pendle-v2 | 17.41% | 16.80% | 기본 금리 |
+| pendle-v2 | 15.95% | 44.99% | 인센티브 2.93% |
+| pendle-v2 | 12.93% | 11.49% | 기본 금리 |
+| curve-dex | 0.45% | 6.19% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle-v2에서 APY 17.71%예요.
 
 ### SUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $88.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $88.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,15 +64,15 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle-v2에서 APY 17.71%예요.
 
 ### SUSDAT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 17.41%, TVL $1.61M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 12.95%, TVL $1.33M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.38%, TVL $142.2K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 14.11%, TVL $67.8M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 15.97%, TVL $1.33M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 17.71%, TVL $1.61M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 Monad의 pendle-v2, APY 17.41%, TVL $1.61M, https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token; Ethereum의 pendle-v2, APY 12.93%, TVL $1.34M, https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173&src=seo_token; Ethereum의 curve-dex, APY 0.45%, TVL $142.3K, https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token; Ethereum의 saturn, APY 14.11%, TVL $67.83M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 pendle-v2, APY 15.95%, TVL $1.34M, https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b&src=seo_token; Monad의 pendle-v2, APY 17.71%, TVL $1.61M, https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인

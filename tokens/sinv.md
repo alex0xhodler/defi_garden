@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SINV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.67M in total.
+2 live pools clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 
@@ -52,8 +52,8 @@ There is not enough qualifying APY history to rank SINV pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

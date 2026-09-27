@@ -6,7 +6,7 @@ The highest honest LBP yield right now is 0.14% on balancer-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f5ed6d71-6dae-5a39-9ea7-f1615b228d7e&src=seo_token) | Ethereum | 0.14% | $581.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f5ed6d71-6dae-5a39-9ea7-f1615b228d7e&src=seo_token) | Ethereum | 0.14% | $574K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $581.6K in total.
+1 live pool clear this page's $100K TVL floor, $574K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank LBP pools. This view covers A
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

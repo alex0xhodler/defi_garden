@@ -1,6 +1,6 @@
 # USDC-USX — velodrome-v2 on OP Mainnet
 
-**Total APY:** 0.37% (0.00% Base · + 0.37% Rewards)
+**Total APY:** 0.35% (0.00% Base · + 0.35% Rewards)
 
 **TVL:** $100.9K
 

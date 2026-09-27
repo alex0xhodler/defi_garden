@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest CYPHERCAT yield right now is 233.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYPHERCAT yield right now is 168.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f604b4c7-ab9b-5b7f-9332-f8f827d03c63&src=seo_token) | Solana | 233.09% | $101.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=f604b4c7-ab9b-5b7f-9332-f8f827d03c63&src=seo_token) | Solana | 168.56% | $158.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYPHERCAT yield today?
 
-233.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+168.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYPHERCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.8K in total.
+1 live pool clear this page's $100K TVL floor, $158.8K in total.
 
 ### Are these rates safe?
 

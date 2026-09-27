@@ -6,7 +6,7 @@ The highest honest CRCLB yield right now is 6.10% on native-credit-pool (BSC), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=a1e52090-7faf-46e9-9e1e-174982f4cad9&src=seo_token) | BSC | 6.10% | $149.1K |
+| [native-credit-pool →](https://www.defi.garden/?pool=a1e52090-7faf-46e9-9e1e-174982f4cad9&src=seo_token) | BSC | 6.10% | $148.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRCLB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.1K in total.
+1 live pool clear this page's $100K TVL floor, $148.2K in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank CRCLB pools. This view covers
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 

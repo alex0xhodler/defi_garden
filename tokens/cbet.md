@@ -6,7 +6,7 @@ The highest honest CBET yield right now is 0.92% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 0.92% | $300.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=580a1ae0-85c3-4793-88a5-1f7a472afa03&src=seo_token) | Ethereum | 0.92% | $300.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CBET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.5K in total.
+1 live pool clear this page's $100K TVL floor, $300.2K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank CBET pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

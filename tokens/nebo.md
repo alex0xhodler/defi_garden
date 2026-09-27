@@ -6,7 +6,7 @@ The highest honest NEBO yield right now is 2.08% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0a35ca60-b8b7-43a5-89b5-089a1179dab6&src=seo_token) | Ethereum | 2.08% | $145.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0a35ca60-b8b7-43a5-89b5-089a1179dab6&src=seo_token) | Ethereum | 2.08% | $145.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NEBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.7K in total.
+1 live pool clear this page's $100K TVL floor, $145.6K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank NEBO pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

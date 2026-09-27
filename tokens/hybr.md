@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest HYBR yield right now is 594.42% on hybra-v4 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYBR yield right now is 612.28% on hybra-v4 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff&src=seo_token) | Hyperliquid L1 | 594.42% | $125.3K |
+| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff&src=seo_token) | Hyperliquid L1 | 612.28% | $127.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYBR yield today?
 
-594.42% APY on hybra-v4 (Hyperliquid L1), based on live DefiLlama data.
+612.28% APY on hybra-v4 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HYBR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $125.3K in total.
+1 live pool clear this page's $100K TVL floor, $127.9K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 27, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SILV의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 290.00%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SILV의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 209.93%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=2b49a8f5-42d9-544e-a649-f2dd8ba5ddd2&src=seo_token) | Solana | 290.00% | $167.6K |
+| [orca-dex →](https://www.defi.garden/?pool=2b49a8f5-42d9-544e-a649-f2dd8ba5ddd2&src=seo_token) | Solana | 209.93% | $163.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SILV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 290.00%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 209.93%예요.
 
 ### SILV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $167.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $163.3K예요.
 
 ### 이 수익률은 안전한가요?
 

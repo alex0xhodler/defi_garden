@@ -62,8 +62,8 @@ Based on APY history only, TSUSDE's lower-variability candidates are affluent (T
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 - [UTYA](https://www.defi.garden/tokens/utya)
+- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 
 ## Available on
 

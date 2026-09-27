@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest GMRT yield right now is 0.09% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMRT yield right now is 0.07% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1979e7dd-210c-43fd-a3f7-4ed92655d8d3&src=seo_token) | Base | 0.09% | $473.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1979e7dd-210c-43fd-a3f7-4ed92655d8d3&src=seo_token) | Base | 0.07% | $439.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GMRT yield today?
 
-0.09% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.07% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many GMRT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $473.6K in total.
+1 live pool clear this page's $100K TVL floor, $439.5K in total.
 
 ### Are these rates safe?
 

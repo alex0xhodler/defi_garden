@@ -6,7 +6,7 @@ The highest honest BNKRW yield right now is 0.17% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=19c4c8a7-990a-42b0-83be-8d7bfd3e237e&src=seo_token) | Base | 0.17% | $248.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=19c4c8a7-990a-42b0-83be-8d7bfd3e237e&src=seo_token) | Base | 0.17% | $249.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BNKRW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $248.3K in total.
+1 live pool clear this page's $100K TVL floor, $249.4K in total.
 
 ### Are these rates safe?
 

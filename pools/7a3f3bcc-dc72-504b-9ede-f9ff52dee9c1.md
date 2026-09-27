@@ -1,8 +1,8 @@
 # RBLX-USDC — orca-dex on Solana
 
-**Total APY:** 53.13% (53.13% Base · + 0.00% Rewards)
+**Total APY:** 430.44% (430.44% Base · + 0.00% Rewards)
 
-**TVL:** $101.4K
+**TVL:** $103.6K
 
 **Pool Type:** LP/DEX
 
@@ -20,15 +20,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,260 in 5y at current rates.
+$1,000 in this pool grows to ~$85,567 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (53.13% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (430.44% headline) — farm rates decay. Active management required.
 
 We've been tracking this pool's rate for 8 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$2,260 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$85,567 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on orca-dex](https://www.orca.so/?ref=defi.garden)
 

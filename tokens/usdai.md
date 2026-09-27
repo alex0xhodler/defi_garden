@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest USDAI yield right now is 10.04% on pendle-v2 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAI yield right now is 10.09% on pendle-v2 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 2.37% | $50.34M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 10.04% | $50.34M |
-| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.35% | $3.73M |
+| [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 2.39% | $50.34M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 10.09% | $50.34M |
+| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.94% | $4.14M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 10.04% APY, $50.34M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.35% APY, $3.73M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 2.37% APY, $50.34M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 10.09% APY, $50.34M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.94% APY, $4.14M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 2.39% APY, $50.34M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 10.04% | $50.34M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.35% | $3.73M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 2.37% | $50.34M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 10.09% | $50.34M |
+| 2 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.94% | $4.14M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 2.39% | $50.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDAI shows up in 3 pools here, with rates from 0.35% to 10.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDAI shows up in 3 pools here, with rates from 0.94% to 10.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.37% | 1.84% | 3.28% incentives |
-| pendle-v2 | 10.04% | 8.97% | Base rate |
-| fluid-dex | 0.35% | 0.80% | Base rate |
+| pendle-v2 | 2.39% | 1.86% | 3.23% incentives |
+| pendle-v2 | 10.09% | 8.99% | Base rate |
+| fluid-dex | 0.94% | 0.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDAI yield today?
 
-10.04% APY on pendle-v2 (Arbitrum), based on live DefiLlama data.
+10.09% APY on pendle-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many USDAI pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $107.87M in total.
+6 live pools clear this page's $100K TVL floor, $108.35M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDAI pools have the most stable APY history?
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 10.04% APY, $50.34M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.35% APY, $3.73M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 2.37% APY, $50.34M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 10.09% APY, $50.34M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token; fluid-dex (Arbitrum), 0.94% APY, $4.14M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token; pendle-v2 (Arbitrum), 2.39% APY, $50.34M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

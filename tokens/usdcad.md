@@ -6,7 +6,7 @@ The highest honest USDCAD yield right now is 26.25% on gmx-solana (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 26.25% | $2.29M |
+| [gmx-solana →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 26.25% | $2.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDCAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.29M in total.
+1 live pool clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 

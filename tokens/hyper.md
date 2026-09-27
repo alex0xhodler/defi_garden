@@ -6,7 +6,7 @@ The highest honest HYPER yield right now is 220.04% on symbiotic (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6&src=seo_token) | Ethereum | 220.04% | $1.51M |
+| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6&src=seo_token) | Ethereum | 220.04% | $1.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HYPER pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.51M in total.
+7 live pools clear this page's $100K TVL floor, $2.5M in total.
 
 ### Are these rates safe?
 
@@ -52,8 +52,8 @@ There is not enough qualifying APY history to rank HYPER pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

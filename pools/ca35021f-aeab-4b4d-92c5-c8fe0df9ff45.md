@@ -1,12 +1,12 @@
 # YVVBWBTC — morpho-blue on Katana
 
-**Total APY:** 3.52% (0.00% Base · + 3.52% Rewards)
+**Total APY:** 3.53% (0.00% Base · + 3.53% Rewards)
 
-**TVL:** $315.1K
+**TVL:** $315.3K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 3.19%
+**30d Mean APY:** 3.23%
 
 **Exposure:** single
 

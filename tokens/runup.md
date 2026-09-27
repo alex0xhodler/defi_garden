@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest RUNUP yield right now is 442.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUNUP yield right now is 513.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=047a7dfa-4d5f-5275-8d6f-02ffdc0bf066&src=seo_token) | Solana | 442.13% | $127.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=047a7dfa-4d5f-5275-8d6f-02ffdc0bf066&src=seo_token) | Solana | 513.08% | $130.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUNUP yield today?
 
-442.13% APY on raydium-amm (Solana), based on live DefiLlama data.
+513.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RUNUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.7K in total.
+1 live pool clear this page's $100K TVL floor, $130.1K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest BB yield right now is 14.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BB yield right now is 17.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff79af40-1148-5c77-a7af-7528b490c42c&src=seo_token) | Solana | 14.68% | $138.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff79af40-1148-5c77-a7af-7528b490c42c&src=seo_token) | Solana | 17.03% | $139.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BB yield today?
 
-14.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.8K in total.
+1 live pool clear this page's $100K TVL floor, $139.6K in total.
 
 ### Are these rates safe?
 

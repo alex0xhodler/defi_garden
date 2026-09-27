@@ -6,7 +6,7 @@ The highest honest HBTC yield right now is 0.02% on balancer-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=0ee8dc22-4425-5064-8840-364225d4ba97&src=seo_token) | Base | 0.02% | $134.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0ee8dc22-4425-5064-8840-364225d4ba97&src=seo_token) | Base | 0.02% | $134.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.5K in total.
+1 live pool clear this page's $100K TVL floor, $134.6K in total.
 
 ### Are these rates safe?
 

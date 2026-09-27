@@ -6,7 +6,7 @@ The highest honest CSCOREETH yield right now is 3.50% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8cb16e3d-4959-4602-ad70-665f93940058&src=seo_token) | Base | 3.50% | $8.7M |
+| [morpho-blue →](https://www.defi.garden/?pool=8cb16e3d-4959-4602-ad70-665f93940058&src=seo_token) | Base | 3.50% | $8.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSCOREETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.7M in total.
+1 live pool clear this page's $100K TVL floor, $8.6M in total.
 
 ### Are these rates safe?
 

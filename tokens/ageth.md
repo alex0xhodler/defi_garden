@@ -6,7 +6,7 @@ The highest honest AGETH yield right now is 0.01% on upshift (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=eab7ee0f-e942-490d-be54-b8b6512ba73d&src=seo_token) | Ethereum | 0.01% | $16.42M |
+| [upshift →](https://www.defi.garden/?pool=eab7ee0f-e942-490d-be54-b8b6512ba73d&src=seo_token) | Ethereum | 0.01% | $16.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AGETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $16.42M in total.
+1 live pool clear this page's $100K TVL floor, $16.31M in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank AGETH pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VBUSDC shows up in 3 pools here, with rates from 3.28% to 7.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ VBUSDC shows up in 3 pools here, with rates from 3.28% to 7.28% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 4.91% | 5.35% | 74.24% incentives |
-| morpho-blue | 3.28% | 3.94% | 29.20% incentives |
-| spectra-metavaults | 7.28% | 5.55% | 37.13% incentives |
+| yearn-finance | 4.91% | 5.34% | 74.25% incentives |
+| morpho-blue | 3.28% | 3.93% | 29.17% incentives |
+| spectra-metavaults | 7.28% | 5.58% | 37.10% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

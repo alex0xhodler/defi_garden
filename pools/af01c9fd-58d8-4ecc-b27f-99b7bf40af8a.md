@@ -2,11 +2,11 @@
 
 **Total APY:** 2.48% (2.48% Base · + 0.00% Rewards)
 
-**TVL:** $317.8K
+**TVL:** $315.8K
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 2.45%
+**30d Mean APY:** 2.46%
 
 **Exposure:** single
 

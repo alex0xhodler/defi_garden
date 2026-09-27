@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest MOCA yield right now is 5.76% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOCA yield right now is 6.34% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 5.76% | $419.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 137.68% | $196.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 6.34% | $416.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 150.70% | $194.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 5.76% APY, $419.2K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 137.68% APY, $196.1K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 6.34% APY, $416.7K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 150.70% APY, $194.8K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 5.76% | $419.2K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 137.68% | $196.1K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 6.34% | $416.7K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 150.70% | $194.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOCA shows up in 2 pools here, with rates from 5.76% to 137.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOCA shows up in 2 pools here, with rates from 6.34% to 150.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 39.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 40.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ MOCA shows up in 2 pools here, with rates from 5.76% to 137.68% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 5.76% | 5.99% | Base rate |
-| aerodrome-slipstream | 137.68% | 73.50% | 89.11% incentives |
+| uniswap-v2 | 6.34% | 6.00% | Base rate |
+| aerodrome-slipstream | 150.70% | 74.15% | 89.17% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOCA yield today?
 
-5.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.34% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MOCA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $615.3K in total.
+2 live pools clear this page's $100K TVL floor, $611.5K in total.
 
 ### Are these rates safe?
 
@@ -54,15 +54,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOCA pools have the most stable APY history?
 
-Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 5.76% APY, $419.2K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 137.68% APY, $196.1K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 6.34% APY, $416.7K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 150.70% APY, $194.8K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

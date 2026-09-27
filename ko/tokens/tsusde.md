@@ -62,8 +62,8 @@ APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의
 - [HGRAM](https://www.defi.garden/ko/tokens/hgram)
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
 - [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
-- [BABYDOGE](https://www.defi.garden/ko/tokens/babydoge)
 - [UTYA](https://www.defi.garden/ko/tokens/utya)
+- [BABYDOGE](https://www.defi.garden/ko/tokens/babydoge)
 
 ## 이용 가능한 체인
 

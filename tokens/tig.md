@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest TIG yield right now is 169.05% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TIG yield right now is 268.67% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token) | Base | 40.68% | $840.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 169.05% | $263.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 15.59% | $164K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 122.75% | $121.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token) | Base | 56.14% | $833.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 268.67% | $258.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 21.05% | $162K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 180.63% | $119.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 15.59% APY, $164K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 40.68% APY, $840.1K TVL, https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token; uniswap-v3 (Base), 122.75% APY, $121.2K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 169.05% APY, $263.7K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 21.05% APY, $162K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 56.14% APY, $833.8K TVL, https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token; uniswap-v3 (Base), 180.63% APY, $119.9K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 268.67% APY, $258.8K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 15.59% | $164K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token) | Base | 40.68% | $840.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 122.75% | $121.2K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 169.05% | $263.7K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 21.05% | $162K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token) | Base | 56.14% | $833.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 180.63% | $119.9K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 268.67% | $258.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TIG shows up in 4 pools here, with rates from 15.59% to 169.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TIG shows up in 4 pools here, with rates from 21.05% to 268.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 71.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 70.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ TIG shows up in 4 pools here, with rates from 15.59% to 169.05% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 40.68% | 33.28% | Base rate |
-| aerodrome-slipstream | 169.05% | 285.28% | 86.05% incentives |
-| aerodrome-slipstream | 15.59% | 16.44% | Base rate |
-| uniswap-v3 | 122.75% | 109.96% | Base rate |
+| uniswap-v3 | 56.14% | 33.05% | Base rate |
+| aerodrome-slipstream | 268.67% | 277.01% | 90.16% incentives |
+| aerodrome-slipstream | 21.05% | 16.34% | Base rate |
+| uniswap-v3 | 180.63% | 108.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TIG yield today?
 
-169.05% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+268.67% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TIG pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.39M in total.
+4 live pools clear this page's $100K TVL floor, $1.37M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TIG pools have the most stable APY history?
 
-Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 15.59% APY, $164K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 40.68% APY, $840.1K TVL, https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token; uniswap-v3 (Base), 122.75% APY, $121.2K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 169.05% APY, $263.7K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 21.05% APY, $162K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 56.14% APY, $833.8K TVL, https://www.defi.garden/?pool=4bae2d49-dfa6-4251-8f6f-d2589a9814b7&src=seo_token; uniswap-v3 (Base), 180.63% APY, $119.9K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 268.67% APY, $258.8K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

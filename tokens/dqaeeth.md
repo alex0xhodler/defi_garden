@@ -6,7 +6,7 @@ The highest honest DQAEETH yield right now is 2.38% on makina (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=6b5e754b-3276-5966-ba26-191bbec77e95&src=seo_token) | Ethereum | 2.38% | $526.7K |
+| [makina →](https://www.defi.garden/?pool=6b5e754b-3276-5966-ba26-191bbec77e95&src=seo_token) | Ethereum | 2.38% | $523K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DQAEETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $526.7K in total.
+1 live pool clear this page's $100K TVL floor, $523K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank DQAEETH pools. This view cove
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

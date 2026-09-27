@@ -35,12 +35,12 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 ## Related tokens
 
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STRK](https://www.defi.garden/tokens/strk)
-- [XWBTC](https://www.defi.garden/tokens/xwbtc)
 
 ## Available on
 

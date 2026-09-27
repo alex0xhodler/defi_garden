@@ -6,18 +6,18 @@ The highest honest TRG yield right now is 0.04% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.03% | $417K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token) | Ethereum | 0.04% | $141.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.03% | $415.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token) | Ethereum | 0.04% | $140.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $417K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $141.2K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $415.2K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $140.7K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.03% | $417K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token) | Ethereum | 0.04% | $141.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token) | Ethereum | 0.03% | $415.2K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token) | Ethereum | 0.04% | $140.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $558.2K in total.
+2 live pools clear this page's $100K TVL floor, $556K in total.
 
 ### Are these rates safe?
 
@@ -54,15 +54,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRG pools have the most stable APY history?
 
-Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $417K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $141.2K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $415.2K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $140.7K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

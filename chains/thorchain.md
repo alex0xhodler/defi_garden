@@ -4,8 +4,8 @@ The highest honest Thorchain yield right now is 3.62% on rujira-staking (Thorcha
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 1.72% | $9M |
-| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 3.62% | $1.59M |
+| RUJI | [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_chain) | 1.72% | $8.64M |
+| TCY | [rujira-staking →](https://www.defi.garden/?pool=1ae8fcc3-85bb-59da-afa4-2607d26aa140&src=seo_chain) | 3.62% | $1.46M |
 | USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48&src=seo_chain) | 1.41% | $274.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Thorchain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.81M in total.
+4 live pools clear this page's $100K TVL floor, $14.11M in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest EWY yield right now is 283.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EWY yield right now is 246.89% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a683145e-be7d-509a-966b-93cd02dcae7f&src=seo_token) | Solana | 283.68% | $147.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=a683145e-be7d-509a-966b-93cd02dcae7f&src=seo_token) | Solana | 246.89% | $151.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EWY yield today?
 
-283.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+246.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many EWY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.9K in total.
+1 live pool clear this page's $100K TVL floor, $151.2K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest ZARP yield right now is 42.80% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZARP yield right now is 39.62% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=772187a6-af76-4afd-ad48-279f91e5de4a&src=seo_token) | Base | 42.80% | $109.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=772187a6-af76-4afd-ad48-279f91e5de4a&src=seo_token) | Base | 39.62% | $109.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZARP yield today?
 
-42.80% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+39.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZARP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.3K in total.
+1 live pool clear this page's $100K TVL floor, $109.8K in total.
 
 ### Are these rates safe?
 

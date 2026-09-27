@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest CON yield right now is 103.73% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CON yield right now is 94.42% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6f792064-07e4-58cf-9496-299ba078bce7&src=seo_token) | Base | 103.73% | $233.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6f792064-07e4-58cf-9496-299ba078bce7&src=seo_token) | Base | 94.42% | $240.6K |
 | [mdex →](https://www.defi.garden/?pool=31e91e4b-b9f4-4047-bc6d-02487aabefa3&src=seo_token) | Heco | 0.01% | $108.3K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CON shows up in 2 pools here, with rates from 0.01% to 103.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CON shows up in 2 pools here, with rates from 0.01% to 94.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 68.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 66.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,7 +28,7 @@ CON shows up in 2 pools here, with rates from 0.01% to 103.73% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 103.73% | 137.74% | Base rate |
+| uniswap-v2 | 94.42% | 132.85% | Base rate |
 | mdex | 0.01% | 0.01% | 89.36% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CON yield today?
 
-103.73% APY on uniswap-v2 (Base), based on live DefiLlama data.
+94.42% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $342.2K in total.
+2 live pools clear this page's $100K TVL floor, $348.8K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest SWETH yield right now is 2.16% on swell-liquid-staking (Ether
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.16% | $37.4M |
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.16% | $36.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $37.52M in total.
+2 live pools clear this page's $100K TVL floor, $36.99M in total.
 
 ### Are these rates safe?
 
@@ -52,8 +52,8 @@ There is not enough qualifying APY history to rank SWETH pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

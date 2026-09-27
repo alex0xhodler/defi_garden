@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest DONUT yield right now is 0.10% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DONUT yield right now is 0.14% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b510c5b4-8d4c-4b43-88b3-26a3fd996f67&src=seo_token) | Base | 0.10% | $143.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b510c5b4-8d4c-4b43-88b3-26a3fd996f67&src=seo_token) | Base | 0.14% | $144.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DONUT yield today?
 
-0.10% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.14% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DONUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.8K in total.
+1 live pool clear this page's $100K TVL floor, $144.5K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest INUINU yield right now is 0.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INUINU yield right now is 0.36% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc911f23-2490-4a92-b27f-ccfbc22d487d&src=seo_token) | Ethereum | 0.32% | $372.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc911f23-2490-4a92-b27f-ccfbc22d487d&src=seo_token) | Ethereum | 0.36% | $372.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INUINU yield today?
 
-0.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.36% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many INUINU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $372.3K in total.
+1 live pool clear this page's $100K TVL floor, $372.4K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank INUINU pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

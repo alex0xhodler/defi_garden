@@ -6,7 +6,7 @@ The highest honest GAMIWBTC yield right now is 2.07% on gami-labs (Robinhood Cha
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_token) | Robinhood Chain | 2.07% | $609.1K |
+| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a&src=seo_token) | Robinhood Chain | 2.07% | $610.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GAMIWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $609.1K in total.
+1 live pool clear this page's $100K TVL floor, $610.6K in total.
 
 ### Are these rates safe?
 

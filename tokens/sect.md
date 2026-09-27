@@ -6,7 +6,7 @@ The highest honest SECT yield right now is 0.02% on camelot-v2 (Arbitrum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=b64ffa22-1619-477a-9c98-87cb1d4bec37&src=seo_token) | Arbitrum | 0.02% | $542.8K |
+| [camelot-v2 →](https://www.defi.garden/?pool=b64ffa22-1619-477a-9c98-87cb1d4bec37&src=seo_token) | Arbitrum | 0.02% | $541.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SECT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $542.8K in total.
+1 live pool clear this page's $100K TVL floor, $541.6K in total.
 
 ### Are these rates safe?
 

@@ -2,38 +2,38 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest OUSD yield right now is 16.86% on stake-dao-yield (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OUSD yield right now is 16.81% on stake-dao-yield (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [origin-dollar →](https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token) | Ethereum | 6.50% | $5.48M |
-| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.42% | $1.03M |
-| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 1.56% | $192.6K |
-| [curve-dex →](https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token) | Ethereum | 14.69% | $137.3K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token) | Ethereum | 16.86% | $132.5K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 2.20% | $111.7K |
+| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.38% | $1.03M |
+| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 3.19% | $192.6K |
+| [curve-dex →](https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token) | Ethereum | 14.40% | $137.3K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token) | Ethereum | 16.81% | $132.5K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 3.87% | $111.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 1.56% APY, $192.6K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao-yield (Ethereum), 2.20% APY, $111.7K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 3.42% APY, $1.03M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.48M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token; curve-dex (Ethereum), 14.69% APY, $137.3K TVL, https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token; stake-dao-yield (Ethereum), 16.86% APY, $132.5K TVL, https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 3.19% APY, $192.6K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao-yield (Ethereum), 3.87% APY, $111.7K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 3.38% APY, $1.03M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.48M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token; curve-dex (Ethereum), 14.40% APY, $137.3K TVL, https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token; stake-dao-yield (Ethereum), 16.81% APY, $132.5K TVL, https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 1.56% | $192.6K |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 2.20% | $111.7K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.42% | $1.03M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 3.19% | $192.6K |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 3.87% | $111.7K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.38% | $1.03M |
 | 4 | [origin-dollar →](https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token) | Ethereum | 6.50% | $5.48M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token) | Ethereum | 14.69% | $137.3K |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token) | Ethereum | 16.86% | $132.5K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token) | Ethereum | 14.40% | $137.3K |
+| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token) | Ethereum | 16.81% | $132.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OUSD shows up in 6 pools here, with rates from 1.56% to 16.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OUSD shows up in 6 pools here, with rates from 3.19% to 16.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ OUSD shows up in 6 pools here, with rates from 1.56% to 16.86% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| origin-dollar | 6.50% | 6.42% | Base rate |
-| curve-dex | 3.42% | 3.16% | 99.12% incentives |
-| curve-dex | 1.56% | 4.88% | 99.36% incentives |
-| curve-dex | 14.69% | 21.98% | 99.39% incentives |
-| stake-dao-yield | 16.86% | 24.93% | 98.28% incentives |
-| stake-dao-yield | 2.20% | 6.00% | 99.55% incentives |
+| origin-dollar | 6.50% | 6.43% | Base rate |
+| curve-dex | 3.38% | 3.15% | 98.82% incentives |
+| curve-dex | 3.19% | 4.83% | 100.00% incentives |
+| curve-dex | 14.40% | 21.87% | 100.00% incentives |
+| stake-dao-yield | 16.81% | 24.81% | 98.28% incentives |
+| stake-dao-yield | 3.87% | 5.94% | 99.74% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OUSD yield today?
 
-16.86% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+16.81% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many OUSD pools clear the TVL floor?
 
@@ -66,15 +66,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OUSD pools have the most stable APY history?
 
-Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 1.56% APY, $192.6K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao-yield (Ethereum), 2.20% APY, $111.7K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 3.42% APY, $1.03M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.48M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token; curve-dex (Ethereum), 14.69% APY, $137.3K TVL, https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token; stake-dao-yield (Ethereum), 16.86% APY, $132.5K TVL, https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 3.19% APY, $192.6K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao-yield (Ethereum), 3.87% APY, $111.7K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 3.38% APY, $1.03M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 6.50% APY, $5.48M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token; curve-dex (Ethereum), 14.40% APY, $137.3K TVL, https://www.defi.garden/?pool=4d8914ad-76bf-5100-802b-7b972bfa5d8c&src=seo_token; stake-dao-yield (Ethereum), 16.81% APY, $132.5K TVL, https://www.defi.garden/?pool=ae8da3e8-ad59-5e24-8425-928e8bf38dfe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

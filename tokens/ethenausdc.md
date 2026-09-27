@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest ETHENAUSDC yield right now is 4.50% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHENAUSDC yield right now is 4.54% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7&src=seo_token) | Base | 4.50% | $30.87M |
+| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7&src=seo_token) | Base | 4.54% | $30.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETHENAUSDC yield today?
 
-4.50% APY on morpho-blue (Base), based on live DefiLlama data.
+4.54% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many ETHENAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $30.87M in total.
+1 live pool clear this page's $100K TVL floor, $30.89M in total.
 
 ### Are these rates safe?
 

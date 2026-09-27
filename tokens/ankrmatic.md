@@ -6,7 +6,7 @@ The highest honest ANKRMATIC yield right now is 2.54% on ankr (Polygon), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=59b0f1a4-a35b-48dd-8fc0-5627f7ec1a80&src=seo_token) | Polygon | 2.54% | $101.9K |
+| [ankr →](https://www.defi.garden/?pool=59b0f1a4-a35b-48dd-8fc0-5627f7ec1a80&src=seo_token) | Polygon | 2.54% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANKRMATIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.9K in total.
+1 live pool clear this page's $100K TVL floor, $102.2K in total.
 
 ### Are these rates safe?
 
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank ANKRMATIC pools. This view co
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BET](https://www.defi.garden/tokens/bet)
-- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 

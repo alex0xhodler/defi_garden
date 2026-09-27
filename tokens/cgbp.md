@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank CGBP pools. This view covers 
 - [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CELO](https://www.defi.garden/tokens/celo)
-- [CUSD](https://www.defi.garden/tokens/cusd)
+- [STCELO](https://www.defi.garden/tokens/stcelo)
 
 ## Available on
 

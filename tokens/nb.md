@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest NB yield right now is 105.83% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NB yield right now is 60.77% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0&src=seo_token) | BSC | 105.83% | $102.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0&src=seo_token) | BSC | 60.77% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NB yield today?
 
-105.83% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+60.77% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many NB pools clear the TVL floor?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank NB pools. This view covers AP
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
-- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 

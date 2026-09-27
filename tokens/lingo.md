@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest LINGO yield right now is 31.75% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINGO yield right now is 22.36% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db&src=seo_token) | Base | 31.75% | $117.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db&src=seo_token) | Base | 22.36% | $116.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LINGO yield today?
 
-31.75% APY on uniswap-v3 (Base), based on live DefiLlama data.
+22.36% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many LINGO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.8K in total.
+1 live pool clear this page's $100K TVL floor, $116.9K in total.
 
 ### Are these rates safe?
 

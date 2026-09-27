@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest LOFI yield right now is 268.73% on turbos (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LOFI yield right now is 142.09% on turbos (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=ccc30f35-4716-4e38-afc2-d278451b4894&src=seo_token) | Sui | 268.73% | $115K |
+| [turbos →](https://www.defi.garden/?pool=ccc30f35-4716-4e38-afc2-d278451b4894&src=seo_token) | Sui | 142.09% | $117.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LOFI yield today?
 
-268.73% APY on turbos (Sui), based on live DefiLlama data.
+142.09% APY on turbos (Sui), based on live DefiLlama data.
 
 ### How many LOFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115K in total.
+1 live pool clear this page's $100K TVL floor, $117.9K in total.
 
 ### Are these rates safe?
 

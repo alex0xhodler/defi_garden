@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest PACK yield right now is 20.98% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PACK yield right now is 14.93% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-flawless →](https://www.defi.garden/?pool=3430ebff-0dba-55e0-b523-a13a68bdcb8a&src=seo_token) | Cronos | 20.98% | $131.6K |
+| [vvs-flawless →](https://www.defi.garden/?pool=3430ebff-0dba-55e0-b523-a13a68bdcb8a&src=seo_token) | Cronos | 14.93% | $132.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PACK yield today?
 
-20.98% APY on vvs-flawless (Cronos), based on live DefiLlama data.
+14.93% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many PACK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.6K in total.
+1 live pool clear this page's $100K TVL floor, $132.2K in total.
 
 ### Are these rates safe?
 

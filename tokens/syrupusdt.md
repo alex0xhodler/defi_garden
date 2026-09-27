@@ -6,7 +6,7 @@ The highest honest SYRUPUSDT yield right now is 1.03% on uniswap-v4 (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=db5fbc78-e618-4e05-8ab2-61b7c702051b&src=seo_token) | Ethereum | 1.03% | $5.1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db5fbc78-e618-4e05-8ab2-61b7c702051b&src=seo_token) | Ethereum | 1.03% | $5.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYRUPUSDT pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $183.13M in total.
+7 live pools clear this page's $100K TVL floor, $181.67M in total.
 
 ### Are these rates safe?
 
@@ -52,8 +52,8 @@ There is not enough qualifying APY history to rank SYRUPUSDT pools. This view co
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest MOTO yield right now is 4.87% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOTO yield right now is 4.34% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e462181c-6362-56ae-a23c-c5d39daf6800&src=seo_token) | Ethereum | 4.87% | $630.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e462181c-6362-56ae-a23c-c5d39daf6800&src=seo_token) | Ethereum | 4.34% | $623.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOTO yield today?
 
-4.87% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.34% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MOTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $630.8K in total.
+1 live pool clear this page's $100K TVL floor, $623.2K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank MOTO pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

@@ -6,7 +6,7 @@ The highest honest TSUKA yield right now is 0.54% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=524d3acc-d669-46d6-8bfb-85b599f94324&src=seo_token) | Ethereum | 0.54% | $371.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=524d3acc-d669-46d6-8bfb-85b599f94324&src=seo_token) | Ethereum | 0.54% | $370.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TSUKA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $371.7K in total.
+1 live pool clear this page's $100K TVL floor, $370.9K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank TSUKA pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

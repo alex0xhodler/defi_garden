@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: September 27, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CARRY의 가장 높은 정직한 수익률은 Ethereum의 vault-street에서 9.89%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CARRY의 가장 높은 정직한 수익률은 Ethereum의 vault-street에서 9.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vault-street →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 9.89% | $1.98M |
+| [vault-street →](https://www.defi.garden/?pool=e464ffc4-a7df-567c-9ffb-67cc59a7c963&src=seo_token) | Ethereum | 9.85% | $1.98M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 CARRY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 vault-street에서 APY 9.89%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 vault-street에서 APY 9.85%예요.
 
 ### CARRY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,8 +38,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 vault-street에서 APY 9.89%�
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인

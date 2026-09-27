@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest NCDT yield right now is 0.53% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NCDT yield right now is 0.68% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f&src=seo_token) | Ethereum | 0.53% | $190.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f&src=seo_token) | Ethereum | 0.68% | $189.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NCDT yield today?
 
-0.53% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NCDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.1K in total.
+1 live pool clear this page's $100K TVL floor, $189.9K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank NCDT pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

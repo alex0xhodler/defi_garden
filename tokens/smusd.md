@@ -31,8 +31,8 @@ SMUSD shows up in 2 pools here, with rates from 0.98% to 2.27% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| mezo-vaults | 0.98% | 1.91% | 100.00% incentives |
-| mezo-vaults | 2.27% | 2.84% | Base rate |
+| mezo-vaults | 0.98% | 1.89% | 100.00% incentives |
+| mezo-vaults | 2.27% | 2.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -61,7 +61,7 @@ Based on APY history only, SMUSD's lower-variability candidates are mezo-vaults 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 

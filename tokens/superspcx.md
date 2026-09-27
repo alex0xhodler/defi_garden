@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest SUPERSPCX yield right now is 41.65% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERSPCX yield right now is 41.46% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=2641f5c8-27d0-5d42-aa69-69bdc760a874&src=seo_token) | Base | 41.65% | $112.4K |
+| [superform →](https://www.defi.garden/?pool=2641f5c8-27d0-5d42-aa69-69bdc760a874&src=seo_token) | Base | 41.46% | $112.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERSPCX yield today?
 
-41.65% APY on superform (Base), based on live DefiLlama data.
+41.46% APY on superform (Base), based on live DefiLlama data.
 
 ### How many SUPERSPCX pools clear the TVL floor?
 

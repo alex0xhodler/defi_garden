@@ -1,12 +1,12 @@
 # VBWBTC — yearn-finance on Katana
 
-**Total APY:** 1.95% (0.00% Base · + 1.95% Rewards)
+**Total APY:** 1.94% (0.00% Base · + 1.94% Rewards)
 
 **TVL:** $1.19M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.85%
+**30d Mean APY:** 1.86%
 
 **Exposure:** single
 

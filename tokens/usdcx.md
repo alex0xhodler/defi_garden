@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest USDCX yield right now is 19.80% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDCX yield right now is 19.82% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token) | Stacks | 1.13% | $3.09M |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 19.80% | $232.2K |
-| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 11.13% | $152.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 19.82% | $233.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 11.00% | $152.3K |
 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.61% | $117.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDCX's lower-variability candidates are zest-v2 (Stacks), 1.13% APY, $3.09M TVL, https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token; liqwid (Cardano), 5.61% APY, $117.2K TVL, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; minswap-dex (Cardano), 11.13% APY, $152.6K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 19.80% APY, $232.2K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDCX's lower-variability candidates are zest-v2 (Stacks), 1.13% APY, $3.09M TVL, https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token; liqwid (Cardano), 5.61% APY, $117.2K TVL, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; minswap-dex (Cardano), 11.00% APY, $152.3K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 19.82% APY, $233.1K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token) | Stacks | 1.13% | $3.09M |
 | 2 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.61% | $117.2K |
-| 3 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 11.13% | $152.6K |
-| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 19.80% | $232.2K |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 11.00% | $152.3K |
+| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 19.82% | $233.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDCX shows up in 4 pools here, with rates from 1.13% to 19.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDCX shows up in 4 pools here, with rates from 1.13% to 19.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -38,9 +38,9 @@ USDCX shows up in 4 pools here, with rates from 1.13% to 19.80% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | zest-v2 | 1.13% | 0.83% | Base rate |
-| minswap-dex | 19.80% | 21.05% | 16.36% incentives |
-| minswap-dex | 11.13% | 11.24% | 58.13% incentives |
-| liqwid | 5.61% | 8.65% | Base rate |
+| minswap-dex | 19.82% | 21.04% | 16.30% incentives |
+| minswap-dex | 11.00% | 11.25% | 57.45% incentives |
+| liqwid | 5.61% | 8.61% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDCX yield today?
 
-19.80% APY on minswap-dex (Cardano), based on live DefiLlama data.
+19.82% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDCX pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDCX pools have the most stable APY history?
 
-Based on APY history only, USDCX's lower-variability candidates are zest-v2 (Stacks), 1.13% APY, $3.09M TVL, https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token; liqwid (Cardano), 5.61% APY, $117.2K TVL, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; minswap-dex (Cardano), 11.13% APY, $152.6K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 19.80% APY, $232.2K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDCX's lower-variability candidates are zest-v2 (Stacks), 1.13% APY, $3.09M TVL, https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_token; liqwid (Cardano), 5.61% APY, $117.2K TVL, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; minswap-dex (Cardano), 11.00% APY, $152.3K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 19.82% APY, $233.1K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

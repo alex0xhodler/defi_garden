@@ -6,7 +6,7 @@ The highest honest MEOW yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e2bb6824-2f21-4224-a80e-ec3f512b4227&src=seo_token) | Ethereum | 0.01% | $139.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e2bb6824-2f21-4224-a80e-ec3f512b4227&src=seo_token) | Ethereum | 0.01% | $139.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEOW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $267.4K in total.
+2 live pools clear this page's $100K TVL floor, $266K in total.
 
 ### Are these rates safe?
 
@@ -54,8 +54,8 @@ There is not enough qualifying APY history to rank MEOW pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on

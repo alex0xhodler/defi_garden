@@ -1,8 +1,8 @@
 # NYA-WAVAX — uniswap-v3 on Avalanche
 
-**Total APY:** 0.09% (0.09% Base · + 0.00% Rewards)
+**Total APY:** 0.08% (0.08% Base · + 0.00% Rewards)
 
-**TVL:** $140.7K
+**TVL:** $140.9K
 
 **Pool Type:** LP/DEX
 

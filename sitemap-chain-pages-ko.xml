@@ -81,12 +81,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/polygon</loc>
+    <loc>https://www.defi.garden/ko/chains/xrpl</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/xrpl</loc>
+    <loc>https://www.defi.garden/ko/chains/polygon</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -96,12 +96,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
+    <loc>https://www.defi.garden/ko/chains/linea</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/linea</loc>
+    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -166,12 +166,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/starknet</loc>
+    <loc>https://www.defi.garden/ko/chains/near</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/near</loc>
+    <loc>https://www.defi.garden/ko/chains/starknet</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -191,12 +191,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/sonic</loc>
+    <loc>https://www.defi.garden/ko/chains/tempo</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/tempo</loc>
+    <loc>https://www.defi.garden/ko/chains/sonic</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -226,12 +226,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/thorchain</loc>
+    <loc>https://www.defi.garden/ko/chains/icp</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/icp</loc>
+    <loc>https://www.defi.garden/ko/chains/thorchain</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -286,6 +286,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/hedera</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
@@ -312,11 +317,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/zksync-era</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/igra</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
   </url>

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest ROKO yield right now is 0.71% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROKO yield right now is 0.81% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0ec07ec9-d27c-43d8-8e65-193f020344f8&src=seo_token) | Ethereum | 0.71% | $190.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0ec07ec9-d27c-43d8-8e65-193f020344f8&src=seo_token) | Ethereum | 0.81% | $201.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROKO yield today?
 
-0.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.81% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ROKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.4K in total.
+1 live pool clear this page's $100K TVL floor, $201.7K in total.
 
 ### Are these rates safe?
 
@@ -38,8 +38,8 @@ There is not enough qualifying APY history to rank ROKO pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
