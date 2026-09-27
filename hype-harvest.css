@@ -473,10 +473,6 @@ body {
   border-color: var(--ui-surface, #16211A);
 }
 
-.quiet-slider::-webkit-slider-thumb:hover {
-  transform: scale(1.15);
-}
-
 /* Outcome Ledger Output */
 .outcome-ledger-grid {
   display: grid;
