@@ -2302,50 +2302,51 @@ function PoolDetail({
               }, heroStatusLabel)
             )
           )
-        )
-      ),
-
-      // Action band — closes the hero panel. ONE primary action; the protocol
-      // link reads as the clear secondary (quiet-link treatment via CSS,
-      // markup/events/payloads untouched).
-      React.createElement('div', { className: 'pool-hero-actions' },
-        React.createElement('div', { className: 'pool-hero-action-primary' },
-          // Primary CTA — garden this pool (deep-links into the planner
-          // prefilled with a persona/goal/monthly matching this pool's risk
-          // tier). Hero label stays the plain generic string (210); the ~$X
-          // in 5y concrete projection lives at the earnings-block echo where
-          // the user has parameterised the input.
-          React.createElement('a', {
-            className: 'cta-button-primary',
-            href: '#yield-card-widget',
-            onClick: (e) => {
-              e.preventDefault();
-              const el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
-              if (el) {
-                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
-              if (typeof Analytics !== 'undefined') {
-                Analytics.trackPoolClick(pool, 'spend_yield_cta', {
-                  investmentAmount: Math.round(investmentAmount),
-                  projectionYears: PROJECTION_YEARS,
-                  ctaVariant: 'card_widget_scroll',
-                  ctaPlacement: 'hero',
-                  ctaPosition: 'hero'
-                });
-              }
-            }
-          }, t ? t('spendYieldCta') : 'Spend yield →'),
-          React.createElement('p', { className: 'pool-action-hint' },
-            t ? t('spendYieldHint') : 'Fund subscriptions • Keep principal intact'
-          )
         ),
 
-        // Secondary — protocol link, or an honest DefiLlama fallback when
-        // no protocol URL resolves at all (spec 182 leg B/D).
-        React.createElement('div', { className: 'pool-hero-action-secondary' },
-          ...renderProtocolCtaBlock('hero')
+        // Action row — inside the hero column, straight after the APY's honesty
+        // qualifier (CSS order), so both actions sit side by side in the first
+        // viewport on every ?pool= page. Primary = Spend yield; secondary = the
+        // protocol link (markup/events/payloads unchanged).
+        React.createElement('div', { className: 'pool-hero-actions' },
+          React.createElement('div', { className: 'pool-hero-action-primary' },
+            // Primary CTA — garden this pool (deep-links into the planner
+            // prefilled with a persona/goal/monthly matching this pool's risk
+            // tier). Hero label stays the plain generic string (210); the ~$X
+            // in 5y concrete projection lives at the earnings-block echo where
+            // the user has parameterised the input.
+            React.createElement('a', {
+              className: 'cta-button-primary',
+              href: '#yield-card-widget',
+              onClick: (e) => {
+                e.preventDefault();
+                const el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                if (typeof Analytics !== 'undefined') {
+                  Analytics.trackPoolClick(pool, 'spend_yield_cta', {
+                    investmentAmount: Math.round(investmentAmount),
+                    projectionYears: PROJECTION_YEARS,
+                    ctaVariant: 'card_widget_scroll',
+                    ctaPlacement: 'hero',
+                    ctaPosition: 'hero'
+                  });
+                }
+              }
+            }, t ? t('spendYieldCta') : 'Spend yield →'),
+            React.createElement('p', { className: 'pool-action-hint' },
+              t ? t('spendYieldHint') : 'Fund subscriptions • Keep principal intact'
+            )
+          ),
+
+          // Secondary — protocol link, or an honest DefiLlama fallback when
+          // no protocol URL resolves at all (spec 182 leg B/D).
+          React.createElement('div', { className: 'pool-hero-action-secondary' },
+            ...renderProtocolCtaBlock('hero')
+          )
         )
-        )
+      )
         ),
 
         // Engraved rule between hero and Institutional Decision Terminal
