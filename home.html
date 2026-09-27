@@ -385,17 +385,17 @@
       <a href="/agents">AI Agents & MCP</a>
     </footer>
 
-    <!-- Permanent SEO content (fintech-seo v2) — "screen 2" of the landing.
-         The landing app (hero, panel 1) and this panel sit side-by-side in a
-         horizontal snap track; the header and footer stay fixed and only the
-         panel content switches. Visible to crawlers AND users (never hidden
+    <!-- Permanent SEO content (fintech-seo v2) — the landing's second section.
+         landing.js moves it into .landing-main below the underwriting hero,
+         above the landing footer; one vertical page. Its heading is an h2 —
+         the hero owns the page's only h1. Visible to crawlers AND users (never hidden
          on the landing route — hidden content would be soft-cloaking).
          Hidden entirely in analytics/planner modes via the critical inline
          style above. landing.js localizes the ids for ?lang=ko post-mount. -->
     <section class="seo-content" id="seo-content" aria-label="About DeFi Garden yields">
      <div class="seo-content-inner">
       <span class="seo-eyebrow" id="seo-eyebrow">Live On-Chain Rates</span>
-      <h1 class="seo-title" id="seo-h1">DeFi Savings &amp; Yield Discovery</h1>
+      <h2 class="seo-title" id="seo-h1">DeFi Savings &amp; Yield Discovery</h2>
       <p class="seo-lede" id="seo-lede">Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.</p>
       <p class="seo-calc-line" id="seo-calc-p">The Garden Planner compounds monthly deposits at live stablecoin pool rates — illustrative example: at a fixed hypothetical 5% APY, $500/month for 3 years totals $18,000 deposited and about $19,457 in value. Not a live rate; open the planner for today's numbers.</p>
       <p class="seo-cta-row"><a class="btn btn--primary seo-cta" href="/plan.html" id="seo-calc-cta">Open the DeFi Savings Calculator →</a></p>

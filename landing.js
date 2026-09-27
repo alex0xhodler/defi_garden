@@ -10,111 +10,54 @@
   var e = R.createElement;
   var useEffect = R.useEffect;
   var useState = R.useState;
-  var useRef = R.useRef;
 
   var TOKEN_HINTS = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'SOL', 'LINK', 'UNI', 'AAVE', 'CRV'];
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
   var PROTOCOL_HINTS = ['Morpho', 'Pendle', 'Aave', 'Compound', 'Curve', 'Uniswap', 'Aerodrome', 'Lido', 'Euler', 'Venus', 'Yearn', 'Raydium', 'Kamino'];
 
-  var ALL_MAPPED_SUBS = [
-    { id: 'claude', name: 'Claude Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'claude', icon: 'claude.ai', emoji: '🤖' },
-    { id: 'cursor', name: 'Cursor Pro', monthly: 24.00, baseMonthly: 20.00, slug: 'cursor', icon: 'cursor.com', emoji: '⚡' },
-    { id: 'chatgpt', name: 'ChatGPT Plus', monthly: 24.00, baseMonthly: 20.00, slug: 'chatgpt', icon: 'openai.com', emoji: '💬' },
-    { id: 'spotify', name: 'Spotify', monthly: 14.39, baseMonthly: 11.99, slug: 'spotify', icon: 'spotify.com', emoji: '🎵' },
-    { id: 'netflix', name: 'Netflix', monthly: 21.59, baseMonthly: 17.99, slug: 'netflix', icon: 'netflix.com', emoji: '🍿' },
-    { id: 'amazonprime', name: 'Amazon Prime', monthly: 18.00, baseMonthly: 15.00, slug: 'amazonprime', icon: 'amazon.com', emoji: '📦' },
-    { id: 'opencode', name: 'OpenCode Go', monthly: 6.00, baseMonthly: 5.00, slug: 'opencode', icon: 'opencode.ai', emoji: '⚡' },
-    { id: 'aws', name: 'AWS Cloud', monthly: 60.00, baseMonthly: 50.00, slug: 'aws', icon: 'amazon.com', emoji: '☁️' },
-    { id: 'github', name: 'GitHub', monthly: 12.00, baseMonthly: 10.00, slug: 'github', icon: 'github.com', emoji: '🐙' },
-    { id: 'youtube', name: 'YouTube', monthly: 16.79, baseMonthly: 13.99, slug: 'youtube', icon: 'youtube.com', emoji: '▶️' },
-    { id: 'disney', name: 'Disney+', monthly: 19.19, baseMonthly: 15.99, slug: 'disney', icon: 'disneyplus.com', emoji: '🏰' },
-    { id: 'max', name: 'Max (HBO)', monthly: 20.39, baseMonthly: 16.99, slug: 'max', icon: 'max.com', emoji: '🎬' },
-    { id: 'hulu', name: 'Hulu', monthly: 22.79, baseMonthly: 18.99, slug: 'hulu', icon: 'hulu.com', emoji: '📺' },
-    { id: 'appletv', name: 'Apple TV+', monthly: 15.59, baseMonthly: 12.99, slug: 'appletv', icon: 'apple.com', emoji: '🍎' },
-    { id: 'gamepass', name: 'Xbox Game Pass', monthly: 24.00, baseMonthly: 19.99, slug: 'gamepass', icon: 'xbox.com', emoji: '🎮' },
-    { id: 'paramount', name: 'Paramount+', monthly: 11.99, baseMonthly: 9.99, slug: 'paramount', icon: 'paramountplus.com', emoji: '⛰️' },
-    { id: 'peacock', name: 'Peacock', monthly: 13.19, baseMonthly: 10.99, slug: 'peacock', icon: 'peacocktv.com', emoji: '🦚' },
-    { id: 'doordash', name: 'DoorDash', monthly: 11.99, baseMonthly: 9.99, slug: 'doordash', icon: 'doordash.com', emoji: '🥡' },
-    { id: 'uber', name: 'Uber One', monthly: 11.99, baseMonthly: 9.99, slug: 'uber', icon: 'uber.com', emoji: '🚗' },
-    { id: 'audible', name: 'Audible', monthly: 17.94, baseMonthly: 14.95, slug: 'audible', icon: 'audible.com', emoji: '🎧' },
-    { id: 'walmart', name: 'Walmart+', monthly: 15.54, baseMonthly: 12.95, slug: 'walmart', icon: 'walmart.com', emoji: '🛒' }
+  // Hero underwriting card. Pool list, DeFi Score and 14d forecast come from the
+  // CI-baked data/landing-pools.json (generate-landing-pools.js); APY/TVL are
+  // overlaid live from DefiLlama's per-pool chart endpoint, falling back to the
+  // baked snapshot values (labelled as such) when that fetch fails. Trust rails
+  // (window.TRUST_RAILS) are applied to whichever value is displayed.
+  var LANDING_POOLS_URL = '/data/landing-pools.json';
+  var LLAMA_CHART_URL = 'https://yields.llama.fi/chart/';
+  var SCORE_PILLARS = [
+    { key: 'stability', max: 35, labelKey: 'uwPillarStability' },
+    { key: 'sustainability', max: 25, labelKey: 'uwPillarSustainability' },
+    { key: 'stickiness', max: 25, labelKey: 'uwPillarStickiness' },
+    { key: 'liquidity', max: 15, labelKey: 'uwPillarLiquidity' }
   ];
-  var INTENT_SUBS = ALL_MAPPED_SUBS;
 
-  var UNDERWRITTEN_POOLS = [
-    {
-      id: 'usdy',
-      symbol: 'USDY',
-      project: 'ondo-yield-assets',
-      chain: 'Ethereum',
-      apy: 3.57,
-      forecast: 3.57,
-      score: 92,
-      rating: 'AAA',
-      tvl: '$1.2B',
-      metric1Label: 'Secondary Depth',
-      metric1Val: '$411.2M',
-      metric2Label: 'Redemption Time',
-      metric2Val: '~1-3 Days',
-      status: 'Deep Secondary Peg',
-      downside: 'Stable Downside',
-      poolId: 'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859'
-    },
-    {
-      id: 'susds',
-      symbol: 'SUSDS',
-      project: 'sky-lending',
-      chain: 'Ethereum',
-      apy: 3.60,
-      forecast: 3.60,
-      score: 92,
-      rating: 'AAA',
-      tvl: '$4.7B',
-      metric1Label: 'Cash Headroom',
-      metric1Val: '$1.03B',
-      metric2Label: 'Kink Buffer',
-      metric2Val: '$628M',
-      status: 'Safe Headroom',
-      downside: 'Stable Downside',
-      poolId: '0beeab24-577a-40e1-8e39-2adbe0c33fc9'
-    },
-    {
-      id: 'usdc',
-      symbol: 'USDC',
-      project: 'maple',
-      chain: 'Ethereum',
-      apy: 4.96,
-      forecast: 4.96,
-      score: 92,
-      rating: 'AAA',
-      tvl: '$2.7B',
-      metric1Label: 'Cash Headroom',
-      metric1Val: '$594M',
-      metric2Label: 'Kink Buffer',
-      metric2Val: '$360M',
-      status: 'Safe Headroom',
-      downside: 'Stable Downside',
-      poolId: '3e669ce8-74c5-4fc9-bf85-f40a924c6407'
-    },
-    {
-      id: 'steth',
-      symbol: 'STETH',
-      project: 'lido',
-      chain: 'Ethereum',
-      apy: 2.33,
-      forecast: 2.33,
-      score: 91,
-      rating: 'AAA',
-      tvl: '$23.9B',
-      metric1Label: 'Secondary Depth',
-      metric1Val: '$8.3B',
-      metric2Label: 'Queue Exit',
-      metric2Val: '~1-4 Days',
-      status: 'Deep Secondary Peg',
-      downside: 'Stable Downside',
-      poolId: '747c1d2a-c668-4682-b9f9-296708a3dd90'
-    }
-  ];
+  function passesTrustRails(pool) {
+    var rails = window.TRUST_RAILS;
+    if (!rails) return false;
+    return typeof pool.apy === 'number' && typeof pool.tvlUsd === 'number' &&
+      pool.apy <= rails.APY_SANITY_LIMIT && pool.tvlUsd >= rails.DEFAULT_MIN_TVL;
+  }
+
+  function fetchLivePoint(poolId) {
+    return fetch(LLAMA_CHART_URL + poolId)
+      .then(function (res) { if (!res.ok) throw new Error('chart ' + res.status); return res.json(); })
+      .then(function (body) {
+        var series = body && body.data;
+        var last = series && series[series.length - 1];
+        if (!last || typeof last.apy !== 'number' || typeof last.tvlUsd !== 'number') throw new Error('chart shape');
+        return { apy: last.apy, tvlUsd: last.tvlUsd };
+      });
+  }
+
+  function formatUsdCompact(value) {
+    return '$' + new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 2 }).format(value);
+  }
+
+  function formatPct(value) {
+    return Number(value).toFixed(2) + '%';
+  }
+
+  function formatScoreDate(iso) {
+    try { return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); } catch (err) { return ''; }
+  }
 
   // goal id -> translations.planner label key (canonical list owned by planner.js
   // GOALS; duplicated read-only here because planner.js is not loaded on the
@@ -200,153 +143,6 @@
     },
       e('path', { d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z', fill: 'currentColor' }),
       e('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
-    );
-  }
-
-  function CardBotanicalWatermark() {
-    return e('svg', {
-      className: 'card-botanical-watermark',
-      viewBox: '0 0 340 260',
-      preserveAspectRatio: 'xMidYMid meet',
-      fill: 'none',
-      'aria-hidden': 'true',
-      style: {
-        position: 'absolute',
-        right: '-15px',
-        bottom: '-25px',
-        width: '230px',
-        height: '175px',
-        pointerEvents: 'none',
-        opacity: 0.16,
-        zIndex: 1
-      }
-    },
-      e('circle', { cx: '170', cy: '130', r: '105', stroke: 'var(--color-primary)', strokeWidth: '1.2', strokeDasharray: '2 4', strokeLinecap: 'round', fill: 'rgba(var(--color-teal-500-rgb), 0.06)' }),
-      e('path', { d: 'M170 205V91', stroke: 'var(--color-primary)', strokeWidth: '2.5', strokeLinecap: 'round' }),
-      e('path', { d: 'M170 125c-28-24-52-23-70-9 16 26 41 29 70 9Z', fill: 'rgba(var(--color-teal-500-rgb), 0.22)', stroke: 'var(--color-primary)', strokeWidth: '1.5', strokeLinejoin: 'round' }),
-      e('path', { d: 'M170 100c26-25 52-25 70-11-15 27-40 31-70 11Z', fill: 'rgba(var(--color-teal-500-rgb), 0.22)', stroke: 'var(--color-primary)', strokeWidth: '1.5', strokeLinejoin: 'round' }),
-      e('path', { d: 'M170 151c-23-18-42-17-56-8 13 22 32 24 56 8Z', fill: 'rgba(var(--color-teal-500-rgb), 0.16)', stroke: 'var(--color-primary)', strokeWidth: '1.4', strokeLinejoin: 'round' }),
-      e('path', { d: 'M170 145c22-20 42-20 56-10-12 22-32 25-56 10Z', fill: 'rgba(var(--color-teal-500-rgb), 0.16)', stroke: 'var(--color-primary)', strokeWidth: '1.4', strokeLinejoin: 'round' }),
-      e('path', { d: 'M166 122c-19-13-38-16-56-11', stroke: 'var(--color-primary)', strokeWidth: '1.2', strokeLinecap: 'round', fill: 'none', opacity: 0.6 }),
-      e('path', { d: 'M174 97c18-15 37-19 55-15', stroke: 'var(--color-primary)', strokeWidth: '1.2', strokeLinecap: 'round', fill: 'none', opacity: 0.6 }),
-      e('path', { d: 'M128 205h84l-10 35h-64l-10-35Z', fill: 'none', stroke: 'var(--color-primary)', strokeWidth: '1.5', strokeLinejoin: 'round' }),
-      e('path', { d: 'M122 204h96', stroke: 'var(--color-primary)', strokeWidth: '2', strokeLinecap: 'round' }),
-      e('path', { d: 'M110 240h120', stroke: 'var(--color-primary)', strokeWidth: '1.2', strokeLinecap: 'round' })
-    );
-  }
-  function ServiceBrandIcon(props) {
-    var slug = props.slug;
-    var domainMap = {
-      claude: 'claude.ai',
-      cursor: 'cursor.com',
-      chatgpt: 'openai.com',
-      spotify: 'spotify.com',
-      netflix: 'netflix.com',
-      aws: 'amazon.com',
-      github: 'github.com',
-      youtube: 'youtube.com',
-      amazonprime: 'amazon.com',
-      disney: 'disneyplus.com',
-      max: 'max.com',
-      hulu: 'hulu.com',
-      appletv: 'apple.com',
-      gamepass: 'xbox.com',
-      paramount: 'paramountplus.com',
-      peacock: 'peacocktv.com',
-      doordash: 'doordash.com',
-      uber: 'uber.com',
-      audible: 'audible.com',
-      walmart: 'walmart.com'
-    };
-    var domain = props.icon || domainMap[slug];
-    var width = props.width || 15;
-    var height = props.height || 15;
-
-    if (domain) {
-      return e('img', {
-        className: 'service-brand-icon service-brand-favicon',
-        src: 'https://www.google.com/s2/favicons?domain=' + domain + '&sz=64',
-        alt: slug,
-        width: width,
-        height: height,
-        style: {
-          width: width + 'px',
-          height: height + 'px',
-          borderRadius: '2px',
-          objectFit: 'contain',
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          flexShrink: 0
-        },
-        loading: 'lazy'
-      });
-    }
-
-    return e('span', {
-      className: 'service-brand-emoji',
-      style: { fontSize: (width - 1) + 'px', lineHeight: 1, display: 'inline-block', verticalAlign: 'middle', flexShrink: 0 }
-    }, props.emoji || '🌱');
-  }
-  function EmvChip() {
-    return e('div', {
-      className: 'visa-gold-chip visa-gold-chip-svg',
-      'aria-hidden': 'true',
-      role: 'img'
-    });
-  }
-
-  function CardHologram() {
-    return e('div', {
-      className: 'visa-card-hologram',
-      'aria-hidden': 'true'
-    });
-  }
-
-  function NfcIcon() {
-    return e('svg', {
-      className: 'visa-nfc-icon',
-      viewBox: '0 0 24 24',
-      width: 14,
-      height: 14,
-      fill: 'none',
-      stroke: 'rgba(255,255,255,0.85)',
-      strokeWidth: 1.8,
-      strokeLinecap: 'round',
-      'aria-hidden': 'true'
-    },
-      e('path', { d: 'M7 16a5.5 5.5 0 0 1 0-8' }),
-      e('path', { d: 'M11 18.5a9 9 0 0 1 0-13' }),
-      e('path', { d: 'M15 21a12.5 12.5 0 0 1 0-18' }),
-      e('path', { d: 'M3 13.5a2 2 0 0 1 0-3' })
-    );
-  }
-
-  function VisaLogo() {
-    return e('svg', {
-      className: 'visa-logo-svg',
-      viewBox: '0 0 780 250',
-      width: 44,
-      height: 14,
-      fill: '#ffffff',
-      'aria-label': 'VISA',
-      role: 'img'
-    },
-      e('path', {
-        d: 'M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z'
-      })
-    );
-  }
-
-  function CardLockIcon() {
-    return e('svg', {
-      className: 'card-lock-icon',
-      viewBox: '0 0 16 16',
-      width: 10,
-      height: 10,
-      fill: 'currentColor',
-      'aria-hidden': 'true'
-    },
-      e('path', { d: 'M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z' })
     );
   }
 
@@ -439,31 +235,20 @@
     var scrollState = useState(false);
     var isScrolled = scrollState[0];
     var setIsScrolled = scrollState[1];
-    var selectedSubState = useState(INTENT_SUBS[0]);
-    var activeSub = selectedSubState[0];
-    var setActiveSub = selectedSubState[1];
-
-    var activeUwPoolState = useState(UNDERWRITTEN_POOLS[0]);
-    var activeUwPool = activeUwPoolState[0];
-    var setActiveUwPool = activeUwPoolState[1];
-    var showAllSubsState = useState(false);
-    var showAllSubs = showAllSubsState[0];
-    var setShowAllSubs = showAllSubsState[1];
-    var showMetricsState = useState(false);
-    var showMetrics = showMetricsState[0];
-    var setShowMetrics = showMetricsState[1];
-    var activeSectionState = useState(0);
+    var uwPoolsState = useState(null);
+    var uwPools = uwPoolsState[0];
+    var setUwPools = uwPoolsState[1];
+    var uwScoredAtState = useState('');
+    var uwScoredAt = uwScoredAtState[0];
+    var setUwScoredAt = uwScoredAtState[1];
+    var activeUwIdState = useState(null);
+    var activeUwId = activeUwIdState[0];
+    var setActiveUwId = activeUwIdState[1];
     var copy = getCopy(language);
     useEffect(function () {
       function onScroll() {
         var scrolled = window.scrollY > 4;
         setIsScrolled(function (prev) { return prev !== scrolled ? scrolled : prev; });
-        var searchEl = document.getElementById('search-section');
-        if (searchEl) {
-          var rect = searchEl.getBoundingClientRect();
-          var isPageTwo = rect.top <= window.innerHeight * 0.45;
-          setActiveSection(isPageTwo ? 1 : 0);
-        }
       }
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
@@ -544,102 +329,42 @@
       }
     }, [showReturnCard]);
 
-    // Horizontal panel-swap navigation (fintech-seo v2). The landing's two
-    // panels (hero = #landing-root's .landing-app, rates = #seo-content) sit
-    // side-by-side in a body-level x-snap track. Wheel / trackpad scroll,
-    // arrow keys, and the 2-dot page indicator all swap between them so the
-    // first scroll is effortless. activePanel state drives the dot fill and
-    // is synced from body scroll. Respects reduced-motion. No-op unless the
-    // track is active.
-    var activePanelState = useState(0);
-    var activePanel = activePanelState[0];
-    var setActivePanel = activePanelState[1];
-
-    function panelMax() { return Math.max(0, document.body.scrollWidth - document.body.clientWidth); }
-    // Ref holding the effect-scoped goToPanel so the dots' onClick (JSX, outside
-    // the effect) can drive a swap. Assigned on mount; noop until then.
-    var goToPanelRef = useRef(function () {});
-    function goToPanel(panel) { goToPanelRef.current(panel); }
-
-    var activePanelRef = useRef(activePanel);
-    activePanelRef.current = activePanel;
-
+    // #seo-content ships as static HTML in home.html (crawlable). Move it into
+    // .landing-main after the hero so it reads as the page's second section,
+    // above the landing footer.
     useEffect(function () {
-      function isDesktop() { return window.innerWidth > 768; }
-
-      function goToPanelEffect(panel) {
-        var next = Math.max(0, Math.min(2, panel));
-        setActivePanel(next);
-      }
-      goToPanelRef.current = goToPanelEffect;
-
-      var lastWheelTime = -1000;
-
-      function onWheel(e) {
-        if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
-        if (e.ctrlKey) return;
-
-        var now = performance.now();
-        if (now - lastWheelTime < 450) {
-          e.preventDefault();
-          return;
-        }
-
-        var dy = e.deltaY;
-        var dx = e.deltaX;
-        if (e.deltaMode === 1) { dy *= 20; dx *= 20; }
-        else if (e.deltaMode === 2) { dy *= 100; dx *= 100; }
-
-        var dominant = Math.abs(dy) >= Math.abs(dx) ? dy : dx;
-        if (Math.abs(dominant) < 15) return;
-
-        var dir = dominant > 0 ? 1 : -1;
-        var current = activePanelRef.current;
-        var next = Math.max(0, Math.min(2, current + dir));
-
-        if (next !== current) {
-          e.preventDefault();
-          lastWheelTime = now;
-          goToPanelEffect(next);
-        }
-      }
-
-      function onKey(e) {
-        if (window.__APP_MODE !== 'landing' || !isDesktop()) return;
-        if (e.repeat) return;
-        var tag = (e.target && e.target.tagName) || '';
-        if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
-        var current = activePanelRef.current;
-        if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') {
-          e.preventDefault();
-          goToPanelEffect(Math.min(2, current + 1));
-        } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
-          e.preventDefault();
-          goToPanelEffect(Math.max(0, current - 1));
-        }
-      }
-      // Reparent .seo-content into .landing-main as the 2nd panel (before spotlight)
       var seoEl = document.getElementById('seo-content');
       var landingMain = document.querySelector('.landing-main');
-      var spotlightEl = document.getElementById('spotlight-section');
-      var movedSeo = false;
-      if (seoEl && landingMain) {
-        if (spotlightEl) {
-          landingMain.insertBefore(seoEl, spotlightEl);
-        } else {
-          landingMain.appendChild(seoEl);
-        }
-        movedSeo = true;
-      }
-
-      window.addEventListener('wheel', onWheel, { passive: false });
-      document.addEventListener('keydown', onKey);
-      return function () {
-        window.removeEventListener('wheel', onWheel);
-        if (movedSeo && seoEl) { document.body.appendChild(seoEl); }
-        document.removeEventListener('keydown', onKey);
-      };
+      if (!seoEl || !landingMain) return undefined;
+      landingMain.appendChild(seoEl);
+      return function () { document.body.appendChild(seoEl); };
     }, []);
+
+    useEffect(function () {
+      var cancelled = false;
+      fetch(LANDING_POOLS_URL)
+        .then(function (res) { if (!res.ok) throw new Error('landing-pools ' + res.status); return res.json(); })
+        .then(function (data) {
+          if (cancelled) return;
+          var baked = (data.pools || []).map(function (p) { return Object.assign({}, p, { source: 'snapshot' }); });
+          setUwScoredAt(data.generatedAt || '');
+          setUwPools(baked.filter(passesTrustRails));
+          return Promise.all(baked.map(function (p) {
+            return fetchLivePoint(p.pool)
+              .then(function (live) { return Object.assign({}, p, live, { source: 'live' }); })
+              .catch(function () { return p; });
+          })).then(function (merged) {
+            if (!cancelled) setUwPools(merged.filter(passesTrustRails));
+          });
+        })
+        .catch(function () { if (!cancelled) setUwPools([]); });
+      return function () { cancelled = true; };
+    }, []);
+
+    var activeUwPool = null;
+    if (uwPools && uwPools.length) {
+      activeUwPool = uwPools.find(function (p) { return p.pool === activeUwId; }) || uwPools[0];
+    }
 
     function toggleLanguage() {
       var next = language === 'en' ? 'ko' : 'en';
@@ -663,22 +388,17 @@
     }
 
     function closeMenu() { setMenuOpen(false); }
-    function scrollToPage(index) {
-      setActiveSection(index);
-      if (index === 0) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      } else {
-        var el = document.getElementById('search-section');
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }
+    function goToRates() {
+      var el = document.getElementById('seo-content');
+      if (!el) return;
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
     }
 
     return e('div', { className: 'landing-app', 'data-mode': 'landing' },
       e('div', { className: 'landing-backdrop', 'aria-hidden': 'true' },
         e('span', { className: 'landing-backdrop-orbit landing-backdrop-orbit-one' }),
-        e('span', { className: 'landing-backdrop-orbit landing-backdrop-orbit-two' }),
-        e('span', { className: 'landing-backdrop-dot landing-backdrop-dot-one' }),
-        e('span', { className: 'landing-backdrop-dot landing-backdrop-dot-two' })
+        e('span', { className: 'landing-backdrop-orbit landing-backdrop-orbit-two' })
       ),
 
       e('header', { className: 'landing-header landing-reveal landing-reveal-one' + (isScrolled ? ' is-scrolled' : '') },
@@ -689,6 +409,7 @@
         e('nav', { className: 'landing-nav', 'aria-label': copy.navPrimary },
           e('a', { href: '/?app=1' }, copy.navSearch),
           e('a', { href: 'plan.html' }, copy.navPlanner || 'Savings Planner'),
+          e('a', { href: '/for/claude', 'data-testid': 'landing-nav-card' }, copy.navCard),
           e('a', { href: '/agents' }, copy.navAgents || 'AI Agents & MCP')
         ),
         e('div', { className: 'landing-header-actions' },
@@ -711,21 +432,18 @@
       e('nav', { className: 'landing-mobile-nav' + (menuOpen ? ' is-open' : ''), 'aria-label': copy.navMobile },
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
         e('a', { href: 'plan.html', onClick: closeMenu }, copy.navPlanner || 'Savings Planner'),
+        e('a', { href: '/for/claude', onClick: closeMenu, 'data-testid': 'landing-nav-card' }, copy.navCard),
         e('a', { href: '/agents', onClick: closeMenu }, copy.navAgents || 'AI Agents & MCP')
       ),
-      e('main', {
-        className: 'landing-main',
-        style: (typeof window !== 'undefined' && window.innerWidth > 768) ? {
-          transform: 'translateX(-' + (activePanel * 100) + 'vw)',
-          transition: 'transform 0.42s cubic-bezier(0.16, 1, 0.3, 1)'
-        } : undefined
-      },
-        // SLIDE 1: PREDICTIVE UNDERWRITING HERO (Default First Page)
+      e('main', { className: 'landing-main' },
         e('div', { id: 'underwriting-section', className: 'landing-section-wrapper landing-underwriting-wrapper' },
           e('section', { className: 'landing-hero-underwriting', 'data-testid': 'landing-underwriting-card', 'aria-labelledby': 'landing-uw-title' },
             e('div', { className: 'landing-uw-copy' },
-              e('div', { className: 'landing-uw-eyebrow' },
-                e('span', null, copy.uwEyebrow || 'Quant-Powered Predictive Analytics')
+              e('p', { className: 'landing-uw-status' },
+                e('span', { className: 'landing-uw-status-dot', 'aria-hidden': 'true' }),
+                uwScoredAt && uwPools
+                  ? copy.uwStatus(formatScoreDate(uwScoredAt), uwPools.some(function (p) { return p.source === 'live'; }))
+                  : copy.uwStatusLoading
               ),
               e('h1', { id: 'landing-uw-title', className: 'landing-spotlight-title' },
                 copy.uwTitleBefore || 'DeFi yields,',
@@ -750,235 +468,77 @@
               ),
               e('p', { className: 'landing-card-hint' }, copy.uwCtaHint || 'Curated filter: Popular Chains • TVL ≥ $10M • APY ≥ 5%')
             ),
-            e('aside', { className: 'landing-uw-terminal-card' },
-              e('div', { className: 'landing-uw-card-header' },
-                e('span', { className: 'landing-uw-header-tag' }, 'INSTITUTIONAL UNDERWRITING'),
-                e('span', { className: 'landing-uw-score-pill' },
-                  e('span', null, 'Score:'),
-                  e('strong', null, ' ' + activeUwPool.score + ' (' + activeUwPool.rating + ')')
-                )
-              ),
-              e('div', { className: 'landing-uw-pool-tabs', 'aria-label': 'Select underwritten pool preset' },
-                UNDERWRITTEN_POOLS.map(function(p) {
-                  var isSel = activeUwPool.id === p.id;
-                  return e('button', {
-                    key: p.id,
-                    type: 'button',
-                    className: 'landing-uw-pool-tab' + (isSel ? ' is-active' : ''),
-                    onClick: function() { setActiveUwPool(p); }
-                  }, p.symbol);
-                })
-              ),
-              e('div', { className: 'landing-uw-yield-box' },
-                e('div', { className: 'landing-uw-pool-title' }, activeUwPool.project + ' · ' + activeUwPool.chain),
-                e('div', { className: 'landing-uw-yield-val' }, activeUwPool.apy.toFixed(2) + '% APY'),
-                e('div', { className: 'landing-uw-forecast-text' },
-                  e('span', null, '14d Forecast: ' + activeUwPool.forecast.toFixed(2) + '%'),
-                  e('span', { className: 'landing-uw-downside-badge' }, '· ' + activeUwPool.downside)
-                )
-              ),
-              e('div', { className: 'landing-uw-pillars-grid' },
-                e('div', { className: 'landing-uw-pillar' },
-                  e('div', { className: 'landing-uw-pillar-name' }, 'Yield Stability'),
-                  e('div', { className: 'landing-uw-pillar-val' }, 'Quant AI 14d Model')
-                ),
-                e('div', { className: 'landing-uw-pillar' },
-                  e('div', { className: 'landing-uw-pillar-name' }, 'Sustainability'),
-                  e('div', { className: 'landing-uw-pillar-val' }, 'Organic Cash Flow')
-                ),
-                e('div', { className: 'landing-uw-pillar' },
-                  e('div', { className: 'landing-uw-pillar-name' }, 'Capital Retention'),
-                  e('div', { className: 'landing-uw-pillar-val' }, 'High Whale Depth')
-                ),
-                e('div', { className: 'landing-uw-pillar' },
-                  e('div', { className: 'landing-uw-pillar-name' }, 'Exit Capacity'),
-                  e('div', { className: 'landing-uw-pillar-val' }, 'Depth: ' + activeUwPool.tvl)
-                )
-              ),
-              e('div', { className: 'landing-uw-capacity-row' },
-                e('div', { className: 'landing-uw-capacity-item' },
-                  e('span', { className: 'landing-uw-cap-lbl' }, activeUwPool.metric1Label),
-                  e('span', { className: 'landing-uw-cap-val' }, activeUwPool.metric1Val)
-                ),
-                e('div', { className: 'landing-uw-capacity-item' },
-                  e('span', { className: 'landing-uw-cap-lbl' }, activeUwPool.metric2Label),
-                  e('span', { className: 'landing-uw-cap-val' }, activeUwPool.metric2Val)
-                )
-              ),
-              e('div', { className: 'landing-uw-terminal-footer' },
-                e('a', {
-                  href: '/?pool=' + activeUwPool.poolId,
-                  className: 'landing-uw-terminal-jump'
-                }, 'Open in Decision Terminal →')
-              )
-            )
-          )
-        ),
-
-        // SLIDE 2: HERO SPOTLIGHT (Never Pay for Software Again - Virtual Card)
-        e('div', { id: 'spotlight-section', className: 'landing-section-wrapper landing-spotlight-wrapper' },
-          e('section', { className: 'landing-hero-spotlight', 'data-testid': 'landing-intent-card', 'aria-labelledby': 'landing-spotlight-title' },
-            e('div', { className: 'landing-spotlight-copy' },
-              e('div', { className: 'landing-spotlight-eyebrow' },
-                e('span', null, copy.spotlightEyebrow || 'Bringing DeFi to daily life')
-              ),
-              e('h1', { id: 'landing-spotlight-title', className: 'landing-spotlight-title' },
-                copy.spotlightTitleBefore || 'Never pay for',
-                e('br'),
-                e('span', { className: 'landing-title-accent' }, copy.spotlightTitleAccent || 'subscriptions again.')
-              ),
-              e('p', { className: 'landing-spotlight-subhead' },
-                copy.spotlightSubhead || 'Deposit once into audited and curated vaults. Realized yield perpetually settles your monthly software, AI, and cloud subscriptions while your principal stays 100% yours.'
-              ),
-              e('a', {
-                className: 'landing-press-badge',
-                href: 'https://leviathannews.xyz/258992/turn-4k-in-stablecoins-into-a-free-chatgpt-pro-subscription-earn-yield-cover-the-fee-and-keep-every-dollar-with-no-tokens-locked-50-spots-available',
-                target: '_blank',
-                rel: 'noopener noreferrer'
-              },
-                e('span', { className: 'press-badge-source' }, 'Leviathan News ↗'),
-                e('span', { className: 'press-badge-title' }, '“Turn $4k in Stablecoins into a Free ChatGPT Pro Subscription”')
-              ),
-              e('div', {
-                className: 'landing-subs-grid' + (showAllSubs ? ' is-expanded' : ''),
-                'aria-label': 'Select subscription preset'
-              },
-                (showAllSubs ? INTENT_SUBS : INTENT_SUBS.slice(0, 7)).map(function(s) {
-                  var isSelected = activeSub.id === s.id;
-                  return e('button', {
-                    key: s.id,
-                    type: 'button',
-                    'data-testid': 'landing-chip-' + s.id,
-                    className: 'landing-sub-chip' + (isSelected ? ' is-selected' : ''),
-                    onClick: function() { setActiveSub(s); }
-                  },
-                    e(ServiceBrandIcon, { slug: s.slug, icon: s.icon, emoji: s.emoji, width: 15, height: 15 }),
-                    e('span', { className: 'landing-sub-chip-name' }, s.name),
-                    e('span', { className: 'landing-sub-chip-price' }, '$' + s.baseMonthly.toFixed(0) + '/mo')
-                  );
-                }),
-                !showAllSubs
-                  ? e('button', {
-                      type: 'button',
-                      'data-testid': 'landing-chip-more',
-                      className: 'landing-sub-chip landing-sub-chip-more',
-                      onClick: function() { setShowAllSubs(true); }
-                    },
-                      e('span', null, '+ MORE')
+            activeUwPool
+              ? e('aside', { className: 'landing-uw-terminal-card', 'aria-label': copy.uwCardTag },
+                  e('div', { className: 'landing-uw-card-header' },
+                    e('span', { className: 'landing-uw-header-tag' }, copy.uwCardTag),
+                    e('span', { className: 'landing-uw-score-pill' },
+                      e('span', null, copy.uwScoreLabel + ' '),
+                      e('strong', null, activeUwPool.defiScore.score.toFixed(1) + ' · ' + activeUwPool.defiScore.rating)
                     )
-                  : e('button', {
-                      type: 'button',
-                      'data-testid': 'landing-chip-less',
-                      className: 'landing-sub-chip landing-sub-chip-more',
-                      onClick: function() { setShowAllSubs(false); }
-                    },
-                      e('span', null, 'LESS ▴')
-                    )
-              )
-            ),
-            e('aside', { className: 'landing-card-showcase' },
-              e('div', {
-                className: 'virtual-visa-card' + (showMetrics ? ' is-expanded' : ''),
-                'data-testid': 'landing-virtual-card',
-                role: 'button',
-                tabIndex: 0,
-                'aria-expanded': showMetrics ? 'true' : 'false',
-                'aria-label': 'Tap card to toggle financial ledger breakdown',
-                onClick: function() { setShowMetrics(!showMetrics); },
-                onKeyDown: function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowMetrics(!showMetrics); } },
-                onPointerMove: function(ev) {
-                  if (typeof window !== 'undefined' && window.matchMedia && (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !window.matchMedia('(pointer: fine)').matches)) return;
-                  var rect = ev.currentTarget.getBoundingClientRect();
-                  if (!rect.width || !rect.height) return;
-                  var x = Math.max(0, Math.min(1, (ev.clientX - rect.left) / rect.width));
-                  var y = Math.max(0, Math.min(1, (ev.clientY - rect.top) / rect.height));
-                  var rotateY = (x - 0.5) * 14;
-                  var rotateX = (0.5 - y) * 14;
-                  ev.currentTarget.style.transition = 'none';
-                  ev.currentTarget.style.transform = 'perspective(1200px) rotateX(' + rotateX.toFixed(2) + 'deg) rotateY(' + rotateY.toFixed(2) + 'deg)';
-                  var sheenX = 50 + (x - 0.5) * 30;
-                  ev.currentTarget.style.setProperty('--sheen-x', sheenX.toFixed(1) + '% 0');
-                },
-                onPointerLeave: function(ev) {
-                  ev.currentTarget.style.transition = 'transform 0.2s ease-out';
-                  ev.currentTarget.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
-                  ev.currentTarget.style.setProperty('--sheen-x', '50% 0');
-                }
-              },
-                e(CardBotanicalWatermark),
-                // Top row
-                e('div', { className: 'visa-card-top-row' },
-                  e('div', { className: 'visa-card-chip-group' },
-                    e(EmvChip),
-                    e(NfcIcon)
                   ),
-                  e('div', { className: 'visa-card-brand-group' },
-                    e(VisaLogo),
-                    e('div', { className: 'visa-card-tier-row' },
-                      e('span', { className: 'visa-card-type-badge' }, 'DEBIT'),
-                      e('span', { className: 'visa-card-metal-badge' }, 'METAL')
-                    )
-                  )
-                ),
-                // Center
-                e('div', { className: 'visa-card-center' },
-                  e('div', { className: 'visa-card-pan card-pan-number' }, '•••• •••• •••• 8453'),
-                  e('div', { className: 'visa-card-funded-label card-holder-name' }, activeSub.name.toUpperCase())
-                ),
-                // Bottom row
-                e('div', { className: 'visa-card-bottom-row' },
-                  e('div', { className: 'visa-card-meta-left' },
-                    e('span', { className: 'visa-card-expiry' }, 'VALID 08/31'),
-                    e('span', { className: 'visa-card-network-info' }, 'YIELD-FUNDED · BASE')
+                  e('div', { className: 'landing-uw-pool-tabs', role: 'group', 'aria-label': copy.uwPoolTabsLabel },
+                    uwPools.map(function (p) {
+                      var isSel = activeUwPool.pool === p.pool;
+                      return e('button', {
+                        key: p.pool,
+                        type: 'button',
+                        className: 'landing-uw-pool-tab' + (isSel ? ' is-active' : ''),
+                        'aria-pressed': isSel ? 'true' : 'false',
+                        onClick: function () { setActiveUwId(p.pool); }
+                      }, p.symbol);
+                    })
                   ),
-                  e('div', { className: 'visa-card-meta-right' },
-                    e(CardHologram),
-                    e('div', { className: 'visa-card-cap-badge card-active-pill' },
-                      e(CardLockIcon),
-                      e('span', null, 'ACTIVE ($' + activeSub.monthly.toFixed(2) + '/MO)')
+                  e('div', { className: 'landing-uw-yield-box' },
+                    e('div', { className: 'landing-uw-pool-title' }, activeUwPool.project + ' · ' + activeUwPool.chain),
+                    e('div', { className: 'landing-uw-yield-val' }, formatPct(activeUwPool.apy) + ' APY'),
+                    activeUwPool.forecast
+                      ? e('div', { className: 'landing-uw-forecast-text' },
+                          e('span', null, copy.uwForecast(formatPct(activeUwPool.forecast.p50), formatPct(activeUwPool.forecast.p10), formatPct(activeUwPool.forecast.p90))),
+                          activeUwPool.forecast.crashRisk
+                            ? e('span', { className: 'landing-uw-downside-badge' }, '· ' + copy.uwCrashRisk(activeUwPool.forecast.crashRisk))
+                            : null
+                        )
+                      : null,
+                    e('div', {
+                      className: 'landing-uw-source',
+                      'data-testid': 'landing-uw-source',
+                      'data-source': activeUwPool.source
+                    }, activeUwPool.source === 'live' ? copy.uwSourceLive : copy.uwSourceSnapshot(formatScoreDate(uwScoredAt)))
+                  ),
+                  e('div', { className: 'landing-uw-pillars-grid' },
+                    SCORE_PILLARS.map(function (pillar) {
+                      var pts = activeUwPool.defiScore.breakdown && activeUwPool.defiScore.breakdown[pillar.key];
+                      return e('div', { key: pillar.key, className: 'landing-uw-pillar' },
+                        e('div', { className: 'landing-uw-pillar-name' }, copy[pillar.labelKey]),
+                        e('div', { className: 'landing-uw-pillar-val' }, (typeof pts === 'number' ? pts.toFixed(1) : '—') + ' / ' + pillar.max)
+                      );
+                    })
+                  ),
+                  e('div', { className: 'landing-uw-capacity-row' },
+                    e('div', { className: 'landing-uw-capacity-item' },
+                      e('span', { className: 'landing-uw-cap-lbl' }, copy.uwTvlLabel),
+                      e('span', { className: 'landing-uw-cap-val' }, formatUsdCompact(activeUwPool.tvlUsd))
+                    ),
+                    e('div', { className: 'landing-uw-capacity-item' },
+                      e('span', { className: 'landing-uw-cap-lbl' }, copy.uwScoredLabel),
+                      e('span', { className: 'landing-uw-cap-val' }, formatScoreDate(uwScoredAt))
                     )
+                  ),
+                  e('div', { className: 'landing-uw-terminal-footer' },
+                    e('a', { href: '/?pool=' + activeUwPool.pool, className: 'landing-uw-terminal-jump' }, copy.uwOpenTerminal + ' →')
                   )
-                ),
-              ),
-              e('button', {
-                type: 'button',
-                className: 'card-tap-affordance',
-                'aria-expanded': showMetrics ? 'true' : 'false',
-                onClick: function() { setShowMetrics(!showMetrics); }
-              },
-                showMetrics
-                  ? (language === 'ko' ? '상세 내역 닫기 ▴' : 'Hide Financial Breakdown ▴')
-                  : (language === 'ko' ? '카드 터치하여 상세 내역 보기 ▾' : 'Tap Card to View Breakdown ▾')
-              ),
-              // Integrated Financial Breakdown Metrics Table (Expandable on Mobile)
-              e('div', {
-                className: 'landing-card-metrics-table' + (showMetrics ? ' is-open' : ''),
-                'data-testid': 'landing-metrics-table'
-              },
-                e('div', { className: 'landing-card-metric-row' },
-                  e('span', { className: 'metric-row-label' }, copy.metricCovered || 'Covered:'),
-                  e('span', { className: 'metric-row-value highlight' }, '$' + activeSub.monthly.toFixed(2) + '/mo')
-                ),
-                e('div', { className: 'landing-card-metric-row' },
-                  e('span', { className: 'metric-row-label' }, copy.metricSettlement || 'Settlement:'),
-                  e('span', { className: 'metric-row-value' }, copy.metricSettlementVal || 'Curated Base Vaults')
-                ),
-                e('div', { className: 'landing-card-metric-row' },
-                  e('span', { className: 'metric-row-label' }, copy.metricSecurity || 'Security:'),
-                  e('span', { className: 'metric-row-value' }, copy.metricSecurityVal || '100% Non-Custodial (ΔP ≡ 0)')
                 )
-              ),
-              // Sticky Mobile Primary CTA Dock (Always in viewport on mobile)
-              e('div', { className: 'landing-mobile-cta-dock' },
-                e('a', {
-                  className: 'landing-garden-link',
-                  href: '/for/' + activeSub.slug,
-                  'data-testid': 'landing-intent-cta'
-                }, typeof copy.reserveCta === 'function' ? copy.reserveCta(activeSub.name) : 'Reserve ' + activeSub.name + ' Card', e(ArrowIcon))
-              ),
-              e('p', { className: 'landing-card-hint' }, copy.reserveHint || 'No wallet connection or KYC required to reserve • Free to join')
-            )
-          )
+              : uwPools === null
+                ? e('div', { className: 'landing-uw-terminal-card landing-uw-skeleton', 'aria-hidden': 'true' })
+                : null
+          ),
+          e('button', {
+            type: 'button',
+            className: 'landing-next-section',
+            'data-testid': 'landing-next-section',
+            onClick: goToRates
+          }, e('span', null, copy.nextSection), e('span', { 'aria-hidden': 'true' }, '↓'))
         )
         /* SECTION 2 (Commented out):
         e('div', { id: 'search-section', className: 'landing-section-wrapper landing-search-wrapper' },
@@ -1007,32 +567,6 @@
           )
         )
         */
-      ),
-      // Page indicator (fintech-seo v2) — 3 square dots, iPhone-style, fixed
-      // above the footer so they persist across the panel swap. Filled =
-      // active panel; clicking either swaps to it; state syncs from body scroll.
-      e('nav', { className: 'landing-page-dots', 'aria-label': copy.pageIndicator || 'Landing pages' },
-        e('button', {
-          type: 'button',
-          className: 'landing-page-dot' + (activePanel === 0 ? ' is-active' : ''),
-          onClick: function () { goToPanel(0); },
-          'aria-label': copy.pageIndicatorUnderwriting || 'Underwritten Yields',
-          'aria-current': activePanel === 0 ? 'true' : undefined
-        }),
-        e('button', {
-          type: 'button',
-          className: 'landing-page-dot' + (activePanel === 1 ? ' is-active' : ''),
-          onClick: function () { goToPanel(1); },
-          'aria-label': copy.pageIndicatorRates || 'Live yield rates & savings',
-          'aria-current': activePanel === 1 ? 'true' : undefined
-        }),
-        e('button', {
-          type: 'button',
-          className: 'landing-page-dot' + (activePanel === 2 ? ' is-active' : ''),
-          onClick: function () { goToPanel(2); },
-          'aria-label': copy.pageIndicatorCard || 'Virtual Card',
-          'aria-current': activePanel === 2 ? 'true' : undefined
-        })
       ),
       e('footer', { className: 'app-footer' },
         e('p', null,

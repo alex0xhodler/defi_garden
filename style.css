@@ -848,6 +848,13 @@ select.form-control {
 
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Quiet design system — 225 */
+/* Native chrome (scrollbars, form controls) follows the active theme;
+   without this, dark pages get a light scrollbar track. */
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { color-scheme: dark; }
+}
 :root {
   /* ── 247 world "The Certificate" — light (default) ────────────────────
      Values promoted from pool-detail-styles.css's .pool-detail-view scope
@@ -4253,255 +4260,127 @@ html[data-app-mode="landing"] .seo-hub-links {
 .seo-content th { color: var(--ui-text-secondary); font-weight: 600; font-size: 0.85rem; }
 .seo-content td { color: var(--ui-text); font-variant-numeric: tabular-nums; }
 
-/* ── Landing "screen 2": horizontal-swap panel ───────────────────────── */
-/* The landing's header/footer render INSIDE #landing-root (React). To keep
-   them fixed while only the content switches, #landing-root becomes a
-   horizontal snap track: the hero panel (.landing-app) and this panel sit
-   side-by-side, each 100% wide, snapping on the x-axis. The React header
-   (.landing-header) and footer (.app-footer) are pulled out of the track
-   and fixed to the viewport so they persist across the swap. Crawlers get
-   every word in the served HTML; users get a clean one-gesture swap. */
+/* ── Landing: one vertical page ──────────────────────────────────────── */
+/* The landing is a single document at every width: the underwriting hero,
+   then #seo-content (moved by landing.js into .landing-main, after the hero),
+   then the in-flow footer. The React header stays pinned to the top; the
+   non-landing mounts stay out of flow. Crawlers get every word in the served
+   HTML; users get native vertical scrolling. */
 
-/* plan.html keeps the quiet document column — no track, no fixed chrome. */
-html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
-
-/* The horizontal snap track is the BODY: its direct children (#landing-root
-   = hero panel, #seo-content = rates panel) sit side-by-side, each 100vw,
-   snapping on the x-axis. React mounts inside #landing-root and never
-   touches body's child list, so the track survives hydration. */
-/* The horizontal snap track is DESKTOP-ONLY (min-width: 769px). On mobile
-   (<= 768px) the two panels stack as a normal vertical document the user
-   scrolls through — no horizontal swap, no x-snap, and the footer sits in
-   normal flow at the end instead of floating fixed over the content. */
-/* ═══ 247 WORLD — LANDING MULTI-SLIDE SNAP TRACK ═════════════════════════
-   3 full-viewport panels: Slide 0 (Underwritten Yields), Slide 1 (Virtual Card),
-   Slide 2 (Live Rates & Discovery). Hardware-accelerated sliding on .landing-main. */
+/* plan.html keeps the quiet document column above. */
+html[data-app-mode="landing"] body > #root,
+html[data-app-mode="landing"] body > #planner-root,
+html[data-app-mode="landing"] body > .seo-hub-links {
+  position: absolute;
+  width: 0; height: 0;
+  overflow: hidden;
+}
+html[data-app-mode="landing"],
+html[data-app-mode="landing"] body {
+  overflow-x: hidden;
+}
+html[data-app-mode="landing"] .landing-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 60;
+}
+/* The menu opens under the pinned header at any scroll position. */
+html[data-app-mode="landing"] .landing-mobile-nav {
+  position: fixed;
+  top: 64px;
+}
+html[data-app-mode="landing"] .landing-app {
+  padding-top: 72px;
+  box-sizing: border-box;
+}
+html[data-app-mode="landing"] .landing-main {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+html[data-app-mode="landing"] .landing-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px 16px 40px;
+}
+html[data-app-mode="landing"] .app-footer {
+  position: static !important;
+  display: block !important;
+  z-index: 1;
+  padding: 24px 16px;
+  /* Beats the mobile .app-footer 130px clearance, which exists for the
+     analytics app's fixed bottom search bar — the landing has none. */
+  padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)) !important;
+  border-top: 1px solid var(--ui-border);
+  background: var(--ui-bg);
+  text-align: center;
+}
+html[data-app-mode="landing"] .seo-content {
+  max-width: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid var(--ui-border);
+  background: var(--ui-surface-muted);
+  padding: 56px 20px;
+  box-sizing: border-box;
+}
 @media (min-width: 769px) {
-  html[data-app-mode="landing"],
-  html[data-app-mode="landing"] body {
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+  html[data-app-mode="landing"] .landing-underwriting-wrapper {
+    padding: 32px 48px 48px;
   }
-
-  html[data-app-mode="landing"] #landing-root {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+  html[data-app-mode="landing"] .seo-content {
+    padding: 72px 32px;
   }
-
+}
+/* Desktop: two full-screen sections — hero, then rates — with mandatory
+   vertical snapping (wheel/PageDown/Space or the hero's next-section button
+   move one section). The footer is a third, end-aligned snap point so it
+   stays reachable. The app's top padding equals the pinned header, so both
+   sections fill exactly the space under it. Short or narrow viewports keep a
+   plain scroll: content taller than the screen must never be trapped. */
+@media (min-width: 769px) and (min-height: 640px) {
+  html[data-app-mode="landing"] {
+    --landing-header-h: 56px;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: var(--landing-header-h);
+  }
   html[data-app-mode="landing"] .landing-app {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
+    padding-top: var(--landing-header-h);
   }
-
-  html[data-app-mode="landing"] .landing-main {
-    flex: 1;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: flex-start !important;
-    align-items: stretch !important;
-    padding: 0 !important;
-    width: 300vw;
-    min-width: 300vw;
-    height: 100vh;
-    will-change: transform;
-    overflow-x: hidden;
-  }
-
-  html[data-app-mode="landing"] .landing-section-wrapper {
-    flex: 0 0 100vw;
-    width: 100vw;
-    min-width: 100vw;
-    height: 100vh;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-width: none;
-    display: flex;
-    flex-direction: column;
+  html[data-app-mode="landing"] .landing-underwriting-wrapper,
+  html[data-app-mode="landing"] .seo-content {
+    min-height: calc(100svh - var(--landing-header-h));
     justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 72px 48px 96px 48px;
+    scroll-snap-align: start;
   }
-  html[data-app-mode="landing"] .landing-section-wrapper::-webkit-scrollbar { display: none; }
-
-  /* Non-panel body children stay out of flow */
-  html[data-app-mode="landing"] body > #root,
-  html[data-app-mode="landing"] body > #planner-root,
-  html[data-app-mode="landing"] body > .seo-hub-links {
-    position: absolute;
-    width: 0; height: 0;
-    overflow: hidden;
-    flex: 0 0 auto;
-  }
-
-  /* Fixed chrome */
-  html[data-app-mode="landing"] .landing-header {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 60;
-  }
-  html[data-app-mode="landing"] .landing-page-dots {
-    position: fixed;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 60;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  html[data-app-mode="landing"] .landing-underwriting-wrapper {
+    position: relative;
   }
   html[data-app-mode="landing"] .app-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 50;
-    border-top: 1px solid var(--ui-border);
-    background: var(--ui-bg);
-    padding: 8px 24px;
-    font-size: 11px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    height: 38px;
+    scroll-snap-align: end;
   }
-  html[data-app-mode="landing"] .app-footer p { margin: 0; line-height: 1.4; }
+}
+@media (max-width: 768px), (max-height: 639px) {
+  html[data-app-mode="landing"] .landing-next-section { display: none; }
+}
 
-  html[data-app-mode="landing"] .seo-content {
-    flex: 0 0 100vw;
-    width: 100vw;
-    min-width: 100vw;
-    height: 100vh;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-width: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 64px 32px 64px 32px;
-    max-width: none;
-    margin: 0;
-    background:
-      radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
-      radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
-      var(--ui-bg);
-  }
-  html[data-app-mode="landing"] .seo-content::-webkit-scrollbar { display: none; }
-} /* end @media (min-width: 769px) */
-
-/* Inner wrapper: auto vertical margins center the column when it fits and
-   collapse to 0 when it overflows, so the panel's own y-scroll reaches both
-   ends. Applies in both layouts (desktop panel scroller + mobile in-flow). */
+/* Inner wrapper: centered column, same in every layout. */
 .seo-content-inner {
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
+  max-width: 860px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Mobile landing (<= 768px): one normal vertical document. The hero panel
-   and the SEO/rates panel stack top-to-bottom; the header stays fixed at
-   the top, but the footer returns to normal flow at the very end so it
-   never floats over the content. Standard vertical scroll moves between the
-   hero and the rates panel. */
-@media (max-width: 768px) {
-  html[data-app-mode="landing"],
-  html[data-app-mode="landing"] body {
-    overflow-x: hidden;   /* kill the horizontal track entirely */
-    height: auto;
-  }
-  html[data-app-mode="landing"] body {
-    display: block;       /* not a flex track — normal vertical document flow */
-    overflow-y: auto;
-  }
-  html[data-app-mode="landing"] body > #root,
-  html[data-app-mode="landing"] body > #planner-root,
-  html[data-app-mode="landing"] body > .seo-hub-links {
-    position: absolute;   /* keep the non-panel mounts out of flow */
-    width: 0; height: 0;
-    overflow: hidden;
-  }
-  /* Header stays pinned; footer goes back to normal in-flow. */
-  html[data-app-mode="landing"] .landing-header {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 60;
-  }
-  html[data-app-mode="landing"] .app-footer {
-    position: static !important;
-    margin-top: 24px;
-    z-index: 1;
-    display: block !important;
-    padding: 24px 16px;
-    border-top: 1px solid var(--ui-border);
-    background: var(--ui-bg);
-    text-align: center;
-  }
-  /* Hero panel clears the fixed header; footer is in-flow so no bottom pad. */
-  html[data-app-mode="landing"] body > #landing-root {
-    width: 100%;
-    min-width: 0;
-    flex: none;
-    height: auto;
-  }
-  html[data-app-mode="landing"] body > #landing-root > .landing-app {
-    width: 100%;
-    min-width: 0;
-    height: auto;
-    padding-top: 72px;
-    box-sizing: border-box;
-  }
-  html[data-app-mode="landing"] body > #landing-root .landing-main {
-    display: block;
-    width: 100%;
-    min-width: 0;
-    height: auto;
-  }
-  html[data-app-mode="landing"] .landing-section-wrapper {
-    flex: none;
-    width: 100%;
-    min-width: 0;
-    height: auto;
-    min-height: 0;
-    overflow: visible;
-    padding: 24px 0;
-  }
-  /* Rates panel: stacked section. On mobile JS moves it inside .landing-app
-     between .landing-main and the footer, so it sits after the hero. */
-  html[data-app-mode="landing"] .seo-content {
-    max-width: none;
-    margin: 0;
-    min-height: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background:
-      radial-gradient(circle at 28% 30%, rgba(124, 201, 160, 0.07) 0%, transparent 55%),
-      radial-gradient(circle at 75% 70%, rgba(124, 201, 160, 0.04) 0%, transparent 50%),
-      var(--ui-bg);
-    padding: 56px 20px;
-    box-sizing: border-box;
-  }
-  /* The page-indicator dots are a horizontal-swap affordance; meaningless on
-     a vertical scroll, so hide them. */
-  html[data-app-mode="landing"] .landing-page-dots { display: none; }
-}
-
-/* Eyebrow chip — mirrors .landing-spotlight-eyebrow. */
+/* Eyebrow chip (rates section). */
 .seo-eyebrow {
   display: inline-flex;
   align-items: center;
@@ -4521,7 +4400,7 @@ html:not([data-app-mode="landing"]) .seo-content { /* base column above */ }
 
 /* Display headline — Besley, clamp-sized like the hero title. */
 html[data-app-mode="landing"] .seo-title {
-  font-size: clamp(34px, 4.2vw, 54px);
+  font-size: clamp(28px, 3vw, 40px);
   margin: 0 0 16px;
   max-width: 720px;
 }

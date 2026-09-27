@@ -180,28 +180,13 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
       });
     }
 
-    await asyncTest('interactive landing page intent chips switch presets and update CTA', async () => {
+    await asyncTest('landing nav links into the intent portal (/for/claude)', async () => {
       const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
       await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load' });
-      await page.waitForSelector('[data-testid="landing-intent-card"]', { timeout: 5000 });
-
-      // Click "Cursor Pro" chip
-      const cursorBtn = page.locator('[data-testid="landing-intent-card"] button', { hasText: 'Cursor Pro' });
-      await cursorBtn.click();
-
-      // Check updated deposit and CTA
-      const cta = page.locator('[data-testid="landing-intent-cta"]');
-      const href = await cta.getAttribute('href');
-      assert.strictEqual(href, '/for/cursor', 'Expected /for/cursor link on CTA');
-      const ctaText = await cta.innerText();
-      assert.ok(ctaText.includes('Cursor Pro'), 'Expected Cursor Pro in CTA text');
-
-      // Click "Spotify" chip
-      const spotifyBtn = page.locator('[data-testid="landing-intent-card"] button', { hasText: 'Spotify' });
-      await spotifyBtn.click();
-      const spotifyHref = await cta.getAttribute('href');
-      assert.strictEqual(spotifyHref, '/for/spotify', 'Expected /for/spotify link on CTA');
-
+      const link = page.locator('.landing-nav a[data-testid="landing-nav-card"]');
+      await link.waitFor({ timeout: 5000 });
+      assert.strictEqual(await link.getAttribute('href'), '/for/claude');
+      await Promise.all([page.waitForURL(/\/for\/claude/, { timeout: 5000 }), link.click()]);
       await page.close();
     });
 
