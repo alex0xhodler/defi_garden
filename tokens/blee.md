@@ -1,6 +1,6 @@
 # BLEE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
 The highest honest BLEE yield right now is 2.81% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank BLEE pools. This view covers 
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

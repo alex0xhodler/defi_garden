@@ -1,12 +1,12 @@
 # AURORA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest AURORA yield right now is 123.10% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AURORA yield right now is 51.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=89bd9552-1265-4d43-9746-dec687837d81&src=seo_token) | Ethereum | 123.10% | $501.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=89bd9552-1265-4d43-9746-dec687837d81&src=seo_token) | Ethereum | 51.09% | $509.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AURORA yield today?
 
-123.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+51.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AURORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $501.2K in total.
+1 live pool clear this page's $100K TVL floor, $509.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank AURORA pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

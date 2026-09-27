@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 42.91%
+**30d Mean APY:** 42.41%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on gmx-solana](https://gmtrade.xyz/?ref=defi.garden)
 
-Last updated September 26, 2026
+Last updated September 27, 2026

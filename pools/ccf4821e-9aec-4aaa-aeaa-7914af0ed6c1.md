@@ -1,8 +1,8 @@
 # USDC-MUSD — aerodrome-slipstream on Base
 
-**Total APY:** 3.59% (0.25% Base · + 3.34% Rewards)
+**Total APY:** 3.59% (0.26% Base · + 3.33% Rewards)
 
-**TVL:** $1.2M
+**TVL:** $1.19M
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated September 26, 2026
+Last updated September 27, 2026

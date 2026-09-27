@@ -1,12 +1,12 @@
 # LESTER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest LESTER yield right now is 10.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LESTER yield right now is 3.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f14532e9-3188-46aa-a0a0-94608474cf81&src=seo_token) | Solana | 10.63% | $155.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=f14532e9-3188-46aa-a0a0-94608474cf81&src=seo_token) | Solana | 3.38% | $155.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LESTER yield today?
 
-10.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LESTER pools clear the TVL floor?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank LESTER pools. This view cover
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

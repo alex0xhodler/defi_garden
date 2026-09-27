@@ -1,12 +1,12 @@
 # AEVO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest AEVO yield right now is 16.17% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEVO yield right now is 19.23% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c5cb8b8-aac6-4deb-a67b-64b4e226236c&src=seo_token) | Ethereum | 16.17% | $652.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c5cb8b8-aac6-4deb-a67b-64b4e226236c&src=seo_token) | Ethereum | 19.23% | $662.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEVO yield today?
 
-16.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+19.23% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AEVO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $652.5K in total.
+1 live pool clear this page's $100K TVL floor, $662.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank AEVO pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

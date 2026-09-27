@@ -1,12 +1,12 @@
 # GRIFFAIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest GRIFFAIN yield right now is 11.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRIFFAIN yield right now is 25.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b&src=seo_token) | Solana | 11.42% | $2.11M |
+| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b&src=seo_token) | Solana | 25.98% | $2.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRIFFAIN yield today?
 
-11.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+25.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GRIFFAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.11M in total.
+1 live pool clear this page's $100K TVL floor, $2.19M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank GRIFFAIN pools. This view cov
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

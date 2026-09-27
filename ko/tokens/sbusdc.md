@@ -1,12 +1,12 @@
 # SBUSDC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 26, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 27, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SBUSDC의 가장 높은 정직한 수익률은 Monad의 morpho-blue에서 7.78%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SBUSDC의 가장 높은 정직한 수익률은 Monad의 morpho-blue에서 8.17%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 7.78% | $145.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 8.17% | $145.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SBUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 7.78%예요.
+DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 8.17%예요.
 
 ### SBUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $145.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $145.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 7.78%예요
 
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
+- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 7.78%예요
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: September 26, 2026
+## 마지막 업데이트: September 27, 2026

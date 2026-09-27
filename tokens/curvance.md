@@ -1,12 +1,12 @@
 # CURVANCE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest CURVANCE yield right now is 3.82% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CURVANCE yield right now is 3.76% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03&src=seo_token) | Monad | 3.82% | $103.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03&src=seo_token) | Monad | 3.76% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CURVANCE yield today?
 
-3.82% APY on balancer-v3 (Monad), based on live DefiLlama data.
+3.76% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many CURVANCE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.3K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CURVANCE pools. This view cov
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CURVANCE pools. This view cov
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

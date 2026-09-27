@@ -1,12 +1,12 @@
 # WOW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
-The highest honest WOW yield right now is 192.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOW yield right now is 214.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=15bb7a76-1b3c-5b72-867a-1d77da736ef1&src=seo_token) | Solana | 192.60% | $127.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=15bb7a76-1b3c-5b72-867a-1d77da736ef1&src=seo_token) | Solana | 214.48% | $168.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOW yield today?
 
-192.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+214.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.4K in total.
+1 live pool clear this page's $100K TVL floor, $168.7K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank WOW pools. This view covers A
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026

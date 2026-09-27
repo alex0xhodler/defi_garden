@@ -1,33 +1,33 @@
 # NOCK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 26, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
 
 The highest honest NOCK yield right now is 600.78% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token) | Base | 600.78% | $406.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7&src=seo_token) | Base | 143.61% | $295.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 65.87% | $177.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05&src=seo_token) | Base | 156.99% | $131.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7&src=seo_token) | Base | 63.46% | $280.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 31.06% | $171.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05&src=seo_token) | Base | 78.77% | $124.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 600.78% APY, $406.4K TVL, https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token; uniswap-v4 (Base), 65.87% APY, $177.3K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 600.78% APY, $406.4K TVL, https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token; uniswap-v4 (Base), 31.06% APY, $171.5K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token) | Base | 600.78% | $406.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 65.87% | $177.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 31.06% | $171.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOCK shows up in 4 pools here, with rates from 65.87% to 600.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOCK shows up in 4 pools here, with rates from 31.06% to 600.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 286.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 278.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 600.78% | 34.65% | Base rate |
-| uniswap-v4 | 143.61% | 397.86% | Base rate |
-| uniswap-v4 | 65.87% | 174.55% | Base rate |
-| uniswap-v4 | 156.99% | 434.17% | Base rate |
+| uniswap-v4 | 600.78% | 36.38% | Base rate |
+| uniswap-v4 | 63.46% | 383.70% | Base rate |
+| uniswap-v4 | 31.06% | 174.10% | Base rate |
+| uniswap-v4 | 78.77% | 418.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOCK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.01M in total.
+4 live pools clear this page's $100K TVL floor, $982.7K in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOCK pools have the most stable APY history?
 
-Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 600.78% APY, $406.4K TVL, https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token; uniswap-v4 (Base), 65.87% APY, $177.3K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 600.78% APY, $406.4K TVL, https://www.defi.garden/?pool=9e646b57-c92d-5dcc-bdf0-215043422579&src=seo_token; uniswap-v4 (Base), 31.06% APY, $171.5K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (B
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 26, 2026
+## Last updated September 27, 2026
