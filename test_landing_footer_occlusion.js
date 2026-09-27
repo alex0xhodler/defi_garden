@@ -173,11 +173,12 @@ function rectsIntersect(a, b) {
          a.y < b.y + b.height && a.y + a.height > b.y;
 }
 
-// Locates the bottom-most content victim before the footer: the CTA hint / CTA button in hero spotlight.
+// Locates the bottom-most content victim before the footer: the last link of the
+// static SEO section, which landing.js moves to the end of .landing-main.
 async function getVictimBoxes(page) {
   return page.evaluate(() => {
-    const victim = document.querySelector('.landing-card-hint') || document.querySelector('[data-testid="landing-intent-cta"]');
-    const bottomSection = document.querySelector('.landing-hero-spotlight') || document.querySelector('.landing-main');
+    const victim = document.querySelector('.landing-main #seo-guide-link');
+    const bottomSection = document.querySelector('.landing-main');
     let lastDescendant = null;
     if (bottomSection) {
       const kids = bottomSection.querySelectorAll('*');
@@ -197,10 +198,10 @@ async function getVictimBoxes(page) {
   });
 }
 
-// Item-(2) victim: the hero-spotlight subhead / hero-body paragraph.
+// Item-(2) victim: the hero lede paragraph under the headline.
 async function getHeroBodyBox(page) {
   return page.evaluate(() => {
-    const el = document.querySelector('.landing-spotlight-subhead') || document.querySelector('.landing-hero-body');
+    const el = document.querySelector('.ip-lede');
     if (!el) return { found: false, rect: null };
     const r = el.getBoundingClientRect();
     return { found: true, rect: { x: r.x, y: r.y, width: r.width, height: r.height } };
@@ -288,7 +289,7 @@ async function assertNoOcclusion(page, label) {
   if (!footerBox) throw new Error(`${label}: .app-footer has no bounding box`);
 
   const victims = await getVictimBoxes(page);
-  if (!victims.victimFound) throw new Error(`${label}: "Live DefiLlama data" trust-rail victim not found`);
+  if (!victims.victimFound) throw new Error(`${label}: bottom-most content victim (#seo-guide-link) not found`);
   if (!victims.victimRect) throw new Error(`${label}: victim has no bounding box`);
   if (rectsIntersect(victims.victimRect, footerBox)) {
     throw new Error(`${label}: trust-rail victim rect intersects .app-footer — victim=${JSON.stringify(victims.victimRect)} footer=${JSON.stringify(footerBox)}`);
@@ -404,7 +405,7 @@ async function main() {
       if (!footerBox) throw new Error('positive control: missing footer bounding box');
 
       const targetRect = await controlPage.evaluate(() => {
-        const el = document.querySelector('.landing-spotlight-subhead') || document.querySelector('.landing-spotlight-title') || document.querySelector('.landing-hero-body');
+        const el = document.querySelector('.ip-lede') || document.querySelector('.ip-title');
         if (!el) return null;
         const r = el.getBoundingClientRect();
         return { x: r.x, y: r.y, width: r.width, height: r.height };

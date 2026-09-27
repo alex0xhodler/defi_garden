@@ -11,6 +11,7 @@ on:
       - 'generate-sitemap.js'
       - 'generate-pools-snapshot.js'
       - 'generate-landing-pools.js'
+      - 'generate-track-record.js'
       - 'generate-protocol-urls.js'
       - 'compute-kpis.js'
       - 'generate-token-pages.js'
@@ -99,9 +100,13 @@ jobs:
         $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 0
         echo "✅ TimesFM forecasts & DeFi scores completed"
 
-    - name: Generate landing hero data (curated pools + DeFi Score)
+    - name: Generate landing leaderboard (top scored pools)
       run: |
         node generate-landing-pools.js
+
+    - name: Update forecast track record (log today, score matured forecasts)
+      run: |
+        node generate-track-record.js
 
     - name: Generate token landing pages
       run: |

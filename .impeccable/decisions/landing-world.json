@@ -1,0 +1,106 @@
+{
+  "title": "Choose the visual world for defi.garden",
+  "question": "The roll assigned The Yield Catalogue. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Yield Catalogue",
+      "kicker": "THE ROLL",
+      "lineage": "Seed-house catalogues and trial-garden reports",
+      "thesis": "A numbered catalogue of pools, each graded, with expected yield stated and trial results published.",
+      "palette": [
+        "#F5F6F1",
+        "#10231B",
+        "#F2C230",
+        "#2B3FBF"
+      ],
+      "materials": [
+        "two-colour offset on uncoated stock",
+        "numbered entries with standard spec tables",
+        "trial-ground results pages"
+      ],
+      "viewport": "A cover band with the issue date and a condensed headline; the numbered leaderboard starts on the first screen with live top rows.",
+      "risk": "A literal garden can tip into costume; the catalogue grammar has to do real work, not decorate."
+    },
+    {
+      "id": "challenger-six-pack",
+      "label": "Night instrument panel",
+      "lineage": "Small-aircraft six-pack flight instruments",
+      "thesis": "Trust the instruments when you cannot see outside: each pool's score read as six cross-checked gauges.",
+      "palette": [
+        "#0B0D0F",
+        "#F2F5F5",
+        "#7CFF9E",
+        "#FFB000"
+      ],
+      "materials": [
+        "matte instrument panel",
+        "luminous dial markings"
+      ],
+      "viewport": "One pool as a six-gauge panel with the ranked list below it.",
+      "risk": "Gauges don't rank, so the leaderboard you chose gets pushed below the fold.",
+      "case": "Strongest trust metaphor, but weaker product clarity for a ranked list.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack.webp"
+    },
+    {
+      "id": "challenger-fight-poster",
+      "label": "Fight bill",
+      "lineage": "Boxing fight posters with a ranked undercard",
+      "thesis": "Top pool versus runner-up as the main event, the rest of the leaderboard as a shrinking undercard.",
+      "palette": [
+        "#EFE6D2",
+        "#141414",
+        "#C9A227",
+        "#6E6E6E"
+      ],
+      "materials": [
+        "newsprint halftone",
+        "condensed slab caps"
+      ],
+      "viewport": "Two pools head to head at collision scale; the ranked undercard below.",
+      "risk": "Bout hype fights 'honest numbers', and ranking by type size hides the figures.",
+      "case": "The ranked undercard is a real leaderboard, but the tone contradicts the trust positioning.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-fight-poster-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/posters-covers-sleeves-fight-poster.webp"
+    },
+    {
+      "id": "challenger-arcade",
+      "label": "Arcade high-score screen",
+      "lineage": "Pixel arcade cabinet high-score tables",
+      "thesis": "The leaderboard as the most recognisable ranking screen there is.",
+      "palette": [
+        "#05060A",
+        "#1E40FF",
+        "#FFD400",
+        "#F5F5F5"
+      ],
+      "materials": [
+        "integer-scaled pixels",
+        "scanlines"
+      ],
+      "viewport": "A HIGH SCORES table of pools filling the first screen.",
+      "risk": "Glow and score-chasing read as degen, the audience the product excludes.",
+      "case": "Fuses poorly: phosphor glow and gamification contradict the trust rails' calm.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-crt-arcade-pixel-glow-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/medium-native-crt-arcade-pixel-glow.webp"
+    }
+  ],
+  "reroll": true,
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean data-product landing page: headline, search and a sortable pool table with one accent colour.",
+    "viewport": "Headline and search on the left, a live top-pools table on the right, methodology below.",
+    "risk": "Familiar and safe; looks like every other yield site."
+  },
+  "steer": true,
+  "provenance": {
+    "seedKey": "364571c7",
+    "mode": "persuade",
+    "scope": "direction",
+    "assigned": "candidate 7 of the grounded list (The Yield Catalogue)",
+    "chosen": "challenger-six-pack (signals-instruments-night-flight-six-pack)",
+    "decidedAt": "2026-09-27"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "horizonDays": 14,
+  "minTvlUsd": 10000000,
+  "loggingSince": "2026-09-10",
+  "firstMaturityDate": "2026-09-24",
+  "latestLogDate": "2026-09-27",
+  "matured": {
+    "n": 2321,
+    "forecastDates": [
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13"
+    ],
+    "coverage": 0.8121,
+    "medianAbsErrorForecast": 0.0391,
+    "medianAbsErrorNaive": 0.0386,
+    "forecastBeatsNaiveShare": 0.3598
+  }
+}

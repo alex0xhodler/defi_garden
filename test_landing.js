@@ -28,13 +28,15 @@ const FIXTURE_POOLS = [
   { pool: 'usdc-sol-kamino', project: 'kamino-lend', symbol: 'USDC', chain: 'Solana', tvlUsd: 80_000_000, apyBase: 7.5, apyReward: 0 }
 ];
 
-const LANDING_POOLS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'landing-pools.json'), 'utf8')).pools;
-const USDY_ID = 'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859';
-const STETH_ID = '747c1d2a-c668-4682-b9f9-296708a3dd90';
-const CHART_FAILING_ID = 'd8c4eff5-c8a9-46fc-a888-057c4c668e72'; // SUSDS
+const BOARD = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'landing-pools.json'), 'utf8'));
+const LANDING_POOLS = BOARD.pools;
+const TRACK = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'track-record.json'), 'utf8'));
+const LIVE_POOL = LANDING_POOLS[0];
+const CHART_FAILING_ID = LANDING_POOLS[1].pool;     // live fetch fails -> labelled snapshot
+const ANOMALOUS_ID = LANDING_POOLS[2].pool;         // live APY past the sanity rail -> never shown
 const CHART_FIXTURE = {
-  [USDY_ID]: { apy: 3.71, tvlUsd: 1_250_000_000 },
-  [STETH_ID]: { apy: 5000, tvlUsd: 26_000_000_000 }
+  [LIVE_POOL.pool]: { apy: 3.71, tvlUsd: 1_250_000_000 },
+  [ANOMALOUS_ID]: { apy: 5000, tvlUsd: 26_000_000_000 }
 };
 
 function startServer() {
@@ -112,115 +114,118 @@ async function main() {
     await preparePage(page);
 
     await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('#landing-root .landing-hero-underwriting', { timeout: 10000 });
+    await page.waitForSelector('#landing-root [data-testid="landing-row"]', { timeout: 10000 });
     assert.strictEqual(await page.locator('#landing-root .landing-app').getAttribute('data-mode'), 'landing');
     assert.strictEqual(await page.locator('#planner-root .gp-app').count(), 0, 'bare / must not mount the planner above the landing');
-    assert.ok((await page.locator('#landing-uw-title').innerText()).includes('predictively underwritten'), 'hero headline');
-    assert.strictEqual(await page.locator('.landing-hero-spotlight, [data-testid="landing-virtual-card"], .landing-page-dots, .landing-page-dot').count(), 0, 'card panel and page dots are gone');
-    assert.strictEqual(await page.locator('h1').count(), 1, 'exactly one h1 on the landing');
-    const landingLeafMarks = page.locator('#landing-root .landing-leaf-mark');
-    assert.strictEqual(await landingLeafMarks.count(), 1);
+    assert.strictEqual(await page.locator('h1').count(), 1, 'exactly one h1');
+    assert.ok((await page.locator('#landing-uw-title').innerText()).includes('instruments'), 'instrument headline');
+    assert.strictEqual(await page.locator('.landing-theme-button, .landing-next-section, .landing-hero-spotlight').count(), 0, 'dark-only, no old landing chrome');
     const landingFooterText = await page.locator('#landing-root .app-footer').innerText();
     assert.ok(landingFooterText.includes('DefiLlama API') && landingFooterText.includes('Browse tokens'), 'landing footer should match the analytics footer');
     passed++;
-    console.log('  ✓ bare / renders the single underwriting landing with visible footer');
+    console.log('  ✓ bare / renders the instrument-panel landing with visible footer');
 
-    // SEO/rates content stays crawlable, below the hero, above the footer.
-    const heroBox = await page.locator('.landing-hero-underwriting').boundingBox();
-    const seoBox = await page.locator('#seo-content').boundingBox();
-    const footerBox = await page.locator('#landing-root .app-footer').boundingBox();
-    assert.ok(seoBox && seoBox.height > 0, '#seo-content is visible');
-    assert.ok(seoBox.y >= heroBox.y + heroBox.height - 1, '#seo-content sits below the hero');
-    assert.ok(footerBox.y >= seoBox.y + seoBox.height - 1, 'footer sits after #seo-content');
-    assert.strictEqual(await page.locator('#seo-content h2#seo-h1').count(), 1, 'seo title demoted to h2');
+    // Leaderboard: ranked by score from the committed file; trust rails re-applied to live values.
+    await page.waitForFunction((n) => document.querySelectorAll('[data-testid="landing-row"]').length === n, LANDING_POOLS.length - 1, { timeout: 10000 });
+    const rowTexts = await page.locator('[data-testid="landing-row"]').allInnerTexts();
+    assert.ok(rowTexts[0].includes(LIVE_POOL.symbol) && rowTexts[0].includes('3.71%'), 'rank 1 shows its live APY: ' + rowTexts[0]);
+    assert.ok(!rowTexts.some((t) => t.startsWith('03')), 'anomalous rank 3 is removed by the sanity rail');
     passed++;
-    console.log('  ✓ SEO content is a section below the hero, footer after it');
+    console.log('  ✓ ranked leaderboard renders with live top rows; anomalous live APY is removed');
 
-    // Live numbers: USDY APY + TVL from the chart fixture, score from landing-pools.json.
-    const usdy = LANDING_POOLS.find((p) => p.pool === USDY_ID);
-    await page.waitForFunction(() => /3\.71%/.test((document.querySelector('.landing-uw-yield-val') || {}).textContent || ''), null, { timeout: 10000 });
-    const card = page.locator('.landing-uw-terminal-card');
-    const cardText = await card.innerText();
-    assert.ok(cardText.includes('$1.25B'), 'live TVL rendered: ' + cardText);
-    assert.ok(cardText.includes(usdy.defiScore.score.toFixed(1)) && cardText.includes(usdy.defiScore.rating), 'baked score rendered');
-    assert.strictEqual(await card.locator('[data-testid="landing-uw-source"]').getAttribute('data-source'), 'live');
-    assert.strictEqual(await card.locator('.landing-uw-terminal-jump').getAttribute('href'), '/?pool=' + USDY_ID);
+    // Desktop instrument panel reads the selected pool from real numbers.
+    const panel = page.locator('[data-testid="landing-underwriting-card"]');
+    await panel.waitFor({ timeout: 5000 });
+    assert.strictEqual(await panel.locator('.ip-panel-title').innerText(), LIVE_POOL.symbol);
+    const labels = await panel.locator('[role="img"]').evaluateAll((els) => els.map((el) => el.getAttribute('aria-label')));
+    assert.strictEqual(labels.length, 6, 'six instruments with text equivalents');
+    assert.ok(labels[0].includes(LIVE_POOL.defiScore.score.toFixed(1)) && labels[0].includes(LIVE_POOL.defiScore.rating), 'score dial: ' + labels[0]);
+    assert.ok(labels[1].includes('3.71%'), 'APY dial reads the live value: ' + labels[1]);
+    assert.ok(labels[2].includes(LIVE_POOL.forecast.p50.toFixed(2) + '%'), 'forecast dial: ' + labels[2]);
+    assert.ok(labels[3].includes('$1.25B'), 'depth dial reads live TVL: ' + labels[3]);
+    assert.strictEqual(await panel.locator('[data-testid="landing-uw-source"]').getAttribute('data-source'), 'live');
+    assert.strictEqual(await panel.locator('[data-testid="landing-open-pool"]').getAttribute('href'), '/?pool=' + LIVE_POOL.pool);
+    const needleBefore = await panel.locator('.ip-needle').first().getAttribute('style');
+    await page.locator('[data-testid="landing-row"]').nth(1).click();
+    await page.waitForFunction((sym) => document.querySelector('.ip-panel-title').textContent === sym, LANDING_POOLS[1].symbol);
+    assert.strictEqual(await panel.locator('[data-testid="landing-uw-source"]').getAttribute('data-source'), 'snapshot', 'failed live fetch is labelled');
+    assert.strictEqual(await panel.locator('[data-testid="landing-open-pool"]').getAttribute('href'), '/?pool=' + CHART_FAILING_ID);
+    if (LANDING_POOLS[1].defiScore.score !== LIVE_POOL.defiScore.score) {
+      assert.notStrictEqual(await panel.locator('.ip-needle').first().getAttribute('style'), needleBefore, 'needle moves with the reading');
+    }
     passed++;
-    console.log('  ✓ hero card shows live APY/TVL and the baked DeFi Score');
+    console.log('  ✓ panel reads the selected pool on six instruments; selecting a row swings the needles');
 
-    // Trust rails: anomalous live APY never renders; failed live fetch falls back to the labelled snapshot.
-    await page.waitForFunction(() => document.querySelectorAll('.landing-uw-pool-tab').length === 3, null, { timeout: 10000 });
-    const tabs = await page.locator('.landing-uw-pool-tab').allInnerTexts();
-    assert.ok(!tabs.some((t) => /STETH/i.test(t)), 'anomalous STETH tab must be hidden: ' + tabs.join(','));
-    await page.locator('.landing-uw-pool-tab', { hasText: 'SUSDS' }).click();
-    const susds = LANDING_POOLS.find((p) => p.pool === CHART_FAILING_ID);
-    assert.strictEqual(await card.locator('[data-testid="landing-uw-source"]').getAttribute('data-source'), 'snapshot');
-    assert.ok((await page.locator('.landing-uw-yield-val').innerText()).includes(susds.apy.toFixed(2) + '%'), 'snapshot APY fallback');
+    // Category tabs filter by asset class.
+    const ethCount = LANDING_POOLS.filter((p) => p.category === 'eth' && p.pool !== ANOMALOUS_ID).length;
+    if (ethCount) {
+      await page.locator('.ip-tab', { hasText: 'ETH' }).click();
+      await page.waitForFunction((n) => document.querySelectorAll('[data-testid="landing-row"]').length === n, ethCount);
+      await page.locator('.ip-tab', { hasText: 'All' }).click();
+    }
     passed++;
-    console.log('  ✓ anomalous pools are hidden and failed live fetches fall back to the labelled snapshot');
+    console.log('  ✓ category tabs filter the leaderboard');
 
-    // Two full-screen snap sections on desktop; one click moves hero -> rates.
-    const snap = await page.evaluate(() => ({
-      type: getComputedStyle(document.documentElement).scrollSnapType,
-      hero: getComputedStyle(document.querySelector('.landing-underwriting-wrapper')).scrollSnapAlign,
-      seo: getComputedStyle(document.getElementById('seo-content')).scrollSnapAlign
-    }));
-    assert.ok(/y mandatory/.test(snap.type), 'desktop snaps vertically: ' + snap.type);
-    assert.strictEqual(snap.hero, 'start');
-    assert.strictEqual(snap.seo, 'start');
-    await page.evaluate(() => window.scrollTo(0, 0));
-    await page.locator('[data-testid="landing-next-section"]').click();
-    await page.waitForFunction(() => {
-      const top = document.getElementById('seo-content').getBoundingClientRect().top;
-      const header = document.querySelector('.landing-header').getBoundingClientRect().bottom;
-      return Math.abs(top - header) <= 24;
-    }, null, { timeout: 5000 });
+    // Track record: published numbers, including the honest baseline comparison.
+    const log = page.locator('[data-testid="landing-track-record"]');
+    await log.waitFor({ timeout: 5000 });
+    const logText = await log.innerText();
+    if (TRACK.matured.n) {
+      const pct = (Math.round(TRACK.matured.coverage * 1000) / 10).toFixed(1) + '%';
+      assert.ok(logText.includes(pct), 'coverage shown: ' + pct);
+      assert.ok(logText.includes(TRACK.matured.medianAbsErrorForecast.toFixed(3)) && logText.includes(TRACK.matured.medianAbsErrorNaive.toFixed(3)), 'forecast error shown next to the naive baseline');
+      if (TRACK.matured.medianAbsErrorForecast >= TRACK.matured.medianAbsErrorNaive) assert.ok(/no better/.test(logText), 'no-edge result is stated plainly');
+    } else {
+      assert.ok(/first ones mature/.test(logText), 'waiting state names the maturity date');
+    }
+    const agents = await page.locator('[data-testid="landing-agents"]').innerText();
+    assert.ok(agents.includes('https://www.defi.garden/api/mcp'), 'real MCP endpoint');
+    assert.strictEqual(await page.locator('[data-testid="landing-agents"] a[href="/data/landing-pools.json"]').count(), 1);
+    assert.strictEqual(await page.locator('#seo-content h2#seo-h1').count(), 1, 'crawlable SEO section stays, as an h2');
     passed++;
-    console.log('  ✓ desktop: hero and rates are snap sections; the next-section button moves to rates');
+    console.log('  ✓ track record, agent access and the SEO section render below the panel');
 
-    // Mobile: the whole underwriting card is in the first screen, right after the headline.
-    for (const [w, h] of [[360, 780], [390, 844]]) {
+    // Mobile: the list is the page; a tapped row opens its panel in place.
+    for (const [w, h] of [[390, 844], [360, 740]]) {
       await page.setViewportSize({ width: w, height: h });
       await page.evaluate(() => window.scrollTo(0, 0));
-      await page.waitForTimeout(200);
-      const m = await page.evaluate(() => {
-        const card = document.querySelector('.landing-uw-terminal-card').getBoundingClientRect();
-        const title = document.getElementById('landing-uw-title').getBoundingClientRect();
-        const cta = document.querySelector('[data-testid="landing-underwriting-cta"]').getBoundingClientRect();
-        return { cardTop: card.top, cardBottom: card.bottom, titleBottom: title.bottom, ctaTop: cta.top, ih: innerHeight };
-      });
-      assert.ok(m.cardBottom <= m.ih, w + 'x' + h + ': card fully in first viewport (bottom ' + Math.round(m.cardBottom) + ' > ' + m.ih + ')');
-      assert.ok(m.cardTop >= m.titleBottom && m.ctaTop >= m.cardBottom, w + 'px: order is headline -> card -> CTA');
+      await page.waitForTimeout(250);
+      assert.strictEqual(await page.locator('[data-testid="landing-underwriting-card"]').count(), 0, w + 'px: no panel until a row is tapped');
+      const inView = await page.evaluate(() => [...document.querySelectorAll('[data-testid="landing-row"]')].filter((r) => r.getBoundingClientRect().bottom <= innerHeight).length);
+      assert.ok(inView >= 5, w + 'px: at least 5 rows in the first viewport (' + inView + ')');
     }
-    const status = await page.locator('.landing-uw-status').innerText();
-    assert.ok(/Scored .+ · live DefiLlama rates/.test(status), 'data-backed status line: ' + status);
-    assert.strictEqual(await page.locator('.landing-uw-eyebrow').count(), 0, 'eyebrow chip replaced');
+    await page.locator('[data-testid="landing-row"]').first().click();
+    await page.locator('.ip-row-panel [data-testid="landing-open-pool"]').waitFor({ timeout: 5000 });
+    assert.strictEqual(await page.locator('[data-testid="landing-row"]').first().getAttribute('aria-expanded'), 'true');
     passed++;
-    console.log('  ✓ mobile: status line, headline, then the full card inside the first viewport');
+    console.log('  ✓ mobile: 5+ ranked rows in the first viewport; a tapped row opens its instruments in place');
 
-    await page.setViewportSize({ width: 360, height: 780 });
-    await page.waitForTimeout(150);
-    assert.ok(!/mandatory/.test(await page.evaluate(() => getComputedStyle(document.documentElement).scrollSnapType)), 'mobile does not snap');
-    await page.setViewportSize({ width: 1280, height: 800 });
-    passed++;
-    console.log('  ✓ mobile: plain vertical scroll, no snapping');
-
-    // Single vertical page: no horizontal overflow, wheel scrolls the document (no panel transform).
-    for (const width of [360, 768, 1280]) {
+    for (const width of [360, 768, 1280, 1440]) {
       await page.setViewportSize({ width, height: 800 });
       await page.waitForTimeout(150);
-      const m = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, cw: document.documentElement.clientWidth, sh: document.documentElement.scrollHeight, ih: window.innerHeight }));
+      const m = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, cw: document.documentElement.clientWidth }));
       assert.ok(m.sw <= m.cw, width + 'px: no horizontal overflow (' + m.sw + ' > ' + m.cw + ')');
-      assert.ok(m.sh > m.ih, width + 'px: page scrolls vertically to reach the SEO section');
     }
     await page.setViewportSize({ width: 1280, height: 800 });
-    await page.mouse.move(640, 400);
-    await page.mouse.wheel(0, 600);
-    await page.waitForTimeout(400);
-    assert.ok(await page.evaluate(() => window.scrollY > 0), 'wheel scrolls the page vertically');
-    assert.strictEqual(await page.evaluate(() => getComputedStyle(document.querySelector('.landing-main')).transform), 'none');
     passed++;
-    console.log('  ✓ one vertical page at 360/768/1280 with native scrolling');
+    console.log('  ✓ no horizontal overflow at 360/768/1280/1440');
+
+    // Review fixes: rows are distinguishable, the list is legible, the page ends at the footer.
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('[data-testid="landing-row"]', { timeout: 10000 });
+    const rowCount = await page.locator('[data-testid="landing-row"]').count();
+    assert.strictEqual(await page.locator('[data-testid="landing-row"] .ip-chain').count(), rowCount, 'every row carries its chain as its own tag');
+    assert.ok((await page.locator('.ip-cols').textContent()).includes('APY now'), 'column legend above the rows');
+    const ends = await page.evaluate(() => ({ docH: document.documentElement.scrollHeight, footerBottom: Math.round(document.querySelector('#landing-root .app-footer').getBoundingClientRect().bottom + window.scrollY) }));
+    assert.ok(Math.abs(ends.docH - ends.footerBottom) <= 2, 'page ends at the footer (docH ' + ends.docH + ', footer ' + ends.footerBottom + ')');
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.waitForTimeout(250);
+    assert.strictEqual(await page.locator('[data-testid="landing-row"]').count(), 10, 'mobile shows the top 10 first');
+    await page.locator('.ip-show-all').click();
+    assert.strictEqual(await page.locator('[data-testid="landing-row"]').count(), rowCount, 'show all reveals the full leaderboard');
+    await page.setViewportSize({ width: 1280, height: 800 });
+    passed++;
+    console.log('  ✓ chain tags, column legend, no page void, mobile top-10 with show all');
 
     // Test analytics search entry
     await page.goto(`http://localhost:${PORT}/?app=1`, { waitUntil: 'load', timeout: 20000 });
@@ -271,18 +276,18 @@ async function main() {
     const langBtn = page.locator('.landing-header-actions .landing-icon-button').first();
     await langBtn.click();
     await page.waitForFunction(() => {
-      const el = document.querySelector('.landing-uw-status');
-      return el && el.textContent.includes('실시간');
+      const el = document.getElementById('landing-uw-title');
+      return el && el.textContent.includes('계기판');
     }, { timeout: 5000 });
-    assert.ok((await page.locator('.landing-uw-terminal-card').innerText()).includes('건전성'), 'Expected Korean card labels');
+    assert.ok((await page.locator('.ip-list-title').textContent()).includes('DeFi 점수'), 'Expected Korean list labels');
     passed++;
     console.log('  ✓ language toggle switches landing page to Korean');
 
     // Switch back to EN
     await langBtn.click();
     await page.waitForFunction(() => {
-      const el = document.querySelector('.landing-uw-status');
-      return el && el.textContent.includes('live DefiLlama rates');
+      const el = document.getElementById('landing-uw-title');
+      return el && el.textContent.includes('instruments');
     }, { timeout: 5000 });
 
     if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
