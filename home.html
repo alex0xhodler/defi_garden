@@ -188,7 +188,12 @@
             // print-swap path painted each surface unstyled for a beat.
             if (mode === 'analytics') { addCSS('pool-detail-styles.min.css', true); }
             else if (mode === 'planner') { addCSS('planner-styles.min.css', true); }
-            else { addCSS('landing-styles.css', true); }
+            else {
+                // Night instrument panel (2026-09-27): Barlow / Barlow Condensed,
+                // a DIN-derived grotesk like aviation placards, landing route only.
+                addCSS('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&display=swap', false);
+                addCSS('landing-styles.css', true);
+            }
             // 247 world: Besley/Public Sans now load on every surface via the
             // shared --font-family-base/-display tokens (style.css) — the
             // static preload links in <head> above cover all modes, so no
@@ -350,7 +355,17 @@
     </script>
 </head>
 <body>
-    <!-- 247 world — direction contract (impeccable new-work §5)
+<!-- DIRECTION CONTRACT (impeccable new-work, landing `/`, 2026-09-27)
+THESIS: Trust the instruments when you can't see outside. The landing is a ranked list of the best-scored pools plus a six-instrument panel that reads the selected pool; it refuses the category's hero-then-cards page and the neon crypto dashboard.
+OWN-WORLD: Night instrument panel. Panel black plates, instrument faces with luminous white scales, radium-green needles and normal-range arcs, amber and red lamps only for caution; Barlow Condensed placards (the only caps), hairline plates, screws, no glow.
+STORY: A holder sees the top pools ranked, selects one, reads score, rate, 14-day range, depth, exit and crash risk on real gauges, and opens the pool. Proof follows: the public forecast track record, then agent access.
+FIRST VIEWPORT: Headline + lede in one row; below, the ranked list (left, 5/12) and the six-pack panel for the selected pool (right, 7/12) with the one green "Open pool" action. Mobile: headline, then the list; a tapped row opens its panel in place.
+FORM: Candidate 7 rolled (seed catalogue); user chose challenger signals-instruments-night-flight-six-pack. Seed key 364571c7.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+    <!-- 247 world — direction contract (impeccable new-work §5), SCOPE: the pool
+         page and analytics app (?pool=, ?token=, ...). The landing (bare /) is
+         governed by the instrument-panel contract above.
          THESIS: A pool page as a certificate of record — security-printing
          grammar (guilloché lathework, engraved numerals, seal ink) makes the
          trust rails visible material; refuses both the dark degen terminal
@@ -394,11 +409,10 @@
          style above. landing.js localizes the ids for ?lang=ko post-mount. -->
     <section class="seo-content" id="seo-content" aria-label="About DeFi Garden yields">
      <div class="seo-content-inner">
-      <span class="seo-eyebrow" id="seo-eyebrow">Live On-Chain Rates</span>
       <h2 class="seo-title" id="seo-h1">DeFi Savings &amp; Yield Discovery</h2>
       <p class="seo-lede" id="seo-lede">Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains. Every pool shown clears a $100K TVL floor and excludes anomalous rates. Education, not financial advice.</p>
       <p class="seo-calc-line" id="seo-calc-p">The Garden Planner compounds monthly deposits at live stablecoin pool rates — illustrative example: at a fixed hypothetical 5% APY, $500/month for 3 years totals $18,000 deposited and about $19,457 in value. Not a live rate; open the planner for today's numbers.</p>
-      <p class="seo-cta-row"><a class="btn btn--primary seo-cta" href="/plan.html" id="seo-calc-cta">Open the DeFi Savings Calculator →</a></p>
+      <p class="seo-cta-row"><a class="btn btn--primary seo-cta" href="/plan.html" id="seo-calc-cta">Open the DeFi Savings Calculator</a></p>
       <nav class="seo-markets" aria-label="Top yield markets">
         <ul class="seo-market-links">
           <li><a class="seo-chip" href="/tokens/usdc"><img class="seo-chip-icon" src="https://assets.coingecko.com/coins/images/6319/small/usdc.png" alt="" width="15" height="15" loading="lazy"><span id="seo-link-usdc">USDC yield rates</span></a></li>
@@ -413,7 +427,7 @@
       </nav>
       <p class="seo-rails" id="seo-rails-p">Listings exclude pools under $100K TVL and any pool with an anomalous APY above 1,000%. Rates come from DefiLlama and change continuously.</p>
       <p class="seo-risk" id="seo-risk">Notice: Cryptocurrency and DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government agency. Yields fluctuate continuously. Smart contract, protocol, depeg, and liquidation risks apply.</p>
-      <p class="seo-guide-row"><a href="/guide/defi-yield-rates-explained" id="seo-guide-link">How DeFi yield works →</a></p>
+      <p class="seo-guide-row"><a href="/guide/defi-yield-rates-explained" id="seo-guide-link">How DeFi yield works</a></p>
      </div>
     </section>
 

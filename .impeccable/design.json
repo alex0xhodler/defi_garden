@@ -1,114 +1,512 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-05T18:50:00Z",
-  "title": "Design System: DeFi Garden — Quiet",
+  "generatedAt": "2026-09-27T20:16:08+00:00",
+  "title": "Design System: DeFi Garden — Night Instrument Panel",
   "extensions": {
     "colorMeta": {
-      "accent": { "role": "primary", "displayName": "Quiet Blue", "canonical": "#3B82F6", "tonalRamp": ["#0B1E3D", "#122E56", "#1D4ED8", "#2563EB", "#3B82F6", "#6BA1F8", "#93C0FA", "#D6E7FE"] },
-      "bg": { "role": "neutral", "displayName": "Paper", "canonical": "#F7F8FA", "tonalRamp": ["#0F1115", "#161A21", "#1C212A", "#5A6478", "#8A93A6", "#CBD2DF", "#E4E7EE", "#F7F8FA"] },
-      "surface": { "role": "neutral", "displayName": "Surface", "canonical": "#FFFFFF" },
-      "text": { "role": "neutral", "displayName": "Ink", "canonical": "#10151F" },
-      "text-secondary": { "role": "neutral", "displayName": "Slate", "canonical": "#5A6478" },
-      "warning": { "role": "accent", "displayName": "Amber Flag", "canonical": "#B45309" },
-      "danger": { "role": "accent", "displayName": "Alert Red", "canonical": "#B91C1C" }
+      "radium-green": {
+        "role": "primary",
+        "displayName": "Radium Green",
+        "canonical": "#7CFF9E",
+        "cssVar": "--ip-green",
+        "tonalRamp": [
+          "#00330D",
+          "#005C18",
+          "#008F25",
+          "#00CC35",
+          "#14FF51",
+          "#5CFF86",
+          "#A3FFBB",
+          "#E0FFE8"
+        ]
+      },
+      "radium-green-hover": {
+        "role": "primary",
+        "displayName": "Radium Green Hover",
+        "canonical": "#A6FFBE",
+        "cssVar": "--ip-green-hover",
+        "tonalRamp": [
+          "#00330E",
+          "#005C19",
+          "#008F27",
+          "#00CC37",
+          "#14FF54",
+          "#5CFF88",
+          "#A3FFBC",
+          "#E0FFE9"
+        ]
+      },
+      "radium-green-soft": {
+        "role": "primary",
+        "displayName": "Radium Green Soft",
+        "canonical": "rgba(124, 255, 158, 0.10)",
+        "cssVar": "--ip-green-soft",
+        "tonalRamp": [
+          "#00330D",
+          "#005C18",
+          "#008F25",
+          "#00CC35",
+          "#14FF51",
+          "#5CFF86",
+          "#A3FFBB",
+          "#E0FFE8"
+        ]
+      },
+      "radium-green-line": {
+        "role": "primary",
+        "displayName": "Radium Green Line",
+        "canonical": "rgba(124, 255, 158, 0.45)",
+        "cssVar": "--ip-green-line",
+        "tonalRamp": [
+          "#00330D",
+          "#005C18",
+          "#008F25",
+          "#00CC35",
+          "#14FF51",
+          "#5CFF86",
+          "#A3FFBB",
+          "#E0FFE8"
+        ]
+      },
+      "on-green": {
+        "role": "primary",
+        "displayName": "On Green",
+        "canonical": "#04130A",
+        "cssVar": "--ip-on-green",
+        "tonalRamp": [
+          "#092A16",
+          "#104C28",
+          "#19763E",
+          "#23A959",
+          "#3DD67A",
+          "#78E3A3",
+          "#B3EFCB",
+          "#E6FAEE"
+        ]
+      },
+      "caution-amber": {
+        "role": "secondary",
+        "displayName": "Caution Amber",
+        "canonical": "#FFB000",
+        "cssVar": "--ip-amber",
+        "tonalRamp": [
+          "#332300",
+          "#5C3F00",
+          "#8F6300",
+          "#CC8D00",
+          "#FFB614",
+          "#FFCC5C",
+          "#FFE3A3",
+          "#FFF6E0"
+        ]
+      },
+      "warning-red": {
+        "role": "secondary",
+        "displayName": "Warning Red",
+        "canonical": "#FF5A4F",
+        "cssVar": "--ip-red",
+        "tonalRamp": [
+          "#330300",
+          "#5C0600",
+          "#8F0900",
+          "#CC0D00",
+          "#FF2314",
+          "#FF665C",
+          "#FFA9A3",
+          "#FFE2E0"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#0B0D0F",
+        "cssVar": "--ip-panel",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Plate",
+        "canonical": "#111316",
+        "cssVar": "--ip-plate",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "plate-raised": {
+        "role": "neutral",
+        "displayName": "Plate Raised",
+        "canonical": "#16191D",
+        "cssVar": "--ip-plate-2",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "face": {
+        "role": "neutral",
+        "displayName": "Instrument Face",
+        "canonical": "#090B0D",
+        "cssVar": "--ip-face",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#24282D",
+        "cssVar": "--ip-rule",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#363B41",
+        "cssVar": "--ip-rule-strong",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "instrument-white": {
+        "role": "neutral",
+        "displayName": "Instrument White",
+        "canonical": "#F2F5F5",
+        "cssVar": "--ip-white",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Placard Grey",
+        "canonical": "#AEB6B9",
+        "cssVar": "--ip-text-2",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Muted Grey",
+        "canonical": "#848D91",
+        "cssVar": "--ip-text-3",
+        "tonalRamp": [
+          "#090B0D",
+          "#0B0D0F",
+          "#111316",
+          "#16191D",
+          "#24282D",
+          "#363B41",
+          "#848D91",
+          "#F2F5F5"
+        ]
+      }
     },
     "typographyMeta": {
-      "title": { "displayName": "Title", "purpose": "Section/panel headings, e.g. 'Yields for USDC'. One fixed size at every viewport." },
-      "metric": { "displayName": "Metric", "purpose": "The one headline number per row/card (APY) — tabular-nums, plain text, never boxed." },
-      "label": { "displayName": "Label", "purpose": "Column headers, metadata lines, sort control — sentence case, never uppercase." }
+      "display": {
+        "displayName": "Display",
+        "purpose": "The landing headline only. Barlow Condensed 600."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles below the deck."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The selected pool's symbol on the instrument plate; 26px when narrow."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "Digital value in each dial face; the same condensed tabular face sets scale numerals, row scores, APY and ranks."
+      },
+      "placard": {
+        "displayName": "Placard",
+        "purpose": "Instrument labels, list title, lamp labels, column headers. The only uppercase in the system."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; lede at 17px, max 58ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Meta lines, footnotes, chain badges, tab labels."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "The MCP install command only; the one monospace use."
+      }
     },
     "shadows": [
-      { "name": "overlay", "value": "0 8px 24px rgba(16, 21, 31, 0.10)", "purpose": "True floating overlays only (dropdowns, modals) — never at-rest cards or buttons." }
+      {
+        "name": "overlay",
+        "value": "0 16px 40px rgba(0, 0, 0, 0.55)",
+        "purpose": "The mobile menu sheet, the only floating element."
+      },
+      {
+        "name": "fastener-ring",
+        "value": "0 0 0 1px #07080A",
+        "purpose": "Dark ring around each plate screw."
+      },
+      {
+        "name": "lamp-well",
+        "value": "inset 0 0 0 1px #1A1D21",
+        "purpose": "Recessed hairline of an unlit annunciator lamp."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #F2F5F5; outline-offset: 2px",
+        "purpose": "Every :focus-visible in the landing; never removed or recoloured."
+      }
     ],
     "motion": [
-      { "name": "press", "value": "transform 80ms ease, box-shadow 80ms ease", "purpose": "1px press-down on :active. No scale transforms anywhere (banned scale-pop)." },
-      { "name": "state-step", "value": "all 0.2s ease", "purpose": "Background/border-color transitions on hover/focus." }
+      {
+        "name": "needle-swing",
+        "value": "transform 0.9s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Damped needle rotation when a reading changes; no transition under prefers-reduced-motion."
+      },
+      {
+        "name": "control-state",
+        "value": "color/border-color/background-color 0.15s ease",
+        "purpose": "Tabs, nav links, outlined buttons, the primary action."
+      },
+      {
+        "name": "row-hover",
+        "value": "background-color 0.12s ease",
+        "purpose": "List row hover/selection."
+      },
+      {
+        "name": "sheet",
+        "value": "opacity 0.18s ease, transform 0.18s ease",
+        "purpose": "Mobile menu sheet, 6px drop-in; none under reduced motion."
+      },
+      {
+        "name": "press",
+        "value": "transform: translateY(1px) on :active",
+        "purpose": "Physical press on every control. No scale transforms."
+      }
     ],
     "breakpoints": [
-      { "name": "sm", "value": "360px" },
-      { "name": "md", "value": "768px" },
-      { "name": "lg", "value": "1024px" },
-      { "name": "xl", "value": "1280px" }
+      {
+        "name": "tight",
+        "value": "380px"
+      },
+      {
+        "name": "narrow",
+        "value": "900px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "1000px"
+      },
+      {
+        "name": "deck-tighten",
+        "value": "1120px"
+      },
+      {
+        "name": "container",
+        "value": "1320px"
+      }
     ]
   },
   "components": [
     {
-      "name": "Primary Button",
+      "name": "Primary Button (Open pool)",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The one accent-filled action per view.",
-      "html": "<button class=\"ds-btn-primary\">Garden this pool →</button>",
-      "css": ".ds-btn-primary { background: var(--ui-accent, #3B82F6); color: #fff; height: 40px; padding: 0 16px; border: none; border-radius: 12px; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.2s ease; } .ds-btn-primary:hover { background: #2563EB; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #F7F8FA, 0 0 0 4px #3B82F6; } .ds-btn-primary:active { transform: translateY(1px); }"
+      "description": "The one filled-green action per panel.",
+      "html": "<a class=\"ds-open\" href=\"#\">Open USDY pool <svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h11M11 5l5 5-5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-open { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; background: var(--ip-green, #7CFF9E); color: var(--ip-on-green, #04130A); border-radius: 4px; font-family: 'Barlow', system-ui, sans-serif; font-size: 16px; font-weight: 600; text-decoration: none; transition: background-color 0.15s ease; } .ds-open:hover { background: var(--ip-green-hover, #A6FFBE); } .ds-open:active { transform: translateY(1px); } .ds-open:focus-visible { outline: 2px solid #F2F5F5; outline-offset: 2px; }"
     },
     {
-      "name": "Quiet Action Link",
-      "kind": "custom",
-      "refersTo": "quiet-link",
-      "description": "A row's secondary action — plain text at rest, accent only on hover/focus. Used for the grid's 'View & calculate' link.",
-      "html": "<a href=\"#\" class=\"ds-quiet-link\">View &amp; calculate →</a>",
-      "css": ".ds-quiet-link { color: #5A6478; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 13px; font-weight: 500; text-decoration: none; white-space: nowrap; } .ds-quiet-link:hover, .ds-quiet-link:focus-visible { color: #3B82F6; }"
-    },
-    {
-      "name": "Icon Button",
+      "name": "Secondary Button",
       "kind": "button",
-      "refersTo": "button-icon",
-      "description": "Theme/language/view toggles — 40px pill in the app header, 32px inside the results panel.",
-      "html": "<button class=\"ds-btn-icon\" aria-label=\"Toggle\">☀️</button>",
-      "css": ".ds-btn-icon { width: 40px; height: 40px; border-radius: 999px; background: #FFFFFF; border: 1px solid #E4E7EE; color: #10151F; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color 0.2s ease; } .ds-btn-icon:hover { border-color: #CBD2DF; } .ds-btn-icon:active { transform: translateY(1px); }"
+      "refersTo": "button-secondary",
+      "description": "Outlined control: copy, language toggle, menu.",
+      "html": "<button class=\"ds-copy\" type=\"button\">Copy</button>",
+      "css": ".ds-copy { height: 34px; padding: 0 14px; background: transparent; color: #F2F5F5; border: 1px solid #363B41; border-radius: 4px; font-family: 'Barlow', system-ui, sans-serif; font-size: 13.5px; font-weight: 600; cursor: pointer; transition: border-color 0.15s ease; } .ds-copy:hover { border-color: #848D91; } .ds-copy:active { transform: translateY(1px); } .ds-copy:focus-visible { outline: 2px solid #F2F5F5; outline-offset: 2px; }"
     },
     {
-      "name": "Segmented Control",
+      "name": "Tabs",
       "kind": "chip",
-      "refersTo": "chip",
-      "description": "Sort-by control and grid/list view toggle — a muted track with a neutral (not accent) selected step.",
-      "html": "<div class=\"ds-segmented\"><button class=\"ds-seg-btn is-active\">TVL</button><button class=\"ds-seg-btn\">APY</button></div>",
-      "css": ".ds-segmented { display: inline-flex; background: #F1F3F7; border: 1px solid #E4E7EE; border-radius: 12px; padding: 4px; gap: 2px; } .ds-seg-btn { border: none; background: transparent; padding: 0 12px; height: 32px; border-radius: 8px; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 13px; font-weight: 500; color: #5A6478; cursor: pointer; } .ds-seg-btn.is-active { background: #FFFFFF; border: 1px solid #CBD2DF; color: #10151F; }"
+      "refersTo": "tab",
+      "description": "Category filters with tabular counts; active is green-soft.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab is-active\" aria-pressed=\"true\">All <span>50</span></button><button class=\"ds-tab\" aria-pressed=\"false\">Stablecoins <span>6</span></button><button class=\"ds-tab\" aria-pressed=\"false\">ETH <span>11</span></button></div>",
+      "css": ".ds-tabs { display: flex; gap: 6px; padding: 12px; background: #111316; } .ds-tab { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 11px; background: transparent; color: #AEB6B9; border: 1px solid #363B41; border-radius: 4px; font-family: 'Barlow', system-ui, sans-serif; font-size: 13.5px; font-weight: 500; cursor: pointer; transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease; } .ds-tab span { font-family: 'Barlow Condensed', sans-serif; font-size: 12.5px; font-variant-numeric: tabular-nums; color: #848D91; } .ds-tab:hover { color: #F2F5F5; border-color: #848D91; } .ds-tab:active { transform: translateY(1px); } .ds-tab.is-active { color: #7CFF9E; border-color: rgba(124,255,158,0.45); background: rgba(124,255,158,0.10); } .ds-tab.is-active span { color: #7CFF9E; } .ds-tab:focus-visible { outline: 2px solid #F2F5F5; outline-offset: 2px; }"
     },
     {
-      "name": "Composed Panel",
-      "kind": "card",
-      "refersTo": "card",
-      "description": "The one bordered surface wrapping a header band + column labels + rows (results panel).",
-      "html": "<div class=\"ds-panel\"><div class=\"ds-panel-header\">Yields for USDC</div><div class=\"ds-panel-row\">STEAKUSDC</div></div>",
-      "css": ".ds-panel { background: #FFFFFF; border: 1px solid #E4E7EE; border-radius: 16px; overflow: hidden; } .ds-panel-header { padding: 16px 20px; border-bottom: 1px solid #E4E7EE; font-size: 16px; font-weight: 600; color: #10151F; } .ds-panel-row { height: 64px; padding: 0 20px; display: flex; align-items: center; border-bottom: 1px solid #E4E7EE; font-size: 15px; font-weight: 600; color: #10151F; } .ds-panel-row:last-child { border-bottom: none; }"
-    },
-    {
-      "name": "Table Row",
+      "name": "Ranked List Row",
       "kind": "custom",
-      "refersTo": "table-row",
-      "description": "One pool per row: icon, name+metadata, APY, TVL, quiet action — the grid surface's signature component.",
-      "html": "<div class=\"ds-row\"><div class=\"ds-row-icon\"></div><div class=\"ds-row-name\"><span class=\"ds-row-symbol\">USDC</span><span class=\"ds-row-meta\">morpho-blue · Base</span></div><div class=\"ds-row-apy\">4.95%</div><div class=\"ds-row-tvl\">$2.6B</div><a class=\"ds-row-action\" href=\"#\">View &amp; calculate →</a></div>",
-      "css": ".ds-row { display: grid; grid-template-columns: 40px 1fr 110px 130px 120px; column-gap: 12px; align-items: center; height: 64px; padding: 0 20px; border-bottom: 1px solid #E4E7EE; font-family: FKGroteskNeue, Geist, Inter, sans-serif; } .ds-row-icon { width: 24px; height: 24px; border-radius: 8px; background: #F1F3F7; } .ds-row-name { display: flex; flex-direction: column; gap: 2px; min-width: 0; } .ds-row-symbol { font-size: 15px; font-weight: 600; color: #10151F; } .ds-row-meta { font-size: 13px; color: #5A6478; } .ds-row-apy { font-size: 16px; font-weight: 600; color: #10151F; font-variant-numeric: tabular-nums; text-align: right; } .ds-row-tvl { font-size: 14px; font-weight: 600; color: #5A6478; font-variant-numeric: tabular-nums; text-align: right; } .ds-row-action { font-size: 13px; font-weight: 500; color: #5A6478; text-decoration: none; text-align: right; } .ds-row-action:hover { color: #3B82F6; }"
+      "refersTo": "list-row",
+      "description": "Rank, pool with chain badge, score over rating, APY with trend.",
+      "html": "<button class=\"ds-row\"><span class=\"ds-rank\">01</span><span class=\"ds-id\"><span class=\"ds-sym\">USDY</span><span class=\"ds-meta\"><span class=\"ds-chain\">Ethereum</span>ondo-yield-assets</span></span><span class=\"ds-grade\"><span class=\"ds-score\">92.3</span><span class=\"ds-rating\">AAA</span></span><span class=\"ds-apy\">3.59%</span></button>",
+      "css": ".ds-row { display: grid; grid-template-columns: 30px minmax(0,1fr) 76px 92px; align-items: center; gap: 10px; width: 100%; min-height: 56px; padding: 8px 16px; background: #111316; color: #F2F5F5; border: 0; border-bottom: 1px solid #24282D; text-align: left; font-family: 'Barlow', system-ui, sans-serif; cursor: pointer; transition: background-color 0.12s ease; } .ds-row:hover { background: #16191D; } .ds-row:focus-visible { outline: 2px solid #F2F5F5; outline-offset: -2px; } .ds-rank { font-family: 'Barlow Condensed', sans-serif; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; color: #848D91; } .ds-id { display: flex; flex-direction: column; min-width: 0; } .ds-sym { font-weight: 600; font-size: 15.5px; } .ds-meta { display: flex; gap: 6px; align-items: center; font-size: 13px; color: #848D91; } .ds-chain { padding: 0 5px; border: 1px solid #363B41; border-radius: 3px; font-size: 11.5px; font-weight: 600; line-height: 17px; color: #AEB6B9; } .ds-grade { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.15; } .ds-score { font-family: 'Barlow Condensed', sans-serif; font-size: 17px; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-rating { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; color: #7CFF9E; } .ds-apy { text-align: right; font-family: 'Barlow Condensed', sans-serif; font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Dial",
+      "kind": "custom",
+      "refersTo": "instrument-plate",
+      "description": "The one dial grammar: 240-degree sweep, two-step bezel, graduated scale, coloured bands, green needle, digital readout, placard.",
+      "html": "<figure class=\"ds-gauge\"><svg class=\"ds-dial\" viewBox=\"0 0 200 200\" role=\"img\" aria-label=\"DeFi score 92.3\"><circle class=\"b\" cx=\"100\" cy=\"100\" r=\"97\"/><circle class=\"bs\" cx=\"100\" cy=\"100\" r=\"91\"/><circle class=\"f\" cx=\"100\" cy=\"100\" r=\"89\"/><path class=\"arc r\" d=\"M33.32 138.50 A77 77 0 0 1 65.02 31.40\"/><path class=\"arc a\" d=\"M65.02 31.40 A77 77 0 0 1 97.32 23.05\"/><path class=\"arc g\" d=\"M97.32 23.05 A77 77 0 0 1 166.68 138.50\"/><line class=\"t\" x1=\"34.18\" y1=\"138\" x2=\"24.66\" y2=\"143.5\"/><line class=\"t\" x1=\"100\" y1=\"24\" x2=\"100\" y2=\"13\"/><line class=\"t\" x1=\"165.82\" y1=\"138\" x2=\"175.34\" y2=\"143.5\"/><text class=\"s\" x=\"46\" y=\"131\">0</text><text class=\"s\" x=\"100\" y=\"40\">50</text><text class=\"s\" x=\"154\" y=\"131\">100</text><g class=\"n\" style=\"transform: rotate(101.5deg)\"><path d=\"M100 22 L103.2 100 L96.8 100 Z\"/></g><circle class=\"h\" cx=\"100\" cy=\"100\" r=\"7\"/><text class=\"ro\" x=\"100\" y=\"151\">92.3</text><text class=\"sro\" x=\"100\" y=\"168\">AAA</text></svg><figcaption class=\"ds-placard\">DeFi score</figcaption></figure>",
+      "css": ".ds-gauge { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 0; padding: 16px; background: #111316; } .ds-dial { width: 184px; } .ds-dial .b { fill: #15181C; stroke: #2B2F34; stroke-width: 2; } .ds-dial .bs { fill: none; stroke: #33383E; stroke-width: 1; } .ds-dial .f { fill: #090B0D; } .ds-dial .arc { fill: none; stroke-width: 7; opacity: 0.9; } .ds-dial .r { stroke: #FF5A4F; } .ds-dial .a { stroke: #FFB000; } .ds-dial .g { stroke: #7CFF9E; } .ds-dial .t { stroke: #F2F5F5; stroke-width: 2.2; } .ds-dial .s { fill: #F2F5F5; font: 600 16px 'Barlow Condensed', sans-serif; text-anchor: middle; } .ds-dial .n { fill: #7CFF9E; transform-origin: 100px 100px; transform-box: view-box; transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); } .ds-dial .h { fill: #1C1F23; stroke: #40464C; stroke-width: 1.5; } .ds-dial .ro { fill: #F2F5F5; font: 600 23px 'Barlow Condensed', sans-serif; text-anchor: middle; font-variant-numeric: tabular-nums; } .ds-dial .sro { fill: #AEB6B9; font: 500 12.5px 'Barlow Condensed', sans-serif; letter-spacing: 0.04em; text-anchor: middle; } .ds-placard { padding: 3px 10px; border: 1px solid #363B41; border-radius: 3px; font-family: 'Barlow Condensed', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #AEB6B9; } @media (prefers-reduced-motion: reduce) { .ds-dial .n { transition: none; } }"
+    },
+    {
+      "name": "Annunciator",
+      "kind": "custom",
+      "refersTo": "lamp",
+      "description": "Crash-risk lamps: exactly one lit, colour = meaning.",
+      "html": "<div class=\"ds-lamps\" role=\"img\" aria-label=\"Crash risk: Low\"><span class=\"ds-lamp is-lit g\">Low</span><span class=\"ds-lamp\">Med</span><span class=\"ds-lamp\">High</span></div>",
+      "css": ".ds-lamps { display: flex; flex-direction: column; gap: 8px; width: 170px; padding: 16px; background: #111316; } .ds-lamp { display: grid; place-items: center; height: 38px; border: 1px solid transparent; border-radius: 4px; background: #0D0F11; box-shadow: inset 0 0 0 1px #1A1D21; font-family: 'Barlow Condensed', sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #5E656B; } .ds-lamp.is-lit.g { color: #7CFF9E; border-color: rgba(124,255,158,0.45); background: rgba(124,255,158,0.12); } .ds-lamp.is-lit.a { color: #FFB000; border-color: rgba(255,176,0,0.55); background: rgba(255,176,0,0.12); } .ds-lamp.is-lit.r { color: #FF5A4F; border-color: rgba(255,90,79,0.6); background: rgba(255,90,79,0.12); }"
+    },
+    {
+      "name": "Instrument Plate",
+      "kind": "card",
+      "refersTo": "instrument-plate",
+      "description": "Hairline plate with four screws; depth by background step only.",
+      "html": "<section class=\"ds-plate\"><span class=\"ds-screw tl\"></span><span class=\"ds-screw tr\"></span><span class=\"ds-screw bl\"></span><span class=\"ds-screw br\"></span><h2 class=\"ds-plate-title\">USDY</h2><p class=\"ds-plate-meta\">ondo-yield-assets · Ethereum</p><p class=\"ds-source\"><i></i>Live · DefiLlama</p></section>",
+      "css": ".ds-plate { position: relative; padding: 18px 22px; background: #111316; border: 1px solid #24282D; border-radius: 6px; color: #F2F5F5; } .ds-screw { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #4A5057, #1C1F23 70%); box-shadow: 0 0 0 1px #07080A; } .ds-screw.tl { top: 9px; left: 9px; } .ds-screw.tr { top: 9px; right: 9px; } .ds-screw.bl { bottom: 9px; left: 9px; } .ds-screw.br { bottom: 9px; right: 9px; } .ds-plate-title { margin: 0; font: 600 32px/1.05 'Barlow Condensed', sans-serif; } .ds-plate-meta { margin: 2px 0 0; font: 14px 'Barlow', sans-serif; color: #AEB6B9; } .ds-source { display: inline-flex; gap: 8px; align-items: center; font: 13px 'Barlow', sans-serif; color: #AEB6B9; } .ds-source i { width: 8px; height: 8px; border-radius: 50%; background: #7CFF9E; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Sticky 56px panel-colour header with hairline, condensed brand, secondary links.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">DeFi Garden</a><nav><a href=\"#\">Search yields</a><a href=\"#\">Savings Planner</a><a href=\"#\">AI Agents &amp; MCP</a></nav><button class=\"ds-lang\">KO</button></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 24px; height: 56px; padding: 0 32px; background: #0B0D0F; border-bottom: 1px solid #24282D; } .ds-brand { font: 600 21px 'Barlow Condensed', sans-serif; color: #F2F5F5; text-decoration: none; } .ds-nav nav { display: flex; gap: 26px; margin-left: auto; } .ds-nav nav a { font: 500 14.5px 'Barlow', sans-serif; color: #AEB6B9; text-decoration: none; transition: color 0.15s ease; } .ds-nav nav a:hover { color: #F2F5F5; } .ds-nav a:focus-visible, .ds-lang:focus-visible { outline: 2px solid #F2F5F5; outline-offset: 2px; } .ds-lang { min-width: 40px; height: 36px; background: transparent; color: #AEB6B9; border: 1px solid #363B41; border-radius: 4px; font: 600 14px 'Barlow Condensed', sans-serif; letter-spacing: 0.1em; cursor: pointer; }"
     }
   ],
   "narrative": {
-    "northStar": "The Quiet Ledger",
-    "overview": "DeFi Garden's analytics surface reads like a well-kept ledger, not a trading terminal: calm neutral grays carry almost everything, one blue is spent on exactly one decision per screen, and every number lines up in its column because the eye's job is to compare, not to decode. The system is flat and table-first. Containers exist only where grouping content earns a border; everything else is plain text on the page background.",
+    "northStar": "Trust the instruments when you can't see outside.",
+    "overview": "The system is a small-aircraft instrument panel at night. Black plates hold instrument faces; white scales and numerals sit on near-black dials; a radium-green needle reads each value; amber and red appear only where a pilot would need caution. Every instrument is bound to one real number from CI-computed or live DefiLlama data, so the panel is a reading, never an illustration. It refuses both the hero-then-cards landing and the neon crypto dashboard.\n\nDensity is cockpit density: a ranked list and a six-instrument panel share the first viewport, and nothing floats that does not have to. Depth is made from plate steps and hairlines, never from glow or soft shadow. Motion is mechanical: a damped needle swing when a reading changes, short colour transitions on controls, nothing that bounces or scales.\n\nThis world is the design authority going forward (PRODUCT.md, 2026-09-27). It is currently built on the landing (bare `/`) only, which is dark-only and ignores the site theme toggle. See \"Surfaces not yet migrated\" at the end.",
     "keyCharacteristics": [
-      "One accent (#3B82F6 family) used on <=10% of any screen: one primary action, already-selected filter state.",
-      "Numerals are tabular in the body font family — no monospace skin anywhere in the product.",
-      "Three text colors only: primary, secondary, and disabled/muted.",
-      "Flat by default: no shadows at rest; the only elevation signal is a 1px border, and only on containers that group unrelated content."
+      "Dark-only panel: black plates, near-black instrument faces, white scales.",
+      "One luminous green for needles, normal-range arcs, lit \"normal\" lamps, the selected state and the single primary action.",
+      "Amber and red are reserved for caution and warning bands, and for the snapshot-data lamp.",
+      "One dial grammar for every round gauge (240° sweep, two-step bezel, graduated scale, digital readout).",
+      "Barlow Condensed for display, readouts and placards; Barlow for text; caps only on placards.",
+      "Hairline plates with four screws; no blur, no glow, no drop shadows at rest."
     ],
     "rules": [
-      { "name": "The One Voice Rule", "body": "If more than one element on a screen is blue at rest (not hover, not selected-state), the accent has been spent twice and one of them is wrong.", "section": "colors" },
-      { "name": "The No-Fourth-Tier Rule", "body": "Every piece of text on an analytics screen is one of exactly three colors: primary, secondary, or muted.", "section": "colors" },
-      { "name": "The Borders-Earn-It Rule", "body": "A 1px border exists only where two visually distinct regions need a boundary a gap alone can't supply. It never exists as decoration around a single number, label, or icon.", "section": "colors" },
-      { "name": "The Tabular Rule", "body": "Any numeral in a column with others of the same kind gets tabular-nums AND matching decimal precision.", "section": "typography" },
-      { "name": "The Sentence-Case Rule", "body": "No label, button, or column header is uppercase or letter-spaced as a badge.", "section": "typography" },
-      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Only true overlays may add elevation; hover/press states get a background-color or 1px-transform change, never a new shadow.", "section": "elevation" }
+      {
+        "name": "The Luminous-Is-Colour Rule",
+        "body": "\"Luminous\" means a saturated colour on black, never a blur. No `filter: blur`, no glowing `box-shadow`, no text-shadow halo on any needle, arc, lamp or button.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caution-Only Rule",
+        "body": "Amber and red appear only where the data means caution or warning (a band, a lit lamp, a falling trend, snapshot data). Never as decoration, never as a brand accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Green Rule",
+        "body": "Green means \"normal, selected, or go\". Every green on screen is one of those three; there is no second accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Placard Rule",
+        "body": "Uppercase exists only on instrument placards: gauge labels, the list title, lamp labels, column headers. Everything else, including buttons, tabs and headlines, is sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numerals Rule",
+        "body": "Every number that can change (score, APY, rank, TVL, counts, scale labels) is set in the condensed face with `tabular-nums`, so readings do not jitter as values update.",
+        "section": "typography"
+      },
+      {
+        "name": "The List-First Rule",
+        "body": "Below 900px the list is the page. There is no side panel: a tapped row expands its own instrument panel inline beneath it (`aria-expanded`), the screws are dropped, and the primary action goes full width. The list shows the top 10 with a \"show all\" control; the tabs become a single horizontally scrolling line with an edge fade.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shared Viewport Rule",
+        "body": "On desktop the ranked list and the reading of the selected pool are always visible together; selecting a row never navigates.",
+        "section": "layout"
+      },
+      {
+        "name": "The Plate-Step Rule",
+        "body": "To lift something, step its background (face → plate → plate-raised) and give it a hairline. Never a drop shadow, never a glow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Action Rule",
+        "body": "Exactly one filled button exists per panel; everything else is outlined or text.",
+        "section": "components"
+      }
     ],
     "dos": [
-      "Do give numerals in the same column identical decimal precision AND tabular-nums.",
-      "Do use exactly one accent-colored element at rest per view, plus already-selected chip/tab state.",
-      "Do keep every row/line inside a composed panel border-only.",
-      "Do reuse one of the four control-height tokens and one of the two control-radius tokens for any new interactive element."
+      "Do bind every needle, arc, lamp and readout to a real number from CI or live data, and give each instrument a text equivalent (aria-label).",
+      "Do use the dial grammar exactly: 240° sweep, two-step bezel, four minor graduations per major, 5° minimum arc span, damped needle, no motion under reduced-motion.",
+      "Do keep one filled green action per panel (\"Open pool\") and make everything else outlined or text.",
+      "Do build depth from face / plate / plate-raised steps and 1px hairlines.",
+      "Do set every changing number in Barlow Condensed with tabular numerals.",
+      "Do keep caps on placards only.",
+      "Do go list-first below 900px: rows expand their panel inline, top 10 plus \"show all\"."
     ],
     "donts": [
-      "Don't add a box-shadow glow to any control at rest or on hover.",
-      "Don't use scale() transforms on hover/press.",
-      "Don't render a label, chip, or header in uppercase with letter-spacing to fake a badge look.",
-      "Don't introduce a second pill/chip visual language for the same role."
+      "Don't make anything glow: no blur, no glow shadows, no text halos. Luminous is colour on black.",
+      "Don't draw a decorative gauge, fake needle, or placeholder reading; show an honest empty state instead.",
+      "Don't use amber or red for anything but caution and warning.",
+      "Don't add a second accent colour or a second filled button.",
+      "Don't use scale-pop hovers or bounce easings; controls press down 1px on active.",
+      "Don't add a light theme to this world's landing; it is dark-only.",
+      "Don't use monospace anywhere except a literal command to copy."
     ]
   }
 }

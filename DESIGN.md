@@ -1,296 +1,301 @@
 ---
-name: DeFi Garden — Quiet
-description: A restrained, table-first analytics UI for a trust-driven DeFi yield product; one accent, tabular numerals, boxes only where grouping earns them.
+name: DeFi Garden — Night Instrument Panel
+description: A dark cockpit panel for yield underwriting; a ranked list beside six real instruments that read the selected pool, luminous green for normal range and the one action, amber and red only for caution.
 colors:
-  accent: "#3B82F6"
-  accent-hover: "#2563EB"
-  accent-active: "#1D4ED8"
-  accent-soft: "#EFF5FF"
-  accent-border: "#BFD8FE"
-  bg: "#F7F8FA"
-  surface: "#FFFFFF"
-  surface-muted: "#F1F3F7"
-  surface-sunken: "#EDEFF4"
-  border: "#E4E7EE"
-  border-strong: "#CBD2DF"
-  text: "#10151F"
-  text-secondary: "#5A6478"
-  text-muted: "#8A93A6"
-  positive: "#15803D"
-  warning: "#B45309"
-  danger: "#B91C1C"
+  panel: "#0B0D0F"
+  plate: "#111316"
+  plate-raised: "#16191D"
+  face: "#090B0D"
+  rule: "#24282D"
+  rule-strong: "#363B41"
+  instrument-white: "#F2F5F5"
+  text-secondary: "#AEB6B9"
+  text-muted: "#848D91"
+  radium-green: "#7CFF9E"
+  radium-green-hover: "#A6FFBE"
+  radium-green-soft: "rgba(124, 255, 158, 0.10)"
+  radium-green-line: "rgba(124, 255, 158, 0.45)"
+  on-green: "#04130A"
+  caution-amber: "#FFB000"
+  warning-red: "#FF5A4F"
 typography:
-  body:
-    fontFamily: "FKGroteskNeue, Geist, Inter, -apple-system, sans-serif"
-    fontSize: "14px"
-    fontWeight: 400
-    lineHeight: 1.4
-  label:
-    fontFamily: "{typography.body.fontFamily}"
-    fontSize: "12px"
-    fontWeight: 500
-    letterSpacing: "normal"
-  title:
-    fontFamily: "{typography.body.fontFamily}"
-    fontSize: "16px"
+  display:
+    fontFamily: "'Barlow Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "clamp(40px, 5vw, 68px)"
     fontWeight: 600
-  metric:
-    fontFamily: "{typography.body.fontFamily}"
-    fontSize: "16px"
+    lineHeight: 0.96
+    letterSpacing: "-0.005em"
+  headline:
+    fontFamily: "'Barlow Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "clamp(30px, 3.4vw, 44px)"
+    fontWeight: 600
+    lineHeight: 1.02
+  title:
+    fontFamily: "'Barlow Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "32px"
+    fontWeight: 600
+    lineHeight: 1.05
+  readout:
+    fontFamily: "'Barlow Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "23px"
     fontWeight: 600
     fontFeature: "tabular-nums"
+  placard:
+    fontFamily: "'Barlow Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "12.5px"
+    fontWeight: 600
+    letterSpacing: "0.16em"
+  body:
+    fontFamily: "'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    fontSize: "16px"
+    fontWeight: 400
+    lineHeight: 1.5
+  label:
+    fontFamily: "'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    fontSize: "13px"
+    fontWeight: 500
+    lineHeight: 1.45
+  code:
+    fontFamily: "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+    fontSize: "13px"
+    fontWeight: 400
+    lineHeight: 1.5
 rounded:
-  sm: "8px"
-  md: "12px"
-  lg: "16px"
-  pill: "999px"
+  badge: "3px"
+  control: "4px"
+  plate: "6px"
+  round: "50%"
 spacing:
-  "1": "1px"
-  "2": "2px"
   "4": "4px"
   "8": "8px"
   "12": "12px"
   "16": "16px"
-  "20": "20px"
   "24": "24px"
   "32": "32px"
+  "48": "48px"
+  "72": "72px"
 components:
   button-primary:
-    backgroundColor: "{colors.accent}"
-    textColor: "#FFFFFF"
-    rounded: "{rounded.md}"
-    height: "40px"
-    padding: "0 16px"
+    backgroundColor: "{colors.radium-green}"
+    textColor: "{colors.on-green}"
+    typography: "{typography.body}"
+    rounded: "{rounded.control}"
+    padding: "0 22px"
+    height: "48px"
   button-primary-hover:
-    backgroundColor: "{colors.accent-hover}"
-  button-icon:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.pill}"
-    size: "40px"
-  chip:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.pill}"
+    backgroundColor: "{colors.radium-green-hover}"
+    textColor: "{colors.on-green}"
+  button-secondary:
+    backgroundColor: "transparent"
+    textColor: "{colors.instrument-white}"
+    rounded: "{rounded.control}"
+    padding: "0 14px"
+    height: "34px"
+  tab:
+    backgroundColor: "transparent"
+    textColor: "{colors.text-secondary}"
+    rounded: "{rounded.control}"
+    padding: "0 11px"
     height: "32px"
-  chip-selected:
-    backgroundColor: "{colors.accent}"
-    textColor: "#FFFFFF"
-  card:
-    backgroundColor: "{colors.surface}"
-    rounded: "{rounded.lg}"
-    padding: "20px"
+  tab-active:
+    backgroundColor: "{colors.radium-green-soft}"
+    textColor: "{colors.radium-green}"
+  list-row:
+    backgroundColor: "transparent"
+    textColor: "{colors.instrument-white}"
+    padding: "8px 16px"
+    height: "56px"
+  list-row-hover:
+    backgroundColor: "{colors.plate-raised}"
+  chain-badge:
+    backgroundColor: "transparent"
+    textColor: "{colors.text-secondary}"
+    rounded: "{rounded.badge}"
+    padding: "0 5px"
+  instrument-plate:
+    backgroundColor: "{colors.plate}"
+    textColor: "{colors.instrument-white}"
+    rounded: "{rounded.plate}"
+    padding: "18px 22px"
+  placard:
+    backgroundColor: "transparent"
+    textColor: "{colors.text-secondary}"
+    typography: "{typography.placard}"
+    rounded: "{rounded.badge}"
+    padding: "3px 10px"
+  lamp:
+    backgroundColor: "#0D0F11"
+    textColor: "#5E656B"
+    typography: "{typography.placard}"
+    rounded: "{rounded.control}"
+    height: "38px"
 ---
 
-# Design System: DeFi Garden — Quiet
-
-<!-- Generated via /impeccable document, Scan mode, 2026-08-05. Source: style.css's
-     "Quiet design system — 225" token layer (rounds 1-2 of the design reset) PLUS
-     the committed direction in product-loop-kit/specs/225-round3-brief.md — the
-     human-approved SOTA-restraint bar that rounds 1-2 did not yet satisfy. Where
-     shipped code and the brief disagree, this file documents the BRIEF as
-     authority and calls out the gap explicitly (see "Gaps vs. shipped code" at
-     the end of each section, where one exists). This is the incumbent world for
-     refinement work, not a replacement proposal. -->
+# Design System: DeFi Garden — Night Instrument Panel
 
 ## Overview
 
-**Creative North Star: "The Quiet Ledger"**
+**Creative North Star: "Trust the instruments when you can't see outside."**
 
-DeFi Garden's analytics surface reads like a well-kept ledger, not a trading terminal: calm neutral
-grays carry almost everything, one blue is spent on exactly one decision per screen, and every number
-lines up in its column because the eye's job is to compare, not to decode. The product's trust
-positioning — "honest numbers beat exciting numbers" — is a visual doctrine here, not just a copy line:
-loud treatments (glow, pills around plain data, mixed-precision numerals, terminal-mono caps) read as
-performance, and performance is the thing this product is explicitly not selling. Confirmed visual
-rejections (human 2026-08-04/05, CLAUDE.md, round3-brief.md): neumorphism (stripped in rounds 1-2),
-glow box-shadows, scale-pop hovers, bounce easings, terminal mono-caps labels, and pills wrapped around
-plain data.
+The system is a small-aircraft instrument panel at night. Black plates hold instrument faces; white scales and numerals sit on near-black dials; a radium-green needle reads each value; amber and red appear only where a pilot would need caution. Every instrument is bound to one real number from CI-computed or live DefiLlama data, so the panel is a reading, never an illustration. It refuses both the hero-then-cards landing and the neon crypto dashboard.
 
-The system is flat and table-first. Containers (cards, panels) exist only where grouping content earns
-a border; everything else is plain text on the page background. Density is calm, not sparse: 8pt spacing
-throughout, one 64px row height for tabular data, one accent color reserved for the single primary
-action per view plus (sparingly) a headline metric.
+Density is cockpit density: a ranked list and a six-instrument panel share the first viewport, and nothing floats that does not have to. Depth is made from plate steps and hairlines, never from glow or soft shadow. Motion is mechanical: a damped needle swing when a reading changes, short colour transitions on controls, nothing that bounces or scales.
+
+This world is the design authority going forward (PRODUCT.md, 2026-09-27). It is currently built on the landing (bare `/`) only, which is dark-only and ignores the site theme toggle. See "Surfaces not yet migrated" at the end.
 
 **Key Characteristics:**
-- One accent (`#3B82F6` family) used on ≤10% of any screen: one primary action, already-selected filter
-  state. Never on secondary numbers, secondary links at rest, or decorative dots/badges.
-- Numerals are tabular (`font-variant-numeric: tabular-nums`) in the body font family — no monospace
-  skin anywhere in the product (round3-brief item 238, absorbed here).
-- Three text colors only: primary (`--ui-text`), secondary (`--ui-text-secondary`), and disabled/muted
-  (`--ui-text-muted`). No fourth tier.
-- Flat by default: no shadows at rest; the only "elevation" signal is a 1px border, and even that only
-  on containers that group unrelated content.
+- Dark-only panel: black plates, near-black instrument faces, white scales.
+- One luminous green for needles, normal-range arcs, lit "normal" lamps, the selected state and the single primary action.
+- Amber and red are reserved for caution and warning bands, and for the snapshot-data lamp.
+- One dial grammar for every round gauge (240° sweep, two-step bezel, graduated scale, digital readout).
+- Barlow Condensed for display, readouts and placards; Barlow for text; caps only on placards.
+- Hairline plates with four screws; no blur, no glow, no drop shadows at rest.
 
 ## Colors
 
-Two-color system in practice — one accent, one neutral ramp — because the product's honesty positioning
-argues against a decorative secondary/tertiary palette.
+A near-monochrome black-to-white instrument palette with one luminous accent and two caution colours that mean exactly what they mean on a panel.
 
 ### Primary
-- **Quiet Blue** (`#3B82F6`, dark-mode `#4C8DF6`): the ONE accent. Reserved for exactly one primary
-  action per view (a CTA button, a link's hover/focus state) and already-selected filter/category state.
-  **The One Voice Rule.** If more than one element on a screen is blue at rest (not hover, not
-  selected-state), the accent has been spent twice and one of them is wrong.
+- **Radium Green** (radium-green): the needle on every dial, the normal-range arc, the lit "Low" risk lamp, the list title placard, the rank and rating of a selected row, the active tab, link text in the list, the live-data dot, the flight-log fill, the MCP command text, and the filled "Open pool" action. **Radium Green Hover** (radium-green-hover) is the primary action's hover only. **Radium Green Soft** (radium-green-soft) is the fill behind an active tab; **Radium Green Line** (radium-green-line) is its border and the border of a lit green lamp.
+- **On Green** (on-green): text on the filled green action. Never use white on green.
+
+### Secondary
+- **Caution Amber** (caution-amber): amber dial arcs (score 40–55, liquidity 5–9), the lit "Med" lamp, a falling APY trend mark, the snapshot-data dot, and the flight-log target marker.
+- **Warning Red** (warning-red): red dial arcs (score below 40, liquidity below 5) and the lit "High" lamp. Nothing else.
 
 ### Neutral
-- **Paper** (`#F7F8FA`, dark `#0F1115`): page background.
-- **Surface** (`#FFFFFF`, dark `#161A21`): card/panel background, one step lighter than paper (dark:
-  one step lighter than page bg) so containers read as a distinct plane without a shadow.
-- **Surface Muted** (`#F1F3F7`, dark `#1C212A`): the "pressed"/grouped-control background — segmented
-  control tracks, muted chip backgrounds.
-- **Border** (`#E4E7EE`, dark `#262C36`): the default 1px container/divider line.
-- **Border Strong** (`#CBD2DF`, dark `#39414F`): hover-state border, and (round 3a) the deliberately
-  raised-contrast row-separator token in dark mode — a plain `border` divider is too faint against a
-  near-black background to read as a row boundary.
-- **Text** (`#10151F`, dark `#E8ECF3`): primary text, headline numerals, symbols.
-- **Text Secondary** (`#5A6478`, dark `#A2ABBB`): metadata lines, labels, non-headline numerals (TVL),
-  quiet links at rest.
-- **Text Muted** (`#8A93A6`, dark `#79839A`): placeholder text, disabled state.
+- **Panel** (panel): the page itself, the sticky header, the footer.
+- **Plate** (plate): every raised surface: list, instrument panel, flight-log plate, agent console.
+- **Plate Raised** (plate-raised): hover state of a row, the mobile menu sheet.
+- **Face** (face): instrument faces, the strip-gauge track, the command well. The darkest value, so dials read as recessed.
+- **Rule** (rule): the 1px hairline separating everything: plate borders, row dividers, header and section rules.
+- **Rule Strong** (rule-strong): outlines on controls, placards, chain badges, the brand ring.
+- **Instrument White** (instrument-white): headlines, titles, scale numerals, readouts, ticks, focus rings.
+- **Text Secondary** (text-secondary): lede, meta lines, nav links, sub-readouts, placard text.
+- **Text Muted** (text-muted): rank numbers, column headers, footnotes, rules copy, unselected counts.
 
 ### Named Rules
-**The No-Fourth-Tier Rule.** Every piece of text on an analytics screen is one of exactly three colors:
-primary, secondary, or muted. A component that wants a fourth shade should reuse secondary at a
-different weight instead of introducing a new color.
+**The Luminous-Is-Colour Rule.** "Luminous" means a saturated colour on black, never a blur. No `filter: blur`, no glowing `box-shadow`, no text-shadow halo on any needle, arc, lamp or button.
 
-**The Borders-Earn-It Rule.** A 1px border exists only where two visually distinct regions need a
-boundary a gap alone can't supply (a composed panel, a row separator). It never exists as decoration
-around a single number, label, or icon.
+**The Caution-Only Rule.** Amber and red appear only where the data means caution or warning (a band, a lit lamp, a falling trend, snapshot data). Never as decoration, never as a brand accent.
 
-### Gaps vs. shipped code
-Round-2 code still contains isolated `rgba(59, 130, 246, 0.1)`-style ad-hoc blue tints (pool-card hover
-pill backgrounds, `.pool-apy-preview` borders) outside the `--ui-accent*` token set — inherited from a
-pre-Quiet layer and mostly dead after round 3a's grid consolidation, but not yet swept from every
-surface (pool detail, planner). The brief's authority is the token set above; any literal `rgba(59,130,246,…)` found elsewhere is legacy, not a second source of truth.
+**The One Green Rule.** Green means "normal, selected, or go". Every green on screen is one of those three; there is no second accent.
 
 ## Typography
 
-**Body Font:** FKGroteskNeue, with Geist → Inter → system-ui fallbacks (`--font-family-base`).
-**Label/Mono Font:** none — the brief explicitly retires the monospace numeral skin (`--font-family-mono`
-still exists as a token for legacy callers but new work must not reach for it). Numerals get
-`font-variant-numeric: tabular-nums` on the BODY family, never a mono face.
+**Display Font:** Barlow Condensed 500/600 (with Barlow, system-ui)
+**Body Font:** Barlow 400/500/600 (with system-ui, -apple-system, Segoe UI)
+**Mono:** ui-monospace stack, used exactly once: the MCP install command.
 
-**Character:** A single grotesque sans across every weight and role — no serif, no mono, no display
-face. Hierarchy comes from size and weight, not typeface changes.
+**Character:** A condensed, engineered sans for everything an instrument would print (headlines, placards, scale numerals, readouts), paired with its regular-width sibling for reading text. Both loaded from Google Fonts.
 
 ### Hierarchy
-- **Title** (600, 16px, 1.3): section/panel headings ("Yields for USDC"). One size for this role at
-  every viewport — round 3a's own bug was a mobile media query silently bumping this to 18px.
-- **Body** (400, 14px, 1.4): default UI text, buttons, inputs.
-- **Metric** (600, 16px, tabular-nums): the one number per row/card that matters most (APY). Plain text,
-  never boxed.
-- **Metric secondary** (600, 14px, tabular-nums, secondary color): a supporting number (TVL) — same
-  numeral discipline, lower visual weight via color, not size.
-- **Label** (500, 12–13px): column headers, secondary metadata lines, sort-control text. Sentence case;
-  never uppercase, never letter-spaced like a badge.
+- **Display** (600, clamp(40px, 5vw, 68px), 0.96): the page headline only; narrows to clamp(34px, 9.5vw, 48px) below 900px.
+- **Headline** (600, clamp(30px, 3.4vw, 44px), 1.02): section titles below the deck (track record, agents, SEO block).
+- **Title** (600, 32px, 1.05): the selected pool's symbol on the instrument panel; 26px when narrow.
+- **Readout** (600, 23px, tabular): the digital value in each dial's lower face. Scale numerals use the same face at 16px; sub-readouts at 12.5px, 500, 0.04em tracking, secondary colour. Row scores (17px), row APY (18px), rank (15px) and the flight-log number (56px) use the same condensed tabular treatment.
+- **Placard** (600, 12.5px, 0.16em, uppercase): instrument labels, list title, lamp labels (15px, 0.14em), column headers (12px, 0.12em).
+- **Body** (400, 16px, 1.5): running text; the lede is 17px, secondary colour, max 58ch.
+- **Label** (500, 13px): meta lines, footnotes, chain badges (11.5px, 600), tab labels (13.5px, 500).
+- **Code** (400, 13px, 1.5): the MCP command, in green on the face colour.
 
 ### Named Rules
-**The Tabular Rule.** Any numeral that appears in a column with other numerals of the same kind gets
-`font-variant-numeric: tabular-nums` AND matching decimal precision — mixed precision inside one column
-(`4%`, `4.95%`, `3.5%`) breaks the alignment tabular-nums exists to provide. Fixed precision is chosen
-per column (APY: 2dp; currency: adaptive per `formatCurrency`'s existing magnitude rules, already
-consistent).
-**The Sentence-Case Rule.** No label, button, or column header is uppercase or letter-spaced as a
-badge. Case carries no semantic weight in this system; weight and color do.
+**The Placard Rule.** Uppercase exists only on instrument placards: gauge labels, the list title, lamp labels, column headers. Everything else, including buttons, tabs and headlines, is sentence case.
+
+**The Tabular Numerals Rule.** Every number that can change (score, APY, rank, TVL, counts, scale labels) is set in the condensed face with `tabular-nums`, so readings do not jitter as values update.
 
 ## Layout
 
-8pt spacing scale (`--space-1/2/4/8/12/16/20/24/32`); every gap, padding, and margin in new work is one
-of these steps, not an eyeballed value. Containers are centered with a 1200px max-width. Control heights
-come from four tokens only (`--ui-control-h-sm` 32px for icon-only/no-label chips, `--ui-control-h` 40px
-default, `--ui-control-h-lg` 48px hero-only) — a fifth ad-hoc height is a bug, not a variant.
+- **Container:** 1320px max width, 32px side padding; 16px below 900px.
+- **First viewport (desktop):** a two-column intro row (headline left, lede right, bottom-aligned), then the deck: ranked list at 5/12 and the instrument panel at 7/12, 16px gap. The deck height is clamped (560–660px) so list and panel fill the viewport together; the list scrolls inside its plate.
+- **Six-pack:** a 3×2 grid of instruments: DeFi score, APY now, 14-day forecast (top); depth, liquidity score, crash-risk annunciator (bottom). Two columns when narrow.
+- **Below the deck:** full-width sections separated by a top hairline, 72px vertical padding (48px narrow), each a two-column text + plate grid that stacks to one column when narrow.
+- **Breakpoints:** 1120px tightens nav and deck proportions; 1000px swaps the nav for a menu button; 900px is narrow mode; 380px tightens row columns.
 
-Responsive strategy: reflow, not shrink-in-place. A data table becomes a two-line stacked row under
-768px rather than compressing five columns into a narrower grid — column compression is what produced
-round 2's "squeezed" mobile rows.
+### Named Rules
+**The List-First Rule (narrow, ≤900px).** Below 900px the list is the page. There is no side panel: a tapped row expands its own instrument panel inline beneath it (`aria-expanded`), the screws are dropped, and the primary action goes full width. The list shows the top 10 with a "show all" control; the tabs become a single horizontally scrolling line with an edge fade.
+
+**The Shared Viewport Rule.** On desktop the ranked list and the reading of the selected pool are always visible together; selecting a row never navigates.
 
 ## Elevation & Depth
 
-Flat by default; no ambient shadows. `--ui-shadow-overlay` exists only for true overlays (dropdowns,
-modals) floating above the page, never for at-rest cards or buttons. Depth between plane and container
-is conveyed by a background-color step (surface vs. surface-muted vs. page bg) plus, where two regions
-truly need separating, a single 1px border — never both a background step AND a shadow AND a border on
-the same element.
+Flat by construction. Depth comes from three steps of darkness (face below plate, plate above panel, plate-raised for hover) and 1px hairlines, plus two physical details: a two-step bezel on every dial and four screws on the instrument plate. Nothing at rest carries a shadow.
+
+### Shadow Vocabulary
+- **Overlay** (`box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55)`): the mobile menu sheet, the only thing that floats.
+- **Fastener ring** (`box-shadow: 0 0 0 1px #07080A`): the dark ring around each screw head, which is a small radial-gradient disc with a slot.
+- **Lamp well** (`box-shadow: inset 0 0 0 1px #1A1D21`): the recessed hairline of an unlit annunciator lamp.
 
 ### Named Rules
-**The Flat-By-Default Rule.** Surfaces are flat at rest. The only state that may add elevation is an
-actual overlay (something that floats above other content); hover/press states get a background-color
-or 1px-transform change, never a new shadow.
+**The Plate-Step Rule.** To lift something, step its background (face → plate → plate-raised) and give it a hairline. Never a drop shadow, never a glow.
 
 ## Shapes
 
-Two radii cover the whole system: `--ui-radius-md` (12px) for any control with a text label (buttons,
-inputs, segmented-control tracks), `--ui-radius-pill` (999px) for icon-only buttons and every chip.
-`--ui-radius-lg` (16px) is reserved for panel/card containers — the "composed surface" scale, not a
-control scale. A table row inside such a panel carries no radius of its own; the panel's own radius (via
-`overflow: hidden`) is what rounds the corners of the first/last row.
+Machined, nearly square corners: plates at 6px, controls, lamps and buttons at 4px, placards and chain badges at 3px. Circles are reserved for the dials, screws, the brand ring and status dots. Every surface edge is a 1px hairline; placards and badges are outlined rather than filled.
 
 ## Components
 
 ### Buttons
-- **Shape:** pill (999px) for icon-only; 12px radius for any button with a text label.
-- **Primary:** accent-filled, white text, 40px height, 0 16px padding. One per view.
-- **Secondary / Ghost:** neutral background (surface or surface-muted), primary or secondary text color,
-  1px border. No blue at rest.
-- **Quiet link:** plain secondary-color text, no button chrome at all (no height/padding/radius/
-  background); accent color and/or underline appear ONLY on hover/focus.
-- **Hover / Focus:** background/border-color step, or (quiet link only) accent text color. No transform
-  scale, no shadow.
+- **Primary ("Open pool"):** the one filled-green element on the page: radium green, on-green text, Barlow 600 16px, 48px tall, 22px side padding, 4px corners, trailing arrow icon. Hover steps to radium-green-hover; active presses down 1px. Full width when narrow. **The One Action Rule.** Exactly one filled button exists per panel; everything else is outlined or text.
+- **Secondary (copy, language toggle, menu):** transparent with a rule-strong outline, 4px corners, 34–36px tall; hover brightens the text and the outline to text-muted; active presses 1px.
+- **Text action ("show all"):** full-width green text on the plate, 48px tall, separated by a hairline.
 
-### Chips / Segmented controls
-- **Style:** pill shape, `surface-muted` track background, `surface` (light) as the selected background
-  step. Selected state uses a **neutral** background/border/color step (`--ui-border-strong` /
-  `--color-text`) — NOT the accent — except for the category/filter chip row, where the human-approved
-  exception is the accent fill on an already-selected chip (the one place besides the primary CTA the
-  accent is allowed to appear at rest).
-- **State:** unselected chips are plain outline/neutral; selected reads via a bg/border step (or, for
-  category chips specifically, the accent).
+### Tabs
+Category filters above the list: outlined 32px pills with 4px corners, Barlow 500 13.5px, a condensed tabular count after the label. Active tab: green text, green-line border, green-soft fill, green count. `aria-pressed` carries state.
 
-### Cards / Containers ("composed panel")
-- **Corner Style:** 16px radius, `overflow: hidden` so children never bleed past the rounded corners.
-- **Background:** one step up from page background (surface vs. bg).
-- **Shadow Strategy:** none (see Elevation).
-- **Border:** 1px, `--ui-border` (light) / raised to `--ui-border-strong`-equivalent for anything acting
-  as a row-separator in dark mode.
-- **Internal Padding:** 16–20px for a header band; a data row inside the same panel uses 0 vertical
-  padding and a fixed height instead (rows are lines, not padded cards).
+### List rows
+A four-column grid (rank, pool, score, APY), min 56px tall, hairline between rows. Rank is two-digit, condensed and muted; the pool cell stacks symbol (600, 15.5px) over an outlined chain badge and the project name; score stacks value over its letter rating in green; APY is condensed 18px with a trend mark (green up, amber down, muted flat), white when the value is live, secondary when it is a snapshot. Hover steps to plate-raised; selected takes a dark green-tinted fill and a green rank.
 
-### Inputs / Fields
-- **Style:** `surface` background, `border-strong` 1px stroke, 12–16px radius depending on role (a
-  search bar uses the panel-adjacent 16px pill-ish radius already in code; a plain form field uses 12px).
-- **Focus:** border color → accent, plus the 2px offset + 4px accent focus ring (`--ui-focus-ring`) — no
-  glow.
+### Instrument plate
+The panel that reads the selected pool: plate background, hairline, 6px corners, four screws inset 9px from the corners. Head: symbol title, project · chain meta, and a source line with a green (live) or amber (snapshot) dot. Foot: the primary action and a muted note explaining what the green arcs mean.
 
-### Navigation / Tabs
-- **Style:** flat text tabs; active tab = accent text + accent underline. No pill background on tabs
-  (that language is reserved for chips/segmented controls, so tabs and chips read as two clearly
-  different affordances rather than the same pill language reused for two purposes).
+### Dial (signature)
+One grammar for all five round gauges, drawn in a 200×200 SVG:
+- **Sweep:** 240°, from −120° to +120°, zero at lower left.
+- **Bezel:** two steps, an outer ring (r 97, 2px stroke) and an inner step (r 91, 1px), around a face (r 89) in the face colour.
+- **Scale:** major ticks (2.2px, white) with condensed numerals inside them; four minor graduations between every pair of majors (1px, 50% opacity).
+- **Arcs:** 7px bands at r 77 in green, amber or red at 90% opacity. A band narrower than 5° is widened to a 5° minimum around its midpoint so it stays visible. Score dial: red 0–40, amber 40–55, green 55–100. APY dial: green 30-day band. Forecast dial: green p10–p90. Liquidity dial: red 0–5, amber 5–9, green 9–15. Depth dial is log-scaled from $10M to $100B with no arc.
+- **Needle:** green tapered pointer with a dark counterweight tail and a hub; it rotates with `transform 0.9s cubic-bezier(0.16, 1, 0.3, 1)` (a damped swing) when the reading changes. Under `prefers-reduced-motion` it jumps with no transition.
+- **Readout:** the digital value in the lower face, an optional sub-readout below, and the placard beneath the dial as its caption. Each dial is `role="img"` with an aria-label stating the value.
 
-### Table row (signature component)
-The grid results view's defining pattern (round 3a). One CSS grid row per pool: fixed icon column, a
-flexible name column (symbol + one plain secondary metadata line, no pill), then three fixed columns
-(APY, TVL, action) each right-aligned and tabular. No radius, no background, no shadow on the row itself
-— only a 1px bottom border shared with its neighbors, living inside one composed panel. Height is a
-single constant (64px desktop, ~72px stacked two-line on mobile) so the row height token, not row
-content, sets the rhythm.
+### Annunciator
+The crash-risk instrument is three stacked lamps (Low, Med, High) instead of a dial. Unlit lamps are dark wells with dim grey caps text; exactly one lamp is lit, in green, amber or red, as a tinted fill (12% of its colour) with a matching border. The flight-log verdict reuses the same lit lamp.
+
+### Placards
+Outlined, 3px-cornered caption plates under each instrument; condensed caps, 0.16em tracking, secondary colour. The list title is the same placard in green without a frame.
+
+### Strip gauge (track record)
+A horizontal scale on the face colour with a green fill for the hit rate, an amber target line, a white pointer, and condensed tick labels 0–100 below; a legend explains fill and target.
+
+### Navigation
+Sticky 56px header on the panel colour with a bottom hairline: brand (condensed 21px, leaf mark in a hairline circle), secondary-colour links that turn white on hover, an outlined language toggle. Below 1000px the links collapse into an outlined menu button and a floating sheet.
+
+### Focus
+Every focusable element gets a 2px instrument-white outline at 2px offset with 3px corners. Never removed, never recoloured.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** give numerals in the same column identical decimal precision AND `tabular-nums`.
-- **Do** use exactly one accent-colored element at rest per view (the primary action), plus
-  already-selected chip/tab state.
-- **Do** keep every row/line inside a composed panel border-only (no per-row shadow, radius, or fill);
-  the panel supplies the one border the whole group needs.
-- **Do** reuse one of the four control-height tokens and one of the two control-radius tokens for any
-  new interactive element.
+- **Do** bind every needle, arc, lamp and readout to a real number from CI or live data, and give each instrument a text equivalent (aria-label).
+- **Do** use the dial grammar exactly: 240° sweep, two-step bezel, four minor graduations per major, 5° minimum arc span, damped needle, no motion under reduced-motion.
+- **Do** keep one filled green action per panel ("Open pool") and make everything else outlined or text.
+- **Do** build depth from face / plate / plate-raised steps and 1px hairlines.
+- **Do** set every changing number in Barlow Condensed with tabular numerals.
+- **Do** keep caps on placards only.
+- **Do** go list-first below 900px: rows expand their panel inline, top 10 plus "show all".
 
 ### Don't:
-- **Don't** add a box-shadow glow to any control at rest or on hover (round3-brief ban, still binding).
-- **Don't** use `scale()` transforms on hover/press (banned "scale-pop"); press feedback is a 1px
-  translate or a background step only.
-- **Don't** render a label, chip, or header in uppercase with letter-spacing to fake a "badge" look —
-  sentence case carries this system's hierarchy.
-- **Don't** introduce a second pill/chip visual language for the same role (e.g., a filter chip, a nav
-  tab, and a sort control should not each invent their own selected-state treatment) — reuse the
-  chip/segmented-control or tab pattern already defined above rather than composing a third.
+- **Don't** make anything glow: no blur, no glow shadows, no text halos. Luminous is colour on black.
+- **Don't** draw a decorative gauge, fake needle, or placeholder reading; show an honest empty state instead.
+- **Don't** use amber or red for anything but caution and warning.
+- **Don't** add a second accent colour or a second filled button.
+- **Don't** use scale-pop hovers or bounce easings; controls press down 1px on active.
+- **Don't** add a light theme to this world's landing; it is dark-only.
+- **Don't** use monospace anywhere except a literal command to copy.
+
+## Surfaces not yet migrated
+
+Ground truth as of 2026-09-27: only the landing (bare `/`, `landing.js` + `landing-styles.css`, tokens `--ip-*` scoped to `html[data-app-mode="landing"]`) is built in this world. The other surfaces still render older systems and are to migrate to the instrument panel later. Their current styles are not the target and must not be copied into new work:
+
+- **Pool page and analytics app** (`?pool=`, `?token=`, `?chain=` and every other parameterized URL): the "247 certificate" world (security-printing grammar, Besley + Public Sans, green safety-paper) scoped by the second contract comment in `home.html` and implemented in `pool-detail-styles.css`, over the legacy "Quiet" `--ui-*` tokens in `style.css`.
+- **Garden Planner** (`plan.html`): its own styles (`planner-styles.css`) on the Quiet tokens.

@@ -180,7 +180,7 @@ async function main() {
     for (const viewport of VIEWPORTS) {
       await test('bare / renders the underwriting landing at ' + viewport.width + 'px', async () => {
         const { page, errors } = await loadAndCollectErrors(browser, '/', viewport);
-        await page.waitForSelector('[data-testid="landing-underwriting-card"]', { timeout: 10000 });
+        await page.waitForSelector('[data-testid="landing-row"]', { timeout: 10000 });
         const plannerMounted = await page.locator('#planner-root .gp-app').count();
         await page.close();
         if (plannerMounted !== 0) throw new Error('planner mounted on bare / (expected only the landing)');

@@ -4260,14 +4260,11 @@ html[data-app-mode="landing"] .seo-hub-links {
 .seo-content th { color: var(--ui-text-secondary); font-weight: 600; font-size: 0.85rem; }
 .seo-content td { color: var(--ui-text); font-variant-numeric: tabular-nums; }
 
-/* ── Landing: one vertical page ──────────────────────────────────────── */
-/* The landing is a single document at every width: the underwriting hero,
-   then #seo-content (moved by landing.js into .landing-main, after the hero),
-   then the in-flow footer. The React header stays pinned to the top; the
-   non-landing mounts stay out of flow. Crawlers get every word in the served
-   HTML; users get native vertical scrolling. */
-
-/* plan.html keeps the quiet document column above. */
+/* ── Landing (instrument panel, 2026-09-27) ──────────────────────────── */
+/* Layout and the dark-only night-panel world live in landing-styles.css.
+   Here: the non-landing mounts stay out of flow, and the root is the panel's
+   own black so overscroll and the moment before React mounts never flash the
+   light theme (the landing ignores data-theme by design). */
 html[data-app-mode="landing"] body > #root,
 html[data-app-mode="landing"] body > #planner-root,
 html[data-app-mode="landing"] body > .seo-hub-links {
@@ -4278,96 +4275,8 @@ html[data-app-mode="landing"] body > .seo-hub-links {
 html[data-app-mode="landing"],
 html[data-app-mode="landing"] body {
   overflow-x: hidden;
-}
-html[data-app-mode="landing"] .landing-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 60;
-}
-/* The menu opens under the pinned header at any scroll position. */
-html[data-app-mode="landing"] .landing-mobile-nav {
-  position: fixed;
-  top: 64px;
-}
-html[data-app-mode="landing"] .landing-app {
-  padding-top: 72px;
-  box-sizing: border-box;
-}
-html[data-app-mode="landing"] .landing-main {
-  display: block;
-  width: 100%;
-  padding: 0;
-}
-html[data-app-mode="landing"] .landing-section-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 24px 16px 40px;
-}
-html[data-app-mode="landing"] .app-footer {
-  position: static !important;
-  display: block !important;
-  z-index: 1;
-  padding: 24px 16px;
-  /* Beats the mobile .app-footer 130px clearance, which exists for the
-     analytics app's fixed bottom search bar — the landing has none. */
-  padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)) !important;
-  border-top: 1px solid var(--ui-border);
-  background: var(--ui-bg);
-  text-align: center;
-}
-html[data-app-mode="landing"] .seo-content {
-  max-width: none;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border-top: 1px solid var(--ui-border);
-  background: var(--ui-surface-muted);
-  padding: 56px 20px;
-  box-sizing: border-box;
-}
-@media (min-width: 769px) {
-  html[data-app-mode="landing"] .landing-underwriting-wrapper {
-    padding: 32px 48px 48px;
-  }
-  html[data-app-mode="landing"] .seo-content {
-    padding: 72px 32px;
-  }
-}
-/* Desktop: two full-screen sections — hero, then rates — with mandatory
-   vertical snapping (wheel/PageDown/Space or the hero's next-section button
-   move one section). The footer is a third, end-aligned snap point so it
-   stays reachable. The app's top padding equals the pinned header, so both
-   sections fill exactly the space under it. Short or narrow viewports keep a
-   plain scroll: content taller than the screen must never be trapped. */
-@media (min-width: 769px) and (min-height: 640px) {
-  html[data-app-mode="landing"] {
-    --landing-header-h: 56px;
-    scroll-snap-type: y mandatory;
-    scroll-padding-top: var(--landing-header-h);
-  }
-  html[data-app-mode="landing"] .landing-app {
-    padding-top: var(--landing-header-h);
-  }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper,
-  html[data-app-mode="landing"] .seo-content {
-    min-height: calc(100svh - var(--landing-header-h));
-    justify-content: center;
-    scroll-snap-align: start;
-  }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper {
-    position: relative;
-  }
-  html[data-app-mode="landing"] .app-footer {
-    scroll-snap-align: end;
-  }
-}
-@media (max-width: 768px), (max-height: 639px) {
-  html[data-app-mode="landing"] .landing-next-section { display: none; }
+  background: #0B0D0F;
+  color-scheme: dark;
 }
 
 /* Inner wrapper: centered column, same in every layout. */

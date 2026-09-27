@@ -1,22 +1,21 @@
 #!/usr/bin/env node
 
 /**
- * Landing hero data slice.
+ * Landing leaderboard data slice.
  *
- * The landing's underwriting card shows a short curated list of pools with their
- * DeFi Score and 14d forecast. Those fields only exist in data/pools-snapshot.json
- * (~11 MB, written by generate-pools-snapshot.js and enriched in place by
- * compute-kpis.js + compute-forecasts.py), which is far too heavy for the landing
- * route. This script extracts the curated pools into data/landing-pools.json
- * (a few KB). Run it AFTER compute-forecasts.py.
+ * The landing ranks the best-scored pools and reads each one on an instrument panel (DeFi Score,
+ * APY with its 30-day band, 14d forecast, depth, exit liquidity, crash risk). Those fields only
+ * exist in data/pools-snapshot.json (~11 MB, written by generate-pools-snapshot.js and enriched in
+ * place by compute-kpis.js + compute-forecasts.py), far too heavy for the landing route. This
+ * script extracts the top LEADERBOARD_SIZE eligible pools into data/landing-pools.json (tens of
+ * KB). Run it AFTER compute-forecasts.py.
  *
- * APY/TVL here are the snapshot values; landing.js overlays live values from
- * yields.llama.fi/chart/<pool> and only falls back to these when that fails.
- * Pools missing from the snapshot, or without a defiScore, are omitted — the
- * landing never renders a score it cannot source.
+ * Eligibility: a DeFi Score and a forecast, TVL >= LEADERBOARD_MIN_TVL, and a total APY above zero
+ * and within the APY sanity rail. Ranking: score desc, ties by TVL desc. APY/TVL here are snapshot
+ * values; landing.js overlays live values for the visible rows and re-applies the trust rails.
  *
- * Freshness discipline (081/083 pattern): nothing is written when the output is
- * identical to what's on disk modulo `generatedAt`.
+ * Freshness discipline (081/083 pattern): nothing is written when the output is identical to what's
+ * on disk modulo `generatedAt`.
  *
  * Usage:
  *   node generate-landing-pools.js                 # read ./data/pools-snapshot.json, write ./data
@@ -25,50 +24,82 @@
 
 const fs = require('fs');
 const path = require('path');
+const TRUST_RAILS = require('./trust-rails.js');
 
-// Display order of the landing card's pool tabs.
-const LANDING_POOL_IDS = [
-  'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859', // USDY · ondo-yield-assets · Ethereum
-  'd8c4eff5-c8a9-46fc-a888-057c4c668e72', // SUSDS · sky-lending · Ethereum
-  '43641cf5-a92e-416b-bce9-27113d3c0db6', // USDC · maple · Ethereum
-  '747c1d2a-c668-4682-b9f9-296708a3dd90'  // STETH · lido · Ethereum
-];
+const LEADERBOARD_SIZE = 50;
+const LEADERBOARD_MIN_TVL = 10000000;
 
-function buildLandingPools(snapshot, ids) {
-  const byId = new Map();
-  (snapshot.pools || []).forEach(p => { if (p && p.pool) byId.set(p.pool, p); });
-  const pools = [];
-  ids.forEach(id => {
-    const p = byId.get(id);
-    if (!p || !p.defiScore || typeof p.defiScore.score !== 'number') return;
-    pools.push({
+// Mirrors app.js STABLE_SYMBOLS (no module system links the browser scripts).
+const STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'TUSD', 'USDP', 'GUSD',
+  'LUSD', 'USDD', 'PYUSD', 'USDE', 'SUSD', 'CRVUSD', 'GHO', 'USD0', 'FDUSD', 'USDB',
+  'BUSD', 'MIM', 'DOLA', 'USDX', 'EURC', 'EURS', 'RLUSD', 'USDL', 'DEUSD', 'SDAI'];
+const ETH_SYMBOLS = ['ETH', 'WETH', 'STETH', 'WSTETH', 'RETH', 'CBETH', 'WEETH', 'EETH', 'EZETH',
+  'RSETH', 'METH', 'SFRXETH', 'FRXETH', 'OSETH', 'ETHX', 'SWETH', 'ANKRETH', 'PUFETH', 'WBETH', 'LSETH'];
+const BTC_SYMBOLS = ['BTC', 'WBTC', 'CBBTC', 'TBTC', 'LBTC', 'SOLVBTC', 'FBTC', 'EBTC', 'UNIBTC',
+  'PUMPBTC', 'BTCB', 'SBTC', 'RENBTC', 'XSOLVBTC'];
+
+function categoryOf(symbol) {
+  const parts = String(symbol || '').toUpperCase().split(/[-_\/\s+]/).map(s => s.trim()).filter(Boolean);
+  if (!parts.length) return 'other';
+  const all = list => parts.every(p => list.indexOf(p) !== -1);
+  if (all(STABLE_SYMBOLS)) return 'stable';
+  if (all(ETH_SYMBOLS)) return 'eth';
+  if (all(BTC_SYMBOLS)) return 'btc';
+  return 'other';
+}
+
+function totalApy(p) {
+  return Math.round(((Number(p.apyBase) || 0) + (Number(p.apyReward) || 0)) * 100) / 100;
+}
+
+function isEligible(p) {
+  if (!p || !p.defiScore || typeof p.defiScore.score !== 'number' || !p.forecast) return false;
+  const apy = totalApy(p);
+  return Number(p.tvlUsd) >= LEADERBOARD_MIN_TVL && apy > 0 && apy <= TRUST_RAILS.APY_SANITY_LIMIT;
+}
+
+function buildLeaderboard(snapshot, opts) {
+  const size = (opts && opts.size) || LEADERBOARD_SIZE;
+  const eligible = (snapshot.pools || []).filter(isEligible);
+  eligible.sort((a, b) => (b.defiScore.score - a.defiScore.score) || (b.tvlUsd - a.tvlUsd));
+  const pools = eligible.slice(0, size).map((p, i) => {
+    const f = p.forecast;
+    const k = p.kpis || {};
+    return {
+      rank: i + 1,
       pool: p.pool,
       symbol: p.symbol,
       project: p.project,
       chain: p.chain,
+      category: categoryOf(p.symbol),
       tvlUsd: p.tvlUsd,
-      apy: Math.round(((Number(p.apyBase) || 0) + (Number(p.apyReward) || 0)) * 100) / 100,
-      defiScore: p.defiScore,
-      forecast: p.forecast || null
-    });
+      apy: totalApy(p),
+      band30d: (typeof k.apyMean === 'number' && typeof k.apyStdev === 'number')
+        ? { mean: k.apyMean, stdev: k.apyStdev } : null,
+      defiScore: { score: p.defiScore.score, rating: p.defiScore.rating, breakdown: p.defiScore.breakdown },
+      forecast: { p10: f.p10, p50: f.p50, p90: f.p90, crashRisk: f.crashRisk, trajectory: f.trajectory || [] }
+    };
   });
-  return { schemaVersion: 1, generatedAt: snapshot.generatedAt, pools: pools };
+  return {
+    schemaVersion: 2,
+    generatedAt: snapshot.generatedAt,
+    minTvlUsd: LEADERBOARD_MIN_TVL,
+    eligibleCount: eligible.length,
+    pools: pools
+  };
 }
 
 function main() {
   const args = process.argv.slice(2);
   const outIdx = args.indexOf('--out');
   const outDir = outIdx >= 0 ? args[outIdx + 1] : path.join(__dirname, 'data');
-  const snapshotPath = path.join(__dirname, 'data', 'pools-snapshot.json');
-  const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
-  const result = buildLandingPools(snapshot, LANDING_POOL_IDS);
+  const snapshot = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'pools-snapshot.json'), 'utf8'));
+  const result = buildLeaderboard(snapshot);
   if (result.pools.length === 0) {
-    console.error('generate-landing-pools: no curated pool found in snapshot — refusing to write an empty file');
+    console.error('generate-landing-pools: no eligible pool in snapshot — refusing to write an empty leaderboard');
     process.exit(1);
   }
-
   const outPath = path.join(outDir, 'landing-pools.json');
-  const next = JSON.stringify(result, null, 2) + '\n';
   if (fs.existsSync(outPath)) {
     const prev = JSON.parse(fs.readFileSync(outPath, 'utf8'));
     const strip = o => JSON.stringify(Object.assign({}, o, { generatedAt: null }));
@@ -78,10 +109,10 @@ function main() {
     }
   }
   fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(outPath, next);
-  console.log('generate-landing-pools: wrote ' + result.pools.length + ' pools to ' + outPath);
+  fs.writeFileSync(outPath, JSON.stringify(result) + '\n');
+  console.log('generate-landing-pools: wrote ' + result.pools.length + ' of ' + result.eligibleCount + ' eligible pools to ' + outPath);
 }
 
 if (require.main === module) main();
 
-module.exports = { buildLandingPools, LANDING_POOL_IDS };
+module.exports = { buildLeaderboard, categoryOf, isEligible, LEADERBOARD_SIZE, LEADERBOARD_MIN_TVL };
