@@ -4,14 +4,23 @@ Guidance for Claude Code when working in this repository.
 
 ## What this product is
 
-DeFi Garden (www.defi.garden) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with two faces:
+DeFi Garden (www.defi.garden) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with three faces:
 
-1. **Garden Planner** (the DEFAULT feature, bare `/` and `plan.html`) — a goal-first, conversational, generative-UI savings planner for the ICP below.
-2. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, etc.) — the original yield search/grid, reached from the planner via the header icon.
+1. **Underwriting landing** (bare `/`, `__APP_MODE === 'landing'`, `landing.js`) — ONE page: the "DeFi yields, predictively underwritten." hero with a live underwriting card, then the static `#seo-content` rates section, then the footer. Desktop (≥769px wide, ≥640px tall) snaps between the two full-screen sections (`scroll-snap-type: y mandatory`); mobile is a plain vertical scroll with the full card inside the first viewport. The old 3-panel horizontal track and the virtual-card panel are gone (2026-09-27); the card funnel is a nav link (`/for/claude`).
+2. **Garden Planner** (`plan.html`, and planner share URLs like `/?goal=`) — the goal-first savings planner.
+3. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, `/?app=1`, etc.) — the yield search/grid and the pool Decision Terminal.
+
+**Landing card data**: pool list, DeFi Score and 14d forecast come from `data/landing-pools.json` (a few KB, written by `generate-landing-pools.js` from `data/pools-snapshot.json` in CI after `compute-forecasts.py`; the curated pool IDs live in that script). APY/TVL are overlaid live from `yields.llama.fi/chart/<pool>` and fall back to the labelled snapshot values. Trust rails (`window.TRUST_RAILS`) are applied to whatever is displayed — anomalous or sub-floor pools never render. Never hard-code numbers in the hero.
 
 An inline IA router in `home.html` (`window.__APP_MODE`) decides which experience loads (this doc previously called it `index.html` — there is no `index.html` file; `home.html` is what `vercel.json` rewrites `/` to). **Existing parameterized URLs are sacred — thousands of sitemap URLs depend on them serving the analytics app unchanged.**
 
-## ICP and product direction (decided 2026-06, harness this)
+## Product direction — PIVOT (decided 2026-09-27, supersedes the 2026-06 ICP below)
+
+- The predictive underwriting product (DeFi Score, 14d forecasts, Decision Terminal) is now the product and the default landing. The 2026-06 ICP section below (cautious retail saver, planner-as-default) is HISTORICAL context for the planner surface, not the steering direction.
+- What carries over unchanged: the trust rails, the honesty rules, the design system, and the hard rules. "Honest numbers beat exciting numbers" applies to scores and forecasts too — every score shown must be sourced from the CI-computed data, never typed in.
+- Not yet decided (ask before assuming): the new ICP wording, pricing, and whether planner copy changes.
+
+## ICP and product direction (decided 2026-06 — HISTORICAL since the 2026-09-27 pivot above; still governs the planner surface)
 
 - **ICP**: the cautious retail saver who thinks in monthly deposits and life goals, NOT in APY/pools. Not the degen (they use DefiLlama directly), not the analyst (LlamaAI serves them at $490/yr). Trust is the conversion currency; the default view is the product; honest numbers beat exciting numbers.
 - **Trust rails are the moat**: every displayed number derives from live DefiLlama pool data through sanity filters. `APY_SANITY_LIMIT = 1000%` (anomalous pools can NEVER enter a plan; in the analytics app they are demoted + ⚠-flagged + forced High risk). `DEFAULT_MIN_TVL = $100K` everywhere. The conversation layer is scripted/deterministic (a provider interface exists for a future LLM) — an LLM may narrate, never produce numbers.

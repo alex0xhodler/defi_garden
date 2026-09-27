@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-27T07:36:37.557Z",
+  "pools": [
+    {
+      "pool": "ac61ee82-2fe4-4f9b-a9cd-7fb33f598859",
+      "symbol": "USDY",
+      "project": "ondo-yield-assets",
+      "chain": "Ethereum",
+      "tvlUsd": 1192521516,
+      "apy": 3.59,
+      "defiScore": {
+        "score": 92.3,
+        "rating": "AAA",
+        "breakdown": {
+          "stability": 35,
+          "sustainability": 22,
+          "stickiness": 21.2,
+          "liquidity": 14.1
+        }
+      },
+      "forecast": {
+        "horizonDays": 14,
+        "p10": 3.6,
+        "p50": 3.6,
+        "p90": 3.61,
+        "organicApy": 3.6,
+        "rewardApy": 0,
+        "predictedTvlUsd": 1194708824,
+        "predictedTvlDelta": 0.0018,
+        "forwardDelta": 0.01,
+        "crashRisk": "LOW",
+        "skew": 0,
+        "trajectory": [
+          3.59,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.61,
+          3.61,
+          3.61,
+          3.61,
+          3.61,
+          3.61,
+          3.62
+        ]
+      }
+    },
+    {
+      "pool": "d8c4eff5-c8a9-46fc-a888-057c4c668e72",
+      "symbol": "SUSDS",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "tvlUsd": 4464740807,
+      "apy": 3.6,
+      "defiScore": {
+        "score": 92.1,
+        "rating": "AAA",
+        "breakdown": {
+          "stability": 34.8,
+          "sustainability": 22,
+          "stickiness": 21.2,
+          "liquidity": 14.1
+        }
+      },
+      "forecast": {
+        "horizonDays": 14,
+        "p10": 3.55,
+        "p50": 3.6,
+        "p90": 3.6,
+        "organicApy": 3.6,
+        "rewardApy": 0,
+        "predictedTvlUsd": 4461931705,
+        "predictedTvlDelta": -0.0006,
+        "forwardDelta": 0,
+        "crashRisk": "LOW",
+        "skew": 0,
+        "trajectory": [
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6,
+          3.6
+        ]
+      }
+    },
+    {
+      "pool": "43641cf5-a92e-416b-bce9-27113d3c0db6",
+      "symbol": "USDC",
+      "project": "maple",
+      "chain": "Ethereum",
+      "tvlUsd": 2923261064,
+      "apy": 5.17,
+      "defiScore": {
+        "score": 91,
+        "rating": "AAA",
+        "breakdown": {
+          "stability": 34.3,
+          "sustainability": 21.8,
+          "stickiness": 20.8,
+          "liquidity": 14.1
+        }
+      },
+      "forecast": {
+        "horizonDays": 14,
+        "p10": 4.99,
+        "p50": 5.07,
+        "p90": 5.25,
+        "organicApy": 5.07,
+        "rewardApy": 0,
+        "predictedTvlUsd": 2860130310,
+        "predictedTvlDelta": -0.0216,
+        "forwardDelta": -0.09,
+        "crashRisk": "LOW",
+        "skew": 0.33,
+        "trajectory": [
+          5.14,
+          5.12,
+          5.1,
+          5.09,
+          5.08,
+          5.07,
+          5.06,
+          5.06,
+          5.06,
+          5.05,
+          5.06,
+          5.05,
+          5.05,
+          5.05
+        ]
+      }
+    },
+    {
+      "pool": "747c1d2a-c668-4682-b9f9-296708a3dd90",
+      "symbol": "STETH",
+      "project": "lido",
+      "chain": "Ethereum",
+      "tvlUsd": 26541173103,
+      "apy": 2.2,
+      "defiScore": {
+        "score": 91.5,
+        "rating": "AAA",
+        "breakdown": {
+          "stability": 34.3,
+          "sustainability": 22.1,
+          "stickiness": 21,
+          "liquidity": 14.1
+        }
+      },
+      "forecast": {
+        "horizonDays": 14,
+        "p10": 2.19,
+        "p50": 2.24,
+        "p90": 2.31,
+        "organicApy": 2.24,
+        "rewardApy": 0,
+        "predictedTvlUsd": 26192693710,
+        "predictedTvlDelta": -0.0131,
+        "forwardDelta": 0.04,
+        "crashRisk": "LOW",
+        "skew": 0,
+        "trajectory": [
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.24,
+          2.25,
+          2.24,
+          2.24,
+          2.24,
+          2.24
+        ]
+      }
+    }
+  ]
+}

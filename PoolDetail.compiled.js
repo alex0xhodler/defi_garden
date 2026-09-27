@@ -2494,10 +2494,11 @@ function PoolDetail({
     style: {
       color: heroStatusColor
     }
-  }, heroStatusLabel))))),
-  // Action band — closes the hero panel. ONE primary action; the protocol
-  // link reads as the clear secondary (quiet-link treatment via CSS,
-  // markup/events/payloads untouched).
+  }, heroStatusLabel)))),
+  // Action row — inside the hero column, straight after the APY's honesty
+  // qualifier (CSS order), so both actions sit side by side in the first
+  // viewport on every ?pool= page. Primary = Spend yield; secondary = the
+  // protocol link (markup/events/payloads unchanged).
   React.createElement('div', {
     className: 'pool-hero-actions'
   }, React.createElement('div', {
@@ -2537,7 +2538,7 @@ function PoolDetail({
   // no protocol URL resolves at all (spec 182 leg B/D).
   React.createElement('div', {
     className: 'pool-hero-action-secondary'
-  }, ...renderProtocolCtaBlock('hero')))),
+  }, ...renderProtocolCtaBlock('hero'))))),
   // Engraved rule between hero and Institutional Decision Terminal
   React.createElement('div', {
     className: 'cert-divider',

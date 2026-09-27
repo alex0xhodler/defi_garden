@@ -10,6 +10,7 @@ on:
     paths:
       - 'generate-sitemap.js'
       - 'generate-pools-snapshot.js'
+      - 'generate-landing-pools.js'
       - 'generate-protocol-urls.js'
       - 'compute-kpis.js'
       - 'generate-token-pages.js'
@@ -97,6 +98,10 @@ jobs:
         curl -LsSf https://astral.sh/uv/install.sh | sh
         $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 0
         echo "✅ TimesFM forecasts & DeFi scores completed"
+
+    - name: Generate landing hero data (curated pools + DeFi Score)
+      run: |
+        node generate-landing-pools.js
 
     - name: Generate token landing pages
       run: |
