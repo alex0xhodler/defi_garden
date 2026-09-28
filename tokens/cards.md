@@ -1,31 +1,31 @@
 # CARDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest CARDS yield right now is 89.39% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARDS yield right now is 250.29% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 89.39% | $3.52M |
-| [raydium-amm →](https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token) | Solana | 290.48% | $102.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 123.33% | $3.46M |
+| [raydium-amm →](https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token) | Solana | 250.29% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CARDS's lower-variability candidates are raydium-amm (Solana), 89.39% APY, $3.52M TVL, https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token; raydium-amm (Solana), 290.48% APY, $102.9K TVL, https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARDS's lower-variability candidates are raydium-amm (Solana), 123.33% APY, $3.46M TVL, https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token; raydium-amm (Solana), 250.29% APY, $101.3K TVL, https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 89.39% | $3.52M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token) | Solana | 290.48% | $102.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 123.33% | $3.46M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token) | Solana | 250.29% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CARDS shows up in 2 pools here, with rates from 89.39% to 290.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CARDS shows up in 2 pools here, with rates from 123.33% to 250.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 169.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 172.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 89.39% | 155.50% | Base rate |
-| raydium-amm | 290.48% | 183.66% | Base rate |
+| raydium-amm | 123.33% | 156.41% | Base rate |
+| raydium-amm | 250.29% | 189.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CARDS yield today?
 
-89.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+250.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CARDS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.62M in total.
+2 live pools clear this page's $100K TVL floor, $3.56M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CARDS pools have the most stable APY history?
 
-Based on APY history only, CARDS's lower-variability candidates are raydium-amm (Solana), 89.39% APY, $3.52M TVL, https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token; raydium-amm (Solana), 290.48% APY, $102.9K TVL, https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARDS's lower-variability candidates are raydium-amm (Solana), 123.33% APY, $3.46M TVL, https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token; raydium-amm (Solana), 250.29% APY, $101.3K TVL, https://www.defi.garden/?pool=8592cef9-efea-492b-8b9a-e46d640d871e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, CARDS's lower-variability candidates are raydium-amm 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

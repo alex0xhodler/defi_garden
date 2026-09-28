@@ -1,12 +1,12 @@
 # AAPLB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest AAPLB yield right now is 15.19% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPLB yield right now is 22.45% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 15.19% | $112K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7412e390-87f6-5edb-af13-5a71ec5a7eb0&src=seo_token) | BSC | 22.45% | $112.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAPLB yield today?
 
-15.19% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+22.45% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many AAPLB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112K in total.
+1 live pool clear this page's $100K TVL floor, $112.8K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank AAPLB pools. This view covers
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

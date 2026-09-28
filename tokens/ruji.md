@@ -1,12 +1,12 @@
 # RUJI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest RUJI yield right now is 1.72% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUJI yield right now is 1.36% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_token) | Thorchain | 1.72% | $8.64M |
+| [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_token) | Thorchain | 1.36% | $8.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUJI yield today?
 
-1.72% APY on rujira-staking (Thorchain), based on live DefiLlama data.
+1.36% APY on rujira-staking (Thorchain), based on live DefiLlama data.
 
 ### How many RUJI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.64M in total.
+1 live pool clear this page's $100K TVL floor, $8.38M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RUJI pools. This view covers 
 
 - [Thorchain](https://www.defi.garden/chains/thorchain)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

@@ -1,12 +1,12 @@
 # WHOODX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest WHOODX yield right now is 0.17% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHOODX yield right now is 0.05% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 0.17% | $129.8K |
+| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 0.05% | $129.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHOODX yield today?
 
-0.17% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.05% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WHOODX pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WHOODX pools. This view cover
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

@@ -1,40 +1,40 @@
 # WYLDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest WYLDS yield right now is 3.59% on kamino-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WYLDS yield right now is 3.74% on kamino-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.53% | $3.05M |
-| [kamino-lend →](https://www.defi.garden/?pool=d8d785e7-ce07-5d4f-9e86-7852807144ed&src=seo_token) | Solana | 3.59% | $3M |
-| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.53% | $531.7K |
+| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.53% | $2.76M |
+| [kamino-lend →](https://www.defi.garden/?pool=d8d785e7-ce07-5d4f-9e86-7852807144ed&src=seo_token) | Solana | 3.74% | $2.7M |
+| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.53% | $531.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WYLDS's lower-variability candidates are hastra (Solana), 3.53% APY, $3.05M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token; hastra (Ethereum), 3.53% APY, $531.7K TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WYLDS's lower-variability candidates are hastra (Solana), 3.53% APY, $2.76M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token; hastra (Ethereum), 3.53% APY, $531.6K TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.53% | $3.05M |
-| 2 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.53% | $531.7K |
+| 1 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.53% | $2.76M |
+| 2 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token) | Ethereum | 3.53% | $531.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WYLDS shows up in 3 pools here, with rates from 3.53% to 3.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WYLDS shows up in 3 pools here, with rates from 3.53% to 3.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hastra | 3.53% | 3.36% | Base rate |
-| kamino-lend | 3.59% | 2.97% | Base rate |
-| hastra | 3.53% | 3.36% | Base rate |
+| hastra | 3.53% | 3.37% | Base rate |
+| kamino-lend | 3.74% | 3.16% | Base rate |
+| hastra | 3.53% | 3.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WYLDS yield today?
 
-3.59% APY on kamino-lend (Solana), based on live DefiLlama data.
+3.74% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many WYLDS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $6.58M in total.
+3 live pools clear this page's $100K TVL floor, $5.99M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WYLDS pools have the most stable APY history?
 
-Based on APY history only, WYLDS's lower-variability candidates are hastra (Solana), 3.53% APY, $3.05M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token; hastra (Ethereum), 3.53% APY, $531.7K TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WYLDS's lower-variability candidates are hastra (Solana), 3.53% APY, $2.76M TVL, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token; hastra (Ethereum), 3.53% APY, $531.6K TVL, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, WYLDS's lower-variability candidates are hastra (Sola
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

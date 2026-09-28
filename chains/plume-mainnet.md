@@ -4,11 +4,11 @@ The highest honest Plume Mainnet yield right now is 11.50% on plume-vaults (Plum
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 11.19% | $108.59M |
-| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.16% | $26.96M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 11.44% | $110.58M |
+| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.17% | $26.96M |
 | USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_chain) | 4.38% | $16.97M |
-| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 8.68% | $12.4M |
-| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84&src=seo_chain) | 1.88% | $10.8M |
+| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 9.80% | $12.42M |
+| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84&src=seo_chain) | 2.78% | $10.8M |
 | NAXI | [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_chain) | 11.50% | $5.51M |
 | NTBILL | [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_chain) | 3.57% | $4M |
 | USTB | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81&src=seo_chain) | 3.31% | $3.46M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plume Mainnet pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $221.84M in total.
+16 live pools clear this page's $100K TVL floor, $223.85M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NTBILL](https://www.defi.garden/tokens/ntbill)
 - [USTB](https://www.defi.garden/tokens/ustb)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

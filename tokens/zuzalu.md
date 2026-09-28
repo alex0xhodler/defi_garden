@@ -1,12 +1,12 @@
 # ZUZALU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest ZUZALU yield right now is 3.55% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8c594382-1185-4bdc-ba42-751c6705b9ca&src=seo_token) | Base | 3.55% | $1.09M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8c594382-1185-4bdc-ba42-751c6705b9ca&src=seo_token) | Base | 3.55% | $1.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZUZALU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.09M in total.
+1 live pool clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ZUZALU pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

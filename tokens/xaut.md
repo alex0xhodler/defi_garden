@@ -1,42 +1,42 @@
 # XAUT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest XAUT yield right now is 1.52% on lista-lending (BSC), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAUT yield right now is 8.09% on uniswap-v4 (Ethereum), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 1.52% | $6.41M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.63% | $5.49M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 0.46% | $3.22M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.07% | $2.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 0.83% | $1.18M |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 1.52% | $6.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.80% | $5.31M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.02% | $3.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 1.43% | $3.14M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 8.09% | $2.76M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.38% | $2.2M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.20% | $1.15M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ca452014-2321-5b3d-8d6f-1af2d0475674&src=seo_token) | Ethereum | 0.61% | $852.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4abaf90d-4f99-4e34-aea8-3ffafb7475c7&src=seo_token) | Ethereum | 0.01% | $542.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=84614aba-7e06-4b6c-85b9-6189d2fcf807&src=seo_token) | Ethereum | 11.18% | $525.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XAUT's lower-variability candidates are uniswap-v3 (Ethereum), 0.63% APY, $5.49M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.07% APY, $2.26M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; lista-lending (BSC), 1.52% APY, $6.41M TVL, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token; uniswap-v3 (Ethereum), 0.83% APY, $1.18M TVL, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $542.1K TVL, https://www.defi.garden/?pool=4abaf90d-4f99-4e34-aea8-3ffafb7475c7&src=seo_token; uniswap-v3 (Ethereum), 0.46% APY, $3.22M TVL, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token; uniswap-v4 (Ethereum), 11.18% APY, $525.8K TVL, https://www.defi.garden/?pool=84614aba-7e06-4b6c-85b9-6189d2fcf807&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $3.26M TVL, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $5.31M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.38% APY, $2.2M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; lista-lending (BSC), 1.52% APY, $6.24M TVL, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token; uniswap-v3 (Ethereum), 2.20% APY, $1.15M TVL, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token; uniswap-v3 (Ethereum), 1.43% APY, $3.14M TVL, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token; uniswap-v4 (Ethereum), 8.09% APY, $2.76M TVL, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.63% | $5.49M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.07% | $2.26M |
-| 3 | [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 1.52% | $6.41M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 0.83% | $1.18M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=4abaf90d-4f99-4e34-aea8-3ffafb7475c7&src=seo_token) | Ethereum | 0.01% | $542.1K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 0.46% | $3.22M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=84614aba-7e06-4b6c-85b9-6189d2fcf807&src=seo_token) | Ethereum | 11.18% | $525.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.02% | $3.26M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.80% | $5.31M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.38% | $2.2M |
+| 4 | [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 1.52% | $6.24M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.20% | $1.15M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 1.43% | $3.14M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 8.09% | $2.76M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XAUT shows up in 8 pools here, with rates from 0.01% to 11.18% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XAUT shows up in 8 pools here, with rates from 0.02% to 8.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -44,14 +44,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-lending | 1.52% | 1.62% | Base rate |
-| uniswap-v3 | 0.63% | 1.33% | Base rate |
-| uniswap-v3 | 0.46% | 5.90% | Base rate |
-| fluid-dex | 0.07% | 0.56% | Base rate |
-| uniswap-v3 | 0.83% | 6.79% | Base rate |
-| uniswap-v4 | 0.61% | 8.56% | Base rate |
-| uniswap-v4 | 0.01% | 0.85% | Base rate |
-| uniswap-v4 | 11.18% | 44.47% | Base rate |
+| lista-lending | 1.52% | 1.56% | Base rate |
+| uniswap-v3 | 0.80% | 1.30% | Base rate |
+| uniswap-v3 | 0.02% | 0.56% | Base rate |
+| uniswap-v3 | 1.43% | 5.57% | Base rate |
+| uniswap-v4 | 8.09% | 12.44% | Base rate |
+| fluid-dex | 0.38% | 0.56% | Base rate |
+| uniswap-v3 | 2.20% | 6.65% | Base rate |
+| uniswap-v4 | 0.61% | 8.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XAUT yield today?
 
-1.52% APY on lista-lending (BSC), based on live DefiLlama data.
+8.09% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many XAUT pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $137.05M in total.
+32 live pools clear this page's $100K TVL floor, $133.57M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XAUT pools have the most stable APY history?
 
-Based on APY history only, XAUT's lower-variability candidates are uniswap-v3 (Ethereum), 0.63% APY, $5.49M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.07% APY, $2.26M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; lista-lending (BSC), 1.52% APY, $6.41M TVL, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token; uniswap-v3 (Ethereum), 0.83% APY, $1.18M TVL, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $542.1K TVL, https://www.defi.garden/?pool=4abaf90d-4f99-4e34-aea8-3ffafb7475c7&src=seo_token; uniswap-v3 (Ethereum), 0.46% APY, $3.22M TVL, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token; uniswap-v4 (Ethereum), 11.18% APY, $525.8K TVL, https://www.defi.garden/?pool=84614aba-7e06-4b6c-85b9-6189d2fcf807&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $3.26M TVL, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $5.31M TVL, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; fluid-dex (Ethereum), 0.38% APY, $2.2M TVL, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; lista-lending (BSC), 1.52% APY, $6.24M TVL, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token; uniswap-v3 (Ethereum), 2.20% APY, $1.15M TVL, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token; uniswap-v3 (Ethereum), 1.43% APY, $3.14M TVL, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token; uniswap-v4 (Ethereum), 8.09% APY, $2.76M TVL, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, XAUT's lower-variability candidates are uniswap-v3 (E
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

@@ -1,12 +1,12 @@
 # QST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest QST yield right now is 2.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QST yield right now is 3.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 2.91% | $182.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 3.38% | $172.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QST yield today?
 
-2.91% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.4K in total.
+1 live pool clear this page's $100K TVL floor, $172.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank QST pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

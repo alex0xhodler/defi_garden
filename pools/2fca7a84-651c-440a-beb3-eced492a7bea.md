@@ -2,7 +2,7 @@
 
 **Total APY:** 0.07% (0.07% Base · + 0.00% Rewards)
 
-**TVL:** $35.34M
+**TVL:** $33.85M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.07% right now vs a 0.14% 30-day average. Reward 
 
 [Start Earning on vvs-standard](https://vvs.finance/?ref=defi.garden)
 
-Last updated September 27, 2026
+Last updated September 28, 2026

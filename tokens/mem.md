@@ -1,12 +1,12 @@
 # MEM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest MEM yield right now is 0.01% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $228.8K |
+| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $226.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $459K in total.
+2 live pools clear this page's $100K TVL floor, $459.7K in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank MEM pools. This view covers A
 ## Related tokens
 
 - [GRAM](https://www.defi.garden/tokens/gram)
-- [HGRAM](https://www.defi.garden/tokens/hgram)
 - [TSTON](https://www.defi.garden/tokens/tston)
+- [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [UTYA](https://www.defi.garden/tokens/utya)
 - [BABYDOGE](https://www.defi.garden/tokens/babydoge)
+- [UTYA](https://www.defi.garden/tokens/utya)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

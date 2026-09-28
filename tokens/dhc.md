@@ -1,12 +1,12 @@
 # DHC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest DHC yield right now is 1.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DHC yield right now is 2.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a0fc91a4-0e29-4db4-9477-72039afe4267&src=seo_token) | Solana | 1.13% | $777.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a0fc91a4-0e29-4db4-9477-72039afe4267&src=seo_token) | Solana | 2.31% | $794.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DHC yield today?
 
-1.13% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DHC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $777.5K in total.
+1 live pool clear this page's $100K TVL floor, $794.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DHC pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

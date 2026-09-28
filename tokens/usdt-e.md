@@ -1,32 +1,32 @@
 # USDT.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest USDT.E yield right now is 8.92% on rhea-dex (Near), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT.E yield right now is 13.43% on rhea-dex (Near), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b&src=seo_token) | Near | 8.92% | $201.3K |
-| [rhea-lend →](https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token) | Near | 4.10% | $113.3K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token) | Avalanche | 7.17% | $102.6K |
+| [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b&src=seo_token) | Near | 13.43% | $201.4K |
+| [rhea-lend →](https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token) | Near | 4.12% | $112.4K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token) | Avalanche | 9.50% | $100.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDT.E's lower-variability candidates are rhea-lend (Near), 4.10% APY, $113.3K TVL, https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token; pangolin-v2 (Avalanche), 7.17% APY, $102.6K TVL, https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDT.E's lower-variability candidates are rhea-lend (Near), 4.12% APY, $112.4K TVL, https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token; pangolin-v2 (Avalanche), 9.50% APY, $100.7K TVL, https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [rhea-lend →](https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token) | Near | 4.10% | $113.3K |
-| 2 | [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token) | Avalanche | 7.17% | $102.6K |
+| 1 | [rhea-lend →](https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token) | Near | 4.12% | $112.4K |
+| 2 | [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token) | Avalanche | 9.50% | $100.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDT.E shows up in 3 pools here, with rates from 4.10% to 8.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDT.E shows up in 3 pools here, with rates from 4.12% to 13.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| rhea-dex | 8.92% | 12.73% | Base rate |
-| rhea-lend | 4.10% | 6.35% | Base rate |
-| pangolin-v2 | 7.17% | 6.52% | Base rate |
+| rhea-dex | 13.43% | 12.74% | Base rate |
+| rhea-lend | 4.12% | 6.12% | Base rate |
+| pangolin-v2 | 9.50% | 6.62% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDT.E yield today?
 
-8.92% APY on rhea-dex (Near), based on live DefiLlama data.
+13.43% APY on rhea-dex (Near), based on live DefiLlama data.
 
 ### How many USDT.E pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $915.9K in total.
+5 live pools clear this page's $100K TVL floor, $913K in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDT.E pools have the most stable APY history?
 
-Based on APY history only, USDT.E's lower-variability candidates are rhea-lend (Near), 4.10% APY, $113.3K TVL, https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token; pangolin-v2 (Avalanche), 7.17% APY, $102.6K TVL, https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDT.E's lower-variability candidates are rhea-lend (Near), 4.12% APY, $112.4K TVL, https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af&src=seo_token; pangolin-v2 (Avalanche), 9.50% APY, $100.7K TVL, https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -64,12 +64,12 @@ Based on APY history only, USDT.E's lower-variability candidates are rhea-lend (
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [WAVAX](https://www.defi.garden/tokens/wavax)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [WAVAX](https://www.defi.garden/tokens/wavax)
 
 ## Available on
 
 - [Near](https://www.defi.garden/chains/near)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

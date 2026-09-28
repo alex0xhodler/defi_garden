@@ -1,12 +1,12 @@
 # QRX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest QRX yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QRX yield right now is 0.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8ab44991-687b-48b8-9b30-3e83160aab78&src=seo_token) | Ethereum | 0.01% | $801.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8ab44991-687b-48b8-9b30-3e83160aab78&src=seo_token) | Ethereum | 0.06% | $788.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QRX yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many QRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $801.1K in total.
+1 live pool clear this page's $100K TVL floor, $788.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank QRX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

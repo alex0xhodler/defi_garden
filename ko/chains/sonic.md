@@ -1,17 +1,17 @@
 # Sonic 디파이 수익률
 
-현재 Sonic의 가장 높은 정직한 수익률은 Sonic의 beets-dex에서 34.27%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Sonic의 가장 높은 정직한 수익률은 Sonic의 beets-dex에서 32.07%이며, $100K TVL 기준을 넘는 30개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | EVAUSDT-EVAUSDC | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_chain) | 8.52% | $741.4K |
-| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_chain) | 1.72% | $535.7K |
-| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_chain) | 0.65% | $492.6K |
-| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_chain) | 34.27% | $469.8K |
-| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_chain) | 11.49% | $450.5K |
+| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_chain) | 1.56% | $535.8K |
+| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_chain) | 0.65% | $476.1K |
+| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_chain) | 32.07% | $458.9K |
+| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_chain) | 11.56% | $445.6K |
 | USDC | [silo-v2 →](https://www.defi.garden/?pool=ce77c1eb-f51d-4652-8c25-b53f8254827a&src=seo_chain) | 4.00% | $359.2K |
-| WS-FBOMB | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_chain) | 6.79% | $344.4K |
-| X33-FBOMB | [shadow-exchange-legacy →](https://www.defi.garden/?pool=16a23b40-bf26-415a-9dee-271c8f23b5cc&src=seo_chain) | 3.46% | $268.7K |
+| WS-FBOMB | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_chain) | 6.41% | $332K |
+| STS-WS | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_chain) | 11.83% | $253.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Sonic의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 34.27%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 32.07%예요.
 
 ### Sonic 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $36.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $36.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,10 +43,10 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 34.27%예요.
 - [WS](https://www.defi.garden/ko/tokens/ws)
 - [EVAUSDT](https://www.defi.garden/ko/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/ko/tokens/evausdc)
-- [FBOMB](https://www.defi.garden/ko/tokens/fbomb)
+- [STS](https://www.defi.garden/ko/tokens/sts)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BPT](https://www.defi.garden/ko/tokens/bpt)
 - [FBEETS](https://www.defi.garden/ko/tokens/fbeets)
 
-## 마지막 업데이트: September 27, 2026
+## 마지막 업데이트: September 28, 2026

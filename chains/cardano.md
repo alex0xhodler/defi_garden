@@ -1,17 +1,17 @@
 # Cardano DeFi Yields
 
-The highest honest Cardano yield right now is 27.14% on minswap-dex (Cardano), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Cardano yield right now is 27.40% on minswap-dex (Cardano), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.94% | $5.94M |
-| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 3.08% | $1.54M |
-| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 17.51% | $1.31M |
-| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 16.02% | $1M |
-| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 22.17% | $999.6K |
-| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 27.14% | $808.9K |
-| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 21.73% | $787.5K |
-| ADA-STRIKE | [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_chain) | 11.75% | $621.5K |
+| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.94% | $5.67M |
+| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 3.16% | $1.52M |
+| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 18.76% | $1.26M |
+| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 22.54% | $976.8K |
+| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 17.38% | $935.3K |
+| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 27.40% | $780.5K |
+| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 22.21% | $772.4K |
+| ADA-STRIKE | [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_chain) | 12.99% | $591.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Cardano yield today?
 
-27.14% APY on minswap-dex (Cardano), based on live DefiLlama data.
+27.40% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many Cardano pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $23.2M in total.
+33 live pools clear this page's $100K TVL floor, $22.17M in total.
 
 ### Are these rates safe?
 
@@ -32,21 +32,21 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [BSC](https://www.defi.garden/chains/bsc)
-- [Stacks](https://www.defi.garden/chains/stacks)
 - [MegaETH](https://www.defi.garden/chains/megaeth)
 - [Celo](https://www.defi.garden/chains/celo)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 
 ## Top tokens on Cardano
 
 - [ADA](https://www.defi.garden/tokens/ada)
 - [MIN](https://www.defi.garden/tokens/min)
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [SNEK](https://www.defi.garden/tokens/snek)
 - [USDM](https://www.defi.garden/tokens/usdm)
+- [SNEK](https://www.defi.garden/tokens/snek)
 - [FLDT](https://www.defi.garden/tokens/fldt)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [STRIKE](https://www.defi.garden/tokens/strike)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

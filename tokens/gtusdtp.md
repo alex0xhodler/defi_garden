@@ -1,12 +1,12 @@
 # GTUSDTP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest GTUSDTP yield right now is 4.26% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDTP yield right now is 4.09% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=339db613-74f9-4141-ac35-04724dce2d23&src=seo_token) | Ethereum | 4.26% | $8.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=339db613-74f9-4141-ac35-04724dce2d23&src=seo_token) | Ethereum | 4.09% | $8.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDTP yield today?
 
-4.26% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.09% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDTP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.01M in total.
+1 live pool clear this page's $100K TVL floor, $8.25M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTUSDTP pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

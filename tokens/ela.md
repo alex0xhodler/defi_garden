@@ -1,12 +1,12 @@
 # ELA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest ELA yield right now is 622.93% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELA yield right now is 960.33% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a82b8a06-0745-5866-b716-10c9dd19ec0f&src=seo_token) | Ethereum | 622.93% | $109.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a82b8a06-0745-5866-b716-10c9dd19ec0f&src=seo_token) | Ethereum | 960.33% | $121.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELA yield today?
 
-622.93% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+960.33% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ELA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.2K in total.
+1 live pool clear this page's $100K TVL floor, $121.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ELA pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

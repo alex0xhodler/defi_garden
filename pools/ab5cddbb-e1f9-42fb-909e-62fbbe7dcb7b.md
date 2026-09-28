@@ -1,12 +1,12 @@
 # USDCAD-USDC — gmx-solana on Solana
 
-**Total APY:** 26.25% (26.25% Base · + 0.00% Rewards)
+**Total APY:** 37.06% (37.06% Base · + 0.00% Rewards)
 
-**TVL:** $2.28M
+**TVL:** $2.12M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 36.97%
+**30d Mean APY:** 36.63%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,208 in 5y at current rates.
+$1,000 in this pool grows to ~$4,836 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
+Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$3,208 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$4,836 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on gmx-solana](https://gmtrade.xyz/?ref=defi.garden)
 
-Last updated September 27, 2026
+Last updated September 28, 2026

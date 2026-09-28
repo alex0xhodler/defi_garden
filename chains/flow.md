@@ -4,7 +4,7 @@ The highest honest Flow yield right now is 7.90% on ankr (Flow), among 5 pools a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $6.87M |
+| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $6.57M |
 | STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $315K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Flow pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.06M in total.
+5 live pools clear this page's $100K TVL floor, $9.78M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ANKRFLOWEVM](https://www.defi.garden/tokens/ankrflowevm)
 - [STGUSDC](https://www.defi.garden/tokens/stgusdc)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

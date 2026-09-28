@@ -1,23 +1,23 @@
 # SBTCCRV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest SBTCCRV yield right now is 0.01% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $350K |
-| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $128.3K |
+| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $339.3K |
+| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $126K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SBTCCRV's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $350K TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; curve-dex (Ethereum), 0.01% APY, $128.3K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBTCCRV's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $339.3K TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; curve-dex (Ethereum), 0.01% APY, $126K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $350K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $128.3K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $339.3K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.01% | $126K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SBTCCRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $478.3K in total.
+2 live pools clear this page's $100K TVL floor, $465.3K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SBTCCRV pools have the most stable APY history?
 
-Based on APY history only, SBTCCRV's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $350K TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; curve-dex (Ethereum), 0.01% APY, $128.3K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBTCCRV's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $339.3K TVL, https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token; curve-dex (Ethereum), 0.01% APY, $126K TVL, https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, SBTCCRV's lower-variability candidates are curve-dex 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

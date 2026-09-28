@@ -1,12 +1,12 @@
 # BULKSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest BULKSOL yield right now is 0.02% on project-0 (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89&src=seo_token) | Solana | 0.02% | $181.1K |
+| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89&src=seo_token) | Solana | 0.02% | $176.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BULKSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.1K in total.
+1 live pool clear this page's $100K TVL floor, $176.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BULKSOL pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

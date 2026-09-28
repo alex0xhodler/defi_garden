@@ -1,12 +1,12 @@
 # ALARSAIL.R DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest ALARSAIL.R yield right now is 16.71% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALARSAIL.R yield right now is 18.02% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2&src=seo_token) | Berachain | 16.71% | $439.2K |
+| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2&src=seo_token) | Berachain | 18.02% | $439.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALARSAIL.R yield today?
 
-16.71% APY on berapaw (Berachain), based on live DefiLlama data.
+18.02% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many ALARSAIL.R pools clear the TVL floor?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank ALARSAIL.R pools. This view c
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ALARSAIL.R pools. This view c
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

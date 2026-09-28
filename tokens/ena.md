@@ -1,52 +1,50 @@
 # ENA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest ENA yield right now is 55.27% on orca-dex (Solana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENA yield right now is 87.90% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.03% | $5.51M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 52.98% | $1.83M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 14.31% | $790.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.75% | $723.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=dafd67b0-1dd9-5dd8-8385-fcf9cc38b602&src=seo_token) | Solana | 287.88% | $123.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.12% | $103.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $5.39M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 87.90% | $3.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 10.34% | $776.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 1.48% | $707.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.11% | $101.5K |
 | [orca-dex →](https://www.defi.garden/?pool=7645d9fa-cab9-55ad-87a2-2c9ce0f5981f&src=seo_token) | Solana | 55.27% | $100K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $5.51M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 14.31% APY, $790.6K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 52.98% APY, $1.83M TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 0.75% APY, $723.8K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; uniswap-v4 (Ethereum), 2.12% APY, $103.2K TVL, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $5.39M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 10.34% APY, $776.9K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 87.90% APY, $3.14M TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 1.48% APY, $707.9K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; uniswap-v4 (Ethereum), 2.11% APY, $101.5K TVL, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.03% | $5.51M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 14.31% | $790.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 52.98% | $1.83M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 0.75% | $723.8K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.12% | $103.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.05% | $5.39M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token) | Ethereum | 10.34% | $776.9K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 87.90% | $3.14M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 1.48% | $707.9K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token) | Ethereum | 2.11% | $101.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ENA shows up in 7 pools here, with rates from 0.03% to 287.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ENA shows up in 6 pools here, with rates from 0.05% to 87.90% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 7 pools have a trustworthy 30-day average on file, with a median of 18.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 18.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-7 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.03% | 0.48% | Base rate |
-| uniswap-v3 | 52.98% | 94.36% | Base rate |
-| uniswap-v3 | 14.31% | 8.96% | Base rate |
-| uniswap-v4 | 0.75% | 12.29% | Base rate |
-| raydium-amm | 287.88% | — | Base rate |
-| uniswap-v4 | 2.12% | 25.32% | Base rate |
+| uniswap-v3 | 0.05% | 0.48% | Base rate |
+| uniswap-v3 | 87.90% | 92.73% | Base rate |
+| uniswap-v3 | 10.34% | 8.99% | Base rate |
+| uniswap-v4 | 1.48% | 11.84% | Base rate |
+| uniswap-v4 | 2.11% | 25.24% | Base rate |
 | orca-dex | 55.27% | 60.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,11 +53,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ENA yield today?
 
-55.27% APY on orca-dex (Solana), based on live DefiLlama data.
+87.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ENA pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $9.34M in total.
+7 live pools clear this page's $100K TVL floor, $10.37M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +65,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ENA pools have the most stable APY history?
 
-Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $5.51M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 14.31% APY, $790.6K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 52.98% APY, $1.83M TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 0.75% APY, $723.8K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; uniswap-v4 (Ethereum), 2.12% APY, $103.2K TVL, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.05% APY, $5.39M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 10.34% APY, $776.9K TVL, https://www.defi.garden/?pool=25d006cd-edb4-4df8-849a-d0b2a6227c68&src=seo_token; uniswap-v3 (Ethereum), 87.90% APY, $3.14M TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 1.48% APY, $707.9K TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token; uniswap-v4 (Ethereum), 2.11% APY, $101.5K TVL, https://www.defi.garden/?pool=bb60306c-6720-4137-8068-a4d3579ab932&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -83,4 +81,4 @@ Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

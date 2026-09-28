@@ -1,13 +1,13 @@
 # AGPUB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest AGPUB yield right now is 137.77% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=a07986f8-52ec-548d-b599-082f5878a714&src=seo_token) | Base | 137.77% | $164.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e7b5244c-713e-5136-aad6-46636935e194&src=seo_token) | BSC | 201.35% | $125.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e7b5244c-713e-5136-aad6-46636935e194&src=seo_token) | BSC | 141.57% | $116.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AGPUB shows up in 2 pools here, with rates from 137.77% to 201.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AGPUB shows up in 2 pools here, with rates from 137.77% to 141.57% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 2 pools has a trustworthy 30-day average on file, with a median of 159.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 137.77% | 159.76% | Base rate |
-| uniswap-v4 | 201.35% | — | Base rate |
+| uniswap-v4 | 141.57% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AGPUB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $500.9K in total.
+3 live pools clear this page's $100K TVL floor, $492K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank AGPUB pools. This view covers
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

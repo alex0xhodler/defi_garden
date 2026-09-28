@@ -1,41 +1,41 @@
 # VVS 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 27, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VVS의 가장 높은 정직한 수익률은 Cronos의 vvs-flawless에서 6.57%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VVS의 가장 높은 정직한 수익률은 Cronos의 vvs-flawless에서 3.35%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $35.34M |
-| [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token) | Cronos | 3.00% | $611.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token) | Cronos | 2.47% | $344.4K |
-| [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token) | Cronos | 6.57% | $197K |
-| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.59% | $164.7K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.44% | $160.5K |
-| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.07% | $130.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.11% | $121.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $33.85M |
+| [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token) | Cronos | 2.66% | $598K |
+| [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token) | Cronos | 1.82% | $336.8K |
+| [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token) | Cronos | 3.35% | $188.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.57% | $158.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.36% | $153K |
+| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.09% | $123.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.19% | $115.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VVS의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.44%, TVL $160.5K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 2.47%, TVL $344.4K, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token; Cronos의 vvs-flawless, APY 6.57%, TVL $197K, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token; Cronos의 vvs-standard, APY 3.00%, TVL $611.4K, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $35.34M, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $130.8K, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token; Cronos의 vvs-standard, APY 0.59%, TVL $164.7K, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token; Cronos의 vvs-standard, APY 0.11%, TVL $121.9K, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VVS의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.36%, TVL $153K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 1.82%, TVL $336.8K, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token; Cronos의 vvs-flawless, APY 3.35%, TVL $188.6K, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token; Cronos의 vvs-standard, APY 2.66%, TVL $598K, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $33.85M, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token; Cronos의 vvs-standard, APY 0.09%, TVL $123.3K, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token; Cronos의 vvs-standard, APY 0.57%, TVL $158.1K, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token; Cronos의 vvs-standard, APY 0.19%, TVL $115.7K, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.44% | $160.5K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token) | Cronos | 2.47% | $344.4K |
-| 3 | [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token) | Cronos | 6.57% | $197K |
-| 4 | [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token) | Cronos | 3.00% | $611.4K |
-| 5 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $35.34M |
-| 6 | [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.07% | $130.8K |
-| 7 | [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.59% | $164.7K |
-| 8 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.11% | $121.9K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.36% | $153K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token) | Cronos | 1.82% | $336.8K |
+| 3 | [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token) | Cronos | 3.35% | $188.6K |
+| 4 | [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token) | Cronos | 2.66% | $598K |
+| 5 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $33.85M |
+| 6 | [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.09% | $123.3K |
+| 7 | [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token) | Cronos | 0.57% | $158.1K |
+| 8 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.19% | $115.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VVS 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.07%부터 6.57%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VVS 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.07%부터 3.35%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.77%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -46,13 +46,13 @@ VVS 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.07%부터 6.57%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | vvs-standard | 0.07% | 0.14% | 기본 금리 |
-| vvs-standard | 3.00% | 3.76% | 기본 금리 |
-| vvs-standard | 2.47% | 2.44% | 기본 금리 |
-| vvs-flawless | 6.57% | 6.37% | 기본 금리 |
-| vvs-standard | 0.59% | 0.60% | 기본 금리 |
-| vvs-standard | 0.44% | 1.11% | 기본 금리 |
-| vvs-standard | 0.07% | 7.69% | 기본 금리 |
-| vvs-standard | 0.11% | 0.71% | 기본 금리 |
+| vvs-standard | 2.66% | 3.76% | 기본 금리 |
+| vvs-standard | 1.82% | 2.44% | 기본 금리 |
+| vvs-flawless | 3.35% | 6.36% | 기본 금리 |
+| vvs-standard | 0.57% | 0.60% | 기본 금리 |
+| vvs-standard | 0.36% | 1.10% | 기본 금리 |
+| vvs-standard | 0.09% | 7.67% | 기본 금리 |
+| vvs-standard | 0.19% | 0.69% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ VVS 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.07%부터 6.57%까�
 
 ### 오늘 VVS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cronos의 vvs-flawless에서 APY 6.57%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-flawless에서 APY 3.35%예요.
 
 ### VVS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $37.33M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $35.78M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-flawless에서 APY 6.57%예�
 
 ### VVS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VVS의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.44%, TVL $160.5K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 2.47%, TVL $344.4K, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token; Cronos의 vvs-flawless, APY 6.57%, TVL $197K, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token; Cronos의 vvs-standard, APY 3.00%, TVL $611.4K, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $35.34M, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $130.8K, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token; Cronos의 vvs-standard, APY 0.59%, TVL $164.7K, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token; Cronos의 vvs-standard, APY 0.11%, TVL $121.9K, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VVS의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.36%, TVL $153K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 1.82%, TVL $336.8K, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10&src=seo_token; Cronos의 vvs-flawless, APY 3.35%, TVL $188.6K, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da&src=seo_token; Cronos의 vvs-standard, APY 2.66%, TVL $598K, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8&src=seo_token; Cronos의 vvs-standard, APY 0.07%, TVL $33.85M, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token; Cronos의 vvs-standard, APY 0.09%, TVL $123.3K, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token; Cronos의 vvs-standard, APY 0.57%, TVL $158.1K, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78&src=seo_token; Cronos의 vvs-standard, APY 0.19%, TVL $115.7K, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,11 +80,11 @@ APY 이력만 기준으로 비교한 VVS의 변동성 낮은 후보는 Cronos의
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
 - [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
+- [SHIB](https://www.defi.garden/ko/tokens/shib)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: September 27, 2026
+## 마지막 업데이트: September 28, 2026

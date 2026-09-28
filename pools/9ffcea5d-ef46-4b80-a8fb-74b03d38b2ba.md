@@ -2,11 +2,11 @@
 
 **Total APY:** 7.75% (7.75% Base · + 0.00% Rewards)
 
-**TVL:** $29.93M
+**TVL:** $29.92M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 7.56%
+**30d Mean APY:** 7.43%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on concrete](https://app.concrete.xyz/?ref=defi.garden)
 
-Last updated September 27, 2026
+Last updated September 28, 2026

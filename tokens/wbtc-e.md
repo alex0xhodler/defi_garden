@@ -1,22 +1,22 @@
 # WBTC.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
 The highest honest WBTC.E yield right now is 0.01% on benqi-lending (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.81M |
+| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.78M |
 | [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.02% | $308.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBTC.E's lower-variability candidates are benqi-lending (Avalanche), 0.01% APY, $1.81M TVL, https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token; joe-v2.1 (Avalanche), 0.02% APY, $308.9K TVL, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC.E's lower-variability candidates are benqi-lending (Avalanche), 0.01% APY, $1.78M TVL, https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token; joe-v2.1 (Avalanche), 0.02% APY, $308.9K TVL, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.81M |
+| 1 | [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.78M |
 | 2 | [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.02% | $308.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | benqi-lending | 0.01% | 0.01% | Base rate |
-| joe-v2.1 | 0.02% | 0.55% | Base rate |
+| joe-v2.1 | 0.02% | 0.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBTC.E pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.32M in total.
+3 live pools clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBTC.E pools have the most stable APY history?
 
-Based on APY history only, WBTC.E's lower-variability candidates are benqi-lending (Avalanche), 0.01% APY, $1.81M TVL, https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token; joe-v2.1 (Avalanche), 0.02% APY, $308.9K TVL, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC.E's lower-variability candidates are benqi-lending (Avalanche), 0.01% APY, $1.78M TVL, https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token; joe-v2.1 (Avalanche), 0.02% APY, $308.9K TVL, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,11 +60,11 @@ Based on APY history only, WBTC.E's lower-variability candidates are benqi-lendi
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [WAVAX](https://www.defi.garden/tokens/wavax)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [WAVAX](https://www.defi.garden/tokens/wavax)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

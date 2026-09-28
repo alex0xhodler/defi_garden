@@ -1,12 +1,12 @@
 # NOTE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 27, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
 
-The highest honest NOTE yield right now is 0.01% on balancer-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOTE yield right now is 0.07% on balancer-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.01% | $177.5K |
+| [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.07% | $173.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOTE yield today?
 
-0.01% APY on balancer-v2 (Ethereum), based on live DefiLlama data.
+0.07% APY on balancer-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NOTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $177.5K in total.
+1 live pool clear this page's $100K TVL floor, $173.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NOTE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 27, 2026
+## Last updated September 28, 2026

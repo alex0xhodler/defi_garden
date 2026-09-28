@@ -1,43 +1,43 @@
 # FRAX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 27, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FRAX의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 3.94%이며, $100K TVL 기준을 넘는 37개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FRAX의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 3.79%이며, $100K TVL 기준을 넘는 37개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.37% | $34.04M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 3.58% | $33.93M |
-| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.67% | $3.1M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.01% | $2.71M |
-| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 3.24% | $2.1M |
-| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 3.94% | $1.98M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token) | Ethereum | 0.17% | $1.51M |
-| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.46% | $1.39M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.27% | $34.03M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 3.45% | $33.92M |
+| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.56% | $3.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.59% | $2.7M |
+| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 3.32% | $2.1M |
+| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 3.79% | $1.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token) | Ethereum | 0.08% | $1.51M |
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.48% | $1.38M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FRAX의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $2.71M, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; Ethereum의 uniswap-v3, APY 0.17%, TVL $1.51M, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token; Fraxtal의 frax, APY 1.67%, TVL $3.1M, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; Ethereum의 curve-dex, APY 3.94%, TVL $1.98M, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token; Ethereum의 frax, APY 3.24%, TVL $2.1M, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; Ethereum의 convex-finance, APY 3.58%, TVL $33.93M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.37%, TVL $34.04M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token; Fraxtal의 frax, APY 0.46%, TVL $1.39M, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FRAX의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.59%, TVL $2.7M, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; Ethereum의 uniswap-v3, APY 0.08%, TVL $1.51M, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token; Fraxtal의 frax, APY 1.56%, TVL $3.08M, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; Ethereum의 curve-dex, APY 3.79%, TVL $1.98M, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token; Ethereum의 frax, APY 3.32%, TVL $2.1M, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; Ethereum의 convex-finance, APY 3.45%, TVL $33.92M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.27%, TVL $34.03M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token; Fraxtal의 frax, APY 0.48%, TVL $1.38M, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.01% | $2.71M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token) | Ethereum | 0.17% | $1.51M |
-| 3 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.67% | $3.1M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 3.94% | $1.98M |
-| 5 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 3.24% | $2.1M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 3.58% | $33.93M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.37% | $34.04M |
-| 8 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.46% | $1.39M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.59% | $2.7M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token) | Ethereum | 0.08% | $1.51M |
+| 3 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.56% | $3.08M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 3.79% | $1.98M |
+| 5 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 3.32% | $2.1M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 3.45% | $33.92M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.27% | $34.03M |
+| 8 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.48% | $1.38M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FRAX 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 3.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FRAX 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.08%부터 3.79%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ FRAX 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 3.94%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 2.37% | 2.74% | 인센티브 99.58% |
-| convex-finance | 3.58% | 4.39% | 인센티브 99.72% |
-| frax | 1.67% | 1.69% | 기본 금리 |
-| uniswap-v3 | 0.01% | 1.57% | 기본 금리 |
-| frax | 3.24% | 5.94% | 기본 금리 |
-| curve-dex | 3.94% | 4.71% | 인센티브 98.22% |
-| uniswap-v3 | 0.17% | 0.15% | 기본 금리 |
-| frax | 0.46% | 0.15% | 기본 금리 |
+| curve-dex | 2.27% | 2.74% | 인센티브 100.00% |
+| convex-finance | 3.45% | 4.38% | 인센티브 99.71% |
+| frax | 1.56% | 1.68% | 기본 금리 |
+| uniswap-v3 | 0.59% | 1.55% | 기본 금리 |
+| frax | 3.32% | 5.92% | 기본 금리 |
+| curve-dex | 3.79% | 4.69% | 인센티브 98.42% |
+| uniswap-v3 | 0.08% | 0.16% | 기본 금리 |
+| frax | 0.48% | 0.17% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ FRAX 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 3.94%까
 
 ### 오늘 FRAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.94%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.79%예요.
 
 ### FRAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 37개이며, 합산 TVL은 $100.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 37개이며, 합산 TVL은 $100.65M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.94%예�
 
 ### FRAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FRAX의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.01%, TVL $2.71M, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; Ethereum의 uniswap-v3, APY 0.17%, TVL $1.51M, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token; Fraxtal의 frax, APY 1.67%, TVL $3.1M, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; Ethereum의 curve-dex, APY 3.94%, TVL $1.98M, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token; Ethereum의 frax, APY 3.24%, TVL $2.1M, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; Ethereum의 convex-finance, APY 3.58%, TVL $33.93M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.37%, TVL $34.04M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token; Fraxtal의 frax, APY 0.46%, TVL $1.39M, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FRAX의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.59%, TVL $2.7M, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; Ethereum의 uniswap-v3, APY 0.08%, TVL $1.51M, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token; Fraxtal의 frax, APY 1.56%, TVL $3.08M, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token; Ethereum의 curve-dex, APY 3.79%, TVL $1.98M, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token; Ethereum의 frax, APY 3.32%, TVL $2.1M, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; Ethereum의 convex-finance, APY 3.45%, TVL $33.92M, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token; Ethereum의 curve-dex, APY 2.27%, TVL $34.03M, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token; Fraxtal의 frax, APY 0.48%, TVL $1.38M, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -88,4 +88,4 @@ APY 이력만 기준으로 비교한 FRAX의 변동성 낮은 후보는 Ethereum
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/ko/chains/fraxtal)
 
-## 마지막 업데이트: September 27, 2026
+## 마지막 업데이트: September 28, 2026
