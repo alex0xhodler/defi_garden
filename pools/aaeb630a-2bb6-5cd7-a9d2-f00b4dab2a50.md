@@ -1,12 +1,12 @@
 # USDT-BEM — uniswap-v4 on BSC
 
-**Total APY:** 82.81% (82.81% Base · + 0.00% Rewards)
+**Total APY:** 48.58% (48.58% Base · + 0.00% Rewards)
 
-**TVL:** $225.5K
+**TVL:** $218.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 754.26%
+**30d Mean APY:** 751.01%
 
 **Exposure:** multi
 
@@ -17,21 +17,21 @@
 Advanced DeFi strategy
 
 - Low liquidity
-- Very high yield
+- High yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,383 in 5y at current rates.
+$1,000 in this pool grows to ~$2,118 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (82.81% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (48.58% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 82.81% right now vs a 754.26% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 48.58% right now vs a 751.01% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$3,383 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,118 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 28, 2026
+Last updated September 29, 2026

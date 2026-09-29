@@ -1,12 +1,12 @@
 # RUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest RUSD yield right now is 1.56% on fusion-by-ipor (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSD yield right now is 4.66% on fusion-by-ipor (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 1.56% | $632.1K |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 4.66% | $629.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSD yield today?
 
-1.56% APY on fusion-by-ipor (Ethereum), based on live DefiLlama data.
+4.66% APY on fusion-by-ipor (Ethereum), based on live DefiLlama data.
 
 ### How many RUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $632.1K in total.
+1 live pool clear this page's $100K TVL floor, $629.4K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank RUSD pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

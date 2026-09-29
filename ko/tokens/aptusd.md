@@ -1,14 +1,14 @@
 # APTUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 APTUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 7.40%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 APTUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 7.42%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.87% | $1.99M |
+| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.87% | $1.98M |
 | [pendle-v2 →](https://www.defi.garden/?pool=ced10418-bf2f-5202-bffb-90ea33a80ee3&src=seo_token) | Ethereum | 5.97% | $103.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=b21aa5be-cc99-52e5-a983-433d3a46fe89&src=seo_token) | Ethereum | 7.40% | $103.1K |
+| [pendle-v2 →](https://www.defi.garden/?pool=b21aa5be-cc99-52e5-a983-433d3a46fe89&src=seo_token) | Ethereum | 7.42% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,9 +19,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-APTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.87%부터 7.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+APTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.87%부터 7.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -29,9 +29,9 @@ APTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.87%부터 7.40%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.87% | 1.74% | 기본 금리 |
-| pendle-v2 | 5.97% | 5.51% | 기본 금리 |
-| pendle-v2 | 7.40% | 6.81% | 인센티브 28.98% |
+| curve-dex | 1.87% | 1.75% | 기본 금리 |
+| pendle-v2 | 5.97% | 5.59% | 기본 금리 |
+| pendle-v2 | 7.42% | 6.91% | 인센티브 29.08% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,11 +39,11 @@ APTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.87%부터 7.40%�
 
 ### 오늘 APTUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 7.40%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 7.42%예요.
 
 ### APTUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.72M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,12 +58,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 7.40%예�
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

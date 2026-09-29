@@ -1,14 +1,14 @@
 # SNDK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SNDK yield right now is 519.53% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDK yield right now is 392.76% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a&src=seo_token) | Solana | 519.53% | $223.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a&src=seo_token) | Solana | 519.53% | $223.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 127.03% | $133.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a&src=seo_token) | Solana | 392.76% | $192.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a&src=seo_token) | Solana | 392.76% | $192.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 130.44% | $131.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SNDK shows up in 3 pools here, with rates from 127.03% to 519.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SNDK shows up in 3 pools here, with rates from 130.44% to 392.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 779.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 705.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 519.53% | 779.38% | Base rate |
-| raydium-amm | 519.53% | 779.38% | Base rate |
-| raydium-amm | 127.03% | 122.52% | Base rate |
+| raydium-amm | 392.76% | 705.96% | Base rate |
+| raydium-amm | 392.76% | 705.96% | Base rate |
+| raydium-amm | 130.44% | 126.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SNDK yield today?
 
-519.53% APY on raydium-amm (Solana), based on live DefiLlama data.
+392.76% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNDK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $715.3K in total.
+4 live pools clear this page's $100K TVL floor, $646.5K in total.
 
 ### Are these rates safe?
 
@@ -55,15 +55,15 @@ There is not enough qualifying APY history to rank SNDK pools. This view covers 
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

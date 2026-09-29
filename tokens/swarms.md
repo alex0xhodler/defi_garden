@@ -1,12 +1,12 @@
 # SWARMS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SWARMS yield right now is 16.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWARMS yield right now is 6.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 16.97% | $1.59M |
+| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 6.18% | $1.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWARMS yield today?
 
-16.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SWARMS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.59M in total.
+1 live pool clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank SWARMS pools. This view cover
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

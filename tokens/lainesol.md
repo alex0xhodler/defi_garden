@@ -1,12 +1,12 @@
 # LAINESOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest LAINESOL yield right now is 2.99% on laine-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAINESOL yield right now is 2.84% on laine-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 2.99% | $1.42M |
+| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 2.84% | $1.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LAINESOL yield today?
 
-2.99% APY on laine-sol (Solana), based on live DefiLlama data.
+2.84% APY on laine-sol (Solana), based on live DefiLlama data.
 
 ### How many LAINESOL pools clear the TVL floor?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank LAINESOL pools. This view cov
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

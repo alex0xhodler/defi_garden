@@ -1,12 +1,12 @@
 # YFIETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest YFIETH yield right now is 10.94% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YFIETH yield right now is 12.39% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 10.94% | $254.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 12.39% | $248.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YFIETH yield today?
 
-10.94% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+12.39% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YFIETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $254.4K in total.
+1 live pool clear this page's $100K TVL floor, $248.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank YFIETH pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

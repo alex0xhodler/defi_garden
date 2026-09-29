@@ -1,31 +1,31 @@
 # YZY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
 The highest honest YZY yield right now is 2.53% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 2.40% | $438.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 1.44% | $434.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 2.53% | $224.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YZY's lower-variability candidates are raydium-amm (Solana), 2.40% APY, $438.6K TVL, https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token; raydium-amm (Solana), 2.53% APY, $224.7K TVL, https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YZY's lower-variability candidates are raydium-amm (Solana), 1.44% APY, $434.4K TVL, https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token; raydium-amm (Solana), 2.53% APY, $224.7K TVL, https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 2.40% | $438.6K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 1.44% | $434.4K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 2.53% | $224.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YZY shows up in 2 pools here, with rates from 2.40% to 2.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YZY shows up in 2 pools here, with rates from 1.44% to 2.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.40% | 4.52% | Base rate |
-| raydium-amm | 2.53% | 2.85% | Base rate |
+| raydium-amm | 1.44% | 4.47% | Base rate |
+| raydium-amm | 2.53% | 2.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YZY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $663.3K in total.
+2 live pools clear this page's $100K TVL floor, $659.1K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YZY pools have the most stable APY history?
 
-Based on APY history only, YZY's lower-variability candidates are raydium-amm (Solana), 2.40% APY, $438.6K TVL, https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token; raydium-amm (Solana), 2.53% APY, $224.7K TVL, https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YZY's lower-variability candidates are raydium-amm (Solana), 1.44% APY, $434.4K TVL, https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token; raydium-amm (Solana), 2.53% APY, $224.7K TVL, https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

@@ -1,41 +1,41 @@
 # DRV 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DRV의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 288.31%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DRV의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 474.95%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 33.89% | $5.4M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 191.99% | $2.05M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 121.76% | $659.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token) | Ethereum | 208.97% | $221.9K |
-| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 525.05% | $199K |
-| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 288.31% | $156.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token) | Base | 0.47% | $132.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 42.57% | $5.05M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 185.80% | $2.05M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 133.52% | $640.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token) | Ethereum | 474.95% | $220.3K |
+| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 415.22% | $190.6K |
+| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 606.15% | $154K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token) | Base | 0.98% | $129.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DRV의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 121.76%, TVL $659.5K, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; Hyperliquid L1의 nest-cl, APY 525.05%, TVL $199K, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; Base의 aerodrome-slipstream, APY 0.47%, TVL $132.4K, https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token; Hyperliquid L1의 nest-cl, APY 288.31%, TVL $156.5K, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; Base의 aerodrome-slipstream, APY 191.99%, TVL $2.05M, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; Ethereum의 uniswap-v4, APY 208.97%, TVL $221.9K, https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token; Base의 uniswap-v4, APY 33.89%, TVL $5.4M, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DRV의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 133.52%, TVL $640.8K, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; Hyperliquid L1의 nest-cl, APY 415.22%, TVL $190.6K, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; Base의 aerodrome-slipstream, APY 0.98%, TVL $129.3K, https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token; Hyperliquid L1의 nest-cl, APY 606.15%, TVL $154K, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; Base의 aerodrome-slipstream, APY 185.80%, TVL $2.05M, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; Ethereum의 uniswap-v4, APY 474.95%, TVL $220.3K, https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token; Base의 uniswap-v4, APY 42.57%, TVL $5.05M, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 121.76% | $659.5K |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 525.05% | $199K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token) | Base | 0.47% | $132.4K |
-| 4 | [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 288.31% | $156.5K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 191.99% | $2.05M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token) | Ethereum | 208.97% | $221.9K |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 33.89% | $5.4M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 133.52% | $640.8K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 415.22% | $190.6K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token) | Base | 0.98% | $129.3K |
+| 4 | [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 606.15% | $154K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 185.80% | $2.05M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token) | Ethereum | 474.95% | $220.3K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 42.57% | $5.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DRV 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.47%부터 525.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DRV 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.98%부터 606.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 193.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 209.14%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -43,13 +43,13 @@ DRV 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.47%부터 525.05%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 33.89% | 151.84% | 기본 금리 |
-| aerodrome-slipstream | 191.99% | 719.95% | 인센티브 73.13% |
-| aerodrome-v1 | 121.76% | 63.03% | 인센티브 100.00% |
-| uniswap-v4 | 208.97% | 379.80% | 기본 금리 |
-| nest-cl | 525.05% | 193.86% | 인센티브 100.00% |
-| nest-cl | 288.31% | 300.64% | 인센티브 100.00% |
-| aerodrome-slipstream | 0.47% | 6.32% | 기본 금리 |
+| uniswap-v4 | 42.57% | 152.25% | 기본 금리 |
+| aerodrome-slipstream | 185.80% | 722.17% | 인센티브 53.48% |
+| aerodrome-v1 | 133.52% | 66.16% | 인센티브 100.00% |
+| uniswap-v4 | 474.95% | 382.60% | 기본 금리 |
+| nest-cl | 415.22% | 209.14% | 인센티브 100.00% |
+| nest-cl | 606.15% | 308.98% | 인센티브 100.00% |
+| aerodrome-slipstream | 0.98% | 4.31% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ DRV 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.47%부터 525.05%�
 
 ### 오늘 DRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 288.31%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 474.95%예요.
 
 ### DRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $8.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $8.43M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,15 +69,15 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 288.31
 
 ### DRV 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DRV의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 121.76%, TVL $659.5K, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; Hyperliquid L1의 nest-cl, APY 525.05%, TVL $199K, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; Base의 aerodrome-slipstream, APY 0.47%, TVL $132.4K, https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token; Hyperliquid L1의 nest-cl, APY 288.31%, TVL $156.5K, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; Base의 aerodrome-slipstream, APY 191.99%, TVL $2.05M, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; Ethereum의 uniswap-v4, APY 208.97%, TVL $221.9K, https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token; Base의 uniswap-v4, APY 33.89%, TVL $5.4M, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DRV의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 133.52%, TVL $640.8K, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; Hyperliquid L1의 nest-cl, APY 415.22%, TVL $190.6K, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; Base의 aerodrome-slipstream, APY 0.98%, TVL $129.3K, https://www.defi.garden/?pool=ee2472de-e4eb-4a65-86e8-5321042762dd&src=seo_token; Hyperliquid L1의 nest-cl, APY 606.15%, TVL $154K, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; Base의 aerodrome-slipstream, APY 185.80%, TVL $2.05M, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; Ethereum의 uniswap-v4, APY 474.95%, TVL $220.3K, https://www.defi.garden/?pool=228195a2-7925-4504-b4e2-a8bcb65d109b&src=seo_token; Base의 uniswap-v4, APY 42.57%, TVL $5.05M, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
@@ -86,4 +86,4 @@ APY 이력만 기준으로 비교한 DRV의 변동성 낮은 후보는 Base의 a
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

@@ -1,12 +1,12 @@
 # FBEETS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest FBEETS yield right now is 32.07% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FBEETS yield right now is 27.85% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 32.07% | $458.9K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 27.85% | $452.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FBEETS yield today?
 
-32.07% APY on beets-dex (Sonic), based on live DefiLlama data.
+27.85% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many FBEETS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $458.9K in total.
+1 live pool clear this page's $100K TVL floor, $452.8K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank FBEETS pools. This view cover
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
-- [BPT](https://www.defi.garden/tokens/bpt)
 - [SFTUSD](https://www.defi.garden/tokens/sftusd)
+- [FTUSD](https://www.defi.garden/tokens/ftusd)
 
 ## Available on
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

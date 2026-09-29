@@ -1,12 +1,12 @@
 # SBUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SBUSDC yield right now is 8.26% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBUSDC yield right now is 8.08% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 8.26% | $145.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 8.08% | $145.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SBUSDC yield today?
 
-8.26% APY on morpho-blue (Monad), based on live DefiLlama data.
+8.08% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many SBUSDC pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SBUSDC pools. This view cover
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

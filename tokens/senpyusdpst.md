@@ -1,12 +1,12 @@
 # SENPYUSDPST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SENPYUSDPST yield right now is 8.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDPST yield right now is 8.02% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d437f7b3-09ba-5450-be41-d2b7d0e9406d&src=seo_token) | Ethereum | 8.00% | $45.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=d437f7b3-09ba-5450-be41-d2b7d0e9406d&src=seo_token) | Ethereum | 8.02% | $44.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDPST yield today?
 
-8.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDPST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $45.68M in total.
+1 live pool clear this page's $100K TVL floor, $44.87M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SENPYUSDPST pools. This view 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

@@ -1,12 +1,12 @@
 # ULTIMA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
 The highest honest ULTIMA yield right now is 0.02% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fdd56c4a-1d72-4a1b-9dab-7b0bf01f3ceb&src=seo_token) | BSC | 0.02% | $227K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fdd56c4a-1d72-4a1b-9dab-7b0bf01f3ceb&src=seo_token) | BSC | 0.02% | $223.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ULTIMA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $383K in total.
+2 live pools clear this page's $100K TVL floor, $379.5K in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank ULTIMA pools. This view cover
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

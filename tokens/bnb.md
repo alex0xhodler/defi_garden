@@ -1,42 +1,42 @@
 # BNB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest BNB yield right now is 20.64% on uniswap-v3 (Ethereum), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNB yield right now is 12.49% on uniswap-v4 (BSC), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.22% | $380.09M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.18% | $2.52M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token) | BSC | 13.76% | $1.62M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cc1bdf46-b963-5bd5-94a8-728c3fdea8f6&src=seo_token) | BSC | 17.15% | $1.26M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.17% | $935.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token) | BSC | 3.33% | $369.3K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.14% | $326.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 20.64% | $289.5K |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.22% | $372.9M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.17% | $2.56M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token) | BSC | 12.49% | $1.6M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cc1bdf46-b963-5bd5-94a8-728c3fdea8f6&src=seo_token) | BSC | 24.10% | $1.26M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.04% | $928.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token) | BSC | 4.80% | $372.6K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.13% | $326.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 5.09% | $299.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token; uniswap-v4 (BSC), 0.17% APY, $935.9K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token; lista-lending (BSC), 0.22% APY, $380.09M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; uniswap-v4 (BSC), 3.33% APY, $369.3K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token; uniswap-v4 (BSC), 13.76% APY, $1.62M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token; gmx-v2-perps (Arbitrum), 0.14% APY, $326.9K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; uniswap-v3 (Ethereum), 20.64% APY, $289.5K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.17% APY, $2.56M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $928.2K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token; lista-lending (BSC), 0.22% APY, $372.9M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; uniswap-v4 (BSC), 4.80% APY, $372.6K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token; uniswap-v4 (BSC), 12.49% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token; gmx-v2-perps (Arbitrum), 0.13% APY, $326.8K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; uniswap-v3 (Ethereum), 5.09% APY, $299.2K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.18% | $2.52M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.17% | $935.9K |
-| 3 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.22% | $380.09M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token) | BSC | 3.33% | $369.3K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token) | BSC | 13.76% | $1.62M |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.14% | $326.9K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 20.64% | $289.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token) | BSC | 0.17% | $2.56M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.04% | $928.2K |
+| 3 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.22% | $372.9M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token) | BSC | 4.80% | $372.6K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token) | BSC | 12.49% | $1.6M |
+| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.13% | $326.8K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 5.09% | $299.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BNB shows up in 8 pools here, with rates from 0.14% to 20.64% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+BNB shows up in 8 pools here, with rates from 0.04% to 24.10% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,13 +45,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lista-lending | 0.22% | 0.16% | Base rate |
-| uniswap-v4 | 0.18% | 0.17% | Base rate |
-| uniswap-v4 | 13.76% | 11.05% | Base rate |
-| uniswap-v4 | 17.15% | 13.87% | Base rate |
-| uniswap-v4 | 0.17% | 0.71% | Base rate |
-| uniswap-v4 | 3.33% | 7.20% | Base rate |
-| gmx-v2-perps | 0.14% | 0.30% | Base rate |
-| uniswap-v3 | 20.64% | 32.00% | Base rate |
+| uniswap-v4 | 0.17% | 0.17% | Base rate |
+| uniswap-v4 | 12.49% | 11.50% | Base rate |
+| uniswap-v4 | 24.10% | 15.29% | Base rate |
+| uniswap-v4 | 0.04% | 0.65% | Base rate |
+| uniswap-v4 | 4.80% | 7.11% | Base rate |
+| gmx-v2-perps | 0.13% | 0.30% | Base rate |
+| uniswap-v3 | 5.09% | 32.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BNB yield today?
 
-20.64% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+12.49% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many BNB pools clear the TVL floor?
 
-21 live pools clear this page's $100K TVL floor, $390.39M in total.
+21 live pools clear this page's $100K TVL floor, $383.2M in total.
 
 ### Are these rates safe?
 
@@ -71,15 +71,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BNB pools have the most stable APY history?
 
-Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token; uniswap-v4 (BSC), 0.17% APY, $935.9K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token; lista-lending (BSC), 0.22% APY, $380.09M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; uniswap-v4 (BSC), 3.33% APY, $369.3K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token; uniswap-v4 (BSC), 13.76% APY, $1.62M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token; gmx-v2-perps (Arbitrum), 0.14% APY, $326.9K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; uniswap-v3 (Ethereum), 20.64% APY, $289.5K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.17% APY, $2.56M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5&src=seo_token; uniswap-v4 (BSC), 0.04% APY, $928.2K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token; lista-lending (BSC), 0.22% APY, $372.9M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; uniswap-v4 (BSC), 4.80% APY, $372.6K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04&src=seo_token; uniswap-v4 (BSC), 12.49% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd&src=seo_token; gmx-v2-perps (Arbitrum), 0.13% APY, $326.8K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; uniswap-v3 (Ethereum), 5.09% APY, $299.2K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -88,4 +88,4 @@ Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BS
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

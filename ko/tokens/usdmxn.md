@@ -1,12 +1,12 @@
 # USDMXN 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDMXN의 가장 높은 정직한 수익률은 Solana의 gmx-solana에서 77.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDMXN의 가장 높은 정직한 수익률은 Solana의 gmx-solana에서 79.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 77.92% | $1.29M |
+| [gmx-solana →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 79.55% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 USDMXN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 77.92%예요.
+DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 79.55%예요.
 
 ### USDMXN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,15 +35,15 @@ DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 77.92%예�
 
 ## 관련 토큰
 
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [USDG](https://www.defi.garden/ko/tokens/usdg)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

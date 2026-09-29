@@ -1,43 +1,43 @@
 # MSOL 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MSOL의 가장 높은 정직한 수익률은 Solana의 kamino-liquidity에서 5.85%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MSOL의 가장 높은 정직한 수익률은 Solana의 kamino-liquidity에서 5.88%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 4.76% | $269.44M |
-| [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.22% | $5.08M |
-| [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.21% | $967.2K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.47% | $866.4K |
-| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.20% | $433.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 11.92% | $201K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 5.85% | $167K |
-| [orca-dex →](https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token) | Solana | 0.04% | $158.7K |
+| [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 4.76% | $269.82M |
+| [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.22% | $5.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 2.31% | $967.6K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.19% | $862.8K |
+| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 4.99% | $435.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 6.86% | $193K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 5.88% | $167.1K |
+| [orca-dex →](https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token) | Solana | 0.12% | $159.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.22%, TVL $5.08M, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; Solana의 marinade-liquid-staking, APY 4.76%, TVL $269.44M, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; Solana의 kamino-liquidity, APY 0.47%, TVL $866.4K, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; Solana의 orca-dex, APY 0.04%, TVL $158.7K, https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token; Solana의 raydium-amm, APY 0.21%, TVL $967.2K, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; Solana의 orca-dex, APY 1.20%, TVL $433.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; Solana의 raydium-amm, APY 11.92%, TVL $201K, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; Solana의 kamino-liquidity, APY 5.85%, TVL $167K, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.22%, TVL $5.1M, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; Solana의 marinade-liquid-staking, APY 4.76%, TVL $269.82M, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; Solana의 kamino-liquidity, APY 0.19%, TVL $862.8K, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; Solana의 orca-dex, APY 0.12%, TVL $159.5K, https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token; Solana의 raydium-amm, APY 2.31%, TVL $967.6K, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; Solana의 orca-dex, APY 4.99%, TVL $435.3K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; Solana의 raydium-amm, APY 6.86%, TVL $193K, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; Solana의 kamino-liquidity, APY 5.88%, TVL $167.1K, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.22% | $5.08M |
-| 2 | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 4.76% | $269.44M |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.47% | $866.4K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token) | Solana | 0.04% | $158.7K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 0.21% | $967.2K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 1.20% | $433.2K |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 11.92% | $201K |
-| 8 | [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 5.85% | $167K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token) | Solana | 0.22% | $5.1M |
+| 2 | [marinade-liquid-staking →](https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token) | Solana | 4.76% | $269.82M |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token) | Solana | 0.19% | $862.8K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token) | Solana | 0.12% | $159.5K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token) | Solana | 2.31% | $967.6K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 4.99% | $435.3K |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token) | Solana | 6.86% | $193K |
+| 8 | [kamino-liquidity →](https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token) | Solana | 5.88% | $167.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 11.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.12%부터 6.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -45,14 +45,14 @@ MSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 11.92%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| marinade-liquid-staking | 4.76% | 5.38% | 기본 금리 |
+| marinade-liquid-staking | 4.76% | 5.36% | 기본 금리 |
 | project-0 | 0.22% | 0.21% | 기본 금리 |
-| raydium-amm | 0.21% | 1.11% | 기본 금리 |
-| kamino-liquidity | 0.47% | 0.94% | 기본 금리 |
-| orca-dex | 1.20% | 1.90% | 기본 금리 |
-| raydium-amm | 11.92% | 23.95% | 기본 금리 |
-| kamino-liquidity | 5.85% | 10.71% | 기본 금리 |
-| orca-dex | 0.04% | 0.26% | 기본 금리 |
+| raydium-amm | 2.31% | 1.06% | 기본 금리 |
+| kamino-liquidity | 0.19% | 0.91% | 기본 금리 |
+| orca-dex | 4.99% | 1.93% | 기본 금리 |
+| raydium-amm | 6.86% | 24.19% | 기본 금리 |
+| kamino-liquidity | 5.88% | 10.48% | 기본 금리 |
+| orca-dex | 0.12% | 0.25% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ MSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.04%부터 11.92%�
 
 ### 오늘 MSOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 5.85%예요.
+DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 5.88%예요.
 
 ### MSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $335.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $335.96M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,19 +72,19 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 5.85%
 
 ### MSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.22%, TVL $5.08M, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; Solana의 marinade-liquid-staking, APY 4.76%, TVL $269.44M, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; Solana의 kamino-liquidity, APY 0.47%, TVL $866.4K, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; Solana의 orca-dex, APY 0.04%, TVL $158.7K, https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token; Solana의 raydium-amm, APY 0.21%, TVL $967.2K, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; Solana의 orca-dex, APY 1.20%, TVL $433.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; Solana의 raydium-amm, APY 11.92%, TVL $201K, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; Solana의 kamino-liquidity, APY 5.85%, TVL $167K, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.22%, TVL $5.1M, https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc&src=seo_token; Solana의 marinade-liquid-staking, APY 4.76%, TVL $269.82M, https://www.defi.garden/?pool=b3f93865-5ec8-4662-90a0-11808e0aa2bd&src=seo_token; Solana의 kamino-liquidity, APY 0.19%, TVL $862.8K, https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb&src=seo_token; Solana의 orca-dex, APY 0.12%, TVL $159.5K, https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2&src=seo_token; Solana의 raydium-amm, APY 2.31%, TVL $967.6K, https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f&src=seo_token; Solana의 orca-dex, APY 4.99%, TVL $435.3K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token; Solana의 raydium-amm, APY 6.86%, TVL $193K, https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8&src=seo_token; Solana의 kamino-liquidity, APY 5.88%, TVL $167.1K, https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [USDG](https://www.defi.garden/ko/tokens/usdg)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

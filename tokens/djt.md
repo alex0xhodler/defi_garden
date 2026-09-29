@@ -1,12 +1,12 @@
 # DJT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest DJT yield right now is 194.71% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DJT yield right now is 541.87% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=169faaa7-d993-571e-849a-1f1efc7c2422&src=seo_token) | Solana | 194.71% | $326.7K |
+| [orca-dex →](https://www.defi.garden/?pool=169faaa7-d993-571e-849a-1f1efc7c2422&src=seo_token) | Solana | 541.87% | $330.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DJT yield today?
 
-194.71% APY on orca-dex (Solana), based on live DefiLlama data.
+541.87% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DJT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $326.7K in total.
+1 live pool clear this page's $100K TVL floor, $330.3K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank DJT pools. This view covers A
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

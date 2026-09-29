@@ -1,12 +1,12 @@
 # AUDF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest AUDF yield right now is 14.70% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUDF yield right now is 14.60% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c0054420-79cf-4b72-9f34-56f99cad4ca3&src=seo_token) | Ethereum | 14.70% | $110.9K |
+| [curve-dex →](https://www.defi.garden/?pool=c0054420-79cf-4b72-9f34-56f99cad4ca3&src=seo_token) | Ethereum | 14.60% | $110.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,29 +15,15 @@ There is not enough qualifying APY history to rank AUDF pools. This view covers 
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
-## How this rate has behaved
-
-AUDF shows up in 1 pools here, with rates from 14.70% to 14.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 18.41% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| curve-dex | 14.70% | 18.41% | 97.14% incentives |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
-
 ## Frequently asked questions
 
 ### What's the highest AUDF yield today?
 
-14.70% APY on curve-dex (Ethereum), based on live DefiLlama data.
+14.60% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many AUDF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $212.3K in total.
+1 live pool clear this page's $100K TVL floor, $110.9K in total.
 
 ### Are these rates safe?
 
@@ -52,12 +38,12 @@ There is not enough qualifying APY history to rank AUDF pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

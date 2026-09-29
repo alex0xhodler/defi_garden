@@ -1,13 +1,13 @@
 # MASK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest MASK yield right now is 5.54% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MASK yield right now is 6.28% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 5.54% | $572.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489&src=seo_token) | Solana | 199.44% | $461.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 6.28% | $567.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489&src=seo_token) | Solana | 128.71% | $417.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MASK shows up in 2 pools here, with rates from 5.54% to 199.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MASK shows up in 2 pools here, with rates from 6.28% to 128.71% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 302.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 263.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 5.54% | 5.93% | Base rate |
-| raydium-amm | 199.44% | 598.16% | Base rate |
+| uniswap-v2 | 6.28% | 5.71% | Base rate |
+| raydium-amm | 128.71% | 521.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MASK yield today?
 
-5.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.28% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MASK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.03M in total.
+2 live pools clear this page's $100K TVL floor, $985.3K in total.
 
 ### Are these rates safe?
 
@@ -56,8 +56,8 @@ There is not enough qualifying APY history to rank MASK pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank MASK pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

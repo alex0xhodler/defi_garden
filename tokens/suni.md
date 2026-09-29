@@ -1,12 +1,12 @@
 # SUNI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SUNI yield right now is 0.90% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUNI yield right now is 0.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=71c5e5d5-6b2a-5ccf-ae5b-33591ccb3729&src=seo_token) | Ethereum | 0.90% | $637.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=71c5e5d5-6b2a-5ccf-ae5b-33591ccb3729&src=seo_token) | Ethereum | 0.56% | $621.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUNI yield today?
 
-0.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SUNI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $637.4K in total.
+1 live pool clear this page's $100K TVL floor, $621.6K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SUNI pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

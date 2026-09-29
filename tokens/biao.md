@@ -1,12 +1,12 @@
 # BIAO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest BIAO yield right now is 0.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIAO yield right now is 0.55% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=7c4d2101-e58f-425d-adc9-7680d99ac2b2&src=seo_token) | Ethereum | 0.06% | $277.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7c4d2101-e58f-425d-adc9-7680d99ac2b2&src=seo_token) | Ethereum | 0.55% | $278.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIAO yield today?
 
-0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.55% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BIAO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $277.3K in total.
+1 live pool clear this page's $100K TVL floor, $278.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank BIAO pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

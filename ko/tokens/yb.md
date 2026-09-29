@@ -1,19 +1,19 @@
 # YB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 YB의 가장 높은 정직한 수익률은 Ethereum의 yield-basis에서 6.94%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YB의 가장 높은 정직한 수익률은 Ethereum의 yield-basis에서 6.73%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yield-basis →](https://www.defi.garden/?pool=13ee3ea5-7546-573e-8597-161917ad00f5&src=seo_token) | Ethereum | 4.61% | $31.31M |
-| [yield-basis →](https://www.defi.garden/?pool=9443740d-346a-55f3-b7df-0d1845bc07f5&src=seo_token) | Ethereum | 6.94% | $22.03M |
-| [yield-basis →](https://www.defi.garden/?pool=d48e68fc-cfea-5091-9626-b527ef010255&src=seo_token) | Ethereum | 2.97% | $15.94M |
-| [yield-basis →](https://www.defi.garden/?pool=3771ae05-661d-54e7-a618-54d4be341c90&src=seo_token) | Ethereum | 3.52% | $14.22M |
-| [yield-basis →](https://www.defi.garden/?pool=f62b41d8-4486-5e44-bf3a-edd026030d87&src=seo_token) | Ethereum | 4.99% | $11.18M |
-| [yield-basis →](https://www.defi.garden/?pool=68e67404-91bd-545e-bba2-72ca5a5cf68e&src=seo_token) | Ethereum | 0.20% | $4.25M |
-| [yield-basis →](https://www.defi.garden/?pool=5c0095cf-c937-570d-85fb-1c2e7676f392&src=seo_token) | Ethereum | 4.92% | $2.19M |
-| [yield-basis →](https://www.defi.garden/?pool=5977e7de-4326-5656-a8a6-5745962422b3&src=seo_token) | Ethereum | 0.45% | $1.37M |
+| [yield-basis →](https://www.defi.garden/?pool=13ee3ea5-7546-573e-8597-161917ad00f5&src=seo_token) | Ethereum | 4.46% | $31.62M |
+| [yield-basis →](https://www.defi.garden/?pool=9443740d-346a-55f3-b7df-0d1845bc07f5&src=seo_token) | Ethereum | 6.73% | $22.26M |
+| [yield-basis →](https://www.defi.garden/?pool=d48e68fc-cfea-5091-9626-b527ef010255&src=seo_token) | Ethereum | 2.84% | $16.29M |
+| [yield-basis →](https://www.defi.garden/?pool=3771ae05-661d-54e7-a618-54d4be341c90&src=seo_token) | Ethereum | 3.41% | $14.35M |
+| [yield-basis →](https://www.defi.garden/?pool=f62b41d8-4486-5e44-bf3a-edd026030d87&src=seo_token) | Ethereum | 4.83% | $11.29M |
+| [yield-basis →](https://www.defi.garden/?pool=178f1cf5-e417-5edb-8b97-b4728d922ab7&src=seo_token) | Ethereum | 0.31% | $7.54M |
+| [yield-basis →](https://www.defi.garden/?pool=68e67404-91bd-545e-bba2-72ca5a5cf68e&src=seo_token) | Ethereum | 0.19% | $4.29M |
+| [yield-basis →](https://www.defi.garden/?pool=5977e7de-4326-5656-a8a6-5745962422b3&src=seo_token) | Ethereum | 0.44% | $1.39M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -24,9 +24,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.20%부터 6.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.19%부터 6.73%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.31%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -34,14 +34,14 @@ YB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.20%부터 6.94%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yield-basis | 4.61% | 4.79% | 인센티브 100.00% |
-| yield-basis | 6.94% | 7.23% | 인센티브 100.00% |
-| yield-basis | 2.97% | 3.04% | 인센티브 100.00% |
-| yield-basis | 3.52% | 3.63% | 인센티브 100.00% |
-| yield-basis | 4.99% | 5.17% | 인센티브 100.00% |
-| yield-basis | 0.20% | 0.20% | 인센티브 100.00% |
-| yield-basis | 4.92% | 10.91% | 기본 금리 |
-| yield-basis | 0.45% | 0.46% | 인센티브 100.00% |
+| yield-basis | 4.46% | 4.75% | 인센티브 100.00% |
+| yield-basis | 6.73% | 7.17% | 인센티브 100.00% |
+| yield-basis | 2.84% | 3.02% | 인센티브 100.00% |
+| yield-basis | 3.41% | 3.61% | 인센티브 100.00% |
+| yield-basis | 4.83% | 5.13% | 인센티브 100.00% |
+| yield-basis | 0.31% | 0.24% | 기본 금리 |
+| yield-basis | 0.19% | 0.20% | 인센티브 100.00% |
+| yield-basis | 0.44% | 0.46% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,11 +49,11 @@ YB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.20%부터 6.94%까�
 
 ### 오늘 YB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 yield-basis에서 APY 6.94%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 yield-basis에서 APY 6.73%예요.
 
 ### YB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $141.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $143.25M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,12 +68,12 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yield-basis에서 APY 6.94%예
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

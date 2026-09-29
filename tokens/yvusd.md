@@ -1,12 +1,12 @@
 # YVUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest YVUSD yield right now is 7.76% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVUSD yield right now is 9.79% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=13995c55-4d83-4784-b6a8-3dac45e05675&src=seo_token) | Ethereum | 7.76% | $4.41M |
+| [yearn-finance →](https://www.defi.garden/?pool=13995c55-4d83-4784-b6a8-3dac45e05675&src=seo_token) | Ethereum | 9.79% | $4.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YVUSD yield today?
 
-7.76% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+9.79% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YVUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.41M in total.
+1 live pool clear this page's $100K TVL floor, $4.42M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank YVUSD pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

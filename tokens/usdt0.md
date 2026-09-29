@@ -1,43 +1,43 @@
 # USDT0 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest USDT0 yield right now is 11.05% on neverland (Monad), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT0 yield right now is 10.31% on neverland (Monad), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.79% | $48.23M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.46% | $26.39M |
-| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.83% | $24.87M |
-| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 3.14% | $11.16M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 6.03% | $7.55M |
-| [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token) | Mantle | 6.69% | $5.12M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 6.00% | $2.34M |
-| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.05% | $842.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.85% | $45.26M |
+| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.32% | $24.37M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.45% | $21.82M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 3.15% | $11.14M |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 6.03% | $8.93M |
+| [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token) | Mantle | 6.55% | $5.17M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 6.00% | $2.35M |
+| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 10.31% | $955.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.79% APY, $48.23M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.83% APY, $24.87M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.46% APY, $26.39M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 3.14% APY, $11.16M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; aave-v3 (Monad), 6.03% APY, $7.55M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; neverland (Monad), 11.05% APY, $842.1K TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; curve-dex (Monad), 6.00% APY, $2.34M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; fluxion-network (Mantle), 6.69% APY, $5.12M TVL, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.85% APY, $45.26M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.32% APY, $24.37M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.45% APY, $21.82M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 3.15% APY, $11.14M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; aave-v3 (Monad), 6.03% APY, $8.93M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; neverland (Monad), 10.31% APY, $955.4K TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; curve-dex (Monad), 6.00% APY, $2.35M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; fluxion-network (Mantle), 6.55% APY, $5.17M TVL, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.79% | $48.23M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.83% | $24.87M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.46% | $26.39M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 3.14% | $11.16M |
-| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 6.03% | $7.55M |
-| 6 | [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.05% | $842.1K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 6.00% | $2.34M |
-| 8 | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token) | Mantle | 6.69% | $5.12M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.85% | $45.26M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.32% | $24.37M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.45% | $21.82M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 3.15% | $11.14M |
+| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 6.03% | $8.93M |
+| 6 | [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 10.31% | $955.4K |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 6.00% | $2.35M |
+| 8 | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token) | Mantle | 6.55% | $5.17M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDT0 shows up in 8 pools here, with rates from 3.14% to 11.05% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDT0 shows up in 8 pools here, with rates from 3.15% to 10.31% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ USDT0 shows up in 8 pools here, with rates from 3.14% to 11.05% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 4.79% | 4.80% | 18.52% incentives |
-| aave-v3 | 4.46% | 4.24% | 37.38% incentives |
-| fluid-lending | 4.83% | 5.97% | Base rate |
-| aave-v3 | 3.14% | 3.19% | Base rate |
-| aave-v3 | 6.03% | 6.15% | 36.39% incentives |
-| fluxion-network | 6.69% | 9.99% | Base rate |
-| curve-dex | 6.00% | 7.96% | 100.00% incentives |
-| neverland | 11.05% | 11.14% | 81.86% incentives |
+| aave-v3 | 4.85% | 4.81% | 17.54% incentives |
+| fluid-lending | 4.32% | 5.91% | Base rate |
+| aave-v3 | 4.45% | 4.30% | 32.74% incentives |
+| aave-v3 | 3.15% | 3.18% | Base rate |
+| aave-v3 | 6.03% | 6.17% | 38.61% incentives |
+| fluxion-network | 6.55% | 10.39% | Base rate |
+| curve-dex | 6.00% | 7.76% | 100.00% incentives |
+| neverland | 10.31% | 11.13% | 82.21% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDT0 yield today?
 
-11.05% APY on neverland (Monad), based on live DefiLlama data.
+10.31% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many USDT0 pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $134.13M in total.
+26 live pools clear this page's $100K TVL floor, $127.59M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDT0 pools have the most stable APY history?
 
-Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.79% APY, $48.23M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.83% APY, $24.87M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.46% APY, $26.39M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 3.14% APY, $11.16M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; aave-v3 (Monad), 6.03% APY, $7.55M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; neverland (Monad), 11.05% APY, $842.1K TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; curve-dex (Monad), 6.00% APY, $2.34M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; fluxion-network (Mantle), 6.69% APY, $5.12M TVL, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.85% APY, $45.26M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.32% APY, $24.37M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.45% APY, $21.82M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 3.15% APY, $11.14M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; aave-v3 (Monad), 6.03% APY, $8.93M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; neverland (Monad), 10.31% APY, $955.4K TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; curve-dex (Monad), 6.00% APY, $2.35M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; fluxion-network (Mantle), 6.55% APY, $5.17M TVL, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +90,4 @@ Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Pla
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

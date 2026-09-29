@@ -1,12 +1,12 @@
 # SRROYSAVUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest SRROYSAVUSD yield right now is 7.87% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSAVUSD yield right now is 7.82% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 7.87% | $5.03M |
+| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 7.82% | $5.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSAVUSD yield today?
 
-7.87% APY on royco-v2 (Avalanche), based on live DefiLlama data.
+7.82% APY on royco-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many SRROYSAVUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.03M in total.
+1 live pool clear this page's $100K TVL floor, $5.04M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank SRROYSAVUSD pools. This view 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

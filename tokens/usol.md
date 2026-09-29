@@ -1,35 +1,35 @@
 # USOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest USOL yield right now is 15.75% on project-x (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USOL yield right now is 40.40% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 60.48% | $1.16M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 13.63% | $550.2K |
-| [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 15.75% | $522.6K |
-| [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 2.79% | $330.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 40.40% | $1.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 7.18% | $558.4K |
+| [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 5.00% | $517K |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 2.81% | $329.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USOL's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 2.79% APY, $330.7K TVL, https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token; uniswap-v3 (Base), 13.63% APY, $550.2K TVL, https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token; aerodrome-slipstream (Base), 60.48% APY, $1.16M TVL, https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token; project-x (Hyperliquid L1), 15.75% APY, $522.6K TVL, https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USOL's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 2.81% APY, $329.5K TVL, https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token; uniswap-v3 (Base), 7.18% APY, $558.4K TVL, https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token; aerodrome-slipstream (Base), 40.40% APY, $1.13M TVL, https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token; project-x (Hyperliquid L1), 5.00% APY, $517K TVL, https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 2.79% | $330.7K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 13.63% | $550.2K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 60.48% | $1.16M |
-| 4 | [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 15.75% | $522.6K |
+| 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 2.81% | $329.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 7.18% | $558.4K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 40.40% | $1.13M |
+| 4 | [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 5.00% | $517K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USOL shows up in 4 pools here, with rates from 2.79% to 60.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USOL shows up in 4 pools here, with rates from 2.81% to 40.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ USOL shows up in 4 pools here, with rates from 2.79% to 60.48% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 60.48% | 40.07% | 18.22% incentives |
-| uniswap-v3 | 13.63% | 8.60% | Base rate |
-| project-x | 15.75% | 19.39% | Base rate |
-| hyperlend-pooled | 2.79% | 2.79% | Base rate |
+| aerodrome-slipstream | 40.40% | 40.15% | 33.63% incentives |
+| uniswap-v3 | 7.18% | 8.64% | Base rate |
+| project-x | 5.00% | 19.76% | Base rate |
+| hyperlend-pooled | 2.81% | 2.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USOL yield today?
 
-15.75% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+40.40% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many USOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.56M in total.
+4 live pools clear this page's $100K TVL floor, $2.54M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USOL pools have the most stable APY history?
 
-Based on APY history only, USOL's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 2.79% APY, $330.7K TVL, https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token; uniswap-v3 (Base), 13.63% APY, $550.2K TVL, https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token; aerodrome-slipstream (Base), 60.48% APY, $1.16M TVL, https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token; project-x (Hyperliquid L1), 15.75% APY, $522.6K TVL, https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USOL's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 2.81% APY, $329.5K TVL, https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token; uniswap-v3 (Base), 7.18% APY, $558.4K TVL, https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token; aerodrome-slipstream (Base), 40.40% APY, $1.13M TVL, https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token; project-x (Hyperliquid L1), 5.00% APY, $517K TVL, https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, USOL's lower-variability candidates are hyperlend-poo
 - [Base](https://www.defi.garden/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

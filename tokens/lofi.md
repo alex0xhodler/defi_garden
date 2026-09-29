@@ -1,6 +1,6 @@
 # LOFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
 The highest honest LOFI yield right now is 276.49% on turbos (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LOFI pools. This view covers 
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

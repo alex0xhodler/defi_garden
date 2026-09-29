@@ -1,12 +1,12 @@
 # AWDH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest AWDH yield right now is 3.51% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AWDH yield right now is 0.18% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=604a524e-ddcb-5574-89ba-5eaa2bdc78e0&src=seo_token) | BSC | 3.51% | $111.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=604a524e-ddcb-5574-89ba-5eaa2bdc78e0&src=seo_token) | BSC | 0.18% | $111.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AWDH yield today?
 
-3.51% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.18% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many AWDH pools clear the TVL floor?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank AWDH pools. This view covers 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

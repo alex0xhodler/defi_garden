@@ -1,12 +1,12 @@
 # FEATHERBRZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest FEATHERBRZ yield right now is 13.73% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEATHERBRZ yield right now is 13.69% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 13.73% | $194.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 13.69% | $194.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEATHERBRZ yield today?
 
-13.73% APY on morpho-blue (Polygon), based on live DefiLlama data.
+13.69% APY on morpho-blue (Polygon), based on live DefiLlama data.
 
 ### How many FEATHERBRZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $194.3K in total.
+1 live pool clear this page's $100K TVL floor, $194.1K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [EUSD](https://www.defi.garden/tokens/eusd)
 - [BET](https://www.defi.garden/tokens/bet)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

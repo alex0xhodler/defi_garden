@@ -1,12 +1,12 @@
 # DHT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest DHT yield right now is 34.26% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DHT yield right now is 35.08% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=fb5349ce-31da-4c9e-b8df-b06b49124520&src=seo_token) | Base | 34.26% | $101.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=fb5349ce-31da-4c9e-b8df-b06b49124520&src=seo_token) | Base | 35.08% | $105.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DHT yield today?
 
-34.26% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+35.08% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many DHT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.1K in total.
+1 live pool clear this page's $100K TVL floor, $105.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DHT pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

@@ -1,54 +1,56 @@
 # APXUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 28, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 APXUSD의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 38.31%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 APXUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 15.34%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.23% | $164.72M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.18% | $16.51M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 0.21% | $10.27M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 13.46% | $2.76M |
-| [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 14.79% | $2.76M |
-| [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token) | Solana | 0.18% | $1.5M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=62125787-1052-595e-8e4b-033af61902c3&src=seo_token) | Ethereum | 32.35% | $211K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b0bdcd78-d012-551b-8bac-5fce6d31fd09&src=seo_token) | Ethereum | 38.31% | $163.9K |
+| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.26% | $166.16M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.42% | $16.66M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 6.48% | $12.61M |
+| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 2.39% | $7.4M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 8.62% | $4.75M |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=497ab748-5954-4cde-b7d0-346cb6391ee4&src=seo_token) | Ethereum | 0.01% | $2.98M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 14.36% | $2.77M |
+| [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 15.34% | $2.77M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 APXUSD의 변동성 낮은 후보는 Ethereum의 apyx-protocol, APY 13.23%, TVL $164.72M, https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token; Ethereum의 pendle-v2, APY 14.79%, TVL $2.76M, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token; Solana의 orca-dex, APY 0.18%, TVL $1.5M, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token; Ethereum의 curve-dex, APY 7.18%, TVL $16.51M, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token; Ethereum의 pendle-v2, APY 13.46%, TVL $2.76M, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $10.27M, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APXUSD의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.39%, TVL $7.4M, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token; Ethereum의 pancakeswap-amm-v3, APY 0.01%, TVL $2.98M, https://www.defi.garden/?pool=497ab748-5954-4cde-b7d0-346cb6391ee4&src=seo_token; Ethereum의 apyx-protocol, APY 13.26%, TVL $166.16M, https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token; Ethereum의 pendle-v2, APY 15.34%, TVL $2.77M, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token; Ethereum의 curve-dex, APY 8.62%, TVL $4.75M, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token; Ethereum의 curve-dex, APY 10.42%, TVL $16.66M, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token; Ethereum의 pendle-v2, APY 14.36%, TVL $2.77M, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token; Ethereum의 uniswap-v4, APY 6.48%, TVL $12.61M, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.23% | $164.72M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 14.79% | $2.76M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token) | Solana | 0.18% | $1.5M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.18% | $16.51M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 13.46% | $2.76M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 0.21% | $10.27M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 2.39% | $7.4M |
+| 2 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=497ab748-5954-4cde-b7d0-346cb6391ee4&src=seo_token) | Ethereum | 0.01% | $2.98M |
+| 3 | [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.26% | $166.16M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 15.34% | $2.77M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 8.62% | $4.75M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.42% | $16.66M |
+| 7 | [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 14.36% | $2.77M |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 6.48% | $12.61M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-APXUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.18%부터 38.31%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+APXUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 15.34%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.26%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| apyx-protocol | 13.23% | 12.50% | 기본 금리 |
-| curve-dex | 7.18% | 7.92% | 기본 금리 |
-| uniswap-v4 | 0.21% | 29.56% | 기본 금리 |
-| pendle-v2 | 13.46% | 6.31% | 인센티브 9.16% |
-| pendle-v2 | 14.79% | 10.64% | 기본 금리 |
-| orca-dex | 0.18% | 1.85% | 기본 금리 |
-| uniswap-v4 | 32.35% | 86.17% | 기본 금리 |
-| uniswap-v4 | 38.31% | 46.57% | 기본 금리 |
+| apyx-protocol | 13.26% | 12.53% | 기본 금리 |
+| curve-dex | 10.42% | 7.95% | 기본 금리 |
+| uniswap-v4 | 6.48% | 28.53% | 기본 금리 |
+| orca-dex | 2.39% | 0.28% | 기본 금리 |
+| curve-dex | 8.62% | 5.77% | 기본 금리 |
+| pancakeswap-amm-v3 | 0.01% | 0.01% | 기본 금리 |
+| pendle-v2 | 14.36% | 6.57% | 인센티브 9.53% |
+| pendle-v2 | 15.34% | 10.90% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,11 +58,11 @@ APXUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.18%부터 38.31%
 
 ### 오늘 APXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 38.31%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 15.34%예요.
 
 ### APXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $218.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $222.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,15 +70,15 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 38.31%예
 
 ### APXUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 APXUSD의 변동성 낮은 후보는 Ethereum의 apyx-protocol, APY 13.23%, TVL $164.72M, https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token; Ethereum의 pendle-v2, APY 14.79%, TVL $2.76M, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token; Solana의 orca-dex, APY 0.18%, TVL $1.5M, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token; Ethereum의 curve-dex, APY 7.18%, TVL $16.51M, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token; Ethereum의 pendle-v2, APY 13.46%, TVL $2.76M, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $10.27M, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APXUSD의 변동성 낮은 후보는 Solana의 orca-dex, APY 2.39%, TVL $7.4M, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token; Ethereum의 pancakeswap-amm-v3, APY 0.01%, TVL $2.98M, https://www.defi.garden/?pool=497ab748-5954-4cde-b7d0-346cb6391ee4&src=seo_token; Ethereum의 apyx-protocol, APY 13.26%, TVL $166.16M, https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token; Ethereum의 pendle-v2, APY 15.34%, TVL $2.77M, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token; Ethereum의 curve-dex, APY 8.62%, TVL $4.75M, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token; Ethereum의 curve-dex, APY 10.42%, TVL $16.66M, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token; Ethereum의 pendle-v2, APY 14.36%, TVL $2.77M, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token; Ethereum의 uniswap-v4, APY 6.48%, TVL $12.61M, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
@@ -84,4 +86,4 @@ APY 이력만 기준으로 비교한 APXUSD의 변동성 낮은 후보는 Ethere
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 28, 2026
+## 마지막 업데이트: September 29, 2026

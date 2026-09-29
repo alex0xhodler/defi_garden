@@ -1,12 +1,12 @@
 # STBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest STBTC yield right now is 2.45% on stackingdao (Stacks), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STBTC yield right now is 2.47% on stackingdao (Stacks), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00&src=seo_token) | Stacks | 2.45% | $12.7M |
+| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00&src=seo_token) | Stacks | 2.47% | $12.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +17,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STBTC shows up in 1 pools here, with rates from 2.45% to 2.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STBTC shows up in 1 pools here, with rates from 2.47% to 2.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stackingdao | 2.45% | 2.41% | Base rate |
+| stackingdao | 2.47% | 2.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STBTC yield today?
 
-2.45% APY on stackingdao (Stacks), based on live DefiLlama data.
+2.47% APY on stackingdao (Stacks), based on live DefiLlama data.
 
 ### How many STBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $45.41M in total.
+4 live pools clear this page's $100K TVL floor, $45.67M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank STBTC pools. This view covers
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

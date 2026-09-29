@@ -1,12 +1,12 @@
 # VKSM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest VKSM yield right now is 6.26% on bifrost-liquid-staking (Kusama), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VKSM yield right now is 6.45% on bifrost-liquid-staking (Kusama), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_token) | Kusama | 6.26% | $683.9K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_token) | Kusama | 6.45% | $689.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VKSM yield today?
 
-6.26% APY on bifrost-liquid-staking (Kusama), based on live DefiLlama data.
+6.45% APY on bifrost-liquid-staking (Kusama), based on live DefiLlama data.
 
 ### How many VKSM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $683.9K in total.
+1 live pool clear this page's $100K TVL floor, $689.6K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank VKSM pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Kusama](https://www.defi.garden/chains/kusama)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

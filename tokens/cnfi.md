@@ -1,12 +1,12 @@
 # CNFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest CNFI yield right now is 0.61% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CNFI yield right now is 0.05% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.61% | $130.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.05% | $124.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CNFI yield today?
 
-0.61% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.05% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many CNFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.6K in total.
+1 live pool clear this page's $100K TVL floor, $124.1K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank CNFI pools. This view covers 
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

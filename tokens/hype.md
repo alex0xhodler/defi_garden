@@ -1,42 +1,42 @@
 # HYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest HYPE yield right now is 522.92% on aerodrome-slipstream (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPE yield right now is 61.85% on orca-dex (Solana), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [d2-finance →](https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token) | Arbitrum | 23.20% | $8.16M |
-| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 31.68% | $2.85M |
+| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 28.78% | $2.67M |
 | [d2-finance →](https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token) | Base | 23.20% | $2.48M |
-| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.11M |
+| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.09M |
 | [d2-finance →](https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token) | Hyperliquid L1 | 23.20% | $2M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 522.92% | $404.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498&src=seo_token) | Solana | 268.39% | $378.5K |
-| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 49.91% | $219.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 592.99% | $441.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498&src=seo_token) | Solana | 524.23% | $282.4K |
+| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 61.85% | $220.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HYPE's lower-variability candidates are harmonix-finance (Hyperliquid L1), 2.23% APY, $2.11M TVL, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; d2-finance (Hyperliquid L1), 23.20% APY, $2M TVL, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; d2-finance (Base), 23.20% APY, $2.48M TVL, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; d2-finance (Arbitrum), 23.20% APY, $8.16M TVL, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; orca-dex (Solana), 31.68% APY, $2.85M TVL, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; aerodrome-slipstream (Base), 522.92% APY, $404.7K TVL, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; orca-dex (Solana), 49.91% APY, $219.6K TVL, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYPE's lower-variability candidates are harmonix-finance (Hyperliquid L1), 2.23% APY, $2.09M TVL, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; d2-finance (Base), 23.20% APY, $2.48M TVL, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; d2-finance (Hyperliquid L1), 23.20% APY, $2M TVL, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; d2-finance (Arbitrum), 23.20% APY, $8.16M TVL, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; orca-dex (Solana), 28.78% APY, $2.67M TVL, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; aerodrome-slipstream (Base), 592.99% APY, $441.2K TVL, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; orca-dex (Solana), 61.85% APY, $220.6K TVL, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.11M |
-| 2 | [d2-finance →](https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token) | Hyperliquid L1 | 23.20% | $2M |
-| 3 | [d2-finance →](https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token) | Base | 23.20% | $2.48M |
+| 1 | [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.23% | $2.09M |
+| 2 | [d2-finance →](https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token) | Base | 23.20% | $2.48M |
+| 3 | [d2-finance →](https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token) | Hyperliquid L1 | 23.20% | $2M |
 | 4 | [d2-finance →](https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token) | Arbitrum | 23.20% | $8.16M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 31.68% | $2.85M |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 522.92% | $404.7K |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 49.91% | $219.6K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 28.78% | $2.67M |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 592.99% | $441.2K |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 61.85% | $220.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HYPE shows up in 8 pools here, with rates from 2.23% to 522.92% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+HYPE shows up in 8 pools here, with rates from 2.23% to 592.99% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -44,14 +44,14 @@ HYPE shows up in 8 pools here, with rates from 2.23% to 522.92% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| d2-finance | 23.20% | 7.01% | Base rate |
-| orca-dex | 31.68% | 71.79% | Base rate |
-| d2-finance | 23.20% | 7.01% | Base rate |
-| harmonix-finance | 2.23% | 2.28% | Base rate |
-| d2-finance | 23.20% | 7.03% | Base rate |
-| aerodrome-slipstream | 522.92% | 370.39% | 91.57% incentives |
-| raydium-amm | 268.39% | — | Base rate |
-| orca-dex | 49.91% | 68.27% | Base rate |
+| d2-finance | 23.20% | 7.79% | Base rate |
+| orca-dex | 28.78% | 71.01% | Base rate |
+| d2-finance | 23.20% | 7.79% | Base rate |
+| harmonix-finance | 2.23% | 2.27% | Base rate |
+| d2-finance | 23.20% | 7.81% | Base rate |
+| aerodrome-slipstream | 592.99% | 375.79% | 89.79% incentives |
+| raydium-amm | 524.23% | — | Base rate |
+| orca-dex | 61.85% | 68.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HYPE yield today?
 
-522.92% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+61.85% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HYPE pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $21.12M in total.
+10 live pools clear this page's $100K TVL floor, $20.86M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HYPE pools have the most stable APY history?
 
-Based on APY history only, HYPE's lower-variability candidates are harmonix-finance (Hyperliquid L1), 2.23% APY, $2.11M TVL, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; d2-finance (Hyperliquid L1), 23.20% APY, $2M TVL, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; d2-finance (Base), 23.20% APY, $2.48M TVL, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; d2-finance (Arbitrum), 23.20% APY, $8.16M TVL, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; orca-dex (Solana), 31.68% APY, $2.85M TVL, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; aerodrome-slipstream (Base), 522.92% APY, $404.7K TVL, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; orca-dex (Solana), 49.91% APY, $219.6K TVL, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYPE's lower-variability candidates are harmonix-finance (Hyperliquid L1), 2.23% APY, $2.09M TVL, https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token; d2-finance (Base), 23.20% APY, $2.48M TVL, https://www.defi.garden/?pool=3ab82299-02f4-5975-8726-a6beaa05e6d6&src=seo_token; d2-finance (Hyperliquid L1), 23.20% APY, $2M TVL, https://www.defi.garden/?pool=348d69a3-0c57-596a-b305-5797bfd4ee86&src=seo_token; d2-finance (Arbitrum), 23.20% APY, $8.16M TVL, https://www.defi.garden/?pool=233ece47-a550-5dc0-a8a4-5ac545354d69&src=seo_token; orca-dex (Solana), 28.78% APY, $2.67M TVL, https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token; aerodrome-slipstream (Base), 592.99% APY, $441.2K TVL, https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token; orca-dex (Solana), 61.85% APY, $220.6K TVL, https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, HYPE's lower-variability candidates are harmonix-fina
 - [Base](https://www.defi.garden/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

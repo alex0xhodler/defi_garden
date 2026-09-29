@@ -1,12 +1,12 @@
 # FLRETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
 The highest honest FLRETH yield right now is 0.01% on kinetic (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.45M |
+| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.01% | $2.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLRETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.45M in total.
+1 live pool clear this page's $100K TVL floor, $2.51M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank FLRETH pools. This view cover
 - [FXRP](https://www.defi.garden/tokens/fxrp)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [SFLR](https://www.defi.garden/tokens/sflr)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
+- [WFLR](https://www.defi.garden/tokens/wflr)
 
 ## Available on
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

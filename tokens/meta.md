@@ -1,13 +1,12 @@
 # META DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest META yield right now is 106.69% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest META yield right now is 29.28% on omnipair (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5696ca76-3391-5ac4-b4d2-73c59307f2bb&src=seo_token) | Solana | 106.69% | $522.3K |
-| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 31.66% | $157.5K |
+| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 29.28% | $154.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +17,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-META shows up in 2 pools here, with rates from 31.66% to 106.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+META shows up in 1 pools here, with rates from 29.28% to 29.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 50.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 24.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 106.69% | 76.00% | Base rate |
-| omnipair | 31.66% | 24.00% | Base rate |
+| omnipair | 29.28% | 24.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest META yield today?
 
-106.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+29.28% APY on omnipair (Solana), based on live DefiLlama data.
 
 ### How many META pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $892.6K in total.
+2 live pools clear this page's $100K TVL floor, $363.9K in total.
 
 ### Are these rates safe?
 
@@ -53,15 +51,15 @@ There is not enough qualifying APY history to rank META pools. This view covers 
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

@@ -1,32 +1,32 @@
 # JPYC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest JPYC yield right now is 18.25% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JPYC yield right now is 26.46% on uniswap-v4 (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 17.81% | $747.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token) | Ethereum | 18.25% | $168.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=be6aafd9-8025-5c37-b900-32de23052d19&src=seo_token) | Polygon | 2.78% | $114.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 26.46% | $747.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token) | Ethereum | 37.85% | $162.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=be6aafd9-8025-5c37-b900-32de23052d19&src=seo_token) | Polygon | 3.75% | $114.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JPYC's lower-variability candidates are uniswap-v4 (Polygon), 17.81% APY, $747.2K TVL, https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token; uniswap-v4 (Ethereum), 18.25% APY, $168.4K TVL, https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JPYC's lower-variability candidates are uniswap-v4 (Polygon), 26.46% APY, $747.1K TVL, https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token; uniswap-v4 (Ethereum), 37.85% APY, $162.6K TVL, https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 17.81% | $747.2K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token) | Ethereum | 18.25% | $168.4K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token) | Polygon | 26.46% | $747.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token) | Ethereum | 37.85% | $162.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JPYC shows up in 3 pools here, with rates from 2.78% to 18.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+JPYC shows up in 3 pools here, with rates from 3.75% to 37.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 43.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 44.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 17.81% | 43.31% | Base rate |
-| uniswap-v4 | 18.25% | 92.76% | Base rate |
-| uniswap-v4 | 2.78% | 12.60% | Base rate |
+| uniswap-v4 | 26.46% | 44.04% | Base rate |
+| uniswap-v4 | 37.85% | 87.85% | Base rate |
+| uniswap-v4 | 3.75% | 11.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JPYC yield today?
 
-18.25% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+26.46% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many JPYC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.03M in total.
+3 live pools clear this page's $100K TVL floor, $1.02M in total.
 
 ### Are these rates safe?
 
@@ -56,15 +56,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JPYC pools have the most stable APY history?
 
-Based on APY history only, JPYC's lower-variability candidates are uniswap-v4 (Polygon), 17.81% APY, $747.2K TVL, https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token; uniswap-v4 (Ethereum), 18.25% APY, $168.4K TVL, https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JPYC's lower-variability candidates are uniswap-v4 (Polygon), 26.46% APY, $747.1K TVL, https://www.defi.garden/?pool=f5b7884c-3815-41dd-81a6-98b6ac8460c5&src=seo_token; uniswap-v4 (Ethereum), 37.85% APY, $162.6K TVL, https://www.defi.garden/?pool=9c9096b6-4efe-43b8-a026-f7c0dbf43409&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -72,4 +72,4 @@ Based on APY history only, JPYC's lower-variability candidates are uniswap-v4 (P
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

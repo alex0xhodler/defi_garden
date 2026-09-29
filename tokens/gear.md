@@ -1,31 +1,31 @@
 # GEAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest GEAR yield right now is 13.03% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEAR yield right now is 8.49% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 3.54% | $431.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token) | Ethereum | 13.03% | $129.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 1.32% | $437K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token) | Ethereum | 8.49% | $126.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 13.03% APY, $129.7K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token; curve-dex (Ethereum), 3.54% APY, $431.6K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 8.49% APY, $126.8K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token; curve-dex (Ethereum), 1.32% APY, $437K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token) | Ethereum | 13.03% | $129.7K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 3.54% | $431.6K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token) | Ethereum | 8.49% | $126.8K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token) | Ethereum | 1.32% | $437K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GEAR shows up in 2 pools here, with rates from 3.54% to 13.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GEAR shows up in 2 pools here, with rates from 1.32% to 8.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ GEAR shows up in 2 pools here, with rates from 3.54% to 13.03% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.54% | 1.39% | 0.00% incentives |
-| uniswap-v2 | 13.03% | 7.41% | Base rate |
+| curve-dex | 1.32% | 1.42% | 0.01% incentives |
+| uniswap-v2 | 8.49% | 7.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GEAR yield today?
 
-13.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+8.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GEAR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $561.3K in total.
+2 live pools clear this page's $100K TVL floor, $563.8K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GEAR pools have the most stable APY history?
 
-Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 13.03% APY, $129.7K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token; curve-dex (Ethereum), 3.54% APY, $431.6K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 8.49% APY, $126.8K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a&src=seo_token; curve-dex (Ethereum), 1.32% APY, $437K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

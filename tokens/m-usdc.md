@@ -1,6 +1,6 @@
 # M.USDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
 The highest honest M.USDC yield right now is 3.43% on hercules-v3 (Metis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank M.USDC pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Metis](https://www.defi.garden/chains/metis)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

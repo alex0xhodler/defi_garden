@@ -1,12 +1,12 @@
 # CBHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 28, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
 
-The highest honest CBHYPE yield right now is 65.81% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBHYPE yield right now is 113.49% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 65.81% | $329.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5c98fb3e-c293-5c7d-b9e4-741e7b71a54d&src=seo_token) | Base | 113.49% | $340.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CBHYPE shows up in 1 pools here, with rates from 65.81% to 65.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBHYPE shows up in 1 pools here, with rates from 113.49% to 113.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 71.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 71.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ CBHYPE shows up in 1 pools here, with rates from 65.81% to 65.81% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 65.81% | 71.85% | 14.33% incentives |
+| aerodrome-slipstream | 113.49% | 71.54% | 8.45% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBHYPE yield today?
 
-65.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+113.49% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $620.2K in total.
+2 live pools clear this page's $100K TVL floor, $679.8K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank CBHYPE pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 28, 2026
+## Last updated September 29, 2026

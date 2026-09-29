@@ -1,12 +1,12 @@
 # PIKUUSDC — morpho-blue on Ethereum
 
-**Total APY:** 8.00% (8.00% Base · + 0.00% Rewards)
+**Total APY:** 8.25% (8.25% Base · + 0.00% Rewards)
 
-**TVL:** $674.6K
+**TVL:** $619.2K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 10.51%
+**30d Mean APY:** 10.35%
 
 **Exposure:** single
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,469 in 5y at current rates.
+$1,000 in this pool grows to ~$1,487 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We've been tracking this pool's rate for 14 days. Watching how a rate holds up over time is one honest way to judge it.
+We've been tracking this pool's rate for 15 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$1,469 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,487 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated September 28, 2026
+Last updated September 29, 2026
