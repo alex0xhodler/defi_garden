@@ -1,31 +1,31 @@
 # DEAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest DEAI yield right now is 11.86% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEAI yield right now is 10.83% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 11.86% | $7.13M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 9.54% | $141.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 10.83% | $7.13M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 12.26% | $136.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 9.54% APY, $141.1K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 11.86% APY, $7.13M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 12.26% APY, $136.9K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 10.83% APY, $7.13M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 9.54% | $141.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 11.86% | $7.13M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 12.26% | $136.9K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token) | BSC | 10.83% | $7.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEAI shows up in 2 pools here, with rates from 9.54% to 11.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEAI shows up in 2 pools here, with rates from 10.83% to 12.26% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 11.86% | 10.92% | Base rate |
-| uniswap-v2 | 9.54% | 7.70% | Base rate |
+| uniswap-v4 | 10.83% | 11.16% | Base rate |
+| uniswap-v2 | 12.26% | 7.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEAI yield today?
 
-11.86% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+10.83% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many DEAI pools clear the TVL floor?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEAI pools have the most stable APY history?
 
-Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 9.54% APY, $141.1K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 11.86% APY, $7.13M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (Base), 12.26% APY, $136.9K TVL, https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token; uniswap-v4 (BSC), 10.83% APY, $7.13M TVL, https://www.defi.garden/?pool=1582b28c-c8b1-43d6-af57-22250dc557de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,11 +63,11 @@ Based on APY history only, DEAI's lower-variability candidates are uniswap-v2 (B
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USYC](https://www.defi.garden/tokens/usyc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

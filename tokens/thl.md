@@ -1,12 +1,12 @@
 # THL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest THL yield right now is 0.04% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THL yield right now is 1.42% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.04% | $181.8K |
+| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 1.42% | $211K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THL yield today?
 
-0.04% APY on thalaswap (Aptos), based on live DefiLlama data.
+1.42% APY on thalaswap (Aptos), based on live DefiLlama data.
 
 ### How many THL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.8K in total.
+1 live pool clear this page's $100K TVL floor, $211K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank THL pools. This view covers A
 
 ## Related tokens
 
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USD1](https://www.defi.garden/tokens/usd1)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
-- [STAPT](https://www.defi.garden/tokens/stapt)
 
 ## Available on
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

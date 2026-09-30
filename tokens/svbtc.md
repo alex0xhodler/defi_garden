@@ -1,6 +1,6 @@
 # SVBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
 The highest honest SVBTC yield right now is 0.01% on bluefin-spot (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SVBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $17.8M in total.
+3 live pools clear this page's $100K TVL floor, $17.72M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SVBTC pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

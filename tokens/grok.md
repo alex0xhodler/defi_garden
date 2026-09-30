@@ -1,14 +1,14 @@
 # GROK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest GROK yield right now is 172.50% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GROK yield right now is 466.08% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e70c3cf9-57e9-4c96-8297-8f18fd789c87&src=seo_token) | Ethereum | 2.65% | $1.04M |
-| [raydium-amm →](https://www.defi.garden/?pool=fa5540e9-030a-5459-9c51-17a7f6617f7b&src=seo_token) | Solana | 172.50% | $148.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=6776f075-0097-5c83-85ff-4e9f532761ad&src=seo_token) | Solana | 420.24% | $142.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e70c3cf9-57e9-4c96-8297-8f18fd789c87&src=seo_token) | Ethereum | 0.26% | $1.02M |
+| [raydium-amm →](https://www.defi.garden/?pool=6776f075-0097-5c83-85ff-4e9f532761ad&src=seo_token) | Solana | 466.08% | $175.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=fa5540e9-030a-5459-9c51-17a7f6617f7b&src=seo_token) | Solana | 124.37% | $119.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GROK shows up in 3 pools here, with rates from 2.65% to 420.24% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GROK shows up in 3 pools here, with rates from 0.26% to 466.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 260.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 252.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.65% | 1.00% | Base rate |
-| raydium-amm | 172.50% | 260.02% | Base rate |
-| raydium-amm | 420.24% | 938.51% | Base rate |
+| uniswap-v2 | 0.26% | 1.05% | Base rate |
+| raydium-amm | 466.08% | 879.90% | Base rate |
+| raydium-amm | 124.37% | 252.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GROK yield today?
 
-172.50% APY on raydium-amm (Solana), based on live DefiLlama data.
+466.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GROK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.33M in total.
+3 live pools clear this page's $100K TVL floor, $1.32M in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank GROK pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

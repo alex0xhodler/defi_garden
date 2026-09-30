@@ -1,35 +1,35 @@
 # ADS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest ADS yield right now is 3.38% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADS yield right now is 5.06% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.56% | $975.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.47% | $921.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.14% | $882.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 3.38% | $422.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 3.33% | $273K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.36% | $966.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.32% | $909.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.12% | $872.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 5.06% | $416.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 3.17% | $270.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.14% APY, $882.6K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.56% APY, $975.7K TVL, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; uniswap-v4 (Ethereum), 0.47% APY, $921.6K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 3.33% APY, $273K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 3.38% APY, $422.5K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $872.8K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.36% APY, $966.4K TVL, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; uniswap-v4 (Ethereum), 0.32% APY, $909.5K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 3.17% APY, $270.3K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 5.06% APY, $416.9K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.14% | $882.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.56% | $975.7K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.47% | $921.6K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 3.33% | $273K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 3.38% | $422.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.12% | $872.8K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.36% | $966.4K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.32% | $909.5K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 3.17% | $270.3K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 5.06% | $416.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADS shows up in 5 pools here, with rates from 0.14% to 3.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADS shows up in 5 pools here, with rates from 0.12% to 5.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.56% | 0.78% | Base rate |
-| uniswap-v4 | 0.47% | 0.78% | Base rate |
-| uniswap-v4 | 0.14% | 0.21% | Base rate |
-| uniswap-v3 | 3.38% | 6.48% | Base rate |
-| uniswap-v3 | 3.33% | 4.35% | Base rate |
+| uniswap-v4 | 0.36% | 0.77% | Base rate |
+| uniswap-v4 | 0.32% | 0.78% | Base rate |
+| uniswap-v4 | 0.12% | 0.21% | Base rate |
+| uniswap-v3 | 5.06% | 6.46% | Base rate |
+| uniswap-v3 | 3.17% | 4.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ADS yield today?
 
-3.38% APY on uniswap-v3 (Base), based on live DefiLlama data.
+5.06% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ADS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.74M in total.
+6 live pools clear this page's $100K TVL floor, $3.7M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ADS pools have the most stable APY history?
 
-Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.14% APY, $882.6K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.56% APY, $975.7K TVL, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; uniswap-v4 (Ethereum), 0.47% APY, $921.6K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 3.33% APY, $273K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 3.38% APY, $422.5K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $872.8K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.36% APY, $966.4K TVL, https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token; uniswap-v4 (Ethereum), 0.32% APY, $909.5K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 3.17% APY, $270.3K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 5.06% APY, $416.9K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -79,4 +79,4 @@ Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

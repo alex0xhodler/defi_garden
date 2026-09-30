@@ -1,31 +1,31 @@
 # RARE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest RARE yield right now is 55.86% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RARE yield right now is 17.88% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token) | Ethereum | 55.86% | $136.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token) | Base | 17.52% | $110.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token) | Ethereum | 17.88% | $142.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token) | Base | 6.98% | $114.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RARE's lower-variability candidates are uniswap-v4 (Base), 17.52% APY, $110.8K TVL, https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token; uniswap-v4 (Ethereum), 55.86% APY, $136.7K TVL, https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RARE's lower-variability candidates are uniswap-v4 (Base), 6.98% APY, $114.2K TVL, https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token; uniswap-v4 (Ethereum), 17.88% APY, $142.1K TVL, https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token) | Base | 17.52% | $110.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token) | Ethereum | 55.86% | $136.7K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token) | Base | 6.98% | $114.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token) | Ethereum | 17.88% | $142.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RARE shows up in 2 pools here, with rates from 17.52% to 55.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RARE shows up in 2 pools here, with rates from 6.98% to 17.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 55.86% | 19.71% | Base rate |
-| uniswap-v4 | 17.52% | 6.46% | Base rate |
+| uniswap-v4 | 17.88% | 20.30% | Base rate |
+| uniswap-v4 | 6.98% | 6.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RARE yield today?
 
-55.86% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+17.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RARE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $247.5K in total.
+2 live pools clear this page's $100K TVL floor, $256.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RARE pools have the most stable APY history?
 
-Based on APY history only, RARE's lower-variability candidates are uniswap-v4 (Base), 17.52% APY, $110.8K TVL, https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token; uniswap-v4 (Ethereum), 55.86% APY, $136.7K TVL, https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RARE's lower-variability candidates are uniswap-v4 (Base), 6.98% APY, $114.2K TVL, https://www.defi.garden/?pool=d29ab4f0-6a55-4f02-ac12-9a07b92688fb&src=seo_token; uniswap-v4 (Ethereum), 17.88% APY, $142.1K TVL, https://www.defi.garden/?pool=c381a475-9a86-4a3f-bdd9-a84da3c1995b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, RARE's lower-variability candidates are uniswap-v4 (B
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

@@ -1,29 +1,29 @@
 # CBLTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest CBLTC yield right now is 79.99% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBLTC yield right now is 59.78% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 31.94% | $220.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 79.99% | $133.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 26.20% | $216.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 59.78% | $121.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 31.94% APY, $220.3K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 79.99% APY, $133.5K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 26.20% APY, $216.9K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 59.78% APY, $121.8K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 31.94% | $220.3K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 79.99% | $133.5K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 26.20% | $216.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 59.78% | $121.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBLTC shows up in 2 pools here, with rates from 31.94% to 79.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBLTC shows up in 2 pools here, with rates from 26.20% to 59.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 59.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ CBLTC shows up in 2 pools here, with rates from 31.94% to 79.99% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 31.94% | 38.45% | 75.90% incentives |
-| aerodrome-slipstream | 79.99% | 80.10% | 54.30% incentives |
+| aerodrome-slipstream | 26.20% | 38.06% | 89.03% incentives |
+| aerodrome-slipstream | 59.78% | 80.50% | 70.43% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBLTC yield today?
 
-79.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+59.78% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBLTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.73M in total.
+4 live pools clear this page's $100K TVL floor, $3.68M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBLTC pools have the most stable APY history?
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 31.94% APY, $220.3K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 79.99% APY, $133.5K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 26.20% APY, $216.9K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 59.78% APY, $121.8K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, CBLTC's lower-variability candidates are aerodrome-sl
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

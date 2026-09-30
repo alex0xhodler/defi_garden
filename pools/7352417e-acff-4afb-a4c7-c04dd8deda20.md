@@ -1,6 +1,6 @@
 # USDC-USDBC — alien-base-v3 on Base
 
-**Total APY:** 0.12% (0.12% Base · + 0.00% Rewards)
+**Total APY:** 0.13% (0.13% Base · + 0.00% Rewards)
 
 **TVL:** $135.6K
 
@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on alien-base-v3](https://alienbase.xyz/?ref=defi.garden)
 
-Last updated September 29, 2026
+Last updated September 30, 2026

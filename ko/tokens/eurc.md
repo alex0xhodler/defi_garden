@@ -1,43 +1,43 @@
 # EURC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 167.67%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 95.11%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.32% | $15.89M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.15% | $3.53M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 21.02% | $2.37M |
-| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.47% | $1.31M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 33.67% | $1.24M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 8.04% | $871.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 167.67% | $784.7K |
-| [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.58% | $688K |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.29% | $16.25M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.26% | $3.43M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 9.56% | $2.31M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 29.24% | $1.54M |
+| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.55% | $1.3M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 7.59% | $873K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 95.11% | $827.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.59% | $685K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.15%, TVL $3.53M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.32%, TVL $15.89M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Avalanche의 aave-v3, APY 1.58%, TVL $688K, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; Base의 fluid-lending, APY 2.47%, TVL $1.31M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 8.04%, TVL $871.1K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 21.02%, TVL $2.37M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 33.67%, TVL $1.24M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; Base의 aerodrome-slipstream, APY 167.67%, TVL $784.7K, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.26%, TVL $3.43M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.29%, TVL $16.25M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Avalanche의 aave-v3, APY 1.59%, TVL $685K, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; Base의 fluid-lending, APY 2.55%, TVL $1.3M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 7.59%, TVL $873K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 9.56%, TVL $2.31M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 29.24%, TVL $1.54M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; Base의 aerodrome-slipstream, APY 95.11%, TVL $827.3K, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.15% | $3.53M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.32% | $15.89M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.58% | $688K |
-| 4 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.47% | $1.31M |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 8.04% | $871.1K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 21.02% | $2.37M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 33.67% | $1.24M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 167.67% | $784.7K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.26% | $3.43M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.29% | $16.25M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token) | Avalanche | 1.59% | $685K |
+| 4 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 2.55% | $1.3M |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 7.59% | $873K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 9.56% | $2.31M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 29.24% | $1.54M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 95.11% | $827.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EURC 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.58%부터 167.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EURC 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.59%부터 95.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ EURC 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.58%부터 167.67%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 2.32% | 2.36% | 기본 금리 |
-| aave-v3 | 2.15% | 1.94% | 기본 금리 |
-| uniswap-v4 | 21.02% | 12.81% | 기본 금리 |
-| fluid-lending | 2.47% | 2.65% | 기본 금리 |
-| aerodrome-slipstream | 33.67% | 25.69% | 인센티브 20.80% |
-| aerodrome-v1 | 8.04% | 11.30% | 인센티브 100.00% |
-| aerodrome-slipstream | 167.67% | 121.22% | 인센티브 14.25% |
-| aave-v3 | 1.58% | 1.34% | 기본 금리 |
+| aave-v3 | 2.29% | 2.36% | 기본 금리 |
+| aave-v3 | 2.26% | 1.95% | 기본 금리 |
+| uniswap-v4 | 9.56% | 13.05% | 기본 금리 |
+| aerodrome-slipstream | 29.24% | 26.45% | 인센티브 14.07% |
+| fluid-lending | 2.55% | 2.64% | 기본 금리 |
+| aerodrome-v1 | 7.59% | 11.46% | 인센티브 100.00% |
+| aerodrome-slipstream | 95.11% | 121.62% | 인센티브 18.44% |
+| aave-v3 | 1.59% | 1.34% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ EURC 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.58%부터 167.67%�
 
 ### 오늘 EURC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 167.67%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 95.11%예요.
 
 ### EURC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $36.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $36.82M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 167
 
 ### EURC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.15%, TVL $3.53M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.32%, TVL $15.89M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Avalanche의 aave-v3, APY 1.58%, TVL $688K, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; Base의 fluid-lending, APY 2.47%, TVL $1.31M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 8.04%, TVL $871.1K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 21.02%, TVL $2.37M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 33.67%, TVL $1.24M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; Base의 aerodrome-slipstream, APY 167.67%, TVL $784.7K, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.26%, TVL $3.43M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.29%, TVL $16.25M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Avalanche의 aave-v3, APY 1.59%, TVL $685K, https://www.defi.garden/?pool=9ec8eb36-332d-47d4-8d32-ee7574037e60&src=seo_token; Base의 fluid-lending, APY 2.55%, TVL $1.3M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 7.59%, TVL $873K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 9.56%, TVL $2.31M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 29.24%, TVL $1.54M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token; Base의 aerodrome-slipstream, APY 95.11%, TVL $827.3K, https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: September 29, 2026
+## 마지막 업데이트: September 30, 2026

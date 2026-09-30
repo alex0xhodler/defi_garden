@@ -1,25 +1,25 @@
 # STLINK 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 STLINK의 가장 높은 정직한 수익률은 Ethereum의 stake.link-liquid에서 4.84%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $105.78M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.63% | $6.93M |
-| [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 0.02% | $442.4K |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $100.87M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.04% | $6.81M |
+| [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 0.02% | $433.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STLINK의 변동성 낮은 후보는 Ethereum의 stake.link-liquid, APY 4.84%, TVL $105.78M, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; Ethereum의 curve-dex, APY 0.63%, TVL $6.93M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $442.4K, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STLINK의 변동성 낮은 후보는 Ethereum의 stake.link-liquid, APY 4.84%, TVL $100.87M, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; Ethereum의 curve-dex, APY 0.04%, TVL $6.81M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $433.7K, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $105.78M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.63% | $6.93M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 0.02% | $442.4K |
+| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.84% | $100.87M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.04% | $6.81M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token) | Ethereum | 0.02% | $433.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,8 +33,8 @@ STLINK 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.02%부터 4.84%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| stake.link-liquid | 4.84% | 4.76% | 기본 금리 |
-| curve-dex | 0.63% | 2.27% | 기본 금리 |
+| stake.link-liquid | 4.84% | 4.77% | 기본 금리 |
+| curve-dex | 0.04% | 2.28% | 기본 금리 |
 | curve-dex | 0.02% | 2.28% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake.link-liquid에서 APY 4.
 
 ### STLINK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $117.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $111.85M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake.link-liquid에서 APY 4.
 
 ### STLINK 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STLINK의 변동성 낮은 후보는 Ethereum의 stake.link-liquid, APY 4.84%, TVL $105.78M, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; Ethereum의 curve-dex, APY 0.63%, TVL $6.93M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $442.4K, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STLINK의 변동성 낮은 후보는 Ethereum의 stake.link-liquid, APY 4.84%, TVL $100.87M, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token; Ethereum의 curve-dex, APY 0.04%, TVL $6.81M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $433.7K, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 STLINK의 변동성 낮은 후보는 Ethere
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: September 29, 2026
+## 마지막 업데이트: September 30, 2026

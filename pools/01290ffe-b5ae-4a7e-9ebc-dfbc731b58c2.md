@@ -2,11 +2,11 @@
 
 **Total APY:** 2.20% (2.20% Base · + 0.00% Rewards)
 
-**TVL:** $182.6K
+**TVL:** $180.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.29%
+**30d Mean APY:** 3.25%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on balancer-v3](https://balancer.fi/?ref=defi.garden)
 
-Last updated September 29, 2026
+Last updated September 30, 2026

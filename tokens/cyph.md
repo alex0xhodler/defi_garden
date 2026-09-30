@@ -1,12 +1,12 @@
 # CYPH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest CYPH yield right now is 333.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYPH yield right now is 151.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4251b43f-2747-5fd9-9456-41dea4be7694&src=seo_token) | Solana | 333.97% | $165.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=4251b43f-2747-5fd9-9456-41dea4be7694&src=seo_token) | Solana | 151.62% | $162.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYPH yield today?
 
-333.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+151.62% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYPH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.4K in total.
+1 live pool clear this page's $100K TVL floor, $162.2K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank CYPH pools. This view covers 
 
 ## Related tokens
 
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [USDG](https://www.defi.garden/tokens/usdg)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

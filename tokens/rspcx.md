@@ -1,12 +1,12 @@
 # RSPCX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest RSPCX yield right now is 1.10% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSPCX yield right now is 0.72% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f&src=seo_token) | Arbitrum | 1.10% | $198.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f&src=seo_token) | Arbitrum | 0.72% | $200.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RSPCX yield today?
 
-1.10% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.72% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RSPCX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $198.7K in total.
+1 live pool clear this page's $100K TVL floor, $200.6K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank RSPCX pools. This view covers
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

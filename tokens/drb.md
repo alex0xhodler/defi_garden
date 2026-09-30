@@ -1,31 +1,31 @@
 # DRB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest DRB yield right now is 51.97% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRB yield right now is 49.92% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 51.97% | $1.66M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token) | Base | 6.52% | $116.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 49.92% | $1.58M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token) | Base | 6.89% | $110.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DRB's lower-variability candidates are uniswap-v3 (Base), 51.97% APY, $1.66M TVL, https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token; uniswap-v4 (Base), 6.52% APY, $116.2K TVL, https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DRB's lower-variability candidates are uniswap-v3 (Base), 49.92% APY, $1.58M TVL, https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token; uniswap-v4 (Base), 6.89% APY, $110.8K TVL, https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 51.97% | $1.66M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token) | Base | 6.52% | $116.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token) | Base | 49.92% | $1.58M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token) | Base | 6.89% | $110.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DRB shows up in 2 pools here, with rates from 6.52% to 51.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DRB shows up in 2 pools here, with rates from 6.89% to 49.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 61.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 59.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 51.97% | 104.89% | Base rate |
-| uniswap-v4 | 6.52% | 18.79% | Base rate |
+| uniswap-v3 | 49.92% | 101.61% | Base rate |
+| uniswap-v4 | 6.89% | 18.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DRB yield today?
 
-51.97% APY on uniswap-v3 (Base), based on live DefiLlama data.
+49.92% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DRB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.77M in total.
+2 live pools clear this page's $100K TVL floor, $1.69M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DRB pools have the most stable APY history?
 
-Based on APY history only, DRB's lower-variability candidates are uniswap-v3 (Base), 51.97% APY, $1.66M TVL, https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token; uniswap-v4 (Base), 6.52% APY, $116.2K TVL, https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DRB's lower-variability candidates are uniswap-v3 (Base), 49.92% APY, $1.58M TVL, https://www.defi.garden/?pool=45442536-fe46-4c20-8cf9-f2bf9d625b59&src=seo_token; uniswap-v4 (Base), 6.89% APY, $110.8K TVL, https://www.defi.garden/?pool=fcddd175-1a85-441a-ba35-46ce8790c883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, DRB's lower-variability candidates are uniswap-v3 (Ba
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

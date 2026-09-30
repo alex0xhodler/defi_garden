@@ -1,6 +1,6 @@
 # MDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
 The highest honest MDX yield right now is 1.49% on mdex (Heco), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -71,15 +71,15 @@ Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

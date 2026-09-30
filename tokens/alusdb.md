@@ -1,13 +1,13 @@
 # ALUSDB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest ALUSDB yield right now is 29.66% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALUSDB yield right now is 21.14% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=af1b872b-af09-511d-8124-2faa2c57b9b5&src=seo_token) | Base | 25.74% | $1.45M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2974581e-b6c7-5b8e-812a-bda0decab061&src=seo_token) | Base | 29.66% | $322.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=af1b872b-af09-511d-8124-2faa2c57b9b5&src=seo_token) | Base | 21.14% | $1.67M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2974581e-b6c7-5b8e-812a-bda0decab061&src=seo_token) | Base | 18.11% | $259.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ALUSDB shows up in 2 pools here, with rates from 25.74% to 29.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALUSDB shows up in 2 pools here, with rates from 18.11% to 21.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 35.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 25.74% | 26.09% | 100.00% incentives |
-| aerodrome-slipstream | 29.66% | 45.02% | 41.02% incentives |
+| aerodrome-v1 | 21.14% | 25.37% | 100.00% incentives |
+| aerodrome-slipstream | 18.11% | 40.71% | 55.07% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALUSDB yield today?
 
-29.66% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+21.14% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many ALUSDB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.77M in total.
+2 live pools clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank ALUSDB pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

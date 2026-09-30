@@ -1,12 +1,12 @@
 # USDT.Z DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest USDT.Z yield right now is 85.73% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT.Z yield right now is 74.94% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e&src=seo_token) | BSC | 85.73% | $310.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e&src=seo_token) | BSC | 74.94% | $305.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDT.Z yield today?
 
-85.73% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+74.94% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many USDT.Z pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $310.7K in total.
+1 live pool clear this page's $100K TVL floor, $305.1K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank USDT.Z pools. This view cover
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

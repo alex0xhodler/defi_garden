@@ -1,12 +1,12 @@
 # DUST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest DUST yield right now is 18.93% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUST yield right now is 47.25% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393&src=seo_token) | TON | 18.93% | $123.4K |
+| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393&src=seo_token) | TON | 47.25% | $120.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUST yield today?
 
-18.93% APY on dedust (TON), based on live DefiLlama data.
+47.25% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many DUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.4K in total.
+1 live pool clear this page's $100K TVL floor, $120.6K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank DUST pools. This view covers 
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [BABYDOGE](https://www.defi.garden/tokens/babydoge)
-- [UTYA](https://www.defi.garden/tokens/utya)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

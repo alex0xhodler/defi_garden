@@ -1,12 +1,12 @@
 # ENX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest ENX yield right now is 7.50% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENX yield right now is 2.57% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e13df743-99b4-4a8d-8f67-bd075485d981&src=seo_token) | Ethereum | 7.50% | $179.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e13df743-99b4-4a8d-8f67-bd075485d981&src=seo_token) | Ethereum | 2.57% | $178.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ENX yield today?
 
-7.50% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.57% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ENX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.5K in total.
+1 live pool clear this page's $100K TVL floor, $178.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ENX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

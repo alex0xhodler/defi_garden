@@ -1,12 +1,12 @@
 # MCDON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest MCDON yield right now is 591.97% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDON yield right now is 105.68% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b16ae550-4668-53a3-9665-3d014af39c66&src=seo_token) | BSC | 591.97% | $111.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b16ae550-4668-53a3-9665-3d014af39c66&src=seo_token) | BSC | 105.68% | $132.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCDON yield today?
 
-591.97% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+105.68% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many MCDON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.9K in total.
+1 live pool clear this page's $100K TVL floor, $132.7K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank MCDON pools. This view covers
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

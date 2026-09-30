@@ -1,12 +1,12 @@
 # BRLA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BRLA의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 21.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BRLA의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 31.16%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 21.96% | $146.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 31.16% | $150.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 BRLA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 21.96%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 31.16%예요.
 
 ### BRLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $146.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $150.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,14 +36,14 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 21.96%예�
 ## 관련 토큰
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [LINK](https://www.defi.garden/ko/tokens/link)
-- [AAVE](https://www.defi.garden/ko/tokens/aave)
+- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
-- [EUSD](https://www.defi.garden/ko/tokens/eusd)
 - [BET](https://www.defi.garden/ko/tokens/bet)
+- [FUN](https://www.defi.garden/ko/tokens/fun)
+- [WPOL](https://www.defi.garden/ko/tokens/wpol)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: September 29, 2026
+## 마지막 업데이트: September 30, 2026

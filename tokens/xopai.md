@@ -1,12 +1,12 @@
 # XOPAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest XOPAI yield right now is 131.61% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XOPAI yield right now is 274.39% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ad0936c4-27f1-5454-b97f-ef63064aee9b&src=seo_token) | BSC | 131.61% | $109K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ad0936c4-27f1-5454-b97f-ef63064aee9b&src=seo_token) | BSC | 274.39% | $118.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XOPAI yield today?
 
-131.61% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+274.39% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many XOPAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109K in total.
+1 live pool clear this page's $100K TVL floor, $118.1K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank XOPAI pools. This view covers
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

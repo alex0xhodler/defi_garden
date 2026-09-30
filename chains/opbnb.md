@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

@@ -1,12 +1,12 @@
 # AMWETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest AMWETH yield right now is 0.12% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMWETH yield right now is 0.03% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.12% | $2.31M |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.03% | $2.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMWETH yield today?
 
-0.12% APY on curve-dex (Polygon), based on live DefiLlama data.
+0.03% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many AMWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.31M in total.
+1 live pool clear this page's $100K TVL floor, $2.32M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank AMWETH pools. This view cover
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [LINK](https://www.defi.garden/tokens/link)
-- [AAVE](https://www.defi.garden/tokens/aave)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [EUSD](https://www.defi.garden/tokens/eusd)
 - [BET](https://www.defi.garden/tokens/bet)
+- [FUN](https://www.defi.garden/tokens/fun)
+- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

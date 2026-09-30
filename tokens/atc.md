@@ -1,12 +1,12 @@
 # ATC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 29, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
 
-The highest honest ATC yield right now is 0.20% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATC yield right now is 0.02% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.20% | $344.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.02% | $344.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATC yield today?
 
-0.20% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ATC pools clear the TVL floor?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank ATC pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 29, 2026
+## Last updated September 30, 2026

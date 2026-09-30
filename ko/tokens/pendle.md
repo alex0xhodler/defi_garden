@@ -1,43 +1,43 @@
 # PENDLE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 29, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 PENDLE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 130.71%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PENDLE의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 41.12%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 8.78% | $2.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 40.82% | $1.13M |
-| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.04% | $718.9K |
-| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 1.30% | $658.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 66.05% | $542.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 56.60% | $344.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 40.30% | $337K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token) | Base | 130.71% | $221.6K |
+| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 4.20% | $2.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 24.71% | $1.11M |
+| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.20% | $695.4K |
+| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 1.41% | $631.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 41.12% | $539.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 19.11% | $341.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 23.08% | $339.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token) | Base | 260.16% | $210.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 1.30%, TVL $658.1K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Ethereum의 curve-dex, APY 0.04%, TVL $718.9K, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token; Arbitrum의 uniswap-v3, APY 40.30%, TVL $337K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 8.78%, TVL $2.43M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 40.82%, TVL $1.13M, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 56.60%, TVL $344.7K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Base의 aerodrome-slipstream, APY 130.71%, TVL $221.6K, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token; Arbitrum의 uniswap-v3, APY 66.05%, TVL $542.5K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 1.41%, TVL $631.4K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Ethereum의 curve-dex, APY 0.20%, TVL $695.4K, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token; Arbitrum의 uniswap-v3, APY 23.08%, TVL $339.6K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 4.20%, TVL $2.38M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 24.71%, TVL $1.11M, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 19.11%, TVL $341.5K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Base의 aerodrome-slipstream, APY 260.16%, TVL $210.6K, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token; Arbitrum의 uniswap-v3, APY 41.12%, TVL $539.7K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 1.30% | $658.1K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.04% | $718.9K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 40.30% | $337K |
-| 4 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 8.78% | $2.43M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 40.82% | $1.13M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 56.60% | $344.7K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token) | Base | 130.71% | $221.6K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 66.05% | $542.5K |
+| 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 1.41% | $631.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.20% | $695.4K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 23.08% | $339.6K |
+| 4 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 4.20% | $2.38M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 24.71% | $1.11M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 19.11% | $341.5K |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token) | Base | 260.16% | $210.6K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 41.12% | $539.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PENDLE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.04%부터 130.71%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PENDLE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.20%부터 260.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 42.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 43.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ PENDLE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.04%부터 130.71
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| camelot-v2 | 8.78% | 9.42% | 기본 금리 |
-| uniswap-v3 | 40.82% | 49.00% | 기본 금리 |
-| curve-dex | 0.04% | 0.15% | 기본 금리 |
-| dolomite | 1.30% | 0.52% | 기본 금리 |
-| uniswap-v3 | 66.05% | 69.07% | 기본 금리 |
-| uniswap-v3 | 56.60% | 80.78% | 기본 금리 |
-| uniswap-v3 | 40.30% | 36.79% | 기본 금리 |
-| aerodrome-slipstream | 130.71% | 161.34% | 인센티브 97.03% |
+| camelot-v2 | 4.20% | 9.46% | 기본 금리 |
+| uniswap-v3 | 24.71% | 49.18% | 기본 금리 |
+| curve-dex | 0.20% | 0.15% | 기본 금리 |
+| dolomite | 1.41% | 0.57% | 기본 금리 |
+| uniswap-v3 | 41.12% | 68.99% | 기본 금리 |
+| uniswap-v3 | 19.11% | 80.78% | 기본 금리 |
+| uniswap-v3 | 23.08% | 37.20% | 기본 금리 |
+| aerodrome-slipstream | 260.16% | 165.65% | 인센티브 99.25% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ PENDLE 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.04%부터 130.71
 
 ### 오늘 PENDLE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 130.71%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 41.12%예요.
 
 ### PENDLE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $8.4M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $8.25M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 130
 
 ### PENDLE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 1.30%, TVL $658.1K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Ethereum의 curve-dex, APY 0.04%, TVL $718.9K, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token; Arbitrum의 uniswap-v3, APY 40.30%, TVL $337K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 8.78%, TVL $2.43M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 40.82%, TVL $1.13M, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 56.60%, TVL $344.7K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Base의 aerodrome-slipstream, APY 130.71%, TVL $221.6K, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token; Arbitrum의 uniswap-v3, APY 66.05%, TVL $542.5K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 1.41%, TVL $631.4K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Ethereum의 curve-dex, APY 0.20%, TVL $695.4K, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token; Arbitrum의 uniswap-v3, APY 23.08%, TVL $339.6K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 4.20%, TVL $2.38M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 24.71%, TVL $1.11M, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 19.11%, TVL $341.5K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Base의 aerodrome-slipstream, APY 260.16%, TVL $210.6K, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1&src=seo_token; Arbitrum의 uniswap-v3, APY 41.12%, TVL $539.7K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitr
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: September 29, 2026
+## 마지막 업데이트: September 30, 2026

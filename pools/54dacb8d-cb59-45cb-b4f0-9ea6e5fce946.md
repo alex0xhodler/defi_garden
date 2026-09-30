@@ -1,12 +1,12 @@
 # RIO-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 49.22% (49.22% Base · + 0.00% Rewards)
+**Total APY:** 51.74% (51.74% Base · + 0.00% Rewards)
 
-**TVL:** $106.9K
+**TVL:** $113.2K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 50.48%
+**30d Mean APY:** 51.25%
 
 **Exposure:** multi
 
@@ -17,21 +17,21 @@
 Advanced DeFi strategy
 
 - Low liquidity
-- High yield
+- Very high yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,138 in 5y at current rates.
+$1,000 in this pool grows to ~$2,216 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (49.22% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (51.74% headline) — farm rates decay. Active management required.
 
-We've been tracking this pool's rate for 12 days. Watching how a rate holds up over time is one honest way to judge it.
+We've been tracking this pool's rate for 13 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$2,138 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,216 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 29, 2026
+Last updated September 30, 2026
