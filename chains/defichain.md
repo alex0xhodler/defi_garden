@@ -1,0 +1,41 @@
+# Defichain DeFi Yields
+
+The highest honest Defichain yield right now is 0.48% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Token | Protocol | APY | TVL |
+|---|---|---|---|
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.07% | $635.6K |
+| NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_chain) | 0.48% | $152.8K |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest Defichain yield today?
+
+0.48% APY on defichain-dex (Defichain), based on live DefiLlama data.
+
+### How many Defichain pools clear the TVL floor?
+
+8 live pools clear this page's $100K TVL floor, $3.66M in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related chains
+
+- [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
+- [BSC](https://www.defi.garden/chains/bsc)
+- [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
+
+## Top tokens on Defichain
+
+- [DUSD](https://www.defi.garden/tokens/dusd)
+- [DFI](https://www.defi.garden/tokens/dfi)
+- [NVDA](https://www.defi.garden/tokens/nvda)
+
+## Last updated October 1, 2026

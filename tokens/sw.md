@@ -1,6 +1,6 @@
 # SW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest SW yield right now is 4.81% on spectra-v2 (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SW pools. This view covers AP
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

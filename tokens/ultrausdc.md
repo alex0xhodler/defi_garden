@@ -1,12 +1,12 @@
 # ULTRAUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest ULTRAUSDC yield right now is 6.57% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTRAUSDC yield right now is 6.26% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4&src=seo_token) | Ethereum | 6.57% | $130.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4&src=seo_token) | Ethereum | 6.26% | $130.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTRAUSDC yield today?
 
-6.57% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.26% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ULTRAUSDC pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ULTRAUSDC pools. This view co
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

@@ -1,6 +1,6 @@
 # PXCGX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest PXCGX yield right now is 0.01% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank PXCGX pools. This view covers
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PXCGX pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

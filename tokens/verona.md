@@ -1,12 +1,12 @@
 # VERONA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest VERONA yield right now is 0.08% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053&src=seo_token) | Osmosis | 0.08% | $104.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053&src=seo_token) | Osmosis | 0.08% | $102K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VERONA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.1K in total.
+1 live pool clear this page's $100K TVL floor, $102K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank VERONA pools. This view cover
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

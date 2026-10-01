@@ -1,12 +1,12 @@
 # REPV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest REPV2 yield right now is 8.30% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REPV2 yield right now is 3.07% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac&src=seo_token) | Ethereum | 8.30% | $154.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac&src=seo_token) | Ethereum | 3.07% | $144.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REPV2 yield today?
 
-8.30% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.07% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REPV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154.5K in total.
+1 live pool clear this page's $100K TVL floor, $144.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank REPV2 pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

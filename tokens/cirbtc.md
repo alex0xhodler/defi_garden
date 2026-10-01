@@ -1,14 +1,14 @@
 # CIRBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest CIRBTC yield right now is 1.49% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CIRBTC yield right now is 0.81% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2&src=seo_token) | Ethereum | 1.49% | $25M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70&src=seo_token) | Ethereum | 0.24% | $6.09M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542&src=seo_token) | Ethereum | 0.58% | $5.75M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2&src=seo_token) | Ethereum | 0.81% | $25.31M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70&src=seo_token) | Ethereum | 0.29% | $6.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542&src=seo_token) | Ethereum | 0.81% | $5.79M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CIRBTC shows up in 3 pools here, with rates from 0.24% to 1.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CIRBTC shows up in 3 pools here, with rates from 0.29% to 0.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.49% | 1.70% | Base rate |
-| uniswap-v3 | 0.24% | 0.48% | Base rate |
-| uniswap-v3 | 0.58% | 0.81% | Base rate |
+| uniswap-v3 | 0.81% | 1.63% | Base rate |
+| uniswap-v3 | 0.29% | 0.47% | Base rate |
+| uniswap-v3 | 0.81% | 0.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CIRBTC yield today?
 
-1.49% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many CIRBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $36.85M in total.
+3 live pools clear this page's $100K TVL floor, $37.28M in total.
 
 ### Are these rates safe?
 
@@ -58,12 +58,12 @@ There is not enough qualifying APY history to rank CIRBTC pools. This view cover
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

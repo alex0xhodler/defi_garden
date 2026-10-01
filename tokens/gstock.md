@@ -1,14 +1,14 @@
 # GSTOCK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest GSTOCK yield right now is 638.37% on uniswap-v4 (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GSTOCK yield right now is 379.00% on uniswap-v4 (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6e400bc9-27c8-548d-87af-3d258624be06&src=seo_token) | BSC | 47.13% | $418.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b86e0df1-e489-5927-ae8a-d96c246c1fec&src=seo_token) | BSC | 638.37% | $281K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2427b396-d57a-53d9-ab18-16e914e88217&src=seo_token) | BSC | 0.88% | $274.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6e400bc9-27c8-548d-87af-3d258624be06&src=seo_token) | BSC | 55.66% | $435.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b86e0df1-e489-5927-ae8a-d96c246c1fec&src=seo_token) | BSC | 379.00% | $321.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2427b396-d57a-53d9-ab18-16e914e88217&src=seo_token) | BSC | 0.73% | $295.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GSTOCK shows up in 3 pools here, with rates from 0.88% to 638.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GSTOCK shows up in 3 pools here, with rates from 0.73% to 379.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 112.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 102.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 47.13% | 112.79% | Base rate |
-| uniswap-v4 | 638.37% | 635.37% | Base rate |
-| uniswap-v4 | 0.88% | 3.22% | Base rate |
+| uniswap-v4 | 55.66% | 102.38% | Base rate |
+| uniswap-v4 | 379.00% | 619.02% | Base rate |
+| uniswap-v4 | 0.73% | 2.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GSTOCK yield today?
 
-638.37% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+379.00% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many GSTOCK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $974.3K in total.
+3 live pools clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank GSTOCK pools. This view cover
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

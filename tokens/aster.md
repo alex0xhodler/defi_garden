@@ -1,28 +1,28 @@
 # ASTER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest ASTER yield right now is 93.71% on uniswap-v3 (BSC), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.42% | $1M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token) | BSC | 9.23% | $405.5K |
+| [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.42% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token) | BSC | 15.81% | $407.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 61.14% | $306.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token) | BSC | 0.33% | $277.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token) | BSC | 0.72% | $280.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 2.41% | $187.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token) | BSC | 93.71% | $115.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.42% APY, $1M TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v4 (BSC), 9.23% APY, $405.5K TVL, https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token; uniswap-v4 (BSC), 0.33% APY, $277.7K TVL, https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token; uniswap-v3 (BSC), 93.71% APY, $115.9K TVL, https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token; uniswap-v3 (BSC), 61.14% APY, $306.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 2.41% APY, $187.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.42% APY, $1.02M TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v4 (BSC), 15.81% APY, $407.7K TVL, https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token; uniswap-v4 (BSC), 0.72% APY, $280.8K TVL, https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token; uniswap-v3 (BSC), 93.71% APY, $115.9K TVL, https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token; uniswap-v3 (BSC), 61.14% APY, $306.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 2.41% APY, $187.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.42% | $1M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token) | BSC | 9.23% | $405.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token) | BSC | 0.33% | $277.7K |
+| 1 | [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.42% | $1.02M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token) | BSC | 15.81% | $407.7K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token) | BSC | 0.72% | $280.8K |
 | 4 | [uniswap-v3 →](https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token) | BSC | 93.71% | $115.9K |
 | 5 | [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 61.14% | $306.2K |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 2.41% | $187.4K |
@@ -31,9 +31,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ASTER shows up in 6 pools here, with rates from 0.33% to 93.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ASTER shows up in 6 pools here, with rates from 0.42% to 93.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 12.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -41,12 +41,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-lending | 0.42% | 0.39% | Base rate |
-| uniswap-v4 | 9.23% | 8.48% | Base rate |
-| uniswap-v3 | 61.14% | 67.53% | Base rate |
-| uniswap-v4 | 0.33% | 0.46% | Base rate |
-| uniswap-v3 | 2.41% | 16.78% | Base rate |
-| uniswap-v3 | 93.71% | 91.20% | Base rate |
+| lista-lending | 0.42% | 0.40% | Base rate |
+| uniswap-v4 | 15.81% | 8.92% | Base rate |
+| uniswap-v3 | 61.14% | 68.32% | Base rate |
+| uniswap-v4 | 0.72% | 0.48% | Base rate |
+| uniswap-v3 | 2.41% | 17.29% | Base rate |
+| uniswap-v3 | 93.71% | 90.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ASTER pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $2.83M in total.
+9 live pools clear this page's $100K TVL floor, $2.86M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ASTER pools have the most stable APY history?
 
-Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.42% APY, $1M TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v4 (BSC), 9.23% APY, $405.5K TVL, https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token; uniswap-v4 (BSC), 0.33% APY, $277.7K TVL, https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token; uniswap-v3 (BSC), 93.71% APY, $115.9K TVL, https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token; uniswap-v3 (BSC), 61.14% APY, $306.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 2.41% APY, $187.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.42% APY, $1.02M TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v4 (BSC), 15.81% APY, $407.7K TVL, https://www.defi.garden/?pool=b277278f-d74a-47b0-bb59-5955111277cd&src=seo_token; uniswap-v4 (BSC), 0.72% APY, $280.8K TVL, https://www.defi.garden/?pool=21425b92-7e6d-4a5b-8b88-06ff9e89bffc&src=seo_token; uniswap-v3 (BSC), 93.71% APY, $115.9K TVL, https://www.defi.garden/?pool=f947e6d9-793b-4bb0-87d4-6fa3f076e28f&src=seo_token; uniswap-v3 (BSC), 61.14% APY, $306.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 2.41% APY, $187.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -81,4 +81,4 @@ Based on APY history only, ASTER's lower-variability candidates are lista-lendin
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

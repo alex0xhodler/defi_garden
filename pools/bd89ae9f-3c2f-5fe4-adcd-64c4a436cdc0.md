@@ -1,12 +1,12 @@
 # USDC-BASECAT — uniswap-v4 on Base
 
-**Total APY:** 50.35% (50.35% Base · + 0.00% Rewards)
+**Total APY:** 71.03% (71.03% Base · + 0.00% Rewards)
 
-**TVL:** $545.7K
+**TVL:** $550.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 310.21%
+**30d Mean APY:** 276.83%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,172 in 5y at current rates.
+$1,000 in this pool grows to ~$2,894 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (50.35% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (71.03% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 50.35% right now vs a 310.21% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 71.03% right now vs a 276.83% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$2,172 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,894 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 30, 2026
+Last updated October 1, 2026

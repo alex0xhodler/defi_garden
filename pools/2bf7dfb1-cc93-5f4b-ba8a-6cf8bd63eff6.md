@@ -1,12 +1,12 @@
 # FRXUSD-DUSD — stake-dao-yield on Ethereum
 
-**Total APY:** 15.48% (0.03% Base · + 15.45% Rewards)
+**Total APY:** 15.13% (0.03% Base · + 15.10% Rewards)
 
-**TVL:** $951.1K
+**TVL:** $923.6K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 21.05%
+**30d Mean APY:** 20.79%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,054 in 5y at current rates.
+$1,000 in this pool grows to ~$2,023 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We've been tracking this pool's rate for 30 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$2,054 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,023 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on stake-dao-yield](https://stakedao.org/?ref=defi.garden)
 
-Last updated September 30, 2026
+Last updated October 1, 2026

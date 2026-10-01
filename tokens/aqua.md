@@ -1,12 +1,12 @@
 # AQUA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest AQUA yield right now is 397.29% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AQUA yield right now is 371.22% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c59fcfe9-c77b-50ba-9b7d-b5e9025023b4&src=seo_token) | Solana | 397.29% | $220.9K |
+| [orca-dex →](https://www.defi.garden/?pool=c59fcfe9-c77b-50ba-9b7d-b5e9025023b4&src=seo_token) | Solana | 371.22% | $209.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AQUA yield today?
 
-397.29% APY on orca-dex (Solana), based on live DefiLlama data.
+371.22% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many AQUA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.9K in total.
+1 live pool clear this page's $100K TVL floor, $209.4K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank AQUA pools. This view covers 
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AQUA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

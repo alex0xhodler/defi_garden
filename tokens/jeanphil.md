@@ -1,6 +1,6 @@
 # JEANPHIL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest JEANPHIL yield right now is 722.02% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank JEANPHIL pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

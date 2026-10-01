@@ -1,12 +1,12 @@
 # BASED DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest BASED yield right now is 2.66% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASED yield right now is 0.01% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=65e99142-58f2-5560-be00-c761722965cd&src=seo_token) | Solana | 2.66% | $124.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bfa76009-20ea-4b8a-b7e5-17a263061ea2&src=seo_token) | Base | 0.01% | $100.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BASED yield today?
 
-2.66% APY on orca-dex (Solana), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BASED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.6K in total.
+1 live pool clear this page's $100K TVL floor, $100.6K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank BASED pools. This view covers
 
 ## Related tokens
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
-- [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

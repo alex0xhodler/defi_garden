@@ -1,17 +1,17 @@
 # Katana 디파이 수익률
 
-현재 Katana의 가장 높은 정직한 수익률은 Katana의 morpho-blue에서 6.43%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Katana의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 4.27%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| VBWBTC | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_chain) | 0.43% | $11.98M |
-| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 4.87% | $7.59M |
-| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 5.59% | $7.2M |
-| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 7.71% | $5.5M |
-| YVVBETH | [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_chain) | 0.39% | $4.98M |
-| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 3.27% | $3.39M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 1.85% | $3.14M |
-| BBQUSDC | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_chain) | 6.43% | $1.71M |
+| VBWBTC | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0&src=seo_chain) | 0.35% | $12.15M |
+| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 2.60% | $7.32M |
+| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 4.27% | $7.27M |
+| WEETH | [morpho-blue →](https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4&src=seo_chain) | 0.21% | $5.74M |
+| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 3.01% | $5.58M |
+| YVVBETH | [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_chain) | 0.77% | $5.07M |
+| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 2.88% | $3.39M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 1.93% | $3.13M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Katana의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 6.43%예요.
+DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 4.27%예요.
 
 ### Katana 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $68.05M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $67.92M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,10 +43,10 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 6.43%예�
 - [VBWBTC](https://www.defi.garden/ko/tokens/vbwbtc)
 - [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
 - [VBETH](https://www.defi.garden/ko/tokens/vbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [YOG](https://www.defi.garden/ko/tokens/yog)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [YVVBETH](https://www.defi.garden/ko/tokens/yvvbeth)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
-- [STEAKUSDC](https://www.defi.garden/ko/tokens/steakusdc)
 
-## 마지막 업데이트: September 30, 2026
+## 마지막 업데이트: October 1, 2026

@@ -1,12 +1,12 @@
 # TKINU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest TKINU yield right now is 15.93% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TKINU yield right now is 2.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=887ad307-d590-49b0-9db0-8d2042ec2b9d&src=seo_token) | Ethereum | 15.93% | $134.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=887ad307-d590-49b0-9db0-8d2042ec2b9d&src=seo_token) | Ethereum | 2.11% | $129.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TKINU yield today?
 
-15.93% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TKINU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.9K in total.
+1 live pool clear this page's $100K TVL floor, $129.4K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank TKINU pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

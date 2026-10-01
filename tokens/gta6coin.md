@@ -1,12 +1,12 @@
 # GTA6COIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest GTA6COIN yield right now is 7.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTA6COIN yield right now is 4.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c5d39105-af41-4498-a2eb-b46891ead868&src=seo_token) | Solana | 7.31% | $152.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5d39105-af41-4498-a2eb-b46891ead868&src=seo_token) | Solana | 4.41% | $153.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTA6COIN yield today?
 
-7.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.41% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GTA6COIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.7K in total.
+1 live pool clear this page's $100K TVL floor, $153.5K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank GTA6COIN pools. This view cov
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTA6COIN pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

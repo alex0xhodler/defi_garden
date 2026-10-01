@@ -1,12 +1,12 @@
 # FARTBOY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest FARTBOY yield right now is 24.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTBOY yield right now is 8.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 24.86% | $708.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 8.40% | $723.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTBOY yield today?
 
-24.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.40% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTBOY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $708.5K in total.
+1 live pool clear this page's $100K TVL floor, $723.8K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank FARTBOY pools. This view cove
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FARTBOY pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

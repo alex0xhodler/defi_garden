@@ -1,12 +1,12 @@
 # SNOWMOON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest SNOWMOON yield right now is 644.95% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNOWMOON yield right now is 227.28% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ae6326d-1c6c-580f-9140-42eaf7883828&src=seo_token) | Ethereum | 644.95% | $163.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ae6326d-1c6c-580f-9140-42eaf7883828&src=seo_token) | Ethereum | 227.28% | $148.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNOWMOON yield today?
 
-644.95% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+227.28% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SNOWMOON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.6K in total.
+1 live pool clear this page's $100K TVL floor, $148.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SNOWMOON pools. This view cov
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

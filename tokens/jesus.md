@@ -1,12 +1,12 @@
 # JESUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest JESUS yield right now is 0.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JESUS yield right now is 0.30% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e&src=seo_token) | Ethereum | 0.19% | $870.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e&src=seo_token) | Ethereum | 0.30% | $887.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JESUS yield today?
 
-0.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.30% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JESUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $870.7K in total.
+1 live pool clear this page's $100K TVL floor, $887.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank JESUS pools. This view covers
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

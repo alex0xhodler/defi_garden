@@ -1,12 +1,12 @@
 # FLIP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest FLIP yield right now is 21.83% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLIP yield right now is 22.06% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 21.83% | $229.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 22.06% | $225.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLIP yield today?
 
-21.83% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+22.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FLIP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.5K in total.
+1 live pool clear this page's $100K TVL floor, $225.5K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank FLIP pools. This view covers 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

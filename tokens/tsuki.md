@@ -1,12 +1,12 @@
 # TSUKI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest TSUKI yield right now is 5.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSUKI yield right now is 9.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0bfc8e49-f6f8-4a4a-a1b5-792d73b45c25&src=seo_token) | Solana | 5.54% | $383.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0bfc8e49-f6f8-4a4a-a1b5-792d73b45c25&src=seo_token) | Solana | 9.44% | $375K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSUKI yield today?
 
-5.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSUKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $383.8K in total.
+1 live pool clear this page's $100K TVL floor, $375K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank TSUKI pools. This view covers
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TSUKI pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

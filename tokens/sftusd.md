@@ -1,29 +1,29 @@
 # SFTUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest SFTUSD yield right now is 11.59% on flying-tulip-ftusd (Sonic), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFTUSD yield right now is 11.91% on flying-tulip-ftusd (Sonic), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 8.24% | $1.89M |
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 11.59% | $442.9K |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 8.42% | $1.89M |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 11.91% | $445.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 8.24% APY, $1.89M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 11.59% APY, $442.9K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 8.42% APY, $1.89M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 11.91% APY, $445.9K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 8.24% | $1.89M |
-| 2 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 11.59% | $442.9K |
+| 1 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 8.42% | $1.89M |
+| 2 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 11.91% | $445.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFTUSD shows up in 2 pools here, with rates from 8.24% to 11.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFTUSD shows up in 2 pools here, with rates from 8.42% to 11.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ SFTUSD shows up in 2 pools here, with rates from 8.24% to 11.59% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| flying-tulip-ftusd | 8.24% | 8.14% | 100.00% incentives |
-| flying-tulip-ftusd | 11.59% | 11.31% | 100.00% incentives |
+| flying-tulip-ftusd | 8.42% | 8.12% | 100.00% incentives |
+| flying-tulip-ftusd | 11.91% | 11.35% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFTUSD yield today?
 
-11.59% APY on flying-tulip-ftusd (Sonic), based on live DefiLlama data.
+11.91% APY on flying-tulip-ftusd (Sonic), based on live DefiLlama data.
 
 ### How many SFTUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.33M in total.
+2 live pools clear this page's $100K TVL floor, $2.34M in total.
 
 ### Are these rates safe?
 
@@ -52,15 +52,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFTUSD pools have the most stable APY history?
 
-Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 8.24% APY, $1.89M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 11.59% APY, $442.9K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFTUSD's lower-variability candidates are flying-tulip-ftusd (Ethereum), 8.42% APY, $1.89M TVL, https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token; flying-tulip-ftusd (Sonic), 11.91% APY, $445.9K TVL, https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
@@ -68,4 +68,4 @@ Based on APY history only, SFTUSD's lower-variability candidates are flying-tuli
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

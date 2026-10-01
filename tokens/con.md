@@ -1,6 +1,6 @@
 # CON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest CON yield right now is 73.92% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank CON pools. This view covers A
 - [Base](https://www.defi.garden/chains/base)
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

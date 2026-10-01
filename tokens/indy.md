@@ -1,12 +1,12 @@
 # INDY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest INDY yield right now is 13.99% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INDY yield right now is 11.53% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 13.99% | $108.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 11.53% | $111.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INDY yield today?
 
-13.99% APY on minswap-dex (Cardano), based on live DefiLlama data.
+11.53% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many INDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.8K in total.
+1 live pool clear this page's $100K TVL floor, $111.8K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank INDY pools. This view covers 
 
 ## Related tokens
 
+- [NIGHT](https://www.defi.garden/tokens/night)
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
-- [USDA](https://www.defi.garden/tokens/usda)
 - [IUSD](https://www.defi.garden/tokens/iusd)
+- [USDA](https://www.defi.garden/tokens/usda)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
-- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

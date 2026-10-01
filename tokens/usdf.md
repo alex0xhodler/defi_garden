@@ -1,38 +1,38 @@
 # USDF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
-The highest honest USDF yield right now is 9.62% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDF yield right now is 9.59% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 4.63% | $3.15M |
-| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 9.62% | $1.55M |
+| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 4.51% | $3.15M |
+| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 9.59% | $1.55M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.62% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 4.63% APY, $3.15M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.59% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 4.51% APY, $3.15M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 9.62% | $1.55M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 4.63% | $3.15M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 9.59% | $1.55M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 4.51% | $3.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDF shows up in 2 pools here, with rates from 4.63% to 9.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDF shows up in 2 pools here, with rates from 4.51% to 9.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.63% | 4.26% | 97.41% incentives |
-| convex-finance | 9.62% | 8.85% | 98.75% incentives |
+| curve-dex | 4.51% | 4.28% | 100.00% incentives |
+| convex-finance | 9.59% | 8.89% | 99.27% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDF yield today?
 
-9.62% APY on convex-finance (Ethereum), based on live DefiLlama data.
+9.59% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many USDF pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $17.65M in total.
+6 live pools clear this page's $100K TVL floor, $17.64M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDF pools have the most stable APY history?
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.62% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 4.63% APY, $3.15M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.59% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 4.51% APY, $3.15M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

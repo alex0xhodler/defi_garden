@@ -1,12 +1,12 @@
 # PHY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: September 30, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
 
 The highest honest PHY yield right now is 0.02% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.02% | $167K |
+| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.02% | $164.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PHY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $297.5K in total.
+2 live pools clear this page's $100K TVL floor, $292.8K in total.
 
 ### Are these rates safe?
 
@@ -51,8 +51,8 @@ There is not enough qualifying APY history to rank PHY pools. This view covers A
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank PHY pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

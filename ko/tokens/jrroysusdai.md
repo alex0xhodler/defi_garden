@@ -1,12 +1,12 @@
 # JRROYSUSDAI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 JRROYSUSDAI의 가장 높은 정직한 수익률은 Arbitrum의 royco-v2에서 33.00%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRROYSUSDAI의 가장 높은 정직한 수익률은 Arbitrum의 royco-v2에서 32.71%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 33.00% | $102.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 32.71% | $102.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 JRROYSUSDAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 royco-v2에서 APY 33.00%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 royco-v2에서 APY 32.71%예요.
 
 ### JRROYSUSDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 royco-v2에서 APY 33.00%예�
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: September 30, 2026
+## 마지막 업데이트: October 1, 2026

@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [VENOM](https://www.defi.garden/tokens/venom)
 
-## Last updated September 30, 2026
+## Last updated October 1, 2026

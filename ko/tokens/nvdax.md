@@ -1,49 +1,51 @@
 # NVDAX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: September 30, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NVDAX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 295.47%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVDAX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 269.06%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 152.39% | $3.3M |
-| [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $2.61M |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 382.78% | $296.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token) | Solana | 295.47% | $143.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 11.46% | $139.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 125.38% | $3.49M |
+| [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $2.63M |
+| [raydium-amm →](https://www.defi.garden/?pool=087d7f6a-e646-5119-9390-bf28ec79adde&src=seo_token) | Solana | 476.11% | $939.6K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 274.77% | $322.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token) | Solana | 269.06% | $227.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 11.33% | $140K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NVDAX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $2.61M, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; Solana의 raydium-amm, APY 152.39%, TVL $3.3M, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; Solana의 raydium-amm, APY 11.46%, TVL $139.3K, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; Solana의 orca-dex, APY 382.78%, TVL $296.8K, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token; Solana의 raydium-amm, APY 295.47%, TVL $143.9K, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NVDAX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $2.63M, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; Solana의 raydium-amm, APY 125.38%, TVL $3.49M, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; Solana의 raydium-amm, APY 11.33%, TVL $140K, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; Solana의 orca-dex, APY 274.77%, TVL $322.7K, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token; Solana의 raydium-amm, APY 269.06%, TVL $227.5K, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $2.61M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 152.39% | $3.3M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 11.46% | $139.3K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 382.78% | $296.8K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token) | Solana | 295.47% | $143.9K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $2.63M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 125.38% | $3.49M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 11.33% | $140K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 274.77% | $322.7K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token) | Solana | 269.06% | $227.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NVDAX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.02%부터 382.78%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NVDAX 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.02%부터 476.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 36.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 41.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
-5개 풀 중 4개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+6개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 152.39% | 36.89% | 기본 금리 |
+| raydium-amm | 125.38% | 41.17% | 기본 금리 |
 | kamino-lend | 0.02% | 0.02% | 기본 금리 |
-| orca-dex | 382.78% | 55.79% | 기본 금리 |
-| raydium-amm | 295.47% | 314.79% | 기본 금리 |
-| raydium-amm | 11.46% | 15.29% | 기본 금리 |
+| raydium-amm | 476.11% | — | 기본 금리 |
+| orca-dex | 274.77% | 67.47% | 기본 금리 |
+| raydium-amm | 269.06% | 323.48% | 기본 금리 |
+| raydium-amm | 11.33% | 14.98% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,11 +53,11 @@ NVDAX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.02%부터 382.78%
 
 ### 오늘 NVDAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 295.47%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 269.06%예요.
 
 ### NVDAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $6.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $8.29M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,12 +65,12 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 295.47%예
 
 ### NVDAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NVDAX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $2.61M, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; Solana의 raydium-amm, APY 152.39%, TVL $3.3M, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; Solana의 raydium-amm, APY 11.46%, TVL $139.3K, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; Solana의 orca-dex, APY 382.78%, TVL $296.8K, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token; Solana의 raydium-amm, APY 295.47%, TVL $143.9K, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NVDAX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $2.63M, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; Solana의 raydium-amm, APY 125.38%, TVL $3.49M, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; Solana의 raydium-amm, APY 11.33%, TVL $140K, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; Solana의 orca-dex, APY 274.77%, TVL $322.7K, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token; Solana의 raydium-amm, APY 269.06%, TVL $227.5K, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
@@ -78,4 +80,4 @@ APY 이력만 기준으로 비교한 NVDAX의 변동성 낮은 후보는 Solana�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: September 30, 2026
+## 마지막 업데이트: October 1, 2026

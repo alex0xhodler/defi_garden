@@ -1,34 +1,37 @@
 # USDC-XSGD — uniswap-v3 on Polygon
 
-**Total APY:** 3.81% (3.81% Base · + 0.00% Rewards)
+**Total APY:** 22.28% (22.28% Base · + 0.00% Rewards)
 
-**TVL:** $167.7K
+**TVL:** $167.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 13.13%
+**30d Mean APY:** 13.33%
 
 **Exposure:** multi
 
 **IL Risk:** No
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- High yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,205 in 5y at current rates.
+$1,000 in this pool grows to ~$1,431 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.81% right now vs a 13.13% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Projected at ⅓ haircut (22.28% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,205 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+This pool's rate moves a lot: 22.28% right now vs a 13.33% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+
+[Garden this pool → ~$1,431 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated September 30, 2026
+Last updated October 1, 2026
