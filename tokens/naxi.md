@@ -1,6 +1,6 @@
 # NAXI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
 The highest honest NAXI yield right now is 11.50% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 - [USTB](https://www.defi.garden/tokens/ustb)
 - [USCC](https://www.defi.garden/tokens/uscc)
 - [NOPAL](https://www.defi.garden/tokens/nopal)
+- [NPRIME](https://www.defi.garden/tokens/nprime)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NPRIME](https://www.defi.garden/tokens/nprime)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

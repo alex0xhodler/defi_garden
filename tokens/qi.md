@@ -1,30 +1,30 @@
 # QI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest QI yield right now is 0.06% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QI yield right now is 0.07% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f351b322-7370-5b4a-8163-ac76180d2429&src=seo_token) | Solana | 0.06% | $3.68M |
-| [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.01% | $639.1K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 10.35% | $211.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=f351b322-7370-5b4a-8163-ac76180d2429&src=seo_token) | Solana | 0.07% | $3.68M |
+| [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.05% | $619.4K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 8.22% | $207.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.01% APY, $639.1K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 10.35% APY, $211.6K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.05% APY, $619.4K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 8.22% APY, $207.2K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.01% | $639.1K |
-| 2 | [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 10.35% | $211.6K |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.05% | $619.4K |
+| 2 | [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 8.22% | $207.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QI shows up in 3 pools here, with rates from 0.01% to 10.35% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+QI shows up in 3 pools here, with rates from 0.05% to 8.22% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.06% | 0.08% | Base rate |
-| balancer-v2 | 0.01% | 0.01% | Base rate |
-| pangolin-v2 | 10.35% | 38.74% | Base rate |
+| raydium-amm | 0.07% | 0.08% | Base rate |
+| balancer-v2 | 0.05% | 0.02% | Base rate |
+| pangolin-v2 | 8.22% | 39.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QI yield today?
 
-0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.53M in total.
+3 live pools clear this page's $100K TVL floor, $4.51M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QI pools have the most stable APY history?
 
-Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.01% APY, $639.1K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 10.35% APY, $211.6K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QI's lower-variability candidates are balancer-v2 (Ethereum), 0.05% APY, $619.4K TVL, https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token; pangolin-v2 (Avalanche), 8.22% APY, $207.2K TVL, https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, QI's lower-variability candidates are balancer-v2 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

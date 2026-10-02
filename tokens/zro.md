@@ -1,14 +1,13 @@
 # ZRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest ZRO yield right now is 287.57% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRO yield right now is 287.57% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=b9fc29f1-8d50-53fe-9fa4-5f7a2ac0a15c&src=seo_token) | Base | 287.57% | $220.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c&src=seo_token) | Base | 749.37% | $165.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1a64e7af-3c5a-585b-b0bb-985a3bd67593&src=seo_token) | Base | 140.60% | $106.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1a64e7af-3c5a-585b-b0bb-985a3bd67593&src=seo_token) | Base | 186.13% | $117.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZRO shows up in 3 pools here, with rates from 140.60% to 749.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZRO shows up in 2 pools here, with rates from 186.13% to 287.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 433.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 300.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 287.57% | 433.25% | Base rate |
-| aerodrome-slipstream | 749.37% | 476.27% | 68.95% incentives |
-| uniswap-v4 | 140.60% | 168.17% | Base rate |
+| uniswap-v4 | 186.13% | 167.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZRO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $623.1K in total.
+3 live pools clear this page's $100K TVL floor, $469.1K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +64,4 @@ There is not enough qualifying APY history to rank ZRO pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

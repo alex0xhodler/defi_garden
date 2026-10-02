@@ -1,43 +1,40 @@
 # PST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest PST yield right now is 2.68% on fluid-dex (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PST yield right now is 2.86% on fluid-dex (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-dex →](https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token) | Ethereum | 2.68% | $5.1M |
-| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.07% | $205.5K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.20% | $198.9K |
+| [fluid-dex →](https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token) | Ethereum | 2.86% | $5.1M |
+| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.09% | $205.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.07% APY, $205.5K TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; kamino-liquidity (Solana), 0.20% APY, $198.9K TVL, https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token; fluid-dex (Ethereum), 2.68% APY, $5.1M TVL, https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.09% APY, $205.5K TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; fluid-dex (Ethereum), 2.86% APY, $5.1M TVL, https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.07% | $205.5K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.20% | $198.9K |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token) | Ethereum | 2.68% | $5.1M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.09% | $205.5K |
+| 2 | [fluid-dex →](https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token) | Ethereum | 2.86% | $5.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PST shows up in 3 pools here, with rates from 0.07% to 2.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PST shows up in 2 pools here, with rates from 0.09% to 2.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| fluid-dex | 2.68% | 2.49% | Base rate |
-| orca-dex | 0.07% | 0.04% | Base rate |
-| kamino-liquidity | 0.20% | 0.09% | Base rate |
+| fluid-dex | 2.86% | 2.20% | Base rate |
+| orca-dex | 0.09% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PST yield today?
 
-2.68% APY on fluid-dex (Ethereum), based on live DefiLlama data.
+2.86% APY on fluid-dex (Ethereum), based on live DefiLlama data.
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $190.37M in total.
+9 live pools clear this page's $100K TVL floor, $190.27M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PST pools have the most stable APY history?
 
-Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.07% APY, $205.5K TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; kamino-liquidity (Solana), 0.20% APY, $198.9K TVL, https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token; fluid-dex (Ethereum), 2.68% APY, $5.1M TVL, https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.09% APY, $205.5K TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; fluid-dex (Ethereum), 2.86% APY, $5.1M TVL, https://www.defi.garden/?pool=f4cf81f6-111a-4363-aefb-51d5d3aeaed0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +70,4 @@ Based on APY history only, PST's lower-variability candidates are orca-dex (Sola
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

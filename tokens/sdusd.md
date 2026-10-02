@@ -1,41 +1,41 @@
 # SDUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest SDUSD yield right now is 22.14% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDUSD yield right now is 21.08% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 19.85% | $634.1K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 22.14% | $586.7K |
-| [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 3.78% | $500.3K |
+| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 19.43% | $640.3K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 21.08% | $605.5K |
+| [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 4.28% | $504.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 3.78% APY, $500.3K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 19.85% APY, $634.1K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao-yield (Ethereum), 22.14% APY, $586.7K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 4.28% APY, $504.4K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 19.43% APY, $640.3K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao-yield (Ethereum), 21.08% APY, $605.5K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 3.78% | $500.3K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 19.85% | $634.1K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 22.14% | $586.7K |
+| 1 | [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 4.28% | $504.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 19.43% | $640.3K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 21.08% | $605.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDUSD shows up in 3 pools here, with rates from 3.78% to 22.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDUSD shows up in 3 pools here, with rates from 4.28% to 21.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 23.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 22.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 19.85% | 23.00% | 83.73% incentives |
-| stake-dao-yield | 22.14% | 25.99% | 88.26% incentives |
-| dtrinity-dusd | 3.78% | 3.79% | Base rate |
+| curve-dex | 19.43% | 22.94% | 82.34% incentives |
+| stake-dao-yield | 21.08% | 25.89% | 87.00% incentives |
+| dtrinity-dusd | 4.28% | 3.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDUSD yield today?
 
-22.14% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+21.08% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many SDUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.72M in total.
+3 live pools clear this page's $100K TVL floor, $1.75M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDUSD pools have the most stable APY history?
 
-Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 3.78% APY, $500.3K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 19.85% APY, $634.1K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao-yield (Ethereum), 22.14% APY, $586.7K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 4.28% APY, $504.4K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 19.43% APY, $640.3K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao-yield (Ethereum), 21.08% APY, $605.5K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dus
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

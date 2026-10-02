@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $1.54M
+**TVL:** $1.57M
 
 **Pool Type:** Lending
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on tectonic](https://tectonic.finance/?ref=defi.garden)
 
-Last updated October 1, 2026
+Last updated October 2, 2026

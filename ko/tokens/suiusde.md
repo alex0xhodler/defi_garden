@@ -1,12 +1,12 @@
 # SUIUSDE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SUIUSDE의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 2.40%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUIUSDE의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 1.20%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 2.40% | $498K |
+| [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 1.20% | $495K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SUIUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 2.40%예요.
+DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 1.20%예요.
 
 ### SUIUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $498K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $495K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,13 +37,13 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 2.40%예요.
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

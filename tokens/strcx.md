@@ -1,34 +1,34 @@
 # STRCX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest STRCX yield right now is 20.55% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRCX yield right now is 21.25% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 20.55% | $1.15M |
-| [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 18.95% | $1.15M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 22.81% | $245.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde&src=seo_token) | Solana | 4.95% | $141.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 21.25% | $1.15M |
+| [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 19.15% | $1.15M |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 17.72% | $257.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde&src=seo_token) | Solana | 22.67% | $193.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 20.55% APY, $1.15M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token; pendle-v2 (Ethereum), 18.95% APY, $1.15M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token; raydium-amm (Solana), 22.81% APY, $245.6K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 21.25% APY, $1.15M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token; pendle-v2 (Ethereum), 19.15% APY, $1.15M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token; raydium-amm (Solana), 17.72% APY, $257.9K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 20.55% | $1.15M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 18.95% | $1.15M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 22.81% | $245.6K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token) | Ethereum | 21.25% | $1.15M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token) | Ethereum | 19.15% | $1.15M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 17.72% | $257.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRCX shows up in 4 pools here, with rates from 4.95% to 22.81% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRCX shows up in 4 pools here, with rates from 17.72% to 22.67% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 38.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 38.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -36,10 +36,10 @@ STRCX shows up in 4 pools here, with rates from 4.95% to 22.81% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 20.55% | 24.10% | Base rate |
-| pendle-v2 | 18.95% | 27.73% | 16.92% incentives |
-| raydium-amm | 22.81% | 49.11% | Base rate |
-| raydium-amm | 4.95% | 72.79% | Base rate |
+| pendle-v2 | 21.25% | 23.83% | Base rate |
+| pendle-v2 | 19.15% | 27.05% | 16.58% incentives |
+| raydium-amm | 17.72% | 49.05% | Base rate |
+| raydium-amm | 22.67% | 70.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +47,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRCX yield today?
 
-20.55% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+21.25% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many STRCX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.4M in total.
+5 live pools clear this page's $100K TVL floor, $3.47M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STRCX pools have the most stable APY history?
 
-Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 20.55% APY, $1.15M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token; pendle-v2 (Ethereum), 18.95% APY, $1.15M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token; raydium-amm (Solana), 22.81% APY, $245.6K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 21.25% APY, $1.15M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e&src=seo_token; pendle-v2 (Ethereum), 19.15% APY, $1.15M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433&src=seo_token; raydium-amm (Solana), 17.72% APY, $257.9K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

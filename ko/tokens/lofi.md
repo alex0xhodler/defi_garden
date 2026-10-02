@@ -1,6 +1,6 @@
 # LOFI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 LOFI의 가장 높은 정직한 수익률은 Sui의 turbos에서 276.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -37,13 +37,13 @@ DefiLlama 실시간 데이터 기준, Sui의 turbos에서 APY 276.49%예요.
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

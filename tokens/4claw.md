@@ -1,12 +1,12 @@
 # 4CLAW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest 4CLAW yield right now is 0.22% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 4CLAW yield right now is 0.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e3f778bb-1f84-40d1-b209-5d28ac997013&src=seo_token) | Base | 0.22% | $118.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e3f778bb-1f84-40d1-b209-5d28ac997013&src=seo_token) | Base | 0.01% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 4CLAW yield today?
 
-0.22% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 4CLAW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.1K in total.
+1 live pool clear this page's $100K TVL floor, $118.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 4CLAW pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

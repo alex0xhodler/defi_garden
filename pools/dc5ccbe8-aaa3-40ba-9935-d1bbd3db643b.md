@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on lagoon](https://lagoon.finance/?ref=defi.garden)
 
-Last updated October 1, 2026
+Last updated October 2, 2026

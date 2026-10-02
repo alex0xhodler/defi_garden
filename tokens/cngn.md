@@ -1,12 +1,12 @@
 # CNGN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest CNGN yield right now is 0.09% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CNGN yield right now is 0.17% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.09% | $180.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c121d6c-563b-5846-a4e1-969faf57f286&src=seo_token) | Celo | 0.17% | $181.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CNGN yield today?
 
-0.09% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+0.17% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CNGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.9K in total.
+1 live pool clear this page's $100K TVL floor, $181.7K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank CNGN pools. This view covers 
 
 ## Related tokens
 
-- [USAT](https://www.defi.garden/tokens/usat)
 - [WARS](https://www.defi.garden/tokens/wars)
 - [CELO](https://www.defi.garden/tokens/celo)
-- [EURM](https://www.defi.garden/tokens/eurm)
+- [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [CEUR](https://www.defi.garden/tokens/ceur)
+- [CGBP](https://www.defi.garden/tokens/cgbp)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

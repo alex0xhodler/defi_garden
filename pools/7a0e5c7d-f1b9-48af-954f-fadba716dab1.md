@@ -1,8 +1,8 @@
 # BRETT-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.07% (0.07% Base · + 0.00% Rewards)
+**Total APY:** 0.08% (0.08% Base · + 0.00% Rewards)
 
-**TVL:** $119.6K
+**TVL:** $120.7K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated October 1, 2026
+Last updated October 2, 2026

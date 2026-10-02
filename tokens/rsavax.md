@@ -1,0 +1,49 @@
+# RSAVAX DeFi Yields
+
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+
+The highest honest RSAVAX yield right now is 0.01% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=c20c6d64-a91b-44ec-ac7f-21bb9d6f8491&src=seo_token) | Avalanche | 0.01% | $406.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank RSAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest RSAVAX yield today?
+
+0.01% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
+
+### How many RSAVAX pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $406.6K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which RSAVAX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank RSAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+## Related tokens
+
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [SAVAX](https://www.defi.garden/tokens/savax)
+- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
+
+## Available on
+
+- [Avalanche](https://www.defi.garden/chains/avalanche)
+
+## Last updated October 2, 2026

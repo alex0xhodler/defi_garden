@@ -1,12 +1,12 @@
 # CHAT 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CHAT의 가장 높은 정직한 수익률은 ICP의 icpswap에서 28.82%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CHAT의 가장 높은 정직한 수익률은 ICP의 icpswap에서 5.67%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 28.82% | $114.5K |
+| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a&src=seo_token) | ICP | 5.67% | $111K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 CHAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 28.82%예요.
+DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 5.67%예요.
 
 ### CHAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $114.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,15 +35,15 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 28.82%예요.
 
 ## 관련 토큰
 
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [NICP](https://www.defi.garden/ko/tokens/nicp)
 - [ICP](https://www.defi.garden/ko/tokens/icp)
 - [VCHF](https://www.defi.garden/ko/tokens/vchf)
 - [CKUSDC](https://www.defi.garden/ko/tokens/ckusdc)
 - [CKBTC](https://www.defi.garden/ko/tokens/ckbtc)
+- [GLDT](https://www.defi.garden/ko/tokens/gldt)
 
 ## 이용 가능한 체인
 
 - [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

@@ -1,12 +1,12 @@
 # EFI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EFI의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 8.45%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EFI의 가장 높은 정직한 수익률은 Polygon의 quickswap-dex에서 12.19%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 8.45% | $365K |
+| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 12.19% | $410.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 EFI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 8.45%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 12.19%예요.
 
 ### EFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $365K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $410.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 8.45%�
 - [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
-- [BET](https://www.defi.garden/ko/tokens/bet)
-- [FUN](https://www.defi.garden/ko/tokens/fun)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [STKPOL](https://www.defi.garden/ko/tokens/stkpol)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

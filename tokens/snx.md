@@ -1,12 +1,12 @@
 # SNX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest SNX yield right now is 7.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNX yield right now is 37.34% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae1d429a-ec54-44fb-95f5-e89e5f1e860c&src=seo_token) | Ethereum | 7.06% | $116.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae1d429a-ec54-44fb-95f5-e89e5f1e860c&src=seo_token) | Ethereum | 37.34% | $115.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNX yield today?
 
-7.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+37.34% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SNX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.8K in total.
+1 live pool clear this page's $100K TVL floor, $115.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SNX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

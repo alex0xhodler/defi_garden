@@ -1,12 +1,12 @@
 # NOPAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
 The highest honest NOPAL yield right now is 11.04% on plume-vaults (Plume Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 11.04% | $110.87M |
+| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 11.04% | $110.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 NOPAL shows up in 1 pools here, with rates from 11.04% to 11.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 10.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 10.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| plume-vaults | 11.04% | 10.82% | Base rate |
+| plume-vaults | 11.04% | 10.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOPAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $115.81M in total.
+2 live pools clear this page's $100K TVL floor, $115.67M in total.
 
 ### Are these rates safe?
 
@@ -51,13 +51,13 @@ There is not enough qualifying APY history to rank NOPAL pools. This view covers
 
 - [USTB](https://www.defi.garden/tokens/ustb)
 - [USCC](https://www.defi.garden/tokens/uscc)
+- [NPRIME](https://www.defi.garden/tokens/nprime)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NPRIME](https://www.defi.garden/tokens/nprime)
-- [NAXI](https://www.defi.garden/tokens/naxi)
+- [FACTOR](https://www.defi.garden/tokens/factor)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

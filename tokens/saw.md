@@ -1,12 +1,12 @@
 # SAW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest SAW yield right now is 2.83% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAW yield right now is 0.01% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=d3f25050-7361-5680-b87a-8de895c7ab02&src=seo_token) | Solana | 2.83% | $117.6K |
+| [orca-dex →](https://www.defi.garden/?pool=d3f25050-7361-5680-b87a-8de895c7ab02&src=seo_token) | Solana | 0.01% | $117.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAW yield today?
 
-2.83% APY on orca-dex (Solana), based on live DefiLlama data.
+0.01% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SAW pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SAW pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

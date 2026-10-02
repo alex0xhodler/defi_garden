@@ -1,33 +1,33 @@
 # API3 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest API3 yield right now is 7.26% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest API3 yield right now is 7.28% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.26% | $15.65M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 4.94% | $468K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token) | Ethereum | 6.56% | $130.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.28% | $14.8M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 2.16% | $466K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token) | Ethereum | 3.75% | $129.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, API3's lower-variability candidates are morpho-blue (Ethereum), 7.26% APY, $15.65M TVL, https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token; uniswap-v2 (Ethereum), 6.56% APY, $130.2K TVL, https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token; uniswap-v4 (Ethereum), 4.94% APY, $468K TVL, https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, API3's lower-variability candidates are morpho-blue (Ethereum), 7.28% APY, $14.8M TVL, https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token; uniswap-v2 (Ethereum), 3.75% APY, $129.7K TVL, https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token; uniswap-v4 (Ethereum), 2.16% APY, $466K TVL, https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.26% | $15.65M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token) | Ethereum | 6.56% | $130.2K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 4.94% | $468K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.28% | $14.8M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token) | Ethereum | 3.75% | $129.7K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 2.16% | $466K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-API3 shows up in 3 pools here, with rates from 4.94% to 7.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+API3 shows up in 3 pools here, with rates from 2.16% to 7.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 7.26% | 7.34% | Base rate |
-| uniswap-v4 | 4.94% | 8.89% | Base rate |
-| uniswap-v2 | 6.56% | 11.63% | Base rate |
+| morpho-blue | 7.28% | 7.35% | Base rate |
+| uniswap-v4 | 2.16% | 8.63% | Base rate |
+| uniswap-v2 | 3.75% | 11.35% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest API3 yield today?
 
-7.26% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.28% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many API3 pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $16.25M in total.
+3 live pools clear this page's $100K TVL floor, $15.39M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which API3 pools have the most stable APY history?
 
-Based on APY history only, API3's lower-variability candidates are morpho-blue (Ethereum), 7.26% APY, $15.65M TVL, https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token; uniswap-v2 (Ethereum), 6.56% APY, $130.2K TVL, https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token; uniswap-v4 (Ethereum), 4.94% APY, $468K TVL, https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, API3's lower-variability candidates are morpho-blue (Ethereum), 7.28% APY, $14.8M TVL, https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token; uniswap-v2 (Ethereum), 3.75% APY, $129.7K TVL, https://www.defi.garden/?pool=dfa2dce5-42dc-4173-8865-c78b9e6dc3e0&src=seo_token; uniswap-v4 (Ethereum), 2.16% APY, $466K TVL, https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, API3's lower-variability candidates are morpho-blue (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

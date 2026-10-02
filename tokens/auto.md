@@ -1,33 +1,33 @@
 # AUTO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest AUTO yield right now is 9.15% on hastra (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTO yield right now is 10.61% on hastra (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 9.15% | $39.92M |
-| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.13% | $3.59M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 4.00% | $134.8K |
+| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 10.61% | $39.84M |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.19% | $3.59M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.31% | $134.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUTO's lower-variability candidates are orca-dex (Solana), 0.13% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; hastra (Solana), 9.15% APY, $39.92M TVL, https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token; uniswap-v4 (Ethereum), 4.00% APY, $134.8K TVL, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUTO's lower-variability candidates are orca-dex (Solana), 0.19% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; hastra (Solana), 10.61% APY, $39.84M TVL, https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token; uniswap-v4 (Ethereum), 2.31% APY, $134.2K TVL, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.13% | $3.59M |
-| 2 | [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 9.15% | $39.92M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 4.00% | $134.8K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.19% | $3.59M |
+| 2 | [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 10.61% | $39.84M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 2.31% | $134.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUTO shows up in 3 pools here, with rates from 0.13% to 9.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUTO shows up in 3 pools here, with rates from 0.19% to 10.61% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hastra | 9.15% | 8.21% | Base rate |
-| orca-dex | 0.13% | 0.32% | Base rate |
-| uniswap-v4 | 4.00% | 2.32% | Base rate |
+| hastra | 10.61% | 8.29% | Base rate |
+| orca-dex | 0.19% | 0.33% | Base rate |
+| uniswap-v4 | 2.31% | 2.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUTO yield today?
 
-9.15% APY on hastra (Solana), based on live DefiLlama data.
+10.61% APY on hastra (Solana), based on live DefiLlama data.
 
 ### How many AUTO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $82.34M in total.
+5 live pools clear this page's $100K TVL floor, $82.21M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUTO pools have the most stable APY history?
 
-Based on APY history only, AUTO's lower-variability candidates are orca-dex (Solana), 0.13% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; hastra (Solana), 9.15% APY, $39.92M TVL, https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token; uniswap-v4 (Ethereum), 4.00% APY, $134.8K TVL, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUTO's lower-variability candidates are orca-dex (Solana), 0.19% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; hastra (Solana), 10.61% APY, $39.84M TVL, https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token; uniswap-v4 (Ethereum), 2.31% APY, $134.2K TVL, https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, AUTO's lower-variability candidates are orca-dex (Sol
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

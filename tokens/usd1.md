@@ -1,58 +1,58 @@
 # USD1 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest USD1 yield right now is 26.21% on raydium-amm (Solana), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD1 yield right now is 27.97% on raydium-amm (Solana), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 1.06% | $138.17M |
-| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.58% | $89.04M |
-| [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.57% | $28.2M |
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.10% | $10.06M |
-| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 1.16% | $9.9M |
-| [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $6.49M |
-| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 26.21% | $4.89M |
-| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 4.72% | $1.06M |
+| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 1.19% | $138.23M |
+| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.73% | $87.89M |
+| [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.52% | $28.21M |
+| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.12% | $10.06M |
+| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.83% | $9.9M |
+| [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $5.17M |
+| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 27.97% | $4.93M |
+| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.60% | $1.05M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.10% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $6.49M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; echelon-market (Aptos), 4.72% APY, $1.06M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 1.06% APY, $138.17M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 1.16% APY, $9.9M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.58% APY, $89.04M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; concrete (Ethereum), 2.57% APY, $28.2M TVL, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token; raydium-amm (Solana), 26.21% APY, $4.89M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.12% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $5.17M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; echelon-market (Aptos), 3.60% APY, $1.05M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 1.19% APY, $138.23M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 0.83% APY, $9.9M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.73% APY, $87.89M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; concrete (Ethereum), 2.52% APY, $28.21M TVL, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token; raydium-amm (Solana), 27.97% APY, $4.93M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.10% | $10.06M |
-| 2 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $6.49M |
-| 3 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 4.72% | $1.06M |
-| 4 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 1.06% | $138.17M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 1.16% | $9.9M |
-| 6 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.58% | $89.04M |
-| 7 | [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.57% | $28.2M |
-| 8 | [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 26.21% | $4.89M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.12% | $10.06M |
+| 2 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $5.17M |
+| 3 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.60% | $1.05M |
+| 4 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 1.19% | $138.23M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.83% | $9.9M |
+| 6 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.73% | $87.89M |
+| 7 | [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.52% | $28.21M |
+| 8 | [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 27.97% | $4.93M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USD1 shows up in 8 pools here, with rates from 0.10% to 26.21% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+USD1 shows up in 8 pools here, with rates from 0.12% to 27.97% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 3 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-lending | 1.06% | 1.26% | Base rate |
-| dolomite | 7.58% | 8.21% | 64.69% incentives |
-| concrete | 2.57% | 8.64% | Base rate |
-| curve-dex | 0.10% | 0.39% | Base rate |
-| raydium-amm | 1.16% | 0.55% | Base rate |
+| lista-lending | 1.19% | 1.24% | Base rate |
+| dolomite | 7.73% | 8.18% | 65.16% incentives |
+| concrete | 2.52% | 6.99% | Base rate |
+| curve-dex | 0.12% | 0.39% | Base rate |
+| raydium-amm | 0.83% | 0.57% | Base rate |
 | bitway-earn | 8.00% | 8.00% | Base rate |
-| raydium-amm | 26.21% | 27.80% | Base rate |
-| echelon-market | 4.72% | 4.27% | 19.68% incentives |
+| raydium-amm | 27.97% | 27.66% | Base rate |
+| echelon-market | 3.60% | 4.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USD1 yield today?
 
-26.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+27.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many USD1 pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $294.27M in total.
+17 live pools clear this page's $100K TVL floor, $291.71M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USD1 pools have the most stable APY history?
 
-Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.10% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $6.49M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; echelon-market (Aptos), 4.72% APY, $1.06M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 1.06% APY, $138.17M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 1.16% APY, $9.9M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.58% APY, $89.04M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; concrete (Ethereum), 2.57% APY, $28.2M TVL, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token; raydium-amm (Solana), 26.21% APY, $4.89M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.12% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $5.17M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; echelon-market (Aptos), 3.60% APY, $1.05M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 1.19% APY, $138.23M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 0.83% APY, $9.9M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.73% APY, $87.89M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; concrete (Ethereum), 2.52% APY, $28.21M TVL, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token; raydium-amm (Solana), 27.97% APY, $4.93M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +90,4 @@ Based on APY history only, USD1's lower-variability candidates are curve-dex (Et
 - [Solana](https://www.defi.garden/chains/solana)
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

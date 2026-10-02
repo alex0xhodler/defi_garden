@@ -1,19 +1,19 @@
 # DAI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DAI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 8.48%이며, $100K TVL 기준을 넘는 68개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DAI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 8.54%이며, $100K TVL 기준을 넘는 68개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.71% | $85.82M |
-| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.21% | $14.71M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 2.05% | $9.54M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 8.48% | $9.34M |
-| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 2.81% | $7.32M |
-| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token) | Polygon | 0.56% | $4.95M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 5.51% | $3.67M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 18.58% | $1.5M |
+| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.71% | $85.84M |
+| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.22% | $14.42M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.97% | $9.57M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 8.54% | $9.35M |
+| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 2.83% | $7.31M |
+| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token) | Polygon | 0.56% | $4.9M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 5.60% | $3.68M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 3.99% | $1.48M |
 
 ## DAI 디파이 수익률 생성 원리
 
@@ -26,24 +26,24 @@ DAI의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DAI의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 0.56%, TVL $4.95M, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token; Ethereum의 sparklend, APY 2.71%, TVL $85.82M, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token; Ethereum의 aave-v3, APY 3.21%, TVL $14.71M, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token; Ethereum의 yearn-finance, APY 2.81%, TVL $7.32M, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token; Ethereum의 uniswap-v2, APY 2.05%, TVL $9.54M, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token; Ethereum의 sushiswap-v3, APY 8.48%, TVL $9.34M, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token; Ethereum의 uniswap-v3, APY 5.51%, TVL $3.67M, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token; Ethereum의 uniswap-v3, APY 18.58%, TVL $1.5M, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DAI의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 0.56%, TVL $4.9M, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token; Ethereum의 sparklend, APY 2.71%, TVL $85.84M, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token; Ethereum의 aave-v3, APY 3.22%, TVL $14.42M, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token; Ethereum의 yearn-finance, APY 2.83%, TVL $7.31M, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token; Ethereum의 uniswap-v2, APY 1.97%, TVL $9.57M, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token; Ethereum의 sushiswap-v3, APY 8.54%, TVL $9.35M, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token; Ethereum의 uniswap-v3, APY 5.60%, TVL $3.68M, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token; Ethereum의 uniswap-v3, APY 3.99%, TVL $1.48M, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token) | Polygon | 0.56% | $4.95M |
-| 2 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.71% | $85.82M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.21% | $14.71M |
-| 4 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 2.81% | $7.32M |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 2.05% | $9.54M |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 8.48% | $9.34M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 5.51% | $3.67M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 18.58% | $1.5M |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token) | Polygon | 0.56% | $4.9M |
+| 2 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.71% | $85.84M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.22% | $14.42M |
+| 4 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 2.83% | $7.31M |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.97% | $9.57M |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 8.54% | $9.35M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 5.60% | $3.68M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 3.99% | $1.48M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 18.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 8.54%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.10%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -53,14 +53,14 @@ DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 18.58%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparklend | 2.71% | 2.53% | 기본 금리 |
-| aave-v3 | 3.21% | 3.10% | 기본 금리 |
-| uniswap-v2 | 2.05% | 2.52% | 기본 금리 |
-| sushiswap-v3 | 8.48% | 10.78% | 기본 금리 |
-| yearn-finance | 2.81% | 3.10% | 기본 금리 |
-| quickswap-dex | 0.56% | 0.56% | 기본 금리 |
-| uniswap-v3 | 5.51% | 8.69% | 기본 금리 |
-| uniswap-v3 | 18.58% | 6.90% | 기본 금리 |
+| sparklend | 2.71% | 2.55% | 기본 금리 |
+| aave-v3 | 3.22% | 3.11% | 기본 금리 |
+| uniswap-v2 | 1.97% | 2.52% | 기본 금리 |
+| sushiswap-v3 | 8.54% | 10.75% | 기본 금리 |
+| yearn-finance | 2.83% | 3.08% | 기본 금리 |
+| quickswap-dex | 0.56% | 0.54% | 기본 금리 |
+| uniswap-v3 | 5.60% | 8.66% | 기본 금리 |
+| uniswap-v3 | 3.99% | 7.37% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -68,11 +68,11 @@ DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 18.58%까
 
 ### 오늘 DAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 8.48%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 8.54%예요.
 
 ### DAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 68개이며, 합산 TVL은 $333.62M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 68개이며, 합산 TVL은 $333.26M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -80,7 +80,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 8.48%�
 
 ### DAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DAI의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 0.56%, TVL $4.95M, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token; Ethereum의 sparklend, APY 2.71%, TVL $85.82M, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token; Ethereum의 aave-v3, APY 3.21%, TVL $14.71M, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token; Ethereum의 yearn-finance, APY 2.81%, TVL $7.32M, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token; Ethereum의 uniswap-v2, APY 2.05%, TVL $9.54M, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token; Ethereum의 sushiswap-v3, APY 8.48%, TVL $9.34M, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token; Ethereum의 uniswap-v3, APY 5.51%, TVL $3.67M, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token; Ethereum의 uniswap-v3, APY 18.58%, TVL $1.5M, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DAI의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 0.56%, TVL $4.9M, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76&src=seo_token; Ethereum의 sparklend, APY 2.71%, TVL $85.84M, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token; Ethereum의 aave-v3, APY 3.22%, TVL $14.42M, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token; Ethereum의 yearn-finance, APY 2.83%, TVL $7.31M, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token; Ethereum의 uniswap-v2, APY 1.97%, TVL $9.57M, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token; Ethereum의 sushiswap-v3, APY 8.54%, TVL $9.35M, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token; Ethereum의 uniswap-v3, APY 5.60%, TVL $3.68M, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token; Ethereum의 uniswap-v3, APY 3.99%, TVL $1.48M, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -96,4 +96,4 @@ APY 이력만 기준으로 비교한 DAI의 변동성 낮은 후보는 Polygon�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

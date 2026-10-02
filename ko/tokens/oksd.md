@@ -1,6 +1,6 @@
 # OKSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 1, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 OKSD의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 0.02%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -12,8 +12,8 @@
 | [orca-dex →](https://www.defi.garden/?pool=0d1702f9-7f82-5726-9d5e-345ebfcad64d&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=be8e7aa6-ca2d-56a6-9be2-fa79f651fc04&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=9b8fb8a2-776c-583b-a37b-8b268d0cd82e&src=seo_token) | Solana | 0.02% | $204.8K |
+| [orca-dex →](https://www.defi.garden/?pool=213a2f97-8e3c-5381-a0ab-ca70451f4d5b&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=8eebd1e8-8639-57f9-b624-c4733c14bbec&src=seo_token) | Solana | 0.02% | $204.8K |
-| [orca-dex →](https://www.defi.garden/?pool=8377b495-2c84-5836-b2d2-ba0d9fbd0282&src=seo_token) | Solana | 0.02% | $204.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -76,4 +76,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.02%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

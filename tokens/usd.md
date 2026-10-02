@@ -1,12 +1,12 @@
 # USD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest USD yield right now is 13.07% on lagoon (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD yield right now is 13.32% on lagoon (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 13.07% | $1.17M |
+| [lagoon →](https://www.defi.garden/?pool=226b2164-81ff-4ce3-b44c-07a6fc74ff79&src=seo_token) | Ethereum | 13.32% | $1.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USD shows up in 1 pools here, with rates from 13.07% to 13.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USD shows up in 1 pools here, with rates from 13.32% to 13.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 12.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 13.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 13.07% | 12.93% | Base rate |
+| lagoon | 13.32% | 13.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USD yield today?
 
-13.07% APY on lagoon (Ethereum), based on live DefiLlama data.
+13.32% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many USD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $29.7M in total.
+8 live pools clear this page's $100K TVL floor, $29.73M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank USD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

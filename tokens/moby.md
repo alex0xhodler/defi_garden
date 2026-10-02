@@ -1,31 +1,31 @@
 # MOBY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest MOBY yield right now is 0.16% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOBY yield right now is 14.00% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 18.36% | $356.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.16% | $129.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 14.00% | $367.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.81% | $129.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.16% APY, $129.6K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 18.36% APY, $356.9K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.81% APY, $129.9K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 14.00% APY, $367.1K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.16% | $129.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 18.36% | $356.9K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.81% | $129.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 14.00% | $367.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOBY shows up in 2 pools here, with rates from 0.16% to 18.36% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOBY shows up in 2 pools here, with rates from 0.81% to 14.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 18.36% | 11.42% | Base rate |
-| uniswap-v3 | 0.16% | 0.05% | Base rate |
+| raydium-amm | 14.00% | 11.54% | Base rate |
+| uniswap-v3 | 0.81% | 0.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOBY yield today?
 
-0.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+14.00% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOBY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $486.5K in total.
+2 live pools clear this page's $100K TVL floor, $497K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOBY pools have the most stable APY history?
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.16% APY, $129.6K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 18.36% APY, $356.9K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.81% APY, $129.9K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 14.00% APY, $367.1K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (E
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

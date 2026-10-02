@@ -1,12 +1,12 @@
 # FUNDSTRAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest FUNDSTRAT yield right now is 14.92% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUNDSTRAT yield right now is 22.15% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef&src=seo_token) | Ethereum | 14.92% | $516.2K |
+| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef&src=seo_token) | Ethereum | 22.15% | $536.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FUNDSTRAT yield today?
 
-14.92% APY on lagoon (Ethereum), based on live DefiLlama data.
+22.15% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many FUNDSTRAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $516.2K in total.
+1 live pool clear this page's $100K TVL floor, $536.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FUNDSTRAT pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

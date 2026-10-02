@@ -1,39 +1,39 @@
 # HBAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest HBAR yield right now is 13.78% on saucerswap-v1 (Hedera), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HBAR yield right now is 13.89% on saucerswap-v1 (Hedera), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 9.67% | $1.04M |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 28.93% | $566.3K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $364.8K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 3.13% | $327.1K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 13.78% | $144.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token) | Base | 0.09% | $107.9K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 10.09% | $930.2K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 29.57% | $561.5K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $358.6K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 3.04% | $317K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 13.89% | $142.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token) | Base | 0.02% | $108.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HBAR's lower-variability candidates are saucerswap-v1 (Hedera), 3.13% APY, $327.1K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; saucerswap-v1 (Hedera), 9.67% APY, $1.04M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; saucerswap-v1 (Hedera), 0.01% APY, $364.8K TVL, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; saucerswap-v1 (Hedera), 13.78% APY, $144.7K TVL, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; uniswap-v3 (Base), 0.09% APY, $107.9K TVL, https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token; saucerswap-v1 (Hedera), 28.93% APY, $566.3K TVL, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HBAR's lower-variability candidates are saucerswap-v1 (Hedera), 3.04% APY, $317K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; saucerswap-v1 (Hedera), 10.09% APY, $930.2K TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; saucerswap-v1 (Hedera), 0.01% APY, $358.6K TVL, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; saucerswap-v1 (Hedera), 13.89% APY, $142.3K TVL, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; uniswap-v3 (Base), 0.02% APY, $108.5K TVL, https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token; saucerswap-v1 (Hedera), 29.57% APY, $561.5K TVL, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 3.13% | $327.1K |
-| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 9.67% | $1.04M |
-| 3 | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $364.8K |
-| 4 | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 13.78% | $144.7K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token) | Base | 0.09% | $107.9K |
-| 6 | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 28.93% | $566.3K |
+| 1 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 3.04% | $317K |
+| 2 | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 10.09% | $930.2K |
+| 3 | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $358.6K |
+| 4 | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 13.89% | $142.3K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token) | Base | 0.02% | $108.5K |
+| 6 | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 29.57% | $561.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HBAR shows up in 6 pools here, with rates from 0.01% to 28.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HBAR shows up in 6 pools here, with rates from 0.01% to 29.57% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ HBAR shows up in 6 pools here, with rates from 0.01% to 28.93% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 9.67% | 6.16% | 52.25% incentives |
-| saucerswap-v1 | 28.93% | 10.60% | 10.45% incentives |
+| saucerswap-v1 | 10.09% | 6.26% | 53.84% incentives |
+| saucerswap-v1 | 29.57% | 11.31% | 9.91% incentives |
 | saucerswap-v1 | 0.01% | 0.00% | Base rate |
-| saucerswap-v1 | 3.13% | 1.64% | 25.02% incentives |
-| saucerswap-v1 | 13.78% | 12.56% | 35.77% incentives |
-| uniswap-v3 | 0.09% | 0.48% | Base rate |
+| saucerswap-v1 | 3.04% | 1.68% | 25.58% incentives |
+| saucerswap-v1 | 13.89% | 12.42% | 34.66% incentives |
+| uniswap-v3 | 0.02% | 0.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HBAR yield today?
 
-13.78% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+13.89% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many HBAR pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.55M in total.
+6 live pools clear this page's $100K TVL floor, $2.42M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HBAR pools have the most stable APY history?
 
-Based on APY history only, HBAR's lower-variability candidates are saucerswap-v1 (Hedera), 3.13% APY, $327.1K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; saucerswap-v1 (Hedera), 9.67% APY, $1.04M TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; saucerswap-v1 (Hedera), 0.01% APY, $364.8K TVL, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; saucerswap-v1 (Hedera), 13.78% APY, $144.7K TVL, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; uniswap-v3 (Base), 0.09% APY, $107.9K TVL, https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token; saucerswap-v1 (Hedera), 28.93% APY, $566.3K TVL, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HBAR's lower-variability candidates are saucerswap-v1 (Hedera), 3.04% APY, $317K TVL, https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token; saucerswap-v1 (Hedera), 10.09% APY, $930.2K TVL, https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token; saucerswap-v1 (Hedera), 0.01% APY, $358.6K TVL, https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token; saucerswap-v1 (Hedera), 13.89% APY, $142.3K TVL, https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token; uniswap-v3 (Base), 0.02% APY, $108.5K TVL, https://www.defi.garden/?pool=8209bc41-8eed-403a-8538-0e3aa843a853&src=seo_token; saucerswap-v1 (Hedera), 29.57% APY, $561.5K TVL, https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +82,4 @@ Based on APY history only, HBAR's lower-variability candidates are saucerswap-v1
 - [Hedera](https://www.defi.garden/chains/hedera)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

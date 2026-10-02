@@ -1,34 +1,34 @@
 # SHX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest SHX yield right now is 6.72% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHX yield right now is 86.06% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=69d27f74-39dd-5a5c-bbff-2c07c191b93c&src=seo_token) | Solana | 0.02% | $54.64M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 22.15% | $1.65M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 6.72% | $131.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 5.00% | $130.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 26.24% | $1.69M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 86.06% | $157.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 12.80% | $132.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 5.00% APY, $130.1K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 22.15% APY, $1.65M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 6.72% APY, $131.7K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 12.80% APY, $132.5K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 26.24% APY, $1.69M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 86.06% APY, $157.4K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 5.00% | $130.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 22.15% | $1.65M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 6.72% | $131.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token) | Solana | 12.80% | $132.5K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 26.24% | $1.69M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 86.06% | $157.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHX shows up in 4 pools here, with rates from 0.02% to 22.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHX shows up in 4 pools here, with rates from 0.02% to 86.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,9 +37,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.02% | 73.44% | Base rate |
-| uniswap-v4 | 22.15% | 5.54% | Base rate |
-| uniswap-v4 | 6.72% | 6.98% | Base rate |
-| raydium-amm | 5.00% | 4.81% | Base rate |
+| uniswap-v4 | 26.24% | 5.93% | Base rate |
+| uniswap-v4 | 86.06% | 7.31% | Base rate |
+| raydium-amm | 12.80% | 5.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +47,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHX yield today?
 
-6.72% APY on uniswap-v4 (Base), based on live DefiLlama data.
+86.06% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $60.9M in total.
+6 live pools clear this page's $100K TVL floor, $61.17M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHX pools have the most stable APY history?
 
-Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 5.00% APY, $130.1K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 22.15% APY, $1.65M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 6.72% APY, $131.7K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHX's lower-variability candidates are raydium-amm (Solana), 12.80% APY, $132.5K TVL, https://www.defi.garden/?pool=5c1ae043-faad-5a28-8d46-5da7e9af951c&src=seo_token; uniswap-v4 (Ethereum), 26.24% APY, $1.69M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 86.06% APY, $157.4K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, SHX's lower-variability candidates are raydium-amm (S
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

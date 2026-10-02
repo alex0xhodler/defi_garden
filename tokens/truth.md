@@ -1,12 +1,12 @@
 # TRUTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest TRUTH yield right now is 0.11% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUTH yield right now is 1.33% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=84bd0bc1-5c8a-4304-aae6-ab4c2337f376&src=seo_token) | Sui | 0.11% | $1.17M |
+| [bluefin-spot →](https://www.defi.garden/?pool=84bd0bc1-5c8a-4304-aae6-ab4c2337f376&src=seo_token) | Sui | 1.33% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRUTH yield today?
 
-0.11% APY on bluefin-spot (Sui), based on live DefiLlama data.
+1.33% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many TRUTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.17M in total.
+1 live pool clear this page's $100K TVL floor, $1.25M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank TRUTH pools. This view covers
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

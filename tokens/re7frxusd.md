@@ -1,12 +1,12 @@
 # RE7FRXUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest RE7FRXUSD yield right now is 121.88% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7FRXUSD yield right now is 19.04% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1ffa1524-1452-58b6-89e4-4302fb9d9482&src=seo_token) | Ethereum | 121.88% | $203.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=1ffa1524-1452-58b6-89e4-4302fb9d9482&src=seo_token) | Ethereum | 19.04% | $790K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7FRXUSD yield today?
 
-121.88% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+19.04% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RE7FRXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.5K in total.
+1 live pool clear this page's $100K TVL floor, $790K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RE7FRXUSD pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

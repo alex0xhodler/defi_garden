@@ -1,12 +1,12 @@
 # CTRWA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest CTRWA yield right now is 2.57% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTRWA yield right now is 2.52% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.57% | $28.2M |
+| [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea&src=seo_token) | Ethereum | 2.52% | $28.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTRWA yield today?
 
-2.57% APY on concrete (Ethereum), based on live DefiLlama data.
+2.52% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many CTRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.2M in total.
+1 live pool clear this page's $100K TVL floor, $28.21M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CTRWA pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

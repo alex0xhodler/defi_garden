@@ -1,42 +1,40 @@
 # CHIP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest CHIP yield right now is 219.47% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHIP yield right now is 216.51% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.16% | $929.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 169.91% | $462.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=b3738ac2-9b96-5185-b1c6-579004e31a74&src=seo_token) | Solana | 219.47% | $101.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.91% | $927.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 216.51% | $463.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CHIP's lower-variability candidates are uniswap-v3 (Arbitrum), 1.16% APY, $929.6K TVL, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; aerodrome-slipstream (Base), 169.91% APY, $462.3K TVL, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CHIP's lower-variability candidates are uniswap-v3 (Arbitrum), 0.91% APY, $927.4K TVL, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; aerodrome-slipstream (Base), 216.51% APY, $463.9K TVL, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.16% | $929.6K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 169.91% | $462.3K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.91% | $927.4K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 216.51% | $463.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CHIP shows up in 3 pools here, with rates from 1.16% to 219.47% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+CHIP shows up in 2 pools here, with rates from 0.91% to 216.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 526.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 261.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.16% | 3.97% | Base rate |
-| aerodrome-slipstream | 169.91% | 526.79% | 55.50% incentives |
-| raydium-amm | 219.47% | 632.18% | Base rate |
+| uniswap-v3 | 0.91% | 3.84% | Base rate |
+| aerodrome-slipstream | 216.51% | 519.86% | 43.09% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CHIP yield today?
 
-219.47% APY on raydium-amm (Solana), based on live DefiLlama data.
+216.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CHIP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.49M in total.
+2 live pools clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CHIP pools have the most stable APY history?
 
-Based on APY history only, CHIP's lower-variability candidates are uniswap-v3 (Arbitrum), 1.16% APY, $929.6K TVL, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; aerodrome-slipstream (Base), 169.91% APY, $462.3K TVL, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CHIP's lower-variability candidates are uniswap-v3 (Arbitrum), 0.91% APY, $927.4K TVL, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; aerodrome-slipstream (Base), 216.51% APY, $463.9K TVL, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,6 +69,5 @@ Based on APY history only, CHIP's lower-variability candidates are uniswap-v3 (A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
-- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

@@ -1,12 +1,12 @@
 # KODIEWBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest KODIEWBERA yield right now is 10.65% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIEWBERA yield right now is 10.43% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 10.65% | $920.1K |
+| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 10.43% | $899.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIEWBERA yield today?
 
-10.65% APY on berapaw (Berachain), based on live DefiLlama data.
+10.43% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIEWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $920.1K in total.
+1 live pool clear this page's $100K TVL floor, $899.2K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KODIEWBERA pools. This view c
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

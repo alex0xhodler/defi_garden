@@ -1,12 +1,12 @@
 # WTCOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest WTCOIN yield right now is 96.73% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTCOIN yield right now is 183.64% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385&src=seo_token) | Base | 96.73% | $271.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385&src=seo_token) | Base | 183.64% | $240.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTCOIN yield today?
 
-96.73% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+183.64% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many WTCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $271.4K in total.
+1 live pool clear this page's $100K TVL floor, $240.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WTCOIN pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

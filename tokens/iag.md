@@ -1,12 +1,12 @@
 # IAG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest IAG yield right now is 11.54% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IAG yield right now is 11.70% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=926cd961-45ad-40d7-9876-6f0fe19d8fa3&src=seo_token) | Cardano | 11.54% | $199.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=926cd961-45ad-40d7-9876-6f0fe19d8fa3&src=seo_token) | Cardano | 11.70% | $202.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IAG yield today?
 
-11.54% APY on minswap-dex (Cardano), based on live DefiLlama data.
+11.70% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.7K in total.
+1 live pool clear this page's $100K TVL floor, $202.1K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank IAG pools. This view covers A
 
 ## Related tokens
 
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
-- [USDA](https://www.defi.garden/tokens/usda)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
+- [USDA](https://www.defi.garden/tokens/usda)
+- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

@@ -1,12 +1,12 @@
 # RUJI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest RUJI yield right now is 0.67% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUJI yield right now is 0.17% on rujira-staking (Thorchain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_token) | Thorchain | 0.67% | $8.96M |
+| [rujira-staking →](https://www.defi.garden/?pool=a00dd5ee-b621-5a6d-a7c1-bd1e3193b908&src=seo_token) | Thorchain | 0.17% | $8.93M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUJI yield today?
 
-0.67% APY on rujira-staking (Thorchain), based on live DefiLlama data.
+0.17% APY on rujira-staking (Thorchain), based on live DefiLlama data.
 
 ### How many RUJI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.96M in total.
+1 live pool clear this page's $100K TVL floor, $8.93M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank RUJI pools. This view covers 
 
 ## Related tokens
 
-- [TCY](https://www.defi.garden/tokens/tcy)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Thorchain](https://www.defi.garden/chains/thorchain)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

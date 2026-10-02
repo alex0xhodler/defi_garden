@@ -1,11 +1,12 @@
 # Defichain DeFi Yields
 
-The highest honest Defichain yield right now is 0.48% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Defichain yield right now is 0.25% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.07% | $635.6K |
-| NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_chain) | 0.48% | $152.8K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.25% | $639.8K |
+| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 0.13% | $250.3K |
+| COIN-DUSD | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3&src=seo_chain) | 0.10% | $105.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Defichain yield today?
 
-0.48% APY on defichain-dex (Defichain), based on live DefiLlama data.
+0.25% APY on defichain-dex (Defichain), based on live DefiLlama data.
 
 ### How many Defichain pools clear the TVL floor?
 
@@ -36,6 +37,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [DUSD](https://www.defi.garden/tokens/dusd)
 - [DFI](https://www.defi.garden/tokens/dfi)
-- [NVDA](https://www.defi.garden/tokens/nvda)
+- [MSTR](https://www.defi.garden/tokens/mstr)
+- [COIN](https://www.defi.garden/tokens/coin)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

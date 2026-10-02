@@ -1,16 +1,16 @@
 # Avalanche 디파이 수익률
 
-현재 Avalanche의 가장 높은 정직한 수익률은 Avalanche의 avant-avusd에서 7.84%이며, $100K TVL 기준을 넘는 127개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Avalanche의 가장 높은 정직한 수익률은 Avalanche의 avant-avusd에서 7.80%이며, $100K TVL 기준을 넘는 128개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_chain) | 3.78% | $486.53M |
-| SAVAX | [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_chain) | 3.72% | $259.33M |
-| WAVAX | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_chain) | 0.75% | $133.38M |
-| SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_chain) | 7.84% | $103.88M |
-| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_chain) | 0.01% | $94.57M |
-| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_chain) | 12.68% | $9.74M |
-| WETH.E | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_chain) | 1.13% | $8.76M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_chain) | 3.77% | $483.78M |
+| SAVAX | [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_chain) | 4.46% | $258.86M |
+| WAVAX | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_chain) | 0.75% | $133.14M |
+| SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_chain) | 7.80% | $104.47M |
+| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_chain) | 0.01% | $96.47M |
+| WETH.E | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_chain) | 0.81% | $11.66M |
+| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_chain) | 0.46% | $9.73M |
 | USDC | [spark-savings →](https://www.defi.garden/?pool=e96cbd55-a0a0-446a-89ba-ada6e2991d50&src=seo_chain) | 3.60% | $8.68M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -19,11 +19,11 @@
 
 ### 오늘 Avalanche의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.84%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.80%예요.
 
 ### Avalanche 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 127개이며, 합산 TVL은 $1.71B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 128개이며, 합산 TVL은 $1.71B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,8 +45,8 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.84%�
 - [WAVAX](https://www.defi.garden/ko/tokens/wavax)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
 - [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
-- [TAVAX](https://www.defi.garden/ko/tokens/tavax)
 - [WETH.E](https://www.defi.garden/ko/tokens/weth-e)
+- [TAVAX](https://www.defi.garden/ko/tokens/tavax)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: October 1, 2026
+## 마지막 업데이트: October 2, 2026

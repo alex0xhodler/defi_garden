@@ -1,12 +1,12 @@
 # AKE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
 The highest honest AKE yield right now is 2.19% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=131d16cd-908a-586a-a455-1360f0ee20a7&src=seo_token) | Solana | 0.04% | $37.91M |
+| [raydium-amm →](https://www.defi.garden/?pool=131d16cd-908a-586a-a455-1360f0ee20a7&src=seo_token) | Solana | 0.03% | $37.92M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e69bd3e6-006f-5880-b9d9-888a92292e22&src=seo_token) | BSC | 2.19% | $1.19M |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AKE shows up in 2 pools here, with rates from 0.04% to 2.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AKE shows up in 2 pools here, with rates from 0.03% to 2.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 43.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 39.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.04% | 63.74% | Base rate |
-| uniswap-v4 | 2.19% | 23.99% | Base rate |
+| raydium-amm | 0.03% | 53.81% | Base rate |
+| uniswap-v4 | 2.19% | 24.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

@@ -1,37 +1,37 @@
 # ZORA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest ZORA yield right now is 2.43% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZORA yield right now is 8.27% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 1.87% | $591K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 0.73% | $212.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.19% | $155.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 2.43% | $102.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 1.06% | $100.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 1.55% | $586.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 1.05% | $204.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 8.27% | $154.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.69% | $101.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.15% | $100.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 7.19% APY, $155.3K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 0.73% APY, $212.5K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 1.87% APY, $591K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 1.06% APY, $100.8K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 2.43% APY, $102.1K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 8.27% APY, $154.5K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 1.05% APY, $204.1K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 1.55% APY, $586.4K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 0.15% APY, $100.4K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 0.69% APY, $101.8K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.19% | $155.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 0.73% | $212.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 1.87% | $591K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 1.06% | $100.8K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 2.43% | $102.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 8.27% | $154.5K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 1.05% | $204.1K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 1.55% | $586.4K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token) | Base | 0.15% | $100.4K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token) | Base | 0.69% | $101.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZORA shows up in 5 pools here, with rates from 0.73% to 7.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZORA shows up in 5 pools here, with rates from 0.15% to 8.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 4.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 4.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 1.87% | 5.97% | Base rate |
-| uniswap-v4 | 0.73% | 3.19% | Base rate |
-| uniswap-v4 | 7.19% | 14.49% | Base rate |
-| uniswap-v4 | 2.43% | 1.99% | Base rate |
-| uniswap-v4 | 1.06% | 4.61% | Base rate |
+| uniswap-v4 | 1.55% | 5.13% | Base rate |
+| uniswap-v4 | 1.05% | 3.12% | Base rate |
+| uniswap-v4 | 8.27% | 14.70% | Base rate |
+| uniswap-v4 | 0.69% | 1.54% | Base rate |
+| uniswap-v4 | 0.15% | 4.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZORA yield today?
 
-2.43% APY on uniswap-v4 (Base), based on live DefiLlama data.
+8.27% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ZORA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.16M in total.
+5 live pools clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZORA pools have the most stable APY history?
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 7.19% APY, $155.3K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 0.73% APY, $212.5K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 1.87% APY, $591K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 1.06% APY, $100.8K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 2.43% APY, $102.1K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 8.27% APY, $154.5K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 1.05% APY, $204.1K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 1.55% APY, $586.4K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token; uniswap-v4 (Base), 0.15% APY, $100.4K TVL, https://www.defi.garden/?pool=bace82d1-ca5b-4740-b2a3-1223e6050739&src=seo_token; uniswap-v4 (Base), 0.69% APY, $101.8K TVL, https://www.defi.garden/?pool=cb9230a0-dd93-4403-8308-3e5d45e4e751&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +78,4 @@ Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (B
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

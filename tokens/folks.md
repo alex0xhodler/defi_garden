@@ -1,12 +1,12 @@
 # FOLKS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest FOLKS yield right now is 103.11% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOLKS yield right now is 127.84% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5ffd8475-98ee-5200-9a50-8a59506a31ee&src=seo_token) | Base | 103.11% | $336.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5ffd8475-98ee-5200-9a50-8a59506a31ee&src=seo_token) | Base | 127.84% | $339.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOLKS yield today?
 
-103.11% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+127.84% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many FOLKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $336.9K in total.
+1 live pool clear this page's $100K TVL floor, $339.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FOLKS pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026

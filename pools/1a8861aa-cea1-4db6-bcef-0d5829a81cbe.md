@@ -6,7 +6,7 @@
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.53%
+**30d Mean APY:** 3.72%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ Steady so far: across the 20 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated October 1, 2026
+Last updated October 2, 2026

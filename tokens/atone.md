@@ -1,12 +1,12 @@
 # ATONE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 1, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
 
-The highest honest ATONE yield right now is 25.29% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATONE yield right now is 26.18% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 25.29% | $211.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 26.18% | $207.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATONE yield today?
 
-25.29% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+26.18% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many ATONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.1K in total.
+1 live pool clear this page's $100K TVL floor, $207.4K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank ATONE pools. This view covers
 
 ## Related tokens
 
-- [ATOM](https://www.defi.garden/tokens/atom)
+- [BTC](https://www.defi.garden/tokens/btc)
+- [CDT](https://www.defi.garden/tokens/cdt)
+- [MILKTIA](https://www.defi.garden/tokens/milktia)
 - [OSMO](https://www.defi.garden/tokens/osmo)
+- [ATOM](https://www.defi.garden/tokens/atom)
 - [USDC.N](https://www.defi.garden/tokens/usdc-n)
-- [AKT](https://www.defi.garden/tokens/akt)
-- [VERONA](https://www.defi.garden/tokens/verona)
-- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated October 1, 2026
+## Last updated October 2, 2026
