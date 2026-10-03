@@ -74,6 +74,7 @@
 | 13 | **awesome-mcp-servers** (`appcypher`) | Category list | Archived by owner | [-] **ARCHIVED** (Read-only) |
 | 14 | **toolsdk mcp registry** | `packages/finance-fintech/` | `defi-garden.json` | [x] **PR OPEN** ([PR #634](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/634)) |
 | 15 | **awesome-remote-mcp-servers** (`punkpeye`) | Finance section | Remote streamable HTTP list | [ ] **PENDING GLAMA BADGE** (Unblocks once Glama review merges) |
+| 16 | **awesome-agent-skills** (`philipbankier`) | Domain-Specific section | `- [alex0xhodler/defi_garden]...` | [x] **PR OPEN** ([PR #113](https://github.com/philipbankier/awesome-agent-skills/pull/113)) |
 
 ---
 
