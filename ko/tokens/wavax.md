@@ -1,43 +1,43 @@
 # WAVAX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 3, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WAVAX의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 371.62%이며, $100K TVL 기준을 넘는 30개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WAVAX의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 358.05%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token) | Avalanche | 0.75% | $133.14M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token) | Avalanche | 66.55% | $5.72M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 42.43% | $4.18M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 40.51% | $3.82M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token) | Avalanche | 371.62% | $3.61M |
-| [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token) | Avalanche | 1.49% | $3.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 9.38% | $839.1K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token) | Avalanche | 107.38% | $666.6K |
+| [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token) | Avalanche | 0.75% | $130.74M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token) | Avalanche | 84.63% | $5.88M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token) | Avalanche | 358.05% | $4.02M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 39.03% | $3.74M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 63.28% | $3.62M |
+| [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token) | Avalanche | 1.45% | $3.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 13.92% | $827.1K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token) | Avalanche | 157.06% | $667.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.13M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $133.14M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; Avalanche의 uniswap-v3, APY 9.38%, TVL $839.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pharaoh-v3, APY 40.51%, TVL $3.82M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 pharaoh-v3, APY 42.43%, TVL $4.18M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 uniswap-v3, APY 66.55%, TVL $5.72M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; Avalanche의 joe-v2.2, APY 107.38%, TVL $666.6K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; Avalanche의 pharaoh-v3, APY 371.62%, TVL $3.61M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.45%, TVL $3.13M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $130.74M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; Avalanche의 uniswap-v3, APY 13.92%, TVL $827.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pharaoh-v3, APY 39.03%, TVL $3.74M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 pharaoh-v3, APY 63.28%, TVL $3.62M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 uniswap-v3, APY 84.63%, TVL $5.88M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; Avalanche의 joe-v2.2, APY 157.06%, TVL $667.1K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; Avalanche의 pharaoh-v3, APY 358.05%, TVL $4.02M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token) | Avalanche | 1.49% | $3.13M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token) | Avalanche | 0.75% | $133.14M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 9.38% | $839.1K |
-| 4 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 40.51% | $3.82M |
-| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 42.43% | $4.18M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token) | Avalanche | 66.55% | $5.72M |
-| 7 | [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token) | Avalanche | 107.38% | $666.6K |
-| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token) | Avalanche | 371.62% | $3.61M |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token) | Avalanche | 1.45% | $3.13M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token) | Avalanche | 0.75% | $130.74M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 13.92% | $827.1K |
+| 4 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 39.03% | $3.74M |
+| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 63.28% | $3.62M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token) | Avalanche | 84.63% | $5.88M |
+| 7 | [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token) | Avalanche | 157.06% | $667.1K |
+| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token) | Avalanche | 358.05% | $4.02M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WAVAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.75%부터 371.62%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WAVAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.75%부터 358.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 49.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 51.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -46,13 +46,13 @@ WAVAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.75%부터 371.62%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.75% | 0.75% | 기본 금리 |
-| uniswap-v3 | 66.55% | 27.84% | 기본 금리 |
-| pharaoh-v3 | 42.43% | 70.80% | 인센티브 100.00% |
-| pharaoh-v3 | 40.51% | 80.48% | 인센티브 100.00% |
-| pharaoh-v3 | 371.62% | 343.58% | 인센티브 100.00% |
-| aave-v4 | 1.49% | 1.51% | 기본 금리 |
-| uniswap-v3 | 9.38% | 18.20% | 기본 금리 |
-| joe-v2.2 | 107.38% | 75.80% | 기본 금리 |
+| uniswap-v3 | 84.63% | 30.08% | 기본 금리 |
+| pharaoh-v3 | 358.05% | 357.95% | 인센티브 100.00% |
+| pharaoh-v3 | 39.03% | 81.88% | 인센티브 100.00% |
+| pharaoh-v3 | 63.28% | 73.18% | 인센티브 100.00% |
+| aave-v4 | 1.45% | 1.51% | 기본 금리 |
+| uniswap-v3 | 13.92% | 18.36% | 기본 금리 |
+| joe-v2.2 | 157.06% | 80.27% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ WAVAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.75%부터 371.62%
 
 ### 오늘 WAVAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 371.62%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 358.05%예요.
 
 ### WAVAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $159.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $156.4M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 371.62%�
 
 ### WAVAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.13M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $133.14M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; Avalanche의 uniswap-v3, APY 9.38%, TVL $839.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pharaoh-v3, APY 40.51%, TVL $3.82M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 pharaoh-v3, APY 42.43%, TVL $4.18M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 uniswap-v3, APY 66.55%, TVL $5.72M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; Avalanche의 joe-v2.2, APY 107.38%, TVL $666.6K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; Avalanche의 pharaoh-v3, APY 371.62%, TVL $3.61M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.45%, TVL $3.13M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544&src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $130.74M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; Avalanche의 uniswap-v3, APY 13.92%, TVL $827.1K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pharaoh-v3, APY 39.03%, TVL $3.74M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 pharaoh-v3, APY 63.28%, TVL $3.62M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 uniswap-v3, APY 84.63%, TVL $5.88M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; Avalanche의 joe-v2.2, APY 157.06%, TVL $667.1K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; Avalanche의 pharaoh-v3, APY 358.05%, TVL $4.02M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanc
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: October 2, 2026
+## 마지막 업데이트: October 3, 2026

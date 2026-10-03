@@ -1,12 +1,12 @@
 # BP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest BP yield right now is 107.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BP yield right now is 42.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4a381a15-91d6-5ebf-aa04-3c6fba3c8898&src=seo_token) | Solana | 107.05% | $270.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=4a381a15-91d6-5ebf-aa04-3c6fba3c8898&src=seo_token) | Solana | 42.78% | $239K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BP yield today?
 
-107.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+42.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $270.3K in total.
+1 live pool clear this page's $100K TVL floor, $239K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BP pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,31 +1,31 @@
 # SURGE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest SURGE yield right now is 18.01% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SURGE yield right now is 22.49% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 18.01% | $151K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 7.15% | $132.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 22.49% | $137.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 7.00% | $120.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 7.15% APY, $132.2K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 18.01% APY, $151K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 7.00% APY, $120.1K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 22.49% APY, $137.7K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 7.15% | $132.2K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 18.01% | $151K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token) | Base | 7.00% | $120.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token) | Solana | 22.49% | $137.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SURGE shows up in 2 pools here, with rates from 7.15% to 18.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SURGE shows up in 2 pools here, with rates from 7.00% to 22.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 31.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 31.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 18.01% | 45.31% | Base rate |
-| uniswap-v2 | 7.15% | 17.91% | Base rate |
+| raydium-amm | 22.49% | 44.68% | Base rate |
+| uniswap-v2 | 7.00% | 17.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SURGE yield today?
 
-18.01% APY on raydium-amm (Solana), based on live DefiLlama data.
+22.49% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SURGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $283.2K in total.
+2 live pools clear this page's $100K TVL floor, $257.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SURGE pools have the most stable APY history?
 
-Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 7.15% APY, $132.2K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 18.01% APY, $151K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (Base), 7.00% APY, $120.1K TVL, https://www.defi.garden/?pool=4ff71117-e655-4fb5-a7cb-9da29d7b8f1f&src=seo_token; raydium-amm (Solana), 22.49% APY, $137.7K TVL, https://www.defi.garden/?pool=0f686cd6-51aa-49bf-bb5b-fb3df5bbde44&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, SURGE's lower-variability candidates are uniswap-v2 (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,31 +1,31 @@
 # ZEST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest ZEST yield right now is 17.87% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEST yield right now is 7.91% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 17.87% | $230.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token) | BSC | 13.08% | $134.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 7.91% | $225.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token) | BSC | 4.70% | $134.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 17.87% APY, $230.1K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token; uniswap-v4 (BSC), 13.08% APY, $134.2K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 7.91% APY, $225.4K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token; uniswap-v4 (BSC), 4.70% APY, $134.9K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 17.87% | $230.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token) | BSC | 13.08% | $134.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 7.91% | $225.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token) | BSC | 4.70% | $134.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEST shows up in 2 pools here, with rates from 13.08% to 17.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEST shows up in 2 pools here, with rates from 4.70% to 7.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 46.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 17.87% | 36.09% | Base rate |
-| uniswap-v4 | 13.08% | 55.94% | Base rate |
+| uniswap-v4 | 7.91% | 37.12% | Base rate |
+| uniswap-v4 | 4.70% | 57.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEST yield today?
 
-17.87% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+7.91% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ZEST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $364.4K in total.
+2 live pools clear this page's $100K TVL floor, $360.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEST pools have the most stable APY history?
 
-Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 17.87% APY, $230.1K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token; uniswap-v4 (BSC), 13.08% APY, $134.2K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 7.91% APY, $225.4K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token; uniswap-v4 (BSC), 4.70% APY, $134.9K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

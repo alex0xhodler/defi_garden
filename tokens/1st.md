@@ -1,12 +1,12 @@
 # 1ST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest 1ST yield right now is 13.07% on t3tris-finance (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 13.07% | $111.1K |
+| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 13.07% | $111.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 1ST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.1K in total.
+1 live pool clear this page's $100K TVL floor, $111.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank 1ST pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [ETH](https://www.defi.garden/tokens/eth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 1ST pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

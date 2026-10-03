@@ -1,16 +1,16 @@
 # Hyperliquid L1 DeFi Yields
 
-The highest honest Hyperliquid L1 yield right now is 62.35% on nest-cl (Hyperliquid L1), among 186 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Hyperliquid L1 yield right now is 77.01% on nest-cl (Hyperliquid L1), among 188 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 2.00% | $1.03B |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.64% | $37.47M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.32% | $19.34M |
-| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 13.64% | $14.76M |
-| UBTC | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_chain) | 0.14% | $11.91M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 1.58% | $10.95M |
-| WHYPE-USDC | [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_chain) | 62.35% | $9.92M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.88% | $1B |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.64% | $36.65M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.04% | $18.96M |
+| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 10.72% | $14.87M |
+| UBTC | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_chain) | 0.14% | $11.78M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 1.32% | $10.71M |
+| WHYPE-USDC | [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_chain) | 77.01% | $9.68M |
 | LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.83% | $8.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Hyperliquid L1 yield today?
 
-62.35% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+77.01% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many Hyperliquid L1 pools clear the TVL floor?
 
-186 live pools clear this page's $100K TVL floor, $1.9B in total.
+188 live pools clear this page's $100K TVL floor, $1.84B in total.
 
 ### Are these rates safe?
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [FEHYPE](https://www.defi.garden/tokens/fehype)
 - [LIMUSD](https://www.defi.garden/tokens/limusd)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

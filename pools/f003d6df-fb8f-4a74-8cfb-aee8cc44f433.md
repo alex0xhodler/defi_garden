@@ -2,7 +2,7 @@
 
 **Total APY:** 0.12% (0.12% Base · + 0.00% Rewards)
 
-**TVL:** $50.77M
+**TVL:** $50.05M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.12% right now vs a 0.06% 30-day average. Reward 
 
 [Start Earning on zest-v2](https://www.zestprotocol.com/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

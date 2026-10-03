@@ -1,12 +1,12 @@
 # POLLY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest POLLY yield right now is 34.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POLLY yield right now is 60.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=113310a8-cc17-57ac-bd97-5862f8039b3d&src=seo_token) | Solana | 34.94% | $140.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=113310a8-cc17-57ac-bd97-5862f8039b3d&src=seo_token) | Solana | 60.70% | $121.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POLLY yield today?
 
-34.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+60.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POLLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.1K in total.
+1 live pool clear this page's $100K TVL floor, $121.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank POLLY pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

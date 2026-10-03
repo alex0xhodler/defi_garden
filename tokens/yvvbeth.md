@@ -1,12 +1,12 @@
 # YVVBETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest YVVBETH yield right now is 0.69% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVVBETH yield right now is 0.73% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_token) | Katana | 0.69% | $5.09M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0&src=seo_token) | Katana | 0.73% | $5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YVVBETH yield today?
 
-0.69% APY on morpho-blue (Katana), based on live DefiLlama data.
+0.73% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YVVBETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.09M in total.
+1 live pool clear this page's $100K TVL floor, $5M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank YVVBETH pools. This view cove
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

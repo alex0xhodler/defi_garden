@@ -1,12 +1,12 @@
 # OMI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest OMI yield right now is 75.18% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OMI yield right now is 23.55% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 75.18% | $392.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 23.55% | $392.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMI yield today?
 
-75.18% APY on uniswap-v3 (Base), based on live DefiLlama data.
+23.55% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many OMI pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OMI pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

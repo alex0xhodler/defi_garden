@@ -1,12 +1,12 @@
 # NEOCLOUD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest NEOCLOUD yield right now is 16.12% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEOCLOUD yield right now is 28.91% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60&src=seo_token) | BSC | 16.12% | $527.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60&src=seo_token) | BSC | 28.91% | $447.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEOCLOUD yield today?
 
-16.12% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+28.91% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many NEOCLOUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.5K in total.
+1 live pool clear this page's $100K TVL floor, $447.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NEOCLOUD pools. This view cov
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

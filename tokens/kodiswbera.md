@@ -1,12 +1,12 @@
 # KODISWBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest KODISWBERA yield right now is 9.99% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODISWBERA yield right now is 10.06% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 9.99% | $975.8K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 10.06% | $923.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODISWBERA yield today?
 
-9.99% APY on berapaw (Berachain), based on live DefiLlama data.
+10.06% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODISWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $975.8K in total.
+1 live pool clear this page's $100K TVL floor, $923.8K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank KODISWBERA pools. This view c
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

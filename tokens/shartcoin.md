@@ -1,12 +1,12 @@
 # SHARTCOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest SHARTCOIN yield right now is 214.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHARTCOIN yield right now is 104.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=77f0a64f-d3cf-5cd9-956a-0b931320daa1&src=seo_token) | Solana | 214.58% | $263.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=77f0a64f-d3cf-5cd9-956a-0b931320daa1&src=seo_token) | Solana | 104.42% | $249.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHARTCOIN yield today?
 
-214.58% APY on raydium-amm (Solana), based on live DefiLlama data.
+104.42% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SHARTCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.9K in total.
+1 live pool clear this page's $100K TVL floor, $249.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SHARTCOIN pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

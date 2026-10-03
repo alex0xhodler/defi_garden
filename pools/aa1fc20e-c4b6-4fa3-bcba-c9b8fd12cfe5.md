@@ -1,6 +1,6 @@
 # SFRXUSD-FRXUSD — curve-dex on Ethereum
 
-**Total APY:** 3.60% (2.80% Base · + 0.80% Rewards)
+**Total APY:** 3.61% (2.82% Base · + 0.79% Rewards)
 
 **TVL:** $11.89M
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

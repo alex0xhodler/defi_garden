@@ -1,19 +1,19 @@
 # OKSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest OKSD yield right now is 0.02% on orca-dex (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OKSD yield right now is 0.02% on orca-dex (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=30b27d90-1b7c-501f-8ae0-bb74095631f3&src=seo_token) | Solana | 0.02% | $204.8K |
-| [orca-dex →](https://www.defi.garden/?pool=fe6a8a5e-61ff-504e-af97-14519f86c495&src=seo_token) | Solana | 0.01% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=0c9811bd-ddb2-569a-a1db-1e4fe61fb139&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=0d1702f9-7f82-5726-9d5e-345ebfcad64d&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=be8e7aa6-ca2d-56a6-9be2-fa79f651fc04&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=9b8fb8a2-776c-583b-a37b-8b268d0cd82e&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=213a2f97-8e3c-5381-a0ab-ca70451f4d5b&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=8eebd1e8-8639-57f9-b624-c4733c14bbec&src=seo_token) | Solana | 0.02% | $204.8K |
+| [orca-dex →](https://www.defi.garden/?pool=8377b495-2c84-5836-b2d2-ba0d9fbd0282&src=seo_token) | Solana | 0.02% | $204.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -24,7 +24,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-OKSD shows up in 8 pools here, with rates from 0.01% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OKSD shows up in 8 pools here, with rates from 0.02% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,7 +35,7 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | orca-dex | 0.02% | 0.02% | Base rate |
-| orca-dex | 0.01% | 0.01% | Base rate |
+| orca-dex | 0.02% | 0.02% | Base rate |
 | orca-dex | 0.02% | 0.02% | Base rate |
 | orca-dex | 0.02% | 0.02% | Base rate |
 | orca-dex | 0.02% | 0.02% | Base rate |
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OKSD pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $3.08M in total.
+14 live pools clear this page's $100K TVL floor, $2.88M in total.
 
 ### Are these rates safe?
 
@@ -76,4 +76,4 @@ There is not enough qualifying APY history to rank OKSD pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

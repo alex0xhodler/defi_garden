@@ -1,6 +1,6 @@
 # WQQQX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest WQQQX yield right now is 0.02% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
-- [BSB](https://www.defi.garden/tokens/bsb)
 - [KII](https://www.defi.garden/tokens/kii)
+- [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # SAMMV2-MSETH-WETH — yearn-finance on OP Mainnet
 
-**Total APY:** 16.20% (16.20% Base · + 0.00% Rewards)
+**Total APY:** 16.04% (16.04% Base · + 0.00% Rewards)
 
 **TVL:** $173.3K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 16.80%
+**30d Mean APY:** 16.89%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,119 in 5y at current rates.
+$1,000 in this pool grows to ~$2,104 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 Steady so far: across the 30 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$2,119 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,104 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on yearn-finance](https://yearn.fi/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

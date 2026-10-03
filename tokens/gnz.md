@@ -1,12 +1,12 @@
 # GNZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest GNZ yield right now is 0.27% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNZ yield right now is 0.26% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 0.27% | $124.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 0.26% | $123.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNZ yield today?
 
-0.27% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+0.26% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many GNZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.5K in total.
+1 live pool clear this page's $100K TVL floor, $123.9K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GNZ pools. This view covers A
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [STKPOL](https://www.defi.garden/tokens/stkpol)
+- [SAND](https://www.defi.garden/tokens/sand)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,43 +1,43 @@
 # PMUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest PMUSD yield right now is 43.68% on stake-dao-yield (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PMUSD yield right now is 43.12% on stake-dao-yield (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 22.03% | $3.1M |
-| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 41.31% | $1.94M |
-| [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 8.22% | $1.89M |
-| [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 8.87% | $1.76M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 43.68% | $1.47M |
-| [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 17.81% | $1.14M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 15.59% | $1.12M |
-| [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.31% | $1.01M |
+| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 21.95% | $3.11M |
+| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 40.80% | $1.94M |
+| [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 8.73% | $1.75M |
+| [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 8.98% | $1.72M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 43.12% | $1.5M |
+| [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 18.25% | $1.1M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 15.74% | $1.09M |
+| [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.51% | $991.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PMUSD's lower-variability candidates are convex-finance (Ethereum), 17.81% APY, $1.14M TVL, https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token; convex-finance (Ethereum), 18.31% APY, $1.01M TVL, https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token; curve-dex (Ethereum), 8.87% APY, $1.76M TVL, https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token; curve-dex (Ethereum), 8.22% APY, $1.89M TVL, https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token; stake-dao-yield (Ethereum), 15.59% APY, $1.12M TVL, https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token; convex-finance (Ethereum), 41.31% APY, $1.94M TVL, https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token; stake-dao-yield (Ethereum), 43.68% APY, $1.47M TVL, https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token; curve-dex (Ethereum), 22.03% APY, $3.1M TVL, https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PMUSD's lower-variability candidates are convex-finance (Ethereum), 18.25% APY, $1.1M TVL, https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token; convex-finance (Ethereum), 18.51% APY, $991.8K TVL, https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token; curve-dex (Ethereum), 8.98% APY, $1.72M TVL, https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token; curve-dex (Ethereum), 8.73% APY, $1.75M TVL, https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token; stake-dao-yield (Ethereum), 15.74% APY, $1.09M TVL, https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token; convex-finance (Ethereum), 40.80% APY, $1.94M TVL, https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token; stake-dao-yield (Ethereum), 43.12% APY, $1.5M TVL, https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token; curve-dex (Ethereum), 21.95% APY, $3.11M TVL, https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 17.81% | $1.14M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.31% | $1.01M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 8.87% | $1.76M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 8.22% | $1.89M |
-| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 15.59% | $1.12M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 41.31% | $1.94M |
-| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 43.68% | $1.47M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 22.03% | $3.1M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 18.25% | $1.1M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.51% | $991.8K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 8.98% | $1.72M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 8.73% | $1.75M |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 15.74% | $1.09M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 40.80% | $1.94M |
+| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 43.12% | $1.5M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 21.95% | $3.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PMUSD shows up in 8 pools here, with rates from 8.22% to 43.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PMUSD shows up in 8 pools here, with rates from 8.73% to 43.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 18.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 18.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ PMUSD shows up in 8 pools here, with rates from 8.22% to 43.68% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 22.03% | 20.40% | 100.00% incentives |
-| convex-finance | 41.31% | 38.13% | 99.66% incentives |
-| curve-dex | 8.22% | 8.92% | 99.76% incentives |
-| curve-dex | 8.87% | 8.62% | 99.77% incentives |
-| stake-dao-yield | 43.68% | 38.91% | 99.68% incentives |
-| convex-finance | 17.81% | 17.79% | 99.89% incentives |
-| stake-dao-yield | 15.59% | 15.26% | 99.62% incentives |
-| convex-finance | 18.31% | 18.78% | 99.89% incentives |
+| curve-dex | 21.95% | 20.43% | 99.00% incentives |
+| convex-finance | 40.80% | 38.15% | 99.46% incentives |
+| curve-dex | 8.73% | 8.84% | 99.54% incentives |
+| curve-dex | 8.98% | 8.57% | 99.55% incentives |
+| stake-dao-yield | 43.12% | 39.03% | 99.61% incentives |
+| convex-finance | 18.25% | 17.74% | 99.78% incentives |
+| stake-dao-yield | 15.74% | 15.14% | 99.62% incentives |
+| convex-finance | 18.51% | 18.74% | 99.78% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PMUSD yield today?
 
-43.68% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+43.12% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many PMUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $14.67M in total.
+11 live pools clear this page's $100K TVL floor, $14.34M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PMUSD pools have the most stable APY history?
 
-Based on APY history only, PMUSD's lower-variability candidates are convex-finance (Ethereum), 17.81% APY, $1.14M TVL, https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token; convex-finance (Ethereum), 18.31% APY, $1.01M TVL, https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token; curve-dex (Ethereum), 8.87% APY, $1.76M TVL, https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token; curve-dex (Ethereum), 8.22% APY, $1.89M TVL, https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token; stake-dao-yield (Ethereum), 15.59% APY, $1.12M TVL, https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token; convex-finance (Ethereum), 41.31% APY, $1.94M TVL, https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token; stake-dao-yield (Ethereum), 43.68% APY, $1.47M TVL, https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token; curve-dex (Ethereum), 22.03% APY, $3.1M TVL, https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PMUSD's lower-variability candidates are convex-finance (Ethereum), 18.25% APY, $1.1M TVL, https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token; convex-finance (Ethereum), 18.51% APY, $991.8K TVL, https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token; curve-dex (Ethereum), 8.98% APY, $1.72M TVL, https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token; curve-dex (Ethereum), 8.73% APY, $1.75M TVL, https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token; stake-dao-yield (Ethereum), 15.74% APY, $1.09M TVL, https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token; convex-finance (Ethereum), 40.80% APY, $1.94M TVL, https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token; stake-dao-yield (Ethereum), 43.12% APY, $1.5M TVL, https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token; curve-dex (Ethereum), 21.95% APY, $3.11M TVL, https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, PMUSD's lower-variability candidates are convex-finan
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

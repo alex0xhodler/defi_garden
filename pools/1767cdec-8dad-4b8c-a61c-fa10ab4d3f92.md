@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on ondo-yield-assets](https://ondo.finance/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

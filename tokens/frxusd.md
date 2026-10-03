@@ -1,56 +1,56 @@
 # FRXUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest FRXUSD yield right now is 10.39% on stake-dao-yield (Ethereum), among 82 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXUSD yield right now is 10.30% on stake-dao-yield (Ethereum), among 82 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.44% | $16.71M |
-| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 6.52% | $12.58M |
-| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.60% | $11.89M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 4.08% | $11.89M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 8.19% | $6.22M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.00% | $4.66M |
+| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.48% | $16.71M |
+| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 6.54% | $12.58M |
+| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.61% | $11.89M |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 4.09% | $11.89M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 8.19% | $6.2M |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 6.92% | $4.67M |
 | [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 3.44% | $4.6M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 10.39% | $4.31M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 10.30% | $4.3M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FRXUSD's lower-variability candidates are fraxlend (Ethereum), 3.44% APY, $4.6M TVL, https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token; convex-finance (Ethereum), 4.08% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token; curve-dex (Ethereum), 3.60% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token; convex-finance (Ethereum), 6.52% APY, $12.58M TVL, https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token; curve-dex (Ethereum), 3.44% APY, $16.71M TVL, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; curve-dex (Ethereum), 7.00% APY, $4.66M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; curve-dex (Ethereum), 8.19% APY, $6.22M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token; stake-dao-yield (Ethereum), 10.39% APY, $4.31M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRXUSD's lower-variability candidates are fraxlend (Ethereum), 3.44% APY, $4.6M TVL, https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token; convex-finance (Ethereum), 4.09% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token; curve-dex (Ethereum), 3.61% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token; convex-finance (Ethereum), 6.54% APY, $12.58M TVL, https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token; curve-dex (Ethereum), 3.48% APY, $16.71M TVL, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; curve-dex (Ethereum), 6.92% APY, $4.67M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; curve-dex (Ethereum), 8.19% APY, $6.2M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token; stake-dao-yield (Ethereum), 10.30% APY, $4.3M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 3.44% | $4.6M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 4.08% | $11.89M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.60% | $11.89M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 6.52% | $12.58M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.44% | $16.71M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.00% | $4.66M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 8.19% | $6.22M |
-| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 10.39% | $4.31M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 4.09% | $11.89M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.61% | $11.89M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 6.54% | $12.58M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.48% | $16.71M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 6.92% | $4.67M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 8.19% | $6.2M |
+| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 10.30% | $4.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRXUSD shows up in 8 pools here, with rates from 3.44% to 10.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRXUSD shows up in 8 pools here, with rates from 3.44% to 10.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.44% | 3.66% | 97.38% incentives |
-| convex-finance | 6.52% | 6.19% | 98.62% incentives |
-| curve-dex | 3.60% | 3.17% | 22.27% incentives |
-| convex-finance | 4.08% | 3.63% | 31.44% incentives |
-| curve-dex | 8.19% | 6.23% | 99.88% incentives |
-| curve-dex | 7.00% | 10.01% | 100.00% incentives |
-| fraxlend | 3.44% | 3.35% | Base rate |
-| stake-dao-yield | 10.39% | 10.11% | 99.33% incentives |
+| curve-dex | 3.48% | 3.65% | 95.12% incentives |
+| convex-finance | 6.54% | 6.16% | 97.40% incentives |
+| curve-dex | 3.61% | 3.17% | 21.97% incentives |
+| convex-finance | 4.09% | 3.63% | 31.06% incentives |
+| curve-dex | 8.19% | 6.15% | 99.15% incentives |
+| curve-dex | 6.92% | 9.82% | 100.00% incentives |
+| fraxlend | 3.44% | 3.36% | Base rate |
+| stake-dao-yield | 10.30% | 9.94% | 99.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRXUSD yield today?
 
-10.39% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+10.30% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many FRXUSD pools clear the TVL floor?
 
-82 live pools clear this page's $100K TVL floor, $140.55M in total.
+82 live pools clear this page's $100K TVL floor, $140.59M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FRXUSD pools have the most stable APY history?
 
-Based on APY history only, FRXUSD's lower-variability candidates are fraxlend (Ethereum), 3.44% APY, $4.6M TVL, https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token; convex-finance (Ethereum), 4.08% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token; curve-dex (Ethereum), 3.60% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token; convex-finance (Ethereum), 6.52% APY, $12.58M TVL, https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token; curve-dex (Ethereum), 3.44% APY, $16.71M TVL, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; curve-dex (Ethereum), 7.00% APY, $4.66M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; curve-dex (Ethereum), 8.19% APY, $6.22M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token; stake-dao-yield (Ethereum), 10.39% APY, $4.31M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRXUSD's lower-variability candidates are fraxlend (Ethereum), 3.44% APY, $4.6M TVL, https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token; convex-finance (Ethereum), 4.09% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token; curve-dex (Ethereum), 3.61% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token; convex-finance (Ethereum), 6.54% APY, $12.58M TVL, https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token; curve-dex (Ethereum), 3.48% APY, $16.71M TVL, https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token; curve-dex (Ethereum), 6.92% APY, $4.67M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token; curve-dex (Ethereum), 8.19% APY, $6.2M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token; stake-dao-yield (Ethereum), 10.30% APY, $4.3M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +85,4 @@ Based on APY history only, FRXUSD's lower-variability candidates are fraxlend (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

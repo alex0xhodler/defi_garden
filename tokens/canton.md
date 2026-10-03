@@ -1,12 +1,12 @@
 # CANTON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest CANTON yield right now is 0.32% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CANTON yield right now is 0.52% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d517903b-0e35-4b64-8914-2562dcf2f901&src=seo_token) | Base | 0.32% | $136.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d517903b-0e35-4b64-8914-2562dcf2f901&src=seo_token) | Base | 0.52% | $133.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CANTON yield today?
 
-0.32% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.52% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CANTON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.2K in total.
+1 live pool clear this page's $100K TVL floor, $133.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CANTON pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

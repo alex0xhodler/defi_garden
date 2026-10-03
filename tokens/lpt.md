@@ -1,12 +1,12 @@
 # LPT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest LPT yield right now is 17.58% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LPT yield right now is 48.30% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 17.58% | $317.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 48.30% | $320.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LPT yield today?
 
-17.58% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+48.30% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many LPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $317.8K in total.
+1 live pool clear this page's $100K TVL floor, $320.4K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LPT pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [ETH](https://www.defi.garden/tokens/eth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LPT pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,17 +1,17 @@
 # Monad 디파이 수익률
 
-현재 Monad의 가장 높은 정직한 수익률은 Monad의 accountable에서 11.84%이며, $100K TVL 기준을 넘는 163개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Monad의 가장 높은 정직한 수익률은 Monad의 accountable에서 11.82%이며, $100K TVL 기준을 넘는 165개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_chain) | 1.24% | $146.33M |
-| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.70% | $100.62M |
-| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 11.84% | $74.99M |
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_chain) | 1.02% | $69.68M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.68% | $65.88M |
-| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_chain) | 1.00% | $50.04M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 8.12% | $46.9M |
-| CBBTC | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f&src=seo_chain) | 5.15% | $43M |
+| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d&src=seo_chain) | 1.23% | $146.6M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.70% | $100.64M |
+| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 11.82% | $75M |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_chain) | 1.02% | $69.63M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.69% | $63.84M |
+| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 7.49% | $50.16M |
+| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_chain) | 1.00% | $49.88M |
+| CBBTC | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f&src=seo_chain) | 5.12% | $42.27M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Monad의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 11.84%예요.
+DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 11.82%예요.
 
 ### Monad 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 163개이며, 합산 TVL은 $1.39B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 165개이며, 합산 TVL은 $1.38B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,8 +45,8 @@ DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 11.84%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [AHYPER](https://www.defi.garden/ko/tokens/ahyper)
 - [HYPERUSDCA](https://www.defi.garden/ko/tokens/hyperusdca)
+- [AHYPER](https://www.defi.garden/ko/tokens/ahyper)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
-## 마지막 업데이트: October 2, 2026
+## 마지막 업데이트: October 3, 2026

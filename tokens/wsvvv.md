@@ -1,12 +1,12 @@
 # WSVVV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest WSVVV yield right now is 7.15% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSVVV yield right now is 6.99% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=0b793ce2-99bc-4f35-9678-3baf6fb1a7ef&src=seo_token) | Base | 7.15% | $312.9K |
+| [lagoon →](https://www.defi.garden/?pool=0b793ce2-99bc-4f35-9678-3baf6fb1a7ef&src=seo_token) | Base | 6.99% | $302K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WSVVV yield today?
 
-7.15% APY on lagoon (Base), based on live DefiLlama data.
+6.99% APY on lagoon (Base), based on live DefiLlama data.
 
 ### How many WSVVV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $312.9K in total.
+1 live pool clear this page's $100K TVL floor, $302K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WSVVV pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

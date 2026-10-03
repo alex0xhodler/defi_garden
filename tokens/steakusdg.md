@@ -1,12 +1,12 @@
 # STEAKUSDG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest STEAKUSDG yield right now is 7.02% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKUSDG yield right now is 7.08% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_token) | Robinhood Chain | 7.02% | $519.22M |
+| [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_token) | Robinhood Chain | 7.08% | $528.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STEAKUSDG yield today?
 
-7.02% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
+7.08% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
 
 ### How many STEAKUSDG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $519.22M in total.
+1 live pool clear this page's $100K TVL floor, $528.3M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank STEAKUSDG pools. This view co
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
 - [SPY](https://www.defi.garden/tokens/spy)
+- [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
 - [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

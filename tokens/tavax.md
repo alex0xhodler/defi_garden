@@ -1,38 +1,38 @@
 # TAVAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest TAVAX yield right now is 0.46% on treehouse-protocol (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAVAX yield right now is 0.83% on treehouse-protocol (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 0.46% | $9.73M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 0.24% | $234.9K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 0.83% | $9.55M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 0.23% | $231.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 0.46% APY, $9.73M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 0.24% APY, $234.9K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 0.83% APY, $9.55M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 0.23% APY, $231.1K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 0.46% | $9.73M |
-| 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 0.24% | $234.9K |
+| 1 | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 0.83% | $9.55M |
+| 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 0.23% | $231.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TAVAX shows up in 2 pools here, with rates from 0.24% to 0.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TAVAX shows up in 2 pools here, with rates from 0.23% to 0.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| treehouse-protocol | 0.46% | 2.15% | Base rate |
-| pharaoh-v3 | 0.24% | 1.70% | 100.00% incentives |
+| treehouse-protocol | 0.83% | 1.99% | Base rate |
+| pharaoh-v3 | 0.23% | 1.64% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TAVAX yield today?
 
-0.46% APY on treehouse-protocol (Avalanche), based on live DefiLlama data.
+0.83% APY on treehouse-protocol (Avalanche), based on live DefiLlama data.
 
 ### How many TAVAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.97M in total.
+2 live pools clear this page's $100K TVL floor, $9.78M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TAVAX pools have the most stable APY history?
 
-Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 0.46% APY, $9.73M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 0.24% APY, $234.9K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 0.83% APY, $9.55M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 0.23% APY, $231.1K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, TAVAX's lower-variability candidates are treehouse-pr
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

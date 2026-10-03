@@ -1,35 +1,35 @@
 # SUSG 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 3, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SUSG의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 23.15%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSG의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 38.09%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 17.04% | $944.7K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 22.53% | $835K |
-| [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 23.15% | $602.9K |
-| [pendle-v2 →](https://www.defi.garden/?pool=f1ec1da8-c5c9-59a3-bb32-18fda23e4b13&src=seo_token) | Ethereum | 11.55% | $105.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=10513344-8805-5ecc-a2af-aa6a74580321&src=seo_token) | Ethereum | 38.03% | $105.1K |
+| [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 16.91% | $955.9K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 22.15% | $846K |
+| [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 22.81% | $613.6K |
+| [pendle-v2 →](https://www.defi.garden/?pool=f1ec1da8-c5c9-59a3-bb32-18fda23e4b13&src=seo_token) | Ethereum | 12.66% | $105.2K |
+| [pendle-v2 →](https://www.defi.garden/?pool=10513344-8805-5ecc-a2af-aa6a74580321&src=seo_token) | Ethereum | 38.09% | $105.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSG의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 23.15%, TVL $602.9K, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; Ethereum의 curve-dex, APY 17.04%, TVL $944.7K, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; Ethereum의 stake-dao-yield, APY 22.53%, TVL $835K, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSG의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.81%, TVL $613.6K, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; Ethereum의 curve-dex, APY 16.91%, TVL $955.9K, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; Ethereum의 stake-dao-yield, APY 22.15%, TVL $846K, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 23.15% | $602.9K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 17.04% | $944.7K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 22.53% | $835K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token) | Ethereum | 22.81% | $613.6K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 16.91% | $955.9K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 22.15% | $846K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSG 풀은 여기 5개가 있고, 1개 체인에서 APY가 11.55%부터 38.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSG 풀은 여기 5개가 있고, 1개 체인에서 APY가 12.66%부터 38.09%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 24.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.93%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -37,11 +37,11 @@ SUSG 풀은 여기 5개가 있고, 1개 체인에서 APY가 11.55%부터 38.03%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 17.04% | 20.51% | 인센티브 47.49% |
-| stake-dao-yield | 22.53% | 24.21% | 인센티브 60.18% |
-| convex-finance | 23.15% | 24.36% | 인센티브 61.34% |
-| pendle-v2 | 11.55% | 10.80% | 기본 금리 |
-| pendle-v2 | 38.03% | 24.50% | 인센티브 5.30% |
+| curve-dex | 16.91% | 20.16% | 인센티브 46.79% |
+| stake-dao-yield | 22.15% | 23.93% | 인센티브 59.55% |
+| convex-finance | 22.81% | 24.19% | 인센티브 60.54% |
+| pendle-v2 | 12.66% | 11.09% | 기본 금리 |
+| pendle-v2 | 38.09% | 27.25% | 인센티브 6.29% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,11 +49,11 @@ SUSG 풀은 여기 5개가 있고, 1개 체인에서 APY가 11.55%부터 38.03%�
 
 ### 오늘 SUSG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 23.15%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 38.09%예요.
 
 ### SUSG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2.59M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2.63M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 23.15
 
 ### SUSG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSG의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 23.15%, TVL $602.9K, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; Ethereum의 curve-dex, APY 17.04%, TVL $944.7K, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; Ethereum의 stake-dao-yield, APY 22.53%, TVL $835K, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSG의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.81%, TVL $613.6K, https://www.defi.garden/?pool=2e7f1734-7a18-51f5-9179-359decd73dd0&src=seo_token; Ethereum의 curve-dex, APY 16.91%, TVL $955.9K, https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token; Ethereum의 stake-dao-yield, APY 22.15%, TVL $846K, https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -76,4 +76,4 @@ APY 이력만 기준으로 비교한 SUSG의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 2, 2026
+## 마지막 업데이트: October 3, 2026

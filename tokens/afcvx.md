@@ -1,12 +1,12 @@
 # AFCVX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest AFCVX yield right now is 0.01% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AFCVX yield right now is 5.66% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=0c4126ca-8dca-40b3-b5f3-0c48edd4638c&src=seo_token) | Ethereum | 0.01% | $131K |
+| [curve-dex →](https://www.defi.garden/?pool=0c4126ca-8dca-40b3-b5f3-0c48edd4638c&src=seo_token) | Ethereum | 5.66% | $125.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AFCVX yield today?
 
-0.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
+5.66% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many AFCVX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131K in total.
+1 live pool clear this page's $100K TVL floor, $125.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AFCVX pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # THAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest THAT yield right now is 1.58% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THAT yield right now is 11.51% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 1.58% | $228.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 11.51% | $226.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THAT yield today?
 
-1.58% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+11.51% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many THAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.9K in total.
+1 live pool clear this page's $100K TVL floor, $226.8K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank THAT pools. This view covers 
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [STKPOL](https://www.defi.garden/tokens/stkpol)
+- [SAND](https://www.defi.garden/tokens/sand)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

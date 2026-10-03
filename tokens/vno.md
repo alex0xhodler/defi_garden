@@ -1,12 +1,12 @@
 # VNO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest VNO yield right now is 0.08% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNO yield right now is 0.02% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.08% | $131.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4&src=seo_token) | Cronos | 0.02% | $126.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VNO yield today?
 
-0.08% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.02% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many VNO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.2K in total.
+1 live pool clear this page's $100K TVL floor, $126.9K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank VNO pools. This view covers A
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [LION](https://www.defi.garden/tokens/lion)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

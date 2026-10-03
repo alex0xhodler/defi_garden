@@ -1,12 +1,12 @@
 # CSETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest CSETH yield right now is 1.70% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fe26020c-d2fc-4524-822a-991ee1d658b5&src=seo_token) | Base | 1.70% | $108.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=fe26020c-d2fc-4524-822a-991ee1d658b5&src=seo_token) | Base | 1.70% | $106.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CSETH pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # VSUI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest VSUI yield right now is 1.10% on navi-lending (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VSUI yield right now is 1.08% on navi-lending (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_token) | Sui | 1.10% | $18.27M |
+| [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c&src=seo_token) | Sui | 1.08% | $18.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VSUI yield today?
 
-1.10% APY on navi-lending (Sui), based on live DefiLlama data.
+1.08% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many VSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $18.27M in total.
+1 live pool clear this page's $100K TVL floor, $18.2M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank VSUI pools. This view covers 
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
 - [SUI](https://www.defi.garden/tokens/sui)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # CAKE.XMR 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 3, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CAKE.XMR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CAKE.XMR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fad7412b-78ea-50e2-b3b2-1876dd7dba1e&src=seo_token) | Solana | 0.08% | $4.02M |
+| [raydium-amm →](https://www.defi.garden/?pool=fad7412b-78ea-50e2-b3b2-1876dd7dba1e&src=seo_token) | Solana | 0.13% | $4.02M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 CAKE.XMR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.08%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.13%예요.
 
 ### CAKE.XMR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.08%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 2, 2026
+## 마지막 업데이트: October 3, 2026

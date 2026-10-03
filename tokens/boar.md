@@ -1,12 +1,12 @@
 # BOAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest BOAR yield right now is 39.75% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3392b14e-3657-5dc5-874d-6cc76b063915&src=seo_token) | Base | 341.99% | $453.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3392b14e-3657-5dc5-874d-6cc76b063915&src=seo_token) | Base | 289.26% | $414.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=02fc9bc3-2352-5384-9ed8-12632bc0870d&src=seo_token) | Base | 39.75% | $174.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=917a2a56-dc0c-50ab-b2dc-94cd9de64dc9&src=seo_token) | Base | 35.79% | $112.9K |
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BOAR shows up in 3 pools here, with rates from 35.79% to 341.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOAR shows up in 3 pools here, with rates from 35.79% to 289.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 341.99% | — | Base rate |
+| uniswap-v4 | 289.26% | — | Base rate |
 | uniswap-v4 | 39.75% | 29.91% | Base rate |
 | uniswap-v4 | 35.79% | 26.59% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BOAR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $741K in total.
+3 live pools clear this page's $100K TVL floor, $702K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank BOAR pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

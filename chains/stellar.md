@@ -4,12 +4,12 @@ The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), amo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.61% | $536.79M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $25.49M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.59% | $12.13M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $4.47M |
-| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 0.16% | $142.8K |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.01% | $139.4K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.61% | $536.84M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $25.5M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.65% | $11.76M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $4.4M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.01% | $134.7K |
+| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 0.17% | $132.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stellar pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $734.4M in total.
+7 live pools clear this page's $100K TVL floor, $728.79M in total.
 
 ### Are these rates safe?
 
@@ -42,7 +42,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [EARNUSDC](https://www.defi.garden/tokens/earnusdc)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
-- [EURC](https://www.defi.garden/tokens/eurc)
 - [XLM](https://www.defi.garden/tokens/xlm)
+- [EURC](https://www.defi.garden/tokens/eurc)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

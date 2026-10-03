@@ -1,19 +1,19 @@
 # OKSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 2, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 3, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 OKSD의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 0.02%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OKSD의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 0.02%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=30b27d90-1b7c-501f-8ae0-bb74095631f3&src=seo_token) | Solana | 0.02% | $204.8K |
-| [orca-dex →](https://www.defi.garden/?pool=fe6a8a5e-61ff-504e-af97-14519f86c495&src=seo_token) | Solana | 0.01% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=0c9811bd-ddb2-569a-a1db-1e4fe61fb139&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=0d1702f9-7f82-5726-9d5e-345ebfcad64d&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=be8e7aa6-ca2d-56a6-9be2-fa79f651fc04&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=9b8fb8a2-776c-583b-a37b-8b268d0cd82e&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=213a2f97-8e3c-5381-a0ab-ca70451f4d5b&src=seo_token) | Solana | 0.02% | $204.8K |
 | [orca-dex →](https://www.defi.garden/?pool=8eebd1e8-8639-57f9-b624-c4733c14bbec&src=seo_token) | Solana | 0.02% | $204.8K |
+| [orca-dex →](https://www.defi.garden/?pool=8377b495-2c84-5836-b2d2-ba0d9fbd0282&src=seo_token) | Solana | 0.02% | $204.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -24,7 +24,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-OKSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 0.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+OKSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 0.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.02%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -35,7 +35,7 @@ OKSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 0.02%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | orca-dex | 0.02% | 0.02% | 기본 금리 |
-| orca-dex | 0.01% | 0.01% | 기본 금리 |
+| orca-dex | 0.02% | 0.02% | 기본 금리 |
 | orca-dex | 0.02% | 0.02% | 기본 금리 |
 | orca-dex | 0.02% | 0.02% | 기본 금리 |
 | orca-dex | 0.02% | 0.02% | 기본 금리 |
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.02%예요.
 
 ### OKSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $3.08M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $2.88M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -76,4 +76,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.02%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 2, 2026
+## 마지막 업데이트: October 3, 2026

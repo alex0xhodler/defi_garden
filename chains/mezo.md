@@ -4,11 +4,11 @@ The highest honest Mezo yield right now is 36.60% on mezo-earn (Mezo), among 5 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 2.79% | $69.6M |
+| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 2.83% | $68.5M |
 | SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 1.12% | $5.37M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 6.55% | $2.03M |
-| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 36.60% | $1.16M |
-| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 13.54% | $189.1K |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 6.55% | $2.04M |
+| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 36.60% | $1.17M |
+| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 13.54% | $186.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Mezo pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $78.36M in total.
+5 live pools clear this page's $100K TVL floor, $77.26M in total.
 
 ### Are these rates safe?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SMUSD](https://www.defi.garden/tokens/smusd)
 - [MEZO](https://www.defi.garden/tokens/mezo)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

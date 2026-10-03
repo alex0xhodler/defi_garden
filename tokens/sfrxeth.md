@@ -1,47 +1,47 @@
 # SFRXETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest SFRXETH yield right now is 3.27% on stake-dao-yield (Fraxtal), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFRXETH yield right now is 3.28% on stake-dao-yield (Fraxtal), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.51% | $102M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.47% | $2.86M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.27% | $417.8K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.47% | $325.8K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.47% | $309.3K |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.51% | $100.3M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.48% | $2.81M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.28% | $410.2K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $322.1K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $305.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFRXETH's lower-variability candidates are frax-ether (Ethereum), 2.51% APY, $102M TVL, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; stake-dao-yield (Fraxtal), 3.27% APY, $417.8K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; curve-dex (Fraxtal), 2.47% APY, $2.86M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 2.47% APY, $325.8K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.47% APY, $309.3K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFRXETH's lower-variability candidates are frax-ether (Ethereum), 2.51% APY, $100.3M TVL, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; stake-dao-yield (Fraxtal), 3.28% APY, $410.2K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; curve-dex (Fraxtal), 2.48% APY, $2.81M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 2.43% APY, $322.1K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.43% APY, $305.7K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.51% | $102M |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.27% | $417.8K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.47% | $2.86M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.47% | $325.8K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.47% | $309.3K |
+| 1 | [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.51% | $100.3M |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 3.28% | $410.2K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 2.48% | $2.81M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $322.1K |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $305.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFRXETH shows up in 5 pools here, with rates from 2.47% to 3.27% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFRXETH shows up in 5 pools here, with rates from 2.43% to 3.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 2.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 2.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax-ether | 2.51% | 2.60% | Base rate |
-| curve-dex | 2.47% | 2.77% | 37.68% incentives |
-| stake-dao-yield | 3.27% | 3.60% | 51.96% incentives |
-| curve-dex | 2.47% | 2.65% | Base rate |
-| convex-finance | 2.47% | 2.65% | Base rate |
+| frax-ether | 2.51% | 2.59% | Base rate |
+| curve-dex | 2.48% | 2.75% | 37.84% incentives |
+| stake-dao-yield | 3.28% | 3.58% | 52.06% incentives |
+| curve-dex | 2.43% | 2.54% | Base rate |
+| convex-finance | 2.43% | 2.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFRXETH yield today?
 
-3.27% APY on stake-dao-yield (Fraxtal), based on live DefiLlama data.
+3.28% APY on stake-dao-yield (Fraxtal), based on live DefiLlama data.
 
 ### How many SFRXETH pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $114.02M in total.
+9 live pools clear this page's $100K TVL floor, $112.13M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFRXETH pools have the most stable APY history?
 
-Based on APY history only, SFRXETH's lower-variability candidates are frax-ether (Ethereum), 2.51% APY, $102M TVL, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; stake-dao-yield (Fraxtal), 3.27% APY, $417.8K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; curve-dex (Fraxtal), 2.47% APY, $2.86M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 2.47% APY, $325.8K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.47% APY, $309.3K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFRXETH's lower-variability candidates are frax-ether (Ethereum), 2.51% APY, $100.3M TVL, https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token; stake-dao-yield (Fraxtal), 3.28% APY, $410.2K TVL, https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token; curve-dex (Fraxtal), 2.48% APY, $2.81M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 2.43% APY, $322.1K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.43% APY, $305.7K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, SFRXETH's lower-variability candidates are frax-ether
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

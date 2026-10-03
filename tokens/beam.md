@@ -1,12 +1,12 @@
 # BEAM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest BEAM yield right now is 6.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BEAM yield right now is 13.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 6.08% | $2.48M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 13.16% | $2.48M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BEAM yield today?
 
-6.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+13.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BEAM pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BEAM pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # WITRY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest WITRY yield right now is 33.65% on brix (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WITRY yield right now is 34.15% on brix (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [brix →](https://www.defi.garden/?pool=da8c4ac9-733d-4a98-85a5-83b76b7e84d1&src=seo_token) | Ethereum | 33.65% | $6.87M |
+| [brix →](https://www.defi.garden/?pool=da8c4ac9-733d-4a98-85a5-83b76b7e84d1&src=seo_token) | Ethereum | 34.15% | $6.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WITRY yield today?
 
-33.65% APY on brix (Ethereum), based on live DefiLlama data.
+34.15% APY on brix (Ethereum), based on live DefiLlama data.
 
 ### How many WITRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.87M in total.
+1 live pool clear this page's $100K TVL floor, $6.88M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WITRY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

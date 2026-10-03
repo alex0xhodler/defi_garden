@@ -1,35 +1,35 @@
 # IQ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest IQ yield right now is 0.03% on frax (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IQ yield right now is 0.02% on frax (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 2.49% | $2.07M |
-| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 37.93% | $531.5K |
-| [sushiswap →](https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token) | Ethereum | 1.48% | $140.8K |
-| [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.03% | $127.4K |
+| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 2.10% | $1.96M |
+| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 36.89% | $528.8K |
+| [sushiswap →](https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token) | Ethereum | 2.40% | $138.2K |
+| [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.02% | $127K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, IQ's lower-variability candidates are frax (Ethereum), 0.03% APY, $127.4K TVL, https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token; frax (Ethereum), 2.49% APY, $2.07M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; sushiswap (Ethereum), 1.48% APY, $140.8K TVL, https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token; curve-dex (Fraxtal), 37.93% APY, $531.5K TVL, https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IQ's lower-variability candidates are frax (Ethereum), 0.02% APY, $127K TVL, https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token; frax (Ethereum), 2.10% APY, $1.96M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; sushiswap (Ethereum), 2.40% APY, $138.2K TVL, https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token; curve-dex (Fraxtal), 36.89% APY, $528.8K TVL, https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.03% | $127.4K |
-| 2 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 2.49% | $2.07M |
-| 3 | [sushiswap →](https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token) | Ethereum | 1.48% | $140.8K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 37.93% | $531.5K |
+| 1 | [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.02% | $127K |
+| 2 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 2.10% | $1.96M |
+| 3 | [sushiswap →](https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token) | Ethereum | 2.40% | $138.2K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 36.89% | $528.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-IQ shows up in 4 pools here, with rates from 0.03% to 37.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+IQ shows up in 4 pools here, with rates from 0.02% to 36.89% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ IQ shows up in 4 pools here, with rates from 0.03% to 37.93% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 2.49% | 5.90% | Base rate |
-| curve-dex | 37.93% | 164.46% | 99.55% incentives |
-| sushiswap | 1.48% | 19.71% | Base rate |
-| frax | 0.03% | 0.15% | Base rate |
+| frax | 2.10% | 5.72% | Base rate |
+| curve-dex | 36.89% | 164.04% | 99.27% incentives |
+| sushiswap | 2.40% | 18.45% | Base rate |
+| frax | 0.02% | 0.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest IQ yield today?
 
-0.03% APY on frax (Ethereum), based on live DefiLlama data.
+0.02% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many IQ pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.14M in total.
+5 live pools clear this page's $100K TVL floor, $3.01M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IQ pools have the most stable APY history?
 
-Based on APY history only, IQ's lower-variability candidates are frax (Ethereum), 0.03% APY, $127.4K TVL, https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token; frax (Ethereum), 2.49% APY, $2.07M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; sushiswap (Ethereum), 1.48% APY, $140.8K TVL, https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token; curve-dex (Fraxtal), 37.93% APY, $531.5K TVL, https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IQ's lower-variability candidates are frax (Ethereum), 0.02% APY, $127K TVL, https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token; frax (Ethereum), 2.10% APY, $1.96M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token; sushiswap (Ethereum), 2.40% APY, $138.2K TVL, https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2&src=seo_token; curve-dex (Fraxtal), 36.89% APY, $528.8K TVL, https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, IQ's lower-variability candidates are frax (Ethereum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

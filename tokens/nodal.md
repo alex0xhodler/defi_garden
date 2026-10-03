@@ -1,12 +1,12 @@
 # NODAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest NODAL yield right now is 5.48% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NODAL yield right now is 1.76% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c6b076a2-d197-48cd-b15a-c6a1059cac50&src=seo_token) | Polygon | 5.48% | $495.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c6b076a2-d197-48cd-b15a-c6a1059cac50&src=seo_token) | Polygon | 1.76% | $493.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NODAL yield today?
 
-5.48% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+1.76% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many NODAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $495.7K in total.
+1 live pool clear this page's $100K TVL floor, $493.2K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank NODAL pools. This view covers
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [STKPOL](https://www.defi.garden/tokens/stkpol)
+- [SAND](https://www.defi.garden/tokens/sand)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

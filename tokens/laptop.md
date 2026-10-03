@@ -1,13 +1,13 @@
 # LAPTOP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest LAPTOP yield right now is 128.59% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAPTOP yield right now is 101.43% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7&src=seo_token) | Base | 128.59% | $1.26M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 0.01% | $315.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7&src=seo_token) | Base | 101.43% | $1.24M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60&src=seo_token) | Base | 0.35% | $314.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LAPTOP shows up in 2 pools here, with rates from 0.01% to 128.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LAPTOP shows up in 2 pools here, with rates from 0.35% to 101.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 592.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 568.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ LAPTOP shows up in 2 pools here, with rates from 0.01% to 128.59% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 128.59% | — | 40.69% incentives |
-| uniswap-v4 | 0.01% | 592.98% | Base rate |
+| aerodrome-slipstream | 101.43% | — | 54.35% incentives |
+| uniswap-v4 | 0.35% | 568.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LAPTOP yield today?
 
-128.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+101.43% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LAPTOP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.57M in total.
+2 live pools clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank LAPTOP pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

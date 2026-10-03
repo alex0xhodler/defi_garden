@@ -1,33 +1,33 @@
 # YNRWAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest YNRWAX yield right now is 6.53% on spectra-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNRWAX yield right now is 6.47% on spectra-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 0.08% | $216K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 0.13% | $202K |
-| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 6.53% | $107K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 0.29% | $235.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 0.17% | $215.7K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 6.47% | $107K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 6.53% APY, $107K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; curve-dex (Ethereum), 0.08% APY, $216K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao-yield (Ethereum), 0.13% APY, $202K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 6.47% APY, $107K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; curve-dex (Ethereum), 0.29% APY, $235.1K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao-yield (Ethereum), 0.17% APY, $215.7K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 6.53% | $107K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 0.08% | $216K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 0.13% | $202K |
+| 1 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 6.47% | $107K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 0.29% | $235.1K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 0.17% | $215.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YNRWAX shows up in 3 pools here, with rates from 0.08% to 6.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YNRWAX shows up in 3 pools here, with rates from 0.17% to 6.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.08% | 1.37% | Base rate |
-| stake-dao-yield | 0.13% | 2.26% | Base rate |
-| spectra-v2 | 6.53% | 6.74% | Base rate |
+| curve-dex | 0.29% | 1.35% | Base rate |
+| stake-dao-yield | 0.17% | 2.01% | Base rate |
+| spectra-v2 | 6.47% | 6.62% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YNRWAX yield today?
 
-6.53% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
+6.47% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many YNRWAX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $9.77M in total.
+4 live pools clear this page's $100K TVL floor, $9.8M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNRWAX pools have the most stable APY history?
 
-Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 6.53% APY, $107K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; curve-dex (Ethereum), 0.08% APY, $216K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao-yield (Ethereum), 0.13% APY, $202K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 (Ethereum), 6.47% APY, $107K TVL, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; curve-dex (Ethereum), 0.29% APY, $235.1K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao-yield (Ethereum), 0.17% APY, $215.7K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, YNRWAX's lower-variability candidates are spectra-v2 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

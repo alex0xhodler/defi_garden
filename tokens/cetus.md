@@ -1,33 +1,33 @@
 # CETUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest CETUS yield right now is 21.36% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CETUS yield right now is 24.86% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 21.36% | $940.7K |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 9.56% | $550.7K |
-| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.49% | $186.3K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 24.86% | $930.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 10.26% | $547.1K |
+| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.51% | $179K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CETUS's lower-variability candidates are navi-lending (Sui), 0.49% APY, $186.3K TVL, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; cetus-clmm (Sui), 21.36% APY, $940.7K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 9.56% APY, $550.7K TVL, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CETUS's lower-variability candidates are navi-lending (Sui), 0.51% APY, $179K TVL, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; cetus-clmm (Sui), 24.86% APY, $930.2K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 10.26% APY, $547.1K TVL, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.49% | $186.3K |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 21.36% | $940.7K |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 9.56% | $550.7K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.51% | $179K |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 24.86% | $930.2K |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 10.26% | $547.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CETUS shows up in 3 pools here, with rates from 0.49% to 21.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CETUS shows up in 3 pools here, with rates from 0.51% to 24.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ CETUS shows up in 3 pools here, with rates from 0.49% to 21.36% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| cetus-clmm | 21.36% | 29.00% | 20.39% incentives |
-| cetus-clmm | 9.56% | 12.18% | Base rate |
-| navi-lending | 0.49% | 0.48% | Base rate |
+| cetus-clmm | 24.86% | 29.04% | 17.49% incentives |
+| cetus-clmm | 10.26% | 12.32% | Base rate |
+| navi-lending | 0.51% | 0.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CETUS yield today?
 
-21.36% APY on cetus-clmm (Sui), based on live DefiLlama data.
+24.86% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many CETUS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.68M in total.
+3 live pools clear this page's $100K TVL floor, $1.66M in total.
 
 ### Are these rates safe?
 
@@ -57,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CETUS pools have the most stable APY history?
 
-Based on APY history only, CETUS's lower-variability candidates are navi-lending (Sui), 0.49% APY, $186.3K TVL, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; cetus-clmm (Sui), 21.36% APY, $940.7K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 9.56% APY, $550.7K TVL, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CETUS's lower-variability candidates are navi-lending (Sui), 0.51% APY, $179K TVL, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; cetus-clmm (Sui), 24.86% APY, $930.2K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 10.26% APY, $547.1K TVL, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
-- [HASUI](https://www.defi.garden/tokens/hasui)
 - [SUI](https://www.defi.garden/tokens/sui)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -30,4 +30,4 @@ We've been tracking this pool's rate for 30 days. Watching how a rate holds up o
 
 [Start Earning on alien-base-v3](https://alienbase.xyz/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

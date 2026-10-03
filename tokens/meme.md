@@ -1,12 +1,12 @@
 # MEME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest MEME yield right now is 3.28% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEME yield right now is 9.28% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 3.28% | $281.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 9.28% | $276.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEME yield today?
 
-3.28% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.28% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MEME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $281.1K in total.
+1 live pool clear this page's $100K TVL floor, $276.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MEME pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

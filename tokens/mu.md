@@ -1,12 +1,12 @@
 # MU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest MU yield right now is 58.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MU yield right now is 30.25% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=efb11d05-6231-5fc2-964f-50a8f9e2f42e&src=seo_token) | Solana | 58.44% | $1.28M |
+| [raydium-amm →](https://www.defi.garden/?pool=efb11d05-6231-5fc2-964f-50a8f9e2f42e&src=seo_token) | Solana | 30.25% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MU yield today?
 
-58.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+30.25% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MU pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MU pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

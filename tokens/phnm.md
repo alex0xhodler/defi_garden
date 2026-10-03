@@ -1,12 +1,12 @@
 # PHNM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest PHNM yield right now is 5.44% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PHNM yield right now is 5.55% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=59e747ce-207c-4998-ab92-78b5fa796e28&src=seo_token) | Base | 5.44% | $199.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=59e747ce-207c-4998-ab92-78b5fa796e28&src=seo_token) | Base | 5.55% | $200.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PHNM yield today?
 
-5.44% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+5.55% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many PHNM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.8K in total.
+1 live pool clear this page's $100K TVL floor, $200.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PHNM pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

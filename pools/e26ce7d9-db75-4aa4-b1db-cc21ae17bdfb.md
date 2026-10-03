@@ -2,11 +2,11 @@
 
 **Total APY:** 2.71% (2.71% Base · + 0.00% Rewards)
 
-**TVL:** $85.84M
+**TVL:** $76.38M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 2.55%
+**30d Mean APY:** 2.56%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on sparklend](https://spark.finance/?ref=defi.garden)
 
-Last updated October 2, 2026
+Last updated October 3, 2026

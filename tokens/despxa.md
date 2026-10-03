@@ -1,12 +1,12 @@
 # DESPXA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest DESPXA yield right now is 27.33% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DESPXA yield right now is 20.76% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 27.33% | $1.67M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 20.76% | $1.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DESPXA yield today?
 
-27.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
+20.76% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DESPXA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.67M in total.
+1 live pool clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DESPXA pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # MBRN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest MBRN yield right now is 3.63% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MBRN yield right now is 3.39% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19&src=seo_token) | Osmosis | 3.63% | $360.5K |
+| [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19&src=seo_token) | Osmosis | 3.39% | $285.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MBRN yield today?
 
-3.63% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+3.39% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many MBRN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $360.5K in total.
+1 live pool clear this page's $100K TVL floor, $285.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MBRN pools. This view covers 
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

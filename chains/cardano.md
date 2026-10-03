@@ -1,17 +1,17 @@
 # Cardano DeFi Yields
 
-The highest honest Cardano yield right now is 58.01% on minswap-dex (Cardano), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Cardano yield right now is 62.59% on minswap-dex (Cardano), among 37 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.95% | $5.84M |
-| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 27.90% | $1.61M |
-| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 3.86% | $1.58M |
-| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 20.54% | $1.04M |
-| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 26.93% | $812.8K |
+| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.97% | $5.6M |
+| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 28.75% | $1.84M |
+| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 4.07% | $1.53M |
+| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 23.28% | $974.6K |
 | ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 17.58% | $770.2K |
-| ADA-STRIKE | [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_chain) | 12.77% | $635.8K |
-| ADA-ASCEND | [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_chain) | 58.01% | $536.1K |
+| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 29.39% | $748.5K |
+| ADA-STRIKE | [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_chain) | 14.37% | $582.5K |
+| ADA-ASCEND | [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_chain) | 62.59% | $570.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Cardano yield today?
 
-58.01% APY on minswap-dex (Cardano), based on live DefiLlama data.
+62.59% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many Cardano pools clear the TVL floor?
 
-36 live pools clear this page's $100K TVL floor, $23.66M in total.
+37 live pools clear this page's $100K TVL floor, $23.38M in total.
 
 ### Are these rates safe?
 
@@ -32,11 +32,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Stacks](https://www.defi.garden/chains/stacks)
 - [MegaETH](https://www.defi.garden/chains/megaeth)
 - [Celo](https://www.defi.garden/chains/celo)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [Base](https://www.defi.garden/chains/base)
 
 ## Top tokens on Cardano
 
@@ -44,9 +44,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NIGHT](https://www.defi.garden/tokens/night)
 - [MIN](https://www.defi.garden/tokens/min)
 - [SNEK](https://www.defi.garden/tokens/snek)
-- [FLDT](https://www.defi.garden/tokens/fldt)
 - [USDA](https://www.defi.garden/tokens/usda)
+- [FLDT](https://www.defi.garden/tokens/fldt)
 - [STRIKE](https://www.defi.garden/tokens/strike)
 - [ASCEND](https://www.defi.garden/tokens/ascend)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

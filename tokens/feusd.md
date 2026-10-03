@@ -1,12 +1,12 @@
 # FEUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest FEUSD yield right now is 0.03% on hyperswap-v3 (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026&src=seo_token) | Hyperliquid L1 | 0.03% | $323.7K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026&src=seo_token) | Hyperliquid L1 | 0.03% | $318.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank FEUSD pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

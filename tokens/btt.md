@@ -1,31 +1,31 @@
 # BTT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest BTT yield right now is 0.05% on justlend-v1 (Tron), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.05% | $1.16M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.02% | $293.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.56% | $291.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BTT's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $293.8K TVL, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; justlend-v1 (Tron), 0.05% APY, $1.16M TVL, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTT's lower-variability candidates are uniswap-v2 (Ethereum), 0.56% APY, $291.3K TVL, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; justlend-v1 (Tron), 0.05% APY, $1.16M TVL, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.02% | $293.8K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.56% | $291.3K |
 | 2 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.05% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BTT shows up in 2 pools here, with rates from 0.02% to 0.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BTT shows up in 2 pools here, with rates from 0.05% to 0.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| justlend-v1 | 0.05% | 0.10% | Base rate |
-| uniswap-v2 | 0.02% | 1.23% | Base rate |
+| justlend-v1 | 0.05% | 0.09% | Base rate |
+| uniswap-v2 | 0.56% | 1.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BTT pools have the most stable APY history?
 
-Based on APY history only, BTT's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $293.8K TVL, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; justlend-v1 (Tron), 0.05% APY, $1.16M TVL, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTT's lower-variability candidates are uniswap-v2 (Ethereum), 0.56% APY, $291.3K TVL, https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token; justlend-v1 (Tron), 0.05% APY, $1.16M TVL, https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, BTT's lower-variability candidates are uniswap-v2 (Et
 - [Tron](https://www.defi.garden/chains/tron)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

@@ -1,12 +1,12 @@
 # DAMMETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest DAMMETH yield right now is 2.24% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=a853c219-b219-466a-9874-96cd77206d0f&src=seo_token) | Ethereum | 2.24% | $4.18M |
+| [lagoon →](https://www.defi.garden/?pool=a853c219-b219-466a-9874-96cd77206d0f&src=seo_token) | Ethereum | 2.24% | $4.1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.18M in total.
+1 live pool clear this page's $100K TVL floor, $4.1M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DAMMETH pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

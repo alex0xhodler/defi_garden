@@ -1,6 +1,6 @@
 # AMAPT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
 The highest honest AMAPT yield right now is 4.80% on hyperion (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank AMAPT pools. This view covers
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
-- [STAPT](https://www.defi.garden/tokens/stapt)
+- [ABTC](https://www.defi.garden/tokens/abtc)
 
 ## Available on
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

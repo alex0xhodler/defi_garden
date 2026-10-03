@@ -1,12 +1,12 @@
 # NB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest NB yield right now is 15.56% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NB yield right now is 32.70% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0&src=seo_token) | BSC | 15.56% | $101.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0&src=seo_token) | BSC | 32.70% | $102.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NB yield today?
 
-15.56% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+32.70% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many NB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.7K in total.
+1 live pool clear this page's $100K TVL floor, $102.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NB pools. This view covers AP
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

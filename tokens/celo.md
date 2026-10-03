@@ -1,31 +1,31 @@
 # CELO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest CELO yield right now is 9.97% on uniswap-v3 (Celo), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CELO yield right now is 7.87% on uniswap-v3 (Celo), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $489.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 9.97% | $213.3K |
-| [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $111.5K |
+| [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $494.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 7.87% | $214.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $112.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CELO's lower-variability candidates are aave-v3 (Celo), 0.28% APY, $111.5K TVL, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; moola-market (Celo), 0.01% APY, $489.7K TVL, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; uniswap-v3 (Celo), 9.97% APY, $213.3K TVL, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CELO's lower-variability candidates are aave-v3 (Celo), 0.28% APY, $112.6K TVL, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; moola-market (Celo), 0.01% APY, $494.8K TVL, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; uniswap-v3 (Celo), 7.87% APY, $214.1K TVL, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $111.5K |
-| 2 | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $489.7K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 9.97% | $213.3K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token) | Celo | 0.28% | $112.6K |
+| 2 | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token) | Celo | 0.01% | $494.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token) | Celo | 7.87% | $214.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CELO shows up in 3 pools here, with rates from 0.01% to 9.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CELO shows up in 3 pools here, with rates from 0.01% to 7.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,8 +35,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moola-market | 0.01% | 0.19% | Base rate |
-| uniswap-v3 | 9.97% | 8.62% | Base rate |
+| moola-market | 0.01% | 0.18% | Base rate |
+| uniswap-v3 | 7.87% | 8.61% | Base rate |
 | aave-v3 | 0.28% | 0.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CELO yield today?
 
-9.97% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+7.87% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CELO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.62M in total.
+4 live pools clear this page's $100K TVL floor, $2.64M in total.
 
 ### Are these rates safe?
 
@@ -57,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CELO pools have the most stable APY history?
 
-Based on APY history only, CELO's lower-variability candidates are aave-v3 (Celo), 0.28% APY, $111.5K TVL, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; moola-market (Celo), 0.01% APY, $489.7K TVL, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; uniswap-v3 (Celo), 9.97% APY, $213.3K TVL, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CELO's lower-variability candidates are aave-v3 (Celo), 0.28% APY, $112.6K TVL, https://www.defi.garden/?pool=f1566cad-5e54-4ecf-952f-649e5d2f4bbd&src=seo_token; moola-market (Celo), 0.01% APY, $494.8K TVL, https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4&src=seo_token; uniswap-v3 (Celo), 7.87% APY, $214.1K TVL, https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [USAT](https://www.defi.garden/tokens/usat)
 - [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [CNGN](https://www.defi.garden/tokens/cngn)
-- [CEUR](https://www.defi.garden/tokens/ceur)
-- [CGBP](https://www.defi.garden/tokens/cgbp)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

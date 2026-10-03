@@ -1,12 +1,12 @@
 # HIVE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest HIVE yield right now is 7.84% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIVE yield right now is 4.85% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0a543166-3001-4158-89ee-cfc20bd51aa4&src=seo_token) | Base | 7.84% | $159.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0a543166-3001-4158-89ee-cfc20bd51aa4&src=seo_token) | Base | 4.85% | $159.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIVE yield today?
 
-7.84% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.85% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many HIVE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.5K in total.
+1 live pool clear this page's $100K TVL floor, $159.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HIVE pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

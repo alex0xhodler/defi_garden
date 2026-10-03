@@ -1,32 +1,32 @@
 # ARC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest ARC yield right now is 134.15% on uniswap-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARC yield right now is 130.06% on uniswap-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 8.83% | $5.16M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f052fa19-c3a5-503b-b38f-4636a1ac0a3b&src=seo_token) | Base | 134.15% | $171.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token) | Ethereum | 5.99% | $140.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 9.85% | $4.94M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f052fa19-c3a5-503b-b38f-4636a1ac0a3b&src=seo_token) | Base | 130.06% | $181.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token) | Ethereum | 5.42% | $131.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v2 (Ethereum), 5.99% APY, $140.3K TVL, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token; raydium-amm (Solana), 8.83% APY, $5.16M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARC's lower-variability candidates are uniswap-v2 (Ethereum), 5.42% APY, $131.7K TVL, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token; raydium-amm (Solana), 9.85% APY, $4.94M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token) | Ethereum | 5.99% | $140.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 8.83% | $5.16M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token) | Ethereum | 5.42% | $131.7K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 9.85% | $4.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ARC shows up in 3 pools here, with rates from 5.99% to 134.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ARC shows up in 3 pools here, with rates from 5.42% to 130.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.83% | 13.33% | Base rate |
-| uniswap-v2 | 134.15% | 161.71% | Base rate |
-| uniswap-v2 | 5.99% | 9.77% | Base rate |
+| raydium-amm | 9.85% | 13.27% | Base rate |
+| uniswap-v2 | 130.06% | 157.95% | Base rate |
+| uniswap-v2 | 5.42% | 9.98% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ARC yield today?
 
-134.15% APY on uniswap-v2 (Base), based on live DefiLlama data.
+130.06% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ARC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.95M in total.
+4 live pools clear this page's $100K TVL floor, $5.73M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ARC pools have the most stable APY history?
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v2 (Ethereum), 5.99% APY, $140.3K TVL, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token; raydium-amm (Solana), 8.83% APY, $5.16M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ARC's lower-variability candidates are uniswap-v2 (Ethereum), 5.42% APY, $131.7K TVL, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826&src=seo_token; raydium-amm (Solana), 9.85% APY, $4.94M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, ARC's lower-variability candidates are uniswap-v2 (Et
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026

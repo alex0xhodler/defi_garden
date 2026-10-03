@@ -1,12 +1,12 @@
 # RE7HONEY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 2, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
 
-The highest honest RE7HONEY yield right now is 9.89% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7HONEY yield right now is 9.40% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 9.89% | $5.73M |
+| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 9.40% | $5.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7HONEY yield today?
 
-9.89% APY on berapaw (Berachain), based on live DefiLlama data.
+9.40% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many RE7HONEY pools clear the TVL floor?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank RE7HONEY pools. This view cov
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [IBERA](https://www.defi.garden/tokens/ibera)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [HONEY](https://www.defi.garden/tokens/honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 2, 2026
+## Last updated October 3, 2026
