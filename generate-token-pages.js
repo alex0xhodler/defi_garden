@@ -440,7 +440,7 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
   const networkLabel = symbol ? `${symbol.toUpperCase()} · BASE RAIL` : 'YIELD-FUNDED · BASE';
   const lasoReferralUrl = 'https://laso.finance?ref=lmretyujvzr9jiutxi4d';
 
-  const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col">
+  const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col" aria-hidden="true" data-nosnippet>
         <div class="virtual-visa-card" data-card-tilt="true">
           <div class="visa-card-top-row">
             <div class="visa-card-chip-group">
@@ -474,7 +474,7 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
             <div class="visa-card-meta-right">
               <div class="visa-card-hologram" aria-hidden="true"></div>
               <div class="visa-card-cap-badge">
-                <span>🟢 100% PRINCIPAL INTACT</span>
+                <span>YIELD-FUNDED</span>
               </div>
             </div>
           </div>
