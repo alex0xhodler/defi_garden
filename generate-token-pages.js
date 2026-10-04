@@ -1040,8 +1040,11 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}   
  * separator arithmetic. */
 function withSrc(url, src) {
   if (!src) return url;
-  const sep = url.includes('?') ? '&' : '?';
-  return `${url}${sep}src=${encodeURIComponent(src)}`;
+  // N2 (seo-turnaround): src= moved from query string to URL fragment.
+  // Crawlers ignore #fragments, so this stops creating ~11,698 "alternate
+  // with proper canonical" duplicate URLs in Google's index. analytics.js
+  // reads location.hash to recover the attribution tag.
+  return `${url}#src=${encodeURIComponent(src)}`;
 }
 
 /** Resolves the same pool-detail (or fallback) URL a visible table row links

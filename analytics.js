@@ -121,6 +121,16 @@ const Analytics = {
         const v = params.get(k);
         if (v) out[k] = String(v).substring(0, 200); // cap length (privacy/safety)
       });
+      // N2 (seo-turnaround): src= now lives in the URL fragment (#src=seo_token)
+      // to avoid creating duplicate URLs for crawlers. Read from hash if not
+      // already found in the query string (backward compat with old ?src= links).
+      if (!out.src && window.location.hash) {
+        try {
+          const hashParams = new URLSearchParams(window.location.hash.substring(1));
+          const hashSrc = hashParams.get('src');
+          if (hashSrc) out.src = String(hashSrc).substring(0, 200);
+        } catch (e) {}
+      }
       if (document.referrer) {
         try {
           const refHost = new URL(document.referrer).hostname;
