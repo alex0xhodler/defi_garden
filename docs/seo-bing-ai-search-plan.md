@@ -201,6 +201,44 @@ After:  {TOKEN} Yield: Best Rates Today — {N} Live Pools Compared | DeFi Garde
 
 **Low.** All changes are title/description/schema/template-level. No functional code, no trust-rail changes, no URL changes. The generator pipeline is well-tested and the regeneration process is routine (already runs on daily sitemap cron).
 
+---
+
+## D3 Analysis: GSC Page Indexing Report (added 2026-10-04)
+
+### Index Health Snapshot
+
+| Status | Pages | % of total |
+|--------|------:|----------:|
+| **Indexed** | 4,597 | 25.3% |
+| Crawled — not indexed | 5,547 | 30.5% |
+| Soft 404 | 2,832 | 15.6% |
+| Alternate w/ proper canonical | 1,961 | 10.8% |
+| Discovered — not indexed | 1,671 | 9.2% |
+| Google chose different canonical | 607 | 3.3% |
+| Page with redirect | 619 | 3.4% |
+| Excluded by noindex | 331 | 1.8% |
+| Not found (404) | 14 | 0.1% |
+| **Total known** | **18,185** | 100% |
+
+### Spam Update Verdict: NOT HIT
+
+Indexed count has **grown** from 3,191 → 4,597 (+44%) since Aug 15. No collapse after any spam update window:
+- Jun 24–26 update: first data is Jul 10 at 3,274 indexed (baseline)
+- Aug 18–20 update: indexed jumped from 3,191 → 4,058 (+867) — a **recovery**, not a hit
+- Sep 24 update (still rolling): Sep 19 shows 4,597 indexed (+92 from Sep 15), stable
+
+**Conclusion: safe to proceed with Phase 1 (LH title rewrites) after ~Oct 8.** The plan's "if impressions dropped, pause" gate is CLEAR.
+
+### The 2,832 Soft 404 Problem — CONFIRMED
+
+Token pages with exactly 1 qualifying pool: **1,408** EN × 2 (with KO) = **2,816**. Google's soft-404 count is **2,832**. Near-perfect match. Google is classifying 1-pool token pages as empty/thin.
+
+Our commit 1 (`NOINDEX_POOL_THRESHOLD = 3`) would noindex **3,494** pages (1,747 tokens × 2 languages), covering all 2,832 soft 404s plus the 2-pool pages that are borderline. This validates the D1 decision.
+
+### Crawl Budget Waste
+
+**8,379 pages** (46% of all known URLs) are either soft-404 or crawled-not-indexed. These consume crawl budget without producing any ranking value. The noindex + regeneration will signal Google to stop recrawling them.
+
 ## Data Files (for reference)
 
 - Bing AI: `/Users/0xhodler/Downloads/defi.garden_AISearchQueriesReport_10_4_2026.csv`
