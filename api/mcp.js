@@ -162,11 +162,132 @@ const MCP_TOOLS = [
       type: "object",
       properties: {}
     }
+  },
+  {
+    name: "get_pool_score",
+    description: "Retrieve institutional quantitative risk score (DeFi Score 0-100), 4-pillar breakdown, 14-day probabilistic APY forecast bands (p10/p50/p90), and retail access restrictions for any liquidity pool across 30+ chains.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        pool_id: {
+          type: "string",
+          description: "DefiLlama pool UUID (e.g. 'de3ec726-7018-4aad-8de1-8e7c6bca1059') or asset search query"
+        },
+        asset: {
+          type: "string",
+          description: "Optional asset symbol to query if pool_id is unknown (e.g. 'USDC', 'ETH')"
+        },
+        chain: {
+          type: "string",
+          description: "Optional blockchain filter (e.g. 'Base', 'Ethereum', 'Polygon')"
+        }
+      }
+    }
   }
 ];
 
+// Lazy load pools snapshot for quantitative scoring queries
+let _cachedPools = null;
+function getPoolsSnapshot() {
+  if (_cachedPools) return _cachedPools;
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const snapshotPath = path.join(__dirname, '../data/pools-snapshot.json');
+    if (fs.existsSync(snapshotPath)) {
+      const raw = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
+      _cachedPools = raw.pools || raw.data || [];
+      return _cachedPools;
+    }
+  } catch (e) {}
+  return [];
+}
+
+const PERMISSIONED_PROJECT_LIST = new Set([
+  'blackrock-buidl',
+  'ondo-yield-assets',
+  'invesco-ustb',
+  'circle-usyc',
+  'superstate',
+  'hashnote',
+  'centrifuge-protocol'
+]);
+
 function handleToolCall(name, args) {
   args = args || {};
+
+  if (name === "get_pool_score") {
+    const allPools = getPoolsSnapshot();
+    let pool = null;
+
+    if (args.pool_id) {
+      const pid = String(args.pool_id).trim().toLowerCase();
+      pool = allPools.find(p => p.pool && p.pool.toLowerCase() === pid);
+    }
+
+    if (!pool && (args.asset || args.chain)) {
+      const asset = args.asset ? String(args.asset).toUpperCase() : null;
+      const chain = args.chain ? String(args.chain).toLowerCase() : null;
+
+      const candidates = allPools.filter(p => {
+        if (asset && !(p.symbol || '').toUpperCase().includes(asset)) return false;
+        if (chain && (p.chain || '').toLowerCase() !== chain) return false;
+        return true;
+      }).sort((a, b) => {
+        const scA = a.defiScore && typeof a.defiScore.score === 'number' ? a.defiScore.score : 0;
+        const scB = b.defiScore && typeof b.defiScore.score === 'number' ? b.defiScore.score : 0;
+        return scB - scA;
+      });
+
+      if (candidates.length > 0) pool = candidates[0];
+    }
+
+    if (!pool) {
+      return {
+        found: false,
+        error: "Pool not found matching the criteria. Provide a valid pool_id UUID or asset/chain combination."
+      };
+    }
+
+    const isRestricted = PERMISSIONED_PROJECT_LIST.has((pool.project || '').toLowerCase());
+    const totalApy = ((pool.apyBase || 0) + (pool.apyReward || 0));
+
+    return {
+      found: true,
+      pool_id: pool.pool,
+      symbol: pool.symbol,
+      project: pool.project,
+      chain: pool.chain,
+      tvl_usd: pool.tvlUsd,
+      current_apy: {
+        total: totalApy,
+        base: pool.apyBase || 0,
+        reward: pool.apyReward || 0
+      },
+      access_restriction: {
+        is_restricted: isRestricted,
+        status: isRestricted ? "PERMISSIONED / ACCREDITED ONLY (KYC)" : "PERMISSIONLESS / RETAIL ACCESSIBLE"
+      },
+      defi_score: pool.defiScore ? {
+        score: pool.defiScore.score,
+        rating: pool.defiScore.rating,
+        breakdown: pool.defiScore.breakdown
+      } : null,
+      forecast: pool.forecast ? {
+        horizon_days: pool.forecast.horizonDays,
+        p10_apy: pool.forecast.p10,
+        p50_apy: pool.forecast.p50,
+        p90_apy: pool.forecast.p90,
+        crash_risk: pool.forecast.crashRisk,
+        forward_delta: pool.forecast.forwardDelta
+      } : null,
+      trust_rails: {
+        clears_tvl_floor: (pool.tvlUsd || 0) >= TRUST_RAILS.min_tvl_usd,
+        clears_sanity_limit: totalApy <= TRUST_RAILS.apy_sanity_limit_percent
+      }
+    };
+  }
+
   if (name === "get_trust_rails") {
     return {
       trust_rails: TRUST_RAILS,
