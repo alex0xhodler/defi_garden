@@ -603,7 +603,20 @@ function buildAgentEndpointsSection(meta) {
   const baseUrl = String(meta.baseUrl).replace(/\/+$/, '');
   const absoluteUrl = relativePath =>
     `${baseUrl}/${String(relativePath).replace(/^\/+/, '')}`;
-  const lines = ['## API & MCP'];
+  const lines = [];
+
+  // LH8 (seo-turnaround): Underwriting & Predictive Scoring Section
+  lines.push('## Predictive Underwriting & DeFi Score');
+  lines.push(
+    'TL;DR: Quantitative risk scoring (DeFi Score 0-100) and 14-day forward yield forecasts ' +
+    'for 7,400+ liquidity venues across 30+ chains, updated daily.'
+  );
+  lines.push('- Methodology: 4 objective pillars — Yield Stability (35%), Fee Sustainability (25%), Capital Stickiness (25%), and Liquidity Depth (15%).');
+  lines.push('- 14-day forecast bands: probabilistic p10/p50/p90 yield bands identifying yield decay before capital is deployed.');
+  lines.push('- Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.');
+  lines.push('');
+
+  lines.push('## API & MCP');
 
   API_ENDPOINTS.forEach(endpoint => {
     lines.push(`- API route: ${endpoint.method} ${absoluteUrl(endpoint.path)}`);
