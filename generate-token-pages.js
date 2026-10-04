@@ -1519,6 +1519,72 @@ ${t('tcpDepthNote', formatUsd(MIN_POOL_TVL))}
 
 `;
 }
+// --- LH3 (seo-turnaround): Top 5 by DeFi Score table -----------------------
+/**
+ * Renders an accessible, quantitative "Top Pools by DeFi Score" section.
+ * Filters out permissioned pools (BUIDL/USDY etc) and pools without valid scores.
+ * Ranks strictly by defiScore.score descending.
+ */
+function renderTopScoredPoolsHtml(pools, appUrl, language, t, subjectLabel, isChain = false) {
+  if (!pools || !pools.length) return '';
+  const accessibleScored = pools
+    .filter(p => !isPermissionedPool(p))
+    .filter(p => p.defiScore && typeof p.defiScore.score === 'number' && p.defiScore.score > 0)
+    .sort((a, b) => b.defiScore.score - a.defiScore.score)
+    .slice(0, 5);
+
+  if (accessibleScored.length === 0) return '';
+
+  const heading = language === 'ko'
+    ? `${subjectLabel} 리스크 평가 최고 등급 풀 (DeFi Score)`
+    : `Top ${subjectLabel} Yields by DeFi Score (Lowest Risk)`;
+  const subhead = language === 'ko'
+    ? `수익 안정성(35%), 수수료 지속가능성(25%), 자금 고착도(25%), 유동성 깊이(15%) 기준 상위 5개 풀입니다. 누구나 접근 가능한 공개 풀만 포함됩니다.`
+    : `Top 5 retail-accessible pools ranked by quantitative stability (35%), fee sustainability (25%), capital stickiness (25%), and liquidity depth (15%). No permissioned or accredited-only vaults.`;
+
+  const rows = accessibleScored.map(p => {
+    const poolHref = poolHrefFor(p, appUrl, isChain ? 'seo_chain' : 'seo_token');
+    const score = Math.round(p.defiScore.score);
+    const rating = escapeHtml(p.defiScore.rating || 'A');
+    const firstCol = isChain ? escapeHtml(p.symbol || '—') : `<a class="tp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')} →</a>`;
+    const secondCol = isChain ? `<a class="cp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')} →</a>` : escapeHtml(p.chain || '—');
+
+    return `        <tr>
+          <td>${firstCol}</td>
+          <td>${secondCol}</td>
+          <td><span class="pool-score-chip">DeFi Score <strong>${score}</strong> (${rating})</span></td>
+          <td class="num">${formatApy(poolTotalApy(p))}</td>
+          <td class="num">${formatUsd(p.tvlUsd)}</td>
+        </tr>`;
+  }).join('\n');
+
+  const col1 = isChain ? (t('tcpColToken') || 'Token') : (t('tcpColProtocol') || 'Protocol');
+  const col2 = isChain ? (t('tcpColProtocol') || 'Protocol') : (t('tcpColChain') || 'Chain');
+
+  return `    <section class="top-scored-section">
+      <h2 style="font-size:1.15rem; margin:24px 0 6px; color:var(--ui-text);">${escapeHtml(heading)}</h2>
+      <p style="color:var(--ui-text-secondary); font-size:0.9rem; margin:0 0 14px; line-height:1.5;">${escapeHtml(subhead)}</p>
+      <div class="${isChain ? 'cp-card' : 'tp-card'}" style="margin: 10px 0 24px;">
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>${escapeHtml(col1)}</th>
+                <th>${escapeHtml(col2)}</th>
+                <th>DeFi Score</th>
+                <th class="num">${escapeHtml(t('tcpColApy') || 'APY')}</th>
+                <th class="num">${escapeHtml(t('tcpColTvl') || 'TVL')}</th>
+              </tr>
+            </thead>
+            <tbody>
+${rows}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>\n`;
+}
+
 // --- Tier-1 head token helpers (Step 4 upgrade) -----------------------------
 function resolveTranslation(t, language, key, fallbackEn, fallbackKo, ...params) {
   const res = t(key, ...params);
@@ -1526,16 +1592,16 @@ function resolveTranslation(t, language, key, fallbackEn, fallbackKo, ...params)
   return language === 'ko' ? fallbackKo : fallbackEn;
 }
 
-function tokenPageTitle(rec, language, t) {
+function tokenPageTitle(rec, language, t, dateStr) {
   if (HEAD_TOKENS.has(rec.symbol.toUpperCase())) {
     const countStr = formatCount(rec.qualifyingCount);
-    const translated = t('tokenHeadTitle', rec.symbol, countStr);
+    const translated = t('tokenHeadTitle', rec.symbol, countStr, dateStr);
     if (translated && translated !== 'tokenHeadTitle') {
       return translated;
     }
     return language === 'ko'
-      ? `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden 🌱`
-      : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden 🌱`;
+      ? (dateStr ? `최고의 ${rec.symbol} 수익률 (${dateStr}) — ${countStr}개 풀 위험도순 비교 | DeFi Garden` : `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden`)
+      : (dateStr ? `Best ${rec.symbol} Yields (${dateStr}) — ${countStr} Pools Ranked by Risk | DeFi Garden` : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden`);
   }
   return t('tcpTokenTitle', rec.symbol);
 }
@@ -1638,7 +1704,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // and produced wrong numbers (e.g. "3 chains" for USDC which spans 42+).
   const chainCount = rec.qualifyingChainCount || new Set(rec.pools.map(p => p.chain)).size;
   const isHeadToken = HEAD_TOKENS.has(rec.symbol.toUpperCase());
-  const title = tokenPageTitle(rec, language, t);
+  const now = new Date();
+  const dateStr = language === 'ko'
+    ? `${now.getFullYear()}년 ${now.getMonth() + 1}월`
+    : `${now.toLocaleString('en-US', { month: 'short' })} ${now.getFullYear()}`;
+  const title = tokenPageTitle(rec, language, t, dateStr);
   const updatedText = resolveTranslation(t, language, 'tokenUpdated',
     `Pool data verified from DefiLlama at generation time: ${genDate}. Rates change continuously.`,
     `DefiLlama 데이터 생성 시점 검증: ${genDate}. 수익률은 지속적으로 변동합니다.`,
@@ -1733,6 +1803,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // identical). The rate-stability block above is independent of this gate.
   const isHead = !!(opts && opts.isHead);
   const depthBlock = isHead ? renderRateBehaviourHtml(rateBehaviourFor(rec), rec.symbol, t) : '';
+
+  // LH3: Top 5 by DeFi Score table for head tokens (the honest justification for "Best")
+  const topScoredBlock = isHead
+    ? renderTopScoredPoolsHtml(rec.pools, appUrl, language, t, rec.symbol, false)
+    : '';
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -1839,7 +1914,7 @@ ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCoun
     <p class="tp-updated">${escapeHtml(updatedText)}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="tp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
-    <div class="tp-card">
+${topScoredBlock}    <div class="tp-card">
     <div class="scroll">
     <table>
       <thead>
@@ -2174,7 +2249,7 @@ module.exports = {
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, NOINDEX_POOL_THRESHOLD, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
   PERMISSIONED_PROJECTS, isPermissionedPool,
   REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
-  headlinePoolFor
+  headlinePoolFor, renderTopScoredPoolsHtml
 };
 
 if (require.main === module) {

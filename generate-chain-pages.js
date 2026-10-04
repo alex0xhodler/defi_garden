@@ -51,7 +51,7 @@ const {
   yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
   // item 243: reuse 242's headline-selection gate — no local definition.
   headlinePoolFor, isRepresentativeRate,
-  isPermissionedPool
+  isPermissionedPool, renderTopScoredPoolsHtml
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -175,7 +175,11 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const headlinePool = headlinePoolFor(rec.pools);
   const bestApy = poolTotalApy(headlinePool);
   const tokenCount = rec.tokens.length;
-  const title = t('tcpChainTitle', rec.chain);
+  const now = new Date();
+  const dateStr = language === 'ko'
+    ? `${now.getFullYear()}년 ${now.getMonth() + 1}월`
+    : `${now.toLocaleString('en-US', { month: 'short' })} ${now.getFullYear()}`;
+  const title = t('tcpChainTitle', rec.chain, dateStr);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
   // re-typed literal. One formatted value, reused by every t(...) call below.
   const floorStr = formatUsd(MIN_POOL_TVL);
@@ -252,6 +256,9 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
   const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchChain', rec.chain), 'cp', 'seo_chain', t);
+
+  // LH3: Top 5 by DeFi Score table for chain pages
+  const topScoredBlock = renderTopScoredPoolsHtml(rec.pools, appUrl, language, t, rec.chain, true);
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -344,7 +351,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="cp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
-    <div class="cp-card">
+${topScoredBlock}    <div class="cp-card">
     <div class="scroll">
     <table>
       <thead>
