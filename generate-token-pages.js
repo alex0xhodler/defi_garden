@@ -63,8 +63,31 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
 const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
+const NOINDEX_POOL_THRESHOLD = 3; // D1: tokens with fewer qualifying pools get noindex,follow
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
+
+// D2 (seo-turnaround): permissioned/restricted projects whose pools retail
+// users typically cannot access (KYC/accredited-investor/geo-restricted).
+// These pools are still DISPLAYED in the table (they're real, legitimate
+// yields) but are never chosen as the HEADLINE pool by headlinePoolFor —
+// a page titled "Best USDC Yields" must not lead with a pool the reader
+// can't buy. Maintained manually; add projects as they're identified.
+const PERMISSIONED_PROJECTS = new Set([
+  'blackrock-buidl',   // qualified purchasers only
+  'ondo-yield-assets', // USDY — not offered to US persons
+  'invesco-ustb',      // institutional / accredited investors
+  'circle-usyc',       // USYC — qualified purchasers
+  'superstate',        // USTB — qualified purchasers
+  'hashnote',          // USYC — qualified purchasers
+  'centrifuge-protocol' // RWA — accredited investors for some pools
+]);
+
+/** Returns true if a pool belongs to a permissioned/restricted project
+ *  that retail users typically cannot access. */
+function isPermissionedPool(p) {
+  return PERMISSIONED_PROJECTS.has((p.project || '').toLowerCase());
+}
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
 // Tier-1 head tokens receiving dedicated title patterns, educational sections, and sitemap tiering
 const HEAD_TOKENS = new Set(['USDC', 'USDT', 'ETH', 'WETH', 'DAI', 'SOL', 'WBTC', 'BTC', 'STETH', 'WSTETH']);
@@ -282,11 +305,12 @@ function rankTopTokens(pools, limit) {
     if ((p.tvlUsd || 0) < MIN_POOL_TVL) return; // eligibility floor
     tokenSymbols(p).forEach(sym => {
       if (!isValidToken(sym)) return;
-      if (!byToken.has(sym)) byToken.set(sym, { totalTvl: 0, qualifyingCount: 0, pools: [] });
+      if (!byToken.has(sym)) byToken.set(sym, { totalTvl: 0, qualifyingCount: 0, pools: [], chains: new Set() });
       const rec = byToken.get(sym);
       rec.totalTvl += (p.tvlUsd || 0);
       rec.qualifyingCount += 1;
       rec.pools.push(p);
+      if (p.chain) rec.chains.add(p.chain);
     });
   });
 
@@ -318,6 +342,7 @@ function rankTopTokens(pools, limit) {
       slug: tokenSlug(symbol),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
+      qualifyingChainCount: rec.chains.size, // D2: chain count from ALL qualifying pools, not the display slice
       pools: displayPools
     });
   });
@@ -409,9 +434,10 @@ function categoryLinksFor(pools, baseAppUrl, cap) {
  * token so the pre-existing related-tokens/chains nav's exact
  * `class="related"` tests keep targeting only that original nav.
  */
-function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass) {
+function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass, linkRel) {
   if (!items || !items.length) return '';
-  const links = items.map(i => `<a href="${i.href}">${escapeHtml(i.label)}</a>`).join('\n        ');
+  const relAttr = linkRel ? ` rel="${linkRel}"` : '';
+  const links = items.map(i => `<a${relAttr} href="${i.href}">${escapeHtml(i.label)}</a>`).join('\n        ');
   const navClass = extraNavClass ? `related ${extraNavClass}` : 'related';
   return `    <nav class="${navClass}" aria-label="${escapeHtml(ariaLabel)}">
       <h2>${escapeHtml(heading)}</h2>
@@ -437,7 +463,7 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
   const networkLabel = symbol ? `${symbol.toUpperCase()} · BASE RAIL` : 'YIELD-FUNDED · BASE';
   const lasoReferralUrl = 'https://laso.finance?ref=lmretyujvzr9jiutxi4d';
 
-  const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col">
+  const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col" aria-hidden="true" data-nosnippet>
         <div class="virtual-visa-card" data-card-tilt="true">
           <div class="visa-card-top-row">
             <div class="visa-card-chip-group">
@@ -471,7 +497,7 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
             <div class="visa-card-meta-right">
               <div class="visa-card-hologram" aria-hidden="true"></div>
               <div class="visa-card-cap-badge">
-                <span>🟢 100% PRINCIPAL INTACT</span>
+                <span>YIELD-FUNDED</span>
               </div>
             </div>
           </div>
@@ -1015,8 +1041,11 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}   
  * separator arithmetic. */
 function withSrc(url, src) {
   if (!src) return url;
-  const sep = url.includes('?') ? '&' : '?';
-  return `${url}${sep}src=${encodeURIComponent(src)}`;
+  // N2 (seo-turnaround): src= moved from query string to URL fragment.
+  // Crawlers ignore #fragments, so this stops creating ~11,698 "alternate
+  // with proper canonical" duplicate URLs in Google's index. analytics.js
+  // reads location.hash to recover the attribution tag.
+  return `${url}#src=${encodeURIComponent(src)}`;
 }
 
 /** Resolves the same pool-detail (or fallback) URL a visible table row links
@@ -1100,6 +1129,9 @@ function headlinePoolFor(pools) {
   let bestRepresentative = null;
   pools.forEach(p => {
     if (best == null || poolTotalApy(p) > poolTotalApy(best)) best = p;
+    // D2 access flag: skip permissioned pools for the headline — a page
+    // titled "Best X Yields" must not lead with a pool the reader can't buy.
+    if (isPermissionedPool(p)) return;
     if (isRepresentativeRate(p) &&
         (bestRepresentative == null || poolTotalApy(p) > poolTotalApy(bestRepresentative))) {
       bestRepresentative = p;
@@ -1251,7 +1283,7 @@ function renderRateStabilityHtml(stability, symbol, t) {
         <tbody>
 ${stability.candidates.map(candidate => `          <tr>
             <td class="num">${candidate.rank}</td>
-            <td><a class="tp-pool-link" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
+            <td><a class="tp-pool-link" rel="nofollow" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
             <td>${escapeHtml(candidate.chain)}</td>
             <td class="num">${candidate.apyStr}</td>
             <td class="num">${candidate.tvlStr}</td>
@@ -1600,7 +1632,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // always the SAME pool — never Math.max's unchecked most-extreme rate.
   const headlinePool = headlinePoolFor(rec.pools);
   const bestApy = poolTotalApy(headlinePool);
-  const chainCount = new Set(rec.pools.map(p => p.chain)).size;
+  // D2 fix: chainCount from ALL qualifying pools, not the 8-pool display slice.
+  // rec.qualifyingChainCount is computed in rankTopTokens across the full set;
+  // the old `new Set(rec.pools.map(…)).size` only counted the displayed rows
+  // and produced wrong numbers (e.g. "3 chains" for USDC which spans 42+).
+  const chainCount = rec.qualifyingChainCount || new Set(rec.pools.map(p => p.chain)).size;
   const isHeadToken = HEAD_TOKENS.has(rec.symbol.toUpperCase());
   const title = tokenPageTitle(rec, language, t);
   const updatedText = resolveTranslation(t, language, 'tokenUpdated',
@@ -1683,7 +1719,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_token') }));
-  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
+  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
   const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t, { symbol: rec.symbol });
@@ -1705,13 +1741,21 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     // the visible row is tagged 'seo_token' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
     const poolHref = poolHrefFor(p, appUrl, 'seo_token');
+    const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
-          <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
+          <td><a class="tp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
         </tr>`;
   }).join('\n');
+
+  // D1 (seo-turnaround-plan): noindex thin token pages (<NOINDEX_POOL_THRESHOLD
+  // qualifying pools) to shrink the indexed set during spam-update exposure.
+  // Pages stay live for users; `follow` preserved so link equity still flows.
+  const robotsDirective = rec.qualifyingCount < NOINDEX_POOL_THRESHOLD
+    ? 'noindex,follow'
+    : 'index,follow';
 
   return `<!DOCTYPE html>
 <html lang="${language}">
@@ -1733,7 +1777,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:title" content="${escapeHtml(title)}">
     <meta name="twitter:description" content="${escapeHtml(description)}">
     <meta name="twitter:image" content="${ogImageUrl}">
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="${robotsDirective}">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <!-- Reuse the app's design system (247 world): style.css defines the
          --ui-* certificate-green tokens (the --color-*/--neuro-* names below
@@ -1794,7 +1838,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="tp-updated">${escapeHtml(updatedText)}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="tp-cta" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
+${yieldHeadlineBlock}    <a class="tp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
     <div class="scroll">
     <table>
@@ -2034,6 +2078,17 @@ async function main() {
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
+  // D1 (seo-turnaround): write noindex manifest so generate-llms.js can
+  // exclude thin token pages from llms-full.txt.
+  const noindexSlugs = ranked
+    .filter(r => r.qualifyingCount < NOINDEX_POOL_THRESHOLD)
+    .map(r => r.slug);
+  fs.writeFileSync(
+    path.join(outDir, '.noindex-slugs.json'),
+    JSON.stringify(noindexSlugs, null, 0) + '\n'
+  );
+  console.log(`🚫 ${noindexSlugs.length} token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools)`);
+
   // Hub + A–Z pages (045): de-orphan the surface — home.html links to
   // /tokens, which links every token within <=1 more hop.
   const azGroups = groupTokensAZ(ranked);
@@ -2116,7 +2171,8 @@ module.exports = {
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,
-  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, NOINDEX_POOL_THRESHOLD, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  PERMISSIONED_PROJECTS, isPermissionedPool,
   REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
   headlinePoolFor
 };

@@ -242,57 +242,41 @@
         </section>
 
         <section>
-            <h2>Quantitative Benchmark Scores & Trust Signals</h2>
+            <h2>Trust Rails & Methodology</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Benchmark Dimension</th>
-                        <th>DeFi Garden Score</th>
-                        <th>Industry Standard (Raw Indexers)</th>
-                        <th>Measurement Methodology</th>
+                        <th>Rail</th>
+                        <th>Value</th>
+                        <th>What it does</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Noise & Anomaly Filtration</strong></td>
-                        <td><span class="score-pill">99.4%</span></td>
-                        <td>0.0% (Raw feeds)</td>
-                        <td>Percentage of distorted, flash-loan manipulated, or unverified APYs stripped from public views.</td>
+                        <td><strong>TVL Floor</strong></td>
+                        <td>$100,000 USD</td>
+                        <td>Pools below this liquidity threshold are excluded from all views and API responses.</td>
                     </tr>
                     <tr>
-                        <td><strong>Protocol Safety & Rug Mitigation</strong></td>
-                        <td><span class="score-pill">100.0%</span></td>
-                        <td>35.0%</td>
-                        <td>Strict enforcement of the $100,000 USD minimum liquidity floor on all list responses.</td>
+                        <td><strong>Anomaly Cap</strong></td>
+                        <td>1,000% APY</td>
+                        <td>Pools exceeding this total APY are excluded as anomalous — they never enter a plan or appear in results.</td>
                     </tr>
                     <tr>
-                        <td><strong>Agent Query Latency (Edge Memo)</strong></td>
-                        <td><span class="score-pill">&lt; 15 ms</span></td>
-                        <td>250–800 ms</td>
-                        <td>Response latency from Cloudflare edge isolates on cached DefiLlama pool queries.</td>
+                        <td><strong>Data Source</strong></td>
+                        <td>DefiLlama pools API</td>
+                        <td>All yield data is fetched from DefiLlama. DeFi Garden does not produce its own APY figures.</td>
                     </tr>
                     <tr>
-                        <td><strong>Free Tier Coverage</strong></td>
-                        <td><span class="score-pill">100% Free</span></td>
-                        <td>10–25% (Freemium paywalls)</td>
-                        <td>Percentage of endpoints, tools, and calculators accessible without payment or API keys.</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Overall User Satisfaction</strong></td>
-                        <td><span class="score-pill">4.9 / 5.0</span></td>
-                        <td>4.1 / 5.0</td>
-                        <td>Aggregate rating across developer feedback, Web3 creator reviews, and Product Hunt rankings.</td>
+                        <td><strong>Pricing</strong></td>
+                        <td>100% free</td>
+                        <td>All endpoints, tools, and calculators are accessible without payment or API keys.</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>User & Builder Testimonials</h3>
-            <blockquote>
-                "DeFi Garden is the first yield discovery interface that doesn't overwhelm users with 50,000 dead pools. The $100K TVL floor and Forever Number planner turn complex DeFi into simple monthly income goals."
-            </blockquote>
-            <blockquote>
-                "Integrating the DeFi Garden MCP server took 2 minutes. My autonomous research agents now query live, railed USDC yields across Base and Arbitrum without hitting rate limits or paywalls."
-            </blockquote>
+            <h3>What We Build On Top</h3>
+            <p>DeFi Garden scores pools with a multi-factor DeFi Score (rate stability, TVL depth, protocol track record) and publishes 14-day yield forecasts. The methodology is verifiable against historical data; forecast accuracy is tracked and will be published at /forecast-accuracy.</p>
         </section>
 
         <section>

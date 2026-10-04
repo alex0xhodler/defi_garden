@@ -100,7 +100,7 @@ test('a page whose pool link carries a key on NO list ("&bogus=1") still produce
     const bogusFile = path.join(dir, 'bogus.html');
     const bogusHtml = `<!DOCTYPE html><html><head><title>t</title></head><body>
       <h1>Bogus Token</h1>
-      <table><tr><td><a class="tp-pool-link" href="https://www.defi.garden/?pool=abc-123&src=seo_token&bogus=1">aave &rarr;</a></td>
+      <table><tr><td><a class="tp-pool-link" href="https://www.defi.garden/?pool=abc-123&bogus=1#src=seo_token">aave &rarr;</a></td>
       <td>Base</td><td class="num">5.00%</td><td class="num">$1,000,000</td></tr></table>
       </body></html>`;
     fs.writeFileSync(bogusFile, bogusHtml);

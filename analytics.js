@@ -91,6 +91,20 @@ const Analytics = {
     }
   },
 
+  // D4 (seo-turnaround): known AI referrer hosts — detect when traffic comes
+  // from AI assistants so we can measure the one channel that actually sends
+  // traffic (ChatGPT ~92% of AI referrals, Claude up 64x).
+  AI_REFERRER_HOSTS: {
+    'chatgpt.com': 'chatgpt',
+    'chat.openai.com': 'chatgpt',
+    'perplexity.ai': 'perplexity',
+    'claude.ai': 'claude',
+    'gemini.google.com': 'gemini',
+    'copilot.microsoft.com': 'copilot',
+    'you.com': 'you',
+    'phind.com': 'phind'
+  },
+
   // Parse the landing URL's acquisition params + the referring domain. All keys
   // omitted when absent (never emit empty/"undefined" strings); fully guarded.
   captureAcquisition() {
@@ -107,8 +121,31 @@ const Analytics = {
         const v = params.get(k);
         if (v) out[k] = String(v).substring(0, 200); // cap length (privacy/safety)
       });
+      // N2 (seo-turnaround): src= now lives in the URL fragment (#src=seo_token)
+      // to avoid creating duplicate URLs for crawlers. Read from hash if not
+      // already found in the query string (backward compat with old ?src= links).
+      if (!out.src && window.location.hash) {
+        try {
+          const hashParams = new URLSearchParams(window.location.hash.substring(1));
+          const hashSrc = hashParams.get('src');
+          if (hashSrc) out.src = String(hashSrc).substring(0, 200);
+        } catch (e) {}
+      }
       if (document.referrer) {
-        try { out.referring_domain = new URL(document.referrer).hostname; } catch (e) {}
+        try {
+          const refHost = new URL(document.referrer).hostname;
+          out.referring_domain = refHost;
+          // D4: detect AI referrer from the referring domain
+          const aiRef = this.AI_REFERRER_HOSTS[refHost];
+          if (aiRef) out.ai_referrer = aiRef;
+        } catch (e) {}
+      }
+      // D4: ChatGPT appends utm_source=chatgpt.com; also check utm_source
+      // for AI referrer detection even without a matching document.referrer
+      if (!out.ai_referrer && out.utm_source) {
+        const srcHost = out.utm_source.toLowerCase();
+        const aiRef = this.AI_REFERRER_HOSTS[srcHost];
+        if (aiRef) out.ai_referrer = aiRef;
       }
     } catch (e) {}
     return out;
