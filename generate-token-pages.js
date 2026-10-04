@@ -283,11 +283,12 @@ function rankTopTokens(pools, limit) {
     if ((p.tvlUsd || 0) < MIN_POOL_TVL) return; // eligibility floor
     tokenSymbols(p).forEach(sym => {
       if (!isValidToken(sym)) return;
-      if (!byToken.has(sym)) byToken.set(sym, { totalTvl: 0, qualifyingCount: 0, pools: [] });
+      if (!byToken.has(sym)) byToken.set(sym, { totalTvl: 0, qualifyingCount: 0, pools: [], chains: new Set() });
       const rec = byToken.get(sym);
       rec.totalTvl += (p.tvlUsd || 0);
       rec.qualifyingCount += 1;
       rec.pools.push(p);
+      if (p.chain) rec.chains.add(p.chain);
     });
   });
 
@@ -319,6 +320,7 @@ function rankTopTokens(pools, limit) {
       slug: tokenSlug(symbol),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
+      qualifyingChainCount: rec.chains.size, // D2: chain count from ALL qualifying pools, not the display slice
       pools: displayPools
     });
   });
@@ -1601,7 +1603,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // always the SAME pool — never Math.max's unchecked most-extreme rate.
   const headlinePool = headlinePoolFor(rec.pools);
   const bestApy = poolTotalApy(headlinePool);
-  const chainCount = new Set(rec.pools.map(p => p.chain)).size;
+  // D2 fix: chainCount from ALL qualifying pools, not the 8-pool display slice.
+  // rec.qualifyingChainCount is computed in rankTopTokens across the full set;
+  // the old `new Set(rec.pools.map(…)).size` only counted the displayed rows
+  // and produced wrong numbers (e.g. "3 chains" for USDC which spans 42+).
+  const chainCount = rec.qualifyingChainCount || new Set(rec.pools.map(p => p.chain)).size;
   const isHeadToken = HEAD_TOKENS.has(rec.symbol.toUpperCase());
   const title = tokenPageTitle(rec, language, t);
   const updatedText = resolveTranslation(t, language, 'tokenUpdated',
