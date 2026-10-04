@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yield Forecast Accuracy: Public Track Record &amp; Misses | DeFi Garden</title>
-    <meta name="description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (76.4% band capture), mean absolute error, and named forecast misses.">
+    <meta name="description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (72.8% band capture), mean absolute error, and named forecast misses.">
     <link rel="canonical" href="https://www.defi.garden/forecast-accuracy">
     <meta property="og:title" content="Yield Forecast Accuracy: Public Track Record &amp; Misses | DeFi Garden">
-    <meta property="og:description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (76.4% band capture), mean absolute error, and named forecast misses.">
+    <meta property="og:description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (72.8% band capture), mean absolute error, and named forecast misses.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/forecast-accuracy">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
@@ -22,7 +22,7 @@
       "@context": "https://schema.org",
       "@type": "Dataset",
       "name": "DeFi Garden 14-Day Yield Forecast Accuracy Dataset",
-      "description": "Public backtest evaluation of 14-day probabilistic yield forecast bands across 6,882 decentralized liquidity venues.",
+      "description": "Public backtest evaluation of 14-day probabilistic yield forecast bands across 2,559 decentralized liquidity venues.",
       "url": "https://www.defi.garden/forecast-accuracy",
       "creator": {
         "@type": "Organization",
@@ -227,22 +227,22 @@
         <h1>Yield Forecast Accuracy: Public Track Record</h1>
         <p class="score-byline">DeFi Garden Underwriting Research · Evaluated across immutable daily snapshots · Horizon: 2026-09-05 &rarr; 2026-09-19 &middot; Education, not financial advice.</p>
 
-        <p class="score-lede">DeFi Garden forecasts 14-day forward yield trajectories using probabilistic machine learning models trained on volatility, TVL migration, and organic fee sustainability. Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; this page publishes our empirical accuracy across verified liquidity venues and publicly documents our biggest forecast misses.</p>
+        <p class="score-lede">DeFi Garden forecasts 14-day forward yield trajectories using probabilistic machine learning models trained on volatility, TVL migration, and organic fee sustainability. Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; this scorecard evaluates single-sided lending markets, yield-bearing vaults, and staking venues (excluding concentrated AMM LP pairs subject to mercenary capital) and publicly documents our biggest forecast misses.</p>
 
         <div class="kpi-row">
             <div class="kpi-cell">
                 <div class="kpi-label">Band Capture Rate</div>
-                <div class="kpi-val">76.4%</div>
-                <div class="kpi-sub">5,260 of 6,882 pools in [p10, p90]</div>
+                <div class="kpi-val">72.8%</div>
+                <div class="kpi-sub">1,864 of 2,559 pools in [p10, p90]</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Stablecoin Accuracy</div>
-                <div class="kpi-val">75.2%</div>
-                <div class="kpi-sub">USDC, USDT, DAI venues (&plusmn;13.38 pp error)</div>
+                <div class="kpi-val">73.5%</div>
+                <div class="kpi-sub">USDC, USDT, DAI venues (&plusmn;1.71 pp error)</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Mean Absolute Error</div>
-                <div class="kpi-val">8.05 pp</div>
+                <div class="kpi-val">0.90 pp</div>
                 <div class="kpi-sub">Average delta vs forecast median</div>
             </div>
             <div class="kpi-cell">
@@ -253,7 +253,7 @@
         </div>
 
         <h2>High-Impact Forecast Outliers (&ge; $1M TVL)</h2>
-        <p class="score-notice">No other yield aggregator publishes predictive failure. In capital-significant liquidity venues (&ge; $1M TVL), unexpected token emission surges, flash-loan volume spikes, or trading fee volatility caused real-world returns to break outside our 90% confidence bands.</p>
+        <p class="score-notice">No other yield aggregator publishes predictive failure. Focusing strictly on single-sided lending, vaults, and staking venues (&ge; $1M TVL), these pools experienced unexpected incentive changes, sudden borrower utilization surges, or liquidation spikes that caused returns to break outside our 90% confidence bands.</p>
 
         <div class="table-card">
             <div class="scroll">
@@ -274,112 +274,112 @@
 
         <tr>
           <td>1</td>
-          <td><span class="pool-project">aerodrome-slipstream</span> <span class="pool-symbol">(WETH-MORPHO)</span></td>
-          <td>Base</td>
-          <td class="num">$2.7M</td>
-          <td class="num">88.58%</td>
-          <td class="num">[44.40%, 202.12%]</td>
-          <td class="num">861.61%</td>
-          <td class="num diff-miss">+773.03 pp</td>
+          <td><span class="pool-project">royco-v2</span> <span class="pool-symbol">(JRROYAPYUSD)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$1.2M</td>
+          <td class="num">54.73%</td>
+          <td class="num">[10.85%, 139.47%]</td>
+          <td class="num">100.96%</td>
+          <td class="num diff-miss">+46.23 pp</td>
         </tr>
 
         <tr>
           <td>2</td>
-          <td><span class="pool-project">aerodrome-slipstream</span> <span class="pool-symbol">(WETH-AERO)</span></td>
-          <td>Base</td>
-          <td class="num">$4.8M</td>
-          <td class="num">116.70%</td>
-          <td class="num">[53.61%, 276.93%]</td>
-          <td class="num">630.74%</td>
-          <td class="num diff-miss">+514.04 pp</td>
+          <td><span class="pool-project">royco-v2</span> <span class="pool-symbol">(SRROYAPYUSD)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$3.0M</td>
+          <td class="num">6.95%</td>
+          <td class="num">[1.02%, 17.74%]</td>
+          <td class="num">40.34%</td>
+          <td class="num diff-miss">+33.39 pp</td>
         </tr>
 
         <tr>
           <td>3</td>
-          <td><span class="pool-project">uniswap-v3</span> <span class="pool-symbol">(G-USDC)</span></td>
+          <td><span class="pool-project">strata-markets</span> <span class="pool-symbol">(JRUSDAT)</span></td>
           <td>Ethereum</td>
-          <td class="num">$1.2M</td>
-          <td class="num">6.02%</td>
-          <td class="num">[0.14%, 116.75%]</td>
-          <td class="num">443.05%</td>
-          <td class="num diff-miss">+437.03 pp</td>
+          <td class="num">$1.4M</td>
+          <td class="num">7.21%</td>
+          <td class="num">[0.00%, 40.65%]</td>
+          <td class="num">33.55%</td>
+          <td class="num diff-miss">+26.34 pp</td>
         </tr>
 
         <tr>
           <td>4</td>
-          <td><span class="pool-project">uniswap-v3</span> <span class="pool-symbol">(UNI-USDT)</span></td>
-          <td>Ethereum</td>
-          <td class="num">$3.4M</td>
-          <td class="num">53.47%</td>
-          <td class="num">[4.77%, 169.63%]</td>
-          <td class="num">428.50%</td>
-          <td class="num diff-miss">+375.03 pp</td>
+          <td><span class="pool-project">gains-network</span> <span class="pool-symbol">(USDC)</span></td>
+          <td>Arbitrum</td>
+          <td class="num">$4.8M</td>
+          <td class="num">22.81%</td>
+          <td class="num">[1.39%, 55.06%]</td>
+          <td class="num">46.48%</td>
+          <td class="num diff-miss">+23.67 pp</td>
         </tr>
 
         <tr>
           <td>5</td>
-          <td><span class="pool-project">gmx-solana</span> <span class="pool-symbol">(XAU-USDC)</span></td>
-          <td>Solana</td>
-          <td class="num">$3.5M</td>
-          <td class="num">24.87%</td>
-          <td class="num">[0.00%, 183.91%]</td>
-          <td class="num">390.75%</td>
-          <td class="num diff-miss">+365.88 pp</td>
+          <td><span class="pool-project">vesper</span> <span class="pool-symbol">(ETH)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$2.8M</td>
+          <td class="num">22.27%</td>
+          <td class="num">[3.58%, 58.78%]</td>
+          <td class="num">1.74%</td>
+          <td class="num diff-miss">+20.53 pp</td>
         </tr>
 
         <tr>
           <td>6</td>
-          <td><span class="pool-project">kamino-liquidity</span> <span class="pool-symbol">(JUP-SOL)</span></td>
-          <td>Solana</td>
-          <td class="num">$1.0M</td>
-          <td class="num">114.90%</td>
-          <td class="num">[20.33%, 416.32%]</td>
-          <td class="num">473.28%</td>
-          <td class="num diff-miss">+358.38 pp</td>
+          <td><span class="pool-project">superform</span> <span class="pool-symbol">(SUPERWETH)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$2.4M</td>
+          <td class="num">21.52%</td>
+          <td class="num">[3.81%, 26.27%]</td>
+          <td class="num">1.25%</td>
+          <td class="num diff-miss">+20.27 pp</td>
         </tr>
 
         <tr>
           <td>7</td>
-          <td><span class="pool-project">orca-dex</span> <span class="pool-symbol">(SOL-ZEC)</span></td>
+          <td><span class="pool-project">neutral-trade</span> <span class="pool-symbol">(USDC)</span></td>
           <td>Solana</td>
-          <td class="num">$2.6M</td>
-          <td class="num">79.48%</td>
-          <td class="num">[0.73%, 259.78%]</td>
-          <td class="num">427.42%</td>
-          <td class="num diff-miss">+347.94 pp</td>
+          <td class="num">$1.4M</td>
+          <td class="num">60.28%</td>
+          <td class="num">[39.58%, 85.89%]</td>
+          <td class="num">77.42%</td>
+          <td class="num diff-miss">+17.14 pp</td>
         </tr>
 
         <tr>
           <td>8</td>
-          <td><span class="pool-project">gmx-solana</span> <span class="pool-symbol">(SOL-USDC)</span></td>
+          <td><span class="pool-project">neutral-trade</span> <span class="pool-symbol">(USDC)</span></td>
           <td>Solana</td>
-          <td class="num">$1.5M</td>
-          <td class="num">28.05%</td>
-          <td class="num">[0.00%, 150.60%]</td>
-          <td class="num">341.71%</td>
-          <td class="num diff-miss">+313.66 pp</td>
+          <td class="num">$2.3M</td>
+          <td class="num">57.61%</td>
+          <td class="num">[21.22%, 97.30%]</td>
+          <td class="num">41.16%</td>
+          <td class="num diff-miss">+16.45 pp</td>
         </tr>
 
         <tr>
           <td>9</td>
-          <td><span class="pool-project">gmx-solana</span> <span class="pool-symbol">(WTI-USDC)</span></td>
-          <td>Solana</td>
-          <td class="num">$1.1M</td>
-          <td class="num">30.16%</td>
-          <td class="num">[0.00%, 174.49%]</td>
-          <td class="num">340.76%</td>
-          <td class="num diff-miss">+310.60 pp</td>
+          <td><span class="pool-project">pendle-v2</span> <span class="pool-symbol">(SUSDAT)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$1.4M</td>
+          <td class="num">42.20%</td>
+          <td class="num">[16.91%, 73.17%]</td>
+          <td class="num">26.08%</td>
+          <td class="num diff-miss">+16.12 pp</td>
         </tr>
 
         <tr>
           <td>10</td>
-          <td><span class="pool-project">gmx-solana</span> <span class="pool-symbol">(XAG-USDC)</span></td>
-          <td>Solana</td>
-          <td class="num">$1.0M</td>
-          <td class="num">24.21%</td>
-          <td class="num">[0.00%, 144.15%]</td>
-          <td class="num">292.39%</td>
-          <td class="num diff-miss">+268.18 pp</td>
+          <td><span class="pool-project">ember-protocol</span> <span class="pool-symbol">(USDC)</span></td>
+          <td>Ethereum</td>
+          <td class="num">$17.8M</td>
+          <td class="num">8.58%</td>
+          <td class="num">[7.05%, 20.73%]</td>
+          <td class="num">24.00%</td>
+          <td class="num diff-miss">+15.42 pp</td>
         </tr>
                     </tbody>
                 </table>

@@ -25,6 +25,22 @@ const OUTPUT_HTML = path.join(ROOT, 'forecast-accuracy.html');
 const MIN_TVL = 100000;
 const SANITY_LIMIT = 1000;
 
+// Known DEX / AMM protocols and multi-asset indicators.
+// User directive: exclude LP pools entirely. Most are v3/concentrated liquidity or ve(3,3)
+// pairs subject to mercenary capital migration, impermanent loss, and ephemeral reward gauge incentives.
+function isLpPool(p) {
+  if (p.exposure === 'multi' || p.ilRisk === 'yes') return true;
+  if ((p.symbol || '').includes('-')) return true;
+  const project = (p.project || '').toLowerCase();
+  const dexes = [
+    'uniswap', 'aerodrome', 'curve', 'pancakeswap', 'balancer', 'raydium', 
+    'orca', 'ramses', 'camelot', 'trader-joe', 'sushiswap', 'velodrome', 
+    'quickswap', 'spookyswap', 'ekubo', 'thruster', 'ambient', 'meteora', 
+    'fenix', 'blackhole-clmm', 'lynex', 'nile', 'thena'
+  ];
+  return dexes.some(dex => project.includes(dex));
+}
+
 function computeAccuracy() {
   if (!fs.existsSync(HISTORY_DIR) || !fs.existsSync(SNAPSHOT_PATH)) {
     return null;
@@ -53,6 +69,7 @@ function computeAccuracy() {
   currentPools.forEach(p => {
     if (!p.forecast || p.forecast.p10 == null || p.forecast.p90 == null) return;
     if ((p.tvlUsd || 0) < MIN_TVL) return;
+    if (isLpPool(p)) return; // Exclude DEX LP & volatile pairs
 
     const initialData = hInitial[p.pool];
     const finalData = hFinal[p.pool];
@@ -382,7 +399,7 @@ function renderScorecardHtml(stats) {
         <h1>Yield Forecast Accuracy: Public Track Record</h1>
         <p class="score-byline">DeFi Garden Underwriting Research · Evaluated across immutable daily snapshots · Horizon: ${stats.initialDate} &rarr; ${stats.finalDate} &middot; Education, not financial advice.</p>
 
-        <p class="score-lede">DeFi Garden forecasts 14-day forward yield trajectories using probabilistic machine learning models trained on volatility, TVL migration, and organic fee sustainability. Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; this page publishes our empirical accuracy across verified liquidity venues and publicly documents our biggest forecast misses.</p>
+        <p class="score-lede">DeFi Garden forecasts 14-day forward yield trajectories using probabilistic machine learning models trained on volatility, TVL migration, and organic fee sustainability. Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; this scorecard evaluates single-sided lending markets, yield-bearing vaults, and staking venues (excluding concentrated AMM LP pairs subject to mercenary capital) and publicly documents our biggest forecast misses.</p>
 
         <div class="kpi-row">
             <div class="kpi-cell">
@@ -408,7 +425,7 @@ function renderScorecardHtml(stats) {
         </div>
 
         <h2>High-Impact Forecast Outliers (&ge; $1M TVL)</h2>
-        <p class="score-notice">No other yield aggregator publishes predictive failure. In capital-significant liquidity venues (&ge; $1M TVL), unexpected token emission surges, flash-loan volume spikes, or trading fee volatility caused real-world returns to break outside our 90% confidence bands.</p>
+        <p class="score-notice">No other yield aggregator publishes predictive failure. Focusing strictly on single-sided lending, vaults, and staking venues (&ge; $1M TVL), these pools experienced unexpected incentive changes, sudden borrower utilization surges, or liquidation spikes that caused returns to break outside our 90% confidence bands.</p>
 
         <div class="table-card">
             <div class="scroll">
